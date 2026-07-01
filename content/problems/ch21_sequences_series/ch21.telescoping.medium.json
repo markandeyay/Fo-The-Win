@@ -1,0 +1,78 @@
+[
+  {
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{10} \\frac{1}{n(n+1)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\dfrac{10}{11}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\dfrac{1}{10}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\dfrac{1}{11}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\dfrac{9}{10}$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "10/11",
+    "answer_type": "fraction",
+    "solution_latex": "$\\frac{1}{n(n+1)} = \\frac{1}{n} - \\frac{1}{n+1}$. The sum telescopes to $1 - \\frac{1}{11} = \\frac{10}{11}$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "series"
+    ],
+    "id": "ch21.telescoping.medium.0001",
+    "checksum": "sha256-19605a83a3755fdc273b2f758a5b02ff793afb4f23ef1ad3b64984556a8139b0",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{5} \\left( \\frac{1}{n} - \\frac{1}{n+1} \\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\dfrac{5}{6}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\dfrac{1}{5}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\dfrac{1}{6}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\dfrac{4}{5}$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "5/6",
+    "answer_type": "fraction",
+    "solution_latex": "The series telescopes: $1 - \\frac{1}{6} = \\frac{5}{6}$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "series"
+    ],
+    "id": "ch21.telescoping.medium.0002",
+    "checksum": "sha256-27ad0ceccec7aca4acfd9859649f341507f244c60c24f1505d8ba249d5ba15cb",
+    "status": "valid"
+  }
+]

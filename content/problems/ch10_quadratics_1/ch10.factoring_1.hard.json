@@ -1,0 +1,41 @@
+[
+  {
+    "topic_id": "ch10.factoring_1",
+    "group_id": "ch10_quadratics_1",
+    "difficulty": "hard",
+    "prompt_latex": "Find the sum of all integer values of $k$ for which $x^2 + kx + 12$ factors over the integers.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$28$"
+      },
+      {
+        "id": "c",
+        "latex": "$-28$"
+      },
+      {
+        "id": "d",
+        "latex": "$14$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "solution_latex": "Factor pairs of 12 give $k \\in \\{13, 8, 7, -7, -8, -13\\}$, whose sum is 0.",
+    "complexity_factor": 1.3,
+    "source_section": "10.2",
+    "tags": [
+      "factoring",
+      "quadratic",
+      "casework"
+    ],
+    "id": "ch10.factoring_1.hard.0001",
+    "checksum": "sha256-2749c8280c61a5d23c28784eaff80eb56d73454451fc6d34f26e326c277db624",
+    "status": "valid"
+  }
+]

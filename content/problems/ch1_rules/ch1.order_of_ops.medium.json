@@ -1,0 +1,76 @@
+[
+  {
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $20 - 3(4 + 2)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$90$"
+      },
+      {
+        "id": "c",
+        "latex": "$14$"
+      },
+      {
+        "id": "d",
+        "latex": "$102$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "solution_latex": "Inside the parentheses: $4 + 2 = 6$. Multiply: $3 \\cdot 6 = 18$. Subtract: $20 - 18 = 2$.",
+    "complexity_factor": 0.9,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "id": "ch1.order_of_ops.medium.0001",
+    "checksum": "sha256-f026ec71c35fd4ba91da5edb44b709a16b0272a2b200dc65f5889c26186268e4",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $(1 + 2)^3 - 4 \\cdot 5$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$135$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "solution_latex": "$(1+2)^3 = 3^3 = 27$ and $4 \\cdot 5 = 20$, so $27 - 20 = 7$.",
+    "complexity_factor": 0.9,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "id": "ch1.order_of_ops.medium.0002",
+    "checksum": "sha256-8011689a4b322031b6c8ed89d9c838c0a10bc776e2021cabd9eabf528440ef0f",
+    "status": "valid"
+  }
+]

@@ -1,0 +1,264 @@
+{
+  "version": "1.0",
+  "special": {
+    "topic_id": "race.multiplication",
+    "group_id": "race",
+    "display_name": "Speed Multiplication Race",
+    "source_section": null,
+    "procedural": true
+  },
+  "groups": [
+    {
+      "group_id": "ch1_rules",
+      "display_name": "Follow the Rules",
+      "order": 1,
+      "leaves": [
+        { "topic_id": "ch1.numbers", "display_name": "Numbers", "source_section": "1.1" },
+        { "topic_id": "ch1.order_of_ops", "display_name": "Order of Operations", "source_section": "1.2" },
+        { "topic_id": "ch1.when_order_matters", "display_name": "When Does Order Matter", "source_section": "1.3" },
+        { "topic_id": "ch1.distribution_factoring", "display_name": "Distribution and Factoring", "source_section": "1.4" },
+        { "topic_id": "ch1.equations", "display_name": "Equations", "source_section": "1.5" },
+        { "topic_id": "ch1.exponents", "display_name": "Exponents", "source_section": "1.6" },
+        { "topic_id": "ch1.fractional_exponents", "display_name": "Fractional Exponents", "source_section": "1.7" },
+        { "topic_id": "ch1.radicals", "display_name": "Radicals", "source_section": "1.8" }
+      ]
+    },
+    {
+      "group_id": "ch2_x_marks_spot",
+      "display_name": "x Marks the Spot",
+      "order": 2,
+      "leaves": [
+        { "topic_id": "ch2.expressions", "display_name": "Expressions", "source_section": "2.1" },
+        { "topic_id": "ch2.arithmetic_expressions", "display_name": "Arithmetic with Expressions", "source_section": "2.2" },
+        { "topic_id": "ch2.dist_sub_factor", "display_name": "Distribution, Subtraction, and Factoring", "source_section": "2.3" },
+        { "topic_id": "ch2.fractions", "display_name": "Fractions", "source_section": "2.4" }
+      ]
+    },
+    {
+      "group_id": "ch3_one_var_linear",
+      "display_name": "One-Variable Linear Equations",
+      "order": 3,
+      "leaves": [
+        { "topic_id": "ch3.solving_linear_1", "display_name": "Solving Linear Equations I", "source_section": "3.1" },
+        { "topic_id": "ch3.solving_linear_2", "display_name": "Solving Linear Equations II", "source_section": "3.2" },
+        { "topic_id": "ch3.word_problems", "display_name": "Word Problems", "source_section": "3.3" },
+        { "topic_id": "ch3.linear_in_disguise", "display_name": "Linear Equations in Disguise", "source_section": "3.4", "starred": true }
+      ]
+    },
+    {
+      "group_id": "ch4_more_variables",
+      "display_name": "More Variables",
+      "order": 4,
+      "leaves": [
+        { "topic_id": "ch4.eval_multivar", "display_name": "Evaluating Multi-Variable Expressions", "source_section": "4.1" },
+        { "topic_id": "ch4.more_arithmetic", "display_name": "Still More Arithmetic", "source_section": "4.2" },
+        { "topic_id": "ch4.distribution_factoring", "display_name": "Distribution and Factoring", "source_section": "4.3" },
+        { "topic_id": "ch4.fractions", "display_name": "Fractions", "source_section": "4.4" },
+        { "topic_id": "ch4.equations", "display_name": "Equations", "source_section": "4.5" }
+      ]
+    },
+    {
+      "group_id": "ch5_multivar_linear",
+      "display_name": "Multi-Variable Linear Equations",
+      "order": 5,
+      "leaves": [
+        { "topic_id": "ch5.intro_two_var", "display_name": "Introduction to Two-Variable Linear Equations", "source_section": "5.1" },
+        { "topic_id": "ch5.substitution", "display_name": "Substitution", "source_section": "5.2" },
+        { "topic_id": "ch5.elimination", "display_name": "Elimination", "source_section": "5.3" },
+        { "topic_id": "ch5.word_problems", "display_name": "Word Problems", "source_section": "5.4" },
+        { "topic_id": "ch5.more_disguise", "display_name": "More Linear Equations in Disguise", "source_section": "5.5" },
+        { "topic_id": "ch5.more_variables", "display_name": "More Variables", "source_section": "5.6" }
+      ]
+    },
+    {
+      "group_id": "ch6_ratios_percents",
+      "display_name": "Ratios and Percents",
+      "order": 6,
+      "leaves": [
+        { "topic_id": "ch6.basic_ratio", "display_name": "Basic Ratio Problems", "source_section": "6.1" },
+        { "topic_id": "ch6.challenging_ratio", "display_name": "More Challenging Ratio Problems", "source_section": "6.2" },
+        { "topic_id": "ch6.conversion_factors", "display_name": "Conversion Factors", "source_section": "6.3" },
+        { "topic_id": "ch6.percent", "display_name": "Percent", "source_section": "6.4" },
+        { "topic_id": "ch6.percentage_problems", "display_name": "Percentage Problems", "source_section": "6.5" }
+      ]
+    },
+    {
+      "group_id": "ch7_proportion",
+      "display_name": "Proportion",
+      "order": 7,
+      "leaves": [
+        { "topic_id": "ch7.direct", "display_name": "Direct Proportion", "source_section": "7.1" },
+        { "topic_id": "ch7.inverse", "display_name": "Inverse Proportion", "source_section": "7.2" },
+        { "topic_id": "ch7.joint", "display_name": "Joint Proportion", "source_section": "7.3" },
+        { "topic_id": "ch7.rate", "display_name": "Rate Problems", "source_section": "7.4" }
+      ]
+    },
+    {
+      "group_id": "ch8_graphing_lines",
+      "display_name": "Graphing Lines",
+      "order": 8,
+      "leaves": [
+        { "topic_id": "ch8.number_line_plane", "display_name": "The Number Line and the Cartesian Plane", "source_section": "8.1" },
+        { "topic_id": "ch8.intro_graphing_linear", "display_name": "Introduction to Graphing Linear Equations", "source_section": "8.2" },
+        { "topic_id": "ch8.slope_in_problems", "display_name": "Using Slope in Problems", "source_section": "8.3" },
+        { "topic_id": "ch8.find_equation", "display_name": "Find the Equation", "source_section": "8.4" },
+        { "topic_id": "ch8.slope_intercepts", "display_name": "Slope and Intercepts", "source_section": "8.5" },
+        { "topic_id": "ch8.comparing_lines", "display_name": "Comparing Lines", "source_section": "8.6" }
+      ]
+    },
+    {
+      "group_id": "ch9_inequalities",
+      "display_name": "Introduction to Inequalities",
+      "order": 9,
+      "leaves": [
+        { "topic_id": "ch9.basics", "display_name": "The Basics", "source_section": "9.1" },
+        { "topic_id": "ch9.which_greater", "display_name": "Which Is Greater", "source_section": "9.2" },
+        { "topic_id": "ch9.linear_inequalities", "display_name": "Linear Inequalities", "source_section": "9.3" },
+        { "topic_id": "ch9.graphing_inequalities", "display_name": "Graphing Inequalities", "source_section": "9.4" },
+        { "topic_id": "ch9.optimization", "display_name": "Optimization", "source_section": "9.5" }
+      ]
+    },
+    {
+      "group_id": "ch10_quadratics_1",
+      "display_name": "Quadratic Equations Part 1",
+      "order": 10,
+      "leaves": [
+        { "topic_id": "ch10.getting_started", "display_name": "Getting Started With Quadratics", "source_section": "10.1" },
+        { "topic_id": "ch10.factoring_1", "display_name": "Factoring Quadratics I", "source_section": "10.2" },
+        { "topic_id": "ch10.factoring_2", "display_name": "Factoring Quadratics II", "source_section": "10.3" },
+        { "topic_id": "ch10.sums_products_roots", "display_name": "Sums and Products of Roots", "source_section": "10.4" },
+        { "topic_id": "ch10.extensions", "display_name": "Extensions and Applications", "source_section": "10.5", "starred": true }
+      ]
+    },
+    {
+      "group_id": "ch11_special_factorizations",
+      "display_name": "Special Factorizations",
+      "order": 11,
+      "leaves": [
+        { "topic_id": "ch11.squares_binomials", "display_name": "Squares of Binomials", "source_section": "11.1" },
+        { "topic_id": "ch11.difference_squares", "display_name": "Difference of Squares", "source_section": "11.2" },
+        { "topic_id": "ch11.sum_diff_cubes", "display_name": "Sum and Difference of Cubes", "source_section": "11.3" },
+        { "topic_id": "ch11.rationalizing", "display_name": "Rationalizing Denominators", "source_section": "11.4" },
+        { "topic_id": "ch11.sfft", "display_name": "Simon's Favorite Factoring Trick", "source_section": "11.5" }
+      ]
+    },
+    {
+      "group_id": "ch12_complex",
+      "display_name": "Complex Numbers",
+      "order": 12,
+      "leaves": [
+        { "topic_id": "ch12.more_numbers", "display_name": "Numbers, Numbers, and More Numbers", "source_section": "12.1" },
+        { "topic_id": "ch12.imaginary", "display_name": "Imaginary Numbers", "source_section": "12.2" },
+        { "topic_id": "ch12.complex", "display_name": "Complex Numbers", "source_section": "12.3" }
+      ]
+    },
+    {
+      "group_id": "ch13_quadratics_2",
+      "display_name": "Quadratic Equations Part 2",
+      "order": 13,
+      "leaves": [
+        { "topic_id": "ch13.squares_binomials_revisited", "display_name": "Squares of Binomials Revisited", "source_section": "13.1" },
+        { "topic_id": "ch13.completing_square", "display_name": "Completing the Square", "source_section": "13.2" },
+        { "topic_id": "ch13.quadratic_formula", "display_name": "The Quadratic Formula", "source_section": "13.3" },
+        { "topic_id": "ch13.applications", "display_name": "Applications and Extensions", "source_section": "13.4", "starred": true }
+      ]
+    },
+    {
+      "group_id": "ch14_graphing_quadratics",
+      "display_name": "Graphing Quadratics",
+      "order": 14,
+      "leaves": [
+        { "topic_id": "ch14.parabolas", "display_name": "Parabolas", "source_section": "14.1" },
+        { "topic_id": "ch14.circles", "display_name": "Circles", "source_section": "14.2" }
+      ]
+    },
+    {
+      "group_id": "ch15_more_inequalities",
+      "display_name": "More Inequalities",
+      "order": 15,
+      "leaves": [
+        { "topic_id": "ch15.quadratic_inequalities", "display_name": "Quadratic Inequalities", "source_section": "15.1" },
+        { "topic_id": "ch15.beyond_quadratics", "display_name": "Beyond Quadratics", "source_section": "15.2" },
+        { "topic_id": "ch15.trivial_inequality", "display_name": "The Trivial Inequality", "source_section": "15.3" },
+        { "topic_id": "ch15.quadratic_optimization", "display_name": "Quadratic Optimization", "source_section": "15.4", "starred": true }
+      ]
+    },
+    {
+      "group_id": "ch16_functions",
+      "display_name": "Functions",
+      "order": 16,
+      "leaves": [
+        { "topic_id": "ch16.the_machine", "display_name": "The Machine", "source_section": "16.1" },
+        { "topic_id": "ch16.combining", "display_name": "Combining Functions", "source_section": "16.2" },
+        { "topic_id": "ch16.composition", "display_name": "Composition", "source_section": "16.3" },
+        { "topic_id": "ch16.inverse", "display_name": "Inverse Functions", "source_section": "16.4" },
+        { "topic_id": "ch16.problem_solving", "display_name": "Problem Solving with Functions", "source_section": "16.5" },
+        { "topic_id": "ch16.operations", "display_name": "Operations", "source_section": "16.6" }
+      ]
+    },
+    {
+      "group_id": "ch17_graphing_functions",
+      "display_name": "Graphing Functions",
+      "order": 17,
+      "leaves": [
+        { "topic_id": "ch17.basics", "display_name": "Basics", "source_section": "17.1" },
+        { "topic_id": "ch17.transformations", "display_name": "Transformations", "source_section": "17.2" },
+        { "topic_id": "ch17.inverse_revisited", "display_name": "Inverse Functions Revisited", "source_section": "17.3" }
+      ]
+    },
+    {
+      "group_id": "ch18_polynomials",
+      "display_name": "Polynomials",
+      "order": 18,
+      "leaves": [
+        { "topic_id": "ch18.add_subtract", "display_name": "Addition and Subtraction", "source_section": "18.1" },
+        { "topic_id": "ch18.multiplication", "display_name": "Multiplication", "source_section": "18.2" }
+      ]
+    },
+    {
+      "group_id": "ch19_exp_logs",
+      "display_name": "Exponents and Logarithms",
+      "order": 19,
+      "leaves": [
+        { "topic_id": "ch19.exponential_functions", "display_name": "Exponential Functions", "source_section": "19.1" },
+        { "topic_id": "ch19.show_me_money", "display_name": "Show Me the Money", "source_section": "19.2" },
+        { "topic_id": "ch19.interest", "display_name": "Interest-ing Problems", "source_section": "19.3" },
+        { "topic_id": "ch19.logarithm", "display_name": "What is a Logarithm", "source_section": "19.4" }
+      ]
+    },
+    {
+      "group_id": "ch20_special_functions",
+      "display_name": "Special Functions",
+      "order": 20,
+      "leaves": [
+        { "topic_id": "ch20.radicals", "display_name": "Radicals", "source_section": "20.1" },
+        { "topic_id": "ch20.absolute_value", "display_name": "Absolute Value", "source_section": "20.2" },
+        { "topic_id": "ch20.floor_ceiling", "display_name": "Floor and Ceiling", "source_section": "20.3" },
+        { "topic_id": "ch20.rational_functions", "display_name": "Rational Functions", "source_section": "20.4" },
+        { "topic_id": "ch20.piecewise", "display_name": "Piecewise Defined Functions", "source_section": "20.5" }
+      ]
+    },
+    {
+      "group_id": "ch21_sequences_series",
+      "display_name": "Sequences and Series",
+      "order": 21,
+      "leaves": [
+        { "topic_id": "ch21.arithmetic_sequences", "display_name": "Arithmetic Sequences", "source_section": "21.1" },
+        { "topic_id": "ch21.arithmetic_series", "display_name": "Arithmetic Series", "source_section": "21.2" },
+        { "topic_id": "ch21.geometric_sequences", "display_name": "Geometric Sequences", "source_section": "21.3" },
+        { "topic_id": "ch21.geometric_series", "display_name": "Geometric Series", "source_section": "21.4" },
+        { "topic_id": "ch21.telescoping", "display_name": "Telescoping", "source_section": "21.5", "starred": true }
+      ]
+    },
+    {
+      "group_id": "ch22_special_manipulations",
+      "display_name": "Special Manipulations",
+      "order": 22,
+      "leaves": [
+        { "topic_id": "ch22.raising_powers", "display_name": "Raising Equations to Powers", "source_section": "22.1" },
+        { "topic_id": "ch22.self_similarity", "display_name": "Self-similarity", "source_section": "22.2" },
+        { "topic_id": "ch22.symmetry", "display_name": "Symmetry", "source_section": "22.3" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+[
+  {
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $3 + 4 \\cdot 2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11$"
+      },
+      {
+        "id": "b",
+        "latex": "$14$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "11",
+    "answer_type": "integer",
+    "solution_latex": "Multiply first: $4 \\cdot 2 = 8$. Then $3 + 8 = 11$.",
+    "complexity_factor": 0.8,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "id": "ch1.order_of_ops.easy.0001",
+    "checksum": "sha256-ee68f8ab3574449b0471e909b24598d1bd0559537c55dd36c248f9a30bac1fc4",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $12 - 4 \\div 2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$14$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "solution_latex": "Divide first: $4 \\div 2 = 2$. Then $12 - 2 = 10$.",
+    "complexity_factor": 0.8,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "id": "ch1.order_of_ops.easy.0002",
+    "checksum": "sha256-f6a89641a52e297bd518a77b0b8236204730c8ad3b89ac90a0234562e982288c",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $(5 + 3) \\cdot 2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$13$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$24$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "16",
+    "answer_type": "integer",
+    "solution_latex": "Parentheses first: $5 + 3 = 8$. Then $8 \\cdot 2 = 16$.",
+    "complexity_factor": 0.8,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "id": "ch1.order_of_ops.easy.0003",
+    "checksum": "sha256-fa49c5d781908d503db10ea45f606f4c4396dad7df45a1b6cf4d6ea393f7f8ab",
+    "status": "valid"
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{20} \\frac{1}{n(n+2)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\dfrac{607}{924}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\dfrac{19}{22}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\dfrac{10}{11}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\dfrac{607}{462}$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "607/924",
+    "answer_type": "fraction",
+    "solution_latex": "$\\frac{1}{n(n+2)} = \\frac{1}{2}\\left(\\frac{1}{n} - \\frac{1}{n+2}\\right)$. Telescoping leaves $\\frac{1}{2}\\left(1 + \\frac{1}{2} - \\frac{1}{21} - \\frac{1}{22}\\right) = \\frac{607}{924}$.",
+    "complexity_factor": 1.5,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "series",
+      "partial_fractions"
+    ],
+    "id": "ch21.telescoping.hard.0001",
+    "checksum": "sha256-8ae646a4b44843629b307d42b1e02575663756277090b48bcfd10a084abe95bb",
+    "status": "valid"
+  }
+]

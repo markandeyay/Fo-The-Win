@@ -1,0 +1,76 @@
+[
+  {
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $2^3 + 3 \\cdot \\left( \\dfrac{12}{2^2 - 1} \\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$20$"
+      },
+      {
+        "id": "b",
+        "latex": "$12$"
+      },
+      {
+        "id": "c",
+        "latex": "$14$"
+      },
+      {
+        "id": "d",
+        "latex": "$44$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "20",
+    "answer_type": "integer",
+    "solution_latex": "$2^2 - 1 = 3$, so $12/3 = 4$. Then $2^3 + 3 \\cdot 4 = 8 + 12 = 20$.",
+    "complexity_factor": 1.1,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "id": "ch1.order_of_ops.hard.0001",
+    "checksum": "sha256-52e97188190307c697b52724b6f57208cc61a34dcf8e1ed7344377338aedd58e",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $(5 - 2)^3 \\div 3^2 + 6$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$33$"
+      },
+      {
+        "id": "c",
+        "latex": "$15$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "solution_latex": "$(5-2)^3 = 27$ and $3^2 = 9$, so $27 \\div 9 + 6 = 3 + 6 = 9$.",
+    "complexity_factor": 1.1,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "id": "ch1.order_of_ops.hard.0002",
+    "checksum": "sha256-2b86786eaef5f0dd00a9d724b34e6102622a0544d963a8e076a42483b3ee5694",
+    "status": "valid"
+  }
+]

@@ -1,0 +1,43 @@
+[
+  {
+    "topic_id": "ch10.factoring_1",
+    "group_id": "ch10_quadratics_1",
+    "difficulty": "medium",
+    "prompt_latex": "Factor completely: $x^2 - x - 12$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 4)(x + 3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 3)(x + 4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 6)(x + 2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 2)(x + 6)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(x-4)(x+3)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x+3)(x-4)"
+    ],
+    "solution_latex": "We need two numbers with product $-12$ and sum $-1$: $-4$ and $3$.",
+    "complexity_factor": 1,
+    "source_section": "10.2",
+    "tags": [
+      "factoring",
+      "quadratic"
+    ],
+    "id": "ch10.factoring_1.medium.0001",
+    "checksum": "sha256-20df322b69f0e30c27a79fa3affe86fd7a8882ab5e2956e711adc83e538f930a",
+    "status": "valid"
+  }
+]

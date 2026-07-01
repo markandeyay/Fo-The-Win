@@ -1,0 +1,84 @@
+[
+  {
+    "topic_id": "ch10.factoring_1",
+    "group_id": "ch10_quadratics_1",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^2 + 5x + 6$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 2)(x + 3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 1)(x + 6)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 2)(x + 4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 6)(x - 1)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(x+2)(x+3)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x+3)(x+2)"
+    ],
+    "solution_latex": "We need two numbers with product 6 and sum 5: 2 and 3.",
+    "complexity_factor": 0.9,
+    "source_section": "10.2",
+    "tags": [
+      "factoring",
+      "quadratic"
+    ],
+    "id": "ch10.factoring_1.easy.0001",
+    "checksum": "sha256-d9bba6c13042862f06f5910b171c96dfe2f58aea66ba50db22386fdcd418f4ce",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch10.factoring_1",
+    "group_id": "ch10_quadratics_1",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^2 - 9$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 3)(x + 3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 3)^2$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 9)(x - 1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 9)(x + 1)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(x-3)(x+3)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x+3)(x-3)"
+    ],
+    "solution_latex": "Difference of squares: $x^2 - 9 = (x - 3)(x + 3)$.",
+    "complexity_factor": 0.9,
+    "source_section": "10.2",
+    "tags": [
+      "factoring",
+      "quadratic"
+    ],
+    "id": "ch10.factoring_1.easy.0002",
+    "checksum": "sha256-b47775a4998c00857e8aaae89dd47dcb42c7c3b30b4f7c1b40ef6f422807da25",
+    "status": "valid"
+  }
+]
