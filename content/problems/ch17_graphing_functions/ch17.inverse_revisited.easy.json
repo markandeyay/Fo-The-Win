@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "ch17.inverse_revisited.easy.0001",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Reflect the point $(-5,-7)$ across the line $y=x$. What point do you get?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-5,7)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(5,-7)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-5,-7)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-7,-5)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-7,-5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Reflection across $y=x$ swaps the coordinates, giving $(-7,-5)$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-66271e91bd69404511a48dfaed7946157fe20db033e299e1cf0db09c212f258e",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.easy.0002",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "If $f(x)=x+1$, what is $f^{-1}(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$-x+1$"
+      },
+      {
+        "id": "c",
+        "latex": "$x+1$"
+      },
+      {
+        "id": "d",
+        "latex": "$1*x$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "x-1",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "From $y=x+1$, solve for $x$ to get $x=y-1$, so $f^{-1}(x)=x-1$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-1edc9e5068f363e89bb15dcb575f48cc34c508e26546b947f0ef17dc0eef6822",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.easy.0003",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "If $f(x)=-x+1$, what is $f^{-1}(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$-x+1$"
+      },
+      {
+        "id": "c",
+        "latex": "$x+1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-x-1$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-x+1",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "The equation $y=-x+1$ gives $x=-y+1$, so the inverse is $f^{-1}(x)=-x+1$.",
+    "complexity_factor": 1.1,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-3b7e2de8cd32d6379d53215cbe184d44314b3a577a9857fb5120c617316a5ebb",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.easy.0004",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "If $f(-5)=-5$, which point is on the graph of $y=f^{-1}(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-5,5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(5,5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-5,-5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(5,-5)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-5,-5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The inverse graph swaps input and output, so $(a,b)$ becomes $(b,a)=(-5,-5)$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-2c374b4c3da7d92f6e8dbf3702f3c95d1944e319aee02c91d782f0780d1dcfd7",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.easy.0005",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "For a one-to-one function, $f(-5)=-6$. What is $f^{-1}(-6)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-6$"
+      },
+      {
+        "id": "d",
+        "latex": "$-5$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "If $f(-5)=-6$, then the inverse sends -6 back to -5.",
+    "complexity_factor": 1,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-0afe159a0243ebe88587985aefe99f9173974ee0773167ec10156eea97dd64c1",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.easy.0006",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Reflect the point $(-4,-5)$ across the line $y=x$. What point do you get?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-5,-4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-4,5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4,-5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-4,-5)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-5,-4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Reflection across $y=x$ swaps the coordinates, giving $(-5,-4)$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-6c4e7f44386870dbd368b88f000e930a9d57efca46c544dff04ba7502bf8bb68",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.easy.0007",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "If $f(x)=x-2$, what is $f^{-1}(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2*x$"
+      },
+      {
+        "id": "c",
+        "latex": "$x+2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-x-2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "x+2",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "From $y=x-2$, solve for $x$ to get $x=y+2$, so $f^{-1}(x)=x+2$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-f9180a707740febce620386b5cef62b549e3881437d46d6e528064f4d73d3e0d",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.easy.0008",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "If $f(x)=-x-2$, what is $f^{-1}(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-x-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-x+2$"
+      },
+      {
+        "id": "c",
+        "latex": "$x-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$x+2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-x-2",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "The equation $y=-x-2$ gives $x=-y-2$, so the inverse is $f^{-1}(x)=-x-2$.",
+    "complexity_factor": 1.1,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-1664698fa9b1beb9ba6f30bae090d6cc5f9f73c4696ef1ad35afb7273e206cf3",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.easy.0009",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "If $f(-4)=-3$, which point is on the graph of $y=f^{-1}(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-4,-3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3,4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3,-4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-3,-4)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-3,-4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The inverse graph swaps input and output, so $(a,b)$ becomes $(b,a)=(-3,-4)$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-5fc278c30633e26f4ca0f49cd1f87fe77b90cde7935d435eef729964a9b16e19",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.easy.0010",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "For a one-to-one function, $f(-4)=-3$. What is $f^{-1}(-3)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "If $f(-4)=-3$, then the inverse sends -3 back to -4.",
+    "complexity_factor": 1,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-1d0bd6c174305c2920bad6299f4bb7f501563f7ce7add7b2997c835692c88e8e",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.easy.0011",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Reflect the point $(-3,-3)$ across the line $y=x$. What point do you get?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3,3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3,-3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-3,3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3,-3)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-3,-3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Reflection across $y=x$ swaps the coordinates, giving $(-3,-3)$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-ee2219b309e944d1a2a5e7a5fd6efd1e2717711ee7b21f6ddace37b73966d21b",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.easy.0012",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "If $f(x)=x+3$, what is $f^{-1}(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$3*x$"
+      },
+      {
+        "id": "c",
+        "latex": "$-x+3$"
+      },
+      {
+        "id": "d",
+        "latex": "$x+3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "x-3",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "From $y=x+3$, solve for $x$ to get $x=y-3$, so $f^{-1}(x)=x-3$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-68655b063ef4ea06ebbbd891bbfaa1f357ecaf9b362b706eaf99296383be86e7",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.easy.0013",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "If $f(x)=-x+3$, what is $f^{-1}(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-x-3$"
+      },
+      {
+        "id": "c",
+        "latex": "$x+3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-x+3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-x+3",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "The equation $y=-x+3$ gives $x=-y+3$, so the inverse is $f^{-1}(x)=-x+3$.",
+    "complexity_factor": 1.1,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-58008adbd7deb554af2425666cc02b04098494ac81da68ffea87e47dc538de97",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.easy.0014",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "If $f(-3)=-1$, which point is on the graph of $y=f^{-1}(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,-3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1,-3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-3,-1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,3)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-1,-3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The inverse graph swaps input and output, so $(a,b)$ becomes $(b,a)=(-1,-3)$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-0c489c5ee7301f415c00ebedc02d1029d8833f68be7ad4a8b8b97a7df80a822a",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.easy.0015",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "For a one-to-one function, $f(-3)=0$. What is $f^{-1}(0)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "If $f(-3)=0$, then the inverse sends 0 back to -3.",
+    "complexity_factor": 1,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-9e24a0c8525bb4d6e67cd0b459d2621323485978b1a6b81cb4a374a3f7de4aa4",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.easy.0016",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Reflect the point $(-2,-1)$ across the line $y=x$. What point do you get?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2,-1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-2,-1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,-2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2,1)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-1,-2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Reflection across $y=x$ swaps the coordinates, giving $(-1,-2)$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-ffb4578214d7b243a89d74cc1c7a2f35344571b82a3d24dca129bab14647785c",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.easy.0017",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "If $f(x)=x-4$, what is $f^{-1}(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-x-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4*x$"
+      },
+      {
+        "id": "c",
+        "latex": "$x-4$"
+      },
+      {
+        "id": "d",
+        "latex": "$x+4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x+4",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "From $y=x-4$, solve for $x$ to get $x=y+4$, so $f^{-1}(x)=x+4$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-bf2c002c86cae9b942c1be49e53229b6a64facf40658ff808dab548ca14069cf",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.easy.0018",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "If $f(x)=-x-4$, what is $f^{-1}(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-x-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$x+4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-x+4$"
+      },
+      {
+        "id": "d",
+        "latex": "$x-4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-x-4",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "The equation $y=-x-4$ gives $x=-y-4$, so the inverse is $f^{-1}(x)=-x-4$.",
+    "complexity_factor": 1.1,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-2720b311bbd0935d13d7e59f0d81a43e597d86d41b7a7805938c0da2b682a20f",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.easy.0019",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "If $f(-2)=1$, which point is on the graph of $y=f^{-1}(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2,1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1,2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1,-2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,-2)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(1,-2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The inverse graph swaps input and output, so $(a,b)$ becomes $(b,a)=(1,-2)$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-caa3b0a23a16e43ba06d833dd75830b1136bb957d24ea8566d4b43dce79b4b9e",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.easy.0020",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "For a one-to-one function, $f(-2)=3$. What is $f^{-1}(3)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "If $f(-2)=3$, then the inverse sends 3 back to -2.",
+    "complexity_factor": 1,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-92be89a84f642691407f5f8c58d673a121fb0406c587e6fdfafe6ac234f28c6d",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.easy.0021",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Reflect the point $(-1,1)$ across the line $y=x$. What point do you get?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,-1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1,1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1,1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1,-1)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(1,-1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Reflection across $y=x$ swaps the coordinates, giving $(1,-1)$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-653d1a95c250e9b40b800ba946f20ee2c02d00bc1d590134f298412a7f37042d",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.easy.0022",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "If $f(x)=x+5$, what is $f^{-1}(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-x+5$"
+      },
+      {
+        "id": "b",
+        "latex": "$x+5$"
+      },
+      {
+        "id": "c",
+        "latex": "$x-5$"
+      },
+      {
+        "id": "d",
+        "latex": "$5*x$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "x-5",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "From $y=x+5$, solve for $x$ to get $x=y-5$, so $f^{-1}(x)=x-5$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-c653bae40ccc740aa59058ed72fffe4f5e6a3ac9f2e6cfd6e42b3f78d3b24965",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.easy.0023",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "If $f(x)=-x+5$, what is $f^{-1}(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x+5$"
+      },
+      {
+        "id": "b",
+        "latex": "$-x+5$"
+      },
+      {
+        "id": "c",
+        "latex": "$x-5$"
+      },
+      {
+        "id": "d",
+        "latex": "$-x-5$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-x+5",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "The equation $y=-x+5$ gives $x=-y+5$, so the inverse is $f^{-1}(x)=-x+5$.",
+    "complexity_factor": 1.1,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-aa31795b80d027646d643b9f19c4bf9a65fc8cf33e30ffe87cb9ba3148550ac4",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.easy.0024",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "If $f(-1)=3$, which point is on the graph of $y=f^{-1}(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3,-1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3,1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-3,-1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,3)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(3,-1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The inverse graph swaps input and output, so $(a,b)$ becomes $(b,a)=(3,-1)$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-bdb745356c0d37bd833d903d6b0baef8932928885e697ae1f0ca34009721d664",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.easy.0025",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "For a one-to-one function, $f(-1)=6$. What is $f^{-1}(6)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "If $f(-1)=6$, then the inverse sends 6 back to -1.",
+    "complexity_factor": 1,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-56bb62ed97f02808d1fe7c5ecb39fd62d3699d039495edbbe5cd73e182abc8ee",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.easy.0026",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Reflect the point $(0,3)$ across the line $y=x$. What point do you get?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0,-3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-3,0)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(3,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Reflection across $y=x$ swaps the coordinates, giving $(3,0)$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-21ef8c32ea48bd9358b56c2d729c7a8c308b96d0556d9cac72532b3b8cf9207a",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.easy.0027",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "If $f(x)=x-6$, what is $f^{-1}(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x-6$"
+      },
+      {
+        "id": "b",
+        "latex": "$x+6$"
+      },
+      {
+        "id": "c",
+        "latex": "$-6*x$"
+      },
+      {
+        "id": "d",
+        "latex": "$-x-6$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "x+6",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "From $y=x-6$, solve for $x$ to get $x=y+6$, so $f^{-1}(x)=x+6$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-09ffaea099dc8bfd6efb27b451c0f5150799e13cade81711d9fe3ee1ff8ee381",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.easy.0028",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "If $f(x)=-x-6$, what is $f^{-1}(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-x+6$"
+      },
+      {
+        "id": "b",
+        "latex": "$x-6$"
+      },
+      {
+        "id": "c",
+        "latex": "$-x-6$"
+      },
+      {
+        "id": "d",
+        "latex": "$x+6$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-x-6",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "The equation $y=-x-6$ gives $x=-y-6$, so the inverse is $f^{-1}(x)=-x-6$.",
+    "complexity_factor": 1.1,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-bb34d074f6972396832192aa076e15de8809c650ffa5e2e3fa3a963538b581cb",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.easy.0029",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "If $f(0)=5$, which point is on the graph of $y=f^{-1}(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-5,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,-5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0,5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(5,0)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(5,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The inverse graph swaps input and output, so $(a,b)$ becomes $(b,a)=(5,0)$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-03290f78009a846c4a7b11124305d979f38f69974c60fc564867a521e3cea993",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.easy.0030",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "For a one-to-one function, $f(0)=9$. What is $f^{-1}(9)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "If $f(0)=9$, then the inverse sends 9 back to 0.",
+    "complexity_factor": 1,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-be8ea9f4b3bb0ad476db57a0af1be8fbc6f1a768c76ab28a8024d6f05a3412f7",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.easy.0031",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Reflect the point $(1,5)$ across the line $y=x$. What point do you get?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1,-5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1,5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(5,1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,5)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(5,1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Reflection across $y=x$ swaps the coordinates, giving $(5,1)$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-11406fd64df14d299a0876c5ce118aa2bb58f618fdb585831e919030fc6704b0",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.easy.0032",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "If $f(x)=x+7$, what is $f^{-1}(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x-7$"
+      },
+      {
+        "id": "b",
+        "latex": "$-x+7$"
+      },
+      {
+        "id": "c",
+        "latex": "$7*x$"
+      },
+      {
+        "id": "d",
+        "latex": "$x+7$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "x-7",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "From $y=x+7$, solve for $x$ to get $x=y-7$, so $f^{-1}(x)=x-7$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-f2f791f3996d891fc6afd97592d2b0d1c339f4b3fc9c843cd62b0c51a875476d",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.easy.0033",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "If $f(x)=-x+7$, what is $f^{-1}(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x-7$"
+      },
+      {
+        "id": "b",
+        "latex": "$x+7$"
+      },
+      {
+        "id": "c",
+        "latex": "$-x-7$"
+      },
+      {
+        "id": "d",
+        "latex": "$-x+7$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-x+7",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "The equation $y=-x+7$ gives $x=-y+7$, so the inverse is $f^{-1}(x)=-x+7$.",
+    "complexity_factor": 1.1,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-9bcc7f30675f0bd27584b979cf49812161bf22bc4a4d7f42587221c64c4510bb",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.easy.0034",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "If $f(1)=7$, which point is on the graph of $y=f^{-1}(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-7,1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1,7)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(7,1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(7,-1)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(7,1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The inverse graph swaps input and output, so $(a,b)$ becomes $(b,a)=(7,1)$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-fe4c26f1c21ccdfdfa04a2353636c60b4a05c7edf99deca1c0f3c5543ed0a01c",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.easy.0035",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "For a one-to-one function, $f(1)=12$. What is $f^{-1}(12)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "If $f(1)=12$, then the inverse sends 12 back to 1.",
+    "complexity_factor": 1,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-54cd50630182ee82c8499fcd765161859dfe62f5c525d4ea012cb49e2b2c09b8",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.easy.0036",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Reflect the point $(2,7)$ across the line $y=x$. What point do you get?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(7,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2,7)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2,7)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,-7)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(7,2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Reflection across $y=x$ swaps the coordinates, giving $(7,2)$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-a26f3b0ec18845db0a8d1b682fc82eb1911bf7152fa2459ead84617fb4cb39b3",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.easy.0037",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "If $f(x)=x-8$, what is $f^{-1}(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x-8$"
+      },
+      {
+        "id": "b",
+        "latex": "$-x-8$"
+      },
+      {
+        "id": "c",
+        "latex": "$-8*x$"
+      },
+      {
+        "id": "d",
+        "latex": "$x+8$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x+8",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "From $y=x-8$, solve for $x$ to get $x=y+8$, so $f^{-1}(x)=x+8$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-9991992ee3d7d99fb9739388097678e645a831174d6f32b8d9ca5070a9624475",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.easy.0038",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "If $f(x)=-x-8$, what is $f^{-1}(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-x-8$"
+      },
+      {
+        "id": "b",
+        "latex": "$-x+8$"
+      },
+      {
+        "id": "c",
+        "latex": "$x+8$"
+      },
+      {
+        "id": "d",
+        "latex": "$x-8$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-x-8",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "The equation $y=-x-8$ gives $x=-y-8$, so the inverse is $f^{-1}(x)=-x-8$.",
+    "complexity_factor": 1.1,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-2534376d4081d5bc3ee5e83763865ea76829b12ee0d3baf5753fcba9ad33c75b",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.easy.0039",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "If $f(2)=9$, which point is on the graph of $y=f^{-1}(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2,9)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(9,2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(9,-2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-9,2)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(9,2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The inverse graph swaps input and output, so $(a,b)$ becomes $(b,a)=(9,2)$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-f37700fc163e11aefe4d2ffa709d1705baa34083c420cf658c93a9646afaef47",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.easy.0040",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "For a one-to-one function, $f(2)=15$. What is $f^{-1}(15)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$15$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "If $f(2)=15$, then the inverse sends 15 back to 2.",
+    "complexity_factor": 1,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-844fd9bb0b47863cebd8c5b8c9bcf979e737562e7f088c6ab3889d5fd5b7aec3",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.easy.0041",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Reflect the point $(3,9)$ across the line $y=x$. What point do you get?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-3,9)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3,9)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3,-9)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(9,3)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(9,3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Reflection across $y=x$ swaps the coordinates, giving $(9,3)$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-ab5735eae9d12b2035ffaf6adc77f4d25eccb33ff80f2822896b18095b04bde3",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.easy.0042",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "If $f(x)=x+9$, what is $f^{-1}(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x-9$"
+      },
+      {
+        "id": "b",
+        "latex": "$x+9$"
+      },
+      {
+        "id": "c",
+        "latex": "$-x+9$"
+      },
+      {
+        "id": "d",
+        "latex": "$9*x$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "x-9",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "From $y=x+9$, solve for $x$ to get $x=y-9$, so $f^{-1}(x)=x-9$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-94b95e89ec93d7fc51fe8a1ada78dbb9c8314fd34ec14dc166ba329505edfa4e",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.easy.0043",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "If $f(x)=-x+9$, what is $f^{-1}(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x-9$"
+      },
+      {
+        "id": "b",
+        "latex": "$x+9$"
+      },
+      {
+        "id": "c",
+        "latex": "$-x+9$"
+      },
+      {
+        "id": "d",
+        "latex": "$-x-9$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-x+9",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "The equation $y=-x+9$ gives $x=-y+9$, so the inverse is $f^{-1}(x)=-x+9$.",
+    "complexity_factor": 1.1,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-c5d5b3a9b8ed61c1fe137cb9b13560f9ff3e96f159822b96043813a148251810",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.easy.0044",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "If $f(3)=11$, which point is on the graph of $y=f^{-1}(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(11,3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-11,3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(11,-3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3,11)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(11,3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The inverse graph swaps input and output, so $(a,b)$ becomes $(b,a)=(11,3)$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-20b7c7378a43c220b180c9183687dfb56eb3f03c8dc756c0785cb11553338f46",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.easy.0045",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "For a one-to-one function, $f(3)=18$. What is $f^{-1}(18)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$18$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-3$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "If $f(3)=18$, then the inverse sends 18 back to 3.",
+    "complexity_factor": 1,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-2778a683848935acf6f4789a87f4a0645e34510ee64c49cf95e2a88291208716",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.easy.0046",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Reflect the point $(4,11)$ across the line $y=x$. What point do you get?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-4,11)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4,-11)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(11,4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4,11)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(11,4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Reflection across $y=x$ swaps the coordinates, giving $(11,4)$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-8d0bd3b3ab7e74bbefab7ea19667a2f4dc9ecd375f4e8fcc4a9714c9f518ed23",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.easy.0047",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "If $f(x)=x-10$, what is $f^{-1}(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-10*x$"
+      },
+      {
+        "id": "b",
+        "latex": "$x+10$"
+      },
+      {
+        "id": "c",
+        "latex": "$x-10$"
+      },
+      {
+        "id": "d",
+        "latex": "$-x-10$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "x+10",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "From $y=x-10$, solve for $x$ to get $x=y+10$, so $f^{-1}(x)=x+10$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-c3bc7c70b4e0c883093e1676ec16ed4ec55013ba0994f4960247c509e14df8e3",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.easy.0048",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "If $f(x)=-x-10$, what is $f^{-1}(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-x-10$"
+      },
+      {
+        "id": "b",
+        "latex": "$x-10$"
+      },
+      {
+        "id": "c",
+        "latex": "$-x+10$"
+      },
+      {
+        "id": "d",
+        "latex": "$x+10$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-x-10",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "The equation $y=-x-10$ gives $x=-y-10$, so the inverse is $f^{-1}(x)=-x-10$.",
+    "complexity_factor": 1.1,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-7c4113f28feb93179f3204550fc7f1ededfb9944965449b467e5c6b15925e982",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.easy.0049",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "If $f(4)=13$, which point is on the graph of $y=f^{-1}(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4,13)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-13,4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(13,-4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(13,4)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(13,4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The inverse graph swaps input and output, so $(a,b)$ becomes $(b,a)=(13,4)$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-9a99717ebbd4f629bd7745be316d2163cf8590b4f2e4825d5faf64f71e15c640",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.easy.0050",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "For a one-to-one function, $f(4)=21$. What is $f^{-1}(21)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4$"
+      },
+      {
+        "id": "c",
+        "latex": "$21$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "If $f(4)=21$, then the inverse sends 21 back to 4.",
+    "complexity_factor": 1,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-2d9a0c293f7e1c0f50eb9ae5db439999b88e3d2acf5c430341cc5544bc8f278f",
+    "status": "valid"
+  }
+]

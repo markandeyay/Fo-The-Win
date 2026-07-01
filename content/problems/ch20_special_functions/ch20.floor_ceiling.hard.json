@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "ch20.floor_ceiling.hard.0001",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\sum_{k=1}^{18}\\left\\lfloor\\frac{k}{3}\\right\\rfloor$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$45$"
+      },
+      {
+        "id": "b",
+        "latex": "$52$"
+      },
+      {
+        "id": "c",
+        "latex": "$51$"
+      },
+      {
+        "id": "d",
+        "latex": "$57$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "51",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Group the terms by their quotient when divided by $3$. Direct grouping gives the sum $51$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "summation",
+      "counting"
+    ],
+    "checksum": "sha256-39fa52516104524f914b1866baea24588945196f9bb8b335ff5b2695dd14181f",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.hard.0002",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many integers $n$ with $0\\le n\\le 48$ satisfy $\\left\\lfloor\\frac{n}{4}\\right\\rfloor=\\left\\lceil\\frac{n}{8}\\right\\rceil$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Check each possible common integer value. The corresponding intervals overlap for $8$ integer values of $n$ in the given range.",
+    "complexity_factor": 1.5,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "counting"
+    ],
+    "checksum": "sha256-ba5b2595164d39fa645131d81b6f9aa9ab618024206e2f0f62a02fb91883c23e",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.hard.0003",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\sum_{k=1}^{30}\\left\\lfloor\\frac{k}{7}\\right\\rfloor$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$54$"
+      },
+      {
+        "id": "b",
+        "latex": "$58$"
+      },
+      {
+        "id": "c",
+        "latex": "$50$"
+      },
+      {
+        "id": "d",
+        "latex": "$66$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "54",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Group the terms by their quotient when divided by $7$. Direct grouping gives the sum $54$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "summation",
+      "counting"
+    ],
+    "checksum": "sha256-74eae3c6a26fd314205c6513d3a9c50b2c03701d4e7a0dee1e57286944007ecc",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.hard.0004",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many integers $n$ with $0\\le n\\le 38$ satisfy $\\left\\lfloor\\frac{n}{6}\\right\\rfloor=\\left\\lceil\\frac{n}{9}\\right\\rceil$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$18$"
+      },
+      {
+        "id": "c",
+        "latex": "$19$"
+      },
+      {
+        "id": "d",
+        "latex": "$17$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "18",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Check each possible common integer value. The corresponding intervals overlap for $18$ integer values of $n$ in the given range.",
+    "complexity_factor": 1.5,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "counting"
+    ],
+    "checksum": "sha256-0cdccf9e2a422b42b2299a5f411a8d357716d331b051df2a861f8f7329d24e06",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.hard.0005",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\sum_{k=1}^{42}\\left\\lfloor\\frac{k}{7}\\right\\rfloor$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$105$"
+      },
+      {
+        "id": "b",
+        "latex": "$129$"
+      },
+      {
+        "id": "c",
+        "latex": "$111$"
+      },
+      {
+        "id": "d",
+        "latex": "$117$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "111",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Group the terms by their quotient when divided by $7$. Direct grouping gives the sum $111$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "summation",
+      "counting"
+    ],
+    "checksum": "sha256-534970532c17aa6cfda5757c0bea5dfeed0ffbc24be28d5299dfd0cae6f2865e",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.hard.0006",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many integers $n$ with $0\\le n\\le 51$ satisfy $\\left\\lfloor\\frac{n}{5}\\right\\rfloor=\\left\\lceil\\frac{n}{10}\\right\\rceil$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Check each possible common integer value. The corresponding intervals overlap for $10$ integer values of $n$ in the given range.",
+    "complexity_factor": 1.5,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "counting"
+    ],
+    "checksum": "sha256-af5aac6c3253e44dee796bbe469891d4e5f671d4d099b4c328fbe2bf71612d33",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.hard.0007",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\sum_{k=1}^{19}\\left\\lfloor\\frac{k}{7}\\right\\rfloor$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$19$"
+      },
+      {
+        "id": "b",
+        "latex": "$21$"
+      },
+      {
+        "id": "c",
+        "latex": "$17$"
+      },
+      {
+        "id": "d",
+        "latex": "$27$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "19",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Group the terms by their quotient when divided by $7$. Direct grouping gives the sum $19$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "summation",
+      "counting"
+    ],
+    "checksum": "sha256-9a4b51f44836c10030df1676c84dd0d5ddfd30c2c05dc58f7b838a2a4b6aa0e4",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.hard.0008",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many integers $n$ with $0\\le n\\le 41$ satisfy $\\left\\lfloor\\frac{n}{7}\\right\\rfloor=\\left\\lceil\\frac{n}{11}\\right\\rceil$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$19$"
+      },
+      {
+        "id": "c",
+        "latex": "$20$"
+      },
+      {
+        "id": "d",
+        "latex": "$18$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "19",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Check each possible common integer value. The corresponding intervals overlap for $19$ integer values of $n$ in the given range.",
+    "complexity_factor": 1.5,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "counting"
+    ],
+    "checksum": "sha256-214d697d8add515563b41cbc7fbedb12ba92ac447b1d751ea31212c7b8466e57",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.hard.0009",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\sum_{k=1}^{31}\\left\\lfloor\\frac{k}{7}\\right\\rfloor$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$54$"
+      },
+      {
+        "id": "b",
+        "latex": "$70$"
+      },
+      {
+        "id": "c",
+        "latex": "$58$"
+      },
+      {
+        "id": "d",
+        "latex": "$62$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "58",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Group the terms by their quotient when divided by $7$. Direct grouping gives the sum $58$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "summation",
+      "counting"
+    ],
+    "checksum": "sha256-7f543c1fa89dd8856d31c84f83a6b82f12e8a4cfd8fe588cddbe0cb1f528a11d",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.hard.0010",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many integers $n$ with $0\\le n\\le 54$ satisfy $\\left\\lfloor\\frac{n}{6}\\right\\rfloor=\\left\\lceil\\frac{n}{12}\\right\\rceil$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$13$"
+      },
+      {
+        "id": "b",
+        "latex": "$11$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Check each possible common integer value. The corresponding intervals overlap for $12$ integer values of $n$ in the given range.",
+    "complexity_factor": 1.5,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "counting"
+    ],
+    "checksum": "sha256-217d6303aec2e6b59412773055f1766e2b7a21c57c2332d72bcb98e63f2d8ea1",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.hard.0011",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\sum_{k=1}^{43}\\left\\lfloor\\frac{k}{7}\\right\\rfloor$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$117$"
+      },
+      {
+        "id": "b",
+        "latex": "$123$"
+      },
+      {
+        "id": "c",
+        "latex": "$111$"
+      },
+      {
+        "id": "d",
+        "latex": "$135$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "117",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Group the terms by their quotient when divided by $7$. Direct grouping gives the sum $117$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "summation",
+      "counting"
+    ],
+    "checksum": "sha256-c02a8f58b21b91140ef4b14fb8316bba600da092f7a4a0e67400c316ce8ff853",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.hard.0012",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many integers $n$ with $0\\le n\\le 44$ satisfy $\\left\\lfloor\\frac{n}{8}\\right\\rfloor=\\left\\lceil\\frac{n}{13}\\right\\rceil$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$20$"
+      },
+      {
+        "id": "c",
+        "latex": "$21$"
+      },
+      {
+        "id": "d",
+        "latex": "$19$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "20",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Check each possible common integer value. The corresponding intervals overlap for $20$ integer values of $n$ in the given range.",
+    "complexity_factor": 1.5,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "counting"
+    ],
+    "checksum": "sha256-6c47e9497d099ac07ad819893b3ee61ce1dc2154196f810bda19793946a2d09a",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.hard.0013",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\sum_{k=1}^{20}\\left\\lfloor\\frac{k}{11}\\right\\rfloor$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$19$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$11$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Group the terms by their quotient when divided by $11$. Direct grouping gives the sum $10$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "summation",
+      "counting"
+    ],
+    "checksum": "sha256-a5a655074f672388605b85470d3b24a716fcc5a57418e80e0a12d1b8e78b444b",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.hard.0014",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many integers $n$ with $0\\le n\\le 57$ satisfy $\\left\\lfloor\\frac{n}{7}\\right\\rfloor=\\left\\lceil\\frac{n}{14}\\right\\rceil$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$15$"
+      },
+      {
+        "id": "b",
+        "latex": "$13$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$14$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "14",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Check each possible common integer value. The corresponding intervals overlap for $14$ integer values of $n$ in the given range.",
+    "complexity_factor": 1.5,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "counting"
+    ],
+    "checksum": "sha256-749e404504a4624c4930b8da0277665f5fa2c1677480306fa3b7d5cbe454af0e",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.hard.0015",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\sum_{k=1}^{32}\\left\\lfloor\\frac{k}{11}\\right\\rfloor$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$33$"
+      },
+      {
+        "id": "b",
+        "latex": "$35$"
+      },
+      {
+        "id": "c",
+        "latex": "$31$"
+      },
+      {
+        "id": "d",
+        "latex": "$48$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "33",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Group the terms by their quotient when divided by $11$. Direct grouping gives the sum $33$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "summation",
+      "counting"
+    ],
+    "checksum": "sha256-174151d7944af37270c6ad649c4407b63e9f6b1dd4283e549fcd7d393976cd81",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.hard.0016",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many integers $n$ with $0\\le n\\le 47$ satisfy $\\left\\lfloor\\frac{n}{9}\\right\\rfloor=\\left\\lceil\\frac{n}{15}\\right\\rceil$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$22$"
+      },
+      {
+        "id": "c",
+        "latex": "$23$"
+      },
+      {
+        "id": "d",
+        "latex": "$21$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "22",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Check each possible common integer value. The corresponding intervals overlap for $22$ integer values of $n$ in the given range.",
+    "complexity_factor": 1.5,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "counting"
+    ],
+    "checksum": "sha256-181b8ce25a23eb63def9b377b0bda150042216198f3337c5348deeb8fa462946",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.hard.0017",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\sum_{k=1}^{44}\\left\\lfloor\\frac{k}{11}\\right\\rfloor$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$66$"
+      },
+      {
+        "id": "b",
+        "latex": "$90$"
+      },
+      {
+        "id": "c",
+        "latex": "$70$"
+      },
+      {
+        "id": "d",
+        "latex": "$74$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "70",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Group the terms by their quotient when divided by $11$. Direct grouping gives the sum $70$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "summation",
+      "counting"
+    ],
+    "checksum": "sha256-5a3383084551b37342dcf22ee697b0fe480530596c23ea97c32bd75d33ea388a",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.hard.0018",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many integers $n$ with $0\\le n\\le 60$ satisfy $\\left\\lfloor\\frac{n}{8}\\right\\rfloor=\\left\\lceil\\frac{n}{16}\\right\\rceil$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$17$"
+      },
+      {
+        "id": "b",
+        "latex": "$15$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$16$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "16",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Check each possible common integer value. The corresponding intervals overlap for $16$ integer values of $n$ in the given range.",
+    "complexity_factor": 1.5,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "counting"
+    ],
+    "checksum": "sha256-43b95b8deb0cd0c3127ce46943f6e030eae5bb9850ea85d9f6d6afa603093548",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.hard.0019",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\sum_{k=1}^{21}\\left\\lfloor\\frac{k}{11}\\right\\rfloor$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11$"
+      },
+      {
+        "id": "b",
+        "latex": "$12$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$21$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "11",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Group the terms by their quotient when divided by $11$. Direct grouping gives the sum $11$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "summation",
+      "counting"
+    ],
+    "checksum": "sha256-ea826dfc841df2521cad4a070d28b0ddee888d9f55f165cb245ac65bbd43a1e9",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.hard.0020",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many integers $n$ with $0\\le n\\le 50$ satisfy $\\left\\lfloor\\frac{n}{10}\\right\\rfloor=\\left\\lceil\\frac{n}{17}\\right\\rceil$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$24$"
+      },
+      {
+        "id": "c",
+        "latex": "$25$"
+      },
+      {
+        "id": "d",
+        "latex": "$23$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "24",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Check each possible common integer value. The corresponding intervals overlap for $24$ integer values of $n$ in the given range.",
+    "complexity_factor": 1.5,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "counting"
+    ],
+    "checksum": "sha256-f525031c66587f5044289302cead103f6746c02b348e3f41ea84f7365fddf16a",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.hard.0021",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\sum_{k=1}^{33}\\left\\lfloor\\frac{k}{11}\\right\\rfloor$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$33$"
+      },
+      {
+        "id": "b",
+        "latex": "$51$"
+      },
+      {
+        "id": "c",
+        "latex": "$36$"
+      },
+      {
+        "id": "d",
+        "latex": "$39$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "36",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Group the terms by their quotient when divided by $11$. Direct grouping gives the sum $36$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "summation",
+      "counting"
+    ],
+    "checksum": "sha256-9107373361bfb926141b175eb9b33595b05b80e3e1be6f78a8427f28bb541ae9",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.hard.0022",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many integers $n$ with $0\\le n\\le 63$ satisfy $\\left\\lfloor\\frac{n}{9}\\right\\rfloor=\\left\\lceil\\frac{n}{18}\\right\\rceil$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$19$"
+      },
+      {
+        "id": "b",
+        "latex": "$17$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$18$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "18",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Check each possible common integer value. The corresponding intervals overlap for $18$ integer values of $n$ in the given range.",
+    "complexity_factor": 1.5,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "counting"
+    ],
+    "checksum": "sha256-412477f95e9ab5d1957d0e45b83fe930b49024d913c5e0fe368979cd040c0c70",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.hard.0023",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\sum_{k=1}^{45}\\left\\lfloor\\frac{k}{15}\\right\\rfloor$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$48$"
+      },
+      {
+        "id": "b",
+        "latex": "$51$"
+      },
+      {
+        "id": "c",
+        "latex": "$45$"
+      },
+      {
+        "id": "d",
+        "latex": "$69$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "48",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Group the terms by their quotient when divided by $15$. Direct grouping gives the sum $48$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "summation",
+      "counting"
+    ],
+    "checksum": "sha256-7426e0cadcef3b4f651e5777751b21f433733785f29a0c4f47a42c4271e737ef",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.hard.0024",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many integers $n$ with $0\\le n\\le 53$ satisfy $\\left\\lfloor\\frac{n}{11}\\right\\rfloor=\\left\\lceil\\frac{n}{19}\\right\\rceil$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$26$"
+      },
+      {
+        "id": "c",
+        "latex": "$27$"
+      },
+      {
+        "id": "d",
+        "latex": "$25$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "26",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Check each possible common integer value. The corresponding intervals overlap for $26$ integer values of $n$ in the given range.",
+    "complexity_factor": 1.5,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "counting"
+    ],
+    "checksum": "sha256-c28cfa94d161fa9332c434463951175d94ebb3d0573f68123e1c12653b76b43a",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.hard.0025",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\sum_{k=1}^{22}\\left\\lfloor\\frac{k}{15}\\right\\rfloor$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$16$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Group the terms by their quotient when divided by $15$. Direct grouping gives the sum $8$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "summation",
+      "counting"
+    ],
+    "checksum": "sha256-7e04ae5150fc01165179b6f1a3850a9031202a4ab8891d38e90ee0c70d440307",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.hard.0026",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many integers $n$ with $0\\le n\\le 66$ satisfy $\\left\\lfloor\\frac{n}{10}\\right\\rfloor=\\left\\lceil\\frac{n}{20}\\right\\rceil$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$21$"
+      },
+      {
+        "id": "b",
+        "latex": "$19$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$20$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "20",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Check each possible common integer value. The corresponding intervals overlap for $20$ integer values of $n$ in the given range.",
+    "complexity_factor": 1.5,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "counting"
+    ],
+    "checksum": "sha256-899a7aa27482e233d5239c966a4469306967a061e05907f293fc1cfe121c4714",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.hard.0027",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\sum_{k=1}^{34}\\left\\lfloor\\frac{k}{15}\\right\\rfloor$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$25$"
+      },
+      {
+        "id": "b",
+        "latex": "$27$"
+      },
+      {
+        "id": "c",
+        "latex": "$23$"
+      },
+      {
+        "id": "d",
+        "latex": "$39$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "25",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Group the terms by their quotient when divided by $15$. Direct grouping gives the sum $25$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "summation",
+      "counting"
+    ],
+    "checksum": "sha256-080514b58d8557d3c53c6b030da3a0ca2858d1f353bceef57b8f946b07538258",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.hard.0028",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many integers $n$ with $0\\le n\\le 56$ satisfy $\\left\\lfloor\\frac{n}{12}\\right\\rfloor=\\left\\lceil\\frac{n}{21}\\right\\rceil$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$28$"
+      },
+      {
+        "id": "c",
+        "latex": "$29$"
+      },
+      {
+        "id": "d",
+        "latex": "$27$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "28",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Check each possible common integer value. The corresponding intervals overlap for $28$ integer values of $n$ in the given range.",
+    "complexity_factor": 1.5,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "counting"
+    ],
+    "checksum": "sha256-9e4cb2746598d45a4582ebeedc1498118e85c62d6e649fcc5f8b3ce2643f2b2a",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.hard.0029",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\sum_{k=1}^{46}\\left\\lfloor\\frac{k}{15}\\right\\rfloor$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$48$"
+      },
+      {
+        "id": "b",
+        "latex": "$72$"
+      },
+      {
+        "id": "c",
+        "latex": "$51$"
+      },
+      {
+        "id": "d",
+        "latex": "$54$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "51",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Group the terms by their quotient when divided by $15$. Direct grouping gives the sum $51$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "summation",
+      "counting"
+    ],
+    "checksum": "sha256-b640c61232ff9a82ca17c19146305f03d61fa9d3b0c12a928343a47905f1678f",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.hard.0030",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many integers $n$ with $0\\le n\\le 69$ satisfy $\\left\\lfloor\\frac{n}{11}\\right\\rfloor=\\left\\lceil\\frac{n}{22}\\right\\rceil$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$23$"
+      },
+      {
+        "id": "b",
+        "latex": "$21$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$22$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "22",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Check each possible common integer value. The corresponding intervals overlap for $22$ integer values of $n$ in the given range.",
+    "complexity_factor": 1.5,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "counting"
+    ],
+    "checksum": "sha256-7c6ab394295e9f065cb9ddc54356e375461ccc2c1636ed9fe0ef03d1d6eb5f96",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.hard.0031",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\sum_{k=1}^{23}\\left\\lfloor\\frac{k}{15}\\right\\rfloor$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$18$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Group the terms by their quotient when divided by $15$. Direct grouping gives the sum $9$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "summation",
+      "counting"
+    ],
+    "checksum": "sha256-dd6eb074ce7631018c283ae69b58c4224e7a772ec79aa3312bdf516e32e69488",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.hard.0032",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many integers $n$ with $0\\le n\\le 59$ satisfy $\\left\\lfloor\\frac{n}{13}\\right\\rfloor=\\left\\lceil\\frac{n}{23}\\right\\rceil$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$30$"
+      },
+      {
+        "id": "c",
+        "latex": "$31$"
+      },
+      {
+        "id": "d",
+        "latex": "$29$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "30",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Check each possible common integer value. The corresponding intervals overlap for $30$ integer values of $n$ in the given range.",
+    "complexity_factor": 1.5,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "counting"
+    ],
+    "checksum": "sha256-e17b44a04a834dd75221085d195f511251aa2e3f4122038caf4ff0e1ae4fd699",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.hard.0033",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\sum_{k=1}^{35}\\left\\lfloor\\frac{k}{19}\\right\\rfloor$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$33$"
+      },
+      {
+        "id": "c",
+        "latex": "$17$"
+      },
+      {
+        "id": "d",
+        "latex": "$18$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "17",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Group the terms by their quotient when divided by $19$. Direct grouping gives the sum $17$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "summation",
+      "counting"
+    ],
+    "checksum": "sha256-b63da8114c5ed150b4d885bd3d0ab950c7135c167f654e46013bb17d8c63d0fd",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.hard.0034",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many integers $n$ with $0\\le n\\le 72$ satisfy $\\left\\lfloor\\frac{n}{12}\\right\\rfloor=\\left\\lceil\\frac{n}{24}\\right\\rceil$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$25$"
+      },
+      {
+        "id": "b",
+        "latex": "$23$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$24$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "24",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Check each possible common integer value. The corresponding intervals overlap for $24$ integer values of $n$ in the given range.",
+    "complexity_factor": 1.5,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "counting"
+    ],
+    "checksum": "sha256-6e88a6932488729054437ccebc5df1af45363c6c27094b6334a4308020d8db94",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.hard.0035",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\sum_{k=1}^{47}\\left\\lfloor\\frac{k}{19}\\right\\rfloor$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$39$"
+      },
+      {
+        "id": "b",
+        "latex": "$41$"
+      },
+      {
+        "id": "c",
+        "latex": "$37$"
+      },
+      {
+        "id": "d",
+        "latex": "$59$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "39",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Group the terms by their quotient when divided by $19$. Direct grouping gives the sum $39$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "summation",
+      "counting"
+    ],
+    "checksum": "sha256-fbdd8fd58c755313c9ab22e746693e02af7c5eccfa7631ecfeb62dbe7d083605",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.hard.0036",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many integers $n$ with $0\\le n\\le 62$ satisfy $\\left\\lfloor\\frac{n}{14}\\right\\rfloor=\\left\\lceil\\frac{n}{25}\\right\\rceil$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$32$"
+      },
+      {
+        "id": "c",
+        "latex": "$33$"
+      },
+      {
+        "id": "d",
+        "latex": "$31$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "32",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Check each possible common integer value. The corresponding intervals overlap for $32$ integer values of $n$ in the given range.",
+    "complexity_factor": 1.5,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "counting"
+    ],
+    "checksum": "sha256-5ae4cbfc59c4d4d3224db60d759346b3f4ddd1181fa9e2f1c871f317536f9417",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.hard.0037",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\sum_{k=1}^{24}\\left\\lfloor\\frac{k}{19}\\right\\rfloor$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$15$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Group the terms by their quotient when divided by $19$. Direct grouping gives the sum $6$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "summation",
+      "counting"
+    ],
+    "checksum": "sha256-726550afaff99515c8c10c2d1c4da6ebdd9ef8536638f0283c1bc90ec74883ab",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.hard.0038",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many integers $n$ with $0\\le n\\le 75$ satisfy $\\left\\lfloor\\frac{n}{13}\\right\\rfloor=\\left\\lceil\\frac{n}{26}\\right\\rceil$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$27$"
+      },
+      {
+        "id": "b",
+        "latex": "$25$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$26$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "26",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Check each possible common integer value. The corresponding intervals overlap for $26$ integer values of $n$ in the given range.",
+    "complexity_factor": 1.5,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "counting"
+    ],
+    "checksum": "sha256-51f813a2543affde1af90b63ea82582cb587c3c9d409948c109377399d3c404b",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.hard.0039",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\sum_{k=1}^{36}\\left\\lfloor\\frac{k}{19}\\right\\rfloor$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$18$"
+      },
+      {
+        "id": "b",
+        "latex": "$19$"
+      },
+      {
+        "id": "c",
+        "latex": "$17$"
+      },
+      {
+        "id": "d",
+        "latex": "$35$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "18",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Group the terms by their quotient when divided by $19$. Direct grouping gives the sum $18$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "summation",
+      "counting"
+    ],
+    "checksum": "sha256-8c49b87947c3ac7f1875c55e705f7bd29ee2c0ecac4894ef28150c1f235492a3",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.hard.0040",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many integers $n$ with $0\\le n\\le 65$ satisfy $\\left\\lfloor\\frac{n}{15}\\right\\rfloor=\\left\\lceil\\frac{n}{27}\\right\\rceil$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$34$"
+      },
+      {
+        "id": "c",
+        "latex": "$35$"
+      },
+      {
+        "id": "d",
+        "latex": "$33$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "34",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Check each possible common integer value. The corresponding intervals overlap for $34$ integer values of $n$ in the given range.",
+    "complexity_factor": 1.5,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "counting"
+    ],
+    "checksum": "sha256-5f93b38dcc76eef6f39d8f2d32d7f95d2a4d9c5721d83b372e18dc814fc49518",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.hard.0041",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\sum_{k=1}^{48}\\left\\lfloor\\frac{k}{19}\\right\\rfloor$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$39$"
+      },
+      {
+        "id": "b",
+        "latex": "$61$"
+      },
+      {
+        "id": "c",
+        "latex": "$41$"
+      },
+      {
+        "id": "d",
+        "latex": "$43$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "41",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Group the terms by their quotient when divided by $19$. Direct grouping gives the sum $41$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "summation",
+      "counting"
+    ],
+    "checksum": "sha256-80d47502e469253e574f01992dd9724b2ff85f9cecf0068f81c0c35f11713427",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.hard.0042",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many integers $n$ with $0\\le n\\le 78$ satisfy $\\left\\lfloor\\frac{n}{14}\\right\\rfloor=\\left\\lceil\\frac{n}{28}\\right\\rceil$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$29$"
+      },
+      {
+        "id": "b",
+        "latex": "$27$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$28$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "28",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Check each possible common integer value. The corresponding intervals overlap for $28$ integer values of $n$ in the given range.",
+    "complexity_factor": 1.5,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "counting"
+    ],
+    "checksum": "sha256-220e550fa573f0737cde216184fbf52259121116f48961029e76837d16bc7abb",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.hard.0043",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\sum_{k=1}^{25}\\left\\lfloor\\frac{k}{23}\\right\\rfloor$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$14$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Group the terms by their quotient when divided by $23$. Direct grouping gives the sum $3$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "summation",
+      "counting"
+    ],
+    "checksum": "sha256-4e1dc8d3e898060516467692f38439844871c8ddf4749791f5fa2efedf4c098a",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.hard.0044",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many integers $n$ with $0\\le n\\le 68$ satisfy $\\left\\lfloor\\frac{n}{16}\\right\\rfloor=\\left\\lceil\\frac{n}{29}\\right\\rceil$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$36$"
+      },
+      {
+        "id": "c",
+        "latex": "$37$"
+      },
+      {
+        "id": "d",
+        "latex": "$35$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "36",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Check each possible common integer value. The corresponding intervals overlap for $36$ integer values of $n$ in the given range.",
+    "complexity_factor": 1.5,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "counting"
+    ],
+    "checksum": "sha256-b835e91feec58003c492d3476bbc89b3fb72bf8c7942e47942f814e1de8f165c",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.hard.0045",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\sum_{k=1}^{37}\\left\\lfloor\\frac{k}{23}\\right\\rfloor$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$14$"
+      },
+      {
+        "id": "b",
+        "latex": "$30$"
+      },
+      {
+        "id": "c",
+        "latex": "$15$"
+      },
+      {
+        "id": "d",
+        "latex": "$16$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "15",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Group the terms by their quotient when divided by $23$. Direct grouping gives the sum $15$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "summation",
+      "counting"
+    ],
+    "checksum": "sha256-3683e2a5222a86eb91674273a47f65d4cb404818a9b3f6435ce013a24ff919a8",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.hard.0046",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many integers $n$ with $0\\le n\\le 81$ satisfy $\\left\\lfloor\\frac{n}{15}\\right\\rfloor=\\left\\lceil\\frac{n}{30}\\right\\rceil$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$31$"
+      },
+      {
+        "id": "b",
+        "latex": "$29$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$30$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "30",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Check each possible common integer value. The corresponding intervals overlap for $30$ integer values of $n$ in the given range.",
+    "complexity_factor": 1.5,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "counting"
+    ],
+    "checksum": "sha256-cf9157fe1d817949c89a3514af08ae78a417a0a034616bdabb8b5012eae8515f",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.hard.0047",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\sum_{k=1}^{49}\\left\\lfloor\\frac{k}{23}\\right\\rfloor$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$31$"
+      },
+      {
+        "id": "b",
+        "latex": "$33$"
+      },
+      {
+        "id": "c",
+        "latex": "$29$"
+      },
+      {
+        "id": "d",
+        "latex": "$53$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "31",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Group the terms by their quotient when divided by $23$. Direct grouping gives the sum $31$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "summation",
+      "counting"
+    ],
+    "checksum": "sha256-079d8a9feb384680f75ce4e145fb371883c5979739451edb45ef1318235afa89",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.hard.0048",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many integers $n$ with $0\\le n\\le 71$ satisfy $\\left\\lfloor\\frac{n}{17}\\right\\rfloor=\\left\\lceil\\frac{n}{31}\\right\\rceil$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$38$"
+      },
+      {
+        "id": "c",
+        "latex": "$39$"
+      },
+      {
+        "id": "d",
+        "latex": "$37$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "38",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Check each possible common integer value. The corresponding intervals overlap for $38$ integer values of $n$ in the given range.",
+    "complexity_factor": 1.5,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "counting"
+    ],
+    "checksum": "sha256-d1c3f71d74722c17f08cef9ee8fa7aa5d674c7eddb062eb8ba92fadf25d5b575",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.hard.0049",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\sum_{k=1}^{26}\\left\\lfloor\\frac{k}{23}\\right\\rfloor$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$15$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Group the terms by their quotient when divided by $23$. Direct grouping gives the sum $4$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "summation",
+      "counting"
+    ],
+    "checksum": "sha256-35a4c340ad6d19269736646f02989f2bbe31a21181999fade1f01082893cc778",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.hard.0050",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many integers $n$ with $0\\le n\\le 84$ satisfy $\\left\\lfloor\\frac{n}{16}\\right\\rfloor=\\left\\lceil\\frac{n}{32}\\right\\rceil$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$33$"
+      },
+      {
+        "id": "b",
+        "latex": "$31$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$32$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "32",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Check each possible common integer value. The corresponding intervals overlap for $32$ integer values of $n$ in the given range.",
+    "complexity_factor": 1.5,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "counting"
+    ],
+    "checksum": "sha256-77960ceca044c9d60e80da400b15aab85ae5cf9b59002402f721a1c1b580d730",
+    "status": "valid"
+  }
+]

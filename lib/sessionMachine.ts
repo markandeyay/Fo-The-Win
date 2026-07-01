@@ -1,13 +1,18 @@
 import { roundDurationMs } from "./timing";
+import type { AnswerType } from "./normalizeAnswer";
 
 export interface Problem {
   id: string;
+  topic_id?: string;
+  group_id?: string;
+  difficulty?: "easy" | "medium" | "hard";
   prompt_latex: string;
   answer_format: "mc" | "numeric" | "exact";
   choices?: { id: string; latex: string }[];
   correct_choice?: string;
   correct_answer: string;
-  answer_type: string;
+  answer_type: AnswerType;
+  accepted_forms?: string[];
   solution_latex: string;
   complexity_factor: number;
 }

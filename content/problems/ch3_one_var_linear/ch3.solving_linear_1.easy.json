@@ -1,14 +1,205 @@
 [
   {
+    "id": "ch3.solving_linear_1.easy.0001",
     "topic_id": "ch3.solving_linear_1",
     "group_id": "ch3_one_var_linear",
     "difficulty": "easy",
-    "prompt_latex": "Solve $2x + 5 = 13$.",
+    "prompt_latex": "Solve $\\dfrac{x}{5} = 9$.",
     "answer_format": "mc",
     "choices": [
       {
         "id": "a",
-        "latex": "$4$"
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$40$"
+      },
+      {
+        "id": "c",
+        "latex": "$45$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "45",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Multiply both sides by 5: $x = 45$.",
+    "complexity_factor": 0.85,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-ba7c68b11f794a357e9b42d14a66a1841b158a3cb2051ae27bd35960a4e478f6",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.easy.0002",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $x + 8 = 15$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$15$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Subtract 8 from both sides: $x = 7$.",
+    "complexity_factor": 0.8,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-d2679ca217132194526b3deb9f4cb56da0ddda3850353fa7de9eb2c13cbb8fc8",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.easy.0003",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $7x = 63$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$63$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide both sides by 7: $x = 9$.",
+    "complexity_factor": 0.85,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-c4e7283411b6e515a3fe10ec48cc3125694a4e242692a4bdb48a89b009efa03f",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.easy.0004",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $4x = 8$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide both sides by 4: $x = 2$.",
+    "complexity_factor": 0.85,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-c665c8a7015aeea23bda5ed89c17cb29dae63196db4d87983785c835bf3e8684",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.easy.0005",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $x + 4 = 19$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$15$"
+      },
+      {
+        "id": "b",
+        "latex": "$16$"
+      },
+      {
+        "id": "c",
+        "latex": "$19$"
+      },
+      {
+        "id": "d",
+        "latex": "$-11$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "15",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Subtract 4 from both sides: $x = 15$.",
+    "complexity_factor": 0.8,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-a84eca7a25dbb34b7549c9b35a186dc927c569e9dd7ed6953555757609e090e2",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.easy.0006",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $2x = 18$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
       },
       {
         "id": "b",
@@ -16,40 +207,231 @@
       },
       {
         "id": "c",
-        "latex": "$-4$"
+        "latex": "$8$"
       },
       {
         "id": "d",
-        "latex": "$1$"
+        "latex": "$18$"
       }
     ],
-    "correct_choice": "a",
-    "correct_answer": "4",
+    "correct_choice": "b",
+    "correct_answer": "9",
     "answer_type": "integer",
-    "solution_latex": "Subtract 5: $2x = 8$. Divide by 2: $x = 4$.",
-    "complexity_factor": 0.9,
+    "accepted_forms": [],
+    "solution_latex": "Divide both sides by 2: $x = 9$.",
+    "complexity_factor": 0.85,
     "source_section": "3.1",
     "tags": [
       "linear_equations"
     ],
-    "id": "ch3.solving_linear_1.easy.0001",
-    "checksum": "sha256-2b7d0f1e75ed5fc630e57d11acb62e4d1c70428bdbb00b3888049447b6b0cf7f",
+    "checksum": "sha256-13163024d18d4b0d6a35f5e693c2bff46f3fe7926fe93920248284e7b4e99b86",
     "status": "valid"
   },
   {
+    "id": "ch3.solving_linear_1.easy.0007",
     "topic_id": "ch3.solving_linear_1",
     "group_id": "ch3_one_var_linear",
     "difficulty": "easy",
-    "prompt_latex": "Solve $3x - 7 = 8$.",
+    "prompt_latex": "Solve $10x = 100$.",
     "answer_format": "mc",
     "choices": [
       {
         "id": "a",
-        "latex": "$5$"
+        "latex": "$100$"
       },
       {
         "id": "b",
-        "latex": "$1$"
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide both sides by 10: $x = 10$.",
+    "complexity_factor": 0.85,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-7dca19c79f25f455d7b2b01f2978263328062410f195aa857af88318ae77b013",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.easy.0008",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\dfrac{x}{4} = 12$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12$"
+      },
+      {
+        "id": "b",
+        "latex": "$48$"
+      },
+      {
+        "id": "c",
+        "latex": "$13$"
+      },
+      {
+        "id": "d",
+        "latex": "$44$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "48",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Multiply both sides by 4: $x = 48$.",
+    "complexity_factor": 0.85,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-9f7309e769d194c8bfbb1813f5f75a6a301f5f430e5696bff0b6a2d8a3f936f9",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.easy.0009",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $x - 12 = 5$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$17$"
+      },
+      {
+        "id": "b",
+        "latex": "$29$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$16$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "17",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add 12 to both sides: $x = 17$.",
+    "complexity_factor": 0.8,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-95ab489b672d22631b31f5843f060250061d5c2f9455ba553a3d189066a610cc",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.easy.0010",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $x - 7 = 13$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$13$"
+      },
+      {
+        "id": "b",
+        "latex": "$19$"
+      },
+      {
+        "id": "c",
+        "latex": "$27$"
+      },
+      {
+        "id": "d",
+        "latex": "$20$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "20",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add 7 to both sides: $x = 20$.",
+    "complexity_factor": 0.8,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-45418e349685b281beb826caf97161d67325466559e3d3d6a2b62c97ff726e4c",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.easy.0011",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\dfrac{x}{8} = 12$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$13$"
+      },
+      {
+        "id": "b",
+        "latex": "$12$"
+      },
+      {
+        "id": "c",
+        "latex": "$88$"
+      },
+      {
+        "id": "d",
+        "latex": "$96$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "96",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Multiply both sides by 8: $x = 96$.",
+    "complexity_factor": 0.85,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-4578b7d2f77bb719dbce10db631aa17bd26b9b009bf252fc5a33b5e175d5893c",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.easy.0012",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $x + 11 = 27$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$27$"
+      },
+      {
+        "id": "b",
+        "latex": "$16$"
       },
       {
         "id": "c",
@@ -57,27 +439,104 @@
       },
       {
         "id": "d",
-        "latex": "$15$"
+        "latex": "$17$"
       }
     ],
-    "correct_choice": "a",
-    "correct_answer": "5",
+    "correct_choice": "b",
+    "correct_answer": "16",
     "answer_type": "integer",
-    "solution_latex": "Add 7: $3x = 15$. Divide by 3: $x = 5$.",
-    "complexity_factor": 0.9,
+    "accepted_forms": [],
+    "solution_latex": "Subtract 11 from both sides: $x = 16$.",
+    "complexity_factor": 0.8,
     "source_section": "3.1",
     "tags": [
       "linear_equations"
     ],
-    "id": "ch3.solving_linear_1.easy.0002",
-    "checksum": "sha256-ba4bf457c61a4ba8ba4e88cb24ccad869538f139b36051c2ec2c9bddd8edee22",
+    "checksum": "sha256-6754f23b182ad3fa8910459e153b599b1e779d64b2ef15fc388d9700e0a109af",
     "status": "valid"
   },
   {
+    "id": "ch3.solving_linear_1.easy.0013",
     "topic_id": "ch3.solving_linear_1",
     "group_id": "ch3_one_var_linear",
     "difficulty": "easy",
-    "prompt_latex": "Solve $5(x + 2) = 25$.",
+    "prompt_latex": "Solve $3x = 21$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$21$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide both sides by 3: $x = 7$.",
+    "complexity_factor": 0.85,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-27b5858308f466a3622541766399756874646c28f1833536782cb4501ad6e658",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.easy.0014",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $x - 9 = -1$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$17$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add 9 to both sides: $x = 8$.",
+    "complexity_factor": 0.8,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-ffa6e3fc4aeeea4ac5fe465f9612bf7377d7fbfc3df603342d32d0b673dc941f",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.easy.0015",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $6x = 12$.",
     "answer_format": "mc",
     "choices": [
       {
@@ -86,11 +545,467 @@
       },
       {
         "id": "b",
+        "latex": "$12$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide both sides by 6: $x = 2$.",
+    "complexity_factor": 0.85,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-c2c276b9fa857ab09d9b2f95c45f6e2ccea11150afa01952b762b34485cb40e8",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.easy.0016",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\dfrac{x}{4} = 3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Multiply both sides by 4: $x = 12$.",
+    "complexity_factor": 0.85,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-e91a657d4aa6cc4006651d694172a2e7a024a3c0d2e8735ba17aeb0ccc789830",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.easy.0017",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $x + 15 = 23$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$23$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Subtract 15 from both sides: $x = 8$.",
+    "complexity_factor": 0.8,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-07331e92a1b25244fc39998e74f4bb22a2103f2c382798e88f92ec82963153fd",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.easy.0018",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $x - 6 = 3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$15$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add 6 to both sides: $x = 9$.",
+    "complexity_factor": 0.8,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-2868cb65901949ed782f02a3fd666bc903a96a1de50719f2eaa24919d0761b1e",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.easy.0019",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $x - 14 = -1$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12$"
+      },
+      {
+        "id": "b",
+        "latex": "$13$"
+      },
+      {
+        "id": "c",
+        "latex": "$27$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "13",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add 14 to both sides: $x = 13$.",
+    "complexity_factor": 0.8,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-aa3666b830c9d8b42f1125c52ed6d5907309b113377f7c1b8710db9ab48403cd",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.easy.0020",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $x + 5 = 25$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$25$"
+      },
+      {
+        "id": "b",
+        "latex": "$-15$"
+      },
+      {
+        "id": "c",
+        "latex": "$21$"
+      },
+      {
+        "id": "d",
+        "latex": "$20$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "20",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Subtract 5 from both sides: $x = 20$.",
+    "complexity_factor": 0.8,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-546998f0a6cc7f246d3637d8e3b57afd6c7bc470b8dcd80d0553426ed778cd51",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.easy.0021",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $10x = 80$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
         "latex": "$7$"
       },
       {
         "id": "c",
-        "latex": "$5$"
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$80$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide both sides by 10: $x = 8$.",
+    "complexity_factor": 0.85,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-84a5440f5ee724e6b94d991d3e043473c44432e4bc10d1f9adad9dae859fa430",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.easy.0022",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\dfrac{x}{7} = 8$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$49$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$56$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "56",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Multiply both sides by 7: $x = 56$.",
+    "complexity_factor": 0.85,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-888d45194a07f081737cb2aaa40db9075abc92a813803f4f4d56ed8842eb51a6",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.easy.0023",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $x + 11 = 30$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$20$"
+      },
+      {
+        "id": "b",
+        "latex": "$30$"
+      },
+      {
+        "id": "c",
+        "latex": "$19$"
+      },
+      {
+        "id": "d",
+        "latex": "$-8$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "19",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Subtract 11 from both sides: $x = 19$.",
+    "complexity_factor": 0.8,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-429c6991240973902ccc8785389b55866f6189cd00bdb975f938eedbf886f72e",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.easy.0024",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\dfrac{x}{8} = 8$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$56$"
+      },
+      {
+        "id": "d",
+        "latex": "$64$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "64",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Multiply both sides by 8: $x = 64$.",
+    "complexity_factor": 0.85,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-02453ff597c3e9e3259e24f0c114d6db514f5d58c87e917cfdfcf5fe0b4149a0",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.easy.0025",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\dfrac{x}{2} = 6$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Multiply both sides by 2: $x = 12$.",
+    "complexity_factor": 0.85,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-ffaaf080b0f2f26f6e34091d3e8daf6bce363bbce7ce1b40b59abae213175451",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.easy.0026",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\dfrac{x}{4} = 9$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$32$"
+      },
+      {
+        "id": "c",
+        "latex": "$36$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "36",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Multiply both sides by 4: $x = 36$.",
+    "complexity_factor": 0.85,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-469b42674a8cbd88352d6720c36ed88ad05c1e5d0ef2df1e4c5cacbc3939d5b9",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.easy.0027",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $x + 7 = 17$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$17$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
       },
       {
         "id": "d",
@@ -98,16 +1013,890 @@
       }
     ],
     "correct_choice": "a",
-    "correct_answer": "3",
+    "correct_answer": "10",
     "answer_type": "integer",
-    "solution_latex": "Divide by 5: $x + 2 = 5$. Subtract 2: $x = 3$.",
-    "complexity_factor": 0.9,
+    "accepted_forms": [],
+    "solution_latex": "Subtract 7 from both sides: $x = 10$.",
+    "complexity_factor": 0.8,
     "source_section": "3.1",
     "tags": [
       "linear_equations"
     ],
-    "id": "ch3.solving_linear_1.easy.0003",
-    "checksum": "sha256-aa589b50fd782c782ba7a5f0fd8ae6f813504e6b2fd12cd17a7ba664f7cc5a2a",
+    "checksum": "sha256-de9a0b1fdf42a9eb90283f719e3ebb0f56ebbcc9ba0be8fd129da0d0cd7dbd4f",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.easy.0028",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\dfrac{x}{3} = 9$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$27$"
+      },
+      {
+        "id": "c",
+        "latex": "$24$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "27",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Multiply both sides by 3: $x = 27$.",
+    "complexity_factor": 0.85,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-72d159f52813f10fe43452adaa90897f8fc3f565fc2cd015a7bcc3e340054fd5",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.easy.0029",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\dfrac{x}{4} = 11$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11$"
+      },
+      {
+        "id": "b",
+        "latex": "$44$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$40$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "44",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Multiply both sides by 4: $x = 44$.",
+    "complexity_factor": 0.85,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-92af4e0b8fee9cc6ff0326fa811858971c225b10ed12fca557b5dbcba03e4c53",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.easy.0030",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $8x = 8$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide both sides by 8: $x = 1$.",
+    "complexity_factor": 0.85,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-dcbfb4bd14dc13cf67f194a8776d5e0d03e1dd06e808b91b62c64afc78bb75ba",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.easy.0031",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $7x = 49$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$49$"
+      },
+      {
+        "id": "b",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide both sides by 7: $x = 7$.",
+    "complexity_factor": 0.85,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-40a27769071d4e18ec4f3d00927c7d6d21a5e30725127d3ffc4f6ce05ea59872",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.easy.0032",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $5x = 40$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$40$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide both sides by 5: $x = 8$.",
+    "complexity_factor": 0.85,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-57f98203ba949f0728d4d59c54dbc7446253e5a538caec1b8698fafa06f01fc3",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.easy.0033",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $x + 13 = 25$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$13$"
+      },
+      {
+        "id": "b",
+        "latex": "$12$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$25$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Subtract 13 from both sides: $x = 12$.",
+    "complexity_factor": 0.8,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-8cd7fcef8e8623370519e9e7015327a7cda2a21d2af58504bb1eb884848d2e8b",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.easy.0034",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\dfrac{x}{7} = 7$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$42$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$49$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "49",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Multiply both sides by 7: $x = 49$.",
+    "complexity_factor": 0.85,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-9aaab521bd208f0df2f44e75204dd8ae39dd785d75d57e575d4c7dd93627740b",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.easy.0035",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $x - 14 = 2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$15$"
+      },
+      {
+        "id": "b",
+        "latex": "$16$"
+      },
+      {
+        "id": "c",
+        "latex": "$30$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "16",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add 14 to both sides: $x = 16$.",
+    "complexity_factor": 0.8,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-413d245c91f689f338d8c52b4e0e8e38bf26bf4ed318c5fc1947c7d6a306d36a",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.easy.0036",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\dfrac{x}{8} = 5$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$40$"
+      },
+      {
+        "id": "b",
+        "latex": "$32$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "40",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Multiply both sides by 8: $x = 40$.",
+    "complexity_factor": 0.85,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-ce5ac2db6e06a39a1b49f51ca1a1705211dc57b468713e3247391a43b4a1fa3f",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.easy.0037",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $x - 8 = -3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$13$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add 8 to both sides: $x = 5$.",
+    "complexity_factor": 0.8,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-c17255a86223a40fa7ad8ce901f2b22bdee98231dca77cea2c2a8d7d1d9c81a2",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.easy.0038",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\dfrac{x}{5} = 2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Multiply both sides by 5: $x = 10$.",
+    "complexity_factor": 0.85,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-9d95aaca0629895cb65033612f2bd335ddf6ed803cdba5c958bf9f9a9a41929e",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.easy.0039",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $x + 3 = 12$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$-6$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Subtract 3 from both sides: $x = 9$.",
+    "complexity_factor": 0.8,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-6622cbfc91a99ce7d3df88ed4919833d3408c99749049e04a1b6274f90e32573",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.easy.0040",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $8x = 56$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$56$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide both sides by 8: $x = 7$.",
+    "complexity_factor": 0.85,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-f639f730f1d1ad4bf33127675dac8e8364af85f69ff92d745e52a204736d512c",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.easy.0041",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $x - 7 = 6$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$20$"
+      },
+      {
+        "id": "b",
+        "latex": "$12$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$13$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "13",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add 7 to both sides: $x = 13$.",
+    "complexity_factor": 0.8,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-63109a3b16b0705946e0577151274130f638732c1a04670507a6b060be96afc9",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.easy.0042",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\dfrac{x}{5} = 8$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$40$"
+      },
+      {
+        "id": "c",
+        "latex": "$35$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "40",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Multiply both sides by 5: $x = 40$.",
+    "complexity_factor": 0.85,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-18feeebdbf78eafa292ebc7666f2a61fb25b96830161af9290d24db2646f7b7f",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.easy.0043",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\dfrac{x}{2} = 10$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$11$"
+      },
+      {
+        "id": "c",
+        "latex": "$18$"
+      },
+      {
+        "id": "d",
+        "latex": "$20$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "20",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Multiply both sides by 2: $x = 20$.",
+    "complexity_factor": 0.85,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-0a3c451454cb9ace46db0aa2935f4d6405a49c88581bc5d8b399b1ba8c2ed6ac",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.easy.0044",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $11x = 99$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$99$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide both sides by 11: $x = 9$.",
+    "complexity_factor": 0.85,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-417fbf914ace898abf5331d6c255ac9fef9d4c077133ac70aafcb228b9c6fc17",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.easy.0045",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $x + 10 = 14$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$14$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Subtract 10 from both sides: $x = 4$.",
+    "complexity_factor": 0.8,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-661b85d3489a50947ea0b131d7204efcb4b4aa5200c69de9f30f44195465dca4",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.easy.0046",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $12x = 144$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$144$"
+      },
+      {
+        "id": "b",
+        "latex": "$13$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide both sides by 12: $x = 12$.",
+    "complexity_factor": 0.85,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-95f7a8a001050fbdc9dbef91261af57070d25cf50cc621b5dace36846280bbd6",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.easy.0047",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $6x = 66$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$12$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$66$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "11",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide both sides by 6: $x = 11$.",
+    "complexity_factor": 0.85,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-50b60dbc38559b0cc68b7233b26bb2c70df4c6b92c191812624446bae47f113f",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.easy.0048",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\dfrac{x}{6} = 6$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$36$"
+      },
+      {
+        "id": "d",
+        "latex": "$30$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "36",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Multiply both sides by 6: $x = 36$.",
+    "complexity_factor": 0.85,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-62c8671279b2cdeef1404e7b65d4d0a6542c307d2687c6917c0f0ba118354ef6",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.easy.0049",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $x + 7 = 14$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$14$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Subtract 7 from both sides: $x = 7$.",
+    "complexity_factor": 0.8,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-5532de505c4210c668a6ffc99c91e88c5981d09216a131406fa115d8931bd8ce",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.easy.0050",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $2x = 20$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$20$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide both sides by 2: $x = 10$.",
+    "complexity_factor": 0.85,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-b55eba489405d70b53832e993d451a0707e1b7f26041ad294fe80cb700a77384",
     "status": "valid"
   }
 ]

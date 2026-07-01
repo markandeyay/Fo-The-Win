@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "ch8.slope_in_problems.medium.0001",
+    "topic_id": "ch8.slope_in_problems",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Find the slope of the line through $(-6, -8)$ and $(0, -5)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\frac{2}{1}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{1}{2}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{2}{3}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{-1}{2}$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1/2",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Using $m=\\frac{y_2-y_1}{x_2-x_1}$ gives $m=\\frac{-5--8}{0--6}=\\frac{1}{2}$.",
+    "complexity_factor": 1.15,
+    "source_section": "8.3",
+    "tags": [
+      "slope",
+      "coordinate-plane"
+    ],
+    "checksum": "sha256-85c85bad0b5e51488c81a0e334194fda80eef22bd60cee3422254f160b46e2e3",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_in_problems.medium.0002",
+    "topic_id": "ch8.slope_in_problems",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "The slope from $(-5, -5)$ to $(-2, y)$ is $-2$. What is $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11$"
+      },
+      {
+        "id": "b",
+        "latex": "$-11$"
+      },
+      {
+        "id": "c",
+        "latex": "$-10$"
+      },
+      {
+        "id": "d",
+        "latex": "$-12$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-11",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $-2=\\frac{y--5}{-2--5}$. Thus $y--5=-6$, so $y=-11$.",
+    "complexity_factor": 1.16,
+    "source_section": "8.3",
+    "tags": [
+      "slope",
+      "unknown-coordinate"
+    ],
+    "checksum": "sha256-4b69d14ee3d05f5a5da18aec28e1ce8bba47621777dc1b9f7ea17a817742ef20",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_in_problems.medium.0003",
+    "topic_id": "ch8.slope_in_problems",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A reading graph shows $21$ pages read in $5$ minutes. What is the slope in pages per minute?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\frac{21}{5}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{5}{21}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{-21}{5}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{22}{5}$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "21/5",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Slope is rate of change: $\\frac{21}{5}=\\frac{21}{5}$ pages per minute.",
+    "complexity_factor": 1.15,
+    "source_section": "8.3",
+    "tags": [
+      "slope",
+      "rate"
+    ],
+    "checksum": "sha256-ab97d28b46ac8d3b7e5728cf7c00c2ba1ee6a8136b2714afeed403b01aaa557d",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_in_problems.medium.0004",
+    "topic_id": "ch8.slope_in_problems",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A line has slope $\\frac{-7}{3}$. If $x$ increases by $6$, by how much does $y$ change?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-14$"
+      },
+      {
+        "id": "b",
+        "latex": "$-13$"
+      },
+      {
+        "id": "c",
+        "latex": "$-15$"
+      },
+      {
+        "id": "d",
+        "latex": "$14$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-14",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{\\Delta y}{\\Delta x}=\\frac{-7}{3}$, $\\Delta y=\\frac{-7}{3}(6)=-14$.",
+    "complexity_factor": 1.15,
+    "source_section": "8.3",
+    "tags": [
+      "slope",
+      "rate-of-change"
+    ],
+    "checksum": "sha256-6538163bbeedc839aca9097a1782c523d354c8ff372a997ba728c1675f15890c",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_in_problems.medium.0005",
+    "topic_id": "ch8.slope_in_problems",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A staircase line goes through consecutive lattice points $(-2, 4)$ and $(-1, 2)$. What is the slope?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The rise is $2-4=-2$ and the run is $1$, so the slope is $-2$.",
+    "complexity_factor": 1.12,
+    "source_section": "8.3",
+    "tags": [
+      "slope",
+      "lattice-points"
+    ],
+    "checksum": "sha256-c61476e81a718f695c8448c77d002b5135b4e11b0a2b67b11988ff85b316b3c7",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_in_problems.medium.0006",
+    "topic_id": "ch8.slope_in_problems",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Find the slope of the line through $(-1, -6)$ and $(3, 3)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\frac{5}{2}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{4}{9}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{9}{4}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{-9}{4}$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "9/4",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Using $m=\\frac{y_2-y_1}{x_2-x_1}$ gives $m=\\frac{3--6}{3--1}=\\frac{9}{4}$.",
+    "complexity_factor": 1.15,
+    "source_section": "8.3",
+    "tags": [
+      "slope",
+      "coordinate-plane"
+    ],
+    "checksum": "sha256-c61e38d0bb9989a894ad50134fc0a57ec0b751f9776c099307d3293d4f282e22",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_in_problems.medium.0007",
+    "topic_id": "ch8.slope_in_problems",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "The slope from $(0, -3)$ to $(2, y)$ is $-3$. What is $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-8$"
+      },
+      {
+        "id": "b",
+        "latex": "$-10$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$-9$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $-3=\\frac{y--3}{2-0}$. Thus $y--3=-6$, so $y=-9$.",
+    "complexity_factor": 1.16,
+    "source_section": "8.3",
+    "tags": [
+      "slope",
+      "unknown-coordinate"
+    ],
+    "checksum": "sha256-cd641639c0717e15df1492a443b2be6be2fbe49cfdf6d97b7f684146b8f0ab9b",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_in_problems.medium.0008",
+    "topic_id": "ch8.slope_in_problems",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A reading graph shows $36$ pages read in $4$ minutes. What is the slope in pages per minute?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\frac{37}{4}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{9}{1}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{1}{9}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{-9}{1}$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "9/1",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Slope is rate of change: $\\frac{36}{4}=\\frac{9}{1}$ pages per minute.",
+    "complexity_factor": 1.15,
+    "source_section": "8.3",
+    "tags": [
+      "slope",
+      "rate"
+    ],
+    "checksum": "sha256-c0ace5527899c470e527f12b6470cfe0accfc9cd7963f60daf5c7a2319ab3b99",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_in_problems.medium.0009",
+    "topic_id": "ch8.slope_in_problems",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A line has slope $\\frac{-3}{7}$. If $x$ increases by $28$, by how much does $y$ change?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-11$"
+      },
+      {
+        "id": "b",
+        "latex": "$-13$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$-12$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{\\Delta y}{\\Delta x}=\\frac{-3}{7}$, $\\Delta y=\\frac{-3}{7}(28)=-12$.",
+    "complexity_factor": 1.15,
+    "source_section": "8.3",
+    "tags": [
+      "slope",
+      "rate-of-change"
+    ],
+    "checksum": "sha256-832e28d4a17e7975be2d5feee270095b7ba00d3f7275913f75fe1e2df03a13a8",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_in_problems.medium.0010",
+    "topic_id": "ch8.slope_in_problems",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A staircase line goes through consecutive lattice points $(-6, -7)$ and $(-5, -4)$. What is the slope?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The rise is $-4--7=3$ and the run is $1$, so the slope is $3$.",
+    "complexity_factor": 1.12,
+    "source_section": "8.3",
+    "tags": [
+      "slope",
+      "lattice-points"
+    ],
+    "checksum": "sha256-a41f762c3552467bb8c752ece3362defb1dfc2ac669377311dc1fe304d67d34a",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_in_problems.medium.0011",
+    "topic_id": "ch8.slope_in_problems",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Find the slope of the line through $(-5, -4)$ and $(-1, -13)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\frac{-9}{4}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{9}{4}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{-2}{1}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{-4}{9}$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-9/4",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Using $m=\\frac{y_2-y_1}{x_2-x_1}$ gives $m=\\frac{-13--4}{-1--5}=\\frac{-9}{4}$.",
+    "complexity_factor": 1.15,
+    "source_section": "8.3",
+    "tags": [
+      "slope",
+      "coordinate-plane"
+    ],
+    "checksum": "sha256-47a1de4aa08b63ba9b7d4ba16783fcf66f636b38bed79618671c474d835e3b4b",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_in_problems.medium.0012",
+    "topic_id": "ch8.slope_in_problems",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "The slope from $(-4, -1)$ to $(0, y)$ is $-2$. What is $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-9$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$-8$"
+      },
+      {
+        "id": "d",
+        "latex": "$-10$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $-2=\\frac{y--1}{0--4}$. Thus $y--1=-8$, so $y=-9$.",
+    "complexity_factor": 1.16,
+    "source_section": "8.3",
+    "tags": [
+      "slope",
+      "unknown-coordinate"
+    ],
+    "checksum": "sha256-a7f81d18c4804da0a8c9ede70de0fba80402a4d923e8ec6d0549f2a6e85ed71b",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_in_problems.medium.0013",
+    "topic_id": "ch8.slope_in_problems",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A reading graph shows $24$ pages read in $3$ minutes. What is the slope in pages per minute?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\frac{8}{1}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{-8}{1}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{1}{8}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{25}{3}$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "8/1",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Slope is rate of change: $\\frac{24}{3}=\\frac{8}{1}$ pages per minute.",
+    "complexity_factor": 1.15,
+    "source_section": "8.3",
+    "tags": [
+      "slope",
+      "rate"
+    ],
+    "checksum": "sha256-1f28ac815cd442b6daceaad5cc13b903b38cf24894a46e49ae7a14cf0768f554",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_in_problems.medium.0014",
+    "topic_id": "ch8.slope_in_problems",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A line has slope $\\frac{-7}{4}$. If $x$ increases by $12$, by how much does $y$ change?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-21$"
+      },
+      {
+        "id": "b",
+        "latex": "$-22$"
+      },
+      {
+        "id": "c",
+        "latex": "$21$"
+      },
+      {
+        "id": "d",
+        "latex": "$-20$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-21",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{\\Delta y}{\\Delta x}=\\frac{-7}{4}$, $\\Delta y=\\frac{-7}{4}(12)=-21$.",
+    "complexity_factor": 1.15,
+    "source_section": "8.3",
+    "tags": [
+      "slope",
+      "rate-of-change"
+    ],
+    "checksum": "sha256-f35471aca09bfee55e77bbfdc49f99b704f73b1edf4976eb5c7b42b31c49f092",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_in_problems.medium.0015",
+    "topic_id": "ch8.slope_in_problems",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A staircase line goes through consecutive lattice points $(-1, -5)$ and $(0, -2)$. What is the slope?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The rise is $-2--5=3$ and the run is $1$, so the slope is $3$.",
+    "complexity_factor": 1.12,
+    "source_section": "8.3",
+    "tags": [
+      "slope",
+      "lattice-points"
+    ],
+    "checksum": "sha256-7e21b4a7998e980c2b082fff32489825676cb45540ea32f98145fe12b945a5a0",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_in_problems.medium.0016",
+    "topic_id": "ch8.slope_in_problems",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Find the slope of the line through $(0, -2)$ and $(5, 7)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\frac{2}{1}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{5}{9}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{-9}{5}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{9}{5}$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "9/5",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Using $m=\\frac{y_2-y_1}{x_2-x_1}$ gives $m=\\frac{7--2}{5-0}=\\frac{9}{5}$.",
+    "complexity_factor": 1.15,
+    "source_section": "8.3",
+    "tags": [
+      "slope",
+      "coordinate-plane"
+    ],
+    "checksum": "sha256-d6df9121069c576093f448ec159cf9a05d6851a89af892c4a05f22395cfe5621",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_in_problems.medium.0017",
+    "topic_id": "ch8.slope_in_problems",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "The slope from $(1, 1)$ to $(5, y)$ is $2$. What is $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$-9$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $2=\\frac{y-1}{5-1}$. Thus $y-1=8$, so $y=9$.",
+    "complexity_factor": 1.16,
+    "source_section": "8.3",
+    "tags": [
+      "slope",
+      "unknown-coordinate"
+    ],
+    "checksum": "sha256-d40f216776d5c47af8e803b958eb9883a4fe31d5044d795c5d00f6cfbd9afc6c",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_in_problems.medium.0018",
+    "topic_id": "ch8.slope_in_problems",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A reading graph shows $39$ pages read in $8$ minutes. What is the slope in pages per minute?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\frac{8}{39}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{5}{1}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{39}{8}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{-39}{8}$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "39/8",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Slope is rate of change: $\\frac{39}{8}=\\frac{39}{8}$ pages per minute.",
+    "complexity_factor": 1.15,
+    "source_section": "8.3",
+    "tags": [
+      "slope",
+      "rate"
+    ],
+    "checksum": "sha256-c8412a6443d3f1eb11aefca27a9db08ef14f2dd19b55e9eec708bad3e69c618e",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_in_problems.medium.0019",
+    "topic_id": "ch8.slope_in_problems",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A line has slope $\\frac{9}{2}$. If $x$ increases by $4$, by how much does $y$ change?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$17$"
+      },
+      {
+        "id": "b",
+        "latex": "$19$"
+      },
+      {
+        "id": "c",
+        "latex": "$-18$"
+      },
+      {
+        "id": "d",
+        "latex": "$18$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "18",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{\\Delta y}{\\Delta x}=\\frac{9}{2}$, $\\Delta y=\\frac{9}{2}(4)=18$.",
+    "complexity_factor": 1.15,
+    "source_section": "8.3",
+    "tags": [
+      "slope",
+      "rate-of-change"
+    ],
+    "checksum": "sha256-ccc2ad1efb7d0ee78a997a7ec906f59403638f556341c42475d007d113e3061f",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_in_problems.medium.0020",
+    "topic_id": "ch8.slope_in_problems",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A staircase line goes through consecutive lattice points $(-5, -3)$ and $(-4, -5)$. What is the slope?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The rise is $-5--3=-2$ and the run is $1$, so the slope is $-2$.",
+    "complexity_factor": 1.12,
+    "source_section": "8.3",
+    "tags": [
+      "slope",
+      "lattice-points"
+    ],
+    "checksum": "sha256-cb5c5340fbf93ec562a57d776ad40b1b50819e4046ccbfb8716267e9d324c484",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_in_problems.medium.0021",
+    "topic_id": "ch8.slope_in_problems",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Find the slope of the line through $(-4, 0)$ and $(2, -9)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\frac{-2}{3}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{-4}{3}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{3}{2}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{-3}{2}$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-3/2",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Using $m=\\frac{y_2-y_1}{x_2-x_1}$ gives $m=\\frac{-9-0}{2--4}=\\frac{-3}{2}$.",
+    "complexity_factor": 1.15,
+    "source_section": "8.3",
+    "tags": [
+      "slope",
+      "coordinate-plane"
+    ],
+    "checksum": "sha256-094640658473e60df8eb463a74bf2e38220859f87ab30ca9c87d58e2aea10cb6",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_in_problems.medium.0022",
+    "topic_id": "ch8.slope_in_problems",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "The slope from $(-3, 3)$ to $(-1, y)$ is $4$. What is $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-11$"
+      },
+      {
+        "id": "b",
+        "latex": "$12$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$11$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "11",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $4=\\frac{y-3}{-1--3}$. Thus $y-3=8$, so $y=11$.",
+    "complexity_factor": 1.16,
+    "source_section": "8.3",
+    "tags": [
+      "slope",
+      "unknown-coordinate"
+    ],
+    "checksum": "sha256-7de489f818ece12224d33e73a29670bb4723903e12cd42d8314deb005b499803",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_in_problems.medium.0023",
+    "topic_id": "ch8.slope_in_problems",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A reading graph shows $27$ pages read in $7$ minutes. What is the slope in pages per minute?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\frac{7}{27}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{-27}{7}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{4}{1}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{27}{7}$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "27/7",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Slope is rate of change: $\\frac{27}{7}=\\frac{27}{7}$ pages per minute.",
+    "complexity_factor": 1.15,
+    "source_section": "8.3",
+    "tags": [
+      "slope",
+      "rate"
+    ],
+    "checksum": "sha256-5eb0b8f2f8ba972364ebc852ba5c4091e9950c0b5aebc92efeb3613faf7a3315",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_in_problems.medium.0024",
+    "topic_id": "ch8.slope_in_problems",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A line has slope $\\frac{4}{7}$. If $x$ increases by $28$, by how much does $y$ change?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$17$"
+      },
+      {
+        "id": "b",
+        "latex": "$16$"
+      },
+      {
+        "id": "c",
+        "latex": "$-16$"
+      },
+      {
+        "id": "d",
+        "latex": "$15$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "16",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{\\Delta y}{\\Delta x}=\\frac{4}{7}$, $\\Delta y=\\frac{4}{7}(28)=16$.",
+    "complexity_factor": 1.15,
+    "source_section": "8.3",
+    "tags": [
+      "slope",
+      "rate-of-change"
+    ],
+    "checksum": "sha256-50b9a5b21c051ab682fc74b36fb18c15e1112ff702d7a900b55ea88d7e2c29ef",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_in_problems.medium.0025",
+    "topic_id": "ch8.slope_in_problems",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A staircase line goes through consecutive lattice points $(0, -1)$ and $(1, 2)$. What is the slope?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The rise is $2--1=3$ and the run is $1$, so the slope is $3$.",
+    "complexity_factor": 1.12,
+    "source_section": "8.3",
+    "tags": [
+      "slope",
+      "lattice-points"
+    ],
+    "checksum": "sha256-21a49512092a19bafdd5bcfd0845fc743f6dff19c98bcadd866f9c601071806f",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_in_problems.medium.0026",
+    "topic_id": "ch8.slope_in_problems",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Find the slope of the line through $(1, 2)$ and $(6, -5)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\frac{-6}{5}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{7}{5}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{-7}{5}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{-5}{7}$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-7/5",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Using $m=\\frac{y_2-y_1}{x_2-x_1}$ gives $m=\\frac{-5-2}{6-1}=\\frac{-7}{5}$.",
+    "complexity_factor": 1.15,
+    "source_section": "8.3",
+    "tags": [
+      "slope",
+      "coordinate-plane"
+    ],
+    "checksum": "sha256-ffbaf99cfd0b94195848028b511c159489ae1a103380640151b56a8a7b3133a3",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_in_problems.medium.0027",
+    "topic_id": "ch8.slope_in_problems",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "The slope from $(2, -8)$ to $(4, y)$ is $-1$. What is $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-10$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$-11$"
+      },
+      {
+        "id": "d",
+        "latex": "$-9$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $-1=\\frac{y--8}{4-2}$. Thus $y--8=-2$, so $y=-10$.",
+    "complexity_factor": 1.16,
+    "source_section": "8.3",
+    "tags": [
+      "slope",
+      "unknown-coordinate"
+    ],
+    "checksum": "sha256-54f3e1c3981febea30b599eb4cfc833d07f2128807d7cdde293645ba6f587dab",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_in_problems.medium.0028",
+    "topic_id": "ch8.slope_in_problems",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A reading graph shows $15$ pages read in $6$ minutes. What is the slope in pages per minute?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\frac{5}{2}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{-5}{2}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{2}{5}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{8}{3}$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "5/2",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Slope is rate of change: $\\frac{15}{6}=\\frac{5}{2}$ pages per minute.",
+    "complexity_factor": 1.15,
+    "source_section": "8.3",
+    "tags": [
+      "slope",
+      "rate"
+    ],
+    "checksum": "sha256-4676750eb547bcb80eec4a35ce1d8167cef9965bad5ddcf9c0df91d808600a6b",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_in_problems.medium.0029",
+    "topic_id": "ch8.slope_in_problems",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A line has slope $\\frac{5}{6}$. If $x$ increases by $18$, by how much does $y$ change?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-15$"
+      },
+      {
+        "id": "b",
+        "latex": "$14$"
+      },
+      {
+        "id": "c",
+        "latex": "$15$"
+      },
+      {
+        "id": "d",
+        "latex": "$16$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "15",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{\\Delta y}{\\Delta x}=\\frac{5}{6}$, $\\Delta y=\\frac{5}{6}(18)=15$.",
+    "complexity_factor": 1.15,
+    "source_section": "8.3",
+    "tags": [
+      "slope",
+      "rate-of-change"
+    ],
+    "checksum": "sha256-b049d040fb8b69f84c495f871d30b8baa10fc5bc4219265fa921a3eaac60c41e",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_in_problems.medium.0030",
+    "topic_id": "ch8.slope_in_problems",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A staircase line goes through consecutive lattice points $(-4, 1)$ and $(-3, 4)$. What is the slope?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The rise is $4-1=3$ and the run is $1$, so the slope is $3$.",
+    "complexity_factor": 1.12,
+    "source_section": "8.3",
+    "tags": [
+      "slope",
+      "lattice-points"
+    ],
+    "checksum": "sha256-998b93c093d6bf2e46e67d9f40d1fda392379d358c747545c189c018a8910af9",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_in_problems.medium.0031",
+    "topic_id": "ch8.slope_in_problems",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Find the slope of the line through $(-3, 4)$ and $(3, 11)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\frac{7}{6}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{6}{7}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{-7}{6}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{4}{3}$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "7/6",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Using $m=\\frac{y_2-y_1}{x_2-x_1}$ gives $m=\\frac{11-4}{3--3}=\\frac{7}{6}$.",
+    "complexity_factor": 1.15,
+    "source_section": "8.3",
+    "tags": [
+      "slope",
+      "coordinate-plane"
+    ],
+    "checksum": "sha256-a9406f8b5114c03621d811b6a539c2810c401f038704310ad39f4668acd6229c",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_in_problems.medium.0032",
+    "topic_id": "ch8.slope_in_problems",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "The slope from $(-2, -6)$ to $(2, y)$ is $-3$. What is $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-17$"
+      },
+      {
+        "id": "b",
+        "latex": "$18$"
+      },
+      {
+        "id": "c",
+        "latex": "$-18$"
+      },
+      {
+        "id": "d",
+        "latex": "$-19$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-18",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $-3=\\frac{y--6}{2--2}$. Thus $y--6=-12$, so $y=-18$.",
+    "complexity_factor": 1.16,
+    "source_section": "8.3",
+    "tags": [
+      "slope",
+      "unknown-coordinate"
+    ],
+    "checksum": "sha256-d1ae6c1c6497d63f1461f2d4a1277bd50a4d7183313b34d1125edaac5817a026",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_in_problems.medium.0033",
+    "topic_id": "ch8.slope_in_problems",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A reading graph shows $30$ pages read in $5$ minutes. What is the slope in pages per minute?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\frac{1}{6}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{31}{5}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{6}{1}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{-6}{1}$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "6/1",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Slope is rate of change: $\\frac{30}{5}=\\frac{6}{1}$ pages per minute.",
+    "complexity_factor": 1.15,
+    "source_section": "8.3",
+    "tags": [
+      "slope",
+      "rate"
+    ],
+    "checksum": "sha256-45eb798f63820581ddf9c9a8dbb515030830b97efefe87b66641de5cb3748fea",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_in_problems.medium.0034",
+    "topic_id": "ch8.slope_in_problems",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A line has slope $\\frac{5}{6}$. If $x$ increases by $12$, by how much does $y$ change?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11$"
+      },
+      {
+        "id": "b",
+        "latex": "$-10$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{\\Delta y}{\\Delta x}=\\frac{5}{6}$, $\\Delta y=\\frac{5}{6}(12)=10$.",
+    "complexity_factor": 1.15,
+    "source_section": "8.3",
+    "tags": [
+      "slope",
+      "rate-of-change"
+    ],
+    "checksum": "sha256-65af84e2376ebea9f8db966894576b547f2044c322f7c5294455de0eeef0d6ca",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_in_problems.medium.0035",
+    "topic_id": "ch8.slope_in_problems",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A staircase line goes through consecutive lattice points $(1, 3)$ and $(2, 7)$. What is the slope?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The rise is $7-3=4$ and the run is $1$, so the slope is $4$.",
+    "complexity_factor": 1.12,
+    "source_section": "8.3",
+    "tags": [
+      "slope",
+      "lattice-points"
+    ],
+    "checksum": "sha256-f2c2082a080f57e93af2408b9685fe27a9fe2a3b9ccfc6388e7970bbe13b9f42",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_in_problems.medium.0036",
+    "topic_id": "ch8.slope_in_problems",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Find the slope of the line through $(2, -7)$ and $(4, -14)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\frac{-2}{7}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{7}{2}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{-7}{2}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{-3}{1}$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-7/2",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Using $m=\\frac{y_2-y_1}{x_2-x_1}$ gives $m=\\frac{-14--7}{4-2}=\\frac{-7}{2}$.",
+    "complexity_factor": 1.15,
+    "source_section": "8.3",
+    "tags": [
+      "slope",
+      "coordinate-plane"
+    ],
+    "checksum": "sha256-d71bf9f1f55ee08a16e63d75e967083e69611ae15b012209fda70119fc883bed",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_in_problems.medium.0037",
+    "topic_id": "ch8.slope_in_problems",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "The slope from $(-6, -4)$ to $(-2, y)$ is $-1$. What is $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-8$"
+      },
+      {
+        "id": "b",
+        "latex": "$-9$"
+      },
+      {
+        "id": "c",
+        "latex": "$-7$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $-1=\\frac{y--4}{-2--6}$. Thus $y--4=-4$, so $y=-8$.",
+    "complexity_factor": 1.16,
+    "source_section": "8.3",
+    "tags": [
+      "slope",
+      "unknown-coordinate"
+    ],
+    "checksum": "sha256-d0cfaf733db3b7a9968c252abc9fcc81d9ae46220f65c8aef2b2446b609ee1fb",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_in_problems.medium.0038",
+    "topic_id": "ch8.slope_in_problems",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A reading graph shows $18$ pages read in $4$ minutes. What is the slope in pages per minute?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\frac{9}{2}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{2}{9}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{19}{4}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{-9}{2}$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "9/2",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Slope is rate of change: $\\frac{18}{4}=\\frac{9}{2}$ pages per minute.",
+    "complexity_factor": 1.15,
+    "source_section": "8.3",
+    "tags": [
+      "slope",
+      "rate"
+    ],
+    "checksum": "sha256-28ab9b322cbf4006eb94dc95812b5a4cd58e79f08ab249db448bcd208610ace5",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_in_problems.medium.0039",
+    "topic_id": "ch8.slope_in_problems",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A line has slope $\\frac{-9}{4}$. If $x$ increases by $16$, by how much does $y$ change?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-37$"
+      },
+      {
+        "id": "b",
+        "latex": "$-35$"
+      },
+      {
+        "id": "c",
+        "latex": "$-36$"
+      },
+      {
+        "id": "d",
+        "latex": "$36$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-36",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{\\Delta y}{\\Delta x}=\\frac{-9}{4}$, $\\Delta y=\\frac{-9}{4}(16)=-36$.",
+    "complexity_factor": 1.15,
+    "source_section": "8.3",
+    "tags": [
+      "slope",
+      "rate-of-change"
+    ],
+    "checksum": "sha256-e33ea480774d4539eedabd8874502ff20a1b3ff2159d4a0e5a0533b58d53dab1",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_in_problems.medium.0040",
+    "topic_id": "ch8.slope_in_problems",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A staircase line goes through consecutive lattice points $(-3, -8)$ and $(-2, -4)$. What is the slope?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The rise is $-4--8=4$ and the run is $1$, so the slope is $4$.",
+    "complexity_factor": 1.12,
+    "source_section": "8.3",
+    "tags": [
+      "slope",
+      "lattice-points"
+    ],
+    "checksum": "sha256-8f9a38ccf1ca4a45d7bc135192986b64b42ba12262cd99e1ed01d18b79e5620b",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_in_problems.medium.0041",
+    "topic_id": "ch8.slope_in_problems",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Find the slope of the line through $(-2, -5)$ and $(1, -1)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\frac{3}{4}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{5}{3}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{-4}{3}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{4}{3}$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "4/3",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Using $m=\\frac{y_2-y_1}{x_2-x_1}$ gives $m=\\frac{-1--5}{1--2}=\\frac{4}{3}$.",
+    "complexity_factor": 1.15,
+    "source_section": "8.3",
+    "tags": [
+      "slope",
+      "coordinate-plane"
+    ],
+    "checksum": "sha256-fa2d892f0f99833ab4186d6687d94112d028e6f67d138909e24e65ca0ee1a376",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_in_problems.medium.0042",
+    "topic_id": "ch8.slope_in_problems",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "The slope from $(-1, -2)$ to $(2, y)$ is $2$. What is $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $2=\\frac{y--2}{2--1}$. Thus $y--2=6$, so $y=4$.",
+    "complexity_factor": 1.16,
+    "source_section": "8.3",
+    "tags": [
+      "slope",
+      "unknown-coordinate"
+    ],
+    "checksum": "sha256-5ddb93b4d946511b87e79e0e83b850ef5a2896f469e95b32feea7698e07d2b3c",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_in_problems.medium.0043",
+    "topic_id": "ch8.slope_in_problems",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A reading graph shows $33$ pages read in $3$ minutes. What is the slope in pages per minute?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\frac{11}{1}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{-11}{1}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{34}{3}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{1}{11}$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "11/1",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Slope is rate of change: $\\frac{33}{3}=\\frac{11}{1}$ pages per minute.",
+    "complexity_factor": 1.15,
+    "source_section": "8.3",
+    "tags": [
+      "slope",
+      "rate"
+    ],
+    "checksum": "sha256-62306d7e26d5d2775d0f6a674f635a794dd3a4c7004585f919a1bb5f64d603ac",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_in_problems.medium.0044",
+    "topic_id": "ch8.slope_in_problems",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A line has slope $\\frac{9}{5}$. If $x$ increases by $15$, by how much does $y$ change?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$27$"
+      },
+      {
+        "id": "b",
+        "latex": "$28$"
+      },
+      {
+        "id": "c",
+        "latex": "$-27$"
+      },
+      {
+        "id": "d",
+        "latex": "$26$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "27",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{\\Delta y}{\\Delta x}=\\frac{9}{5}$, $\\Delta y=\\frac{9}{5}(15)=27$.",
+    "complexity_factor": 1.15,
+    "source_section": "8.3",
+    "tags": [
+      "slope",
+      "rate-of-change"
+    ],
+    "checksum": "sha256-d32061abc9057504e4763fac4b9f9c974b7728971c7abd6e18b4555bc62cf1be",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_in_problems.medium.0045",
+    "topic_id": "ch8.slope_in_problems",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A staircase line goes through consecutive lattice points $(2, -6)$ and $(3, -2)$. What is the slope?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The rise is $-2--6=4$ and the run is $1$, so the slope is $4$.",
+    "complexity_factor": 1.12,
+    "source_section": "8.3",
+    "tags": [
+      "slope",
+      "lattice-points"
+    ],
+    "checksum": "sha256-dce437a5d12ed724a478efbeacbd06db59be9851784bbdb85f06449688ec6084",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_in_problems.medium.0046",
+    "topic_id": "ch8.slope_in_problems",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Find the slope of the line through $(-6, -3)$ and $(-1, 4)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\frac{-7}{5}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{8}{5}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{7}{5}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{5}{7}$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "7/5",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Using $m=\\frac{y_2-y_1}{x_2-x_1}$ gives $m=\\frac{4--3}{-1--6}=\\frac{7}{5}$.",
+    "complexity_factor": 1.15,
+    "source_section": "8.3",
+    "tags": [
+      "slope",
+      "coordinate-plane"
+    ],
+    "checksum": "sha256-903c4bb9a55af52ead5fc7aba067f8b37a1fbfbab17424fcf3f09ae399008897",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_in_problems.medium.0047",
+    "topic_id": "ch8.slope_in_problems",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "The slope from $(-5, 0)$ to $(-2, y)$ is $-1$. What is $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $-1=\\frac{y-0}{-2--5}$. Thus $y-0=-3$, so $y=-3$.",
+    "complexity_factor": 1.16,
+    "source_section": "8.3",
+    "tags": [
+      "slope",
+      "unknown-coordinate"
+    ],
+    "checksum": "sha256-28c768739d8740dcaeb4e7caaaf4aec9ba73839acc70e0ab4450bad6a27ec541",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_in_problems.medium.0048",
+    "topic_id": "ch8.slope_in_problems",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A reading graph shows $21$ pages read in $8$ minutes. What is the slope in pages per minute?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\frac{11}{4}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{8}{21}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{21}{8}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{-21}{8}$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "21/8",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Slope is rate of change: $\\frac{21}{8}=\\frac{21}{8}$ pages per minute.",
+    "complexity_factor": 1.15,
+    "source_section": "8.3",
+    "tags": [
+      "slope",
+      "rate"
+    ],
+    "checksum": "sha256-274c37e605bcd34228a038873259d3382242ee7da22941f1ee93e6a40b09e08a",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_in_problems.medium.0049",
+    "topic_id": "ch8.slope_in_problems",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A line has slope $\\frac{-3}{5}$. If $x$ increases by $10$, by how much does $y$ change?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-7$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$-5$"
+      },
+      {
+        "id": "d",
+        "latex": "$-6$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{\\Delta y}{\\Delta x}=\\frac{-3}{5}$, $\\Delta y=\\frac{-3}{5}(10)=-6$.",
+    "complexity_factor": 1.15,
+    "source_section": "8.3",
+    "tags": [
+      "slope",
+      "rate-of-change"
+    ],
+    "checksum": "sha256-bdbd47b800d87068c487ba905add68ed024f98cc9f9da6aa9f95520394ad4093",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_in_problems.medium.0050",
+    "topic_id": "ch8.slope_in_problems",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A staircase line goes through consecutive lattice points $(-2, -4)$ and $(-1, -2)$. What is the slope?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The rise is $-2--4=2$ and the run is $1$, so the slope is $2$.",
+    "complexity_factor": 1.12,
+    "source_section": "8.3",
+    "tags": [
+      "slope",
+      "lattice-points"
+    ],
+    "checksum": "sha256-950a0117d3077cba6b58ce52aab1daa5b708c749b368c3ff34f53b4bf50fa127",
+    "status": "valid"
+  }
+]

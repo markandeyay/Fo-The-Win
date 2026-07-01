@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "ch5.substitution.medium.0001",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 2x + 3y = 3 \\\\ 2x + 6y = 6 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1,0)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(0,1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "From the first equation, $y = \\dfrac{1}{1}$. Substitute into the second to get $x = 0$, so $y = 1$.",
+    "complexity_factor": 1.05,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems"
+    ],
+    "checksum": "sha256-d5d8ac83b367c625079ae7a38ec1a978a2fe3ffb33182520fb1c219d77e9bd5a",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.medium.0002",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 6y = 5 \\\\ 5x + 4y = -8.666666666666666 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-4,3.8333333333333335)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-4,2.8333333333333335)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-3,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$infinitely many$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-4,2.8333333333333335)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From the first equation, $y = \\dfrac{17}{6}$. Substitute into the second to get $x = -4$, so $y = 2.8333333333333335$.",
+    "complexity_factor": 1.05,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems"
+    ],
+    "checksum": "sha256-ed1bfd85ab232e5d9864fda61c172c1d548ab5e7a938daedaa950ba75741a7d2",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.medium.0003",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 1(x + 4y) = -10 \\\\ 1x + 5y = -13 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1,-3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3,-3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0,-3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,-3)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(2,-3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Divide the first equation by 1, isolate $x$, substitute into the second, and solve to get $(2,-3)$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "parentheses"
+    ],
+    "checksum": "sha256-fbb238a8bdbfd852f68ba00514657ca5c1c4118dde1c625cf4cd5f51845c8daf",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.medium.0004",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 3(x + 3y) = -33 \\\\ 6x + 4y = -10 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,-4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2,-4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1,-4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,-6)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(1,-4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Divide the first equation by 3, isolate $x$, substitute into the second, and solve to get $(1,-4)$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "parentheses"
+    ],
+    "checksum": "sha256-d11c3eaa72a5c06734af95e1b15da7bdb30ae8e793f579da234afdd6ebbae064",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.medium.0005",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 4x + 4y = 2 \\\\ 6x + 2y = -7 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2,3.5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-2,2.5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,2)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-2,2.5)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From the first equation, $y = \\dfrac{5}{2}$. Substitute into the second to get $x = -2$, so $y = 2.5$.",
+    "complexity_factor": 1.05,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems"
+    ],
+    "checksum": "sha256-53323b7932cbf9ddbf0f091e626c410eeace46d7b90280788f1067147524e503",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.medium.0006",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 2x + 2y = 4 \\\\ 3x + 4y = 4 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4,-2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2,-1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4,-1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(5,-3)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(4,-2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "From the first equation, $y = \\dfrac{-2}{1}$. Substitute into the second to get $x = 4$, so $y = -2$.",
+    "complexity_factor": 1.05,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems"
+    ],
+    "checksum": "sha256-7e7781f7e221ffd9a178ebae38f929a2f6fa9b62169663c1cf516a5791f0e02e",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.medium.0007",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 3(x + 4y) = -33 \\\\ 4x + 4y = -8 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1,-2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2,-1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2,-3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1,-3)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(1,-3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Divide the first equation by 3, isolate $x$, substitute into the second, and solve to get $(1,-3)$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "parentheses"
+    ],
+    "checksum": "sha256-425c5296898f51bed4781532a3e5d0ad68b90d159c2de4d22fa9f314a302f1dc",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.medium.0008",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 3(x + 2y) = -18 \\\\ 1x + 3y = -10 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3,-4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2,-4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1,-4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1,-3)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(2,-4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Divide the first equation by 3, isolate $x$, substitute into the second, and solve to get $(2,-4)$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "parentheses"
+    ],
+    "checksum": "sha256-84d39e9181d7345df23d700604fb6b26b309de63571bc71faa07c727fc2a1110",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.medium.0009",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 5x + 5y = 5 \\\\ 4x + 6y = -2 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3,-2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4,-3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4,-2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(5,-4)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(4,-3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "From the first equation, $y = \\dfrac{-3}{1}$. Substitute into the second to get $x = 4$, so $y = -3$.",
+    "complexity_factor": 1.05,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems"
+    ],
+    "checksum": "sha256-f5ee5e5fc3dc304744ec1e4b8e6de045f1ceed12b6a6daa634b25be6c0bd1a39",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.medium.0010",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 6x + 5y = 3 \\\\ 4x + 3y = 1.4000000000000004 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,1.8)$"
+      },
+      {
+        "id": "b",
+        "latex": "$infinitely many$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0,1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,2.8)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-1,1.8)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From the first equation, $y = \\dfrac{9}{5}$. Substitute into the second to get $x = -1$, so $y = 1.8$.",
+    "complexity_factor": 1.05,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems"
+    ],
+    "checksum": "sha256-1f881961d651cd7c7a37de0f9031751a3ed32260bde276b3fd0e4eaa0c5df7fa",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.medium.0011",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 1(x + 2y) = -8 \\\\ 2x + 2y = -8 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1,-4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-2,-3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0,-4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,-3)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(0,-4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Divide the first equation by 1, isolate $x$, substitute into the second, and solve to get $(0,-4)$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "parentheses"
+    ],
+    "checksum": "sha256-17a12dce9ad39cb2bc1fdbd459939d1213c60c2e64c67281dc567340a5d59e30",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.medium.0012",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 2(x + 4y) = -34 \\\\ 1x + 3y = -13 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0,-3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,-4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,-4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-3,-4)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-1,-4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Divide the first equation by 2, isolate $x$, substitute into the second, and solve to get $(-1,-4)$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "parentheses"
+    ],
+    "checksum": "sha256-58b904c2a1659d57a1c1b27bcb90c5871121a57d52773a84590c6aae78bcbc5a",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.medium.0013",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 6x + 1y = 9 \\\\ 2x + 4y = 80 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,15)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-2,22)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2,21)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-3,22)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-2,21)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "From the first equation, $y = \\dfrac{21}{1}$. Substitute into the second to get $x = -2$, so $y = 21$.",
+    "complexity_factor": 1.05,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems"
+    ],
+    "checksum": "sha256-e6116b4fb385cb429ffc39a8fa49d6d3510ac4b417b86f47694b21f660d05803",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.medium.0014",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 4y = 9 \\\\ 5x + 3y = -7 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-5,6)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-4,5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-5,8)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-5,7)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-5,6)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "From the first equation, $y = \\dfrac{6}{1}$. Substitute into the second to get $x = -5$, so $y = 6$.",
+    "complexity_factor": 1.05,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems"
+    ],
+    "checksum": "sha256-815c2a5aa6172093ee0d663e0596042d2d014773631e3a018f41f463ed865c44",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.medium.0015",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 1(x + 3y) = 8 \\\\ 2x + 3y = 10 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1,2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4,3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,2)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(2,2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Divide the first equation by 1, isolate $x$, substitute into the second, and solve to get $(2,2)$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "parentheses"
+    ],
+    "checksum": "sha256-613a1a874debcf35a59b9fdd07254e5bf4dde03c00a1b6f58a1a5fc7db614254",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.medium.0016",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 4(x + 1y) = 20 \\\\ 1x + 6y = 20 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3,3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3,4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2,3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3,2)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(2,3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Divide the first equation by 4, isolate $x$, substitute into the second, and solve to get $(2,3)$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "parentheses"
+    ],
+    "checksum": "sha256-b41d30eb51a6cfaed7199a70732ca294ac0ddf674377e1bd3252c3ebaa0c2e71",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.medium.0017",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 4y = 18 \\\\ 6x + 3y = 21 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2,4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2,3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4,4)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(2,3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "From the first equation, $y = \\dfrac{3}{1}$. Substitute into the second to get $x = 2$, so $y = 3$.",
+    "complexity_factor": 1.05,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems"
+    ],
+    "checksum": "sha256-f3e04a1d352a15f7ca06419d70dc5d815bfc0e2ccbfa043d111edbba5f4b5675",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.medium.0018",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 6x + 2y = 2 \\\\ 4x + 6y = 34 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2,7)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-2,8)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,7)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-2,7)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "From the first equation, $y = \\dfrac{7}{1}$. Substitute into the second to get $x = -2$, so $y = 7$.",
+    "complexity_factor": 1.05,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems"
+    ],
+    "checksum": "sha256-1428c983b5ab130b1119e89c292530b530738681404cb0418925365fa25ddf55",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.medium.0019",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 1(x + 1y) = 3 \\\\ 3x + 4y = 13 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0,4)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-1,4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Divide the first equation by 1, isolate $x$, substitute into the second, and solve to get $(-1,4)$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "parentheses"
+    ],
+    "checksum": "sha256-1860d33e060cf13c5ee1b7b89875fc53da6edbbab4387dbcb1d362c5dc3d4b7b",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.medium.0020",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 2(x + 1y) = 12 \\\\ 6x + 2y = 28 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4,3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4,2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(5,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(5,1)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(4,2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Divide the first equation by 2, isolate $x$, substitute into the second, and solve to get $(4,2)$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "parentheses"
+    ],
+    "checksum": "sha256-b8207f1b55903f84c2f9928d11b83a457e9bcbdffe5232a8d610166857e6c9ba",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.medium.0021",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 5x + 3y = 17 \\\\ 3x + 6y = 20 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2,2.3333333333333335)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3,1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$none$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,3.3333333333333335)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(2,2.3333333333333335)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From the first equation, $y = \\dfrac{7}{3}$. Substitute into the second to get $x = 2$, so $y = 2.3333333333333335$.",
+    "complexity_factor": 1.05,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems"
+    ],
+    "checksum": "sha256-2e54b2c208053fcccc7dd278bb128be8d59880d1c4fb46e2bba56191be954c23",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.medium.0022",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 4x + 4y = 1 \\\\ 4x + 3y = -3.25 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-4,5.25)$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-4,4.25)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-3,3)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-4,4.25)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From the first equation, $y = \\dfrac{17}{4}$. Substitute into the second to get $x = -4$, so $y = 4.25$.",
+    "complexity_factor": 1.05,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems"
+    ],
+    "checksum": "sha256-c92c94f70d1747c0dd75fa30b1a7ffc5ff44d378a334ce0c7e5869df9a0608de",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.medium.0023",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 2(x + 3y) = 22 \\\\ 2x + 6y = 22 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2,4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2,3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3,3)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(2,3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Divide the first equation by 2, isolate $x$, substitute into the second, and solve to get $(2,3)$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "parentheses"
+    ],
+    "checksum": "sha256-b8e907adb8dde09ad10ea205b4d87d3ce91e64cc217463c178c0d9c190edd649",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.medium.0024",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 1(x + 3y) = 2 \\\\ 5x + 1y = 10 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2,-1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3,-2)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(2,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Divide the first equation by 1, isolate $x$, substitute into the second, and solve to get $(2,0)$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "parentheses"
+    ],
+    "checksum": "sha256-fa5ebe4227d4bbdaff4392983c9d96a96e198279e20ac05f506a9e3f652547df",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.medium.0025",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 6y = 4 \\\\ 3x + 4y = -0.3333333333333339 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-3,2.1666666666666665)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-2,2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-3,3.1666666666666665)$"
+      },
+      {
+        "id": "d",
+        "latex": "$all real numbers$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-3,2.1666666666666665)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From the first equation, $y = \\dfrac{13}{6}$. Substitute into the second to get $x = -3$, so $y = 2.1666666666666665$.",
+    "complexity_factor": 1.05,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems"
+    ],
+    "checksum": "sha256-916ecaf3034990eb50828a5c213f4760c9268f19dc859be8465ef513a67d4a8b",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.medium.0026",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 3y = 11 \\\\ 2x + 2y = 7.333333333333333 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3,1.6666666666666665)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3,0.6666666666666666)$"
+      },
+      {
+        "id": "d",
+        "latex": "$all real numbers$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(3,0.6666666666666666)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From the first equation, $y = \\dfrac{2}{3}$. Substitute into the second to get $x = 3$, so $y = 0.6666666666666666$.",
+    "complexity_factor": 1.05,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems"
+    ],
+    "checksum": "sha256-40169c4dc270747b8e62062f94f90bb01fd9f032d366bd7dca01c9356a85d729",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.medium.0027",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 4(x + 3y) = -28 \\\\ 2x + 1y = -9 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-3,-1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-6,-1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-4,-1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-4,-2)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-4,-1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Divide the first equation by 4, isolate $x$, substitute into the second, and solve to get $(-4,-1)$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "parentheses"
+    ],
+    "checksum": "sha256-50cd96d68ea1ad2a7ae262ff9eaf11f3bb992c077733081e5ba8a0858fad8bbe",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.medium.0028",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 3(x + 4y) = 30 \\\\ 3x + 4y = 14 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1,3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2,1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3,2)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(2,2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Divide the first equation by 3, isolate $x$, substitute into the second, and solve to get $(2,2)$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "parentheses"
+    ],
+    "checksum": "sha256-59fd3e0345b9823189fc2e9bfd56860d2413a70f41f85f893f3170780f857c14",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.medium.0029",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 6x + 4y = 1 \\\\ 4x + 1y = -2.25 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,1.75)$"
+      },
+      {
+        "id": "b",
+        "latex": "$all real numbers$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,2.75)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0,0)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-1,1.75)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From the first equation, $y = \\dfrac{7}{4}$. Substitute into the second to get $x = -1$, so $y = 1.75$.",
+    "complexity_factor": 1.05,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems"
+    ],
+    "checksum": "sha256-953acd327232f4b1a7047b37a4b1cac0c634abff42f772d6b83278e11bdb554f",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.medium.0030",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 2x + 4y = 8 \\\\ 4x + 5y = 17.5 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(5,-0.5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(6,-1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(5,0.5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$none$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(5,-0.5)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From the first equation, $y = \\dfrac{-1}{2}$. Substitute into the second to get $x = 5$, so $y = -0.5$.",
+    "complexity_factor": 1.05,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems"
+    ],
+    "checksum": "sha256-1294f57804ece092c491c1e314f11318469119a14b05752860fa1c7e5218aba2",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.medium.0031",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 1(x + 4y) = 20 \\\\ 1x + 2y = 12 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(5,5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4,6)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4,4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(5,4)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(4,4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Divide the first equation by 1, isolate $x$, substitute into the second, and solve to get $(4,4)$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "parentheses"
+    ],
+    "checksum": "sha256-3b6cda1d8c0c90bd218f7e9573cec6a0a235ad12defbaa4f4e0c3229dabaaefa",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.medium.0032",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 4(x + 4y) = -80 \\\\ 6x + 4y = -40 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2,-4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-4,-5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-4,-4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-3,-4)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-4,-4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Divide the first equation by 4, isolate $x$, substitute into the second, and solve to get $(-4,-4)$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "parentheses"
+    ],
+    "checksum": "sha256-282988f10fed06c57f3bb74c369af3948c761527989e6f6fc44fecdee4a58097",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.medium.0033",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 2x + 1y = 18 \\\\ 2x + 5y = 114 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,25)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3,24)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2,22)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-3,25)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-3,24)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "From the first equation, $y = \\dfrac{24}{1}$. Substitute into the second to get $x = -3$, so $y = 24$.",
+    "complexity_factor": 1.05,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems"
+    ],
+    "checksum": "sha256-6a69bacf0d32f3889713f688d48b540b1e39aa2217cd446d4ab145d92aaaf860",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.medium.0034",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 6x + 3y = 6 \\\\ 4x + 3y = 12 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-3,9)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3,8)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-4,7)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2,6)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-3,8)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "From the first equation, $y = \\dfrac{8}{1}$. Substitute into the second to get $x = -3$, so $y = 8$.",
+    "complexity_factor": 1.05,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems"
+    ],
+    "checksum": "sha256-123c93c8be42f92dc3106256bff15e795e2a25297c2724f634046939f51687da",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.medium.0035",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 4(x + 1y) = 8 \\\\ 2x + 2y = 4 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4,-3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(5,-2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2,-1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4,-2)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(4,-2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Divide the first equation by 4, isolate $x$, substitute into the second, and solve to get $(4,-2)$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "parentheses"
+    ],
+    "checksum": "sha256-5565e255d3bf117a995e7a1c29ab2b3a0fce8f1cad84045e51497e7fe9108ee9",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.medium.0036",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 2(x + 3y) = 16 \\\\ 1x + 4y = 11 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2,4)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-1,3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Divide the first equation by 2, isolate $x$, substitute into the second, and solve to get $(-1,3)$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "parentheses"
+    ],
+    "checksum": "sha256-ebead3f685a9565c958eb5929c88ad2d9afeeeb5a565ad098e609c84a75d5687",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.medium.0037",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 2x + 3y = 1 \\\\ 2x + 2y = 0.6666666666666666 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0,0.3333333333333333)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,1.3333333333333333)$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1,0)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(0,0.3333333333333333)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From the first equation, $y = \\dfrac{1}{3}$. Substitute into the second to get $x = 0$, so $y = 0.3333333333333333$.",
+    "complexity_factor": 1.05,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems"
+    ],
+    "checksum": "sha256-3425824bff07728ef3619d9f7984197d3d25da3647fd789d859a555cb3fab60b",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.medium.0038",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 2y = 1 \\\\ 4x + 3y = 3.5 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-4,7.5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-4,6.5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-3,5)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-4,6.5)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From the first equation, $y = \\dfrac{13}{2}$. Substitute into the second to get $x = -4$, so $y = 6.5$.",
+    "complexity_factor": 1.05,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems"
+    ],
+    "checksum": "sha256-8a8eeb786f110c157209ac23eb17f39bc23e27ddfc8bc855ee4867a262f687a0",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.medium.0039",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 2(x + 2y) = 12 \\\\ 1x + 4y = 8 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4,1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(5,1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3,0)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(4,1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Divide the first equation by 2, isolate $x$, substitute into the second, and solve to get $(4,1)$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "parentheses"
+    ],
+    "checksum": "sha256-3e5e5d06efef57cf7948ae6ac0056a610245294406207f444355c4e5cf52155a",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.medium.0040",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 1(x + 2y) = -2 \\\\ 2x + 3y = -5 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-4,1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3,1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-6,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-4,-1)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-4,1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Divide the first equation by 1, isolate $x$, substitute into the second, and solve to get $(-4,1)$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "parentheses"
+    ],
+    "checksum": "sha256-fdc2dd542dcd4013d568ccbb195df81f1ee82b9932eee0e62822e3d6abba5eb1",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.medium.0041",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 3y = 4 \\\\ 4x + 2y = 2.6666666666666665 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0,2.333333333333333)$"
+      },
+      {
+        "id": "b",
+        "latex": "$all real numbers$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0,1.3333333333333333)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1,0)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(0,1.3333333333333333)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From the first equation, $y = \\dfrac{4}{3}$. Substitute into the second to get $x = 0$, so $y = 1.3333333333333333$.",
+    "complexity_factor": 1.05,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems"
+    ],
+    "checksum": "sha256-e8b9d13f96325a168b01e0977118ef6c78af8ad9c5dc8f704f02e3cc845d4209",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.medium.0042",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 2x + 6y = 5 \\\\ 6x + 5y = -0.16666666666666607 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,1.1666666666666667)$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0,1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,2.166666666666667)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-1,1.1666666666666667)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From the first equation, $y = \\dfrac{7}{6}$. Substitute into the second to get $x = -1$, so $y = 1.1666666666666667$.",
+    "complexity_factor": 1.05,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems"
+    ],
+    "checksum": "sha256-879a7758fad1e5a2b95c63e1ec7ecac55a0de08ae23d41ace440e1d70009215b",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.medium.0043",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 3(x + 4y) = 54 \\\\ 2x + 4y = 20 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3,3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2,4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3,4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1,3)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(2,4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Divide the first equation by 3, isolate $x$, substitute into the second, and solve to get $(2,4)$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "parentheses"
+    ],
+    "checksum": "sha256-bf274388b157787a8d83d60b47acd1ee7cc5c79e8b80f81adc847c7ec9fbc9d1",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.medium.0044",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 1(x + 1y) = -3 \\\\ 3x + 5y = -9 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-3,1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,1)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-3,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Divide the first equation by 1, isolate $x$, substitute into the second, and solve to get $(-3,0)$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "parentheses"
+    ],
+    "checksum": "sha256-76a87239aaf3181f926c9523c53968188e99844856d707f15463dd8a10ac084f",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.medium.0045",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 6x + 4y = 9 \\\\ 4x + 4y = 15 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-3,6.75)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3,7.75)$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2,5)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-3,6.75)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From the first equation, $y = \\dfrac{27}{4}$. Substitute into the second to get $x = -3$, so $y = 6.75$.",
+    "complexity_factor": 1.05,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems"
+    ],
+    "checksum": "sha256-14c9f477f613810817e01936c31d1856f87f11331bef9182ffaacd159eabbab0",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.medium.0046",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 2x + 1y = 10 \\\\ 3x + 1y = 15 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(6,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(5,1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(6,-2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(5,0)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(5,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "From the first equation, $y = \\dfrac{0}{1}$. Substitute into the second to get $x = 5$, so $y = 0$.",
+    "complexity_factor": 1.05,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems"
+    ],
+    "checksum": "sha256-145bdb3923805d22495e84a4556c023b89ec26af31bff19146de754ee80ddb87",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.medium.0047",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 3(x + 2y) = -6 \\\\ 1x + 1y = -3 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-3,1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3,-1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-6,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-4,1)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-4,1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Divide the first equation by 3, isolate $x$, substitute into the second, and solve to get $(-4,1)$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "parentheses"
+    ],
+    "checksum": "sha256-d9b961b4f21525c8374f16216a8e43391d052e93d6c010fd64c2d127834d98e3",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.medium.0048",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 2(x + 4y) = -32 \\\\ 1x + 6y = -22 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2,-3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3,-3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-4,-3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2,-2)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-4,-3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Divide the first equation by 2, isolate $x$, substitute into the second, and solve to get $(-4,-3)$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "parentheses"
+    ],
+    "checksum": "sha256-875350769ca8ad8c95510cc1f323d3b54fa4fd5d5deb28920db67dba05aa5cbd",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.medium.0049",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 6x + 1y = 18 \\\\ 6x + 4y = 126 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2,36)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-2,30)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-3,36)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-3,37)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-3,36)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "From the first equation, $y = \\dfrac{36}{1}$. Substitute into the second to get $x = -3$, so $y = 36$.",
+    "complexity_factor": 1.05,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems"
+    ],
+    "checksum": "sha256-a742a0ccd9696a0df9148a9216b9c76201dcf5d93c33be6eb390db18503bb5dd",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.medium.0050",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 1y = 3 \\\\ 6x + 4y = 42 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-5,16)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-5,18)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-4,15)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-5,19)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-5,18)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "From the first equation, $y = \\dfrac{18}{1}$. Substitute into the second to get $x = -5$, so $y = 18$.",
+    "complexity_factor": 1.05,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems"
+    ],
+    "checksum": "sha256-2f017f586e4842271724b5898cdcc2f63131d7e2da2233af976e94937bc5a876",
+    "status": "valid"
+  }
+]

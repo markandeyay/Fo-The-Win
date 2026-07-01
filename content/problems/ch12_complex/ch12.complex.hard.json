@@ -1,0 +1,2164 @@
+[
+  {
+    "id": "ch12.complex.hard.0001",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Compute $\\dfrac{-7-i}{2+i}$ in the form $a+bi$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3+i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3-i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2+i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-7-i$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-3+i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 3 + i",
+      "i-3"
+    ],
+    "solution_latex": "The numerator equals $(-3+i)(2+i)$, so dividing by $2+i$ gives $-3+i$.",
+    "complexity_factor": 1.3,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "division",
+      "conjugate"
+    ],
+    "status": "valid",
+    "checksum": "sha256-d8897e28ffe944c8fa4e337e21778d19df221cd9ce35b4c165a0cd68204f7902"
+  },
+  {
+    "id": "ch12.complex.hard.0002",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $(-3+3i)^2+(-2+2i)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16-16i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2-16i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2+16i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-18i$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-2-16i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 2 - 16i",
+      "-16i-2"
+    ],
+    "solution_latex": "Square first: $(-3+3i)^2=-18i$. Then add $-2+2i$ to get $-2-16i$.",
+    "complexity_factor": 1.3,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "squares"
+    ],
+    "status": "valid",
+    "checksum": "sha256-f30582d0239dd04d8d72768edaad3f159c58476c1b2a1e05cca94322fa6787f9"
+  },
+  {
+    "id": "ch12.complex.hard.0003",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Compute $\\dfrac{-13+9i}{4+3i}$ in the form $a+bi$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1-3i$"
+      },
+      {
+        "id": "b",
+        "latex": "$3i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1+3i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-13+9i$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-1+3i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 1 + 3i",
+      "3i-1"
+    ],
+    "solution_latex": "The numerator equals $(-1+3i)(4+3i)$, so dividing by $4+3i$ gives $-1+3i$.",
+    "complexity_factor": 1.3,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "division",
+      "conjugate"
+    ],
+    "status": "valid",
+    "checksum": "sha256-5c8bd9e5ac170852c49eecec582437bc78e738d2e4e2428a2d798c5b26dd797b"
+  },
+  {
+    "id": "ch12.complex.hard.0004",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $(-1+5i)^2+(4i)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$26-6i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-24+6i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-24-10i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-24-6i$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-24-6i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 24 - 6i",
+      "-6i-24"
+    ],
+    "solution_latex": "Square first: $(-1+5i)^2=-24-10i$. Then add $4i$ to get $-24-6i$.",
+    "complexity_factor": 1.3,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "squares"
+    ],
+    "status": "valid",
+    "checksum": "sha256-220b5a722f39f8af8485c164dfaab21cf6fa5384379de4faa58a891e3d0d7e9a"
+  },
+  {
+    "id": "ch12.complex.hard.0005",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Compute $\\dfrac{-4+32i}{6+2i}$ in the form $a+bi$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1+5i$"
+      },
+      {
+        "id": "b",
+        "latex": "$1-5i$"
+      },
+      {
+        "id": "c",
+        "latex": "$2+5i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4+32i$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1+5i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "1 + 5i",
+      "5i+1"
+    ],
+    "solution_latex": "The numerator equals $(1+5i)(6+2i)$, so dividing by $6+2i$ gives $1+5i$.",
+    "complexity_factor": 1.3,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "division",
+      "conjugate"
+    ],
+    "status": "valid",
+    "checksum": "sha256-13207af7abd3520d71dd10a6d1d7a88744a50e3868ae36ee07fb27613bdab8f2"
+  },
+  {
+    "id": "ch12.complex.hard.0006",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $(1+7i)^2+(2+6i)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$52+20i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-46+20i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-46-20i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-48+14i$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-46+20i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 46 + 20i",
+      "20i-46"
+    ],
+    "solution_latex": "Square first: $(1+7i)^2=-48+14i$. Then add $2+6i$ to get $-46+20i$.",
+    "complexity_factor": 1.3,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "squares"
+    ],
+    "status": "valid",
+    "checksum": "sha256-4cfae9cb23aa83ff9761a7d948cdb809c75388e9bd3883de9dd5d4253f31b955"
+  },
+  {
+    "id": "ch12.complex.hard.0007",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Compute $\\dfrac{4+7i}{2+i}$ in the form $a+bi$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3-2i$"
+      },
+      {
+        "id": "b",
+        "latex": "$4+2i$"
+      },
+      {
+        "id": "c",
+        "latex": "$3+2i$"
+      },
+      {
+        "id": "d",
+        "latex": "$4+7i$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3+2i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "3 + 2i",
+      "2i+3"
+    ],
+    "solution_latex": "The numerator equals $(3+2i)(2+i)$, so dividing by $2+i$ gives $3+2i$.",
+    "complexity_factor": 1.3,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "division",
+      "conjugate"
+    ],
+    "status": "valid",
+    "checksum": "sha256-c3cd98ebd096ba92d9d49c521515ffe1cffb4d88b8428d17a1f59e71e978c951"
+  },
+  {
+    "id": "ch12.complex.hard.0008",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $(3+2i)^2+(4+2i)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$17+14i$"
+      },
+      {
+        "id": "b",
+        "latex": "$9-14i$"
+      },
+      {
+        "id": "c",
+        "latex": "$5+12i$"
+      },
+      {
+        "id": "d",
+        "latex": "$9+14i$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "9+14i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "9 + 14i",
+      "14i+9"
+    ],
+    "solution_latex": "Square first: $(3+2i)^2=5+12i$. Then add $4+2i$ to get $9+14i$.",
+    "complexity_factor": 1.3,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "squares"
+    ],
+    "status": "valid",
+    "checksum": "sha256-42472c8cc7138338522e6db86282128a38f93cee0a0576648a1844bac92d823b"
+  },
+  {
+    "id": "ch12.complex.hard.0009",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Compute $\\dfrac{-20+10i}{4+3i}$ in the form $a+bi$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2+4i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2-4i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1+4i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-20+10i$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-2+4i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 2 + 4i",
+      "4i-2"
+    ],
+    "solution_latex": "The numerator equals $(-2+4i)(4+3i)$, so dividing by $4+3i$ gives $-2+4i$.",
+    "complexity_factor": 1.3,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "division",
+      "conjugate"
+    ],
+    "status": "valid",
+    "checksum": "sha256-09376c4d9373c559667854bf81522ea9b477cbe46b1ce2daeaa7848ea09fec61"
+  },
+  {
+    "id": "ch12.complex.hard.0010",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $(-4+4i)^2+(-2+4i)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$30-28i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2-28i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2+28i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-32i$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-2-28i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 2 - 28i",
+      "-28i-2"
+    ],
+    "solution_latex": "Square first: $(-4+4i)^2=-32i$. Then add $-2+4i$ to get $-2-28i$.",
+    "complexity_factor": 1.3,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "squares"
+    ],
+    "status": "valid",
+    "checksum": "sha256-1e172a4b308f5ffbf2a19155a42d0a1059231cb1f753dfb7bc9c5941444ee0bd"
+  },
+  {
+    "id": "ch12.complex.hard.0011",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Compute $\\dfrac{-2+6i}{6+2i}$ in the form $a+bi$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-i$"
+      },
+      {
+        "id": "b",
+        "latex": "$1+i$"
+      },
+      {
+        "id": "c",
+        "latex": "$i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2+6i$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "i",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The numerator equals $(i)(6+2i)$, so dividing by $6+2i$ gives $i$.",
+    "complexity_factor": 1.3,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "division",
+      "conjugate"
+    ],
+    "status": "valid",
+    "checksum": "sha256-0c721c45e9771c96829781c403ba66734fc2cfeda90220937fa3fed467923ae8"
+  },
+  {
+    "id": "ch12.complex.hard.0012",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $(-2+6i)^2+(6i)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$40-18i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-32+18i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-32-24i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-32-18i$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-32-18i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 32 - 18i",
+      "-18i-32"
+    ],
+    "solution_latex": "Square first: $(-2+6i)^2=-32-24i$. Then add $6i$ to get $-32-18i$.",
+    "complexity_factor": 1.3,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "squares"
+    ],
+    "status": "valid",
+    "checksum": "sha256-7494b86c4313cac375cdde8d2580eb1fe7527d1fba949dfc4e2d348e6a02ec9f"
+  },
+  {
+    "id": "ch12.complex.hard.0013",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Compute $\\dfrac{1+8i}{2+i}$ in the form $a+bi$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2+3i$"
+      },
+      {
+        "id": "b",
+        "latex": "$2-3i$"
+      },
+      {
+        "id": "c",
+        "latex": "$3+3i$"
+      },
+      {
+        "id": "d",
+        "latex": "$1+8i$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2+3i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "2 + 3i",
+      "3i+2"
+    ],
+    "solution_latex": "The numerator equals $(2+3i)(2+i)$, so dividing by $2+i$ gives $2+3i$.",
+    "complexity_factor": 1.3,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "division",
+      "conjugate"
+    ],
+    "status": "valid",
+    "checksum": "sha256-91a9a7a004e03999e796e5668d0e31f25d16ef12e3c50c380de3e86c6ab82ec7"
+  },
+  {
+    "id": "ch12.complex.hard.0014",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $(8i)^2+(2+2i)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$66+2i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-62+2i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-62-2i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-64$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-62+2i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 62 + 2i",
+      "2i-62"
+    ],
+    "solution_latex": "Square first: $(8i)^2=-64$. Then add $2+2i$ to get $-62+2i$.",
+    "complexity_factor": 1.3,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "squares"
+    ],
+    "status": "valid",
+    "checksum": "sha256-1e55f1e32b240f44b2a37842ad5571ee5bd8bca137cfb0ecce470f6cc7f2dc45"
+  },
+  {
+    "id": "ch12.complex.hard.0015",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Compute $\\dfrac{-27+11i}{4+3i}$ in the form $a+bi$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3-5i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2+5i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-3+5i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-27+11i$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-3+5i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 3 + 5i",
+      "5i-3"
+    ],
+    "solution_latex": "The numerator equals $(-3+5i)(4+3i)$, so dividing by $4+3i$ gives $-3+5i$.",
+    "complexity_factor": 1.3,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "division",
+      "conjugate"
+    ],
+    "status": "valid",
+    "checksum": "sha256-6b364bd79c11b5278eae7a57fd8bc16d25540adc97a719c361ff4dfaebda037f"
+  },
+  {
+    "id": "ch12.complex.hard.0016",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $(2+3i)^2+(4+4i)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$17+16i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1-16i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-5+12i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1+16i$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-1+16i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 1 + 16i",
+      "16i-1"
+    ],
+    "solution_latex": "Square first: $(2+3i)^2=-5+12i$. Then add $4+4i$ to get $-1+16i$.",
+    "complexity_factor": 1.3,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "squares"
+    ],
+    "status": "valid",
+    "checksum": "sha256-bb7e2f338fbc2a5f79047df7f49a91cea1e558f012a4d6d589e41ce7ebf4ceb8"
+  },
+  {
+    "id": "ch12.complex.hard.0017",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Compute $\\dfrac{-10+10i}{6+2i}$ in the form $a+bi$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1+2i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1-2i$"
+      },
+      {
+        "id": "c",
+        "latex": "$2i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-10+10i$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-1+2i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 1 + 2i",
+      "2i-1"
+    ],
+    "solution_latex": "The numerator equals $(-1+2i)(6+2i)$, so dividing by $6+2i$ gives $-1+2i$.",
+    "complexity_factor": 1.3,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "division",
+      "conjugate"
+    ],
+    "status": "valid",
+    "checksum": "sha256-a9a12f6ac57f436159d75cf7ef635a71ee4a8d084d926e04d12696c033be1e89"
+  },
+  {
+    "id": "ch12.complex.hard.0018",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $(4+5i)^2+(-2+6i)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$39+46i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-11+46i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-11-46i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-9+40i$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-11+46i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 11 + 46i",
+      "46i-11"
+    ],
+    "solution_latex": "Square first: $(4+5i)^2=-9+40i$. Then add $-2+6i$ to get $-11+46i$.",
+    "complexity_factor": 1.3,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "squares"
+    ],
+    "status": "valid",
+    "checksum": "sha256-b1f074b8117ce46dc5fbd247ee3c11b176ae02608e00c9c79cf23394016fd5b4"
+  },
+  {
+    "id": "ch12.complex.hard.0019",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Compute $\\dfrac{-2+9i}{2+i}$ in the form $a+bi$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1-4i$"
+      },
+      {
+        "id": "b",
+        "latex": "$2+4i$"
+      },
+      {
+        "id": "c",
+        "latex": "$1+4i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2+9i$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "1+4i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "1 + 4i",
+      "4i+1"
+    ],
+    "solution_latex": "The numerator equals $(1+4i)(2+i)$, so dividing by $2+i$ gives $1+4i$.",
+    "complexity_factor": 1.3,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "division",
+      "conjugate"
+    ],
+    "status": "valid",
+    "checksum": "sha256-4ca2d17cc66d0aa544abcf55f075ef31e1d39ced5886aa878c75888fb398953d"
+  },
+  {
+    "id": "ch12.complex.hard.0020",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $(-3+7i)^2+(2i)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$58-40i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-40+40i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-40-42i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-40-40i$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-40-40i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 40 - 40i",
+      "-40i-40"
+    ],
+    "solution_latex": "Square first: $(-3+7i)^2=-40-42i$. Then add $2i$ to get $-40-40i$.",
+    "complexity_factor": 1.3,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "squares"
+    ],
+    "status": "valid",
+    "checksum": "sha256-9b3f6933dd36c54436aba0d8348dd12f2f23799c211b365f53277a3ba1f2c540"
+  },
+  {
+    "id": "ch12.complex.hard.0021",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Compute $\\dfrac{9+13i}{4+3i}$ in the form $a+bi$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3+i$"
+      },
+      {
+        "id": "b",
+        "latex": "$3-i$"
+      },
+      {
+        "id": "c",
+        "latex": "$4+i$"
+      },
+      {
+        "id": "d",
+        "latex": "$9+13i$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "3+i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "3 + i",
+      "i+3"
+    ],
+    "solution_latex": "The numerator equals $(3+i)(4+3i)$, so dividing by $4+3i$ gives $3+i$.",
+    "complexity_factor": 1.3,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "division",
+      "conjugate"
+    ],
+    "status": "valid",
+    "checksum": "sha256-76f4803c34f6dd104133cf734ebc110c909001d5a9ad63841dba77c72eabe34e"
+  },
+  {
+    "id": "ch12.complex.hard.0022",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $(-1+2i)^2+(2+4i)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$-3-4i$"
+      },
+      {
+        "id": "d",
+        "latex": "$121+i$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-1",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 1"
+    ],
+    "solution_latex": "Square first: $(-1+2i)^2=-3-4i$. Then add $2+4i$ to get $-1$.",
+    "complexity_factor": 1.3,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "squares"
+    ],
+    "status": "valid",
+    "checksum": "sha256-01d5848ffde04151627a33337c3c4e85e316a34a17beab3ece21559b70af2328"
+  },
+  {
+    "id": "ch12.complex.hard.0023",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Compute $\\dfrac{-18+14i}{6+2i}$ in the form $a+bi$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2-3i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1+3i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2+3i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-18+14i$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-2+3i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 2 + 3i",
+      "3i-2"
+    ],
+    "solution_latex": "The numerator equals $(-2+3i)(6+2i)$, so dividing by $6+2i$ gives $-2+3i$.",
+    "complexity_factor": 1.3,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "division",
+      "conjugate"
+    ],
+    "status": "valid",
+    "checksum": "sha256-1d98b49c234c1189e9682acc711e4b94f5fb8d24dfe724511ad8ba15bc78a03b"
+  },
+  {
+    "id": "ch12.complex.hard.0024",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $(1+4i)^2+(4+6i)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$21+14i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-11-14i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-15+8i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-11+14i$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-11+14i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 11 + 14i",
+      "14i-11"
+    ],
+    "solution_latex": "Square first: $(1+4i)^2=-15+8i$. Then add $4+6i$ to get $-11+14i$.",
+    "complexity_factor": 1.3,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "squares"
+    ],
+    "status": "valid",
+    "checksum": "sha256-c9fcad3500d8e2e1a11e8765771073bdbc884af275db58add7eb1c1fb634d66a"
+  },
+  {
+    "id": "ch12.complex.hard.0025",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Compute $\\dfrac{-5+10i}{2+i}$ in the form $a+bi$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-5i$"
+      },
+      {
+        "id": "c",
+        "latex": "$1+5i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-5+10i$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "5i",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The numerator equals $(5i)(2+i)$, so dividing by $2+i$ gives $5i$.",
+    "complexity_factor": 1.3,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "division",
+      "conjugate"
+    ],
+    "status": "valid",
+    "checksum": "sha256-d03ad68334aa75e7b1b134002016ef1d8fcee7a8bd5504bfcb2b67334a23ca8c"
+  },
+  {
+    "id": "ch12.complex.hard.0026",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $(3+6i)^2+(-2+2i)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$43+38i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-29+38i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-29-38i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-27+36i$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-29+38i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 29 + 38i",
+      "38i-29"
+    ],
+    "solution_latex": "Square first: $(3+6i)^2=-27+36i$. Then add $-2+2i$ to get $-29+38i$.",
+    "complexity_factor": 1.3,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "squares"
+    ],
+    "status": "valid",
+    "checksum": "sha256-65226b2d4e37c0add247a52013d4418ebeec2410be5f89fe73d0d89736eca3c2"
+  },
+  {
+    "id": "ch12.complex.hard.0027",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Compute $\\dfrac{2+14i}{4+3i}$ in the form $a+bi$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2-2i$"
+      },
+      {
+        "id": "b",
+        "latex": "$3+2i$"
+      },
+      {
+        "id": "c",
+        "latex": "$2+2i$"
+      },
+      {
+        "id": "d",
+        "latex": "$2+14i$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "2+2i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "2 + 2i",
+      "2i+2"
+    ],
+    "solution_latex": "The numerator equals $(2+2i)(4+3i)$, so dividing by $4+3i$ gives $2+2i$.",
+    "complexity_factor": 1.3,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "division",
+      "conjugate"
+    ],
+    "status": "valid",
+    "checksum": "sha256-c66b7fca6edc365c7c792b98d8b5e7f1991cd4f13b95f5635c85f089aac460f9"
+  },
+  {
+    "id": "ch12.complex.hard.0028",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $(-4+8i)^2+(4i)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$80-60i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-48+60i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-48-64i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-48-60i$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-48-60i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 48 - 60i",
+      "-60i-48"
+    ],
+    "solution_latex": "Square first: $(-4+8i)^2=-48-64i$. Then add $4i$ to get $-48-60i$.",
+    "complexity_factor": 1.3,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "squares"
+    ],
+    "status": "valid",
+    "checksum": "sha256-04c4742bedfaef2586e6f36d289a2add58bafe5a4aac5bf19ab2a06621e51f4d"
+  },
+  {
+    "id": "ch12.complex.hard.0029",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Compute $\\dfrac{-26+18i}{6+2i}$ in the form $a+bi$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3+4i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3-4i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2+4i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-26+18i$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-3+4i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 3 + 4i",
+      "4i-3"
+    ],
+    "solution_latex": "The numerator equals $(-3+4i)(6+2i)$, so dividing by $6+2i$ gives $-3+4i$.",
+    "complexity_factor": 1.3,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "division",
+      "conjugate"
+    ],
+    "status": "valid",
+    "checksum": "sha256-a8e7d5d61aeb3dcff1d1909b01b4176d67cd68f78cb9653d2b8a884c8fb39a93"
+  },
+  {
+    "id": "ch12.complex.hard.0030",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $(-2+3i)^2+(2+6i)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$15-6i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3-6i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-3+6i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-5-12i$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-3-6i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 3 - 6i",
+      "-6i-3"
+    ],
+    "solution_latex": "Square first: $(-2+3i)^2=-5-12i$. Then add $2+6i$ to get $-3-6i$.",
+    "complexity_factor": 1.3,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "squares"
+    ],
+    "status": "valid",
+    "checksum": "sha256-087fe9f747276b2ccd2d5220c54378c46bd947a072b43d28e9f2ec055fb5ff68"
+  },
+  {
+    "id": "ch12.complex.hard.0031",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Compute $\\dfrac{-3+i}{2+i}$ in the form $a+bi$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1-i$"
+      },
+      {
+        "id": "b",
+        "latex": "$i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1+i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3+i$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-1+i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 1 + i",
+      "i-1"
+    ],
+    "solution_latex": "The numerator equals $(-1+i)(2+i)$, so dividing by $2+i$ gives $-1+i$.",
+    "complexity_factor": 1.3,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "division",
+      "conjugate"
+    ],
+    "status": "valid",
+    "checksum": "sha256-5f769d29f9df70ea9b1238c7305b885d53558707a3d4e09eb6ad2910c9c673e2"
+  },
+  {
+    "id": "ch12.complex.hard.0032",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $(5i)^2+(4+2i)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$29+2i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-21-2i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-25$"
+      },
+      {
+        "id": "d",
+        "latex": "$-21+2i$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-21+2i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 21 + 2i",
+      "2i-21"
+    ],
+    "solution_latex": "Square first: $(5i)^2=-25$. Then add $4+2i$ to get $-21+2i$.",
+    "complexity_factor": 1.3,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "squares"
+    ],
+    "status": "valid",
+    "checksum": "sha256-a10c7cb59326ced00fff33b3165d603531740bab1faf0c3ba8d3dfaeb28c0784"
+  },
+  {
+    "id": "ch12.complex.hard.0033",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Compute $\\dfrac{-5+15i}{4+3i}$ in the form $a+bi$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1+3i$"
+      },
+      {
+        "id": "b",
+        "latex": "$1-3i$"
+      },
+      {
+        "id": "c",
+        "latex": "$2+3i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-5+15i$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1+3i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "1 + 3i",
+      "3i+1"
+    ],
+    "solution_latex": "The numerator equals $(1+3i)(4+3i)$, so dividing by $4+3i$ gives $1+3i$.",
+    "complexity_factor": 1.3,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "division",
+      "conjugate"
+    ],
+    "status": "valid",
+    "checksum": "sha256-375ff85c79e526f320b2c27991a5924e6f8b5693021e30cd047e04c17ca083f4"
+  },
+  {
+    "id": "ch12.complex.hard.0034",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $(2+7i)^2+(-2+4i)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$51+32i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-47+32i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-47-32i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-45+28i$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-47+32i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 47 + 32i",
+      "32i-47"
+    ],
+    "solution_latex": "Square first: $(2+7i)^2=-45+28i$. Then add $-2+4i$ to get $-47+32i$.",
+    "complexity_factor": 1.3,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "squares"
+    ],
+    "status": "valid",
+    "checksum": "sha256-d42350a70c3ed62c550522163adb2cdba1a52a851d55b502e511c9d44f4e2bd6"
+  },
+  {
+    "id": "ch12.complex.hard.0035",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Compute $\\dfrac{8+36i}{6+2i}$ in the form $a+bi$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3-5i$"
+      },
+      {
+        "id": "b",
+        "latex": "$4+5i$"
+      },
+      {
+        "id": "c",
+        "latex": "$3+5i$"
+      },
+      {
+        "id": "d",
+        "latex": "$8+36i$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3+5i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "3 + 5i",
+      "5i+3"
+    ],
+    "solution_latex": "The numerator equals $(3+5i)(6+2i)$, so dividing by $6+2i$ gives $3+5i$.",
+    "complexity_factor": 1.3,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "division",
+      "conjugate"
+    ],
+    "status": "valid",
+    "checksum": "sha256-95285a98ede6c7d39c48184ce455033a82fc122b15e7231fb532cee90815efe7"
+  },
+  {
+    "id": "ch12.complex.hard.0036",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $(4+2i)^2+(6i)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$20+22i$"
+      },
+      {
+        "id": "b",
+        "latex": "$12-22i$"
+      },
+      {
+        "id": "c",
+        "latex": "$12+16i$"
+      },
+      {
+        "id": "d",
+        "latex": "$12+22i$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "12+22i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "12 + 22i",
+      "22i+12"
+    ],
+    "solution_latex": "Square first: $(4+2i)^2=12+16i$. Then add $6i$ to get $12+22i$.",
+    "complexity_factor": 1.3,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "squares"
+    ],
+    "status": "valid",
+    "checksum": "sha256-0573690f3dfd1590a39594ed5dbca023ae06fbd7dc5e252526a42ce415d6b6d9"
+  },
+  {
+    "id": "ch12.complex.hard.0037",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Compute $\\dfrac{-6+2i}{2+i}$ in the form $a+bi$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2+2i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2-2i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1+2i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-6+2i$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-2+2i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 2 + 2i",
+      "2i-2"
+    ],
+    "solution_latex": "The numerator equals $(-2+2i)(2+i)$, so dividing by $2+i$ gives $-2+2i$.",
+    "complexity_factor": 1.3,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "division",
+      "conjugate"
+    ],
+    "status": "valid",
+    "checksum": "sha256-367909b4ccaf37b4ee178b0bf81c10d7b65721e151aae523713a64ae2d97eb32"
+  },
+  {
+    "id": "ch12.complex.hard.0038",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $(-3+4i)^2+(2+2i)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$27-22i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-5-22i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-5+22i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-7-24i$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-5-22i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 5 - 22i",
+      "-22i-5"
+    ],
+    "solution_latex": "Square first: $(-3+4i)^2=-7-24i$. Then add $2+2i$ to get $-5-22i$.",
+    "complexity_factor": 1.3,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "squares"
+    ],
+    "status": "valid",
+    "checksum": "sha256-5c7d02ebbbdddc941a3a65faa4075d466682159c485852cdb74ecb11ad870ef8"
+  },
+  {
+    "id": "ch12.complex.hard.0039",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Compute $\\dfrac{-12+16i}{4+3i}$ in the form $a+bi$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4i$"
+      },
+      {
+        "id": "b",
+        "latex": "$1+4i$"
+      },
+      {
+        "id": "c",
+        "latex": "$4i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-12+16i$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "4i",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The numerator equals $(4i)(4+3i)$, so dividing by $4+3i$ gives $4i$.",
+    "complexity_factor": 1.3,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "division",
+      "conjugate"
+    ],
+    "status": "valid",
+    "checksum": "sha256-a1d528623d5f37909ad711df091c99c7b8f30d642522cea7e56631b8f2ea257a"
+  },
+  {
+    "id": "ch12.complex.hard.0040",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $(-1+6i)^2+(4+4i)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$41-8i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-31+8i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-35-12i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-31-8i$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-31-8i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 31 - 8i",
+      "-8i-31"
+    ],
+    "solution_latex": "Square first: $(-1+6i)^2=-35-12i$. Then add $4+4i$ to get $-31-8i$.",
+    "complexity_factor": 1.3,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "squares"
+    ],
+    "status": "valid",
+    "checksum": "sha256-573994391c4a7351d22e68ce059560ef73c322e199428b0644700e7d5c6981b0"
+  },
+  {
+    "id": "ch12.complex.hard.0041",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Compute $\\dfrac{10+10i}{6+2i}$ in the form $a+bi$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2+i$"
+      },
+      {
+        "id": "b",
+        "latex": "$2-i$"
+      },
+      {
+        "id": "c",
+        "latex": "$3+i$"
+      },
+      {
+        "id": "d",
+        "latex": "$10+10i$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2+i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "2 + i",
+      "i+2"
+    ],
+    "solution_latex": "The numerator equals $(2+i)(6+2i)$, so dividing by $6+2i$ gives $2+i$.",
+    "complexity_factor": 1.3,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "division",
+      "conjugate"
+    ],
+    "status": "valid",
+    "checksum": "sha256-ed9e0b7a4d682e547916921754b4a7cbea5696b9ff1af2fcb34192d678747091"
+  },
+  {
+    "id": "ch12.complex.hard.0042",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $(1+8i)^2+(-2+6i)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$63+22i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-65+22i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-65-22i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-63+16i$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-65+22i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 65 + 22i",
+      "22i-65"
+    ],
+    "solution_latex": "Square first: $(1+8i)^2=-63+16i$. Then add $-2+6i$ to get $-65+22i$.",
+    "complexity_factor": 1.3,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "squares"
+    ],
+    "status": "valid",
+    "checksum": "sha256-b3a0bbbe0818f97e2bd08fdd86f00b9cb19c59689308a9e836ec6b05f7f83172"
+  },
+  {
+    "id": "ch12.complex.hard.0043",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Compute $\\dfrac{-9+3i}{2+i}$ in the form $a+bi$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3-3i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2+3i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-3+3i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-9+3i$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-3+3i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 3 + 3i",
+      "3i-3"
+    ],
+    "solution_latex": "The numerator equals $(-3+3i)(2+i)$, so dividing by $2+i$ gives $-3+3i$.",
+    "complexity_factor": 1.3,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "division",
+      "conjugate"
+    ],
+    "status": "valid",
+    "checksum": "sha256-4934a826c56f705efd2c5bda4e60c06ff7e6c05b3be7350511f4ed9a1e511784"
+  },
+  {
+    "id": "ch12.complex.hard.0044",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $(3+3i)^2+(2i)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$18+20i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-20i$"
+      },
+      {
+        "id": "c",
+        "latex": "$18i$"
+      },
+      {
+        "id": "d",
+        "latex": "$20i$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "20i",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Square first: $(3+3i)^2=18i$. Then add $2i$ to get $20i$.",
+    "complexity_factor": 1.3,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "squares"
+    ],
+    "status": "valid",
+    "checksum": "sha256-2d4712c16e8e192b9c502223f1da760d9a86ff8580a0a9ee05d288cf4a3c575b"
+  },
+  {
+    "id": "ch12.complex.hard.0045",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Compute $\\dfrac{-19+17i}{4+3i}$ in the form $a+bi$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1+5i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1-5i$"
+      },
+      {
+        "id": "c",
+        "latex": "$5i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-19+17i$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-1+5i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 1 + 5i",
+      "5i-1"
+    ],
+    "solution_latex": "The numerator equals $(-1+5i)(4+3i)$, so dividing by $4+3i$ gives $-1+5i$.",
+    "complexity_factor": 1.3,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "division",
+      "conjugate"
+    ],
+    "status": "valid",
+    "checksum": "sha256-a27f51922c89601ebcb8a8219bb945a36b05edeb5c400deb3d325abc4913ced8"
+  },
+  {
+    "id": "ch12.complex.hard.0046",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $(-4+5i)^2+(2+4i)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$43-36i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-7-36i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-7+36i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-9-40i$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-7-36i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 7 - 36i",
+      "-36i-7"
+    ],
+    "solution_latex": "Square first: $(-4+5i)^2=-9-40i$. Then add $2+4i$ to get $-7-36i$.",
+    "complexity_factor": 1.3,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "squares"
+    ],
+    "status": "valid",
+    "checksum": "sha256-018e1da843d5e9a8df20c8836608f445c40e1eb5e681af22e493309efe85a18d"
+  },
+  {
+    "id": "ch12.complex.hard.0047",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Compute $\\dfrac{2+14i}{6+2i}$ in the form $a+bi$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1-2i$"
+      },
+      {
+        "id": "b",
+        "latex": "$2+2i$"
+      },
+      {
+        "id": "c",
+        "latex": "$1+2i$"
+      },
+      {
+        "id": "d",
+        "latex": "$2+14i$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "1+2i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "1 + 2i",
+      "2i+1"
+    ],
+    "solution_latex": "The numerator equals $(1+2i)(6+2i)$, so dividing by $6+2i$ gives $1+2i$.",
+    "complexity_factor": 1.3,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "division",
+      "conjugate"
+    ],
+    "status": "valid",
+    "checksum": "sha256-db3cd2d4d723fc4aeae27a524d02798f4847c2f94e6827d302253d8b780e91e5"
+  },
+  {
+    "id": "ch12.complex.hard.0048",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $(-2+7i)^2+(4+6i)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$57-22i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-41+22i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-45-28i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-41-22i$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-41-22i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 41 - 22i",
+      "-22i-41"
+    ],
+    "solution_latex": "Square first: $(-2+7i)^2=-45-28i$. Then add $4+6i$ to get $-41-22i$.",
+    "complexity_factor": 1.3,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "squares"
+    ],
+    "status": "valid",
+    "checksum": "sha256-2ddc7a2917642b1defae0d9dd1962eb35f3ff8695498ec4747a402f7a5fa6542"
+  },
+  {
+    "id": "ch12.complex.hard.0049",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Compute $\\dfrac{2+11i}{2+i}$ in the form $a+bi$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3+4i$"
+      },
+      {
+        "id": "b",
+        "latex": "$3-4i$"
+      },
+      {
+        "id": "c",
+        "latex": "$4+4i$"
+      },
+      {
+        "id": "d",
+        "latex": "$2+11i$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "3+4i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "3 + 4i",
+      "4i+3"
+    ],
+    "solution_latex": "The numerator equals $(3+4i)(2+i)$, so dividing by $2+i$ gives $3+4i$.",
+    "complexity_factor": 1.3,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "division",
+      "conjugate"
+    ],
+    "status": "valid",
+    "checksum": "sha256-69432c132134a29a70975c30131e9d02e4d92a5ffb85302f1ebf818f0bd8df4e"
+  },
+  {
+    "id": "ch12.complex.hard.0050",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $(2i)^2+(-2+2i)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2+2i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-6+2i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-6-2i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-6+2i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 6 + 2i",
+      "2i-6"
+    ],
+    "solution_latex": "Square first: $(2i)^2=-4$. Then add $-2+2i$ to get $-6+2i$.",
+    "complexity_factor": 1.3,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "squares"
+    ],
+    "status": "valid",
+    "checksum": "sha256-4c176c13ddb81b1233c849a5ede317f53949e644c7321088f3f671213e9772ec"
+  }
+]

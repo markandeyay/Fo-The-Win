@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "ch15.quadratic_optimization.hard.0001",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "A rectangle has perimeter $20$. What is the greatest possible area of the rectangle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$25$"
+      },
+      {
+        "id": "b",
+        "latex": "$20$"
+      },
+      {
+        "id": "c",
+        "latex": "$400$"
+      },
+      {
+        "id": "d",
+        "latex": "$50$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "25",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "If one side is $x$, the other is $10-x$, so the area is $x(10-x)$. This quadratic is maximized when the sides are equal, giving area $25$.",
+    "complexity_factor": 1.45,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "area"
+    ],
+    "checksum": "sha256-a33dea703d7d4e4922bb7cfd45eee1e4514e7313c9b9777ddea2a865469a09ee",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.hard.0002",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Positive numbers $x$ and $y$ have sum $14$. What is the greatest possible value of $xy$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$14$"
+      },
+      {
+        "id": "b",
+        "latex": "$196$"
+      },
+      {
+        "id": "c",
+        "latex": "$48$"
+      },
+      {
+        "id": "d",
+        "latex": "$49$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "49",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Write $y=14-x$. Then $xy=x(14-x)=-(x-7)^2+49$, so the greatest value is $49$.",
+    "complexity_factor": 1.4,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "product"
+    ],
+    "checksum": "sha256-7ea44ec8249686ff0c48cc38d06548417fa5f9e52e482604c8f0f208662d76c9",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.hard.0003",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "A rectangle has perimeter $24$. What is the greatest possible area of the rectangle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$36$"
+      },
+      {
+        "id": "b",
+        "latex": "$576$"
+      },
+      {
+        "id": "c",
+        "latex": "$72$"
+      },
+      {
+        "id": "d",
+        "latex": "$24$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "36",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "If one side is $x$, the other is $12-x$, so the area is $x(12-x)$. This quadratic is maximized when the sides are equal, giving area $36$.",
+    "complexity_factor": 1.45,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "area"
+    ],
+    "checksum": "sha256-68d89fbbac8102534943ad4fccf15faf2a4434e136d1010e327d3f6db852854e",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.hard.0004",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Positive numbers $x$ and $y$ have sum $18$. What is the greatest possible value of $xy$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$18$"
+      },
+      {
+        "id": "b",
+        "latex": "$81$"
+      },
+      {
+        "id": "c",
+        "latex": "$80$"
+      },
+      {
+        "id": "d",
+        "latex": "$324$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "81",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Write $y=18-x$. Then $xy=x(18-x)=-(x-9)^2+81$, so the greatest value is $81$.",
+    "complexity_factor": 1.4,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "product"
+    ],
+    "checksum": "sha256-e712ad537ec5876a376888f33d83cf3d6f211ebbf144ff3ae2c3cb19813c6866",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.hard.0005",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "A rectangle has perimeter $28$. What is the greatest possible area of the rectangle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$784$"
+      },
+      {
+        "id": "b",
+        "latex": "$28$"
+      },
+      {
+        "id": "c",
+        "latex": "$49$"
+      },
+      {
+        "id": "d",
+        "latex": "$98$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "49",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "If one side is $x$, the other is $14-x$, so the area is $x(14-x)$. This quadratic is maximized when the sides are equal, giving area $49$.",
+    "complexity_factor": 1.45,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "area"
+    ],
+    "checksum": "sha256-822df907507a6e6167e0eae6402017bdf79feca11c481542a8d5c73fc312c9cd",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.hard.0006",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Positive numbers $x$ and $y$ have sum $22$. What is the greatest possible value of $xy$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$484$"
+      },
+      {
+        "id": "b",
+        "latex": "$120$"
+      },
+      {
+        "id": "c",
+        "latex": "$22$"
+      },
+      {
+        "id": "d",
+        "latex": "$121$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "121",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Write $y=22-x$. Then $xy=x(22-x)=-(x-11)^2+121$, so the greatest value is $121$.",
+    "complexity_factor": 1.4,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "product"
+    ],
+    "checksum": "sha256-61490d3f8dc0a510cf502a7507b3f450cda8cc06eb7638bac2c1bcefc81ae196",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.hard.0007",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "A rectangle has perimeter $32$. What is the greatest possible area of the rectangle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$64$"
+      },
+      {
+        "id": "b",
+        "latex": "$128$"
+      },
+      {
+        "id": "c",
+        "latex": "$1024$"
+      },
+      {
+        "id": "d",
+        "latex": "$32$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "64",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "If one side is $x$, the other is $16-x$, so the area is $x(16-x)$. This quadratic is maximized when the sides are equal, giving area $64$.",
+    "complexity_factor": 1.45,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "area"
+    ],
+    "checksum": "sha256-0975f253d86b19ce7a61b00d3a89df8bd9e0252eb7a183f307a25104e65da3d5",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.hard.0008",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Positive numbers $x$ and $y$ have sum $26$. What is the greatest possible value of $xy$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$26$"
+      },
+      {
+        "id": "b",
+        "latex": "$168$"
+      },
+      {
+        "id": "c",
+        "latex": "$169$"
+      },
+      {
+        "id": "d",
+        "latex": "$676$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "169",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Write $y=26-x$. Then $xy=x(26-x)=-(x-13)^2+169$, so the greatest value is $169$.",
+    "complexity_factor": 1.4,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "product"
+    ],
+    "checksum": "sha256-cc41bfbf8abe6c4d53e24cfbb9f56fef5330b4ffd53a09295d8ae3615f072228",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.hard.0009",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "A rectangle has perimeter $36$. What is the greatest possible area of the rectangle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$81$"
+      },
+      {
+        "id": "b",
+        "latex": "$1296$"
+      },
+      {
+        "id": "c",
+        "latex": "$36$"
+      },
+      {
+        "id": "d",
+        "latex": "$162$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "81",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "If one side is $x$, the other is $18-x$, so the area is $x(18-x)$. This quadratic is maximized when the sides are equal, giving area $81$.",
+    "complexity_factor": 1.45,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "area"
+    ],
+    "checksum": "sha256-9b793cb2f69575fe730ed34df4c6d8c4562e6f416e5ed69e434b355706aaae41",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.hard.0010",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Positive numbers $x$ and $y$ have sum $30$. What is the greatest possible value of $xy$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$30$"
+      },
+      {
+        "id": "b",
+        "latex": "$224$"
+      },
+      {
+        "id": "c",
+        "latex": "$900$"
+      },
+      {
+        "id": "d",
+        "latex": "$225$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "225",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Write $y=30-x$. Then $xy=x(30-x)=-(x-15)^2+225$, so the greatest value is $225$.",
+    "complexity_factor": 1.4,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "product"
+    ],
+    "checksum": "sha256-b89e1b4afeaee1aff4f7bdf884c3ce9fcf3a84e4924f93ab82c62bca478ed5ee",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.hard.0011",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "A rectangle has perimeter $40$. What is the greatest possible area of the rectangle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1600$"
+      },
+      {
+        "id": "b",
+        "latex": "$200$"
+      },
+      {
+        "id": "c",
+        "latex": "$100$"
+      },
+      {
+        "id": "d",
+        "latex": "$40$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "100",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "If one side is $x$, the other is $20-x$, so the area is $x(20-x)$. This quadratic is maximized when the sides are equal, giving area $100$.",
+    "complexity_factor": 1.45,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "area"
+    ],
+    "checksum": "sha256-1e9fb24de2e8d88650630995be05a3f757bf6660a6e353434411fd7a0a0bdd2a",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.hard.0012",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Positive numbers $x$ and $y$ have sum $34$. What is the greatest possible value of $xy$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$288$"
+      },
+      {
+        "id": "b",
+        "latex": "$289$"
+      },
+      {
+        "id": "c",
+        "latex": "$34$"
+      },
+      {
+        "id": "d",
+        "latex": "$1156$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "289",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Write $y=34-x$. Then $xy=x(34-x)=-(x-17)^2+289$, so the greatest value is $289$.",
+    "complexity_factor": 1.4,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "product"
+    ],
+    "checksum": "sha256-e51250fa1a1490b601e3d97d65fc8f49e6e15d002099d492b08557b82c797826",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.hard.0013",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "A rectangle has perimeter $44$. What is the greatest possible area of the rectangle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$121$"
+      },
+      {
+        "id": "b",
+        "latex": "$44$"
+      },
+      {
+        "id": "c",
+        "latex": "$1936$"
+      },
+      {
+        "id": "d",
+        "latex": "$242$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "121",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "If one side is $x$, the other is $22-x$, so the area is $x(22-x)$. This quadratic is maximized when the sides are equal, giving area $121$.",
+    "complexity_factor": 1.45,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "area"
+    ],
+    "checksum": "sha256-441de1e0508897686b0a03c33afebfcb9e5dffa200fbd314b7c1f4eb61d411ff",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.hard.0014",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Positive numbers $x$ and $y$ have sum $38$. What is the greatest possible value of $xy$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$38$"
+      },
+      {
+        "id": "b",
+        "latex": "$1444$"
+      },
+      {
+        "id": "c",
+        "latex": "$360$"
+      },
+      {
+        "id": "d",
+        "latex": "$361$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "361",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Write $y=38-x$. Then $xy=x(38-x)=-(x-19)^2+361$, so the greatest value is $361$.",
+    "complexity_factor": 1.4,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "product"
+    ],
+    "checksum": "sha256-74847ba1cd786a207568ddf6af897cb9ae675a66f449535b13645aaa75e5bc4b",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.hard.0015",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "A rectangle has perimeter $48$. What is the greatest possible area of the rectangle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$144$"
+      },
+      {
+        "id": "b",
+        "latex": "$2304$"
+      },
+      {
+        "id": "c",
+        "latex": "$288$"
+      },
+      {
+        "id": "d",
+        "latex": "$48$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "144",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "If one side is $x$, the other is $24-x$, so the area is $x(24-x)$. This quadratic is maximized when the sides are equal, giving area $144$.",
+    "complexity_factor": 1.45,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "area"
+    ],
+    "checksum": "sha256-2beeeaeded5e75b0f09616c34fa19598e374ed3a1edc250a5338d1d96f591b5b",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.hard.0016",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Positive numbers $x$ and $y$ have sum $42$. What is the greatest possible value of $xy$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$42$"
+      },
+      {
+        "id": "b",
+        "latex": "$441$"
+      },
+      {
+        "id": "c",
+        "latex": "$440$"
+      },
+      {
+        "id": "d",
+        "latex": "$1764$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "441",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Write $y=42-x$. Then $xy=x(42-x)=-(x-21)^2+441$, so the greatest value is $441$.",
+    "complexity_factor": 1.4,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "product"
+    ],
+    "checksum": "sha256-feb94d33f2492359fab154306f2e8f64868e0cf010ff9bbcbcf3b0f47611e50f",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.hard.0017",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "A rectangle has perimeter $52$. What is the greatest possible area of the rectangle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2704$"
+      },
+      {
+        "id": "b",
+        "latex": "$52$"
+      },
+      {
+        "id": "c",
+        "latex": "$169$"
+      },
+      {
+        "id": "d",
+        "latex": "$338$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "169",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "If one side is $x$, the other is $26-x$, so the area is $x(26-x)$. This quadratic is maximized when the sides are equal, giving area $169$.",
+    "complexity_factor": 1.45,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "area"
+    ],
+    "checksum": "sha256-db143543947a2b3964d95db2815613f11c82b9bad0e4859fa5732dbe30ddc2fd",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.hard.0018",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Positive numbers $x$ and $y$ have sum $46$. What is the greatest possible value of $xy$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2116$"
+      },
+      {
+        "id": "b",
+        "latex": "$528$"
+      },
+      {
+        "id": "c",
+        "latex": "$46$"
+      },
+      {
+        "id": "d",
+        "latex": "$529$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "529",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Write $y=46-x$. Then $xy=x(46-x)=-(x-23)^2+529$, so the greatest value is $529$.",
+    "complexity_factor": 1.4,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "product"
+    ],
+    "checksum": "sha256-2128376e1c37ca48980ebf83df3a2b51a08d0f3b36c47d686e29efc915632727",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.hard.0019",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "A rectangle has perimeter $56$. What is the greatest possible area of the rectangle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$196$"
+      },
+      {
+        "id": "b",
+        "latex": "$392$"
+      },
+      {
+        "id": "c",
+        "latex": "$3136$"
+      },
+      {
+        "id": "d",
+        "latex": "$56$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "196",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "If one side is $x$, the other is $28-x$, so the area is $x(28-x)$. This quadratic is maximized when the sides are equal, giving area $196$.",
+    "complexity_factor": 1.45,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "area"
+    ],
+    "checksum": "sha256-944074be4cd0bf2a70ba18af889dd8b8b8f0fdf5d72b08f55bc1179063224fed",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.hard.0020",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Positive numbers $x$ and $y$ have sum $50$. What is the greatest possible value of $xy$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$50$"
+      },
+      {
+        "id": "b",
+        "latex": "$624$"
+      },
+      {
+        "id": "c",
+        "latex": "$625$"
+      },
+      {
+        "id": "d",
+        "latex": "$2500$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "625",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Write $y=50-x$. Then $xy=x(50-x)=-(x-25)^2+625$, so the greatest value is $625$.",
+    "complexity_factor": 1.4,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "product"
+    ],
+    "checksum": "sha256-d1f7d1192cd6127957c7abbd63067e0f8f3e577c73cda165ed8dad8e0f0007d3",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.hard.0021",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "A rectangle has perimeter $60$. What is the greatest possible area of the rectangle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$225$"
+      },
+      {
+        "id": "b",
+        "latex": "$3600$"
+      },
+      {
+        "id": "c",
+        "latex": "$60$"
+      },
+      {
+        "id": "d",
+        "latex": "$450$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "225",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "If one side is $x$, the other is $30-x$, so the area is $x(30-x)$. This quadratic is maximized when the sides are equal, giving area $225$.",
+    "complexity_factor": 1.45,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "area"
+    ],
+    "checksum": "sha256-865c6515c47e5b95b75f7ebd9ebfcf23fd01e3c8a848ff07c348925b2aa23ae3",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.hard.0022",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Positive numbers $x$ and $y$ have sum $54$. What is the greatest possible value of $xy$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$54$"
+      },
+      {
+        "id": "b",
+        "latex": "$728$"
+      },
+      {
+        "id": "c",
+        "latex": "$2916$"
+      },
+      {
+        "id": "d",
+        "latex": "$729$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "729",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Write $y=54-x$. Then $xy=x(54-x)=-(x-27)^2+729$, so the greatest value is $729$.",
+    "complexity_factor": 1.4,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "product"
+    ],
+    "checksum": "sha256-890ca372eb8199fb5ddb5c647805f825666484f7f433736f226e97fe577138b1",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.hard.0023",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "A rectangle has perimeter $64$. What is the greatest possible area of the rectangle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4096$"
+      },
+      {
+        "id": "b",
+        "latex": "$512$"
+      },
+      {
+        "id": "c",
+        "latex": "$256$"
+      },
+      {
+        "id": "d",
+        "latex": "$64$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "256",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "If one side is $x$, the other is $32-x$, so the area is $x(32-x)$. This quadratic is maximized when the sides are equal, giving area $256$.",
+    "complexity_factor": 1.45,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "area"
+    ],
+    "checksum": "sha256-78cfd8d314e605443a2e68f9978667ef7a6d3248c02e0c6b55abdfee5b67ab93",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.hard.0024",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Positive numbers $x$ and $y$ have sum $58$. What is the greatest possible value of $xy$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$840$"
+      },
+      {
+        "id": "b",
+        "latex": "$841$"
+      },
+      {
+        "id": "c",
+        "latex": "$58$"
+      },
+      {
+        "id": "d",
+        "latex": "$3364$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "841",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Write $y=58-x$. Then $xy=x(58-x)=-(x-29)^2+841$, so the greatest value is $841$.",
+    "complexity_factor": 1.4,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "product"
+    ],
+    "checksum": "sha256-506d38c37f239d412b3ca4e0b85a9c955f82e2b023b3c49f041739d6c66756e7",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.hard.0025",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "A rectangle has perimeter $68$. What is the greatest possible area of the rectangle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$289$"
+      },
+      {
+        "id": "b",
+        "latex": "$68$"
+      },
+      {
+        "id": "c",
+        "latex": "$4624$"
+      },
+      {
+        "id": "d",
+        "latex": "$578$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "289",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "If one side is $x$, the other is $34-x$, so the area is $x(34-x)$. This quadratic is maximized when the sides are equal, giving area $289$.",
+    "complexity_factor": 1.45,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "area"
+    ],
+    "checksum": "sha256-39b1946eb47a21371039db82eb7d60cdaf3c7f4d85d3e94a6935eab24fa30b99",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.hard.0026",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Positive numbers $x$ and $y$ have sum $62$. What is the greatest possible value of $xy$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$62$"
+      },
+      {
+        "id": "b",
+        "latex": "$3844$"
+      },
+      {
+        "id": "c",
+        "latex": "$960$"
+      },
+      {
+        "id": "d",
+        "latex": "$961$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "961",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Write $y=62-x$. Then $xy=x(62-x)=-(x-31)^2+961$, so the greatest value is $961$.",
+    "complexity_factor": 1.4,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "product"
+    ],
+    "checksum": "sha256-355d764b0d7a89be5e3ab2069ac1d16a86aad7a8d55fbc341abf7bcf108cf9e7",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.hard.0027",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "A rectangle has perimeter $72$. What is the greatest possible area of the rectangle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$324$"
+      },
+      {
+        "id": "b",
+        "latex": "$5184$"
+      },
+      {
+        "id": "c",
+        "latex": "$648$"
+      },
+      {
+        "id": "d",
+        "latex": "$72$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "324",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "If one side is $x$, the other is $36-x$, so the area is $x(36-x)$. This quadratic is maximized when the sides are equal, giving area $324$.",
+    "complexity_factor": 1.45,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "area"
+    ],
+    "checksum": "sha256-e62ede54d043b623d4a8f70c66cca6104bb1a579597298f683ed668269927fde",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.hard.0028",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Positive numbers $x$ and $y$ have sum $66$. What is the greatest possible value of $xy$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$66$"
+      },
+      {
+        "id": "b",
+        "latex": "$1089$"
+      },
+      {
+        "id": "c",
+        "latex": "$1088$"
+      },
+      {
+        "id": "d",
+        "latex": "$4356$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1089",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Write $y=66-x$. Then $xy=x(66-x)=-(x-33)^2+1089$, so the greatest value is $1089$.",
+    "complexity_factor": 1.4,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "product"
+    ],
+    "checksum": "sha256-2d2eaa3cb70c177b3d93848402880026257bbab4422ef37064d2a9f156aad435",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.hard.0029",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "A rectangle has perimeter $76$. What is the greatest possible area of the rectangle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5776$"
+      },
+      {
+        "id": "b",
+        "latex": "$76$"
+      },
+      {
+        "id": "c",
+        "latex": "$361$"
+      },
+      {
+        "id": "d",
+        "latex": "$722$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "361",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "If one side is $x$, the other is $38-x$, so the area is $x(38-x)$. This quadratic is maximized when the sides are equal, giving area $361$.",
+    "complexity_factor": 1.45,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "area"
+    ],
+    "checksum": "sha256-b63cc45e191e0a8f648c8370298aab8a0023a00456a3ac4f17688a6b0a63b042",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.hard.0030",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Positive numbers $x$ and $y$ have sum $70$. What is the greatest possible value of $xy$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4900$"
+      },
+      {
+        "id": "b",
+        "latex": "$1224$"
+      },
+      {
+        "id": "c",
+        "latex": "$70$"
+      },
+      {
+        "id": "d",
+        "latex": "$1225$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1225",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Write $y=70-x$. Then $xy=x(70-x)=-(x-35)^2+1225$, so the greatest value is $1225$.",
+    "complexity_factor": 1.4,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "product"
+    ],
+    "checksum": "sha256-38486b3287742ac3fe1034eea9c1607becb3412956bf80cacbe7f22324cad028",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.hard.0031",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "A rectangle has perimeter $80$. What is the greatest possible area of the rectangle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$400$"
+      },
+      {
+        "id": "b",
+        "latex": "$800$"
+      },
+      {
+        "id": "c",
+        "latex": "$6400$"
+      },
+      {
+        "id": "d",
+        "latex": "$80$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "400",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "If one side is $x$, the other is $40-x$, so the area is $x(40-x)$. This quadratic is maximized when the sides are equal, giving area $400$.",
+    "complexity_factor": 1.45,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "area"
+    ],
+    "checksum": "sha256-2688f55114d69981df61858f4ab29d0cf67cf01b81a3b73e6412290b57ddae6c",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.hard.0032",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Positive numbers $x$ and $y$ have sum $74$. What is the greatest possible value of $xy$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$74$"
+      },
+      {
+        "id": "b",
+        "latex": "$1368$"
+      },
+      {
+        "id": "c",
+        "latex": "$1369$"
+      },
+      {
+        "id": "d",
+        "latex": "$5476$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "1369",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Write $y=74-x$. Then $xy=x(74-x)=-(x-37)^2+1369$, so the greatest value is $1369$.",
+    "complexity_factor": 1.4,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "product"
+    ],
+    "checksum": "sha256-1d6ddf83e7a6ce78c98e4b8e32c880fe1cc98acb502dd48a17a50e1f22bc0150",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.hard.0033",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "A rectangle has perimeter $84$. What is the greatest possible area of the rectangle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$441$"
+      },
+      {
+        "id": "b",
+        "latex": "$7056$"
+      },
+      {
+        "id": "c",
+        "latex": "$84$"
+      },
+      {
+        "id": "d",
+        "latex": "$882$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "441",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "If one side is $x$, the other is $42-x$, so the area is $x(42-x)$. This quadratic is maximized when the sides are equal, giving area $441$.",
+    "complexity_factor": 1.45,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "area"
+    ],
+    "checksum": "sha256-116b257b8c32e553a6706098d8860d20b2c86145e1c48984df458385fe570a32",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.hard.0034",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Positive numbers $x$ and $y$ have sum $78$. What is the greatest possible value of $xy$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$78$"
+      },
+      {
+        "id": "b",
+        "latex": "$1520$"
+      },
+      {
+        "id": "c",
+        "latex": "$6084$"
+      },
+      {
+        "id": "d",
+        "latex": "$1521$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1521",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Write $y=78-x$. Then $xy=x(78-x)=-(x-39)^2+1521$, so the greatest value is $1521$.",
+    "complexity_factor": 1.4,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "product"
+    ],
+    "checksum": "sha256-5f57ba6a987b2906966c36cfcd8786a3ab1eab89f79f2a4016819b9136625c30",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.hard.0035",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "A rectangle has perimeter $88$. What is the greatest possible area of the rectangle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7744$"
+      },
+      {
+        "id": "b",
+        "latex": "$968$"
+      },
+      {
+        "id": "c",
+        "latex": "$484$"
+      },
+      {
+        "id": "d",
+        "latex": "$88$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "484",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "If one side is $x$, the other is $44-x$, so the area is $x(44-x)$. This quadratic is maximized when the sides are equal, giving area $484$.",
+    "complexity_factor": 1.45,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "area"
+    ],
+    "checksum": "sha256-0402102af957d6fc5bf244f67ef2e1e8788a04583d23475a2a2772ae45c6fba2",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.hard.0036",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Positive numbers $x$ and $y$ have sum $82$. What is the greatest possible value of $xy$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1680$"
+      },
+      {
+        "id": "b",
+        "latex": "$1681$"
+      },
+      {
+        "id": "c",
+        "latex": "$82$"
+      },
+      {
+        "id": "d",
+        "latex": "$6724$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1681",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Write $y=82-x$. Then $xy=x(82-x)=-(x-41)^2+1681$, so the greatest value is $1681$.",
+    "complexity_factor": 1.4,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "product"
+    ],
+    "checksum": "sha256-8d3ff5497b69965230992e9b56f67b4fa2102b2091aacb5d8bb35c62cffc6ff6",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.hard.0037",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "A rectangle has perimeter $92$. What is the greatest possible area of the rectangle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$529$"
+      },
+      {
+        "id": "b",
+        "latex": "$92$"
+      },
+      {
+        "id": "c",
+        "latex": "$8464$"
+      },
+      {
+        "id": "d",
+        "latex": "$1058$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "529",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "If one side is $x$, the other is $46-x$, so the area is $x(46-x)$. This quadratic is maximized when the sides are equal, giving area $529$.",
+    "complexity_factor": 1.45,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "area"
+    ],
+    "checksum": "sha256-5db080bc4587bc19fb3c3f21f6e9c95017b907a20e9e2bae0a9aa3e428ce1c9f",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.hard.0038",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Positive numbers $x$ and $y$ have sum $86$. What is the greatest possible value of $xy$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$86$"
+      },
+      {
+        "id": "b",
+        "latex": "$7396$"
+      },
+      {
+        "id": "c",
+        "latex": "$1848$"
+      },
+      {
+        "id": "d",
+        "latex": "$1849$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1849",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Write $y=86-x$. Then $xy=x(86-x)=-(x-43)^2+1849$, so the greatest value is $1849$.",
+    "complexity_factor": 1.4,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "product"
+    ],
+    "checksum": "sha256-480f446746adb72e70632126f4e3365b2b7227e9914d91d244e722581da6ed8b",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.hard.0039",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "A rectangle has perimeter $96$. What is the greatest possible area of the rectangle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$576$"
+      },
+      {
+        "id": "b",
+        "latex": "$9216$"
+      },
+      {
+        "id": "c",
+        "latex": "$1152$"
+      },
+      {
+        "id": "d",
+        "latex": "$96$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "576",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "If one side is $x$, the other is $48-x$, so the area is $x(48-x)$. This quadratic is maximized when the sides are equal, giving area $576$.",
+    "complexity_factor": 1.45,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "area"
+    ],
+    "checksum": "sha256-133effa3e8b14c7782a9b7e9a74f5091a166d4e89bc58767f7431d28d97082c6",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.hard.0040",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Positive numbers $x$ and $y$ have sum $90$. What is the greatest possible value of $xy$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$90$"
+      },
+      {
+        "id": "b",
+        "latex": "$2025$"
+      },
+      {
+        "id": "c",
+        "latex": "$2024$"
+      },
+      {
+        "id": "d",
+        "latex": "$8100$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "2025",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Write $y=90-x$. Then $xy=x(90-x)=-(x-45)^2+2025$, so the greatest value is $2025$.",
+    "complexity_factor": 1.4,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "product"
+    ],
+    "checksum": "sha256-008dc7a82bc61c58a6ab486a31566f85865e054ebc8b36c0cc8186813f810ee7",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.hard.0041",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "A rectangle has perimeter $100$. What is the greatest possible area of the rectangle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10000$"
+      },
+      {
+        "id": "b",
+        "latex": "$100$"
+      },
+      {
+        "id": "c",
+        "latex": "$625$"
+      },
+      {
+        "id": "d",
+        "latex": "$1250$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "625",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "If one side is $x$, the other is $50-x$, so the area is $x(50-x)$. This quadratic is maximized when the sides are equal, giving area $625$.",
+    "complexity_factor": 1.45,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "area"
+    ],
+    "checksum": "sha256-11e6cabb677c7712ecbff1c08f584ff37483dda95af082307d80920dd6ec4413",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.hard.0042",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Positive numbers $x$ and $y$ have sum $94$. What is the greatest possible value of $xy$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8836$"
+      },
+      {
+        "id": "b",
+        "latex": "$2208$"
+      },
+      {
+        "id": "c",
+        "latex": "$94$"
+      },
+      {
+        "id": "d",
+        "latex": "$2209$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2209",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Write $y=94-x$. Then $xy=x(94-x)=-(x-47)^2+2209$, so the greatest value is $2209$.",
+    "complexity_factor": 1.4,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "product"
+    ],
+    "checksum": "sha256-32d0fc1d2759d3e73fae194e786bb6bd598a72a17793815dc619fb355254d6d8",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.hard.0043",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "A rectangle has perimeter $104$. What is the greatest possible area of the rectangle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$676$"
+      },
+      {
+        "id": "b",
+        "latex": "$1352$"
+      },
+      {
+        "id": "c",
+        "latex": "$10816$"
+      },
+      {
+        "id": "d",
+        "latex": "$104$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "676",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "If one side is $x$, the other is $52-x$, so the area is $x(52-x)$. This quadratic is maximized when the sides are equal, giving area $676$.",
+    "complexity_factor": 1.45,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "area"
+    ],
+    "checksum": "sha256-f8051ecc64e6faac5ed792002c6e2921596039c9409c4dc49e5914f1192cda01",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.hard.0044",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Positive numbers $x$ and $y$ have sum $98$. What is the greatest possible value of $xy$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$98$"
+      },
+      {
+        "id": "b",
+        "latex": "$2400$"
+      },
+      {
+        "id": "c",
+        "latex": "$2401$"
+      },
+      {
+        "id": "d",
+        "latex": "$9604$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "2401",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Write $y=98-x$. Then $xy=x(98-x)=-(x-49)^2+2401$, so the greatest value is $2401$.",
+    "complexity_factor": 1.4,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "product"
+    ],
+    "checksum": "sha256-245102a25321ccb1eacd1bc5b1680f8ca2545fad34dc66d0281db7669820a35d",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.hard.0045",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "A rectangle has perimeter $108$. What is the greatest possible area of the rectangle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$729$"
+      },
+      {
+        "id": "b",
+        "latex": "$11664$"
+      },
+      {
+        "id": "c",
+        "latex": "$108$"
+      },
+      {
+        "id": "d",
+        "latex": "$1458$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "729",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "If one side is $x$, the other is $54-x$, so the area is $x(54-x)$. This quadratic is maximized when the sides are equal, giving area $729$.",
+    "complexity_factor": 1.45,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "area"
+    ],
+    "checksum": "sha256-19b36c79bb0f26193ea659706d1246a842d870d6fb7a129cd7e7df8a38de73e0",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.hard.0046",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Positive numbers $x$ and $y$ have sum $102$. What is the greatest possible value of $xy$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$102$"
+      },
+      {
+        "id": "b",
+        "latex": "$2600$"
+      },
+      {
+        "id": "c",
+        "latex": "$10404$"
+      },
+      {
+        "id": "d",
+        "latex": "$2601$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2601",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Write $y=102-x$. Then $xy=x(102-x)=-(x-51)^2+2601$, so the greatest value is $2601$.",
+    "complexity_factor": 1.4,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "product"
+    ],
+    "checksum": "sha256-4a9b0d93ce13685f0d58b5af8a6aaa0a993034931d47ca7c14c477e6d0b15150",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.hard.0047",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "A rectangle has perimeter $112$. What is the greatest possible area of the rectangle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12544$"
+      },
+      {
+        "id": "b",
+        "latex": "$1568$"
+      },
+      {
+        "id": "c",
+        "latex": "$784$"
+      },
+      {
+        "id": "d",
+        "latex": "$112$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "784",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "If one side is $x$, the other is $56-x$, so the area is $x(56-x)$. This quadratic is maximized when the sides are equal, giving area $784$.",
+    "complexity_factor": 1.45,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "area"
+    ],
+    "checksum": "sha256-14c0b00c44a009ac2c4559ff83a87282359fee59ad77a08f4d837ff0aaa43ef6",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.hard.0048",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Positive numbers $x$ and $y$ have sum $106$. What is the greatest possible value of $xy$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2808$"
+      },
+      {
+        "id": "b",
+        "latex": "$2809$"
+      },
+      {
+        "id": "c",
+        "latex": "$106$"
+      },
+      {
+        "id": "d",
+        "latex": "$11236$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "2809",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Write $y=106-x$. Then $xy=x(106-x)=-(x-53)^2+2809$, so the greatest value is $2809$.",
+    "complexity_factor": 1.4,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "product"
+    ],
+    "checksum": "sha256-31f34825ee451e827afc5fbf16cb7259dea629a7fa835a1d237b838e80f5a7ca",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.hard.0049",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "A rectangle has perimeter $116$. What is the greatest possible area of the rectangle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$841$"
+      },
+      {
+        "id": "b",
+        "latex": "$116$"
+      },
+      {
+        "id": "c",
+        "latex": "$13456$"
+      },
+      {
+        "id": "d",
+        "latex": "$1682$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "841",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "If one side is $x$, the other is $58-x$, so the area is $x(58-x)$. This quadratic is maximized when the sides are equal, giving area $841$.",
+    "complexity_factor": 1.45,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "area"
+    ],
+    "checksum": "sha256-3f4a59b8a9a48e7a4889eb8b82e3e1f9cfbaedf1179794f74af1fff920607736",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.hard.0050",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Positive numbers $x$ and $y$ have sum $110$. What is the greatest possible value of $xy$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$110$"
+      },
+      {
+        "id": "b",
+        "latex": "$12100$"
+      },
+      {
+        "id": "c",
+        "latex": "$3024$"
+      },
+      {
+        "id": "d",
+        "latex": "$3025$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "3025",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Write $y=110-x$. Then $xy=x(110-x)=-(x-55)^2+3025$, so the greatest value is $3025$.",
+    "complexity_factor": 1.4,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "product"
+    ],
+    "checksum": "sha256-c1909e3f6ce72c9284b4432482f48de7a596fb9d8e6be4172323d88e47f63c50",
+    "status": "valid"
+  }
+]

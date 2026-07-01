@@ -1,22 +1,593 @@
 [
   {
+    "id": "ch1.order_of_ops.easy.0001",
     "topic_id": "ch1.order_of_ops",
     "group_id": "ch1_rules",
     "difficulty": "easy",
-    "prompt_latex": "Evaluate $3 + 4 \\cdot 2$.",
+    "prompt_latex": "Evaluate $1 \\cdot 3$.",
     "answer_format": "mc",
     "choices": [
       {
         "id": "a",
-        "latex": "$11$"
+        "latex": "$3$"
       },
       {
         "id": "b",
-        "latex": "$14$"
+        "latex": "$-3$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
       },
       {
         "id": "c",
-        "latex": "$10$"
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Follow the order of operations to get $3$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "checksum": "sha256-4ee30aecedcc054ef68f263b72f65dcda6b3df6331f7e5c1839df615cd985326",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.order_of_ops.easy.0002",
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\frac{-4}{1}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$-5$"
+      },
+      {
+        "id": "c",
+        "latex": "$-6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Follow the order of operations to get $-4$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "checksum": "sha256-84337a36216b94b701270fcb23aa12bf0507b7d44050b11cc9e6f7c5bb2ea89d",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.order_of_ops.easy.0003",
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $-2 - 7$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$-11$"
+      },
+      {
+        "id": "a",
+        "latex": "$-9$"
+      },
+      {
+        "id": "d",
+        "latex": "$-8$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Follow the order of operations to get $-9$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "checksum": "sha256-35f64503edb3257a15be77d5b02a7f0de3b220f0561dd5064b6be9b0009d44d6",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.order_of_ops.easy.0004",
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $-4 \\cdot 6$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "c",
+        "latex": "$-26$"
+      },
+      {
+        "id": "a",
+        "latex": "$-24$"
+      },
+      {
+        "id": "d",
+        "latex": "$-25$"
+      },
+      {
+        "id": "b",
+        "latex": "$24$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-24",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Follow the order of operations to get $-24$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "checksum": "sha256-dfc9c85983259be9b1020b50db3b0e5989e26e7e00e3312457912df004201e57",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.order_of_ops.easy.0005",
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $-4 + -7$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-11$"
+      },
+      {
+        "id": "b",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$-10$"
+      },
+      {
+        "id": "c",
+        "latex": "$-9$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-11",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Follow the order of operations to get $-11$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "checksum": "sha256-42ca7dfcb09c3135588b349932d4b4f715ce19f9e0558ee7178e7bcad53d9c48",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.order_of_ops.easy.0006",
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $-4 - 9$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "b",
+        "latex": "$13$"
+      },
+      {
+        "id": "c",
+        "latex": "$-14$"
+      },
+      {
+        "id": "d",
+        "latex": "$-12$"
+      },
+      {
+        "id": "a",
+        "latex": "$-13$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-13",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Follow the order of operations to get $-13$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "checksum": "sha256-1a5f3d4e620319330431215298f124ddeae790f82e00635bf9a838e55dc8ca75",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.order_of_ops.easy.0007",
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\frac{(10 - -2)}{(\\frac{11}{-11})}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "d",
+        "latex": "$-13$"
+      },
+      {
+        "id": "b",
+        "latex": "$12$"
+      },
+      {
+        "id": "a",
+        "latex": "$-12$"
+      },
+      {
+        "id": "c",
+        "latex": "$-14$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Follow the order of operations to get $-12$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "checksum": "sha256-f37940f33f4d0fc67af93d07d3e86c2431a6f7ccf6af7f5d81dbf13137f0e909",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.order_of_ops.easy.0008",
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\frac{(3 + 9)}{(\\frac{4}{-4})}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "b",
+        "latex": "$12$"
+      },
+      {
+        "id": "c",
+        "latex": "$-13$"
+      },
+      {
+        "id": "a",
+        "latex": "$-12$"
+      },
+      {
+        "id": "d",
+        "latex": "$-11$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Follow the order of operations to get $-12$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "checksum": "sha256-6178cfff3a168a84ebb397c246d5c229792bb68ae153364c6832bd631a266289",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.order_of_ops.easy.0009",
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\frac{1}{1}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Follow the order of operations to get $1$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "checksum": "sha256-273d8fb76a23f6713b1ecf84ae6c2e17824ae29cd52cff7aa677e802d9b965a4",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.order_of_ops.easy.0010",
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $12 + 1$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "b",
+        "latex": "$-13$"
+      },
+      {
+        "id": "d",
+        "latex": "$11$"
+      },
+      {
+        "id": "c",
+        "latex": "$14$"
+      },
+      {
+        "id": "a",
+        "latex": "$13$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "13",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Follow the order of operations to get $13$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "checksum": "sha256-03b1f74dd4cc3513740ebd1cec0d747d53b43bff3bedab461eade7c7c7a08eba",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.order_of_ops.easy.0011",
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $1 \\cdot 8$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$-8$"
+      },
+      {
+        "id": "a",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Follow the order of operations to get $8$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "checksum": "sha256-fd218efab77d2f407f97a18b250f4dad587ef7e9502bf2c7ffeced00b92f1136",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.order_of_ops.easy.0012",
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $(11 + -10) - 5 \\cdot -1$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "d",
+        "latex": "$5$"
+      },
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Follow the order of operations to get $6$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "checksum": "sha256-4b2c19ba7d58cf9df0329fa98d0ebbc377d265e7bd085ea8f1137e015033b45f",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.order_of_ops.easy.0013",
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $-8 + -10$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-18$"
+      },
+      {
+        "id": "d",
+        "latex": "$-20$"
+      },
+      {
+        "id": "b",
+        "latex": "$18$"
+      },
+      {
+        "id": "c",
+        "latex": "$-17$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-18",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Follow the order of operations to get $-18$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "checksum": "sha256-79147980b3a4b7155d78ac0fae100f5e33b9c5b9f444440421fb9d4d9d6a7990",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.order_of_ops.easy.0014",
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\frac{7}{-1}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "d",
+        "latex": "$-6$"
+      },
+      {
+        "id": "b",
+        "latex": "$7$"
+      },
+      {
+        "id": "a",
+        "latex": "$-7$"
+      },
+      {
+        "id": "c",
+        "latex": "$-9$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Follow the order of operations to get $-7$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "checksum": "sha256-88850c22515728346de05035994b0cdf6f6e7ae4834f9dd6f001e8c7f617d237",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.order_of_ops.easy.0015",
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\frac{1}{1} - (3 + 6)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "a",
+        "latex": "$-8$"
+      },
+      {
+        "id": "c",
+        "latex": "$-7$"
+      },
+      {
+        "id": "d",
+        "latex": "$-6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Follow the order of operations to get $-8$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "checksum": "sha256-10f071256e5955a15fb5880724af56b66c2be7b5d8ca0ff55810214c04d55e0f",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.order_of_ops.easy.0016",
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $-8 \\cdot -1$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "b",
+        "latex": "$-8$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "a",
+        "latex": "$8$"
       },
       {
         "id": "d",
@@ -24,60 +595,670 @@
       }
     ],
     "correct_choice": "a",
-    "correct_answer": "11",
+    "correct_answer": "8",
     "answer_type": "integer",
-    "solution_latex": "Multiply first: $4 \\cdot 2 = 8$. Then $3 + 8 = 11$.",
-    "complexity_factor": 0.8,
+    "accepted_forms": [],
+    "solution_latex": "Follow the order of operations to get $8$.",
+    "complexity_factor": 0.75,
     "source_section": "1.2",
     "tags": [
       "order_of_operations"
     ],
-    "id": "ch1.order_of_ops.easy.0001",
-    "checksum": "sha256-ee68f8ab3574449b0471e909b24598d1bd0559537c55dd36c248f9a30bac1fc4",
+    "checksum": "sha256-cbf8fb348931fbee20efd09366c891ee272d6f160c9d70ed21b167f8ccf1bdeb",
     "status": "valid"
   },
   {
+    "id": "ch1.order_of_ops.easy.0017",
     "topic_id": "ch1.order_of_ops",
     "group_id": "ch1_rules",
     "difficulty": "easy",
-    "prompt_latex": "Evaluate $12 - 4 \\div 2$.",
+    "prompt_latex": "Evaluate $\\frac{-3}{1}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "c",
+        "latex": "$-4$"
+      },
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Follow the order of operations to get $-3$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "checksum": "sha256-981ba822a1bbf5aa0e1fa8d3cb584738835f46a8dc5eb8acb44b899ce4eb7c12",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.order_of_ops.easy.0018",
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $12 + -9$.",
     "answer_format": "mc",
     "choices": [
       {
         "id": "a",
-        "latex": "$10$"
+        "latex": "$3$"
       },
       {
         "id": "b",
-        "latex": "$4$"
+        "latex": "$-3$"
       },
       {
         "id": "c",
-        "latex": "$14$"
+        "latex": "$4$"
       },
       {
         "id": "d",
-        "latex": "$6$"
+        "latex": "$1$"
       }
     ],
     "correct_choice": "a",
-    "correct_answer": "10",
+    "correct_answer": "3",
     "answer_type": "integer",
-    "solution_latex": "Divide first: $4 \\div 2 = 2$. Then $12 - 2 = 10$.",
-    "complexity_factor": 0.8,
+    "accepted_forms": [],
+    "solution_latex": "Follow the order of operations to get $3$.",
+    "complexity_factor": 0.75,
     "source_section": "1.2",
     "tags": [
       "order_of_operations"
     ],
-    "id": "ch1.order_of_ops.easy.0002",
-    "checksum": "sha256-f6a89641a52e297bd518a77b0b8236204730c8ad3b89ac90a0234562e982288c",
+    "checksum": "sha256-2cec02b035c93b80cefd0fe866e2a256c6ba0586f70dafbcb1de8d1e98428db2",
     "status": "valid"
   },
   {
+    "id": "ch1.order_of_ops.easy.0019",
     "topic_id": "ch1.order_of_ops",
     "group_id": "ch1_rules",
     "difficulty": "easy",
-    "prompt_latex": "Evaluate $(5 + 3) \\cdot 2$.",
+    "prompt_latex": "Evaluate $\\frac{3}{-3} \\cdot 4 \\cdot -2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$-8$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Follow the order of operations to get $8$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "checksum": "sha256-34b0c43c6c049a0780999f5c9ba562a2820f9c5c592a57767b39818792a0871a",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.order_of_ops.easy.0020",
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $-9 + 6$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4$"
+      },
+      {
+        "id": "a",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Follow the order of operations to get $-3$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "checksum": "sha256-80fe20621766aa5a23dd61c3b6228900fcb67681bbfca8d32e1c5d75b3f0b00e",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.order_of_ops.easy.0021",
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $1 - -3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Follow the order of operations to get $4$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "checksum": "sha256-21942346e8bdae2f8326a1e1bf065d43b312c79d00128ccfb5aa48c59e241a0d",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.order_of_ops.easy.0022",
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $-12 + -11 + 8 + 1$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "b",
+        "latex": "$14$"
+      },
+      {
+        "id": "a",
+        "latex": "$-14$"
+      },
+      {
+        "id": "d",
+        "latex": "$-13$"
+      },
+      {
+        "id": "c",
+        "latex": "$-12$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-14",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Follow the order of operations to get $-14$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "checksum": "sha256-d9f9e96a4090dfb3edef1fc8e4701ce967d8d8cf8a16360f02b21e93af616aa2",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.order_of_ops.easy.0023",
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $(-4 + -10) \\cdot (-7 - 8)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "b",
+        "latex": "$-210$"
+      },
+      {
+        "id": "c",
+        "latex": "$208$"
+      },
+      {
+        "id": "d",
+        "latex": "$211$"
+      },
+      {
+        "id": "a",
+        "latex": "$210$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "210",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Follow the order of operations to get $210$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "checksum": "sha256-db62cfe4cd7d98193f66ff288220a70362a90e7ffc823f1dff700ca47b4b4adb",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.order_of_ops.easy.0024",
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\frac{(\\frac{1}{1})}{(\\frac{3}{3})}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "a",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Follow the order of operations to get $1$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "checksum": "sha256-a64a6268c2c796bcf0e8463ebbda57e3e57c9c8dd9184407864ab7fc8526e884",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.order_of_ops.easy.0025",
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $-2 + 2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Follow the order of operations to get $0$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "checksum": "sha256-5bdf785a57a4a750dc31b7edd9a91ac2d848307a9c4b98bce781e6eb61260442",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.order_of_ops.easy.0026",
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $6 \\cdot -10$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "c",
+        "latex": "$-59$"
+      },
+      {
+        "id": "a",
+        "latex": "$-60$"
+      },
+      {
+        "id": "d",
+        "latex": "$-61$"
+      },
+      {
+        "id": "b",
+        "latex": "$60$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-60",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Follow the order of operations to get $-60$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "checksum": "sha256-7016393df843f50a195f9887d636c1439964e72324a05edbec332eadee90499e",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.order_of_ops.easy.0027",
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $-11 \\cdot -10$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "c",
+        "latex": "$112$"
+      },
+      {
+        "id": "a",
+        "latex": "$110$"
+      },
+      {
+        "id": "d",
+        "latex": "$109$"
+      },
+      {
+        "id": "b",
+        "latex": "$-110$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "110",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Follow the order of operations to get $110$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "checksum": "sha256-5160f65fa9d66fc79a06ed499da7c5d497cfebe1f2c4161b36383d18a54aa3e6",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.order_of_ops.easy.0028",
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\frac{6}{1}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$-6$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Follow the order of operations to get $6$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "checksum": "sha256-c3386e6a6fac3d73c9464e5ec5691c4c005a3aa272fcb40e167daa05c9747be9",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.order_of_ops.easy.0029",
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $-3 + 10$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$-7$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Follow the order of operations to get $7$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "checksum": "sha256-fc218928ce8b37c796ce3d2ccf179f35d14a55c2069bf7b66fa3e4dd4f8a2027",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.order_of_ops.easy.0030",
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $7 - 8$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      },
+      {
+        "id": "a",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Follow the order of operations to get $-1$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "checksum": "sha256-afacb856c770fcbdca1e8175d71de52c78d1309bd01bf81ac0b09699d59f8c39",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.order_of_ops.easy.0031",
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $9 + 3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "c",
+        "latex": "$13$"
+      },
+      {
+        "id": "a",
+        "latex": "$12$"
+      },
+      {
+        "id": "b",
+        "latex": "$-12$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Follow the order of operations to get $12$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "checksum": "sha256-2a2cc01f6b860d94e41b6fabd48ae93776c09405fa763a02df5a04b4533f040f",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.order_of_ops.easy.0032",
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\frac{(\\frac{11}{-1})}{(\\frac{1}{-1})}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$13$"
+      },
+      {
+        "id": "a",
+        "latex": "$11$"
+      },
+      {
+        "id": "b",
+        "latex": "$-11$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "11",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Follow the order of operations to get $11$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "checksum": "sha256-79add890dfe0fd39cf2b0a99df83e5c29e6017b6218e2f342e904487608af574",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.order_of_ops.easy.0033",
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\frac{-4}{2} \\cdot (-7 - 3)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$20$"
+      },
+      {
+        "id": "b",
+        "latex": "$-20$"
+      },
+      {
+        "id": "c",
+        "latex": "$18$"
+      },
+      {
+        "id": "d",
+        "latex": "$19$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "20",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Follow the order of operations to get $20$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "checksum": "sha256-6174bedaff5d2155ee8e01ad7378bcdb2248861f14d5645c5ac6c6da4f4ab001",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.order_of_ops.easy.0034",
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $11 - -3 + 8 - 6$.",
     "answer_format": "mc",
     "choices": [
       {
@@ -85,29 +1266,637 @@
         "latex": "$16$"
       },
       {
-        "id": "b",
-        "latex": "$13$"
+        "id": "c",
+        "latex": "$15$"
       },
       {
-        "id": "c",
-        "latex": "$11$"
+        "id": "b",
+        "latex": "$-16$"
       },
       {
         "id": "d",
-        "latex": "$24$"
+        "latex": "$17$"
       }
     ],
     "correct_choice": "a",
     "correct_answer": "16",
     "answer_type": "integer",
-    "solution_latex": "Parentheses first: $5 + 3 = 8$. Then $8 \\cdot 2 = 16$.",
-    "complexity_factor": 0.8,
+    "accepted_forms": [],
+    "solution_latex": "Follow the order of operations to get $16$.",
+    "complexity_factor": 0.75,
     "source_section": "1.2",
     "tags": [
       "order_of_operations"
     ],
-    "id": "ch1.order_of_ops.easy.0003",
-    "checksum": "sha256-fa49c5d781908d503db10ea45f606f4c4396dad7df45a1b6cf4d6ea393f7f8ab",
+    "checksum": "sha256-647a7d3d56d419994e2fc7169790e901661c6a7268774909d579a74140bef226",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.order_of_ops.easy.0035",
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\frac{-2}{-2} \\cdot (-6 - -4)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "d",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "a",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Follow the order of operations to get $-2$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "checksum": "sha256-7d498de74b2298ed19260dc88ef4724a8930689f2bfcc95ca02fc4a1b24ce8e6",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.order_of_ops.easy.0036",
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $-6 - 2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "c",
+        "latex": "$-7$"
+      },
+      {
+        "id": "d",
+        "latex": "$-9$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "a",
+        "latex": "$-8$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Follow the order of operations to get $-8$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "checksum": "sha256-efd25ef9c7001a95548c336e7393a8aca9dd5c5e89545ffa64f18fb47057ac4d",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.order_of_ops.easy.0037",
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $(2 - 2) \\cdot -12 \\cdot 5$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "d",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "a",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Follow the order of operations to get $0$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "checksum": "sha256-166c16a4ac61a4fe4c4fc7ebe57b71ca6a5d35754a22c342f017548eca336685",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.order_of_ops.easy.0038",
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $7 - -6$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "b",
+        "latex": "$-13$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      },
+      {
+        "id": "a",
+        "latex": "$13$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "13",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Follow the order of operations to get $13$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "checksum": "sha256-f2cc38d2ea8195523d6ffcadd3416dd630868f715778d7f88fce8a002511f0e1",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.order_of_ops.easy.0039",
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $(-11 - -3) \\cdot (-4 - -7)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "c",
+        "latex": "$-25$"
+      },
+      {
+        "id": "b",
+        "latex": "$24$"
+      },
+      {
+        "id": "d",
+        "latex": "$-23$"
+      },
+      {
+        "id": "a",
+        "latex": "$-24$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-24",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Follow the order of operations to get $-24$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "checksum": "sha256-9da18fb602f4db08a86ff31e2896b0d3d97c9826f2a3c9d864fba27726ba88ba",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.order_of_ops.easy.0040",
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\frac{-8}{2} - (-5 + 10)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "c",
+        "latex": "$-10$"
+      },
+      {
+        "id": "a",
+        "latex": "$-9$"
+      },
+      {
+        "id": "d",
+        "latex": "$-7$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Follow the order of operations to get $-9$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "checksum": "sha256-847c4155f6d02f7717644c51fabe483aa2eaf7617cefd2257f87b9ec5eb8050a",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.order_of_ops.easy.0041",
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $12 \\cdot 3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "b",
+        "latex": "$-36$"
+      },
+      {
+        "id": "c",
+        "latex": "$37$"
+      },
+      {
+        "id": "a",
+        "latex": "$36$"
+      },
+      {
+        "id": "d",
+        "latex": "$34$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "36",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Follow the order of operations to get $36$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "checksum": "sha256-8af59b71446e735239201ee6d79f8595a865ebc70daed7e5f19de8791e104510",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.order_of_ops.easy.0042",
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $(6 + 4) \\cdot (7 - 11)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-40$"
+      },
+      {
+        "id": "c",
+        "latex": "$-41$"
+      },
+      {
+        "id": "b",
+        "latex": "$40$"
+      },
+      {
+        "id": "d",
+        "latex": "$-39$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-40",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Follow the order of operations to get $-40$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "checksum": "sha256-e7422a7ed52127b22aac0eebebf36d6c6a93677a5e57d3962a0651c03127eb59",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.order_of_ops.easy.0043",
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\frac{(-3 \\cdot 2)}{(9 - 6)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Follow the order of operations to get $-2$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "checksum": "sha256-45744c08a71ac294ff1ac914005e060fb1c8ef94388253742f3230670f2572e9",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.order_of_ops.easy.0044",
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $-11 + 12$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      },
+      {
+        "id": "a",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Follow the order of operations to get $1$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "checksum": "sha256-8f64774920d9af3a61caf7ae25344e12665cbf83f1d3febdf79a78a412fe34cd",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.order_of_ops.easy.0045",
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\frac{2}{2}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Follow the order of operations to get $1$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "checksum": "sha256-d3acdeadd5eb5a8fd31e7da45899a36ad9cc9728b4c1c3b5f304e2f7c75d6b42",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.order_of_ops.easy.0046",
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $(-9 - -5) \\cdot \\frac{-1}{1}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "d",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4$"
+      },
+      {
+        "id": "a",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Follow the order of operations to get $4$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "checksum": "sha256-24a8a6a73f5dd0454c050b9e754ca09550f791153255000150feea5991210346",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.order_of_ops.easy.0047",
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\frac{-9}{-3}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "d",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3$"
+      },
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Follow the order of operations to get $3$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "checksum": "sha256-5aebb91f7776e5fcf48ead83a3ff4c2c412ff13058ee8adaa86574d6395cdbe1",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.order_of_ops.easy.0048",
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\frac{(8 - -1)}{(10 - 11)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "d",
+        "latex": "$-8$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "a",
+        "latex": "$-9$"
+      },
+      {
+        "id": "c",
+        "latex": "$-11$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Follow the order of operations to get $-9$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "checksum": "sha256-ae382cf1bb870f97e9aa90b93d9b55e5f9eb0d3e74b717526f4510220e5bdb99",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.order_of_ops.easy.0049",
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $-7 - -3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "c",
+        "latex": "$-3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-6$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "a",
+        "latex": "$-4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Follow the order of operations to get $-4$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "checksum": "sha256-774ff5f0f4a639da31fb45588dbc587a992c1747ef3081ac03e551cfbc5090c5",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.order_of_ops.easy.0050",
+    "topic_id": "ch1.order_of_ops",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\frac{-1}{-1} \\cdot \\frac{9}{-3}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$-5$"
+      },
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Follow the order of operations to get $-3$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.2",
+    "tags": [
+      "order_of_operations"
+    ],
+    "checksum": "sha256-cefe8289c9e2a32947080bfef7e455c241e8d3f73e7ed6a46dad405ef3b8054d",
     "status": "valid"
   }
 ]

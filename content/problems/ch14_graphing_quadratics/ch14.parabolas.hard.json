@@ -1,0 +1,2015 @@
+[
+  {
+    "id": "ch14.parabolas.hard.0001",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "The parabola $y=-(x+3)(x-3)$ has two $x$-intercepts and a vertex. What is the area of the triangle formed by these three points?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$27$"
+      },
+      {
+        "id": "c",
+        "latex": "$36$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "27",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The intercepts are $(-3,0)$ and $(3,0)$. The vertex has $x=0$ and $y=9$, so the area is $\\frac12(6)9=27$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "intercepts",
+      "area",
+      "vertex"
+    ],
+    "status": "valid",
+    "checksum": "sha256-0aa8b6adaac1ecb1b6d9397df8d190acaff287ae9bfc02ae792b52a80bb86e61"
+  },
+  {
+    "id": "ch14.parabolas.hard.0002",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "On the interval $2\\le x\\le 7$, what is the minimum value of $y=2(x-5)^2$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$18$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Check the vertex and endpoints. The values are $18$, $0$, and $8$, so the minimum is $0$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "optimization",
+      "interval"
+    ],
+    "status": "valid",
+    "checksum": "sha256-5d81929745a7299142ddac85186209a61aceb6a48a02d6d170941e0511513497"
+  },
+  {
+    "id": "ch14.parabolas.hard.0003",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "How many intersection points do $y=(x-3)^2-16$ and the horizontal line $y=-15$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $-15=(x-3)^2-16$, so $(x-3)^2=1$. Since this is positive, there are $2$ intersections.",
+    "complexity_factor": 1.25,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "intersections",
+      "horizontal-line"
+    ],
+    "status": "valid",
+    "checksum": "sha256-3c72ff1c8431fa106ff7bff0925bf972e003ab504e92ead1d6d47d0791986875"
+  },
+  {
+    "id": "ch14.parabolas.hard.0004",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "The parabola $y=-x^2-6x-14$ has vertex $(p,q)$. What is $p+q$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-8$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3$"
+      },
+      {
+        "id": "c",
+        "latex": "$-5$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $y=-(x+3)^2-5$, so $(p,q)=(-3,-5)$ and $p+q=-8$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "completing-square",
+      "vertex"
+    ],
+    "status": "valid",
+    "checksum": "sha256-8775e0209cf81072f1533365fe444270c54b3fdc8d4b4401ef188c8283ba8f4c"
+  },
+  {
+    "id": "ch14.parabolas.hard.0005",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "The parabola $y=-(x)(x-6)$ has two $x$-intercepts and a vertex. What is the area of the triangle formed by these three points?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$27$"
+      },
+      {
+        "id": "c",
+        "latex": "$36$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "27",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The intercepts are $(0,0)$ and $(6,0)$. The vertex has $x=3$ and $y=9$, so the area is $\\frac12(6)9=27$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "intercepts",
+      "area",
+      "vertex"
+    ],
+    "status": "valid",
+    "checksum": "sha256-cd60f926d1437abcfecd1e8eb905127322bc0bd14518f6ab4691c9ec90821e0f"
+  },
+  {
+    "id": "ch14.parabolas.hard.0006",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "On the interval $2\\le x\\le 6$, what is the minimum value of $y=2(x-3)^2-1$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$17$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Check the vertex and endpoints. The values are $1$, $-1$, and $17$, so the minimum is $-1$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "optimization",
+      "interval"
+    ],
+    "status": "valid",
+    "checksum": "sha256-11ffb9f717195ae4e751691b093b0c78a8d5fa34fce3e8cd1f62e988c559c2eb"
+  },
+  {
+    "id": "ch14.parabolas.hard.0007",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "How many intersection points do $y=(x-2)^2-16$ and the horizontal line $y=9$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $9=(x-2)^2-16$, so $(x-2)^2=25$. Since this is positive, there are $2$ intersections.",
+    "complexity_factor": 1.25,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "intersections",
+      "horizontal-line"
+    ],
+    "status": "valid",
+    "checksum": "sha256-5be57ec135b2a81d03d66966c6aab634ca559cf39fe9dbe8e73b5cdc2c9c29d4"
+  },
+  {
+    "id": "ch14.parabolas.hard.0008",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "The parabola $y=-x^2+0x-2$ has vertex $(p,q)$. What is $p+q$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $y=-(x)^2-2$, so $(p,q)=(0,-2)$ and $p+q=-2$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "completing-square",
+      "vertex"
+    ],
+    "status": "valid",
+    "checksum": "sha256-cabe6eaa7e4f7411e6bd4b07d4bdd76e55fe466cb64986705a0ff8d35a2e5999"
+  },
+  {
+    "id": "ch14.parabolas.hard.0009",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "The parabola $y=-(x-3)(x-9)$ has two $x$-intercepts and a vertex. What is the area of the triangle formed by these three points?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$27$"
+      },
+      {
+        "id": "c",
+        "latex": "$36$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "27",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The intercepts are $(3,0)$ and $(9,0)$. The vertex has $x=6$ and $y=9$, so the area is $\\frac12(6)9=27$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "intercepts",
+      "area",
+      "vertex"
+    ],
+    "status": "valid",
+    "checksum": "sha256-c1b4d878268474b3cb808379474848cfe783c40a7bf5fc6b32939d2f2974fe20"
+  },
+  {
+    "id": "ch14.parabolas.hard.0010",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "On the interval $-1\\le x\\le 5$, what is the minimum value of $y=2(x-1)^2-2$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$30$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Check the vertex and endpoints. The values are $6$, $-2$, and $30$, so the minimum is $-2$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "optimization",
+      "interval"
+    ],
+    "status": "valid",
+    "checksum": "sha256-37b15ef4ea05c3f08784080e624b3e34edbf23202e7b6b6fa80ec42bd1588b7e"
+  },
+  {
+    "id": "ch14.parabolas.hard.0011",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "How many intersection points do $y=(x-1)^2-16$ and the horizontal line $y=0$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $0=(x-1)^2-16$, so $(x-1)^2=16$. Since this is positive, there are $2$ intersections.",
+    "complexity_factor": 1.25,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "intersections",
+      "horizontal-line"
+    ],
+    "status": "valid",
+    "checksum": "sha256-545d4baef231f0f4acb6cefce094baa2c43ef81d7c6fc68850d5f70c3074575f"
+  },
+  {
+    "id": "ch14.parabolas.hard.0012",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "The parabola $y=-x^2+6x-8$ has vertex $(p,q)$. What is $p+q$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $y=-(x-3)^2+1$, so $(p,q)=(3,1)$ and $p+q=4$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "completing-square",
+      "vertex"
+    ],
+    "status": "valid",
+    "checksum": "sha256-96047a12ce58a4257ab76c93741e9a2ea882fabdbefb03914087d755f217a6f0"
+  },
+  {
+    "id": "ch14.parabolas.hard.0013",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "The parabola $y=-(x-6)(x-12)$ has two $x$-intercepts and a vertex. What is the area of the triangle formed by these three points?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$27$"
+      },
+      {
+        "id": "c",
+        "latex": "$36$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "27",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The intercepts are $(6,0)$ and $(12,0)$. The vertex has $x=9$ and $y=9$, so the area is $\\frac12(6)9=27$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "intercepts",
+      "area",
+      "vertex"
+    ],
+    "status": "valid",
+    "checksum": "sha256-a8dd6ed7f6dcd90649a4ef171e3e48d083077833d2b07f180f4fc386f5f47f22"
+  },
+  {
+    "id": "ch14.parabolas.hard.0014",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "On the interval $-4\\le x\\le 1$, what is the minimum value of $y=2(x+1)^2-3$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$-3$"
+      },
+      {
+        "id": "d",
+        "latex": "$15$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Check the vertex and endpoints. The values are $15$, $-3$, and $5$, so the minimum is $-3$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "optimization",
+      "interval"
+    ],
+    "status": "valid",
+    "checksum": "sha256-02518a3acee97c96716ea8ffdd96eb5a100eb608856970f997705d482ecb02e2"
+  },
+  {
+    "id": "ch14.parabolas.hard.0015",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "How many intersection points do $y=(x)^2-16$ and the horizontal line $y=-7$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $-7=(x)^2-16$, so $(x)^2=9$. Since this is positive, there are $2$ intersections.",
+    "complexity_factor": 1.25,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "intersections",
+      "horizontal-line"
+    ],
+    "status": "valid",
+    "checksum": "sha256-04057b116e22b9f661f99873700e3a69362305729de82b8e31d584b16dbae22f"
+  },
+  {
+    "id": "ch14.parabolas.hard.0016",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "The parabola $y=-x^2+12x-32$ has vertex $(p,q)$. What is $p+q$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $y=-(x-6)^2+4$, so $(p,q)=(6,4)$ and $p+q=10$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "completing-square",
+      "vertex"
+    ],
+    "status": "valid",
+    "checksum": "sha256-dbefc639b1e62fe1f6e5a6b8a0555344d9fa87504df222e74cacd2f93d54517e"
+  },
+  {
+    "id": "ch14.parabolas.hard.0017",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "The parabola $y=-(x+8)(x+2)$ has two $x$-intercepts and a vertex. What is the area of the triangle formed by these three points?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$27$"
+      },
+      {
+        "id": "c",
+        "latex": "$36$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "27",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The intercepts are $(-8,0)$ and $(-2,0)$. The vertex has $x=-5$ and $y=9$, so the area is $\\frac12(6)9=27$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "intercepts",
+      "area",
+      "vertex"
+    ],
+    "status": "valid",
+    "checksum": "sha256-f3e9520d0124b26d2a442ed0d6192b9235a7b7bf13bc2a236cae81fe2538e68d"
+  },
+  {
+    "id": "ch14.parabolas.hard.0018",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "On the interval $-4\\le x\\le 0$, what is the minimum value of $y=2(x+3)^2-4$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$14$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Check the vertex and endpoints. The values are $-2$, $-4$, and $14$, so the minimum is $-4$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "optimization",
+      "interval"
+    ],
+    "status": "valid",
+    "checksum": "sha256-b07b4e04e240dc67d79560408470d07fb8bf5029a61422939dc0a0e6bccea2b2"
+  },
+  {
+    "id": "ch14.parabolas.hard.0019",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "How many intersection points do $y=(x+1)^2-16$ and the horizontal line $y=-12$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $-12=(x+1)^2-16$, so $(x+1)^2=4$. Since this is positive, there are $2$ intersections.",
+    "complexity_factor": 1.25,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "intersections",
+      "horizontal-line"
+    ],
+    "status": "valid",
+    "checksum": "sha256-808c7841e3812eb34f800dd061d4fbfefa54f755dbea02ede4fdd7ac4e6636b6"
+  },
+  {
+    "id": "ch14.parabolas.hard.0020",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "The parabola $y=-x^2-8x-9$ has vertex $(p,q)$. What is $p+q$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$-11$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $y=-(x+4)^2+7$, so $(p,q)=(-4,7)$ and $p+q=3$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "completing-square",
+      "vertex"
+    ],
+    "status": "valid",
+    "checksum": "sha256-ea0f949c3c6b1e0fd98f6671463a41069624702ab0a8604563be8ce80abd0053"
+  },
+  {
+    "id": "ch14.parabolas.hard.0021",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "The parabola $y=-(x+5)(x-1)$ has two $x$-intercepts and a vertex. What is the area of the triangle formed by these three points?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$27$"
+      },
+      {
+        "id": "c",
+        "latex": "$36$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "27",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The intercepts are $(-5,0)$ and $(1,0)$. The vertex has $x=-2$ and $y=9$, so the area is $\\frac12(6)9=27$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "intercepts",
+      "area",
+      "vertex"
+    ],
+    "status": "valid",
+    "checksum": "sha256-df38759ce5373133cb09537c852fc94c3901ac7848c81df43b8e0451cc87136d"
+  },
+  {
+    "id": "ch14.parabolas.hard.0022",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "On the interval $-7\\le x\\le -1$, what is the minimum value of $y=2(x+5)^2-5$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$27$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$-5$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Check the vertex and endpoints. The values are $3$, $-5$, and $27$, so the minimum is $-5$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "optimization",
+      "interval"
+    ],
+    "status": "valid",
+    "checksum": "sha256-4c6452ea26962af31df29bbe5caa36a6188d5c53b8c9dfd9a9682cad56855bad"
+  },
+  {
+    "id": "ch14.parabolas.hard.0023",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "How many intersection points do $y=(x+2)^2-16$ and the horizontal line $y=-15$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $-15=(x+2)^2-16$, so $(x+2)^2=1$. Since this is positive, there are $2$ intersections.",
+    "complexity_factor": 1.25,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "intersections",
+      "horizontal-line"
+    ],
+    "status": "valid",
+    "checksum": "sha256-7c8e37da63182477bfdccba91db82554110b7dac5e0975f5fd12488a69c68cc8"
+  },
+  {
+    "id": "ch14.parabolas.hard.0024",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "The parabola $y=-x^2-2x-8$ has vertex $(p,q)$. What is $p+q$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-8$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$-7$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $y=-(x+1)^2-7$, so $(p,q)=(-1,-7)$ and $p+q=-8$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "completing-square",
+      "vertex"
+    ],
+    "status": "valid",
+    "checksum": "sha256-a8ae1e141e797df75568b901c0e8a86e95d6142d93eebe26f412a083c5c784c3"
+  },
+  {
+    "id": "ch14.parabolas.hard.0025",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "The parabola $y=-(x+2)(x-4)$ has two $x$-intercepts and a vertex. What is the area of the triangle formed by these three points?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$27$"
+      },
+      {
+        "id": "c",
+        "latex": "$36$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "27",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The intercepts are $(-2,0)$ and $(4,0)$. The vertex has $x=1$ and $y=9$, so the area is $\\frac12(6)9=27$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "intercepts",
+      "area",
+      "vertex"
+    ],
+    "status": "valid",
+    "checksum": "sha256-d60cec6667ad4c0264c510d337f49e01376dcfd4c7c767ea86698625bd326ab7"
+  },
+  {
+    "id": "ch14.parabolas.hard.0026",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "On the interval $1\\le x\\le 6$, what is the minimum value of $y=2(x-4)^2-6$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$-6$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Check the vertex and endpoints. The values are $12$, $-6$, and $2$, so the minimum is $-6$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "optimization",
+      "interval"
+    ],
+    "status": "valid",
+    "checksum": "sha256-b1d552f8ad2a7ceea53c94e5b39733aa84c1d4cb3aa94ab675410c77a99c7ba3"
+  },
+  {
+    "id": "ch14.parabolas.hard.0027",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "How many intersection points do $y=(x+3)^2-16$ and the horizontal line $y=9$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $9=(x+3)^2-16$, so $(x+3)^2=25$. Since this is positive, there are $2$ intersections.",
+    "complexity_factor": 1.25,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "intersections",
+      "horizontal-line"
+    ],
+    "status": "valid",
+    "checksum": "sha256-b3d0341466f3b85cfddc63ec18692eccee9df9dfe0b7a511f431aa81a995b1e8"
+  },
+  {
+    "id": "ch14.parabolas.hard.0028",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "The parabola $y=-x^2+4x-8$ has vertex $(p,q)$. What is $p+q$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $y=-(x-2)^2-4$, so $(p,q)=(2,-4)$ and $p+q=-2$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "completing-square",
+      "vertex"
+    ],
+    "status": "valid",
+    "checksum": "sha256-afc82ee121d08fbb6d1084d56156a79412b027623bee21f16bcac14d141ce485"
+  },
+  {
+    "id": "ch14.parabolas.hard.0029",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "The parabola $y=-(x-1)(x-7)$ has two $x$-intercepts and a vertex. What is the area of the triangle formed by these three points?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$27$"
+      },
+      {
+        "id": "c",
+        "latex": "$36$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "27",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The intercepts are $(1,0)$ and $(7,0)$. The vertex has $x=4$ and $y=9$, so the area is $\\frac12(6)9=27$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "intercepts",
+      "area",
+      "vertex"
+    ],
+    "status": "valid",
+    "checksum": "sha256-76ee79022b710c14afac4e4010ba3494996cbc7cf71977e2e6b27fa9886c6651"
+  },
+  {
+    "id": "ch14.parabolas.hard.0030",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "On the interval $1\\le x\\le 5$, what is the minimum value of $y=2(x-2)^2+6$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$24$"
+      },
+      {
+        "id": "b",
+        "latex": "$-6$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Check the vertex and endpoints. The values are $8$, $6$, and $24$, so the minimum is $6$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "optimization",
+      "interval"
+    ],
+    "status": "valid",
+    "checksum": "sha256-6814ebf8171253d851ea5433bf63bcfddc60089b2cc6177117cedb4e31a3e3ab"
+  },
+  {
+    "id": "ch14.parabolas.hard.0031",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "How many intersection points do $y=(x+4)^2-16$ and the horizontal line $y=0$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $0=(x+4)^2-16$, so $(x+4)^2=16$. Since this is positive, there are $2$ intersections.",
+    "complexity_factor": 1.25,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "intersections",
+      "horizontal-line"
+    ],
+    "status": "valid",
+    "checksum": "sha256-ec74dad0a1556f8199482f690ee841fad2cc7789222780e67ccbd7d96c41a5bd"
+  },
+  {
+    "id": "ch14.parabolas.hard.0032",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "The parabola $y=-x^2+10x-26$ has vertex $(p,q)$. What is $p+q$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $y=-(x-5)^2-1$, so $(p,q)=(5,-1)$ and $p+q=4$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "completing-square",
+      "vertex"
+    ],
+    "status": "valid",
+    "checksum": "sha256-3760df7bce90cf803f966f428140411d1599675f1b559b2f41534b22c0efbbca"
+  },
+  {
+    "id": "ch14.parabolas.hard.0033",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "The parabola $y=-(x-4)(x-10)$ has two $x$-intercepts and a vertex. What is the area of the triangle formed by these three points?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$27$"
+      },
+      {
+        "id": "c",
+        "latex": "$36$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "27",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The intercepts are $(4,0)$ and $(10,0)$. The vertex has $x=7$ and $y=9$, so the area is $\\frac12(6)9=27$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "intercepts",
+      "area",
+      "vertex"
+    ],
+    "status": "valid",
+    "checksum": "sha256-ce21aea22836ae88c50cc08ea07bc47440d03ec2adbf795ac66911445f2fd570"
+  },
+  {
+    "id": "ch14.parabolas.hard.0034",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "On the interval $-2\\le x\\le 4$, what is the minimum value of $y=2(x)^2+5$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$37$"
+      },
+      {
+        "id": "b",
+        "latex": "$-5$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$13$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Check the vertex and endpoints. The values are $13$, $5$, and $37$, so the minimum is $5$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "optimization",
+      "interval"
+    ],
+    "status": "valid",
+    "checksum": "sha256-c192e1c4da901c310e638292fc55fbf6ad1a1dbf14b4a3e5472e19f2363687ae"
+  },
+  {
+    "id": "ch14.parabolas.hard.0035",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "How many intersection points do $y=(x+5)^2-16$ and the horizontal line $y=-7$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $-7=(x+5)^2-16$, so $(x+5)^2=9$. Since this is positive, there are $2$ intersections.",
+    "complexity_factor": 1.25,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "intersections",
+      "horizontal-line"
+    ],
+    "status": "valid",
+    "checksum": "sha256-318dc3f053b4326963f420ae2b9e523057037e4f84af66e3ccb1b0511ff80dfd"
+  },
+  {
+    "id": "ch14.parabolas.hard.0036",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "The parabola $y=-x^2-10x-23$ has vertex $(p,q)$. What is $p+q$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-5$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-7$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $y=-(x+5)^2+2$, so $(p,q)=(-5,2)$ and $p+q=-3$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "completing-square",
+      "vertex"
+    ],
+    "status": "valid",
+    "checksum": "sha256-3269a7135a3cb79684080cd5c1be36ddb686da3ce52be8da81bc9b2257bde848"
+  },
+  {
+    "id": "ch14.parabolas.hard.0037",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "The parabola $y=-(x-7)(x-13)$ has two $x$-intercepts and a vertex. What is the area of the triangle formed by these three points?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$27$"
+      },
+      {
+        "id": "c",
+        "latex": "$36$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "27",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The intercepts are $(7,0)$ and $(13,0)$. The vertex has $x=10$ and $y=9$, so the area is $\\frac12(6)9=27$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "intercepts",
+      "area",
+      "vertex"
+    ],
+    "status": "valid",
+    "checksum": "sha256-a89d620e224e18182ceee1bcbfc2fcf61034661fdff446b2a7b4c4e12b44f614"
+  },
+  {
+    "id": "ch14.parabolas.hard.0038",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "On the interval $-5\\le x\\le 0$, what is the minimum value of $y=2(x+2)^2+4$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$22$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Check the vertex and endpoints. The values are $22$, $4$, and $12$, so the minimum is $4$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "optimization",
+      "interval"
+    ],
+    "status": "valid",
+    "checksum": "sha256-d58965571bd99d3d94f985e494bd63fab505dc40d70a09fe0f7394abfd9b3dac"
+  },
+  {
+    "id": "ch14.parabolas.hard.0039",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "How many intersection points do $y=(x+6)^2-16$ and the horizontal line $y=-12$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $-12=(x+6)^2-16$, so $(x+6)^2=4$. Since this is positive, there are $2$ intersections.",
+    "complexity_factor": 1.25,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "intersections",
+      "horizontal-line"
+    ],
+    "status": "valid",
+    "checksum": "sha256-cd1324544d049b87d22c5067317f6ff807c046c43fede4e8cd085508f4917432"
+  },
+  {
+    "id": "ch14.parabolas.hard.0040",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "The parabola $y=-x^2-4x+1$ has vertex $(p,q)$. What is $p+q$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$-7$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $y=-(x+2)^2+5$, so $(p,q)=(-2,5)$ and $p+q=3$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "completing-square",
+      "vertex"
+    ],
+    "status": "valid",
+    "checksum": "sha256-704995431608e387b6ef4c0862808724a8c46b29f81243c9bd00b47ed541b2ec"
+  },
+  {
+    "id": "ch14.parabolas.hard.0041",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "The parabola $y=-(x+7)(x+1)$ has two $x$-intercepts and a vertex. What is the area of the triangle formed by these three points?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$27$"
+      },
+      {
+        "id": "c",
+        "latex": "$36$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "27",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The intercepts are $(-7,0)$ and $(-1,0)$. The vertex has $x=-4$ and $y=9$, so the area is $\\frac12(6)9=27$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "intercepts",
+      "area",
+      "vertex"
+    ],
+    "status": "valid",
+    "checksum": "sha256-0f605817d51543173abab4e27ff6701a872a3b261635876adbfbba7db3a5def1"
+  },
+  {
+    "id": "ch14.parabolas.hard.0042",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "On the interval $-5\\le x\\le -1$, what is the minimum value of $y=2(x+4)^2+3$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$21$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Check the vertex and endpoints. The values are $5$, $3$, and $21$, so the minimum is $3$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "optimization",
+      "interval"
+    ],
+    "status": "valid",
+    "checksum": "sha256-1e08a7cc6aa2bdf5bf2e4f5986bf059c23710790817e34af6424184141400f97"
+  },
+  {
+    "id": "ch14.parabolas.hard.0043",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "How many intersection points do $y=(x-6)^2-16$ and the horizontal line $y=-15$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $-15=(x-6)^2-16$, so $(x-6)^2=1$. Since this is positive, there are $2$ intersections.",
+    "complexity_factor": 1.25,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "intersections",
+      "horizontal-line"
+    ],
+    "status": "valid",
+    "checksum": "sha256-f626bdf3a66d59ed11d97d270ab7a4e75b88ffd036876cad4db6556be0f57d72"
+  },
+  {
+    "id": "ch14.parabolas.hard.0044",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "The parabola $y=-x^2+2x+7$ has vertex $(p,q)$. What is $p+q$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$-7$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $y=-(x-1)^2+8$, so $(p,q)=(1,8)$ and $p+q=9$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "completing-square",
+      "vertex"
+    ],
+    "status": "valid",
+    "checksum": "sha256-7ce6d6a636bd4c876f131f16f583d95070a5d5484f9caf0e19316f1ee8393977"
+  },
+  {
+    "id": "ch14.parabolas.hard.0045",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "The parabola $y=-(x+4)(x-2)$ has two $x$-intercepts and a vertex. What is the area of the triangle formed by these three points?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$27$"
+      },
+      {
+        "id": "c",
+        "latex": "$36$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "27",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The intercepts are $(-4,0)$ and $(2,0)$. The vertex has $x=-1$ and $y=9$, so the area is $\\frac12(6)9=27$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "intercepts",
+      "area",
+      "vertex"
+    ],
+    "status": "valid",
+    "checksum": "sha256-9831a7b3bbf76f24de5487bd471e84ecc41d077d1eec01f5aba267a2f60de366"
+  },
+  {
+    "id": "ch14.parabolas.hard.0046",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "On the interval $3\\le x\\le 9$, what is the minimum value of $y=2(x-5)^2+2$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$34$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Check the vertex and endpoints. The values are $10$, $2$, and $34$, so the minimum is $2$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "optimization",
+      "interval"
+    ],
+    "status": "valid",
+    "checksum": "sha256-e805838481ecd1c6388e20f7b379787397d9c962bc7299aa1011a791157d64a8"
+  },
+  {
+    "id": "ch14.parabolas.hard.0047",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "How many intersection points do $y=(x-5)^2-16$ and the horizontal line $y=9$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $9=(x-5)^2-16$, so $(x-5)^2=25$. Since this is positive, there are $2$ intersections.",
+    "complexity_factor": 1.25,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "intersections",
+      "horizontal-line"
+    ],
+    "status": "valid",
+    "checksum": "sha256-4d38053c376a587038b96b3496284d4a815e72ddb660112a152167b430c6a3c0"
+  },
+  {
+    "id": "ch14.parabolas.hard.0048",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "The parabola $y=-x^2+8x-22$ has vertex $(p,q)$. What is $p+q$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-6$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $y=-(x-4)^2-6$, so $(p,q)=(4,-6)$ and $p+q=-2$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "completing-square",
+      "vertex"
+    ],
+    "status": "valid",
+    "checksum": "sha256-48e360b4e35132aaae47bd1ff14d8f039ae8f86e976dfc2318a87ddd237eb011"
+  },
+  {
+    "id": "ch14.parabolas.hard.0049",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "The parabola $y=-(x+1)(x-5)$ has two $x$-intercepts and a vertex. What is the area of the triangle formed by these three points?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$27$"
+      },
+      {
+        "id": "c",
+        "latex": "$36$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "27",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The intercepts are $(-1,0)$ and $(5,0)$. The vertex has $x=2$ and $y=9$, so the area is $\\frac12(6)9=27$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "intercepts",
+      "area",
+      "vertex"
+    ],
+    "status": "valid",
+    "checksum": "sha256-22f2e02074181d68264eabb9d7e22e1f988c0a9deba0551ddce72b123517792c"
+  },
+  {
+    "id": "ch14.parabolas.hard.0050",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "On the interval $0\\le x\\le 5$, what is the minimum value of $y=2(x-3)^2+1$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$19$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Check the vertex and endpoints. The values are $19$, $1$, and $9$, so the minimum is $1$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "optimization",
+      "interval"
+    ],
+    "status": "valid",
+    "checksum": "sha256-abc5ea3233c4acea316f41183cd1d78c8d23cb1990abaabfbf208f8c9d07779d"
+  }
+]

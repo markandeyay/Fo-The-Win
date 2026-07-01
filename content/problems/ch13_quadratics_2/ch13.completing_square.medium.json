@@ -1,0 +1,2052 @@
+[
+  {
+    "id": "ch13.completing_square.medium.0001",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "medium",
+    "prompt_latex": "Solve by completing the square: $x^2 + 11x + 28=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=-4, 7$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=4, 7$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=-7, -4$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=-6, -3$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "x=-7,-4",
+    "answer_type": "string",
+    "accepted_forms": [
+      "x=-7,-4"
+    ],
+    "solution_latex": "Move the constant, complete the square, and take square roots to get $x=-7, -4$.",
+    "complexity_factor": 1.25,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "roots"
+    ],
+    "checksum": "sha256-88e72e0f79c8611c8dbaa5eb084e51e4fc686fda36c4903e2d452caef9a02503",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.medium.0002",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "medium",
+    "prompt_latex": "Complete the square: $3x^2 + 12x + 9$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3(x + 2)^2 - 3$"
+      },
+      {
+        "id": "b",
+        "latex": "$3(x + 2)^2 + 9$"
+      },
+      {
+        "id": "c",
+        "latex": "$3(x - 2)^2 - 3$"
+      },
+      {
+        "id": "d",
+        "latex": "$3(x + 2)^2 + 3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "3*(x+2)^2-3",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Factor the leading coefficient from the square terms to get $3(x + 2)^2 - 3$.",
+    "complexity_factor": 1.2,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "expression"
+    ],
+    "checksum": "sha256-b17be93f4c9803f0c542e8ca835b8261fd40f15416564d6986d092b5b49e8970",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.medium.0003",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "medium",
+    "prompt_latex": "Solve by completing the square: $x^2 + 8x + 12=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=-2, 6$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=2, 6$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=-5, -1$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=-6, -2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x=-6,-2",
+    "answer_type": "string",
+    "accepted_forms": [
+      "x=-6,-2"
+    ],
+    "solution_latex": "Move the constant, complete the square, and take square roots to get $x=-6, -2$.",
+    "complexity_factor": 1.25,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "roots"
+    ],
+    "checksum": "sha256-3a295516c5b5941f2929d10e216f9ce8e0d14075519686dff634e9263747686d",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.medium.0004",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "medium",
+    "prompt_latex": "Complete the square: $4x^2 - 24x + 34$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4(x - 3)^2 + 34$"
+      },
+      {
+        "id": "b",
+        "latex": "$4(x - 3)^2 + 2$"
+      },
+      {
+        "id": "c",
+        "latex": "$4(x - 3)^2 - 2$"
+      },
+      {
+        "id": "d",
+        "latex": "$4(x + 3)^2 - 2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "4*(x-3)^2-2",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Factor the leading coefficient from the square terms to get $4(x - 3)^2 - 2$.",
+    "complexity_factor": 1.2,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "expression"
+    ],
+    "checksum": "sha256-d0a50ae0a4c73a664bac9dd108146fc20203d20480b56b632d18d46a02a8aefd",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.medium.0005",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "medium",
+    "prompt_latex": "Solve by completing the square: $x^2 + 5x=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=-5, 0+1$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=-5, 0$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=0, 5$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=-4, 1$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "x=-5,0",
+    "answer_type": "string",
+    "accepted_forms": [
+      "x=-5,0"
+    ],
+    "solution_latex": "Move the constant, complete the square, and take square roots to get $x=-5, 0$.",
+    "complexity_factor": 1.25,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "roots"
+    ],
+    "checksum": "sha256-a217e25e3cea96167edbf63346036d01eaf0d261c2b573fc35afc99dd4d14df3",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.medium.0006",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "medium",
+    "prompt_latex": "Complete the square: $5x^2 + 40x + 79$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5(x + 4)^2 - 1$"
+      },
+      {
+        "id": "b",
+        "latex": "$5(x - 4)^2 - 1$"
+      },
+      {
+        "id": "c",
+        "latex": "$5(x + 4)^2 + 79$"
+      },
+      {
+        "id": "d",
+        "latex": "$5(x + 4)^2 + 1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "5*(x+4)^2-1",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Factor the leading coefficient from the square terms to get $5(x + 4)^2 - 1$.",
+    "complexity_factor": 1.2,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "expression"
+    ],
+    "checksum": "sha256-243c87beb4e3219e17ee77321ab85a80ea9d6d540118841700d5dcb311ccf322",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.medium.0007",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "medium",
+    "prompt_latex": "Solve by completing the square: $x^2 + 2x - 8=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=2, 4$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=-3, 3$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=-2, 4$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=-4, 2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x=-4,2",
+    "answer_type": "string",
+    "accepted_forms": [
+      "x=-4,2"
+    ],
+    "solution_latex": "Move the constant, complete the square, and take square roots to get $x=-4, 2$.",
+    "complexity_factor": 1.25,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "roots"
+    ],
+    "checksum": "sha256-05aa54ec628803125b9535306de0c952eec759bab717d317bed07f054b08b20b",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.medium.0008",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "medium",
+    "prompt_latex": "Complete the square: $2x^2 - 20x + 50$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2(x - 5)^2 + 0$"
+      },
+      {
+        "id": "b",
+        "latex": "$2(x - 5)^2 + 50$"
+      },
+      {
+        "id": "c",
+        "latex": "$2(x - 5)^2 + 0 + 1$"
+      },
+      {
+        "id": "d",
+        "latex": "$2(x + 5)^2 + 0$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2*(x-5)^2+0",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Factor the leading coefficient from the square terms to get $2(x - 5)^2 + 0$.",
+    "complexity_factor": 1.2,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "expression"
+    ],
+    "checksum": "sha256-dd86d12c2d91c46009631f3266cf9d76734cdd1eb12c22d7f7a14c5a15099047",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.medium.0009",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "medium",
+    "prompt_latex": "Solve by completing the square: $x^2 - x - 12=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=3, 4$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=-3, 4$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=-4, 3$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=-2, 5$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "x=-3,4",
+    "answer_type": "string",
+    "accepted_forms": [
+      "x=-3,4"
+    ],
+    "solution_latex": "Move the constant, complete the square, and take square roots to get $x=-3, 4$.",
+    "complexity_factor": 1.25,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "roots"
+    ],
+    "checksum": "sha256-1f4c0353b8885d1455e44b1fdb731658d368317fdba30ba8c85c9700f302021d",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.medium.0010",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "medium",
+    "prompt_latex": "Complete the square: $3x^2 + 36x + 109$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3(x + 6)^2 + 109$"
+      },
+      {
+        "id": "b",
+        "latex": "$3(x - 6)^2 + 1$"
+      },
+      {
+        "id": "c",
+        "latex": "$3(x + 6)^2 + 1$"
+      },
+      {
+        "id": "d",
+        "latex": "$3(x + 6)^2 - 1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3*(x+6)^2+1",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Factor the leading coefficient from the square terms to get $3(x + 6)^2 + 1$.",
+    "complexity_factor": 1.2,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "expression"
+    ],
+    "checksum": "sha256-a6d1fed1d635b69c6de19296f8090097f0ed91ae031288bb32a1055af5d6225c",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.medium.0011",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "medium",
+    "prompt_latex": "Solve by completing the square: $x^2 + 2x=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=-1, 1$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=-2, 0+1$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=0, 2$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=-2, 0$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x=-2,0",
+    "answer_type": "string",
+    "accepted_forms": [
+      "x=-2,0"
+    ],
+    "solution_latex": "Move the constant, complete the square, and take square roots to get $x=-2, 0$.",
+    "complexity_factor": 1.25,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "roots"
+    ],
+    "checksum": "sha256-dbcf85cece58d01b158ba93c5cc5b7a775b3af3c2d2ad5994c543a35b12a31dd",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.medium.0012",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "medium",
+    "prompt_latex": "Complete the square: $4x^2 - 56x + 198$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4(x - 7)^2 + 2$"
+      },
+      {
+        "id": "b",
+        "latex": "$4(x - 7)^2 - 2$"
+      },
+      {
+        "id": "c",
+        "latex": "$4(x - 7)^2 + 198$"
+      },
+      {
+        "id": "d",
+        "latex": "$4(x + 7)^2 + 2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "4*(x-7)^2+2",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Factor the leading coefficient from the square terms to get $4(x - 7)^2 + 2$.",
+    "complexity_factor": 1.2,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "expression"
+    ],
+    "checksum": "sha256-4b75087ed3e46211f5d632bfd9b9dcd295cd60459538a5861472f1270ca4c8c1",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.medium.0013",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "medium",
+    "prompt_latex": "Solve by completing the square: $x^2 - x - 2=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=1, 2$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=-2, 1$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=-1, 2$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=0, 3$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "x=-1,2",
+    "answer_type": "string",
+    "accepted_forms": [
+      "x=-1,2"
+    ],
+    "solution_latex": "Move the constant, complete the square, and take square roots to get $x=-1, 2$.",
+    "complexity_factor": 1.25,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "roots"
+    ],
+    "checksum": "sha256-5c055745751b6b339502346e9111186b0c8e56cb715f0a90486ef5f2489d89fb",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.medium.0014",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "medium",
+    "prompt_latex": "Complete the square: $5x^2 + 80x + 323$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5(x + 8)^2 + 3$"
+      },
+      {
+        "id": "b",
+        "latex": "$5(x + 8)^2 + 323$"
+      },
+      {
+        "id": "c",
+        "latex": "$5(x - 8)^2 + 3$"
+      },
+      {
+        "id": "d",
+        "latex": "$5(x + 8)^2 - 3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "5*(x+8)^2+3",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Factor the leading coefficient from the square terms to get $5(x + 8)^2 + 3$.",
+    "complexity_factor": 1.2,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "expression"
+    ],
+    "checksum": "sha256-fa949fdd674d8517e870ef329ef7fe6ea01c0ce2d74ea4e3897ee416b81dd6b9",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.medium.0015",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "medium",
+    "prompt_latex": "Solve by completing the square: $x^2 - 4x=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=1, 5$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=0, 4+1$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=-4, 0$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=0, 4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x=0,4",
+    "answer_type": "string",
+    "accepted_forms": [
+      "x=0,4"
+    ],
+    "solution_latex": "Move the constant, complete the square, and take square roots to get $x=0, 4$.",
+    "complexity_factor": 1.25,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "roots"
+    ],
+    "checksum": "sha256-f708abec653e456e4d20980f401337b917a448a43ef3af67a219ede0eb38c5b2",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.medium.0016",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "medium",
+    "prompt_latex": "Complete the square: $2x^2 - 36x + 166$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2(x - 9)^2 + 166$"
+      },
+      {
+        "id": "b",
+        "latex": "$2(x - 9)^2 - 4$"
+      },
+      {
+        "id": "c",
+        "latex": "$2(x - 9)^2 + 4$"
+      },
+      {
+        "id": "d",
+        "latex": "$2(x + 9)^2 + 4$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "2*(x-9)^2+4",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Factor the leading coefficient from the square terms to get $2(x - 9)^2 + 4$.",
+    "complexity_factor": 1.2,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "expression"
+    ],
+    "checksum": "sha256-83da7d09c82555279712b378040d08c89a8e5cda48fb513c4088595a119cbf76",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.medium.0017",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "medium",
+    "prompt_latex": "Solve by completing the square: $x^2 - 7x + 6=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=-6, -1$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=1, 6$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=-1, 6$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=2, 7$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "x=1,6",
+    "answer_type": "string",
+    "accepted_forms": [
+      "x=1,6"
+    ],
+    "solution_latex": "Move the constant, complete the square, and take square roots to get $x=1, 6$.",
+    "complexity_factor": 1.25,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "roots"
+    ],
+    "checksum": "sha256-a1d4b479a63369f06261a4073fed8ca8b3fcaeb2c18287edf9df4451f956f0ae",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.medium.0018",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "medium",
+    "prompt_latex": "Complete the square: $3x^2 + 60x + 296$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3(x + 10)^2 - 4$"
+      },
+      {
+        "id": "b",
+        "latex": "$3(x - 10)^2 - 4$"
+      },
+      {
+        "id": "c",
+        "latex": "$3(x + 10)^2 + 296$"
+      },
+      {
+        "id": "d",
+        "latex": "$3(x + 10)^2 + 4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "3*(x+10)^2-4",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Factor the leading coefficient from the square terms to get $3(x + 10)^2 - 4$.",
+    "complexity_factor": 1.2,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "expression"
+    ],
+    "checksum": "sha256-ce1b4df5e157686a5aeb601295a9803c06cfb8ee7e93983fc51aeba9a876866b",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.medium.0019",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "medium",
+    "prompt_latex": "Solve by completing the square: $x^2 - 10x + 16=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=-2, 8$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=3, 9$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=-8, -2$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=2, 8$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x=2,8",
+    "answer_type": "string",
+    "accepted_forms": [
+      "x=2,8"
+    ],
+    "solution_latex": "Move the constant, complete the square, and take square roots to get $x=2, 8$.",
+    "complexity_factor": 1.25,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "roots"
+    ],
+    "checksum": "sha256-25f6f292f6c1c85deea2133baffcf716a7179e87210565e995e8ce156bcd649a",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.medium.0020",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "medium",
+    "prompt_latex": "Complete the square: $4x^2 - 88x + 481$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4(x - 11)^2 - 3$"
+      },
+      {
+        "id": "b",
+        "latex": "$4(x - 11)^2 + 481$"
+      },
+      {
+        "id": "c",
+        "latex": "$4(x - 11)^2 + 3$"
+      },
+      {
+        "id": "d",
+        "latex": "$4(x + 11)^2 - 3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "4*(x-11)^2-3",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Factor the leading coefficient from the square terms to get $4(x - 11)^2 - 3$.",
+    "complexity_factor": 1.2,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "expression"
+    ],
+    "checksum": "sha256-235f4edbc1a802dc099f1a94c47a2ad01d0d6c6822115a288789f21c62eb7d1d",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.medium.0021",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "medium",
+    "prompt_latex": "Solve by completing the square: $x^2 - 13x + 30=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=-3, 10$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=3, 10$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=-10, -3$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=4, 11$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "x=3,10",
+    "answer_type": "string",
+    "accepted_forms": [
+      "x=3,10"
+    ],
+    "solution_latex": "Move the constant, complete the square, and take square roots to get $x=3, 10$.",
+    "complexity_factor": 1.25,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "roots"
+    ],
+    "checksum": "sha256-7c470a110ec2c0e07fa289d7c54195dd26faf3ed8941064d92a57858c5b6212b",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.medium.0022",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "medium",
+    "prompt_latex": "Complete the square: $5x^2 + 120x + 718$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5(x + 12)^2 + 718$"
+      },
+      {
+        "id": "b",
+        "latex": "$5(x - 12)^2 - 2$"
+      },
+      {
+        "id": "c",
+        "latex": "$5(x + 12)^2 - 2$"
+      },
+      {
+        "id": "d",
+        "latex": "$5(x + 12)^2 + 2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "5*(x+12)^2-2",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Factor the leading coefficient from the square terms to get $5(x + 12)^2 - 2$.",
+    "complexity_factor": 1.2,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "expression"
+    ],
+    "checksum": "sha256-8d84b617caa2fe99b3baa355615ae2e57bff0f26472fc5bbb64219b8dd38ed5b",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.medium.0023",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "medium",
+    "prompt_latex": "Solve by completing the square: $x^2 - 10x + 24=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=5, 7$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=-6, -4$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=-4, 6$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=4, 6$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x=4,6",
+    "answer_type": "string",
+    "accepted_forms": [
+      "x=4,6"
+    ],
+    "solution_latex": "Move the constant, complete the square, and take square roots to get $x=4, 6$.",
+    "complexity_factor": 1.25,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "roots"
+    ],
+    "checksum": "sha256-f0c8e3830e4d8998fac64f114eff02a6cf40c2d4340b48ae28402076e170d222",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.medium.0024",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "medium",
+    "prompt_latex": "Complete the square: $2x^2 - 52x + 337$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2(x - 13)^2 - 1$"
+      },
+      {
+        "id": "b",
+        "latex": "$2(x - 13)^2 + 1$"
+      },
+      {
+        "id": "c",
+        "latex": "$2(x - 13)^2 + 337$"
+      },
+      {
+        "id": "d",
+        "latex": "$2(x + 13)^2 - 1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2*(x-13)^2-1",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Factor the leading coefficient from the square terms to get $2(x - 13)^2 - 1$.",
+    "complexity_factor": 1.2,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "expression"
+    ],
+    "checksum": "sha256-c02187b3dbd0f4d3116fa25a866479f4c5ad6458d3067e050dd9b4ad2efd1aeb",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.medium.0025",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "medium",
+    "prompt_latex": "Solve by completing the square: $x^2 - 13x + 40=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=-5, 8$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=-8, -5$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=5, 8$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=6, 9$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "x=5,8",
+    "answer_type": "string",
+    "accepted_forms": [
+      "x=5,8"
+    ],
+    "solution_latex": "Move the constant, complete the square, and take square roots to get $x=5, 8$.",
+    "complexity_factor": 1.25,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "roots"
+    ],
+    "checksum": "sha256-6f284aaca28b81feb6ba86a52d72e736bd311bf063572903ef3e86c3909ff4f8",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.medium.0026",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "medium",
+    "prompt_latex": "Complete the square: $3x^2 + 84x + 588$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3(x + 14)^2 + 0$"
+      },
+      {
+        "id": "b",
+        "latex": "$3(x + 14)^2 + 588$"
+      },
+      {
+        "id": "c",
+        "latex": "$3(x - 14)^2 + 0$"
+      },
+      {
+        "id": "d",
+        "latex": "$3(x + 14)^2 + 0 + 1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "3*(x+14)^2+0",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Factor the leading coefficient from the square terms to get $3(x + 14)^2 + 0$.",
+    "complexity_factor": 1.2,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "expression"
+    ],
+    "checksum": "sha256-edfffbdd5d3e8d78af7022bd48b105fb52fb4635b7dd6fff9db4ae45ba410eac",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.medium.0027",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "medium",
+    "prompt_latex": "Solve by completing the square: $x^2 - 16x + 60=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=-6, 10$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=-10, -6$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=7, 11$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=6, 10$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x=6,10",
+    "answer_type": "string",
+    "accepted_forms": [
+      "x=6,10"
+    ],
+    "solution_latex": "Move the constant, complete the square, and take square roots to get $x=6, 10$.",
+    "complexity_factor": 1.25,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "roots"
+    ],
+    "checksum": "sha256-223da3adb6522beb0265d4ad253c1c27227de86ee7bd85c06f800a3d0f437d68",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.medium.0028",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "medium",
+    "prompt_latex": "Complete the square: $4x^2 - 120x + 901$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4(x - 15)^2 + 901$"
+      },
+      {
+        "id": "b",
+        "latex": "$4(x - 15)^2 - 1$"
+      },
+      {
+        "id": "c",
+        "latex": "$4(x - 15)^2 + 1$"
+      },
+      {
+        "id": "d",
+        "latex": "$4(x + 15)^2 + 1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "4*(x-15)^2+1",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Factor the leading coefficient from the square terms to get $4(x - 15)^2 + 1$.",
+    "complexity_factor": 1.2,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "expression"
+    ],
+    "checksum": "sha256-bb9369fc078d6737e090567f1a4e6f82a387dce39ae0e9886c7ec4560fcefb0a",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.medium.0029",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "medium",
+    "prompt_latex": "Solve by completing the square: $x^2 - 19x + 84=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=-12, -7$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=7, 12$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=-7, 12$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=8, 13$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "x=7,12",
+    "answer_type": "string",
+    "accepted_forms": [
+      "x=7,12"
+    ],
+    "solution_latex": "Move the constant, complete the square, and take square roots to get $x=7, 12$.",
+    "complexity_factor": 1.25,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "roots"
+    ],
+    "checksum": "sha256-bb611e1a23da81aca45f77372dae870e7d02f5af0d8f7934b9bae3182f3cf7b8",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.medium.0030",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "medium",
+    "prompt_latex": "Complete the square: $5x^2 + 160x + 1282$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5(x + 16)^2 + 2$"
+      },
+      {
+        "id": "b",
+        "latex": "$5(x - 16)^2 + 2$"
+      },
+      {
+        "id": "c",
+        "latex": "$5(x + 16)^2 + 1282$"
+      },
+      {
+        "id": "d",
+        "latex": "$5(x + 16)^2 - 2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "5*(x+16)^2+2",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Factor the leading coefficient from the square terms to get $5(x + 16)^2 + 2$.",
+    "complexity_factor": 1.2,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "expression"
+    ],
+    "checksum": "sha256-94249df7903712593342d2b7b58d097baeed37bf897b2452624dd156f154e884",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.medium.0031",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "medium",
+    "prompt_latex": "Solve by completing the square: $x^2 - 22x + 112=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=-8, 14$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=9, 15$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=-14, -8$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=8, 14$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x=8,14",
+    "answer_type": "string",
+    "accepted_forms": [
+      "x=8,14"
+    ],
+    "solution_latex": "Move the constant, complete the square, and take square roots to get $x=8, 14$.",
+    "complexity_factor": 1.25,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "roots"
+    ],
+    "checksum": "sha256-1ece9113fda80b93ba4e22ef72aa292faa872c4fd25767d728b7d0f5f219d03c",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.medium.0032",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "medium",
+    "prompt_latex": "Complete the square: $2x^2 - 68x + 581$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2(x - 17)^2 + 3$"
+      },
+      {
+        "id": "b",
+        "latex": "$2(x - 17)^2 + 581$"
+      },
+      {
+        "id": "c",
+        "latex": "$2(x - 17)^2 - 3$"
+      },
+      {
+        "id": "d",
+        "latex": "$2(x + 17)^2 + 3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2*(x-17)^2+3",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Factor the leading coefficient from the square terms to get $2(x - 17)^2 + 3$.",
+    "complexity_factor": 1.2,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "expression"
+    ],
+    "checksum": "sha256-2b0c0da1dfed4eb3a14c01d9b88f16950e694bbb8f26ad62eaee8dec9a3d027a",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.medium.0033",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "medium",
+    "prompt_latex": "Solve by completing the square: $x^2 - 25x + 144=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=-9, 16$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=9, 16$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=-16, -9$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=10, 17$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "x=9,16",
+    "answer_type": "string",
+    "accepted_forms": [
+      "x=9,16"
+    ],
+    "solution_latex": "Move the constant, complete the square, and take square roots to get $x=9, 16$.",
+    "complexity_factor": 1.25,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "roots"
+    ],
+    "checksum": "sha256-c07f98c541d11ecbc7ef83a98b1dd49afd8aec8c03140eae056f7bd74b70954a",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.medium.0034",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "medium",
+    "prompt_latex": "Complete the square: $3x^2 + 108x + 976$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3(x + 18)^2 + 976$"
+      },
+      {
+        "id": "b",
+        "latex": "$3(x - 18)^2 + 4$"
+      },
+      {
+        "id": "c",
+        "latex": "$3(x + 18)^2 + 4$"
+      },
+      {
+        "id": "d",
+        "latex": "$3(x + 18)^2 - 4$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3*(x+18)^2+4",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Factor the leading coefficient from the square terms to get $3(x + 18)^2 + 4$.",
+    "complexity_factor": 1.2,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "expression"
+    ],
+    "checksum": "sha256-d78687a425f7f19961739ceaf2e7663be5675fbbdd7bd4ca1a8d02018c60378c",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.medium.0035",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "medium",
+    "prompt_latex": "Solve by completing the square: $x^2 - 22x + 120=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=11, 13$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=-12, -10$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=-10, 12$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=10, 12$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x=10,12",
+    "answer_type": "string",
+    "accepted_forms": [
+      "x=10,12"
+    ],
+    "solution_latex": "Move the constant, complete the square, and take square roots to get $x=10, 12$.",
+    "complexity_factor": 1.25,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "roots"
+    ],
+    "checksum": "sha256-5164061ffd823a038b8b1262c06855c9b3d3938d76bda8952b9e3519d95f3bdf",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.medium.0036",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "medium",
+    "prompt_latex": "Complete the square: $4x^2 - 152x + 1440$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4(x - 19)^2 - 4$"
+      },
+      {
+        "id": "b",
+        "latex": "$4(x - 19)^2 + 4$"
+      },
+      {
+        "id": "c",
+        "latex": "$4(x - 19)^2 + 1440$"
+      },
+      {
+        "id": "d",
+        "latex": "$4(x + 19)^2 - 4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "4*(x-19)^2-4",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Factor the leading coefficient from the square terms to get $4(x - 19)^2 - 4$.",
+    "complexity_factor": 1.2,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "expression"
+    ],
+    "checksum": "sha256-9d8ca8fb1416b5f96419385d33dbf24ae3dce3cfc68afedc4f9eeb276e9fa839",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.medium.0037",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "medium",
+    "prompt_latex": "Solve by completing the square: $x^2 - 25x + 154=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=-11, 14$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=-14, -11$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=11, 14$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=12, 15$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "x=11,14",
+    "answer_type": "string",
+    "accepted_forms": [
+      "x=11,14"
+    ],
+    "solution_latex": "Move the constant, complete the square, and take square roots to get $x=11, 14$.",
+    "complexity_factor": 1.25,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "roots"
+    ],
+    "checksum": "sha256-abf73bce18f0f428edbdcc181d59317c8032cb6624cf4a2b42d76613c5606d3a",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.medium.0038",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "medium",
+    "prompt_latex": "Complete the square: $5x^2 + 200x + 1997$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5(x + 20)^2 - 3$"
+      },
+      {
+        "id": "b",
+        "latex": "$5(x + 20)^2 + 1997$"
+      },
+      {
+        "id": "c",
+        "latex": "$5(x - 20)^2 - 3$"
+      },
+      {
+        "id": "d",
+        "latex": "$5(x + 20)^2 + 3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "5*(x+20)^2-3",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Factor the leading coefficient from the square terms to get $5(x + 20)^2 - 3$.",
+    "complexity_factor": 1.2,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "expression"
+    ],
+    "checksum": "sha256-f310654927b4fb31247651c6b70399a53006386e34b700c8f89ce5b06440cdd6",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.medium.0039",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "medium",
+    "prompt_latex": "Solve by completing the square: $x^2 - 28x + 192=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=-12, 16$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=-16, -12$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=13, 17$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=12, 16$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x=12,16",
+    "answer_type": "string",
+    "accepted_forms": [
+      "x=12,16"
+    ],
+    "solution_latex": "Move the constant, complete the square, and take square roots to get $x=12, 16$.",
+    "complexity_factor": 1.25,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "roots"
+    ],
+    "checksum": "sha256-065eaaa87fa3a3a7d0d1eb0e44ed3f5018a0a006f849508f443832d8dabc3dd7",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.medium.0040",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "medium",
+    "prompt_latex": "Complete the square: $2x^2 - 84x + 880$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2(x - 21)^2 + 880$"
+      },
+      {
+        "id": "b",
+        "latex": "$2(x - 21)^2 + 2$"
+      },
+      {
+        "id": "c",
+        "latex": "$2(x - 21)^2 - 2$"
+      },
+      {
+        "id": "d",
+        "latex": "$2(x + 21)^2 - 2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "2*(x-21)^2-2",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Factor the leading coefficient from the square terms to get $2(x - 21)^2 - 2$.",
+    "complexity_factor": 1.2,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "expression"
+    ],
+    "checksum": "sha256-2a19dfd286d395022784c4c6d25786e695f77466a22cc2073222b24dbffbbb64",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.medium.0041",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "medium",
+    "prompt_latex": "Solve by completing the square: $x^2 - 31x + 234=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=-18, -13$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=13, 18$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=-13, 18$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=14, 19$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "x=13,18",
+    "answer_type": "string",
+    "accepted_forms": [
+      "x=13,18"
+    ],
+    "solution_latex": "Move the constant, complete the square, and take square roots to get $x=13, 18$.",
+    "complexity_factor": 1.25,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "roots"
+    ],
+    "checksum": "sha256-64a0d39365cff6f5aaba38a11bf8c6b7ee09702d9f1d2c64b2948546d91a4f36",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.medium.0042",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "medium",
+    "prompt_latex": "Complete the square: $3x^2 + 132x + 1451$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3(x + 22)^2 - 1$"
+      },
+      {
+        "id": "b",
+        "latex": "$3(x - 22)^2 - 1$"
+      },
+      {
+        "id": "c",
+        "latex": "$3(x + 22)^2 + 1451$"
+      },
+      {
+        "id": "d",
+        "latex": "$3(x + 22)^2 + 1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "3*(x+22)^2-1",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Factor the leading coefficient from the square terms to get $3(x + 22)^2 - 1$.",
+    "complexity_factor": 1.2,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "expression"
+    ],
+    "checksum": "sha256-ed306584bf99129c3a652ff63cba41fbcf491cd05fda533879ffd5c82e7537c9",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.medium.0043",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "medium",
+    "prompt_latex": "Solve by completing the square: $x^2 - 34x + 280=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=-14, 20$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=15, 21$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=-20, -14$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=14, 20$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x=14,20",
+    "answer_type": "string",
+    "accepted_forms": [
+      "x=14,20"
+    ],
+    "solution_latex": "Move the constant, complete the square, and take square roots to get $x=14, 20$.",
+    "complexity_factor": 1.25,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "roots"
+    ],
+    "checksum": "sha256-16de256edab83a9b81d3fc9b247ebad6ef8c49ee41c91b3ffe7efe51c8fad355",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.medium.0044",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "medium",
+    "prompt_latex": "Complete the square: $4x^2 - 184x + 2116$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4(x - 23)^2 + 0$"
+      },
+      {
+        "id": "b",
+        "latex": "$4(x - 23)^2 + 2116$"
+      },
+      {
+        "id": "c",
+        "latex": "$4(x - 23)^2 + 0 + 1$"
+      },
+      {
+        "id": "d",
+        "latex": "$4(x + 23)^2 + 0$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "4*(x-23)^2+0",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Factor the leading coefficient from the square terms to get $4(x - 23)^2 + 0$.",
+    "complexity_factor": 1.2,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "expression"
+    ],
+    "checksum": "sha256-98e339477665feb7d273b9c6e682bca2bca856c1abcbbc8a0150700a5bc79603",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.medium.0045",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "medium",
+    "prompt_latex": "Solve by completing the square: $x^2 - 37x + 330=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=-15, 22$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=15, 22$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=-22, -15$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=16, 23$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "x=15,22",
+    "answer_type": "string",
+    "accepted_forms": [
+      "x=15,22"
+    ],
+    "solution_latex": "Move the constant, complete the square, and take square roots to get $x=15, 22$.",
+    "complexity_factor": 1.25,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "roots"
+    ],
+    "checksum": "sha256-0e97e6d781002e0775d72723dfe8ccacaa7df7da449e0c16e820d40194d37428",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.medium.0046",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "medium",
+    "prompt_latex": "Complete the square: $5x^2 + 240x + 2881$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5(x + 24)^2 + 2881$"
+      },
+      {
+        "id": "b",
+        "latex": "$5(x - 24)^2 + 1$"
+      },
+      {
+        "id": "c",
+        "latex": "$5(x + 24)^2 + 1$"
+      },
+      {
+        "id": "d",
+        "latex": "$5(x + 24)^2 - 1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "5*(x+24)^2+1",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Factor the leading coefficient from the square terms to get $5(x + 24)^2 + 1$.",
+    "complexity_factor": 1.2,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "expression"
+    ],
+    "checksum": "sha256-4a0b3886248e9958114691e45d0265ca8432bf43e88bf44d84c0bb72493cb1f1",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.medium.0047",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "medium",
+    "prompt_latex": "Solve by completing the square: $x^2 - 34x + 288=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=17, 19$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=-18, -16$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=-16, 18$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=16, 18$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x=16,18",
+    "answer_type": "string",
+    "accepted_forms": [
+      "x=16,18"
+    ],
+    "solution_latex": "Move the constant, complete the square, and take square roots to get $x=16, 18$.",
+    "complexity_factor": 1.25,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "roots"
+    ],
+    "checksum": "sha256-f9135ee2bca3e5002ea633ca7c6f61b50a36966bf33b88d1ef7f86e3bd15745c",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.medium.0048",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "medium",
+    "prompt_latex": "Complete the square: $2x^2 - 100x + 1252$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2(x - 25)^2 + 2$"
+      },
+      {
+        "id": "b",
+        "latex": "$2(x - 25)^2 - 2$"
+      },
+      {
+        "id": "c",
+        "latex": "$2(x - 25)^2 + 1252$"
+      },
+      {
+        "id": "d",
+        "latex": "$2(x + 25)^2 + 2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2*(x-25)^2+2",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Factor the leading coefficient from the square terms to get $2(x - 25)^2 + 2$.",
+    "complexity_factor": 1.2,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "expression"
+    ],
+    "checksum": "sha256-47692983d72105d2f0ec675c9c4e5c49cf4d5786dcfdc5f3966120db8574c73d",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.medium.0049",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "medium",
+    "prompt_latex": "Solve by completing the square: $x^2 - 37x + 340=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=-17, 20$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=-20, -17$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=17, 20$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=18, 21$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "x=17,20",
+    "answer_type": "string",
+    "accepted_forms": [
+      "x=17,20"
+    ],
+    "solution_latex": "Move the constant, complete the square, and take square roots to get $x=17, 20$.",
+    "complexity_factor": 1.25,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "roots"
+    ],
+    "checksum": "sha256-8d6d8191100ac7d2b7e878bb0d1b310cfd9cf784b912ed90a398cdcd444dbaa5",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.medium.0050",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "medium",
+    "prompt_latex": "Complete the square: $3x^2 + 156x + 2031$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3(x + 26)^2 + 3$"
+      },
+      {
+        "id": "b",
+        "latex": "$3(x + 26)^2 + 2031$"
+      },
+      {
+        "id": "c",
+        "latex": "$3(x - 26)^2 + 3$"
+      },
+      {
+        "id": "d",
+        "latex": "$3(x + 26)^2 - 3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "3*(x+26)^2+3",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Factor the leading coefficient from the square terms to get $3(x + 26)^2 + 3$.",
+    "complexity_factor": 1.2,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "expression"
+    ],
+    "checksum": "sha256-59c303e69f1f57123b43511f43da95d99f04572987ef310ecc33d471ca27ca3a",
+    "status": "valid"
+  }
+]

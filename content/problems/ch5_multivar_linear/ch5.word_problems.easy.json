@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "ch5.word_problems.easy.0001",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "The sum of two numbers is $92$ and their difference is $2$. What is the larger number?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$92$"
+      },
+      {
+        "id": "b",
+        "latex": "$45$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$47$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "47",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let the numbers be $x$ and $y$. Then $x + y = 92$ and $x - y = 2$. Adding gives $2x = 94$, so the larger number is $47$.",
+    "complexity_factor": 1,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "sum_difference"
+    ],
+    "checksum": "sha256-ea9958f6323d1415973c748867497f4aa7d8882b24fdd33b4fd10c95a594d8f0",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.easy.0002",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "A small fair sold adult tickets for $7$ dollars and child tickets for $4$ dollars. It sold 8 child tickets and collected $67$ dollars total. How many adult tickets were sold?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $a$ be the number of adult tickets. Then $7a + 4\\cdot 8 = 67$, so $a = 5$.",
+    "complexity_factor": 1,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "linear_system"
+    ],
+    "checksum": "sha256-755b8a62dfd654d876da881e191b4a46773d43bb3c0dc2861f96276cc47abde5",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.easy.0003",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Apples cost $3$ dollars each and bananas cost $2$ dollars each. Sarah buys 8 apples and 4 bananas. How much does she spend?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$17$"
+      },
+      {
+        "id": "c",
+        "latex": "$24$"
+      },
+      {
+        "id": "d",
+        "latex": "$32$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "32",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Compute $3 \\cdot 8 + 2 \\cdot 4 = 32$ dollars.",
+    "complexity_factor": 0.9,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "purchase"
+    ],
+    "checksum": "sha256-19b56771bda664d3880bea7b1b7e603c2fd31039f6ef26fd2c8df16934732627",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.easy.0004",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "One number is 3 times another. Their sum is 36. What is the smaller number?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$27$"
+      },
+      {
+        "id": "b",
+        "latex": "$36$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let the smaller number be $y$. Then $3y + y = 36$, so $y = 9$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "numbers"
+    ],
+    "checksum": "sha256-9996ec8a27d3d576ee6dfbddd618aa7322d870952e2511793cf0e441bf646559",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.easy.0005",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "There are 3 groups of 7 students and 7 groups of 4 students. How many students are there in total?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$54$"
+      },
+      {
+        "id": "b",
+        "latex": "$28$"
+      },
+      {
+        "id": "c",
+        "latex": "$49$"
+      },
+      {
+        "id": "d",
+        "latex": "$21$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "49",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Total students $= 7 \\cdot 3 + 4 \\cdot 7 = 49$.",
+    "complexity_factor": 0.9,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "total"
+    ],
+    "checksum": "sha256-7647738294786797ebf69bc6b9eb08ca8d400f87e3c30122751d3fc3f813a294",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.easy.0006",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "The sum of two numbers is $56$ and their difference is $10$. What is the larger number?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$23$"
+      },
+      {
+        "id": "b",
+        "latex": "$56$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$33$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "33",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let the numbers be $x$ and $y$. Then $x + y = 56$ and $x - y = 10$. Adding gives $2x = 66$, so the larger number is $33$.",
+    "complexity_factor": 1,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "sum_difference"
+    ],
+    "checksum": "sha256-f33c3633793b06b89f501dbcd8d92888fcea2143baf1d0ef0e6e8aba75071d28",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.easy.0007",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "A small fair sold adult tickets for $6$ dollars and child tickets for $5$ dollars. It sold 10 child tickets and collected $110$ dollars total. How many adult tickets were sold?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$13$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $a$ be the number of adult tickets. Then $6a + 5\\cdot 10 = 110$, so $a = 10$.",
+    "complexity_factor": 1,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "linear_system"
+    ],
+    "checksum": "sha256-318a0f2857fadf52d36f5914b5c9573cfd41b85c4a30ac21939aab9e6f5afe47",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.easy.0008",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Apples cost $3$ dollars each and bananas cost $2$ dollars each. Sarah buys 12 apples and 7 bananas. How much does she spend?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$24$"
+      },
+      {
+        "id": "b",
+        "latex": "$14$"
+      },
+      {
+        "id": "c",
+        "latex": "$36$"
+      },
+      {
+        "id": "d",
+        "latex": "$50$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "50",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Compute $3 \\cdot 12 + 2 \\cdot 7 = 50$ dollars.",
+    "complexity_factor": 0.9,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "purchase"
+    ],
+    "checksum": "sha256-49824911f8bff4dc96a0fe75f9c258980c2cc5e2cd48bac6d6bb33ea5f84161e",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.easy.0009",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "One number is 5 times another. Their sum is 42. What is the smaller number?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$35$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$42$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let the smaller number be $y$. Then $5y + y = 42$, so $y = 7$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "numbers"
+    ],
+    "checksum": "sha256-a459d433bcfaeb43ac2c56ef7e58155f15062be7792b6e4cb859020a74460411",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.easy.0010",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "There are 6 groups of 3 students and 8 groups of 8 students. How many students are there in total?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$18$"
+      },
+      {
+        "id": "b",
+        "latex": "$64$"
+      },
+      {
+        "id": "c",
+        "latex": "$72$"
+      },
+      {
+        "id": "d",
+        "latex": "$82$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "82",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Total students $= 3 \\cdot 6 + 8 \\cdot 8 = 82$.",
+    "complexity_factor": 0.9,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "total"
+    ],
+    "checksum": "sha256-eb9347d55f8e0025efbf64ffc5e9902c9e0e60f4a34e6f1cfc7056946bc9179d",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.easy.0011",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "The sum of two numbers is $47$ and their difference is $3$. What is the larger number?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$25$"
+      },
+      {
+        "id": "b",
+        "latex": "$22$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$47$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "25",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let the numbers be $x$ and $y$. Then $x + y = 47$ and $x - y = 3$. Adding gives $2x = 50$, so the larger number is $25$.",
+    "complexity_factor": 1,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "sum_difference"
+    ],
+    "checksum": "sha256-d750eb3453636925204d2e2c1d656442e1cef0fe837bdd32f2b98674a0d05f1f",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.easy.0012",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "A small fair sold adult tickets for $5$ dollars and child tickets for $2$ dollars. It sold 4 child tickets and collected $38$ dollars total. How many adult tickets were sold?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $a$ be the number of adult tickets. Then $5a + 2\\cdot 4 = 38$, so $a = 6$.",
+    "complexity_factor": 1,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "linear_system"
+    ],
+    "checksum": "sha256-a06f64e6365fa08854c4e96cbc74af622b6cf6ac3b21b0cb672aa9a6d8139a2f",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.easy.0013",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Apples cost $3$ dollars each and bananas cost $5$ dollars each. Sarah buys 9 apples and 9 bananas. How much does she spend?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$26$"
+      },
+      {
+        "id": "b",
+        "latex": "$45$"
+      },
+      {
+        "id": "c",
+        "latex": "$27$"
+      },
+      {
+        "id": "d",
+        "latex": "$72$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "72",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Compute $3 \\cdot 9 + 5 \\cdot 9 = 72$ dollars.",
+    "complexity_factor": 0.9,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "purchase"
+    ],
+    "checksum": "sha256-27b2161525a7964f298e1c9a0f2eb1aec8dedf541bfcd3bd16c83ec37efcba06",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.easy.0014",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "One number is 4 times another. Their sum is 35. What is the smaller number?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$28$"
+      },
+      {
+        "id": "c",
+        "latex": "$35$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let the smaller number be $y$. Then $4y + y = 35$, so $y = 7$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "numbers"
+    ],
+    "checksum": "sha256-88cfa6f8f5ca96f50d3d71e3757fc561f0f816d230b886f4db1dde100685ec62",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.easy.0015",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "There are 10 groups of 8 students and 8 groups of 8 students. How many students are there in total?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$144$"
+      },
+      {
+        "id": "b",
+        "latex": "$64$"
+      },
+      {
+        "id": "c",
+        "latex": "$142$"
+      },
+      {
+        "id": "d",
+        "latex": "$80$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "144",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Total students $= 8 \\cdot 10 + 8 \\cdot 8 = 144$.",
+    "complexity_factor": 0.9,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "total"
+    ],
+    "checksum": "sha256-752ab417692fd7679bbfcc7d84ede1d3965c18662cd7e04cc8e363599408b3c1",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.easy.0016",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "The sum of two numbers is $55$ and their difference is $7$. What is the larger number?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$55$"
+      },
+      {
+        "id": "b",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$31$"
+      },
+      {
+        "id": "d",
+        "latex": "$24$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "31",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let the numbers be $x$ and $y$. Then $x + y = 55$ and $x - y = 7$. Adding gives $2x = 62$, so the larger number is $31$.",
+    "complexity_factor": 1,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "sum_difference"
+    ],
+    "checksum": "sha256-a6993c010235d580cb3e7b95cc109fae7c531c8b2b553994519eb6274f67fecc",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.easy.0017",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "A small fair sold adult tickets for $10$ dollars and child tickets for $3$ dollars. It sold 6 child tickets and collected $128$ dollars total. How many adult tickets were sold?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12$"
+      },
+      {
+        "id": "b",
+        "latex": "$11$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$14$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "11",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $a$ be the number of adult tickets. Then $10a + 3\\cdot 6 = 128$, so $a = 11$.",
+    "complexity_factor": 1,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "linear_system"
+    ],
+    "checksum": "sha256-b17ab1f48eb870f95996675f28ba14745ad3415e0943a313799e73ea8f31d35d",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.easy.0018",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Apples cost $6$ dollars each and bananas cost $8$ dollars each. Sarah buys 5 apples and 5 bananas. How much does she spend?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$70$"
+      },
+      {
+        "id": "b",
+        "latex": "$30$"
+      },
+      {
+        "id": "c",
+        "latex": "$24$"
+      },
+      {
+        "id": "d",
+        "latex": "$40$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "70",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Compute $6 \\cdot 5 + 8 \\cdot 5 = 70$ dollars.",
+    "complexity_factor": 0.9,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "purchase"
+    ],
+    "checksum": "sha256-f32a1419c01327b22e5742dad2b2033b0233253adbf2c80f1e40abbc3aed33f6",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.easy.0019",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "One number is 5 times another. Their sum is 24. What is the smaller number?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$20$"
+      },
+      {
+        "id": "d",
+        "latex": "$24$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let the smaller number be $y$. Then $5y + y = 24$, so $y = 4$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "numbers"
+    ],
+    "checksum": "sha256-68c4846d4b08718ec0425c06fb2b012b79a8504628bb194ca193df8294d1d6a3",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.easy.0020",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "There are 4 groups of 4 students and 4 groups of 6 students. How many students are there in total?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$39$"
+      },
+      {
+        "id": "b",
+        "latex": "$16$"
+      },
+      {
+        "id": "c",
+        "latex": "$24$"
+      },
+      {
+        "id": "d",
+        "latex": "$40$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "40",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Total students $= 4 \\cdot 4 + 6 \\cdot 4 = 40$.",
+    "complexity_factor": 0.9,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "total"
+    ],
+    "checksum": "sha256-3f3a0a970261d674459f0fc5f4a197887c7d19953e84eda7361a9cd8ac64c8c1",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.easy.0021",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "The sum of two numbers is $32$ and their difference is $6$. What is the larger number?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$32$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$13$"
+      },
+      {
+        "id": "d",
+        "latex": "$19$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "19",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let the numbers be $x$ and $y$. Then $x + y = 32$ and $x - y = 6$. Adding gives $2x = 38$, so the larger number is $19$.",
+    "complexity_factor": 1,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "sum_difference"
+    ],
+    "checksum": "sha256-a7bca069bdef9eed138a7c63fb552381283605d80971bd30f06174b2e44c0fb9",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.easy.0022",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Dave has 22 coins, all dimes and quarters, worth 385 cents in total. How many dimes does he have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$11$"
+      },
+      {
+        "id": "c",
+        "latex": "$38$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "11",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $d$ be dimes and $q$ be quarters. Then $d + q = 22$ and $10d + 25q = 385$. Solving gives $d = 11$.",
+    "complexity_factor": 1.05,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "coins"
+    ],
+    "checksum": "sha256-5fd9aed5880c8600d35973520c643dcd7c036b9140151e770cba4668b7b39559",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.easy.0023",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Apples cost $7$ dollars each and bananas cost $3$ dollars each. Sarah buys 5 apples and 9 bananas. How much does she spend?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$35$"
+      },
+      {
+        "id": "b",
+        "latex": "$27$"
+      },
+      {
+        "id": "c",
+        "latex": "$24$"
+      },
+      {
+        "id": "d",
+        "latex": "$62$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "62",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Compute $7 \\cdot 5 + 3 \\cdot 9 = 62$ dollars.",
+    "complexity_factor": 0.9,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "purchase"
+    ],
+    "checksum": "sha256-46ddca71ad6b1c3e6972e676b2acd204e83e0249d649bb9522585c9c795f1445",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.easy.0024",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "One number is 2 times another. Their sum is 30. What is the smaller number?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$20$"
+      },
+      {
+        "id": "d",
+        "latex": "$30$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let the smaller number be $y$. Then $2y + y = 30$, so $y = 10$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "numbers"
+    ],
+    "checksum": "sha256-495deffedc71827df8e98c0aa647a537035211296f4f25beab42060515f21ef8",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.easy.0025",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "There are 11 groups of 6 students and 3 groups of 5 students. How many students are there in total?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$15$"
+      },
+      {
+        "id": "b",
+        "latex": "$81$"
+      },
+      {
+        "id": "c",
+        "latex": "$66$"
+      },
+      {
+        "id": "d",
+        "latex": "$63$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "81",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Total students $= 6 \\cdot 11 + 5 \\cdot 3 = 81$.",
+    "complexity_factor": 0.9,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "total"
+    ],
+    "checksum": "sha256-3e3bcc5a218ddcd2ed9773bde0a90393a9773b073d020b67826cc9a7d9cfc7c7",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.easy.0026",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "The sum of two numbers is $10$ and their difference is $12$. What is the larger number?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$11$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "11",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let the numbers be $x$ and $y$. Then $x + y = 10$ and $x - y = 12$. Adding gives $2x = 22$, so the larger number is $11$.",
+    "complexity_factor": 1,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "sum_difference"
+    ],
+    "checksum": "sha256-1e5aa4bff12b32cd304c4bfbccfbd00948d8dc2f113a356eaeb24530b8ab3cb9",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.easy.0027",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "A small fair sold adult tickets for $8$ dollars and child tickets for $5$ dollars. It sold 10 child tickets and collected $74$ dollars total. How many adult tickets were sold?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $a$ be the number of adult tickets. Then $8a + 5\\cdot 10 = 74$, so $a = 3$.",
+    "complexity_factor": 1,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "linear_system"
+    ],
+    "checksum": "sha256-6a79b3c5529b3ab3e04f062496675a4c4dbb1ead596b5a6c2174d2689ee0a3de",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.easy.0028",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Apples cost $2$ dollars each and bananas cost $5$ dollars each. Sarah buys 4 apples and 10 bananas. How much does she spend?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$58$"
+      },
+      {
+        "id": "b",
+        "latex": "$50$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$21$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "58",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Compute $2 \\cdot 4 + 5 \\cdot 10 = 58$ dollars.",
+    "complexity_factor": 0.9,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "purchase"
+    ],
+    "checksum": "sha256-e0181072a61a57b1cf1d8168a59a40149210d8f35a8b0000fa304ef3b2331e28",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.easy.0029",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "One number is 3 times another. Their sum is 16. What is the smaller number?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$16$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let the smaller number be $y$. Then $3y + y = 16$, so $y = 4$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "numbers"
+    ],
+    "checksum": "sha256-4e36913ab73f89d58d4cdc635af06b93276645ffb7d707a0dc6058b7f8d1eb3c",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.easy.0030",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "There are 4 groups of 5 students and 5 groups of 5 students. How many students are there in total?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$25$"
+      },
+      {
+        "id": "b",
+        "latex": "$20$"
+      },
+      {
+        "id": "c",
+        "latex": "$45$"
+      },
+      {
+        "id": "d",
+        "latex": "$48$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "45",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Total students $= 5 \\cdot 4 + 5 \\cdot 5 = 45$.",
+    "complexity_factor": 0.9,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "total"
+    ],
+    "checksum": "sha256-aee5676830b485509d71db2096fca38819a1a061c99f3009b39c0ec005f878f3",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.easy.0031",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "The sum of two numbers is $66$ and their difference is $12$. What is the larger number?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$27$"
+      },
+      {
+        "id": "b",
+        "latex": "$66$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$39$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "39",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let the numbers be $x$ and $y$. Then $x + y = 66$ and $x - y = 12$. Adding gives $2x = 78$, so the larger number is $39$.",
+    "complexity_factor": 1,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "sum_difference"
+    ],
+    "checksum": "sha256-b2ff8af05143383b18049dacdd6a86261eeb3d12624d085c1aa96616d6a4d4a7",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.easy.0032",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "A small fair sold adult tickets for $7$ dollars and child tickets for $2$ dollars. It sold 4 child tickets and collected $64$ dollars total. How many adult tickets were sold?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$11$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $a$ be the number of adult tickets. Then $7a + 2\\cdot 4 = 64$, so $a = 8$.",
+    "complexity_factor": 1,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "linear_system"
+    ],
+    "checksum": "sha256-11dabaaab18f03345ff1c4ab6a611d586828954d43b2964e3c1e6939f06eba59",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.easy.0033",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Apples cost $7$ dollars each and bananas cost $8$ dollars each. Sarah buys 6 apples and 2 bananas. How much does she spend?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$23$"
+      },
+      {
+        "id": "c",
+        "latex": "$42$"
+      },
+      {
+        "id": "d",
+        "latex": "$58$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "58",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Compute $7 \\cdot 6 + 8 \\cdot 2 = 58$ dollars.",
+    "complexity_factor": 0.9,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "purchase"
+    ],
+    "checksum": "sha256-203c151fb456f516f9e098c03fc931f66da8748bf83a9ea52270a5fbdc3efbf0",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.easy.0034",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "One number is 2 times another. Their sum is 27. What is the smaller number?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$27$"
+      },
+      {
+        "id": "d",
+        "latex": "$18$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let the smaller number be $y$. Then $2y + y = 27$, so $y = 9$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "numbers"
+    ],
+    "checksum": "sha256-13a23ed7f91b07f5824e80b86a1b3c487945f735e8f452f38596a8848910d294",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.easy.0035",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "There are 11 groups of 6 students and 7 groups of 7 students. How many students are there in total?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$66$"
+      },
+      {
+        "id": "b",
+        "latex": "$115$"
+      },
+      {
+        "id": "c",
+        "latex": "$119$"
+      },
+      {
+        "id": "d",
+        "latex": "$49$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "115",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Total students $= 6 \\cdot 11 + 7 \\cdot 7 = 115$.",
+    "complexity_factor": 0.9,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "total"
+    ],
+    "checksum": "sha256-1d1e5f6d1df5e960ba3ea94115de4c29e465b9054a8170a7a61e00351c34c906",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.easy.0036",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "The sum of two numbers is $84$ and their difference is $12$. What is the larger number?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$48$"
+      },
+      {
+        "id": "b",
+        "latex": "$36$"
+      },
+      {
+        "id": "c",
+        "latex": "$84$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "48",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let the numbers be $x$ and $y$. Then $x + y = 84$ and $x - y = 12$. Adding gives $2x = 96$, so the larger number is $48$.",
+    "complexity_factor": 1,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "sum_difference"
+    ],
+    "checksum": "sha256-fde13e2b99a8b63e07186d02bb92560c4aa1db37cdd9f5a9e033c9e54c3e9def",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.easy.0037",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "A small fair sold adult tickets for $6$ dollars and child tickets for $3$ dollars. It sold 6 child tickets and collected $42$ dollars total. How many adult tickets were sold?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $a$ be the number of adult tickets. Then $6a + 3\\cdot 6 = 42$, so $a = 4$.",
+    "complexity_factor": 1,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "linear_system"
+    ],
+    "checksum": "sha256-70d7c43ce6a8229cb4e3e4b73da4d0be9089c2100c7ce0d18f7f9eaf103ae5a4",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.easy.0038",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Apples cost $6$ dollars each and bananas cost $5$ dollars each. Sarah buys 12 apples and 7 bananas. How much does she spend?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$72$"
+      },
+      {
+        "id": "b",
+        "latex": "$30$"
+      },
+      {
+        "id": "c",
+        "latex": "$107$"
+      },
+      {
+        "id": "d",
+        "latex": "$35$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "107",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Compute $6 \\cdot 12 + 5 \\cdot 7 = 107$ dollars.",
+    "complexity_factor": 0.9,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "purchase"
+    ],
+    "checksum": "sha256-132534e4c30c73ce768e0308eb2f2502183b5d9dc0f9beeaf14f833b57d99455",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.easy.0039",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "One number is 4 times another. Their sum is 10. What is the smaller number?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let the smaller number be $y$. Then $4y + y = 10$, so $y = 2$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "numbers"
+    ],
+    "checksum": "sha256-198f9d6f4eddee417d43228867c6f8ae6cefe732224a259c6eba5516b75be301",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.easy.0040",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "There are 3 groups of 3 students and 6 groups of 8 students. How many students are there in total?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$48$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$42$"
+      },
+      {
+        "id": "d",
+        "latex": "$57$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "57",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Total students $= 3 \\cdot 3 + 8 \\cdot 6 = 57$.",
+    "complexity_factor": 0.9,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "total"
+    ],
+    "checksum": "sha256-7c317a5df7aad792cded510a15d850ecadfd8f9de8056512d440840fd50c0501",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.easy.0041",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "The sum of two numbers is $23$ and their difference is $7$. What is the larger number?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$15$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$23$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "15",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let the numbers be $x$ and $y$. Then $x + y = 23$ and $x - y = 7$. Adding gives $2x = 30$, so the larger number is $15$.",
+    "complexity_factor": 1,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "sum_difference"
+    ],
+    "checksum": "sha256-53b618d1882db13927b6372b4f73d7e4798c75407f1791beedeadcd2fe6293fc",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.easy.0042",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "A small fair sold adult tickets for $5$ dollars and child tickets for $4$ dollars. It sold 8 child tickets and collected $77$ dollars total. How many adult tickets were sold?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $a$ be the number of adult tickets. Then $5a + 4\\cdot 8 = 77$, so $a = 9$.",
+    "complexity_factor": 1,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "linear_system"
+    ],
+    "checksum": "sha256-9b6d908da1c5ef2a2d0cce27faa0a8bc666454a54c3bc6c70cc90347fcb99ae1",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.easy.0043",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Apples cost $4$ dollars each and bananas cost $6$ dollars each. Sarah buys 11 apples and 8 bananas. How much does she spend?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$92$"
+      },
+      {
+        "id": "b",
+        "latex": "$48$"
+      },
+      {
+        "id": "c",
+        "latex": "$44$"
+      },
+      {
+        "id": "d",
+        "latex": "$29$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "92",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Compute $4 \\cdot 11 + 6 \\cdot 8 = 92$ dollars.",
+    "complexity_factor": 0.9,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "purchase"
+    ],
+    "checksum": "sha256-e6ab3894606cfb0743d4f5edf27020a0ac00fc421189d27dacb61676cf8d84e1",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.easy.0044",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "One number is 4 times another. Their sum is 30. What is the smaller number?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$30$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$24$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let the smaller number be $y$. Then $4y + y = 30$, so $y = 6$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "numbers"
+    ],
+    "checksum": "sha256-93f816917700f8547b04e853896cb3d94725adb49ba7ded4db19947e53e5d3a7",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.easy.0045",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "There are 12 groups of 7 students and 3 groups of 5 students. How many students are there in total?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$71$"
+      },
+      {
+        "id": "b",
+        "latex": "$84$"
+      },
+      {
+        "id": "c",
+        "latex": "$15$"
+      },
+      {
+        "id": "d",
+        "latex": "$99$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "99",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Total students $= 7 \\cdot 12 + 5 \\cdot 3 = 99$.",
+    "complexity_factor": 0.9,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "total"
+    ],
+    "checksum": "sha256-bdfb2046edd84bfdb8039c9829abde18ce8e1282727cd9f2ae557faec1dd72b0",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.easy.0046",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "The sum of two numbers is $90$ and their difference is $10$. What is the larger number?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$40$"
+      },
+      {
+        "id": "b",
+        "latex": "$90$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$50$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "50",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let the numbers be $x$ and $y$. Then $x + y = 90$ and $x - y = 10$. Adding gives $2x = 100$, so the larger number is $50$.",
+    "complexity_factor": 1,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "sum_difference"
+    ],
+    "checksum": "sha256-638331f07d467e667e4c0617409d7f394eee444571cce1b18f0fe8c8d8763446",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.easy.0047",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Dave has 16 coins, all dimes and quarters, worth 280 cents in total. How many dimes does he have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$18$"
+      },
+      {
+        "id": "b",
+        "latex": "$28$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $d$ be dimes and $q$ be quarters. Then $d + q = 16$ and $10d + 25q = 280$. Solving gives $d = 8$.",
+    "complexity_factor": 1.05,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "coins"
+    ],
+    "checksum": "sha256-f18488384b3fa8687c6c8fca844500f0b1f879937a3a3e226e04e051140d1ed0",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.easy.0048",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Apples cost $2$ dollars each and bananas cost $7$ dollars each. Sarah buys 5 apples and 7 bananas. How much does she spend?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$49$"
+      },
+      {
+        "id": "b",
+        "latex": "$59$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$21$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "59",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Compute $2 \\cdot 5 + 7 \\cdot 7 = 59$ dollars.",
+    "complexity_factor": 0.9,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "purchase"
+    ],
+    "checksum": "sha256-b920e809f2d528384b5a0ab0521f3a4031c7ccad81179f89df0185010dfa2955",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.easy.0049",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "One number is 2 times another. Their sum is 21. What is the smaller number?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$14$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$21$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let the smaller number be $y$. Then $2y + y = 21$, so $y = 7$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "numbers"
+    ],
+    "checksum": "sha256-671226cb24910b8063a178ae4c8332ecf218cb68dad58d6dab623738280adc90",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.easy.0050",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "There are 7 groups of 5 students and 4 groups of 4 students. How many students are there in total?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$48$"
+      },
+      {
+        "id": "b",
+        "latex": "$16$"
+      },
+      {
+        "id": "c",
+        "latex": "$51$"
+      },
+      {
+        "id": "d",
+        "latex": "$35$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "51",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Total students $= 5 \\cdot 7 + 4 \\cdot 4 = 51$.",
+    "complexity_factor": 0.9,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "total"
+    ],
+    "checksum": "sha256-629acc5c2b1f44527f1a187224acba4747460c98d745c24e7650581eee02b8ca",
+    "status": "valid"
+  }
+]

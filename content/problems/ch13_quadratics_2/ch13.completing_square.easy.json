@@ -1,0 +1,2027 @@
+[
+  {
+    "id": "ch13.completing_square.easy.0001",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "Write $x^2 + 4x + 2$ in the form $(x+h)^2+k$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 2)^2 + 2$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 2)^2 - 2 + 1$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 2)^2 - 2$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 2)^2 - 2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x+2)^2-2",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "x^2+4*x+2"
+    ],
+    "solution_latex": "Use $x^2 + 4x=(x + 2)^2-4$, so the expression is $(x + 2)^2 - 2$.",
+    "complexity_factor": 1.1,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "expression"
+    ],
+    "checksum": "sha256-91bcedd954931f05557384d09943ade360289a1193d6890402c45453be19c03a",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.easy.0002",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "What number completes the square in $x^2 + 4x+Box$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Half of $4$ is $2$, and $2^2=4$.",
+    "complexity_factor": 1.05,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-824d738fae5a7f3c1454d06a9d4157babf096fbc59211769e5acf4f6a7313ff0",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.easy.0003",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "Write $x^2 - 6x + 8$ in the form $(x+h)^2+k$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 3)^2 + 8$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 3)^2 + 1$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 3)^2 - 1$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 3)^2 - 1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x-3)^2-1",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "x^2-6*x+8"
+    ],
+    "solution_latex": "Use $x^2 - 6x=(x - 3)^2-9$, so the expression is $(x - 3)^2 - 1$.",
+    "complexity_factor": 1.1,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "expression"
+    ],
+    "checksum": "sha256-250b2293acea48f33d80246053caacf6a47a17537f4d89deda66774cc9cd1540",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.easy.0004",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "What number completes the square in $x^2 + 6x+Box$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Half of $6$ is $3$, and $3^2=9$.",
+    "complexity_factor": 1.05,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-f657ffde0bae27c60cd8969182c978c799182fc21766fa145ba0adff977ad725",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.easy.0005",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "Write $x^2 + 8x + 16$ in the form $(x+h)^2+k$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 4)^2 + 0 + 1$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 4)^2 + 0$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 4)^2 + 16$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 4)^2 + 0$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(x+4)^2+0",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "x^2+8*x+16"
+    ],
+    "solution_latex": "Use $x^2 + 8x=(x + 4)^2-16$, so the expression is $(x + 4)^2 + 0$.",
+    "complexity_factor": 1.1,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "expression"
+    ],
+    "checksum": "sha256-e0b3feab2c2273ef10c45e04873c15b96312f995d4092fb0c6dce4f66d12424d",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.easy.0006",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "What number completes the square in $x^2 + 8x+Box$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$17$"
+      },
+      {
+        "id": "d",
+        "latex": "$15$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "16",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Half of $8$ is $4$, and $4^2=16$.",
+    "complexity_factor": 1.05,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-81ee391f6129a899eb3c2bc2cc2871a7062f7a451f68fc650d797a202c01489a",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.easy.0007",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "Write $x^2 - 10x + 26$ in the form $(x+h)^2+k$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 5)^2 + 26$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 5)^2 + 1$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 5)^2 - 1$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 5)^2 + 1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x-5)^2+1",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "x^2-10*x+26"
+    ],
+    "solution_latex": "Use $x^2 - 10x=(x - 5)^2-25$, so the expression is $(x - 5)^2 + 1$.",
+    "complexity_factor": 1.1,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "expression"
+    ],
+    "checksum": "sha256-1bb11ae73eec58e2db737e0b8167f3ecfcbb0aec0d446c24938b46e9dea13a0d",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.easy.0008",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "What number completes the square in $x^2 + 10x+Box$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$25$"
+      },
+      {
+        "id": "b",
+        "latex": "$26$"
+      },
+      {
+        "id": "c",
+        "latex": "$24$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "25",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Half of $10$ is $5$, and $5^2=25$.",
+    "complexity_factor": 1.05,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-2f29b4f56d0af07ed214b4fe2032a8a7a11fb2a27b5a9982fe8764453494abd0",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.easy.0009",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "Write $x^2 + 12x + 38$ in the form $(x+h)^2+k$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 6)^2 + 38$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 6)^2 + 2$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 6)^2 - 2$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 6)^2 + 2$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(x+6)^2+2",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "x^2+12*x+38"
+    ],
+    "solution_latex": "Use $x^2 + 12x=(x + 6)^2-36$, so the expression is $(x + 6)^2 + 2$.",
+    "complexity_factor": 1.1,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "expression"
+    ],
+    "checksum": "sha256-e5bf93c1e85f5a562066833692c4ab9c12ad75b3512cca52748737f2a571ec9c",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.easy.0010",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "What number completes the square in $x^2 + 12x+Box$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$37$"
+      },
+      {
+        "id": "b",
+        "latex": "$12$"
+      },
+      {
+        "id": "c",
+        "latex": "$36$"
+      },
+      {
+        "id": "d",
+        "latex": "$35$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "36",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Half of $12$ is $6$, and $6^2=36$.",
+    "complexity_factor": 1.05,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-296972b24179bf755126e5c332bfe7899c85a1118cba385be05d30aecb8ace97",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.easy.0011",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "Write $x^2 - 14x + 52$ in the form $(x+h)^2+k$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 7)^2 + 3$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 7)^2 - 3$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 7)^2 + 52$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 7)^2 + 3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x-7)^2+3",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "x^2-14*x+52"
+    ],
+    "solution_latex": "Use $x^2 - 14x=(x - 7)^2-49$, so the expression is $(x - 7)^2 + 3$.",
+    "complexity_factor": 1.1,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "expression"
+    ],
+    "checksum": "sha256-d1e9517b0372506a72fe232e3aebf9baa144d985410174cc0ea784d62e7c2390",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.easy.0012",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "What number completes the square in $x^2 + 14x+Box$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$49$"
+      },
+      {
+        "id": "b",
+        "latex": "$48$"
+      },
+      {
+        "id": "c",
+        "latex": "$50$"
+      },
+      {
+        "id": "d",
+        "latex": "$14$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "49",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Half of $14$ is $7$, and $7^2=49$.",
+    "complexity_factor": 1.05,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-cfa9c89e1567dfeab8b02cf790ad7b56c3b4c8bd4b369d59d7c9a5206caf3aff",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.easy.0013",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "Write $x^2 + 16x + 61$ in the form $(x+h)^2+k$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 8)^2 + 61$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 8)^2 + 3$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 8)^2 - 3$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 8)^2 - 3$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x+8)^2-3",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "x^2+16*x+61"
+    ],
+    "solution_latex": "Use $x^2 + 16x=(x + 8)^2-64$, so the expression is $(x + 8)^2 - 3$.",
+    "complexity_factor": 1.1,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "expression"
+    ],
+    "checksum": "sha256-06cb174d2200b548028e59e8767007952386a5c1ff09f81fd31d5be45deb7022",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.easy.0014",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "What number completes the square in $x^2 + 16x+Box$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$64$"
+      },
+      {
+        "id": "b",
+        "latex": "$65$"
+      },
+      {
+        "id": "c",
+        "latex": "$16$"
+      },
+      {
+        "id": "d",
+        "latex": "$63$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "64",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Half of $16$ is $8$, and $8^2=64$.",
+    "complexity_factor": 1.05,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-11bcab11528bf494899a08c1ba632a28289f4a7c6593812c8c35872d9901b7c7",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.easy.0015",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "Write $x^2 - 18x + 79$ in the form $(x+h)^2+k$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 9)^2 + 79$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 9)^2 + 2$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 9)^2 - 2$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 9)^2 - 2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x-9)^2-2",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "x^2-18*x+79"
+    ],
+    "solution_latex": "Use $x^2 - 18x=(x - 9)^2-81$, so the expression is $(x - 9)^2 - 2$.",
+    "complexity_factor": 1.1,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "expression"
+    ],
+    "checksum": "sha256-2e5a0af286b559bdf35e95ae4b37f3245c09b60629698b02cd0226cdc8758034",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.easy.0016",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "What number completes the square in $x^2 + 18x+Box$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$82$"
+      },
+      {
+        "id": "b",
+        "latex": "$80$"
+      },
+      {
+        "id": "c",
+        "latex": "$81$"
+      },
+      {
+        "id": "d",
+        "latex": "$18$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "81",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Half of $18$ is $9$, and $9^2=81$.",
+    "complexity_factor": 1.05,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-d324a2225ddbf590f921331d6acdebc21b319f09f80a23c0ae8a4b78289a40a3",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.easy.0017",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "Write $x^2 + 20x + 99$ in the form $(x+h)^2+k$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 10)^2 + 1$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 10)^2 - 1$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 10)^2 + 99$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 10)^2 - 1$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(x+10)^2-1",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "x^2+20*x+99"
+    ],
+    "solution_latex": "Use $x^2 + 20x=(x + 10)^2-100$, so the expression is $(x + 10)^2 - 1$.",
+    "complexity_factor": 1.1,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "expression"
+    ],
+    "checksum": "sha256-1cccc3dfb5f35a17fe6d5d09c69b7b04f5d45dc4714c8e44b70ac3d1313a21ad",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.easy.0018",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "What number completes the square in $x^2 + 20x+Box$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$100$"
+      },
+      {
+        "id": "b",
+        "latex": "$20$"
+      },
+      {
+        "id": "c",
+        "latex": "$101$"
+      },
+      {
+        "id": "d",
+        "latex": "$99$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "100",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Half of $20$ is $10$, and $10^2=100$.",
+    "complexity_factor": 1.05,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-d9e2d50aeda5cedeec196baa9d6408868035612a3d51ea968225f12d1d0d5e3c",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.easy.0019",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "Write $x^2 - 22x + 121$ in the form $(x+h)^2+k$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 11)^2 + 121$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 11)^2 + 0$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 11)^2 + 0 + 1$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 11)^2 + 0$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x-11)^2+0",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "x^2-22*x+121"
+    ],
+    "solution_latex": "Use $x^2 - 22x=(x - 11)^2-121$, so the expression is $(x - 11)^2 + 0$.",
+    "complexity_factor": 1.1,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "expression"
+    ],
+    "checksum": "sha256-44f3012623fec25e0f12f59dc72abeab3d49bef2e2b6c524990d59af471c0842",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.easy.0020",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "What number completes the square in $x^2 + 22x+Box$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$121$"
+      },
+      {
+        "id": "b",
+        "latex": "$122$"
+      },
+      {
+        "id": "c",
+        "latex": "$120$"
+      },
+      {
+        "id": "d",
+        "latex": "$22$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "121",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Half of $22$ is $11$, and $11^2=121$.",
+    "complexity_factor": 1.05,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-dd95f4dfecd76156418e8ddd2ea2d6fe47f8b9557d432209d3c48ee7baa820b8",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.easy.0021",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "Write $x^2 + 24x + 145$ in the form $(x+h)^2+k$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 12)^2 + 145$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 12)^2 + 1$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 12)^2 - 1$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 12)^2 + 1$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(x+12)^2+1",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "x^2+24*x+145"
+    ],
+    "solution_latex": "Use $x^2 + 24x=(x + 12)^2-144$, so the expression is $(x + 12)^2 + 1$.",
+    "complexity_factor": 1.1,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "expression"
+    ],
+    "checksum": "sha256-596bbdce367b34ec21837f0c7a53f6306b69c12c11d44b5d4a3801f9a1da37c4",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.easy.0022",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "What number completes the square in $x^2 + 24x+Box$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$145$"
+      },
+      {
+        "id": "b",
+        "latex": "$24$"
+      },
+      {
+        "id": "c",
+        "latex": "$144$"
+      },
+      {
+        "id": "d",
+        "latex": "$143$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "144",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Half of $24$ is $12$, and $12^2=144$.",
+    "complexity_factor": 1.05,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-f6b791141caa7fda7b9e48695915b54f94b30e1b1fdc06883c6d4e14d531174c",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.easy.0023",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "Write $x^2 - 26x + 171$ in the form $(x+h)^2+k$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 13)^2 + 2$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 13)^2 - 2$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 13)^2 + 171$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 13)^2 + 2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x-13)^2+2",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "x^2-26*x+171"
+    ],
+    "solution_latex": "Use $x^2 - 26x=(x - 13)^2-169$, so the expression is $(x - 13)^2 + 2$.",
+    "complexity_factor": 1.1,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "expression"
+    ],
+    "checksum": "sha256-f393b494259199844aa3169ffe54d8a33d9301deb5b7281300d9e538bfebc350",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.easy.0024",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "What number completes the square in $x^2 + 26x+Box$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$169$"
+      },
+      {
+        "id": "b",
+        "latex": "$168$"
+      },
+      {
+        "id": "c",
+        "latex": "$170$"
+      },
+      {
+        "id": "d",
+        "latex": "$26$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "169",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Half of $26$ is $13$, and $13^2=169$.",
+    "complexity_factor": 1.05,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-d9434fdb860c08a113e8b6a8373a6efb4a55460dd34e78f698ed755871ac6df0",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.easy.0025",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "Write $x^2 + 28x + 199$ in the form $(x+h)^2+k$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 14)^2 + 199$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 14)^2 - 3$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 14)^2 + 3$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 14)^2 + 3$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x+14)^2+3",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "x^2+28*x+199"
+    ],
+    "solution_latex": "Use $x^2 + 28x=(x + 14)^2-196$, so the expression is $(x + 14)^2 + 3$.",
+    "complexity_factor": 1.1,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "expression"
+    ],
+    "checksum": "sha256-63df1e17e8a8ae89a58b86d17e932f9255b735cf35e494182c7bc72147d59f37",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.easy.0026",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "What number completes the square in $x^2 + 28x+Box$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$196$"
+      },
+      {
+        "id": "b",
+        "latex": "$197$"
+      },
+      {
+        "id": "c",
+        "latex": "$28$"
+      },
+      {
+        "id": "d",
+        "latex": "$195$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "196",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Half of $28$ is $14$, and $14^2=196$.",
+    "complexity_factor": 1.05,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-e9f39019a142f5bf90d3554f0f2d858dfbe54a0b9bdd0823590a61a784f4ce4f",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.easy.0027",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "Write $x^2 - 30x + 222$ in the form $(x+h)^2+k$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 15)^2 + 222$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 15)^2 + 3$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 15)^2 - 3$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 15)^2 - 3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x-15)^2-3",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "x^2-30*x+222"
+    ],
+    "solution_latex": "Use $x^2 - 30x=(x - 15)^2-225$, so the expression is $(x - 15)^2 - 3$.",
+    "complexity_factor": 1.1,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "expression"
+    ],
+    "checksum": "sha256-b41c38f1096d00ef7df323d36dc7f998ac47a02dd6310845626a2ae88ab5a919",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.easy.0028",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "What number completes the square in $x^2 + 30x+Box$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$226$"
+      },
+      {
+        "id": "b",
+        "latex": "$224$"
+      },
+      {
+        "id": "c",
+        "latex": "$225$"
+      },
+      {
+        "id": "d",
+        "latex": "$30$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "225",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Half of $30$ is $15$, and $15^2=225$.",
+    "complexity_factor": 1.05,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-ea66230971686fcb8d96055aa1af52f711bcf119788a91e24b3ae3eb12404972",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.easy.0029",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "Write $x^2 + 32x + 254$ in the form $(x+h)^2+k$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 16)^2 + 2$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 16)^2 - 2$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 16)^2 + 254$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 16)^2 - 2$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(x+16)^2-2",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "x^2+32*x+254"
+    ],
+    "solution_latex": "Use $x^2 + 32x=(x + 16)^2-256$, so the expression is $(x + 16)^2 - 2$.",
+    "complexity_factor": 1.1,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "expression"
+    ],
+    "checksum": "sha256-814bca69a2d7f44e87830bf9481f06e9747f7344c372a712f7e59666c536fb4d",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.easy.0030",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "What number completes the square in $x^2 + 32x+Box$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$256$"
+      },
+      {
+        "id": "b",
+        "latex": "$32$"
+      },
+      {
+        "id": "c",
+        "latex": "$257$"
+      },
+      {
+        "id": "d",
+        "latex": "$255$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "256",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Half of $32$ is $16$, and $16^2=256$.",
+    "complexity_factor": 1.05,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-134f8397d4061c165cadd1a1c6808d45e95a5e5f0d986d419ed6239ef9773f1f",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.easy.0031",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "Write $x^2 - 34x + 288$ in the form $(x+h)^2+k$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 17)^2 + 288$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 17)^2 - 1$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 17)^2 + 1$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 17)^2 - 1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x-17)^2-1",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "x^2-34*x+288"
+    ],
+    "solution_latex": "Use $x^2 - 34x=(x - 17)^2-289$, so the expression is $(x - 17)^2 - 1$.",
+    "complexity_factor": 1.1,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "expression"
+    ],
+    "checksum": "sha256-b0d9e2f43c959d4fdf80445897d6064216da652644605066780e98d22109161e",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.easy.0032",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "What number completes the square in $x^2 + 34x+Box$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$289$"
+      },
+      {
+        "id": "b",
+        "latex": "$290$"
+      },
+      {
+        "id": "c",
+        "latex": "$288$"
+      },
+      {
+        "id": "d",
+        "latex": "$34$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "289",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Half of $34$ is $17$, and $17^2=289$.",
+    "complexity_factor": 1.05,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-c5efb3ab705308e42b63f155889b9b1011d4f49f4948446017c6eebfaa567577",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.easy.0033",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "Write $x^2 + 36x + 324$ in the form $(x+h)^2+k$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 18)^2 + 324$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 18)^2 + 0$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 18)^2 + 0 + 1$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 18)^2 + 0$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(x+18)^2+0",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "x^2+36*x+324"
+    ],
+    "solution_latex": "Use $x^2 + 36x=(x + 18)^2-324$, so the expression is $(x + 18)^2 + 0$.",
+    "complexity_factor": 1.1,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "expression"
+    ],
+    "checksum": "sha256-1cce8f3473cf0d35ca7354866078717dc2d43808f7e624891160b1bd4f5ce514",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.easy.0034",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "What number completes the square in $x^2 + 36x+Box$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$325$"
+      },
+      {
+        "id": "b",
+        "latex": "$36$"
+      },
+      {
+        "id": "c",
+        "latex": "$324$"
+      },
+      {
+        "id": "d",
+        "latex": "$323$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "324",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Half of $36$ is $18$, and $18^2=324$.",
+    "complexity_factor": 1.05,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-ff3195b6de69d616f97c94ab8a2b62aa233cbb318929a6ebf9028b88d974fc6f",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.easy.0035",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "Write $x^2 - 38x + 362$ in the form $(x+h)^2+k$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 19)^2 + 1$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 19)^2 - 1$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 19)^2 + 362$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 19)^2 + 1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x-19)^2+1",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "x^2-38*x+362"
+    ],
+    "solution_latex": "Use $x^2 - 38x=(x - 19)^2-361$, so the expression is $(x - 19)^2 + 1$.",
+    "complexity_factor": 1.1,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "expression"
+    ],
+    "checksum": "sha256-27b2debe62034f76d6d57d01916da83237a9607b4a2ab8bab37e40fbd96e1a99",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.easy.0036",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "What number completes the square in $x^2 + 38x+Box$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$361$"
+      },
+      {
+        "id": "b",
+        "latex": "$360$"
+      },
+      {
+        "id": "c",
+        "latex": "$362$"
+      },
+      {
+        "id": "d",
+        "latex": "$38$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "361",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Half of $38$ is $19$, and $19^2=361$.",
+    "complexity_factor": 1.05,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-86ee7718af4339fd16c7f9714983f1dcc7887e7ad5f74468f649f4cc8fca4db7",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.easy.0037",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "Write $x^2 + 40x + 402$ in the form $(x+h)^2+k$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 20)^2 + 402$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 20)^2 - 2$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 20)^2 + 2$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 20)^2 + 2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x+20)^2+2",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "x^2+40*x+402"
+    ],
+    "solution_latex": "Use $x^2 + 40x=(x + 20)^2-400$, so the expression is $(x + 20)^2 + 2$.",
+    "complexity_factor": 1.1,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "expression"
+    ],
+    "checksum": "sha256-b6e23a167a11c2c5eb37c07a68ba56c78164c04e8eec2d3d464d3d77cda36a37",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.easy.0038",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "What number completes the square in $x^2 + 40x+Box$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$400$"
+      },
+      {
+        "id": "b",
+        "latex": "$401$"
+      },
+      {
+        "id": "c",
+        "latex": "$40$"
+      },
+      {
+        "id": "d",
+        "latex": "$399$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "400",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Half of $40$ is $20$, and $20^2=400$.",
+    "complexity_factor": 1.05,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-b4113497ef98d985f8c1c8640ec56732c9ee20aaf71099739937c5a6222c2cba",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.easy.0039",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "Write $x^2 - 42x + 444$ in the form $(x+h)^2+k$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 21)^2 + 444$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 21)^2 - 3$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 21)^2 + 3$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 21)^2 + 3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x-21)^2+3",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "x^2-42*x+444"
+    ],
+    "solution_latex": "Use $x^2 - 42x=(x - 21)^2-441$, so the expression is $(x - 21)^2 + 3$.",
+    "complexity_factor": 1.1,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "expression"
+    ],
+    "checksum": "sha256-fbdfe63ffe36184c8baacc668a5a23a6894d9e3f0687f1358cba1f0589db8f66",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.easy.0040",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "What number completes the square in $x^2 + 42x+Box$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$442$"
+      },
+      {
+        "id": "b",
+        "latex": "$440$"
+      },
+      {
+        "id": "c",
+        "latex": "$441$"
+      },
+      {
+        "id": "d",
+        "latex": "$42$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "441",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Half of $42$ is $21$, and $21^2=441$.",
+    "complexity_factor": 1.05,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-9edb21db4298f466d3505cfd0d26711933278a32629607783e4799255344a8fc",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.easy.0041",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "Write $x^2 + 44x + 481$ in the form $(x+h)^2+k$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 22)^2 + 3$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 22)^2 - 3$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 22)^2 + 481$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 22)^2 - 3$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(x+22)^2-3",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "x^2+44*x+481"
+    ],
+    "solution_latex": "Use $x^2 + 44x=(x + 22)^2-484$, so the expression is $(x + 22)^2 - 3$.",
+    "complexity_factor": 1.1,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "expression"
+    ],
+    "checksum": "sha256-f9470a094e5bcd5e99737490d1bc7b256404ba4ddf715e030743cbebac22e7f6",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.easy.0042",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "What number completes the square in $x^2 + 44x+Box$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$484$"
+      },
+      {
+        "id": "b",
+        "latex": "$44$"
+      },
+      {
+        "id": "c",
+        "latex": "$485$"
+      },
+      {
+        "id": "d",
+        "latex": "$483$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "484",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Half of $44$ is $22$, and $22^2=484$.",
+    "complexity_factor": 1.05,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-4ccb96915e436991e089d462f432ba5801cce5e25b182b4132e0807aebbbf747",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.easy.0043",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "Write $x^2 - 46x + 527$ in the form $(x+h)^2+k$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 23)^2 + 527$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 23)^2 - 2$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 23)^2 + 2$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 23)^2 - 2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x-23)^2-2",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "x^2-46*x+527"
+    ],
+    "solution_latex": "Use $x^2 - 46x=(x - 23)^2-529$, so the expression is $(x - 23)^2 - 2$.",
+    "complexity_factor": 1.1,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "expression"
+    ],
+    "checksum": "sha256-3ab0f29ac1f22be5e4c0b79be7ab18fc3a5599fba06d54d49fe9af4b7fb5953e",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.easy.0044",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "What number completes the square in $x^2 + 46x+Box$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$529$"
+      },
+      {
+        "id": "b",
+        "latex": "$530$"
+      },
+      {
+        "id": "c",
+        "latex": "$528$"
+      },
+      {
+        "id": "d",
+        "latex": "$46$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "529",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Half of $46$ is $23$, and $23^2=529$.",
+    "complexity_factor": 1.05,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-e6bc673a0853c526b6e69938f0c510f229b139aea14467a0508aef9f4ead3d11",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.easy.0045",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "Write $x^2 + 48x + 575$ in the form $(x+h)^2+k$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 24)^2 + 575$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 24)^2 - 1$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 24)^2 + 1$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 24)^2 - 1$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(x+24)^2-1",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "x^2+48*x+575"
+    ],
+    "solution_latex": "Use $x^2 + 48x=(x + 24)^2-576$, so the expression is $(x + 24)^2 - 1$.",
+    "complexity_factor": 1.1,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "expression"
+    ],
+    "checksum": "sha256-7fd3e34678e4197728b8fa6ea5cf249e4f27e98878cb5a9c85a3b25594fa8706",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.easy.0046",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "What number completes the square in $x^2 + 48x+Box$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$577$"
+      },
+      {
+        "id": "b",
+        "latex": "$48$"
+      },
+      {
+        "id": "c",
+        "latex": "$576$"
+      },
+      {
+        "id": "d",
+        "latex": "$575$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "576",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Half of $48$ is $24$, and $24^2=576$.",
+    "complexity_factor": 1.05,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-866262170b8a52f99840cecb3c00cebed476c2fdcbaaccbbb243c522eb55b260",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.easy.0047",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "Write $x^2 - 50x + 625$ in the form $(x+h)^2+k$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 25)^2 + 0$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 25)^2 + 0 + 1$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 25)^2 + 625$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 25)^2 + 0$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x-25)^2+0",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "x^2-50*x+625"
+    ],
+    "solution_latex": "Use $x^2 - 50x=(x - 25)^2-625$, so the expression is $(x - 25)^2 + 0$.",
+    "complexity_factor": 1.1,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "expression"
+    ],
+    "checksum": "sha256-e5ff55e7fb6976742fedc240334cdf4a477d403aad9f52c2a7ec0a3d19942361",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.easy.0048",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "What number completes the square in $x^2 + 50x+Box$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$625$"
+      },
+      {
+        "id": "b",
+        "latex": "$624$"
+      },
+      {
+        "id": "c",
+        "latex": "$626$"
+      },
+      {
+        "id": "d",
+        "latex": "$50$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "625",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Half of $50$ is $25$, and $25^2=625$.",
+    "complexity_factor": 1.05,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-1b5d5512d1152e4ee93755c2f7235e8b5d42be1ddaaad9efda43846cf9be2112",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.easy.0049",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "Write $x^2 + 52x + 677$ in the form $(x+h)^2+k$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 26)^2 + 677$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 26)^2 - 1$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 26)^2 + 1$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 26)^2 + 1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x+26)^2+1",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "x^2+52*x+677"
+    ],
+    "solution_latex": "Use $x^2 + 52x=(x + 26)^2-676$, so the expression is $(x + 26)^2 + 1$.",
+    "complexity_factor": 1.1,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square",
+      "expression"
+    ],
+    "checksum": "sha256-6902ec4f52cc3d276875ebbee419ff275f5ac2a35c8c114f3cf28af11729698e",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.completing_square.easy.0050",
+    "topic_id": "ch13.completing_square",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "What number completes the square in $x^2 + 52x+Box$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$676$"
+      },
+      {
+        "id": "b",
+        "latex": "$677$"
+      },
+      {
+        "id": "c",
+        "latex": "$52$"
+      },
+      {
+        "id": "d",
+        "latex": "$675$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "676",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Half of $52$ is $26$, and $26^2=676$.",
+    "complexity_factor": 1.05,
+    "source_section": "13.2",
+    "tags": [
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-e3e5eaae610b57d63564aa6d6ac10004b1097544d621bdce4f68dbaf1bf18d90",
+    "status": "valid"
+  }
+]

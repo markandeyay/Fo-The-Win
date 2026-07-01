@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "ch17.basics.medium.0001",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(-3,4)$ lies on $y=x^2+c$. What is $c$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-5$"
+      },
+      {
+        "id": "b",
+        "latex": "$13$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute the point: 4=-3^2+c$, so $c=-5$.",
+    "complexity_factor": 1.15,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-5c9ed77661202cc4789d6144da7af142857413253ef6e9769a3b4bc06500a6d7",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.medium.0002",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $f(x)=x^2-2x+1$, where does the graph cross the $y$-axis?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,-1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0,-2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0,1)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(0,1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $y$-axis has $x=0$, so $f(0)=1$ and the intercept is $(0,1)$.",
+    "complexity_factor": 1.1,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-af7e23d4a3928cbcc4b450b6b6495a3206d1756f2f108a874458828816becbf2",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.medium.0003",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "What is the vertex of the graph $y=(x+2)^2-3$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2,3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2,-3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2,-3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,3)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-2,-3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The vertex form $y=(x-h)^2+k$ has vertex $(h,k)$, which is $(-2,-3)$.",
+    "complexity_factor": 1.15,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-552ebccf45ac124ffbddfab79817c675557d4a052b1cf1a51a35bb6566556e60",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.medium.0004",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $y=(x-0)^2+1$, the point with $y=2$ and $x>0$ has what $x$-coordinate?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Solve $(x-0)^2=1=1$. Since $x>0$, $x=0+1=1$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-1415a72d57a6ccc46851eb7ff83bb37a309f14e7983b8acc55e891ed5a4d58fe",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.medium.0005",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The graph of $y=x^2-4$ meets the horizontal line $y=-3$ at two points. What is the positive $x$-coordinate?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$-3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $x^2-4=-3$, giving $x^2=1$. The positive solution is $x=1$.",
+    "complexity_factor": 1.15,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-0ec90da2dd0dc37f641c4d2dc971d72d41006dfc9e0522cda6bccca5993dcc4e",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.medium.0006",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(2,4)$ lies on $y=x^2+c$. What is $c$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute the point: 4=2^2+c$, so $c=0$.",
+    "complexity_factor": 1.15,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-f29aa5aafac06cf354fa54e7edb3618be0cdc686d5741fe4048cf7521315b908",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.medium.0007",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $f(x)=x^2-1x-2$, where does the graph cross the $y$-axis?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0,-2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,-1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1,-2)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(0,-2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $y$-axis has $x=0$, so $f(0)=-2$ and the intercept is $(0,-2)$.",
+    "complexity_factor": 1.1,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-0822a9027d908f7c8b77b51142bbe0ec2b7b583cfae387948cb83ddb2e111d3b",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.medium.0008",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "What is the vertex of the graph $y=(x-3)^2+2$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-3,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3,2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-3,-2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3,-2)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(3,2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The vertex form $y=(x-h)^2+k$ has vertex $(h,k)$, which is $(3,2)$.",
+    "complexity_factor": 1.15,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-d6b2640328a5307d7075e6a4ceff0226f318302a760ec2a42fa892ed374f6183",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.medium.0009",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $y=(x+4)^2-1$, the point with $y=3$ and $x>-4$ has what $x$-coordinate?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-6$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Solve $(x+4)^2=4=4$. Since $x>-4$, $x=-4+2=-2$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-12f2e147076f00423ec2a5eebf59c2bb17bfe019dd834cdb1a3fcc9c8acc1c32",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.medium.0010",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The graph of $y=x^2-3$ meets the horizontal line $y=1$ at two points. What is the positive $x$-coordinate?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $x^2-3=1$, giving $x^2=4$. The positive solution is $x=2$.",
+    "complexity_factor": 1.15,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-8986cb2b71af9bd590202645bb8b1e662f1ef7cad19489c42f019092b462b9fd",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.medium.0011",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(-2,9)$ lies on $y=x^2+c$. What is $c$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$11$"
+      },
+      {
+        "id": "c",
+        "latex": "$13$"
+      },
+      {
+        "id": "d",
+        "latex": "$-5$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute the point: 9=-2^2+c$, so $c=5$.",
+    "complexity_factor": 1.15,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-1922b0ac9addd496caf2d2590cb9a783fc93e09679b91bc351c818024e0d6f66",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.medium.0012",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $f(x)=x^2+2x+3$, where does the graph cross the $y$-axis?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1,6)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0,3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0,2)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(0,3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $y$-axis has $x=0$, so $f(0)=3$ and the intercept is $(0,3)$.",
+    "complexity_factor": 1.1,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-f385d1d628359b3fce10d0a6183b72ee299f99962ecb98836426c40dc38f5d49",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.medium.0013",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "What is the vertex of the graph $y=(x+3)^2-6$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-3,-6)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3,6)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3,6)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3,-6)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-3,-6)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The vertex form $y=(x-h)^2+k$ has vertex $(h,k)$, which is $(-3,-6)$.",
+    "complexity_factor": 1.15,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-3db9cc9a611f523aa39c1676839533dc15989c20be493ac867174a918c897c30",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.medium.0014",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $y=(x-1)^2-3$, the point with $y=6$ and $x>1$ has what $x$-coordinate?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Solve $(x-1)^2=9=9$. Since $x>1$, $x=1+3=4$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-c9ceb54f37f66691766fb97e58e02e94b7b5097d76da317bbdc11078b3022c0d",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.medium.0015",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The graph of $y=x^2-2$ meets the horizontal line $y=7$ at two points. What is the positive $x$-coordinate?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $x^2-2=7$, giving $x^2=9$. The positive solution is $x=3$.",
+    "complexity_factor": 1.15,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-7dd537e1f90b8b63f68a9f066557adc297c938387f12ae9f58c0d9445fec0ec0",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.medium.0016",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(3,6)$ lies on $y=x^2+c$. What is $c$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$15$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute the point: 6=3^2+c$, so $c=-3$.",
+    "complexity_factor": 1.15,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-42871f0fe2e5e79d398f3d5a8e16f8bfee45dc712871e59a47111667ab205fb7",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.medium.0017",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $f(x)=x^2+1x-4$, where does the graph cross the $y$-axis?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0,-4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1,-2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0,1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-4,0)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(0,-4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $y$-axis has $x=0$, so $f(0)=-4$ and the intercept is $(0,-4)$.",
+    "complexity_factor": 1.1,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-b1e4e314a0841e3a4cd4c9812fd89ca68fefd335b74fb7f5f595b48750940ad6",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.medium.0018",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "What is the vertex of the graph $y=(x-2)^2-1$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2,-1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2,1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2,1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,-1)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(2,-1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The vertex form $y=(x-h)^2+k$ has vertex $(h,k)$, which is $(2,-1)$.",
+    "complexity_factor": 1.15,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-ee671414ace4d71dca8bbbbb936d8a4fa6b0e0d003e84f6eddcc3d1b5c7fa809",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.medium.0019",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $y=(x+3)^2+2$, the point with $y=18$ and $x>-3$ has what $x$-coordinate?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-7$"
+      },
+      {
+        "id": "d",
+        "latex": "$18$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Solve $(x+3)^2=16=16$. Since $x>-3$, $x=-3+4=1$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-615cdd9dfb566a35d72067d2622dc481f7db4e23c170ae10aff194d1b264ab35",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.medium.0020",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The graph of $y=x^2-1$ meets the horizontal line $y=15$ at two points. What is the positive $x$-coordinate?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$15$"
+      },
+      {
+        "id": "d",
+        "latex": "$16$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $x^2-1=15$, giving $x^2=16$. The positive solution is $x=4$.",
+    "complexity_factor": 1.15,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-d52036e0c44a1a1e7d20e7f73373fed5b1ccc37ef2eae6229fb79f1ed5cf4d95",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.medium.0021",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(-1,3)$ lies on $y=x^2+c$. What is $c$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute the point: 3=-1^2+c$, so $c=2$.",
+    "complexity_factor": 1.15,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-8e8aab4de4d3e80983b45fd3de27a572e739d53d881de695d225f7367a0d51a6",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.medium.0022",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $f(x)=x^2+2x+5$, where does the graph cross the $y$-axis?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1,8)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(5,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0,5)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(0,5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $y$-axis has $x=0$, so $f(0)=5$ and the intercept is $(0,5)$.",
+    "complexity_factor": 1.1,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-c213e88a6a6bc18b1fa35c61e20804705e03a9e5a1700a994b00cc281d70df37",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.medium.0023",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "What is the vertex of the graph $y=(x+4)^2+4$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-4,4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4,4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-4,-4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4,-4)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-4,4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The vertex form $y=(x-h)^2+k$ has vertex $(h,k)$, which is $(-4,4)$.",
+    "complexity_factor": 1.15,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-950e6fcc6f18131bf3a39c1b40d75853ebe5a6fb08b798ff0ecf2667f252252b",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.medium.0024",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $y=(x-2)^2+0$, the point with $y=1$ and $x>2$ has what $x$-coordinate?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Solve $(x-2)^2=1=1$. Since $x>2$, $x=2+1=3$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-d79735aab4e3fbd47f1ab55622f3b254cd0b3935288a26c28812b64e9641f363",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.medium.0025",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The graph of $y=x^2+0$ meets the horizontal line $y=25$ at two points. What is the positive $x$-coordinate?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$25$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$-5$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $x^2+0=25$, giving $x^2=25$. The positive solution is $x=5$.",
+    "complexity_factor": 1.15,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-4ab384033549cfd1b097b5ef160b5dbf829ef1b011540df519458aa1c689de5e",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.medium.0026",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(4,10)$ lies on $y=x^2+c$. What is $c$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$-5$"
+      },
+      {
+        "id": "c",
+        "latex": "$26$"
+      },
+      {
+        "id": "d",
+        "latex": "$-6$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute the point: 10=4^2+c$, so $c=-6$.",
+    "complexity_factor": 1.15,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-9efb364e239128fe94bbbb98dfd90fed2e8ceb6fc2b7083318abc75957643d61",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.medium.0027",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $f(x)=x^2+3x-6$, where does the graph cross the $y$-axis?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0,3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-6,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0,-6)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1,-2)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(0,-6)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $y$-axis has $x=0$, so $f(0)=-6$ and the intercept is $(0,-6)$.",
+    "complexity_factor": 1.1,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-83b254a73f767a4d8c2c7e53db76f6c643abfdeca4e8f7af6b687ebf9d357a67",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.medium.0028",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "What is the vertex of the graph $y=(x-1)^2-4$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1,-4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,-4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1,4)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(1,-4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The vertex form $y=(x-h)^2+k$ has vertex $(h,k)$, which is $(1,-4)$.",
+    "complexity_factor": 1.15,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-99835aed360969a08b634083e168300cc7ca1ea11168749b77f221253d523eec",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.medium.0029",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $y=(x+2)^2-2$, the point with $y=2$ and $x>-2$ has what $x$-coordinate?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Solve $(x+2)^2=4=4$. Since $x>-2$, $x=-2+2=0$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-3cb50c24d9509a36fa62338211c1b1ae7ce5f5a28abadd1a66889bf414aa9cba",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.medium.0030",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The graph of $y=x^2+1$ meets the horizontal line $y=2$ at two points. What is the positive $x$-coordinate?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $x^2+1=2$, giving $x^2=1$. The positive solution is $x=1$.",
+    "complexity_factor": 1.15,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-a4679dc5c16ee8d2ab301585264f383f44670ba5290c369c796b1603ea080d58",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.medium.0031",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(2,3)$ lies on $y=x^2+c$. What is $c$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute the point: 3=2^2+c$, so $c=-1$.",
+    "complexity_factor": 1.15,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-44a76a69e4abe0afc2e887dcc43f5720491b347798ed77e0d032f26ba270db23",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.medium.0032",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $f(x)=x^2-3x+7$, where does the graph cross the $y$-axis?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(7,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,7)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1,5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0,-3)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(0,7)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $y$-axis has $x=0$, so $f(0)=7$ and the intercept is $(0,7)$.",
+    "complexity_factor": 1.1,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-05460ea9d785038f591a839b0efea437dbc43daefc9633bcdf4b1db794c5fbd5",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.medium.0033",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "What is the vertex of the graph $y=(x+5)^2+1$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-5,-1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(5,-1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-5,1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(5,1)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-5,1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The vertex form $y=(x-h)^2+k$ has vertex $(h,k)$, which is $(-5,1)$.",
+    "complexity_factor": 1.15,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-891a197de0d54fd04ccccb47ec86f69b82c65d1f7777988508f4ef4008dd5738",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.medium.0034",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $y=(x-3)^2+3$, the point with $y=12$ and $x>3$ has what $x$-coordinate?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$12$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Solve $(x-3)^2=9=9$. Since $x>3$, $x=3+3=6$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-aabafac880694639516a000fa4d266762681864984eebe1c74b6b22c9b6fc24a",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.medium.0035",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The graph of $y=x^2+2$ meets the horizontal line $y=6$ at two points. What is the positive $x$-coordinate?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $x^2+2=6$, giving $x^2=4$. The positive solution is $x=2$.",
+    "complexity_factor": 1.15,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-8f2b722dd3c85064778a78598c380a2dae2c75f5a7a298ad6eeb74ebac7d4093",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.medium.0036",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(-4,20)$ lies on $y=x^2+c$. What is $c$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$24$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$36$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute the point: 20=-4^2+c$, so $c=4$.",
+    "complexity_factor": 1.15,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-986ba2ac3d9dc630b92f189dd6857da3ce561e21b15866a89b16510567c6e8b7",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.medium.0037",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $f(x)=x^2-2x-8$, where does the graph cross the $y$-axis?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0,-8)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,-2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1,-9)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-8,0)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(0,-8)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $y$-axis has $x=0$, so $f(0)=-8$ and the intercept is $(0,-8)$.",
+    "complexity_factor": 1.1,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-e637dd505980159d85a22b565e1492e1619a887f456f76ef3902e46c3966e0af",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.medium.0038",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "What is the vertex of the graph $y=(x-0)^2+6$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0,-6)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1,5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(6,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0,6)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(0,6)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The vertex form $y=(x-h)^2+k$ has vertex $(h,k)$, which is $(0,6)$.",
+    "complexity_factor": 1.15,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-b2db331f7834b9bd2f8e60dc9471ac62298b11fc90d813d1b7dfd25f31756243",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.medium.0039",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $y=(x+1)^2+1$, the point with $y=17$ and $x>-1$ has what $x$-coordinate?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-5$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$17$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Solve $(x+1)^2=16=16$. Since $x>-1$, $x=-1+4=3$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-4dd63fa7e48071f71c3b81db98733be418f7d2657bb04869af4bd6952b79b745",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.medium.0040",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The graph of $y=x^2+3$ meets the horizontal line $y=12$ at two points. What is the positive $x$-coordinate?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$-3$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $x^2+3=12$, giving $x^2=9$. The positive solution is $x=3$.",
+    "complexity_factor": 1.15,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-79de8867adbefdb5b9907b78a5eda0bfe10e5a20b9c67dad933dfea1fdda1618",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.medium.0041",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(1,-3)$ lies on $y=x^2+c$. What is $c$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute the point: -3=1^2+c$, so $c=-4$.",
+    "complexity_factor": 1.15,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-0c1c31a3f98692d581281e9acf34749f525073b9525e8cad1c5f1fd2c26c6721",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.medium.0042",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $f(x)=x^2-1x+9$, where does the graph cross the $y$-axis?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(9,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,-1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1,9)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0,9)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(0,9)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $y$-axis has $x=0$, so $f(0)=9$ and the intercept is $(0,9)$.",
+    "complexity_factor": 1.1,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-0335d92b7da81dfa762e462ac08c9b8bcec00c03863613f4b477d5ece1f91218",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.medium.0043",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "What is the vertex of the graph $y=(x-5)^2-2$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(5,-2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(5,2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-5,-2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-5,2)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(5,-2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The vertex form $y=(x-h)^2+k$ has vertex $(h,k)$, which is $(5,-2)$.",
+    "complexity_factor": 1.15,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-1026b596592a091345d8577e18c89094882e42a00d89efda090d2e776be6f172",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.medium.0044",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $y=(x-4)^2-1$, the point with $y=0$ and $x>4$ has what $x$-coordinate?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Solve $(x-4)^2=1=1$. Since $x>4$, $x=4+1=5$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-03fd5464d4c4e965bb4716bf1219a0cc3ac73371fb397387392160a17fdda176",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.medium.0045",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The graph of $y=x^2+4$ meets the horizontal line $y=20$ at two points. What is the positive $x$-coordinate?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$20$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $x^2+4=20$, giving $x^2=16$. The positive solution is $x=4$.",
+    "complexity_factor": 1.15,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-a10f9e0d7098515ccac4ecae6fa22e2d03c0591cb8db3058d1817ca46ec9ae8d",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.medium.0046",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(-3,10)$ lies on $y=x^2+c$. What is $c$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$19$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$13$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute the point: 10=-3^2+c$, so $c=1$.",
+    "complexity_factor": 1.15,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-1ec15b4bdd45d6b2b6b4ea30b6303134771fefcb91656786c489c820d00d3ec6",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.medium.0047",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $f(x)=x^2+2x-10$, where does the graph cross the $y$-axis?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0,-10)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-10,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1,-7)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(0,-10)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $y$-axis has $x=0$, so $f(0)=-10$ and the intercept is $(0,-10)$.",
+    "complexity_factor": 1.1,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-7af6149bb5f922b0061efa1c4ee4c5c598f561154ea8cc7a5e143d54e4301fb7",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.medium.0048",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "What is the vertex of the graph $y=(x+1)^2+3$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1,3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1,-3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,-3)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-1,3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The vertex form $y=(x-h)^2+k$ has vertex $(h,k)$, which is $(-1,3)$.",
+    "complexity_factor": 1.15,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-77f4e14dce6a506d35d9c74ec702765efef763d8ac5bcd66bb78e99dc6b01eb1",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.medium.0049",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $y=(x-0)^2-3$, the point with $y=1$ and $x>0$ has what $x$-coordinate?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Solve $(x-0)^2=4=4$. Since $x>0$, $x=0+2=2$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-3b4e0a56e4a0cc4f7b5f31d93af285c3f2bdba3012cfbb0b010d6fded440ae1e",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.medium.0050",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The graph of $y=x^2+5$ meets the horizontal line $y=30$ at two points. What is the positive $x$-coordinate?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-5$"
+      },
+      {
+        "id": "b",
+        "latex": "$30$"
+      },
+      {
+        "id": "c",
+        "latex": "$25$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $x^2+5=30$, giving $x^2=25$. The positive solution is $x=5$.",
+    "complexity_factor": 1.15,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-66846ba76b5ab0866bc9e3b67943ce33ea70607348dd2106909b0098da051695",
+    "status": "valid"
+  }
+]

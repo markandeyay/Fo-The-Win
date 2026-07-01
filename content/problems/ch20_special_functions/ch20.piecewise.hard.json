@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "ch20.piecewise.hard.0001",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=\\begin{cases}2x - 5,&x<-2\\\\x - 4,&x\\ge -2\\end{cases}$. Find $f(f(-3))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-26$"
+      },
+      {
+        "id": "b",
+        "latex": "$-7$"
+      },
+      {
+        "id": "c",
+        "latex": "$-27$"
+      },
+      {
+        "id": "d",
+        "latex": "$-11$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-27",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $f(-3)=-11$. Then choose the branch containing $-11$ to get $f(f(-3))=-27$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-7a81498714fa70e23e997cd7580c048aba5f2eb29cc461d9f2e7afd3bf4260fa",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.hard.0002",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many real solutions does $f(x)=12$ have if $f(x)=\\begin{cases}3(x + 1)^2,&x<-1\\\\x + 13,&x\\ge -1\\end{cases}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The quadratic branch reaches $12$ on the left only when its solution is less than $-1$; the linear branch gives one solution on the right. Counting valid branch solutions gives $2$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "equations",
+      "casework"
+    ],
+    "checksum": "sha256-f0864168bc31860d2ad78d7860fab9079d83b6ec369ca1ba40c37f34e8fb77bd",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.hard.0003",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=\\begin{cases}3x + 3,&x<0\\\\5x + 6,&x\\ge 0\\end{cases}$. Find $f(f(-3))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-15$"
+      },
+      {
+        "id": "b",
+        "latex": "$-6$"
+      },
+      {
+        "id": "c",
+        "latex": "$-14$"
+      },
+      {
+        "id": "d",
+        "latex": "$-9$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-15",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $f(-3)=-6$. Then choose the branch containing $-6$ to get $f(f(-3))=-15$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-1288ba963753480c58111b889fe199b2f411df69245d067014faa3672bf346f6",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.hard.0004",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many real solutions does $f(x)=17$ have if $f(x)=\\begin{cases}3(x - 2)^2,&x<2\\\\x + 15,&x\\ge 2\\end{cases}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The quadratic branch reaches $17$ on the left only when its solution is less than $2$; the linear branch gives one solution on the right. Counting valid branch solutions gives $1$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "equations",
+      "casework"
+    ],
+    "checksum": "sha256-480ec47bc870d13b19a6f466f0f7baa183c62e4cbe62d070edb774feaaf6fb43",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.hard.0005",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=\\begin{cases}4x - 8,&x<2\\\\6x - 11,&x\\ge 2\\end{cases}$. Find $f(f(-1))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-55$"
+      },
+      {
+        "id": "b",
+        "latex": "$-17$"
+      },
+      {
+        "id": "c",
+        "latex": "$-56$"
+      },
+      {
+        "id": "d",
+        "latex": "$-12$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-56",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $f(-1)=-12$. Then choose the branch containing $-12$ to get $f(f(-1))=-56$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-cd5e5cf2424a927e739b465c664fdb5f4ba7c594ab0f68cc9455a353fa91a5fc",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.hard.0006",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many real solutions does $f(x)=7$ have if $f(x)=\\begin{cases}5(x + 4)^2,&x<-4\\\\x + 11,&x\\ge -4\\end{cases}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The quadratic branch reaches $7$ on the left only when its solution is less than $-4$; the linear branch gives one solution on the right. Counting valid branch solutions gives $1$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "equations",
+      "casework"
+    ],
+    "checksum": "sha256-e226716dc1e0fec44bf3a86e22b4646323b952df5ee86f31bf9a8d964d327b28",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.hard.0007",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=\\begin{cases}5x + 6,&x<-2\\\\10x + 13,&x\\ge -2\\end{cases}$. Find $f(f(-5))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-89$"
+      },
+      {
+        "id": "b",
+        "latex": "$-19$"
+      },
+      {
+        "id": "c",
+        "latex": "$-88$"
+      },
+      {
+        "id": "d",
+        "latex": "$-37$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-89",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $f(-5)=-19$. Then choose the branch containing $-19$ to get $f(f(-5))=-89$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-82dc6ff9f27569fb6926eb7efcbb69e89e91fc24bb25feb255faeceb2a668693",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.hard.0008",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many real solutions does $f(x)=10$ have if $f(x)=\\begin{cases}7(x - 1)^2,&x<1\\\\x + 9,&x\\ge 1\\end{cases}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The quadratic branch reaches $10$ on the left only when its solution is less than $1$; the linear branch gives one solution on the right. Counting valid branch solutions gives $1$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "equations",
+      "casework"
+    ],
+    "checksum": "sha256-78b8321c2d88c3f07d9f1c7f0587c5f62fb0ded70e9b875b9aa46fc56ae9df45",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.hard.0009",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=\\begin{cases}6x - 11,&x<2\\\\11x - 18,&x\\ge 2\\end{cases}$. Find $f(f(-3))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-184$"
+      },
+      {
+        "id": "b",
+        "latex": "$-51$"
+      },
+      {
+        "id": "c",
+        "latex": "$-185$"
+      },
+      {
+        "id": "d",
+        "latex": "$-29$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-185",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $f(-3)=-29$. Then choose the branch containing $-29$ to get $f(f(-3))=-185$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-a339705d8b3507646c901f75cf0646fcd5b074eb40bdc9d3eaf97aa97836501f",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.hard.0010",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many real solutions does $f(x)=14$ have if $f(x)=\\begin{cases}7(x - 5)^2,&x<5\\\\x + 9,&x\\ge 5\\end{cases}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The quadratic branch reaches $14$ on the left only when its solution is less than $5$; the linear branch gives one solution on the right. Counting valid branch solutions gives $1$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "equations",
+      "casework"
+    ],
+    "checksum": "sha256-6dd5323e6a6ddb95abb7837c4b28b004c5bdc7fb511a5f660a6a2e17d431c98f",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.hard.0011",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=\\begin{cases}7x + 9,&x<-4\\\\15x + 20,&x\\ge -4\\end{cases}$. Find $f(f(-9))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-369$"
+      },
+      {
+        "id": "b",
+        "latex": "$-54$"
+      },
+      {
+        "id": "c",
+        "latex": "$-368$"
+      },
+      {
+        "id": "d",
+        "latex": "$-115$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-369",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $f(-9)=-54$. Then choose the branch containing $-54$ to get $f(f(-9))=-369$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-870c369b896e1030069a2a07f2d9f1711c504cd5ea25c22a2f4a362b26036f64",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.hard.0012",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many real solutions does $f(x)=18$ have if $f(x)=\\begin{cases}9(x + 3)^2,&x<-3\\\\x + 21,&x\\ge -3\\end{cases}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The quadratic branch reaches $18$ on the left only when its solution is less than $-3$; the linear branch gives one solution on the right. Counting valid branch solutions gives $1$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "equations",
+      "casework"
+    ],
+    "checksum": "sha256-bbbe9588086cbc57963077bb2aedf5dd6d1dfbb7cf855d1e3bd39c9127685b98",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.hard.0013",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=\\begin{cases}8x - 14,&x<2\\\\16x - 25,&x\\ge 2\\end{cases}$. Find $f(f(-3))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-317$"
+      },
+      {
+        "id": "b",
+        "latex": "$-73$"
+      },
+      {
+        "id": "c",
+        "latex": "$-318$"
+      },
+      {
+        "id": "d",
+        "latex": "$-38$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-318",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $f(-3)=-38$. Then choose the branch containing $-38$ to get $f(f(-3))=-318$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-c91375fe68532d55d331525907e1eab32366992dd7371b199d2abe4ea043b662",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.hard.0014",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many real solutions does $f(x)=23$ have if $f(x)=\\begin{cases}11(x - 4)^2,&x<4\\\\x + 19,&x\\ge 4\\end{cases}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The quadratic branch reaches $23$ on the left only when its solution is less than $4$; the linear branch gives one solution on the right. Counting valid branch solutions gives $1$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "equations",
+      "casework"
+    ],
+    "checksum": "sha256-37b2d82aeba8de12a09c49a4d52691f022f4791f0a822b29239b454bf4bd9f63",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.hard.0015",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=\\begin{cases}9x + 12,&x<4\\\\20x + 27,&x\\ge 4\\end{cases}$. Find $f(f(-3))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-123$"
+      },
+      {
+        "id": "b",
+        "latex": "$-15$"
+      },
+      {
+        "id": "c",
+        "latex": "$-122$"
+      },
+      {
+        "id": "d",
+        "latex": "$-33$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-123",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $f(-3)=-15$. Then choose the branch containing $-15$ to get $f(f(-3))=-123$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-035b7bcc466d498d58467d6c2973f2af3e2ed8effbb6fc0ca82e65f0a74ea8bb",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.hard.0016",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many real solutions does $f(x)=13$ have if $f(x)=\\begin{cases}11(x + 6)^2,&x<-6\\\\x + 19,&x\\ge -6\\end{cases}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The quadratic branch reaches $13$ on the left only when its solution is less than $-6$; the linear branch gives one solution on the right. Counting valid branch solutions gives $1$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "equations",
+      "casework"
+    ],
+    "checksum": "sha256-2a23659bfed9c59944a701b0d3b3ab9985203136f610a6526040aa5ebeea5f66",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.hard.0017",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=\\begin{cases}10x - 17,&x<-4\\\\21x - 32,&x\\ge -4\\end{cases}$. Find $f(f(-11))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1286$"
+      },
+      {
+        "id": "b",
+        "latex": "$-263$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1287$"
+      },
+      {
+        "id": "d",
+        "latex": "$-127$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-1287",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $f(-11)=-127$. Then choose the branch containing $-127$ to get $f(f(-11))=-1287$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-9292d9a8df25552af8671bba04427af61d76130699447c88f52f5beaad53d17e",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.hard.0018",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many real solutions does $f(x)=16$ have if $f(x)=\\begin{cases}13(x - 3)^2,&x<3\\\\x + 13,&x\\ge 3\\end{cases}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The quadratic branch reaches $16$ on the left only when its solution is less than $3$; the linear branch gives one solution on the right. Counting valid branch solutions gives $1$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "equations",
+      "casework"
+    ],
+    "checksum": "sha256-4181881ce6ec56ba2376d5b58e191c339a8a7faeb88cd2c21f6062a7036c362d",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.hard.0019",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=\\begin{cases}11x + 15,&x<4\\\\25x + 34,&x\\ge 4\\end{cases}$. Find $f(f(-3))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-183$"
+      },
+      {
+        "id": "b",
+        "latex": "$-18$"
+      },
+      {
+        "id": "c",
+        "latex": "$-182$"
+      },
+      {
+        "id": "d",
+        "latex": "$-41$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-183",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $f(-3)=-18$. Then choose the branch containing $-18$ to get $f(f(-3))=-183$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-d6c74c3e0661f51649be830d61f1885f375822929526f655bb5618e437b88fce",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.hard.0020",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many real solutions does $f(x)=20$ have if $f(x)=\\begin{cases}15(x - 7)^2,&x<7\\\\x + 13,&x\\ge 7\\end{cases}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The quadratic branch reaches $20$ on the left only when its solution is less than $7$; the linear branch gives one solution on the right. Counting valid branch solutions gives $1$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "equations",
+      "casework"
+    ],
+    "checksum": "sha256-095044a03709bfcd24b8c4b33ab227d042badf057c06e57600bd5d3fc55d8a6a",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.hard.0021",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=\\begin{cases}12x - 20,&x<-6\\\\26x - 39,&x\\ge -6\\end{cases}$. Find $f(f(-15))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2419$"
+      },
+      {
+        "id": "b",
+        "latex": "$-429$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2420$"
+      },
+      {
+        "id": "d",
+        "latex": "$-200$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-2420",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $f(-15)=-200$. Then choose the branch containing $-200$ to get $f(f(-15))=-2420$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-756923ccd7971ce6cc838500f8a34cb5f34e9a92ca7da37cd3881634020d2f02",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.hard.0022",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many real solutions does $f(x)=24$ have if $f(x)=\\begin{cases}15(x + 5)^2,&x<-5\\\\x + 29,&x\\ge -5\\end{cases}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The quadratic branch reaches $24$ on the left only when its solution is less than $-5$; the linear branch gives one solution on the right. Counting valid branch solutions gives $1$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "equations",
+      "casework"
+    ],
+    "checksum": "sha256-bb64ef3b9b1a4dc9236b96e5e574dc13d74bf0eb503d1e52c7f388a2cb97dbc9",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.hard.0023",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=\\begin{cases}13x + 18,&x<4\\\\30x + 41,&x\\ge 4\\end{cases}$. Find $f(f(-5))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-593$"
+      },
+      {
+        "id": "b",
+        "latex": "$-47$"
+      },
+      {
+        "id": "c",
+        "latex": "$-592$"
+      },
+      {
+        "id": "d",
+        "latex": "$-109$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-593",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $f(-5)=-47$. Then choose the branch containing $-47$ to get $f(f(-5))=-593$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-cb37659091eb6d73de6be3de881d72816cc12531c5a704b743fe6c20ee78bef5",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.hard.0024",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many real solutions does $f(x)=29$ have if $f(x)=\\begin{cases}17(x - 6)^2,&x<6\\\\x + 23,&x\\ge 6\\end{cases}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The quadratic branch reaches $29$ on the left only when its solution is less than $6$; the linear branch gives one solution on the right. Counting valid branch solutions gives $1$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "equations",
+      "casework"
+    ],
+    "checksum": "sha256-a754ef78c45f954ab74e7f3ce029834aee842d4a27402648c4b037b08472203e",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.hard.0025",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=\\begin{cases}14x - 23,&x<6\\\\31x - 46,&x\\ge 6\\end{cases}$. Find $f(f(-3))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-932$"
+      },
+      {
+        "id": "b",
+        "latex": "$-139$"
+      },
+      {
+        "id": "c",
+        "latex": "$-933$"
+      },
+      {
+        "id": "d",
+        "latex": "$-65$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-933",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $f(-3)=-65$. Then choose the branch containing $-65$ to get $f(f(-3))=-933$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-c55f9047f15b9feee8c9e73540b2ede690b3c324a15d8304140f25d82f85f725",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.hard.0026",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many real solutions does $f(x)=19$ have if $f(x)=\\begin{cases}19(x + 8)^2,&x<-8\\\\x + 27,&x\\ge -8\\end{cases}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The quadratic branch reaches $19$ on the left only when its solution is less than $-8$; the linear branch gives one solution on the right. Counting valid branch solutions gives $2$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "equations",
+      "casework"
+    ],
+    "checksum": "sha256-60d32f35c8ef66a10283449a140cf18cd78294de49f491f4011140c532397a26",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.hard.0027",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=\\begin{cases}15x + 21,&x<-6\\\\35x + 48,&x\\ge -6\\end{cases}$. Find $f(f(-17))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3489$"
+      },
+      {
+        "id": "b",
+        "latex": "$-234$"
+      },
+      {
+        "id": "c",
+        "latex": "$-3488$"
+      },
+      {
+        "id": "d",
+        "latex": "$-547$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-3489",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $f(-17)=-234$. Then choose the branch containing $-234$ to get $f(f(-17))=-3489$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-cbeaf40fcc9662552f6c1cbece5b00ebd613389c5a6aa1b5c03e883167827368",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.hard.0028",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many real solutions does $f(x)=22$ have if $f(x)=\\begin{cases}19(x - 5)^2,&x<5\\\\x + 17,&x\\ge 5\\end{cases}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The quadratic branch reaches $22$ on the left only when its solution is less than $5$; the linear branch gives one solution on the right. Counting valid branch solutions gives $1$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "equations",
+      "casework"
+    ],
+    "checksum": "sha256-0a0515c0a0f7d8c8db4ade84adcbbf640661fa2d6e0cafbbdcc48a5942f66531",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.hard.0029",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=\\begin{cases}16x - 26,&x<6\\\\36x - 53,&x\\ge 6\\end{cases}$. Find $f(f(-5))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1721$"
+      },
+      {
+        "id": "b",
+        "latex": "$-233$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1722$"
+      },
+      {
+        "id": "d",
+        "latex": "$-106$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-1722",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $f(-5)=-106$. Then choose the branch containing $-106$ to get $f(f(-5))=-1722$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-3e8c5b71bf87a08a363b08973fe47c29195b51baaf0703243913901148900f87",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.hard.0030",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many real solutions does $f(x)=26$ have if $f(x)=\\begin{cases}21(x - 9)^2,&x<9\\\\x + 17,&x\\ge 9\\end{cases}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The quadratic branch reaches $26$ on the left only when its solution is less than $9$; the linear branch gives one solution on the right. Counting valid branch solutions gives $1$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "equations",
+      "casework"
+    ],
+    "checksum": "sha256-e120386d6925077a80282c54d9ba2250c121584967f37ca9c2ef6a192fd9ea00",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.hard.0031",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=\\begin{cases}17x + 24,&x<-8\\\\40x + 55,&x\\ge -8\\end{cases}$. Find $f(f(-19))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-5059$"
+      },
+      {
+        "id": "b",
+        "latex": "$-299$"
+      },
+      {
+        "id": "c",
+        "latex": "$-5058$"
+      },
+      {
+        "id": "d",
+        "latex": "$-705$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-5059",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $f(-19)=-299$. Then choose the branch containing $-299$ to get $f(f(-19))=-5059$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-7aab17a47d75a24b3f903193702d950b07b9ef1a7152b3585aa0ded7601e51de",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.hard.0032",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many real solutions does $f(x)=30$ have if $f(x)=\\begin{cases}23(x + 7)^2,&x<-7\\\\x + 37,&x\\ge -7\\end{cases}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The quadratic branch reaches $30$ on the left only when its solution is less than $-7$; the linear branch gives one solution on the right. Counting valid branch solutions gives $1$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "equations",
+      "casework"
+    ],
+    "checksum": "sha256-b96fc51fa7a0d147886b3f9b7c89bccecf599874608024db1e0030411f2aa385",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.hard.0033",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=\\begin{cases}18x - 29,&x<6\\\\41x - 60,&x\\ge 6\\end{cases}$. Find $f(f(-7))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2818$"
+      },
+      {
+        "id": "b",
+        "latex": "$-347$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2819$"
+      },
+      {
+        "id": "d",
+        "latex": "$-155$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-2819",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $f(-7)=-155$. Then choose the branch containing $-155$ to get $f(f(-7))=-2819$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-4ba0c168246c53eef4abd8fe92662e29c210f405e4a4475739df68f507a0f377",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.hard.0034",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many real solutions does $f(x)=35$ have if $f(x)=\\begin{cases}23(x - 8)^2,&x<8\\\\x + 27,&x\\ge 8\\end{cases}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The quadratic branch reaches $35$ on the left only when its solution is less than $8$; the linear branch gives one solution on the right. Counting valid branch solutions gives $1$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "equations",
+      "casework"
+    ],
+    "checksum": "sha256-b671c39562d949070bd60136e980c154ccc98792749f3da1cdc8273c3bce4c19",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.hard.0035",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=\\begin{cases}19x + 27,&x<8\\\\45x + 62,&x\\ge 8\\end{cases}$. Find $f(f(-5))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1265$"
+      },
+      {
+        "id": "b",
+        "latex": "$-68$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1264$"
+      },
+      {
+        "id": "d",
+        "latex": "$-163$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-1265",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $f(-5)=-68$. Then choose the branch containing $-68$ to get $f(f(-5))=-1265$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-783f0f0fd03b8066bc449f3c4a78d99c7ad59876baa6e155eb2f135f958666bb",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.hard.0036",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many real solutions does $f(x)=25$ have if $f(x)=\\begin{cases}25(x + 10)^2,&x<-10\\\\x + 35,&x\\ge -10\\end{cases}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The quadratic branch reaches $25$ on the left only when its solution is less than $-10$; the linear branch gives one solution on the right. Counting valid branch solutions gives $2$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "equations",
+      "casework"
+    ],
+    "checksum": "sha256-64f603d459193c524f4148d33ed1b742a4ca62f8ab55eb77a63cf3aeee6699f6",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.hard.0037",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=\\begin{cases}20x - 32,&x<-8\\\\46x - 67,&x\\ge -8\\end{cases}$. Find $f(f(-21))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-9071$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1033$"
+      },
+      {
+        "id": "c",
+        "latex": "$-9072$"
+      },
+      {
+        "id": "d",
+        "latex": "$-452$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-9072",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $f(-21)=-452$. Then choose the branch containing $-452$ to get $f(f(-21))=-9072$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-8729caffb2f78513866f753af095d9d3e2fa28124eb03b489f0393a30ee40cb2",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.hard.0038",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many real solutions does $f(x)=28$ have if $f(x)=\\begin{cases}27(x - 7)^2,&x<7\\\\x + 21,&x\\ge 7\\end{cases}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The quadratic branch reaches $28$ on the left only when its solution is less than $7$; the linear branch gives one solution on the right. Counting valid branch solutions gives $1$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "equations",
+      "casework"
+    ],
+    "checksum": "sha256-84db22bd0f0f409b24f4688213929d78d09609d9d6524cacefdb07c31a6bcf3b",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.hard.0039",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=\\begin{cases}21x + 30,&x<8\\\\50x + 69,&x\\ge 8\\end{cases}$. Find $f(f(-7))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2427$"
+      },
+      {
+        "id": "b",
+        "latex": "$-117$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2426$"
+      },
+      {
+        "id": "d",
+        "latex": "$-281$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-2427",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $f(-7)=-117$. Then choose the branch containing $-117$ to get $f(f(-7))=-2427$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-cdba966d910f77f73b19c4b7c8de243ffe006edc81b30d4e622ad72698ffeaf5",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.hard.0040",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many real solutions does $f(x)=32$ have if $f(x)=\\begin{cases}27(x - 11)^2,&x<11\\\\x + 21,&x\\ge 11\\end{cases}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The quadratic branch reaches $32$ on the left only when its solution is less than $11$; the linear branch gives one solution on the right. Counting valid branch solutions gives $1$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "equations",
+      "casework"
+    ],
+    "checksum": "sha256-542652d6f79dcdb617c452daac9e7175820cc56edb9610c9884afaed97402fe1",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.hard.0041",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=\\begin{cases}22x - 35,&x<-10\\\\51x - 74,&x\\ge -10\\end{cases}$. Find $f(f(-25))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-12904$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1349$"
+      },
+      {
+        "id": "c",
+        "latex": "$-12905$"
+      },
+      {
+        "id": "d",
+        "latex": "$-585$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-12905",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $f(-25)=-585$. Then choose the branch containing $-585$ to get $f(f(-25))=-12905$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-85d6dae7fdc11c689bf5cf88d6533ebe08f3b115062fdf55c537bbd38d33e925",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.hard.0042",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many real solutions does $f(x)=36$ have if $f(x)=\\begin{cases}29(x + 9)^2,&x<-9\\\\x + 45,&x\\ge -9\\end{cases}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The quadratic branch reaches $36$ on the left only when its solution is less than $-9$; the linear branch gives one solution on the right. Counting valid branch solutions gives $1$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "equations",
+      "casework"
+    ],
+    "checksum": "sha256-dc5d761764983a84740433f515115010c1e8b4ce946dda0b5fa76d153eda1c5e",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.hard.0043",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=\\begin{cases}23x + 33,&x<8\\\\55x + 76,&x\\ge 8\\end{cases}$. Find $f(f(-7))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2911$"
+      },
+      {
+        "id": "b",
+        "latex": "$-128$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2910$"
+      },
+      {
+        "id": "d",
+        "latex": "$-309$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-2911",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $f(-7)=-128$. Then choose the branch containing $-128$ to get $f(f(-7))=-2911$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-4efa2e3a3ccdb71b47864a90bfc906e306f378b54fe9829f1523ebcdcffc0341",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.hard.0044",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many real solutions does $f(x)=41$ have if $f(x)=\\begin{cases}31(x - 10)^2,&x<10\\\\x + 31,&x\\ge 10\\end{cases}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The quadratic branch reaches $41$ on the left only when its solution is less than $10$; the linear branch gives one solution on the right. Counting valid branch solutions gives $1$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "equations",
+      "casework"
+    ],
+    "checksum": "sha256-d89b796fe41bc51f5269864f879afcf33742de42cc3246164eaf214337cc503b",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.hard.0045",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=\\begin{cases}24x - 38,&x<10\\\\56x - 81,&x\\ge 10\\end{cases}$. Find $f(f(-7))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4981$"
+      },
+      {
+        "id": "b",
+        "latex": "$-473$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4982$"
+      },
+      {
+        "id": "d",
+        "latex": "$-206$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-4982",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $f(-7)=-206$. Then choose the branch containing $-206$ to get $f(f(-7))=-4982$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-0a5fe1d7d14cdcde8ab6514901837fe461a8ac34c53f21be2f2e8434663a3b5b",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.hard.0046",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many real solutions does $f(x)=31$ have if $f(x)=\\begin{cases}31(x + 12)^2,&x<-12\\\\x + 43,&x\\ge -12\\end{cases}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The quadratic branch reaches $31$ on the left only when its solution is less than $-12$; the linear branch gives one solution on the right. Counting valid branch solutions gives $2$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "equations",
+      "casework"
+    ],
+    "checksum": "sha256-fa4a463fa54ee4bf4887ab634ea6f0aecc39f54cabe4549f12a221a1cbcc5cfd",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.hard.0047",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=\\begin{cases}25x + 36,&x<-10\\\\60x + 83,&x\\ge -10\\end{cases}$. Find $f(f(-27))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-15939$"
+      },
+      {
+        "id": "b",
+        "latex": "$-639$"
+      },
+      {
+        "id": "c",
+        "latex": "$-15938$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1537$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-15939",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $f(-27)=-639$. Then choose the branch containing $-639$ to get $f(f(-27))=-15939$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-4a7c01a030b6fb99f55c13869f0ef71ef7944e3df61f1717ebea8405f33d0f7e",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.hard.0048",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many real solutions does $f(x)=34$ have if $f(x)=\\begin{cases}33(x - 9)^2,&x<9\\\\x + 25,&x\\ge 9\\end{cases}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The quadratic branch reaches $34$ on the left only when its solution is less than $9$; the linear branch gives one solution on the right. Counting valid branch solutions gives $1$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "equations",
+      "casework"
+    ],
+    "checksum": "sha256-c49d579d01387383951e8d9230cc9624788d30c072106479bb934bfd1de3c600",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.hard.0049",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=\\begin{cases}26x - 41,&x<10\\\\61x - 88,&x\\ge 10\\end{cases}$. Find $f(f(-7))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-5838$"
+      },
+      {
+        "id": "b",
+        "latex": "$-515$"
+      },
+      {
+        "id": "c",
+        "latex": "$-5839$"
+      },
+      {
+        "id": "d",
+        "latex": "$-223$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-5839",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $f(-7)=-223$. Then choose the branch containing $-223$ to get $f(f(-7))=-5839$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-220d3517189307e7d654faf94f78bc1cd4cbea9697de39fc583e0a925a4baf62",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.hard.0050",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many real solutions does $f(x)=38$ have if $f(x)=\\begin{cases}35(x - 13)^2,&x<13\\\\x + 25,&x\\ge 13\\end{cases}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The quadratic branch reaches $38$ on the left only when its solution is less than $13$; the linear branch gives one solution on the right. Counting valid branch solutions gives $1$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "equations",
+      "casework"
+    ],
+    "checksum": "sha256-f05cb3fcc7a0c7e7c93eb44aac66a753fd8426f0274b417bed26c68d29c410c8",
+    "status": "valid"
+  }
+]

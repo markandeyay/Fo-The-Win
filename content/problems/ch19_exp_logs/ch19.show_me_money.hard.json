@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "ch19.show_me_money.hard.0001",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $1$: A game jackpot is tripled and then halved in each cycle. Starting from $48$ dollars, what is the value after $3$ cycles?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$216$"
+      },
+      {
+        "id": "b",
+        "latex": "$162$"
+      },
+      {
+        "id": "c",
+        "latex": "$1296$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "162",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Each cycle multiplies by $\\frac{3}{2}$. The value is $48\\left(\\frac{3}{2}\\right)^{3}=162$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-35d1bf6316eb089e99a95f3960db1707c0ba2f4b34a9ea9e244193f5a5963ffd",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.hard.0002",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $2$: A rare card's price is halved every week. After $5$ weeks it costs $12$ dollars. What did it cost after $2$ weeks?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$384$"
+      },
+      {
+        "id": "b",
+        "latex": "$48$"
+      },
+      {
+        "id": "c",
+        "latex": "$96$"
+      },
+      {
+        "id": "d",
+        "latex": "$192$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "96",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Going back from week $5$ to week $2$ multiplies by $2^{3}$, giving $96$ dollars.",
+    "complexity_factor": 1.5,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-7dc5210579e924b5d452d5cfa1d33952cd639b8cd78c6047869647bf8152893f",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.hard.0003",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $3$: A game jackpot is tripled and then halved in each cycle. Starting from $256$ dollars, what is the value after $5$ cycles?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1920$"
+      },
+      {
+        "id": "b",
+        "latex": "$62208$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$1944$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1944",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Each cycle multiplies by $\\frac{3}{2}$. The value is $256\\left(\\frac{3}{2}\\right)^{5}=1944$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-0a9c96ace2e67dbe858ecb9dcf49a4e59cc69872a52be58f971ed6c2d1c42be0",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.hard.0004",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $4$: A rare card's price is halved every week. After $3$ weeks it costs $18$ dollars. What did it cost after $2$ weeks?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$36$"
+      },
+      {
+        "id": "b",
+        "latex": "$144$"
+      },
+      {
+        "id": "c",
+        "latex": "$18$"
+      },
+      {
+        "id": "d",
+        "latex": "$72$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "36",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Going back from week $3$ to week $2$ multiplies by $2^{1}$, giving $36$ dollars.",
+    "complexity_factor": 1.5,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-879a17feb556782222f6161f6939e4fea00c760821882a41a1d35d04bcf7eeb9",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.hard.0005",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $5$: A game jackpot is tripled and then halved in each cycle. Starting from $80$ dollars, what is the value after $3$ cycles?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$360$"
+      },
+      {
+        "id": "b",
+        "latex": "$270$"
+      },
+      {
+        "id": "c",
+        "latex": "$2160$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "270",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Each cycle multiplies by $\\frac{3}{2}$. The value is $80\\left(\\frac{3}{2}\\right)^{3}=270$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-103977d45035b1f19a88c138154277a416b893ab6e1bda597cc90ec15bb70b7b",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.hard.0006",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $6$: A rare card's price is halved every week. After $5$ weeks it costs $6$ dollars. What did it cost after $2$ weeks?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$192$"
+      },
+      {
+        "id": "b",
+        "latex": "$24$"
+      },
+      {
+        "id": "c",
+        "latex": "$48$"
+      },
+      {
+        "id": "d",
+        "latex": "$96$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "48",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Going back from week $5$ to week $2$ multiplies by $2^{3}$, giving $48$ dollars.",
+    "complexity_factor": 1.5,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-9163ef91f9fa4b20c79e6050a211b9e291f78659523fdf65c23462187993ba3e",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.hard.0007",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $7$: A game jackpot is tripled and then halved in each cycle. Starting from $384$ dollars, what is the value after $5$ cycles?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2880$"
+      },
+      {
+        "id": "b",
+        "latex": "$93312$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$2916$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2916",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Each cycle multiplies by $\\frac{3}{2}$. The value is $384\\left(\\frac{3}{2}\\right)^{5}=2916$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-92e91738dfae4102a6570dfdaaddf7b9b94729927a72bc65ee19d2de5e3bf8ce",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.hard.0008",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $8$: A rare card's price is halved every week. After $3$ weeks it costs $12$ dollars. What did it cost after $2$ weeks?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$24$"
+      },
+      {
+        "id": "b",
+        "latex": "$96$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$48$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "24",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Going back from week $3$ to week $2$ multiplies by $2^{1}$, giving $24$ dollars.",
+    "complexity_factor": 1.5,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-dfc4e0ed12088f486e3683bc301faa0a6094df035742325ff56e702fd43590c0",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.hard.0009",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $9$: A game jackpot is tripled and then halved in each cycle. Starting from $48$ dollars, what is the value after $3$ cycles?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$216$"
+      },
+      {
+        "id": "b",
+        "latex": "$162$"
+      },
+      {
+        "id": "c",
+        "latex": "$1296$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "162",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Each cycle multiplies by $\\frac{3}{2}$. The value is $48\\left(\\frac{3}{2}\\right)^{3}=162$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-e49863432f3947bcac9e7b979877720308c43df9978ce798ddb76e26fe0e94b0",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.hard.0010",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $10$: A rare card's price is halved every week. After $5$ weeks it costs $18$ dollars. What did it cost after $2$ weeks?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$576$"
+      },
+      {
+        "id": "b",
+        "latex": "$72$"
+      },
+      {
+        "id": "c",
+        "latex": "$144$"
+      },
+      {
+        "id": "d",
+        "latex": "$288$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "144",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Going back from week $5$ to week $2$ multiplies by $2^{3}$, giving $144$ dollars.",
+    "complexity_factor": 1.5,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-4ac1e83dfa8344c3e5354a9cac44264e8f3c8f06e28f2221a63cb5af7a3dacec",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.hard.0011",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $11$: A game jackpot is tripled and then halved in each cycle. Starting from $256$ dollars, what is the value after $5$ cycles?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1920$"
+      },
+      {
+        "id": "b",
+        "latex": "$62208$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$1944$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1944",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Each cycle multiplies by $\\frac{3}{2}$. The value is $256\\left(\\frac{3}{2}\\right)^{5}=1944$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-9ac42318b83364110bcfbf4135249cfe8b5a9ccea0488d092e0336d16e1882d6",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.hard.0012",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $12$: A rare card's price is halved every week. After $3$ weeks it costs $6$ dollars. What did it cost after $2$ weeks?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12$"
+      },
+      {
+        "id": "b",
+        "latex": "$48$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$24$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Going back from week $3$ to week $2$ multiplies by $2^{1}$, giving $12$ dollars.",
+    "complexity_factor": 1.5,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-a7135b0ea274e1b3b11e4bffc97c28001e61b700b771811ae3bb15a1d906fb18",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.hard.0013",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $13$: A game jackpot is tripled and then halved in each cycle. Starting from $80$ dollars, what is the value after $3$ cycles?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$360$"
+      },
+      {
+        "id": "b",
+        "latex": "$270$"
+      },
+      {
+        "id": "c",
+        "latex": "$2160$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "270",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Each cycle multiplies by $\\frac{3}{2}$. The value is $80\\left(\\frac{3}{2}\\right)^{3}=270$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-38d887a9d12b87cc3db72b2cf1475c409ce839a4dfef51520d0db865e71e30eb",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.hard.0014",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $14$: A rare card's price is halved every week. After $5$ weeks it costs $12$ dollars. What did it cost after $2$ weeks?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$384$"
+      },
+      {
+        "id": "b",
+        "latex": "$48$"
+      },
+      {
+        "id": "c",
+        "latex": "$96$"
+      },
+      {
+        "id": "d",
+        "latex": "$192$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "96",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Going back from week $5$ to week $2$ multiplies by $2^{3}$, giving $96$ dollars.",
+    "complexity_factor": 1.5,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-41bfbee390a762d3975a30a6c96ff6b64b24d7233bd4a202b00d925f9a7b4800",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.hard.0015",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $15$: A game jackpot is tripled and then halved in each cycle. Starting from $384$ dollars, what is the value after $5$ cycles?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2880$"
+      },
+      {
+        "id": "b",
+        "latex": "$93312$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$2916$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2916",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Each cycle multiplies by $\\frac{3}{2}$. The value is $384\\left(\\frac{3}{2}\\right)^{5}=2916$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-0317ae23978000eb7cb0587c89d3f3b4afc648b357a00ffc1256d7eda7844e7f",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.hard.0016",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $16$: A rare card's price is halved every week. After $3$ weeks it costs $18$ dollars. What did it cost after $2$ weeks?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$36$"
+      },
+      {
+        "id": "b",
+        "latex": "$144$"
+      },
+      {
+        "id": "c",
+        "latex": "$18$"
+      },
+      {
+        "id": "d",
+        "latex": "$72$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "36",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Going back from week $3$ to week $2$ multiplies by $2^{1}$, giving $36$ dollars.",
+    "complexity_factor": 1.5,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-6fb215766519c2ba4bfeb2a16d19512b4598bac136c2999f5fdbb0f6d53c3e3f",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.hard.0017",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $17$: A game jackpot is tripled and then halved in each cycle. Starting from $48$ dollars, what is the value after $3$ cycles?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$216$"
+      },
+      {
+        "id": "b",
+        "latex": "$162$"
+      },
+      {
+        "id": "c",
+        "latex": "$1296$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "162",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Each cycle multiplies by $\\frac{3}{2}$. The value is $48\\left(\\frac{3}{2}\\right)^{3}=162$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-ad90f7bcd0cf71fe7e49de41dfb1501fac62f3e6790ed7a5820ebc485993670a",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.hard.0018",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $18$: A rare card's price is halved every week. After $5$ weeks it costs $6$ dollars. What did it cost after $2$ weeks?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$192$"
+      },
+      {
+        "id": "b",
+        "latex": "$24$"
+      },
+      {
+        "id": "c",
+        "latex": "$48$"
+      },
+      {
+        "id": "d",
+        "latex": "$96$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "48",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Going back from week $5$ to week $2$ multiplies by $2^{3}$, giving $48$ dollars.",
+    "complexity_factor": 1.5,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-bf3bc19d01a9c48c1f9da7d82bca89a211876736b2464aa345fe1ff9f65288e9",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.hard.0019",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $19$: A game jackpot is tripled and then halved in each cycle. Starting from $256$ dollars, what is the value after $5$ cycles?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1920$"
+      },
+      {
+        "id": "b",
+        "latex": "$62208$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$1944$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1944",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Each cycle multiplies by $\\frac{3}{2}$. The value is $256\\left(\\frac{3}{2}\\right)^{5}=1944$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-f90bdafbe6d833acc66210434704b68ff3f8c65ca4568775cfbf8f239b71c626",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.hard.0020",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $20$: A rare card's price is halved every week. After $3$ weeks it costs $12$ dollars. What did it cost after $2$ weeks?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$24$"
+      },
+      {
+        "id": "b",
+        "latex": "$96$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$48$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "24",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Going back from week $3$ to week $2$ multiplies by $2^{1}$, giving $24$ dollars.",
+    "complexity_factor": 1.5,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-d05a463170ecc9e8fa4766adc6eb1da20054d4c6cf1db6e64a718dd22946d640",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.hard.0021",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $21$: A game jackpot is tripled and then halved in each cycle. Starting from $80$ dollars, what is the value after $3$ cycles?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$360$"
+      },
+      {
+        "id": "b",
+        "latex": "$270$"
+      },
+      {
+        "id": "c",
+        "latex": "$2160$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "270",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Each cycle multiplies by $\\frac{3}{2}$. The value is $80\\left(\\frac{3}{2}\\right)^{3}=270$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-21c34d1bcf705bd9d1a9fa96849b136c420610e0451e4c702ba788c807cdc9ff",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.hard.0022",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $22$: A rare card's price is halved every week. After $5$ weeks it costs $18$ dollars. What did it cost after $2$ weeks?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$576$"
+      },
+      {
+        "id": "b",
+        "latex": "$72$"
+      },
+      {
+        "id": "c",
+        "latex": "$144$"
+      },
+      {
+        "id": "d",
+        "latex": "$288$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "144",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Going back from week $5$ to week $2$ multiplies by $2^{3}$, giving $144$ dollars.",
+    "complexity_factor": 1.5,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-7d786f22ec947082495f7da751db32b716bccc5e340f483f24cc94922f7d6e11",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.hard.0023",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $23$: A game jackpot is tripled and then halved in each cycle. Starting from $384$ dollars, what is the value after $5$ cycles?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2880$"
+      },
+      {
+        "id": "b",
+        "latex": "$93312$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$2916$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2916",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Each cycle multiplies by $\\frac{3}{2}$. The value is $384\\left(\\frac{3}{2}\\right)^{5}=2916$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-6d9eb9f57a3190b22e0bac4aa153de1d8bb12b94dc332915a3547109cf6b7bc5",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.hard.0024",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $24$: A rare card's price is halved every week. After $3$ weeks it costs $6$ dollars. What did it cost after $2$ weeks?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12$"
+      },
+      {
+        "id": "b",
+        "latex": "$48$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$24$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Going back from week $3$ to week $2$ multiplies by $2^{1}$, giving $12$ dollars.",
+    "complexity_factor": 1.5,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-2f17be972fe8f12cdbd1b163392b09dd66cbf6ecfb554b410dca354d7e7f7e34",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.hard.0025",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $25$: A game jackpot is tripled and then halved in each cycle. Starting from $48$ dollars, what is the value after $3$ cycles?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$216$"
+      },
+      {
+        "id": "b",
+        "latex": "$162$"
+      },
+      {
+        "id": "c",
+        "latex": "$1296$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "162",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Each cycle multiplies by $\\frac{3}{2}$. The value is $48\\left(\\frac{3}{2}\\right)^{3}=162$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-7f43e90684d24c36f98e9327be72aafbbbaf7d5812f0fc501eba31e730c6d9c2",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.hard.0026",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $26$: A rare card's price is halved every week. After $5$ weeks it costs $12$ dollars. What did it cost after $2$ weeks?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$384$"
+      },
+      {
+        "id": "b",
+        "latex": "$48$"
+      },
+      {
+        "id": "c",
+        "latex": "$96$"
+      },
+      {
+        "id": "d",
+        "latex": "$192$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "96",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Going back from week $5$ to week $2$ multiplies by $2^{3}$, giving $96$ dollars.",
+    "complexity_factor": 1.5,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-2b063548cc8fd4314d0e60971e6336a790dc3b00bf970994ed70e53f48b8436e",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.hard.0027",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $27$: A game jackpot is tripled and then halved in each cycle. Starting from $256$ dollars, what is the value after $5$ cycles?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1920$"
+      },
+      {
+        "id": "b",
+        "latex": "$62208$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$1944$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1944",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Each cycle multiplies by $\\frac{3}{2}$. The value is $256\\left(\\frac{3}{2}\\right)^{5}=1944$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-cdbf18d2efc1f6a853c82ee6892d6eceadfcf4e0f88af2b38b3c036e2bee04c8",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.hard.0028",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $28$: A rare card's price is halved every week. After $3$ weeks it costs $18$ dollars. What did it cost after $2$ weeks?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$36$"
+      },
+      {
+        "id": "b",
+        "latex": "$144$"
+      },
+      {
+        "id": "c",
+        "latex": "$18$"
+      },
+      {
+        "id": "d",
+        "latex": "$72$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "36",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Going back from week $3$ to week $2$ multiplies by $2^{1}$, giving $36$ dollars.",
+    "complexity_factor": 1.5,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-a96d9239b0ace6d4012888be9814918083a839f73f278e5ae11c5324a393391f",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.hard.0029",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $29$: A game jackpot is tripled and then halved in each cycle. Starting from $80$ dollars, what is the value after $3$ cycles?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$360$"
+      },
+      {
+        "id": "b",
+        "latex": "$270$"
+      },
+      {
+        "id": "c",
+        "latex": "$2160$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "270",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Each cycle multiplies by $\\frac{3}{2}$. The value is $80\\left(\\frac{3}{2}\\right)^{3}=270$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-307e1579fb03eb16fb73400c46974cda3e479dbc2cc6a02966388e2080324bdd",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.hard.0030",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $30$: A rare card's price is halved every week. After $5$ weeks it costs $6$ dollars. What did it cost after $2$ weeks?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$192$"
+      },
+      {
+        "id": "b",
+        "latex": "$24$"
+      },
+      {
+        "id": "c",
+        "latex": "$48$"
+      },
+      {
+        "id": "d",
+        "latex": "$96$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "48",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Going back from week $5$ to week $2$ multiplies by $2^{3}$, giving $48$ dollars.",
+    "complexity_factor": 1.5,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-246cb0f8ff32e6cfd75a03030638509d849f2c732b3201291a4a0eaf3f083330",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.hard.0031",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $31$: A game jackpot is tripled and then halved in each cycle. Starting from $384$ dollars, what is the value after $5$ cycles?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2880$"
+      },
+      {
+        "id": "b",
+        "latex": "$93312$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$2916$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2916",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Each cycle multiplies by $\\frac{3}{2}$. The value is $384\\left(\\frac{3}{2}\\right)^{5}=2916$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-29a6dae6d6278e6d1734ed55e8bd942d15052c1f21a94e12720a7f3453774486",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.hard.0032",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $32$: A rare card's price is halved every week. After $3$ weeks it costs $12$ dollars. What did it cost after $2$ weeks?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$24$"
+      },
+      {
+        "id": "b",
+        "latex": "$96$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$48$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "24",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Going back from week $3$ to week $2$ multiplies by $2^{1}$, giving $24$ dollars.",
+    "complexity_factor": 1.5,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-da7c62d6f326449e67939f3a2d1c97a671b2fe124dce84157141b6136c87678d",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.hard.0033",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $33$: A game jackpot is tripled and then halved in each cycle. Starting from $48$ dollars, what is the value after $3$ cycles?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$216$"
+      },
+      {
+        "id": "b",
+        "latex": "$162$"
+      },
+      {
+        "id": "c",
+        "latex": "$1296$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "162",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Each cycle multiplies by $\\frac{3}{2}$. The value is $48\\left(\\frac{3}{2}\\right)^{3}=162$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-e72a58a790d93019c0f96f754e12f7f0e41d8179b144afd58fea6e9bf3103078",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.hard.0034",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $34$: A rare card's price is halved every week. After $5$ weeks it costs $18$ dollars. What did it cost after $2$ weeks?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$576$"
+      },
+      {
+        "id": "b",
+        "latex": "$72$"
+      },
+      {
+        "id": "c",
+        "latex": "$144$"
+      },
+      {
+        "id": "d",
+        "latex": "$288$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "144",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Going back from week $5$ to week $2$ multiplies by $2^{3}$, giving $144$ dollars.",
+    "complexity_factor": 1.5,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-05850a111a856f589864ab51c75484332830725e4789e9d2415a7ffc5323a216",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.hard.0035",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $35$: A game jackpot is tripled and then halved in each cycle. Starting from $256$ dollars, what is the value after $5$ cycles?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1920$"
+      },
+      {
+        "id": "b",
+        "latex": "$62208$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$1944$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1944",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Each cycle multiplies by $\\frac{3}{2}$. The value is $256\\left(\\frac{3}{2}\\right)^{5}=1944$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-260c24e4ab339715ca4c0a64d2a6f64b394252f2245c20c519b88d9f74b36554",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.hard.0036",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $36$: A rare card's price is halved every week. After $3$ weeks it costs $6$ dollars. What did it cost after $2$ weeks?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12$"
+      },
+      {
+        "id": "b",
+        "latex": "$48$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$24$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Going back from week $3$ to week $2$ multiplies by $2^{1}$, giving $12$ dollars.",
+    "complexity_factor": 1.5,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-187690df41414b58482d21652b791db80a9981bab9b46bc4eca4f7731e6da7f2",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.hard.0037",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $37$: A game jackpot is tripled and then halved in each cycle. Starting from $80$ dollars, what is the value after $3$ cycles?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$360$"
+      },
+      {
+        "id": "b",
+        "latex": "$270$"
+      },
+      {
+        "id": "c",
+        "latex": "$2160$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "270",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Each cycle multiplies by $\\frac{3}{2}$. The value is $80\\left(\\frac{3}{2}\\right)^{3}=270$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-e74d2f1be8cb3118a1028248043a1a1a3b42012cef6a252d1d740e69f4d40385",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.hard.0038",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $38$: A rare card's price is halved every week. After $5$ weeks it costs $12$ dollars. What did it cost after $2$ weeks?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$384$"
+      },
+      {
+        "id": "b",
+        "latex": "$48$"
+      },
+      {
+        "id": "c",
+        "latex": "$96$"
+      },
+      {
+        "id": "d",
+        "latex": "$192$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "96",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Going back from week $5$ to week $2$ multiplies by $2^{3}$, giving $96$ dollars.",
+    "complexity_factor": 1.5,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-3f7fbc05e07044b4a7a26983bb8e98e461d9efe83cbfdf4f788219206f170397",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.hard.0039",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $39$: A game jackpot is tripled and then halved in each cycle. Starting from $384$ dollars, what is the value after $5$ cycles?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2880$"
+      },
+      {
+        "id": "b",
+        "latex": "$93312$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$2916$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2916",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Each cycle multiplies by $\\frac{3}{2}$. The value is $384\\left(\\frac{3}{2}\\right)^{5}=2916$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-11611cd5c08f7c1daf8b742d0484ff2a0a56636bc58f80710ed899a76c1dc705",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.hard.0040",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $40$: A rare card's price is halved every week. After $3$ weeks it costs $18$ dollars. What did it cost after $2$ weeks?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$36$"
+      },
+      {
+        "id": "b",
+        "latex": "$144$"
+      },
+      {
+        "id": "c",
+        "latex": "$18$"
+      },
+      {
+        "id": "d",
+        "latex": "$72$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "36",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Going back from week $3$ to week $2$ multiplies by $2^{1}$, giving $36$ dollars.",
+    "complexity_factor": 1.5,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-b8c468ea7ed13ae75f6404614b6cf795c82a7603b78f6ec0f6f0ffede5cf98b8",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.hard.0041",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $41$: A game jackpot is tripled and then halved in each cycle. Starting from $48$ dollars, what is the value after $3$ cycles?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$216$"
+      },
+      {
+        "id": "b",
+        "latex": "$162$"
+      },
+      {
+        "id": "c",
+        "latex": "$1296$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "162",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Each cycle multiplies by $\\frac{3}{2}$. The value is $48\\left(\\frac{3}{2}\\right)^{3}=162$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-695f2430a69a7f3048a666593b1144ba520a96b23dd57466293053eea16d5cff",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.hard.0042",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $42$: A rare card's price is halved every week. After $5$ weeks it costs $6$ dollars. What did it cost after $2$ weeks?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$192$"
+      },
+      {
+        "id": "b",
+        "latex": "$24$"
+      },
+      {
+        "id": "c",
+        "latex": "$48$"
+      },
+      {
+        "id": "d",
+        "latex": "$96$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "48",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Going back from week $5$ to week $2$ multiplies by $2^{3}$, giving $48$ dollars.",
+    "complexity_factor": 1.5,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-a6e602821032da023079e8517d9b2668485da10db31d95ffad9eaf6d59de6552",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.hard.0043",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $43$: A game jackpot is tripled and then halved in each cycle. Starting from $256$ dollars, what is the value after $5$ cycles?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1920$"
+      },
+      {
+        "id": "b",
+        "latex": "$62208$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$1944$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1944",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Each cycle multiplies by $\\frac{3}{2}$. The value is $256\\left(\\frac{3}{2}\\right)^{5}=1944$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-6fdcc6a44705940e8fc64b1a96671c409117696eacd15bd92d7d485d4c0e497b",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.hard.0044",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $44$: A rare card's price is halved every week. After $3$ weeks it costs $12$ dollars. What did it cost after $2$ weeks?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$24$"
+      },
+      {
+        "id": "b",
+        "latex": "$96$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$48$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "24",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Going back from week $3$ to week $2$ multiplies by $2^{1}$, giving $24$ dollars.",
+    "complexity_factor": 1.5,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-8d6eb65751d6917742dfd277d5cb23869a07f0a24c14ab8f059612dff0391d76",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.hard.0045",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $45$: A game jackpot is tripled and then halved in each cycle. Starting from $80$ dollars, what is the value after $3$ cycles?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$360$"
+      },
+      {
+        "id": "b",
+        "latex": "$270$"
+      },
+      {
+        "id": "c",
+        "latex": "$2160$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "270",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Each cycle multiplies by $\\frac{3}{2}$. The value is $80\\left(\\frac{3}{2}\\right)^{3}=270$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-582b1d311601c4b4964aefdd59706fbcaf9f0de437dea16d7d41814b483962ba",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.hard.0046",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $46$: A rare card's price is halved every week. After $5$ weeks it costs $18$ dollars. What did it cost after $2$ weeks?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$576$"
+      },
+      {
+        "id": "b",
+        "latex": "$72$"
+      },
+      {
+        "id": "c",
+        "latex": "$144$"
+      },
+      {
+        "id": "d",
+        "latex": "$288$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "144",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Going back from week $5$ to week $2$ multiplies by $2^{3}$, giving $144$ dollars.",
+    "complexity_factor": 1.5,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-9c3460a99d8ee727e5d4d97a4c5dd83fead100b4ee20b7ef755e69252b8b48ea",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.hard.0047",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $47$: A game jackpot is tripled and then halved in each cycle. Starting from $384$ dollars, what is the value after $5$ cycles?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2880$"
+      },
+      {
+        "id": "b",
+        "latex": "$93312$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$2916$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2916",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Each cycle multiplies by $\\frac{3}{2}$. The value is $384\\left(\\frac{3}{2}\\right)^{5}=2916$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-217af6aebab2094f95fb4297e0d90b533ac12b40ab3cd2d8a5f98cab5213e77f",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.hard.0048",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $48$: A rare card's price is halved every week. After $3$ weeks it costs $6$ dollars. What did it cost after $2$ weeks?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12$"
+      },
+      {
+        "id": "b",
+        "latex": "$48$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$24$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Going back from week $3$ to week $2$ multiplies by $2^{1}$, giving $12$ dollars.",
+    "complexity_factor": 1.5,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-ebbec81b22e2b9e1db0956ee37c6a3eb6f2bb31feb56c0358de8e0f270c3e3d5",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.hard.0049",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $49$: A game jackpot is tripled and then halved in each cycle. Starting from $48$ dollars, what is the value after $3$ cycles?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$216$"
+      },
+      {
+        "id": "b",
+        "latex": "$162$"
+      },
+      {
+        "id": "c",
+        "latex": "$1296$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "162",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Each cycle multiplies by $\\frac{3}{2}$. The value is $48\\left(\\frac{3}{2}\\right)^{3}=162$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-e19b05e2cb827f478f51c10fcc99fa9ee7049d2ca8fe07367191bfd4056d3398",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.hard.0050",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $50$: A rare card's price is halved every week. After $5$ weeks it costs $12$ dollars. What did it cost after $2$ weeks?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$384$"
+      },
+      {
+        "id": "b",
+        "latex": "$48$"
+      },
+      {
+        "id": "c",
+        "latex": "$96$"
+      },
+      {
+        "id": "d",
+        "latex": "$192$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "96",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Going back from week $5$ to week $2$ multiplies by $2^{3}$, giving $96$ dollars.",
+    "complexity_factor": 1.5,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-2f5a01f76e63cbc2ff1ff92c43dc5b34920ef1d6480f7cf1adf433fe5b72f2b5",
+    "status": "valid"
+  }
+]

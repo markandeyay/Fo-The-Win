@@ -1,41 +1,2002 @@
 [
   {
+    "id": "ch21.telescoping.hard.0001",
     "topic_id": "ch21.telescoping",
     "group_id": "ch21_sequences_series",
     "difficulty": "hard",
-    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{20} \\frac{1}{n(n+2)}$.",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{8} \\frac{1}{(n+0)(n+2)}$.",
     "answer_format": "mc",
     "choices": [
       {
         "id": "a",
-        "latex": "$\\dfrac{607}{924}$"
+        "latex": "$29/45$"
       },
       {
         "id": "b",
-        "latex": "$\\dfrac{19}{22}$"
+        "latex": "$58/45$"
       },
       {
         "id": "c",
-        "latex": "$\\dfrac{10}{11}$"
+        "latex": "$8/9$"
       },
       {
         "id": "d",
-        "latex": "$\\dfrac{607}{462}$"
+        "latex": "$36/55$"
       }
     ],
     "correct_choice": "a",
-    "correct_answer": "607/924",
+    "correct_answer": "29/45",
     "answer_type": "fraction",
-    "solution_latex": "$\\frac{1}{n(n+2)} = \\frac{1}{2}\\left(\\frac{1}{n} - \\frac{1}{n+2}\\right)$. Telescoping leaves $\\frac{1}{2}\\left(1 + \\frac{1}{2} - \\frac{1}{21} - \\frac{1}{22}\\right) = \\frac{607}{924}$.",
+    "accepted_forms": [],
+    "solution_latex": "Use $\\frac{1}{x(x+2)}=\\frac{1}{2}\\left(\\frac{1}{x}-\\frac{1}{x+2}\\right)$. The remaining edge terms give $29/45$.",
     "complexity_factor": 1.5,
     "source_section": "21.5",
     "tags": [
       "telescoping",
-      "series",
-      "partial_fractions"
+      "partial-fractions",
+      "starred"
     ],
-    "id": "ch21.telescoping.hard.0001",
-    "checksum": "sha256-8ae646a4b44843629b307d42b1e02575663756277090b48bcfd10a084abe95bb",
+    "checksum": "sha256-87ed3dfd53eaef429eddee80f4704797668ac3c15c236c0f79aa8c78f9d2a422",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.hard.0002",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{9} \\frac{1}{(n+1)(n+4)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$155/546$"
+      },
+      {
+        "id": "b",
+        "latex": "$119/429$"
+      },
+      {
+        "id": "c",
+        "latex": "$119/143$"
+      },
+      {
+        "id": "d",
+        "latex": "$9/22$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "119/429",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Use $\\frac{1}{x(x+3)}=\\frac{1}{3}\\left(\\frac{1}{x}-\\frac{1}{x+3}\\right)$. The remaining edge terms give $119/429$.",
+    "complexity_factor": 1.5,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions",
+      "starred"
+    ],
+    "checksum": "sha256-3a9b379b64dceba2866e50aa61a536959ec15e5a66148f57a7a449cab45380f6",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.hard.0003",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{10} \\frac{1}{(n+2)(n+6)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10/39$"
+      },
+      {
+        "id": "b",
+        "latex": "$19723/114240$"
+      },
+      {
+        "id": "c",
+        "latex": "$14687/87360$"
+      },
+      {
+        "id": "d",
+        "latex": "$14687/21840$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "14687/87360",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Use $\\frac{1}{x(x+4)}=\\frac{1}{4}\\left(\\frac{1}{x}-\\frac{1}{x+4}\\right)$. The remaining edge terms give $14687/87360$.",
+    "complexity_factor": 1.5,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions",
+      "starred"
+    ],
+    "checksum": "sha256-d426a731c4551222c2eb61315c97cdc967db966968921c2b223f6d70e8f8ef73",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.hard.0004",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{11} \\frac{1}{(n+3)(n+5)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$77/240$"
+      },
+      {
+        "id": "b",
+        "latex": "$11/60$"
+      },
+      {
+        "id": "c",
+        "latex": "$447/2720$"
+      },
+      {
+        "id": "d",
+        "latex": "$77/480$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "77/480",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Use $\\frac{1}{x(x+2)}=\\frac{1}{2}\\left(\\frac{1}{x}-\\frac{1}{x+2}\\right)$. The remaining edge terms give $77/480$.",
+    "complexity_factor": 1.5,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions",
+      "starred"
+    ],
+    "checksum": "sha256-39c714d98d68f239a8d573f18bbae9d9418e14da3b4e69a82eb9a9ea29cf7a04",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.hard.0005",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{12} \\frac{1}{(n+0)(n+3)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2209/4095$"
+      },
+      {
+        "id": "b",
+        "latex": "$2209/1365$"
+      },
+      {
+        "id": "c",
+        "latex": "$12/13$"
+      },
+      {
+        "id": "d",
+        "latex": "$2743/5040$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2209/4095",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Use $\\frac{1}{x(x+3)}=\\frac{1}{3}\\left(\\frac{1}{x}-\\frac{1}{x+3}\\right)$. The remaining edge terms give $2209/4095$.",
+    "complexity_factor": 1.5,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions",
+      "starred"
+    ],
+    "checksum": "sha256-0d7d16d896758bb5402f96aec3c83071471e8a95d39b38bfbeb2691776c7276e",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.hard.0006",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{13} \\frac{1}{(n+1)(n+5)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$245077/930240$"
+      },
+      {
+        "id": "b",
+        "latex": "$12727/48960$"
+      },
+      {
+        "id": "c",
+        "latex": "$12727/12240$"
+      },
+      {
+        "id": "d",
+        "latex": "$13/30$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "12727/48960",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Use $\\frac{1}{x(x+4)}=\\frac{1}{4}\\left(\\frac{1}{x}-\\frac{1}{x+4}\\right)$. The remaining edge terms give $12727/48960$.",
+    "complexity_factor": 1.5,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions",
+      "starred"
+    ],
+    "checksum": "sha256-df7a5a264e8a8537b88d684d26b69e391ffc746b19b5e9ef9e62be9f9e12f90e",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.hard.0007",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{14} \\frac{1}{(n+2)(n+4)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$14/51$"
+      },
+      {
+        "id": "b",
+        "latex": "$325/1368$"
+      },
+      {
+        "id": "c",
+        "latex": "$287/1224$"
+      },
+      {
+        "id": "d",
+        "latex": "$287/612$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "287/1224",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Use $\\frac{1}{x(x+2)}=\\frac{1}{2}\\left(\\frac{1}{x}-\\frac{1}{x+2}\\right)$. The remaining edge terms give $287/1224$.",
+    "complexity_factor": 1.5,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions",
+      "starred"
+    ],
+    "checksum": "sha256-fc7de988a421c742d7f676a415b65ebfca3ba2b8c7a0cbe41199771f6fffc2ad",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.hard.0008",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{15} \\frac{1}{(n+3)(n+6)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1861/3990$"
+      },
+      {
+        "id": "b",
+        "latex": "$15/76$"
+      },
+      {
+        "id": "c",
+        "latex": "$547/3465$"
+      },
+      {
+        "id": "d",
+        "latex": "$1861/11970$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1861/11970",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Use $\\frac{1}{x(x+3)}=\\frac{1}{3}\\left(\\frac{1}{x}-\\frac{1}{x+3}\\right)$. The remaining edge terms give $1861/11970$.",
+    "complexity_factor": 1.5,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions",
+      "starred"
+    ],
+    "checksum": "sha256-33fd70410e7a58cc36c5d1d4d5c0ebcbcb5840ad74dc9939038c2a134a165717",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.hard.0009",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{16} \\frac{1}{(n+0)(n+4)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$27127/58140$"
+      },
+      {
+        "id": "b",
+        "latex": "$27127/14535$"
+      },
+      {
+        "id": "c",
+        "latex": "$16/17$"
+      },
+      {
+        "id": "d",
+        "latex": "$11237/23940$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "27127/58140",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Use $\\frac{1}{x(x+4)}=\\frac{1}{4}\\left(\\frac{1}{x}-\\frac{1}{x+4}\\right)$. The remaining edge terms give $27127/58140$.",
+    "complexity_factor": 1.5,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions",
+      "starred"
+    ],
+    "checksum": "sha256-9b19d53dc0ba341741e2a10e99f50d8300a2c0f513059f761bbc9e28fa8c1a65",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.hard.0010",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{17} \\frac{1}{(n+1)(n+3)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$103/280$"
+      },
+      {
+        "id": "b",
+        "latex": "$833/2280$"
+      },
+      {
+        "id": "c",
+        "latex": "$833/1140$"
+      },
+      {
+        "id": "d",
+        "latex": "$17/38$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "833/2280",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Use $\\frac{1}{x(x+2)}=\\frac{1}{2}\\left(\\frac{1}{x}-\\frac{1}{x+2}\\right)$. The remaining edge terms give $833/2280$.",
+    "complexity_factor": 1.5,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions",
+      "starred"
+    ],
+    "checksum": "sha256-aa5158e9a3dba280a08a87b47d4b9576971b2cdbe726b3efcce14f83f22d247c",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.hard.0011",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{18} \\frac{1}{(n+2)(n+5)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2/7$"
+      },
+      {
+        "id": "b",
+        "latex": "$19817/91080$"
+      },
+      {
+        "id": "c",
+        "latex": "$22909/106260$"
+      },
+      {
+        "id": "d",
+        "latex": "$22909/35420$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "22909/106260",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Use $\\frac{1}{x(x+3)}=\\frac{1}{3}\\left(\\frac{1}{x}-\\frac{1}{x+3}\\right)$. The remaining edge terms give $22909/106260$.",
+    "complexity_factor": 1.5,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions",
+      "starred"
+    ],
+    "checksum": "sha256-8f569ba43358e9f4bdf8aac825e9b73c08cccc5e920e499f199882d168a11eb0",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.hard.0012",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{19} \\frac{1}{(n+3)(n+7)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$249451/418600$"
+      },
+      {
+        "id": "b",
+        "latex": "$19/92$"
+      },
+      {
+        "id": "c",
+        "latex": "$295999/1965600$"
+      },
+      {
+        "id": "d",
+        "latex": "$249451/1674400$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "249451/1674400",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Use $\\frac{1}{x(x+4)}=\\frac{1}{4}\\left(\\frac{1}{x}-\\frac{1}{x+4}\\right)$. The remaining edge terms give $249451/1674400$.",
+    "complexity_factor": 1.5,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions",
+      "starred"
+    ],
+    "checksum": "sha256-3d9d3ef452ca4817ba206009bbbd1097bb72c0d57e49a6f7f8c36f107440c5b1",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.hard.0013",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{20} \\frac{1}{(n+0)(n+2)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$325/462$"
+      },
+      {
+        "id": "b",
+        "latex": "$325/231$"
+      },
+      {
+        "id": "c",
+        "latex": "$20/21$"
+      },
+      {
+        "id": "d",
+        "latex": "$357/506$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "325/462",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Use $\\frac{1}{x(x+2)}=\\frac{1}{2}\\left(\\frac{1}{x}-\\frac{1}{x+2}\\right)$. The remaining edge terms give $325/462$.",
+    "complexity_factor": 1.5,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions",
+      "starred"
+    ],
+    "checksum": "sha256-bbb9b731435d25b783ed61442460136db2f63448b600b28f9a6b4cf19a05f0b3",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.hard.0014",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{21} \\frac{1}{(n+1)(n+4)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7513/23400$"
+      },
+      {
+        "id": "b",
+        "latex": "$13223/41400$"
+      },
+      {
+        "id": "c",
+        "latex": "$13223/13800$"
+      },
+      {
+        "id": "d",
+        "latex": "$21/46$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "13223/41400",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Use $\\frac{1}{x(x+3)}=\\frac{1}{3}\\left(\\frac{1}{x}-\\frac{1}{x+3}\\right)$. The remaining edge terms give $13223/41400$.",
+    "complexity_factor": 1.5,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions",
+      "starred"
+    ],
+    "checksum": "sha256-357a9f505cb92698a864ad1770c6268427f19b6f58acaab93499c22d8c40e566",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.hard.0015",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{22} \\frac{1}{(n+2)(n+6)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$22/75$"
+      },
+      {
+        "id": "b",
+        "latex": "$573091/2850120$"
+      },
+      {
+        "id": "c",
+        "latex": "$98131/491400$"
+      },
+      {
+        "id": "d",
+        "latex": "$98131/122850$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "98131/491400",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Use $\\frac{1}{x(x+4)}=\\frac{1}{4}\\left(\\frac{1}{x}-\\frac{1}{x+4}\\right)$. The remaining edge terms give $98131/491400$.",
+    "complexity_factor": 1.5,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions",
+      "starred"
+    ],
+    "checksum": "sha256-09f769d6b35a5e78e665c89a419f8ffca790e195dc2e57914ba8ba5fa7824c04",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.hard.0016",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{8} \\frac{1}{(n+3)(n+5)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$113/390$"
+      },
+      {
+        "id": "b",
+        "latex": "$1/6$"
+      },
+      {
+        "id": "c",
+        "latex": "$549/3640$"
+      },
+      {
+        "id": "d",
+        "latex": "$113/780$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "113/780",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Use $\\frac{1}{x(x+2)}=\\frac{1}{2}\\left(\\frac{1}{x}-\\frac{1}{x+2}\\right)$. The remaining edge terms give $113/780$.",
+    "complexity_factor": 1.5,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions",
+      "starred"
+    ],
+    "checksum": "sha256-ad9676f74cf4b2b6b280a79dd1f79325b41f30974db8d2e7f8d3ee10ec38d323",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.hard.0017",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{9} \\frac{1}{(n+0)(n+3)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$343/660$"
+      },
+      {
+        "id": "b",
+        "latex": "$343/220$"
+      },
+      {
+        "id": "c",
+        "latex": "$9/10$"
+      },
+      {
+        "id": "d",
+        "latex": "$905/1716$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "343/660",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Use $\\frac{1}{x(x+3)}=\\frac{1}{3}\\left(\\frac{1}{x}-\\frac{1}{x+3}\\right)$. The remaining edge terms give $343/660$.",
+    "complexity_factor": 1.5,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions",
+      "starred"
+    ],
+    "checksum": "sha256-c792b6e859fa648e5e07145216f581ca5e9ea9392f0d3e54024935a166b61445",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.hard.0018",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{10} \\frac{1}{(n+1)(n+5)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$21967/87360$"
+      },
+      {
+        "id": "b",
+        "latex": "$2689/10920$"
+      },
+      {
+        "id": "c",
+        "latex": "$2689/2730$"
+      },
+      {
+        "id": "d",
+        "latex": "$5/12$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "2689/10920",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Use $\\frac{1}{x(x+4)}=\\frac{1}{4}\\left(\\frac{1}{x}-\\frac{1}{x+4}\\right)$. The remaining edge terms give $2689/10920$.",
+    "complexity_factor": 1.5,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions",
+      "starred"
+    ],
+    "checksum": "sha256-6eebdf0ea17592f4f2ddcd1bd3ef62c7682607ab786a6666a24bf150bb9aedb6",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.hard.0019",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{11} \\frac{1}{(n+2)(n+4)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11/42$"
+      },
+      {
+        "id": "b",
+        "latex": "$109/480$"
+      },
+      {
+        "id": "c",
+        "latex": "$187/840$"
+      },
+      {
+        "id": "d",
+        "latex": "$187/420$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "187/840",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Use $\\frac{1}{x(x+2)}=\\frac{1}{2}\\left(\\frac{1}{x}-\\frac{1}{x+2}\\right)$. The remaining edge terms give $187/840$.",
+    "complexity_factor": 1.5,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions",
+      "starred"
+    ],
+    "checksum": "sha256-39479f0592557dc130c8206645d1a446b75faeac3cd8316bd23cadc33743c807",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.hard.0020",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{12} \\frac{1}{(n+3)(n+6)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5383/12240$"
+      },
+      {
+        "id": "b",
+        "latex": "$3/16$"
+      },
+      {
+        "id": "c",
+        "latex": "$26143/174420$"
+      },
+      {
+        "id": "d",
+        "latex": "$5383/36720$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "5383/36720",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Use $\\frac{1}{x(x+3)}=\\frac{1}{3}\\left(\\frac{1}{x}-\\frac{1}{x+3}\\right)$. The remaining edge terms give $5383/36720$.",
+    "complexity_factor": 1.5,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions",
+      "starred"
+    ],
+    "checksum": "sha256-ba2c88908f986f2612a2ba586a556301020c6153ebce547dfba191c1e3b6e957",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.hard.0021",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{13} \\frac{1}{(n+0)(n+4)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$52091/114240$"
+      },
+      {
+        "id": "b",
+        "latex": "$52091/28560$"
+      },
+      {
+        "id": "c",
+        "latex": "$13/14$"
+      },
+      {
+        "id": "d",
+        "latex": "$22519/48960$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "52091/114240",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Use $\\frac{1}{x(x+4)}=\\frac{1}{4}\\left(\\frac{1}{x}-\\frac{1}{x+4}\\right)$. The remaining edge terms give $52091/114240$.",
+    "complexity_factor": 1.5,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions",
+      "starred"
+    ],
+    "checksum": "sha256-5cbd52047ad98270772152254163980f6a4b69cd0cec341fc7e02ecb22638485",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.hard.0022",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{14} \\frac{1}{(n+1)(n+3)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$55/153$"
+      },
+      {
+        "id": "b",
+        "latex": "$581/1632$"
+      },
+      {
+        "id": "c",
+        "latex": "$581/816$"
+      },
+      {
+        "id": "d",
+        "latex": "$7/16$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "581/1632",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Use $\\frac{1}{x(x+2)}=\\frac{1}{2}\\left(\\frac{1}{x}-\\frac{1}{x+2}\\right)$. The remaining edge terms give $581/1632$.",
+    "complexity_factor": 1.5,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions",
+      "starred"
+    ],
+    "checksum": "sha256-261ffe89421e9ac600a38e8e9b08b77160b4366c9bfced27bb486736fa36c232",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.hard.0023",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{15} \\frac{1}{(n+2)(n+5)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5/18$"
+      },
+      {
+        "id": "b",
+        "latex": "$421/1995$"
+      },
+      {
+        "id": "c",
+        "latex": "$1069/5130$"
+      },
+      {
+        "id": "d",
+        "latex": "$1069/1710$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "1069/5130",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Use $\\frac{1}{x(x+3)}=\\frac{1}{3}\\left(\\frac{1}{x}-\\frac{1}{x+3}\\right)$. The remaining edge terms give $1069/5130$.",
+    "complexity_factor": 1.5,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions",
+      "starred"
+    ],
+    "checksum": "sha256-f42f1fbccd268aefa850025bad5e87f48fbc82b18179d2718c8289bc1d34559a",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.hard.0024",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{16} \\frac{1}{(n+3)(n+7)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$15221/26565$"
+      },
+      {
+        "id": "b",
+        "latex": "$1/5$"
+      },
+      {
+        "id": "c",
+        "latex": "$123539/850080$"
+      },
+      {
+        "id": "d",
+        "latex": "$15221/106260$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "15221/106260",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Use $\\frac{1}{x(x+4)}=\\frac{1}{4}\\left(\\frac{1}{x}-\\frac{1}{x+4}\\right)$. The remaining edge terms give $15221/106260$.",
+    "complexity_factor": 1.5,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions",
+      "starred"
+    ],
+    "checksum": "sha256-8facc4fa4f8243ff53142017b929af16558b459c38763ec7928e0a8d0ff12484",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.hard.0025",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{17} \\frac{1}{(n+0)(n+2)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$119/171$"
+      },
+      {
+        "id": "b",
+        "latex": "$238/171$"
+      },
+      {
+        "id": "c",
+        "latex": "$17/18$"
+      },
+      {
+        "id": "d",
+        "latex": "$531/760$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "119/171",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Use $\\frac{1}{x(x+2)}=\\frac{1}{2}\\left(\\frac{1}{x}-\\frac{1}{x+2}\\right)$. The remaining edge terms give $119/171$.",
+    "complexity_factor": 1.5,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions",
+      "starred"
+    ],
+    "checksum": "sha256-c8fbcfd05762f9ccc582190beb0b7a1691112bdfccadd3da57cd4efa05de83dd",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.hard.0026",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{18} \\frac{1}{(n+1)(n+4)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6707/21252$"
+      },
+      {
+        "id": "b",
+        "latex": "$362/1155$"
+      },
+      {
+        "id": "c",
+        "latex": "$362/385$"
+      },
+      {
+        "id": "d",
+        "latex": "$9/20$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "362/1155",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Use $\\frac{1}{x(x+3)}=\\frac{1}{3}\\left(\\frac{1}{x}-\\frac{1}{x+3}\\right)$. The remaining edge terms give $362/1155$.",
+    "complexity_factor": 1.5,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions",
+      "starred"
+    ],
+    "checksum": "sha256-5502d54a191ceb1db3eab8ed426c6b5475d0433b84d2a8ff7d059a2b60231dc4",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.hard.0027",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{19} \\frac{1}{(n+2)(n+6)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$19/66$"
+      },
+      {
+        "id": "b",
+        "latex": "$141079/717600$"
+      },
+      {
+        "id": "c",
+        "latex": "$118313/607200$"
+      },
+      {
+        "id": "d",
+        "latex": "$118313/151800$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "118313/607200",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Use $\\frac{1}{x(x+4)}=\\frac{1}{4}\\left(\\frac{1}{x}-\\frac{1}{x+4}\\right)$. The remaining edge terms give $118313/607200$.",
+    "complexity_factor": 1.5,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions",
+      "starred"
+    ],
+    "checksum": "sha256-1a457e5bb637a09ec6033418a1df658adeed4d1992b6ae9fb22115ac3db3ab12",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.hard.0028",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{20} \\frac{1}{(n+3)(n+5)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$221/600$"
+      },
+      {
+        "id": "b",
+        "latex": "$5/24$"
+      },
+      {
+        "id": "c",
+        "latex": "$483/2600$"
+      },
+      {
+        "id": "d",
+        "latex": "$221/1200$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "221/1200",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Use $\\frac{1}{x(x+2)}=\\frac{1}{2}\\left(\\frac{1}{x}-\\frac{1}{x+2}\\right)$. The remaining edge terms give $221/1200$.",
+    "complexity_factor": 1.5,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions",
+      "starred"
+    ],
+    "checksum": "sha256-6e2d999b552d75e4ad4f472a3ffa8b686dbc34d92246b76c94bfa02ef91e916f",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.hard.0029",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{21} \\frac{1}{(n+0)(n+3)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10339/18216$"
+      },
+      {
+        "id": "b",
+        "latex": "$10339/6072$"
+      },
+      {
+        "id": "c",
+        "latex": "$21/22$"
+      },
+      {
+        "id": "d",
+        "latex": "$23573/41400$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "10339/18216",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Use $\\frac{1}{x(x+3)}=\\frac{1}{3}\\left(\\frac{1}{x}-\\frac{1}{x+3}\\right)$. The remaining edge terms give $10339/18216$.",
+    "complexity_factor": 1.5,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions",
+      "starred"
+    ],
+    "checksum": "sha256-e7ec88e593f95150062f0648e8457fa7d7372d755e34ad14978f27d079b9d472",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.hard.0030",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{22} \\frac{1}{(n+1)(n+5)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$139081/491400$"
+      },
+      {
+        "id": "b",
+        "latex": "$79057/280800$"
+      },
+      {
+        "id": "c",
+        "latex": "$79057/70200$"
+      },
+      {
+        "id": "d",
+        "latex": "$11/24$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "79057/280800",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Use $\\frac{1}{x(x+4)}=\\frac{1}{4}\\left(\\frac{1}{x}-\\frac{1}{x+4}\\right)$. The remaining edge terms give $79057/280800$.",
+    "complexity_factor": 1.5,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions",
+      "starred"
+    ],
+    "checksum": "sha256-bf1a37e31af4449f761c8730450e4601581a6263d84f857b83f2d5e7d2e8be2e",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.hard.0031",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{8} \\frac{1}{(n+2)(n+4)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8/33$"
+      },
+      {
+        "id": "b",
+        "latex": "$11/52$"
+      },
+      {
+        "id": "c",
+        "latex": "$9/44$"
+      },
+      {
+        "id": "d",
+        "latex": "$9/22$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "9/44",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Use $\\frac{1}{x(x+2)}=\\frac{1}{2}\\left(\\frac{1}{x}-\\frac{1}{x+2}\\right)$. The remaining edge terms give $9/44$.",
+    "complexity_factor": 1.5,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions",
+      "starred"
+    ],
+    "checksum": "sha256-e328b6f14bfc17e9fce65bbcc342dc4402418fca02576fafc7d9a120758469ef",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.hard.0032",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{9} \\frac{1}{(n+3)(n+6)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$731/1820$"
+      },
+      {
+        "id": "b",
+        "latex": "$9/52$"
+      },
+      {
+        "id": "c",
+        "latex": "$233/1680$"
+      },
+      {
+        "id": "d",
+        "latex": "$731/5460$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "731/5460",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Use $\\frac{1}{x(x+3)}=\\frac{1}{3}\\left(\\frac{1}{x}-\\frac{1}{x+3}\\right)$. The remaining edge terms give $731/5460$.",
+    "complexity_factor": 1.5,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions",
+      "starred"
+    ],
+    "checksum": "sha256-a01896eaa72c4c656a1f28fc577d3d0597edede64d78e29e09c8eaf633e6b03a",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.hard.0033",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{10} \\frac{1}{(n+0)(n+4)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3525/8008$"
+      },
+      {
+        "id": "b",
+        "latex": "$3525/2002$"
+      },
+      {
+        "id": "c",
+        "latex": "$10/11$"
+      },
+      {
+        "id": "d",
+        "latex": "$4873/10920$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "3525/8008",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Use $\\frac{1}{x(x+4)}=\\frac{1}{4}\\left(\\frac{1}{x}-\\frac{1}{x+4}\\right)$. The remaining edge terms give $3525/8008$.",
+    "complexity_factor": 1.5,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions",
+      "starred"
+    ],
+    "checksum": "sha256-cd76542c8263b958a6d0f3be3b60578ea5c50d9987c46ff72cac0ddd28323978",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.hard.0034",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{11} \\frac{1}{(n+1)(n+3)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$73/210$"
+      },
+      {
+        "id": "b",
+        "latex": "$187/546$"
+      },
+      {
+        "id": "c",
+        "latex": "$187/273$"
+      },
+      {
+        "id": "d",
+        "latex": "$11/26$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "187/546",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Use $\\frac{1}{x(x+2)}=\\frac{1}{2}\\left(\\frac{1}{x}-\\frac{1}{x+2}\\right)$. The remaining edge terms give $187/546$.",
+    "complexity_factor": 1.5,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions",
+      "starred"
+    ],
+    "checksum": "sha256-54c80b50e1fc00571ec04d90744dd2c937be764ea17effc9efc2ab1d82558e9b",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.hard.0035",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{12} \\frac{1}{(n+2)(n+5)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4/15$"
+      },
+      {
+        "id": "b",
+        "latex": "$7423/36720$"
+      },
+      {
+        "id": "c",
+        "latex": "$2429/12240$"
+      },
+      {
+        "id": "d",
+        "latex": "$2429/4080$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "2429/12240",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Use $\\frac{1}{x(x+3)}=\\frac{1}{3}\\left(\\frac{1}{x}-\\frac{1}{x+3}\\right)$. The remaining edge terms give $2429/12240$.",
+    "complexity_factor": 1.5,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions",
+      "starred"
+    ],
+    "checksum": "sha256-5039f6620251c78d6d49773bd6b260477a853e0e981a2149e050d97b540b5281",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.hard.0036",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{13} \\frac{1}{(n+3)(n+7)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$55198/101745$"
+      },
+      {
+        "id": "b",
+        "latex": "$13/68$"
+      },
+      {
+        "id": "c",
+        "latex": "$1657/11970$"
+      },
+      {
+        "id": "d",
+        "latex": "$27599/203490$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "27599/203490",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Use $\\frac{1}{x(x+4)}=\\frac{1}{4}\\left(\\frac{1}{x}-\\frac{1}{x+4}\\right)$. The remaining edge terms give $27599/203490$.",
+    "complexity_factor": 1.5,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions",
+      "starred"
+    ],
+    "checksum": "sha256-4e68c508297fba672b04cf9ae3c2852a360f9df33b93d216b09695be5a69f664",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.hard.0037",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{14} \\frac{1}{(n+0)(n+2)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$329/480$"
+      },
+      {
+        "id": "b",
+        "latex": "$329/240$"
+      },
+      {
+        "id": "c",
+        "latex": "$14/15$"
+      },
+      {
+        "id": "d",
+        "latex": "$375/544$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "329/480",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Use $\\frac{1}{x(x+2)}=\\frac{1}{2}\\left(\\frac{1}{x}-\\frac{1}{x+2}\\right)$. The remaining edge terms give $329/480$.",
+    "complexity_factor": 1.5,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions",
+      "starred"
+    ],
+    "checksum": "sha256-b94c45584ab083296cb3f2a48aad763a1e57acf565786f3ee24137fdea84a3fe",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.hard.0038",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{15} \\frac{1}{(n+1)(n+4)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$791/2565$"
+      },
+      {
+        "id": "b",
+        "latex": "$10655/34884$"
+      },
+      {
+        "id": "c",
+        "latex": "$10655/11628$"
+      },
+      {
+        "id": "d",
+        "latex": "$15/34$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "10655/34884",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Use $\\frac{1}{x(x+3)}=\\frac{1}{3}\\left(\\frac{1}{x}-\\frac{1}{x+3}\\right)$. The remaining edge terms give $10655/34884$.",
+    "complexity_factor": 1.5,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions",
+      "starred"
+    ],
+    "checksum": "sha256-1dea27f8588ad7f8809c7fbd7253338049e352529457dd09ea824c51e41cadf9",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.hard.0039",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{16} \\frac{1}{(n+2)(n+6)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16/57$"
+      },
+      {
+        "id": "b",
+        "latex": "$20281/106260$"
+      },
+      {
+        "id": "c",
+        "latex": "$16553/87780$"
+      },
+      {
+        "id": "d",
+        "latex": "$16553/21945$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "16553/87780",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Use $\\frac{1}{x(x+4)}=\\frac{1}{4}\\left(\\frac{1}{x}-\\frac{1}{x+4}\\right)$. The remaining edge terms give $16553/87780$.",
+    "complexity_factor": 1.5,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions",
+      "starred"
+    ],
+    "checksum": "sha256-028ca2a4e780f7f0c083b52a5e871b5114d2a7c4120f2d88809d62751170ff35",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.hard.0040",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{17} \\frac{1}{(n+3)(n+5)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1649/4620$"
+      },
+      {
+        "id": "b",
+        "latex": "$17/84$"
+      },
+      {
+        "id": "c",
+        "latex": "$1827/10120$"
+      },
+      {
+        "id": "d",
+        "latex": "$1649/9240$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1649/9240",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Use $\\frac{1}{x(x+2)}=\\frac{1}{2}\\left(\\frac{1}{x}-\\frac{1}{x+2}\\right)$. The remaining edge terms give $1649/9240$.",
+    "complexity_factor": 1.5,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions",
+      "starred"
+    ],
+    "checksum": "sha256-7bb40f3f3ede2dfebb26c127dff1d4898079954900e692dacf9d3d3d89505dd2",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.hard.0041",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{18} \\frac{1}{(n+0)(n+3)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4477/7980$"
+      },
+      {
+        "id": "b",
+        "latex": "$4477/2660$"
+      },
+      {
+        "id": "c",
+        "latex": "$18/19$"
+      },
+      {
+        "id": "d",
+        "latex": "$2603/4620$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "4477/7980",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Use $\\frac{1}{x(x+3)}=\\frac{1}{3}\\left(\\frac{1}{x}-\\frac{1}{x+3}\\right)$. The remaining edge terms give $4477/7980$.",
+    "complexity_factor": 1.5,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions",
+      "starred"
+    ],
+    "checksum": "sha256-c309543f2ab8109854d6e61d5be7c4aff06f9885a3af5633052ec6f7d0b62dec",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.hard.0042",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{19} \\frac{1}{(n+1)(n+5)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$168913/607200$"
+      },
+      {
+        "id": "b",
+        "latex": "$234859/850080$"
+      },
+      {
+        "id": "c",
+        "latex": "$234859/212520$"
+      },
+      {
+        "id": "d",
+        "latex": "$19/42$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "234859/850080",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Use $\\frac{1}{x(x+4)}=\\frac{1}{4}\\left(\\frac{1}{x}-\\frac{1}{x+4}\\right)$. The remaining edge terms give $234859/850080$.",
+    "complexity_factor": 1.5,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions",
+      "starred"
+    ],
+    "checksum": "sha256-a841c0911ee335533e15293fc27eedbe1be77e63d509e03a50f3619954a8238e",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.hard.0043",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{20} \\frac{1}{(n+2)(n+4)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$20/69$"
+      },
+      {
+        "id": "b",
+        "latex": "$301/1200$"
+      },
+      {
+        "id": "c",
+        "latex": "$275/1104$"
+      },
+      {
+        "id": "d",
+        "latex": "$275/552$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "275/1104",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Use $\\frac{1}{x(x+2)}=\\frac{1}{2}\\left(\\frac{1}{x}-\\frac{1}{x+2}\\right)$. The remaining edge terms give $275/1104$.",
+    "complexity_factor": 1.5,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions",
+      "starred"
+    ],
+    "checksum": "sha256-6672aa005dd1ea768c944d1bebb241d41233f175d1c9787e927bc73f1a0d9ca1",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.hard.0044",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{21} \\frac{1}{(n+3)(n+6)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$17591/35100$"
+      },
+      {
+        "id": "b",
+        "latex": "$21/100$"
+      },
+      {
+        "id": "c",
+        "latex": "$12419/73710$"
+      },
+      {
+        "id": "d",
+        "latex": "$17591/105300$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "17591/105300",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Use $\\frac{1}{x(x+3)}=\\frac{1}{3}\\left(\\frac{1}{x}-\\frac{1}{x+3}\\right)$. The remaining edge terms give $17591/105300$.",
+    "complexity_factor": 1.5,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions",
+      "starred"
+    ],
+    "checksum": "sha256-d7f427061c4e4d9c8a88f0a47fb628895edfa7d8bb8eeb75f9353dde7d1a2eaa",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.hard.0045",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{22} \\frac{1}{(n+0)(n+4)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$344399/717600$"
+      },
+      {
+        "id": "b",
+        "latex": "$344399/179400$"
+      },
+      {
+        "id": "c",
+        "latex": "$22/23$"
+      },
+      {
+        "id": "d",
+        "latex": "$135217/280800$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "344399/717600",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Use $\\frac{1}{x(x+4)}=\\frac{1}{4}\\left(\\frac{1}{x}-\\frac{1}{x+4}\\right)$. The remaining edge terms give $344399/717600$.",
+    "complexity_factor": 1.5,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions",
+      "starred"
+    ],
+    "checksum": "sha256-f3919bb91b7d5ff91072f04f2e65ee8f8b8628a6d108c11d86fc95afeec4f81c",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.hard.0046",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{8} \\frac{1}{(n+1)(n+3)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$29/88$"
+      },
+      {
+        "id": "b",
+        "latex": "$53/165$"
+      },
+      {
+        "id": "c",
+        "latex": "$106/165$"
+      },
+      {
+        "id": "d",
+        "latex": "$2/5$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "53/165",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Use $\\frac{1}{x(x+2)}=\\frac{1}{2}\\left(\\frac{1}{x}-\\frac{1}{x+2}\\right)$. The remaining edge terms give $53/165$.",
+    "complexity_factor": 1.5,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions",
+      "starred"
+    ],
+    "checksum": "sha256-94ade388ad7b79425aae88db4289d927da33d0048356a6ddad7399825a21902e",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.hard.0047",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{9} \\frac{1}{(n+2)(n+5)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1/4$"
+      },
+      {
+        "id": "b",
+        "latex": "$3103/16380$"
+      },
+      {
+        "id": "c",
+        "latex": "$251/1365$"
+      },
+      {
+        "id": "d",
+        "latex": "$251/455$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "251/1365",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Use $\\frac{1}{x(x+3)}=\\frac{1}{3}\\left(\\frac{1}{x}-\\frac{1}{x+3}\\right)$. The remaining edge terms give $251/1365$.",
+    "complexity_factor": 1.5,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions",
+      "starred"
+    ],
+    "checksum": "sha256-1482339727e8c1edfa7ef78e34e3105a1e66810b970c89704db51f0d6a26bdd9",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.hard.0048",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{10} \\frac{1}{(n+3)(n+7)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4761/9520$"
+      },
+      {
+        "id": "b",
+        "latex": "$5/28$"
+      },
+      {
+        "id": "c",
+        "latex": "$44209/342720$"
+      },
+      {
+        "id": "d",
+        "latex": "$4761/38080$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "4761/38080",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Use $\\frac{1}{x(x+4)}=\\frac{1}{4}\\left(\\frac{1}{x}-\\frac{1}{x+4}\\right)$. The remaining edge terms give $4761/38080$.",
+    "complexity_factor": 1.5,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions",
+      "starred"
+    ],
+    "checksum": "sha256-4a74ba38d98f2c2c2fe4d5e972e329384008ffc43a9d20f20b776d2417530fb7",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.hard.0049",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{11} \\frac{1}{(n+0)(n+2)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$209/312$"
+      },
+      {
+        "id": "b",
+        "latex": "$209/156$"
+      },
+      {
+        "id": "c",
+        "latex": "$11/12$"
+      },
+      {
+        "id": "d",
+        "latex": "$123/182$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "209/312",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Use $\\frac{1}{x(x+2)}=\\frac{1}{2}\\left(\\frac{1}{x}-\\frac{1}{x+2}\\right)$. The remaining edge terms give $209/312$.",
+    "complexity_factor": 1.5,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions",
+      "starred"
+    ],
+    "checksum": "sha256-509d80b933816494946f423226e11391356946d1acc4f4272f589636fc17efa1",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.hard.0050",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{12} \\frac{1}{(n+1)(n+4)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3653/12240$"
+      },
+      {
+        "id": "b",
+        "latex": "$1483/5040$"
+      },
+      {
+        "id": "c",
+        "latex": "$1483/1680$"
+      },
+      {
+        "id": "d",
+        "latex": "$3/7$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1483/5040",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Use $\\frac{1}{x(x+3)}=\\frac{1}{3}\\left(\\frac{1}{x}-\\frac{1}{x+3}\\right)$. The remaining edge terms give $1483/5040$.",
+    "complexity_factor": 1.5,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions",
+      "starred"
+    ],
+    "checksum": "sha256-cb6a8c664fd199f30a52a5648fed7c93963ca2c247b699e29d7c1eb29c914295",
     "status": "valid"
   }
 ]

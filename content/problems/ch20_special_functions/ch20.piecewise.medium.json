@@ -1,0 +1,2027 @@
+[
+  {
+    "id": "ch20.piecewise.medium.0001",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For what value of $a$ is $f(x)=\\begin{cases}2x - 6,&x<-3\\\\1x+a,&x\\ge -3\\end{cases}$ continuous at $x=-3$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-9$"
+      },
+      {
+        "id": "b",
+        "latex": "$-8$"
+      },
+      {
+        "id": "c",
+        "latex": "$-12$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Continuity requires the two formulas to agree at $x=-3$: $-12=-3+a$, so $a=-9$.",
+    "complexity_factor": 1.25,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "continuity",
+      "parameters"
+    ],
+    "checksum": "sha256-7f41deed7c416d81fb9b036ee608e67f3ab1290db6c659104243e9442e13085d",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.medium.0002",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=\\begin{cases}x + 1,&x<0\\\\x - 5,&x\\ge 0\\end{cases}$. Solve $f(x)=-2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3, 3$"
+      },
+      {
+        "id": "c",
+        "latex": "$-3$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-3, 3",
+    "answer_type": "string",
+    "accepted_forms": [
+      "3, -3"
+    ],
+    "solution_latex": "Solve each branch and keep only values in that branch's domain. This gives $x=-3$ and $x=3$.",
+    "complexity_factor": 1.25,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "equations"
+    ],
+    "checksum": "sha256-362f4fd197e320e136d263095d16b46d00a9f347297884ccd4621f543f939f38",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.medium.0003",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For what value of $a$ is $f(x)=\\begin{cases}3x + 2,&x<1\\\\5x+a,&x\\ge 1\\end{cases}$ continuous at $x=1$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Continuity requires the two formulas to agree at $x=1$: $5=5+a$, so $a=0$.",
+    "complexity_factor": 1.25,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "continuity",
+      "parameters"
+    ],
+    "checksum": "sha256-f9ff5bf6d0a051b172f7d241413eec75b0281be0a7c06fa7ca0cd94f9750a474",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.medium.0004",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=\\begin{cases}x + 9,&x<3\\\\x + 2,&x\\ge 3\\end{cases}$. Solve $f(x)=8$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1, 6$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-1, 6",
+    "answer_type": "string",
+    "accepted_forms": [
+      "6, -1"
+    ],
+    "solution_latex": "Solve each branch and keep only values in that branch's domain. This gives $x=-1$ and $x=6$.",
+    "complexity_factor": 1.25,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "equations"
+    ],
+    "checksum": "sha256-4c7ddb3912ab0add9f84901ec7518ef70292526e9dcc1661779f9d335faa3fb2",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.medium.0005",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For what value of $a$ is $f(x)=\\begin{cases}4x - 9,&x<5\\\\6x+a,&x\\ge 5\\end{cases}$ continuous at $x=5$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-19$"
+      },
+      {
+        "id": "b",
+        "latex": "$-18$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$30$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-19",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Continuity requires the two formulas to agree at $x=5$: $11=30+a$, so $a=-19$.",
+    "complexity_factor": 1.25,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "continuity",
+      "parameters"
+    ],
+    "checksum": "sha256-712ec5ad7c0f9b3e1ddfd52a59a08f5cf5197999f10427c457dfe505a85b0a3e",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.medium.0006",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=\\begin{cases}x - 3,&x<1\\\\x - 14,&x\\ge 1\\end{cases}$. Solve $f(x)=-7$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4, 7$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-4, 7",
+    "answer_type": "string",
+    "accepted_forms": [
+      "7, -4"
+    ],
+    "solution_latex": "Solve each branch and keep only values in that branch's domain. This gives $x=-4$ and $x=7$.",
+    "complexity_factor": 1.25,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "equations"
+    ],
+    "checksum": "sha256-98342f06056c0fef97b0d55264a29eb26867ac85dc6867dab8b3abee46f014ed",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.medium.0007",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For what value of $a$ is $f(x)=\\begin{cases}5x + 5,&x<-2\\\\10x+a,&x\\ge -2\\end{cases}$ continuous at $x=-2$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-5$"
+      },
+      {
+        "id": "b",
+        "latex": "$-20$"
+      },
+      {
+        "id": "c",
+        "latex": "$15$"
+      },
+      {
+        "id": "d",
+        "latex": "$16$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "15",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Continuity requires the two formulas to agree at $x=-2$: $-5=-20+a$, so $a=15$.",
+    "complexity_factor": 1.25,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "continuity",
+      "parameters"
+    ],
+    "checksum": "sha256-72b8001ca6eac9ad32932031fc77dceb764a26daebf1304112d3fcb8d7201b84",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.medium.0008",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=\\begin{cases}x + 15,&x<4\\\\x + 3,&x\\ge 4\\end{cases}$. Solve $f(x)=13$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2, 10$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-2, 10",
+    "answer_type": "string",
+    "accepted_forms": [
+      "10, -2"
+    ],
+    "solution_latex": "Solve each branch and keep only values in that branch's domain. This gives $x=-2$ and $x=10$.",
+    "complexity_factor": 1.25,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "equations"
+    ],
+    "checksum": "sha256-8f112321b28e97ea77a7293bec1b8d4313c4a522ab649406135b9865e3889bff",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.medium.0009",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For what value of $a$ is $f(x)=\\begin{cases}6x - 12,&x<4\\\\11x+a,&x\\ge 4\\end{cases}$ continuous at $x=4$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-32$"
+      },
+      {
+        "id": "b",
+        "latex": "$-31$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$44$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-32",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Continuity requires the two formulas to agree at $x=4$: $12=44+a$, so $a=-32$.",
+    "complexity_factor": 1.25,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "continuity",
+      "parameters"
+    ],
+    "checksum": "sha256-7eb221da927e796eb7ff9613dce4a180212aac1234c991fb4cb5cf30cba2d358",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.medium.0010",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=\\begin{cases}x - 7,&x<2\\\\x - 23,&x\\ge 2\\end{cases}$. Solve $f(x)=-12$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-5, 11$"
+      },
+      {
+        "id": "c",
+        "latex": "$-5$"
+      },
+      {
+        "id": "d",
+        "latex": "$11$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-5, 11",
+    "answer_type": "string",
+    "accepted_forms": [
+      "11, -5"
+    ],
+    "solution_latex": "Solve each branch and keep only values in that branch's domain. This gives $x=-5$ and $x=11$.",
+    "complexity_factor": 1.25,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "equations"
+    ],
+    "checksum": "sha256-6492860eecacd0422ae6c5b27779ba02907c5582ff707c8a6c3857bb8fbc6765",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.medium.0011",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For what value of $a$ is $f(x)=\\begin{cases}7x + 8,&x<-5\\\\15x+a,&x\\ge -5\\end{cases}$ continuous at $x=-5$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-27$"
+      },
+      {
+        "id": "b",
+        "latex": "$-75$"
+      },
+      {
+        "id": "c",
+        "latex": "$48$"
+      },
+      {
+        "id": "d",
+        "latex": "$49$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "48",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Continuity requires the two formulas to agree at $x=-5$: $-27=-75+a$, so $a=48$.",
+    "complexity_factor": 1.25,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "continuity",
+      "parameters"
+    ],
+    "checksum": "sha256-7069862a3705a8c5590ac8527978f2b9466dcc21e928ddecf2a31fc29351ab3a",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.medium.0012",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=\\begin{cases}x + 21,&x<5\\\\x + 4,&x\\ge 5\\end{cases}$. Solve $f(x)=18$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$14$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3, 14$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-3, 14",
+    "answer_type": "string",
+    "accepted_forms": [
+      "14, -3"
+    ],
+    "solution_latex": "Solve each branch and keep only values in that branch's domain. This gives $x=-3$ and $x=14$.",
+    "complexity_factor": 1.25,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "equations"
+    ],
+    "checksum": "sha256-23dccb915ff4fb2faf979db32fe633c16e89529907a7c8bafb2f662b026c5c90",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.medium.0013",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For what value of $a$ is $f(x)=\\begin{cases}8x - 15,&x<3\\\\16x+a,&x\\ge 3\\end{cases}$ continuous at $x=3$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-39$"
+      },
+      {
+        "id": "b",
+        "latex": "$-38$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$48$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-39",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Continuity requires the two formulas to agree at $x=3$: $9=48+a$, so $a=-39$.",
+    "complexity_factor": 1.25,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "continuity",
+      "parameters"
+    ],
+    "checksum": "sha256-265db3c30e9fc6c45bcfd02c42045cd5ef4e405c0b521509fb1e02034829a121",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.medium.0014",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=\\begin{cases}x - 11,&x<3\\\\x - 32,&x\\ge 3\\end{cases}$. Solve $f(x)=-17$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-6, 15$"
+      },
+      {
+        "id": "c",
+        "latex": "$-6$"
+      },
+      {
+        "id": "d",
+        "latex": "$15$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-6, 15",
+    "answer_type": "string",
+    "accepted_forms": [
+      "15, -6"
+    ],
+    "solution_latex": "Solve each branch and keep only values in that branch's domain. This gives $x=-6$ and $x=15$.",
+    "complexity_factor": 1.25,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "equations"
+    ],
+    "checksum": "sha256-ce2eeffd1674619d32ad297697b3dcb63d5ca48971e45c984d38f3784cd1571d",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.medium.0015",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For what value of $a$ is $f(x)=\\begin{cases}9x + 11,&x<7\\\\20x+a,&x\\ge 7\\end{cases}$ continuous at $x=7$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$74$"
+      },
+      {
+        "id": "b",
+        "latex": "$140$"
+      },
+      {
+        "id": "c",
+        "latex": "$-66$"
+      },
+      {
+        "id": "d",
+        "latex": "$-65$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-66",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Continuity requires the two formulas to agree at $x=7$: $74=140+a$, so $a=-66$.",
+    "complexity_factor": 1.25,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "continuity",
+      "parameters"
+    ],
+    "checksum": "sha256-95c11b1881dbde41dd621468066a99ec573be9176e45895e9e63fbb62a474540",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.medium.0016",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=\\begin{cases}x + 27,&x<6\\\\x + 5,&x\\ge 6\\end{cases}$. Solve $f(x)=23$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$18$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4, 18$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-4, 18",
+    "answer_type": "string",
+    "accepted_forms": [
+      "18, -4"
+    ],
+    "solution_latex": "Solve each branch and keep only values in that branch's domain. This gives $x=-4$ and $x=18$.",
+    "complexity_factor": 1.25,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "equations"
+    ],
+    "checksum": "sha256-6a27866a10fc623e2d4860191d0468f87fa83a7fe6760f050c57433161f6a7d4",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.medium.0017",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For what value of $a$ is $f(x)=\\begin{cases}10x - 18,&x<-4\\\\21x+a,&x\\ge -4\\end{cases}$ continuous at $x=-4$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$26$"
+      },
+      {
+        "id": "b",
+        "latex": "$27$"
+      },
+      {
+        "id": "c",
+        "latex": "$-58$"
+      },
+      {
+        "id": "d",
+        "latex": "$-84$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "26",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Continuity requires the two formulas to agree at $x=-4$: $-58=-84+a$, so $a=26$.",
+    "complexity_factor": 1.25,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "continuity",
+      "parameters"
+    ],
+    "checksum": "sha256-0f25b23e551719a1b7d36d00883f845e68bdb914278ef93b4f9370e5eb6b462b",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.medium.0018",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=\\begin{cases}x - 15,&x<4\\\\x - 41,&x\\ge 4\\end{cases}$. Solve $f(x)=-22$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-7, 19$"
+      },
+      {
+        "id": "c",
+        "latex": "$-7$"
+      },
+      {
+        "id": "d",
+        "latex": "$19$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-7, 19",
+    "answer_type": "string",
+    "accepted_forms": [
+      "19, -7"
+    ],
+    "solution_latex": "Solve each branch and keep only values in that branch's domain. This gives $x=-7$ and $x=19$.",
+    "complexity_factor": 1.25,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "equations"
+    ],
+    "checksum": "sha256-93531d938af5dcedfaf0fa2b9a720689cef2e40b3b2045f6ad9595a8a5fc5f2a",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.medium.0019",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For what value of $a$ is $f(x)=\\begin{cases}11x + 14,&x<6\\\\25x+a,&x\\ge 6\\end{cases}$ continuous at $x=6$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$80$"
+      },
+      {
+        "id": "b",
+        "latex": "$150$"
+      },
+      {
+        "id": "c",
+        "latex": "$-70$"
+      },
+      {
+        "id": "d",
+        "latex": "$-69$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-70",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Continuity requires the two formulas to agree at $x=6$: $80=150+a$, so $a=-70$.",
+    "complexity_factor": 1.25,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "continuity",
+      "parameters"
+    ],
+    "checksum": "sha256-3b32811f8ad42b9da1ce71de73e9a9edd9aa74f1b05df8f79c3b221881d26763",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.medium.0020",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=\\begin{cases}x + 33,&x<7\\\\x + 6,&x\\ge 7\\end{cases}$. Solve $f(x)=28$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-5$"
+      },
+      {
+        "id": "b",
+        "latex": "$22$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$-5, 22$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-5, 22",
+    "answer_type": "string",
+    "accepted_forms": [
+      "22, -5"
+    ],
+    "solution_latex": "Solve each branch and keep only values in that branch's domain. This gives $x=-5$ and $x=22$.",
+    "complexity_factor": 1.25,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "equations"
+    ],
+    "checksum": "sha256-5e1f0165d3d7e31dc155ad97878635fe92e1f0dabb31da373bc13c0c5e9ebfa7",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.medium.0021",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For what value of $a$ is $f(x)=\\begin{cases}12x - 21,&x<-7\\\\26x+a,&x\\ge -7\\end{cases}$ continuous at $x=-7$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$77$"
+      },
+      {
+        "id": "b",
+        "latex": "$78$"
+      },
+      {
+        "id": "c",
+        "latex": "$-105$"
+      },
+      {
+        "id": "d",
+        "latex": "$-182$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "77",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Continuity requires the two formulas to agree at $x=-7$: $-105=-182+a$, so $a=77$.",
+    "complexity_factor": 1.25,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "continuity",
+      "parameters"
+    ],
+    "checksum": "sha256-5e0a5780da36e311e863b2ed31d539083b83bc73a78e8b23907c0694451564b1",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.medium.0022",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=\\begin{cases}x - 19,&x<5\\\\x - 50,&x\\ge 5\\end{cases}$. Solve $f(x)=-27$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$-8, 23$"
+      },
+      {
+        "id": "c",
+        "latex": "$-8$"
+      },
+      {
+        "id": "d",
+        "latex": "$23$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-8, 23",
+    "answer_type": "string",
+    "accepted_forms": [
+      "23, -8"
+    ],
+    "solution_latex": "Solve each branch and keep only values in that branch's domain. This gives $x=-8$ and $x=23$.",
+    "complexity_factor": 1.25,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "equations"
+    ],
+    "checksum": "sha256-4a174141c918e36c45b91d592641d4ee93c62c406697f24d45453e970c216cf1",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.medium.0023",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For what value of $a$ is $f(x)=\\begin{cases}13x + 17,&x<5\\\\30x+a,&x\\ge 5\\end{cases}$ continuous at $x=5$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$82$"
+      },
+      {
+        "id": "b",
+        "latex": "$150$"
+      },
+      {
+        "id": "c",
+        "latex": "$-68$"
+      },
+      {
+        "id": "d",
+        "latex": "$-67$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-68",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Continuity requires the two formulas to agree at $x=5$: $82=150+a$, so $a=-68$.",
+    "complexity_factor": 1.25,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "continuity",
+      "parameters"
+    ],
+    "checksum": "sha256-e2f896fca5731e7dfdd2a9f49795ebb5ef49ad498a66a5c720fc3755a1fb5951",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.medium.0024",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=\\begin{cases}x + 39,&x<8\\\\x + 7,&x\\ge 8\\end{cases}$. Solve $f(x)=33$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-6$"
+      },
+      {
+        "id": "b",
+        "latex": "$26$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$-6, 26$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-6, 26",
+    "answer_type": "string",
+    "accepted_forms": [
+      "26, -6"
+    ],
+    "solution_latex": "Solve each branch and keep only values in that branch's domain. This gives $x=-6$ and $x=26$.",
+    "complexity_factor": 1.25,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "equations"
+    ],
+    "checksum": "sha256-8a40d074eff9dbaf1c116ccf179f60f4434556743d226c32c20cb89bb7d0b0e8",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.medium.0025",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For what value of $a$ is $f(x)=\\begin{cases}14x - 24,&x<9\\\\31x+a,&x\\ge 9\\end{cases}$ continuous at $x=9$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-177$"
+      },
+      {
+        "id": "b",
+        "latex": "$-176$"
+      },
+      {
+        "id": "c",
+        "latex": "$102$"
+      },
+      {
+        "id": "d",
+        "latex": "$279$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-177",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Continuity requires the two formulas to agree at $x=9$: $102=279+a$, so $a=-177$.",
+    "complexity_factor": 1.25,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "continuity",
+      "parameters"
+    ],
+    "checksum": "sha256-7bf25c5d13163f5b927179e4dc72fceae13911dbf8ff4754bf26f510516f815f",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.medium.0026",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=\\begin{cases}x - 23,&x<6\\\\x - 59,&x\\ge 6\\end{cases}$. Solve $f(x)=-32$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$-9, 27$"
+      },
+      {
+        "id": "c",
+        "latex": "$-9$"
+      },
+      {
+        "id": "d",
+        "latex": "$27$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-9, 27",
+    "answer_type": "string",
+    "accepted_forms": [
+      "27, -9"
+    ],
+    "solution_latex": "Solve each branch and keep only values in that branch's domain. This gives $x=-9$ and $x=27$.",
+    "complexity_factor": 1.25,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "equations"
+    ],
+    "checksum": "sha256-78d84ac9f91dbcd96ffebd86a6155f0f31da404d318402584332ffe0d780f44f",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.medium.0027",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For what value of $a$ is $f(x)=\\begin{cases}15x + 20,&x<-6\\\\35x+a,&x\\ge -6\\end{cases}$ continuous at $x=-6$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-70$"
+      },
+      {
+        "id": "b",
+        "latex": "$-210$"
+      },
+      {
+        "id": "c",
+        "latex": "$140$"
+      },
+      {
+        "id": "d",
+        "latex": "$141$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "140",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Continuity requires the two formulas to agree at $x=-6$: $-70=-210+a$, so $a=140$.",
+    "complexity_factor": 1.25,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "continuity",
+      "parameters"
+    ],
+    "checksum": "sha256-f8cb118c79d030d0a153884b42dffbdb82b3c62b1af66b0b1ba97e4508673650",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.medium.0028",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=\\begin{cases}x + 45,&x<9\\\\x + 8,&x\\ge 9\\end{cases}$. Solve $f(x)=38$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-7$"
+      },
+      {
+        "id": "b",
+        "latex": "$30$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$-7, 30$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-7, 30",
+    "answer_type": "string",
+    "accepted_forms": [
+      "30, -7"
+    ],
+    "solution_latex": "Solve each branch and keep only values in that branch's domain. This gives $x=-7$ and $x=30$.",
+    "complexity_factor": 1.25,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "equations"
+    ],
+    "checksum": "sha256-4bb327b07e0c01cd8427664008469a8d6a1c32a05fe0d4c73aec4914838c6c90",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.medium.0029",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For what value of $a$ is $f(x)=\\begin{cases}16x - 27,&x<8\\\\36x+a,&x\\ge 8\\end{cases}$ continuous at $x=8$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-187$"
+      },
+      {
+        "id": "b",
+        "latex": "$-186$"
+      },
+      {
+        "id": "c",
+        "latex": "$101$"
+      },
+      {
+        "id": "d",
+        "latex": "$288$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-187",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Continuity requires the two formulas to agree at $x=8$: $101=288+a$, so $a=-187$.",
+    "complexity_factor": 1.25,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "continuity",
+      "parameters"
+    ],
+    "checksum": "sha256-a61a132031eab3025b8db0c342e56f24f380da6f7b487deec5eb7fb705169f47",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.medium.0030",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=\\begin{cases}x - 27,&x<7\\\\x - 68,&x\\ge 7\\end{cases}$. Solve $f(x)=-37$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$-10, 31$"
+      },
+      {
+        "id": "c",
+        "latex": "$-10$"
+      },
+      {
+        "id": "d",
+        "latex": "$31$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-10, 31",
+    "answer_type": "string",
+    "accepted_forms": [
+      "31, -10"
+    ],
+    "solution_latex": "Solve each branch and keep only values in that branch's domain. This gives $x=-10$ and $x=31$.",
+    "complexity_factor": 1.25,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "equations"
+    ],
+    "checksum": "sha256-9cc2eff2fa6d52840612ca2121129b8fe0135bfb4edc281c668b326a0b1dc3cf",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.medium.0031",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For what value of $a$ is $f(x)=\\begin{cases}17x + 23,&x<-9\\\\40x+a,&x\\ge -9\\end{cases}$ continuous at $x=-9$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-130$"
+      },
+      {
+        "id": "b",
+        "latex": "$-360$"
+      },
+      {
+        "id": "c",
+        "latex": "$230$"
+      },
+      {
+        "id": "d",
+        "latex": "$231$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "230",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Continuity requires the two formulas to agree at $x=-9$: $-130=-360+a$, so $a=230$.",
+    "complexity_factor": 1.25,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "continuity",
+      "parameters"
+    ],
+    "checksum": "sha256-77f05757d935985493ac85770f1a6aced209d1f4adf2abc94b50d41f5171b936",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.medium.0032",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=\\begin{cases}x + 51,&x<10\\\\x + 9,&x\\ge 10\\end{cases}$. Solve $f(x)=43$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-8$"
+      },
+      {
+        "id": "b",
+        "latex": "$34$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$-8, 34$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-8, 34",
+    "answer_type": "string",
+    "accepted_forms": [
+      "34, -8"
+    ],
+    "solution_latex": "Solve each branch and keep only values in that branch's domain. This gives $x=-8$ and $x=34$.",
+    "complexity_factor": 1.25,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "equations"
+    ],
+    "checksum": "sha256-2e24b60464b8919140f5d9d65ab509a3d0fc60a6ce4c61d23eab332c791d78c1",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.medium.0033",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For what value of $a$ is $f(x)=\\begin{cases}18x - 30,&x<7\\\\41x+a,&x\\ge 7\\end{cases}$ continuous at $x=7$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-191$"
+      },
+      {
+        "id": "b",
+        "latex": "$-190$"
+      },
+      {
+        "id": "c",
+        "latex": "$96$"
+      },
+      {
+        "id": "d",
+        "latex": "$287$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-191",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Continuity requires the two formulas to agree at $x=7$: $96=287+a$, so $a=-191$.",
+    "complexity_factor": 1.25,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "continuity",
+      "parameters"
+    ],
+    "checksum": "sha256-2556a6909303571190ea813501da818090c42d3207b3603f420d2cd6cd38dfa9",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.medium.0034",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=\\begin{cases}x - 31,&x<8\\\\x - 77,&x\\ge 8\\end{cases}$. Solve $f(x)=-42$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$-11, 35$"
+      },
+      {
+        "id": "c",
+        "latex": "$-11$"
+      },
+      {
+        "id": "d",
+        "latex": "$35$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-11, 35",
+    "answer_type": "string",
+    "accepted_forms": [
+      "35, -11"
+    ],
+    "solution_latex": "Solve each branch and keep only values in that branch's domain. This gives $x=-11$ and $x=35$.",
+    "complexity_factor": 1.25,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "equations"
+    ],
+    "checksum": "sha256-6e7e33f01e97671b01d6dc392a49ec3326ed62f906a009cff8e7ee19128c891c",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.medium.0035",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For what value of $a$ is $f(x)=\\begin{cases}19x + 26,&x<11\\\\45x+a,&x\\ge 11\\end{cases}$ continuous at $x=11$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$235$"
+      },
+      {
+        "id": "b",
+        "latex": "$495$"
+      },
+      {
+        "id": "c",
+        "latex": "$-260$"
+      },
+      {
+        "id": "d",
+        "latex": "$-259$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-260",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Continuity requires the two formulas to agree at $x=11$: $235=495+a$, so $a=-260$.",
+    "complexity_factor": 1.25,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "continuity",
+      "parameters"
+    ],
+    "checksum": "sha256-d0ac75590bebbe9614d438182d1a545ea7fab30693f43abd27f0180459b027a5",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.medium.0036",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=\\begin{cases}x + 57,&x<11\\\\x + 10,&x\\ge 11\\end{cases}$. Solve $f(x)=48$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-9$"
+      },
+      {
+        "id": "b",
+        "latex": "$38$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$-9, 38$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-9, 38",
+    "answer_type": "string",
+    "accepted_forms": [
+      "38, -9"
+    ],
+    "solution_latex": "Solve each branch and keep only values in that branch's domain. This gives $x=-9$ and $x=38$.",
+    "complexity_factor": 1.25,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "equations"
+    ],
+    "checksum": "sha256-90327dfbb75cc19d0d0d73e3b47ae0031c93bb2453195a4b7240ac31941c472f",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.medium.0037",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For what value of $a$ is $f(x)=\\begin{cases}20x - 33,&x<-8\\\\46x+a,&x\\ge -8\\end{cases}$ continuous at $x=-8$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$175$"
+      },
+      {
+        "id": "b",
+        "latex": "$176$"
+      },
+      {
+        "id": "c",
+        "latex": "$-193$"
+      },
+      {
+        "id": "d",
+        "latex": "$-368$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "175",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Continuity requires the two formulas to agree at $x=-8$: $-193=-368+a$, so $a=175$.",
+    "complexity_factor": 1.25,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "continuity",
+      "parameters"
+    ],
+    "checksum": "sha256-85a359be1bccdc5bd33d41f70015cfb27537ee4e1b5a3847565d37cc6faf121a",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.medium.0038",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=\\begin{cases}x - 35,&x<9\\\\x - 86,&x\\ge 9\\end{cases}$. Solve $f(x)=-47$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$-12, 39$"
+      },
+      {
+        "id": "c",
+        "latex": "$-12$"
+      },
+      {
+        "id": "d",
+        "latex": "$39$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-12, 39",
+    "answer_type": "string",
+    "accepted_forms": [
+      "39, -12"
+    ],
+    "solution_latex": "Solve each branch and keep only values in that branch's domain. This gives $x=-12$ and $x=39$.",
+    "complexity_factor": 1.25,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "equations"
+    ],
+    "checksum": "sha256-659c817112bf6f51d2a86e8d75e8c40eedf834b655633e0a3da9383fd10b15bd",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.medium.0039",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For what value of $a$ is $f(x)=\\begin{cases}21x + 29,&x<10\\\\50x+a,&x\\ge 10\\end{cases}$ continuous at $x=10$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$239$"
+      },
+      {
+        "id": "b",
+        "latex": "$500$"
+      },
+      {
+        "id": "c",
+        "latex": "$-261$"
+      },
+      {
+        "id": "d",
+        "latex": "$-260$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-261",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Continuity requires the two formulas to agree at $x=10$: $239=500+a$, so $a=-261$.",
+    "complexity_factor": 1.25,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "continuity",
+      "parameters"
+    ],
+    "checksum": "sha256-5998e7fb02c181a0da285f4ac537faf1d1a0c9d54a41141d4cb87e6cac284323",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.medium.0040",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=\\begin{cases}x + 63,&x<12\\\\x + 11,&x\\ge 12\\end{cases}$. Solve $f(x)=53$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-10$"
+      },
+      {
+        "id": "b",
+        "latex": "$42$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$-10, 42$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-10, 42",
+    "answer_type": "string",
+    "accepted_forms": [
+      "42, -10"
+    ],
+    "solution_latex": "Solve each branch and keep only values in that branch's domain. This gives $x=-10$ and $x=42$.",
+    "complexity_factor": 1.25,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "equations"
+    ],
+    "checksum": "sha256-8c7b962ebda7ff8356b1213e61930095f99d77c83ca86cfb3e9eaade90a8d47d",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.medium.0041",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For what value of $a$ is $f(x)=\\begin{cases}22x - 36,&x<-11\\\\51x+a,&x\\ge -11\\end{cases}$ continuous at $x=-11$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$283$"
+      },
+      {
+        "id": "b",
+        "latex": "$284$"
+      },
+      {
+        "id": "c",
+        "latex": "$-278$"
+      },
+      {
+        "id": "d",
+        "latex": "$-561$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "283",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Continuity requires the two formulas to agree at $x=-11$: $-278=-561+a$, so $a=283$.",
+    "complexity_factor": 1.25,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "continuity",
+      "parameters"
+    ],
+    "checksum": "sha256-90d7ac85edb9f8042e60c510c21167b5ce6f0a3a993dd06b1f66a3abd9e66341",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.medium.0042",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=\\begin{cases}x - 39,&x<10\\\\x - 95,&x\\ge 10\\end{cases}$. Solve $f(x)=-52$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$-13, 43$"
+      },
+      {
+        "id": "c",
+        "latex": "$-13$"
+      },
+      {
+        "id": "d",
+        "latex": "$43$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-13, 43",
+    "answer_type": "string",
+    "accepted_forms": [
+      "43, -13"
+    ],
+    "solution_latex": "Solve each branch and keep only values in that branch's domain. This gives $x=-13$ and $x=43$.",
+    "complexity_factor": 1.25,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "equations"
+    ],
+    "checksum": "sha256-2245dfcb777241dc529e5ed1eb07fdf7ca6ab385535f094c77502386afc36310",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.medium.0043",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For what value of $a$ is $f(x)=\\begin{cases}23x + 32,&x<9\\\\55x+a,&x\\ge 9\\end{cases}$ continuous at $x=9$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$239$"
+      },
+      {
+        "id": "b",
+        "latex": "$495$"
+      },
+      {
+        "id": "c",
+        "latex": "$-256$"
+      },
+      {
+        "id": "d",
+        "latex": "$-255$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-256",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Continuity requires the two formulas to agree at $x=9$: $239=495+a$, so $a=-256$.",
+    "complexity_factor": 1.25,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "continuity",
+      "parameters"
+    ],
+    "checksum": "sha256-c78cdf9b98fb60fdfe63659ab8a82d258ef001fc45eb21707d7562e435d6028b",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.medium.0044",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=\\begin{cases}x + 69,&x<13\\\\x + 12,&x\\ge 13\\end{cases}$. Solve $f(x)=58$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-11$"
+      },
+      {
+        "id": "b",
+        "latex": "$46$"
+      },
+      {
+        "id": "c",
+        "latex": "$13$"
+      },
+      {
+        "id": "d",
+        "latex": "$-11, 46$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-11, 46",
+    "answer_type": "string",
+    "accepted_forms": [
+      "46, -11"
+    ],
+    "solution_latex": "Solve each branch and keep only values in that branch's domain. This gives $x=-11$ and $x=46$.",
+    "complexity_factor": 1.25,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "equations"
+    ],
+    "checksum": "sha256-b7ee2ed9232ccfef5a18188751720360ec35ca38991e130090b0810cef8b2846",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.medium.0045",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For what value of $a$ is $f(x)=\\begin{cases}24x - 39,&x<13\\\\56x+a,&x\\ge 13\\end{cases}$ continuous at $x=13$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-455$"
+      },
+      {
+        "id": "b",
+        "latex": "$-454$"
+      },
+      {
+        "id": "c",
+        "latex": "$273$"
+      },
+      {
+        "id": "d",
+        "latex": "$728$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-455",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Continuity requires the two formulas to agree at $x=13$: $273=728+a$, so $a=-455$.",
+    "complexity_factor": 1.25,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "continuity",
+      "parameters"
+    ],
+    "checksum": "sha256-036b796d03503d63554022b343f1dc715cd8f6b19f3bcd38e554a3213c063258",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.medium.0046",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=\\begin{cases}x - 43,&x<11\\\\x - 104,&x\\ge 11\\end{cases}$. Solve $f(x)=-57$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11$"
+      },
+      {
+        "id": "b",
+        "latex": "$-14, 47$"
+      },
+      {
+        "id": "c",
+        "latex": "$-14$"
+      },
+      {
+        "id": "d",
+        "latex": "$47$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-14, 47",
+    "answer_type": "string",
+    "accepted_forms": [
+      "47, -14"
+    ],
+    "solution_latex": "Solve each branch and keep only values in that branch's domain. This gives $x=-14$ and $x=47$.",
+    "complexity_factor": 1.25,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "equations"
+    ],
+    "checksum": "sha256-e416a444f5ef3a3c8a2bf63b994c74b6a4c264b3412ef3feef6a5c011e85aa2f",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.medium.0047",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For what value of $a$ is $f(x)=\\begin{cases}25x + 35,&x<-10\\\\60x+a,&x\\ge -10\\end{cases}$ continuous at $x=-10$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-215$"
+      },
+      {
+        "id": "b",
+        "latex": "$-600$"
+      },
+      {
+        "id": "c",
+        "latex": "$385$"
+      },
+      {
+        "id": "d",
+        "latex": "$386$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "385",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Continuity requires the two formulas to agree at $x=-10$: $-215=-600+a$, so $a=385$.",
+    "complexity_factor": 1.25,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "continuity",
+      "parameters"
+    ],
+    "checksum": "sha256-7fb9f38259e092578ebb752f578f7fc19e2154d7415f8ea10bd3559c8bb827ff",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.medium.0048",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=\\begin{cases}x + 75,&x<14\\\\x + 13,&x\\ge 14\\end{cases}$. Solve $f(x)=63$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-12$"
+      },
+      {
+        "id": "b",
+        "latex": "$50$"
+      },
+      {
+        "id": "c",
+        "latex": "$14$"
+      },
+      {
+        "id": "d",
+        "latex": "$-12, 50$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-12, 50",
+    "answer_type": "string",
+    "accepted_forms": [
+      "50, -12"
+    ],
+    "solution_latex": "Solve each branch and keep only values in that branch's domain. This gives $x=-12$ and $x=50$.",
+    "complexity_factor": 1.25,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "equations"
+    ],
+    "checksum": "sha256-c152ec5fce6a172087a961e8e07ad3e02d3ab5941ec4344770601bac525597a2",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.medium.0049",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For what value of $a$ is $f(x)=\\begin{cases}26x - 42,&x<12\\\\61x+a,&x\\ge 12\\end{cases}$ continuous at $x=12$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-462$"
+      },
+      {
+        "id": "b",
+        "latex": "$-461$"
+      },
+      {
+        "id": "c",
+        "latex": "$270$"
+      },
+      {
+        "id": "d",
+        "latex": "$732$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-462",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Continuity requires the two formulas to agree at $x=12$: $270=732+a$, so $a=-462$.",
+    "complexity_factor": 1.25,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "continuity",
+      "parameters"
+    ],
+    "checksum": "sha256-2e610fa22d8c226350d8ee9e395e2cab0a0f6e23053d91a2bb1546b27a919d26",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.medium.0050",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=\\begin{cases}x - 47,&x<12\\\\x - 113,&x\\ge 12\\end{cases}$. Solve $f(x)=-62$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12$"
+      },
+      {
+        "id": "b",
+        "latex": "$-15, 51$"
+      },
+      {
+        "id": "c",
+        "latex": "$-15$"
+      },
+      {
+        "id": "d",
+        "latex": "$51$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-15, 51",
+    "answer_type": "string",
+    "accepted_forms": [
+      "51, -15"
+    ],
+    "solution_latex": "Solve each branch and keep only values in that branch's domain. This gives $x=-15$ and $x=51$.",
+    "complexity_factor": 1.25,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "equations"
+    ],
+    "checksum": "sha256-c66453ef8aab0f7f9c89500fa7466d41c584d0c1fcce9a99cc2f8bb140afb316",
+    "status": "valid"
+  }
+]

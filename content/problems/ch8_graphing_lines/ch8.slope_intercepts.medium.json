@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "ch8.slope_intercepts.medium.0001",
+    "topic_id": "ch8.slope_intercepts",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the slope of $2x + 2y = 4$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\frac{-3}{2}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{-1}{1}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{-1}{2}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{1}{1}$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-1/1",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Solve for $y$: $2y=-2x+4$, so the slope is $\\frac{-1}{1}$.",
+    "complexity_factor": 1.16,
+    "source_section": "8.5",
+    "tags": [
+      "slope",
+      "standard-form"
+    ],
+    "checksum": "sha256-d3ad2c6db57a5d737444af5f57d28a50a316a5c84ec2b854e079c56606ed9578",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_intercepts.medium.0002",
+    "topic_id": "ch8.slope_intercepts",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the $x$-intercept point of $2x + 3y = 6$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0, 3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3, 0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-3, 0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4, 0)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(3,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Set $y=0$: $2x=6$, so $x=3$.",
+    "complexity_factor": 1.15,
+    "source_section": "8.5",
+    "tags": [
+      "intercepts",
+      "standard-form"
+    ],
+    "checksum": "sha256-c17e95579258ca8a016d2e7225ed7f5e0924b8ccce7a899c3d97bcc6d16eeb93",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_intercepts.medium.0003",
+    "topic_id": "ch8.slope_intercepts",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the $y$-intercept point of $2x + 4y = 36$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0, 9)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(9, 0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0, -9)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1, 9)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(0,9)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Set $x=0$: $4y=36$, so $y=9$.",
+    "complexity_factor": 1.15,
+    "source_section": "8.5",
+    "tags": [
+      "intercepts",
+      "standard-form"
+    ],
+    "checksum": "sha256-dbf952318e57f7a5e60fefc379b0fee8e2aa663b977530f83db52693ab847c88",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_intercepts.medium.0004",
+    "topic_id": "ch8.slope_intercepts",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Write $2x + 5y = 10$ in slope-intercept form.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = \\frac{-2}{5}x - 2$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = \\frac{-2}{5}x + 2$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = \\frac{-2}{5}x + 3$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = \\frac{2}{5}x + 2$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "y=\\frac{-2}{5}x+2",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Move $2x$ to the other side and divide by $5$: $y = \\frac{-2}{5}x + 2$.",
+    "complexity_factor": 1.18,
+    "source_section": "8.5",
+    "tags": [
+      "slope-intercept",
+      "standard-form"
+    ],
+    "checksum": "sha256-c11c90d6b9ee783a97b3eff94bacdd5f2b410e9d16670493a8af484fc27fa819",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_intercepts.medium.0005",
+    "topic_id": "ch8.slope_intercepts",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A line has intercepts $(6, 0)$ and $(0, 3)$. What is its slope?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\frac{-1}{2}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{-2}{1}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{1}{2}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{-1}{3}$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-1/2",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "The slope is $\\frac{3-0}{0-6}=\\frac{-1}{2}$.",
+    "complexity_factor": 1.16,
+    "source_section": "8.5",
+    "tags": [
+      "slope",
+      "intercepts"
+    ],
+    "checksum": "sha256-f80b7c52dde5b393e11d4a35f415670698f6e4e21bcf8ed1504e82d44822f291",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_intercepts.medium.0006",
+    "topic_id": "ch8.slope_intercepts",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the slope of $3x + 2y = 21$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\frac{-2}{3}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{-1}{1}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{-3}{2}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{3}{2}$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-3/2",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Solve for $y$: $2y=-3x+21$, so the slope is $\\frac{-3}{2}$.",
+    "complexity_factor": 1.16,
+    "source_section": "8.5",
+    "tags": [
+      "slope",
+      "standard-form"
+    ],
+    "checksum": "sha256-ccd7f23a01ed9ba7614edd3571d38c5d012fa0ecf19f5c48c42633448f6474fa",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_intercepts.medium.0007",
+    "topic_id": "ch8.slope_intercepts",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the $x$-intercept point of $3x + 3y = 24$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-8, 0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(9, 0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(8, 0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0, 8)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(8,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Set $y=0$: $3x=24$, so $x=8$.",
+    "complexity_factor": 1.15,
+    "source_section": "8.5",
+    "tags": [
+      "intercepts",
+      "standard-form"
+    ],
+    "checksum": "sha256-f5725bdfe84f27fbdc790a0c580fb89fcdfb87df2f886c27c8f4afe4892e79f5",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_intercepts.medium.0008",
+    "topic_id": "ch8.slope_intercepts",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the $y$-intercept point of $3x + 4y = 36$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0, -9)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1, 9)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0, 9)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(9, 0)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(0,9)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Set $x=0$: $4y=36$, so $y=9$.",
+    "complexity_factor": 1.15,
+    "source_section": "8.5",
+    "tags": [
+      "intercepts",
+      "standard-form"
+    ],
+    "checksum": "sha256-0bccdfe07fe85d9e4f78952300e0bdcbba973c8fc67c97d6696a5a9de216e2ad",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_intercepts.medium.0009",
+    "topic_id": "ch8.slope_intercepts",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Write $3x + 5y = 30$ in slope-intercept form.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = \\frac{-3}{5}x + 6$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = \\frac{3}{5}x + 6$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = \\frac{-3}{5}x - 6$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = \\frac{-3}{5}x + 7$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "y=\\frac{-3}{5}x+6",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Move $3x$ to the other side and divide by $5$: $y = \\frac{-3}{5}x + 6$.",
+    "complexity_factor": 1.18,
+    "source_section": "8.5",
+    "tags": [
+      "slope-intercept",
+      "standard-form"
+    ],
+    "checksum": "sha256-98222d764479a7e70fe8edd2080fbdf624d4db3c4455fb88f3bf385ec8586c65",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_intercepts.medium.0010",
+    "topic_id": "ch8.slope_intercepts",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A line has intercepts $(11, 0)$ and $(0, 3)$. What is its slope?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\frac{-3}{11}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{-11}{3}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{3}{11}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{-2}{11}$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-3/11",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "The slope is $\\frac{3-0}{0-11}=\\frac{-3}{11}$.",
+    "complexity_factor": 1.16,
+    "source_section": "8.5",
+    "tags": [
+      "slope",
+      "intercepts"
+    ],
+    "checksum": "sha256-6c347fc2b2d7b7c99c3439ca54fba1ed5f04698ff3ffbeeb062913444e23bec6",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_intercepts.medium.0011",
+    "topic_id": "ch8.slope_intercepts",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the slope of $4x + 2y = 48$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\frac{-2}{1}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{2}{1}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{-1}{2}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{-3}{2}$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-2/1",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Solve for $y$: $2y=-4x+48$, so the slope is $\\frac{-2}{1}$.",
+    "complexity_factor": 1.16,
+    "source_section": "8.5",
+    "tags": [
+      "slope",
+      "standard-form"
+    ],
+    "checksum": "sha256-7d5202b4dac07664242dd4bce2cf6f01e78addbc4322dcd5c366a3cf66593791",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_intercepts.medium.0012",
+    "topic_id": "ch8.slope_intercepts",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the $x$-intercept point of $4x + 3y = 8$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2, 0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2, 0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0, 2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3, 0)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(2,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Set $y=0$: $4x=8$, so $x=2$.",
+    "complexity_factor": 1.15,
+    "source_section": "8.5",
+    "tags": [
+      "intercepts",
+      "standard-form"
+    ],
+    "checksum": "sha256-34d50295c3d1a48390b4d3ca1204dd7599367a1d17b3406f4152776b49972e85",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_intercepts.medium.0013",
+    "topic_id": "ch8.slope_intercepts",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the $y$-intercept point of $4x + 4y = 36$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(9, 0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0, 9)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1, 9)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0, -9)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(0,9)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Set $x=0$: $4y=36$, so $y=9$.",
+    "complexity_factor": 1.15,
+    "source_section": "8.5",
+    "tags": [
+      "intercepts",
+      "standard-form"
+    ],
+    "checksum": "sha256-6316374c15be602341b3383ee6a2702525e136d2d71b3a37c87d06005e2e68a7",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_intercepts.medium.0014",
+    "topic_id": "ch8.slope_intercepts",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Write $4x + 5y = 16$ in slope-intercept form.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = \\frac{-4}{5}x + \\frac{16}{5}$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = \\frac{-4}{5}x - \\frac{16}{5}$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = \\frac{4}{5}x + \\frac{16}{5}$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = \\frac{-4}{5}x + \\frac{21}{5}$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "y=\\frac{-4}{5}x+\\frac{16}{5}",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Move $4x$ to the other side and divide by $5$: $y = \\frac{-4}{5}x + \\frac{16}{5}$.",
+    "complexity_factor": 1.18,
+    "source_section": "8.5",
+    "tags": [
+      "slope-intercept",
+      "standard-form"
+    ],
+    "checksum": "sha256-e04dc54370d05f33a371316cac7a777e6df44c5b7e370a5791a1f503a31a3fbe",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_intercepts.medium.0015",
+    "topic_id": "ch8.slope_intercepts",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A line has intercepts $(5, 0)$ and $(0, 3)$. What is its slope?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\frac{-5}{3}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{3}{5}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{-2}{5}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{-3}{5}$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-3/5",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "The slope is $\\frac{3-0}{0-5}=\\frac{-3}{5}$.",
+    "complexity_factor": 1.16,
+    "source_section": "8.5",
+    "tags": [
+      "slope",
+      "intercepts"
+    ],
+    "checksum": "sha256-0c5825898c6d1238506ab0de8c7cdce72c863bb610f4374e86413ce59a8de8fa",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_intercepts.medium.0016",
+    "topic_id": "ch8.slope_intercepts",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the slope of $5x + 2y = 30$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\frac{-2}{5}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{-2}{1}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{-5}{2}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{5}{2}$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-5/2",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Solve for $y$: $2y=-5x+30$, so the slope is $\\frac{-5}{2}$.",
+    "complexity_factor": 1.16,
+    "source_section": "8.5",
+    "tags": [
+      "slope",
+      "standard-form"
+    ],
+    "checksum": "sha256-65e4e0ee380158bd902d7c427a93c66e720e93405527fd71529e20b7646e5a45",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_intercepts.medium.0017",
+    "topic_id": "ch8.slope_intercepts",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the $x$-intercept point of $5x + 3y = 35$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(7, 0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0, 7)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-7, 0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(8, 0)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(7,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Set $y=0$: $5x=35$, so $x=7$.",
+    "complexity_factor": 1.15,
+    "source_section": "8.5",
+    "tags": [
+      "intercepts",
+      "standard-form"
+    ],
+    "checksum": "sha256-cc6c66d7cf08ab9f932592167b6948cd580fe1c814be74daeb586fdf5ba9f675",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_intercepts.medium.0018",
+    "topic_id": "ch8.slope_intercepts",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the $y$-intercept point of $5x + 4y = 36$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0, -9)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1, 9)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0, 9)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(9, 0)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(0,9)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Set $x=0$: $4y=36$, so $y=9$.",
+    "complexity_factor": 1.15,
+    "source_section": "8.5",
+    "tags": [
+      "intercepts",
+      "standard-form"
+    ],
+    "checksum": "sha256-8ffcaab26a09eccab3870bb1333cee6f360d03d5e2d0c5d2c8bd7867f36897dd",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_intercepts.medium.0019",
+    "topic_id": "ch8.slope_intercepts",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Write $5x + 5y = 45$ in slope-intercept form.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = -x + 10$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = -x + 9$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = x + 9$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -x - 9$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "y=-x+9",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Move $5x$ to the other side and divide by $5$: $y = -x + 9$.",
+    "complexity_factor": 1.18,
+    "source_section": "8.5",
+    "tags": [
+      "slope-intercept",
+      "standard-form"
+    ],
+    "checksum": "sha256-3847981affb0360cefb965fa618b7b6c547a1372d40434e1b0ddcc2029c3dce8",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_intercepts.medium.0020",
+    "topic_id": "ch8.slope_intercepts",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A line has intercepts $(10, 0)$ and $(0, 3)$. What is its slope?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\frac{-10}{3}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{-1}{5}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{3}{10}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{-3}{10}$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-3/10",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "The slope is $\\frac{3-0}{0-10}=\\frac{-3}{10}$.",
+    "complexity_factor": 1.16,
+    "source_section": "8.5",
+    "tags": [
+      "slope",
+      "intercepts"
+    ],
+    "checksum": "sha256-5c8482d74a0de0e7b628eb32b07cb9910ce36509aed422c2ee1cbe8cd82233be",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_intercepts.medium.0021",
+    "topic_id": "ch8.slope_intercepts",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the slope of $6x + 2y = 66$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\frac{-3}{1}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{-5}{2}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{3}{1}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{-1}{3}$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-3/1",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Solve for $y$: $2y=-6x+66$, so the slope is $\\frac{-3}{1}$.",
+    "complexity_factor": 1.16,
+    "source_section": "8.5",
+    "tags": [
+      "slope",
+      "standard-form"
+    ],
+    "checksum": "sha256-d0d33359ce558bcaae87a531228d7c5ead159275b468a13ca278baf41b3d020e",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_intercepts.medium.0022",
+    "topic_id": "ch8.slope_intercepts",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the $x$-intercept point of $6x + 3y = 72$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(13, 0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0, 12)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-12, 0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(12, 0)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(12,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Set $y=0$: $6x=72$, so $x=12$.",
+    "complexity_factor": 1.15,
+    "source_section": "8.5",
+    "tags": [
+      "intercepts",
+      "standard-form"
+    ],
+    "checksum": "sha256-0a431782451e38c615afd2e34aa0a5217f25343db74d0a1c57c90b977c69bd36",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_intercepts.medium.0023",
+    "topic_id": "ch8.slope_intercepts",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the $y$-intercept point of $6x + 4y = 36$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(9, 0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0, 9)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1, 9)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0, -9)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(0,9)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Set $x=0$: $4y=36$, so $y=9$.",
+    "complexity_factor": 1.15,
+    "source_section": "8.5",
+    "tags": [
+      "intercepts",
+      "standard-form"
+    ],
+    "checksum": "sha256-b9dfe2646623fb08d0a2b750688a7029a3538bc0dc8b6002fdb3c1c11b9b579f",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_intercepts.medium.0024",
+    "topic_id": "ch8.slope_intercepts",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Write $6x + 5y = 18$ in slope-intercept form.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = \\frac{-6}{5}x + \\frac{18}{5}$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = \\frac{-6}{5}x - \\frac{18}{5}$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = \\frac{6}{5}x + \\frac{18}{5}$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = \\frac{-6}{5}x + \\frac{23}{5}$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "y=\\frac{-6}{5}x+\\frac{18}{5}",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Move $6x$ to the other side and divide by $5$: $y = \\frac{-6}{5}x + \\frac{18}{5}$.",
+    "complexity_factor": 1.18,
+    "source_section": "8.5",
+    "tags": [
+      "slope-intercept",
+      "standard-form"
+    ],
+    "checksum": "sha256-58f619a130c76a8354899ec686248d544257265c902733a9c7e4f7a973ff8dec",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_intercepts.medium.0025",
+    "topic_id": "ch8.slope_intercepts",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A line has intercepts $(4, 0)$ and $(0, 3)$. What is its slope?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\frac{3}{4}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{-1}{2}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{-3}{4}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{-4}{3}$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-3/4",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "The slope is $\\frac{3-0}{0-4}=\\frac{-3}{4}$.",
+    "complexity_factor": 1.16,
+    "source_section": "8.5",
+    "tags": [
+      "slope",
+      "intercepts"
+    ],
+    "checksum": "sha256-43ea32e8ecc92ac58c2f32560bddf956936feb6a3e8b68d55a279f3ef179d729",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_intercepts.medium.0026",
+    "topic_id": "ch8.slope_intercepts",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the slope of $2x + 3y = 10$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\frac{-2}{3}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{-3}{2}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{2}{3}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{-1}{3}$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-2/3",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Solve for $y$: $3y=-2x+10$, so the slope is $\\frac{-2}{3}$.",
+    "complexity_factor": 1.16,
+    "source_section": "8.5",
+    "tags": [
+      "slope",
+      "standard-form"
+    ],
+    "checksum": "sha256-c502cd9e4f0300fcd5f257846a7ec069480e53feb1aef4a9462cd82c2a9bbafb",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_intercepts.medium.0027",
+    "topic_id": "ch8.slope_intercepts",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the $x$-intercept point of $2x + 4y = 12$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-6, 0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(6, 0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0, 6)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(7, 0)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(6,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Set $y=0$: $2x=12$, so $x=6$.",
+    "complexity_factor": 1.15,
+    "source_section": "8.5",
+    "tags": [
+      "intercepts",
+      "standard-form"
+    ],
+    "checksum": "sha256-ef0d1599b8949dfe0f86257cccc8b5b77af0e220f8e8c79f93baa016cca87bfc",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_intercepts.medium.0028",
+    "topic_id": "ch8.slope_intercepts",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the $y$-intercept point of $2x + 5y = 45$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1, 9)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0, -9)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(9, 0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0, 9)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(0,9)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Set $x=0$: $5y=45$, so $y=9$.",
+    "complexity_factor": 1.15,
+    "source_section": "8.5",
+    "tags": [
+      "intercepts",
+      "standard-form"
+    ],
+    "checksum": "sha256-2c1a3d905569a6e2bb027c3ec03073fa4ee2edf61c10165ae1e7fd85bf73904a",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_intercepts.medium.0029",
+    "topic_id": "ch8.slope_intercepts",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Write $2x + 6y = 16$ in slope-intercept form.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = \\frac{-1}{3}x - \\frac{8}{3}$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = \\frac{-1}{3}x + \\frac{8}{3}$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = \\frac{1}{3}x + \\frac{8}{3}$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = \\frac{-1}{3}x + \\frac{11}{3}$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "y=\\frac{-1}{3}x+\\frac{8}{3}",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Move $2x$ to the other side and divide by $6$: $y = \\frac{-1}{3}x + \\frac{8}{3}$.",
+    "complexity_factor": 1.18,
+    "source_section": "8.5",
+    "tags": [
+      "slope-intercept",
+      "standard-form"
+    ],
+    "checksum": "sha256-d7d3db1c468fc36ec906b0c901f5b62ddf58412d4d9f51c2c43f30679e023198",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_intercepts.medium.0030",
+    "topic_id": "ch8.slope_intercepts",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A line has intercepts $(9, 0)$ and $(0, 3)$. What is its slope?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\frac{-1}{3}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{-3}{1}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{1}{3}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{-2}{9}$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-1/3",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "The slope is $\\frac{3-0}{0-9}=\\frac{-1}{3}$.",
+    "complexity_factor": 1.16,
+    "source_section": "8.5",
+    "tags": [
+      "slope",
+      "intercepts"
+    ],
+    "checksum": "sha256-828579a3204b1eee4d44e7c462b296bfa66d25818fe3763a5dcbe1e4ef69c882",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_intercepts.medium.0031",
+    "topic_id": "ch8.slope_intercepts",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the slope of $3x + 3y = 30$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\frac{1}{1}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{-2}{3}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{-4}{3}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{-1}{1}$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-1/1",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Solve for $y$: $3y=-3x+30$, so the slope is $\\frac{-1}{1}$.",
+    "complexity_factor": 1.16,
+    "source_section": "8.5",
+    "tags": [
+      "slope",
+      "standard-form"
+    ],
+    "checksum": "sha256-3ea6121c628648eaeb6d55d7a074e5ec0d28dc0275a89da4220a97ea694d6d76",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_intercepts.medium.0032",
+    "topic_id": "ch8.slope_intercepts",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the $x$-intercept point of $3x + 4y = 33$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(12, 0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0, 11)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-11, 0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(11, 0)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(11,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Set $y=0$: $3x=33$, so $x=11$.",
+    "complexity_factor": 1.15,
+    "source_section": "8.5",
+    "tags": [
+      "intercepts",
+      "standard-form"
+    ],
+    "checksum": "sha256-61cec490f38f2a571b2af96e4756862e0a3d97bf7af7e633e176fff53d80b8e4",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_intercepts.medium.0033",
+    "topic_id": "ch8.slope_intercepts",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the $y$-intercept point of $3x + 5y = 45$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0, 9)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(9, 0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1, 9)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0, -9)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(0,9)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Set $x=0$: $5y=45$, so $y=9$.",
+    "complexity_factor": 1.15,
+    "source_section": "8.5",
+    "tags": [
+      "intercepts",
+      "standard-form"
+    ],
+    "checksum": "sha256-71fa9ee54ee2dae06034bfb4aae39aa2e14ba14b3ce5ecb214cc2e9bdd7f163f",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_intercepts.medium.0034",
+    "topic_id": "ch8.slope_intercepts",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Write $3x + 6y = 6$ in slope-intercept form.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = \\frac{-1}{2}x + 2$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = \\frac{1}{2}x + 1$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = \\frac{-1}{2}x + 1$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = \\frac{-1}{2}x - 1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "y=\\frac{-1}{2}x+1",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Move $3x$ to the other side and divide by $6$: $y = \\frac{-1}{2}x + 1$.",
+    "complexity_factor": 1.18,
+    "source_section": "8.5",
+    "tags": [
+      "slope-intercept",
+      "standard-form"
+    ],
+    "checksum": "sha256-e222f51a4ea09fe07aec43b22ac81152dbe05d9401df7f93dbbc45adf103f835",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_intercepts.medium.0035",
+    "topic_id": "ch8.slope_intercepts",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A line has intercepts $(3, 0)$ and $(0, 3)$. What is its slope?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\frac{-1}{1}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{-4}{3}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{1}{1}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{-2}{3}$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-1/1",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "The slope is $\\frac{3-0}{0-3}=\\frac{-1}{1}$.",
+    "complexity_factor": 1.16,
+    "source_section": "8.5",
+    "tags": [
+      "slope",
+      "intercepts"
+    ],
+    "checksum": "sha256-2a262cf22deeac0820a367a05d15ad103a6fecdaf4b5ed4b7319affdbdf7080a",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_intercepts.medium.0036",
+    "topic_id": "ch8.slope_intercepts",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the slope of $4x + 3y = 16$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\frac{-1}{1}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{-4}{3}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{-3}{4}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{4}{3}$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-4/3",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Solve for $y$: $3y=-4x+16$, so the slope is $\\frac{-4}{3}$.",
+    "complexity_factor": 1.16,
+    "source_section": "8.5",
+    "tags": [
+      "slope",
+      "standard-form"
+    ],
+    "checksum": "sha256-c5fa208cbd4393041ed257f6ad51e9325787c962eb8b8054ce17412c221439b7",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_intercepts.medium.0037",
+    "topic_id": "ch8.slope_intercepts",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the $x$-intercept point of $4x + 4y = 20$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-5, 0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(6, 0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0, 5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(5, 0)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(5,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Set $y=0$: $4x=20$, so $x=5$.",
+    "complexity_factor": 1.15,
+    "source_section": "8.5",
+    "tags": [
+      "intercepts",
+      "standard-form"
+    ],
+    "checksum": "sha256-98697c77ef8c5364531bbf4acb2be822791cacbc2c0651a760d9386598cd6d92",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_intercepts.medium.0038",
+    "topic_id": "ch8.slope_intercepts",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the $y$-intercept point of $4x + 5y = 45$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0, 9)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0, -9)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1, 9)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(9, 0)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(0,9)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Set $x=0$: $5y=45$, so $y=9$.",
+    "complexity_factor": 1.15,
+    "source_section": "8.5",
+    "tags": [
+      "intercepts",
+      "standard-form"
+    ],
+    "checksum": "sha256-46a240acacbfe838c59556bdcb9257fe7c37feb0c00b527dc24fc7e1f8e83538",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_intercepts.medium.0039",
+    "topic_id": "ch8.slope_intercepts",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Write $4x + 6y = 28$ in slope-intercept form.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = \\frac{-2}{3}x + \\frac{17}{3}$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = \\frac{2}{3}x + \\frac{14}{3}$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = \\frac{-2}{3}x - \\frac{14}{3}$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = \\frac{-2}{3}x + \\frac{14}{3}$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "y=\\frac{-2}{3}x+\\frac{14}{3}",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Move $4x$ to the other side and divide by $6$: $y = \\frac{-2}{3}x + \\frac{14}{3}$.",
+    "complexity_factor": 1.18,
+    "source_section": "8.5",
+    "tags": [
+      "slope-intercept",
+      "standard-form"
+    ],
+    "checksum": "sha256-38a43e4feffd56dfed1619279f5fad672bc716467e637e2246b5e6fb3aaaf0ba",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_intercepts.medium.0040",
+    "topic_id": "ch8.slope_intercepts",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A line has intercepts $(8, 0)$ and $(0, 3)$. What is its slope?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\frac{-1}{4}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{-3}{8}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{3}{8}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{-8}{3}$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-3/8",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "The slope is $\\frac{3-0}{0-8}=\\frac{-3}{8}$.",
+    "complexity_factor": 1.16,
+    "source_section": "8.5",
+    "tags": [
+      "slope",
+      "intercepts"
+    ],
+    "checksum": "sha256-75420dd6dc4d1ce968a46c2d4151672b239c868aef6d2d231bbe4f489a57bbe0",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_intercepts.medium.0041",
+    "topic_id": "ch8.slope_intercepts",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the slope of $5x + 3y = 45$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\frac{-3}{5}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{5}{3}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{-5}{3}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{-4}{3}$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-5/3",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Solve for $y$: $3y=-5x+45$, so the slope is $\\frac{-5}{3}$.",
+    "complexity_factor": 1.16,
+    "source_section": "8.5",
+    "tags": [
+      "slope",
+      "standard-form"
+    ],
+    "checksum": "sha256-0d0fb232a953d5c33fa11188d041f56dbe45d52b281bb5f7c0b5630d1579c0e2",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_intercepts.medium.0042",
+    "topic_id": "ch8.slope_intercepts",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the $x$-intercept point of $5x + 4y = 50$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-10, 0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(10, 0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0, 10)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(11, 0)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(10,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Set $y=0$: $5x=50$, so $x=10$.",
+    "complexity_factor": 1.15,
+    "source_section": "8.5",
+    "tags": [
+      "intercepts",
+      "standard-form"
+    ],
+    "checksum": "sha256-160ad7da55f4b54247fc81ef69722219317a8bf5d2f1612ff4d37592996d7100",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_intercepts.medium.0043",
+    "topic_id": "ch8.slope_intercepts",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the $y$-intercept point of $5x + 5y = 45$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1, 9)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0, 9)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(9, 0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0, -9)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(0,9)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Set $x=0$: $5y=45$, so $y=9$.",
+    "complexity_factor": 1.15,
+    "source_section": "8.5",
+    "tags": [
+      "intercepts",
+      "standard-form"
+    ],
+    "checksum": "sha256-d36a4287cf11e1b040a74314727612b73a9e0e0d955901399c5f21914455ff65",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_intercepts.medium.0044",
+    "topic_id": "ch8.slope_intercepts",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Write $5x + 6y = 60$ in slope-intercept form.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = \\frac{5}{6}x + 10$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = \\frac{-5}{6}x - 10$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = \\frac{-5}{6}x + 10$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = \\frac{-5}{6}x + 11$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "y=\\frac{-5}{6}x+10",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Move $5x$ to the other side and divide by $6$: $y = \\frac{-5}{6}x + 10$.",
+    "complexity_factor": 1.18,
+    "source_section": "8.5",
+    "tags": [
+      "slope-intercept",
+      "standard-form"
+    ],
+    "checksum": "sha256-bc39ddbd999c3fd4b98f61afb5c5893e1c3846bb9a01c8767c734d3d7cea574e",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_intercepts.medium.0045",
+    "topic_id": "ch8.slope_intercepts",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A line has intercepts $(2, 0)$ and $(0, 3)$. What is its slope?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\frac{-2}{3}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{-1}{1}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{3}{2}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{-3}{2}$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-3/2",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "The slope is $\\frac{3-0}{0-2}=\\frac{-3}{2}$.",
+    "complexity_factor": 1.16,
+    "source_section": "8.5",
+    "tags": [
+      "slope",
+      "intercepts"
+    ],
+    "checksum": "sha256-bb684a52902e73e83d8dc62958284ed068b467a7dd37e65959fc187b073ba6bc",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_intercepts.medium.0046",
+    "topic_id": "ch8.slope_intercepts",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the slope of $6x + 3y = 18$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\frac{-2}{1}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{2}{1}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{-1}{2}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{-5}{3}$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-2/1",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Solve for $y$: $3y=-6x+18$, so the slope is $\\frac{-2}{1}$.",
+    "complexity_factor": 1.16,
+    "source_section": "8.5",
+    "tags": [
+      "slope",
+      "standard-form"
+    ],
+    "checksum": "sha256-2cc1ac1f3d37b538e9da5d9d31256069216bdd4515db31daa8bd751429d9bf71",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_intercepts.medium.0047",
+    "topic_id": "ch8.slope_intercepts",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the $x$-intercept point of $6x + 4y = 24$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-4, 0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0, 4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4, 0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(5, 0)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(4,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Set $y=0$: $6x=24$, so $x=4$.",
+    "complexity_factor": 1.15,
+    "source_section": "8.5",
+    "tags": [
+      "intercepts",
+      "standard-form"
+    ],
+    "checksum": "sha256-48f7a36098a2e17948ee51d1e0b7c1b116947b685aebdb82d805a442022e5d33",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_intercepts.medium.0048",
+    "topic_id": "ch8.slope_intercepts",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the $y$-intercept point of $6x + 5y = 45$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0, 9)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(9, 0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1, 9)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0, -9)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(0,9)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Set $x=0$: $5y=45$, so $y=9$.",
+    "complexity_factor": 1.15,
+    "source_section": "8.5",
+    "tags": [
+      "intercepts",
+      "standard-form"
+    ],
+    "checksum": "sha256-c1fafa4145a4bad45a3c331d2328025c70e038dc351f30213e6c90f4fad02d9b",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_intercepts.medium.0049",
+    "topic_id": "ch8.slope_intercepts",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Write $6x + 6y = 36$ in slope-intercept form.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = x + 6$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = -x + 7$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = -x + 6$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -x - 6$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "y=-x+6",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Move $6x$ to the other side and divide by $6$: $y = -x + 6$.",
+    "complexity_factor": 1.18,
+    "source_section": "8.5",
+    "tags": [
+      "slope-intercept",
+      "standard-form"
+    ],
+    "checksum": "sha256-952b11d5df3d40b0faad0cacfbbe067f09e7f5255a3adfacff8c0afa3e48f663",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.slope_intercepts.medium.0050",
+    "topic_id": "ch8.slope_intercepts",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A line has intercepts $(7, 0)$ and $(0, 3)$. What is its slope?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\frac{-3}{7}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{-7}{3}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{-2}{7}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{3}{7}$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-3/7",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "The slope is $\\frac{3-0}{0-7}=\\frac{-3}{7}$.",
+    "complexity_factor": 1.16,
+    "source_section": "8.5",
+    "tags": [
+      "slope",
+      "intercepts"
+    ],
+    "checksum": "sha256-a4637762145d8ba030441ace1520e646c6190ffa3d1873d4200cf3647cb2dc2f",
+    "status": "valid"
+  }
+]

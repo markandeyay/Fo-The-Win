@@ -1,0 +1,2038 @@
+[
+  {
+    "id": "ch15.trivial_inequality.easy.0001",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+5)^2<0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\emptyset$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\text{all real numbers}$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=-5$"
+      },
+      {
+        "id": "d",
+        "latex": "$x\\ne -5$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "no solution",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "A square cannot be negative, so there is no real solution.",
+    "complexity_factor": 0.95,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative"
+    ],
+    "checksum": "sha256-f3937866b0a83bcf5a3f3dc3d61fcf4c45a7dafc37347731d4fecf31bb976ff1",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.easy.0002",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+4)^2\\le 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\text{all real numbers}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\emptyset$"
+      },
+      {
+        "id": "c",
+        "latex": "$x\\ne -4$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=-4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x=-4",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "A square is at least $0$, so it is at most $0$ only when it equals $0$. Thus $x=-4$.",
+    "complexity_factor": 0.95,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative"
+    ],
+    "checksum": "sha256-1efb3ab22bd3c076e74b298b65e2ffd509525b3881bf03091858da8e554e00ae",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.easy.0003",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+3)^2>0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x\\ne -3$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\emptyset$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=-3$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\text{all real numbers}$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "x not equal -3",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The square is positive for every real $x$ except where (x+3)=0$, so $x\\ne -3$.",
+    "complexity_factor": 0.95,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative"
+    ],
+    "checksum": "sha256-5033bd7e4fdac16ef5de85ebc11135a5c1b239bacc626ed273839bdcf24a93f0",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.easy.0004",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+2)^2\\ge 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\emptyset$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\text{all real numbers}$"
+      },
+      {
+        "id": "c",
+        "latex": "$x\\ne -2$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=-2$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "all real numbers",
+    "answer_type": "string",
+    "accepted_forms": [
+      "all real x",
+      "every real number"
+    ],
+    "solution_latex": "A square is always nonnegative, so $(x+2)^2\\ge 0$ for every real $x$.",
+    "complexity_factor": 0.95,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative"
+    ],
+    "checksum": "sha256-b3af97fa28d15cb704e919634c3e17b085ef31bbc89d58568a96898b1faf37e5",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.easy.0005",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+1)^2<0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\text{all real numbers}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\emptyset$"
+      },
+      {
+        "id": "d",
+        "latex": "$x\\ne -1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "no solution",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "A square cannot be negative, so there is no real solution.",
+    "complexity_factor": 0.95,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative"
+    ],
+    "checksum": "sha256-80182f0ffd9d83fb8b3a0d0b7c4d05b0c5a7a0f6a4dbc85a9ec2473aeb262fd6",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.easy.0006",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $x^2\\le 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\emptyset$"
+      },
+      {
+        "id": "b",
+        "latex": "$x\\ne 0$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\text{all real numbers}$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=0$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x=0",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "A square is at least $0$, so it is at most $0$ only when it equals $0$. Thus $x=0$.",
+    "complexity_factor": 0.95,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative"
+    ],
+    "checksum": "sha256-a1edf426ae9243abed03f6e1c3f81a5efb8c6a77ed0b49629156ef19451c852c",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.easy.0007",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x-1)^2>0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x\\ne 1$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=1$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\emptyset$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\text{all real numbers}$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "x not equal 1",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The square is positive for every real $x$ except where (x-1)=0$, so $x\\ne 1$.",
+    "complexity_factor": 0.95,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative"
+    ],
+    "checksum": "sha256-87e5ede928aa207c0c3c81b560a3ed5e59f31791e7381ff1a2c28c9b6c9ec5b9",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.easy.0008",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x-2)^2\\ge 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\emptyset$"
+      },
+      {
+        "id": "b",
+        "latex": "$x\\ne 2$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\text{all real numbers}$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "all real numbers",
+    "answer_type": "string",
+    "accepted_forms": [
+      "all real x",
+      "every real number"
+    ],
+    "solution_latex": "A square is always nonnegative, so $(x-2)^2\\ge 0$ for every real $x$.",
+    "complexity_factor": 0.95,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative"
+    ],
+    "checksum": "sha256-2ca9f526f7aa5493fe0106553bd1751e7e3aa4c1b0ac6fd48fe4375e69c245af",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.easy.0009",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x-3)^2<0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\emptyset$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=3$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\text{all real numbers}$"
+      },
+      {
+        "id": "d",
+        "latex": "$x\\ne 3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "no solution",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "A square cannot be negative, so there is no real solution.",
+    "complexity_factor": 0.95,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative"
+    ],
+    "checksum": "sha256-0e20fedc515d95c8f85a4909604e4f332b299be9928d09e893f2c8f01243eb34",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.easy.0010",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x-4)^2\\le 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\text{all real numbers}$"
+      },
+      {
+        "id": "b",
+        "latex": "$x\\ne 4$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\emptyset$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x=4",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "A square is at least $0$, so it is at most $0$ only when it equals $0$. Thus $x=4$.",
+    "complexity_factor": 0.95,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative"
+    ],
+    "checksum": "sha256-2696e8ec220890d0e8e16b2b1d0a2aec54d71014d072d44c731f1ee358cfef4c",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.easy.0011",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x-5)^2>0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\emptyset$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=5$"
+      },
+      {
+        "id": "c",
+        "latex": "$x\\ne 5$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\text{all real numbers}$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "x not equal 5",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The square is positive for every real $x$ except where (x-5)=0$, so $x\\ne 5$.",
+    "complexity_factor": 0.95,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative"
+    ],
+    "checksum": "sha256-1509780dd856c08b3551884329220bad201bc251a3b99663a38f2a2ef68fc041",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.easy.0012",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x-6)^2\\ge 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x\\ne 6$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\text{all real numbers}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\emptyset$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=6$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "all real numbers",
+    "answer_type": "string",
+    "accepted_forms": [
+      "all real x",
+      "every real number"
+    ],
+    "solution_latex": "A square is always nonnegative, so $(x-6)^2\\ge 0$ for every real $x$.",
+    "complexity_factor": 0.95,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative"
+    ],
+    "checksum": "sha256-d4ca06ca38dcb72b391e00f91c6708f4fed8c829f341a541b8ad145b8a0f2350",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.easy.0013",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+6)^2<0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\emptyset$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\text{all real numbers}$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=-6$"
+      },
+      {
+        "id": "d",
+        "latex": "$x\\ne -6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "no solution",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "A square cannot be negative, so there is no real solution.",
+    "complexity_factor": 0.95,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative"
+    ],
+    "checksum": "sha256-f5158e411e107e8b1df2bc708186615bf03890a73c2a7e48227a4c2be1790477",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.easy.0014",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+5)^2\\le 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\text{all real numbers}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\emptyset$"
+      },
+      {
+        "id": "c",
+        "latex": "$x\\ne -5$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=-5$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x=-5",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "A square is at least $0$, so it is at most $0$ only when it equals $0$. Thus $x=-5$.",
+    "complexity_factor": 0.95,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative"
+    ],
+    "checksum": "sha256-1be8943098a28a6246b7e0218ca64c2ddb5dded96fd4b1cbb43e692d077785db",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.easy.0015",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+4)^2>0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x\\ne -4$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\emptyset$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=-4$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\text{all real numbers}$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "x not equal -4",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The square is positive for every real $x$ except where (x+4)=0$, so $x\\ne -4$.",
+    "complexity_factor": 0.95,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative"
+    ],
+    "checksum": "sha256-8a9db66fa457ac6f1259d833bb3b90cfa48fd0ece69f38b2b58ba2594cf5855e",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.easy.0016",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+3)^2\\ge 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\emptyset$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\text{all real numbers}$"
+      },
+      {
+        "id": "c",
+        "latex": "$x\\ne -3$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=-3$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "all real numbers",
+    "answer_type": "string",
+    "accepted_forms": [
+      "all real x",
+      "every real number"
+    ],
+    "solution_latex": "A square is always nonnegative, so $(x+3)^2\\ge 0$ for every real $x$.",
+    "complexity_factor": 0.95,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative"
+    ],
+    "checksum": "sha256-97fa1e4863de53f6575783e38514940d63a2e70ad0f4923fc7b79f822937d247",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.easy.0017",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+2)^2<0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\text{all real numbers}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\emptyset$"
+      },
+      {
+        "id": "d",
+        "latex": "$x\\ne -2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "no solution",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "A square cannot be negative, so there is no real solution.",
+    "complexity_factor": 0.95,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative"
+    ],
+    "checksum": "sha256-fbc289fdb83389a271165b702251b079c93156813d3fc1885e32758a00516c69",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.easy.0018",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+1)^2\\le 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\emptyset$"
+      },
+      {
+        "id": "b",
+        "latex": "$x\\ne -1$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\text{all real numbers}$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=-1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x=-1",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "A square is at least $0$, so it is at most $0$ only when it equals $0$. Thus $x=-1$.",
+    "complexity_factor": 0.95,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative"
+    ],
+    "checksum": "sha256-fcdb174b267d715fadd6d248ea9421c0a0effcf02a41af38fb19a89646ef8e50",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.easy.0019",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $x^2>0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x\\ne 0$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=0$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\emptyset$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\text{all real numbers}$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "x not equal 0",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The square is positive for every real $x$ except where x=0$, so $x\\ne 0$.",
+    "complexity_factor": 0.95,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative"
+    ],
+    "checksum": "sha256-d2b25bd2715ae6b75c443563b63f85ead7f340c5d351c2e15fd80ed69c56b0f3",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.easy.0020",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x-1)^2\\ge 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\emptyset$"
+      },
+      {
+        "id": "b",
+        "latex": "$x\\ne 1$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\text{all real numbers}$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "all real numbers",
+    "answer_type": "string",
+    "accepted_forms": [
+      "all real x",
+      "every real number"
+    ],
+    "solution_latex": "A square is always nonnegative, so $(x-1)^2\\ge 0$ for every real $x$.",
+    "complexity_factor": 0.95,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative"
+    ],
+    "checksum": "sha256-e76e15518895126c661090ba60c6cd70f3fb2e8060eb7c471047a46f73486c46",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.easy.0021",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x-2)^2<0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\emptyset$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=2$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\text{all real numbers}$"
+      },
+      {
+        "id": "d",
+        "latex": "$x\\ne 2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "no solution",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "A square cannot be negative, so there is no real solution.",
+    "complexity_factor": 0.95,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative"
+    ],
+    "checksum": "sha256-108cea908de3b045fb9cbd5d9cd7d4c31998def262a0a21fd3de662afe413e43",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.easy.0022",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x-3)^2\\le 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\text{all real numbers}$"
+      },
+      {
+        "id": "b",
+        "latex": "$x\\ne 3$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\emptyset$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x=3",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "A square is at least $0$, so it is at most $0$ only when it equals $0$. Thus $x=3$.",
+    "complexity_factor": 0.95,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative"
+    ],
+    "checksum": "sha256-78b32d3657c0b50b018e119bf3f9af1ec2c116c9049e4c066e2089baed9c568f",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.easy.0023",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x-4)^2>0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\emptyset$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=4$"
+      },
+      {
+        "id": "c",
+        "latex": "$x\\ne 4$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\text{all real numbers}$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "x not equal 4",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The square is positive for every real $x$ except where (x-4)=0$, so $x\\ne 4$.",
+    "complexity_factor": 0.95,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative"
+    ],
+    "checksum": "sha256-20fcefcdbdd026f0fedcf90ce6d60171d41179aef454fd05885fdc9849677de3",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.easy.0024",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x-5)^2\\ge 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x\\ne 5$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\text{all real numbers}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\emptyset$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=5$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "all real numbers",
+    "answer_type": "string",
+    "accepted_forms": [
+      "all real x",
+      "every real number"
+    ],
+    "solution_latex": "A square is always nonnegative, so $(x-5)^2\\ge 0$ for every real $x$.",
+    "complexity_factor": 0.95,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative"
+    ],
+    "checksum": "sha256-6e35ec1e2df007400eb555b26970335fe3602fa83703d7a1bf9d05e2337632bc",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.easy.0025",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x-6)^2<0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\emptyset$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\text{all real numbers}$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=6$"
+      },
+      {
+        "id": "d",
+        "latex": "$x\\ne 6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "no solution",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "A square cannot be negative, so there is no real solution.",
+    "complexity_factor": 0.95,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative"
+    ],
+    "checksum": "sha256-68839bf062549d70323ca4ee7bce567f622ba6e5a0dba883fa2aaccdc0209c36",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.easy.0026",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+6)^2\\le 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\text{all real numbers}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\emptyset$"
+      },
+      {
+        "id": "c",
+        "latex": "$x\\ne -6$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=-6$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x=-6",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "A square is at least $0$, so it is at most $0$ only when it equals $0$. Thus $x=-6$.",
+    "complexity_factor": 0.95,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative"
+    ],
+    "checksum": "sha256-808ca9669efe4a7edeff7a1edb10d264b17867c646a3e8bd5982951a2a816114",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.easy.0027",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+5)^2>0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x\\ne -5$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\emptyset$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=-5$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\text{all real numbers}$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "x not equal -5",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The square is positive for every real $x$ except where (x+5)=0$, so $x\\ne -5$.",
+    "complexity_factor": 0.95,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative"
+    ],
+    "checksum": "sha256-019c58bd374298992689f50d6eb5e39f9ac6c90e34b521ebd5a9afa0b2d3859f",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.easy.0028",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+4)^2\\ge 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\emptyset$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\text{all real numbers}$"
+      },
+      {
+        "id": "c",
+        "latex": "$x\\ne -4$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=-4$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "all real numbers",
+    "answer_type": "string",
+    "accepted_forms": [
+      "all real x",
+      "every real number"
+    ],
+    "solution_latex": "A square is always nonnegative, so $(x+4)^2\\ge 0$ for every real $x$.",
+    "complexity_factor": 0.95,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative"
+    ],
+    "checksum": "sha256-92ff57568d642b5d0e224524935b389c97bc2283aa8c5681ec770c4e2760f6b3",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.easy.0029",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+3)^2<0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\text{all real numbers}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\emptyset$"
+      },
+      {
+        "id": "d",
+        "latex": "$x\\ne -3$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "no solution",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "A square cannot be negative, so there is no real solution.",
+    "complexity_factor": 0.95,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative"
+    ],
+    "checksum": "sha256-3adb95030ef301b64b8686401ec3881488a187fd8ebccb9f8074d58340517d2e",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.easy.0030",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+2)^2\\le 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\emptyset$"
+      },
+      {
+        "id": "b",
+        "latex": "$x\\ne -2$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\text{all real numbers}$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=-2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x=-2",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "A square is at least $0$, so it is at most $0$ only when it equals $0$. Thus $x=-2$.",
+    "complexity_factor": 0.95,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative"
+    ],
+    "checksum": "sha256-3797eb1b065949fd4265fa7e4ccb47f1b4605df5b553cd575fcfd0ae15467973",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.easy.0031",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+1)^2>0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x\\ne -1$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\emptyset$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\text{all real numbers}$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "x not equal -1",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The square is positive for every real $x$ except where (x+1)=0$, so $x\\ne -1$.",
+    "complexity_factor": 0.95,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative"
+    ],
+    "checksum": "sha256-5936d755d1878a1bacdb18aa4d62f644024e81625b9972b066415d44f9d2c3c3",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.easy.0032",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $x^2\\ge 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\emptyset$"
+      },
+      {
+        "id": "b",
+        "latex": "$x\\ne 0$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\text{all real numbers}$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=0$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "all real numbers",
+    "answer_type": "string",
+    "accepted_forms": [
+      "all real x",
+      "every real number"
+    ],
+    "solution_latex": "A square is always nonnegative, so $x^2\\ge 0$ for every real $x$.",
+    "complexity_factor": 0.95,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative"
+    ],
+    "checksum": "sha256-4d4bbbe58c7500f5c148483c7b3d1ade1edb7570e6f34c15026dbab3f0f64823",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.easy.0033",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x-1)^2<0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\emptyset$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=1$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\text{all real numbers}$"
+      },
+      {
+        "id": "d",
+        "latex": "$x\\ne 1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "no solution",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "A square cannot be negative, so there is no real solution.",
+    "complexity_factor": 0.95,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative"
+    ],
+    "checksum": "sha256-74c8c04b2e0841c1ebe98f472849a11456e30c711fc02427b807a30e270d2379",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.easy.0034",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x-2)^2\\le 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\text{all real numbers}$"
+      },
+      {
+        "id": "b",
+        "latex": "$x\\ne 2$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\emptyset$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x=2",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "A square is at least $0$, so it is at most $0$ only when it equals $0$. Thus $x=2$.",
+    "complexity_factor": 0.95,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative"
+    ],
+    "checksum": "sha256-c52acde14591ddc23f1e0829fe70b727078ef243e872847d434a06ff14ae48c5",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.easy.0035",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x-3)^2>0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\emptyset$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=3$"
+      },
+      {
+        "id": "c",
+        "latex": "$x\\ne 3$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\text{all real numbers}$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "x not equal 3",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The square is positive for every real $x$ except where (x-3)=0$, so $x\\ne 3$.",
+    "complexity_factor": 0.95,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative"
+    ],
+    "checksum": "sha256-2ae7ab18c1d8df359f114ea00950bcc7aaa735bd18480fbc2d59e8a1e0a6a431",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.easy.0036",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x-4)^2\\ge 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x\\ne 4$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\text{all real numbers}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\emptyset$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=4$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "all real numbers",
+    "answer_type": "string",
+    "accepted_forms": [
+      "all real x",
+      "every real number"
+    ],
+    "solution_latex": "A square is always nonnegative, so $(x-4)^2\\ge 0$ for every real $x$.",
+    "complexity_factor": 0.95,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative"
+    ],
+    "checksum": "sha256-b7e50b169d97a5eb715b576f455bc4a7d4f4a89b91e853b3601cd0cb7fc15490",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.easy.0037",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x-5)^2<0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\emptyset$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\text{all real numbers}$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=5$"
+      },
+      {
+        "id": "d",
+        "latex": "$x\\ne 5$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "no solution",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "A square cannot be negative, so there is no real solution.",
+    "complexity_factor": 0.95,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative"
+    ],
+    "checksum": "sha256-7e231f0b68fecc16f7a83c66542f854962a0e8c8ab12a2d67f0bdce222f94723",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.easy.0038",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x-6)^2\\le 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\text{all real numbers}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\emptyset$"
+      },
+      {
+        "id": "c",
+        "latex": "$x\\ne 6$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=6$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x=6",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "A square is at least $0$, so it is at most $0$ only when it equals $0$. Thus $x=6$.",
+    "complexity_factor": 0.95,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative"
+    ],
+    "checksum": "sha256-108b36bda753d7d8e54273f74c9d5682c57c53380f0c5cfa649f2ebc99d51385",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.easy.0039",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+6)^2>0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x\\ne -6$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\emptyset$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=-6$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\text{all real numbers}$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "x not equal -6",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The square is positive for every real $x$ except where (x+6)=0$, so $x\\ne -6$.",
+    "complexity_factor": 0.95,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative"
+    ],
+    "checksum": "sha256-073ddbdfc0206e266621ace541f52466701c5fde83085748cfa7b7dd9c7fccd8",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.easy.0040",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+5)^2\\ge 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\emptyset$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\text{all real numbers}$"
+      },
+      {
+        "id": "c",
+        "latex": "$x\\ne -5$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=-5$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "all real numbers",
+    "answer_type": "string",
+    "accepted_forms": [
+      "all real x",
+      "every real number"
+    ],
+    "solution_latex": "A square is always nonnegative, so $(x+5)^2\\ge 0$ for every real $x$.",
+    "complexity_factor": 0.95,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative"
+    ],
+    "checksum": "sha256-738228232dafca294b4cd2cb727928ddd3fe65c05a1eb7875bd6a6fe3bb4b93d",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.easy.0041",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+4)^2<0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\text{all real numbers}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\emptyset$"
+      },
+      {
+        "id": "d",
+        "latex": "$x\\ne -4$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "no solution",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "A square cannot be negative, so there is no real solution.",
+    "complexity_factor": 0.95,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative"
+    ],
+    "checksum": "sha256-ed643e377263035bf8b56863957e44d47ca2eb470d74b48b20292a941911081b",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.easy.0042",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+3)^2\\le 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\emptyset$"
+      },
+      {
+        "id": "b",
+        "latex": "$x\\ne -3$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\text{all real numbers}$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=-3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x=-3",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "A square is at least $0$, so it is at most $0$ only when it equals $0$. Thus $x=-3$.",
+    "complexity_factor": 0.95,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative"
+    ],
+    "checksum": "sha256-bf457a844fe728bb16825057e478c5bdf0546cdf2342760c68f24f0527d52ff7",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.easy.0043",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+2)^2>0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x\\ne -2$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\emptyset$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\text{all real numbers}$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "x not equal -2",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The square is positive for every real $x$ except where (x+2)=0$, so $x\\ne -2$.",
+    "complexity_factor": 0.95,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative"
+    ],
+    "checksum": "sha256-58cbe22aab6cf6ebd65cfb43c8a2dec93dcf378cb09c35b30b2e34b41fd7884b",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.easy.0044",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+1)^2\\ge 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\emptyset$"
+      },
+      {
+        "id": "b",
+        "latex": "$x\\ne -1$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\text{all real numbers}$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=-1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "all real numbers",
+    "answer_type": "string",
+    "accepted_forms": [
+      "all real x",
+      "every real number"
+    ],
+    "solution_latex": "A square is always nonnegative, so $(x+1)^2\\ge 0$ for every real $x$.",
+    "complexity_factor": 0.95,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative"
+    ],
+    "checksum": "sha256-5d1bb9bc2950847c6110223bfac3a840f022b24d6b6ac597b46e5911c9388644",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.easy.0045",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $x^2<0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\emptyset$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=0$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\text{all real numbers}$"
+      },
+      {
+        "id": "d",
+        "latex": "$x\\ne 0$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "no solution",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "A square cannot be negative, so there is no real solution.",
+    "complexity_factor": 0.95,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative"
+    ],
+    "checksum": "sha256-b25d0fc5ac3b020e77b02592ef3d918695a041c1b54a93788bbb054b8394ec3c",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.easy.0046",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x-1)^2\\le 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\text{all real numbers}$"
+      },
+      {
+        "id": "b",
+        "latex": "$x\\ne 1$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\emptyset$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x=1",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "A square is at least $0$, so it is at most $0$ only when it equals $0$. Thus $x=1$.",
+    "complexity_factor": 0.95,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative"
+    ],
+    "checksum": "sha256-b5a3382ccf4c1ca40d353f5b345f84fb9216bbf277352e1132b302d9b33cc7ea",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.easy.0047",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x-2)^2>0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\emptyset$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=2$"
+      },
+      {
+        "id": "c",
+        "latex": "$x\\ne 2$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\text{all real numbers}$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "x not equal 2",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The square is positive for every real $x$ except where (x-2)=0$, so $x\\ne 2$.",
+    "complexity_factor": 0.95,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative"
+    ],
+    "checksum": "sha256-8c4866a29c6479e1bf72b9855775da5cc84b6b8555f390d491e8278ffbe38ea1",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.easy.0048",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x-3)^2\\ge 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x\\ne 3$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\text{all real numbers}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\emptyset$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=3$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "all real numbers",
+    "answer_type": "string",
+    "accepted_forms": [
+      "all real x",
+      "every real number"
+    ],
+    "solution_latex": "A square is always nonnegative, so $(x-3)^2\\ge 0$ for every real $x$.",
+    "complexity_factor": 0.95,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative"
+    ],
+    "checksum": "sha256-afab86c9ca5037152fc11080dbdf58ad5a4d1c67dfef4181266f0dd30c6219a3",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.easy.0049",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x-4)^2<0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\emptyset$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\text{all real numbers}$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=4$"
+      },
+      {
+        "id": "d",
+        "latex": "$x\\ne 4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "no solution",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "A square cannot be negative, so there is no real solution.",
+    "complexity_factor": 0.95,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative"
+    ],
+    "checksum": "sha256-a0d7ae10cc827ca48eadc5696a73d332042a74177da50297945efb1f631b0506",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.easy.0050",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x-5)^2\\le 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\text{all real numbers}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\emptyset$"
+      },
+      {
+        "id": "c",
+        "latex": "$x\\ne 5$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=5$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x=5",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "A square is at least $0$, so it is at most $0$ only when it equals $0$. Thus $x=5$.",
+    "complexity_factor": 0.95,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative"
+    ],
+    "checksum": "sha256-474bbd8fdadd33436179911bf2505ab548b9e013ae41031b9658e7e20e58fbd9",
+    "status": "valid"
+  }
+]

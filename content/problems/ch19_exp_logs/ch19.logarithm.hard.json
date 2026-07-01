@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "ch19.logarithm.hard.0001",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $1$: Solve for $x$: $\\log_{4}(\\log_{3}(x))=2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$43046721$"
+      },
+      {
+        "id": "c",
+        "latex": "$16$"
+      },
+      {
+        "id": "d",
+        "latex": "$14348907$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "43046721",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $\\log_{3}(x)=4^{2}=16$. Then $x=3^{16}=43046721$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-c190d7785866ef5dd3bf1bc14572a72f3d7a507d9cb68ad794fbf1c8116b026e",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.hard.0002",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $2$: Solve for $x$: $\\log_{4}(4x+244)=4$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$256$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $4x+244=4^{4}=256$, which gives $x=3$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-234ab0dab8143d1c9c3cfe0ee23f63b4aeaf9f2a2d44738e2d800f00172223b0",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.hard.0003",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $3$: Solve for $x$: $\\log_{3}(\\log_{2}(x))=2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$256$"
+      },
+      {
+        "id": "d",
+        "latex": "$512$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "512",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $\\log_{2}(x)=3^{2}=9$. Then $x=2^{9}=512$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-0179c01a021b17ce90a1608728d01a5b46a9c903ef5a3d161ae9b6b69e709f28",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.hard.0004",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $4$: Solve for $x$: $\\log_{2}(6x-22)=3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $6x-22=2^{3}=8$, which gives $x=5$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-541700d4fffe3eb234c8afdb0bd0bcaf349e0825f9d3ff8b32323ecf75fd6340",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.hard.0005",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $5$: Solve for $x$: $\\log_{2}(\\log_{4}(x))=2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$256$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$64$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "256",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $\\log_{4}(x)=2^{2}=4$. Then $x=4^{4}=256$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-fa48eb60c4f48c56227ddd281ff42e65e6c5874dc210b88975afb361ed495e68",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.hard.0006",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $6$: Solve for $x$: $\\log_{4}(3x-5)=2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $3x-5=4^{2}=16$, which gives $x=7$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-5df9ace7b2a0f382ce90198134b0592e9c8c1b22ba3ce60fb26553f4da5f6a01",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.hard.0007",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $7$: Solve for $x$: $\\log_{4}(\\log_{3}(x))=2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$16$"
+      },
+      {
+        "id": "c",
+        "latex": "$14348907$"
+      },
+      {
+        "id": "d",
+        "latex": "$43046721$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "43046721",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $\\log_{3}(x)=4^{2}=16$. Then $x=3^{16}=43046721$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-69ebbb7182640f572f4d428f09b60ae70b4dd507c9bd8948fbfc606e88726c07",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.hard.0008",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $8$: Solve for $x$: $\\log_{2}(5x+11)=4$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$16$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $5x+11=2^{4}=16$, which gives $x=1$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-1ca0afd91a864e9afe5a75e773d219a7ea7aa465099dcb1110b72cb2d32732f9",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.hard.0009",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $9$: Solve for $x$: $\\log_{3}(\\log_{2}(x))=2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$512$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$256$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "512",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $\\log_{2}(x)=3^{2}=9$. Then $x=2^{9}=512$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-931072d704e3596bae1e81320836414dadaeeb7bc66b7a4718d8a6f9ed7dc777",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.hard.0010",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $10$: Solve for $x$: $\\log_{4}(2x+58)=3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$64$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $2x+58=4^{3}=64$, which gives $x=3$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-bd8abb460744128723945e59ac0e5867c9b4968d62373c7b04732a6f0524d0be",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.hard.0011",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $11$: Solve for $x$: $\\log_{2}(\\log_{4}(x))=2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$64$"
+      },
+      {
+        "id": "d",
+        "latex": "$256$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "256",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $\\log_{4}(x)=2^{2}=4$. Then $x=4^{4}=256$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-8cc47a6e343493c14479692416f37bbb77ad2516b0c6647bef36188e713273f6",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.hard.0012",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $12$: Solve for $x$: $\\log_{2}(4x-16)=2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$20$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $4x-16=2^{2}=4$, which gives $x=5$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-27aa90b6054bb65d8c464805de2395480c8b124375ea7afcaeb83c08281b365e",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.hard.0013",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $13$: Solve for $x$: $\\log_{4}(\\log_{3}(x))=2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$43046721$"
+      },
+      {
+        "id": "c",
+        "latex": "$16$"
+      },
+      {
+        "id": "d",
+        "latex": "$14348907$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "43046721",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $\\log_{3}(x)=4^{2}=16$. Then $x=3^{16}=43046721$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-9375a307b857a2d4172405821b9c91fbedb83e3135b06fa2f7bc2023362fe712",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.hard.0014",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $14$: Solve for $x$: $\\log_{4}(6x+214)=4$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$256$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $6x+214=4^{4}=256$, which gives $x=7$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-05b49b8bfa6a3338ccf406f01e1d0552c2d6c9b94014919e90db1579fb73128d",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.hard.0015",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $15$: Solve for $x$: $\\log_{3}(\\log_{2}(x))=2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$256$"
+      },
+      {
+        "id": "d",
+        "latex": "$512$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "512",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $\\log_{2}(x)=3^{2}=9$. Then $x=2^{9}=512$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-54e406a3aca36e48fa83fe5c3cae4fb2323e01c671dc86f6c66d38e57d7b23e9",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.hard.0016",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $16$: Solve for $x$: $\\log_{2}(3x+5)=3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $3x+5=2^{3}=8$, which gives $x=1$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-2f538cfbc502bdfa4a92eb4d35b8bf7059e02b0f45abf08f130b3c735a4581e3",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.hard.0017",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $17$: Solve for $x$: $\\log_{2}(\\log_{4}(x))=2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$256$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$64$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "256",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $\\log_{4}(x)=2^{2}=4$. Then $x=4^{4}=256$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-ce31bbfc53d9e8847a9d7cb71d1721b95dabc5694042c948877f5fefec25717f",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.hard.0018",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $18$: Solve for $x$: $\\log_{4}(5x+1)=2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $5x+1=4^{2}=16$, which gives $x=3$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-f0a2c193f750f14383d8f4e80293e12be42f0f33eb769583ac31a8a491846496",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.hard.0019",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $19$: Solve for $x$: $\\log_{4}(\\log_{3}(x))=2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$16$"
+      },
+      {
+        "id": "c",
+        "latex": "$14348907$"
+      },
+      {
+        "id": "d",
+        "latex": "$43046721$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "43046721",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $\\log_{3}(x)=4^{2}=16$. Then $x=3^{16}=43046721$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-8000ba556e961ab523922866da02adb97769387b9bc5c8a96f04d65b222ab43f",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.hard.0020",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $20$: Solve for $x$: $\\log_{2}(2x+6)=4$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$16$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $2x+6=2^{4}=16$, which gives $x=5$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-718ecf381dc54a4727fe2dcf6371443835fb90359657fa4a542e0ed05a4a4ac9",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.hard.0021",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $21$: Solve for $x$: $\\log_{3}(\\log_{2}(x))=2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$512$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$256$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "512",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $\\log_{2}(x)=3^{2}=9$. Then $x=2^{9}=512$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-a4e94aac6f4ff6f2f0a1ba3762f4d8eadd2940b6dafcd52ccd2d40bbc44fd9d5",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.hard.0022",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $22$: Solve for $x$: $\\log_{4}(4x+36)=3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$64$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $4x+36=4^{3}=64$, which gives $x=7$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-47e9a451db057d1f9593d62286c56e7161cc3b949a23570eb521104f0c67fe6c",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.hard.0023",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $23$: Solve for $x$: $\\log_{2}(\\log_{4}(x))=2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$64$"
+      },
+      {
+        "id": "d",
+        "latex": "$256$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "256",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $\\log_{4}(x)=2^{2}=4$. Then $x=4^{4}=256$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-7f256d09625bf636a6dda9966019a19d9b540cfe7c5aa7ded829d515a2164be7",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.hard.0024",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $24$: Solve for $x$: $\\log_{2}(6x-2)=2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $6x-2=2^{2}=4$, which gives $x=1$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-fe75a61716a5db027fc59fb93b0c42afc43938c041720fe4f653dd5c66776f4f",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.hard.0025",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $25$: Solve for $x$: $\\log_{4}(\\log_{3}(x))=2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$43046721$"
+      },
+      {
+        "id": "c",
+        "latex": "$16$"
+      },
+      {
+        "id": "d",
+        "latex": "$14348907$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "43046721",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $\\log_{3}(x)=4^{2}=16$. Then $x=3^{16}=43046721$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-881fbaf0f425cc3268f4dd1b71a5cc971b26ac07100b1a03f0a3a89e10171f70",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.hard.0026",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $26$: Solve for $x$: $\\log_{4}(3x+247)=4$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$256$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $3x+247=4^{4}=256$, which gives $x=3$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-436cf4e4b3e650028dbf83a5f108611fd91097dec470044a5ba93967c4fdfde6",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.hard.0027",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $27$: Solve for $x$: $\\log_{3}(\\log_{2}(x))=2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$256$"
+      },
+      {
+        "id": "d",
+        "latex": "$512$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "512",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $\\log_{2}(x)=3^{2}=9$. Then $x=2^{9}=512$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-a5233091651a50faad411be0b0d9ff5b2578660c91dea9536b7db646a3b9f777",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.hard.0028",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $28$: Solve for $x$: $\\log_{2}(5x-17)=3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $5x-17=2^{3}=8$, which gives $x=5$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-2b4ea4b16c010e8eee5fe7bb9dab1b0c51cdc90bad0108a875dfffe96b5da79e",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.hard.0029",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $29$: Solve for $x$: $\\log_{2}(\\log_{4}(x))=2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$256$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$64$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "256",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $\\log_{4}(x)=2^{2}=4$. Then $x=4^{4}=256$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-087d16725bdf82398fb07f6d088fd2a365bb5091b249de4103e5a5798ec40c18",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.hard.0030",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $30$: Solve for $x$: $\\log_{4}(2x+2)=2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $2x+2=4^{2}=16$, which gives $x=7$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-9db638409876eab3b41f7662eaf0a5989003b3318950cd275c08292dbe36d6ee",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.hard.0031",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $31$: Solve for $x$: $\\log_{4}(\\log_{3}(x))=2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$16$"
+      },
+      {
+        "id": "c",
+        "latex": "$14348907$"
+      },
+      {
+        "id": "d",
+        "latex": "$43046721$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "43046721",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $\\log_{3}(x)=4^{2}=16$. Then $x=3^{16}=43046721$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-963c3a6a9dfdad6534bde4a9b716ac1b9ba0eab146ca7a10c9bceec04c35e078",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.hard.0032",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $32$: Solve for $x$: $\\log_{2}(4x+12)=4$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$16$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $4x+12=2^{4}=16$, which gives $x=1$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-68f666e4ee021a22ddcfa995f9c061896093775f41333cfcbe62b7978afab067",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.hard.0033",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $33$: Solve for $x$: $\\log_{3}(\\log_{2}(x))=2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$512$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$256$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "512",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $\\log_{2}(x)=3^{2}=9$. Then $x=2^{9}=512$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-329c91f428c6b7e0dda89c8a3cd9bc791970a777e68e427b683f33a4bd2514f1",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.hard.0034",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $34$: Solve for $x$: $\\log_{4}(6x+46)=3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$64$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $6x+46=4^{3}=64$, which gives $x=3$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-b74c310b2a5daaffedb564d5c7dfbe72adc9dabb1f941cbb606c210b80c9525e",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.hard.0035",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $35$: Solve for $x$: $\\log_{2}(\\log_{4}(x))=2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$64$"
+      },
+      {
+        "id": "d",
+        "latex": "$256$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "256",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $\\log_{4}(x)=2^{2}=4$. Then $x=4^{4}=256$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-4b8f4c39e4d4a98f52944c6e300889bfc32d66a653d112acf70a5a13d301cb80",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.hard.0036",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $36$: Solve for $x$: $\\log_{2}(3x-11)=2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$15$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $3x-11=2^{2}=4$, which gives $x=5$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-54925c3420ae9ff312613796331f817f7512bb6132b93067e11eae14591fb5d0",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.hard.0037",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $37$: Solve for $x$: $\\log_{4}(\\log_{3}(x))=2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$43046721$"
+      },
+      {
+        "id": "c",
+        "latex": "$16$"
+      },
+      {
+        "id": "d",
+        "latex": "$14348907$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "43046721",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $\\log_{3}(x)=4^{2}=16$. Then $x=3^{16}=43046721$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-25d13675ef90965c34ef9c7f96033d427a50a8da1e4ce690524133748be27f98",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.hard.0038",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $38$: Solve for $x$: $\\log_{4}(5x+221)=4$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$256$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $5x+221=4^{4}=256$, which gives $x=7$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-3edf24c16fbf207d4c53e5e2f3dd485d248b4d868e7e08db8623fd8cb8c17802",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.hard.0039",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $39$: Solve for $x$: $\\log_{3}(\\log_{2}(x))=2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$256$"
+      },
+      {
+        "id": "d",
+        "latex": "$512$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "512",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $\\log_{2}(x)=3^{2}=9$. Then $x=2^{9}=512$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-e21b0804253a3362b8b31e71c9b3cf21d9d59a7ddd9b382cbf7cbc555e5763e4",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.hard.0040",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $40$: Solve for $x$: $\\log_{2}(2x+6)=3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $2x+6=2^{3}=8$, which gives $x=1$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-acf1448c808a6885e8ce324a509d40550ce5cfed1d27d5399b157015ac87239d",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.hard.0041",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $41$: Solve for $x$: $\\log_{2}(\\log_{4}(x))=2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$256$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$64$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "256",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $\\log_{4}(x)=2^{2}=4$. Then $x=4^{4}=256$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-986aa3619e7f86f86db52dbd7bf42e7b124760c4587c329ed2e52391fb51e5aa",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.hard.0042",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $42$: Solve for $x$: $\\log_{4}(4x+4)=2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $4x+4=4^{2}=16$, which gives $x=3$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-b03c4cab0f6fbdc3fdfd738b711d787597b3b0753e6358d2f9eb152e9469b62a",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.hard.0043",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $43$: Solve for $x$: $\\log_{4}(\\log_{3}(x))=2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$16$"
+      },
+      {
+        "id": "c",
+        "latex": "$14348907$"
+      },
+      {
+        "id": "d",
+        "latex": "$43046721$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "43046721",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $\\log_{3}(x)=4^{2}=16$. Then $x=3^{16}=43046721$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-b240e7bf82104e44530c25ef327e43805dabc50715f37f35673107e8a9bd85f6",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.hard.0044",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $44$: Solve for $x$: $\\log_{2}(6x-14)=4$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$16$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $6x-14=2^{4}=16$, which gives $x=5$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-ce3beaa02e259df88f440d0a648f329568da1ced790605e63b5704a953d5fc62",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.hard.0045",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $45$: Solve for $x$: $\\log_{3}(\\log_{2}(x))=2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$512$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$256$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "512",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $\\log_{2}(x)=3^{2}=9$. Then $x=2^{9}=512$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-d5c2690d406e11131237a9c9fffca7c02543a328cd0b10fe80b6869f4f34ff4a",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.hard.0046",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $46$: Solve for $x$: $\\log_{4}(3x+43)=3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$64$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $3x+43=4^{3}=64$, which gives $x=7$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-afcf581a7c003c1b41d704286da9454548d5561a11f1f719d7ce5ee6f76c5d57",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.hard.0047",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $47$: Solve for $x$: $\\log_{2}(\\log_{4}(x))=2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$64$"
+      },
+      {
+        "id": "d",
+        "latex": "$256$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "256",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $\\log_{4}(x)=2^{2}=4$. Then $x=4^{4}=256$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-8b1b4f9085dc312869165b279a7eae22ecaed412b58b3d6894c8d4b7d6e9a84b",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.hard.0048",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $48$: Solve for $x$: $\\log_{2}(5x-1)=2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $5x-1=2^{2}=4$, which gives $x=1$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-3845e7087c31cd72feb7c2755510c866f6cdafd8ffc17090c009d236ba912760",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.hard.0049",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $49$: Solve for $x$: $\\log_{4}(\\log_{3}(x))=2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$43046721$"
+      },
+      {
+        "id": "c",
+        "latex": "$16$"
+      },
+      {
+        "id": "d",
+        "latex": "$14348907$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "43046721",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $\\log_{3}(x)=4^{2}=16$. Then $x=3^{16}=43046721$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-640c01357585bb60b3c05dc0b50451d7ee84f51ae82257e254fb95885569ca16",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.hard.0050",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $50$: Solve for $x$: $\\log_{4}(2x+250)=4$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$256$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $2x+250=4^{4}=256$, which gives $x=3$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-2c49c8cf1603fccb822718ba37e2b8d13d5a010632f2b6d124bc1833fae6caf8",
+    "status": "valid"
+  }
+]

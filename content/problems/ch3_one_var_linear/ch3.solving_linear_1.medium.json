@@ -1,9 +1,48 @@
 [
   {
+    "id": "ch3.solving_linear_1.medium.0001",
     "topic_id": "ch3.solving_linear_1",
     "group_id": "ch3_one_var_linear",
     "difficulty": "medium",
-    "prompt_latex": "Solve $4x - 9 = 2x + 7$.",
+    "prompt_latex": "Solve $5(x + 7) = 60$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$12$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$19$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by 5, then subtract 7: $x = 5$.",
+    "complexity_factor": 1,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-2d24ab0553730c5b3a5b4aa5ed4f887ffa0497606a5b153f28077dff065cf407",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.medium.0002",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $9x - 14 = 58$.",
     "answer_format": "mc",
     "choices": [
       {
@@ -12,11 +51,1455 @@
       },
       {
         "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add 14, then divide by 9: $x = 8$.",
+    "complexity_factor": 0.95,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-2c170556096229df53272669fc9e7e1a19663bc29a64af25a0d3686c00fe055c",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.medium.0003",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $3(x + 5) = 42$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$14$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$19$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by 3, then subtract 5: $x = 9$.",
+    "complexity_factor": 1,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-73c1b5d194167cfc3d87fa85b30ca5646bb57a5064df1d17043eec7289a2419f",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.medium.0004",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $9x - 11 = 70$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add 11, then divide by 9: $x = 9$.",
+    "complexity_factor": 0.95,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-401a357140092109dafdfa548d4890d53d2e1b9f24d437278fb3d8baa94a9915",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.medium.0005",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\dfrac{x}{4} + 5 = 8$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$13$"
+      },
+      {
+        "id": "d",
+        "latex": "$52$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Subtract 5, then multiply by 4: $x = 12$.",
+    "complexity_factor": 1,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-dee0e9ed9befdafb5da99c54fb5a7e7f58c65043f437217e440509b1debc9554",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.medium.0006",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $8(x + 9) = 128$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$25$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by 8, then subtract 9: $x = 7$.",
+    "complexity_factor": 1,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-2404e7e1887861d0761da0384bb66ac0b10365565c6ce1b33bd9dbf81b761098",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.medium.0007",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $5x - 6 = 4$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
         "latex": "$1$"
       },
       {
         "id": "c",
-        "latex": "$-1$"
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add 6, then divide by 5: $x = 2$.",
+    "complexity_factor": 0.95,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-b3a8ed7458945e8a6042be7da6b94a567e657e0c81c6a4b340e0799b2b010215",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.medium.0008",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $5x + 3 = 38$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$35$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Subtract 3, then divide by 5: $x = 7$.",
+    "complexity_factor": 0.95,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-b6ece85926cb4783c35559f5c65cc13a6f0535fe6af08c58c2ee83dc76dc1b74",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.medium.0009",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $4(x + 7) = 56$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$14$"
+      },
+      {
+        "id": "b",
+        "latex": "$21$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by 4, then subtract 7: $x = 7$.",
+    "complexity_factor": 1,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-3b0f7f39ad02e03f948fa016fdce3e49d4914b5e28cdc0b544e6a6a9e3cdb29c",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.medium.0010",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $3x + 5 = 14$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Subtract 5, then divide by 3: $x = 3$.",
+    "complexity_factor": 0.95,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-47658f6bcbb866fe314a6a7c0d60acc877002f3f1c0b5e8ec8c64a436932ce59",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.medium.0011",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\dfrac{x}{2} + 4 = 10$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$13$"
+      },
+      {
+        "id": "b",
+        "latex": "$12$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$28$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Subtract 4, then multiply by 2: $x = 12$.",
+    "complexity_factor": 1,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-3dfad4fb77b077f3987a56381de9766738e827b3d8d6defb73f5202fa9f8fb4d",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.medium.0012",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $3x - 6 = 24$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add 6, then divide by 3: $x = 10$.",
+    "complexity_factor": 0.95,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-861b1d5f436f32e594340e39ecced5b0964125314385ce783e39855d679f219d",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.medium.0013",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $4(x + 4) = 52$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$13$"
+      },
+      {
+        "id": "c",
+        "latex": "$17$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by 4, then subtract 4: $x = 9$.",
+    "complexity_factor": 1,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-a6d7b53e91ae2a0725347ce10be819c4baac2cd1ff7dd7ee9949530e9d9db47d",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.medium.0014",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $5(x + 7) = 80$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$23$"
+      },
+      {
+        "id": "c",
+        "latex": "$16$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by 5, then subtract 7: $x = 9$.",
+    "complexity_factor": 1,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-04fa74e4d5f52d89cab21a6e807a9a39310a8722e0dbe72885d4f536704e9629",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.medium.0015",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $3x - 13 = 17$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add 13, then divide by 3: $x = 10$.",
+    "complexity_factor": 0.95,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-8e6a7ac58d6d800de7d30f82db9c7cb7182de106e5b5f655400e202dc027c946",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.medium.0016",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $6(x + 2) = 36$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by 6, then subtract 2: $x = 4$.",
+    "complexity_factor": 1,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-51873504b48c869fe4caf0a2ec0cb9001f0b42085813477b7cf0a58392c57097",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.medium.0017",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\dfrac{x}{7} + 6 = 6.428571428571429$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$87$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Subtract 6, then multiply by 7: $x = 3$.",
+    "complexity_factor": 1,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-d73cf9fadc25c5c3980bb2fe02d56d0683ceb525cfd95dd31aceb5982b6dc341",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.medium.0018",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $2(x + 9) = 42$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$21$"
+      },
+      {
+        "id": "b",
+        "latex": "$11$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$30$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by 2, then subtract 9: $x = 12$.",
+    "complexity_factor": 1,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-c39604eb7e152c657d8aa551ff371888cd5b92f531dc08a26fd3137a930a1186",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.medium.0019",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $6x + 2 = 44$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$42$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Subtract 2, then divide by 6: $x = 7$.",
+    "complexity_factor": 0.95,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-5c681688acec9c55f4ffc860ce631505b954d5d7093fb2b98fab8a71fab36049",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.medium.0020",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\dfrac{x}{7} + 9 = 10.714285714285714$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$13$"
+      },
+      {
+        "id": "b",
+        "latex": "$12$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$138$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Subtract 9, then multiply by 7: $x = 12$.",
+    "complexity_factor": 1,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-ab2127dd105e36211f4244a0643d3e1563d73e61726d12b842bfe3d1a39dc21c",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.medium.0021",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $4(x + 2) = 28$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by 4, then subtract 2: $x = 5$.",
+    "complexity_factor": 1,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-be60277f12fcc550ba229b478b34ee3bcf194703b3782dfe7c996beaf4e16c18",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.medium.0022",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\dfrac{x}{8} + 7 = 8$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$120$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Subtract 7, then multiply by 8: $x = 8$.",
+    "complexity_factor": 1,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-c8e3062c0fbd479a80811043be9a0b17d81d6552722843994c26f4b85b8fb6f1",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.medium.0023",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\dfrac{x}{8} + 7 = 8.5$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$13$"
+      },
+      {
+        "id": "b",
+        "latex": "$124$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Subtract 7, then multiply by 8: $x = 12$.",
+    "complexity_factor": 1,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-ab2a69876fe94a05708c75e894d0c51e264c4aadda698dd230ee9b51df77b852",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.medium.0024",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\dfrac{x}{2} + 2 = 3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Subtract 2, then multiply by 2: $x = 2$.",
+    "complexity_factor": 1,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-9f4b1a476b31b37c3cb958c035aefbbda19274edfbb837878aabc1a62e21544b",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.medium.0025",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\dfrac{x}{8} + 6 = 6.625$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$101$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Subtract 6, then multiply by 8: $x = 5$.",
+    "complexity_factor": 1,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-45a75f02837034b76a1f8c5c83aa1547a9cba7ecad3de36f7c106d615e751e99",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.medium.0026",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $5x + 13 = 23$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Subtract 13, then divide by 5: $x = 2$.",
+    "complexity_factor": 0.95,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-0c016f95350ac750fc6c256f8fc3998bc482f992cb146dd628eb28cdddac1e43",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.medium.0027",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $4(x + 3) = 32$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$11$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by 4, then subtract 3: $x = 5$.",
+    "complexity_factor": 1,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-f11691fe286e72d45a9bcf04b81c046fdc3642f7df545342dadd8ecfc10f7a0f",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.medium.0028",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $5x - 12 = 13$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add 12, then divide by 5: $x = 5$.",
+    "complexity_factor": 0.95,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-8dd2df79ba46bfbb5093f7eca7724a78497248eae6724a3525662ee29dd18635",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.medium.0029",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $8x - 4 = 28$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add 4, then divide by 8: $x = 4$.",
+    "complexity_factor": 0.95,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-79dee6321b5ea05a188801399de81f277f0a6516e22f6000caee6bc487f42828",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.medium.0030",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $7x - 11 = 17$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add 11, then divide by 7: $x = 4$.",
+    "complexity_factor": 0.95,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-257a8b36c43c66e88e35f6dd45ec6d9cd927f3aac873b53f5ebee2fa78753ce6",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.medium.0031",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $9x - 9 = 27$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add 9, then divide by 9: $x = 4$.",
+    "complexity_factor": 0.95,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-d847f749142fd72af7e3e0c77f3612514e979f8ccd34ff3ceb0a7e7ee6615a45",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.medium.0032",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $9x + 4 = 31$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$27$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Subtract 4, then divide by 9: $x = 3$.",
+    "complexity_factor": 0.95,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-f3b20a4312023ded5166e148d134f727f4e20aa9fb6808cb9a57f1c23257dd80",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.medium.0033",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\dfrac{x}{4} + 3 = 3.5$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$26$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Subtract 3, then multiply by 4: $x = 2$.",
+    "complexity_factor": 1,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-7cb2c6ba4cef34e2e66d156641e91515ebac4c9d1c0519e8914add2230242c7e",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.medium.0034",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $6x + 12 = 48$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$36$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Subtract 12, then divide by 6: $x = 6$.",
+    "complexity_factor": 0.95,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-f0b3555087b51fa113fe10d4fe5be13b058d2f760127b94de07c6a43e14387da",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.medium.0035",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $4x + 12 = 32$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11$"
+      },
+      {
+        "id": "b",
+        "latex": "$20$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Subtract 12, then divide by 4: $x = 5$.",
+    "complexity_factor": 0.95,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-2b1ac8a36e129d765ce76f0e5d385f1be7f6ebe24099ab8d50a28d7658954a47",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.medium.0036",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $7(x + 7) = 84$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$12$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$19$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by 7, then subtract 7: $x = 5$.",
+    "complexity_factor": 1,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-f3c483893b80ac17458bc40eae0d05eea722d7d0831c1b33d4227c7ba4f91cc9",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.medium.0037",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $9x - 6 = 48$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add 6, then divide by 9: $x = 6$.",
+    "complexity_factor": 0.95,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-f2c18927eff19aa997e7bfb01868626785fd5a4316159f42a57aff6a25355c15",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.medium.0038",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $7x - 13 = 29$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add 13, then divide by 7: $x = 6$.",
+    "complexity_factor": 0.95,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-53aa83cd3284b6b3c570b83e9c8c51701ff5c7e0ed6b75397a6d5b1e24b88aca",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.medium.0039",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $4x - 3 = 5$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add 3, then divide by 4: $x = 2$.",
+    "complexity_factor": 0.95,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-fcf62deaddd0dd82a2e6172facd62f7ff2b49060575ace6ff9cb5c1df0fa2a32",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.medium.0040",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $9x + 2 = 29$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$27$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
       },
       {
         "id": "d",
@@ -24,53 +1507,396 @@
       }
     ],
     "correct_choice": "a",
-    "correct_answer": "8",
+    "correct_answer": "3",
     "answer_type": "integer",
-    "solution_latex": "Subtract $2x$: $2x - 9 = 7$. Add 9: $2x = 16$. Divide by 2: $x = 8$.",
-    "complexity_factor": 1,
+    "accepted_forms": [],
+    "solution_latex": "Subtract 2, then divide by 9: $x = 3$.",
+    "complexity_factor": 0.95,
     "source_section": "3.1",
     "tags": [
       "linear_equations"
     ],
-    "id": "ch3.solving_linear_1.medium.0001",
-    "checksum": "sha256-57284d9626815e30add528f862cdbc53df5bb66f71837e6bcdd8d482ad6e1f7b",
+    "checksum": "sha256-cc7b1d5ab10b0b47a9e8496f16a3eeada9c9353c30de7e2e96d51810c28dac1a",
     "status": "valid"
   },
   {
+    "id": "ch3.solving_linear_1.medium.0041",
     "topic_id": "ch3.solving_linear_1",
     "group_id": "ch3_one_var_linear",
     "difficulty": "medium",
-    "prompt_latex": "Solve $\\dfrac{x}{3} + 4 = 9$.",
+    "prompt_latex": "Solve $3(x + 10) = 51$.",
     "answer_format": "mc",
     "choices": [
       {
         "id": "a",
-        "latex": "$15$"
+        "latex": "$17$"
       },
       {
         "id": "b",
-        "latex": "$45$"
+        "latex": "$27$"
       },
       {
         "id": "c",
-        "latex": "$1$"
+        "latex": "$6$"
       },
       {
         "id": "d",
-        "latex": "$39$"
+        "latex": "$7$"
       }
     ],
-    "correct_choice": "a",
-    "correct_answer": "15",
+    "correct_choice": "d",
+    "correct_answer": "7",
     "answer_type": "integer",
-    "solution_latex": "Subtract 4: $x/3 = 5$. Multiply by 3: $x = 15$.",
+    "accepted_forms": [],
+    "solution_latex": "Divide by 3, then subtract 10: $x = 7$.",
     "complexity_factor": 1,
     "source_section": "3.1",
     "tags": [
       "linear_equations"
     ],
-    "id": "ch3.solving_linear_1.medium.0002",
-    "checksum": "sha256-ceaccf0fd77e79d69c068dbc2567df3b4289b3267d3f29269889b75d440835eb",
+    "checksum": "sha256-47d33c28731015d0b3981c53052c168321c3f1de206918e9d366c56f22f51f38",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.medium.0042",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $6x - 14 = 28$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add 14, then divide by 6: $x = 7$.",
+    "complexity_factor": 0.95,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-50a7e7796fab70098af1f041802507365282298e8f2badf17fde39069c834668",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.medium.0043",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\dfrac{x}{6} + 9 = 9.833333333333334$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$113$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Subtract 9, then multiply by 6: $x = 5$.",
+    "complexity_factor": 1,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-17bac5d53b657e965b36725e581d11b6e9e9bd43791864d327772d1bc7bb8ecf",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.medium.0044",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $9x - 10 = 17$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add 10, then divide by 9: $x = 3$.",
+    "complexity_factor": 0.95,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-14040efeef3476f69b5e05927844149af76e2374a16eef1e63a38221efdfe669",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.medium.0045",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\dfrac{x}{2} + 4 = 7.5$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$23$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Subtract 4, then multiply by 2: $x = 7$.",
+    "complexity_factor": 1,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-3f781c42ad6f9392a80db4581904af390e66a2766a8ddefe55ddfcad758eb29a",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.medium.0046",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $4x + 4 = 20$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$16$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Subtract 4, then divide by 4: $x = 4$.",
+    "complexity_factor": 0.95,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-457344eb7eaf6687fd62ce0a96818a011ac2796571eb564e7237bb1e793e71a4",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.medium.0047",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $5(x + 8) = 60$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$20$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by 5, then subtract 8: $x = 4$.",
+    "complexity_factor": 1,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-c2a847615a18605a8c06f1d6590de460e80a00048ef2965ba70406eefddc4127",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.medium.0048",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $4(x + 4) = 24$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by 4, then subtract 4: $x = 2$.",
+    "complexity_factor": 1,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-83af1f2860529e5117376a1e9af6274c0ccf2b9784b1438a1f2df188003dbdf2",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.medium.0049",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $6x + 5 = 71$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12$"
+      },
+      {
+        "id": "b",
+        "latex": "$66$"
+      },
+      {
+        "id": "c",
+        "latex": "$13$"
+      },
+      {
+        "id": "d",
+        "latex": "$11$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "11",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Subtract 5, then divide by 6: $x = 11$.",
+    "complexity_factor": 0.95,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-74d7516ec8d2d2923e8cbf15846810e8c8bf78b0d8dc5aed689a2134c20cb548",
+    "status": "valid"
+  },
+  {
+    "id": "ch3.solving_linear_1.medium.0050",
+    "topic_id": "ch3.solving_linear_1",
+    "group_id": "ch3_one_var_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $6x - 12 = 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add 12, then divide by 6: $x = 2$.",
+    "complexity_factor": 0.95,
+    "source_section": "3.1",
+    "tags": [
+      "linear_equations"
+    ],
+    "checksum": "sha256-029c0c7831ca88120e40c140a39413a68b1fb44c3d0a0b9e2236e8e7b7903166",
     "status": "valid"
   }
 ]

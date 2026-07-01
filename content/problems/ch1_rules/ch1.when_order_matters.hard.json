@@ -1,0 +1,1930 @@
+[
+  {
+    "id": "ch1.when_order_matters.hard.0001",
+    "topic_id": "ch1.when_order_matters",
+    "group_id": "ch1_rules",
+    "difficulty": "hard",
+    "prompt_latex": "Which operation is commutative for all real numbers?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "c",
+        "latex": "$\\mathrm{division}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\mathrm{subtraction}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\mathrm{multiplication}$"
+      },
+      {
+        "id": "a",
+        "latex": "$addition$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "addition",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Changing the order does not change the result for addition.",
+    "complexity_factor": 0.95,
+    "source_section": "1.3",
+    "tags": [
+      "order_matters"
+    ],
+    "checksum": "sha256-e7da6b154785396ce04b4250e975a889c95fe0fb90baec15d318028092c0b2e0",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.when_order_matters.hard.0002",
+    "topic_id": "ch1.when_order_matters",
+    "group_id": "ch1_rules",
+    "difficulty": "hard",
+    "prompt_latex": "Which operation is NOT associative?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "c",
+        "latex": "$\\mathrm{multiplication}$"
+      },
+      {
+        "id": "a",
+        "latex": "$subtraction$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\mathrm{division}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\mathrm{addition}$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "subtraction",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Grouping matters for subtraction.",
+    "complexity_factor": 0.95,
+    "source_section": "1.3",
+    "tags": [
+      "order_matters"
+    ],
+    "checksum": "sha256-bc02d3020bcfd8319a6f84baa2c8b51ded4f3070fbd0b33ce79e590dc555bcc1",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.when_order_matters.hard.0003",
+    "topic_id": "ch1.when_order_matters",
+    "group_id": "ch1_rules",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $(10 - 12) + (12 - 10)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "c",
+        "latex": "$-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4$"
+      },
+      {
+        "id": "a",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The two terms are opposites, so their sum is $0$.",
+    "complexity_factor": 0.95,
+    "source_section": "1.3",
+    "tags": [
+      "order_matters"
+    ],
+    "checksum": "sha256-393230fcc1d5ab613ffba365c83c51c1758804e04a3e71b68794db10988b3fba",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.when_order_matters.hard.0004",
+    "topic_id": "ch1.when_order_matters",
+    "group_id": "ch1_rules",
+    "difficulty": "hard",
+    "prompt_latex": "Insert parentheses to make $10 - 6 \\cdot 4 = 16$ true.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(10 - 6) \\cdot 4$"
+      },
+      {
+        "id": "c",
+        "latex": "$(10 - 6) + 4$"
+      },
+      {
+        "id": "b",
+        "latex": "$(10 + 6) \\cdot 4$"
+      },
+      {
+        "id": "d",
+        "latex": "$10 \\cdot (6 - 4)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(10 - 6) * 4",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(10-6)*4"
+    ],
+    "solution_latex": "Grouping $10-6$ first gives $(10-6)\\cdot 4=16$.",
+    "complexity_factor": 0.95,
+    "source_section": "1.3",
+    "tags": [
+      "order_matters"
+    ],
+    "checksum": "sha256-18f38e407bbb1ee22645f7389158c03a7e99576d8a698a9e45f39ec819b77f1c",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.when_order_matters.hard.0005",
+    "topic_id": "ch1.when_order_matters",
+    "group_id": "ch1_rules",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $2^{3^2}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "b",
+        "latex": "$64$"
+      },
+      {
+        "id": "d",
+        "latex": "$513$"
+      },
+      {
+        "id": "c",
+        "latex": "$32$"
+      },
+      {
+        "id": "a",
+        "latex": "$512$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "512",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Work from the top: $3^2=9$, so the expression equals $2^9=512$.",
+    "complexity_factor": 0.95,
+    "source_section": "1.3",
+    "tags": [
+      "order_matters"
+    ],
+    "checksum": "sha256-4126eca4c15015441f81afbb3ad799c1a1c1308efed9e96abc2026a6921a21e9",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.when_order_matters.hard.0006",
+    "topic_id": "ch1.when_order_matters",
+    "group_id": "ch1_rules",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $37 \\div 3 \\div 4$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "c",
+        "latex": "$5.285714285714286$"
+      },
+      {
+        "id": "a",
+        "latex": "$3.0833333333333335$"
+      },
+      {
+        "id": "b",
+        "latex": "$49.333333333333336$"
+      },
+      {
+        "id": "d",
+        "latex": "$27.75$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "3.0833333333333335",
+    "answer_type": "decimal",
+    "accepted_forms": [],
+    "solution_latex": "Work left to right: $37\\div 3=12.333333333333334$, then divide by $4$.",
+    "complexity_factor": 0.95,
+    "source_section": "1.3",
+    "tags": [
+      "order_matters"
+    ],
+    "checksum": "sha256-ec3c4ebf273d1c337a1d8eae208df1b5ebd6b1e7cfe3ee0ee6d1560818cdf4ab",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.when_order_matters.hard.0007",
+    "topic_id": "ch1.when_order_matters",
+    "group_id": "ch1_rules",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $(17 - 16) + (16 - 17)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "d",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "a",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The two terms are opposites, so their sum is $0$.",
+    "complexity_factor": 0.95,
+    "source_section": "1.3",
+    "tags": [
+      "order_matters"
+    ],
+    "checksum": "sha256-ca6b677de4ba0a699acf28df938e78cbd8c1ef65bc01eabbed00b3186c686ef6",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.when_order_matters.hard.0008",
+    "topic_id": "ch1.when_order_matters",
+    "group_id": "ch1_rules",
+    "difficulty": "hard",
+    "prompt_latex": "Insert parentheses to make $8 - 2 \\cdot 6 = 36$ true.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "b",
+        "latex": "$(8 + 2) \\cdot 6$"
+      },
+      {
+        "id": "d",
+        "latex": "$8 \\cdot (2 - 6)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(8 - 2) + 6$"
+      },
+      {
+        "id": "a",
+        "latex": "$(8 - 2) \\cdot 6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(8 - 2) * 6",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(8-2)*6"
+    ],
+    "solution_latex": "Grouping $8-2$ first gives $(8-2)\\cdot 6=36$.",
+    "complexity_factor": 0.95,
+    "source_section": "1.3",
+    "tags": [
+      "order_matters"
+    ],
+    "checksum": "sha256-4f6562568e8d7815b83c6ae0e5bce5d87bd8b2989a294727cc8415d33a388790",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.when_order_matters.hard.0009",
+    "topic_id": "ch1.when_order_matters",
+    "group_id": "ch1_rules",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $18 \\div 3 \\div 2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$12$"
+      },
+      {
+        "id": "c",
+        "latex": "$3.6$"
+      },
+      {
+        "id": "d",
+        "latex": "$27$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "3",
+    "answer_type": "decimal",
+    "accepted_forms": [],
+    "solution_latex": "Work left to right: $18\\div 3=6$, then divide by $2$.",
+    "complexity_factor": 0.95,
+    "source_section": "1.3",
+    "tags": [
+      "order_matters"
+    ],
+    "checksum": "sha256-2db6e674d070ade24bd2c929a60242b2635dd0839c8386d80f00693107081006",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.when_order_matters.hard.0010",
+    "topic_id": "ch1.when_order_matters",
+    "group_id": "ch1_rules",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $(14 - 9) + (9 - 14)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$-5$"
+      },
+      {
+        "id": "a",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The two terms are opposites, so their sum is $0$.",
+    "complexity_factor": 0.95,
+    "source_section": "1.3",
+    "tags": [
+      "order_matters"
+    ],
+    "checksum": "sha256-f47ff9a09ce20366705f58b1f9e4d9f4f7e71097dea783c960fbac897f37cc10",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.when_order_matters.hard.0011",
+    "topic_id": "ch1.when_order_matters",
+    "group_id": "ch1_rules",
+    "difficulty": "hard",
+    "prompt_latex": "Insert parentheses to make $17 - 3 \\cdot 5 = 70$ true.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "b",
+        "latex": "$(17 + 3) \\cdot 5$"
+      },
+      {
+        "id": "a",
+        "latex": "$(17 - 3) \\cdot 5$"
+      },
+      {
+        "id": "d",
+        "latex": "$17 \\cdot (3 - 5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(17 - 3) + 5$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(17 - 3) * 5",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(17-3)*5"
+    ],
+    "solution_latex": "Grouping $17-3$ first gives $(17-3)\\cdot 5=70$.",
+    "complexity_factor": 0.95,
+    "source_section": "1.3",
+    "tags": [
+      "order_matters"
+    ],
+    "checksum": "sha256-8f4643c9a4bcd61a22fed06dda051eebe60238239f16789ba820f56095230df7",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.when_order_matters.hard.0012",
+    "topic_id": "ch1.when_order_matters",
+    "group_id": "ch1_rules",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $4^{3^2}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "c",
+        "latex": "$1024$"
+      },
+      {
+        "id": "d",
+        "latex": "$262145$"
+      },
+      {
+        "id": "b",
+        "latex": "$4096$"
+      },
+      {
+        "id": "a",
+        "latex": "$262144$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "262144",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Work from the top: $3^2=9$, so the expression equals $4^9=262144$.",
+    "complexity_factor": 0.95,
+    "source_section": "1.3",
+    "tags": [
+      "order_matters"
+    ],
+    "checksum": "sha256-8ed999a33bd335d3dfc9a190eb5dec801a3da2fe5c4a4922d84fd7d000ed9f1c",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.when_order_matters.hard.0013",
+    "topic_id": "ch1.when_order_matters",
+    "group_id": "ch1_rules",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $15 \\div 3 \\div 3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "b",
+        "latex": "$15$"
+      },
+      {
+        "id": "d",
+        "latex": "$2.666666666666667$"
+      },
+      {
+        "id": "a",
+        "latex": "$1.6666666666666667$"
+      },
+      {
+        "id": "c",
+        "latex": "$2.5$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1.6666666666666667",
+    "answer_type": "decimal",
+    "accepted_forms": [],
+    "solution_latex": "Work left to right: $15\\div 3=5$, then divide by $3$.",
+    "complexity_factor": 0.95,
+    "source_section": "1.3",
+    "tags": [
+      "order_matters"
+    ],
+    "checksum": "sha256-32313dcc31bba11c9a4c64408040642369f0f51940200d9e5ffd08b806fa91c2",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.when_order_matters.hard.0014",
+    "topic_id": "ch1.when_order_matters",
+    "group_id": "ch1_rules",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $(15 - 18) + (18 - 15)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "c",
+        "latex": "$-3$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-6$"
+      },
+      {
+        "id": "a",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The two terms are opposites, so their sum is $0$.",
+    "complexity_factor": 0.95,
+    "source_section": "1.3",
+    "tags": [
+      "order_matters"
+    ],
+    "checksum": "sha256-ab0d3827a29670e8d5a95fd4a7e3a3dcf043645755df9e45cb80f9fa8a517d58",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.when_order_matters.hard.0015",
+    "topic_id": "ch1.when_order_matters",
+    "group_id": "ch1_rules",
+    "difficulty": "hard",
+    "prompt_latex": "Insert parentheses to make $8 - 8 \\cdot 9 = 0$ true.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "d",
+        "latex": "$8 \\cdot (8 - 9)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(8 + 8) \\cdot 9$"
+      },
+      {
+        "id": "a",
+        "latex": "$(8 - 8) \\cdot 9$"
+      },
+      {
+        "id": "c",
+        "latex": "$(8 - 8) + 9$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(8 - 8) * 9",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(8-8)*9"
+    ],
+    "solution_latex": "Grouping $8-8$ first gives $(8-8)\\cdot 9=0$.",
+    "complexity_factor": 0.95,
+    "source_section": "1.3",
+    "tags": [
+      "order_matters"
+    ],
+    "checksum": "sha256-e44473aac21cff18bd3d768af6f4d7c29ab4ae1d10fb26969cfc3bc044925497",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.when_order_matters.hard.0016",
+    "topic_id": "ch1.when_order_matters",
+    "group_id": "ch1_rules",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $49 \\div 4 \\div 3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "d",
+        "latex": "$65.33333333333333$"
+      },
+      {
+        "id": "a",
+        "latex": "$4.083333333333333$"
+      },
+      {
+        "id": "b",
+        "latex": "$36.75$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "4.083333333333333",
+    "answer_type": "decimal",
+    "accepted_forms": [],
+    "solution_latex": "Work left to right: $49\\div 4=12.25$, then divide by $3$.",
+    "complexity_factor": 0.95,
+    "source_section": "1.3",
+    "tags": [
+      "order_matters"
+    ],
+    "checksum": "sha256-ec6b1b9d88dc930a4f7c53678f146a2254dc33430e10eefeb1df3a83c2955b72",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.when_order_matters.hard.0017",
+    "topic_id": "ch1.when_order_matters",
+    "group_id": "ch1_rules",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $(13 - 11) + (11 - 13)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      },
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The two terms are opposites, so their sum is $0$.",
+    "complexity_factor": 0.95,
+    "source_section": "1.3",
+    "tags": [
+      "order_matters"
+    ],
+    "checksum": "sha256-8eec0140e6ccd55a9f8cd1411c8a8bca1eb9dfaf07c3944949ba5c9d057b1b45",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.when_order_matters.hard.0018",
+    "topic_id": "ch1.when_order_matters",
+    "group_id": "ch1_rules",
+    "difficulty": "hard",
+    "prompt_latex": "Insert parentheses to make $14 - 10 \\cdot 4 = 16$ true.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "b",
+        "latex": "$(14 + 10) \\cdot 4$"
+      },
+      {
+        "id": "d",
+        "latex": "$14 \\cdot (10 - 4)$"
+      },
+      {
+        "id": "a",
+        "latex": "$(14 - 10) \\cdot 4$"
+      },
+      {
+        "id": "c",
+        "latex": "$(14 - 10) + 4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(14 - 10) * 4",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(14-10)*4"
+    ],
+    "solution_latex": "Grouping $14-10$ first gives $(14-10)\\cdot 4=16$.",
+    "complexity_factor": 0.95,
+    "source_section": "1.3",
+    "tags": [
+      "order_matters"
+    ],
+    "checksum": "sha256-16078e7c83959eb3f4f601b4aeec47b8a6f0f42676a0e08545194ade5d87bf27",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.when_order_matters.hard.0019",
+    "topic_id": "ch1.when_order_matters",
+    "group_id": "ch1_rules",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $14 \\div 4 \\div 4$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "b",
+        "latex": "$14$"
+      },
+      {
+        "id": "d",
+        "latex": "$-0.125$"
+      },
+      {
+        "id": "a",
+        "latex": "$0.875$"
+      },
+      {
+        "id": "c",
+        "latex": "$1.75$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0.875",
+    "answer_type": "decimal",
+    "accepted_forms": [],
+    "solution_latex": "Work left to right: $14\\div 4=3.5$, then divide by $4$.",
+    "complexity_factor": 0.95,
+    "source_section": "1.3",
+    "tags": [
+      "order_matters"
+    ],
+    "checksum": "sha256-1bf50a0e8a9f2194ca57bce66dee90987f381e588a082a0ed79daa1ad88dc769",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.when_order_matters.hard.0020",
+    "topic_id": "ch1.when_order_matters",
+    "group_id": "ch1_rules",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $(16 - 17) + (17 - 16)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "d",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The two terms are opposites, so their sum is $0$.",
+    "complexity_factor": 0.95,
+    "source_section": "1.3",
+    "tags": [
+      "order_matters"
+    ],
+    "checksum": "sha256-a19e9c92747839a33c1e8df2fc680900fd864fafe15a54de699d800fa3f191f0",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.when_order_matters.hard.0021",
+    "topic_id": "ch1.when_order_matters",
+    "group_id": "ch1_rules",
+    "difficulty": "hard",
+    "prompt_latex": "Insert parentheses to make $12 - 2 \\cdot 7 = 70$ true.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "d",
+        "latex": "$12 \\cdot (2 - 7)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(12 + 2) \\cdot 7$"
+      },
+      {
+        "id": "a",
+        "latex": "$(12 - 2) \\cdot 7$"
+      },
+      {
+        "id": "c",
+        "latex": "$(12 - 2) + 7$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(12 - 2) * 7",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(12-2)*7"
+    ],
+    "solution_latex": "Grouping $12-2$ first gives $(12-2)\\cdot 7=70$.",
+    "complexity_factor": 0.95,
+    "source_section": "1.3",
+    "tags": [
+      "order_matters"
+    ],
+    "checksum": "sha256-c4cd04132f9fdb1cfdc5b73f4a423d6f9b7f5df7e0728c0da9c1f7a46f6d3d20",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.when_order_matters.hard.0022",
+    "topic_id": "ch1.when_order_matters",
+    "group_id": "ch1_rules",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $30 \\div 5 \\div 3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "c",
+        "latex": "$3.75$"
+      },
+      {
+        "id": "b",
+        "latex": "$18$"
+      },
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$50$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2",
+    "answer_type": "decimal",
+    "accepted_forms": [],
+    "solution_latex": "Work left to right: $30\\div 5=6$, then divide by $3$.",
+    "complexity_factor": 0.95,
+    "source_section": "1.3",
+    "tags": [
+      "order_matters"
+    ],
+    "checksum": "sha256-52ab41a2a83382e292561d44b00343a23e2aa357611d6a8d257659ac42d8902a",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.when_order_matters.hard.0023",
+    "topic_id": "ch1.when_order_matters",
+    "group_id": "ch1_rules",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $(9 - 17) + (17 - 9)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "b",
+        "latex": "$-16$"
+      },
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$-8$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The two terms are opposites, so their sum is $0$.",
+    "complexity_factor": 0.95,
+    "source_section": "1.3",
+    "tags": [
+      "order_matters"
+    ],
+    "checksum": "sha256-876089faa0810384bd5ab70fccb8b1f3ae7dd47e40d1094ff128f8d24b2e4e52",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.when_order_matters.hard.0024",
+    "topic_id": "ch1.when_order_matters",
+    "group_id": "ch1_rules",
+    "difficulty": "hard",
+    "prompt_latex": "Insert parentheses to make $5 - 2 \\cdot 8 = 24$ true.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(5 - 2) \\cdot 8$"
+      },
+      {
+        "id": "d",
+        "latex": "$5 \\cdot (2 - 8)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(5 + 2) \\cdot 8$"
+      },
+      {
+        "id": "c",
+        "latex": "$(5 - 2) + 8$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(5 - 2) * 8",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(5-2)*8"
+    ],
+    "solution_latex": "Grouping $5-2$ first gives $(5-2)\\cdot 8=24$.",
+    "complexity_factor": 0.95,
+    "source_section": "1.3",
+    "tags": [
+      "order_matters"
+    ],
+    "checksum": "sha256-dad22f9e757dcd6454ca5f133bd177852a1d8720ceaa60b2a1198bd9f5d94f49",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.when_order_matters.hard.0025",
+    "topic_id": "ch1.when_order_matters",
+    "group_id": "ch1_rules",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $3^{3^2}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "d",
+        "latex": "$19684$"
+      },
+      {
+        "id": "c",
+        "latex": "$243$"
+      },
+      {
+        "id": "a",
+        "latex": "$19683$"
+      },
+      {
+        "id": "b",
+        "latex": "$729$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "19683",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Work from the top: $3^2=9$, so the expression equals $3^9=19683$.",
+    "complexity_factor": 0.95,
+    "source_section": "1.3",
+    "tags": [
+      "order_matters"
+    ],
+    "checksum": "sha256-5ee0f0260f4497864dbb3af390efe7241803b823adb7985a3fc750707605c498",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.when_order_matters.hard.0026",
+    "topic_id": "ch1.when_order_matters",
+    "group_id": "ch1_rules",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $31 \\div 4 \\div 4$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "d",
+        "latex": "$0.9375$"
+      },
+      {
+        "id": "a",
+        "latex": "$1.9375$"
+      },
+      {
+        "id": "b",
+        "latex": "$31$"
+      },
+      {
+        "id": "c",
+        "latex": "$3.875$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1.9375",
+    "answer_type": "decimal",
+    "accepted_forms": [],
+    "solution_latex": "Work left to right: $31\\div 4=7.75$, then divide by $4$.",
+    "complexity_factor": 0.95,
+    "source_section": "1.3",
+    "tags": [
+      "order_matters"
+    ],
+    "checksum": "sha256-24407be71a266aa6059882da4ac1152ab78029fc2a206219809b4d0438a8379e",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.when_order_matters.hard.0027",
+    "topic_id": "ch1.when_order_matters",
+    "group_id": "ch1_rules",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $(16 - 9) + (9 - 16)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$-7$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$14$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The two terms are opposites, so their sum is $0$.",
+    "complexity_factor": 0.95,
+    "source_section": "1.3",
+    "tags": [
+      "order_matters"
+    ],
+    "checksum": "sha256-16581e188ab2de33bd3f8b48a7e5c47abed99b494f04bbd855346e15d0a07860",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.when_order_matters.hard.0028",
+    "topic_id": "ch1.when_order_matters",
+    "group_id": "ch1_rules",
+    "difficulty": "hard",
+    "prompt_latex": "Insert parentheses to make $13 - 6 \\cdot 2 = 14$ true.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(13 - 6) \\cdot 2$"
+      },
+      {
+        "id": "d",
+        "latex": "$13 \\cdot (6 - 2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(13 - 6) + 2$"
+      },
+      {
+        "id": "b",
+        "latex": "$(13 + 6) \\cdot 2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(13 - 6) * 2",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(13-6)*2"
+    ],
+    "solution_latex": "Grouping $13-6$ first gives $(13-6)\\cdot 2=14$.",
+    "complexity_factor": 0.95,
+    "source_section": "1.3",
+    "tags": [
+      "order_matters"
+    ],
+    "checksum": "sha256-bc91883738587e32944b4882c29d5e0e6a13430a5c24ea7c5e98470b91b9cc8a",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.when_order_matters.hard.0029",
+    "topic_id": "ch1.when_order_matters",
+    "group_id": "ch1_rules",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $21 \\div 4 \\div 4$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "b",
+        "latex": "$21$"
+      },
+      {
+        "id": "a",
+        "latex": "$1.3125$"
+      },
+      {
+        "id": "c",
+        "latex": "$2.625$"
+      },
+      {
+        "id": "d",
+        "latex": "$2.3125$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1.3125",
+    "answer_type": "decimal",
+    "accepted_forms": [],
+    "solution_latex": "Work left to right: $21\\div 4=5.25$, then divide by $4$.",
+    "complexity_factor": 0.95,
+    "source_section": "1.3",
+    "tags": [
+      "order_matters"
+    ],
+    "checksum": "sha256-4bf2b9076cc7b90fef27ae773c58b9b1614c28f3957d5e8db15382687ef111a1",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.when_order_matters.hard.0030",
+    "topic_id": "ch1.when_order_matters",
+    "group_id": "ch1_rules",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $(4 - 15) + (15 - 4)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "b",
+        "latex": "$-22$"
+      },
+      {
+        "id": "d",
+        "latex": "$11$"
+      },
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$-11$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The two terms are opposites, so their sum is $0$.",
+    "complexity_factor": 0.95,
+    "source_section": "1.3",
+    "tags": [
+      "order_matters"
+    ],
+    "checksum": "sha256-ff3849247ea4359d61413f6af9079d79742854ef5dfa887b3d0935a5193a5a21",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.when_order_matters.hard.0031",
+    "topic_id": "ch1.when_order_matters",
+    "group_id": "ch1_rules",
+    "difficulty": "hard",
+    "prompt_latex": "Insert parentheses to make $15 - 9 \\cdot 5 = 30$ true.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "d",
+        "latex": "$15 \\cdot (9 - 5)$"
+      },
+      {
+        "id": "a",
+        "latex": "$(15 - 9) \\cdot 5$"
+      },
+      {
+        "id": "c",
+        "latex": "$(15 - 9) + 5$"
+      },
+      {
+        "id": "b",
+        "latex": "$(15 + 9) \\cdot 5$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(15 - 9) * 5",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(15-9)*5"
+    ],
+    "solution_latex": "Grouping $15-9$ first gives $(15-9)\\cdot 5=30$.",
+    "complexity_factor": 0.95,
+    "source_section": "1.3",
+    "tags": [
+      "order_matters"
+    ],
+    "checksum": "sha256-e85dad494ce3ff17f91555fe22103e38700647794a56ffb49e4cfbcf4b65a8b4",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.when_order_matters.hard.0032",
+    "topic_id": "ch1.when_order_matters",
+    "group_id": "ch1_rules",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $33 \\div 3 \\div 3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3.6666666666666665$"
+      },
+      {
+        "id": "d",
+        "latex": "$2.6666666666666665$"
+      },
+      {
+        "id": "b",
+        "latex": "$33$"
+      },
+      {
+        "id": "c",
+        "latex": "$5.5$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "3.6666666666666665",
+    "answer_type": "decimal",
+    "accepted_forms": [],
+    "solution_latex": "Work left to right: $33\\div 3=11$, then divide by $3$.",
+    "complexity_factor": 0.95,
+    "source_section": "1.3",
+    "tags": [
+      "order_matters"
+    ],
+    "checksum": "sha256-28b70a9380927b2a2048f86b9628080c9bfce460d533878a521c3be77e99b61f",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.when_order_matters.hard.0033",
+    "topic_id": "ch1.when_order_matters",
+    "group_id": "ch1_rules",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $(16 - 18) + (18 - 16)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "d",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4$"
+      },
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The two terms are opposites, so their sum is $0$.",
+    "complexity_factor": 0.95,
+    "source_section": "1.3",
+    "tags": [
+      "order_matters"
+    ],
+    "checksum": "sha256-eec65c69c0732c332b5a09701e1b9cba405ca4ae95c6b02fd4c86ac7252c5f9c",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.when_order_matters.hard.0034",
+    "topic_id": "ch1.when_order_matters",
+    "group_id": "ch1_rules",
+    "difficulty": "hard",
+    "prompt_latex": "Insert parentheses to make $7 - 5 \\cdot 7 = 14$ true.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(7 - 5) \\cdot 7$"
+      },
+      {
+        "id": "d",
+        "latex": "$7 \\cdot (5 - 7)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(7 + 5) \\cdot 7$"
+      },
+      {
+        "id": "c",
+        "latex": "$(7 - 5) + 7$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(7 - 5) * 7",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(7-5)*7"
+    ],
+    "solution_latex": "Grouping $7-5$ first gives $(7-5)\\cdot 7=14$.",
+    "complexity_factor": 0.95,
+    "source_section": "1.3",
+    "tags": [
+      "order_matters"
+    ],
+    "checksum": "sha256-80d0c1cfaee3a2b60bd398873d1447a0a1aff672978222bea7199c85e0a6a268",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.when_order_matters.hard.0035",
+    "topic_id": "ch1.when_order_matters",
+    "group_id": "ch1_rules",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $13 \\div 3 \\div 3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "d",
+        "latex": "$0.4444444444444444$"
+      },
+      {
+        "id": "a",
+        "latex": "$1.4444444444444444$"
+      },
+      {
+        "id": "b",
+        "latex": "$13$"
+      },
+      {
+        "id": "c",
+        "latex": "$2.1666666666666665$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1.4444444444444444",
+    "answer_type": "decimal",
+    "accepted_forms": [],
+    "solution_latex": "Work left to right: $13\\div 3=4.333333333333333$, then divide by $3$.",
+    "complexity_factor": 0.95,
+    "source_section": "1.3",
+    "tags": [
+      "order_matters"
+    ],
+    "checksum": "sha256-241673f7862c96ceeb86b83cb38202ff92e35d3d3594aa8268127ffd295899de",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.when_order_matters.hard.0036",
+    "topic_id": "ch1.when_order_matters",
+    "group_id": "ch1_rules",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $(19 - 11) + (11 - 19)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$16$"
+      },
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$-8$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The two terms are opposites, so their sum is $0$.",
+    "complexity_factor": 0.95,
+    "source_section": "1.3",
+    "tags": [
+      "order_matters"
+    ],
+    "checksum": "sha256-ae329881bd7ae85eb6c59e6a9ec34772394f95edfe2cbc51d0cf74ffebebddd7",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.when_order_matters.hard.0037",
+    "topic_id": "ch1.when_order_matters",
+    "group_id": "ch1_rules",
+    "difficulty": "hard",
+    "prompt_latex": "Insert parentheses to make $13 - 6 \\cdot 4 = 28$ true.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "b",
+        "latex": "$(13 + 6) \\cdot 4$"
+      },
+      {
+        "id": "a",
+        "latex": "$(13 - 6) \\cdot 4$"
+      },
+      {
+        "id": "c",
+        "latex": "$(13 - 6) + 4$"
+      },
+      {
+        "id": "d",
+        "latex": "$13 \\cdot (6 - 4)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(13 - 6) * 4",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(13-6)*4"
+    ],
+    "solution_latex": "Grouping $13-6$ first gives $(13-6)\\cdot 4=28$.",
+    "complexity_factor": 0.95,
+    "source_section": "1.3",
+    "tags": [
+      "order_matters"
+    ],
+    "checksum": "sha256-21e01b646855433fe8abadbc09f52fddd772faaca9cbe9f50212e50323901b70",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.when_order_matters.hard.0038",
+    "topic_id": "ch1.when_order_matters",
+    "group_id": "ch1_rules",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $45 \\div 4 \\div 3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "d",
+        "latex": "$60$"
+      },
+      {
+        "id": "c",
+        "latex": "$6.428571428571429$"
+      },
+      {
+        "id": "b",
+        "latex": "$33.75$"
+      },
+      {
+        "id": "a",
+        "latex": "$3.75$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "3.75",
+    "answer_type": "decimal",
+    "accepted_forms": [],
+    "solution_latex": "Work left to right: $45\\div 4=11.25$, then divide by $3$.",
+    "complexity_factor": 0.95,
+    "source_section": "1.3",
+    "tags": [
+      "order_matters"
+    ],
+    "checksum": "sha256-0719104be3e8f2fc72d61f0d9c2e5fa06c79dc8ef79f56dcf069d4dd2f252d4a",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.when_order_matters.hard.0039",
+    "topic_id": "ch1.when_order_matters",
+    "group_id": "ch1_rules",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $(4 - 10) + (10 - 4)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$-6$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$-12$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The two terms are opposites, so their sum is $0$.",
+    "complexity_factor": 0.95,
+    "source_section": "1.3",
+    "tags": [
+      "order_matters"
+    ],
+    "checksum": "sha256-778d3a489ec169b7cfa8bfbf9b914656da0e81dbf0832996f978f19ec5ae3220",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.when_order_matters.hard.0040",
+    "topic_id": "ch1.when_order_matters",
+    "group_id": "ch1_rules",
+    "difficulty": "hard",
+    "prompt_latex": "Insert parentheses to make $9 - 2 \\cdot 4 = 28$ true.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(9 - 2) \\cdot 4$"
+      },
+      {
+        "id": "d",
+        "latex": "$9 \\cdot (2 - 4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(9 - 2) + 4$"
+      },
+      {
+        "id": "b",
+        "latex": "$(9 + 2) \\cdot 4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(9 - 2) * 4",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(9-2)*4"
+    ],
+    "solution_latex": "Grouping $9-2$ first gives $(9-2)\\cdot 4=28$.",
+    "complexity_factor": 0.95,
+    "source_section": "1.3",
+    "tags": [
+      "order_matters"
+    ],
+    "checksum": "sha256-a0c2154e7c525eb8dcd233f537cda6d369d69894c2e41a225f7a9b1af5b8d223",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.when_order_matters.hard.0041",
+    "topic_id": "ch1.when_order_matters",
+    "group_id": "ch1_rules",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $44 \\div 6 \\div 2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3.6666666666666665$"
+      },
+      {
+        "id": "c",
+        "latex": "$5.5$"
+      },
+      {
+        "id": "b",
+        "latex": "$14.666666666666666$"
+      },
+      {
+        "id": "d",
+        "latex": "$132$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "3.6666666666666665",
+    "answer_type": "decimal",
+    "accepted_forms": [],
+    "solution_latex": "Work left to right: $44\\div 6=7.333333333333333$, then divide by $2$.",
+    "complexity_factor": 0.95,
+    "source_section": "1.3",
+    "tags": [
+      "order_matters"
+    ],
+    "checksum": "sha256-d1861da29182ff379814084587209953308dfaea7951053d8b33a5b3d768aa76",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.when_order_matters.hard.0042",
+    "topic_id": "ch1.when_order_matters",
+    "group_id": "ch1_rules",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $(2 - 12) + (12 - 2)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "b",
+        "latex": "$-20$"
+      },
+      {
+        "id": "c",
+        "latex": "$-10$"
+      },
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The two terms are opposites, so their sum is $0$.",
+    "complexity_factor": 0.95,
+    "source_section": "1.3",
+    "tags": [
+      "order_matters"
+    ],
+    "checksum": "sha256-dc23011eddd317b803ec03409a5bb30b6575a9acb5f2ecd148179caf5308d10c",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.when_order_matters.hard.0043",
+    "topic_id": "ch1.when_order_matters",
+    "group_id": "ch1_rules",
+    "difficulty": "hard",
+    "prompt_latex": "Insert parentheses to make $8 - 2 \\cdot 4 = 24$ true.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "b",
+        "latex": "$(8 + 2) \\cdot 4$"
+      },
+      {
+        "id": "a",
+        "latex": "$(8 - 2) \\cdot 4$"
+      },
+      {
+        "id": "d",
+        "latex": "$8 \\cdot (2 - 4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(8 - 2) + 4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(8 - 2) * 4",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(8-2)*4"
+    ],
+    "solution_latex": "Grouping $8-2$ first gives $(8-2)\\cdot 4=24$.",
+    "complexity_factor": 0.95,
+    "source_section": "1.3",
+    "tags": [
+      "order_matters"
+    ],
+    "checksum": "sha256-6587ab9672e76dd1491c89efde96871b03480793adefd88a08401b2a2255a649",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.when_order_matters.hard.0044",
+    "topic_id": "ch1.when_order_matters",
+    "group_id": "ch1_rules",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $33 \\div 5 \\div 4$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "c",
+        "latex": "$3.6666666666666665$"
+      },
+      {
+        "id": "a",
+        "latex": "$1.65$"
+      },
+      {
+        "id": "d",
+        "latex": "$41.25$"
+      },
+      {
+        "id": "b",
+        "latex": "$26.4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1.65",
+    "answer_type": "decimal",
+    "accepted_forms": [],
+    "solution_latex": "Work left to right: $33\\div 5=6.6$, then divide by $4$.",
+    "complexity_factor": 0.95,
+    "source_section": "1.3",
+    "tags": [
+      "order_matters"
+    ],
+    "checksum": "sha256-36ffd5721fe1d87439c41c8783a8846df07ef286f0cb56cdbd78d312e3d43c4a",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.when_order_matters.hard.0045",
+    "topic_id": "ch1.when_order_matters",
+    "group_id": "ch1_rules",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $(17 - 7) + (7 - 17)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "d",
+        "latex": "$-10$"
+      },
+      {
+        "id": "b",
+        "latex": "$20$"
+      },
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The two terms are opposites, so their sum is $0$.",
+    "complexity_factor": 0.95,
+    "source_section": "1.3",
+    "tags": [
+      "order_matters"
+    ],
+    "checksum": "sha256-5328ac41df5465e36825368b4dedfa015e4796d22956804c0ede1d32161efc68",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.when_order_matters.hard.0046",
+    "topic_id": "ch1.when_order_matters",
+    "group_id": "ch1_rules",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $60 \\div 4 \\div 2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "d",
+        "latex": "$120$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "a",
+        "latex": "$7.5$"
+      },
+      {
+        "id": "b",
+        "latex": "$30$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "7.5",
+    "answer_type": "decimal",
+    "accepted_forms": [],
+    "solution_latex": "Work left to right: $60\\div 4=15$, then divide by $2$.",
+    "complexity_factor": 0.95,
+    "source_section": "1.3",
+    "tags": [
+      "order_matters"
+    ],
+    "checksum": "sha256-f13bd61e5a646c19d346d94b1145463c3f9f9533766ba9401d5cf8414819473b",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.when_order_matters.hard.0047",
+    "topic_id": "ch1.when_order_matters",
+    "group_id": "ch1_rules",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $(3 - 7) + (7 - 3)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "d",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-8$"
+      },
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The two terms are opposites, so their sum is $0$.",
+    "complexity_factor": 0.95,
+    "source_section": "1.3",
+    "tags": [
+      "order_matters"
+    ],
+    "checksum": "sha256-b37935db127a853560ba5ceea015ca85c40795b013fcffb79800a73b917da341",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.when_order_matters.hard.0048",
+    "topic_id": "ch1.when_order_matters",
+    "group_id": "ch1_rules",
+    "difficulty": "hard",
+    "prompt_latex": "Insert parentheses to make $6 - 8 \\cdot 10 = -20$ true.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "c",
+        "latex": "$(6 - 8) + 10$"
+      },
+      {
+        "id": "a",
+        "latex": "$(6 - 8) \\cdot 10$"
+      },
+      {
+        "id": "b",
+        "latex": "$(6 + 8) \\cdot 10$"
+      },
+      {
+        "id": "d",
+        "latex": "$6 \\cdot (8 - 10)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(6 - 8) * 10",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(6-8)*10"
+    ],
+    "solution_latex": "Grouping $6-8$ first gives $(6-8)\\cdot 10=-20$.",
+    "complexity_factor": 0.95,
+    "source_section": "1.3",
+    "tags": [
+      "order_matters"
+    ],
+    "checksum": "sha256-672238e7dcc1472fcc225239339ee741b704e297920a6a9051435642d3c57e2a",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.when_order_matters.hard.0049",
+    "topic_id": "ch1.when_order_matters",
+    "group_id": "ch1_rules",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $25 \\div 4 \\div 4$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1.5625$"
+      },
+      {
+        "id": "d",
+        "latex": "$0.5625$"
+      },
+      {
+        "id": "c",
+        "latex": "$3.125$"
+      },
+      {
+        "id": "b",
+        "latex": "$25$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1.5625",
+    "answer_type": "decimal",
+    "accepted_forms": [],
+    "solution_latex": "Work left to right: $25\\div 4=6.25$, then divide by $4$.",
+    "complexity_factor": 0.95,
+    "source_section": "1.3",
+    "tags": [
+      "order_matters"
+    ],
+    "checksum": "sha256-63d7c28b57f804d0ee230100a903e67665ec3fadc7ace6cd84f96f6dc90a6f5c",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.when_order_matters.hard.0050",
+    "topic_id": "ch1.when_order_matters",
+    "group_id": "ch1_rules",
+    "difficulty": "hard",
+    "prompt_latex": "Evaluate $(14 - 11) + (11 - 14)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The two terms are opposites, so their sum is $0$.",
+    "complexity_factor": 0.95,
+    "source_section": "1.3",
+    "tags": [
+      "order_matters"
+    ],
+    "checksum": "sha256-6dab7e908ef2d0ecbeeb65578397fbc0ba2c02fef0f0fef3b58483fa7d00cedb",
+    "status": "valid"
+  }
+]

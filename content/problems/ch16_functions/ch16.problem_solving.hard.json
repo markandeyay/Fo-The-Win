@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "ch16.problem_solving.hard.0001",
+    "topic_id": "ch16.problem_solving",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A number machine multiplies the input by 2 and then adds 1. After the machine is used twice, the output is 11. What was the original input?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The machine is $M(x)=2x+1$. Thus $M(M(x))=4x+3$. Solving $4x+3=11$ gives $x=2$.",
+    "complexity_factor": 1.4,
+    "source_section": "16.5",
+    "tags": [
+      "functions",
+      "word-problem",
+      "composition"
+    ],
+    "checksum": "sha256-010f3f86dd4d9ece980f0f782b0a621f395ad195a9ea0b432bd7f1a9b900bf4b",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.problem_solving.hard.0002",
+    "topic_id": "ch16.problem_solving",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A number machine multiplies the input by 3 and then adds 3. After the machine is used twice, the output is 57. What was the original input?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$18$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$54$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The machine is $M(x)=3x+3$. Thus $M(M(x))=9x+12$. Solving $9x+12=57$ gives $x=5$.",
+    "complexity_factor": 1.4,
+    "source_section": "16.5",
+    "tags": [
+      "functions",
+      "word-problem",
+      "composition"
+    ],
+    "checksum": "sha256-ca5d73b1365206c9387e8a304a561bf3e65a212d8f27f86f9b669dd93bab4d7a",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.problem_solving.hard.0003",
+    "topic_id": "ch16.problem_solving",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A number machine multiplies the input by 4 and then adds 5. After the machine is used twice, the output is 73. What was the original input?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$68$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$17$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The machine is $M(x)=4x+5$. Thus $M(M(x))=16x+25$. Solving $16x+25=73$ gives $x=3$.",
+    "complexity_factor": 1.4,
+    "source_section": "16.5",
+    "tags": [
+      "functions",
+      "word-problem",
+      "composition"
+    ],
+    "checksum": "sha256-46cba7387c4348870c287fa7eb4bcd01a3a344c0cfcbe4722b8cec3fb4af2301",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.problem_solving.hard.0004",
+    "topic_id": "ch16.problem_solving",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A number machine multiplies the input by 5 and then adds 2. After the machine is used twice, the output is 162. What was the original input?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$160$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$32$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The machine is $M(x)=5x+2$. Thus $M(M(x))=25x+12$. Solving $25x+12=162$ gives $x=6$.",
+    "complexity_factor": 1.4,
+    "source_section": "16.5",
+    "tags": [
+      "functions",
+      "word-problem",
+      "composition"
+    ],
+    "checksum": "sha256-db213f951f5febd78ab3a039e1623ae3af5c19922298c9ba462d7ac6de1f6137",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.problem_solving.hard.0005",
+    "topic_id": "ch16.problem_solving",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A number machine multiplies the input by 3 and then adds 4. After the machine is used twice, the output is 52. What was the original input?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$16$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$48$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The machine is $M(x)=3x+4$. Thus $M(M(x))=9x+16$. Solving $9x+16=52$ gives $x=4$.",
+    "complexity_factor": 1.4,
+    "source_section": "16.5",
+    "tags": [
+      "functions",
+      "word-problem",
+      "composition"
+    ],
+    "checksum": "sha256-524341f0091fb9b4ac8407d0def1352047a3f12644226a4dc43499ed3b16d010",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.problem_solving.hard.0006",
+    "topic_id": "ch16.problem_solving",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A number machine multiplies the input by 4 and then adds 6. After the machine is used twice, the output is 142. What was the original input?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$34$"
+      },
+      {
+        "id": "b",
+        "latex": "$13$"
+      },
+      {
+        "id": "c",
+        "latex": "$136$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The machine is $M(x)=4x+6$. Thus $M(M(x))=16x+30$. Solving $16x+30=142$ gives $x=7$.",
+    "complexity_factor": 1.4,
+    "source_section": "16.5",
+    "tags": [
+      "functions",
+      "word-problem",
+      "composition"
+    ],
+    "checksum": "sha256-690735ce029782337558d82ab3aaef536ee8b1833b27dd541d43d3f12f7dc352",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.problem_solving.hard.0007",
+    "topic_id": "ch16.problem_solving",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A number machine multiplies the input by 5 and then adds 3. After the machine is used twice, the output is 143. What was the original input?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$140$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$28$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The machine is $M(x)=5x+3$. Thus $M(M(x))=25x+18$. Solving $25x+18=143$ gives $x=5$.",
+    "complexity_factor": 1.4,
+    "source_section": "16.5",
+    "tags": [
+      "functions",
+      "word-problem",
+      "composition"
+    ],
+    "checksum": "sha256-8b18505f232f577882fa37aa9e0d0866bc97ef3421752e679824a552466f7897",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.problem_solving.hard.0008",
+    "topic_id": "ch16.problem_solving",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A number machine multiplies the input by 6 and then adds 5. After the machine is used twice, the output is 323. What was the original input?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$318$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$53$"
+      },
+      {
+        "id": "d",
+        "latex": "$13$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The machine is $M(x)=6x+5$. Thus $M(M(x))=36x+35$. Solving $36x+35=323$ gives $x=8$.",
+    "complexity_factor": 1.4,
+    "source_section": "16.5",
+    "tags": [
+      "functions",
+      "word-problem",
+      "composition"
+    ],
+    "checksum": "sha256-dcd4d60fc945570e92335203ce94253a425b48a176e9e81196ee020fcad88b84",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.problem_solving.hard.0009",
+    "topic_id": "ch16.problem_solving",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A number machine multiplies the input by 4 and then adds 7. After the machine is used twice, the output is 131. What was the original input?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$31$"
+      },
+      {
+        "id": "c",
+        "latex": "$13$"
+      },
+      {
+        "id": "d",
+        "latex": "$124$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The machine is $M(x)=4x+7$. Thus $M(M(x))=16x+35$. Solving $16x+35=131$ gives $x=6$.",
+    "complexity_factor": 1.4,
+    "source_section": "16.5",
+    "tags": [
+      "functions",
+      "word-problem",
+      "composition"
+    ],
+    "checksum": "sha256-5e6bfc283ca9b52e3a05539f8bcd5452ce4b25057018ceacdfe3029a1eca8cda",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.problem_solving.hard.0010",
+    "topic_id": "ch16.problem_solving",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A number machine multiplies the input by 5 and then adds 4. After the machine is used twice, the output is 249. What was the original input?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$49$"
+      },
+      {
+        "id": "b",
+        "latex": "$13$"
+      },
+      {
+        "id": "c",
+        "latex": "$245$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The machine is $M(x)=5x+4$. Thus $M(M(x))=25x+24$. Solving $25x+24=249$ gives $x=9$.",
+    "complexity_factor": 1.4,
+    "source_section": "16.5",
+    "tags": [
+      "functions",
+      "word-problem",
+      "composition"
+    ],
+    "checksum": "sha256-309ed3e34fc0e1b4c908514aea5998a8186c8db371dde1701b3b804256c938e1",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.problem_solving.hard.0011",
+    "topic_id": "ch16.problem_solving",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A number machine multiplies the input by 6 and then adds 6. After the machine is used twice, the output is 294. What was the original input?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$13$"
+      },
+      {
+        "id": "b",
+        "latex": "$288$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$48$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The machine is $M(x)=6x+6$. Thus $M(M(x))=36x+42$. Solving $36x+42=294$ gives $x=7$.",
+    "complexity_factor": 1.4,
+    "source_section": "16.5",
+    "tags": [
+      "functions",
+      "word-problem",
+      "composition"
+    ],
+    "checksum": "sha256-97b1a51378560f6e2080bf1d2d38f6ecc03358081795eb3137ea5e554fced7dd",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.problem_solving.hard.0012",
+    "topic_id": "ch16.problem_solving",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A number machine multiplies the input by 7 and then adds 8. After the machine is used twice, the output is 554. What was the original input?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$546$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$78$"
+      },
+      {
+        "id": "d",
+        "latex": "$18$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The machine is $M(x)=7x+8$. Thus $M(M(x))=49x+64$. Solving $49x+64=554$ gives $x=10$.",
+    "complexity_factor": 1.4,
+    "source_section": "16.5",
+    "tags": [
+      "functions",
+      "word-problem",
+      "composition"
+    ],
+    "checksum": "sha256-573d1b7ce1ffd277502c0c6c4cf55e535857e6908a43dece2b67cda676b55c8a",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.problem_solving.hard.0013",
+    "topic_id": "ch16.problem_solving",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A number machine multiplies the input by 5 and then adds 5. After the machine is used twice, the output is 230. What was the original input?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$45$"
+      },
+      {
+        "id": "c",
+        "latex": "$13$"
+      },
+      {
+        "id": "d",
+        "latex": "$225$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The machine is $M(x)=5x+5$. Thus $M(M(x))=25x+30$. Solving $25x+30=230$ gives $x=8$.",
+    "complexity_factor": 1.4,
+    "source_section": "16.5",
+    "tags": [
+      "functions",
+      "word-problem",
+      "composition"
+    ],
+    "checksum": "sha256-8cdaa502db7654102ff576c3c5fab9b5a75d50b2f5420509cbe41b9e8f9ec029",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.problem_solving.hard.0014",
+    "topic_id": "ch16.problem_solving",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A number machine multiplies the input by 6 and then adds 7. After the machine is used twice, the output is 445. What was the original input?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$73$"
+      },
+      {
+        "id": "b",
+        "latex": "$18$"
+      },
+      {
+        "id": "c",
+        "latex": "$438$"
+      },
+      {
+        "id": "d",
+        "latex": "$11$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "11",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The machine is $M(x)=6x+7$. Thus $M(M(x))=36x+49$. Solving $36x+49=445$ gives $x=11$.",
+    "complexity_factor": 1.4,
+    "source_section": "16.5",
+    "tags": [
+      "functions",
+      "word-problem",
+      "composition"
+    ],
+    "checksum": "sha256-41b99377d494b06b80c2b94832635c985893b63dd90200f150c20cc9476ccabd",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.problem_solving.hard.0015",
+    "topic_id": "ch16.problem_solving",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A number machine multiplies the input by 7 and then adds 9. After the machine is used twice, the output is 513. What was the original input?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$18$"
+      },
+      {
+        "id": "b",
+        "latex": "$504$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$72$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The machine is $M(x)=7x+9$. Thus $M(M(x))=49x+72$. Solving $49x+72=513$ gives $x=9$.",
+    "complexity_factor": 1.4,
+    "source_section": "16.5",
+    "tags": [
+      "functions",
+      "word-problem",
+      "composition"
+    ],
+    "checksum": "sha256-1c00232dd241014e5f218fb477c492e1fc30c83b5492b7aa99df00839ca10102",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.problem_solving.hard.0016",
+    "topic_id": "ch16.problem_solving",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A number machine multiplies the input by 8 and then adds 6. After the machine is used twice, the output is 822. What was the original input?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$816$"
+      },
+      {
+        "id": "b",
+        "latex": "$12$"
+      },
+      {
+        "id": "c",
+        "latex": "$102$"
+      },
+      {
+        "id": "d",
+        "latex": "$18$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The machine is $M(x)=8x+6$. Thus $M(M(x))=64x+54$. Solving $64x+54=822$ gives $x=12$.",
+    "complexity_factor": 1.4,
+    "source_section": "16.5",
+    "tags": [
+      "functions",
+      "word-problem",
+      "composition"
+    ],
+    "checksum": "sha256-882ba10d32a8f03ec035e0c98789d946a67049e44026ee1389442e25d8cf4fb0",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.problem_solving.hard.0017",
+    "topic_id": "ch16.problem_solving",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A number machine multiplies the input by 6 and then adds 8. After the machine is used twice, the output is 416. What was the original input?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$68$"
+      },
+      {
+        "id": "c",
+        "latex": "$18$"
+      },
+      {
+        "id": "d",
+        "latex": "$408$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The machine is $M(x)=6x+8$. Thus $M(M(x))=36x+56$. Solving $36x+56=416$ gives $x=10$.",
+    "complexity_factor": 1.4,
+    "source_section": "16.5",
+    "tags": [
+      "functions",
+      "word-problem",
+      "composition"
+    ],
+    "checksum": "sha256-fb3ab7382c0f9758100371cd3deaef46d68acedbcd75a79342cecedddb77bfb4",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.problem_solving.hard.0018",
+    "topic_id": "ch16.problem_solving",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A number machine multiplies the input by 7 and then adds 10. After the machine is used twice, the output is 717. What was the original input?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$101$"
+      },
+      {
+        "id": "b",
+        "latex": "$23$"
+      },
+      {
+        "id": "c",
+        "latex": "$707$"
+      },
+      {
+        "id": "d",
+        "latex": "$13$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "13",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The machine is $M(x)=7x+10$. Thus $M(M(x))=49x+80$. Solving $49x+80=717$ gives $x=13$.",
+    "complexity_factor": 1.4,
+    "source_section": "16.5",
+    "tags": [
+      "functions",
+      "word-problem",
+      "composition"
+    ],
+    "checksum": "sha256-61ce1d0fe582a16fb7e328ea0060597d6d02bd145c4e8e38e811ac6b3a5556b9",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.problem_solving.hard.0019",
+    "topic_id": "ch16.problem_solving",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A number machine multiplies the input by 8 and then adds 7. After the machine is used twice, the output is 767. What was the original input?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$18$"
+      },
+      {
+        "id": "b",
+        "latex": "$760$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$95$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "11",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The machine is $M(x)=8x+7$. Thus $M(M(x))=64x+63$. Solving $64x+63=767$ gives $x=11$.",
+    "complexity_factor": 1.4,
+    "source_section": "16.5",
+    "tags": [
+      "functions",
+      "word-problem",
+      "composition"
+    ],
+    "checksum": "sha256-b5758c3fd136bc5afcfd0704aa3c07c4d286340b9e5736f378952893d0f00db5",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.problem_solving.hard.0020",
+    "topic_id": "ch16.problem_solving",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A number machine multiplies the input by 9 and then adds 9. After the machine is used twice, the output is 1224. What was the original input?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1215$"
+      },
+      {
+        "id": "b",
+        "latex": "$14$"
+      },
+      {
+        "id": "c",
+        "latex": "$135$"
+      },
+      {
+        "id": "d",
+        "latex": "$23$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "14",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The machine is $M(x)=9x+9$. Thus $M(M(x))=81x+90$. Solving $81x+90=1224$ gives $x=14$.",
+    "complexity_factor": 1.4,
+    "source_section": "16.5",
+    "tags": [
+      "functions",
+      "word-problem",
+      "composition"
+    ],
+    "checksum": "sha256-834709bacf6b6bdb878e723028425b665df12f0f01030b49006b094f4654da5d",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.problem_solving.hard.0021",
+    "topic_id": "ch16.problem_solving",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A number machine multiplies the input by 7 and then adds 11. After the machine is used twice, the output is 676. What was the original input?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12$"
+      },
+      {
+        "id": "b",
+        "latex": "$95$"
+      },
+      {
+        "id": "c",
+        "latex": "$23$"
+      },
+      {
+        "id": "d",
+        "latex": "$665$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The machine is $M(x)=7x+11$. Thus $M(M(x))=49x+88$. Solving $49x+88=676$ gives $x=12$.",
+    "complexity_factor": 1.4,
+    "source_section": "16.5",
+    "tags": [
+      "functions",
+      "word-problem",
+      "composition"
+    ],
+    "checksum": "sha256-e7c2826240d0e95b7b97069b10a8792dc40028ef8331e14098f41be49f4e01ca",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.problem_solving.hard.0022",
+    "topic_id": "ch16.problem_solving",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A number machine multiplies the input by 8 and then adds 8. After the machine is used twice, the output is 1032. What was the original input?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$128$"
+      },
+      {
+        "id": "b",
+        "latex": "$23$"
+      },
+      {
+        "id": "c",
+        "latex": "$1024$"
+      },
+      {
+        "id": "d",
+        "latex": "$15$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "15",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The machine is $M(x)=8x+8$. Thus $M(M(x))=64x+72$. Solving $64x+72=1032$ gives $x=15$.",
+    "complexity_factor": 1.4,
+    "source_section": "16.5",
+    "tags": [
+      "functions",
+      "word-problem",
+      "composition"
+    ],
+    "checksum": "sha256-b20f73c11495d3666df50bb59d3a2d6c12ecfe881ecfea4623a39bbed3491fd3",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.problem_solving.hard.0023",
+    "topic_id": "ch16.problem_solving",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A number machine multiplies the input by 9 and then adds 10. After the machine is used twice, the output is 1153. What was the original input?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$23$"
+      },
+      {
+        "id": "b",
+        "latex": "$1143$"
+      },
+      {
+        "id": "c",
+        "latex": "$13$"
+      },
+      {
+        "id": "d",
+        "latex": "$127$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "13",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The machine is $M(x)=9x+10$. Thus $M(M(x))=81x+100$. Solving $81x+100=1153$ gives $x=13$.",
+    "complexity_factor": 1.4,
+    "source_section": "16.5",
+    "tags": [
+      "functions",
+      "word-problem",
+      "composition"
+    ],
+    "checksum": "sha256-b3df1926b74c544905b696ca216e698618a8c2b82ab2d374aac67368f14613e8",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.problem_solving.hard.0024",
+    "topic_id": "ch16.problem_solving",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A number machine multiplies the input by 10 and then adds 12. After the machine is used twice, the output is 1732. What was the original input?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1720$"
+      },
+      {
+        "id": "b",
+        "latex": "$16$"
+      },
+      {
+        "id": "c",
+        "latex": "$172$"
+      },
+      {
+        "id": "d",
+        "latex": "$28$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "16",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The machine is $M(x)=10x+12$. Thus $M(M(x))=100x+132$. Solving $100x+132=1732$ gives $x=16$.",
+    "complexity_factor": 1.4,
+    "source_section": "16.5",
+    "tags": [
+      "functions",
+      "word-problem",
+      "composition"
+    ],
+    "checksum": "sha256-2057169dc5bfec39fb2fcfc897ba5b6b7084b6f383e4af498a95efd9823ad898",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.problem_solving.hard.0025",
+    "topic_id": "ch16.problem_solving",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A number machine multiplies the input by 8 and then adds 9. After the machine is used twice, the output is 977. What was the original input?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$14$"
+      },
+      {
+        "id": "b",
+        "latex": "$121$"
+      },
+      {
+        "id": "c",
+        "latex": "$23$"
+      },
+      {
+        "id": "d",
+        "latex": "$968$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "14",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The machine is $M(x)=8x+9$. Thus $M(M(x))=64x+81$. Solving $64x+81=977$ gives $x=14$.",
+    "complexity_factor": 1.4,
+    "source_section": "16.5",
+    "tags": [
+      "functions",
+      "word-problem",
+      "composition"
+    ],
+    "checksum": "sha256-633bd13fa87f5bc399fa4a3611258fb7eb9d0af192c8798c078186b7b149c615",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.problem_solving.hard.0026",
+    "topic_id": "ch16.problem_solving",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A number machine multiplies the input by 9 and then adds 11. After the machine is used twice, the output is 1487. What was the original input?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$164$"
+      },
+      {
+        "id": "b",
+        "latex": "$28$"
+      },
+      {
+        "id": "c",
+        "latex": "$1476$"
+      },
+      {
+        "id": "d",
+        "latex": "$17$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "17",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The machine is $M(x)=9x+11$. Thus $M(M(x))=81x+110$. Solving $81x+110=1487$ gives $x=17$.",
+    "complexity_factor": 1.4,
+    "source_section": "16.5",
+    "tags": [
+      "functions",
+      "word-problem",
+      "composition"
+    ],
+    "checksum": "sha256-db79e5ed4b5cc6a694c4698ac1de18d5b2470f8f3f08053503f88125d1664342",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.problem_solving.hard.0027",
+    "topic_id": "ch16.problem_solving",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A number machine multiplies the input by 10 and then adds 13. After the machine is used twice, the output is 1643. What was the original input?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$28$"
+      },
+      {
+        "id": "b",
+        "latex": "$1630$"
+      },
+      {
+        "id": "c",
+        "latex": "$15$"
+      },
+      {
+        "id": "d",
+        "latex": "$163$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "15",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The machine is $M(x)=10x+13$. Thus $M(M(x))=100x+143$. Solving $100x+143=1643$ gives $x=15$.",
+    "complexity_factor": 1.4,
+    "source_section": "16.5",
+    "tags": [
+      "functions",
+      "word-problem",
+      "composition"
+    ],
+    "checksum": "sha256-73c363d542f738270ccc06d8a6514c9774be3b1aeb6bf1a97ed7df4157a2f89a",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.problem_solving.hard.0028",
+    "topic_id": "ch16.problem_solving",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A number machine multiplies the input by 11 and then adds 10. After the machine is used twice, the output is 2298. What was the original input?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2288$"
+      },
+      {
+        "id": "b",
+        "latex": "$18$"
+      },
+      {
+        "id": "c",
+        "latex": "$208$"
+      },
+      {
+        "id": "d",
+        "latex": "$28$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "18",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The machine is $M(x)=11x+10$. Thus $M(M(x))=121x+120$. Solving $121x+120=2298$ gives $x=18$.",
+    "complexity_factor": 1.4,
+    "source_section": "16.5",
+    "tags": [
+      "functions",
+      "word-problem",
+      "composition"
+    ],
+    "checksum": "sha256-4a64ca8385453db9286fe867565611b4c37f0d7944378de0655ea58f48d87230",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.problem_solving.hard.0029",
+    "topic_id": "ch16.problem_solving",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A number machine multiplies the input by 9 and then adds 12. After the machine is used twice, the output is 1416. What was the original input?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$156$"
+      },
+      {
+        "id": "c",
+        "latex": "$28$"
+      },
+      {
+        "id": "d",
+        "latex": "$1404$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "16",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The machine is $M(x)=9x+12$. Thus $M(M(x))=81x+120$. Solving $81x+120=1416$ gives $x=16$.",
+    "complexity_factor": 1.4,
+    "source_section": "16.5",
+    "tags": [
+      "functions",
+      "word-problem",
+      "composition"
+    ],
+    "checksum": "sha256-d3e16ef010e9f3fe2cd16eec29febd0c6bd2228c105ad7876403bede1455718f",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.problem_solving.hard.0030",
+    "topic_id": "ch16.problem_solving",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A number machine multiplies the input by 10 and then adds 14. After the machine is used twice, the output is 2054. What was the original input?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$204$"
+      },
+      {
+        "id": "b",
+        "latex": "$33$"
+      },
+      {
+        "id": "c",
+        "latex": "$2040$"
+      },
+      {
+        "id": "d",
+        "latex": "$19$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "19",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The machine is $M(x)=10x+14$. Thus $M(M(x))=100x+154$. Solving $100x+154=2054$ gives $x=19$.",
+    "complexity_factor": 1.4,
+    "source_section": "16.5",
+    "tags": [
+      "functions",
+      "word-problem",
+      "composition"
+    ],
+    "checksum": "sha256-0e6293683f474a25e6e7e66887fcfecf4d926de56a009e5eec668a9c3c1cb16d",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.problem_solving.hard.0031",
+    "topic_id": "ch16.problem_solving",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A number machine multiplies the input by 11 and then adds 11. After the machine is used twice, the output is 2189. What was the original input?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$28$"
+      },
+      {
+        "id": "b",
+        "latex": "$2178$"
+      },
+      {
+        "id": "c",
+        "latex": "$17$"
+      },
+      {
+        "id": "d",
+        "latex": "$198$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "17",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The machine is $M(x)=11x+11$. Thus $M(M(x))=121x+132$. Solving $121x+132=2189$ gives $x=17$.",
+    "complexity_factor": 1.4,
+    "source_section": "16.5",
+    "tags": [
+      "functions",
+      "word-problem",
+      "composition"
+    ],
+    "checksum": "sha256-69ac7e20cd9b4acdd8fbd9986c0a817b6fb1c565e5e269d1c748111dababf98a",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.problem_solving.hard.0032",
+    "topic_id": "ch16.problem_solving",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A number machine multiplies the input by 12 and then adds 13. After the machine is used twice, the output is 3049. What was the original input?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3036$"
+      },
+      {
+        "id": "b",
+        "latex": "$20$"
+      },
+      {
+        "id": "c",
+        "latex": "$253$"
+      },
+      {
+        "id": "d",
+        "latex": "$33$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "20",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The machine is $M(x)=12x+13$. Thus $M(M(x))=144x+169$. Solving $144x+169=3049$ gives $x=20$.",
+    "complexity_factor": 1.4,
+    "source_section": "16.5",
+    "tags": [
+      "functions",
+      "word-problem",
+      "composition"
+    ],
+    "checksum": "sha256-4bf45a30e1ab2ac2cfa408701ea5ef35684a046a7d04b1f1220f504f03dcafe5",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.problem_solving.hard.0033",
+    "topic_id": "ch16.problem_solving",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A number machine multiplies the input by 10 and then adds 15. After the machine is used twice, the output is 1965. What was the original input?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$18$"
+      },
+      {
+        "id": "b",
+        "latex": "$195$"
+      },
+      {
+        "id": "c",
+        "latex": "$33$"
+      },
+      {
+        "id": "d",
+        "latex": "$1950$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "18",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The machine is $M(x)=10x+15$. Thus $M(M(x))=100x+165$. Solving $100x+165=1965$ gives $x=18$.",
+    "complexity_factor": 1.4,
+    "source_section": "16.5",
+    "tags": [
+      "functions",
+      "word-problem",
+      "composition"
+    ],
+    "checksum": "sha256-bf5149e44c1ac2b6b6017e606c62b6dfea4def9ec0ae80c51ac68a7be8de0081",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.problem_solving.hard.0034",
+    "topic_id": "ch16.problem_solving",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A number machine multiplies the input by 11 and then adds 12. After the machine is used twice, the output is 2685. What was the original input?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$243$"
+      },
+      {
+        "id": "b",
+        "latex": "$33$"
+      },
+      {
+        "id": "c",
+        "latex": "$2673$"
+      },
+      {
+        "id": "d",
+        "latex": "$21$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "21",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The machine is $M(x)=11x+12$. Thus $M(M(x))=121x+144$. Solving $121x+144=2685$ gives $x=21$.",
+    "complexity_factor": 1.4,
+    "source_section": "16.5",
+    "tags": [
+      "functions",
+      "word-problem",
+      "composition"
+    ],
+    "checksum": "sha256-c983e1d119b33ec7e8f26bc2b15e6d6d31090a54e860b7547f30e9ef090a73d7",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.problem_solving.hard.0035",
+    "topic_id": "ch16.problem_solving",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A number machine multiplies the input by 12 and then adds 14. After the machine is used twice, the output is 2918. What was the original input?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$33$"
+      },
+      {
+        "id": "b",
+        "latex": "$2904$"
+      },
+      {
+        "id": "c",
+        "latex": "$19$"
+      },
+      {
+        "id": "d",
+        "latex": "$242$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "19",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The machine is $M(x)=12x+14$. Thus $M(M(x))=144x+182$. Solving $144x+182=2918$ gives $x=19$.",
+    "complexity_factor": 1.4,
+    "source_section": "16.5",
+    "tags": [
+      "functions",
+      "word-problem",
+      "composition"
+    ],
+    "checksum": "sha256-ac1663736ab4ff79af5e0ee15eee4bb094c3627e4de9d6f5a01db43092a88576",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.problem_solving.hard.0036",
+    "topic_id": "ch16.problem_solving",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A number machine multiplies the input by 13 and then adds 16. After the machine is used twice, the output is 3942. What was the original input?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3926$"
+      },
+      {
+        "id": "b",
+        "latex": "$22$"
+      },
+      {
+        "id": "c",
+        "latex": "$302$"
+      },
+      {
+        "id": "d",
+        "latex": "$38$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "22",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The machine is $M(x)=13x+16$. Thus $M(M(x))=169x+224$. Solving $169x+224=3942$ gives $x=22$.",
+    "complexity_factor": 1.4,
+    "source_section": "16.5",
+    "tags": [
+      "functions",
+      "word-problem",
+      "composition"
+    ],
+    "checksum": "sha256-c70f5f06fccd7ab0692210ea6ac5c521270a923a7386f1a8e97311ccfbfa960b",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.problem_solving.hard.0037",
+    "topic_id": "ch16.problem_solving",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A number machine multiplies the input by 11 and then adds 13. After the machine is used twice, the output is 2576. What was the original input?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$20$"
+      },
+      {
+        "id": "b",
+        "latex": "$233$"
+      },
+      {
+        "id": "c",
+        "latex": "$33$"
+      },
+      {
+        "id": "d",
+        "latex": "$2563$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "20",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The machine is $M(x)=11x+13$. Thus $M(M(x))=121x+156$. Solving $121x+156=2576$ gives $x=20$.",
+    "complexity_factor": 1.4,
+    "source_section": "16.5",
+    "tags": [
+      "functions",
+      "word-problem",
+      "composition"
+    ],
+    "checksum": "sha256-ae0ef293f1bb71bff5a8b719befb8f5d0fef90bec47ebeea5d16a4253553868f",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.problem_solving.hard.0038",
+    "topic_id": "ch16.problem_solving",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A number machine multiplies the input by 12 and then adds 15. After the machine is used twice, the output is 3507. What was the original input?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$291$"
+      },
+      {
+        "id": "b",
+        "latex": "$38$"
+      },
+      {
+        "id": "c",
+        "latex": "$3492$"
+      },
+      {
+        "id": "d",
+        "latex": "$23$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "23",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The machine is $M(x)=12x+15$. Thus $M(M(x))=144x+195$. Solving $144x+195=3507$ gives $x=23$.",
+    "complexity_factor": 1.4,
+    "source_section": "16.5",
+    "tags": [
+      "functions",
+      "word-problem",
+      "composition"
+    ],
+    "checksum": "sha256-7e2d5830b6a7ef0c92112f722aa4e9b356d08a1a736431f8912eae626f8b3cd6",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.problem_solving.hard.0039",
+    "topic_id": "ch16.problem_solving",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A number machine multiplies the input by 13 and then adds 17. After the machine is used twice, the output is 3787. What was the original input?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$38$"
+      },
+      {
+        "id": "b",
+        "latex": "$3770$"
+      },
+      {
+        "id": "c",
+        "latex": "$21$"
+      },
+      {
+        "id": "d",
+        "latex": "$290$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "21",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The machine is $M(x)=13x+17$. Thus $M(M(x))=169x+238$. Solving $169x+238=3787$ gives $x=21$.",
+    "complexity_factor": 1.4,
+    "source_section": "16.5",
+    "tags": [
+      "functions",
+      "word-problem",
+      "composition"
+    ],
+    "checksum": "sha256-6a5aa3962c2b61e7135613013120fd56761f270b7a843c5c5f581f75d42801dd",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.problem_solving.hard.0040",
+    "topic_id": "ch16.problem_solving",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A number machine multiplies the input by 14 and then adds 14. After the machine is used twice, the output is 4914. What was the original input?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4900$"
+      },
+      {
+        "id": "b",
+        "latex": "$24$"
+      },
+      {
+        "id": "c",
+        "latex": "$350$"
+      },
+      {
+        "id": "d",
+        "latex": "$38$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "24",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The machine is $M(x)=14x+14$. Thus $M(M(x))=196x+210$. Solving $196x+210=4914$ gives $x=24$.",
+    "complexity_factor": 1.4,
+    "source_section": "16.5",
+    "tags": [
+      "functions",
+      "word-problem",
+      "composition"
+    ],
+    "checksum": "sha256-36d00910a280d611ce4f5587026b2a299c4914738f371bd17c7a6b84caed05e7",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.problem_solving.hard.0041",
+    "topic_id": "ch16.problem_solving",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A number machine multiplies the input by 12 and then adds 16. After the machine is used twice, the output is 3376. What was the original input?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$22$"
+      },
+      {
+        "id": "b",
+        "latex": "$280$"
+      },
+      {
+        "id": "c",
+        "latex": "$38$"
+      },
+      {
+        "id": "d",
+        "latex": "$3360$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "22",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The machine is $M(x)=12x+16$. Thus $M(M(x))=144x+208$. Solving $144x+208=3376$ gives $x=22$.",
+    "complexity_factor": 1.4,
+    "source_section": "16.5",
+    "tags": [
+      "functions",
+      "word-problem",
+      "composition"
+    ],
+    "checksum": "sha256-f1fca8d795c831fe5797f37a776dbb712ec0135455a89c3f20a09ba19672b5be",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.problem_solving.hard.0042",
+    "topic_id": "ch16.problem_solving",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A number machine multiplies the input by 13 and then adds 18. After the machine is used twice, the output is 4477. What was the original input?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$343$"
+      },
+      {
+        "id": "b",
+        "latex": "$43$"
+      },
+      {
+        "id": "c",
+        "latex": "$4459$"
+      },
+      {
+        "id": "d",
+        "latex": "$25$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "25",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The machine is $M(x)=13x+18$. Thus $M(M(x))=169x+252$. Solving $169x+252=4477$ gives $x=25$.",
+    "complexity_factor": 1.4,
+    "source_section": "16.5",
+    "tags": [
+      "functions",
+      "word-problem",
+      "composition"
+    ],
+    "checksum": "sha256-1615f9edb3b82a29cd425253cd80ce6a5277feafcfd7364cec828c808511fbc1",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.problem_solving.hard.0043",
+    "topic_id": "ch16.problem_solving",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A number machine multiplies the input by 14 and then adds 15. After the machine is used twice, the output is 4733. What was the original input?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$38$"
+      },
+      {
+        "id": "b",
+        "latex": "$4718$"
+      },
+      {
+        "id": "c",
+        "latex": "$23$"
+      },
+      {
+        "id": "d",
+        "latex": "$337$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "23",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The machine is $M(x)=14x+15$. Thus $M(M(x))=196x+225$. Solving $196x+225=4733$ gives $x=23$.",
+    "complexity_factor": 1.4,
+    "source_section": "16.5",
+    "tags": [
+      "functions",
+      "word-problem",
+      "composition"
+    ],
+    "checksum": "sha256-5ccb7055bf489a247f7639431e6f69fc2b628ba6e560175669278e7fcacdd4ee",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.problem_solving.hard.0044",
+    "topic_id": "ch16.problem_solving",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A number machine multiplies the input by 15 and then adds 17. After the machine is used twice, the output is 6122. What was the original input?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6105$"
+      },
+      {
+        "id": "b",
+        "latex": "$26$"
+      },
+      {
+        "id": "c",
+        "latex": "$407$"
+      },
+      {
+        "id": "d",
+        "latex": "$43$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "26",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The machine is $M(x)=15x+17$. Thus $M(M(x))=225x+272$. Solving $225x+272=6122$ gives $x=26$.",
+    "complexity_factor": 1.4,
+    "source_section": "16.5",
+    "tags": [
+      "functions",
+      "word-problem",
+      "composition"
+    ],
+    "checksum": "sha256-79f9c64913a65f0fdf1ac808e8ef5ff3f87a9d6b9ce117354e781c96cf6c5178",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.problem_solving.hard.0045",
+    "topic_id": "ch16.problem_solving",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A number machine multiplies the input by 13 and then adds 19. After the machine is used twice, the output is 4322. What was the original input?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$24$"
+      },
+      {
+        "id": "b",
+        "latex": "$331$"
+      },
+      {
+        "id": "c",
+        "latex": "$43$"
+      },
+      {
+        "id": "d",
+        "latex": "$4303$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "24",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The machine is $M(x)=13x+19$. Thus $M(M(x))=169x+266$. Solving $169x+266=4322$ gives $x=24$.",
+    "complexity_factor": 1.4,
+    "source_section": "16.5",
+    "tags": [
+      "functions",
+      "word-problem",
+      "composition"
+    ],
+    "checksum": "sha256-8cdf6273e5cc206e0b61e560ca55c4d8367aae996d3420f12d0c66dc4b3581ad",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.problem_solving.hard.0046",
+    "topic_id": "ch16.problem_solving",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A number machine multiplies the input by 14 and then adds 16. After the machine is used twice, the output is 5532. What was the original input?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$394$"
+      },
+      {
+        "id": "b",
+        "latex": "$43$"
+      },
+      {
+        "id": "c",
+        "latex": "$5516$"
+      },
+      {
+        "id": "d",
+        "latex": "$27$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "27",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The machine is $M(x)=14x+16$. Thus $M(M(x))=196x+240$. Solving $196x+240=5532$ gives $x=27$.",
+    "complexity_factor": 1.4,
+    "source_section": "16.5",
+    "tags": [
+      "functions",
+      "word-problem",
+      "composition"
+    ],
+    "checksum": "sha256-55e666624317c558f81fc2aab2b3c08bbb7974f8395228994713e878007149ef",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.problem_solving.hard.0047",
+    "topic_id": "ch16.problem_solving",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A number machine multiplies the input by 15 and then adds 18. After the machine is used twice, the output is 5913. What was the original input?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$43$"
+      },
+      {
+        "id": "b",
+        "latex": "$5895$"
+      },
+      {
+        "id": "c",
+        "latex": "$25$"
+      },
+      {
+        "id": "d",
+        "latex": "$393$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "25",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The machine is $M(x)=15x+18$. Thus $M(M(x))=225x+288$. Solving $225x+288=5913$ gives $x=25$.",
+    "complexity_factor": 1.4,
+    "source_section": "16.5",
+    "tags": [
+      "functions",
+      "word-problem",
+      "composition"
+    ],
+    "checksum": "sha256-d2d508624b2571d875e81def3af0673da8972936ba884b0eff8a211e65a5d641",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.problem_solving.hard.0048",
+    "topic_id": "ch16.problem_solving",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A number machine multiplies the input by 16 and then adds 20. After the machine is used twice, the output is 7508. What was the original input?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7488$"
+      },
+      {
+        "id": "b",
+        "latex": "$28$"
+      },
+      {
+        "id": "c",
+        "latex": "$468$"
+      },
+      {
+        "id": "d",
+        "latex": "$48$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "28",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The machine is $M(x)=16x+20$. Thus $M(M(x))=256x+340$. Solving $256x+340=7508$ gives $x=28$.",
+    "complexity_factor": 1.4,
+    "source_section": "16.5",
+    "tags": [
+      "functions",
+      "word-problem",
+      "composition"
+    ],
+    "checksum": "sha256-5c04dae250df630b8acc4b909ca6339a61a38e21385409841a1a025a3ae2998e",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.problem_solving.hard.0049",
+    "topic_id": "ch16.problem_solving",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A number machine multiplies the input by 14 and then adds 17. After the machine is used twice, the output is 5351. What was the original input?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$26$"
+      },
+      {
+        "id": "b",
+        "latex": "$381$"
+      },
+      {
+        "id": "c",
+        "latex": "$43$"
+      },
+      {
+        "id": "d",
+        "latex": "$5334$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "26",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The machine is $M(x)=14x+17$. Thus $M(M(x))=196x+255$. Solving $196x+255=5351$ gives $x=26$.",
+    "complexity_factor": 1.4,
+    "source_section": "16.5",
+    "tags": [
+      "functions",
+      "word-problem",
+      "composition"
+    ],
+    "checksum": "sha256-b15501170c8cbd2075a859591a8dd77ba8dbbfefb25b25315da72a5016a55c09",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.problem_solving.hard.0050",
+    "topic_id": "ch16.problem_solving",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A number machine multiplies the input by 15 and then adds 19. After the machine is used twice, the output is 6829. What was the original input?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$454$"
+      },
+      {
+        "id": "b",
+        "latex": "$48$"
+      },
+      {
+        "id": "c",
+        "latex": "$6810$"
+      },
+      {
+        "id": "d",
+        "latex": "$29$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "29",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The machine is $M(x)=15x+19$. Thus $M(M(x))=225x+304$. Solving $225x+304=6829$ gives $x=29$.",
+    "complexity_factor": 1.4,
+    "source_section": "16.5",
+    "tags": [
+      "functions",
+      "word-problem",
+      "composition"
+    ],
+    "checksum": "sha256-41fbbc8d62751133e3ce89acaa769ed04d568ec704211c8c87df8dcb19046c18",
+    "status": "valid"
+  }
+]

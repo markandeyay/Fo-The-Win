@@ -1,0 +1,2052 @@
+[
+  {
+    "id": "ch18.add_subtract.hard.0001",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify: $\\left(-4x^4 - x^3 + 2x^2 + 3x + 2\\right) - \\left(-5x^4 + 5x^2 + 4x - 5\\right) + 2\\left(3x^3 + 2x^2 - x - 2\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-9x^4 + 5x^3 + 11x^2 + 5x - 7$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^4 + 2x^3 - x^2 - 2x + 5$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^4 + 5x^3 + x^2 - 3x + 3$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^4 + 5x^3 + x^2 - 5x + 3$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "x^4+5*x^3+x^2-3*x+3",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First distribute the minus sign and the $2$, then combine like terms. This gives $x^4 + 5x^3 + x^2 - 3x + 3$.",
+    "complexity_factor": 1.25,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "subtraction",
+      "distribution",
+      "like_terms"
+    ],
+    "checksum": "sha256-2393f8573d585bb38581a5b6f28eab9dd034fbde5fa3941b379e700787ca427c",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.hard.0002",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify: $\\left(2x^4 + 5x^3 + 2x^2 + 4x + 2\\right) - \\left(-x^4 - 2x^3 + 4x - 1\\right) + 2\\left(4x^3 - 2x^2 + 4x + 4\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-x^4 + 15x^3 - 2x^2 + 8x + 11$"
+      },
+      {
+        "id": "b",
+        "latex": "$3x^4 + 15x^3 - 2x^2 + 8x + 11$"
+      },
+      {
+        "id": "c",
+        "latex": "$3x^4 + 11x^3 + 4x + 7$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^4 + 11x^3 - 2x^2 + 16x + 9$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "3*x^4+15*x^3-2*x^2+8*x+11",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First distribute the minus sign and the $2$, then combine like terms. This gives $3x^4 + 15x^3 - 2x^2 + 8x + 11$.",
+    "complexity_factor": 1.25,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "subtraction",
+      "distribution",
+      "like_terms"
+    ],
+    "checksum": "sha256-a6e369f27bfbad55ad354986edffb324ddebf41071e171ae845adf0b9421e445",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.hard.0003",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify: $\\left(4x^4 + 2x^2 - 4x + 1\\right) - \\left(3x^4 + 4x^3 - 4x^2 + 5\\right) + 2\\left(2x^3 + 4x^2 + 2\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^4 + 14x^2 - 4x + 4$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^4 + 14x^2 - 4x$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^4 - 2x^3 + 10x^2 - 4x - 2$"
+      },
+      {
+        "id": "d",
+        "latex": "$7x^4 + 8x^3 + 6x^2 - 4x + 10$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "x^4+14*x^2-4*x",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First distribute the minus sign and the $2$, then combine like terms. This gives $x^4 + 14x^2 - 4x$.",
+    "complexity_factor": 1.25,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "subtraction",
+      "distribution",
+      "like_terms"
+    ],
+    "checksum": "sha256-b12ea85c3f3f07d5f9eefdc980e5231d9c88efb69416e95a43538ed94e8fc186",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.hard.0004",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify: $\\left(x^4 - 4x^3 + 4x^2 - 4x - 4\\right) - \\left(-4x^4 - 5x + 5\\right) + 2\\left(-2x^3 - 3x^2 - 3x + 2\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3x^4 - 8x^3 - 2x^2 - 15x + 5$"
+      },
+      {
+        "id": "b",
+        "latex": "$5x^4 - 8x^3 - 2x^2 - x - 5$"
+      },
+      {
+        "id": "c",
+        "latex": "$5x^4 - 8x^3 - 2x^2 - 5x - 5$"
+      },
+      {
+        "id": "d",
+        "latex": "$5x^4 - 6x^3 + x^2 - 2x - 7$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "5*x^4-8*x^3-2*x^2-5*x-5",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First distribute the minus sign and the $2$, then combine like terms. This gives $5x^4 - 8x^3 - 2x^2 - 5x - 5$.",
+    "complexity_factor": 1.25,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "subtraction",
+      "distribution",
+      "like_terms"
+    ],
+    "checksum": "sha256-3f054a496c246249867918a1c57d188bfaaf8040531d24874327926f8f69f32a",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.hard.0005",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify: $\\left(-3x^4 - 2x^3 + 3x^2 - 2x + 2\\right) - \\left(2x^4 + 5x^3 - 3x^2 + 2\\right) + 2\\left(3x^3 + 4x^2 - x - 1\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-x^4 + 9x^3 + 8x^2 - 4x + 2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-5x^4 - x^3 + 14x^2 - 8x - 2$"
+      },
+      {
+        "id": "c",
+        "latex": "$-5x^4 - x^3 + 14x^2 - 4x - 2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-5x^4 - 4x^3 + 10x^2 - 3x - 1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-5*x^4-x^3+14*x^2-4*x-2",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First distribute the minus sign and the $2$, then combine like terms. This gives $-5x^4 - x^3 + 14x^2 - 4x - 2$.",
+    "complexity_factor": 1.25,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "subtraction",
+      "distribution",
+      "like_terms"
+    ],
+    "checksum": "sha256-5d81e52fca3166114885c0b3bb5a2c9247f6fc3307f4027eb292ad84b5a429ae",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.hard.0006",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify: $\\left(-3x^4 - 3x^3 - 2x^2 + 4x + 4\\right) - \\left(-4x^4 - 3x^3 - 2x - 4\\right) + 2\\left(-2x^3 + 2x^2 - 2x + 4\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^4 - 2x^3 + 4x + 12$"
+      },
+      {
+        "id": "b",
+        "latex": "$-7x^4 - 10x^3 + 2x^2 - 2x + 8$"
+      },
+      {
+        "id": "c",
+        "latex": "$-3x^4 - 4x^3 + 2x^2 + 2x + 16$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^4 - 4x^3 + 2x^2 + 2x + 16$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x^4-4*x^3+2*x^2+2*x+16",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First distribute the minus sign and the $2$, then combine like terms. This gives $x^4 - 4x^3 + 2x^2 + 2x + 16$.",
+    "complexity_factor": 1.25,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "subtraction",
+      "distribution",
+      "like_terms"
+    ],
+    "checksum": "sha256-dac702b1d74e3a347499ec54bb0f4b2c1dbed2143f175a9159ccff6372583489",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.hard.0007",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify: $\\left(3x^4 + x^3 - 4x^2 + 3x + 1\\right) - \\left(2x^4 - 4x^3 + 5x^2 - 3\\right) + 2\\left(-x^3 + 2x^2 - 2x - 1\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^4 + 3x^3 - 5x^2 - x + 2$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^4 + 3x^3 - 5x^2 - x + 4$"
+      },
+      {
+        "id": "c",
+        "latex": "$5x^4 - 5x^3 + 5x^2 - x - 4$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^4 + 4x^3 - 7x^2 + x + 3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "x^4+3*x^3-5*x^2-x+2",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First distribute the minus sign and the $2$, then combine like terms. This gives $x^4 + 3x^3 - 5x^2 - x + 2$.",
+    "complexity_factor": 1.25,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "subtraction",
+      "distribution",
+      "like_terms"
+    ],
+    "checksum": "sha256-6874b730602e5f972fbc2392bdff77d3cb42c23b4bbe2699d751f55c57074cfc",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.hard.0008",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify: $\\left(-3x^4 + 4x^3 + 3x^2 - 4\\right) - \\left(-x^4 + 3x^3 + 3x^2 - 3x\\right) + 2\\left(-2x^3 + 4x\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2x^4 - x^3 + 7x - 4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4x^4 + 3x^3 + 6x^2 + 5x - 4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2x^4 - 3x^3 + 11x - 4$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2x^4 - 3x^3 + 11x - 6$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-2*x^4-3*x^3+11*x-4",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First distribute the minus sign and the $2$, then combine like terms. This gives $-2x^4 - 3x^3 + 11x - 4$.",
+    "complexity_factor": 1.25,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "subtraction",
+      "distribution",
+      "like_terms"
+    ],
+    "checksum": "sha256-ccccaa87e20f156be92fbac0ed28ceef5a45d31b1d1828578f390f935ce89aee",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.hard.0009",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify: $\\left(x^4 - x^3 - x^2 - x - 2\\right) - \\left(-4x^4 - x^3 - 3x^2 - 4x\\right) + 2\\left(3x^3 + 3x^2 + 4x\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3x^4 + 6x^3 + 8x^2 + 11x - 2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3x^4 + 4x^3 + 2x^2 + 3x - 2$"
+      },
+      {
+        "id": "c",
+        "latex": "$5x^4 + 3x^3 + 5x^2 + 7x - 2$"
+      },
+      {
+        "id": "d",
+        "latex": "$5x^4 + 6x^3 + 8x^2 + 11x - 2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "5*x^4+6*x^3+8*x^2+11*x-2",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First distribute the minus sign and the $2$, then combine like terms. This gives $5x^4 + 6x^3 + 8x^2 + 11x - 2$.",
+    "complexity_factor": 1.25,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "subtraction",
+      "distribution",
+      "like_terms"
+    ],
+    "checksum": "sha256-36c669c86fde85c5414a90c696092cbe387bd0927023da2d667ad5a4e8bd715c",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.hard.0010",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify: $\\left(x^4 - 3x^3 - 3x^2 - 3x + 2\\right) - \\left(4x^4 - x^2 + 4x - 4\\right) + 2\\left(2x^3 + 4x^2 - 3x + 1\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5x^4 + x^3 + 4x^2 - 5x$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3x^4 + 5x^3 + 6x^2 - 13x + 8$"
+      },
+      {
+        "id": "c",
+        "latex": "$-3x^4 - x^3 + 2x^2 - 10x + 7$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3x^4 + x^3 + 6x^2 - 13x + 8$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-3*x^4+x^3+6*x^2-13*x+8",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First distribute the minus sign and the $2$, then combine like terms. This gives $-3x^4 + x^3 + 6x^2 - 13x + 8$.",
+    "complexity_factor": 1.25,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "subtraction",
+      "distribution",
+      "like_terms"
+    ],
+    "checksum": "sha256-2de0c5c1127324cd30e70b6243a6d97b0767984a23940547138755c917f95c29",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.hard.0011",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify: $\\left(x^4 + x^3 + 2x^2 - 2x + 3\\right) - \\left(-5x^4 - 4x^3 - 5\\right) + 2\\left(-3x^3 + 3x^2 - 3\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6x^4 - x^3 + 8x^2 - 2x - 2$"
+      },
+      {
+        "id": "b",
+        "latex": "$6x^4 + 2x^3 + 5x^2 - 2x + 5$"
+      },
+      {
+        "id": "c",
+        "latex": "$6x^4 - x^3 + 8x^2 - 2x + 2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4x^4 - 9x^3 + 8x^2 - 2x - 8$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "6*x^4-x^3+8*x^2-2*x+2",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First distribute the minus sign and the $2$, then combine like terms. This gives $6x^4 - x^3 + 8x^2 - 2x + 2$.",
+    "complexity_factor": 1.25,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "subtraction",
+      "distribution",
+      "like_terms"
+    ],
+    "checksum": "sha256-54b56a2522515a0620b3461082bfb8c790792dcbd0823dfab1024234deeb7f0e",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.hard.0012",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify: $\\left(2x^4 - 4x^3 - 2x^2 + x - 4\\right) - \\left(4x^4 + 2x^3 - 3x^2 - 2\\right) + 2\\left(x^3 + 2x^2 - 2x - 2\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2x^4 - 4x^3 + 5x^2 - 3x - 6$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2x^4 - 5x^3 + 3x^2 - x - 4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2x^4 + 5x^2 - 3x - 6$"
+      },
+      {
+        "id": "d",
+        "latex": "$6x^4 - x^2 - 3x - 10$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-2*x^4-4*x^3+5*x^2-3*x-6",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First distribute the minus sign and the $2$, then combine like terms. This gives $-2x^4 - 4x^3 + 5x^2 - 3x - 6$.",
+    "complexity_factor": 1.25,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "subtraction",
+      "distribution",
+      "like_terms"
+    ],
+    "checksum": "sha256-5228c1a4e51769e13b52f014552e20e6ebda2a6939e110e480d104f39af497b0",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.hard.0013",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify: $\\left(-3x^4 - x^3 - 4x^2 + x + 5\\right) - \\left(5x^4 - 2x^3 + 2x^2 + 5x\\right) + 2\\left(2x^3 - 2x^2 + 4\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2x^4 + x^3 - 6x^2 + 6x + 13$"
+      },
+      {
+        "id": "b",
+        "latex": "$-8x^4 + 3x^3 - 8x^2 - 4x + 9$"
+      },
+      {
+        "id": "c",
+        "latex": "$-8x^4 + 5x^3 - 10x^2 - 4x + 13$"
+      },
+      {
+        "id": "d",
+        "latex": "$-8x^4 + 5x^3 - 6x^2 - 4x + 13$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-8*x^4+5*x^3-10*x^2-4*x+13",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First distribute the minus sign and the $2$, then combine like terms. This gives $-8x^4 + 5x^3 - 10x^2 - 4x + 13$.",
+    "complexity_factor": 1.25,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "subtraction",
+      "distribution",
+      "like_terms"
+    ],
+    "checksum": "sha256-886aabbbdd12154e31cb5a6a64e7ff9dc39a7ea4dddabdc020bcec64c0e76269",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.hard.0014",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify: $\\left(2x^4 + 3x^3 - 4x + 4\\right) - \\left(x^4 - 4x^3 - 5x - 3\\right) + 2\\left(-x^3 + x\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^4 + 5x^3 + 3x + 7$"
+      },
+      {
+        "id": "b",
+        "latex": "$3x^4 - 3x^3 - 7x + 1$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^4 + 6x^3 + 2x + 7$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^4 + 7x^3 + 3x + 7$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "x^4+5*x^3+3*x+7",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First distribute the minus sign and the $2$, then combine like terms. This gives $x^4 + 5x^3 + 3x + 7$.",
+    "complexity_factor": 1.25,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "subtraction",
+      "distribution",
+      "like_terms"
+    ],
+    "checksum": "sha256-f791519cee1d0ca0da73173c5d71b6d66cf587ff48663b9bfe3f2eccebe78fb4",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.hard.0015",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify: $\\left(x^4 - 4x^3 - 4x - 4\\right) - \\left(-5x^4 + 2x^2 + 4x - 2\\right) + 2\\left(3x^3 + 2x^2 + 3\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6x^4 + 2x^3 + 2x^2 - 8x + 4$"
+      },
+      {
+        "id": "b",
+        "latex": "$6x^4 + 4x^3 + 2x^2 - 8x + 4$"
+      },
+      {
+        "id": "c",
+        "latex": "$6x^4 - x^3 - 8x + 1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4x^4 + 2x^3 + 6x^2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "6*x^4+2*x^3+2*x^2-8*x+4",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First distribute the minus sign and the $2$, then combine like terms. This gives $6x^4 + 2x^3 + 2x^2 - 8x + 4$.",
+    "complexity_factor": 1.25,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "subtraction",
+      "distribution",
+      "like_terms"
+    ],
+    "checksum": "sha256-05f5cfbf14ceb642beeea8f4af8d78dba672c54a41d7e686b2d3d0c37017fab0",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.hard.0016",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify: $\\left(5x^4 + 2x^3 + 3x^2 - 4x - 3\\right) - \\left(3x^4 - x^3 + 2x + 5\\right) + 2\\left(-3x^3 + 2x^2 - 2x + 2\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6x^4 - 3x^3 + 7x^2 - 10x - 4$"
+      },
+      {
+        "id": "b",
+        "latex": "$2x^4 - 3x^3 + 7x^2 - 10x - 4$"
+      },
+      {
+        "id": "c",
+        "latex": "$2x^4 + 5x^2 - 8x - 6$"
+      },
+      {
+        "id": "d",
+        "latex": "$8x^4 - 5x^3 + 7x^2 - 6x + 6$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "2*x^4-3*x^3+7*x^2-10*x-4",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First distribute the minus sign and the $2$, then combine like terms. This gives $2x^4 - 3x^3 + 7x^2 - 10x - 4$.",
+    "complexity_factor": 1.25,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "subtraction",
+      "distribution",
+      "like_terms"
+    ],
+    "checksum": "sha256-29020ca5f765806ff1d83068639f4152f54611cca1609ce6637f569fd370e064",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.hard.0017",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify: $\\left(2x^4 - x^3 - 4x^2 - 3\\right) - \\left(-3x^4 + 3x^3 - 2x^2 + 3\\right) + 2\\left(-3x^3 - x^2 + x + 1\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5x^4 - 10x^3 - 4x^2 + 6x - 4$"
+      },
+      {
+        "id": "b",
+        "latex": "$5x^4 - 10x^3 - 4x^2 + 2x - 4$"
+      },
+      {
+        "id": "c",
+        "latex": "$5x^4 - 7x^3 - 3x^2 + x - 5$"
+      },
+      {
+        "id": "d",
+        "latex": "$-x^4 - 4x^3 - 8x^2 + 2x + 2$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "5*x^4-10*x^3-4*x^2+2*x-4",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First distribute the minus sign and the $2$, then combine like terms. This gives $5x^4 - 10x^3 - 4x^2 + 2x - 4$.",
+    "complexity_factor": 1.25,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "subtraction",
+      "distribution",
+      "like_terms"
+    ],
+    "checksum": "sha256-593acf4d09c4637ee0599f9ae28f1bd2546a41e8ba81fd2ffab9a3ad828e9360",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.hard.0018",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify: $\\left(-3x^4 + x^3 + x + 5\\right) - \\left(3x^4 + 4x^3 - 5x^2 + 3x\\right) + 2\\left(2x^3 + 2x^2 - 3x + 2\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4x^4 + x^3 + 9x^2 - 8x + 9$"
+      },
+      {
+        "id": "b",
+        "latex": "$9x^3 - x^2 - 2x + 9$"
+      },
+      {
+        "id": "c",
+        "latex": "$-6x^4 + x^3 + 9x^2 - 8x + 9$"
+      },
+      {
+        "id": "d",
+        "latex": "$-6x^4 - x^3 + 7x^2 - 5x + 7$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-6*x^4+x^3+9*x^2-8*x+9",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First distribute the minus sign and the $2$, then combine like terms. This gives $-6x^4 + x^3 + 9x^2 - 8x + 9$.",
+    "complexity_factor": 1.25,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "subtraction",
+      "distribution",
+      "like_terms"
+    ],
+    "checksum": "sha256-15e9c1d5cbf315534660f7ab816819a94fda7fc99471a77a179c17ace1bfc3eb",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.hard.0019",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify: $\\left(3x^4 - 2x^3 + 4x^2 - x - 2\\right) - \\left(x^4 + 2x^3 + 3x^2 + 4x\\right) + 2\\left(2x^3 + 4x^2 + 4x + 1\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2x^4 + 9x^2 + 3x$"
+      },
+      {
+        "id": "b",
+        "latex": "$2x^4 - 2x^3 + 5x^2 - x - 1$"
+      },
+      {
+        "id": "c",
+        "latex": "$4x^4 + 4x^3 + 15x^2 + 11x$"
+      },
+      {
+        "id": "d",
+        "latex": "$2x^4 + 9x^2 + 3x - 2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2*x^4+9*x^2+3*x",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First distribute the minus sign and the $2$, then combine like terms. This gives $2x^4 + 9x^2 + 3x$.",
+    "complexity_factor": 1.25,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "subtraction",
+      "distribution",
+      "like_terms"
+    ],
+    "checksum": "sha256-19a94d46f9c824f433085a4c966d38fdf431ddb26414b219ff8dd932c65512d5",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.hard.0020",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify: $\\left(-2x^4 + x^3 + 3x + 1\\right) - \\left(-2x^4 - 4x^3 - 5x^2\\right) + 2\\left(-3x^3 + 3x^2 - x + 4\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-x^3 + 11x^2 + x + 5$"
+      },
+      {
+        "id": "b",
+        "latex": "$2x^3 + 8x^2 + 2x + 5$"
+      },
+      {
+        "id": "c",
+        "latex": "$-x^3 + 11x^2 + x + 9$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4x^4 - 9x^3 + x^2 + x + 9$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-x^3+11*x^2+x+9",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First distribute the minus sign and the $2$, then combine like terms. This gives $-x^3 + 11x^2 + x + 9$.",
+    "complexity_factor": 1.25,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "subtraction",
+      "distribution",
+      "like_terms"
+    ],
+    "checksum": "sha256-53bdbaa818b938ea62c642d31844864c712a77d3d866df4b9261a6f7caba9612",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.hard.0021",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify: $\\left(x^4 + 4x^3 - 4x^2 + 3x - 2\\right) - \\left(3x^4 + 5x^3 + 2x^2\\right) + 2\\left(-3x^3 + 3x^2 + 2\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2x^4 - 4x^3 - 3x^2 + 3x$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2x^4 - 3x^3 + 3x + 2$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2x^4 - 7x^3 + 3x + 2$"
+      },
+      {
+        "id": "d",
+        "latex": "$4x^4 + 3x^3 + 4x^2 + 3x + 2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-2*x^4-7*x^3+3*x+2",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First distribute the minus sign and the $2$, then combine like terms. This gives $-2x^4 - 7x^3 + 3x + 2$.",
+    "complexity_factor": 1.25,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "subtraction",
+      "distribution",
+      "like_terms"
+    ],
+    "checksum": "sha256-620f6e49f960eb66b32a0702ab2d175544a833f7e6f675768147af30cae4970c",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.hard.0022",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify: $\\left(4x^4 - x^3 + 5x^2 + 3x + 3\\right) - \\left(-x^4 + x^3 - 5x^2 - 2\\right) + 2\\left(x^3 + 2x^2 + 2x - 2\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5x^4 + 12x^2 + 7x + 1$"
+      },
+      {
+        "id": "b",
+        "latex": "$3x^4 + 2x^3 + 4x^2 + 7x - 3$"
+      },
+      {
+        "id": "c",
+        "latex": "$5x^4 + 14x^2 + 7x + 1$"
+      },
+      {
+        "id": "d",
+        "latex": "$5x^4 - x^3 + 12x^2 + 5x + 3$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "5*x^4+14*x^2+7*x+1",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First distribute the minus sign and the $2$, then combine like terms. This gives $5x^4 + 14x^2 + 7x + 1$.",
+    "complexity_factor": 1.25,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "subtraction",
+      "distribution",
+      "like_terms"
+    ],
+    "checksum": "sha256-25c2b4f1822fa663827c032468d27b6d51ff2a41c8cc67ebc94ea925950d6358",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.hard.0023",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify: $\\left(-4x^4 - 2x^3 - x^2 + 4x - 4\\right) - \\left(3x^4 + 2x^3 + 3x^2 + 5\\right) + 2\\left(4x^3 - x^2 + 2x\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-7x^4 + 8x^3 - 6x^2 + 8x - 9$"
+      },
+      {
+        "id": "b",
+        "latex": "$-7x^4 - 5x^2 + 6x - 9$"
+      },
+      {
+        "id": "c",
+        "latex": "$-7x^4 + 4x^3 - 6x^2 + 8x - 9$"
+      },
+      {
+        "id": "d",
+        "latex": "$-x^4 + 8x^3 + 8x + 1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-7*x^4+4*x^3-6*x^2+8*x-9",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First distribute the minus sign and the $2$, then combine like terms. This gives $-7x^4 + 4x^3 - 6x^2 + 8x - 9$.",
+    "complexity_factor": 1.25,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "subtraction",
+      "distribution",
+      "like_terms"
+    ],
+    "checksum": "sha256-329583c6f7876e0ccd8fb99c9d9002bd2445403f480b384f45285eb1aac2c794",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.hard.0024",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify: $\\left(-x^4 + x^3 - x - 3\\right) - \\left(2x^4 + 5x^2 - x + 1\\right) + 2\\left(x^3 - 3x + 2\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^4 + 3x^3 + 5x^2 - 8x + 2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3x^4 + 3x^3 - 5x^2 - 6x$"
+      },
+      {
+        "id": "c",
+        "latex": "$-3x^4 + 2x^3 - 5x^2 - 3x - 2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3x^4 + 3x^3 - 5x^2 - 6x - 4$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-3*x^4+3*x^3-5*x^2-6*x",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First distribute the minus sign and the $2$, then combine like terms. This gives $-3x^4 + 3x^3 - 5x^2 - 6x$.",
+    "complexity_factor": 1.25,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "subtraction",
+      "distribution",
+      "like_terms"
+    ],
+    "checksum": "sha256-1d1e0c94cdec0dba906906d12e469cb495371975711c71868b8bc3a2646a48d4",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.hard.0025",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify: $\\left(-4x^4 - 4x^3 - 2x^2 + 5x - 1\\right) - \\left(-3x^4 - 3x^3 + 4x^2 - 4\\right) + 2\\left(-x^3 + 4x^2 + 3\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-7x^4 - 9x^3 + 10x^2 + 5x + 1$"
+      },
+      {
+        "id": "b",
+        "latex": "$-5x^4 - 3x^3 + 2x^2 + 5x + 9$"
+      },
+      {
+        "id": "c",
+        "latex": "$-x^4 - 2x^3 - 2x^2 + 5x + 6$"
+      },
+      {
+        "id": "d",
+        "latex": "$-x^4 - 3x^3 + 2x^2 + 5x + 9$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-x^4-3*x^3+2*x^2+5*x+9",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First distribute the minus sign and the $2$, then combine like terms. This gives $-x^4 - 3x^3 + 2x^2 + 5x + 9$.",
+    "complexity_factor": 1.25,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "subtraction",
+      "distribution",
+      "like_terms"
+    ],
+    "checksum": "sha256-cd80d6a5c97c4ddd69e1f294b3eaf7c57bc3379469c842ab47eb150b565f93d4",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.hard.0026",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify: $\\left(-4x^4 - 3x^3 + x^2 + 4x - 1\\right) - \\left(-5x^4 - 5x^3 + 5x^2 + x\\right) + 2\\left(x^3 + 3x^2 - x + 4\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^4 + 4x^3 + 2x^2 + x + 7$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^4 + 4x^3 + 2x^2 + 3x + 7$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^4 + 3x^3 - x^2 + 2x + 3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-9x^4 - 6x^3 + 12x^2 + 3x + 7$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "x^4+4*x^3+2*x^2+x+7",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First distribute the minus sign and the $2$, then combine like terms. This gives $x^4 + 4x^3 + 2x^2 + x + 7$.",
+    "complexity_factor": 1.25,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "subtraction",
+      "distribution",
+      "like_terms"
+    ],
+    "checksum": "sha256-0669fd8e9f6064a61e1053791d5397384a3c3db6c06f44ff628ba9f6f14a1319",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.hard.0027",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify: $\\left(-x^4 + 2x^3 - 4x^2 + 5x + 3\\right) - \\left(x^4 - 5x^3 + 4x^2 - 3\\right) + 2\\left(4x^3 + 4x + 3\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2x^4 + 11x^3 - 8x^2 + 9x + 9$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2x^4 + 15x^3 - 8x^2 + 13x + 12$"
+      },
+      {
+        "id": "c",
+        "latex": "$5x^3 + 13x + 6$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2x^4 + 15x^3 - 8x^2 + 13x + 8$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-2*x^4+15*x^3-8*x^2+13*x+12",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First distribute the minus sign and the $2$, then combine like terms. This gives $-2x^4 + 15x^3 - 8x^2 + 13x + 12$.",
+    "complexity_factor": 1.25,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "subtraction",
+      "distribution",
+      "like_terms"
+    ],
+    "checksum": "sha256-fe300308c1d60ad44240498e301f7d3909f49e9c7526194ae65d8d0c2ddd32c6",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.hard.0028",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify: $\\left(5x^4 - 3x^3 + 2x + 2\\right) - \\left(-3x^4 - 5x^2 - 2x + 4\\right) + 2\\left(2x^3 - x^2 + x + 2\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8x^4 - x^3 + 3x^2 + 6x + 2$"
+      },
+      {
+        "id": "b",
+        "latex": "$2x^4 + x^3 - 7x^2 + 2x + 10$"
+      },
+      {
+        "id": "c",
+        "latex": "$8x^4 + x^3 + 3x^2 + 6x + 2$"
+      },
+      {
+        "id": "d",
+        "latex": "$8x^4 - x^3 + 4x^2 + 5x$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "8*x^4+x^3+3*x^2+6*x+2",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First distribute the minus sign and the $2$, then combine like terms. This gives $8x^4 + x^3 + 3x^2 + 6x + 2$.",
+    "complexity_factor": 1.25,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "subtraction",
+      "distribution",
+      "like_terms"
+    ],
+    "checksum": "sha256-9d063713223a1cb011f21b640df94a2dd949a7fc14c4448542f0cf1ca323fe78",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.hard.0029",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify: $\\left(3x^4 + x^3 + 5x^2 - 4x - 3\\right) - \\left(-4x^4 + 3x^2 - 3x + 2\\right) + 2\\left(3x^3 + 3x^2 - 3x + 1\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7x^4 + 4x^3 + 5x^2 - 4x - 4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-x^4 + 7x^3 + 14x^2 - 13x + 1$"
+      },
+      {
+        "id": "c",
+        "latex": "$7x^4 + 7x^3 + 8x^2 - 7x - 3$"
+      },
+      {
+        "id": "d",
+        "latex": "$7x^4 + 7x^3 + 8x^2 - 5x - 3$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "7*x^4+7*x^3+8*x^2-7*x-3",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First distribute the minus sign and the $2$, then combine like terms. This gives $7x^4 + 7x^3 + 8x^2 - 7x - 3$.",
+    "complexity_factor": 1.25,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "subtraction",
+      "distribution",
+      "like_terms"
+    ],
+    "checksum": "sha256-34779741808a9ef5b3a75d62ec7d5c1e23d9cdebf51aff0922ef3b7095f1901c",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.hard.0030",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify: $\\left(-3x^4 - 3x^3 + 2x^2 - x + 2\\right) - \\left(3x^4 + 4x^3 + x^2 - 2\\right) + 2\\left(-3x^3 + 4x^2 - 3x - 3\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-6x^4 - 10x^3 + 5x^2 - 4x + 1$"
+      },
+      {
+        "id": "b",
+        "latex": "$-6x^4 - 13x^3 + 9x^2 - 7x - 6$"
+      },
+      {
+        "id": "c",
+        "latex": "$-5x^3 + 11x^2 - 7x - 6$"
+      },
+      {
+        "id": "d",
+        "latex": "$-6x^4 - 13x^3 + 9x^2 - 7x - 2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-6*x^4-13*x^3+9*x^2-7*x-2",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First distribute the minus sign and the $2$, then combine like terms. This gives $-6x^4 - 13x^3 + 9x^2 - 7x - 2$.",
+    "complexity_factor": 1.25,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "subtraction",
+      "distribution",
+      "like_terms"
+    ],
+    "checksum": "sha256-92a0e71e5f07f33af2c76e7d05f34063f59f59cb2f19103b4a565c82ac564a74",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.hard.0031",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify: $\\left(5x^4 - 4x^2 - 3x + 2\\right) - \\left(2x^4 - 3x^3 + x^2 + 2\\right) + 2\\left(-2x^3 - 3x^2 - x + 4\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3x^4 - x^3 - 7x^2 - 5x + 8$"
+      },
+      {
+        "id": "b",
+        "latex": "$3x^4 - x^3 - 11x^2 - 5x + 8$"
+      },
+      {
+        "id": "c",
+        "latex": "$7x^4 - 7x^3 - 9x^2 - 5x + 12$"
+      },
+      {
+        "id": "d",
+        "latex": "$3x^4 + x^3 - 8x^2 - 4x + 4$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "3*x^4-x^3-11*x^2-5*x+8",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First distribute the minus sign and the $2$, then combine like terms. This gives $3x^4 - x^3 - 11x^2 - 5x + 8$.",
+    "complexity_factor": 1.25,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "subtraction",
+      "distribution",
+      "like_terms"
+    ],
+    "checksum": "sha256-c57a5404cad5de475272f716ffebe9344a4934f24eee21a2f1e07ba1ac4833b2",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.hard.0032",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify: $\\left(x^4 + 4x^2 - 3\\right) - \\left(-x^4 + x^3 - 5x^2\\right) + 2\\left(-2x^3 + 3x^2 + x + 2\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2x^4 - 5x^3 + 15x^2 + 2x + 1$"
+      },
+      {
+        "id": "b",
+        "latex": "$2x^4 - 3x^3 + 12x^2 + x - 1$"
+      },
+      {
+        "id": "c",
+        "latex": "$-3x^3 + 5x^2 + 2x + 1$"
+      },
+      {
+        "id": "d",
+        "latex": "$6x^4 - 5x^3 + 15x^2 + 2x + 1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2*x^4-5*x^3+15*x^2+2*x+1",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First distribute the minus sign and the $2$, then combine like terms. This gives $2x^4 - 5x^3 + 15x^2 + 2x + 1$.",
+    "complexity_factor": 1.25,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "subtraction",
+      "distribution",
+      "like_terms"
+    ],
+    "checksum": "sha256-514876ac470eae43b1849544b9a8c7fe3f4d166cdfd200ca2f2e3791559423de",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.hard.0033",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify: $\\left(5x^4 + 2x^3 - 3x^2 + x + 1\\right) - \\left(2x^4 + 2x^3 - 2x + 2\\right) + 2\\left(2x^3 + 4x^2 - 3x + 1\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3x^4 + 2x^3 + x^2$"
+      },
+      {
+        "id": "b",
+        "latex": "$3x^4 + 4x^3 + 5x^2 - 3x + 3$"
+      },
+      {
+        "id": "c",
+        "latex": "$3x^4 + 4x^3 + 5x^2 - 3x + 1$"
+      },
+      {
+        "id": "d",
+        "latex": "$7x^4 + 8x^3 + 5x^2 - 7x + 5$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3*x^4+4*x^3+5*x^2-3*x+1",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First distribute the minus sign and the $2$, then combine like terms. This gives $3x^4 + 4x^3 + 5x^2 - 3x + 1$.",
+    "complexity_factor": 1.25,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "subtraction",
+      "distribution",
+      "like_terms"
+    ],
+    "checksum": "sha256-a40b84c1ec78c3a569637b7e320b548404493ec017d7924006ed967510d86182",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.hard.0034",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify: $\\left(3x^4 - 2x^3 + x^2 + 4x + 3\\right) - \\left(3x^4 - 5x - 2\\right) + 2\\left(4x^3 + 4x^2 + 4x\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6x^4 + 6x^3 + 9x^2 + 7x + 1$"
+      },
+      {
+        "id": "b",
+        "latex": "$6x^3 + 9x^2 + 21x + 5$"
+      },
+      {
+        "id": "c",
+        "latex": "$6x^3 + 9x^2 + 17x + 5$"
+      },
+      {
+        "id": "d",
+        "latex": "$2x^3 + 5x^2 + 13x + 5$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "6*x^3+9*x^2+17*x+5",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First distribute the minus sign and the $2$, then combine like terms. This gives $6x^3 + 9x^2 + 17x + 5$.",
+    "complexity_factor": 1.25,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "subtraction",
+      "distribution",
+      "like_terms"
+    ],
+    "checksum": "sha256-620bf70dc8f2191ea0557d6ef28941573fbbb3027c02430bf38d4962b68df29a",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.hard.0035",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify: $\\left(2x^4 + x^3 - 2x^2 + 2x - 1\\right) - \\left(4x^4 - 4x^3 - 2x^2\\right) + 2\\left(-x^3 - x^2 + 2x\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6x^4 - 5x^3 - 6x^2 + 6x - 1$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2x^4 + 3x^3 - 2x^2 + 6x - 1$"
+      },
+      {
+        "id": "c",
+        "latex": "$-6x^4 + 3x^3 - 2x^2 + 6x - 1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2x^4 + 4x^3 - x^2 + 4x - 1$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-2*x^4+3*x^3-2*x^2+6*x-1",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First distribute the minus sign and the $2$, then combine like terms. This gives $-2x^4 + 3x^3 - 2x^2 + 6x - 1$.",
+    "complexity_factor": 1.25,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "subtraction",
+      "distribution",
+      "like_terms"
+    ],
+    "checksum": "sha256-b98a185badbed23f26be2960411ab42d2ee442a59f2406c8cf518a1df326c980",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.hard.0036",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify: $\\left(x^4 - x^3 + x^2 + 4x\\right) - \\left(-4x^4 + x^2 + 5x - 4\\right) + 2\\left(4x^3 - x^2 + 2\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3x^4 + 7x^3 + 9x$"
+      },
+      {
+        "id": "b",
+        "latex": "$5x^4 + 7x^3 - 2x^2 - x + 6$"
+      },
+      {
+        "id": "c",
+        "latex": "$5x^4 + 3x^3 - x^2 - x + 6$"
+      },
+      {
+        "id": "d",
+        "latex": "$5x^4 + 7x^3 - 2x^2 - x + 8$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "5*x^4+7*x^3-2*x^2-x+8",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First distribute the minus sign and the $2$, then combine like terms. This gives $5x^4 + 7x^3 - 2x^2 - x + 8$.",
+    "complexity_factor": 1.25,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "subtraction",
+      "distribution",
+      "like_terms"
+    ],
+    "checksum": "sha256-e03bff2bf28e26b9f4cf07a434ae6150e5347924b570d60ddaa9cf86bf75e6ab",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.hard.0037",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify: $\\left(-x^4 + x^3 + x^2 - 4\\right) - \\left(3x^4 - 4x^3 - 5x - 1\\right) + 2\\left(-3x^3 - x^2 + x - 3\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4x^4 + 2x^3 + 6x - 6$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4x^4 - x^3 - x^2 + 7x - 9$"
+      },
+      {
+        "id": "c",
+        "latex": "$-6x^4 - x^3 - x^2 + 7x - 9$"
+      },
+      {
+        "id": "d",
+        "latex": "$2x^4 - 9x^3 - x^2 - 3x - 11$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-4*x^4-x^3-x^2+7*x-9",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First distribute the minus sign and the $2$, then combine like terms. This gives $-4x^4 - x^3 - x^2 + 7x - 9$.",
+    "complexity_factor": 1.25,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "subtraction",
+      "distribution",
+      "like_terms"
+    ],
+    "checksum": "sha256-95319f7403d24272e1d50f51ed55e76a30ebbd6d7b8eb9090cf6ec99d9d0b03e",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.hard.0038",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify: $\\left(-2x^4 - 4x^3 + 4x^2 - 3x\\right) - \\left(-2x^4 + 3x^3 + 5x^2 + 4\\right) + 2\\left(3x^3 - 2x^2 + 4x - 1\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-x^3 - 5x^2 + 5x - 6$"
+      },
+      {
+        "id": "b",
+        "latex": "$-x^3 - 5x^2 + 3x - 6$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4x^3 - 3x^2 + x - 5$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4x^4 + 5x^3 + 5x^2 + 5x + 2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-x^3-5*x^2+5*x-6",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First distribute the minus sign and the $2$, then combine like terms. This gives $-x^3 - 5x^2 + 5x - 6$.",
+    "complexity_factor": 1.25,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "subtraction",
+      "distribution",
+      "like_terms"
+    ],
+    "checksum": "sha256-f0f343f012c5b2627d533fc84652c22fa2091edf7ecd30846e346028b4726112",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.hard.0039",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify: $\\left(4x^4 + 3x^3 + 2x^2 + x + 3\\right) - \\left(4x^4 + 4x^3 - x^2 - 4\\right) + 2\\left(-2x^3 - 2x^2 + 4\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-5x^3 - x^2 - x + 15$"
+      },
+      {
+        "id": "b",
+        "latex": "$-5x^3 - x^2 + x + 15$"
+      },
+      {
+        "id": "c",
+        "latex": "$-3x^3 + x^2 + x + 11$"
+      },
+      {
+        "id": "d",
+        "latex": "$8x^4 + 3x^3 - 3x^2 + x + 7$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-5*x^3-x^2+x+15",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First distribute the minus sign and the $2$, then combine like terms. This gives $-5x^3 - x^2 + x + 15$.",
+    "complexity_factor": 1.25,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "subtraction",
+      "distribution",
+      "like_terms"
+    ],
+    "checksum": "sha256-f062351badb9a098d4b1ef945642df5338125bad46f4b360bb7de75052cd1907",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.hard.0040",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify: $\\left(2x^4 + 4x^2 + x - 2\\right) - \\left(3x^4 + 5x^3 + 3x^2 + 4x\\right) + 2\\left(-2x^3 + 2x^2 + 2\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-x^4 - 7x^3 + 3x^2 - 3x$"
+      },
+      {
+        "id": "b",
+        "latex": "$-x^4 - 9x^3 + 5x^2 - 3x + 2$"
+      },
+      {
+        "id": "c",
+        "latex": "$-x^4 - 9x^3 + 5x^2 - 5x + 2$"
+      },
+      {
+        "id": "d",
+        "latex": "$5x^4 + x^3 + 11x^2 + 5x + 2$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-x^4-9*x^3+5*x^2-3*x+2",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First distribute the minus sign and the $2$, then combine like terms. This gives $-x^4 - 9x^3 + 5x^2 - 3x + 2$.",
+    "complexity_factor": 1.25,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "subtraction",
+      "distribution",
+      "like_terms"
+    ],
+    "checksum": "sha256-db2b21a1e28e91d50dccf629bb7503af827d8fbb6c50b530636503359dd45d99",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.hard.0041",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify: $\\left(4x^4 + 2x^3 + x^2 - 3x - 3\\right) - \\left(x^4 - x - 3\\right) + 2\\left(-3x^3 + x^2 - x - 3\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3x^4 - 4x^3 + 3x^2 - 4x - 6$"
+      },
+      {
+        "id": "b",
+        "latex": "$3x^4 - 4x^3 + 3x^2 - 6$"
+      },
+      {
+        "id": "c",
+        "latex": "$5x^4 - 4x^3 + 3x^2 - 6x - 12$"
+      },
+      {
+        "id": "d",
+        "latex": "$3x^4 - x^3 + 2x^2 - 3x - 3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "3*x^4-4*x^3+3*x^2-4*x-6",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First distribute the minus sign and the $2$, then combine like terms. This gives $3x^4 - 4x^3 + 3x^2 - 4x - 6$.",
+    "complexity_factor": 1.25,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "subtraction",
+      "distribution",
+      "like_terms"
+    ],
+    "checksum": "sha256-0cbe6c585b9e8008fdb470b4b6b2ea6eadebfd429cb0e8f6763495780145f3ba",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.hard.0042",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify: $\\left(-x^4 + 4x^3 + 3x^2 - 3x + 2\\right) - \\left(-4x^4 + 4\\right) + 2\\left(-x^3 + x^2 + x - 1\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3x^4 + 3x^3 + 4x^2 - 2x - 3$"
+      },
+      {
+        "id": "b",
+        "latex": "$3x^4 + 2x^3 + 5x^2 - x - 4$"
+      },
+      {
+        "id": "c",
+        "latex": "$3x^4 + 2x^3 + 5x^2 - 5x - 4$"
+      },
+      {
+        "id": "d",
+        "latex": "$-5x^4 + 2x^3 + 5x^2 - x + 4$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "3*x^4+2*x^3+5*x^2-x-4",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First distribute the minus sign and the $2$, then combine like terms. This gives $3x^4 + 2x^3 + 5x^2 - x - 4$.",
+    "complexity_factor": 1.25,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "subtraction",
+      "distribution",
+      "like_terms"
+    ],
+    "checksum": "sha256-bbc69fc78979c184622be701e975971393df45e8c4778b2aeb5d3ba68a701847",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.hard.0043",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify: $\\left(-x^4 + 5x^3 + 3x^2 + 2\\right) - \\left(x^4 + 2x^2 + 2x + 1\\right) + 2\\left(4x^3 + x^2 + 4x - 2\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$13x^3 + 7x^2 + 10x - 1$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2x^4 + 9x^3 + 2x^2 + 2x - 1$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2x^4 + 13x^3 + 3x^2 + 6x - 3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2x^4 + 13x^3 + 3x^2 + 10x - 3$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-2*x^4+13*x^3+3*x^2+6*x-3",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First distribute the minus sign and the $2$, then combine like terms. This gives $-2x^4 + 13x^3 + 3x^2 + 6x - 3$.",
+    "complexity_factor": 1.25,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "subtraction",
+      "distribution",
+      "like_terms"
+    ],
+    "checksum": "sha256-62f6840bf70291edf37c19737c990f783e82268863d840da7998d63337613933",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.hard.0044",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify: $\\left(-4x^4 + 3x^3 + 5x^2 + x + 5\\right) - \\left(4x^4 + 5x^3 + 2x^2 + 3\\right) + 2\\left(x^3 - 3x^2 - 3x + 3\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-8x^4 - 3x^2 - 5x + 8$"
+      },
+      {
+        "id": "b",
+        "latex": "$-8x^4 - x^3 - 2x + 5$"
+      },
+      {
+        "id": "c",
+        "latex": "$-8x^4 - 4x^3 - 3x^2 - 5x + 8$"
+      },
+      {
+        "id": "d",
+        "latex": "$10x^3 + x^2 - 5x + 14$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-8*x^4-3*x^2-5*x+8",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First distribute the minus sign and the $2$, then combine like terms. This gives $-8x^4 - 3x^2 - 5x + 8$.",
+    "complexity_factor": 1.25,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "subtraction",
+      "distribution",
+      "like_terms"
+    ],
+    "checksum": "sha256-0793d2bf621615057d5fce82cd9fb849e9fccfa56a3e7d737bcefb4ba6890011",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.hard.0045",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify: $\\left(-2x^4 + 4x^3 + 4x^2 + 5x - 3\\right) - \\left(3x^4 + 3x^3 - 2x^2 - 1\\right) + 2\\left(x^3 - 3x^2 + x - 1\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-5x^4 + 2x^3 + 3x^2 + 6x - 3$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^4 + 9x^3 - 4x^2 + 7x - 6$"
+      },
+      {
+        "id": "c",
+        "latex": "$-5x^4 + 3x^3 - 2x^2 + 7x - 4$"
+      },
+      {
+        "id": "d",
+        "latex": "$-5x^4 + 3x^3 + 7x - 4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-5*x^4+3*x^3+7*x-4",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First distribute the minus sign and the $2$, then combine like terms. This gives $-5x^4 + 3x^3 + 7x - 4$.",
+    "complexity_factor": 1.25,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "subtraction",
+      "distribution",
+      "like_terms"
+    ],
+    "checksum": "sha256-8334e7f9fc9fd0b70091f9cf671644e7fe5fa2537aa1ee8abf17720d31154d24",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.hard.0046",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify: $\\left(x^4 + 2x^3 + 5x^2 - 2x - 3\\right) - \\left(3x^4 + 2x^2 - 4x - 4\\right) + 2\\left(4x^3 + x^2 + 2x + 4\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2x^4 + 14x^3 + 5x^2 + 6x + 9$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2x^4 + 10x^3 + 5x^2 + 6x + 9$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2x^4 + 6x^3 + 4x^2 + 4x + 5$"
+      },
+      {
+        "id": "d",
+        "latex": "$4x^4 + 10x^3 + 9x^2 - 2x + 1$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-2*x^4+10*x^3+5*x^2+6*x+9",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First distribute the minus sign and the $2$, then combine like terms. This gives $-2x^4 + 10x^3 + 5x^2 + 6x + 9$.",
+    "complexity_factor": 1.25,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "subtraction",
+      "distribution",
+      "like_terms"
+    ],
+    "checksum": "sha256-c842645ecd9311171251343089991cc15dec73e84066024c8cb59903e326ca9c",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.hard.0047",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify: $\\left(3x^4 - 3x^3 + 4x^2 - 4x\\right) - \\left(x^4 - 1\\right) + 2\\left(2x^3 - x^2 + 2x + 3\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2x^4 + x^3 + 2x^2 + 7$"
+      },
+      {
+        "id": "b",
+        "latex": "$2x^4 - x^3 + 2x^2 + 7$"
+      },
+      {
+        "id": "c",
+        "latex": "$4x^4 + x^3 + 2x^2 + 5$"
+      },
+      {
+        "id": "d",
+        "latex": "$2x^4 - x^3 + 3x^2 - 2x + 4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2*x^4+x^3+2*x^2+7",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First distribute the minus sign and the $2$, then combine like terms. This gives $2x^4 + x^3 + 2x^2 + 7$.",
+    "complexity_factor": 1.25,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "subtraction",
+      "distribution",
+      "like_terms"
+    ],
+    "checksum": "sha256-32e573c61c3308825c7eededf1e1d92f87b0459167aa1379196ad4025e0cd21f",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.hard.0048",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify: $\\left(-3x^4 - 4x^3 + 4x^2 + 2x + 1\\right) - \\left(-3x^4 - 3x^3 - 4x - 4\\right) + 2\\left(x^3 - 2x^2 - 1\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^3 + 6x - 1$"
+      },
+      {
+        "id": "b",
+        "latex": "$-6x^4 - 5x^3 - 2x - 5$"
+      },
+      {
+        "id": "c",
+        "latex": "$2x^2 + 6x + 4$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^3 + 6x + 3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x^3+6*x+3",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First distribute the minus sign and the $2$, then combine like terms. This gives $x^3 + 6x + 3$.",
+    "complexity_factor": 1.25,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "subtraction",
+      "distribution",
+      "like_terms"
+    ],
+    "checksum": "sha256-5dff29a1e9498d36843e9242a76b11c87b174cc432efb62bd7fd2f2340b711b9",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.hard.0049",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify: $\\left(-4x^4 + 4x^3 - 2x^2 - 3x - 2\\right) - \\left(-x^4 + 3x^3 - 3x^2 + 5\\right) + 2\\left(-x^3 + 2x^2 + 2\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-5x^4 + 5x^3 - x^2 - 3x + 7$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3x^4 - x^3 + 5x^2 - 3x - 3$"
+      },
+      {
+        "id": "c",
+        "latex": "$-3x^4 - 3x^3 + 5x^2 - 3x - 3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3x^4 + 3x^2 - 3x - 5$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-3*x^4-x^3+5*x^2-3*x-3",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First distribute the minus sign and the $2$, then combine like terms. This gives $-3x^4 - x^3 + 5x^2 - 3x - 3$.",
+    "complexity_factor": 1.25,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "subtraction",
+      "distribution",
+      "like_terms"
+    ],
+    "checksum": "sha256-77299b361e34ce279fc423179e63b5fbe4c3fee8adfa2216172295e6653f8df1",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.hard.0050",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify: $\\left(-4x^4 + 2x^3 - x^2 - x + 5\\right) - \\left(-2x^4 + 3x^2 - 5x + 2\\right) + 2\\left(2x^3 - x^2 + 4x + 2\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2x^4 + 6x^3 - 6x^2 + 12x + 7$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2x^4 + 4x^3 - 5x^2 + 8x + 5$"
+      },
+      {
+        "id": "c",
+        "latex": "$-6x^4 + 6x^3 + 2x + 11$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2x^4 + 6x^3 - 8x^2 + 12x + 7$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-2*x^4+6*x^3-6*x^2+12*x+7",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First distribute the minus sign and the $2$, then combine like terms. This gives $-2x^4 + 6x^3 - 6x^2 + 12x + 7$.",
+    "complexity_factor": 1.25,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "subtraction",
+      "distribution",
+      "like_terms"
+    ],
+    "checksum": "sha256-b469871a54d48dd6da71ed35e6edf4adfbdef86a0aea6c396fc8a716d81d191f",
+    "status": "valid"
+  }
+]

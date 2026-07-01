@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "ch17.inverse_revisited.hard.0001",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "The graph $y=3(x+2)-3$ is reflected across $y=x$. What expression gives the reflected graph?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3*(x+2)-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x-3)/3-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x+3)/3+2$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x+3)/3-2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x+3)/3-2",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Reflecting across $y=x$ gives the inverse. Solving for $x$ gives $f^{-1}(x)=(x+3)/3-2$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-5c310919f12a601943b07f79b1172418ed3c5395bd202d4197b242bbd7dbaf40",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.hard.0002",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "The graphs of $y=f(x)$ and $y=f^{-1}(x)$ meet on the line $y=x$. If $f(x)=4x+6$, what is the $x$-coordinate of their intersection?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Intersection with the inverse on $y=x$ occurs at a fixed point: $x=4x+6$, so $x=-2$.",
+    "complexity_factor": 1.3,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-cf3c6aa40631654b0ec14f2eb5f998633e09edcd667bfb012cb04e31b47b0c1d",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.hard.0003",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "For $x\\ge -1$, let $f(x)=(x+1)^2+0$. What is $f^{-1}(16)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-5$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$16$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Solve $(x+1)^2=16=16$. The restriction $x\\ge -1$ gives $x=3$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-09c59eb4391d900cce9cb59dbbb52be767255b2703cf19c928583d4c9a143008",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.hard.0004",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "For $f(x)=2(x-h)+0$, the inverse satisfies $f^{-1}(-4)=-1$. What is $h$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The statement means $f(-1)=-4$. Then 2(-1-h)+0=-4$, so $h=1$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-87e206074075401a5f2e7a6035b1ca31adc1237da97a1d22b07cb48e3222d404",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.hard.0005",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "The graph of $y=f(x)$ contains $(1,0)$. Which point is on the graph of $y=f^{-1}(x)+2$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2,1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,-1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0,3)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(0,3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The inverse swaps coordinates to $(0,1)$, then the vertical shift by 2 gives $(0,3)$.",
+    "complexity_factor": 1.3,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-a02234ff448bfcc640f52ba7a5fff210389ba3874be21059ae6f7b9ece0b8d01",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.hard.0006",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "The graph $y=4(x-3)+2$ is reflected across $y=x$. What expression gives the reflected graph?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x-2)/4+3$"
+      },
+      {
+        "id": "b",
+        "latex": "$4*(x-3)+2$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x+2)/4+3$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x-2)/4-3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(x-2)/4+3",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Reflecting across $y=x$ gives the inverse. Solving for $x$ gives $f^{-1}(x)=(x-2)/4+3$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-b38f96272c0ad91c959b783663d0e6c61eb78e5a5d43368102234cd7836213a4",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.hard.0007",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "The graphs of $y=f(x)$ and $y=f^{-1}(x)$ meet on the line $y=x$. If $f(x)=-2x+9$, what is the $x$-coordinate of their intersection?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Intersection with the inverse on $y=x$ occurs at a fixed point: $x=-2x+9$, so $x=3$.",
+    "complexity_factor": 1.3,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-fe16094633f82e9ee1be3b42cddf29f6eee9ad18023f859954183f42904f0ba0",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.hard.0008",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "For $x\\ge 4$, let $f(x)=(x-4)^2-2$. What is $f^{-1}(14)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$14$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Solve $(x-4)^2=16=16$. The restriction $x\\ge 4$ gives $x=8$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-b3905980ba4e16c102d36f5a51ac81ef348da135bbdfa112d87483b8c0e41ae6",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.hard.0009",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "For $f(x)=3(x-h)-4$, the inverse satisfies $f^{-1}(11)=4$. What is $h$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$-7$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The statement means $f(4)=11$. Then 3(4-h)-4=11$, so $h=-1$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-396b5bb9efa0f5e83d71c5203bf5cefe0f9f9b3124497417b34f26284cca6610",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.hard.0010",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "The graph of $y=f(x)$ contains $(-3,5)$. Which point is on the graph of $y=f^{-1}(x)+0$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-5,-3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3,5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(5,-3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(6,-4)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(5,-3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The inverse swaps coordinates to $(5,-3)$, then the vertical shift by 0 gives $(5,-3)$.",
+    "complexity_factor": 1.3,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-a83e1acd96ca8a2439bc75ab6cf523c7ba86e3b536910a35f7cb6a7356c643ca",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.hard.0011",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "The graph $y=5(x-1)-2$ is reflected across $y=x$. What expression gives the reflected graph?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x+2)/5-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x+2)/5+1$"
+      },
+      {
+        "id": "c",
+        "latex": "$5*(x-1)-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x-2)/5+1$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(x+2)/5+1",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Reflecting across $y=x$ gives the inverse. Solving for $x$ gives $f^{-1}(x)=(x+2)/5+1$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-d520a437e8634467056910704af45484433ec6990721f51800a82a27d0209704",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.hard.0012",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "The graphs of $y=f(x)$ and $y=f^{-1}(x)$ meet on the line $y=x$. If $f(x)=2x+1$, what is the $x$-coordinate of their intersection?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Intersection with the inverse on $y=x$ occurs at a fixed point: $x=2x+1$, so $x=-1$.",
+    "complexity_factor": 1.3,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-7e86249b36ac353fa2180e997ca28dccc9e844b3a7f0b155f3f44356fda00b2b",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.hard.0013",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "For $x\\ge 0$, let $f(x)=(x+0)^2+3$. What is $f^{-1}(19)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$19$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Solve $(x+0)^2=16=16$. The restriction $x\\ge 0$ gives $x=4$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-54371a1bca24bbb4310f664ee87622b4d3e3d3993207688a3734c8387472098b",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.hard.0014",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "For $f(x)=4(x-h)+1$, the inverse satisfies $f^{-1}(5)=-2$. What is $h$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-7$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The statement means $f(-2)=5$. Then 4(-2-h)+1=5$, so $h=-3$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-021a039ee85a79075c83428319e379314172a6c79d3e033bf514cf719d530be5",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.hard.0015",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "The graph of $y=f(x)$ contains $(2,-1)$. Which point is on the graph of $y=f^{-1}(x)-2$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2,-3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-3,2)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-1,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The inverse swaps coordinates to $(-1,2)$, then the vertical shift by -2 gives $(-1,0)$.",
+    "complexity_factor": 1.3,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-b75ed539ea88e6f39cfd8fae4d1f5ac9c8dd81523f37c3046aef6fca3e8d07d5",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.hard.0016",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "The graph $y=2(x+1)+3$ is reflected across $y=x$. What expression gives the reflected graph?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x+3)/2-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x-3)/2+1$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x-3)/2-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$2*(x+1)+3$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x-3)/2-1",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Reflecting across $y=x$ gives the inverse. Solving for $x$ gives $f^{-1}(x)=(x-3)/2-1$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-cd11c1ceb7ebfade50e6efbef75e1f8363cb703264c633a9aa7b3d7a4c45e1cb",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.hard.0017",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "The graphs of $y=f(x)$ and $y=f^{-1}(x)$ meet on the line $y=x$. If $f(x)=3x-8$, what is the $x$-coordinate of their intersection?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-8$"
+      },
+      {
+        "id": "b",
+        "latex": "$-5$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Intersection with the inverse on $y=x$ occurs at a fixed point: $x=3x-8$, so $x=4$.",
+    "complexity_factor": 1.3,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-8e71d42cfe0774792d162a9b465e407f9190c67831b1023040abc9f0fd72479e",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.hard.0018",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "For $x\\ge -4$, let $f(x)=(x+4)^2+1$. What is $f^{-1}(17)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$-8$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$17$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Solve $(x+4)^2=16=16$. The restriction $x\\ge -4$ gives $x=0$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-b8aca7ae33e72b3c778530449e1ca709c67fbb180cbe9b9494b7d24ef604e7dd",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.hard.0019",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "For $f(x)=5(x-h)-3$, the inverse satisfies $f^{-1}(2)=3$. What is $h$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The statement means $f(3)=2$. Then 5(3-h)-3=2$, so $h=2$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-37aa66330ce5703a135e4139b786a11528e6a911d666cd64dc407a9cbe8a6746",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.hard.0020",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "The graph of $y=f(x)$ contains $(-2,4)$. Which point is on the graph of $y=f^{-1}(x)+3$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4,1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(7,-2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4,-5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2,7)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(4,1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The inverse swaps coordinates to $(4,-2)$, then the vertical shift by 3 gives $(4,1)$.",
+    "complexity_factor": 1.3,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-c72613fe3f82b843f7536883e96eb1ff56d9a2727d68b89ad7350ff6714e429d",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.hard.0021",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "The graph $y=3(x+3)-1$ is reflected across $y=x$. What expression gives the reflected graph?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3*(x+3)-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x+1)/3+3$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x-1)/3-3$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x+1)/3-3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x+1)/3-3",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Reflecting across $y=x$ gives the inverse. Solving for $x$ gives $f^{-1}(x)=(x+1)/3-3$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-27236c1db1325bbd8ffb774800dea58ee1061168c30daa3677739eb1e20171a4",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.hard.0022",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "The graphs of $y=f(x)$ and $y=f^{-1}(x)$ meet on the line $y=x$. If $f(x)=4x+0$, what is the $x$-coordinate of their intersection?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Intersection with the inverse on $y=x$ occurs at a fixed point: $x=4x+0$, so $x=0$.",
+    "complexity_factor": 1.3,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-06182fe818b772be4ef72e16a7acad1ee7294f6ec20ed0ae6cf4f68c60eb1a5a",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.hard.0023",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "For $x\\ge 1$, let $f(x)=(x-1)^2-1$. What is $f^{-1}(15)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$15$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$-3$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Solve $(x-1)^2=16=16$. The restriction $x\\ge 1$ gives $x=5$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-1f6fc14c2fbe5c029369a1fcfab04905565088fef639d3f8a964291b3cd4b57a",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.hard.0024",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "For $f(x)=2(x-h)+2$, the inverse satisfies $f^{-1}(-4)=-3$. What is $h$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The statement means $f(-3)=-4$. Then 2(-3-h)+2=-4$, so $h=0$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-f919fefee11f07676d5cd8fefc5f4bba0ab3a96b94f16094076937e801c90838",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.hard.0025",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "The graph of $y=f(x)$ contains $(3,-2)$. Which point is on the graph of $y=f^{-1}(x)+1$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3,-1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1,3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2,4)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-2,4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The inverse swaps coordinates to $(-2,3)$, then the vertical shift by 1 gives $(-2,4)$.",
+    "complexity_factor": 1.3,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-84d323bc86a9dae7826292ead46e4c201b8421993d6797755a6b96fea1d50f4b",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.hard.0026",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "The graph $y=4(x-2)+4$ is reflected across $y=x$. What expression gives the reflected graph?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x-4)/4+2$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x+4)/4+2$"
+      },
+      {
+        "id": "c",
+        "latex": "$4*(x-2)+4$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x-4)/4-2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(x-4)/4+2",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Reflecting across $y=x$ gives the inverse. Solving for $x$ gives $f^{-1}(x)=(x-4)/4+2$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-dd8b178a74dfed3f96b28b5bdf7a6fb60cb13b603cdc839e3f321ced4fe0d156",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.hard.0027",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "The graphs of $y=f(x)$ and $y=f^{-1}(x)$ meet on the line $y=x$. If $f(x)=-2x-12$, what is the $x$-coordinate of their intersection?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-14$"
+      },
+      {
+        "id": "d",
+        "latex": "$-12$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Intersection with the inverse on $y=x$ occurs at a fixed point: $x=-2x-12$, so $x=-4$.",
+    "complexity_factor": 1.3,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-415e025a85bfbfbbe062349f807e25b13daeb6e9a995bdf0f51fafa230e9ea5c",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.hard.0028",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "For $x\\ge -3$, let $f(x)=(x+3)^2-3$. What is $f^{-1}(13)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$13$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-7$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Solve $(x+3)^2=16=16$. The restriction $x\\ge -3$ gives $x=1$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-c3b77f04cd311e347c8942553e45d5ded709fc1501f43c209b8923a914bd24e4",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.hard.0029",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "For $f(x)=3(x-h)-2$, the inverse satisfies $f^{-1}(10)=2$. What is $h$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-8$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The statement means $f(2)=10$. Then 3(2-h)-2=10$, so $h=-2$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-b78951bfcee918e34ab194f552c5ba5af980d0be1344245ad6fba0859593bd83",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.hard.0030",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "The graph of $y=f(x)$ contains $(-1,3)$. Which point is on the graph of $y=f^{-1}(x)-1$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3,-2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1,2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2,-1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3,0)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(3,-2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The inverse swaps coordinates to $(3,-1)$, then the vertical shift by -1 gives $(3,-2)$.",
+    "complexity_factor": 1.3,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-7d5ebb05e597532702803b90148b0427236e7820eee49a918f9c7f946c2b3dd3",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.hard.0031",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "The graph $y=5(x+0)+0$ is reflected across $y=x$. What expression gives the reflected graph?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5*(x+0)+0$"
+      },
+      {
+        "id": "b",
+        "latex": "$((x+0)/5+0)+2$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x+0)/5+0$"
+      },
+      {
+        "id": "d",
+        "latex": "$((x+0)/5+0)+1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x+0)/5+0",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Reflecting across $y=x$ gives the inverse. Solving for $x$ gives $f^{-1}(x)=(x+0)/5+0$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-1f2f65cd115893ce496b5b591b21c96b69f7abd7c29c678461eae06587336093",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.hard.0032",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "The graphs of $y=f(x)$ and $y=f^{-1}(x)$ meet on the line $y=x$. If $f(x)=2x-1$, what is the $x$-coordinate of their intersection?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Intersection with the inverse on $y=x$ occurs at a fixed point: $x=2x-1$, so $x=1$.",
+    "complexity_factor": 1.3,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-d0943720dc874cd16c2ed31d9b6fe76a939afbe63aa0e5c481105db8c0953912",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.hard.0033",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "For $x\\ge 2$, let $f(x)=(x-2)^2+2$. What is $f^{-1}(18)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$18$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Solve $(x-2)^2=16=16$. The restriction $x\\ge 2$ gives $x=6$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-580446a18bca48adb2b282db751430b793d0368f05365db2e96a74696d3a0d53",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.hard.0034",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "For $f(x)=4(x-h)+3$, the inverse satisfies $f^{-1}(-25)=-4$. What is $h$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$21$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-21$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The statement means $f(-4)=-25$. Then 4(-4-h)+3=-25$, so $h=3$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-859a7dee310daa22ea62e3b62185c6038c7312fc1f468bb6b5e5e1c34eeaf6c1",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.hard.0035",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "The graph of $y=f(x)$ contains $(4,-3)$. Which point is on the graph of $y=f^{-1}(x)-3$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-3,7)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3,1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4,-6)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-6,4)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-3,1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The inverse swaps coordinates to $(-3,4)$, then the vertical shift by -3 gives $(-3,1)$.",
+    "complexity_factor": 1.3,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-6b48ed6551698a94d7acbed99c0de83f270237b0001c449d959ff293d17a93d1",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.hard.0036",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "The graph $y=2(x+2)-4$ is reflected across $y=x$. What expression gives the reflected graph?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x+4)/2-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x+4)/2+2$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x-4)/2-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$2*(x+2)-4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(x+4)/2-2",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Reflecting across $y=x$ gives the inverse. Solving for $x$ gives $f^{-1}(x)=(x+4)/2-2$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-078e5b61e09eaa0fe3dd50cf2d92c3b15c125d50eb488ffdf5743d0455bca0d3",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.hard.0037",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "The graphs of $y=f(x)$ and $y=f^{-1}(x)$ meet on the line $y=x$. If $f(x)=3x+6$, what is the $x$-coordinate of their intersection?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Intersection with the inverse on $y=x$ occurs at a fixed point: $x=3x+6$, so $x=-3$.",
+    "complexity_factor": 1.3,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-70d888c85da40e6bbdcba39cbc20c9093a8a0906327999fa50f5b89bc876604c",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.hard.0038",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "For $x\\ge -2$, let $f(x)=(x+2)^2+0$. What is $f^{-1}(16)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-6$"
+      },
+      {
+        "id": "d",
+        "latex": "$16$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Solve $(x+2)^2=16=16$. The restriction $x\\ge -2$ gives $x=2$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-2c4d3c42d006c605e5fa5d77e71017dd0b13c2c07a119af63980558e6092d1e4",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.hard.0039",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "For $f(x)=5(x-h)-1$, the inverse satisfies $f^{-1}(-1)=1$. What is $h$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The statement means $f(1)=-1$. Then 5(1-h)-1=-1$, so $h=1$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-11bb6ea8c9a65d31aba0924034f6da4445ae1b8fb2de283bd6a8b4525c93164c",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.hard.0040",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "The graph of $y=f(x)$ contains $(0,2)$. Which point is on the graph of $y=f^{-1}(x)+2$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2,-2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0,4)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(2,2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The inverse swaps coordinates to $(2,0)$, then the vertical shift by 2 gives $(2,2)$.",
+    "complexity_factor": 1.3,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-22e1659ae43ae4a45bc9493bc8e5260de20ec560b12bb9f06fedc2662b560de6",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.hard.0041",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "The graph $y=3(x-3)+1$ is reflected across $y=x$. What expression gives the reflected graph?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x+1)/3+3$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x-1)/3-3$"
+      },
+      {
+        "id": "c",
+        "latex": "$3*(x-3)+1$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x-1)/3+3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x-1)/3+3",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Reflecting across $y=x$ gives the inverse. Solving for $x$ gives $f^{-1}(x)=(x-1)/3+3$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-5297e372027ace328174725d703b855906fe2012f14d7256694dc2c103e76ea7",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.hard.0042",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "The graphs of $y=f(x)$ and $y=f^{-1}(x)$ meet on the line $y=x$. If $f(x)=4x-6$, what is the $x$-coordinate of their intersection?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$-6$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Intersection with the inverse on $y=x$ occurs at a fixed point: $x=4x-6$, so $x=2$.",
+    "complexity_factor": 1.3,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-1c0b1740a04921abcb6b7223ec4778a3a2eaaaace92a4475f2157b0aaff522b8",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.hard.0043",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "For $x\\ge 3$, let $f(x)=(x-3)^2-2$. What is $f^{-1}(14)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$14$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Solve $(x-3)^2=16=16$. The restriction $x\\ge 3$ gives $x=7$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-12e00a05acb398cdfe0fb58acdfd6995b247905f5572769c8f703ee47214bb31",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.hard.0044",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "For $f(x)=2(x-h)+4$, the inverse satisfies $f^{-1}(-4)=-5$. What is $h$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The statement means $f(-5)=-4$. Then 2(-5-h)+4=-4$, so $h=-1$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-6aa2e1a8f84f0f6870f03ae99b7eef83276afbb737dd9dbb3b9e63d2ea21cb69",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.hard.0045",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "The graph of $y=f(x)$ contains $(-4,-4)$. Which point is on the graph of $y=f^{-1}(x)+0$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4,-4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-2,-6)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-3,-5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-4,-4)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-4,-4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The inverse swaps coordinates to $(-4,-4)$, then the vertical shift by 0 gives $(-4,-4)$.",
+    "complexity_factor": 1.3,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-3e5d64f1299044559bd37b9b33ce5a73447168da33d4fab5ea3812b7b679acf4",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.hard.0046",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "The graph $y=4(x-1)-3$ is reflected across $y=x$. What expression gives the reflected graph?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x-3)/4+1$"
+      },
+      {
+        "id": "b",
+        "latex": "$4*(x-1)-3$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x+3)/4+1$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x+3)/4-1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x+3)/4+1",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Reflecting across $y=x$ gives the inverse. Solving for $x$ gives $f^{-1}(x)=(x+3)/4+1$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-2d7cca16f7151269dcf20f3780ffc827990d44b88291e4615694248ff58dfd61",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.hard.0047",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "The graphs of $y=f(x)$ and $y=f^{-1}(x)$ meet on the line $y=x$. If $f(x)=-2x-6$, what is the $x$-coordinate of their intersection?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-8$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-6$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Intersection with the inverse on $y=x$ occurs at a fixed point: $x=-2x-6$, so $x=-2$.",
+    "complexity_factor": 1.3,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-d766429256d282b6378fc9229cdca048a54021241fec31565e1fe00cd1861b74",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.hard.0048",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "For $x\\ge -1$, let $f(x)=(x+1)^2+3$. What is $f^{-1}(19)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$19$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$-5$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Solve $(x+1)^2=16=16$. The restriction $x\\ge -1$ gives $x=3$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-06e0edbdc98543c4f4a7db8ab27c919c18a280413e1d9d408f9632109db34f78",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.hard.0049",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "For $f(x)=3(x-h)+0$, the inverse satisfies $f^{-1}(9)=0$. What is $h$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-9$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The statement means $f(0)=9$. Then 3(0-h)+0=9$, so $h=-3$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-973c16d2d74af7bf6903c4e7704876a2178529466603c9caf6201cb369778c23",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.hard.0050",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "The graph of $y=f(x)$ contains $(1,1)$. Which point is on the graph of $y=f^{-1}(x)-2$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1,-1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1,3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,-1)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(1,-1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The inverse swaps coordinates to $(1,1)$, then the vertical shift by -2 gives $(1,-1)$.",
+    "complexity_factor": 1.3,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-42fd96f9d95c4f173cd47060ed29f56f3f314e6c813abdc9db7940beb86f1dcb",
+    "status": "valid"
+  }
+]

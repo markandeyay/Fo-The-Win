@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "ch5.word_problems.medium.0001",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "A small fair sold adult tickets for $6$ dollars and child tickets for $3$ dollars. It sold 6 child tickets and collected $42$ dollars total. How many adult tickets were sold?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $a$ be the number of adult tickets. Then $6a + 3\\cdot 6 = 42$, so $a = 4$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "linear_system"
+    ],
+    "checksum": "sha256-8f9be295d0682518ae2fb74664b43bfb89d7c76855d8394c46a347918ceb1498",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.medium.0002",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "A small fair sold adult tickets for $7$ dollars and child tickets for $4$ dollars. It sold 8 child tickets and collected $67$ dollars total. How many adult tickets were sold?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $a$ be the number of adult tickets. Then $7a + 4\\cdot 8 = 67$, so $a = 5$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "linear_system"
+    ],
+    "checksum": "sha256-7b6f902b56069040bf4fc1c533f7000c41ccbd94095a61b859d05879209880b5",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.medium.0003",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "A mother is 14 years older than her daughter. The sum of their ages is 40. How old is the daughter?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$27$"
+      },
+      {
+        "id": "b",
+        "latex": "$14$"
+      },
+      {
+        "id": "c",
+        "latex": "$40$"
+      },
+      {
+        "id": "d",
+        "latex": "$13$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "13",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $m$ and $d$ be their ages. Then $m = d + 14$ and $m + d = 40$. Substituting gives $d = 13$.",
+    "complexity_factor": 1.05,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "age"
+    ],
+    "checksum": "sha256-5ed2e1337b32a583f217350cd043e6f0ba3bcb3148f2243d3fff78b7a408a0a0",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.medium.0004",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "A two-digit number has digits that sum to 14. The number minus its reverse is -36. What is the number?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$59$"
+      },
+      {
+        "id": "b",
+        "latex": "$45$"
+      },
+      {
+        "id": "c",
+        "latex": "$95$"
+      },
+      {
+        "id": "d",
+        "latex": "$140$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "59",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let the number be $10t + u$. Then $t + u = 14$ and $9t - 9u = -36$, so $t = 5$ and $u = 9$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "digits"
+    ],
+    "checksum": "sha256-25a05defd52b300e098ada43fdc486edda5b2da0607809c3c912f4fa3c555e3f",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.medium.0005",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "A car travels at 44 mph for 3 hours, then at 59 mph for 1 hours. How many total miles does it travel?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$191$"
+      },
+      {
+        "id": "b",
+        "latex": "$132$"
+      },
+      {
+        "id": "c",
+        "latex": "$103$"
+      },
+      {
+        "id": "d",
+        "latex": "$59$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "191",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Distance is rate times time: $44 \\cdot 3 + 59 \\cdot 1 = 191$ miles.",
+    "complexity_factor": 1,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "distance"
+    ],
+    "checksum": "sha256-bafc898b86bdcfc5950a8cff5d4b7442801de35865bb24aa16516bd050d4c314",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.medium.0006",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "A small fair sold adult tickets for $5$ dollars and child tickets for $4$ dollars. It sold 8 child tickets and collected $77$ dollars total. How many adult tickets were sold?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $a$ be the number of adult tickets. Then $5a + 4\\cdot 8 = 77$, so $a = 9$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "linear_system"
+    ],
+    "checksum": "sha256-a7e4622ff9e39a645e0da067afaaf0b3bf7a369638771ca669c4c52476c7be22",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.medium.0007",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "A small fair sold adult tickets for $6$ dollars and child tickets for $5$ dollars. It sold 10 child tickets and collected $110$ dollars total. How many adult tickets were sold?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$13$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $a$ be the number of adult tickets. Then $6a + 5\\cdot 10 = 110$, so $a = 10$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "linear_system"
+    ],
+    "checksum": "sha256-76f22b109a66e518864aaa584616230dcd707edd2302fe5335cef5fa31608020",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.medium.0008",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "A mother is 12 years older than her daughter. The sum of their ages is 36. How old is the daughter?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$36$"
+      },
+      {
+        "id": "c",
+        "latex": "$24$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $m$ and $d$ be their ages. Then $m = d + 12$ and $m + d = 36$. Substituting gives $d = 12$.",
+    "complexity_factor": 1.05,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "age"
+    ],
+    "checksum": "sha256-6bb7f7cf0c53468f3fd2c58f0d981ac5aeee121f5334bebf3bfecfacc19486be",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.medium.0009",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "A two-digit number has digits that sum to 9. The number minus its reverse is 27. What is the number?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$90$"
+      },
+      {
+        "id": "b",
+        "latex": "$18$"
+      },
+      {
+        "id": "c",
+        "latex": "$63$"
+      },
+      {
+        "id": "d",
+        "latex": "$36$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "63",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let the number be $10t + u$. Then $t + u = 9$ and $9t - 9u = 27$, so $t = 6$ and $u = 3$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "digits"
+    ],
+    "checksum": "sha256-669a0f6cd289a3bdc9804fd9e02c2d26506675b6f0ef65dfc7503cbb096692ec",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.medium.0010",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "A car travels at 30 mph for 1 hours, then at 42 mph for 3 hours. How many total miles does it travel?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$30$"
+      },
+      {
+        "id": "b",
+        "latex": "$72$"
+      },
+      {
+        "id": "c",
+        "latex": "$156$"
+      },
+      {
+        "id": "d",
+        "latex": "$126$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "156",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Distance is rate times time: $30 \\cdot 1 + 42 \\cdot 3 = 156$ miles.",
+    "complexity_factor": 1,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "distance"
+    ],
+    "checksum": "sha256-50f3117c9fea85d26dda6b5b2c64932fd8f9d7f7f6a72e544a2f963b0497a329",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.medium.0011",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "A small fair sold adult tickets for $10$ dollars and child tickets for $5$ dollars. It sold 10 child tickets and collected $100$ dollars total. How many adult tickets were sold?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $a$ be the number of adult tickets. Then $10a + 5\\cdot 10 = 100$, so $a = 5$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "linear_system"
+    ],
+    "checksum": "sha256-354b4870e2e01f4b3f10186ee43a4ea5b8ecfa7268bb56849e13a82cad2a122c",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.medium.0012",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "A small fair sold adult tickets for $5$ dollars and child tickets for $2$ dollars. It sold 4 child tickets and collected $38$ dollars total. How many adult tickets were sold?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $a$ be the number of adult tickets. Then $5a + 2\\cdot 4 = 38$, so $a = 6$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "linear_system"
+    ],
+    "checksum": "sha256-6a63e7a9d2871fba65e63bc15956decfb26b82f6f911df08f0a69b622af369cc",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.medium.0013",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "A mother is 7 years older than her daughter. The sum of their ages is 57. How old is the daughter?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$32$"
+      },
+      {
+        "id": "b",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$57$"
+      },
+      {
+        "id": "d",
+        "latex": "$25$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "25",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $m$ and $d$ be their ages. Then $m = d + 7$ and $m + d = 57$. Substituting gives $d = 25$.",
+    "complexity_factor": 1.05,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "age"
+    ],
+    "checksum": "sha256-ae01c6f8033f541d3fa2cd4e8dd461b04190289c17d63374e7695f6269614a08",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.medium.0014",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "A two-digit number has digits that sum to 8. The number minus its reverse is 18. What is the number?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$15$"
+      },
+      {
+        "id": "b",
+        "latex": "$53$"
+      },
+      {
+        "id": "c",
+        "latex": "$80$"
+      },
+      {
+        "id": "d",
+        "latex": "$35$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "53",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let the number be $10t + u$. Then $t + u = 8$ and $9t - 9u = 18$, so $t = 5$ and $u = 3$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "digits"
+    ],
+    "checksum": "sha256-47d457129408b8aa216fac20afbb7ed6960b57cc95be59efe62b4d774874a9d5",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.medium.0015",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "A car travels at 41 mph for 1 hours, then at 56 mph for 2 hours. How many total miles does it travel?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$41$"
+      },
+      {
+        "id": "b",
+        "latex": "$153$"
+      },
+      {
+        "id": "c",
+        "latex": "$112$"
+      },
+      {
+        "id": "d",
+        "latex": "$97$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "153",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Distance is rate times time: $41 \\cdot 1 + 56 \\cdot 2 = 153$ miles.",
+    "complexity_factor": 1,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "distance"
+    ],
+    "checksum": "sha256-3da41844a7e4a7129863ac3273fc5ecb20e1f3ee5091d7f35b816e097f50a05f",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.medium.0016",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "A small fair sold adult tickets for $9$ dollars and child tickets for $2$ dollars. It sold 4 child tickets and collected $98$ dollars total. How many adult tickets were sold?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$11$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$13$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $a$ be the number of adult tickets. Then $9a + 2\\cdot 4 = 98$, so $a = 10$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "linear_system"
+    ],
+    "checksum": "sha256-5efcfe381b47c575a4b58b22eba0a3c918cb570eb44c21ec8eb7e6aaeced4a23",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.medium.0017",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "A small fair sold adult tickets for $10$ dollars and child tickets for $3$ dollars. It sold 6 child tickets and collected $128$ dollars total. How many adult tickets were sold?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12$"
+      },
+      {
+        "id": "b",
+        "latex": "$11$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$14$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "11",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $a$ be the number of adult tickets. Then $10a + 3\\cdot 6 = 128$, so $a = 11$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "linear_system"
+    ],
+    "checksum": "sha256-3b833aa1cf8920e2d9339e14791244500564d3c2384eee85f6ba035dab017692",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.medium.0018",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "A mother is 10 years older than her daughter. The sum of their ages is 44. How old is the daughter?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$27$"
+      },
+      {
+        "id": "b",
+        "latex": "$44$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$17$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "17",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $m$ and $d$ be their ages. Then $m = d + 10$ and $m + d = 44$. Substituting gives $d = 17$.",
+    "complexity_factor": 1.05,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "age"
+    ],
+    "checksum": "sha256-c65895041a7b8d83641707b3c593d6163a48cc04afa0f871cf5788c9daf8eaf2",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.medium.0019",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "A two-digit number has digits that sum to 11. The number minus its reverse is 45. What is the number?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$38$"
+      },
+      {
+        "id": "b",
+        "latex": "$83$"
+      },
+      {
+        "id": "c",
+        "latex": "$110$"
+      },
+      {
+        "id": "d",
+        "latex": "$24$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "83",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let the number be $10t + u$. Then $t + u = 11$ and $9t - 9u = 45$, so $t = 8$ and $u = 3$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "digits"
+    ],
+    "checksum": "sha256-f236b7e46bac1bb5e5de187a82677d6e7f440cfcefb0d153b9880b0eeaf4db06",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.medium.0020",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "A car travels at 60 mph for 3 hours, then at 57 mph for 1 hours. How many total miles does it travel?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$180$"
+      },
+      {
+        "id": "b",
+        "latex": "$117$"
+      },
+      {
+        "id": "c",
+        "latex": "$57$"
+      },
+      {
+        "id": "d",
+        "latex": "$237$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "237",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Distance is rate times time: $60 \\cdot 3 + 57 \\cdot 1 = 237$ miles.",
+    "complexity_factor": 1,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "distance"
+    ],
+    "checksum": "sha256-f77d0af0f11df86af923fa2c31f146a3d85fe4c6aca0df60544b03bf2aa9b32d",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.medium.0021",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "A small fair sold adult tickets for $8$ dollars and child tickets for $3$ dollars. It sold 6 child tickets and collected $66$ dollars total. How many adult tickets were sold?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $a$ be the number of adult tickets. Then $8a + 3\\cdot 6 = 66$, so $a = 6$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "linear_system"
+    ],
+    "checksum": "sha256-eb589ca25c930bbb010ab79e377e51c30a19d54d8ddc9923e984ff6c33410e34",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.medium.0022",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "A small fair sold adult tickets for $9$ dollars and child tickets for $4$ dollars. It sold 8 child tickets and collected $95$ dollars total. How many adult tickets were sold?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $a$ be the number of adult tickets. Then $9a + 4\\cdot 8 = 95$, so $a = 7$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "linear_system"
+    ],
+    "checksum": "sha256-10f7e18d663e7c2f5004128be7c17b79a49c8dde05fe4ec13b2fb2fd5de4a74a",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.medium.0023",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "A mother is 14 years older than her daughter. The sum of their ages is 30. How old is the daughter?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$30$"
+      },
+      {
+        "id": "b",
+        "latex": "$14$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$22$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $m$ and $d$ be their ages. Then $m = d + 14$ and $m + d = 30$. Substituting gives $d = 8$.",
+    "complexity_factor": 1.05,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "age"
+    ],
+    "checksum": "sha256-90a347e54e7f20293a535f265c138982dbeb4a6727b2b2ea88fb68c3cabb8eaf",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.medium.0024",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "A two-digit number has digits that sum to 16. The number minus its reverse is -18. What is the number?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$79$"
+      },
+      {
+        "id": "b",
+        "latex": "$63$"
+      },
+      {
+        "id": "c",
+        "latex": "$160$"
+      },
+      {
+        "id": "d",
+        "latex": "$97$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "79",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let the number be $10t + u$. Then $t + u = 16$ and $9t - 9u = -18$, so $t = 7$ and $u = 9$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "digits"
+    ],
+    "checksum": "sha256-2a3b9864eddd4ab23befa622148de35e21978bc17cb222475cf3ce9d1df08e3b",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.medium.0025",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "A car travels at 56 mph for 3 hours, then at 41 mph for 2 hours. How many total miles does it travel?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$97$"
+      },
+      {
+        "id": "b",
+        "latex": "$250$"
+      },
+      {
+        "id": "c",
+        "latex": "$82$"
+      },
+      {
+        "id": "d",
+        "latex": "$168$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "250",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Distance is rate times time: $56 \\cdot 3 + 41 \\cdot 2 = 250$ miles.",
+    "complexity_factor": 1,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "distance"
+    ],
+    "checksum": "sha256-70cce02cfba97117123bbcbbea9de01bbd778f4de920cd2df27aee44fb1190ca",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.medium.0026",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "A small fair sold adult tickets for $7$ dollars and child tickets for $4$ dollars. It sold 8 child tickets and collected $109$ dollars total. How many adult tickets were sold?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$14$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "11",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $a$ be the number of adult tickets. Then $7a + 4\\cdot 8 = 109$, so $a = 11$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "linear_system"
+    ],
+    "checksum": "sha256-6e6e7a84424fdab76ad01af344a04a93e4c40a2895190a0fc29a8a85bf286eb5",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.medium.0027",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "A small fair sold adult tickets for $8$ dollars and child tickets for $5$ dollars. It sold 10 child tickets and collected $74$ dollars total. How many adult tickets were sold?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $a$ be the number of adult tickets. Then $8a + 5\\cdot 10 = 74$, so $a = 3$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "linear_system"
+    ],
+    "checksum": "sha256-07d6f28be530b3cec1f3c447e72da7a95912ff41f217dc91a79261704d3e0e5e",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.medium.0028",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "A mother is 12 years older than her daughter. The sum of their ages is 60. How old is the daughter?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12$"
+      },
+      {
+        "id": "b",
+        "latex": "$60$"
+      },
+      {
+        "id": "c",
+        "latex": "$36$"
+      },
+      {
+        "id": "d",
+        "latex": "$24$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "24",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $m$ and $d$ be their ages. Then $m = d + 12$ and $m + d = 60$. Substituting gives $d = 24$.",
+    "complexity_factor": 1.05,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "age"
+    ],
+    "checksum": "sha256-76184dbf709c4f13e5315429e8a0d512183258e40f369ad98d4ec38b1427c526",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.medium.0029",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "A two-digit number has digits that sum to 9. The number minus its reverse is -45. What is the number?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$27$"
+      },
+      {
+        "id": "b",
+        "latex": "$90$"
+      },
+      {
+        "id": "c",
+        "latex": "$72$"
+      },
+      {
+        "id": "d",
+        "latex": "$14$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "27",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let the number be $10t + u$. Then $t + u = 9$ and $9t - 9u = -45$, so $t = 2$ and $u = 7$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "digits"
+    ],
+    "checksum": "sha256-c0bb8044e6333115925f16a28e59752c083b9c911def81e237577f780e0beeff",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.medium.0030",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "A car travels at 58 mph for 1 hours, then at 33 mph for 1 hours. How many total miles does it travel?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$93$"
+      },
+      {
+        "id": "b",
+        "latex": "$91$"
+      },
+      {
+        "id": "c",
+        "latex": "$58$"
+      },
+      {
+        "id": "d",
+        "latex": "$33$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "91",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Distance is rate times time: $58 \\cdot 1 + 33 \\cdot 1 = 91$ miles.",
+    "complexity_factor": 1,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "distance"
+    ],
+    "checksum": "sha256-3e1cfa0d0a754fdae6b695b27594923197e8f11e3628f8d88774fe4e9bbe537b",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.medium.0031",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "A small fair sold adult tickets for $6$ dollars and child tickets for $5$ dollars. It sold 10 child tickets and collected $92$ dollars total. How many adult tickets were sold?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $a$ be the number of adult tickets. Then $6a + 5\\cdot 10 = 92$, so $a = 7$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "linear_system"
+    ],
+    "checksum": "sha256-362544c36987b77140a6a4ebc3d28b39976bce7edc4754a21047295656335efe",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.medium.0032",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "A snack mix costs $4$ dollars per pound. It is made by mixing nuts at $5$ dollars per pound with raisins at $3$ dollars per pound. How many pounds of nuts are in 16 pounds of mix?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $n$ and $r$ be pounds of nuts and raisins. Then $n + r = 16$ and $5n + 3r = 64$. Solving gives $n = 8$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "mixture"
+    ],
+    "checksum": "sha256-47e09a282e4438c8f5c725a116f724dc35f77cc07a0ef0bd25a44e5df6207605",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.medium.0033",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "A mother is 7 years older than her daughter. The sum of their ages is 35. How old is the daughter?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$14$"
+      },
+      {
+        "id": "b",
+        "latex": "$35$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$21$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "14",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $m$ and $d$ be their ages. Then $m = d + 7$ and $m + d = 35$. Substituting gives $d = 14$.",
+    "complexity_factor": 1.05,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "age"
+    ],
+    "checksum": "sha256-3eb20f00d0a1ee3a9334f9802375426f9eaa3d4572ff76dd915f8b7d9f04c4d5",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.medium.0034",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "A two-digit number has digits that sum to 17. The number minus its reverse is -9. What is the number?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$98$"
+      },
+      {
+        "id": "b",
+        "latex": "$89$"
+      },
+      {
+        "id": "c",
+        "latex": "$72$"
+      },
+      {
+        "id": "d",
+        "latex": "$170$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "89",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let the number be $10t + u$. Then $t + u = 17$ and $9t - 9u = -9$, so $t = 8$ and $u = 9$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "digits"
+    ],
+    "checksum": "sha256-0274656d99e6db9b9dc2f06bfe74c3e70e99773f75828743aa9dc4cd68736eb5",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.medium.0035",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "A car travels at 43 mph for 1 hours, then at 33 mph for 1 hours. How many total miles does it travel?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$43$"
+      },
+      {
+        "id": "b",
+        "latex": "$76$"
+      },
+      {
+        "id": "c",
+        "latex": "$33$"
+      },
+      {
+        "id": "d",
+        "latex": "$71$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "76",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Distance is rate times time: $43 \\cdot 1 + 33 \\cdot 1 = 76$ miles.",
+    "complexity_factor": 1,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "distance"
+    ],
+    "checksum": "sha256-43b9678d8a3c19ea6e668bcb27514367da75a7dc5ae3ea642442f76155e21967",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.medium.0036",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "A small fair sold adult tickets for $5$ dollars and child tickets for $2$ dollars. It sold 4 child tickets and collected $23$ dollars total. How many adult tickets were sold?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $a$ be the number of adult tickets. Then $5a + 2\\cdot 4 = 23$, so $a = 3$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "linear_system"
+    ],
+    "checksum": "sha256-3a3b4706db3023990c6082edc8cb7dac763ac3761ce28d95dc3e0d3a8ff1b219",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.medium.0037",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "A snack mix costs $2$ dollars per pound. It is made by mixing nuts at $3$ dollars per pound with raisins at $1$ dollars per pound. How many pounds of nuts are in 20 pounds of mix?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $n$ and $r$ be pounds of nuts and raisins. Then $n + r = 20$ and $3n + 1r = 40$. Solving gives $n = 10$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "mixture"
+    ],
+    "checksum": "sha256-01008dea6dc946baafd5aeeecb1e27ec0d98a3b858480308a015ba133db6a974",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.medium.0038",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "A mother is 15 years older than her daughter. The sum of their ages is 49. How old is the daughter?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$49$"
+      },
+      {
+        "id": "b",
+        "latex": "$32$"
+      },
+      {
+        "id": "c",
+        "latex": "$17$"
+      },
+      {
+        "id": "d",
+        "latex": "$15$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "17",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $m$ and $d$ be their ages. Then $m = d + 15$ and $m + d = 49$. Substituting gives $d = 17$.",
+    "complexity_factor": 1.05,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "age"
+    ],
+    "checksum": "sha256-2a1b235ca1203ccd5f947117c810ad9f4f3c0b9c7d0a5699bb46afc307b6fce5",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.medium.0039",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "A two-digit number has digits that sum to 11. The number minus its reverse is -9. What is the number?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$56$"
+      },
+      {
+        "id": "b",
+        "latex": "$110$"
+      },
+      {
+        "id": "c",
+        "latex": "$65$"
+      },
+      {
+        "id": "d",
+        "latex": "$30$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "56",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let the number be $10t + u$. Then $t + u = 11$ and $9t - 9u = -9$, so $t = 5$ and $u = 6$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "digits"
+    ],
+    "checksum": "sha256-0f7573bc9e0fd6110327421ff4e603aeb07e70719099ca22d98485547af5c4f1",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.medium.0040",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "A car travels at 53 mph for 3 hours, then at 58 mph for 3 hours. How many total miles does it travel?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$333$"
+      },
+      {
+        "id": "b",
+        "latex": "$159$"
+      },
+      {
+        "id": "c",
+        "latex": "$174$"
+      },
+      {
+        "id": "d",
+        "latex": "$111$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "333",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Distance is rate times time: $53 \\cdot 3 + 58 \\cdot 3 = 333$ miles.",
+    "complexity_factor": 1,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "distance"
+    ],
+    "checksum": "sha256-f1141de9e686b89e7460eeda78deb02d2b519d3b5409c051d35a8cb5fc3ed19a",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.medium.0041",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "A small fair sold adult tickets for $10$ dollars and child tickets for $3$ dollars. It sold 6 child tickets and collected $98$ dollars total. How many adult tickets were sold?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$11$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $a$ be the number of adult tickets. Then $10a + 3\\cdot 6 = 98$, so $a = 8$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "linear_system"
+    ],
+    "checksum": "sha256-0d1ed8871c33a1943bcc828a695182922b11e6d26e66901bf8057ec5bb864b1e",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.medium.0042",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "A snack mix costs $4$ dollars per pound. It is made by mixing nuts at $6$ dollars per pound with raisins at $2$ dollars per pound. How many pounds of nuts are in 12 pounds of mix?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$11$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $n$ and $r$ be pounds of nuts and raisins. Then $n + r = 12$ and $6n + 2r = 48$. Solving gives $n = 6$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "mixture"
+    ],
+    "checksum": "sha256-ee3239e4abc692bcfdcdc29c0e7a39163107b1ed04ea34eba973dae268cac522",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.medium.0043",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "A mother is 15 years older than her daughter. The sum of their ages is 45. How old is the daughter?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$30$"
+      },
+      {
+        "id": "c",
+        "latex": "$45$"
+      },
+      {
+        "id": "d",
+        "latex": "$15$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "15",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $m$ and $d$ be their ages. Then $m = d + 15$ and $m + d = 45$. Substituting gives $d = 15$.",
+    "complexity_factor": 1.05,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "age"
+    ],
+    "checksum": "sha256-79d48b5ed270b286060557df44ecb5a0d2f5b240cddfb24854d4898287f4ab90",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.medium.0044",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "A two-digit number has digits that sum to 10. The number minus its reverse is 36. What is the number?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$100$"
+      },
+      {
+        "id": "b",
+        "latex": "$37$"
+      },
+      {
+        "id": "c",
+        "latex": "$73$"
+      },
+      {
+        "id": "d",
+        "latex": "$21$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "73",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let the number be $10t + u$. Then $t + u = 10$ and $9t - 9u = 36$, so $t = 7$ and $u = 3$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "digits"
+    ],
+    "checksum": "sha256-c99be23db7f99d771297af8c8dce300a32eee8b9b09aee920df3f3ce8520dd5d",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.medium.0045",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "A car travels at 48 mph for 2 hours, then at 60 mph for 3 hours. How many total miles does it travel?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$180$"
+      },
+      {
+        "id": "b",
+        "latex": "$276$"
+      },
+      {
+        "id": "c",
+        "latex": "$96$"
+      },
+      {
+        "id": "d",
+        "latex": "$108$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "276",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Distance is rate times time: $48 \\cdot 2 + 60 \\cdot 3 = 276$ miles.",
+    "complexity_factor": 1,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "distance"
+    ],
+    "checksum": "sha256-a8b92108c4fce2dad3aa451fac80e9aa2be39dc76a0a54434226f9d0225f5b13",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.medium.0046",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "A small fair sold adult tickets for $9$ dollars and child tickets for $4$ dollars. It sold 8 child tickets and collected $68$ dollars total. How many adult tickets were sold?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $a$ be the number of adult tickets. Then $9a + 4\\cdot 8 = 68$, so $a = 4$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "linear_system"
+    ],
+    "checksum": "sha256-470968043f6f2746c68c568de63a1d2b0bef98e7565e01199842872a7de131ff",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.medium.0047",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "At a weekend fair, adult tickets cost $12$ dollars and child tickets cost $4$ dollars. The booth sold 6 child tickets and collected $96$ dollars total. How many adult tickets were sold?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $a$ be the number of adult tickets. Then $12a + 4\\cdot 6 = 96$, so $a = 6$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "linear_system"
+    ],
+    "checksum": "sha256-b5a76bac489192fb69364e4f7e0197d327b8172348e208cd75dd7f078239f161",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.medium.0048",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "A mother is 6 years older than her daughter. The sum of their ages is 30. How old is the daughter?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$18$"
+      },
+      {
+        "id": "b",
+        "latex": "$30$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $m$ and $d$ be their ages. Then $m = d + 6$ and $m + d = 30$. Substituting gives $d = 12$.",
+    "complexity_factor": 1.05,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "age"
+    ],
+    "checksum": "sha256-16acf4d10d93fa70ef3b23905ca99c55ce8e597e3f7d00d1b85000da5274eded",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.medium.0049",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "A two-digit number has digits that sum to 7. The number minus its reverse is -9. What is the number?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$43$"
+      },
+      {
+        "id": "b",
+        "latex": "$70$"
+      },
+      {
+        "id": "c",
+        "latex": "$34$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "34",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let the number be $10t + u$. Then $t + u = 7$ and $9t - 9u = -9$, so $t = 3$ and $u = 4$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "digits"
+    ],
+    "checksum": "sha256-252f7843357941a454b4cbb4ce7dd0cdeb0468ef302aeb36b3877d86ff1e81bd",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.medium.0050",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "A car travels at 59 mph for 3 hours, then at 31 mph for 3 hours. How many total miles does it travel?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$93$"
+      },
+      {
+        "id": "b",
+        "latex": "$270$"
+      },
+      {
+        "id": "c",
+        "latex": "$177$"
+      },
+      {
+        "id": "d",
+        "latex": "$90$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "270",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Distance is rate times time: $59 \\cdot 3 + 31 \\cdot 3 = 270$ miles.",
+    "complexity_factor": 1,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "distance"
+    ],
+    "checksum": "sha256-1617201e167c74e5e1e0bdf391c081c831dd2bd8973498eea6137efa7e618bc6",
+    "status": "valid"
+  }
+]

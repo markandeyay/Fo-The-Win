@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "ch5.more_disguise.medium.0001",
+    "topic_id": "ch5.more_disguise",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} \\dfrac{x}{4} + y = \\dfrac{7}{1} \\\\ x - \\dfrac{y}{3} = \\dfrac{2}{1} \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4,6)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4,7)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-4,6)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(5,6)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(4,6)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply the first equation by 4 and the second by 3 to clear fractions, then eliminate to find $(x,y) = (4,6)$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.5",
+    "tags": [
+      "disguise",
+      "fractions"
+    ],
+    "checksum": "sha256-f69a4cdc8f7008cd68746432208372b68c8990786e5d427576bf5a403a34472d",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_disguise.medium.0002",
+    "topic_id": "ch5.more_disguise",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve for $y$: $2(4x + 1y) + 3x = -44$ when $x = -4$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$-16$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Simplify: $11x + 2y = -44$. With $x = -4$, solve to get $y = 0$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.5",
+    "tags": [
+      "disguise",
+      "grouping"
+    ],
+    "checksum": "sha256-a8fdf9166e1460767ed5a8da864ec7460c3831083c68b28190251c23213e38cc",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_disguise.medium.0003",
+    "topic_id": "ch5.more_disguise",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "The ratio of $x$ to $y$ is $2:2$ and $x + y = 12$. Find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $x = 2k$ and $y = 2k$. Then $2k + 2k = 12$, so $k = 3$ and $x = 6$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.5",
+    "tags": [
+      "disguise",
+      "proportion"
+    ],
+    "checksum": "sha256-a5ca566326944f31fe8c4380e805571edf2635a9b0b83fcecd70e27037870176",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_disguise.medium.0004",
+    "topic_id": "ch5.more_disguise",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve for $y$: $2(5x + 3y) + 1x = -1$ when $x = 1$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$-3$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x = 1$ and simplify: $6y + 11 = -1$. Hence $y = -2$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.5",
+    "tags": [
+      "disguise",
+      "substitution"
+    ],
+    "checksum": "sha256-99824f16f2b91b61fede72e7d86f06e7cad6a18cbf57e17602c82edd06a88c43",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_disguise.medium.0005",
+    "topic_id": "ch5.more_disguise",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} \\dfrac{x}{2} + y = \\dfrac{11}{2} \\\\ x - \\dfrac{y}{3} = \\dfrac{4}{1} \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(5,3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(5,4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-5,3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(6,3)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(5,3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply the first equation by 2 and the second by 3 to clear fractions, then eliminate to find $(x,y) = (5,3)$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.5",
+    "tags": [
+      "disguise",
+      "fractions"
+    ],
+    "checksum": "sha256-eeb9df976c850974cd03f101d2477eb3027b305b12c714d97dd7c10d85d2f98d",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_disguise.medium.0006",
+    "topic_id": "ch5.more_disguise",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve for $y$: $2(2x + 2y) + 3x = -10$ when $x = -2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Simplify: $7x + 4y = -10$. With $x = -2$, solve to get $y = 1$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.5",
+    "tags": [
+      "disguise",
+      "grouping"
+    ],
+    "checksum": "sha256-d579d7b940dc632b1b132195f732c885e98c50cccc1b466de8492d5cd078f6c0",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_disguise.medium.0007",
+    "topic_id": "ch5.more_disguise",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve for $y$: $5(3x + 3y) + 4x = -42$ when $x = -3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x = -3$ and simplify: $15y + -57 = -42$. Hence $y = 1$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.5",
+    "tags": [
+      "disguise",
+      "substitution"
+    ],
+    "checksum": "sha256-0ee9260cdcc3da53e2dced99a043cfd55766da7857054fa531936f9657da6165",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_disguise.medium.0008",
+    "topic_id": "ch5.more_disguise",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve for $x$ in terms of $y$: $2x + 2y = 3x + 4y + -7$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Collect $x$ terms: $-1x = -3$, so $x = 3$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.5",
+    "tags": [
+      "disguise",
+      "collect"
+    ],
+    "checksum": "sha256-2e93591ca4358b8a62bf949bf183ad41ad457646491089a0cf5c87f8df5b7b07",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_disguise.medium.0009",
+    "topic_id": "ch5.more_disguise",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} \\dfrac{x}{2} + y = \\dfrac{7}{1} \\\\ x - \\dfrac{y}{4} = \\dfrac{1}{2} \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2,7)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3,6)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2,6)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2,6)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(2,6)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply the first equation by 2 and the second by 4 to clear fractions, then eliminate to find $(x,y) = (2,6)$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.5",
+    "tags": [
+      "disguise",
+      "fractions"
+    ],
+    "checksum": "sha256-200f47f1ca9dbe99667c87409f1d15d3f9d16a4bec7f31d8011267a015f3b548",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_disguise.medium.0010",
+    "topic_id": "ch5.more_disguise",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve for $y$: $2(4x + 4y) + 3x = 36$ when $x = 4$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Simplify: $11x + 8y = 36$. With $x = 4$, solve to get $y = -1$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.5",
+    "tags": [
+      "disguise",
+      "grouping"
+    ],
+    "checksum": "sha256-684b8e04dae8141a31a782027b0ed131008da02417c0626d1d4b8bfbdb224f7c",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_disguise.medium.0011",
+    "topic_id": "ch5.more_disguise",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "The ratio of $x$ to $y$ is $5:2$ and $x + y = 28$. Find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$28$"
+      },
+      {
+        "id": "b",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$20$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "20",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $x = 5k$ and $y = 2k$. Then $5k + 2k = 28$, so $k = 4$ and $x = 20$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.5",
+    "tags": [
+      "disguise",
+      "proportion"
+    ],
+    "checksum": "sha256-e9d0d34eb81ec5556eaeb8470f7107012132b5360bcf631219a03ff6a6a19316",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_disguise.medium.0012",
+    "topic_id": "ch5.more_disguise",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve for $y$: $2(3x + 2y) + 1x = 38$ when $x = 2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x = 2$ and simplify: $4y + 14 = 38$. Hence $y = 6$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.5",
+    "tags": [
+      "disguise",
+      "substitution"
+    ],
+    "checksum": "sha256-78eb664f361c74b8165d04520dad56f3337df618a8623adc0f08ea699c76c9eb",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_disguise.medium.0013",
+    "topic_id": "ch5.more_disguise",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} \\dfrac{x}{3} + y = \\dfrac{4}{1} \\\\ x - \\dfrac{y}{3} = \\dfrac{16}{3} \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(6,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-6,2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(6,3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(7,2)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(6,2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply the first equation by 3 and the second by 3 to clear fractions, then eliminate to find $(x,y) = (6,2)$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.5",
+    "tags": [
+      "disguise",
+      "fractions"
+    ],
+    "checksum": "sha256-b90f18cddcb28f016a49a8c36b3764d5c0a4641ef2f4b73e72ee144979d93430",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_disguise.medium.0014",
+    "topic_id": "ch5.more_disguise",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve for $y$: $2(2x + 1y) + 3x = -28$ when $x = -4$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-8$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Simplify: $7x + 2y = -28$. With $x = -4$, solve to get $y = 0$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.5",
+    "tags": [
+      "disguise",
+      "grouping"
+    ],
+    "checksum": "sha256-8eb7be8f259cf51ac69342106a5b315200cfcc62ef80e5ea5d1d00d1bd252b93",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_disguise.medium.0015",
+    "topic_id": "ch5.more_disguise",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "The ratio of $x$ to $y$ is $4:2$ and $x + y = 12$. Find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $x = 4k$ and $y = 2k$. Then $4k + 2k = 12$, so $k = 2$ and $x = 8$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.5",
+    "tags": [
+      "disguise",
+      "proportion"
+    ],
+    "checksum": "sha256-e735bcbb53086217023666b0460ce0fec6f0545372880fa009600679bd208cd1",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_disguise.medium.0016",
+    "topic_id": "ch5.more_disguise",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve for $y$: $2(2x + 3y) + 1x = -23$ when $x = -1$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x = -1$ and simplify: $6y + -5 = -23$. Hence $y = -3$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.5",
+    "tags": [
+      "disguise",
+      "substitution"
+    ],
+    "checksum": "sha256-d4fa24d96657e288e0ea770b4b78c09e25e0e6bf72e7c2db612d71c55dd8c1c7",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_disguise.medium.0017",
+    "topic_id": "ch5.more_disguise",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} \\dfrac{x}{2} + y = \\dfrac{5}{1} \\\\ x - \\dfrac{y}{2} = \\dfrac{5}{1} \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(6,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(7,2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(6,3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-6,2)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(6,2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply the first equation by 2 and the second by 2 to clear fractions, then eliminate to find $(x,y) = (6,2)$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.5",
+    "tags": [
+      "disguise",
+      "fractions"
+    ],
+    "checksum": "sha256-476cf05458cc5fb1af155ce3cc42ada14014c0b0923deee78a486cf6a041eccf",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_disguise.medium.0018",
+    "topic_id": "ch5.more_disguise",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve for $y$: $2(4x + 4y) + 3x = 52$ when $x = 4$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Simplify: $11x + 8y = 52$. With $x = 4$, solve to get $y = 1$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.5",
+    "tags": [
+      "disguise",
+      "grouping"
+    ],
+    "checksum": "sha256-1f22cbfd438562952d49e445bb8a5497e5ab0d92ec2ab389faf671ba8e8c4883",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_disguise.medium.0019",
+    "topic_id": "ch5.more_disguise",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "The ratio of $x$ to $y$ is $2:3$ and $x + y = 20$. Find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$20$"
+      },
+      {
+        "id": "b",
+        "latex": "$12$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $x = 2k$ and $y = 3k$. Then $2k + 3k = 20$, so $k = 4$ and $x = 8$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.5",
+    "tags": [
+      "disguise",
+      "proportion"
+    ],
+    "checksum": "sha256-fb6381e95f4a52e029422d1a47fa2f1b1e66b453a8fab0a4f1ed9838851bdaab",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_disguise.medium.0020",
+    "topic_id": "ch5.more_disguise",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve for $x$ in terms of $y$: $4x + 5y = 1x + 2y + -3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Collect $x$ terms: $3x = -12$, so $x = -4$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.5",
+    "tags": [
+      "disguise",
+      "collect"
+    ],
+    "checksum": "sha256-1f934af2bfa55e0653b4be20a3e85967071268f97fc9aaff42299e325cac9bba",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_disguise.medium.0021",
+    "topic_id": "ch5.more_disguise",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} \\dfrac{x}{4} + y = \\dfrac{9}{2} \\\\ x - \\dfrac{y}{2} = \\dfrac{0}{1} \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2,4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3,4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2,4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,5)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(2,4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply the first equation by 4 and the second by 2 to clear fractions, then eliminate to find $(x,y) = (2,4)$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.5",
+    "tags": [
+      "disguise",
+      "fractions"
+    ],
+    "checksum": "sha256-2d2364dd2df08fbc58c4ce6c6d51f8b855ffedd8a010aed5978c62416345dc1e",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_disguise.medium.0022",
+    "topic_id": "ch5.more_disguise",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve for $y$: $2(2x + 4y) + 3x = -36$ when $x = -4$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Simplify: $7x + 8y = -36$. With $x = -4$, solve to get $y = -1$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.5",
+    "tags": [
+      "disguise",
+      "grouping"
+    ],
+    "checksum": "sha256-c2b5fa322176818c4208c78964c17b5be737cf0c2fc6469eab88ca9a3d83cc35",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_disguise.medium.0023",
+    "topic_id": "ch5.more_disguise",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "The ratio of $x$ to $y$ is $3:2$ and $x + y = 20$. Find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$12$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$20$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $x = 3k$ and $y = 2k$. Then $3k + 2k = 20$, so $k = 4$ and $x = 12$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.5",
+    "tags": [
+      "disguise",
+      "proportion"
+    ],
+    "checksum": "sha256-d3db9d804ab60cce846604b043f87515759f53421217f68d0356c1b50e02ab6b",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_disguise.medium.0024",
+    "topic_id": "ch5.more_disguise",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve for $x$ in terms of $y$: $2x + 3y = 4x + 4y + -3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-9$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Collect $x$ terms: $-2x = -2$, so $x = 1$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.5",
+    "tags": [
+      "disguise",
+      "collect"
+    ],
+    "checksum": "sha256-959867b291f4bbfed09f0f307f12775ce64e65a130502145ef3ac8d31e8eb445",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_disguise.medium.0025",
+    "topic_id": "ch5.more_disguise",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} \\dfrac{x}{4} + y = \\dfrac{6}{1} \\\\ x - \\dfrac{y}{3} = \\dfrac{7}{3} \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4,5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4,6)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(5,5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-4,5)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(4,5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply the first equation by 4 and the second by 3 to clear fractions, then eliminate to find $(x,y) = (4,5)$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.5",
+    "tags": [
+      "disguise",
+      "fractions"
+    ],
+    "checksum": "sha256-944240a861761b0ec4846d97d271444977923b7a1d9a567369439594fc8ea927",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_disguise.medium.0026",
+    "topic_id": "ch5.more_disguise",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve for $y$: $2(3x + 2y) + 3x = 10$ when $x = 2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Simplify: $9x + 4y = 10$. With $x = 2$, solve to get $y = -2$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.5",
+    "tags": [
+      "disguise",
+      "grouping"
+    ],
+    "checksum": "sha256-961be47dde757d0c37e7dd9b51731bdb593f3d86093dbd49fa7ed2290835ef0d",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_disguise.medium.0027",
+    "topic_id": "ch5.more_disguise",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "The ratio of $x$ to $y$ is $5:2$ and $x + y = 42$. Find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$42$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$30$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "30",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $x = 5k$ and $y = 2k$. Then $5k + 2k = 42$, so $k = 6$ and $x = 30$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.5",
+    "tags": [
+      "disguise",
+      "proportion"
+    ],
+    "checksum": "sha256-c521cb670e23d48e210eebef34206b9e051adec0a87adb2225e66a74b61f25e7",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_disguise.medium.0028",
+    "topic_id": "ch5.more_disguise",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve for $x$ in terms of $y$: $5x + 3y = 4x + 2y + 1$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Collect $x$ terms: $1x = 3$, so $x = 3$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.5",
+    "tags": [
+      "disguise",
+      "collect"
+    ],
+    "checksum": "sha256-e532ed94cea375c11ba0b1acd39940150546c391976d9fb3059f4bb8163d9a6f",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_disguise.medium.0029",
+    "topic_id": "ch5.more_disguise",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} \\dfrac{x}{4} + y = \\dfrac{13}{2} \\\\ x - \\dfrac{y}{3} = \\dfrac{13}{3} \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(6,6)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(6,5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-6,5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(7,5)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(6,5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply the first equation by 4 and the second by 3 to clear fractions, then eliminate to find $(x,y) = (6,5)$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.5",
+    "tags": [
+      "disguise",
+      "fractions"
+    ],
+    "checksum": "sha256-f919d1c582185b723c95095d04bdddbbfac23275ba0e2c80a030c54f7544b512",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_disguise.medium.0030",
+    "topic_id": "ch5.more_disguise",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve for $y$: $4(1x + 2y) + 3x = -23$ when $x = -1$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x = -1$ and simplify: $8y + -7 = -23$. Hence $y = -2$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.5",
+    "tags": [
+      "disguise",
+      "substitution"
+    ],
+    "checksum": "sha256-4150234f7720627192eac21becd42e9a49da83c79c83f680012d066182f12d1c",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_disguise.medium.0031",
+    "topic_id": "ch5.more_disguise",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "The ratio of $x$ to $y$ is $3:4$ and $x + y = 14$. Find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$14$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $x = 3k$ and $y = 4k$. Then $3k + 4k = 14$, so $k = 2$ and $x = 6$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.5",
+    "tags": [
+      "disguise",
+      "proportion"
+    ],
+    "checksum": "sha256-51ad72d5163a97e5c61907fcbc3c4a86c3ebb3546b098161e30daad35274566d",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_disguise.medium.0032",
+    "topic_id": "ch5.more_disguise",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve for $y$: $2(3x + 4y) + 1x = 7$ when $x = 1$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x = 1$ and simplify: $8y + 7 = 7$. Hence $y = 0$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.5",
+    "tags": [
+      "disguise",
+      "substitution"
+    ],
+    "checksum": "sha256-5b4950ba36d9f7dc6695f3aa99f64f5b406b7663d925cf6823afd645a5133d2e",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_disguise.medium.0033",
+    "topic_id": "ch5.more_disguise",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} \\dfrac{x}{3} + y = \\dfrac{13}{3} \\\\ x - \\dfrac{y}{4} = \\dfrac{13}{4} \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4,3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4,4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-4,3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(5,3)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(4,3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply the first equation by 3 and the second by 4 to clear fractions, then eliminate to find $(x,y) = (4,3)$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.5",
+    "tags": [
+      "disguise",
+      "fractions"
+    ],
+    "checksum": "sha256-6490edc9d4a38f83a0885c382d36981abbe4bfa7027cbd61a318a87a2f475984",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_disguise.medium.0034",
+    "topic_id": "ch5.more_disguise",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve for $y$: $4(5x + 3y) + 3x = 93$ when $x = 3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x = 3$ and simplify: $12y + 69 = 93$. Hence $y = 2$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.5",
+    "tags": [
+      "disguise",
+      "substitution"
+    ],
+    "checksum": "sha256-e1925e3e2d7f8a135c14a8a1779318d5f6bdc09cb380ea557d7b61a9de57ca1f",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_disguise.medium.0035",
+    "topic_id": "ch5.more_disguise",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "The ratio of $x$ to $y$ is $3:3$ and $x + y = 36$. Find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$18$"
+      },
+      {
+        "id": "b",
+        "latex": "$36$"
+      },
+      {
+        "id": "c",
+        "latex": "$28$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "18",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $x = 3k$ and $y = 3k$. Then $3k + 3k = 36$, so $k = 6$ and $x = 18$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.5",
+    "tags": [
+      "disguise",
+      "proportion"
+    ],
+    "checksum": "sha256-5424b0562d43724ad80ac07ba544623e93a41174eaa70d69e5d56b4f1cb89fe2",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_disguise.medium.0036",
+    "topic_id": "ch5.more_disguise",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve for $x$ in terms of $y$: $5x + 3y = 4x + 3y + 2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Collect $x$ terms: $1x = 2$, so $x = 2$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.5",
+    "tags": [
+      "disguise",
+      "collect"
+    ],
+    "checksum": "sha256-c4ffce477e853be5bf0e09dc29bb56b9261cad8ebd1e40eb1c86a0993ce70ea4",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_disguise.medium.0037",
+    "topic_id": "ch5.more_disguise",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} \\dfrac{x}{2} + y = \\dfrac{7}{1} \\\\ x - \\dfrac{y}{2} = \\dfrac{4}{1} \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(7,4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(6,5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(6,4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-6,4)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(6,4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply the first equation by 2 and the second by 2 to clear fractions, then eliminate to find $(x,y) = (6,4)$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.5",
+    "tags": [
+      "disguise",
+      "fractions"
+    ],
+    "checksum": "sha256-14f554d438845bc220c59f709e24c5695a14eaeaf4d9f3041fa7c614166be670",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_disguise.medium.0038",
+    "topic_id": "ch5.more_disguise",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve for $y$: $2(2x + 2y) + 3x = 1$ when $x = -1$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Simplify: $7x + 4y = 1$. With $x = -1$, solve to get $y = 2$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.5",
+    "tags": [
+      "disguise",
+      "grouping"
+    ],
+    "checksum": "sha256-aab2401e9c99f338906c0aff34c59720ece060d66921a0145589d1c0b0c2a880",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_disguise.medium.0039",
+    "topic_id": "ch5.more_disguise",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "The ratio of $x$ to $y$ is $5:3$ and $x + y = 16$. Find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $x = 5k$ and $y = 3k$. Then $5k + 3k = 16$, so $k = 2$ and $x = 10$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.5",
+    "tags": [
+      "disguise",
+      "proportion"
+    ],
+    "checksum": "sha256-88fa709022fe88c46d90ba4a5f77327ec21fcb95c655e47993017fec50fd15e5",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_disguise.medium.0040",
+    "topic_id": "ch5.more_disguise",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve for $y$: $2(1x + 3y) + 1x = -24$ when $x = 2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-5$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-6$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x = 2$ and simplify: $6y + 6 = -24$. Hence $y = -5$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.5",
+    "tags": [
+      "disguise",
+      "substitution"
+    ],
+    "checksum": "sha256-3672f767196a1540953e1178b6852acbb2ef0f7113ad52a8f7c7b4bfa900a955",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_disguise.medium.0041",
+    "topic_id": "ch5.more_disguise",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} \\dfrac{x}{2} + y = \\dfrac{5}{1} \\\\ x - \\dfrac{y}{2} = \\dfrac{5}{2} \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(5,3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4,3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-4,3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4,4)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(4,3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply the first equation by 2 and the second by 2 to clear fractions, then eliminate to find $(x,y) = (4,3)$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.5",
+    "tags": [
+      "disguise",
+      "fractions"
+    ],
+    "checksum": "sha256-31eb13d69c678231c306ca3d4494991963f3a9df6ae14bc15aec50c756afa8b5",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_disguise.medium.0042",
+    "topic_id": "ch5.more_disguise",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve for $y$: $4(3x + 2y) + 3x = -69$ when $x = -3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-3$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x = -3$ and simplify: $8y + -45 = -69$. Hence $y = -3$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.5",
+    "tags": [
+      "disguise",
+      "substitution"
+    ],
+    "checksum": "sha256-9b5d1cf8223f6c08ae7f4b78cc387c567e7cfd460451fe1af0d99abc16847eb8",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_disguise.medium.0043",
+    "topic_id": "ch5.more_disguise",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "The ratio of $x$ to $y$ is $3:4$ and $x + y = 28$. Find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$12$"
+      },
+      {
+        "id": "c",
+        "latex": "$16$"
+      },
+      {
+        "id": "d",
+        "latex": "$28$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $x = 3k$ and $y = 4k$. Then $3k + 4k = 28$, so $k = 4$ and $x = 12$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.5",
+    "tags": [
+      "disguise",
+      "proportion"
+    ],
+    "checksum": "sha256-5b84e65d32dbbed8f96dadfb2e0f26e26bcb0c2b7002f52c64a8bc84c710dbcb",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_disguise.medium.0044",
+    "topic_id": "ch5.more_disguise",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve for $x$ in terms of $y$: $4x + 2y = 1x + 2y + 6$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Collect $x$ terms: $3x = 6$, so $x = 2$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.5",
+    "tags": [
+      "disguise",
+      "collect"
+    ],
+    "checksum": "sha256-fbef4fb27392f468b7b89646517ceca25957adf4c277c02284bb37e8cc388ca2",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_disguise.medium.0045",
+    "topic_id": "ch5.more_disguise",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} \\dfrac{x}{4} + y = \\dfrac{11}{2} \\\\ x - \\dfrac{y}{3} = \\dfrac{1}{3} \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3,5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-2,5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2,5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,6)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(2,5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply the first equation by 4 and the second by 3 to clear fractions, then eliminate to find $(x,y) = (2,5)$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.5",
+    "tags": [
+      "disguise",
+      "fractions"
+    ],
+    "checksum": "sha256-2f803eb71e7e6c3f109934b76e70d0a8ec2e38be8b08a9b30c6ba3116d07bc45",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_disguise.medium.0046",
+    "topic_id": "ch5.more_disguise",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve for $y$: $2(1x + 4y) + 3x = -7$ when $x = -3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Simplify: $5x + 8y = -7$. With $x = -3$, solve to get $y = 1$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.5",
+    "tags": [
+      "disguise",
+      "grouping"
+    ],
+    "checksum": "sha256-6691aa7525b12a9650e3ecd6f209d4a22cd2c037e64855da937c5e04f7c26780",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_disguise.medium.0047",
+    "topic_id": "ch5.more_disguise",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "The ratio of $x$ to $y$ is $3:4$ and $x + y = 35$. Find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$35$"
+      },
+      {
+        "id": "b",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$15$"
+      },
+      {
+        "id": "d",
+        "latex": "$20$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "15",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $x = 3k$ and $y = 4k$. Then $3k + 4k = 35$, so $k = 5$ and $x = 15$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.5",
+    "tags": [
+      "disguise",
+      "proportion"
+    ],
+    "checksum": "sha256-36b80e0b1eb1f620d57853fe375d3b3f64b6321913fc352aa0f047204a3a7803",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_disguise.medium.0048",
+    "topic_id": "ch5.more_disguise",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve for $y$: $2(4x + 2y) + 1x = 39$ when $x = 3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x = 3$ and simplify: $4y + 27 = 39$. Hence $y = 3$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.5",
+    "tags": [
+      "disguise",
+      "substitution"
+    ],
+    "checksum": "sha256-ad687dadc4af6699cd2db865627c5275cc35e2168d76178221e55cc70a9ff62d",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_disguise.medium.0049",
+    "topic_id": "ch5.more_disguise",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} \\dfrac{x}{4} + y = \\dfrac{13}{2} \\\\ x - \\dfrac{y}{3} = \\dfrac{0}{1} \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2,6)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3,6)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2,6)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,7)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(2,6)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply the first equation by 4 and the second by 3 to clear fractions, then eliminate to find $(x,y) = (2,6)$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.5",
+    "tags": [
+      "disguise",
+      "fractions"
+    ],
+    "checksum": "sha256-2e93e3167b2602ec8f4128778430a22834ffe0b214e843c0ede70b3476cd3423",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_disguise.medium.0050",
+    "topic_id": "ch5.more_disguise",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve for $y$: $2(1x + 2y) + 3x = 13$ when $x = 1$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Simplify: $5x + 4y = 13$. With $x = 1$, solve to get $y = 2$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.5",
+    "tags": [
+      "disguise",
+      "grouping"
+    ],
+    "checksum": "sha256-4884fc76cc9427240be2e2f39cf3ce580841541591648e91d42310ef77a8ba13",
+    "status": "valid"
+  }
+]

@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "ch15.quadratic_optimization.medium.0001",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "What is the least possible value of $x^2+10x+17$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-8$"
+      },
+      {
+        "id": "b",
+        "latex": "$17$"
+      },
+      {
+        "id": "c",
+        "latex": "$-5$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $x^2+10x+17=(x+5)^2-8$. The square term is zero at $x=-5$, so the least value is $-8$.",
+    "complexity_factor": 1.2,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-69c99ced1eb506d0f55ab1fe8e96cb48e32f11b56b62f6f4d4b52cc5e50ba02d",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.medium.0002",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "What is the least possible value of $x^2+8x+9$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$-7$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $x^2+8x+9=(x+4)^2-7$. The square term is zero at $x=-4$, so the least value is $-7$.",
+    "complexity_factor": 1.2,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-b9827cd4c5bf2e4dee6a8beff284240954e6aad87449f9f62b5bbd28fbf69531",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.medium.0003",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "What is the greatest possible value of $-x^2-6x-15$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-6$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-15$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $-x^2-6x-15=-(x+3)^2-6$. The square term is zero at $x=-3$, so the greatest value is $-6$.",
+    "complexity_factor": 1.2,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-4f75b98667db485f32517dad759e5dfbe228fae0f658d18b148934441e2f9d7c",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.medium.0004",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "What is the least possible value of $x^2+4x-1$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$-5$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $x^2+4x-1=(x+2)^2-5$. The square term is zero at $x=-2$, so the least value is $-5$.",
+    "complexity_factor": 1.2,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-8dae258925c4d2d002d03077e97b61f4965c81f824add1917f60f39fee4049bc",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.medium.0005",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "What is the least possible value of $x^2+2x-3$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $x^2+2x-3=(x+1)^2-4$. The square term is zero at $x=-1$, so the least value is $-4$.",
+    "complexity_factor": 1.2,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-5f3fd27dc45006b7618b69dbe4ed9739879909a92faba7412e209eff8259a4c7",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.medium.0006",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "What is the greatest possible value of $-x^2+0x-3$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$-5$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $-x^2+0x-3=-x^2-3$. The square term is zero at $x=0$, so the greatest value is $-3$.",
+    "complexity_factor": 1.2,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-fb9fcb6f1c2acc23ab5a4f842e9fa0a4e9221b1b7537373c508b99f5cac19439",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.medium.0007",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "What is the least possible value of $x^2-2x-1$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $x^2-2x-1=(x-1)^2-2$. The square term is zero at $x=1$, so the least value is $-2$.",
+    "complexity_factor": 1.2,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-f59a06136cdff1fe6cecdd5bc3fa07358352269d67276fa8147a5a4292b41a72",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.medium.0008",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "What is the least possible value of $x^2-4x+3$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $x^2-4x+3=(x-2)^2-1$. The square term is zero at $x=2$, so the least value is $-1$.",
+    "complexity_factor": 1.2,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-642f270c7727cc1e2b5a15d90a45688cef4ad564924150cdafc68c53ec410908",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.medium.0009",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "What is the greatest possible value of $-x^2+6x-9$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$-9$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $-x^2+6x-9=-(x-3)^2+0$. The square term is zero at $x=3$, so the greatest value is $0$.",
+    "complexity_factor": 1.2,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-c1990e63ff89af1056a4122327269b9d1433409c77748f3a8d220a7eb1e53ee6",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.medium.0010",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "What is the least possible value of $x^2-8x+17$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$17$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $x^2-8x+17=(x-4)^2+1$. The square term is zero at $x=4$, so the least value is $1$.",
+    "complexity_factor": 1.2,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-51f87553128ab9e1b7c33f6393e4ad715e6d906392557af9e77e3ddc81003eb2",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.medium.0011",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "What is the least possible value of $x^2-10x+27$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$-5$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$27$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $x^2-10x+27=(x-5)^2+2$. The square term is zero at $x=5$, so the least value is $2$.",
+    "complexity_factor": 1.2,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-568b6172ae0a27ad536c5106518554d9bc0505390a49574cfe04cec4301b82ad",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.medium.0012",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "What is the greatest possible value of $-x^2+12x-33$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-6$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$-33$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $-x^2+12x-33=-(x-6)^2+3$. The square term is zero at $x=6$, so the greatest value is $3$.",
+    "complexity_factor": 1.2,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-ef2aac2eac2c4e954a7ae65e431b96d1072d0e77bfac8efbcb3e52dfe052327f",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.medium.0013",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "What is the least possible value of $x^2+12x+40$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$40$"
+      },
+      {
+        "id": "c",
+        "latex": "$-6$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $x^2+12x+40=(x+6)^2+4$. The square term is zero at $x=-6$, so the least value is $4$.",
+    "complexity_factor": 1.2,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-f51a840c5f1f380689b8c8deee3ec8b93f94ede820dba41e64d8f93cad54b746",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.medium.0014",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "What is the least possible value of $x^2+10x+30$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$30$"
+      },
+      {
+        "id": "b",
+        "latex": "$-5$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $x^2+10x+30=(x+5)^2+5$. The square term is zero at $x=-5$, so the least value is $5$.",
+    "complexity_factor": 1.2,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-d9c02e59645625c5facd4fc3dda5b6f01cda7814b2addf35c1ab882414050d2b",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.medium.0015",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "What is the greatest possible value of $-x^2-8x-10$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$-10$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $-x^2-8x-10=-(x+4)^2+6$. The square term is zero at $x=-4$, so the greatest value is $6$.",
+    "complexity_factor": 1.2,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-70d2c9d003fdfa9ebd2f4d5ebe2673552ccc390842e98830650f445c2cb0da0d",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.medium.0016",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "What is the least possible value of $x^2+6x+16$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $x^2+6x+16=(x+3)^2+7$. The square term is zero at $x=-3$, so the least value is $7$.",
+    "complexity_factor": 1.2,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-159ced948d307c660759585805d3760f533a0489a7632194b96ff514b0d11e02",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.medium.0017",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "What is the least possible value of $x^2+4x+12$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$12$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $x^2+4x+12=(x+2)^2+8$. The square term is zero at $x=-2$, so the least value is $8$.",
+    "complexity_factor": 1.2,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-25feca2fe0514f2e6120751b212e45ca6ed46c142e01ef73913ffbed9012b5ad",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.medium.0018",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "What is the greatest possible value of $-x^2-2x+8$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $-x^2-2x+8=-(x+1)^2+9$. The square term is zero at $x=-1$, so the greatest value is $9$.",
+    "complexity_factor": 1.2,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-8b0a82d96052455e6fb9410ae6222b403730f5dca3c5e07f984b85bbe50a25e6",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.medium.0019",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "What is the least possible value of $x^2+0x-9$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-9$"
+      },
+      {
+        "id": "b",
+        "latex": "$-11$"
+      },
+      {
+        "id": "c",
+        "latex": "$-7$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $x^2+0x-9=x^2-9$. The square term is zero at $x=0$, so the least value is $-9$.",
+    "complexity_factor": 1.2,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-68a72f0b65bbb962d6e4d65666dba153393ab852f4dd81415dae2e62ab906b88",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.medium.0020",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "What is the least possible value of $x^2-2x-7$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-7$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$-8$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $x^2-2x-7=(x-1)^2-8$. The square term is zero at $x=1$, so the least value is $-8$.",
+    "complexity_factor": 1.2,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-fa04af3ec3cd00563d733ffaaaf81fe102f34999d0438e8e9c705720ffa6be13",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.medium.0021",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "What is the greatest possible value of $-x^2+4x-11$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-7$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$-11$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $-x^2+4x-11=-(x-2)^2-7$. The square term is zero at $x=2$, so the greatest value is $-7$.",
+    "complexity_factor": 1.2,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-0db9e91168e5e9af87313746e5be16bbaae1ea43f525bf1b72ea550b6d8643ae",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.medium.0022",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "What is the least possible value of $x^2-6x+3$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-6$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $x^2-6x+3=(x-3)^2-6$. The square term is zero at $x=3$, so the least value is $-6$.",
+    "complexity_factor": 1.2,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-1b4aa114cd71e8aff202a48e56edbc383af3054dd22db7f4fb61500ac31671f1",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.medium.0023",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "What is the least possible value of $x^2-8x+11$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-5$"
+      },
+      {
+        "id": "d",
+        "latex": "$11$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $x^2-8x+11=(x-4)^2-5$. The square term is zero at $x=4$, so the least value is $-5$.",
+    "complexity_factor": 1.2,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-c97963c2c861352585420967954deca433d87b35be8a7501870f4432d62116b4",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.medium.0024",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "What is the greatest possible value of $-x^2+10x-29$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-5$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-29$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $-x^2+10x-29=-(x-5)^2-4$. The square term is zero at $x=5$, so the greatest value is $-4$.",
+    "complexity_factor": 1.2,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-5b7f1843589b9b77d7724f1633d13bc7e37e67ca4b97c3dcaf05402a4304b47f",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.medium.0025",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "What is the least possible value of $x^2-12x+33$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$33$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$-6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $x^2-12x+33=(x-6)^2-3$. The square term is zero at $x=6$, so the least value is $-3$.",
+    "complexity_factor": 1.2,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-86c0fb422d4ebc3937797c3212626057b0353240d3ba66f239a0a10b9fa1f4d7",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.medium.0026",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "What is the least possible value of $x^2+12x+34$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$34$"
+      },
+      {
+        "id": "b",
+        "latex": "$-6$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $x^2+12x+34=(x+6)^2-2$. The square term is zero at $x=-6$, so the least value is $-2$.",
+    "complexity_factor": 1.2,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-7b555ce9898ceee0feb4b04b6b59efe7654c1211dc018028416cf05b0629222d",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.medium.0027",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "What is the greatest possible value of $-x^2-10x-26$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$-5$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$-26$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $-x^2-10x-26=-(x+5)^2-1$. The square term is zero at $x=-5$, so the greatest value is $-1$.",
+    "complexity_factor": 1.2,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-0253dbace0b77d2d30305d66e8423054e175c034b7c3a9e8e8fa93c289881722",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.medium.0028",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "What is the least possible value of $x^2+8x+16$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $x^2+8x+16=(x+4)^2+0$. The square term is zero at $x=-4$, so the least value is $0$.",
+    "complexity_factor": 1.2,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-83bf73dc195d4c4a8a4d8c5df13909aa349487002df9c58ac6984c701064e553",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.medium.0029",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "What is the least possible value of $x^2+6x+10$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $x^2+6x+10=(x+3)^2+1$. The square term is zero at $x=-3$, so the least value is $1$.",
+    "complexity_factor": 1.2,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-cb66b5030c33443fb850d123decb03cdc6a4fe94752c92b66903fc57183c95ce",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.medium.0030",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "What is the greatest possible value of $-x^2-4x-2$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $-x^2-4x-2=-(x+2)^2+2$. The square term is zero at $x=-2$, so the greatest value is $2$.",
+    "complexity_factor": 1.2,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-f88d15f1585777c627c645b27016b9aaf3beca6e968ef0b95f0c56808f22690e",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.medium.0031",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "What is the least possible value of $x^2+2x+4$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $x^2+2x+4=(x+1)^2+3$. The square term is zero at $x=-1$, so the least value is $3$.",
+    "complexity_factor": 1.2,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-88babe77e6144ecacd153b2aa9deab42b5a1f9bb595710a188cba87c0c2bf923",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.medium.0032",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "What is the least possible value of $x^2+0x+4$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $x^2+0x+4=x^2+4$. The square term is zero at $x=0$, so the least value is $4$.",
+    "complexity_factor": 1.2,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-78fbf4043d3eac103ea185e2fbec0b4eb413ca193b1e9e39f6999130205ae13c",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.medium.0033",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "What is the greatest possible value of $-x^2+2x+4$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $-x^2+2x+4=-(x-1)^2+5$. The square term is zero at $x=1$, so the greatest value is $5$.",
+    "complexity_factor": 1.2,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-408d219a6d10257c3748fb86ac495512dba8ab048469cec9cef5ffac05711759",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.medium.0034",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "What is the least possible value of $x^2-4x+10$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $x^2-4x+10=(x-2)^2+6$. The square term is zero at $x=2$, so the least value is $6$.",
+    "complexity_factor": 1.2,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-4f2e59336369be08ede29c09d415dd6e418758aec2f30f0024868c1969a29be0",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.medium.0035",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "What is the least possible value of $x^2-6x+16$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$16$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $x^2-6x+16=(x-3)^2+7$. The square term is zero at $x=3$, so the least value is $7$.",
+    "complexity_factor": 1.2,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-4b17d0d527c4162db6aa1ecedd8f714d7608d13edded0c08acaa4ae3aedc8b28",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.medium.0036",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "What is the greatest possible value of $-x^2+8x-8$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$-8$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $-x^2+8x-8=-(x-4)^2+8$. The square term is zero at $x=4$, so the greatest value is $8$.",
+    "complexity_factor": 1.2,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-04f42591b26c6a0d9ee5b258f9126a9a81cab00b5ddab62d95bceb6bf95d52c8",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.medium.0037",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "What is the least possible value of $x^2-10x+34$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$34$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$-5$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $x^2-10x+34=(x-5)^2+9$. The square term is zero at $x=5$, so the least value is $9$.",
+    "complexity_factor": 1.2,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-050a21cd17bbc8ed320a5d3a7c2b8312798521eacc2b0b75e153dea7e125f41a",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.medium.0038",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "What is the least possible value of $x^2-12x+27$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$27$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$-6$"
+      },
+      {
+        "id": "d",
+        "latex": "$-9$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $x^2-12x+27=(x-6)^2-9$. The square term is zero at $x=6$, so the least value is $-9$.",
+    "complexity_factor": 1.2,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-c47504be02a6b1e5474b309903f4ae3e90fd34d715c28be6aab3edb58f99edd1",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.medium.0039",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "What is the greatest possible value of $-x^2-12x-44$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-8$"
+      },
+      {
+        "id": "b",
+        "latex": "$-6$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$-44$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $-x^2-12x-44=-(x+6)^2-8$. The square term is zero at $x=-6$, so the greatest value is $-8$.",
+    "complexity_factor": 1.2,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-3014096a95289eb11582c13654239ffb7a67fb571a7f9c87af8bb36038767ec7",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.medium.0040",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "What is the least possible value of $x^2+10x+18$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$18$"
+      },
+      {
+        "id": "b",
+        "latex": "$-7$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$-5$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $x^2+10x+18=(x+5)^2-7$. The square term is zero at $x=-5$, so the least value is $-7$.",
+    "complexity_factor": 1.2,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-1614eaacf89eaf5ca9b2504e65215b86dd52b5e08a5e28ee4a156bc6c531c58b",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.medium.0041",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "What is the least possible value of $x^2+8x+10$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$-6$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $x^2+8x+10=(x+4)^2-6$. The square term is zero at $x=-4$, so the least value is $-6$.",
+    "complexity_factor": 1.2,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-f9971a8d3025e79ce7ddbf242b7858978fccdeb1ec85ebaa638d7e2c5bbdc852",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.medium.0042",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "What is the greatest possible value of $-x^2-6x-14$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$-14$"
+      },
+      {
+        "id": "d",
+        "latex": "$-5$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $-x^2-6x-14=-(x+3)^2-5$. The square term is zero at $x=-3$, so the greatest value is $-5$.",
+    "complexity_factor": 1.2,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-7c7ac02ecec9e4a610565a8874f6dee840a1c896c08952a47c62daaa1d8dadaa",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.medium.0043",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "What is the least possible value of $x^2+4x+0$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $x^2+4x+0=(x+2)^2-4$. The square term is zero at $x=-2$, so the least value is $-4$.",
+    "complexity_factor": 1.2,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-9f314cc24053dfcdb04f1046537902f32f6fdf6e4f0ef473211c7d8161abad20",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.medium.0044",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "What is the least possible value of $x^2+2x-2$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$-3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $x^2+2x-2=(x+1)^2-3$. The square term is zero at $x=-1$, so the least value is $-3$.",
+    "complexity_factor": 1.2,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-346731679dad4255bc7ea261450ee3e1217e9e6e3271b283f0771a683c47f818",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.medium.0045",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "What is the greatest possible value of $-x^2+0x-2$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $-x^2+0x-2=-x^2-2$. The square term is zero at $x=0$, so the greatest value is $-2$.",
+    "complexity_factor": 1.2,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-b1983cf2e7341ca4567af24e5a00f8ce84f81ab119937b964ae7519e67addab7",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.medium.0046",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "What is the least possible value of $x^2-2x+0$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $x^2-2x+0=(x-1)^2-1$. The square term is zero at $x=1$, so the least value is $-1$.",
+    "complexity_factor": 1.2,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-f6d8945b0a56a6c116fd4ce0f9b9a520f1dc81bbba50ac75f7508008068aa8fa",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.medium.0047",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "What is the least possible value of $x^2-4x+4$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $x^2-4x+4=(x-2)^2+0$. The square term is zero at $x=2$, so the least value is $0$.",
+    "complexity_factor": 1.2,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-6321c9e3b9a647cef67d819a1c62c5860946b6a586581792cce9b947b2ed26d1",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.medium.0048",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "What is the greatest possible value of $-x^2+6x-8$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$-8$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $-x^2+6x-8=-(x-3)^2+1$. The square term is zero at $x=3$, so the greatest value is $1$.",
+    "complexity_factor": 1.2,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-b5532af432888052abfe0854f56ceed609fc802e4fc5caa14605d384524e0e97",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.medium.0049",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "What is the least possible value of $x^2-8x+18$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$18$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $x^2-8x+18=(x-4)^2+2$. The square term is zero at $x=4$, so the least value is $2$.",
+    "complexity_factor": 1.2,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-05b390d6670ad104a617c45cda21786c44129bb93e8d8d593e780fd8fb06848f",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.quadratic_optimization.medium.0050",
+    "topic_id": "ch15.quadratic_optimization",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "What is the least possible value of $x^2-10x+28$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$28$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$-5$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $x^2-10x+28=(x-5)^2+3$. The square term is zero at $x=5$, so the least value is $3$.",
+    "complexity_factor": 1.2,
+    "source_section": "15.4",
+    "tags": [
+      "optimization",
+      "quadratic",
+      "completing-square"
+    ],
+    "checksum": "sha256-97c5ad8a9399ba8b3a0408f63133e31a73442b3658d440be798f2796be3661f5",
+    "status": "valid"
+  }
+]

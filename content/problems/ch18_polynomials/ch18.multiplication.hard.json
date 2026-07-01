@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "ch18.multiplication.hard.0001",
+    "topic_id": "ch18.multiplication",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "What is the coefficient of $x^3$ in $\\left(-2x^2 + 3x - 1\\right)\\left(-2x^3 - x^2 - 2x - 3\\right)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add the products of coefficient pairs whose powers sum to 3. In the expanded product $4x^5 - 4x^4 + 3x^3 + x^2 - 7x + 3$, the coefficient of $x^3$ is $3$.",
+    "complexity_factor": 1.35,
+    "source_section": "18.2",
+    "tags": [
+      "polynomials",
+      "multiplication",
+      "coefficient"
+    ],
+    "checksum": "sha256-b22e598a9657584c0be7864770e90fa02553bad6f71787d83fccebefbeed1249",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.multiplication.hard.0002",
+    "topic_id": "ch18.multiplication",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Expand fully: $\\left(4x^2 + 5x + 1\\right)\\left(4x^2 + 4x + 1\\right)\\left(5x - 1\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16x^4 + 36x^3 + 28x^2 + 14x$"
+      },
+      {
+        "id": "b",
+        "latex": "$80x^5 + 164x^4 + 104x^3 + 17x^2 - 4x - 1$"
+      },
+      {
+        "id": "c",
+        "latex": "$80x^5 + 164x^4 - 104x^3 + 17x^2 - 4x - 1$"
+      },
+      {
+        "id": "d",
+        "latex": "$16x^4 + 36x^3 + 28x^2 + 9x + 1$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "80*x^5+164*x^4+104*x^3+17*x^2-4*x-1",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Multiply two factors first, then distribute the remaining factor and combine like terms. The result is $80x^5 + 164x^4 + 104x^3 + 17x^2 - 4x - 1$.",
+    "complexity_factor": 1.4,
+    "source_section": "18.2",
+    "tags": [
+      "polynomials",
+      "multiplication",
+      "multiple_factors"
+    ],
+    "checksum": "sha256-b9ba371e002ff69d67dc5b05ad3b07826f1e8739af3711ad86c2d732c441bb6d",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.multiplication.hard.0003",
+    "topic_id": "ch18.multiplication",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "What is the coefficient of $x^3$ in $\\left(3x^2 - x + 1\\right)\\left(4x^3 - 2x^2 + 4x - 3\\right)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-18$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$18$"
+      },
+      {
+        "id": "d",
+        "latex": "$-15$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "18",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add the products of coefficient pairs whose powers sum to 3. In the expanded product $12x^5 - 10x^4 + 18x^3 - 15x^2 + 7x - 3$, the coefficient of $x^3$ is $18$.",
+    "complexity_factor": 1.35,
+    "source_section": "18.2",
+    "tags": [
+      "polynomials",
+      "multiplication",
+      "coefficient"
+    ],
+    "checksum": "sha256-57a85b7b375e6cd44f83f194180f6d84bba1723e6c58d210d76c43ec780ffc9d",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.multiplication.hard.0004",
+    "topic_id": "ch18.multiplication",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Expand fully: $\\left(-x^2 - 4x - 2\\right)\\left(4x^2 + 5x + 4\\right)\\left(-3x - 1\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4x^4 - 21x^3 - 32x^2 - 26x - 8$"
+      },
+      {
+        "id": "b",
+        "latex": "$12x^5 + 67x^4 + 117x^3 + 110x^2 + 50x - 8$"
+      },
+      {
+        "id": "c",
+        "latex": "$12x^5 + 67x^4 + 117x^3 + 110x^2 + 50x + 8$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4x^4 - 21x^3 - 32x^2 - 29x - 9$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "12*x^5+67*x^4+117*x^3+110*x^2+50*x+8",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Multiply two factors first, then distribute the remaining factor and combine like terms. The result is $12x^5 + 67x^4 + 117x^3 + 110x^2 + 50x + 8$.",
+    "complexity_factor": 1.4,
+    "source_section": "18.2",
+    "tags": [
+      "polynomials",
+      "multiplication",
+      "multiple_factors"
+    ],
+    "checksum": "sha256-d8796b4996b27bc15a92aeaa5bb8cad6985ad258df0789f69e3f2884cb82ebcd",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.multiplication.hard.0005",
+    "topic_id": "ch18.multiplication",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "What is the coefficient of $x^3$ in $\\left(-4x^2 + x - 2\\right)\\left(-2x^3 + 2x^2 - 3x + 2\\right)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-18$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$18$"
+      },
+      {
+        "id": "d",
+        "latex": "$-15$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "18",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add the products of coefficient pairs whose powers sum to 3. In the expanded product $8x^5 - 10x^4 + 18x^3 - 15x^2 + 8x - 4$, the coefficient of $x^3$ is $18$.",
+    "complexity_factor": 1.35,
+    "source_section": "18.2",
+    "tags": [
+      "polynomials",
+      "multiplication",
+      "coefficient"
+    ],
+    "checksum": "sha256-86b580df6939a8a4a26a561aa63dd4625bb81d2d19e171142d0b2bc8644db6d4",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.multiplication.hard.0006",
+    "topic_id": "ch18.multiplication",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Expand fully: $\\left(3x^2 + x + 3\\right)\\left(5x^2 + 2x + 5\\right)\\left(2x + 3\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$15x^4 + 11x^3 + 32x^2 + 13x + 18$"
+      },
+      {
+        "id": "b",
+        "latex": "$15x^4 + 11x^3 + 32x^2 + 11x + 15$"
+      },
+      {
+        "id": "c",
+        "latex": "$30x^5 + 67x^4 + 97x^3 + 118x^2 + 63x + 45$"
+      },
+      {
+        "id": "d",
+        "latex": "$-30x^5 + 67x^4 + 97x^3 + 118x^2 + 63x + 45$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "30*x^5+67*x^4+97*x^3+118*x^2+63*x+45",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Multiply two factors first, then distribute the remaining factor and combine like terms. The result is $30x^5 + 67x^4 + 97x^3 + 118x^2 + 63x + 45$.",
+    "complexity_factor": 1.4,
+    "source_section": "18.2",
+    "tags": [
+      "polynomials",
+      "multiplication",
+      "multiple_factors"
+    ],
+    "checksum": "sha256-1a05d8b4f877ad450ff0c38c4ecf474ebb9f0b695710ab44876a24b57b20a6fb",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.multiplication.hard.0007",
+    "topic_id": "ch18.multiplication",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "What is the coefficient of $x^2$ in $\\left(-x^2 - 3x - 2\\right)\\left(3x^3 - x^2 + 3x - 2\\right)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$-5$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add the products of coefficient pairs whose powers sum to 2. In the expanded product $-3x^5 - 8x^4 - 6x^3 - 5x^2 + 4$, the coefficient of $x^2$ is $-5$.",
+    "complexity_factor": 1.35,
+    "source_section": "18.2",
+    "tags": [
+      "polynomials",
+      "multiplication",
+      "coefficient"
+    ],
+    "checksum": "sha256-129133e4b027558196ca50ba243017ce65a931fe8b7fe9206bd964e5a6cecf88",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.multiplication.hard.0008",
+    "topic_id": "ch18.multiplication",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Expand fully: $\\left(2x^2 + 5x - 1\\right)\\left(-4x^2 - 3x - 3\\right)\\left(-x + 4\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8x^5 - 6x^4 - 87x^3 - 56x^2 + 51x + 12$"
+      },
+      {
+        "id": "b",
+        "latex": "$-8x^4 - 26x^3 - 17x^2 - 12x + 3$"
+      },
+      {
+        "id": "c",
+        "latex": "$8x^5 - 6x^4 - 87x^3 - 56x^2 - 51x + 12$"
+      },
+      {
+        "id": "d",
+        "latex": "$-8x^4 - 26x^3 - 17x^2 - 13x + 7$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "8*x^5-6*x^4-87*x^3-56*x^2-51*x+12",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Multiply two factors first, then distribute the remaining factor and combine like terms. The result is $8x^5 - 6x^4 - 87x^3 - 56x^2 - 51x + 12$.",
+    "complexity_factor": 1.4,
+    "source_section": "18.2",
+    "tags": [
+      "polynomials",
+      "multiplication",
+      "multiple_factors"
+    ],
+    "checksum": "sha256-98256a0ed0bd4f00a4afc9e31fe717e5bc3abce3dff5ab74e573d00a5ca1343c",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.multiplication.hard.0009",
+    "topic_id": "ch18.multiplication",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "What is the coefficient of $x^3$ in $\\left(x^2 + 3x + 5\\right)\\left(-x^3 - x^2 + 2x + 1\\right)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-6$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add the products of coefficient pairs whose powers sum to 3. In the expanded product $-x^5 - 4x^4 - 6x^3 + 2x^2 + 13x + 5$, the coefficient of $x^3$ is $-6$.",
+    "complexity_factor": 1.35,
+    "source_section": "18.2",
+    "tags": [
+      "polynomials",
+      "multiplication",
+      "coefficient"
+    ],
+    "checksum": "sha256-862f9c790236232a972ec49a16c0e67ddfa5137769077afd7e27a228d385b04c",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.multiplication.hard.0010",
+    "topic_id": "ch18.multiplication",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Expand fully: $\\left(5x^2 - x + 1\\right)\\left(-3x^2 - x + 1\\right)\\left(2x + 5\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-15x^4 - 2x^3 + 3x^2 - 2x + 1$"
+      },
+      {
+        "id": "b",
+        "latex": "$-15x^4 - 2x^3 + 3x^2 + 6$"
+      },
+      {
+        "id": "c",
+        "latex": "$-30x^5 - 79x^4 - 4x^3 + 11x^2 - 8x + 5$"
+      },
+      {
+        "id": "d",
+        "latex": "$30x^5 - 79x^4 - 4x^3 + 11x^2 - 8x + 5$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-30*x^5-79*x^4-4*x^3+11*x^2-8*x+5",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Multiply two factors first, then distribute the remaining factor and combine like terms. The result is $-30x^5 - 79x^4 - 4x^3 + 11x^2 - 8x + 5$.",
+    "complexity_factor": 1.4,
+    "source_section": "18.2",
+    "tags": [
+      "polynomials",
+      "multiplication",
+      "multiple_factors"
+    ],
+    "checksum": "sha256-e8716005af1401ac4680ce8cfddab160b1b02f7087e977a43bb7229fd5c56500",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.multiplication.hard.0011",
+    "topic_id": "ch18.multiplication",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "What is the coefficient of $x^4$ in $\\left(3x^2 + x + 3\\right)\\left(3x^3 - 2x^2 - x - 3\\right)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add the products of coefficient pairs whose powers sum to 4. In the expanded product $9x^5 - 3x^4 + 4x^3 - 16x^2 - 6x - 9$, the coefficient of $x^4$ is $-3$.",
+    "complexity_factor": 1.35,
+    "source_section": "18.2",
+    "tags": [
+      "polynomials",
+      "multiplication",
+      "coefficient"
+    ],
+    "checksum": "sha256-e00e0d7d9a81e640c9ab08a50459df401ffcf6eae74652ebf02e543343f2175c",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.multiplication.hard.0012",
+    "topic_id": "ch18.multiplication",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Expand fully: $\\left(-x^2 + 2x + 4\\right)\\left(-4x^2 - x - 1\\right)\\left(-x - 3\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4x^5 - 5x^4 + 38x^3 + 57x^2 + 22x - 12$"
+      },
+      {
+        "id": "b",
+        "latex": "$4x^4 - 7x^3 - 17x^2 - 6x - 4$"
+      },
+      {
+        "id": "c",
+        "latex": "$4x^4 - 7x^3 - 17x^2 - 7x - 7$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4x^5 - 5x^4 + 38x^3 + 57x^2 + 22x + 12$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-4*x^5-5*x^4+38*x^3+57*x^2+22*x+12",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Multiply two factors first, then distribute the remaining factor and combine like terms. The result is $-4x^5 - 5x^4 + 38x^3 + 57x^2 + 22x + 12$.",
+    "complexity_factor": 1.4,
+    "source_section": "18.2",
+    "tags": [
+      "polynomials",
+      "multiplication",
+      "multiple_factors"
+    ],
+    "checksum": "sha256-91a2546b5f698fecb729630dbd6aa0e26ed0d950930090315deaeb6084a14a34",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.multiplication.hard.0013",
+    "topic_id": "ch18.multiplication",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "What is the coefficient of $x^3$ in $\\left(-3x^2 + 3x - 1\\right)\\left(-x^3 + x^2 + 2x + 1\\right)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$-5$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add the products of coefficient pairs whose powers sum to 3. In the expanded product $3x^5 - 6x^4 - 2x^3 + 2x^2 + x - 1$, the coefficient of $x^3$ is $-2$.",
+    "complexity_factor": 1.35,
+    "source_section": "18.2",
+    "tags": [
+      "polynomials",
+      "multiplication",
+      "coefficient"
+    ],
+    "checksum": "sha256-6acef20ab4354e2e41c2b1b13d9b1dea710dc7914c789542e3c68d4bf3fec558",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.multiplication.hard.0014",
+    "topic_id": "ch18.multiplication",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Expand fully: $\\left(-x^2 - 3x + 2\\right)\\left(5x^2 - 2x - 1\\right)\\left(-x - 2\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5x^5 + 23x^4 - 9x^3 - 33x^2 + 4x + 4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-5x^4 - 13x^3 + 17x^2 - x - 2$"
+      },
+      {
+        "id": "c",
+        "latex": "$5x^5 + 23x^4 + 9x^3 - 33x^2 + 4x + 4$"
+      },
+      {
+        "id": "d",
+        "latex": "$-5x^4 - 13x^3 + 17x^2 - 2x - 4$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "5*x^5+23*x^4+9*x^3-33*x^2+4*x+4",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Multiply two factors first, then distribute the remaining factor and combine like terms. The result is $5x^5 + 23x^4 + 9x^3 - 33x^2 + 4x + 4$.",
+    "complexity_factor": 1.4,
+    "source_section": "18.2",
+    "tags": [
+      "polynomials",
+      "multiplication",
+      "multiple_factors"
+    ],
+    "checksum": "sha256-63bc387d23ff704ba2e1c578e7f6d4d010b2fef393ba47f88868441b4994ccf3",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.multiplication.hard.0015",
+    "topic_id": "ch18.multiplication",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "What is the coefficient of $x^2$ in $\\left(-x^2 - 3x + 5\\right)\\left(-3x^3 + 2x^2 - x + 3\\right)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-10$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$-14$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add the products of coefficient pairs whose powers sum to 2. In the expanded product $3x^5 + 7x^4 - 20x^3 + 10x^2 - 14x + 15$, the coefficient of $x^2$ is $10$.",
+    "complexity_factor": 1.35,
+    "source_section": "18.2",
+    "tags": [
+      "polynomials",
+      "multiplication",
+      "coefficient"
+    ],
+    "checksum": "sha256-a3d59e5d64584ff2ba1a838fd5c5ec72993d7535154c89502f707a3a459995ce",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.multiplication.hard.0016",
+    "topic_id": "ch18.multiplication",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Expand fully: $\\left(-3x^2 + x + 4\\right)\\left(3x^2 + 3x - 4\\right)\\left(5x + 4\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-45x^5 - 66x^4 + 111x^3 + 148x^2 - 48x - 64$"
+      },
+      {
+        "id": "b",
+        "latex": "$-9x^4 - 6x^3 + 27x^2 + 13x - 12$"
+      },
+      {
+        "id": "c",
+        "latex": "$-9x^4 - 6x^3 + 27x^2 + 8x - 16$"
+      },
+      {
+        "id": "d",
+        "latex": "$-45x^5 - 66x^4 + 111x^3 - 148x^2 - 48x - 64$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-45*x^5-66*x^4+111*x^3+148*x^2-48*x-64",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Multiply two factors first, then distribute the remaining factor and combine like terms. The result is $-45x^5 - 66x^4 + 111x^3 + 148x^2 - 48x - 64$.",
+    "complexity_factor": 1.4,
+    "source_section": "18.2",
+    "tags": [
+      "polynomials",
+      "multiplication",
+      "multiple_factors"
+    ],
+    "checksum": "sha256-eba901d72748aea26044627ea469e50870a79464f9e8abfc737f05089811f644",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.multiplication.hard.0017",
+    "topic_id": "ch18.multiplication",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "What is the coefficient of $x^3$ in $\\left(5x^2 - 2x - 3\\right)\\left(2x^3 + 3x^2 + 4x + 2\\right)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-7$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$-8$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add the products of coefficient pairs whose powers sum to 3. In the expanded product $10x^5 + 11x^4 + 8x^3 - 7x^2 - 16x - 6$, the coefficient of $x^3$ is $8$.",
+    "complexity_factor": 1.35,
+    "source_section": "18.2",
+    "tags": [
+      "polynomials",
+      "multiplication",
+      "coefficient"
+    ],
+    "checksum": "sha256-934226e1c001aadc236e39338ab103959250aa63d2f1b11b293c161de5deabf4",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.multiplication.hard.0018",
+    "topic_id": "ch18.multiplication",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Expand fully: $\\left(4x^2 + 5x + 5\\right)\\left(3x^2 + x + 1\\right)\\left(x - 3\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12x^4 + 19x^3 + 24x^2 + 11x + 2$"
+      },
+      {
+        "id": "b",
+        "latex": "$12x^4 + 19x^3 + 24x^2 + 10x + 5$"
+      },
+      {
+        "id": "c",
+        "latex": "$12x^5 - 17x^4 - 33x^3 - 62x^2 - 25x - 15$"
+      },
+      {
+        "id": "d",
+        "latex": "$12x^5 - 17x^4 - 33x^3 - 62x^2 + 25x - 15$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "12*x^5-17*x^4-33*x^3-62*x^2-25*x-15",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Multiply two factors first, then distribute the remaining factor and combine like terms. The result is $12x^5 - 17x^4 - 33x^3 - 62x^2 - 25x - 15$.",
+    "complexity_factor": 1.4,
+    "source_section": "18.2",
+    "tags": [
+      "polynomials",
+      "multiplication",
+      "multiple_factors"
+    ],
+    "checksum": "sha256-7f9214902674d9c15d0acc7d778dc50227611bf86093e7f2ac1d00e138c5eb94",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.multiplication.hard.0019",
+    "topic_id": "ch18.multiplication",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "What is the coefficient of $x^3$ in $\\left(-4x^2 + 3x - 1\\right)\\left(-3x^3 + 2x^2 - x - 2\\right)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$13$"
+      },
+      {
+        "id": "b",
+        "latex": "$-13$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "13",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add the products of coefficient pairs whose powers sum to 3. In the expanded product $12x^5 - 17x^4 + 13x^3 + 3x^2 - 5x + 2$, the coefficient of $x^3$ is $13$.",
+    "complexity_factor": 1.35,
+    "source_section": "18.2",
+    "tags": [
+      "polynomials",
+      "multiplication",
+      "coefficient"
+    ],
+    "checksum": "sha256-eae23a715cfcf200949e8971d7bc30db02175b9e00394412b662f16ebc26e8aa",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.multiplication.hard.0020",
+    "topic_id": "ch18.multiplication",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Expand fully: $\\left(5x^2 - 4x + 2\\right)\\left(3x^2 + x - 1\\right)\\left(x - 1\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$15x^4 - 7x^3 - 3x^2 + 7x - 3$"
+      },
+      {
+        "id": "b",
+        "latex": "$15x^5 - 22x^4 + 4x^3 + 9x^2 - 8x + 2$"
+      },
+      {
+        "id": "c",
+        "latex": "$15x^5 - 22x^4 - 4x^3 + 9x^2 - 8x + 2$"
+      },
+      {
+        "id": "d",
+        "latex": "$15x^4 - 7x^3 - 3x^2 + 6x - 2$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "15*x^5-22*x^4+4*x^3+9*x^2-8*x+2",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Multiply two factors first, then distribute the remaining factor and combine like terms. The result is $15x^5 - 22x^4 + 4x^3 + 9x^2 - 8x + 2$.",
+    "complexity_factor": 1.4,
+    "source_section": "18.2",
+    "tags": [
+      "polynomials",
+      "multiplication",
+      "multiple_factors"
+    ],
+    "checksum": "sha256-96f672690a69c7ebda880c86b8f75aa75ab8e9208aad1b5ee99e01a4f1cbe663",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.multiplication.hard.0021",
+    "topic_id": "ch18.multiplication",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "What is the coefficient of $x^3$ in $\\left(-2x^2 - 3x - 4\\right)\\left(-3x^3 - x^2 + x - 3\\right)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$13$"
+      },
+      {
+        "id": "b",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$-13$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "13",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add the products of coefficient pairs whose powers sum to 3. In the expanded product $6x^5 + 11x^4 + 13x^3 + 7x^2 + 5x + 12$, the coefficient of $x^3$ is $13$.",
+    "complexity_factor": 1.35,
+    "source_section": "18.2",
+    "tags": [
+      "polynomials",
+      "multiplication",
+      "coefficient"
+    ],
+    "checksum": "sha256-0e2ef8c910107e1919b6c605113216193c7fa268dddaf8a20f2f0989b5e47588",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.multiplication.hard.0022",
+    "topic_id": "ch18.multiplication",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Expand fully: $\\left(4x^2 - x + 3\\right)\\left(5x^2 + 5x + 5\\right)\\left(-x + 2\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$20x^4 + 15x^3 + 30x^2 + 10x + 15$"
+      },
+      {
+        "id": "b",
+        "latex": "$-20x^5 + 25x^4 - 50x^2 + 5x + 30$"
+      },
+      {
+        "id": "c",
+        "latex": "$-20x^5 + 25x^4 + 50x^2 + 5x + 30$"
+      },
+      {
+        "id": "d",
+        "latex": "$20x^4 + 15x^3 + 30x^2 + 9x + 17$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-20*x^5+25*x^4+50*x^2+5*x+30",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Multiply two factors first, then distribute the remaining factor and combine like terms. The result is $-20x^5 + 25x^4 + 50x^2 + 5x + 30$.",
+    "complexity_factor": 1.4,
+    "source_section": "18.2",
+    "tags": [
+      "polynomials",
+      "multiplication",
+      "multiple_factors"
+    ],
+    "checksum": "sha256-cd739e0896e53cfb6571a59d3f32bd7eabf5f1074d6a8ffadf45217be73d7648",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.multiplication.hard.0023",
+    "topic_id": "ch18.multiplication",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "What is the coefficient of $x^2$ in $\\left(-4x^2 + x - 1\\right)\\left(3x^3 - 3x^2 + x - 2\\right)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-12$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$-7$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add the products of coefficient pairs whose powers sum to 2. In the expanded product $-12x^5 + 15x^4 - 10x^3 + 12x^2 - 3x + 2$, the coefficient of $x^2$ is $12$.",
+    "complexity_factor": 1.35,
+    "source_section": "18.2",
+    "tags": [
+      "polynomials",
+      "multiplication",
+      "coefficient"
+    ],
+    "checksum": "sha256-a55584ede3d92745e8352ba812b750bb24dde420b2d4c85c206415cf66ecb91d",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.multiplication.hard.0024",
+    "topic_id": "ch18.multiplication",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Expand fully: $\\left(x^2 - x - 1\\right)\\left(4x^2 - 4x - 2\\right)\\left(-4x + 3\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4x^4 - 8x^3 - 2x^2 + 2x + 5$"
+      },
+      {
+        "id": "b",
+        "latex": "$-16x^5 + 44x^4 + 16x^3 - 30x^2 + 10x + 6$"
+      },
+      {
+        "id": "c",
+        "latex": "$4x^4 - 8x^3 - 2x^2 + 6x + 2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-16x^5 + 44x^4 - 16x^3 - 30x^2 + 10x + 6$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-16*x^5+44*x^4-16*x^3-30*x^2+10*x+6",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Multiply two factors first, then distribute the remaining factor and combine like terms. The result is $-16x^5 + 44x^4 - 16x^3 - 30x^2 + 10x + 6$.",
+    "complexity_factor": 1.4,
+    "source_section": "18.2",
+    "tags": [
+      "polynomials",
+      "multiplication",
+      "multiple_factors"
+    ],
+    "checksum": "sha256-34abe46a89ba97e7db8b41b95c1d9407f928dc74bb77a735c84613216cf0c5d2",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.multiplication.hard.0025",
+    "topic_id": "ch18.multiplication",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "What is the coefficient of $x^3$ in $\\left(x^2 - 3x + 4\\right)\\left(x^3 - 2x^2 - 3x - 2\\right)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$-7$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add the products of coefficient pairs whose powers sum to 3. In the expanded product $x^5 - 5x^4 + 7x^3 - x^2 - 6x - 8$, the coefficient of $x^3$ is $7$.",
+    "complexity_factor": 1.35,
+    "source_section": "18.2",
+    "tags": [
+      "polynomials",
+      "multiplication",
+      "coefficient"
+    ],
+    "checksum": "sha256-4b296364fd0982a08fa08aaff50737a1429b44d3def089d35b695c908efa30e2",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.multiplication.hard.0026",
+    "topic_id": "ch18.multiplication",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Expand fully: $\\left(-4x^2 - 2x - 3\\right)\\left(4x^2 - x - 3\\right)\\left(x - 3\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-16x^5 + 44x^4 + 14x^3 + 3x^2 + 18x - 27$"
+      },
+      {
+        "id": "b",
+        "latex": "$-16x^4 - 4x^3 + 2x^2 + 9x + 9$"
+      },
+      {
+        "id": "c",
+        "latex": "$-16x^4 - 4x^3 + 2x^2 + 10x + 6$"
+      },
+      {
+        "id": "d",
+        "latex": "$-16x^5 + 44x^4 + 14x^3 + 3x^2 - 18x - 27$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-16*x^5+44*x^4+14*x^3+3*x^2-18*x-27",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Multiply two factors first, then distribute the remaining factor and combine like terms. The result is $-16x^5 + 44x^4 + 14x^3 + 3x^2 - 18x - 27$.",
+    "complexity_factor": 1.4,
+    "source_section": "18.2",
+    "tags": [
+      "polynomials",
+      "multiplication",
+      "multiple_factors"
+    ],
+    "checksum": "sha256-9ede9e208fdb2a95d26ff4d3eafb491dc2a7e2f5666f0b8556d96a302c672235",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.multiplication.hard.0027",
+    "topic_id": "ch18.multiplication",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "What is the coefficient of $x^2$ in $\\left(-3x^2 - 4x - 4\\right)\\left(-3x^3 - 2x^2 + 2x + 4\\right)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-24$"
+      },
+      {
+        "id": "b",
+        "latex": "$-5$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$-12$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add the products of coefficient pairs whose powers sum to 2. In the expanded product $9x^5 + 18x^4 + 14x^3 - 12x^2 - 24x - 16$, the coefficient of $x^2$ is $-12$.",
+    "complexity_factor": 1.35,
+    "source_section": "18.2",
+    "tags": [
+      "polynomials",
+      "multiplication",
+      "coefficient"
+    ],
+    "checksum": "sha256-bb0b0e836831920eab9a456744e79d479776babf65ba6a7b84228306ab31381a",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.multiplication.hard.0028",
+    "topic_id": "ch18.multiplication",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Expand fully: $\\left(2x^2 + 2x - 2\\right)\\left(-4x^2 + 3x + 1\\right)\\left(2x + 3\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-16x^5 - 28x^4 - 26x^3 + 40x^2 - 16x - 6$"
+      },
+      {
+        "id": "b",
+        "latex": "$-8x^4 - 2x^3 + 16x^2 - 2x + 1$"
+      },
+      {
+        "id": "c",
+        "latex": "$-16x^5 - 28x^4 + 26x^3 + 40x^2 - 16x - 6$"
+      },
+      {
+        "id": "d",
+        "latex": "$-8x^4 - 2x^3 + 16x^2 - 4x - 2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-16*x^5-28*x^4+26*x^3+40*x^2-16*x-6",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Multiply two factors first, then distribute the remaining factor and combine like terms. The result is $-16x^5 - 28x^4 + 26x^3 + 40x^2 - 16x - 6$.",
+    "complexity_factor": 1.4,
+    "source_section": "18.2",
+    "tags": [
+      "polynomials",
+      "multiplication",
+      "multiple_factors"
+    ],
+    "checksum": "sha256-ddfd331a7b89e57065a6019dd2b2dd1fb20d4ebaeb287e36837482f62766a460",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.multiplication.hard.0029",
+    "topic_id": "ch18.multiplication",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "What is the coefficient of $x^3$ in $\\left(-x^2 - x + 2\\right)\\left(x^3 + 3x^2 + 3x + 4\\right)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add the products of coefficient pairs whose powers sum to 3. In the expanded product $-x^5 - 4x^4 - 4x^3 - x^2 + 2x + 8$, the coefficient of $x^3$ is $-4$.",
+    "complexity_factor": 1.35,
+    "source_section": "18.2",
+    "tags": [
+      "polynomials",
+      "multiplication",
+      "coefficient"
+    ],
+    "checksum": "sha256-1a18c031f428f05ea0ba03972b152ca5ea1bd0df0b298b27654a8c46d7b40158",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.multiplication.hard.0030",
+    "topic_id": "ch18.multiplication",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Expand fully: $\\left(-4x^2 + 2x - 3\\right)\\left(-x^2 + x - 3\\right)\\left(-3x + 5\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-12x^5 + 38x^4 - 81x^3 + 112x^2 - 72x - 45$"
+      },
+      {
+        "id": "b",
+        "latex": "$-12x^5 + 38x^4 - 81x^3 + 112x^2 - 72x + 45$"
+      },
+      {
+        "id": "c",
+        "latex": "$4x^4 - 6x^3 + 17x^2 - 9x + 9$"
+      },
+      {
+        "id": "d",
+        "latex": "$4x^4 - 6x^3 + 17x^2 - 12x + 14$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-12*x^5+38*x^4-81*x^3+112*x^2-72*x+45",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Multiply two factors first, then distribute the remaining factor and combine like terms. The result is $-12x^5 + 38x^4 - 81x^3 + 112x^2 - 72x + 45$.",
+    "complexity_factor": 1.4,
+    "source_section": "18.2",
+    "tags": [
+      "polynomials",
+      "multiplication",
+      "multiple_factors"
+    ],
+    "checksum": "sha256-59a3426be30f59d32c1c7bca75a4fae4a8b59fdc062b1b4fa441dcd324be74db",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.multiplication.hard.0031",
+    "topic_id": "ch18.multiplication",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "What is the coefficient of $x^3$ in $\\left(4x^2 - 4x + 4\\right)\\left(4x^3 - 3x^2 - x + 2\\right)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$24$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$-24$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "24",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add the products of coefficient pairs whose powers sum to 3. In the expanded product $16x^5 - 28x^4 + 24x^3 - 12x + 8$, the coefficient of $x^3$ is $24$.",
+    "complexity_factor": 1.35,
+    "source_section": "18.2",
+    "tags": [
+      "polynomials",
+      "multiplication",
+      "coefficient"
+    ],
+    "checksum": "sha256-84b924dc7477c61906a6a10029ceb0ce1a84a3158e4487c03bb63b99c41c6eb7",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.multiplication.hard.0032",
+    "topic_id": "ch18.multiplication",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Expand fully: $\\left(x^2 - 2x - 2\\right)\\left(x^2 + 2x + 1\\right)\\left(5x - 1\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^4 - 5x^2 - 6x - 2$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^4 - 5x^2 - x - 3$"
+      },
+      {
+        "id": "c",
+        "latex": "$5x^5 + x^4 - 25x^3 - 25x^2 - 4x + 2$"
+      },
+      {
+        "id": "d",
+        "latex": "$5x^5 - x^4 - 25x^3 - 25x^2 - 4x + 2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "5*x^5-x^4-25*x^3-25*x^2-4*x+2",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Multiply two factors first, then distribute the remaining factor and combine like terms. The result is $5x^5 - x^4 - 25x^3 - 25x^2 - 4x + 2$.",
+    "complexity_factor": 1.4,
+    "source_section": "18.2",
+    "tags": [
+      "polynomials",
+      "multiplication",
+      "multiple_factors"
+    ],
+    "checksum": "sha256-c4515da9359f34f34c6cbd1c5cf0f18c176b5e500d4d8a55f1af8c52611a81a3",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.multiplication.hard.0033",
+    "topic_id": "ch18.multiplication",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "What is the coefficient of $x^3$ in $\\left(2x^2 + 2x + 5\\right)\\left(-x^3 + 3x^2 - 3x + 1\\right)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$-5$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add the products of coefficient pairs whose powers sum to 3. In the expanded product $-2x^5 + 4x^4 - 5x^3 + 11x^2 - 13x + 5$, the coefficient of $x^3$ is $-5$.",
+    "complexity_factor": 1.35,
+    "source_section": "18.2",
+    "tags": [
+      "polynomials",
+      "multiplication",
+      "coefficient"
+    ],
+    "checksum": "sha256-e00f71a2818854d93fe2421fb9b586e24f45fec60dbf3e4fca86080044c9ab49",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.multiplication.hard.0034",
+    "topic_id": "ch18.multiplication",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Expand fully: $\\left(-x^2 + x + 1\\right)\\left(-3x^2 - 3x + 1\\right)\\left(-3x - 1\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3x^4 - 7x^2 - 2x + 1$"
+      },
+      {
+        "id": "b",
+        "latex": "$-9x^5 - 3x^4 + 21x^3 + 13x^2 + x - 1$"
+      },
+      {
+        "id": "c",
+        "latex": "$3x^4 - 7x^2 - 5x$"
+      },
+      {
+        "id": "d",
+        "latex": "$-9x^5 - 3x^4 + 21x^3 + 13x^2 - x - 1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-9*x^5-3*x^4+21*x^3+13*x^2-x-1",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Multiply two factors first, then distribute the remaining factor and combine like terms. The result is $-9x^5 - 3x^4 + 21x^3 + 13x^2 - x - 1$.",
+    "complexity_factor": 1.4,
+    "source_section": "18.2",
+    "tags": [
+      "polynomials",
+      "multiplication",
+      "multiple_factors"
+    ],
+    "checksum": "sha256-f41263797b9c6e5c1c918c9d175d3c123d0988698235b55c6e53699256566f22",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.multiplication.hard.0035",
+    "topic_id": "ch18.multiplication",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "What is the coefficient of $x^2$ in $\\left(-x^2 - x + 2\\right)\\left(2x^3 + x^2 - x - 2\\right)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$-5$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add the products of coefficient pairs whose powers sum to 2. In the expanded product $-2x^5 - 3x^4 + 4x^3 + 5x^2 - 4$, the coefficient of $x^2$ is $5$.",
+    "complexity_factor": 1.35,
+    "source_section": "18.2",
+    "tags": [
+      "polynomials",
+      "multiplication",
+      "coefficient"
+    ],
+    "checksum": "sha256-6f8efb064e81506d80c73043c1c7518113bded7c3c9e06d5467b80eeb646f066",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.multiplication.hard.0036",
+    "topic_id": "ch18.multiplication",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Expand fully: $\\left(5x^2 + 4x + 1\\right)\\left(4x^2 + 2x + 5\\right)\\left(2x + 4\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$40x^5 + 132x^4 + 178x^3 + 192x^2 - 98x + 20$"
+      },
+      {
+        "id": "b",
+        "latex": "$40x^5 + 132x^4 + 178x^3 + 192x^2 + 98x + 20$"
+      },
+      {
+        "id": "c",
+        "latex": "$20x^4 + 26x^3 + 37x^2 + 22x + 5$"
+      },
+      {
+        "id": "d",
+        "latex": "$20x^4 + 26x^3 + 37x^2 + 24x + 9$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "40*x^5+132*x^4+178*x^3+192*x^2+98*x+20",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Multiply two factors first, then distribute the remaining factor and combine like terms. The result is $40x^5 + 132x^4 + 178x^3 + 192x^2 + 98x + 20$.",
+    "complexity_factor": 1.4,
+    "source_section": "18.2",
+    "tags": [
+      "polynomials",
+      "multiplication",
+      "multiple_factors"
+    ],
+    "checksum": "sha256-27be91c2cbc19e54d58cd36c1e855e75cddf90780e92c0e879948dc2f104f84e",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.multiplication.hard.0037",
+    "topic_id": "ch18.multiplication",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "What is the coefficient of $x^4$ in $\\left(-x^2 - 3x + 1\\right)\\left(2x^3 - x^2 - 3x - 3\\right)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$-5$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add the products of coefficient pairs whose powers sum to 4. In the expanded product $-2x^5 - 5x^4 + 8x^3 + 11x^2 + 6x - 3$, the coefficient of $x^4$ is $-5$.",
+    "complexity_factor": 1.35,
+    "source_section": "18.2",
+    "tags": [
+      "polynomials",
+      "multiplication",
+      "coefficient"
+    ],
+    "checksum": "sha256-f66793ba9d4f927a3deb4553b4828a4833c7133cee4309c72a90613bdb53c023",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.multiplication.hard.0038",
+    "topic_id": "ch18.multiplication",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Expand fully: $\\left(2x^2 + 4x + 2\\right)\\left(5x^2 - 4x + 5\\right)\\left(3x - 1\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10x^4 + 12x^3 + 4x^2 + 12x + 10$"
+      },
+      {
+        "id": "b",
+        "latex": "$30x^5 + 26x^4 + 32x^2 + 18x - 10$"
+      },
+      {
+        "id": "c",
+        "latex": "$30x^5 + 26x^4 - 32x^2 + 18x - 10$"
+      },
+      {
+        "id": "d",
+        "latex": "$10x^4 + 12x^3 + 4x^2 + 15x + 9$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "30*x^5+26*x^4+32*x^2+18*x-10",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Multiply two factors first, then distribute the remaining factor and combine like terms. The result is $30x^5 + 26x^4 + 32x^2 + 18x - 10$.",
+    "complexity_factor": 1.4,
+    "source_section": "18.2",
+    "tags": [
+      "polynomials",
+      "multiplication",
+      "multiple_factors"
+    ],
+    "checksum": "sha256-186c0ecfd54c94b035adf18933c85bbe637a0112c0ef7d999d5f8e50b421086c",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.multiplication.hard.0039",
+    "topic_id": "ch18.multiplication",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "What is the coefficient of $x^3$ in $\\left(5x^2 - 4x - 1\\right)\\left(2x^3 - 2x^2 + 4x + 1\\right)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-26$"
+      },
+      {
+        "id": "b",
+        "latex": "$-9$"
+      },
+      {
+        "id": "c",
+        "latex": "$26$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "26",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add the products of coefficient pairs whose powers sum to 3. In the expanded product $10x^5 - 18x^4 + 26x^3 - 9x^2 - 8x - 1$, the coefficient of $x^3$ is $26$.",
+    "complexity_factor": 1.35,
+    "source_section": "18.2",
+    "tags": [
+      "polynomials",
+      "multiplication",
+      "coefficient"
+    ],
+    "checksum": "sha256-059a81bb4d98368ef8105c7c1309e8358c49b892f391600fca2e0d662c9e07af",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.multiplication.hard.0040",
+    "topic_id": "ch18.multiplication",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Expand fully: $\\left(5x^2 + x - 3\\right)\\left(-x^2 + x + 1\\right)\\left(5x - 2\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-25x^5 + 30x^4 + 37x^3 - 28x^2 + 11x + 6$"
+      },
+      {
+        "id": "b",
+        "latex": "$-25x^5 + 30x^4 + 37x^3 - 28x^2 - 11x + 6$"
+      },
+      {
+        "id": "c",
+        "latex": "$-5x^4 + 4x^3 + 9x^2 + 3x - 5$"
+      },
+      {
+        "id": "d",
+        "latex": "$-5x^4 + 4x^3 + 9x^2 - 2x - 3$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-25*x^5+30*x^4+37*x^3-28*x^2-11*x+6",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Multiply two factors first, then distribute the remaining factor and combine like terms. The result is $-25x^5 + 30x^4 + 37x^3 - 28x^2 - 11x + 6$.",
+    "complexity_factor": 1.4,
+    "source_section": "18.2",
+    "tags": [
+      "polynomials",
+      "multiplication",
+      "multiple_factors"
+    ],
+    "checksum": "sha256-6e4373d33cca735fe0463fd8517fd38bab7eaf1cd4fa89b8668a9073770a82a0",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.multiplication.hard.0041",
+    "topic_id": "ch18.multiplication",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "What is the coefficient of $x^2$ in $\\left(3x^2 - 2x + 5\\right)\\left(2x^3 - 2x^2 - 3x - 2\\right)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-11$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$-10$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add the products of coefficient pairs whose powers sum to 2. In the expanded product $6x^5 - 10x^4 + 5x^3 - 10x^2 - 11x - 10$, the coefficient of $x^2$ is $-10$.",
+    "complexity_factor": 1.35,
+    "source_section": "18.2",
+    "tags": [
+      "polynomials",
+      "multiplication",
+      "coefficient"
+    ],
+    "checksum": "sha256-aeb7ef3ed9a7b8f45d14e3458f13926d75b7d4e20f169e35b8905c4998e4585b",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.multiplication.hard.0042",
+    "topic_id": "ch18.multiplication",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Expand fully: $\\left(4x^2 + 5x - 2\\right)\\left(2x^2 + x + 4\\right)\\left(4x - 5\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$32x^5 + 16x^4 - 2x^3 - 13x^2 - 122x + 40$"
+      },
+      {
+        "id": "b",
+        "latex": "$8x^4 + 14x^3 + 17x^2 + 22x - 13$"
+      },
+      {
+        "id": "c",
+        "latex": "$8x^4 + 14x^3 + 17x^2 + 18x - 8$"
+      },
+      {
+        "id": "d",
+        "latex": "$32x^5 - 16x^4 - 2x^3 - 13x^2 - 122x + 40$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "32*x^5+16*x^4-2*x^3-13*x^2-122*x+40",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Multiply two factors first, then distribute the remaining factor and combine like terms. The result is $32x^5 + 16x^4 - 2x^3 - 13x^2 - 122x + 40$.",
+    "complexity_factor": 1.4,
+    "source_section": "18.2",
+    "tags": [
+      "polynomials",
+      "multiplication",
+      "multiple_factors"
+    ],
+    "checksum": "sha256-2fcdc496cf298bcda41792ca2d566633ced295072cd706d026fc5942299ab639",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.multiplication.hard.0043",
+    "topic_id": "ch18.multiplication",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "What is the coefficient of $x^4$ in $\\left(-x^2 + x + 2\\right)\\left(4x^3 - x^2 + 2x - 3\\right)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$-5$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add the products of coefficient pairs whose powers sum to 4. In the expanded product $-4x^5 + 5x^4 + 5x^3 + 3x^2 + x - 6$, the coefficient of $x^4$ is $5$.",
+    "complexity_factor": 1.35,
+    "source_section": "18.2",
+    "tags": [
+      "polynomials",
+      "multiplication",
+      "coefficient"
+    ],
+    "checksum": "sha256-1442c6270f8c37fb017b463948692cddaed7cda5293ef6dccab82a36ec544e93",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.multiplication.hard.0044",
+    "topic_id": "ch18.multiplication",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Expand fully: $\\left(2x^2 - 2x - 3\\right)\\left(-4x^2 + x - 2\\right)\\left(x + 6\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-8x^4 + 10x^3 + 6x^2 + 2x + 12$"
+      },
+      {
+        "id": "b",
+        "latex": "$-8x^4 + 10x^3 + 6x^2 + x + 6$"
+      },
+      {
+        "id": "c",
+        "latex": "$-8x^5 - 38x^4 + 66x^3 - 37x^2 + 12x + 36$"
+      },
+      {
+        "id": "d",
+        "latex": "$-8x^5 - 38x^4 + 66x^3 + 37x^2 + 12x + 36$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-8*x^5-38*x^4+66*x^3+37*x^2+12*x+36",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Multiply two factors first, then distribute the remaining factor and combine like terms. The result is $-8x^5 - 38x^4 + 66x^3 + 37x^2 + 12x + 36$.",
+    "complexity_factor": 1.4,
+    "source_section": "18.2",
+    "tags": [
+      "polynomials",
+      "multiplication",
+      "multiple_factors"
+    ],
+    "checksum": "sha256-040ee94f96a2391c1e459cca276bb918dd8480073f025bb8f2d003111b84cbae",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.multiplication.hard.0045",
+    "topic_id": "ch18.multiplication",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "What is the coefficient of $x^2$ in $\\left(3x^2 - 4x - 1\\right)\\left(-3x^3 - 3x^2 + 3x + 2\\right)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-11$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add the products of coefficient pairs whose powers sum to 2. In the expanded product $-9x^5 + 3x^4 + 24x^3 - 3x^2 - 11x - 2$, the coefficient of $x^2$ is $-3$.",
+    "complexity_factor": 1.35,
+    "source_section": "18.2",
+    "tags": [
+      "polynomials",
+      "multiplication",
+      "coefficient"
+    ],
+    "checksum": "sha256-4879b338b6d0712d9b5357cfadea2d3b25ebd1f076218ab0a41ae3169ec03fc4",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.multiplication.hard.0046",
+    "topic_id": "ch18.multiplication",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Expand fully: $\\left(4x^2 + 5x - 2\\right)\\left(x^2 - 2x - 2\\right)\\left(6x + 2\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4x^4 - 3x^3 - 20x^2 - 6x + 4$"
+      },
+      {
+        "id": "b",
+        "latex": "$24x^5 + 10x^4 - 126x^3 - 76x^2 + 12x + 8$"
+      },
+      {
+        "id": "c",
+        "latex": "$4x^4 - 3x^3 - 20x^2 + 6$"
+      },
+      {
+        "id": "d",
+        "latex": "$24x^5 - 10x^4 - 126x^3 - 76x^2 + 12x + 8$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "24*x^5-10*x^4-126*x^3-76*x^2+12*x+8",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Multiply two factors first, then distribute the remaining factor and combine like terms. The result is $24x^5 - 10x^4 - 126x^3 - 76x^2 + 12x + 8$.",
+    "complexity_factor": 1.4,
+    "source_section": "18.2",
+    "tags": [
+      "polynomials",
+      "multiplication",
+      "multiple_factors"
+    ],
+    "checksum": "sha256-26374cdae20033bcf1c6d5dac64d43cd2f1580b9ea9fd15949e6d03688b7d8e0",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.multiplication.hard.0047",
+    "topic_id": "ch18.multiplication",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "What is the coefficient of $x^3$ in $\\left(x^2 - x + 3\\right)\\left(-3x^3 + 2x^2 - x - 2\\right)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$-12$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add the products of coefficient pairs whose powers sum to 3. In the expanded product $-3x^5 + 5x^4 - 12x^3 + 5x^2 - x - 6$, the coefficient of $x^3$ is $-12$.",
+    "complexity_factor": 1.35,
+    "source_section": "18.2",
+    "tags": [
+      "polynomials",
+      "multiplication",
+      "coefficient"
+    ],
+    "checksum": "sha256-eec2b087f1300f3309a916386e902738851e841fc8227c827e71e1072640c0f2",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.multiplication.hard.0048",
+    "topic_id": "ch18.multiplication",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Expand fully: $\\left(2x^2 + 5x + 3\\right)\\left(-x^2 + 4x - 1\\right)\\left(x - 2\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2x^5 + 7x^4 + 9x^3 - 23x^2 - 17x + 6$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2x^4 + 3x^3 + 15x^2 + 7x - 3$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2x^5 + 7x^4 + 9x^3 - 23x^2 + 17x + 6$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2x^4 + 3x^3 + 15x^2 + 8x - 5$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-2*x^5+7*x^4+9*x^3-23*x^2-17*x+6",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Multiply two factors first, then distribute the remaining factor and combine like terms. The result is $-2x^5 + 7x^4 + 9x^3 - 23x^2 - 17x + 6$.",
+    "complexity_factor": 1.4,
+    "source_section": "18.2",
+    "tags": [
+      "polynomials",
+      "multiplication",
+      "multiple_factors"
+    ],
+    "checksum": "sha256-743b2faf6b65177c08aeb9ca08f78573b61744f4c2147d1553c1f575067075db",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.multiplication.hard.0049",
+    "topic_id": "ch18.multiplication",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "What is the coefficient of $x^4$ in $\\left(3x^2 - 2x + 4\\right)\\left(-3x^3 + 4x^2 - x - 1\\right)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$-23$"
+      },
+      {
+        "id": "c",
+        "latex": "$18$"
+      },
+      {
+        "id": "d",
+        "latex": "$-18$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "18",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add the products of coefficient pairs whose powers sum to 4. In the expanded product $-9x^5 + 18x^4 - 23x^3 + 15x^2 - 2x - 4$, the coefficient of $x^4$ is $18$.",
+    "complexity_factor": 1.35,
+    "source_section": "18.2",
+    "tags": [
+      "polynomials",
+      "multiplication",
+      "coefficient"
+    ],
+    "checksum": "sha256-19ff748416febd55d996f7fee54ccde85002d4b9c2c62c4e1c13d611d84ede62",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.multiplication.hard.0050",
+    "topic_id": "ch18.multiplication",
+    "group_id": "ch18_polynomials",
+    "difficulty": "hard",
+    "prompt_latex": "Expand fully: $\\left(2x^2 - 4x - 1\\right)\\left(4x^2 - x - 3\\right)\\left(2x - 4\\right)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8x^4 - 18x^3 - 6x^2 + 13x + 3$"
+      },
+      {
+        "id": "b",
+        "latex": "$16x^5 - 68x^4 - 60x^3 + 50x^2 - 46x - 12$"
+      },
+      {
+        "id": "c",
+        "latex": "$8x^4 - 18x^3 - 6x^2 + 15x - 1$"
+      },
+      {
+        "id": "d",
+        "latex": "$16x^5 - 68x^4 + 60x^3 + 50x^2 - 46x - 12$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "16*x^5-68*x^4+60*x^3+50*x^2-46*x-12",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Multiply two factors first, then distribute the remaining factor and combine like terms. The result is $16x^5 - 68x^4 + 60x^3 + 50x^2 - 46x - 12$.",
+    "complexity_factor": 1.4,
+    "source_section": "18.2",
+    "tags": [
+      "polynomials",
+      "multiplication",
+      "multiple_factors"
+    ],
+    "checksum": "sha256-133322f6fc746ac00ef85a0838ec8be717a110fadf263f722b15696b8711dbb2",
+    "status": "valid"
+  }
+]

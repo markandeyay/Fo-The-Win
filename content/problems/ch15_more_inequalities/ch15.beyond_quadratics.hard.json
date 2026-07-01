@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "ch15.beyond_quadratics.hard.0001",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $(x-3)^2(x+6) \\le 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-6]$"
+      },
+      {
+        "id": "b",
+        "latex": "$[-6,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$[3,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-\\infty,3]$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-\\infty,-6]",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The squared factor is never negative and is zero at $x=3$. The sign is controlled by (x+6), with zeros included only when allowed, so the solution is $(-\\infty,-6]$.",
+    "complexity_factor": 1.35,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "multiplicity"
+    ],
+    "checksum": "sha256-7fd245fd671768ecc00381486e3898eeb5bc37ebd3e59005f9a85918ad9ad224",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.hard.0002",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $(x+6)^2(x-6) > 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-6)\\cup(-6,6)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-\\infty,6)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-6,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(6,\\infty)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(6,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The squared factor is never negative and is zero at $x=-6$. The sign is controlled by (x-6), with zeros included only when allowed, so the solution is $(6,\\infty)$.",
+    "complexity_factor": 1.35,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "multiplicity"
+    ],
+    "checksum": "sha256-b7ba3e4acd5d054dccd48a1c474cae9a79cdebaf2e02d292e405f42aa0447dac",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.hard.0003",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $(x+3)^2(x+5) < 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-5,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-3,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-5,-3)\\cup(-3,\\infty)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-\\infty,-5)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The squared factor is never negative and is zero at $x=-3$. The sign is controlled by (x+5), with zeros included only when allowed, so the solution is $(-\\infty,-5)$.",
+    "complexity_factor": 1.35,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "multiplicity"
+    ],
+    "checksum": "sha256-bfe67618dae77211f0cbd61321b8e6279c42be1a5012e43eb556c4f402b1b813",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.hard.0004",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $(x+5)^2(x-1) \\ge 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,1]$"
+      },
+      {
+        "id": "b",
+        "latex": "$[1,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-5]$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-5,\\infty)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "[1,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The squared factor is never negative and is zero at $x=-5$. The sign is controlled by (x-1), with zeros included only when allowed, so the solution is $[1,\\infty)$.",
+    "complexity_factor": 1.35,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "multiplicity"
+    ],
+    "checksum": "sha256-f1d92e1963c20f51eabbfd936902b352bbe1cbf0f922260b1122986d75f712fb",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.hard.0005",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $(x-4)^2(x+5) \\le 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$[4,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$[-5,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-5]$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-\\infty,4]$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-\\infty,-5]",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The squared factor is never negative and is zero at $x=4$. The sign is controlled by (x+5), with zeros included only when allowed, so the solution is $(-\\infty,-5]$.",
+    "complexity_factor": 1.35,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "multiplicity"
+    ],
+    "checksum": "sha256-f28cdc9ce9229604a426d46cfdee4fff1733493800033732aeba6ef7de4c24c7",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.hard.0006",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $(x+5)^2(x-7) > 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,7)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-5,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-5)\\cup(-5,7)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(7,\\infty)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(7,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The squared factor is never negative and is zero at $x=-5$. The sign is controlled by (x-7), with zeros included only when allowed, so the solution is $(7,\\infty)$.",
+    "complexity_factor": 1.35,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "multiplicity"
+    ],
+    "checksum": "sha256-59de56af5f5be284f48700655570fc29607eed75650010c2a447f4c037353671",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.hard.0007",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $(x+1)^2(x+4) < 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-4,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-4,-1)\\cup(-1,\\infty)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-\\infty,-4)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The squared factor is never negative and is zero at $x=-1$. The sign is controlled by (x+4), with zeros included only when allowed, so the solution is $(-\\infty,-4)$.",
+    "complexity_factor": 1.35,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "multiplicity"
+    ],
+    "checksum": "sha256-e00303656af3085d3681790170d33978b024675bf1f3881c4836c27bc26ce90f",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.hard.0008",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $(x+4)^2(x-3) \\ge 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,3]$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-\\infty,-4]$"
+      },
+      {
+        "id": "c",
+        "latex": "$[3,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-4,\\infty)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "[3,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The squared factor is never negative and is zero at $x=-4$. The sign is controlled by (x-3), with zeros included only when allowed, so the solution is $[3,\\infty)$.",
+    "complexity_factor": 1.35,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "multiplicity"
+    ],
+    "checksum": "sha256-cd03412515e90f304f015c6e6b8bbca836412507d22126c177b94eaf68794ca7",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.hard.0009",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $(x-6)^2(x+4) \\le 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-4]$"
+      },
+      {
+        "id": "b",
+        "latex": "$[6,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$[-4,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-\\infty,6]$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-\\infty,-4]",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The squared factor is never negative and is zero at $x=6$. The sign is controlled by (x+4), with zeros included only when allowed, so the solution is $(-\\infty,-4]$.",
+    "complexity_factor": 1.35,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "multiplicity"
+    ],
+    "checksum": "sha256-183ff54ac631b4701fcd7a9248557e1b7a60c186f08ac292619a9f359c42c5b5",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.hard.0010",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $(x+3)^2(x+1) > 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-3)\\cup(-3,-1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,\\infty)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-1,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The squared factor is never negative and is zero at $x=-3$. The sign is controlled by (x+1), with zeros included only when allowed, so the solution is $(-1,\\infty)$.",
+    "complexity_factor": 1.35,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "multiplicity"
+    ],
+    "checksum": "sha256-fb23f85aaadcdf49c977a21c34cb701199ed82770bc22cee2809b7bc60858b4c",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.hard.0011",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $(x-3)^2(x+3) < 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-3,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-3,3)\\cup(3,\\infty)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-\\infty,-3)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The squared factor is never negative and is zero at $x=3$. The sign is controlled by (x+3), with zeros included only when allowed, so the solution is $(-\\infty,-3)$.",
+    "complexity_factor": 1.35,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "multiplicity"
+    ],
+    "checksum": "sha256-72a6a3d6c3d61d793c2df5ff2d17b0e3f3b810ae21c7b8380a3cceb4a7e3da3d",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.hard.0012",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $(x+3)^2(x-6) \\ge 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-3]$"
+      },
+      {
+        "id": "b",
+        "latex": "$[6,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,6]$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-3,\\infty)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "[6,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The squared factor is never negative and is zero at $x=-3$. The sign is controlled by (x-6), with zeros included only when allowed, so the solution is $[6,\\infty)$.",
+    "complexity_factor": 1.35,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "multiplicity"
+    ],
+    "checksum": "sha256-22e5d1332c754bcbfa8999082767ac6374d3068e6543b8b63f7fb438e1e330a4",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.hard.0013",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $(x-1)^2(x+2) \\le 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-2]$"
+      },
+      {
+        "id": "b",
+        "latex": "$[-2,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$[1,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-\\infty,1]$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-\\infty,-2]",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The squared factor is never negative and is zero at $x=1$. The sign is controlled by (x+2), with zeros included only when allowed, so the solution is $(-\\infty,-2]$.",
+    "complexity_factor": 1.35,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "multiplicity"
+    ],
+    "checksum": "sha256-386fe53df3704800c0483e9e92153427d9974d42e0241fcdf3bbc6f30eeba5d5",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.hard.0014",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $(x+2)^2(x-4) > 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-2)\\cup(-2,4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-\\infty,4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4,\\infty)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(4,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The squared factor is never negative and is zero at $x=-2$. The sign is controlled by (x-4), with zeros included only when allowed, so the solution is $(4,\\infty)$.",
+    "complexity_factor": 1.35,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "multiplicity"
+    ],
+    "checksum": "sha256-1cdeeae36bbfd441c99b199b12bf91fc1c4bc9062c16fa56444758919ac8e110",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.hard.0015",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $(x-7)^2(x+2) < 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-2,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(7,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2,7)\\cup(7,\\infty)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-\\infty,-2)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The squared factor is never negative and is zero at $x=7$. The sign is controlled by (x+2), with zeros included only when allowed, so the solution is $(-\\infty,-2)$.",
+    "complexity_factor": 1.35,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "multiplicity"
+    ],
+    "checksum": "sha256-2c546c90bd1f9c13594f1f1dbc8366f80a25600c4ee1221421db1942411813e1",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.hard.0016",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $(x+1)^2(x-3) \\ge 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,3]$"
+      },
+      {
+        "id": "b",
+        "latex": "$[3,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-1]$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-1,\\infty)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "[3,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The squared factor is never negative and is zero at $x=-1$. The sign is controlled by (x-3), with zeros included only when allowed, so the solution is $[3,\\infty)$.",
+    "complexity_factor": 1.35,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "multiplicity"
+    ],
+    "checksum": "sha256-75aafe9ef98b95b010f16e83fc2236af3f3aef7278c59b51b8331b801fbd18d2",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.hard.0017",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $(x-6)^2(x+1) \\le 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$[6,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$[-1,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-1]$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-\\infty,6]$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-\\infty,-1]",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The squared factor is never negative and is zero at $x=6$. The sign is controlled by (x+1), with zeros included only when allowed, so the solution is $(-\\infty,-1]$.",
+    "complexity_factor": 1.35,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "multiplicity"
+    ],
+    "checksum": "sha256-7ed2124da3611700f44f000be43e1c3582211a6a197a28803fcf8932bb2f7e0a",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.hard.0018",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $(x-1)^2(x-3) > 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,1)\\cup(1,3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3,\\infty)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(3,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The squared factor is never negative and is zero at $x=1$. The sign is controlled by (x-3), with zeros included only when allowed, so the solution is $(3,\\infty)$.",
+    "complexity_factor": 1.35,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "multiplicity"
+    ],
+    "checksum": "sha256-d1a6e6e0f8690a35c2377d753df3ae272775c67ec4d2f04f7c2c12a2a565d4ab",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.hard.0019",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $(x-6)^2(x-1) < 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(6,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1,6)\\cup(6,\\infty)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-\\infty,1)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The squared factor is never negative and is zero at $x=6$. The sign is controlled by (x-1), with zeros included only when allowed, so the solution is $(-\\infty,1)$.",
+    "complexity_factor": 1.35,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "multiplicity"
+    ],
+    "checksum": "sha256-abda1cee51f3cdb2e5df38a235d5806c87e6b8426719b1ac6ab983201793b89e",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.hard.0020",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $(x-2)^2(x-4) \\ge 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,4]$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-\\infty,2]$"
+      },
+      {
+        "id": "c",
+        "latex": "$[4,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[2,\\infty)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "[4,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The squared factor is never negative and is zero at $x=2$. The sign is controlled by (x-4), with zeros included only when allowed, so the solution is $[4,\\infty)$.",
+    "complexity_factor": 1.35,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "multiplicity"
+    ],
+    "checksum": "sha256-45530658dee95ef9f6e9507812469dfa4c6296ba125cf78ac5fadae60412f722",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.hard.0021",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $(x-7)^2(x-2) \\le 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,2]$"
+      },
+      {
+        "id": "b",
+        "latex": "$[7,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$[2,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-\\infty,7]$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-\\infty,2]",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The squared factor is never negative and is zero at $x=7$. The sign is controlled by (x-2), with zeros included only when allowed, so the solution is $(-\\infty,2]$.",
+    "complexity_factor": 1.35,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "multiplicity"
+    ],
+    "checksum": "sha256-d7fec3e96bcf26ee9a13f6a86881dc0c2d73ddb470d8be6ec41ce409f727e1bb",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.hard.0022",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $(x-3)^2(x-6) > 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,3)\\cup(3,6)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,6)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(6,\\infty)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(6,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The squared factor is never negative and is zero at $x=3$. The sign is controlled by (x-6), with zeros included only when allowed, so the solution is $(6,\\infty)$.",
+    "complexity_factor": 1.35,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "multiplicity"
+    ],
+    "checksum": "sha256-99d5262fa7f189791be58e44526ce866c8ccd75e8f0b8f7187e54737ac05d655",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.hard.0023",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $(x-6)^2(x-4) < 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(6,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4,6)\\cup(6,\\infty)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-\\infty,4)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The squared factor is never negative and is zero at $x=6$. The sign is controlled by (x-4), with zeros included only when allowed, so the solution is $(-\\infty,4)$.",
+    "complexity_factor": 1.35,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "multiplicity"
+    ],
+    "checksum": "sha256-e971e7a1d26186bba83654e198e539cf7add80c8ab65c3d993f32879e003acc1",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.hard.0024",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $(x-5)^2(x-7) \\ge 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,5]$"
+      },
+      {
+        "id": "b",
+        "latex": "$[7,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,7]$"
+      },
+      {
+        "id": "d",
+        "latex": "$[5,\\infty)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "[7,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The squared factor is never negative and is zero at $x=5$. The sign is controlled by (x-7), with zeros included only when allowed, so the solution is $[7,\\infty)$.",
+    "complexity_factor": 1.35,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "multiplicity"
+    ],
+    "checksum": "sha256-0d98e5d29ce92bb03e9a04161c3ab0f972cd3734ac82a76919707b1505794ded",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.hard.0025",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $(x+5)^2(x+7) \\le 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7]$"
+      },
+      {
+        "id": "b",
+        "latex": "$[-7,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$[-5,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-\\infty,-5]$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-\\infty,-7]",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The squared factor is never negative and is zero at $x=-5$. The sign is controlled by (x+7), with zeros included only when allowed, so the solution is $(-\\infty,-7]$.",
+    "complexity_factor": 1.35,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "multiplicity"
+    ],
+    "checksum": "sha256-e11e45150697758cb320b687d4269c73383343dee0838dcde9c3ba6e4d56087c",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.hard.0026",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $(x+7)^2(x+2) > 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7)\\cup(-7,-2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-\\infty,-2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-7,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2,\\infty)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-2,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The squared factor is never negative and is zero at $x=-7$. The sign is controlled by (x+2), with zeros included only when allowed, so the solution is $(-2,\\infty)$.",
+    "complexity_factor": 1.35,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "multiplicity"
+    ],
+    "checksum": "sha256-e9799ef49888a8e1b225fb8ff84a7ee4ccc04b4b9e43e323396b4ff3baa0b67e",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.hard.0027",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $(x-2)^2(x+7) < 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-7,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-7,2)\\cup(2,\\infty)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-\\infty,-7)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The squared factor is never negative and is zero at $x=2$. The sign is controlled by (x+7), with zeros included only when allowed, so the solution is $(-\\infty,-7)$.",
+    "complexity_factor": 1.35,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "multiplicity"
+    ],
+    "checksum": "sha256-25de675ab0b88d4d23cc390373c44c4afb6703b9255fc2ee87fd1eda47a0c471",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.hard.0028",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $(x+7)^2(x-5) \\ge 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,5]$"
+      },
+      {
+        "id": "b",
+        "latex": "$[5,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-7]$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,\\infty)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "[5,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The squared factor is never negative and is zero at $x=-7$. The sign is controlled by (x-5), with zeros included only when allowed, so the solution is $[5,\\infty)$.",
+    "complexity_factor": 1.35,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "multiplicity"
+    ],
+    "checksum": "sha256-d3cbd55519c1713696e211356551330da0f54e9318cb84b639786a6404266d0b",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.hard.0029",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $(x+5)^2(x+6) \\le 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$[-5,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$[-6,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-6]$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-\\infty,-5]$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-\\infty,-6]",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The squared factor is never negative and is zero at $x=-5$. The sign is controlled by (x+6), with zeros included only when allowed, so the solution is $(-\\infty,-6]$.",
+    "complexity_factor": 1.35,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "multiplicity"
+    ],
+    "checksum": "sha256-c8c4df0253866cdb51d2a3d731293aeb7adf1102ce8d37a92f75d91dea39dce3",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.hard.0030",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $(x+6)^2(x+2) > 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-6,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-6)\\cup(-6,-2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2,\\infty)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-2,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The squared factor is never negative and is zero at $x=-6$. The sign is controlled by (x+2), with zeros included only when allowed, so the solution is $(-2,\\infty)$.",
+    "complexity_factor": 1.35,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "multiplicity"
+    ],
+    "checksum": "sha256-d5f6996715d250bcc492e4c6961a23cdef68ad68cca148ef179172efd8e56fa1",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.hard.0031",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $(x-2)^2(x+6) < 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-6)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-6,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-6,2)\\cup(2,\\infty)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-\\infty,-6)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The squared factor is never negative and is zero at $x=2$. The sign is controlled by (x+6), with zeros included only when allowed, so the solution is $(-\\infty,-6)$.",
+    "complexity_factor": 1.35,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "multiplicity"
+    ],
+    "checksum": "sha256-3c279f115339854d1b994832827cd418a9bfeee8ad31569e0f332189af63ca01",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.hard.0032",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $(x+6)^2(x-5) \\ge 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,5]$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-\\infty,-6]$"
+      },
+      {
+        "id": "c",
+        "latex": "$[5,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-6,\\infty)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "[5,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The squared factor is never negative and is zero at $x=-6$. The sign is controlled by (x-5), with zeros included only when allowed, so the solution is $[5,\\infty)$.",
+    "complexity_factor": 1.35,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "multiplicity"
+    ],
+    "checksum": "sha256-e9037f0dfc81979c9f5af10467ef0a044905c53592f572c77da1efea4a19f4ae",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.hard.0033",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $(x+4)^2(x+5) \\le 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-5]$"
+      },
+      {
+        "id": "b",
+        "latex": "$[-4,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$[-5,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-\\infty,-4]$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-\\infty,-5]",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The squared factor is never negative and is zero at $x=-4$. The sign is controlled by (x+5), with zeros included only when allowed, so the solution is $(-\\infty,-5]$.",
+    "complexity_factor": 1.35,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "multiplicity"
+    ],
+    "checksum": "sha256-c2cf9f9ad3f667b9a06df1b69973888f9dcb19914b5ceab5af1938987c8f3615",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.hard.0034",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $(x+5)^2(x+1) > 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-5)\\cup(-5,-1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-5,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,\\infty)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-1,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The squared factor is never negative and is zero at $x=-5$. The sign is controlled by (x+1), with zeros included only when allowed, so the solution is $(-1,\\infty)$.",
+    "complexity_factor": 1.35,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "multiplicity"
+    ],
+    "checksum": "sha256-6f4a40225a13498e0b45338334f5e48faf242f8e44fafef94a97f17861455bbb",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.hard.0035",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $(x-3)^2(x+5) < 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-5,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-5,3)\\cup(3,\\infty)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-\\infty,-5)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The squared factor is never negative and is zero at $x=3$. The sign is controlled by (x+5), with zeros included only when allowed, so the solution is $(-\\infty,-5)$.",
+    "complexity_factor": 1.35,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "multiplicity"
+    ],
+    "checksum": "sha256-d3bf2c4c9f674f5b19a6932aae6b87eebc75eb04cee0630081ca9f10457581a0",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.hard.0036",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $(x+5)^2(x-6) \\ge 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-5]$"
+      },
+      {
+        "id": "b",
+        "latex": "$[6,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,6]$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-5,\\infty)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "[6,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The squared factor is never negative and is zero at $x=-5$. The sign is controlled by (x-6), with zeros included only when allowed, so the solution is $[6,\\infty)$.",
+    "complexity_factor": 1.35,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "multiplicity"
+    ],
+    "checksum": "sha256-6396671a32b2f6451e2e78f4efdb9c9560d403314561607158ee3cfc9b7277a2",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.hard.0037",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $(x+2)^2(x+4) \\le 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-4]$"
+      },
+      {
+        "id": "b",
+        "latex": "$[-4,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$[-2,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-\\infty,-2]$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-\\infty,-4]",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The squared factor is never negative and is zero at $x=-2$. The sign is controlled by (x+4), with zeros included only when allowed, so the solution is $(-\\infty,-4]$.",
+    "complexity_factor": 1.35,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "multiplicity"
+    ],
+    "checksum": "sha256-9195efd7d5835ab8e58844849e7ecbd0ea0c2c16dee07bfb399672ef4e1fb9c6",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.hard.0038",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $(x+4)^2(x-2) > 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-4)\\cup(-4,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-\\infty,2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-4,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,\\infty)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(2,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The squared factor is never negative and is zero at $x=-4$. The sign is controlled by (x-2), with zeros included only when allowed, so the solution is $(2,\\infty)$.",
+    "complexity_factor": 1.35,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "multiplicity"
+    ],
+    "checksum": "sha256-191658a403b0af112ca627f3bff5ab8ea276f812c8aed5ae508fb0f62319ceab",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.hard.0039",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $(x-5)^2(x+4) < 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-4,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(5,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-4,5)\\cup(5,\\infty)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-\\infty,-4)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The squared factor is never negative and is zero at $x=5$. The sign is controlled by (x+4), with zeros included only when allowed, so the solution is $(-\\infty,-4)$.",
+    "complexity_factor": 1.35,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "multiplicity"
+    ],
+    "checksum": "sha256-0f3ea0fa49ee424a2b142944239adfa7454803203c16e5b009c4a09b595def89",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.hard.0040",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $(x+3)^2(x+2) \\ge 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-2]$"
+      },
+      {
+        "id": "b",
+        "latex": "$[-2,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-3]$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-3,\\infty)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "[-2,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The squared factor is never negative and is zero at $x=-3$. The sign is controlled by (x+2), with zeros included only when allowed, so the solution is $[-2,\\infty)$.",
+    "complexity_factor": 1.35,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "multiplicity"
+    ],
+    "checksum": "sha256-fca50016f17fed642f837ae0573347a052ab3033ec78a042f3c9bcecd926322f",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.hard.0041",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $(x-2)^2(x+3) \\le 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$[2,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$[-3,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-3]$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-\\infty,2]$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-\\infty,-3]",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The squared factor is never negative and is zero at $x=2$. The sign is controlled by (x+3), with zeros included only when allowed, so the solution is $(-\\infty,-3]$.",
+    "complexity_factor": 1.35,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "multiplicity"
+    ],
+    "checksum": "sha256-ceb6aa6bc51463d48dfd34ee23d78166256859c47b8213616cdbf13313a716cd",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.hard.0042",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $(x+3)^2(x-5) > 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-3)\\cup(-3,5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(5,\\infty)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(5,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The squared factor is never negative and is zero at $x=-3$. The sign is controlled by (x-5), with zeros included only when allowed, so the solution is $(5,\\infty)$.",
+    "complexity_factor": 1.35,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "multiplicity"
+    ],
+    "checksum": "sha256-12657758779dbd9320ad2762b5bc3a723c725ad5e95bed57f10f5b5637f6173a",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.hard.0043",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $(x+1)^2(x+2) < 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2,-1)\\cup(-1,\\infty)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-\\infty,-2)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The squared factor is never negative and is zero at $x=-1$. The sign is controlled by (x+2), with zeros included only when allowed, so the solution is $(-\\infty,-2)$.",
+    "complexity_factor": 1.35,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "multiplicity"
+    ],
+    "checksum": "sha256-2faefb63c08059728bf008c120df25e199b2544b2783b052bab426c29f3dc071",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.hard.0044",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $(x+2)^2(x-3) \\ge 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,3]$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-\\infty,-2]$"
+      },
+      {
+        "id": "c",
+        "latex": "$[3,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-2,\\infty)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "[3,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The squared factor is never negative and is zero at $x=-2$. The sign is controlled by (x-3), with zeros included only when allowed, so the solution is $[3,\\infty)$.",
+    "complexity_factor": 1.35,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "multiplicity"
+    ],
+    "checksum": "sha256-1c75f2fd641afd87243f6b62a15796f962b5d7dbe6c56d7ae696a0591210eb2f",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.hard.0045",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $(x-6)^2(x+2) \\le 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-2]$"
+      },
+      {
+        "id": "b",
+        "latex": "$[6,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$[-2,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-\\infty,6]$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-\\infty,-2]",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The squared factor is never negative and is zero at $x=6$. The sign is controlled by (x+2), with zeros included only when allowed, so the solution is $(-\\infty,-2]$.",
+    "complexity_factor": 1.35,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "multiplicity"
+    ],
+    "checksum": "sha256-0d24bc06093d4b7d022c6a36d68122fc0b46dced73e9a9763cef6c63e0537611",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.hard.0046",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $(x+1)^2(x-2) > 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-1)\\cup(-1,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,\\infty)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(2,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The squared factor is never negative and is zero at $x=-1$. The sign is controlled by (x-2), with zeros included only when allowed, so the solution is $(2,\\infty)$.",
+    "complexity_factor": 1.35,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "multiplicity"
+    ],
+    "checksum": "sha256-178c87b5e890227135ca762612a3ec1cb427ea4f48d4d0595608abc72434f32f",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.hard.0047",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $(x-5)^2(x+1) < 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(5,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,5)\\cup(5,\\infty)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-\\infty,-1)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The squared factor is never negative and is zero at $x=5$. The sign is controlled by (x+1), with zeros included only when allowed, so the solution is $(-\\infty,-1)$.",
+    "complexity_factor": 1.35,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "multiplicity"
+    ],
+    "checksum": "sha256-8c0f5835c16e0d431afcfcbf28878272b368c7a6da408271811b1fe05c443d4f",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.hard.0048",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $(x-1)^2(x-2) \\ge 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,1]$"
+      },
+      {
+        "id": "b",
+        "latex": "$[2,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,2]$"
+      },
+      {
+        "id": "d",
+        "latex": "$[1,\\infty)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "[2,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The squared factor is never negative and is zero at $x=1$. The sign is controlled by (x-2), with zeros included only when allowed, so the solution is $[2,\\infty)$.",
+    "complexity_factor": 1.35,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "multiplicity"
+    ],
+    "checksum": "sha256-d519ca4e5eac699d3ca438f68113fda7aa6ab77e5c83f2b591c83ad900af7a4b",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.hard.0049",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $(x-5)^2(x-1) \\le 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,1]$"
+      },
+      {
+        "id": "b",
+        "latex": "$[1,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$[5,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-\\infty,5]$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-\\infty,1]",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The squared factor is never negative and is zero at $x=5$. The sign is controlled by (x-1), with zeros included only when allowed, so the solution is $(-\\infty,1]$.",
+    "complexity_factor": 1.35,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "multiplicity"
+    ],
+    "checksum": "sha256-8e719163ba83027837b8cb964080f295687c6b7301e72cb5c477dc3fa343868e",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.hard.0050",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $(x-2)^2(x-3) > 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,2)\\cup(2,3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-\\infty,3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3,\\infty)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(3,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The squared factor is never negative and is zero at $x=2$. The sign is controlled by (x-3), with zeros included only when allowed, so the solution is $(3,\\infty)$.",
+    "complexity_factor": 1.35,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "multiplicity"
+    ],
+    "checksum": "sha256-ccd8a4262c2281ca15e8d094310762af252ab73ea2acb26af46d892e1ad4fca8",
+    "status": "valid"
+  }
+]

@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "ch21.geometric_sequences.medium.0001",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "In a geometric sequence, $a_{2}=3$ and $a_{4}=27$. The common ratio is an integer. Find $a_{5}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$243$"
+      },
+      {
+        "id": "b",
+        "latex": "$-81$"
+      },
+      {
+        "id": "c",
+        "latex": "$81$"
+      },
+      {
+        "id": "d",
+        "latex": "$30$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "81",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since the terms are two places apart, $r^2=9$, giving $r=3$. Then $a_{5}=3(3)^{3}=81$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "common-ratio"
+    ],
+    "checksum": "sha256-96cf8481b76a0e738d0015872c56629cf9b63d6431ac05f66ea73631d1831865",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.medium.0002",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "In a geometric sequence, $a_{3}=8$ and $a_{5}=32$. The common ratio is an integer. Find $a_{7}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$36$"
+      },
+      {
+        "id": "b",
+        "latex": "$256$"
+      },
+      {
+        "id": "c",
+        "latex": "$129$"
+      },
+      {
+        "id": "d",
+        "latex": "$128$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "128",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since the terms are two places apart, $r^2=4$, giving $r=2$. Then $a_{7}=8(2)^{4}=128$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "common-ratio"
+    ],
+    "checksum": "sha256-458a279f65772aac65751243c2bfb8eecc6bed5fdd664f091731c2e988f1ccb5",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.medium.0003",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "In a geometric sequence, $a_{4}=-81$ and $a_{6}=-729$. The common ratio is an integer. Find $a_{9}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$19683$"
+      },
+      {
+        "id": "b",
+        "latex": "$-738$"
+      },
+      {
+        "id": "c",
+        "latex": "$-59049$"
+      },
+      {
+        "id": "d",
+        "latex": "$-19683$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "19683",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since the terms are two places apart, $r^2=9$, giving $r=-3$. Then $a_{9}=-81(-3)^{5}=19683$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "common-ratio"
+    ],
+    "checksum": "sha256-d9b660a4c39aab89c14656301e7ce8d1ce61c4fb1ca1b741ee8a55e89caad87f",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.medium.0004",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "In a geometric sequence, $a_{2}=-8$ and $a_{4}=-32$. The common ratio is an integer. Find $a_{5}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-64$"
+      },
+      {
+        "id": "b",
+        "latex": "$64$"
+      },
+      {
+        "id": "c",
+        "latex": "$-34$"
+      },
+      {
+        "id": "d",
+        "latex": "$-128$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "64",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since the terms are two places apart, $r^2=4$, giving $r=-2$. Then $a_{5}=-8(-2)^{3}=64$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "common-ratio"
+    ],
+    "checksum": "sha256-390c0a7612af3a48ba29628f705dd08e910df2838e47f9e6fa3255cc41a3f310",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.medium.0005",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "In a geometric sequence, $a_{3}=45$ and $a_{5}=405$. The common ratio is an integer. Find $a_{7}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10935$"
+      },
+      {
+        "id": "b",
+        "latex": "$3646$"
+      },
+      {
+        "id": "c",
+        "latex": "$3645$"
+      },
+      {
+        "id": "d",
+        "latex": "$411$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3645",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since the terms are two places apart, $r^2=9$, giving $r=3$. Then $a_{7}=45(3)^{4}=3645$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "common-ratio"
+    ],
+    "checksum": "sha256-c14a8d1ea9490c83b2e83274af6c4a4206821d84407bbf9a29c9cffbf7286055",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.medium.0006",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "In a geometric sequence, $a_{4}=48$ and $a_{6}=192$. The common ratio is an integer. Find $a_{9}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$198$"
+      },
+      {
+        "id": "b",
+        "latex": "$3072$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1536$"
+      },
+      {
+        "id": "d",
+        "latex": "$1536$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1536",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since the terms are two places apart, $r^2=4$, giving $r=2$. Then $a_{9}=48(2)^{5}=1536$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "common-ratio"
+    ],
+    "checksum": "sha256-0179eaf8f58f94dfb1a1502cf133b9291f1aec2a6cee58b2874eaa8517874172",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.medium.0007",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "In a geometric sequence, $a_{2}=-21$ and $a_{4}=-189$. The common ratio is an integer. Find $a_{5}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$567$"
+      },
+      {
+        "id": "b",
+        "latex": "$-192$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1701$"
+      },
+      {
+        "id": "d",
+        "latex": "$-567$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "567",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since the terms are two places apart, $r^2=9$, giving $r=-3$. Then $a_{5}=-21(-3)^{3}=567$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "common-ratio"
+    ],
+    "checksum": "sha256-1e0d63453a3269874975d958c72d7e1d2de3a375ca8ab5382d6c2e73c57b85a7",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.medium.0008",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "In a geometric sequence, $a_{3}=32$ and $a_{5}=128$. The common ratio is an integer. Find $a_{7}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$513$"
+      },
+      {
+        "id": "b",
+        "latex": "$512$"
+      },
+      {
+        "id": "c",
+        "latex": "$124$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1024$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "512",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since the terms are two places apart, $r^2=4$, giving $r=-2$. Then $a_{7}=32(-2)^{4}=512$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "common-ratio"
+    ],
+    "checksum": "sha256-94afab6cecfcff7b004ec03fc535666f5bfca065c65d66e487d05462a44e081e",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.medium.0009",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "In a geometric sequence, $a_{4}=243$ and $a_{6}=2187$. The common ratio is an integer. Find $a_{9}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$177147$"
+      },
+      {
+        "id": "b",
+        "latex": "$-59049$"
+      },
+      {
+        "id": "c",
+        "latex": "$59049$"
+      },
+      {
+        "id": "d",
+        "latex": "$2196$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "59049",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since the terms are two places apart, $r^2=9$, giving $r=3$. Then $a_{9}=243(3)^{5}=59049$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "common-ratio"
+    ],
+    "checksum": "sha256-a39954c17aeca9960522dea5ddb998b77f70407ac84e464fecd217109df6b04b",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.medium.0010",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "In a geometric sequence, $a_{2}=20$ and $a_{4}=80$. The common ratio is an integer. Find $a_{5}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$82$"
+      },
+      {
+        "id": "b",
+        "latex": "$320$"
+      },
+      {
+        "id": "c",
+        "latex": "$-160$"
+      },
+      {
+        "id": "d",
+        "latex": "$160$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "160",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since the terms are two places apart, $r^2=4$, giving $r=2$. Then $a_{5}=20(2)^{3}=160$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "common-ratio"
+    ],
+    "checksum": "sha256-c2efcf85a9e71756b6cc2c5d3e13fb07735821fdaa53d28801ce8f11bed907d4",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.medium.0011",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "In a geometric sequence, $a_{3}=99$ and $a_{5}=891$. The common ratio is an integer. Find $a_{7}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8019$"
+      },
+      {
+        "id": "b",
+        "latex": "$885$"
+      },
+      {
+        "id": "c",
+        "latex": "$-24057$"
+      },
+      {
+        "id": "d",
+        "latex": "$8020$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "8019",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since the terms are two places apart, $r^2=9$, giving $r=-3$. Then $a_{7}=99(-3)^{4}=8019$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "common-ratio"
+    ],
+    "checksum": "sha256-6ebf2942fc90c326ce7c65c4ffe755a5d636447db3a557f477aef9603bcc9c7d",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.medium.0012",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "In a geometric sequence, $a_{4}=-96$ and $a_{6}=-384$. The common ratio is an integer. Find $a_{9}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3072$"
+      },
+      {
+        "id": "b",
+        "latex": "$3072$"
+      },
+      {
+        "id": "c",
+        "latex": "$-390$"
+      },
+      {
+        "id": "d",
+        "latex": "$-6144$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "3072",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since the terms are two places apart, $r^2=4$, giving $r=-2$. Then $a_{9}=-96(-2)^{5}=3072$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "common-ratio"
+    ],
+    "checksum": "sha256-9b062c011b7b5723d882e2935511f4f070dc92217cf66bac7566240173e5696b",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.medium.0013",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "In a geometric sequence, $a_{2}=39$ and $a_{4}=351$. The common ratio is an integer. Find $a_{5}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3159$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1053$"
+      },
+      {
+        "id": "c",
+        "latex": "$1053$"
+      },
+      {
+        "id": "d",
+        "latex": "$354$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "1053",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since the terms are two places apart, $r^2=9$, giving $r=3$. Then $a_{5}=39(3)^{3}=1053$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "common-ratio"
+    ],
+    "checksum": "sha256-b860758a4abc2b7c294ad191f0712a5939509a7ed77d71dc2f5f8e4467137686",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.medium.0014",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "In a geometric sequence, $a_{3}=56$ and $a_{5}=224$. The common ratio is an integer. Find $a_{7}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$228$"
+      },
+      {
+        "id": "b",
+        "latex": "$1792$"
+      },
+      {
+        "id": "c",
+        "latex": "$897$"
+      },
+      {
+        "id": "d",
+        "latex": "$896$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "896",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since the terms are two places apart, $r^2=4$, giving $r=2$. Then $a_{7}=56(2)^{4}=896$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "common-ratio"
+    ],
+    "checksum": "sha256-4e7e043e2ceebf872c09dead4ee67c8819856c210fca2ea7877c43e9402489de",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.medium.0015",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "In a geometric sequence, $a_{4}=-405$ and $a_{6}=-3645$. The common ratio is an integer. Find $a_{9}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$98415$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3654$"
+      },
+      {
+        "id": "c",
+        "latex": "$-295245$"
+      },
+      {
+        "id": "d",
+        "latex": "$-98415$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "98415",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since the terms are two places apart, $r^2=9$, giving $r=-3$. Then $a_{9}=-405(-3)^{5}=98415$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "common-ratio"
+    ],
+    "checksum": "sha256-a1b01c0401668c420001726bade444ef4837765a6d99ed006f76edb9e6f4dea2",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.medium.0016",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "In a geometric sequence, $a_{2}=-32$ and $a_{4}=-128$. The common ratio is an integer. Find $a_{5}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-256$"
+      },
+      {
+        "id": "b",
+        "latex": "$256$"
+      },
+      {
+        "id": "c",
+        "latex": "$-130$"
+      },
+      {
+        "id": "d",
+        "latex": "$-512$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "256",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since the terms are two places apart, $r^2=4$, giving $r=-2$. Then $a_{5}=-32(-2)^{3}=256$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "common-ratio"
+    ],
+    "checksum": "sha256-885dc0a1be482e1c78bfbd3ecafb33dc049dac16e73459ff05a0883400775258",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.medium.0017",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "In a geometric sequence, $a_{3}=153$ and $a_{5}=1377$. The common ratio is an integer. Find $a_{7}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$37179$"
+      },
+      {
+        "id": "b",
+        "latex": "$12394$"
+      },
+      {
+        "id": "c",
+        "latex": "$12393$"
+      },
+      {
+        "id": "d",
+        "latex": "$1383$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "12393",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since the terms are two places apart, $r^2=9$, giving $r=3$. Then $a_{7}=153(3)^{4}=12393$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "common-ratio"
+    ],
+    "checksum": "sha256-d1bc0d84c2743ad8be51bdc1b47419b2579cb0ffcd2b03d8520142da1cf7457d",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.medium.0018",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "In a geometric sequence, $a_{4}=144$ and $a_{6}=576$. The common ratio is an integer. Find $a_{9}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$582$"
+      },
+      {
+        "id": "b",
+        "latex": "$9216$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4608$"
+      },
+      {
+        "id": "d",
+        "latex": "$4608$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "4608",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since the terms are two places apart, $r^2=4$, giving $r=2$. Then $a_{9}=144(2)^{5}=4608$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "common-ratio"
+    ],
+    "checksum": "sha256-414bb04be8e6d742d6ff0ae03b72fdf37f29efbf237b0a77cbb6fc7e97ffd7a2",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.medium.0019",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "In a geometric sequence, $a_{2}=-57$ and $a_{4}=-513$. The common ratio is an integer. Find $a_{5}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1539$"
+      },
+      {
+        "id": "b",
+        "latex": "$-516$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4617$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1539$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1539",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since the terms are two places apart, $r^2=9$, giving $r=-3$. Then $a_{5}=-57(-3)^{3}=1539$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "common-ratio"
+    ],
+    "checksum": "sha256-066edd1e9c799259b2fe66d4a222ec5e5e59fb8d1c527802f88c442c02881db0",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.medium.0020",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "In a geometric sequence, $a_{3}=80$ and $a_{5}=320$. The common ratio is an integer. Find $a_{7}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1281$"
+      },
+      {
+        "id": "b",
+        "latex": "$1280$"
+      },
+      {
+        "id": "c",
+        "latex": "$316$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2560$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1280",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since the terms are two places apart, $r^2=4$, giving $r=-2$. Then $a_{7}=80(-2)^{4}=1280$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "common-ratio"
+    ],
+    "checksum": "sha256-4ab969ae2a9210458d71524dd21640dac9a3e5e4b342960f65c6e19ba2617294",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.medium.0021",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "In a geometric sequence, $a_{4}=567$ and $a_{6}=5103$. The common ratio is an integer. Find $a_{9}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$413343$"
+      },
+      {
+        "id": "b",
+        "latex": "$-137781$"
+      },
+      {
+        "id": "c",
+        "latex": "$137781$"
+      },
+      {
+        "id": "d",
+        "latex": "$5112$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "137781",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since the terms are two places apart, $r^2=9$, giving $r=3$. Then $a_{9}=567(3)^{5}=137781$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "common-ratio"
+    ],
+    "checksum": "sha256-61bf4ae31c82f4d8fc5bef7357663889786edd68a57c3e7621aeed0dbb381018",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.medium.0022",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "In a geometric sequence, $a_{2}=44$ and $a_{4}=176$. The common ratio is an integer. Find $a_{5}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$178$"
+      },
+      {
+        "id": "b",
+        "latex": "$704$"
+      },
+      {
+        "id": "c",
+        "latex": "$-352$"
+      },
+      {
+        "id": "d",
+        "latex": "$352$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "352",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since the terms are two places apart, $r^2=4$, giving $r=2$. Then $a_{5}=44(2)^{3}=352$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "common-ratio"
+    ],
+    "checksum": "sha256-79d7dda4ba642d52eac0612648c4fee08e3d19cd3421b611c90b26ec1ed3ce0f",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.medium.0023",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "In a geometric sequence, $a_{3}=207$ and $a_{5}=1863$. The common ratio is an integer. Find $a_{7}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16767$"
+      },
+      {
+        "id": "b",
+        "latex": "$1857$"
+      },
+      {
+        "id": "c",
+        "latex": "$-50301$"
+      },
+      {
+        "id": "d",
+        "latex": "$16768$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "16767",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since the terms are two places apart, $r^2=9$, giving $r=-3$. Then $a_{7}=207(-3)^{4}=16767$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "common-ratio"
+    ],
+    "checksum": "sha256-7a715a2ed228864f4aae5b104f1478dd76afff42f018e2df3a833df2d074712e",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.medium.0024",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "In a geometric sequence, $a_{4}=-192$ and $a_{6}=-768$. The common ratio is an integer. Find $a_{9}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-6144$"
+      },
+      {
+        "id": "b",
+        "latex": "$6144$"
+      },
+      {
+        "id": "c",
+        "latex": "$-774$"
+      },
+      {
+        "id": "d",
+        "latex": "$-12288$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "6144",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since the terms are two places apart, $r^2=4$, giving $r=-2$. Then $a_{9}=-192(-2)^{5}=6144$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "common-ratio"
+    ],
+    "checksum": "sha256-4745e1ec0234560a42dce6d76f949dfe8f7859cba4c424f5c9e67dc563944532",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.medium.0025",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "In a geometric sequence, $a_{2}=75$ and $a_{4}=675$. The common ratio is an integer. Find $a_{5}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6075$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2025$"
+      },
+      {
+        "id": "c",
+        "latex": "$2025$"
+      },
+      {
+        "id": "d",
+        "latex": "$678$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "2025",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since the terms are two places apart, $r^2=9$, giving $r=3$. Then $a_{5}=75(3)^{3}=2025$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "common-ratio"
+    ],
+    "checksum": "sha256-64fe32efc8af29f9aa70be043a98b080f055fcc36bd5329f7611970b20dde9d3",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.medium.0026",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "In a geometric sequence, $a_{3}=104$ and $a_{5}=416$. The common ratio is an integer. Find $a_{7}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$420$"
+      },
+      {
+        "id": "b",
+        "latex": "$3328$"
+      },
+      {
+        "id": "c",
+        "latex": "$1665$"
+      },
+      {
+        "id": "d",
+        "latex": "$1664$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1664",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since the terms are two places apart, $r^2=4$, giving $r=2$. Then $a_{7}=104(2)^{4}=1664$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "common-ratio"
+    ],
+    "checksum": "sha256-e25af94f6b78b2ac48f02d1867c6325abf1d00a2cac963d202998b67375b554e",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.medium.0027",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "In a geometric sequence, $a_{4}=-729$ and $a_{6}=-6561$. The common ratio is an integer. Find $a_{9}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$177147$"
+      },
+      {
+        "id": "b",
+        "latex": "$-6570$"
+      },
+      {
+        "id": "c",
+        "latex": "$-531441$"
+      },
+      {
+        "id": "d",
+        "latex": "$-177147$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "177147",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since the terms are two places apart, $r^2=9$, giving $r=-3$. Then $a_{9}=-729(-3)^{5}=177147$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "common-ratio"
+    ],
+    "checksum": "sha256-a974d16e6a8331af609284c87b0872f319eed8f1e1be163c99dbb9355cb410c9",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.medium.0028",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "In a geometric sequence, $a_{2}=-56$ and $a_{4}=-224$. The common ratio is an integer. Find $a_{5}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-448$"
+      },
+      {
+        "id": "b",
+        "latex": "$448$"
+      },
+      {
+        "id": "c",
+        "latex": "$-226$"
+      },
+      {
+        "id": "d",
+        "latex": "$-896$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "448",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since the terms are two places apart, $r^2=4$, giving $r=-2$. Then $a_{5}=-56(-2)^{3}=448$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "common-ratio"
+    ],
+    "checksum": "sha256-529726cce75ec31fb124dd5da8a77b82899d3b117ac2ee2bee48dd85a3995bc0",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.medium.0029",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "In a geometric sequence, $a_{3}=261$ and $a_{5}=2349$. The common ratio is an integer. Find $a_{7}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$63423$"
+      },
+      {
+        "id": "b",
+        "latex": "$21142$"
+      },
+      {
+        "id": "c",
+        "latex": "$21141$"
+      },
+      {
+        "id": "d",
+        "latex": "$2355$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "21141",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since the terms are two places apart, $r^2=9$, giving $r=3$. Then $a_{7}=261(3)^{4}=21141$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "common-ratio"
+    ],
+    "checksum": "sha256-9e99561601d007eb03f4bc6eb966419d93239862d422558abde2f694343bf906",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.medium.0030",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "In a geometric sequence, $a_{4}=240$ and $a_{6}=960$. The common ratio is an integer. Find $a_{9}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$966$"
+      },
+      {
+        "id": "b",
+        "latex": "$15360$"
+      },
+      {
+        "id": "c",
+        "latex": "$-7680$"
+      },
+      {
+        "id": "d",
+        "latex": "$7680$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "7680",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since the terms are two places apart, $r^2=4$, giving $r=2$. Then $a_{9}=240(2)^{5}=7680$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "common-ratio"
+    ],
+    "checksum": "sha256-ae6968bd2d8a01f4eecb87286ef8d2b08e7adfe0cc1dfa4681f1441b5d337f0a",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.medium.0031",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "In a geometric sequence, $a_{2}=-93$ and $a_{4}=-837$. The common ratio is an integer. Find $a_{5}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2511$"
+      },
+      {
+        "id": "b",
+        "latex": "$-840$"
+      },
+      {
+        "id": "c",
+        "latex": "$-7533$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2511$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2511",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since the terms are two places apart, $r^2=9$, giving $r=-3$. Then $a_{5}=-93(-3)^{3}=2511$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "common-ratio"
+    ],
+    "checksum": "sha256-c110fa2b2c905eadad83e246dfe85ab7d0785412522168faace3b16d4f2a13c1",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.medium.0032",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "In a geometric sequence, $a_{3}=128$ and $a_{5}=512$. The common ratio is an integer. Find $a_{7}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2049$"
+      },
+      {
+        "id": "b",
+        "latex": "$2048$"
+      },
+      {
+        "id": "c",
+        "latex": "$508$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4096$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "2048",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since the terms are two places apart, $r^2=4$, giving $r=-2$. Then $a_{7}=128(-2)^{4}=2048$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "common-ratio"
+    ],
+    "checksum": "sha256-905697ef49c07ca0d7944c63b4de12e388839bc44fa36d7849c476cdfe8492cd",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.medium.0033",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "In a geometric sequence, $a_{4}=891$ and $a_{6}=8019$. The common ratio is an integer. Find $a_{9}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$649539$"
+      },
+      {
+        "id": "b",
+        "latex": "$-216513$"
+      },
+      {
+        "id": "c",
+        "latex": "$216513$"
+      },
+      {
+        "id": "d",
+        "latex": "$8028$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "216513",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since the terms are two places apart, $r^2=9$, giving $r=3$. Then $a_{9}=891(3)^{5}=216513$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "common-ratio"
+    ],
+    "checksum": "sha256-aec18eb1a7a0d5444fdcf7e56f4fbaeb1b5ef1601891ddcdcae2261b3eaced2c",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.medium.0034",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "In a geometric sequence, $a_{2}=68$ and $a_{4}=272$. The common ratio is an integer. Find $a_{5}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$274$"
+      },
+      {
+        "id": "b",
+        "latex": "$1088$"
+      },
+      {
+        "id": "c",
+        "latex": "$-544$"
+      },
+      {
+        "id": "d",
+        "latex": "$544$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "544",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since the terms are two places apart, $r^2=4$, giving $r=2$. Then $a_{5}=68(2)^{3}=544$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "common-ratio"
+    ],
+    "checksum": "sha256-2e982830c029551e0c60c8b27485813018efe436165072ee886ff8201c136987",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.medium.0035",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "In a geometric sequence, $a_{3}=315$ and $a_{5}=2835$. The common ratio is an integer. Find $a_{7}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$25515$"
+      },
+      {
+        "id": "b",
+        "latex": "$2829$"
+      },
+      {
+        "id": "c",
+        "latex": "$-76545$"
+      },
+      {
+        "id": "d",
+        "latex": "$25516$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "25515",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since the terms are two places apart, $r^2=9$, giving $r=-3$. Then $a_{7}=315(-3)^{4}=25515$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "common-ratio"
+    ],
+    "checksum": "sha256-32170025a4e36d6e919a8f28ed12b48c1548adf77fa32a366fa052e86ee8580c",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.medium.0036",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "In a geometric sequence, $a_{4}=-288$ and $a_{6}=-1152$. The common ratio is an integer. Find $a_{9}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-9216$"
+      },
+      {
+        "id": "b",
+        "latex": "$9216$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1158$"
+      },
+      {
+        "id": "d",
+        "latex": "$-18432$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "9216",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since the terms are two places apart, $r^2=4$, giving $r=-2$. Then $a_{9}=-288(-2)^{5}=9216$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "common-ratio"
+    ],
+    "checksum": "sha256-bc7b72a25a055ad0f24ce78fb008f477bbba5b23384bbe821e1014b409197673",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.medium.0037",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "In a geometric sequence, $a_{2}=111$ and $a_{4}=999$. The common ratio is an integer. Find $a_{5}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8991$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2997$"
+      },
+      {
+        "id": "c",
+        "latex": "$2997$"
+      },
+      {
+        "id": "d",
+        "latex": "$1002$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "2997",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since the terms are two places apart, $r^2=9$, giving $r=3$. Then $a_{5}=111(3)^{3}=2997$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "common-ratio"
+    ],
+    "checksum": "sha256-de6771461b50c321ba81a9cee29b37b04d945c3d42b5aaaddf4c1ac056fda061",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.medium.0038",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "In a geometric sequence, $a_{3}=152$ and $a_{5}=608$. The common ratio is an integer. Find $a_{7}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$612$"
+      },
+      {
+        "id": "b",
+        "latex": "$4864$"
+      },
+      {
+        "id": "c",
+        "latex": "$2433$"
+      },
+      {
+        "id": "d",
+        "latex": "$2432$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2432",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since the terms are two places apart, $r^2=4$, giving $r=2$. Then $a_{7}=152(2)^{4}=2432$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "common-ratio"
+    ],
+    "checksum": "sha256-c12b0eb4b7117b8fa51450d01259d47111aa2773de205b58b8de45a960147aa3",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.medium.0039",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "In a geometric sequence, $a_{4}=-1053$ and $a_{6}=-9477$. The common ratio is an integer. Find $a_{9}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$255879$"
+      },
+      {
+        "id": "b",
+        "latex": "$-9486$"
+      },
+      {
+        "id": "c",
+        "latex": "$-767637$"
+      },
+      {
+        "id": "d",
+        "latex": "$-255879$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "255879",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since the terms are two places apart, $r^2=9$, giving $r=-3$. Then $a_{9}=-1053(-3)^{5}=255879$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "common-ratio"
+    ],
+    "checksum": "sha256-594583913cad8bd029fb6654ba23f485344ed6fd8625dc30e4cd4c4de697a8f9",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.medium.0040",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "In a geometric sequence, $a_{2}=-80$ and $a_{4}=-320$. The common ratio is an integer. Find $a_{5}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-640$"
+      },
+      {
+        "id": "b",
+        "latex": "$640$"
+      },
+      {
+        "id": "c",
+        "latex": "$-322$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1280$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "640",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since the terms are two places apart, $r^2=4$, giving $r=-2$. Then $a_{5}=-80(-2)^{3}=640$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "common-ratio"
+    ],
+    "checksum": "sha256-2a6689658656acea45461f31049f45dcb32f2eccd2db75c7478930f2ee686e6f",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.medium.0041",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "In a geometric sequence, $a_{3}=369$ and $a_{5}=3321$. The common ratio is an integer. Find $a_{7}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$89667$"
+      },
+      {
+        "id": "b",
+        "latex": "$29890$"
+      },
+      {
+        "id": "c",
+        "latex": "$29889$"
+      },
+      {
+        "id": "d",
+        "latex": "$3327$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "29889",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since the terms are two places apart, $r^2=9$, giving $r=3$. Then $a_{7}=369(3)^{4}=29889$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "common-ratio"
+    ],
+    "checksum": "sha256-75f06fdc4a26f2fca855dbfa81ee22ba6ab1e6f3bbaf6b24331fe595f5a5b5ea",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.medium.0042",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "In a geometric sequence, $a_{4}=336$ and $a_{6}=1344$. The common ratio is an integer. Find $a_{9}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1350$"
+      },
+      {
+        "id": "b",
+        "latex": "$21504$"
+      },
+      {
+        "id": "c",
+        "latex": "$-10752$"
+      },
+      {
+        "id": "d",
+        "latex": "$10752$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "10752",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since the terms are two places apart, $r^2=4$, giving $r=2$. Then $a_{9}=336(2)^{5}=10752$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "common-ratio"
+    ],
+    "checksum": "sha256-e02e4c8281db63fcb6a037c3d69db1db0f63310ce7d0f6ad4d8ca69e29e67558",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.medium.0043",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "In a geometric sequence, $a_{2}=-129$ and $a_{4}=-1161$. The common ratio is an integer. Find $a_{5}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3483$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1164$"
+      },
+      {
+        "id": "c",
+        "latex": "$-10449$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3483$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "3483",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since the terms are two places apart, $r^2=9$, giving $r=-3$. Then $a_{5}=-129(-3)^{3}=3483$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "common-ratio"
+    ],
+    "checksum": "sha256-26b3508cd0a1d0fc9e2acb4ba7e543d6b0cba55e9f6392495f8403690dfda267",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.medium.0044",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "In a geometric sequence, $a_{3}=176$ and $a_{5}=704$. The common ratio is an integer. Find $a_{7}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2817$"
+      },
+      {
+        "id": "b",
+        "latex": "$2816$"
+      },
+      {
+        "id": "c",
+        "latex": "$700$"
+      },
+      {
+        "id": "d",
+        "latex": "$-5632$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "2816",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since the terms are two places apart, $r^2=4$, giving $r=-2$. Then $a_{7}=176(-2)^{4}=2816$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "common-ratio"
+    ],
+    "checksum": "sha256-dbf2a08651f97ceb01d885c35a30db3f520da8293a558051fc146df873b636bd",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.medium.0045",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "In a geometric sequence, $a_{4}=1215$ and $a_{6}=10935$. The common ratio is an integer. Find $a_{9}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$885735$"
+      },
+      {
+        "id": "b",
+        "latex": "$-295245$"
+      },
+      {
+        "id": "c",
+        "latex": "$295245$"
+      },
+      {
+        "id": "d",
+        "latex": "$10944$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "295245",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since the terms are two places apart, $r^2=9$, giving $r=3$. Then $a_{9}=1215(3)^{5}=295245$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "common-ratio"
+    ],
+    "checksum": "sha256-2cce17eeab7b3aaa3d67a2a0c00261a93abd336fd4c1aca69c4e0073d8316287",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.medium.0046",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "In a geometric sequence, $a_{2}=92$ and $a_{4}=368$. The common ratio is an integer. Find $a_{5}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$370$"
+      },
+      {
+        "id": "b",
+        "latex": "$1472$"
+      },
+      {
+        "id": "c",
+        "latex": "$-736$"
+      },
+      {
+        "id": "d",
+        "latex": "$736$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "736",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since the terms are two places apart, $r^2=4$, giving $r=2$. Then $a_{5}=92(2)^{3}=736$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "common-ratio"
+    ],
+    "checksum": "sha256-e592f9d5456f7cec96410facc3d1d804af9e88a2bad05f33e2b8b5ea9e43921a",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.medium.0047",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "In a geometric sequence, $a_{3}=423$ and $a_{5}=3807$. The common ratio is an integer. Find $a_{7}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$34263$"
+      },
+      {
+        "id": "b",
+        "latex": "$3801$"
+      },
+      {
+        "id": "c",
+        "latex": "$-102789$"
+      },
+      {
+        "id": "d",
+        "latex": "$34264$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "34263",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since the terms are two places apart, $r^2=9$, giving $r=-3$. Then $a_{7}=423(-3)^{4}=34263$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "common-ratio"
+    ],
+    "checksum": "sha256-845ae99fc49972ef33b0fb959000578dad497b4e362966de2d5e214cbc4e81c6",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.medium.0048",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "In a geometric sequence, $a_{4}=-384$ and $a_{6}=-1536$. The common ratio is an integer. Find $a_{9}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-12288$"
+      },
+      {
+        "id": "b",
+        "latex": "$12288$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1542$"
+      },
+      {
+        "id": "d",
+        "latex": "$-24576$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "12288",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since the terms are two places apart, $r^2=4$, giving $r=-2$. Then $a_{9}=-384(-2)^{5}=12288$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "common-ratio"
+    ],
+    "checksum": "sha256-65f5e910693779f6f76167624402fae2d5409ad64f7e89b167fc7b7ac76772f2",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.medium.0049",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "In a geometric sequence, $a_{2}=147$ and $a_{4}=1323$. The common ratio is an integer. Find $a_{5}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11907$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3969$"
+      },
+      {
+        "id": "c",
+        "latex": "$3969$"
+      },
+      {
+        "id": "d",
+        "latex": "$1326$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3969",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since the terms are two places apart, $r^2=9$, giving $r=3$. Then $a_{5}=147(3)^{3}=3969$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "common-ratio"
+    ],
+    "checksum": "sha256-46917b027e63f8c9c80f5b45bbf4107532f86acbe6f1ea1e09e0929dbed31e22",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.medium.0050",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "In a geometric sequence, $a_{3}=200$ and $a_{5}=800$. The common ratio is an integer. Find $a_{7}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$804$"
+      },
+      {
+        "id": "b",
+        "latex": "$6400$"
+      },
+      {
+        "id": "c",
+        "latex": "$3201$"
+      },
+      {
+        "id": "d",
+        "latex": "$3200$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "3200",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since the terms are two places apart, $r^2=4$, giving $r=2$. Then $a_{7}=200(2)^{4}=3200$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "common-ratio"
+    ],
+    "checksum": "sha256-0dfce2789cf6b935692c5db62eac06103739be87c6a6caf68af9449231b6e13c",
+    "status": "valid"
+  }
+]

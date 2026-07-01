@@ -1,0 +1,2102 @@
+[
+  {
+    "id": "ch11.sfft.easy.0001",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor using Simon's Favorite Factoring Trick: $xy + 1x + 2y + 2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 2)(y - 1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 1)(y + 2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 2)(y + 1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 3)(y + 1)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x+2)*(y+1)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(y+1)*(x+2)"
+    ],
+    "solution_latex": "The added constant is $1\\cdot 2=2$, so $xy+1x+2y+2=(x+2)(y+1)$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "factoring"
+    ],
+    "checksum": "sha256-d44b8408fa36523a050a76cbf1212d335afe91305e7a996306b18c69e6e26e90",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.easy.0002",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor using Simon's Favorite Factoring Trick: $xy + 2x + 3y + 6$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 4)(y + 2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 3)(y + 2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 2)(y + 3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 3)(y - 2)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(x+3)*(y+2)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(y+2)*(x+3)"
+    ],
+    "solution_latex": "The added constant is $2\\cdot 3=6$, so $xy+2x+3y+6=(x+3)(y+2)$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "factoring"
+    ],
+    "checksum": "sha256-dc90bc4407ef1bdf3f02d089fca768c7c46444b93e291afcc9a3299ea02bc279",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.easy.0003",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor using Simon's Favorite Factoring Trick: $xy + 3x + 4y + 12$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 5)(y + 3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 4)(y + 3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 3)(y + 4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 4)(y - 3)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(x+4)*(y+3)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(y+3)*(x+4)"
+    ],
+    "solution_latex": "The added constant is $3\\cdot 4=12$, so $xy+3x+4y+12=(x+4)(y+3)$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "factoring"
+    ],
+    "checksum": "sha256-4bc52a8298e5540e75485e49f9a8c108b5b86c5fc7afe2419fe53a3c9942d657",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.easy.0004",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor using Simon's Favorite Factoring Trick: $xy + 4x + 5y + 20$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 4)(y + 5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 5)(y + 4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 6)(y + 4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 5)(y - 4)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(x+5)*(y+4)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(y+4)*(x+5)"
+    ],
+    "solution_latex": "The added constant is $4\\cdot 5=20$, so $xy+4x+5y+20=(x+5)(y+4)$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "factoring"
+    ],
+    "checksum": "sha256-2d5f06ae45715011d452f1101812edc96c8f4ed9c346afb8614dde389670bf8c",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.easy.0005",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor using Simon's Favorite Factoring Trick: $xy + 5x + 6y + 30$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 6)(y - 5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 7)(y + 5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 6)(y + 5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 5)(y + 6)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x+6)*(y+5)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(y+5)*(x+6)"
+    ],
+    "solution_latex": "The added constant is $5\\cdot 6=30$, so $xy+5x+6y+30=(x+6)(y+5)$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "factoring"
+    ],
+    "checksum": "sha256-8cace5e47a7e4e98102bb49cbbf801599bc5a663595a89773f803aabe7dfe2ef",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.easy.0006",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor using Simon's Favorite Factoring Trick: $xy + 6x + 7y + 42$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 6)(y + 7)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 7)(y - 6)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 8)(y + 6)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 7)(y + 6)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x+7)*(y+6)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(y+6)*(x+7)"
+    ],
+    "solution_latex": "The added constant is $6\\cdot 7=42$, so $xy+6x+7y+42=(x+7)(y+6)$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "factoring"
+    ],
+    "checksum": "sha256-142ba23823569d66ae5a8cccfdb21a0e34e7457fb014fc0c002d44e21cc3ada5",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.easy.0007",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor using Simon's Favorite Factoring Trick: $xy + 7x + 8y + 56$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 9)(y + 7)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 8)(y - 7)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 7)(y + 8)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 8)(y + 7)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x+8)*(y+7)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(y+7)*(x+8)"
+    ],
+    "solution_latex": "The added constant is $7\\cdot 8=56$, so $xy+7x+8y+56=(x+8)(y+7)$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "factoring"
+    ],
+    "checksum": "sha256-7e1e27aae326ad7a70c5ed37a2f1b73cbd35d6f1e783dffc78d1d74f5b7a3ff2",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.easy.0008",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor using Simon's Favorite Factoring Trick: $xy + 8x + 9y + 72$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 8)(y + 9)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 9)(y - 8)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 9)(y + 8)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 10)(y + 8)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x+9)*(y+8)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(y+8)*(x+9)"
+    ],
+    "solution_latex": "The added constant is $8\\cdot 9=72$, so $xy+8x+9y+72=(x+9)(y+8)$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "factoring"
+    ],
+    "checksum": "sha256-3d55d473ae4cf5a5463ebfc1d16d6c81a3497e444b309c54afe8d42d4233c7f4",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.easy.0009",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor using Simon's Favorite Factoring Trick: $xy + 9x + 10y + 90$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 10)(y + 9)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 10)(y - 9)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 9)(y + 10)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 11)(y + 9)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(x+10)*(y+9)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(y+9)*(x+10)"
+    ],
+    "solution_latex": "The added constant is $9\\cdot 10=90$, so $xy+9x+10y+90=(x+10)(y+9)$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "factoring"
+    ],
+    "checksum": "sha256-7278c8ce977e7163d2b3c5c6ab29b16207c5669c0305329d5d3a1c0555372d98",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.easy.0010",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor using Simon's Favorite Factoring Trick: $xy + 1x + 11y + 11$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 11)(y + 1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 1)(y + 11)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 12)(y + 1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 11)(y - 1)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(x+11)*(y+1)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(y+1)*(x+11)"
+    ],
+    "solution_latex": "The added constant is $1\\cdot 11=11$, so $xy+1x+11y+11=(x+11)(y+1)$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "factoring"
+    ],
+    "checksum": "sha256-d546c9b944f326d1d856862315af94cba81850897b064e6c1eea6f514a38fec7",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.easy.0011",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor using Simon's Favorite Factoring Trick: $xy + 2x + 12y + 24$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 13)(y + 2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 12)(y + 2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 2)(y + 12)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 12)(y - 2)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(x+12)*(y+2)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(y+2)*(x+12)"
+    ],
+    "solution_latex": "The added constant is $2\\cdot 12=24$, so $xy+2x+12y+24=(x+12)(y+2)$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "factoring"
+    ],
+    "checksum": "sha256-b9bf0648819ec4263a2fa83686cd1e3fe3f6d3b692e108a8cd1b73330ba327c2",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.easy.0012",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor using Simon's Favorite Factoring Trick: $xy + 3x + 13y + 39$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 13)(y + 3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 13)(y - 3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 3)(y + 13)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 14)(y + 3)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(x+13)*(y+3)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(y+3)*(x+13)"
+    ],
+    "solution_latex": "The added constant is $3\\cdot 13=39$, so $xy+3x+13y+39=(x+13)(y+3)$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "factoring"
+    ],
+    "checksum": "sha256-0fd2f7c2d797d3966e65dcf15e93a6bfc9c9137f50f1cb0c228ff7b30782f17c",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.easy.0013",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor using Simon's Favorite Factoring Trick: $xy + 4x + 14y + 56$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 14)(y + 4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 4)(y + 14)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 14)(y - 4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 15)(y + 4)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(x+14)*(y+4)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(y+4)*(x+14)"
+    ],
+    "solution_latex": "The added constant is $4\\cdot 14=56$, so $xy+4x+14y+56=(x+14)(y+4)$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "factoring"
+    ],
+    "checksum": "sha256-d31c2cc34367924631ac4dfd2bdf079583fa47857ac1f9e4e84809786e333097",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.easy.0014",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor using Simon's Favorite Factoring Trick: $xy + 5x + 15y + 75$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 15)(y + 5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 15)(y - 5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 16)(y + 5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 5)(y + 15)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(x+15)*(y+5)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(y+5)*(x+15)"
+    ],
+    "solution_latex": "The added constant is $5\\cdot 15=75$, so $xy+5x+15y+75=(x+15)(y+5)$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "factoring"
+    ],
+    "checksum": "sha256-6b7ea8fca955ccfce8b522ccfce9bdd820f10e9989146d8be703676ad2dc5273",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.easy.0015",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor using Simon's Favorite Factoring Trick: $xy + 6x + 16y + 96$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 6)(y + 16)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 16)(y - 6)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 16)(y + 6)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 17)(y + 6)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x+16)*(y+6)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(y+6)*(x+16)"
+    ],
+    "solution_latex": "The added constant is $6\\cdot 16=96$, so $xy+6x+16y+96=(x+16)(y+6)$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "factoring"
+    ],
+    "checksum": "sha256-28908c42669baa2fa4cf0d7be8c2bb2d0a66153016fe2eb76c907815590d92b1",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.easy.0016",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor using Simon's Favorite Factoring Trick: $xy + 7x + 17y + 119$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 18)(y + 7)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 17)(y + 7)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 7)(y + 17)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 17)(y - 7)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(x+17)*(y+7)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(y+7)*(x+17)"
+    ],
+    "solution_latex": "The added constant is $7\\cdot 17=119$, so $xy+7x+17y+119=(x+17)(y+7)$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "factoring"
+    ],
+    "checksum": "sha256-ccd50d876627e086a39e6a24bfc64f16e8b8872901596cb91db26777dc876a6a",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.easy.0017",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor using Simon's Favorite Factoring Trick: $xy + 8x + 18y + 144$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 18)(y - 8)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 8)(y + 18)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 18)(y + 8)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 19)(y + 8)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x+18)*(y+8)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(y+8)*(x+18)"
+    ],
+    "solution_latex": "The added constant is $8\\cdot 18=144$, so $xy+8x+18y+144=(x+18)(y+8)$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "factoring"
+    ],
+    "checksum": "sha256-2125df9529d778b178e4e86302c570290451700dcbdff02961c7df2b89d2ac33",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.easy.0018",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor using Simon's Favorite Factoring Trick: $xy + 9x + 19y + 171$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 20)(y + 9)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 19)(y + 9)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 9)(y + 19)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 19)(y - 9)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(x+19)*(y+9)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(y+9)*(x+19)"
+    ],
+    "solution_latex": "The added constant is $9\\cdot 19=171$, so $xy+9x+19y+171=(x+19)(y+9)$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "factoring"
+    ],
+    "checksum": "sha256-bf4d4ed0d3382224cecf5209642867886cacbec0f8f3a61c3d082fc296fe535c",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.easy.0019",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor using Simon's Favorite Factoring Trick: $xy + 1x + 20y + 20$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 20)(y + 1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 1)(y + 20)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 21)(y + 1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 20)(y - 1)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(x+20)*(y+1)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(y+1)*(x+20)"
+    ],
+    "solution_latex": "The added constant is $1\\cdot 20=20$, so $xy+1x+20y+20=(x+20)(y+1)$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "factoring"
+    ],
+    "checksum": "sha256-d835a71bce038beb231d949396082c2a1e8a8857f1300584f170953da8364361",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.easy.0020",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor using Simon's Favorite Factoring Trick: $xy + 2x + 21y + 42$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 2)(y + 21)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 21)(y + 2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 22)(y + 2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 21)(y - 2)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(x+21)*(y+2)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(y+2)*(x+21)"
+    ],
+    "solution_latex": "The added constant is $2\\cdot 21=42$, so $xy+2x+21y+42=(x+21)(y+2)$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "factoring"
+    ],
+    "checksum": "sha256-be58b8c7746d46c98544594f40576d78aaebebbe4992959bbb052ab4695bbf89",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.easy.0021",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor using Simon's Favorite Factoring Trick: $xy + 3x + 22y + 66$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 3)(y + 22)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 22)(y - 3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 22)(y + 3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 23)(y + 3)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x+22)*(y+3)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(y+3)*(x+22)"
+    ],
+    "solution_latex": "The added constant is $3\\cdot 22=66$, so $xy+3x+22y+66=(x+22)(y+3)$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "factoring"
+    ],
+    "checksum": "sha256-d8695030b102060bad42d0d167e692f7752a0908b52acb9f56511e8e82472945",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.easy.0022",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor using Simon's Favorite Factoring Trick: $xy + 4x + 23y + 92$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 24)(y + 4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 23)(y + 4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 23)(y - 4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 4)(y + 23)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(x+23)*(y+4)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(y+4)*(x+23)"
+    ],
+    "solution_latex": "The added constant is $4\\cdot 23=92$, so $xy+4x+23y+92=(x+23)(y+4)$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "factoring"
+    ],
+    "checksum": "sha256-c5a62f596c535de13fd68993de886dedaa39efbed25ee944d9a69f3eb390b30b",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.easy.0023",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor using Simon's Favorite Factoring Trick: $xy + 5x + 24y + 120$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 25)(y + 5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 5)(y + 24)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 24)(y + 5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 24)(y - 5)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x+24)*(y+5)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(y+5)*(x+24)"
+    ],
+    "solution_latex": "The added constant is $5\\cdot 24=120$, so $xy+5x+24y+120=(x+24)(y+5)$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "factoring"
+    ],
+    "checksum": "sha256-84fff5e1a26584783004ef2d786d51d2163b3a41943ac96c4e0abe14f9931df5",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.easy.0024",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor using Simon's Favorite Factoring Trick: $xy + 6x + 25y + 150$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 25)(y + 6)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 26)(y + 6)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 25)(y - 6)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 6)(y + 25)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(x+25)*(y+6)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(y+6)*(x+25)"
+    ],
+    "solution_latex": "The added constant is $6\\cdot 25=150$, so $xy+6x+25y+150=(x+25)(y+6)$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "factoring"
+    ],
+    "checksum": "sha256-55ce3a8e2b17040c9992cbcd59489858a3e83b73bad00eb4f9aa3eb233949ce2",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.easy.0025",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor using Simon's Favorite Factoring Trick: $xy + 7x + 26y + 182$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 27)(y + 7)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 26)(y - 7)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 26)(y + 7)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 7)(y + 26)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x+26)*(y+7)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(y+7)*(x+26)"
+    ],
+    "solution_latex": "The added constant is $7\\cdot 26=182$, so $xy+7x+26y+182=(x+26)(y+7)$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "factoring"
+    ],
+    "checksum": "sha256-516f1c7f90ca357ee96cf93fd9caff118a5877a773f4ee9f15e37efdb4c10153",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.easy.0026",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor using Simon's Favorite Factoring Trick: $xy + 8x + 27y + 216$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 27)(y - 8)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 28)(y + 8)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 8)(y + 27)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 27)(y + 8)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x+27)*(y+8)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(y+8)*(x+27)"
+    ],
+    "solution_latex": "The added constant is $8\\cdot 27=216$, so $xy+8x+27y+216=(x+27)(y+8)$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "factoring"
+    ],
+    "checksum": "sha256-2387ef598cdafdc991e57d05b804d0b56e5591bf7f3e61e83720b96b912b8dac",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.easy.0027",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor using Simon's Favorite Factoring Trick: $xy + 9x + 28y + 252$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 29)(y + 9)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 9)(y + 28)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 28)(y + 9)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 28)(y - 9)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x+28)*(y+9)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(y+9)*(x+28)"
+    ],
+    "solution_latex": "The added constant is $9\\cdot 28=252$, so $xy+9x+28y+252=(x+28)(y+9)$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "factoring"
+    ],
+    "checksum": "sha256-e5ff03444b405af255db713d84baf8919194aba13a438eaa7571719d59f325b3",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.easy.0028",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor using Simon's Favorite Factoring Trick: $xy + 1x + 29y + 29$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 29)(y - 1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 1)(y + 29)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 30)(y + 1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 29)(y + 1)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x+29)*(y+1)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(y+1)*(x+29)"
+    ],
+    "solution_latex": "The added constant is $1\\cdot 29=29$, so $xy+1x+29y+29=(x+29)(y+1)$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "factoring"
+    ],
+    "checksum": "sha256-12871a8eca5510130291594a8894ff5b9fe2a71e7341aa24db504eaed7abd847",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.easy.0029",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor using Simon's Favorite Factoring Trick: $xy + 2x + 30y + 60$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 30)(y - 2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 31)(y + 2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 2)(y + 30)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 30)(y + 2)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x+30)*(y+2)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(y+2)*(x+30)"
+    ],
+    "solution_latex": "The added constant is $2\\cdot 30=60$, so $xy+2x+30y+60=(x+30)(y+2)$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "factoring"
+    ],
+    "checksum": "sha256-d8bab2b3b106f9698265d73f96e8cc2c9846e523b18e39ca5fe169fbe870c93c",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.easy.0030",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor using Simon's Favorite Factoring Trick: $xy + 3x + 31y + 93$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 31)(y - 3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 32)(y + 3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 31)(y + 3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 3)(y + 31)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x+31)*(y+3)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(y+3)*(x+31)"
+    ],
+    "solution_latex": "The added constant is $3\\cdot 31=93$, so $xy+3x+31y+93=(x+31)(y+3)$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "factoring"
+    ],
+    "checksum": "sha256-f0ecdc31cb6f21fb53aa7e18884ffe51f45ac4a1c43e88e51f5e6980e3e7989a",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.easy.0031",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor using Simon's Favorite Factoring Trick: $xy + 4x + 32y + 128$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 4)(y + 32)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 32)(y - 4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 33)(y + 4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 32)(y + 4)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x+32)*(y+4)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(y+4)*(x+32)"
+    ],
+    "solution_latex": "The added constant is $4\\cdot 32=128$, so $xy+4x+32y+128=(x+32)(y+4)$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "factoring"
+    ],
+    "checksum": "sha256-56badfb2fd36109778c17e966c4c94a7b22b71768d63ba8cc85c6991584809cf",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.easy.0032",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor using Simon's Favorite Factoring Trick: $xy + 5x + 33y + 165$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 34)(y + 5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 5)(y + 33)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 33)(y - 5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 33)(y + 5)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x+33)*(y+5)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(y+5)*(x+33)"
+    ],
+    "solution_latex": "The added constant is $5\\cdot 33=165$, so $xy+5x+33y+165=(x+33)(y+5)$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "factoring"
+    ],
+    "checksum": "sha256-f2eb83aa9acafd935a8eac0f9347154ecf3b8058d998626e5ff5752663b51dfb",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.easy.0033",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor using Simon's Favorite Factoring Trick: $xy + 6x + 34y + 204$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 6)(y + 34)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 35)(y + 6)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 34)(y + 6)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 34)(y - 6)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x+34)*(y+6)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(y+6)*(x+34)"
+    ],
+    "solution_latex": "The added constant is $6\\cdot 34=204$, so $xy+6x+34y+204=(x+34)(y+6)$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "factoring"
+    ],
+    "checksum": "sha256-2485d1c273825dcffc20809ebdcc2ea11e822548c4f8323f98bc54ba4c7bdffe",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.easy.0034",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor using Simon's Favorite Factoring Trick: $xy + 7x + 35y + 245$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 35)(y - 7)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 7)(y + 35)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 36)(y + 7)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 35)(y + 7)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x+35)*(y+7)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(y+7)*(x+35)"
+    ],
+    "solution_latex": "The added constant is $7\\cdot 35=245$, so $xy+7x+35y+245=(x+35)(y+7)$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "factoring"
+    ],
+    "checksum": "sha256-9560bddbcff961ce498e26e1eccd77e285cfc243e1f95fe7fc791dd990a042aa",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.easy.0035",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor using Simon's Favorite Factoring Trick: $xy + 8x + 36y + 288$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 36)(y - 8)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 37)(y + 8)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 8)(y + 36)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 36)(y + 8)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x+36)*(y+8)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(y+8)*(x+36)"
+    ],
+    "solution_latex": "The added constant is $8\\cdot 36=288$, so $xy+8x+36y+288=(x+36)(y+8)$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "factoring"
+    ],
+    "checksum": "sha256-983a9c492dfc0318c1f85709568c0d911d91ed50f94bb6c0374e1b954a2ea0a5",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.easy.0036",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor using Simon's Favorite Factoring Trick: $xy + 9x + 37y + 333$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 9)(y + 37)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 37)(y + 9)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 38)(y + 9)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 37)(y - 9)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(x+37)*(y+9)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(y+9)*(x+37)"
+    ],
+    "solution_latex": "The added constant is $9\\cdot 37=333$, so $xy+9x+37y+333=(x+37)(y+9)$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "factoring"
+    ],
+    "checksum": "sha256-fc8634e6f0671dbce3956268ae79252afe019314fd1bb64081e00033ead84016",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.easy.0037",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor using Simon's Favorite Factoring Trick: $xy + 1x + 38y + 38$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 38)(y - 1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 1)(y + 38)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 38)(y + 1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 39)(y + 1)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x+38)*(y+1)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(y+1)*(x+38)"
+    ],
+    "solution_latex": "The added constant is $1\\cdot 38=38$, so $xy+1x+38y+38=(x+38)(y+1)$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "factoring"
+    ],
+    "checksum": "sha256-34e37a030abfd4eac96c86420f550eaa2d55b0dc20c631c7ce3656ca6233dfcf",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.easy.0038",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor using Simon's Favorite Factoring Trick: $xy + 2x + 39y + 78$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 39)(y + 2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 39)(y - 2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 2)(y + 39)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 40)(y + 2)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(x+39)*(y+2)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(y+2)*(x+39)"
+    ],
+    "solution_latex": "The added constant is $2\\cdot 39=78$, so $xy+2x+39y+78=(x+39)(y+2)$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "factoring"
+    ],
+    "checksum": "sha256-ada14be947f94534356db4d8eb38d1f0e5f7916b4ffbcbdf3a5ff0a87191bbe3",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.easy.0039",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor using Simon's Favorite Factoring Trick: $xy + 3x + 40y + 120$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 3)(y + 40)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 41)(y + 3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 40)(y - 3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 40)(y + 3)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x+40)*(y+3)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(y+3)*(x+40)"
+    ],
+    "solution_latex": "The added constant is $3\\cdot 40=120$, so $xy+3x+40y+120=(x+40)(y+3)$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "factoring"
+    ],
+    "checksum": "sha256-6dd64f1e2915d481a95133adb29e56d9b0124b4dcc8f4524659931f0067adf33",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.easy.0040",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor using Simon's Favorite Factoring Trick: $xy + 4x + 41y + 164$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 41)(y - 4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 4)(y + 41)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 42)(y + 4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 41)(y + 4)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x+41)*(y+4)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(y+4)*(x+41)"
+    ],
+    "solution_latex": "The added constant is $4\\cdot 41=164$, so $xy+4x+41y+164=(x+41)(y+4)$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "factoring"
+    ],
+    "checksum": "sha256-61381ef7f8d3519c7eaf2c59396eb8caef3e1aa1286e7b28aefc7a2c36331975",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.easy.0041",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor using Simon's Favorite Factoring Trick: $xy + 5x + 42y + 210$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 42)(y + 5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 42)(y - 5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 43)(y + 5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 5)(y + 42)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(x+42)*(y+5)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(y+5)*(x+42)"
+    ],
+    "solution_latex": "The added constant is $5\\cdot 42=210$, so $xy+5x+42y+210=(x+42)(y+5)$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "factoring"
+    ],
+    "checksum": "sha256-940cec8d8da6b57b7350ae220486b48362c8f2efea89750049fab5937d497e7a",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.easy.0042",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor using Simon's Favorite Factoring Trick: $xy + 6x + 43y + 258$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 44)(y + 6)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 43)(y - 6)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 6)(y + 43)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 43)(y + 6)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x+43)*(y+6)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(y+6)*(x+43)"
+    ],
+    "solution_latex": "The added constant is $6\\cdot 43=258$, so $xy+6x+43y+258=(x+43)(y+6)$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "factoring"
+    ],
+    "checksum": "sha256-97acd7dfc81d112bcc088df380f6d9a22066b7c95fdac010f532218065b642e7",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.easy.0043",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor using Simon's Favorite Factoring Trick: $xy + 7x + 44y + 308$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 44)(y - 7)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 44)(y + 7)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 45)(y + 7)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 7)(y + 44)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(x+44)*(y+7)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(y+7)*(x+44)"
+    ],
+    "solution_latex": "The added constant is $7\\cdot 44=308$, so $xy+7x+44y+308=(x+44)(y+7)$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "factoring"
+    ],
+    "checksum": "sha256-c5a591678f1610695206670a01ae3bf9dbfb29730ddd14931f1d20fc7d0d93a2",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.easy.0044",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor using Simon's Favorite Factoring Trick: $xy + 8x + 45y + 360$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 46)(y + 8)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 45)(y - 8)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 45)(y + 8)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 8)(y + 45)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x+45)*(y+8)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(y+8)*(x+45)"
+    ],
+    "solution_latex": "The added constant is $8\\cdot 45=360$, so $xy+8x+45y+360=(x+45)(y+8)$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "factoring"
+    ],
+    "checksum": "sha256-a446722d66153b7876f7c0f7e1395f9faec11ddac239508f1175e8a27ed84e7c",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.easy.0045",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor using Simon's Favorite Factoring Trick: $xy + 9x + 46y + 414$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 46)(y - 9)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 47)(y + 9)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 46)(y + 9)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 9)(y + 46)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x+46)*(y+9)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(y+9)*(x+46)"
+    ],
+    "solution_latex": "The added constant is $9\\cdot 46=414$, so $xy+9x+46y+414=(x+46)(y+9)$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "factoring"
+    ],
+    "checksum": "sha256-e3140229546a1225d4950c7442cf646b9fe847cd0ee0f33bed394ac2faf6cc59",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.easy.0046",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor using Simon's Favorite Factoring Trick: $xy + 1x + 47y + 47$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 47)(y + 1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 48)(y + 1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 1)(y + 47)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 47)(y - 1)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(x+47)*(y+1)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(y+1)*(x+47)"
+    ],
+    "solution_latex": "The added constant is $1\\cdot 47=47$, so $xy+1x+47y+47=(x+47)(y+1)$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "factoring"
+    ],
+    "checksum": "sha256-35184c17ec8ecb86f144c42e205959476204f312e0a1106ff977e6b62dca8a11",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.easy.0047",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor using Simon's Favorite Factoring Trick: $xy + 2x + 48y + 96$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 48)(y - 2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 2)(y + 48)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 48)(y + 2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 49)(y + 2)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x+48)*(y+2)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(y+2)*(x+48)"
+    ],
+    "solution_latex": "The added constant is $2\\cdot 48=96$, so $xy+2x+48y+96=(x+48)(y+2)$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "factoring"
+    ],
+    "checksum": "sha256-6ac09cedeadc0030f30ae9311123d35788e8df2309adc3375fa7181f5a0a9066",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.easy.0048",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor using Simon's Favorite Factoring Trick: $xy + 3x + 49y + 147$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 3)(y + 49)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 49)(y + 3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 49)(y - 3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 50)(y + 3)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(x+49)*(y+3)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(y+3)*(x+49)"
+    ],
+    "solution_latex": "The added constant is $3\\cdot 49=147$, so $xy+3x+49y+147=(x+49)(y+3)$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "factoring"
+    ],
+    "checksum": "sha256-7c08d3c80b294cdfdf685ed9623a27d34513e8bd4cec01f48edca892b666e3e2",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.easy.0049",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor using Simon's Favorite Factoring Trick: $xy + 4x + 50y + 200$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 51)(y + 4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 50)(y - 4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 50)(y + 4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 4)(y + 50)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x+50)*(y+4)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(y+4)*(x+50)"
+    ],
+    "solution_latex": "The added constant is $4\\cdot 50=200$, so $xy+4x+50y+200=(x+50)(y+4)$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "factoring"
+    ],
+    "checksum": "sha256-ece3b079d1ce9c482eda43f79638e96e826c4d087d1f30b2a700ec8ebe32404b",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.easy.0050",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor using Simon's Favorite Factoring Trick: $xy + 5x + 51y + 255$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 51)(y - 5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 52)(y + 5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 5)(y + 51)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 51)(y + 5)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x+51)*(y+5)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(y+5)*(x+51)"
+    ],
+    "solution_latex": "The added constant is $5\\cdot 51=255$, so $xy+5x+51y+255=(x+51)(y+5)$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "factoring"
+    ],
+    "checksum": "sha256-bbb6e0b7e7bc9a1598353ff604049f373091e4053cbede5e89d9fb29996dcf6a",
+    "status": "valid"
+  }
+]

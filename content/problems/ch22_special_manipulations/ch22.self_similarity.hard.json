@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "ch22.self_similarity.hard.0001",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "hard",
+    "prompt_latex": "Let $R=\\sqrt{18+3\\sqrt{18+3\\sqrt{18+3\\sqrt{\\cdots}}}}$. What is $R^2-18$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$15$"
+      },
+      {
+        "id": "d",
+        "latex": "$18$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "18",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The repeated radical equals $R$, so $R=\\sqrt{18+3R}$. The positive root is $R=6$, hence $R^2-18=3R=18$.",
+    "complexity_factor": 1.5,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals",
+      "quadratics"
+    ],
+    "checksum": "sha256-1459ee7a0fe7be12ef9894dd32836202ea6054e70f1c97d3aa54770c6cb9d5e5",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.hard.0002",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "hard",
+    "prompt_latex": "Let $R=\\sqrt{21+4\\sqrt{21+4\\sqrt{21+4\\sqrt{\\cdots}}}}$. What is $R^2-21$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$11$"
+      },
+      {
+        "id": "c",
+        "latex": "$28$"
+      },
+      {
+        "id": "d",
+        "latex": "$24$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "28",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The repeated radical equals $R$, so $R=\\sqrt{21+4R}$. The positive root is $R=7$, hence $R^2-21=4R=28$.",
+    "complexity_factor": 1.5,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals",
+      "quadratics"
+    ],
+    "checksum": "sha256-8cc17857b24609725e34136e38c1966de228e7e70b5379b074bb1a2ae8d3712c",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.hard.0003",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "hard",
+    "prompt_latex": "Let $R=\\sqrt{24+5\\sqrt{24+5\\sqrt{24+5\\sqrt{\\cdots}}}}$. What is $R^2-24$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$40$"
+      },
+      {
+        "id": "c",
+        "latex": "$13$"
+      },
+      {
+        "id": "d",
+        "latex": "$35$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "40",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The repeated radical equals $R$, so $R=\\sqrt{24+5R}$. The positive root is $R=8$, hence $R^2-24=5R=40$.",
+    "complexity_factor": 1.5,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals",
+      "quadratics"
+    ],
+    "checksum": "sha256-0ac5e6d07cafa596447c92900c3fbfdda207959fe91d1ea254e4905b6bfa0465",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.hard.0004",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "hard",
+    "prompt_latex": "Let $R=\\sqrt{27+6\\sqrt{27+6\\sqrt{27+6\\sqrt{\\cdots}}}}$. What is $R^2-27$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$54$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$15$"
+      },
+      {
+        "id": "d",
+        "latex": "$48$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "54",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The repeated radical equals $R$, so $R=\\sqrt{27+6R}$. The positive root is $R=9$, hence $R^2-27=6R=54$.",
+    "complexity_factor": 1.5,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals",
+      "quadratics"
+    ],
+    "checksum": "sha256-e09de1b220fefc1bc636501a4c8f8e23bd077d73dd4144b3d827d57fc6d40ed5",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.hard.0005",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "hard",
+    "prompt_latex": "Let $R=\\sqrt{80+2\\sqrt{80+2\\sqrt{80+2\\sqrt{\\cdots}}}}$. What is $R^2-80$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$12$"
+      },
+      {
+        "id": "c",
+        "latex": "$18$"
+      },
+      {
+        "id": "d",
+        "latex": "$20$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "20",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The repeated radical equals $R$, so $R=\\sqrt{80+2R}$. The positive root is $R=10$, hence $R^2-80=2R=20$.",
+    "complexity_factor": 1.5,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals",
+      "quadratics"
+    ],
+    "checksum": "sha256-359315045f6334cb362d58d1a75e50364f5091dee1ae05a5c2a462071815bb4e",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.hard.0006",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "hard",
+    "prompt_latex": "Let $R=\\sqrt{88+3\\sqrt{88+3\\sqrt{88+3\\sqrt{\\cdots}}}}$. What is $R^2-88$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11$"
+      },
+      {
+        "id": "b",
+        "latex": "$14$"
+      },
+      {
+        "id": "c",
+        "latex": "$33$"
+      },
+      {
+        "id": "d",
+        "latex": "$30$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "33",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The repeated radical equals $R$, so $R=\\sqrt{88+3R}$. The positive root is $R=11$, hence $R^2-88=3R=33$.",
+    "complexity_factor": 1.5,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals",
+      "quadratics"
+    ],
+    "checksum": "sha256-b0eabbc06b82f84990e2b30ce58e9ba96981643dcd7cb957304456d400b10eaf",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.hard.0007",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "hard",
+    "prompt_latex": "Let $R=\\sqrt{96+4\\sqrt{96+4\\sqrt{96+4\\sqrt{\\cdots}}}}$. What is $R^2-96$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12$"
+      },
+      {
+        "id": "b",
+        "latex": "$48$"
+      },
+      {
+        "id": "c",
+        "latex": "$16$"
+      },
+      {
+        "id": "d",
+        "latex": "$44$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "48",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The repeated radical equals $R$, so $R=\\sqrt{96+4R}$. The positive root is $R=12$, hence $R^2-96=4R=48$.",
+    "complexity_factor": 1.5,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals",
+      "quadratics"
+    ],
+    "checksum": "sha256-deb2ab29cfd5b9cfd2fb672f17d2c89afb69fd3a394f4dd8f8d1567f4af032e7",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.hard.0008",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "hard",
+    "prompt_latex": "Let $R=\\sqrt{104+5\\sqrt{104+5\\sqrt{104+5\\sqrt{\\cdots}}}}$. What is $R^2-104$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$65$"
+      },
+      {
+        "id": "b",
+        "latex": "$13$"
+      },
+      {
+        "id": "c",
+        "latex": "$18$"
+      },
+      {
+        "id": "d",
+        "latex": "$60$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "65",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The repeated radical equals $R$, so $R=\\sqrt{104+5R}$. The positive root is $R=13$, hence $R^2-104=5R=65$.",
+    "complexity_factor": 1.5,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals",
+      "quadratics"
+    ],
+    "checksum": "sha256-d8d2c3c4f87ebceb7ec5d433581f3e9a6e142241d8826dec1f916e143a07ee87",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.hard.0009",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "hard",
+    "prompt_latex": "Let $R=\\sqrt{112+6\\sqrt{112+6\\sqrt{112+6\\sqrt{\\cdots}}}}$. What is $R^2-112$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$14$"
+      },
+      {
+        "id": "b",
+        "latex": "$20$"
+      },
+      {
+        "id": "c",
+        "latex": "$78$"
+      },
+      {
+        "id": "d",
+        "latex": "$84$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "84",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The repeated radical equals $R$, so $R=\\sqrt{112+6R}$. The positive root is $R=14$, hence $R^2-112=6R=84$.",
+    "complexity_factor": 1.5,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals",
+      "quadratics"
+    ],
+    "checksum": "sha256-cf61251c567b00fdaa691d5d7b89cf7c414bf31c1f738307a88ad127e28e25a4",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.hard.0010",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "hard",
+    "prompt_latex": "Let $R=\\sqrt{195+2\\sqrt{195+2\\sqrt{195+2\\sqrt{\\cdots}}}}$. What is $R^2-195$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$15$"
+      },
+      {
+        "id": "b",
+        "latex": "$17$"
+      },
+      {
+        "id": "c",
+        "latex": "$30$"
+      },
+      {
+        "id": "d",
+        "latex": "$28$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "30",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The repeated radical equals $R$, so $R=\\sqrt{195+2R}$. The positive root is $R=15$, hence $R^2-195=2R=30$.",
+    "complexity_factor": 1.5,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals",
+      "quadratics"
+    ],
+    "checksum": "sha256-b2971c1816162bbf7c75def258a51a4506f90c75c9d1d31de3a4555d548e65cd",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.hard.0011",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "hard",
+    "prompt_latex": "Let $R=\\sqrt{208+3\\sqrt{208+3\\sqrt{208+3\\sqrt{\\cdots}}}}$. What is $R^2-208$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$48$"
+      },
+      {
+        "id": "c",
+        "latex": "$19$"
+      },
+      {
+        "id": "d",
+        "latex": "$45$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "48",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The repeated radical equals $R$, so $R=\\sqrt{208+3R}$. The positive root is $R=16$, hence $R^2-208=3R=48$.",
+    "complexity_factor": 1.5,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals",
+      "quadratics"
+    ],
+    "checksum": "sha256-5339306f9b572c677bee665a9b1d1b43fbb023c3819a2dae6684f5d0666d2018",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.hard.0012",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "hard",
+    "prompt_latex": "Let $R=\\sqrt{221+4\\sqrt{221+4\\sqrt{221+4\\sqrt{\\cdots}}}}$. What is $R^2-221$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$68$"
+      },
+      {
+        "id": "b",
+        "latex": "$17$"
+      },
+      {
+        "id": "c",
+        "latex": "$21$"
+      },
+      {
+        "id": "d",
+        "latex": "$64$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "68",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The repeated radical equals $R$, so $R=\\sqrt{221+4R}$. The positive root is $R=17$, hence $R^2-221=4R=68$.",
+    "complexity_factor": 1.5,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals",
+      "quadratics"
+    ],
+    "checksum": "sha256-1732029445d6bea9b818bdabc2f5e5125435d7e46ddbac7b93132319e41f76b0",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.hard.0013",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "hard",
+    "prompt_latex": "Let $R=\\sqrt{234+5\\sqrt{234+5\\sqrt{234+5\\sqrt{\\cdots}}}}$. What is $R^2-234$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$18$"
+      },
+      {
+        "id": "b",
+        "latex": "$23$"
+      },
+      {
+        "id": "c",
+        "latex": "$85$"
+      },
+      {
+        "id": "d",
+        "latex": "$90$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "90",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The repeated radical equals $R$, so $R=\\sqrt{234+5R}$. The positive root is $R=18$, hence $R^2-234=5R=90$.",
+    "complexity_factor": 1.5,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals",
+      "quadratics"
+    ],
+    "checksum": "sha256-a0729c9f3e7b5befa63444d4b128b51ad097acf1300855282bdc10b89c812198",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.hard.0014",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "hard",
+    "prompt_latex": "Let $R=\\sqrt{247+6\\sqrt{247+6\\sqrt{247+6\\sqrt{\\cdots}}}}$. What is $R^2-247$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$19$"
+      },
+      {
+        "id": "b",
+        "latex": "$25$"
+      },
+      {
+        "id": "c",
+        "latex": "$114$"
+      },
+      {
+        "id": "d",
+        "latex": "$108$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "114",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The repeated radical equals $R$, so $R=\\sqrt{247+6R}$. The positive root is $R=19$, hence $R^2-247=6R=114$.",
+    "complexity_factor": 1.5,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals",
+      "quadratics"
+    ],
+    "checksum": "sha256-3bb90e1cd62b8bd2337153ac1bbb7b2c330e32d4826b8f6c44e6be15330f2c26",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.hard.0015",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "hard",
+    "prompt_latex": "Let $R=\\sqrt{360+2\\sqrt{360+2\\sqrt{360+2\\sqrt{\\cdots}}}}$. What is $R^2-360$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$20$"
+      },
+      {
+        "id": "b",
+        "latex": "$40$"
+      },
+      {
+        "id": "c",
+        "latex": "$22$"
+      },
+      {
+        "id": "d",
+        "latex": "$38$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "40",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The repeated radical equals $R$, so $R=\\sqrt{360+2R}$. The positive root is $R=20$, hence $R^2-360=2R=40$.",
+    "complexity_factor": 1.5,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals",
+      "quadratics"
+    ],
+    "checksum": "sha256-f21b5c17b415de21c21b060abfe6937c20e3c30e4b02ea0c19db7df2cdd97e94",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.hard.0016",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "hard",
+    "prompt_latex": "Let $R=\\sqrt{378+3\\sqrt{378+3\\sqrt{378+3\\sqrt{\\cdots}}}}$. What is $R^2-378$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$63$"
+      },
+      {
+        "id": "b",
+        "latex": "$21$"
+      },
+      {
+        "id": "c",
+        "latex": "$24$"
+      },
+      {
+        "id": "d",
+        "latex": "$60$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "63",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The repeated radical equals $R$, so $R=\\sqrt{378+3R}$. The positive root is $R=21$, hence $R^2-378=3R=63$.",
+    "complexity_factor": 1.5,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals",
+      "quadratics"
+    ],
+    "checksum": "sha256-324aaed7be10b92a125ab93aa3c1fc6a6e73fc7841f41f6494bd712a037f174f",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.hard.0017",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "hard",
+    "prompt_latex": "Let $R=\\sqrt{396+4\\sqrt{396+4\\sqrt{396+4\\sqrt{\\cdots}}}}$. What is $R^2-396$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$22$"
+      },
+      {
+        "id": "b",
+        "latex": "$26$"
+      },
+      {
+        "id": "c",
+        "latex": "$84$"
+      },
+      {
+        "id": "d",
+        "latex": "$88$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "88",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The repeated radical equals $R$, so $R=\\sqrt{396+4R}$. The positive root is $R=22$, hence $R^2-396=4R=88$.",
+    "complexity_factor": 1.5,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals",
+      "quadratics"
+    ],
+    "checksum": "sha256-e56cd4ce65ae560fe0d797e251ab4f0a9ac9504b45ed78e2cbcc4ddfdba126cc",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.hard.0018",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "hard",
+    "prompt_latex": "Let $R=\\sqrt{414+5\\sqrt{414+5\\sqrt{414+5\\sqrt{\\cdots}}}}$. What is $R^2-414$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$23$"
+      },
+      {
+        "id": "b",
+        "latex": "$28$"
+      },
+      {
+        "id": "c",
+        "latex": "$115$"
+      },
+      {
+        "id": "d",
+        "latex": "$110$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "115",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The repeated radical equals $R$, so $R=\\sqrt{414+5R}$. The positive root is $R=23$, hence $R^2-414=5R=115$.",
+    "complexity_factor": 1.5,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals",
+      "quadratics"
+    ],
+    "checksum": "sha256-10abb53cc72f535861fb33f27f978daaf7ffc21eaa40629628b7e09c3adaf34d",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.hard.0019",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "hard",
+    "prompt_latex": "Let $R=\\sqrt{432+6\\sqrt{432+6\\sqrt{432+6\\sqrt{\\cdots}}}}$. What is $R^2-432$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$24$"
+      },
+      {
+        "id": "b",
+        "latex": "$144$"
+      },
+      {
+        "id": "c",
+        "latex": "$30$"
+      },
+      {
+        "id": "d",
+        "latex": "$138$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "144",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The repeated radical equals $R$, so $R=\\sqrt{432+6R}$. The positive root is $R=24$, hence $R^2-432=6R=144$.",
+    "complexity_factor": 1.5,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals",
+      "quadratics"
+    ],
+    "checksum": "sha256-ca27855c76d616bb91d305d4895942ef2c1489b7383b063679dd3ea4332f1c89",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.hard.0020",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "hard",
+    "prompt_latex": "Let $R=\\sqrt{575+2\\sqrt{575+2\\sqrt{575+2\\sqrt{\\cdots}}}}$. What is $R^2-575$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$50$"
+      },
+      {
+        "id": "b",
+        "latex": "$25$"
+      },
+      {
+        "id": "c",
+        "latex": "$27$"
+      },
+      {
+        "id": "d",
+        "latex": "$48$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "50",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The repeated radical equals $R$, so $R=\\sqrt{575+2R}$. The positive root is $R=25$, hence $R^2-575=2R=50$.",
+    "complexity_factor": 1.5,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals",
+      "quadratics"
+    ],
+    "checksum": "sha256-0f5c00d4e8b728dae8e705de8f0bc4b6aa4c5c9b78bbb420cc6bed5e1f6399e0",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.hard.0021",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "hard",
+    "prompt_latex": "Let $R=\\sqrt{598+3\\sqrt{598+3\\sqrt{598+3\\sqrt{\\cdots}}}}$. What is $R^2-598$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$26$"
+      },
+      {
+        "id": "b",
+        "latex": "$29$"
+      },
+      {
+        "id": "c",
+        "latex": "$75$"
+      },
+      {
+        "id": "d",
+        "latex": "$78$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "78",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The repeated radical equals $R$, so $R=\\sqrt{598+3R}$. The positive root is $R=26$, hence $R^2-598=3R=78$.",
+    "complexity_factor": 1.5,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals",
+      "quadratics"
+    ],
+    "checksum": "sha256-e10ca8ee04e0105398a45cd3841ff67a09a6625f3f1cc72dd3c071a549f60ce4",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.hard.0022",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "hard",
+    "prompt_latex": "Let $R=\\sqrt{621+4\\sqrt{621+4\\sqrt{621+4\\sqrt{\\cdots}}}}$. What is $R^2-621$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$27$"
+      },
+      {
+        "id": "b",
+        "latex": "$31$"
+      },
+      {
+        "id": "c",
+        "latex": "$108$"
+      },
+      {
+        "id": "d",
+        "latex": "$104$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "108",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The repeated radical equals $R$, so $R=\\sqrt{621+4R}$. The positive root is $R=27$, hence $R^2-621=4R=108$.",
+    "complexity_factor": 1.5,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals",
+      "quadratics"
+    ],
+    "checksum": "sha256-a9c34a2b9028f0828ce167f82d7162699b0994b238b9f45d9b990d75a481f592",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.hard.0023",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "hard",
+    "prompt_latex": "Let $R=\\sqrt{644+5\\sqrt{644+5\\sqrt{644+5\\sqrt{\\cdots}}}}$. What is $R^2-644$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$28$"
+      },
+      {
+        "id": "b",
+        "latex": "$140$"
+      },
+      {
+        "id": "c",
+        "latex": "$33$"
+      },
+      {
+        "id": "d",
+        "latex": "$135$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "140",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The repeated radical equals $R$, so $R=\\sqrt{644+5R}$. The positive root is $R=28$, hence $R^2-644=5R=140$.",
+    "complexity_factor": 1.5,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals",
+      "quadratics"
+    ],
+    "checksum": "sha256-3816f66ab0cddd8ab2ab0ea98a79a2b16ca33701ade8819f9911a456544347b4",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.hard.0024",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "hard",
+    "prompt_latex": "Let $R=\\sqrt{667+6\\sqrt{667+6\\sqrt{667+6\\sqrt{\\cdots}}}}$. What is $R^2-667$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$174$"
+      },
+      {
+        "id": "b",
+        "latex": "$29$"
+      },
+      {
+        "id": "c",
+        "latex": "$35$"
+      },
+      {
+        "id": "d",
+        "latex": "$168$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "174",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The repeated radical equals $R$, so $R=\\sqrt{667+6R}$. The positive root is $R=29$, hence $R^2-667=6R=174$.",
+    "complexity_factor": 1.5,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals",
+      "quadratics"
+    ],
+    "checksum": "sha256-390fb0453a96bd24ea97c693f34f787eaf55bcd4b317134da6b0a457cec94d30",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.hard.0025",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "hard",
+    "prompt_latex": "Let $R=\\sqrt{840+2\\sqrt{840+2\\sqrt{840+2\\sqrt{\\cdots}}}}$. What is $R^2-840$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$30$"
+      },
+      {
+        "id": "b",
+        "latex": "$32$"
+      },
+      {
+        "id": "c",
+        "latex": "$58$"
+      },
+      {
+        "id": "d",
+        "latex": "$60$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "60",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The repeated radical equals $R$, so $R=\\sqrt{840+2R}$. The positive root is $R=30$, hence $R^2-840=2R=60$.",
+    "complexity_factor": 1.5,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals",
+      "quadratics"
+    ],
+    "checksum": "sha256-b8d5f0fffdeefa308bbb2578d8a3300031be028b81aedfbec62073e08b29a7d7",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.hard.0026",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "hard",
+    "prompt_latex": "Find the positive value of $X=2+\\dfrac{36}{3+2+\\dfrac{36}{3+2+\\dfrac{36}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The repeating part is $X$, so $X=2+\\dfrac{36}{3+X}$. Then $(X-2)(3+X)=36$, and the positive solution is $X=6$.",
+    "complexity_factor": 1.5,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions",
+      "quadratics"
+    ],
+    "checksum": "sha256-51197f1c49bf51cc373e373c29796421b3b81593c9cc4881ac9329442738bc17",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.hard.0027",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "hard",
+    "prompt_latex": "Find the positive value of $X=3+\\dfrac{60}{4+3+\\dfrac{60}{4+3+\\dfrac{60}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The repeating part is $X$, so $X=3+\\dfrac{60}{4+X}$. Then $(X-3)(4+X)=60$, and the positive solution is $X=8$.",
+    "complexity_factor": 1.5,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions",
+      "quadratics"
+    ],
+    "checksum": "sha256-3852450f2dc2d83e81116e23867cdab9e7713057b8f644670521bcd6a60cc683",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.hard.0028",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "hard",
+    "prompt_latex": "Find the positive value of $X=4+\\dfrac{90}{5+4+\\dfrac{90}{5+4+\\dfrac{90}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$15$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The repeating part is $X$, so $X=4+\\dfrac{90}{5+X}$. Then $(X-4)(5+X)=90$, and the positive solution is $X=10$.",
+    "complexity_factor": 1.5,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions",
+      "quadratics"
+    ],
+    "checksum": "sha256-4af31deee572e8cf14b057e82d1b06dcee55bd1c8e7741fe45d86730dd69524c",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.hard.0029",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "hard",
+    "prompt_latex": "Find the positive value of $X=1+\\dfrac{98}{6+1+\\dfrac{98}{6+1+\\dfrac{98}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$14$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The repeating part is $X$, so $X=1+\\dfrac{98}{6+X}$. Then $(X-1)(6+X)=98$, and the positive solution is $X=8$.",
+    "complexity_factor": 1.5,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions",
+      "quadratics"
+    ],
+    "checksum": "sha256-296a76dd74c9521aecb1a7ae6ce1dd1e36e79be2207788cdef250b4c107f8006",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.hard.0030",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "hard",
+    "prompt_latex": "Find the positive value of $X=2+\\dfrac{136}{7+2+\\dfrac{136}{7+2+\\dfrac{136}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$17$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The repeating part is $X$, so $X=2+\\dfrac{136}{7+X}$. Then $(X-2)(7+X)=136$, and the positive solution is $X=10$.",
+    "complexity_factor": 1.5,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions",
+      "quadratics"
+    ],
+    "checksum": "sha256-00f9f245948539ead0be89c35d31943784ef5b4ab305b8e4398b54086ea0851f",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.hard.0031",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "hard",
+    "prompt_latex": "Find the positive value of $X=3+\\dfrac{126}{2+3+\\dfrac{126}{2+3+\\dfrac{126}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$12$"
+      },
+      {
+        "id": "c",
+        "latex": "$14$"
+      },
+      {
+        "id": "d",
+        "latex": "$11$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The repeating part is $X$, so $X=3+\\dfrac{126}{2+X}$. Then $(X-3)(2+X)=126$, and the positive solution is $X=12$.",
+    "complexity_factor": 1.5,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions",
+      "quadratics"
+    ],
+    "checksum": "sha256-b7c2a00372b0d829dd22c9135e7cd339219145d300fac9be06c3348b6ebca769",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.hard.0032",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "hard",
+    "prompt_latex": "Find the positive value of $X=4+\\dfrac{170}{3+4+\\dfrac{170}{3+4+\\dfrac{170}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$14$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$17$"
+      },
+      {
+        "id": "d",
+        "latex": "$13$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "14",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The repeating part is $X$, so $X=4+\\dfrac{170}{3+X}$. Then $(X-4)(3+X)=170$, and the positive solution is $X=14$.",
+    "complexity_factor": 1.5,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions",
+      "quadratics"
+    ],
+    "checksum": "sha256-602fa744661d86ba39e2875fd635321cd0b1bdc8d37aff3955229870ac07db09",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.hard.0033",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "hard",
+    "prompt_latex": "Find the positive value of $X=1+\\dfrac{176}{4+1+\\dfrac{176}{4+1+\\dfrac{176}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11$"
+      },
+      {
+        "id": "b",
+        "latex": "$16$"
+      },
+      {
+        "id": "c",
+        "latex": "$13$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The repeating part is $X$, so $X=1+\\dfrac{176}{4+X}$. Then $(X-1)(4+X)=176$, and the positive solution is $X=12$.",
+    "complexity_factor": 1.5,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions",
+      "quadratics"
+    ],
+    "checksum": "sha256-0a5912992db4435a6b491edc20d9f884fd3578ed3a0007142992403ce9a0ae8f",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.hard.0034",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "hard",
+    "prompt_latex": "Find the positive value of $X=2+\\dfrac{30}{5+2+\\dfrac{30}{5+2+\\dfrac{30}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The repeating part is $X$, so $X=2+\\dfrac{30}{5+X}$. Then $(X-2)(5+X)=30$, and the positive solution is $X=5$.",
+    "complexity_factor": 1.5,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions",
+      "quadratics"
+    ],
+    "checksum": "sha256-2e4b584a8787c66beb88f29efe2028c39f278cba6f3ed78574de5cf952922033",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.hard.0035",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "hard",
+    "prompt_latex": "Find the positive value of $X=3+\\dfrac{52}{6+3+\\dfrac{52}{6+3+\\dfrac{52}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$13$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The repeating part is $X$, so $X=3+\\dfrac{52}{6+X}$. Then $(X-3)(6+X)=52$, and the positive solution is $X=7$.",
+    "complexity_factor": 1.5,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions",
+      "quadratics"
+    ],
+    "checksum": "sha256-9a461024bd0a683c9fb557910292cbcf9c8d986df2fe37477664797ffa628c51",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.hard.0036",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "hard",
+    "prompt_latex": "Find the positive value of $X=4+\\dfrac{80}{7+4+\\dfrac{80}{7+4+\\dfrac{80}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$16$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The repeating part is $X$, so $X=4+\\dfrac{80}{7+X}$. Then $(X-4)(7+X)=80$, and the positive solution is $X=9$.",
+    "complexity_factor": 1.5,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions",
+      "quadratics"
+    ],
+    "checksum": "sha256-7f71267ac38886321989f2cddc2de9acb8d683db9e7e7d2c7abd10214997b166",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.hard.0037",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "hard",
+    "prompt_latex": "Find the positive value of $X=1+\\dfrac{54}{2+1+\\dfrac{54}{2+1+\\dfrac{54}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The repeating part is $X$, so $X=1+\\dfrac{54}{2+X}$. Then $(X-1)(2+X)=54$, and the positive solution is $X=7$.",
+    "complexity_factor": 1.5,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions",
+      "quadratics"
+    ],
+    "checksum": "sha256-cddf4a9a956e472fb873fedfba2a7ce101a56af8b053189c3479136ad0e93b3a",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.hard.0038",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "hard",
+    "prompt_latex": "Find the positive value of $X=2+\\dfrac{84}{3+2+\\dfrac{84}{3+2+\\dfrac{84}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$12$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The repeating part is $X$, so $X=2+\\dfrac{84}{3+X}$. Then $(X-2)(3+X)=84$, and the positive solution is $X=9$.",
+    "complexity_factor": 1.5,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions",
+      "quadratics"
+    ],
+    "checksum": "sha256-e61f51f47b06020fd3c4f1b0212b6d4d16524be86240520cc63cbcd0325a0a47",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.hard.0039",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "hard",
+    "prompt_latex": "Find the positive value of $X=3+\\dfrac{120}{4+3+\\dfrac{120}{4+3+\\dfrac{120}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$11$"
+      },
+      {
+        "id": "c",
+        "latex": "$15$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "11",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The repeating part is $X$, so $X=3+\\dfrac{120}{4+X}$. Then $(X-3)(4+X)=120$, and the positive solution is $X=11$.",
+    "complexity_factor": 1.5,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions",
+      "quadratics"
+    ],
+    "checksum": "sha256-e983edf05d9f15b89124f03cfcd12c9ef5b2978c3eb2e1c81f0cf9eac223669b",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.hard.0040",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "hard",
+    "prompt_latex": "Find the positive value of $X=4+\\dfrac{162}{5+4+\\dfrac{162}{5+4+\\dfrac{162}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$13$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$18$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "13",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The repeating part is $X$, so $X=4+\\dfrac{162}{5+X}$. Then $(X-4)(5+X)=162$, and the positive solution is $X=13$.",
+    "complexity_factor": 1.5,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions",
+      "quadratics"
+    ],
+    "checksum": "sha256-cef6b8767c8a7c7a3602d1d3c3c33bfa4458552766a830e1000711220e0c43e9",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.hard.0041",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "hard",
+    "prompt_latex": "Find the positive value of $X=1+\\dfrac{170}{6+1+\\dfrac{170}{6+1+\\dfrac{170}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$17$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$11$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "11",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The repeating part is $X$, so $X=1+\\dfrac{170}{6+X}$. Then $(X-1)(6+X)=170$, and the positive solution is $X=11$.",
+    "complexity_factor": 1.5,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions",
+      "quadratics"
+    ],
+    "checksum": "sha256-e669875e6ac4066c3ac02ead292ef634fd22dba6c2ec1ff25261c29e05ae81c9",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.hard.0042",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "hard",
+    "prompt_latex": "Find the positive value of $X=2+\\dfrac{220}{7+2+\\dfrac{220}{7+2+\\dfrac{220}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11$"
+      },
+      {
+        "id": "b",
+        "latex": "$20$"
+      },
+      {
+        "id": "c",
+        "latex": "$13$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "13",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The repeating part is $X$, so $X=2+\\dfrac{220}{7+X}$. Then $(X-2)(7+X)=220$, and the positive solution is $X=13$.",
+    "complexity_factor": 1.5,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions",
+      "quadratics"
+    ],
+    "checksum": "sha256-d5884551f5def2a17eb7fe8391f6e7eba8f6b219899f7977babda7daeda90c84",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.hard.0043",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "hard",
+    "prompt_latex": "Find the positive value of $X=3+\\dfrac{24}{2+3+\\dfrac{24}{2+3+\\dfrac{24}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The repeating part is $X$, so $X=3+\\dfrac{24}{2+X}$. Then $(X-3)(2+X)=24$, and the positive solution is $X=6$.",
+    "complexity_factor": 1.5,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions",
+      "quadratics"
+    ],
+    "checksum": "sha256-f260ee0b1c43a5ce7b1c9ba1ebc8ef192efac4031730fee2170e1225b09fe7d1",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.hard.0044",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "hard",
+    "prompt_latex": "Find the positive value of $X=4+\\dfrac{44}{3+4+\\dfrac{44}{3+4+\\dfrac{44}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The repeating part is $X$, so $X=4+\\dfrac{44}{3+X}$. Then $(X-4)(3+X)=44$, and the positive solution is $X=8$.",
+    "complexity_factor": 1.5,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions",
+      "quadratics"
+    ],
+    "checksum": "sha256-6163de1c180d8c115baa0d81359fe1dc75a98b1be509a362afac6758a11a8c3a",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.hard.0045",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "hard",
+    "prompt_latex": "Find the positive value of $X=1+\\dfrac{50}{4+1+\\dfrac{50}{4+1+\\dfrac{50}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The repeating part is $X$, so $X=1+\\dfrac{50}{4+X}$. Then $(X-1)(4+X)=50$, and the positive solution is $X=6$.",
+    "complexity_factor": 1.5,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions",
+      "quadratics"
+    ],
+    "checksum": "sha256-722117e903938ac75f96c087dc29127efc36c6ee4a76d80b11c1e41499405b8d",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.hard.0046",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "hard",
+    "prompt_latex": "Find the positive value of $X=2+\\dfrac{78}{5+2+\\dfrac{78}{5+2+\\dfrac{78}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$13$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The repeating part is $X$, so $X=2+\\dfrac{78}{5+X}$. Then $(X-2)(5+X)=78$, and the positive solution is $X=8$.",
+    "complexity_factor": 1.5,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions",
+      "quadratics"
+    ],
+    "checksum": "sha256-c562dfed61f87e42e66465bc2371dcf7e792b077de37c0583efe1e3827c310b7",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.hard.0047",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "hard",
+    "prompt_latex": "Find the positive value of $X=3+\\dfrac{112}{6+3+\\dfrac{112}{6+3+\\dfrac{112}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$16$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The repeating part is $X$, so $X=3+\\dfrac{112}{6+X}$. Then $(X-3)(6+X)=112$, and the positive solution is $X=10$.",
+    "complexity_factor": 1.5,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions",
+      "quadratics"
+    ],
+    "checksum": "sha256-d74a5c7dbbccf3d0c67f308b4e2cbd3c95c9dccef5f0761253dd08300578f888",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.hard.0048",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "hard",
+    "prompt_latex": "Find the positive value of $X=4+\\dfrac{152}{7+4+\\dfrac{152}{7+4+\\dfrac{152}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$19$"
+      },
+      {
+        "id": "d",
+        "latex": "$11$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The repeating part is $X$, so $X=4+\\dfrac{152}{7+X}$. Then $(X-4)(7+X)=152$, and the positive solution is $X=12$.",
+    "complexity_factor": 1.5,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions",
+      "quadratics"
+    ],
+    "checksum": "sha256-3a67d7524c8d32ad1b6d515c5679b9169cd4fac6bcb393540961a414cd5243fd",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.hard.0049",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "hard",
+    "prompt_latex": "Find the positive value of $X=1+\\dfrac{108}{2+1+\\dfrac{108}{2+1+\\dfrac{108}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$12$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The repeating part is $X$, so $X=1+\\dfrac{108}{2+X}$. Then $(X-1)(2+X)=108$, and the positive solution is $X=10$.",
+    "complexity_factor": 1.5,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions",
+      "quadratics"
+    ],
+    "checksum": "sha256-8237e51dc448dff5f11ca59315ff00af6d66a22282733a992845669108d38d00",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.hard.0050",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "hard",
+    "prompt_latex": "Find the positive value of $X=2+\\dfrac{150}{3+2+\\dfrac{150}{3+2+\\dfrac{150}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$15$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$11$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The repeating part is $X$, so $X=2+\\dfrac{150}{3+X}$. Then $(X-2)(3+X)=150$, and the positive solution is $X=12$.",
+    "complexity_factor": 1.5,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions",
+      "quadratics"
+    ],
+    "checksum": "sha256-052989055bc5158f1d912ed300016ba6d45b0e11519c59eb874dd029dfa3a83d",
+    "status": "valid"
+  }
+]

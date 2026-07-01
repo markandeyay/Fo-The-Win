@@ -1,0 +1,1977 @@
+[
+  {
+    "id": "ch20.rational_functions.hard.0001",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Find the removable hole of $f(x)=\\frac{(x + 5)(x + 2)}{x + 5}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-5,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-2,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2,-3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-5,-3)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-5,-3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The canceled factor is zero at $x=-5$. The simplified function is $x + 2$, so the missing point has $y=-3$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "holes",
+      "simplifying"
+    ],
+    "checksum": "sha256-e5186f83f336d43734298dd0174a9328bf21b18ee73bf03dd1851203c47297bd",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.hard.0002",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=\\frac{3x + 1}{x - 5}$. If $f(x)=\\frac{-5}{1}$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Cross-multiply $1(3x + 1)=-5(x - 5)$. Solving gives $x=3$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "equations"
+    ],
+    "checksum": "sha256-12be8645a27bd7fcc658fdd30f7a53801386d22ebe8c844128943bc4fa3087b3",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.hard.0003",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Find the removable hole of $f(x)=\\frac{(x + 1)(x + 6)}{x + 1}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-6,5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1,5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-6,0)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-1,5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The canceled factor is zero at $x=-1$. The simplified function is $x + 6$, so the missing point has $y=5$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "holes",
+      "simplifying"
+    ],
+    "checksum": "sha256-b700bcfa3acd540f6dc89d53ee5ad2fc853049e2efd9aaf53a9063ee5c45b33c",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.hard.0004",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=\\frac{5x - 3}{x + 3}$. If $f(x)=\\frac{23}{1}$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Cross-multiply $1(5x - 3)=23(x + 3)$. Solving gives $x=-4$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "equations"
+    ],
+    "checksum": "sha256-bdbcca6d982f5f0c0bb05b78648f8f760ac2d2be3fca508fc3f069e76496533a",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.hard.0005",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Find the removable hole of $f(x)=\\frac{(x - 4)(x + 6)}{x - 4}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-6,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-6,10)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4,10)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(4,10)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The canceled factor is zero at $x=4$. The simplified function is $x + 6$, so the missing point has $y=10$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "holes",
+      "simplifying"
+    ],
+    "checksum": "sha256-da1291b686b98ad2f7f043eb8ef755cd4d9e1eda8fa3c0d5e5725b9741374349",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.hard.0006",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=\\frac{4x - 7}{x - 8}$. If $f(x)=\\frac{-13}{3}$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$-5$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Cross-multiply $3(4x - 7)=-13(x - 8)$. Solving gives $x=5$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "equations"
+    ],
+    "checksum": "sha256-dd283b4a5d255df2a0ef8505f79e02b6758aba9b14358db4dd24b4d6a91ee90e",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.hard.0007",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Find the removable hole of $f(x)=\\frac{(x + 6)(x + 7)}{x + 6}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-7,1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-6,1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-6,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-7,0)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-6,1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The canceled factor is zero at $x=-6$. The simplified function is $x + 7$, so the missing point has $y=1$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "holes",
+      "simplifying"
+    ],
+    "checksum": "sha256-959bd2944843541eb1f0d501bc033b57f00a16e291d3079c22abe02ffe450c52",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.hard.0008",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=\\frac{6x + 8}{x + 6}$. If $f(x)=\\frac{20}{1}$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-7$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$-8$"
+      },
+      {
+        "id": "d",
+        "latex": "$-6$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Cross-multiply $1(6x + 8)=20(x + 6)$. Solving gives $x=-8$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "equations"
+    ],
+    "checksum": "sha256-1623b4062b33ceb63cfb6c28121cbc3f8c10fb6f331ee4e80e1f0538412059e1",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.hard.0009",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Find the removable hole of $f(x)=\\frac{(x + 2)(x + 6)}{x + 2}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-6,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-6,4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2,4)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-2,4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The canceled factor is zero at $x=-2$. The simplified function is $x + 6$, so the missing point has $y=4$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "holes",
+      "simplifying"
+    ],
+    "checksum": "sha256-23e942b8a1d2098924e1bf1228d23f7590f661658d11f4ab0691f0f85204b127",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.hard.0010",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=\\frac{5x + 6}{x - 11}$. If $f(x)=\\frac{-41}{4}$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$11$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$-7$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Cross-multiply $4(5x + 6)=-41(x - 11)$. Solving gives $x=7$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "equations"
+    ],
+    "checksum": "sha256-b4a0f59f1538b00c22add6e77cb612ecdc8fff3549b9daa46506ab38d14c381b",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.hard.0011",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Find the removable hole of $f(x)=\\frac{(x - 5)(x + 6)}{x - 5}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-6,11)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(5,11)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(5,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-6,0)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(5,11)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The canceled factor is zero at $x=5$. The simplified function is $x + 6$, so the missing point has $y=11$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "holes",
+      "simplifying"
+    ],
+    "checksum": "sha256-43bc0853ed486f57f5a4d51efce451f9728261865e33473977f25d1b1d51ebda",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.hard.0012",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=\\frac{7x + 5}{x + 9}$. If $f(x)=\\frac{41}{10}$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12$"
+      },
+      {
+        "id": "b",
+        "latex": "$-11$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$-9$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "11",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Cross-multiply $10(7x + 5)=41(x + 9)$. Solving gives $x=11$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "equations"
+    ],
+    "checksum": "sha256-f454ef84ad2d70b22118e2029603e28472f19514ceac43393b321e1fa81d8cb9",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.hard.0013",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Find the removable hole of $f(x)=\\frac{(x + 7)(x + 10)}{x + 7}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-7,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-10,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-10,3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-7,3)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-7,3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The canceled factor is zero at $x=-7$. The simplified function is $x + 10$, so the missing point has $y=3$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "holes",
+      "simplifying"
+    ],
+    "checksum": "sha256-9415401936c32d6248875266c70e2ae920d362045a37abb6176aac6a1e80d778",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.hard.0014",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=\\frac{6x - 7}{x - 14}$. If $f(x)=\\frac{67}{24}$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-10$"
+      },
+      {
+        "id": "b",
+        "latex": "$14$"
+      },
+      {
+        "id": "c",
+        "latex": "$-9$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Cross-multiply $24(6x - 7)=67(x - 14)$. Solving gives $x=-10$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "equations"
+    ],
+    "checksum": "sha256-33b355116ac242635b08af46ce5536ed9ffe97f0ad4456c464752416d41822a0",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.hard.0015",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Find the removable hole of $f(x)=\\frac{(x + 3)(x + 10)}{x + 3}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-10,7)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3,7)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-3,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-10,0)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-3,7)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The canceled factor is zero at $x=-3$. The simplified function is $x + 10$, so the missing point has $y=7$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "holes",
+      "simplifying"
+    ],
+    "checksum": "sha256-587179790904875d766d6bbaed0073eb28dfa13b0f252a4c9a3cc17c9527fb5f",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.hard.0016",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=\\frac{8x - 11}{x + 12}$. If $f(x)=\\frac{93}{25}$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$14$"
+      },
+      {
+        "id": "b",
+        "latex": "$-13$"
+      },
+      {
+        "id": "c",
+        "latex": "$13$"
+      },
+      {
+        "id": "d",
+        "latex": "$-12$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "13",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Cross-multiply $25(8x - 11)=93(x + 12)$. Solving gives $x=13$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "equations"
+    ],
+    "checksum": "sha256-1ce437a14c37b6aa406d23d398e4bad7cc59808ec53413b9de215944bb18340a",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.hard.0017",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Find the removable hole of $f(x)=\\frac{(x - 6)(x + 10)}{x - 6}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(6,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-10,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-10,16)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(6,16)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(6,16)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The canceled factor is zero at $x=6$. The simplified function is $x + 10$, so the missing point has $y=16$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "holes",
+      "simplifying"
+    ],
+    "checksum": "sha256-b884ee6352ab64e941b8bbe0201c6293c8a23e65e962d6fdefc7a80fda620427",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.hard.0018",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=\\frac{7x + 12}{x - 17}$. If $f(x)=\\frac{86}{31}$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-14$"
+      },
+      {
+        "id": "b",
+        "latex": "$17$"
+      },
+      {
+        "id": "c",
+        "latex": "$-13$"
+      },
+      {
+        "id": "d",
+        "latex": "$14$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-14",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Cross-multiply $31(7x + 12)=86(x - 17)$. Solving gives $x=-14$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "equations"
+    ],
+    "checksum": "sha256-fe845997828374b901121c4f802a1ccc2146314c7a33d8f2a7172a7d431ef42c",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.hard.0019",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Find the removable hole of $f(x)=\\frac{(x + 8)(x + 10)}{x + 8}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-10,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-8,2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-8,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-10,0)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-8,2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The canceled factor is zero at $x=-8$. The simplified function is $x + 10$, so the missing point has $y=2$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "holes",
+      "simplifying"
+    ],
+    "checksum": "sha256-cdd50954b8cb7dc326a2a4e2cf3e599c56a6a7e2b43aee494d3702f475bd7df8",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.hard.0020",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=\\frac{9x + 10}{x + 15}$. If $f(x)=\\frac{29}{6}$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$17$"
+      },
+      {
+        "id": "c",
+        "latex": "$15$"
+      },
+      {
+        "id": "d",
+        "latex": "$-15$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "15",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Cross-multiply $6(9x + 10)=29(x + 15)$. Solving gives $x=15$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "equations"
+    ],
+    "checksum": "sha256-7b221cdc894362d8d43ea5de7c19a469684db5ce7f0f729a82635bfd803ca83b",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.hard.0021",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Find the removable hole of $f(x)=\\frac{(x + 4)(x + 10)}{x + 4}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-4,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-10,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-10,6)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-4,6)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-4,6)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The canceled factor is zero at $x=-4$. The simplified function is $x + 10$, so the missing point has $y=6$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "holes",
+      "simplifying"
+    ],
+    "checksum": "sha256-b2104d8f79a3b8c29c123eec4db093cdf98c82386f1627003070170b58b7e93b",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.hard.0022",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=\\frac{8x + 9}{x - 20}$. If $f(x)=\\frac{135}{38}$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-18$"
+      },
+      {
+        "id": "b",
+        "latex": "$20$"
+      },
+      {
+        "id": "c",
+        "latex": "$-17$"
+      },
+      {
+        "id": "d",
+        "latex": "$18$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-18",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Cross-multiply $38(8x + 9)=135(x - 20)$. Solving gives $x=-18$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "equations"
+    ],
+    "checksum": "sha256-aaa5d02efc8d90010903c80e700dc4971f98a81e98ad747642c18ff7c17985b4",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.hard.0023",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Find the removable hole of $f(x)=\\frac{(x - 7)(x + 14)}{x - 7}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-14,21)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(7,21)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(7,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-14,0)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(7,21)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The canceled factor is zero at $x=7$. The simplified function is $x + 14$, so the missing point has $y=21$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "holes",
+      "simplifying"
+    ],
+    "checksum": "sha256-b4d4a9aaca9a20a10e8c7aba45d9e074fe5e289de15fcf3bc72ab633d349c130",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.hard.0024",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=\\frac{10x - 11}{x + 18}$. If $f(x)=\\frac{159}{35}$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$18$"
+      },
+      {
+        "id": "b",
+        "latex": "$-17$"
+      },
+      {
+        "id": "c",
+        "latex": "$17$"
+      },
+      {
+        "id": "d",
+        "latex": "$-18$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "17",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Cross-multiply $35(10x - 11)=159(x + 18)$. Solving gives $x=17$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "equations"
+    ],
+    "checksum": "sha256-b06e5cfeb662fa874e4099054b5882a0c77265a0155bb4e4d19d64e8dca4fa46",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.hard.0025",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Find the removable hole of $f(x)=\\frac{(x + 9)(x + 14)}{x + 9}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-9,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-14,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-14,5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-9,5)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-9,5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The canceled factor is zero at $x=-9$. The simplified function is $x + 14$, so the missing point has $y=5$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "holes",
+      "simplifying"
+    ],
+    "checksum": "sha256-9852c0321887470b109a818be9032eaaf1441a6ce41e41189a6bbcf477f3a464",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.hard.0026",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=\\frac{9x - 15}{x - 23}$. If $f(x)=\\frac{-87}{1}$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$21$"
+      },
+      {
+        "id": "b",
+        "latex": "$23$"
+      },
+      {
+        "id": "c",
+        "latex": "$22$"
+      },
+      {
+        "id": "d",
+        "latex": "$-21$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "21",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Cross-multiply $1(9x - 15)=-87(x - 23)$. Solving gives $x=21$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "equations"
+    ],
+    "checksum": "sha256-1b776d993971e064280499dbf751cafb4eeb391f48329b2c29b5431486af8283",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.hard.0027",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Find the removable hole of $f(x)=\\frac{(x + 5)(x + 14)}{x + 5}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-14,9)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-5,9)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-5,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-14,0)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-5,9)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The canceled factor is zero at $x=-5$. The simplified function is $x + 14$, so the missing point has $y=9$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "holes",
+      "simplifying"
+    ],
+    "checksum": "sha256-f08d20c5be9b4dcc79f4df125fe8d90471ff730e910037cf835c1a3ba6e6bde4",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.hard.0028",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=\\frac{11x + 16}{x + 21}$. If $f(x)=\\frac{-204}{1}$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-19$"
+      },
+      {
+        "id": "b",
+        "latex": "$20$"
+      },
+      {
+        "id": "c",
+        "latex": "$-20$"
+      },
+      {
+        "id": "d",
+        "latex": "$-21$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-20",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Cross-multiply $1(11x + 16)=-204(x + 21)$. Solving gives $x=-20$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "equations"
+    ],
+    "checksum": "sha256-feac3c14cf05389f2ac25a39390de09bb58ea2eb9e9ecd68f5c9ea39466dee3d",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.hard.0029",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Find the removable hole of $f(x)=\\frac{(x - 8)(x + 14)}{x - 8}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(8,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-14,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-14,22)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(8,22)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(8,22)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The canceled factor is zero at $x=8$. The simplified function is $x + 14$, so the missing point has $y=22$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "holes",
+      "simplifying"
+    ],
+    "checksum": "sha256-8651660f9fa53eba18d560ee8866314cb1b754d8953a285fef9b10121c822e44",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.hard.0030",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=\\frac{10x + 14}{x - 26}$. If $f(x)=\\frac{-244}{3}$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$23$"
+      },
+      {
+        "id": "b",
+        "latex": "$26$"
+      },
+      {
+        "id": "c",
+        "latex": "$24$"
+      },
+      {
+        "id": "d",
+        "latex": "$-23$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "23",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Cross-multiply $3(10x + 14)=-244(x - 26)$. Solving gives $x=23$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "equations"
+    ],
+    "checksum": "sha256-7c9790ed192c4dc8eab1e7f69eb489054228f137237f573b9b044e90e6df73f3",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.hard.0031",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Find the removable hole of $f(x)=\\frac{(x + 10)(x + 14)}{x + 10}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-14,4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-10,4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-10,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-14,0)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-10,4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The canceled factor is zero at $x=-10$. The simplified function is $x + 14$, so the missing point has $y=4$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "holes",
+      "simplifying"
+    ],
+    "checksum": "sha256-41e625d0513a4f86c7d9e6b0ec54af47c96274cd78143707913a1055164f2269",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.hard.0032",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=\\frac{12x + 13}{x + 24}$. If $f(x)=\\frac{-1}{0}$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$24$"
+      },
+      {
+        "id": "b",
+        "latex": "$-22$"
+      },
+      {
+        "id": "c",
+        "latex": "$-24$"
+      },
+      {
+        "id": "d",
+        "latex": "$-23$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-24",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Cross-multiply $0(12x + 13)=-1(x + 24)$. Solving gives $x=-24$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "equations"
+    ],
+    "checksum": "sha256-14cd058b5b001282fd5e06d551df3fddf4926907f0f1b3618358fdc8d9d56802",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.hard.0033",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Find the removable hole of $f(x)=\\frac{(x + 6)(x + 18)}{x + 6}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-6,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-18,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-18,12)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-6,12)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-6,12)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The canceled factor is zero at $x=-6$. The simplified function is $x + 18$, so the missing point has $y=12$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "holes",
+      "simplifying"
+    ],
+    "checksum": "sha256-78351b3e8b74cd72af466a3ae19b3cd1752855baa392bfa1e5296440ee25fb27",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.hard.0034",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=\\frac{11x - 15}{x - 29}$. If $f(x)=\\frac{-65}{1}$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$25$"
+      },
+      {
+        "id": "b",
+        "latex": "$29$"
+      },
+      {
+        "id": "c",
+        "latex": "$26$"
+      },
+      {
+        "id": "d",
+        "latex": "$-25$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "25",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Cross-multiply $1(11x - 15)=-65(x - 29)$. Solving gives $x=25$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "equations"
+    ],
+    "checksum": "sha256-05cb7bfd3cfddd5d6da2b5cb9fc5348464463024e52432aae0ef9942dc7d9922",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.hard.0035",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Find the removable hole of $f(x)=\\frac{(x - 9)(x + 18)}{x - 9}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-18,27)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(9,27)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(9,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-18,0)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(9,27)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The canceled factor is zero at $x=9$. The simplified function is $x + 18$, so the missing point has $y=27$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "holes",
+      "simplifying"
+    ],
+    "checksum": "sha256-7464281229e02992f2633a223fa7c78da0959a187124539a2bda72337564d289",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.hard.0036",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=\\frac{13x - 19}{x + 27}$. If $f(x)=\\frac{383}{1}$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$28$"
+      },
+      {
+        "id": "b",
+        "latex": "$-26$"
+      },
+      {
+        "id": "c",
+        "latex": "$-28$"
+      },
+      {
+        "id": "d",
+        "latex": "$-27$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-28",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Cross-multiply $1(13x - 19)=383(x + 27)$. Solving gives $x=-28$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "equations"
+    ],
+    "checksum": "sha256-79e11efce29ec115cc9a157828fbdf57c5c9e021054e6c54a6b5278c8fbe47f0",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.hard.0037",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Find the removable hole of $f(x)=\\frac{(x + 11)(x + 18)}{x + 11}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-11,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-18,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-18,7)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-11,7)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-11,7)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The canceled factor is zero at $x=-11$. The simplified function is $x + 18$, so the missing point has $y=7$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "holes",
+      "simplifying"
+    ],
+    "checksum": "sha256-82dc639898938ce705f418d2fc55a927f09d82c38ac3b2a76eb7a7e2b5c661cf",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.hard.0038",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=\\frac{12x + 20}{x - 32}$. If $f(x)=\\frac{-344}{5}$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$27$"
+      },
+      {
+        "id": "b",
+        "latex": "$32$"
+      },
+      {
+        "id": "c",
+        "latex": "$28$"
+      },
+      {
+        "id": "d",
+        "latex": "$-27$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "27",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Cross-multiply $5(12x + 20)=-344(x - 32)$. Solving gives $x=27$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "equations"
+    ],
+    "checksum": "sha256-88dd3d862d83fe987a971c74b7945755d983617616ef386daf6cce72f2183856",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.hard.0039",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Find the removable hole of $f(x)=\\frac{(x + 7)(x + 18)}{x + 7}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-18,11)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-7,11)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-7,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-18,0)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-7,11)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The canceled factor is zero at $x=-7$. The simplified function is $x + 18$, so the missing point has $y=11$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "holes",
+      "simplifying"
+    ],
+    "checksum": "sha256-d56109de875d8535cced6a03728abc6d0043bd43f41839346954633e958338a1",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.hard.0040",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=\\frac{14x + 18}{x + 30}$. If $f(x)=\\frac{452}{61}$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$32$"
+      },
+      {
+        "id": "b",
+        "latex": "$-31$"
+      },
+      {
+        "id": "c",
+        "latex": "$31$"
+      },
+      {
+        "id": "d",
+        "latex": "$-30$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "31",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Cross-multiply $61(14x + 18)=452(x + 30)$. Solving gives $x=31$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "equations"
+    ],
+    "checksum": "sha256-03c267a093114c7fd30be4469e1e28422d0613d44a39ad1c8b65dc13fe3dd922",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.hard.0041",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Find the removable hole of $f(x)=\\frac{(x - 10)(x + 18)}{x - 10}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(10,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-18,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-18,28)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(10,28)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(10,28)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The canceled factor is zero at $x=10$. The simplified function is $x + 18$, so the missing point has $y=28$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "holes",
+      "simplifying"
+    ],
+    "checksum": "sha256-2edb250a75603cb004ba9ded6ff67bb37e41a9fd494b53592a593dffdc58d66f",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.hard.0042",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=\\frac{13x + 17}{x - 35}$. If $f(x)=\\frac{373}{65}$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-30$"
+      },
+      {
+        "id": "b",
+        "latex": "$35$"
+      },
+      {
+        "id": "c",
+        "latex": "$-29$"
+      },
+      {
+        "id": "d",
+        "latex": "$30$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-30",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Cross-multiply $65(13x + 17)=373(x - 35)$. Solving gives $x=-30$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "equations"
+    ],
+    "checksum": "sha256-c5a811ca66bacd06eb842f837834acaa7f460eddfa1675eac7a633df71bf9033",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.hard.0043",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Find the removable hole of $f(x)=\\frac{(x + 12)(x + 22)}{x + 12}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-22,10)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-12,10)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-12,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-22,0)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-12,10)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The canceled factor is zero at $x=-12$. The simplified function is $x + 22$, so the missing point has $y=10$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "holes",
+      "simplifying"
+    ],
+    "checksum": "sha256-5d4068cfe9cbd5c7d73c9e0f58e73f8ee982bd28009cee522d72da1997f653b7",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.hard.0044",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=\\frac{15x - 19}{x + 33}$. If $f(x)=\\frac{238}{33}$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$34$"
+      },
+      {
+        "id": "b",
+        "latex": "$35$"
+      },
+      {
+        "id": "c",
+        "latex": "$33$"
+      },
+      {
+        "id": "d",
+        "latex": "$-33$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "33",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Cross-multiply $33(15x - 19)=238(x + 33)$. Solving gives $x=33$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "equations"
+    ],
+    "checksum": "sha256-1c3155cb08ab85713f0062e7cc07c38dd6e1c9d1939845aaff37f9075ef7c268",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.hard.0045",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Find the removable hole of $f(x)=\\frac{(x + 8)(x + 22)}{x + 8}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-8,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-22,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-22,14)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-8,14)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-8,14)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The canceled factor is zero at $x=-8$. The simplified function is $x + 22$, so the missing point has $y=14$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "holes",
+      "simplifying"
+    ],
+    "checksum": "sha256-0aff41be9487b142153797ccb1ab6b7211640ad3ea4f8a2d6ac6622b89dd0b00",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.hard.0046",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=\\frac{14x - 23}{x - 38}$. If $f(x)=\\frac{499}{72}$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-34$"
+      },
+      {
+        "id": "b",
+        "latex": "$38$"
+      },
+      {
+        "id": "c",
+        "latex": "$-33$"
+      },
+      {
+        "id": "d",
+        "latex": "$34$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-34",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Cross-multiply $72(14x - 23)=499(x - 38)$. Solving gives $x=-34$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "equations"
+    ],
+    "checksum": "sha256-89c2c36ebd7c594687fe4c7958cb45875d4c623de7d027eb6efa7a8e1d66ac8a",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.hard.0047",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Find the removable hole of $f(x)=\\frac{(x - 11)(x + 22)}{x - 11}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-22,33)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(11,33)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(11,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-22,0)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(11,33)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The canceled factor is zero at $x=11$. The simplified function is $x + 22$, so the missing point has $y=33$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "holes",
+      "simplifying"
+    ],
+    "checksum": "sha256-ec6226c887b0d1c1bc0eac4c0f4f76c0fcfc5e9cdcc638d9b53f342bd3fbc88f",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.hard.0048",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=\\frac{16x + 24}{x + 36}$. If $f(x)=\\frac{584}{71}$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$36$"
+      },
+      {
+        "id": "b",
+        "latex": "$-35$"
+      },
+      {
+        "id": "c",
+        "latex": "$35$"
+      },
+      {
+        "id": "d",
+        "latex": "$-36$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "35",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Cross-multiply $71(16x + 24)=584(x + 36)$. Solving gives $x=35$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "equations"
+    ],
+    "checksum": "sha256-3df7019389dca47451bbd93694c87e8f9738db0786006f6caeaa4881bc1ddc06",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.hard.0049",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Find the removable hole of $f(x)=\\frac{(x + 13)(x + 22)}{x + 13}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-13,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-22,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-22,9)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-13,9)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-13,9)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The canceled factor is zero at $x=-13$. The simplified function is $x + 22$, so the missing point has $y=9$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "holes",
+      "simplifying"
+    ],
+    "checksum": "sha256-5b305f27663250398e6b6feb329a2189449fb9015bcc966d29e38d8e30a3a2d4",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.hard.0050",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=\\frac{15x + 22}{x - 41}$. If $f(x)=\\frac{548}{79}$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-38$"
+      },
+      {
+        "id": "b",
+        "latex": "$41$"
+      },
+      {
+        "id": "c",
+        "latex": "$-37$"
+      },
+      {
+        "id": "d",
+        "latex": "$38$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-38",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Cross-multiply $79(15x + 22)=548(x - 41)$. Solving gives $x=-38$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "equations"
+    ],
+    "checksum": "sha256-fabded7945591f5246e7bdff0eb2b53f6787cd6d433aa0f2d6739e34dab54de8",
+    "status": "valid"
+  }
+]

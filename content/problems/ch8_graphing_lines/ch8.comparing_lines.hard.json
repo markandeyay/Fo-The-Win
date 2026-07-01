@@ -1,0 +1,1992 @@
+[
+  {
+    "id": "ch8.comparing_lines.hard.0001",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ are $y = 3x - 8$ and $y = kx - 4$ parallel?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Parallel lines have equal slopes, so $k=3$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "parameters",
+      "parallel"
+    ],
+    "checksum": "sha256-196dfc42e9f74eccde06bbd686907f737bac5085b41e281f78792fec04d18c91",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.hard.0002",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ are $y = -x - 7$ and $y = kx - 4$ perpendicular?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Perpendicular slopes multiply to $-1$, so $-1k=-1$ and $k=1$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "parameters",
+      "perpendicular"
+    ],
+    "checksum": "sha256-e7b8be3480d43d4b86c2b68f6b6502682e907e89a54ff9eb952841bc0616ddad",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.hard.0003",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ are $5x + 3y = 19$ and $kx + 6y = 24$ parallel?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-10$"
+      },
+      {
+        "id": "b",
+        "latex": "$11$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Parallel standard-form lines have proportional $x$ and $y$ coefficients. Since $6$ is twice $3$, $k$ must be $2(5)=10$.",
+    "complexity_factor": 1.3,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "standard-form",
+      "parallel"
+    ],
+    "checksum": "sha256-32af543a67dcf358cee100e0dc810eddaf28d8e5e150fd8d9f7ad5346d3d245b",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.hard.0004",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Find the intersection of $y = -2x - 1$ and $y = -3x - 2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1, -1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1, 1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1, 1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1, -1)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-1,1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Substituting $x=-1$ gives $y=1$ in both equations, so the intersection is $(-1, 1)$.",
+    "complexity_factor": 1.3,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "intersection"
+    ],
+    "checksum": "sha256-4ccab81adf780d8c6b421480ae669470cde8d570f8a6e70fa81c305d7faa1e0a",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.hard.0005",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ do $y = 2x - 4$ and $y = 2x$ represent the same line?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-5$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Same lines in slope-intercept form must have the same slope and intercept, so $k=-4$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "parameters",
+      "same-line"
+    ],
+    "checksum": "sha256-3925e5d560e4249bb55239e8d934fe3c1a66a96e542eea67f8d6982c941192cd",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.hard.0006",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ are $y = 3x - 3$ and $y = kx + 1$ parallel?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Parallel lines have equal slopes, so $k=3$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "parameters",
+      "parallel"
+    ],
+    "checksum": "sha256-092af46e277dedbf3ba9ad3de3bb47b80ed789c1fc7f13294f7282feb4f916f3",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.hard.0007",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ are $y = x - 2$ and $y = kx + 1$ perpendicular?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Perpendicular slopes multiply to $-1$, so $1k=-1$ and $k=-1$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "parameters",
+      "perpendicular"
+    ],
+    "checksum": "sha256-65ccc8c4d4f7679d7c2958239dec22becf29154e5882cb5226b573a011bfb988",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.hard.0008",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ are $3x + 4y = 18$ and $kx + 8y = 23$ parallel?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$-6$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Parallel standard-form lines have proportional $x$ and $y$ coefficients. Since $8$ is twice $4$, $k$ must be $2(3)=6$.",
+    "complexity_factor": 1.3,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "standard-form",
+      "parallel"
+    ],
+    "checksum": "sha256-2c7d36693c2c221faaeb660d5816a2d555e5b180a190cb687caa7bd2e1351e1b",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.hard.0009",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Find the intersection of $y = x - 4$ and $y = -x + 4$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-4, 0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0, 4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4, 0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(5, 0)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(4,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Substituting $x=4$ gives $y=0$ in both equations, so the intersection is $(4, 0)$.",
+    "complexity_factor": 1.3,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "intersection"
+    ],
+    "checksum": "sha256-2c1345cc233b78cf06ce51fcb3e2599d4b1c66835764f8e5260e769400fcfeb6",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.hard.0010",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ do $y = -2x + 1$ and $y = -2x$ represent the same line?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Same lines in slope-intercept form must have the same slope and intercept, so $k=1$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "parameters",
+      "same-line"
+    ],
+    "checksum": "sha256-ed3e22c4971c7275b845e6f83c17930d4357edb0638ea065c6bcd5ede5c0f68c",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.hard.0011",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ are $y = x + 2$ and $y = kx + 6$ parallel?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Parallel lines have equal slopes, so $k=1$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "parameters",
+      "parallel"
+    ],
+    "checksum": "sha256-0c8b8dd64ca3314a36de22c580ed3e4d5b5da06c0ed51eb3b0532bdc1ef04072",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.hard.0012",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ are $y = x + 3$ and $y = kx + 6$ perpendicular?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Perpendicular slopes multiply to $-1$, so $1k=-1$ and $k=-1$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "parameters",
+      "perpendicular"
+    ],
+    "checksum": "sha256-5915877dd576e508a1b0ead394f7f5c6ec05cae06c5502a9822426dbc0fcb0e7",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.hard.0013",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ are $5x + 2y = 16$ and $kx + 4y = 21$ parallel?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11$"
+      },
+      {
+        "id": "b",
+        "latex": "$-10$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Parallel standard-form lines have proportional $x$ and $y$ coefficients. Since $4$ is twice $2$, $k$ must be $2(5)=10$.",
+    "complexity_factor": 1.3,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "standard-form",
+      "parallel"
+    ],
+    "checksum": "sha256-c98f4a81b532ec5cd003b34e24aad4cf9a8371dc87eb0a9cdc0531d74eaeb7f8",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.hard.0014",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Find the intersection of $y = 3x - 1$ and $y = 2x - 1$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1, -1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0, 1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0, -1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1, 0)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(0,-1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Substituting $x=0$ gives $y=-1$ in both equations, so the intersection is $(0, -1)$.",
+    "complexity_factor": 1.3,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "intersection"
+    ],
+    "checksum": "sha256-66ed2daed38d6ab3217afdc121c3aefc44ea4fd9135e2073210298e9ca3b2f6c",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.hard.0015",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ do $y = -x + 6$ and $y = -x$ represent the same line?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$-6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Same lines in slope-intercept form must have the same slope and intercept, so $k=6$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "parameters",
+      "same-line"
+    ],
+    "checksum": "sha256-9903b3a8a9c04d5e12fdc8db80be801992f74b7d20b0b4e7ee78b3edd9641638",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.hard.0016",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ are $y = 4x + 7$ and $y = kx + 11$ parallel?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Parallel lines have equal slopes, so $k=4$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "parameters",
+      "parallel"
+    ],
+    "checksum": "sha256-010943c715970f2fdc23a918ead326d2b12bdd6808d7e4e7cdd0cbfd8c47a55a",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.hard.0017",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ are $y = -x + 8$ and $y = kx + 11$ perpendicular?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Perpendicular slopes multiply to $-1$, so $-1k=-1$ and $k=1$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "parameters",
+      "perpendicular"
+    ],
+    "checksum": "sha256-08a5313b165cc426ece67a62680c764c9dd614614531cf8dbf8e6cd53b8852c9",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.hard.0018",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ are $6x + 5y = 27$ and $kx + 10y = 32$ parallel?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-12$"
+      },
+      {
+        "id": "b",
+        "latex": "$13$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$11$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Parallel standard-form lines have proportional $x$ and $y$ coefficients. Since $10$ is twice $5$, $k$ must be $2(6)=12$.",
+    "complexity_factor": 1.3,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "standard-form",
+      "parallel"
+    ],
+    "checksum": "sha256-5d05936ed46def200deaa69b1a822de8173f7a4b64720e1c285dfbc038fb374c",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.hard.0019",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Find the intersection of $y = 3x + 10$ and $y = 5x + 18$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-4, -2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-4, 2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2, -4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4, -2)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-4,-2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Substituting $x=-4$ gives $y=-2$ in both equations, so the intersection is $(-4, -2)$.",
+    "complexity_factor": 1.3,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "intersection"
+    ],
+    "checksum": "sha256-e591e3b5c75472636b2082e776fb749d48d79718265b363628ea9185c4420dfd",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.hard.0020",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ do $y = x - 6$ and $y = x$ represent the same line?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$-5$"
+      },
+      {
+        "id": "c",
+        "latex": "$-7$"
+      },
+      {
+        "id": "d",
+        "latex": "$-6$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Same lines in slope-intercept form must have the same slope and intercept, so $k=-6$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "parameters",
+      "same-line"
+    ],
+    "checksum": "sha256-9c128357a7b667329d5a154c9153caaefdfb061c6aadc66c68bd3e2bea8dc2ba",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.hard.0021",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ are $y = 4x - 5$ and $y = kx - 1$ parallel?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Parallel lines have equal slopes, so $k=4$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "parameters",
+      "parallel"
+    ],
+    "checksum": "sha256-4ec7857ffa7296034f67ba3beadd66f7d188c9d7cc84adb21ae1d62e5a6cecd4",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.hard.0022",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ are $y = x - 4$ and $y = kx - 1$ perpendicular?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Perpendicular slopes multiply to $-1$, so $1k=-1$ and $k=-1$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "parameters",
+      "perpendicular"
+    ],
+    "checksum": "sha256-6f377b5b3ce16f172a592961d7c82ee93d5cce389d0c130da246a48eaa715b24",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.hard.0023",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ are $2x + 3y = 13$ and $kx + 6y = 18$ parallel?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Parallel standard-form lines have proportional $x$ and $y$ coefficients. Since $6$ is twice $3$, $k$ must be $2(2)=4$.",
+    "complexity_factor": 1.3,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "standard-form",
+      "parallel"
+    ],
+    "checksum": "sha256-fb7d1f7fae561531f8dea4546dd145a99df110e483a8ae50fb5290916dc8afc0",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.hard.0024",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Find the intersection of $y = 2x - 5$ and $y = 4x - 7$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1, -3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1, 3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1, -3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-3, 1)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(1,-3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Substituting $x=1$ gives $y=-3$ in both equations, so the intersection is $(1, -3)$.",
+    "complexity_factor": 1.3,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "intersection"
+    ],
+    "checksum": "sha256-30a8a2ed9d12d514a1118260a8d82ea8da9d3eadfe28a3f4cf6331db6d5ae259",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.hard.0025",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ do $y = 3x - 1$ and $y = 3x$ represent the same line?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Same lines in slope-intercept form must have the same slope and intercept, so $k=-1$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "parameters",
+      "same-line"
+    ],
+    "checksum": "sha256-aab5fb255dfc1e4d356261eaf20951b954e469d4898ad6000da313ab83c6f18b",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.hard.0026",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ are $y = 2x$ and $y = kx + 4$ parallel?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Parallel lines have equal slopes, so $k=2$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "parameters",
+      "parallel"
+    ],
+    "checksum": "sha256-6ba42ec1ca79220c5393db69408bf0587f3effc8ab0ed71d20b7187d055b9616",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.hard.0027",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ are $y = -x + 1$ and $y = kx + 4$ perpendicular?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Perpendicular slopes multiply to $-1$, so $-1k=-1$ and $k=1$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "parameters",
+      "perpendicular"
+    ],
+    "checksum": "sha256-2e39908432fe8e3220b2217fb86923c4bbc7cadc3ca66c65be4300706f884cb8",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.hard.0028",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ are $6x + 3y = 21$ and $kx + 6y = 26$ parallel?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$13$"
+      },
+      {
+        "id": "b",
+        "latex": "$-12$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Parallel standard-form lines have proportional $x$ and $y$ coefficients. Since $6$ is twice $3$, $k$ must be $2(6)=12$.",
+    "complexity_factor": 1.3,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "standard-form",
+      "parallel"
+    ],
+    "checksum": "sha256-39b50299e75257936d9bc55806da965be6396c242eac2759571c705325d58f70",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.hard.0029",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Find the intersection of $y = -x - 7$ and $y = -3x - 13$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-3, -4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-4, -3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3, -4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-3, 4)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-3,-4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Substituting $x=-3$ gives $y=-4$ in both equations, so the intersection is $(-3, -4)$.",
+    "complexity_factor": 1.3,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "intersection"
+    ],
+    "checksum": "sha256-f9a5cc1e75600bb808e8a1cb3133d410be93a9020bd2376724e6543b84acff76",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.hard.0030",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ do $y = 2x + 4$ and $y = 2x$ represent the same line?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Same lines in slope-intercept form must have the same slope and intercept, so $k=4$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "parameters",
+      "same-line"
+    ],
+    "checksum": "sha256-bda52ba193a28a24df95cad79f160070e225dceef1b4d5e4d95232185cab0c3b",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.hard.0031",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ are $y = -3x + 5$ and $y = kx + 9$ parallel?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Parallel lines have equal slopes, so $k=-3$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "parameters",
+      "parallel"
+    ],
+    "checksum": "sha256-684443737857cc477b8bd2c1192a570aff33c4d2bddae2547f687132543273eb",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.hard.0032",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ are $y = x + 6$ and $y = kx + 9$ perpendicular?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Perpendicular slopes multiply to $-1$, so $1k=-1$ and $k=-1$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "parameters",
+      "perpendicular"
+    ],
+    "checksum": "sha256-0fc282a51890c5270ca5a6753fd870f1b5adbf72e430ba5317dcdb394dd230c1",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.hard.0033",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ are $3x + 6y = 24$ and $kx + 12y = 29$ parallel?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-6$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Parallel standard-form lines have proportional $x$ and $y$ coefficients. Since $12$ is twice $6$, $k$ must be $2(3)=6$.",
+    "complexity_factor": 1.3,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "standard-form",
+      "parallel"
+    ],
+    "checksum": "sha256-1c7593641a2d7cfffe7596aeb56ae4d50f98c5ff396bf9d16a25bfc766e7d83d",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.hard.0034",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Find the intersection of $y = 2x - 9$ and $y = 0 - 5$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2, -5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-5, 2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2, -5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2, 5)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(2,-5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Substituting $x=2$ gives $y=-5$ in both equations, so the intersection is $(2, -5)$.",
+    "complexity_factor": 1.3,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "intersection"
+    ],
+    "checksum": "sha256-4c4262fa945ecff8d24b3b9d7ecfd871908b5124bb3546693085ed7c361fb23c",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.hard.0035",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ do $y = x - 8$ and $y = x$ represent the same line?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$-8$"
+      },
+      {
+        "id": "c",
+        "latex": "$-9$"
+      },
+      {
+        "id": "d",
+        "latex": "$-7$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Same lines in slope-intercept form must have the same slope and intercept, so $k=-8$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "parameters",
+      "same-line"
+    ],
+    "checksum": "sha256-9473bd5c0504e78a2a9cc24194ea4dc324767dbda30430b307fc47a6410dad5c",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.hard.0036",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ are $y = -4x - 7$ and $y = kx - 3$ parallel?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-5$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Parallel lines have equal slopes, so $k=-4$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "parameters",
+      "parallel"
+    ],
+    "checksum": "sha256-198134f0ced3db67698e2d06a80019f4a162912e4a17c3de12a2903b95aba9d0",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.hard.0037",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ are $y = x - 6$ and $y = kx - 3$ perpendicular?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Perpendicular slopes multiply to $-1$, so $1k=-1$ and $k=-1$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "parameters",
+      "perpendicular"
+    ],
+    "checksum": "sha256-e8935aff29f4c33f35d3c5fb8dcccfb6cc0d01b4b1750fdbd93b5c0313242757",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.hard.0038",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ are $2x + 2y = 10$ and $kx + 4y = 15$ parallel?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Parallel standard-form lines have proportional $x$ and $y$ coefficients. Since $4$ is twice $2$, $k$ must be $2(2)=4$.",
+    "complexity_factor": 1.3,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "standard-form",
+      "parallel"
+    ],
+    "checksum": "sha256-1aa51d31a6e1db050c562dac4c7052f22d82eb8be41eb64eb18fca7dc8c16356",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.hard.0039",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Find the intersection of $y = -x + 3$ and $y = 0 + 5$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2, 5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(5, -2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2, 5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2, -5)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-2,5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Substituting $x=-2$ gives $y=5$ in both equations, so the intersection is $(-2, 5)$.",
+    "complexity_factor": 1.3,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "intersection"
+    ],
+    "checksum": "sha256-37758fd3e0729f1da1078e1d996af722f791db6a152dd6289464a44d562c484d",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.hard.0040",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ do $y = x - 3$ and $y = x$ represent the same line?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Same lines in slope-intercept form must have the same slope and intercept, so $k=-3$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "parameters",
+      "same-line"
+    ],
+    "checksum": "sha256-c4ba7d33f94a57c128511e5c901f74a0290df0e23fe394d8a73014419fc9244b",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.hard.0041",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ are $y = x - 2$ and $y = kx + 2$ parallel?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Parallel lines have equal slopes, so $k=1$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "parameters",
+      "parallel"
+    ],
+    "checksum": "sha256-68cb173ac9c70e0223b749523ecacfc23c2f227642c35ca84df5022617f82a24",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.hard.0042",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ are $y = -x - 1$ and $y = kx + 2$ perpendicular?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Perpendicular slopes multiply to $-1$, so $-1k=-1$ and $k=1$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "parameters",
+      "perpendicular"
+    ],
+    "checksum": "sha256-eba187530b5df20d8d63ffa5e1c69b339a2e28fe03b44560e0e1e2d85a52ce03",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.hard.0043",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ are $5x + 5y = 25$ and $kx + 10y = 30$ parallel?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$-10$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$11$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Parallel standard-form lines have proportional $x$ and $y$ coefficients. Since $10$ is twice $5$, $k$ must be $2(5)=10$.",
+    "complexity_factor": 1.3,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "standard-form",
+      "parallel"
+    ],
+    "checksum": "sha256-559781aad9d68a790ae6f03fc58d9f525b14094e4ca8732ff7257681da75b5b3",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.hard.0044",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Find the intersection of $y = -3x + 13$ and $y = -5x + 19$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4, 3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3, 4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-3, 4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3, -4)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(3,4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Substituting $x=3$ gives $y=4$ in both equations, so the intersection is $(3, 4)$.",
+    "complexity_factor": 1.3,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "intersection"
+    ],
+    "checksum": "sha256-7a370334ef5a16bfdd86af105f00c9ab0756e33ddd2d3bb6d27fb1918bdff866",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.hard.0045",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ do $y = x + 2$ and $y = x$ represent the same line?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Same lines in slope-intercept form must have the same slope and intercept, so $k=2$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "parameters",
+      "same-line"
+    ],
+    "checksum": "sha256-8b77de67a04c353c2cec0e34e301dec5ba6872c8f53d66eaae74279c5feb41a7",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.hard.0046",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ are $y = 2x + 3$ and $y = kx + 7$ parallel?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Parallel lines have equal slopes, so $k=2$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "parameters",
+      "parallel"
+    ],
+    "checksum": "sha256-e6217e1f1cb812f631915acc1405c3949ee2c1f45ba82ad91fb8fb5fd456c16a",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.hard.0047",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ are $y = -x + 4$ and $y = kx + 7$ perpendicular?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Perpendicular slopes multiply to $-1$, so $-1k=-1$ and $k=1$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "parameters",
+      "perpendicular"
+    ],
+    "checksum": "sha256-9f7733672b2c257f5786705dce8c12786e18aaa8913ae5c1e2930cf86fb9c6e6",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.hard.0048",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ are $2x + 6y = 22$ and $kx + 12y = 27$ parallel?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Parallel standard-form lines have proportional $x$ and $y$ coefficients. Since $12$ is twice $6$, $k$ must be $2(2)=4$.",
+    "complexity_factor": 1.3,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "standard-form",
+      "parallel"
+    ],
+    "checksum": "sha256-0ec0ad88aac0d6aca09a9ef5188a4ee7f83646656ce65ce92c9ac703b9778883",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.hard.0049",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Find the intersection of $y = 3x + 6$ and $y = 4x + 7$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3, -1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1, -3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1, 3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1, 3)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-1,3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Substituting $x=-1$ gives $y=3$ in both equations, so the intersection is $(-1, 3)$.",
+    "complexity_factor": 1.3,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "intersection"
+    ],
+    "checksum": "sha256-2591b86d595f2a300b7011ec02c734a08282ded7cb00cc156cd959e82e045997",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.hard.0050",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ do $y = 4x + 7$ and $y = 4x$ represent the same line?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$-7$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Same lines in slope-intercept form must have the same slope and intercept, so $k=7$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "parameters",
+      "same-line"
+    ],
+    "checksum": "sha256-93f267167c7fc8892335f1b36369d20f8ec34547f27857eee60f20393bfc3495",
+    "status": "valid"
+  }
+]

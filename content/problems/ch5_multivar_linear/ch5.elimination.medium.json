@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "ch5.elimination.medium.0001",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 2x + 5y = -2 \\\\ 4x + 5y = -4 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1,1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0,0)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-1,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply to align coefficients, eliminate one variable, solve, then back-substitute to get $(x,y) = (-1,0)$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-ef42730bbdc395cef7d12d615403893f579ef81f166aad69f9f2e8f5b3aa61a0",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.medium.0002",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 2x + 4y = 10 \\\\ 5x + 2y = -7 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-3,5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3,-4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2,4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-3,4)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-3,4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply to align coefficients, eliminate one variable, solve, then back-substitute to get $(x,y) = (-3,4)$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-b2dd5ed5e98d1aa3a0f26a46280d30fdea6ee35c2ddf115a9dc0f2faee404366",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.medium.0003",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 2x = -12 - 2y \\\\ 2x - 2y = 4 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,-4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-2,-3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2,-4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,-4)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-2,-4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite the first equation as $2x + 2y = -12$, then add the equations to eliminate $y$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "rearrange"
+    ],
+    "checksum": "sha256-5eb2e676cf94fefbef8b0a4545af17c82df81fc83742836dcbe459941e9bf269",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.medium.0004",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} \\dfrac{x}{2} + \\dfrac{y}{3} = \\dfrac{-1}{1} \\\\ \\dfrac{x}{2} - \\dfrac{y}{3} = \\dfrac{-1}{1} \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2,1)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-2,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply each equation by $6$ to clear fractions, then add and subtract to find $x = -2$ and $y = 0$.",
+    "complexity_factor": 1.2,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "fractions"
+    ],
+    "checksum": "sha256-fea7132bc925e601f903aa1cfb9a1b7ddb0f2c4b0b1e30d29c200021ebe3780d",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.medium.0005",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 5x + 3y = -6 \\\\ 2x + 4y = 6 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2,3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3,3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3,-3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-3,4)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-3,3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply to align coefficients, eliminate one variable, solve, then back-substitute to get $(x,y) = (-3,3)$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-05460f1edd81dcf94332d7488211380e2439a7d7a2d18ca7db039511b76a6259",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.medium.0006",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 4x + 3y = 6 \\\\ 5x + 4y = 7 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3,-1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3,2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4,-2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3,-2)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(3,-2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply to align coefficients, eliminate one variable, solve, then back-substitute to get $(x,y) = (3,-2)$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-d4bb3a3e67e84be4861a6c13c98ae6c580b01019ee3c6e2c2a6f3e4305a856df",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.medium.0007",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 4x = 22 - 5y \\\\ 1x - 5y = -7 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-3,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3,2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3,3)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(3,2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite the first equation as $4x + 5y = 22$, then add the equations to eliminate $y$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "rearrange"
+    ],
+    "checksum": "sha256-6c60bd889d89e6c6c4a5479672125cc79b494aa4fcfae9fcfd54f34c32fc71e4",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.medium.0008",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} \\dfrac{x}{2} + \\dfrac{y}{3} = \\dfrac{7}{6} \\\\ \\dfrac{x}{2} - \\dfrac{y}{3} = \\dfrac{11}{6} \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4,-1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3,-1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3,-1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3,0)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(3,-1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply each equation by $6$ to clear fractions, then add and subtract to find $x = 3$ and $y = -1$.",
+    "complexity_factor": 1.2,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "fractions"
+    ],
+    "checksum": "sha256-9fee69010ec2a83ed21fc856a019c0c53813252281951a607834d9bdd7f4aa5c",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.medium.0009",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 2x + 5y = 18 \\\\ 4x + 5y = 26 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-4,-2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4,2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(5,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4,3)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(4,2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply to align coefficients, eliminate one variable, solve, then back-substitute to get $(x,y) = (4,2)$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-3e69f9bb220cf3b17d5cbff32b2d16d430ede457bc6bee99674df2ea14c39ebf",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.medium.0010",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 3y = 0 \\\\ 2x + 2y = 0 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1,-1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1,1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2,-1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1,0)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(1,-1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply to align coefficients, eliminate one variable, solve, then back-substitute to get $(x,y) = (1,-1)$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-24d3eb4bacffb2c657cacd77144f54117ba8814d858e4cc6d3b0f461ffc9f8d9",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.medium.0011",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 4x = -4 - 2y \\\\ 5x - 2y = -5 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,1)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-1,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite the first equation as $4x + 2y = -4$, then add the equations to eliminate $y$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "rearrange"
+    ],
+    "checksum": "sha256-3118b0abaf20bf74a433ec82218799b2589b9afbf33b7a312a5142a5a4246f06",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.medium.0012",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} \\dfrac{x}{2} + \\dfrac{y}{4} = \\dfrac{1}{1} \\\\ \\dfrac{x}{2} - \\dfrac{y}{4} = \\dfrac{2}{1} \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3,-2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4,-2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3,-1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-3,-2)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(3,-2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply each equation by $8$ to clear fractions, then add and subtract to find $x = 3$ and $y = -2$.",
+    "complexity_factor": 1.2,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "fractions"
+    ],
+    "checksum": "sha256-e74a2422ca854d62df85d9d41b97d7975f83f839f20bb0133f94f7427077a3e6",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.medium.0013",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 5x + 4y = -2 \\\\ 4x + 4y = -4 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2,3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2,-3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3,-3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,-2)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(2,-3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply to align coefficients, eliminate one variable, solve, then back-substitute to get $(x,y) = (2,-3)$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-5d146f5f3629fbc103f814289d86123e3a28faaec344c4ed1099cd1e5bd32a6a",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.medium.0014",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 5y = -12 \\\\ 3x + 2y = -12 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-4,1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-3,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-4,0)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-4,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply to align coefficients, eliminate one variable, solve, then back-substitute to get $(x,y) = (-4,0)$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-763fdab01a5a34c0ff0184eebbcd454b2ff02024f4fdf6352dd4f43232cef63c",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.medium.0015",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 2x = -1 - 1y \\\\ 4x - 1y = 7 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1,-3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2,-3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,-3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1,-2)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(1,-3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite the first equation as $2x + 1y = -1$, then add the equations to eliminate $y$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "rearrange"
+    ],
+    "checksum": "sha256-ae1846ebc028f9406143ca483012573814cd86ac07270ebdfcb3c6b350c29830",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.medium.0016",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} \\dfrac{x}{2} + \\dfrac{y}{4} = \\dfrac{3}{4} \\\\ \\dfrac{x}{2} - \\dfrac{y}{4} = \\dfrac{5}{4} \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2,-1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2,-1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3,-1)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(2,-1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply each equation by $8$ to clear fractions, then add and subtract to find $x = 2$ and $y = -1$.",
+    "complexity_factor": 1.2,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "fractions"
+    ],
+    "checksum": "sha256-2671b465461af489b2d7a650408e14dee80eb4e101b47abb622c5a12e0b7e958",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.medium.0017",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 4x + 5y = 28 \\\\ 2x + 3y = 16 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2,5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-2,-4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2,4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3,4)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(2,4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply to align coefficients, eliminate one variable, solve, then back-substitute to get $(x,y) = (2,4)$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-7e304596a5f3d6eb47387be2e5a34818cd39f7da6c6fc42cc18903881f2ad23a",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.medium.0018",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 2y = 12 \\\\ 3x + 3y = 12 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(5,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4,1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-4,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4,0)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(4,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply to align coefficients, eliminate one variable, solve, then back-substitute to get $(x,y) = (4,0)$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-e2337ae8866145abf03abbbaac5334a3fe2ef791cdf98740483569444bef0185",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.medium.0019",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 2x = 6 - 1y \\\\ 2x - 1y = -2 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2,4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1,4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1,5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1,4)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(1,4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite the first equation as $2x + 1y = 6$, then add the equations to eliminate $y$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "rearrange"
+    ],
+    "checksum": "sha256-a9e2fe495d14c931528ab0e3174d995fa09b9a51ba881e6e3dda88d9bd5561c0",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.medium.0020",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} \\dfrac{x}{2} + \\dfrac{y}{4} = \\dfrac{-2}{1} \\\\ \\dfrac{x}{2} - \\dfrac{y}{4} = \\dfrac{-2}{1} \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-3,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-4,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-4,1)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-4,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply each equation by $8$ to clear fractions, then add and subtract to find $x = -4$ and $y = 0$.",
+    "complexity_factor": 1.2,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "fractions"
+    ],
+    "checksum": "sha256-ad51cce6856c8a73f957bcc7f94f2344958413bc84032b6a1c256b4ac5b2b57c",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.medium.0021",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 5x + 3y = 2 \\\\ 5x + 2y = 3 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1,-1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2,-1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,1)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(1,-1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply to align coefficients, eliminate one variable, solve, then back-substitute to get $(x,y) = (1,-1)$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-6c445fc0a53b120f7e4ad9a476405fba132af99fa5c6651a001b4c60bb553d9e",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.medium.0022",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 2x + 4y = -18 \\\\ 4x + 2y = -12 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1,4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1,-4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,-3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0,-4)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-1,-4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply to align coefficients, eliminate one variable, solve, then back-substitute to get $(x,y) = (-1,-4)$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-445fc41c42c785a797a1ad469271dc3e257cf68f1ea231315075d6ed57fad7c4",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.medium.0023",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 3x = 3 - 5y \\\\ 5x - 5y = 5 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1,1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,0)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(1,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite the first equation as $3x + 5y = 3$, then add the equations to eliminate $y$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "rearrange"
+    ],
+    "checksum": "sha256-f53068804356b03469f08e4304c58e76457e9924d76888706740036c192348f4",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.medium.0024",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} \\dfrac{x}{2} + \\dfrac{y}{4} = \\dfrac{3}{2} \\\\ \\dfrac{x}{2} - \\dfrac{y}{4} = \\dfrac{-1}{2} \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1,5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1,4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,4)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(1,4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply each equation by $8$ to clear fractions, then add and subtract to find $x = 1$ and $y = 4$.",
+    "complexity_factor": 1.2,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "fractions"
+    ],
+    "checksum": "sha256-b2398d686d69c66933127fdeeac994d48a7c0cf96c1ea7499da024197816aa5c",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.medium.0025",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 5y = 1 \\\\ 5x + 3y = -9 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-3,3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3,2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3,-2)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-3,2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply to align coefficients, eliminate one variable, solve, then back-substitute to get $(x,y) = (-3,2)$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-e3d85755c474bd97acd2a732d6b9dd91045fa0eb35ef1eb969cacd55b33e22a1",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.medium.0026",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 4x + 2y = 2 \\\\ 4x + 2y = 2 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,-1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1,1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0,1)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(0,1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply to align coefficients, eliminate one variable, solve, then back-substitute to get $(x,y) = (0,1)$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-eaa6cfff81fd20835d4d7228f1a13f53d036e3fe93ec9f876142811ade36164a",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.medium.0027",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 5x = 1 - 2y \\\\ 4x - 2y = -10 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1,3)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-1,3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite the first equation as $5x + 2y = 1$, then add the equations to eliminate $y$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "rearrange"
+    ],
+    "checksum": "sha256-cb9002ea59634192aabced050c1698f23d5574e92eced4833e95a772efc1d78b",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.medium.0028",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} \\dfrac{x}{4} + \\dfrac{y}{4} = \\dfrac{0}{1} \\\\ \\dfrac{x}{4} - \\dfrac{y}{4} = \\dfrac{-2}{1} \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-3,4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-4,5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-4,4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4,4)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-4,4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply each equation by $16$ to clear fractions, then add and subtract to find $x = -4$ and $y = 4$.",
+    "complexity_factor": 1.2,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "fractions"
+    ],
+    "checksum": "sha256-1a11ed887ef54ef01947fdaef1079a3097f721f059ecb409836722c0fc488eba",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.medium.0029",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 5x + 3y = -29 \\\\ 4x + 4y = -28 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-4,-3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3,-3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4,3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-4,-2)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-4,-3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply to align coefficients, eliminate one variable, solve, then back-substitute to get $(x,y) = (-4,-3)$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-8aa93d9b2a59dc7c8f5d4e5f8bc62847af11155b6fa84c1ce5dae53fb59ce9f4",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.medium.0030",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 5x + 3y = -9 \\\\ 3x + 2y = -5 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3,2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3,-2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-3,3)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-3,2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply to align coefficients, eliminate one variable, solve, then back-substitute to get $(x,y) = (-3,2)$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-a07306ce5d5e87b363115799a42e80d5f4934b82223dfa7ae5b33cf1501ae701",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.medium.0031",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 4x = 12 - 5y \\\\ 1x - 5y = -22 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2,4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2,4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2,5)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-2,4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite the first equation as $4x + 5y = 12$, then add the equations to eliminate $y$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "rearrange"
+    ],
+    "checksum": "sha256-fe0912e2cff582d8d97d3a871056261598916fa2a8d4650f6b5b1727f46815a1",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.medium.0032",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} \\dfrac{x}{3} + \\dfrac{y}{3} = \\dfrac{-5}{3} \\\\ \\dfrac{x}{3} - \\dfrac{y}{3} = \\dfrac{1}{1} \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1,-4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,-4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,-4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,-3)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-1,-4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply each equation by $9$ to clear fractions, then add and subtract to find $x = -1$ and $y = -4$.",
+    "complexity_factor": 1.2,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "fractions"
+    ],
+    "checksum": "sha256-a4dfa19fd28bdd6da61cb687e46dd07e7a3649d8ce2c49f2118faa0ae7adf8f7",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.medium.0033",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 5x + 5y = -15 \\\\ 4x + 2y = -10 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,-1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2,1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2,-1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2,0)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-2,-1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply to align coefficients, eliminate one variable, solve, then back-substitute to get $(x,y) = (-2,-1)$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-dc2b9bc93205ac1c3a112948d5da581049c87a3b54030a806faebad5d0410f58",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.medium.0034",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 2y = -5 \\\\ 5x + 5y = -15 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1,-4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1,-3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,-4)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(1,-4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply to align coefficients, eliminate one variable, solve, then back-substitute to get $(x,y) = (1,-4)$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-0439f1329d6a4852e9948fbfb34bb4b1ad1a3f39ce23d681644b027882ace5a5",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.medium.0035",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 3x = -7 - 4y \\\\ 2x - 4y = 2 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1,-1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,-1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,-1)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-1,-1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite the first equation as $3x + 4y = -7$, then add the equations to eliminate $y$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "rearrange"
+    ],
+    "checksum": "sha256-b857c4713a9d1da1b649cd33a1fc2f9fe76be903e65d9f6f079951cebbf1e7ae",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.medium.0036",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} \\dfrac{x}{3} + \\dfrac{y}{2} = \\dfrac{1}{2} \\\\ \\dfrac{x}{3} - \\dfrac{y}{2} = \\dfrac{-5}{2} \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-3,3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3,4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2,3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3,3)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-3,3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply each equation by $6$ to clear fractions, then add and subtract to find $x = -3$ and $y = 3$.",
+    "complexity_factor": 1.2,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "fractions"
+    ],
+    "checksum": "sha256-fdc6ff200faa28343bc844fbec33b7b834ca18c6c39efd7e4c84f99cb9fc5925",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.medium.0037",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 2x + 4y = 0 \\\\ 5x + 3y = 14 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(5,-2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4,-2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-4,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4,-1)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(4,-2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply to align coefficients, eliminate one variable, solve, then back-substitute to get $(x,y) = (4,-2)$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-8cd1e05496ff41d4ccc1b0081341ab6a8c210c9eacc343808a75466728ea1676",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.medium.0038",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 4x + 2y = 20 \\\\ 4x + 3y = 24 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3,5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3,-4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4,4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3,4)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(3,4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply to align coefficients, eliminate one variable, solve, then back-substitute to get $(x,y) = (3,4)$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-1a1f8104d423a0087bdac40d4203d6369a74d07ae13a9f4b5d4e68ae4d113289",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.medium.0039",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 2x = 10 - 2y \\\\ 3x - 2y = 0 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3,3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2,3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2,3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,4)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(2,3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite the first equation as $2x + 2y = 10$, then add the equations to eliminate $y$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "rearrange"
+    ],
+    "checksum": "sha256-c43fe99c22740e609861bc6bcc1477a97c416290adc4f2171a2c12d13e134ef7",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.medium.0040",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} \\dfrac{x}{4} + \\dfrac{y}{3} = \\dfrac{7}{3} \\\\ \\dfrac{x}{4} - \\dfrac{y}{3} = \\dfrac{-1}{3} \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-4,4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4,5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4,4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(5,4)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(4,4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply each equation by $12$ to clear fractions, then add and subtract to find $x = 4$ and $y = 4$.",
+    "complexity_factor": 1.2,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "fractions"
+    ],
+    "checksum": "sha256-2e2067ce35fe63d6525f5496c7802f3ffe76399c3b21442e45e260c6e83d79d4",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.medium.0041",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 5x + 3y = -11 \\\\ 2x + 4y = 4 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-4,3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4,-3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-3,3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-4,4)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-4,3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply to align coefficients, eliminate one variable, solve, then back-substitute to get $(x,y) = (-4,3)$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-572b4bbc9ebdf7fb73cc57e1506db5656d6626da13b96d1c4fc07cee2d87ca6d",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.medium.0042",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 2x + 3y = -8 \\\\ 4x + 4y = -16 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-3,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-4,1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-4,0)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-4,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply to align coefficients, eliminate one variable, solve, then back-substitute to get $(x,y) = (-4,0)$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-80539e3fbc6ec02b27a7f9c067f677ca7612bda47412d1b8631752ce42b719e7",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.medium.0043",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 5x = 10 - 1y \\\\ 4x - 1y = 8 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2,1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2,0)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(2,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite the first equation as $5x + 1y = 10$, then add the equations to eliminate $y$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "rearrange"
+    ],
+    "checksum": "sha256-6851d71641f696381bde2ef6b4ffbb98a4491437779aa8015b0cde119b426cba",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.medium.0044",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} \\dfrac{x}{4} + \\dfrac{y}{2} = \\dfrac{1}{1} \\\\ \\dfrac{x}{4} - \\dfrac{y}{2} = \\dfrac{-1}{1} \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1,4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0,3)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(0,2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply each equation by $8$ to clear fractions, then add and subtract to find $x = 0$ and $y = 2$.",
+    "complexity_factor": 1.2,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "fractions"
+    ],
+    "checksum": "sha256-fae64bf25628f4c4817924f90e00e2f495ce5e97b238f9afe4c9a4adcd7c74d1",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.medium.0045",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 2x + 3y = 3 \\\\ 4x + 3y = 9 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-3,1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4,-1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3,-1)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(3,-1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply to align coefficients, eliminate one variable, solve, then back-substitute to get $(x,y) = (3,-1)$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-c13b00df62ab4b9c7f53a04c821f163b3e3f63da786eb0b18e852a09a560357d",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.medium.0046",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 4x + 3y = -9 \\\\ 5x + 4y = -12 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0,-3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1,-3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0,-2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0,3)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(0,-3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply to align coefficients, eliminate one variable, solve, then back-substitute to get $(x,y) = (0,-3)$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-a31283fad328d69c6775827af388c2435d901cb2bf0cbf608afe903af45dda4e",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.medium.0047",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 1x = -17 - 5y \\\\ 5x - 5y = 35 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-3,-4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3,-3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3,-4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4,-4)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(3,-4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite the first equation as $1x + 5y = -17$, then add the equations to eliminate $y$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "rearrange"
+    ],
+    "checksum": "sha256-721b4ee5629ad05db3ba146f27d1801dc6df3a8c7bb267ba818e569d7dffa996",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.medium.0048",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} \\dfrac{x}{4} + \\dfrac{y}{2} = \\dfrac{1}{4} \\\\ \\dfrac{x}{4} - \\dfrac{y}{2} = \\dfrac{5}{4} \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3,-1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4,-1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3,-1)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(3,-1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply each equation by $8$ to clear fractions, then add and subtract to find $x = 3$ and $y = -1$.",
+    "complexity_factor": 1.2,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "fractions"
+    ],
+    "checksum": "sha256-8409c7ecbf7ea2cf9ad06d94de7b33a87437f1cc7cffaa163512feac85062fa2",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.medium.0049",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 4x + 2y = 4 \\\\ 5x + 3y = 5 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1,1)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(1,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply to align coefficients, eliminate one variable, solve, then back-substitute to get $(x,y) = (1,0)$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-74c9c8ec20c1e62e18420e624a49d51f66874a14579328ef20310f5b8eaa5cf5",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.medium.0050",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 4y = 5 \\\\ 2x + 5y = 1 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4,-1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-3,1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3,-1)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(3,-1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply to align coefficients, eliminate one variable, solve, then back-substitute to get $(x,y) = (3,-1)$.",
+    "complexity_factor": 1.1,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-a4c44c04df6dbc0d41db3ae97ea934c6f4a1012ee95ec7ea4a1fbd5964a5bf51",
+    "status": "valid"
+  }
+]

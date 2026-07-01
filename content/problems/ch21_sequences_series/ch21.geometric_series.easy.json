@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "ch21.geometric_series.easy.0001",
+    "topic_id": "ch21.geometric_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "Find the sum of the first $3$ terms of the geometric sequence with $a_1=1$ and common ratio $3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$40$"
+      },
+      {
+        "id": "b",
+        "latex": "$13$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "13",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=a_1\\frac{r^n-1}{r-1}$: $S_{3}=1\\frac{3^{3}-1}{3-1}=13$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.4",
+    "tags": [
+      "geometric-series",
+      "sum"
+    ],
+    "checksum": "sha256-2334853419be8b1724d76c753696ebfa091e1ea4364749dac6bb808bd066b8ba",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_series.easy.0002",
+    "topic_id": "ch21.geometric_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "Find the sum of the first $4$ terms of the geometric sequence with $a_1=2$ and common ratio $2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$14$"
+      },
+      {
+        "id": "b",
+        "latex": "$62$"
+      },
+      {
+        "id": "c",
+        "latex": "$30$"
+      },
+      {
+        "id": "d",
+        "latex": "$16$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "30",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=a_1\\frac{r^n-1}{r-1}$: $S_{4}=2\\frac{2^{4}-1}{2-1}=30$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.4",
+    "tags": [
+      "geometric-series",
+      "sum"
+    ],
+    "checksum": "sha256-4bb65e9957af4dee8c69b06cc5c2361b357d85956b55410b6b6c55a7c0cd5b40",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_series.easy.0003",
+    "topic_id": "ch21.geometric_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "Find the sum of the first $5$ terms of the geometric sequence with $a_1=3$ and common ratio $4$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$768$"
+      },
+      {
+        "id": "b",
+        "latex": "$255$"
+      },
+      {
+        "id": "c",
+        "latex": "$4095$"
+      },
+      {
+        "id": "d",
+        "latex": "$1023$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1023",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=a_1\\frac{r^n-1}{r-1}$: $S_{5}=3\\frac{4^{5}-1}{4-1}=1023$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.4",
+    "tags": [
+      "geometric-series",
+      "sum"
+    ],
+    "checksum": "sha256-b28d533b23f91a14796bce22ffeb2124db67ccccb983d221436ac8cdffcc8c8c",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_series.easy.0004",
+    "topic_id": "ch21.geometric_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "Find the sum of the first $6$ terms of the geometric sequence with $a_1=4$ and common ratio $3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1456$"
+      },
+      {
+        "id": "b",
+        "latex": "$972$"
+      },
+      {
+        "id": "c",
+        "latex": "$484$"
+      },
+      {
+        "id": "d",
+        "latex": "$4372$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1456",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=a_1\\frac{r^n-1}{r-1}$: $S_{6}=4\\frac{3^{6}-1}{3-1}=1456$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.4",
+    "tags": [
+      "geometric-series",
+      "sum"
+    ],
+    "checksum": "sha256-5b97e6fd3aaad2c31a60bca923ea79705591f8ba211f9c29c8aaa6f61de28fdf",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_series.easy.0005",
+    "topic_id": "ch21.geometric_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "Find the sum of the first $7$ terms of the geometric sequence with $a_1=5$ and common ratio $2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1275$"
+      },
+      {
+        "id": "b",
+        "latex": "$635$"
+      },
+      {
+        "id": "c",
+        "latex": "$320$"
+      },
+      {
+        "id": "d",
+        "latex": "$315$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "635",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=a_1\\frac{r^n-1}{r-1}$: $S_{7}=5\\frac{2^{7}-1}{2-1}=635$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.4",
+    "tags": [
+      "geometric-series",
+      "sum"
+    ],
+    "checksum": "sha256-13ae9dcc940cca4684e91c26079370e41dee1e26e29ac7c91f271f751e8ebe3b",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_series.easy.0006",
+    "topic_id": "ch21.geometric_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "Find the sum of the first $3$ terms of the geometric sequence with $a_1=6$ and common ratio $4$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$30$"
+      },
+      {
+        "id": "b",
+        "latex": "$510$"
+      },
+      {
+        "id": "c",
+        "latex": "$126$"
+      },
+      {
+        "id": "d",
+        "latex": "$96$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "126",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=a_1\\frac{r^n-1}{r-1}$: $S_{3}=6\\frac{4^{3}-1}{4-1}=126$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.4",
+    "tags": [
+      "geometric-series",
+      "sum"
+    ],
+    "checksum": "sha256-84d70145a922e0addcb87b4af802a718dea4a726fe53c2eb36634e0e6b9ebf5f",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_series.easy.0007",
+    "topic_id": "ch21.geometric_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "Find the sum of the first $4$ terms of the geometric sequence with $a_1=1$ and common ratio $3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$27$"
+      },
+      {
+        "id": "b",
+        "latex": "$13$"
+      },
+      {
+        "id": "c",
+        "latex": "$121$"
+      },
+      {
+        "id": "d",
+        "latex": "$40$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "40",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=a_1\\frac{r^n-1}{r-1}$: $S_{4}=1\\frac{3^{4}-1}{3-1}=40$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.4",
+    "tags": [
+      "geometric-series",
+      "sum"
+    ],
+    "checksum": "sha256-324dd26375628e51e624652513b876e0367f484d01941d5f64e8e171df0fd6c8",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_series.easy.0008",
+    "topic_id": "ch21.geometric_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "Find the sum of the first $5$ terms of the geometric sequence with $a_1=2$ and common ratio $2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$62$"
+      },
+      {
+        "id": "b",
+        "latex": "$32$"
+      },
+      {
+        "id": "c",
+        "latex": "$30$"
+      },
+      {
+        "id": "d",
+        "latex": "$126$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "62",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=a_1\\frac{r^n-1}{r-1}$: $S_{5}=2\\frac{2^{5}-1}{2-1}=62$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.4",
+    "tags": [
+      "geometric-series",
+      "sum"
+    ],
+    "checksum": "sha256-b02210babd6bc11413448cd13d80620801478fb487b0ac6024a99ab2d4f5647d",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_series.easy.0009",
+    "topic_id": "ch21.geometric_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "Find the sum of the first $6$ terms of the geometric sequence with $a_1=3$ and common ratio $4$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16383$"
+      },
+      {
+        "id": "b",
+        "latex": "$4095$"
+      },
+      {
+        "id": "c",
+        "latex": "$3072$"
+      },
+      {
+        "id": "d",
+        "latex": "$1023$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "4095",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=a_1\\frac{r^n-1}{r-1}$: $S_{6}=3\\frac{4^{6}-1}{4-1}=4095$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.4",
+    "tags": [
+      "geometric-series",
+      "sum"
+    ],
+    "checksum": "sha256-39f8331cda0866f0e791fc450d24ea7604886a0f47b4978df98bc84ae062a937",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_series.easy.0010",
+    "topic_id": "ch21.geometric_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "Find the sum of the first $7$ terms of the geometric sequence with $a_1=4$ and common ratio $3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1456$"
+      },
+      {
+        "id": "b",
+        "latex": "$13120$"
+      },
+      {
+        "id": "c",
+        "latex": "$4372$"
+      },
+      {
+        "id": "d",
+        "latex": "$2916$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "4372",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=a_1\\frac{r^n-1}{r-1}$: $S_{7}=4\\frac{3^{7}-1}{3-1}=4372$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.4",
+    "tags": [
+      "geometric-series",
+      "sum"
+    ],
+    "checksum": "sha256-97c3362850a547490aa98f060bc3d1ab7975dea6e428cb6fcedab6fd1a4213f8",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_series.easy.0011",
+    "topic_id": "ch21.geometric_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "Find the sum of the first $3$ terms of the geometric sequence with $a_1=5$ and common ratio $2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$20$"
+      },
+      {
+        "id": "b",
+        "latex": "$15$"
+      },
+      {
+        "id": "c",
+        "latex": "$75$"
+      },
+      {
+        "id": "d",
+        "latex": "$35$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "35",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=a_1\\frac{r^n-1}{r-1}$: $S_{3}=5\\frac{2^{3}-1}{2-1}=35$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.4",
+    "tags": [
+      "geometric-series",
+      "sum"
+    ],
+    "checksum": "sha256-de77d31792243df95ca0466f6b8e2f8c80bb38d06617dcc171fbae182b635f5a",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_series.easy.0012",
+    "topic_id": "ch21.geometric_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "Find the sum of the first $4$ terms of the geometric sequence with $a_1=6$ and common ratio $4$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$510$"
+      },
+      {
+        "id": "b",
+        "latex": "$384$"
+      },
+      {
+        "id": "c",
+        "latex": "$126$"
+      },
+      {
+        "id": "d",
+        "latex": "$2046$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "510",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=a_1\\frac{r^n-1}{r-1}$: $S_{4}=6\\frac{4^{4}-1}{4-1}=510$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.4",
+    "tags": [
+      "geometric-series",
+      "sum"
+    ],
+    "checksum": "sha256-b13d115f424f8033ac6ea965cb0cb9cdba8d3d451dbc97d74e5a12710ddaeee9",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_series.easy.0013",
+    "topic_id": "ch21.geometric_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "Find the sum of the first $5$ terms of the geometric sequence with $a_1=1$ and common ratio $3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$364$"
+      },
+      {
+        "id": "b",
+        "latex": "$121$"
+      },
+      {
+        "id": "c",
+        "latex": "$81$"
+      },
+      {
+        "id": "d",
+        "latex": "$40$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "121",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=a_1\\frac{r^n-1}{r-1}$: $S_{5}=1\\frac{3^{5}-1}{3-1}=121$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.4",
+    "tags": [
+      "geometric-series",
+      "sum"
+    ],
+    "checksum": "sha256-9f84ae915040e68cd5262f5ced742fcc74cc368f5d88a10cd64a9ddd657da798",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_series.easy.0014",
+    "topic_id": "ch21.geometric_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "Find the sum of the first $6$ terms of the geometric sequence with $a_1=2$ and common ratio $2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$62$"
+      },
+      {
+        "id": "b",
+        "latex": "$254$"
+      },
+      {
+        "id": "c",
+        "latex": "$126$"
+      },
+      {
+        "id": "d",
+        "latex": "$64$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "126",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=a_1\\frac{r^n-1}{r-1}$: $S_{6}=2\\frac{2^{6}-1}{2-1}=126$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.4",
+    "tags": [
+      "geometric-series",
+      "sum"
+    ],
+    "checksum": "sha256-2390b12bf60a3d28b3da400da087577332e72dc44b3ad809e69bfbb76da2acf0",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_series.easy.0015",
+    "topic_id": "ch21.geometric_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "Find the sum of the first $7$ terms of the geometric sequence with $a_1=3$ and common ratio $4$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12288$"
+      },
+      {
+        "id": "b",
+        "latex": "$4095$"
+      },
+      {
+        "id": "c",
+        "latex": "$65535$"
+      },
+      {
+        "id": "d",
+        "latex": "$16383$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "16383",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=a_1\\frac{r^n-1}{r-1}$: $S_{7}=3\\frac{4^{7}-1}{4-1}=16383$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.4",
+    "tags": [
+      "geometric-series",
+      "sum"
+    ],
+    "checksum": "sha256-ed76e3272f6fced21a01b1593d07359751852c8790508173e8b5548d37c5d140",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_series.easy.0016",
+    "topic_id": "ch21.geometric_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "Find the sum of the first $3$ terms of the geometric sequence with $a_1=4$ and common ratio $3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$52$"
+      },
+      {
+        "id": "b",
+        "latex": "$36$"
+      },
+      {
+        "id": "c",
+        "latex": "$16$"
+      },
+      {
+        "id": "d",
+        "latex": "$160$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "52",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=a_1\\frac{r^n-1}{r-1}$: $S_{3}=4\\frac{3^{3}-1}{3-1}=52$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.4",
+    "tags": [
+      "geometric-series",
+      "sum"
+    ],
+    "checksum": "sha256-81d30bf1778b1887240b6b3f639382400fa8d48953164137aa37a482e724b95d",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_series.easy.0017",
+    "topic_id": "ch21.geometric_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "Find the sum of the first $4$ terms of the geometric sequence with $a_1=5$ and common ratio $2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$155$"
+      },
+      {
+        "id": "b",
+        "latex": "$75$"
+      },
+      {
+        "id": "c",
+        "latex": "$40$"
+      },
+      {
+        "id": "d",
+        "latex": "$35$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "75",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=a_1\\frac{r^n-1}{r-1}$: $S_{4}=5\\frac{2^{4}-1}{2-1}=75$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.4",
+    "tags": [
+      "geometric-series",
+      "sum"
+    ],
+    "checksum": "sha256-654470c83681eb1960f722ebd2d004cb5f360a340261ef6112f3e246567326f9",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_series.easy.0018",
+    "topic_id": "ch21.geometric_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "Find the sum of the first $5$ terms of the geometric sequence with $a_1=6$ and common ratio $4$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$510$"
+      },
+      {
+        "id": "b",
+        "latex": "$8190$"
+      },
+      {
+        "id": "c",
+        "latex": "$2046$"
+      },
+      {
+        "id": "d",
+        "latex": "$1536$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "2046",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=a_1\\frac{r^n-1}{r-1}$: $S_{5}=6\\frac{4^{5}-1}{4-1}=2046$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.4",
+    "tags": [
+      "geometric-series",
+      "sum"
+    ],
+    "checksum": "sha256-ae98fb4d2540f2ceb538d0df5a680a8765b76d532257862d02675d5b92607d46",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_series.easy.0019",
+    "topic_id": "ch21.geometric_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "Find the sum of the first $6$ terms of the geometric sequence with $a_1=1$ and common ratio $3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$243$"
+      },
+      {
+        "id": "b",
+        "latex": "$121$"
+      },
+      {
+        "id": "c",
+        "latex": "$1093$"
+      },
+      {
+        "id": "d",
+        "latex": "$364$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "364",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=a_1\\frac{r^n-1}{r-1}$: $S_{6}=1\\frac{3^{6}-1}{3-1}=364$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.4",
+    "tags": [
+      "geometric-series",
+      "sum"
+    ],
+    "checksum": "sha256-8e2bf6e85b242e25d061d7c0afa59656d4190a09392ad8549ba5a3c6046abb13",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_series.easy.0020",
+    "topic_id": "ch21.geometric_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "Find the sum of the first $7$ terms of the geometric sequence with $a_1=2$ and common ratio $2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$254$"
+      },
+      {
+        "id": "b",
+        "latex": "$128$"
+      },
+      {
+        "id": "c",
+        "latex": "$126$"
+      },
+      {
+        "id": "d",
+        "latex": "$510$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "254",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=a_1\\frac{r^n-1}{r-1}$: $S_{7}=2\\frac{2^{7}-1}{2-1}=254$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.4",
+    "tags": [
+      "geometric-series",
+      "sum"
+    ],
+    "checksum": "sha256-6014f3428519674fc8633a1143a20b09436a6b19ac5cebc3b6f04d034f2839a1",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_series.easy.0021",
+    "topic_id": "ch21.geometric_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "Find the sum of the first $3$ terms of the geometric sequence with $a_1=3$ and common ratio $4$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$255$"
+      },
+      {
+        "id": "b",
+        "latex": "$63$"
+      },
+      {
+        "id": "c",
+        "latex": "$48$"
+      },
+      {
+        "id": "d",
+        "latex": "$15$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "63",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=a_1\\frac{r^n-1}{r-1}$: $S_{3}=3\\frac{4^{3}-1}{4-1}=63$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.4",
+    "tags": [
+      "geometric-series",
+      "sum"
+    ],
+    "checksum": "sha256-929b31c5be84fc22b7ac3b46cc5930eefa481a5c83aaba26a971711f20bf186e",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_series.easy.0022",
+    "topic_id": "ch21.geometric_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "Find the sum of the first $4$ terms of the geometric sequence with $a_1=4$ and common ratio $3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$52$"
+      },
+      {
+        "id": "b",
+        "latex": "$484$"
+      },
+      {
+        "id": "c",
+        "latex": "$160$"
+      },
+      {
+        "id": "d",
+        "latex": "$108$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "160",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=a_1\\frac{r^n-1}{r-1}$: $S_{4}=4\\frac{3^{4}-1}{3-1}=160$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.4",
+    "tags": [
+      "geometric-series",
+      "sum"
+    ],
+    "checksum": "sha256-ec7195bdd3c2f7c1a5962f75c371d716e5a101103592854e9ffc6a8e9c4da4c9",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_series.easy.0023",
+    "topic_id": "ch21.geometric_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "Find the sum of the first $5$ terms of the geometric sequence with $a_1=5$ and common ratio $2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$80$"
+      },
+      {
+        "id": "b",
+        "latex": "$75$"
+      },
+      {
+        "id": "c",
+        "latex": "$315$"
+      },
+      {
+        "id": "d",
+        "latex": "$155$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "155",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=a_1\\frac{r^n-1}{r-1}$: $S_{5}=5\\frac{2^{5}-1}{2-1}=155$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.4",
+    "tags": [
+      "geometric-series",
+      "sum"
+    ],
+    "checksum": "sha256-d341b7f00376c3806f94ce7a05904d33507e1bcccf6fc7f9a162405136d2ed46",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_series.easy.0024",
+    "topic_id": "ch21.geometric_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "Find the sum of the first $6$ terms of the geometric sequence with $a_1=6$ and common ratio $4$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8190$"
+      },
+      {
+        "id": "b",
+        "latex": "$6144$"
+      },
+      {
+        "id": "c",
+        "latex": "$2046$"
+      },
+      {
+        "id": "d",
+        "latex": "$32766$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "8190",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=a_1\\frac{r^n-1}{r-1}$: $S_{6}=6\\frac{4^{6}-1}{4-1}=8190$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.4",
+    "tags": [
+      "geometric-series",
+      "sum"
+    ],
+    "checksum": "sha256-416386d18c3d8ef91d1bd29cd0c17bfdf1ced38f6981a92b87abe34011a8419b",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_series.easy.0025",
+    "topic_id": "ch21.geometric_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "Find the sum of the first $7$ terms of the geometric sequence with $a_1=1$ and common ratio $3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3280$"
+      },
+      {
+        "id": "b",
+        "latex": "$1093$"
+      },
+      {
+        "id": "c",
+        "latex": "$729$"
+      },
+      {
+        "id": "d",
+        "latex": "$364$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1093",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=a_1\\frac{r^n-1}{r-1}$: $S_{7}=1\\frac{3^{7}-1}{3-1}=1093$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.4",
+    "tags": [
+      "geometric-series",
+      "sum"
+    ],
+    "checksum": "sha256-95d7ec163ee32c2cb329d699942bbe84acfbda33cc4dea92c41459e4cabaaf46",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_series.easy.0026",
+    "topic_id": "ch21.geometric_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "Find the sum of the first $3$ terms of the geometric sequence with $a_1=2$ and common ratio $2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$30$"
+      },
+      {
+        "id": "c",
+        "latex": "$14$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "14",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=a_1\\frac{r^n-1}{r-1}$: $S_{3}=2\\frac{2^{3}-1}{2-1}=14$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.4",
+    "tags": [
+      "geometric-series",
+      "sum"
+    ],
+    "checksum": "sha256-6d064d283f153f79a72a3965be71d1dfbaa41ce112ac2ed0ac02324c965875b4",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_series.easy.0027",
+    "topic_id": "ch21.geometric_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "Find the sum of the first $4$ terms of the geometric sequence with $a_1=3$ and common ratio $4$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$192$"
+      },
+      {
+        "id": "b",
+        "latex": "$63$"
+      },
+      {
+        "id": "c",
+        "latex": "$1023$"
+      },
+      {
+        "id": "d",
+        "latex": "$255$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "255",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=a_1\\frac{r^n-1}{r-1}$: $S_{4}=3\\frac{4^{4}-1}{4-1}=255$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.4",
+    "tags": [
+      "geometric-series",
+      "sum"
+    ],
+    "checksum": "sha256-2c3105241814741bae046f3f0101fcf4c1bf772645ff88ca6dafde7b51db6008",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_series.easy.0028",
+    "topic_id": "ch21.geometric_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "Find the sum of the first $5$ terms of the geometric sequence with $a_1=4$ and common ratio $3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$484$"
+      },
+      {
+        "id": "b",
+        "latex": "$324$"
+      },
+      {
+        "id": "c",
+        "latex": "$160$"
+      },
+      {
+        "id": "d",
+        "latex": "$1456$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "484",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=a_1\\frac{r^n-1}{r-1}$: $S_{5}=4\\frac{3^{5}-1}{3-1}=484$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.4",
+    "tags": [
+      "geometric-series",
+      "sum"
+    ],
+    "checksum": "sha256-6a07a661a1d1e192295c205f2a4fd78b6da753c57fad15c70563477f2a6e8eb4",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_series.easy.0029",
+    "topic_id": "ch21.geometric_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "Find the sum of the first $6$ terms of the geometric sequence with $a_1=5$ and common ratio $2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$635$"
+      },
+      {
+        "id": "b",
+        "latex": "$315$"
+      },
+      {
+        "id": "c",
+        "latex": "$160$"
+      },
+      {
+        "id": "d",
+        "latex": "$155$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "315",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=a_1\\frac{r^n-1}{r-1}$: $S_{6}=5\\frac{2^{6}-1}{2-1}=315$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.4",
+    "tags": [
+      "geometric-series",
+      "sum"
+    ],
+    "checksum": "sha256-275683b3069f24eb39eb92fb9bbded6d814adce5258589ffc1ac2f96eac1c0c6",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_series.easy.0030",
+    "topic_id": "ch21.geometric_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "Find the sum of the first $7$ terms of the geometric sequence with $a_1=6$ and common ratio $4$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8190$"
+      },
+      {
+        "id": "b",
+        "latex": "$131070$"
+      },
+      {
+        "id": "c",
+        "latex": "$32766$"
+      },
+      {
+        "id": "d",
+        "latex": "$24576$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "32766",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=a_1\\frac{r^n-1}{r-1}$: $S_{7}=6\\frac{4^{7}-1}{4-1}=32766$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.4",
+    "tags": [
+      "geometric-series",
+      "sum"
+    ],
+    "checksum": "sha256-b13ddb4c8c066edd5d3de1947bcf01c762de5a2767a7edd95066a637486509ec",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_series.easy.0031",
+    "topic_id": "ch21.geometric_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "Find the sum of the first $3$ terms of the geometric sequence with $a_1=11$ and common ratio $3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$99$"
+      },
+      {
+        "id": "b",
+        "latex": "$44$"
+      },
+      {
+        "id": "c",
+        "latex": "$440$"
+      },
+      {
+        "id": "d",
+        "latex": "$143$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "143",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=a_1\\frac{r^n-1}{r-1}$: $S_{3}=11\\frac{3^{3}-1}{3-1}=143$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.4",
+    "tags": [
+      "geometric-series",
+      "sum"
+    ],
+    "checksum": "sha256-507020f563fd73b18a10908044d465a887a269ae7376cc205e0d275fff912d9b",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_series.easy.0032",
+    "topic_id": "ch21.geometric_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "Find the sum of the first $4$ terms of the geometric sequence with $a_1=12$ and common ratio $2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$180$"
+      },
+      {
+        "id": "b",
+        "latex": "$96$"
+      },
+      {
+        "id": "c",
+        "latex": "$84$"
+      },
+      {
+        "id": "d",
+        "latex": "$372$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "180",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=a_1\\frac{r^n-1}{r-1}$: $S_{4}=12\\frac{2^{4}-1}{2-1}=180$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.4",
+    "tags": [
+      "geometric-series",
+      "sum"
+    ],
+    "checksum": "sha256-478fe3b15d2fe2c7f04478097fb0378ff7c033924431f42fe848845381d9258c",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_series.easy.0033",
+    "topic_id": "ch21.geometric_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "Find the sum of the first $5$ terms of the geometric sequence with $a_1=13$ and common ratio $4$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$17745$"
+      },
+      {
+        "id": "b",
+        "latex": "$4433$"
+      },
+      {
+        "id": "c",
+        "latex": "$3328$"
+      },
+      {
+        "id": "d",
+        "latex": "$1105$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "4433",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=a_1\\frac{r^n-1}{r-1}$: $S_{5}=13\\frac{4^{5}-1}{4-1}=4433$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.4",
+    "tags": [
+      "geometric-series",
+      "sum"
+    ],
+    "checksum": "sha256-30dab07a73da0f8969bfea9082407a55c446f809c7911c0825d195df0c3f544b",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_series.easy.0034",
+    "topic_id": "ch21.geometric_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "Find the sum of the first $6$ terms of the geometric sequence with $a_1=14$ and common ratio $3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1694$"
+      },
+      {
+        "id": "b",
+        "latex": "$15302$"
+      },
+      {
+        "id": "c",
+        "latex": "$5096$"
+      },
+      {
+        "id": "d",
+        "latex": "$3402$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "5096",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=a_1\\frac{r^n-1}{r-1}$: $S_{6}=14\\frac{3^{6}-1}{3-1}=5096$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.4",
+    "tags": [
+      "geometric-series",
+      "sum"
+    ],
+    "checksum": "sha256-a67c6653c27207209a5630a3b62042589266fedd5a69c9d72a59104f9b850364",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_series.easy.0035",
+    "topic_id": "ch21.geometric_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "Find the sum of the first $7$ terms of the geometric sequence with $a_1=15$ and common ratio $2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$960$"
+      },
+      {
+        "id": "b",
+        "latex": "$945$"
+      },
+      {
+        "id": "c",
+        "latex": "$3825$"
+      },
+      {
+        "id": "d",
+        "latex": "$1905$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1905",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=a_1\\frac{r^n-1}{r-1}$: $S_{7}=15\\frac{2^{7}-1}{2-1}=1905$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.4",
+    "tags": [
+      "geometric-series",
+      "sum"
+    ],
+    "checksum": "sha256-a43fca018b386e0ad600f2002e88dc7d5aa9f510e81dbca258de61184e1678b6",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_series.easy.0036",
+    "topic_id": "ch21.geometric_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "Find the sum of the first $3$ terms of the geometric sequence with $a_1=16$ and common ratio $4$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$336$"
+      },
+      {
+        "id": "b",
+        "latex": "$256$"
+      },
+      {
+        "id": "c",
+        "latex": "$80$"
+      },
+      {
+        "id": "d",
+        "latex": "$1360$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "336",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=a_1\\frac{r^n-1}{r-1}$: $S_{3}=16\\frac{4^{3}-1}{4-1}=336$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.4",
+    "tags": [
+      "geometric-series",
+      "sum"
+    ],
+    "checksum": "sha256-254a6a7549aa3644dc7db228a9c7dd34d4d92d691389b0a23b0956fdecbd602a",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_series.easy.0037",
+    "topic_id": "ch21.geometric_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "Find the sum of the first $4$ terms of the geometric sequence with $a_1=11$ and common ratio $3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1331$"
+      },
+      {
+        "id": "b",
+        "latex": "$440$"
+      },
+      {
+        "id": "c",
+        "latex": "$297$"
+      },
+      {
+        "id": "d",
+        "latex": "$143$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "440",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=a_1\\frac{r^n-1}{r-1}$: $S_{4}=11\\frac{3^{4}-1}{3-1}=440$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.4",
+    "tags": [
+      "geometric-series",
+      "sum"
+    ],
+    "checksum": "sha256-ba79f18d7a8203073d3606cb9d3d48f1588e6e165e44b41df7d4a59598f167e8",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_series.easy.0038",
+    "topic_id": "ch21.geometric_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "Find the sum of the first $5$ terms of the geometric sequence with $a_1=12$ and common ratio $2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$180$"
+      },
+      {
+        "id": "b",
+        "latex": "$756$"
+      },
+      {
+        "id": "c",
+        "latex": "$372$"
+      },
+      {
+        "id": "d",
+        "latex": "$192$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "372",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=a_1\\frac{r^n-1}{r-1}$: $S_{5}=12\\frac{2^{5}-1}{2-1}=372$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.4",
+    "tags": [
+      "geometric-series",
+      "sum"
+    ],
+    "checksum": "sha256-7498af92e801790b7e0a74148af28842c853800cb21aaaa432b22f6e81fb67d9",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_series.easy.0039",
+    "topic_id": "ch21.geometric_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "Find the sum of the first $6$ terms of the geometric sequence with $a_1=13$ and common ratio $4$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$13312$"
+      },
+      {
+        "id": "b",
+        "latex": "$4433$"
+      },
+      {
+        "id": "c",
+        "latex": "$70993$"
+      },
+      {
+        "id": "d",
+        "latex": "$17745$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "17745",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=a_1\\frac{r^n-1}{r-1}$: $S_{6}=13\\frac{4^{6}-1}{4-1}=17745$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.4",
+    "tags": [
+      "geometric-series",
+      "sum"
+    ],
+    "checksum": "sha256-28703a3265233b78a6d1fed563b4e9f3a4936caea026228cfc2d6c6259e98dc3",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_series.easy.0040",
+    "topic_id": "ch21.geometric_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "Find the sum of the first $7$ terms of the geometric sequence with $a_1=14$ and common ratio $3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$15302$"
+      },
+      {
+        "id": "b",
+        "latex": "$10206$"
+      },
+      {
+        "id": "c",
+        "latex": "$5096$"
+      },
+      {
+        "id": "d",
+        "latex": "$45920$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "15302",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=a_1\\frac{r^n-1}{r-1}$: $S_{7}=14\\frac{3^{7}-1}{3-1}=15302$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.4",
+    "tags": [
+      "geometric-series",
+      "sum"
+    ],
+    "checksum": "sha256-adbe0127db0c170dcdba9ecbb1a7513d1ca1a8d90b94c4705dd52e159fdafefc",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_series.easy.0041",
+    "topic_id": "ch21.geometric_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "Find the sum of the first $3$ terms of the geometric sequence with $a_1=15$ and common ratio $2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$225$"
+      },
+      {
+        "id": "b",
+        "latex": "$105$"
+      },
+      {
+        "id": "c",
+        "latex": "$60$"
+      },
+      {
+        "id": "d",
+        "latex": "$45$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "105",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=a_1\\frac{r^n-1}{r-1}$: $S_{3}=15\\frac{2^{3}-1}{2-1}=105$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.4",
+    "tags": [
+      "geometric-series",
+      "sum"
+    ],
+    "checksum": "sha256-687f2826ce355774495643661b976fe10af1b9e81f3224d74f6c31179023aae1",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_series.easy.0042",
+    "topic_id": "ch21.geometric_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "Find the sum of the first $4$ terms of the geometric sequence with $a_1=16$ and common ratio $4$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$336$"
+      },
+      {
+        "id": "b",
+        "latex": "$5456$"
+      },
+      {
+        "id": "c",
+        "latex": "$1360$"
+      },
+      {
+        "id": "d",
+        "latex": "$1024$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "1360",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=a_1\\frac{r^n-1}{r-1}$: $S_{4}=16\\frac{4^{4}-1}{4-1}=1360$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.4",
+    "tags": [
+      "geometric-series",
+      "sum"
+    ],
+    "checksum": "sha256-51249cd50b83610c578e110f14b495f2f4284eda21d81953e2c7eaecaca113b4",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_series.easy.0043",
+    "topic_id": "ch21.geometric_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "Find the sum of the first $5$ terms of the geometric sequence with $a_1=11$ and common ratio $3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$891$"
+      },
+      {
+        "id": "b",
+        "latex": "$440$"
+      },
+      {
+        "id": "c",
+        "latex": "$4004$"
+      },
+      {
+        "id": "d",
+        "latex": "$1331$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1331",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=a_1\\frac{r^n-1}{r-1}$: $S_{5}=11\\frac{3^{5}-1}{3-1}=1331$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.4",
+    "tags": [
+      "geometric-series",
+      "sum"
+    ],
+    "checksum": "sha256-ac9a7a2b91ba47ae9d88828ff58f4023cc332c6e926abd3717dfe5e7fcbaf2e6",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_series.easy.0044",
+    "topic_id": "ch21.geometric_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "Find the sum of the first $6$ terms of the geometric sequence with $a_1=12$ and common ratio $2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$756$"
+      },
+      {
+        "id": "b",
+        "latex": "$384$"
+      },
+      {
+        "id": "c",
+        "latex": "$372$"
+      },
+      {
+        "id": "d",
+        "latex": "$1524$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "756",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=a_1\\frac{r^n-1}{r-1}$: $S_{6}=12\\frac{2^{6}-1}{2-1}=756$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.4",
+    "tags": [
+      "geometric-series",
+      "sum"
+    ],
+    "checksum": "sha256-6f4addd1550c54ab5c0543eb46ee190de5b029b0637c527c2580623a9f2338bb",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_series.easy.0045",
+    "topic_id": "ch21.geometric_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "Find the sum of the first $7$ terms of the geometric sequence with $a_1=13$ and common ratio $4$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$283985$"
+      },
+      {
+        "id": "b",
+        "latex": "$70993$"
+      },
+      {
+        "id": "c",
+        "latex": "$53248$"
+      },
+      {
+        "id": "d",
+        "latex": "$17745$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "70993",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=a_1\\frac{r^n-1}{r-1}$: $S_{7}=13\\frac{4^{7}-1}{4-1}=70993$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.4",
+    "tags": [
+      "geometric-series",
+      "sum"
+    ],
+    "checksum": "sha256-37b40c24cac73e5ee267e995c94ac3da7d51c6069a8a7866521e8079afb112a3",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_series.easy.0046",
+    "topic_id": "ch21.geometric_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "Find the sum of the first $3$ terms of the geometric sequence with $a_1=14$ and common ratio $3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$56$"
+      },
+      {
+        "id": "b",
+        "latex": "$560$"
+      },
+      {
+        "id": "c",
+        "latex": "$182$"
+      },
+      {
+        "id": "d",
+        "latex": "$126$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "182",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=a_1\\frac{r^n-1}{r-1}$: $S_{3}=14\\frac{3^{3}-1}{3-1}=182$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.4",
+    "tags": [
+      "geometric-series",
+      "sum"
+    ],
+    "checksum": "sha256-28acbe38311575281b2bfbfdecc99e25c5041df30e0aa2e5db5b51264568595e",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_series.easy.0047",
+    "topic_id": "ch21.geometric_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "Find the sum of the first $4$ terms of the geometric sequence with $a_1=15$ and common ratio $2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$120$"
+      },
+      {
+        "id": "b",
+        "latex": "$105$"
+      },
+      {
+        "id": "c",
+        "latex": "$465$"
+      },
+      {
+        "id": "d",
+        "latex": "$225$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "225",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=a_1\\frac{r^n-1}{r-1}$: $S_{4}=15\\frac{2^{4}-1}{2-1}=225$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.4",
+    "tags": [
+      "geometric-series",
+      "sum"
+    ],
+    "checksum": "sha256-adeb0ec73fb52c33286c85bbdfbcab71a40b422f488ec98c2515b800d1096bbb",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_series.easy.0048",
+    "topic_id": "ch21.geometric_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "Find the sum of the first $5$ terms of the geometric sequence with $a_1=16$ and common ratio $4$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5456$"
+      },
+      {
+        "id": "b",
+        "latex": "$4096$"
+      },
+      {
+        "id": "c",
+        "latex": "$1360$"
+      },
+      {
+        "id": "d",
+        "latex": "$21840$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "5456",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=a_1\\frac{r^n-1}{r-1}$: $S_{5}=16\\frac{4^{5}-1}{4-1}=5456$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.4",
+    "tags": [
+      "geometric-series",
+      "sum"
+    ],
+    "checksum": "sha256-f6b8184d28d549bf3d712a92dbec4ee5625a1ad89b44bb384216a7edfcc656a4",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_series.easy.0049",
+    "topic_id": "ch21.geometric_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "Find the sum of the first $6$ terms of the geometric sequence with $a_1=11$ and common ratio $3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12023$"
+      },
+      {
+        "id": "b",
+        "latex": "$4004$"
+      },
+      {
+        "id": "c",
+        "latex": "$2673$"
+      },
+      {
+        "id": "d",
+        "latex": "$1331$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "4004",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=a_1\\frac{r^n-1}{r-1}$: $S_{6}=11\\frac{3^{6}-1}{3-1}=4004$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.4",
+    "tags": [
+      "geometric-series",
+      "sum"
+    ],
+    "checksum": "sha256-55cfb86e7f94ca499797fd1ffe8aeeb5dc855d2337f7172b55985f3db70e8843",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_series.easy.0050",
+    "topic_id": "ch21.geometric_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "Find the sum of the first $7$ terms of the geometric sequence with $a_1=12$ and common ratio $2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$756$"
+      },
+      {
+        "id": "b",
+        "latex": "$3060$"
+      },
+      {
+        "id": "c",
+        "latex": "$1524$"
+      },
+      {
+        "id": "d",
+        "latex": "$768$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "1524",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=a_1\\frac{r^n-1}{r-1}$: $S_{7}=12\\frac{2^{7}-1}{2-1}=1524$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.4",
+    "tags": [
+      "geometric-series",
+      "sum"
+    ],
+    "checksum": "sha256-d5515203adf0ddcc8eed5e1dd812d453f36417de979e0a85d6ad2bc8b107a6b0",
+    "status": "valid"
+  }
+]

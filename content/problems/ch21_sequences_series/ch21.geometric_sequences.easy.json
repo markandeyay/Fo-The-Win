@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "ch21.geometric_sequences.easy.0001",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "A geometric sequence has $a_1=1$ and common ratio $r=3$. Find $a_{3}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$27$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $a_n=a_1r^{n-1}$: $a_{3}=1(3)^{2}=9$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "nth-term"
+    ],
+    "checksum": "sha256-465b40a7d977e1fb9d0822d9199e057530c6e9b694fa5946f059d202f69c5525",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.easy.0002",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "A geometric sequence has $a_1=2$ and common ratio $r=-2$. Find $a_{4}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$-16$"
+      },
+      {
+        "id": "c",
+        "latex": "$32$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-16",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $a_n=a_1r^{n-1}$: $a_{4}=2(-2)^{3}=-16$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "nth-term"
+    ],
+    "checksum": "sha256-97ba724ca1980d15d8dc11206ab6d8033358ac6a210469c6f96b1677df719354",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.easy.0003",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "A geometric sequence has $a_1=3$ and common ratio $r=2$. Find $a_{5}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11$"
+      },
+      {
+        "id": "b",
+        "latex": "$24$"
+      },
+      {
+        "id": "c",
+        "latex": "$48$"
+      },
+      {
+        "id": "d",
+        "latex": "$96$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "48",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $a_n=a_1r^{n-1}$: $a_{5}=3(2)^{4}=48$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "nth-term"
+    ],
+    "checksum": "sha256-0b28ad4648fb6babc63d7d7cd43aa445da80d71d04eb84b7d4657f6db931787f",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.easy.0004",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "A geometric sequence has $a_1=4$ and common ratio $r=4$. Find $a_{6}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16384$"
+      },
+      {
+        "id": "b",
+        "latex": "$24$"
+      },
+      {
+        "id": "c",
+        "latex": "$1024$"
+      },
+      {
+        "id": "d",
+        "latex": "$4096$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "4096",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $a_n=a_1r^{n-1}$: $a_{6}=4(4)^{5}=4096$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "nth-term"
+    ],
+    "checksum": "sha256-a0e33c1fd840f8e5062f8755146232068957a24cd760b505357f9438cf92d527",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.easy.0005",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "A geometric sequence has $a_1=5$ and common ratio $r=-3$. Find $a_{7}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3645$"
+      },
+      {
+        "id": "b",
+        "latex": "$-10935$"
+      },
+      {
+        "id": "c",
+        "latex": "$-13$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1215$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "3645",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $a_n=a_1r^{n-1}$: $a_{7}=5(-3)^{6}=3645$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "nth-term"
+    ],
+    "checksum": "sha256-79b82fd54ee1aa98e271a1c03b3d7097934b76ba2f118b5044e43e59175b75b2",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.easy.0006",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "A geometric sequence has $a_1=6$ and common ratio $r=3$. Find $a_{3}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$18$"
+      },
+      {
+        "id": "b",
+        "latex": "$54$"
+      },
+      {
+        "id": "c",
+        "latex": "$162$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "54",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $a_n=a_1r^{n-1}$: $a_{3}=6(3)^{2}=54$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "nth-term"
+    ],
+    "checksum": "sha256-a3d41693e3df798a1b014ae343ab4dfeb8eed4360c0fe521c2aa25445b988c15",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.easy.0007",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "A geometric sequence has $a_1=8$ and common ratio $r=-2$. Find $a_{4}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$32$"
+      },
+      {
+        "id": "c",
+        "latex": "$-64$"
+      },
+      {
+        "id": "d",
+        "latex": "$128$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-64",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $a_n=a_1r^{n-1}$: $a_{4}=8(-2)^{3}=-64$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "nth-term"
+    ],
+    "checksum": "sha256-cbdf09b000bde2a49be43a48f8d9a78d4dfa5616cccc52246eb2a33f67dea2b1",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.easy.0008",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "A geometric sequence has $a_1=9$ and common ratio $r=2$. Find $a_{5}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$288$"
+      },
+      {
+        "id": "b",
+        "latex": "$17$"
+      },
+      {
+        "id": "c",
+        "latex": "$72$"
+      },
+      {
+        "id": "d",
+        "latex": "$144$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "144",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $a_n=a_1r^{n-1}$: $a_{5}=9(2)^{4}=144$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "nth-term"
+    ],
+    "checksum": "sha256-daced6825fff7eb94a846404bfaec988f8c3a30056496f7988291108cd813c5f",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.easy.0009",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "A geometric sequence has $a_1=1$ and common ratio $r=4$. Find $a_{6}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1024$"
+      },
+      {
+        "id": "b",
+        "latex": "$4096$"
+      },
+      {
+        "id": "c",
+        "latex": "$21$"
+      },
+      {
+        "id": "d",
+        "latex": "$256$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1024",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $a_n=a_1r^{n-1}$: $a_{6}=1(4)^{5}=1024$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "nth-term"
+    ],
+    "checksum": "sha256-71662c8b9942f43773b91bfab4b9ee28f295657615d33b7a6fd1114743272414",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.easy.0010",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "A geometric sequence has $a_1=2$ and common ratio $r=-3$. Find $a_{7}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-486$"
+      },
+      {
+        "id": "b",
+        "latex": "$1458$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4374$"
+      },
+      {
+        "id": "d",
+        "latex": "$-16$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1458",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $a_n=a_1r^{n-1}$: $a_{7}=2(-3)^{6}=1458$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "nth-term"
+    ],
+    "checksum": "sha256-fba4734dd557ff1bbe741dc07b9c0bc5f42abe7851f1ca5d3dae2eeba76d4fcf",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.easy.0011",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "A geometric sequence has $a_1=3$ and common ratio $r=3$. Find $a_{3}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$28$"
+      },
+      {
+        "id": "c",
+        "latex": "$27$"
+      },
+      {
+        "id": "d",
+        "latex": "$81$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "27",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $a_n=a_1r^{n-1}$: $a_{3}=3(3)^{2}=27$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "nth-term"
+    ],
+    "checksum": "sha256-1ade18ed8f848e3805a8534b8cc3910c1848b994109823a5db5d2e1abed33d51",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.easy.0012",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "A geometric sequence has $a_1=4$ and common ratio $r=-2$. Find $a_{4}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$64$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$16$"
+      },
+      {
+        "id": "d",
+        "latex": "$-32$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-32",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $a_n=a_1r^{n-1}$: $a_{4}=4(-2)^{3}=-32$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "nth-term"
+    ],
+    "checksum": "sha256-b351a3973239b6789ad3f1d91a69ffe8ed010daba71d4ed76513474b6e44ca0d",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.easy.0013",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "A geometric sequence has $a_1=5$ and common ratio $r=2$. Find $a_{5}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$80$"
+      },
+      {
+        "id": "b",
+        "latex": "$160$"
+      },
+      {
+        "id": "c",
+        "latex": "$13$"
+      },
+      {
+        "id": "d",
+        "latex": "$40$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "80",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $a_n=a_1r^{n-1}$: $a_{5}=5(2)^{4}=80$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "nth-term"
+    ],
+    "checksum": "sha256-927528d421c29dd8b35818896cbb428c33dc3463ee3a64f6639d5ec7c0ca398a",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.easy.0014",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "A geometric sequence has $a_1=6$ and common ratio $r=4$. Find $a_{6}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1536$"
+      },
+      {
+        "id": "b",
+        "latex": "$6144$"
+      },
+      {
+        "id": "c",
+        "latex": "$24576$"
+      },
+      {
+        "id": "d",
+        "latex": "$26$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "6144",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $a_n=a_1r^{n-1}$: $a_{6}=6(4)^{5}=6144$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "nth-term"
+    ],
+    "checksum": "sha256-590daf1e16de30a2d2135d923cb34542e5213775c6f16bcaf04baed9b803ae69",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.easy.0015",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "A geometric sequence has $a_1=8$ and common ratio $r=-3$. Find $a_{7}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-10$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1944$"
+      },
+      {
+        "id": "c",
+        "latex": "$5832$"
+      },
+      {
+        "id": "d",
+        "latex": "$-17496$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "5832",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $a_n=a_1r^{n-1}$: $a_{7}=8(-3)^{6}=5832$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "nth-term"
+    ],
+    "checksum": "sha256-c68a1b7c2bdff386f6fd9a01af2467c92c6cc3849e6a5d6e0e2f383c331ada28",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.easy.0016",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "A geometric sequence has $a_1=9$ and common ratio $r=3$. Find $a_{3}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$243$"
+      },
+      {
+        "id": "b",
+        "latex": "$15$"
+      },
+      {
+        "id": "c",
+        "latex": "$27$"
+      },
+      {
+        "id": "d",
+        "latex": "$81$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "81",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $a_n=a_1r^{n-1}$: $a_{3}=9(3)^{2}=81$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "nth-term"
+    ],
+    "checksum": "sha256-e5f17421a42f3cce6a2ea09305ded84716eb26ddc556cee02a065f0c367d24cc",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.easy.0017",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "A geometric sequence has $a_1=1$ and common ratio $r=-2$. Find $a_{4}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-8$"
+      },
+      {
+        "id": "b",
+        "latex": "$16$"
+      },
+      {
+        "id": "c",
+        "latex": "$-5$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $a_n=a_1r^{n-1}$: $a_{4}=1(-2)^{3}=-8$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "nth-term"
+    ],
+    "checksum": "sha256-9c85bd683c0ce77423128b223c7b3893a333151b3cfda53ee6ff1b41ead9dfad",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.easy.0018",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "A geometric sequence has $a_1=2$ and common ratio $r=2$. Find $a_{5}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$32$"
+      },
+      {
+        "id": "c",
+        "latex": "$64$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "32",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $a_n=a_1r^{n-1}$: $a_{5}=2(2)^{4}=32$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "nth-term"
+    ],
+    "checksum": "sha256-8d72ba481d5654ebe6b2843984cacb148544882239e7b29250b6dd4c379f9d88",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.easy.0019",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "A geometric sequence has $a_1=3$ and common ratio $r=4$. Find $a_{6}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$23$"
+      },
+      {
+        "id": "b",
+        "latex": "$768$"
+      },
+      {
+        "id": "c",
+        "latex": "$3072$"
+      },
+      {
+        "id": "d",
+        "latex": "$12288$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3072",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $a_n=a_1r^{n-1}$: $a_{6}=3(4)^{5}=3072$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "nth-term"
+    ],
+    "checksum": "sha256-0abc6a198af52d2970f121b328e035c1763703fba026bfa053bd6f54f0b60f3f",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.easy.0020",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "A geometric sequence has $a_1=4$ and common ratio $r=-3$. Find $a_{7}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-8748$"
+      },
+      {
+        "id": "b",
+        "latex": "$-14$"
+      },
+      {
+        "id": "c",
+        "latex": "$-972$"
+      },
+      {
+        "id": "d",
+        "latex": "$2916$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2916",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $a_n=a_1r^{n-1}$: $a_{7}=4(-3)^{6}=2916$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "nth-term"
+    ],
+    "checksum": "sha256-26232d1a2f599a402340365599f109e45bcfd2db2a502ac8807e9518e34a0676",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.easy.0021",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "A geometric sequence has $a_1=5$ and common ratio $r=3$. Find $a_{3}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$45$"
+      },
+      {
+        "id": "b",
+        "latex": "$135$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$15$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "45",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $a_n=a_1r^{n-1}$: $a_{3}=5(3)^{2}=45$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "nth-term"
+    ],
+    "checksum": "sha256-2bc6e0289d9045851a122bc3fe2ba38d3ad10e660a0e1619e96ccd796f11b7c9",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.easy.0022",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "A geometric sequence has $a_1=6$ and common ratio $r=-2$. Find $a_{4}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$24$"
+      },
+      {
+        "id": "b",
+        "latex": "$-48$"
+      },
+      {
+        "id": "c",
+        "latex": "$96$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-48",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $a_n=a_1r^{n-1}$: $a_{4}=6(-2)^{3}=-48$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "nth-term"
+    ],
+    "checksum": "sha256-9b97548d1e36bb1d48cc50e4a44d6946e1975822aa5e6fbd79877e91c7541aab",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.easy.0023",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "A geometric sequence has $a_1=8$ and common ratio $r=2$. Find $a_{5}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$64$"
+      },
+      {
+        "id": "c",
+        "latex": "$128$"
+      },
+      {
+        "id": "d",
+        "latex": "$256$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "128",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $a_n=a_1r^{n-1}$: $a_{5}=8(2)^{4}=128$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "nth-term"
+    ],
+    "checksum": "sha256-acafcb7507b2fcf1d9259a37dc7c76cd867b1c7f9798f6c054bb210004bb4ac9",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.easy.0024",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "A geometric sequence has $a_1=9$ and common ratio $r=4$. Find $a_{6}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$36864$"
+      },
+      {
+        "id": "b",
+        "latex": "$29$"
+      },
+      {
+        "id": "c",
+        "latex": "$2304$"
+      },
+      {
+        "id": "d",
+        "latex": "$9216$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "9216",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $a_n=a_1r^{n-1}$: $a_{6}=9(4)^{5}=9216$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "nth-term"
+    ],
+    "checksum": "sha256-6207fd4d5102b03668f52e37a2f625555005c84cad74c9a4b110d2df27d10c75",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.easy.0025",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "A geometric sequence has $a_1=1$ and common ratio $r=-3$. Find $a_{7}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$729$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2187$"
+      },
+      {
+        "id": "c",
+        "latex": "$-17$"
+      },
+      {
+        "id": "d",
+        "latex": "$-243$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "729",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $a_n=a_1r^{n-1}$: $a_{7}=1(-3)^{6}=729$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "nth-term"
+    ],
+    "checksum": "sha256-2fab70f58952e462eb2ee2da13d1ddacf75b8feb85b789a56b5ad5b9277f384b",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.easy.0026",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "A geometric sequence has $a_1=2$ and common ratio $r=3$. Find $a_{3}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$18$"
+      },
+      {
+        "id": "c",
+        "latex": "$54$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "18",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $a_n=a_1r^{n-1}$: $a_{3}=2(3)^{2}=18$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "nth-term"
+    ],
+    "checksum": "sha256-71d4f8aa04965662fea5effe2e65b2aab4cf59758e7ecfa2107f12165d04874f",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.easy.0027",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "A geometric sequence has $a_1=3$ and common ratio $r=-2$. Find $a_{4}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$12$"
+      },
+      {
+        "id": "c",
+        "latex": "$-24$"
+      },
+      {
+        "id": "d",
+        "latex": "$48$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-24",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $a_n=a_1r^{n-1}$: $a_{4}=3(-2)^{3}=-24$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "nth-term"
+    ],
+    "checksum": "sha256-7ef8479bee66b92cf2a49ee654e644ed5d4fe465bcddbfa48fa2dda5603489a2",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.easy.0028",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "A geometric sequence has $a_1=4$ and common ratio $r=2$. Find $a_{5}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$128$"
+      },
+      {
+        "id": "b",
+        "latex": "$12$"
+      },
+      {
+        "id": "c",
+        "latex": "$32$"
+      },
+      {
+        "id": "d",
+        "latex": "$64$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "64",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $a_n=a_1r^{n-1}$: $a_{5}=4(2)^{4}=64$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "nth-term"
+    ],
+    "checksum": "sha256-0e34dc50b227c72630281ce4376bed469856db7f3a62c9ff9a290b355c23cb71",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.easy.0029",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "A geometric sequence has $a_1=5$ and common ratio $r=4$. Find $a_{6}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5120$"
+      },
+      {
+        "id": "b",
+        "latex": "$20480$"
+      },
+      {
+        "id": "c",
+        "latex": "$25$"
+      },
+      {
+        "id": "d",
+        "latex": "$1280$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "5120",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $a_n=a_1r^{n-1}$: $a_{6}=5(4)^{5}=5120$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "nth-term"
+    ],
+    "checksum": "sha256-75f9fe4e2a04ca63353c9093ca3aafba09f5f67553e54e7517bf11b23788aef8",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.easy.0030",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "A geometric sequence has $a_1=6$ and common ratio $r=-3$. Find $a_{7}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1458$"
+      },
+      {
+        "id": "b",
+        "latex": "$4374$"
+      },
+      {
+        "id": "c",
+        "latex": "$-13122$"
+      },
+      {
+        "id": "d",
+        "latex": "$-12$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "4374",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $a_n=a_1r^{n-1}$: $a_{7}=6(-3)^{6}=4374$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "nth-term"
+    ],
+    "checksum": "sha256-3e3b5462856090adfd453a966b7a329d8ce55f2a1c940d59452c87ae8b9431bc",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.easy.0031",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "A geometric sequence has $a_1=8$ and common ratio $r=3$. Find $a_{3}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$14$"
+      },
+      {
+        "id": "b",
+        "latex": "$24$"
+      },
+      {
+        "id": "c",
+        "latex": "$72$"
+      },
+      {
+        "id": "d",
+        "latex": "$216$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "72",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $a_n=a_1r^{n-1}$: $a_{3}=8(3)^{2}=72$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "nth-term"
+    ],
+    "checksum": "sha256-5452e622991e8abcf16be4cca16fbe7528c9024cb6196222387d112842a80460",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.easy.0032",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "A geometric sequence has $a_1=9$ and common ratio $r=-2$. Find $a_{4}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$144$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$36$"
+      },
+      {
+        "id": "d",
+        "latex": "$-72$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-72",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $a_n=a_1r^{n-1}$: $a_{4}=9(-2)^{3}=-72$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "nth-term"
+    ],
+    "checksum": "sha256-7f9180cb0af3ce33ca8c7d8f863a0d834ce8b577be73341339c971e392bd17e8",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.easy.0033",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "A geometric sequence has $a_1=1$ and common ratio $r=2$. Find $a_{5}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$32$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "16",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $a_n=a_1r^{n-1}$: $a_{5}=1(2)^{4}=16$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "nth-term"
+    ],
+    "checksum": "sha256-77550a1f542d64577004aeb48126856c7de4e0895e7a3024c2fa77dd8ea60edd",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.easy.0034",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "A geometric sequence has $a_1=2$ and common ratio $r=4$. Find $a_{6}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$512$"
+      },
+      {
+        "id": "b",
+        "latex": "$2048$"
+      },
+      {
+        "id": "c",
+        "latex": "$8192$"
+      },
+      {
+        "id": "d",
+        "latex": "$22$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "2048",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $a_n=a_1r^{n-1}$: $a_{6}=2(4)^{5}=2048$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "nth-term"
+    ],
+    "checksum": "sha256-6d293a25ec152fad316a8a8f876c0e0bb094c0c52fbdafe85daa0a392fe907bc",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.easy.0035",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "A geometric sequence has $a_1=3$ and common ratio $r=-3$. Find $a_{7}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-15$"
+      },
+      {
+        "id": "b",
+        "latex": "$-729$"
+      },
+      {
+        "id": "c",
+        "latex": "$2187$"
+      },
+      {
+        "id": "d",
+        "latex": "$-6561$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "2187",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $a_n=a_1r^{n-1}$: $a_{7}=3(-3)^{6}=2187$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "nth-term"
+    ],
+    "checksum": "sha256-de6e196b24f7f88b3c1618ecb7f39d94babaf495f9cef81e846373d0d354ebb6",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.easy.0036",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "A geometric sequence has $a_1=4$ and common ratio $r=3$. Find $a_{3}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$108$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$36$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "36",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $a_n=a_1r^{n-1}$: $a_{3}=4(3)^{2}=36$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "nth-term"
+    ],
+    "checksum": "sha256-698d22789750bdf4279b3829e3d879cc2a53c7c1721c7194190c3a5a0e55a4f4",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.easy.0037",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "A geometric sequence has $a_1=5$ and common ratio $r=-2$. Find $a_{4}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-40$"
+      },
+      {
+        "id": "b",
+        "latex": "$80$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$20$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-40",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $a_n=a_1r^{n-1}$: $a_{4}=5(-2)^{3}=-40$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "nth-term"
+    ],
+    "checksum": "sha256-dfaa9748d00bcb7f0b9a171933387fb16a45530c2d69f5bf17feba2c0957e246",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.easy.0038",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "A geometric sequence has $a_1=6$ and common ratio $r=2$. Find $a_{5}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$48$"
+      },
+      {
+        "id": "b",
+        "latex": "$96$"
+      },
+      {
+        "id": "c",
+        "latex": "$192$"
+      },
+      {
+        "id": "d",
+        "latex": "$14$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "96",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $a_n=a_1r^{n-1}$: $a_{5}=6(2)^{4}=96$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "nth-term"
+    ],
+    "checksum": "sha256-e28fd0a9a18887748dfeb4f0001d8ed2f2bbb3a62633e649b216bf8a38fcd3e0",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.easy.0039",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "A geometric sequence has $a_1=8$ and common ratio $r=4$. Find $a_{6}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$28$"
+      },
+      {
+        "id": "b",
+        "latex": "$2048$"
+      },
+      {
+        "id": "c",
+        "latex": "$8192$"
+      },
+      {
+        "id": "d",
+        "latex": "$32768$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "8192",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $a_n=a_1r^{n-1}$: $a_{6}=8(4)^{5}=8192$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "nth-term"
+    ],
+    "checksum": "sha256-ffefc538b8e6aaa20d9c7ace22e0ba39ead0a2210d20acbe0b0e1b01fc15e21e",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.easy.0040",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "A geometric sequence has $a_1=9$ and common ratio $r=-3$. Find $a_{7}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-19683$"
+      },
+      {
+        "id": "b",
+        "latex": "$-9$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2187$"
+      },
+      {
+        "id": "d",
+        "latex": "$6561$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "6561",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $a_n=a_1r^{n-1}$: $a_{7}=9(-3)^{6}=6561$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "nth-term"
+    ],
+    "checksum": "sha256-9139be88dd4add127bfd0d5a8586126b7e21140fad27b38faf86b0840a68b74f",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.easy.0041",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "A geometric sequence has $a_1=11$ and common ratio $r=3$. Find $a_{3}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$99$"
+      },
+      {
+        "id": "b",
+        "latex": "$297$"
+      },
+      {
+        "id": "c",
+        "latex": "$17$"
+      },
+      {
+        "id": "d",
+        "latex": "$33$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "99",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $a_n=a_1r^{n-1}$: $a_{3}=11(3)^{2}=99$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "nth-term"
+    ],
+    "checksum": "sha256-d67dddc3d148125aee55983ff595acc4979bb547a0913b3057d9568d2bb1f310",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.easy.0042",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "A geometric sequence has $a_1=12$ and common ratio $r=-2$. Find $a_{4}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$48$"
+      },
+      {
+        "id": "b",
+        "latex": "$-96$"
+      },
+      {
+        "id": "c",
+        "latex": "$192$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-96",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $a_n=a_1r^{n-1}$: $a_{4}=12(-2)^{3}=-96$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "nth-term"
+    ],
+    "checksum": "sha256-a707b2b62a22219b167e4c3c0827ad14f8d969064f4f977316007a54d5975dc2",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.easy.0043",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "A geometric sequence has $a_1=13$ and common ratio $r=2$. Find $a_{5}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$21$"
+      },
+      {
+        "id": "b",
+        "latex": "$104$"
+      },
+      {
+        "id": "c",
+        "latex": "$208$"
+      },
+      {
+        "id": "d",
+        "latex": "$416$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "208",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $a_n=a_1r^{n-1}$: $a_{5}=13(2)^{4}=208$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "nth-term"
+    ],
+    "checksum": "sha256-5aeab959ce9b0c9ddf0cfb1ac9bd9c8092516e22a10e650a5625fab2f3b05fd8",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.easy.0044",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "A geometric sequence has $a_1=14$ and common ratio $r=4$. Find $a_{6}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$57344$"
+      },
+      {
+        "id": "b",
+        "latex": "$34$"
+      },
+      {
+        "id": "c",
+        "latex": "$3584$"
+      },
+      {
+        "id": "d",
+        "latex": "$14336$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "14336",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $a_n=a_1r^{n-1}$: $a_{6}=14(4)^{5}=14336$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "nth-term"
+    ],
+    "checksum": "sha256-a91a32b2f249f0477ae1bb01901bf9ba2a9822a6ed393a3806b4ea1f0ce7bbd5",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.easy.0045",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "A geometric sequence has $a_1=15$ and common ratio $r=-3$. Find $a_{7}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10935$"
+      },
+      {
+        "id": "b",
+        "latex": "$-32805$"
+      },
+      {
+        "id": "c",
+        "latex": "$-3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3645$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "10935",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $a_n=a_1r^{n-1}$: $a_{7}=15(-3)^{6}=10935$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "nth-term"
+    ],
+    "checksum": "sha256-881471e508ff8e12c0483fa7cad5c93141db74069971a7cd79881bc857d549fc",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.easy.0046",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "A geometric sequence has $a_1=16$ and common ratio $r=3$. Find $a_{3}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$48$"
+      },
+      {
+        "id": "b",
+        "latex": "$144$"
+      },
+      {
+        "id": "c",
+        "latex": "$432$"
+      },
+      {
+        "id": "d",
+        "latex": "$22$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "144",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $a_n=a_1r^{n-1}$: $a_{3}=16(3)^{2}=144$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "nth-term"
+    ],
+    "checksum": "sha256-5ee357a1bb0bd27ca8b2a66c72b721c26e2aa16c9d75d2b97b97d4810af6b5a3",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.easy.0047",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "A geometric sequence has $a_1=18$ and common ratio $r=-2$. Find $a_{4}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12$"
+      },
+      {
+        "id": "b",
+        "latex": "$72$"
+      },
+      {
+        "id": "c",
+        "latex": "$-144$"
+      },
+      {
+        "id": "d",
+        "latex": "$288$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-144",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $a_n=a_1r^{n-1}$: $a_{4}=18(-2)^{3}=-144$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "nth-term"
+    ],
+    "checksum": "sha256-6ac8372330d606b23a59256f0a39b5d4835b984f28cc7cdc474f319f85439f2c",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.easy.0048",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "A geometric sequence has $a_1=19$ and common ratio $r=2$. Find $a_{5}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$608$"
+      },
+      {
+        "id": "b",
+        "latex": "$27$"
+      },
+      {
+        "id": "c",
+        "latex": "$152$"
+      },
+      {
+        "id": "d",
+        "latex": "$304$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "304",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $a_n=a_1r^{n-1}$: $a_{5}=19(2)^{4}=304$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "nth-term"
+    ],
+    "checksum": "sha256-47e09ab56e57b2aca614ffaf7088c18d3eb6ed5c128d5cd1588499832c1df04a",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.easy.0049",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "A geometric sequence has $a_1=11$ and common ratio $r=4$. Find $a_{6}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11264$"
+      },
+      {
+        "id": "b",
+        "latex": "$45056$"
+      },
+      {
+        "id": "c",
+        "latex": "$31$"
+      },
+      {
+        "id": "d",
+        "latex": "$2816$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "11264",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $a_n=a_1r^{n-1}$: $a_{6}=11(4)^{5}=11264$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "nth-term"
+    ],
+    "checksum": "sha256-4e14f84346b1765681d1464aaf942171ebfe67b30a50e8cc576cfe517e6d2abd",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.easy.0050",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "easy",
+    "prompt_latex": "A geometric sequence has $a_1=12$ and common ratio $r=-3$. Find $a_{7}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2916$"
+      },
+      {
+        "id": "b",
+        "latex": "$8748$"
+      },
+      {
+        "id": "c",
+        "latex": "$-26244$"
+      },
+      {
+        "id": "d",
+        "latex": "$-6$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "8748",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $a_n=a_1r^{n-1}$: $a_{7}=12(-3)^{6}=8748$.",
+    "complexity_factor": 1.2,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "nth-term"
+    ],
+    "checksum": "sha256-5ea3fe622c3216f0323d817868633622f3b49cd98f831e197c7be7aeb50c3108",
+    "status": "valid"
+  }
+]

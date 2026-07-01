@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "ch19.logarithm.medium.0001",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $1$: Solve for $x$: $\\log_{3}(x)=3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$27$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$81$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "27",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $x=3^{3}=27$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-c8954b4d9709fa531d87f033aa2bde82646a4a577caf759f7b4c59c7eaff5042",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.medium.0002",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $2$: Solve for $x$: $\\log_{4}(4x+3)=\\log_{4}(255)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$255$"
+      },
+      {
+        "id": "b",
+        "latex": "$64$"
+      },
+      {
+        "id": "c",
+        "latex": "$63$"
+      },
+      {
+        "id": "d",
+        "latex": "$62$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "63",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Equal logarithms with the same base have equal arguments, so $4x+3=255$ and $x=63$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-990dfd07adaa0b346612a78bd12166624f932dd92bf2983d4c32f84933f96f5f",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.medium.0003",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $3$: Solve for $x$: $\\log_{5}(x)=5$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$25$"
+      },
+      {
+        "id": "c",
+        "latex": "$625$"
+      },
+      {
+        "id": "d",
+        "latex": "$3125$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "3125",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $x=5^{5}=3125$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-ec1b3572f5070ff363f1001453883116ac21a62a7e797b3c19e2fd0bb2eb397c",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.medium.0004",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $4$: Solve for $x$: $\\log_{2}(6x+5)=\\log_{2}(-1)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Equal logarithms with the same base have equal arguments, so $6x+5=-1$ and $x=-1$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-b7bccad0f2e7d273379ea8400e0cebb2e260ff67b21e10761195fd0cea75fe72",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.medium.0005",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $5$: Solve for $x$: $\\log_{2}(x)=3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $x=2^{3}=8$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-baabb758d1837581fe55bf185aeae14ee6d9255e90283140a0ab4d2829484768",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.medium.0006",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $6$: Solve for $x$: $\\log_{4}(3x+7)=\\log_{4}(256)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$256$"
+      },
+      {
+        "id": "b",
+        "latex": "$84$"
+      },
+      {
+        "id": "c",
+        "latex": "$83$"
+      },
+      {
+        "id": "d",
+        "latex": "$82$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "83",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Equal logarithms with the same base have equal arguments, so $3x+7=256$ and $x=83$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-91330c446645bb248d0c1e6935ea6820c5d9609cf27e70bab63db28ead9cd230",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.medium.0007",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $7$: Solve for $x$: $\\log_{4}(x)=5$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$20$"
+      },
+      {
+        "id": "c",
+        "latex": "$256$"
+      },
+      {
+        "id": "d",
+        "latex": "$1024$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1024",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $x=4^{5}=1024$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-82d7fe2b4fba2d52de4bd0088e1cf65e68280851009bc57a2b8e56d60ba6cdfc",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.medium.0008",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $8$: Solve for $x$: $\\log_{2}(5x+2)=\\log_{2}(2)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Equal logarithms with the same base have equal arguments, so $5x+2=2$ and $x=0$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-9e8c8dbf4af9d1e2389c5b7c0ad0f34cda3c4c62d885fefb44aac121568aef68",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.medium.0009",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $9$: Solve for $x$: $\\log_{6}(x)=3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$216$"
+      },
+      {
+        "id": "c",
+        "latex": "$18$"
+      },
+      {
+        "id": "d",
+        "latex": "$36$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "216",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $x=6^{3}=216$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-e1ea5dbbc0e42631ae75be3708f60211a9b0b649373d46c33c79b9a0ede63b8a",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.medium.0010",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $10$: Solve for $x$: $\\log_{4}(2x+4)=\\log_{4}(256)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$256$"
+      },
+      {
+        "id": "b",
+        "latex": "$127$"
+      },
+      {
+        "id": "c",
+        "latex": "$126$"
+      },
+      {
+        "id": "d",
+        "latex": "$125$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "126",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Equal logarithms with the same base have equal arguments, so $2x+4=256$ and $x=126$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-eade4c6aa0e4fe7506214bf27c5eb3e41af6345a85c2e6bc49f07568be9b7a88",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.medium.0011",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $11$: Solve for $x$: $\\log_{3}(x)=5$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$15$"
+      },
+      {
+        "id": "c",
+        "latex": "$81$"
+      },
+      {
+        "id": "d",
+        "latex": "$243$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "243",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $x=3^{5}=243$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-3f14ffd4940a9222aee88373e8f37aa97c8a37668b33b759de9abfd628f83fda",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.medium.0012",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $12$: Solve for $x$: $\\log_{2}(4x+6)=\\log_{2}(2)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Equal logarithms with the same base have equal arguments, so $4x+6=2$ and $x=-1$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-9ed36731fe375d76773b00ff84d83bb57c3d328341347f5d011a9e1212eac136",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.medium.0013",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $13$: Solve for $x$: $\\log_{5}(x)=3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$125$"
+      },
+      {
+        "id": "c",
+        "latex": "$15$"
+      },
+      {
+        "id": "d",
+        "latex": "$25$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "125",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $x=5^{3}=125$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-8c07c4d3fdc128539833ee73cc566bffac4fda304e97d10d10ff9f6eed148725",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.medium.0014",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $14$: Solve for $x$: $\\log_{4}(6x+1)=\\log_{4}(253)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$253$"
+      },
+      {
+        "id": "b",
+        "latex": "$43$"
+      },
+      {
+        "id": "c",
+        "latex": "$42$"
+      },
+      {
+        "id": "d",
+        "latex": "$41$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "42",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Equal logarithms with the same base have equal arguments, so $6x+1=253$ and $x=42$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-389ddeb19edd84422248484f3cee0dbb21e19e3cffea319db6fbb510a8bce9f2",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.medium.0015",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $15$: Solve for $x$: $\\log_{2}(x)=5$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$16$"
+      },
+      {
+        "id": "d",
+        "latex": "$32$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "32",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $x=2^{5}=32$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-eb5cd8cd36e2640a75ce8b3509098330c5b5afe64e9765f038765dce515a7d46",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.medium.0016",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $16$: Solve for $x$: $\\log_{2}(3x+3)=\\log_{2}(3)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Equal logarithms with the same base have equal arguments, so $3x+3=3$ and $x=0$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-f56627226db2a94fd3771222569a1406c7ad8e3b5152a1e7f2553886f747bee8",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.medium.0017",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $17$: Solve for $x$: $\\log_{4}(x)=3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$64$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$16$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "64",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $x=4^{3}=64$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-e9679bc55319fcd96d5b2e0d69d45034218c820e26fe64c7e25f907553dd6a13",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.medium.0018",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $18$: Solve for $x$: $\\log_{4}(5x+5)=\\log_{4}(255)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$255$"
+      },
+      {
+        "id": "b",
+        "latex": "$51$"
+      },
+      {
+        "id": "c",
+        "latex": "$50$"
+      },
+      {
+        "id": "d",
+        "latex": "$49$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "50",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Equal logarithms with the same base have equal arguments, so $5x+5=255$ and $x=50$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-8de072a1f97a515cadcb5bf9c9fb3b709dec51df44fdb525d1e223bc9c2da11f",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.medium.0019",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $19$: Solve for $x$: $\\log_{6}(x)=5$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$30$"
+      },
+      {
+        "id": "c",
+        "latex": "$1296$"
+      },
+      {
+        "id": "d",
+        "latex": "$7776$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "7776",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $x=6^{5}=7776$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-c9135d0bbf6d9db4545afc329af675b13d8cfb518eb17c8eb020bbc7085df271",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.medium.0020",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $20$: Solve for $x$: $\\log_{2}(2x+7)=\\log_{2}(3)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Equal logarithms with the same base have equal arguments, so $2x+7=3$ and $x=-2$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-1b4a36573e748fcbd1b146792845afa9afa826f86bf594972de8511de23c8828",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.medium.0021",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $21$: Solve for $x$: $\\log_{3}(x)=3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$27$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$81$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "27",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $x=3^{3}=27$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-8e905a97f616219de95de68ad861394952af72306e20d74db5b42b136031bcdc",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.medium.0022",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $22$: Solve for $x$: $\\log_{4}(4x+2)=\\log_{4}(254)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$254$"
+      },
+      {
+        "id": "b",
+        "latex": "$64$"
+      },
+      {
+        "id": "c",
+        "latex": "$63$"
+      },
+      {
+        "id": "d",
+        "latex": "$62$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "63",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Equal logarithms with the same base have equal arguments, so $4x+2=254$ and $x=63$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-9f927e2e6d1f4a5d5c2979000c13c5113076e5f49ea22b0861669d38d1bd96df",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.medium.0023",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $23$: Solve for $x$: $\\log_{5}(x)=5$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$25$"
+      },
+      {
+        "id": "c",
+        "latex": "$625$"
+      },
+      {
+        "id": "d",
+        "latex": "$3125$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "3125",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $x=5^{5}=3125$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-f228d2c0e5051585171b46d998d52f76f2398c73108ce73f5e7c3f9c34e68fad",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.medium.0024",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $24$: Solve for $x$: $\\log_{2}(6x+4)=\\log_{2}(4)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Equal logarithms with the same base have equal arguments, so $6x+4=4$ and $x=0$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-2b625c4ecad969d20f02e8ee256bba1afd29e844b755fa3225082d52a171029a",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.medium.0025",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $25$: Solve for $x$: $\\log_{2}(x)=3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $x=2^{3}=8$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-aa321b6e42f217195faa3b4a531ae6a2a32462572408e4873456252067760ac6",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.medium.0026",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $26$: Solve for $x$: $\\log_{4}(3x+6)=\\log_{4}(255)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$255$"
+      },
+      {
+        "id": "b",
+        "latex": "$84$"
+      },
+      {
+        "id": "c",
+        "latex": "$83$"
+      },
+      {
+        "id": "d",
+        "latex": "$82$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "83",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Equal logarithms with the same base have equal arguments, so $3x+6=255$ and $x=83$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-e3eacb464b84ec05c6f33e469e35d68e5199d128221c8204dda36ba213e918c0",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.medium.0027",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $27$: Solve for $x$: $\\log_{4}(x)=5$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$20$"
+      },
+      {
+        "id": "c",
+        "latex": "$256$"
+      },
+      {
+        "id": "d",
+        "latex": "$1024$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1024",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $x=4^{5}=1024$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-bbaabbddf013bbf6d584ff972e00bb4ebf91523e14885713147cf0e09f28d166",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.medium.0028",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $28$: Solve for $x$: $\\log_{2}(5x+1)=\\log_{2}(1)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Equal logarithms with the same base have equal arguments, so $5x+1=1$ and $x=0$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-e421dd4860e5057ff1914d974e454978dd531526d2d34f96da19c5fafe45c1a1",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.medium.0029",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $29$: Solve for $x$: $\\log_{6}(x)=3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$216$"
+      },
+      {
+        "id": "c",
+        "latex": "$18$"
+      },
+      {
+        "id": "d",
+        "latex": "$36$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "216",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $x=6^{3}=216$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-83a817d3d4d2f9b133035c4426ca677408e27cc8b73525d996dbe7a43dda685b",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.medium.0030",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $30$: Solve for $x$: $\\log_{4}(2x+3)=\\log_{4}(255)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$255$"
+      },
+      {
+        "id": "b",
+        "latex": "$127$"
+      },
+      {
+        "id": "c",
+        "latex": "$126$"
+      },
+      {
+        "id": "d",
+        "latex": "$125$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "126",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Equal logarithms with the same base have equal arguments, so $2x+3=255$ and $x=126$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-da900b262bf666f37d31fddd290a08ade02da1f59b9cff08c77a9b345edd634f",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.medium.0031",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $31$: Solve for $x$: $\\log_{3}(x)=5$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$15$"
+      },
+      {
+        "id": "c",
+        "latex": "$81$"
+      },
+      {
+        "id": "d",
+        "latex": "$243$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "243",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $x=3^{5}=243$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-d6785655b70dc9cc47cdb6882fa6944f7792cc05a7e306ca553a90893ae6ca66",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.medium.0032",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $32$: Solve for $x$: $\\log_{2}(4x+5)=\\log_{2}(1)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Equal logarithms with the same base have equal arguments, so $4x+5=1$ and $x=-1$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-df19891e920bbbb7ac38b774894bd368dcbac938e298018b763d70065efb46f2",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.medium.0033",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $33$: Solve for $x$: $\\log_{5}(x)=3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$125$"
+      },
+      {
+        "id": "c",
+        "latex": "$15$"
+      },
+      {
+        "id": "d",
+        "latex": "$25$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "125",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $x=5^{3}=125$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-564a793dadfb30f4cf87d3ce5ea790ac26d0f0e256c3285d5610144e25af67fe",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.medium.0034",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $34$: Solve for $x$: $\\log_{4}(6x+7)=\\log_{4}(253)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$253$"
+      },
+      {
+        "id": "b",
+        "latex": "$42$"
+      },
+      {
+        "id": "c",
+        "latex": "$41$"
+      },
+      {
+        "id": "d",
+        "latex": "$40$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "41",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Equal logarithms with the same base have equal arguments, so $6x+7=253$ and $x=41$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-8896592ad049127fff632415f957d9fc70ff61885b5b2b914a926bf676f7e001",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.medium.0035",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $35$: Solve for $x$: $\\log_{2}(x)=5$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$16$"
+      },
+      {
+        "id": "d",
+        "latex": "$32$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "32",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $x=2^{5}=32$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-e3ffae940ed9cd0983a4bb42bff15457923656f9e94b2873e23194dd7956dfd9",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.medium.0036",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $36$: Solve for $x$: $\\log_{2}(3x+2)=\\log_{2}(2)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Equal logarithms with the same base have equal arguments, so $3x+2=2$ and $x=0$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-2df42add4dcc26a66ddf1634a79b9c36c5cc50290e5dec668b5928aac6c09e73",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.medium.0037",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $37$: Solve for $x$: $\\log_{4}(x)=3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$64$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$16$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "64",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $x=4^{3}=64$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-5d2b9ab7f14e909aec38d407de7ada705d8d0ab6f02d14d2d14c6069bdf56fb1",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.medium.0038",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $38$: Solve for $x$: $\\log_{4}(5x+4)=\\log_{4}(254)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$254$"
+      },
+      {
+        "id": "b",
+        "latex": "$51$"
+      },
+      {
+        "id": "c",
+        "latex": "$50$"
+      },
+      {
+        "id": "d",
+        "latex": "$49$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "50",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Equal logarithms with the same base have equal arguments, so $5x+4=254$ and $x=50$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-7c59b6745280704115e5d4e89b8f77008de798007549d66fe4252595bbc11ae1",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.medium.0039",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $39$: Solve for $x$: $\\log_{6}(x)=5$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$30$"
+      },
+      {
+        "id": "c",
+        "latex": "$1296$"
+      },
+      {
+        "id": "d",
+        "latex": "$7776$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "7776",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $x=6^{5}=7776$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-46be4642cc2136aeb1c46c4fef541c0f1aea2793913b6040bd4f44c344e913e7",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.medium.0040",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $40$: Solve for $x$: $\\log_{2}(2x+6)=\\log_{2}(4)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Equal logarithms with the same base have equal arguments, so $2x+6=4$ and $x=-1$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-48e0dd29dfb90e2abd56cccfb5228ffa31eef2eae5c412f5ccdf9a0d4fe06976",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.medium.0041",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $41$: Solve for $x$: $\\log_{3}(x)=3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$27$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$81$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "27",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $x=3^{3}=27$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-3117b000b03ed11234395304d8e3e49998293feb20b77a4ce9e266e0ea93eae4",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.medium.0042",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $42$: Solve for $x$: $\\log_{4}(4x+1)=\\log_{4}(253)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$253$"
+      },
+      {
+        "id": "b",
+        "latex": "$64$"
+      },
+      {
+        "id": "c",
+        "latex": "$63$"
+      },
+      {
+        "id": "d",
+        "latex": "$62$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "63",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Equal logarithms with the same base have equal arguments, so $4x+1=253$ and $x=63$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-258c263c3a5d353d84d5d71f054af14dc11f7784ad89fd4983f67af4aa2becef",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.medium.0043",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $43$: Solve for $x$: $\\log_{5}(x)=5$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$25$"
+      },
+      {
+        "id": "c",
+        "latex": "$625$"
+      },
+      {
+        "id": "d",
+        "latex": "$3125$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "3125",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $x=5^{5}=3125$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-7480ea5950e16d868774c792df2504ac7e3a33132f0eedf11cb8616007697313",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.medium.0044",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $44$: Solve for $x$: $\\log_{2}(6x+3)=\\log_{2}(3)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Equal logarithms with the same base have equal arguments, so $6x+3=3$ and $x=0$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-7a71cfb931d6c32cda12dff745d38bb8cc6d8df58c48226524da32f08df55c5d",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.medium.0045",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $45$: Solve for $x$: $\\log_{2}(x)=3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $x=2^{3}=8$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-f07479cce38518c1759342e29e6d5177e3687c3fc473de23dc9341f01f5f06f9",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.medium.0046",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $46$: Solve for $x$: $\\log_{4}(3x+5)=\\log_{4}(254)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$254$"
+      },
+      {
+        "id": "b",
+        "latex": "$84$"
+      },
+      {
+        "id": "c",
+        "latex": "$83$"
+      },
+      {
+        "id": "d",
+        "latex": "$82$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "83",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Equal logarithms with the same base have equal arguments, so $3x+5=254$ and $x=83$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-782018602d0e6537cdd1e11bca3e6dbbb33ccbf49445d6b16e799c9dc4f67c5e",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.medium.0047",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $47$: Solve for $x$: $\\log_{4}(x)=5$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$20$"
+      },
+      {
+        "id": "c",
+        "latex": "$256$"
+      },
+      {
+        "id": "d",
+        "latex": "$1024$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1024",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $x=4^{5}=1024$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-b136dc10a969191213a5014c97b0f62deb36fc6404eabd3ef8b493a30b5ee7b1",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.medium.0048",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $48$: Solve for $x$: $\\log_{2}(5x+7)=\\log_{2}(2)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Equal logarithms with the same base have equal arguments, so $5x+7=2$ and $x=-1$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-347a8cb05ab5afd479c24a24ca7863afe8b2168f50b62f6eea28d2fd0ba90985",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.medium.0049",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $49$: Solve for $x$: $\\log_{6}(x)=3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$216$"
+      },
+      {
+        "id": "c",
+        "latex": "$18$"
+      },
+      {
+        "id": "d",
+        "latex": "$36$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "216",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Rewrite as $x=6^{3}=216$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-15f5e60f2f8a3328e8831a66da61da97e1eb4c60344e3793b842ae96eb7797a2",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.logarithm.medium.0050",
+    "topic_id": "ch19.logarithm",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $50$: Solve for $x$: $\\log_{4}(2x+2)=\\log_{4}(256)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$256$"
+      },
+      {
+        "id": "b",
+        "latex": "$128$"
+      },
+      {
+        "id": "c",
+        "latex": "$127$"
+      },
+      {
+        "id": "d",
+        "latex": "$126$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "127",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Equal logarithms with the same base have equal arguments, so $2x+2=256$ and $x=127$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.4",
+    "tags": [
+      "logarithms",
+      "exponents"
+    ],
+    "checksum": "sha256-3073ce0336cbe340a8cb549cb3bcc1efd4d549b8d64c190772169425ee43cda6",
+    "status": "valid"
+  }
+]

@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "ch20.absolute_value.hard.0001",
+    "topic_id": "ch20.absolute_value",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $|x + 8|+|x + 3|=7$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-8, -3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-9, -3$"
+      },
+      {
+        "id": "c",
+        "latex": "$-8, -2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-9, -2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-9, -2",
+    "answer_type": "string",
+    "accepted_forms": [
+      "-2, -9"
+    ],
+    "solution_latex": "Outside the interval $[-8,-3]$, the sum increases by twice the distance from the nearer endpoint. Since $7=(-3--8)+2\\cdot 1$, the solutions are $-9$ and $-2$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.2",
+    "tags": [
+      "absolute value",
+      "casework"
+    ],
+    "checksum": "sha256-ce3b429d524be9a11f797745af6d22e670e6b619198a40c020d3b97f66056066",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.absolute_value.hard.0002",
+    "topic_id": "ch20.absolute_value",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "What is the minimum value of $|x + 6|+|x - 2|+|x - 6|$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12$"
+      },
+      {
+        "id": "b",
+        "latex": "$13$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The sum of distances to three points is minimized at the middle point $x=2$. The minimum is $8+4=12$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.2",
+    "tags": [
+      "absolute value",
+      "optimization"
+    ],
+    "checksum": "sha256-d6d9adcf5b12d5c8a03c04d823be1b2928c0b2f617579a9fe8f9aa5350e5d9d2",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.absolute_value.hard.0003",
+    "topic_id": "ch20.absolute_value",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $|x + 2|+|x - 4|=14$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2, 8$"
+      },
+      {
+        "id": "b",
+        "latex": "$-6, 8$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2, 4$"
+      },
+      {
+        "id": "d",
+        "latex": "$-6, 4$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-6, 8",
+    "answer_type": "string",
+    "accepted_forms": [
+      "8, -6"
+    ],
+    "solution_latex": "Outside the interval $[-2,4]$, the sum increases by twice the distance from the nearer endpoint. Since $14=(4--2)+2\\cdot 4$, the solutions are $-6$ and $8$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.2",
+    "tags": [
+      "absolute value",
+      "casework"
+    ],
+    "checksum": "sha256-86ace8d1cf7c144f8e2323d5f4b7cf08b1f22afd36be63aeb8313e9e39bb37eb",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.absolute_value.hard.0004",
+    "topic_id": "ch20.absolute_value",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "What is the minimum value of $|x + 0|+|x - 6|+|x - 12|$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$14$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$13$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The sum of distances to three points is minimized at the middle point $x=6$. The minimum is $6+6=12$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.2",
+    "tags": [
+      "absolute value",
+      "optimization"
+    ],
+    "checksum": "sha256-a04e1ecf3e8a6cb1af2e9d4101157a1a6b537405030051f2143969113ba92919",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.absolute_value.hard.0005",
+    "topic_id": "ch20.absolute_value",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $|x - 4|+|x - 11|=15$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4, 11$"
+      },
+      {
+        "id": "b",
+        "latex": "$0, 11$"
+      },
+      {
+        "id": "c",
+        "latex": "$4, 15$"
+      },
+      {
+        "id": "d",
+        "latex": "$0, 15$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "0, 15",
+    "answer_type": "string",
+    "accepted_forms": [
+      "15, 0"
+    ],
+    "solution_latex": "Outside the interval $[4,11]$, the sum increases by twice the distance from the nearer endpoint. Since $15=(11-4)+2\\cdot 4$, the solutions are $0$ and $15$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.2",
+    "tags": [
+      "absolute value",
+      "casework"
+    ],
+    "checksum": "sha256-ddc3ee0017c36589ab4da2bdd6e5da38859f84dd5b8d3a3365f0b3c15a444dfe",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.absolute_value.hard.0006",
+    "topic_id": "ch20.absolute_value",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "What is the minimum value of $|x + 10|+|x + 1|+|x - 7|$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$17$"
+      },
+      {
+        "id": "b",
+        "latex": "$18$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "17",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The sum of distances to three points is minimized at the middle point $x=-1$. The minimum is $9+8=17$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.2",
+    "tags": [
+      "absolute value",
+      "optimization"
+    ],
+    "checksum": "sha256-616f24d007643bc98570743f7e723c3372f7c6698c1554b4f5d9de7623246e0f",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.absolute_value.hard.0007",
+    "topic_id": "ch20.absolute_value",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $|x + 6|+|x - 2|=22$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-6, 9$"
+      },
+      {
+        "id": "b",
+        "latex": "$-13, 9$"
+      },
+      {
+        "id": "c",
+        "latex": "$-6, 2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-13, 2$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-13, 9",
+    "answer_type": "string",
+    "accepted_forms": [
+      "9, -13"
+    ],
+    "solution_latex": "Outside the interval $[-6,2]$, the sum increases by twice the distance from the nearer endpoint. Since $22=(2--6)+2\\cdot 7$, the solutions are $-13$ and $9$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.2",
+    "tags": [
+      "absolute value",
+      "casework"
+    ],
+    "checksum": "sha256-4f433f82d087b617073fd56753ae91620d05d9b26c30ade6cd4e8cec8594d248",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.absolute_value.hard.0008",
+    "topic_id": "ch20.absolute_value",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "What is the minimum value of $|x + 4|+|x - 8|+|x - 18|$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$22$"
+      },
+      {
+        "id": "d",
+        "latex": "$23$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "22",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The sum of distances to three points is minimized at the middle point $x=8$. The minimum is $12+10=22$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.2",
+    "tags": [
+      "absolute value",
+      "optimization"
+    ],
+    "checksum": "sha256-c4bf7d16cf840cea752ad1e57ee80d1e54f507020f79cdc26534948fe1991a8a",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.absolute_value.hard.0009",
+    "topic_id": "ch20.absolute_value",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $|x - 2|+|x - 11|=23$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2, 11$"
+      },
+      {
+        "id": "b",
+        "latex": "$-5, 11$"
+      },
+      {
+        "id": "c",
+        "latex": "$2, 18$"
+      },
+      {
+        "id": "d",
+        "latex": "$-5, 18$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-5, 18",
+    "answer_type": "string",
+    "accepted_forms": [
+      "18, -5"
+    ],
+    "solution_latex": "Outside the interval $[2,11]$, the sum increases by twice the distance from the nearer endpoint. Since $23=(11-2)+2\\cdot 7$, the solutions are $-5$ and $18$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.2",
+    "tags": [
+      "absolute value",
+      "casework"
+    ],
+    "checksum": "sha256-7ef616923716a33f01befdb33865680b6f16944fd26c0d62786b3d6c6634e369",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.absolute_value.hard.0010",
+    "topic_id": "ch20.absolute_value",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "What is the minimum value of $|x - 3|+|x - 13|+|x - 25|$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$22$"
+      },
+      {
+        "id": "b",
+        "latex": "$23$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "22",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The sum of distances to three points is minimized at the middle point $x=13$. The minimum is $10+12=22$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.2",
+    "tags": [
+      "absolute value",
+      "optimization"
+    ],
+    "checksum": "sha256-75e48e7a0ee78879a0e06979f2542e992458319c15afe05ec503f1545be33473",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.absolute_value.hard.0011",
+    "topic_id": "ch20.absolute_value",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $|x + 10|+|x + 0|=30$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-10, 10$"
+      },
+      {
+        "id": "b",
+        "latex": "$-20, 10$"
+      },
+      {
+        "id": "c",
+        "latex": "$-10, 0$"
+      },
+      {
+        "id": "d",
+        "latex": "$-20, 0$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-20, 10",
+    "answer_type": "string",
+    "accepted_forms": [
+      "10, -20"
+    ],
+    "solution_latex": "Outside the interval $[-10,0]$, the sum increases by twice the distance from the nearer endpoint. Since $30=(0--10)+2\\cdot 10$, the solutions are $-20$ and $10$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.2",
+    "tags": [
+      "absolute value",
+      "casework"
+    ],
+    "checksum": "sha256-67d25968ef1d21c5bdd9073ac7d5dbff9dbd9a0410df1ead92f34ebab53facbc",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.absolute_value.hard.0012",
+    "topic_id": "ch20.absolute_value",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "What is the minimum value of $|x + 8|+|x - 5|+|x - 19|$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$13$"
+      },
+      {
+        "id": "b",
+        "latex": "$14$"
+      },
+      {
+        "id": "c",
+        "latex": "$27$"
+      },
+      {
+        "id": "d",
+        "latex": "$28$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "27",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The sum of distances to three points is minimized at the middle point $x=5$. The minimum is $13+14=27$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.2",
+    "tags": [
+      "absolute value",
+      "optimization"
+    ],
+    "checksum": "sha256-54d4cf9cca9e78da1dd82050516d25ba3309bc5f9041624529939c4d896fd05e",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.absolute_value.hard.0013",
+    "topic_id": "ch20.absolute_value",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $|x + 4|+|x - 7|=31$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4, 7$"
+      },
+      {
+        "id": "b",
+        "latex": "$-14, 7$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4, 17$"
+      },
+      {
+        "id": "d",
+        "latex": "$-14, 17$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-14, 17",
+    "answer_type": "string",
+    "accepted_forms": [
+      "17, -14"
+    ],
+    "solution_latex": "Outside the interval $[-4,7]$, the sum increases by twice the distance from the nearer endpoint. Since $31=(7--4)+2\\cdot 10$, the solutions are $-14$ and $17$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.2",
+    "tags": [
+      "absolute value",
+      "casework"
+    ],
+    "checksum": "sha256-27a2c160fb93233455bef1bd463a459bf6e1e5e9eab864eaabf300811fc8b843",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.absolute_value.hard.0014",
+    "topic_id": "ch20.absolute_value",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "What is the minimum value of $|x - 2|+|x - 18|+|x - 34|$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$32$"
+      },
+      {
+        "id": "b",
+        "latex": "$33$"
+      },
+      {
+        "id": "c",
+        "latex": "$16$"
+      },
+      {
+        "id": "d",
+        "latex": "$34$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "32",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The sum of distances to three points is minimized at the middle point $x=18$. The minimum is $16+16=32$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.2",
+    "tags": [
+      "absolute value",
+      "optimization"
+    ],
+    "checksum": "sha256-a7f9c8a9a765186796923be50a5215e40875076e8df475ebf3752a59bb7c372d",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.absolute_value.hard.0015",
+    "topic_id": "ch20.absolute_value",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $|x - 6|+|x - 18|=38$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6, 31$"
+      },
+      {
+        "id": "b",
+        "latex": "$-7, 31$"
+      },
+      {
+        "id": "c",
+        "latex": "$6, 18$"
+      },
+      {
+        "id": "d",
+        "latex": "$-7, 18$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-7, 31",
+    "answer_type": "string",
+    "accepted_forms": [
+      "31, -7"
+    ],
+    "solution_latex": "Outside the interval $[6,18]$, the sum increases by twice the distance from the nearer endpoint. Since $38=(18-6)+2\\cdot 13$, the solutions are $-7$ and $31$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.2",
+    "tags": [
+      "absolute value",
+      "casework"
+    ],
+    "checksum": "sha256-efb07966650436aad2203213824ebbd2357b35bfc16c19a8ffe258478194299c",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.absolute_value.hard.0016",
+    "topic_id": "ch20.absolute_value",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "What is the minimum value of $|x + 12|+|x - 2|+|x - 20|$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$14$"
+      },
+      {
+        "id": "b",
+        "latex": "$18$"
+      },
+      {
+        "id": "c",
+        "latex": "$32$"
+      },
+      {
+        "id": "d",
+        "latex": "$33$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "32",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The sum of distances to three points is minimized at the middle point $x=2$. The minimum is $14+18=32$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.2",
+    "tags": [
+      "absolute value",
+      "optimization"
+    ],
+    "checksum": "sha256-d0f9fdef114aae7d6c4332bfef20457faddd8cb472a2e5b2a3dc2a3467eebfdb",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.absolute_value.hard.0017",
+    "topic_id": "ch20.absolute_value",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $|x + 8|+|x - 5|=39$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-8, 5$"
+      },
+      {
+        "id": "b",
+        "latex": "$-21, 5$"
+      },
+      {
+        "id": "c",
+        "latex": "$-8, 18$"
+      },
+      {
+        "id": "d",
+        "latex": "$-21, 18$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-21, 18",
+    "answer_type": "string",
+    "accepted_forms": [
+      "18, -21"
+    ],
+    "solution_latex": "Outside the interval $[-8,5]$, the sum increases by twice the distance from the nearer endpoint. Since $39=(5--8)+2\\cdot 13$, the solutions are $-21$ and $18$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.2",
+    "tags": [
+      "absolute value",
+      "casework"
+    ],
+    "checksum": "sha256-65da94667271038ae28cdc54720f16cce18f0c7342c0db1b45c2a7f996caf884",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.absolute_value.hard.0018",
+    "topic_id": "ch20.absolute_value",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "What is the minimum value of $|x + 6|+|x - 11|+|x - 31|$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$37$"
+      },
+      {
+        "id": "b",
+        "latex": "$38$"
+      },
+      {
+        "id": "c",
+        "latex": "$17$"
+      },
+      {
+        "id": "d",
+        "latex": "$20$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "37",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The sum of distances to three points is minimized at the middle point $x=11$. The minimum is $17+20=37$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.2",
+    "tags": [
+      "absolute value",
+      "optimization"
+    ],
+    "checksum": "sha256-f0b268c069e9cc552f5a804da80c8b509e493bf9c25b246c3030a2615f26441d",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.absolute_value.hard.0019",
+    "topic_id": "ch20.absolute_value",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $|x - 4|+|x - 18|=46$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4, 34$"
+      },
+      {
+        "id": "b",
+        "latex": "$-12, 34$"
+      },
+      {
+        "id": "c",
+        "latex": "$4, 18$"
+      },
+      {
+        "id": "d",
+        "latex": "$-12, 18$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-12, 34",
+    "answer_type": "string",
+    "accepted_forms": [
+      "34, -12"
+    ],
+    "solution_latex": "Outside the interval $[4,18]$, the sum increases by twice the distance from the nearer endpoint. Since $46=(18-4)+2\\cdot 16$, the solutions are $-12$ and $34$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.2",
+    "tags": [
+      "absolute value",
+      "casework"
+    ],
+    "checksum": "sha256-05c6c8c997ce7b0b33a8c087f4651a3805828c6a5869245277427d93f4ef7797",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.absolute_value.hard.0020",
+    "topic_id": "ch20.absolute_value",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "What is the minimum value of $|x - 5|+|x - 25|+|x - 47|$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$20$"
+      },
+      {
+        "id": "b",
+        "latex": "$22$"
+      },
+      {
+        "id": "c",
+        "latex": "$42$"
+      },
+      {
+        "id": "d",
+        "latex": "$43$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "42",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The sum of distances to three points is minimized at the middle point $x=25$. The minimum is $20+22=42$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.2",
+    "tags": [
+      "absolute value",
+      "optimization"
+    ],
+    "checksum": "sha256-b0baefc85d240fe28f6b6c831a3213435c8d0eb32e227c89f5847a5bedec4425",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.absolute_value.hard.0021",
+    "topic_id": "ch20.absolute_value",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $|x + 12|+|x - 3|=47$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-12, 3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-28, 3$"
+      },
+      {
+        "id": "c",
+        "latex": "$-12, 19$"
+      },
+      {
+        "id": "d",
+        "latex": "$-28, 19$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-28, 19",
+    "answer_type": "string",
+    "accepted_forms": [
+      "19, -28"
+    ],
+    "solution_latex": "Outside the interval $[-12,3]$, the sum increases by twice the distance from the nearer endpoint. Since $47=(3--12)+2\\cdot 16$, the solutions are $-28$ and $19$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.2",
+    "tags": [
+      "absolute value",
+      "casework"
+    ],
+    "checksum": "sha256-e9bf60d3fbd594132e285d08a0708fa46e260b54f783d76a573c88e3c403b748",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.absolute_value.hard.0022",
+    "topic_id": "ch20.absolute_value",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "What is the minimum value of $|x + 10|+|x - 8|+|x - 32|$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$42$"
+      },
+      {
+        "id": "b",
+        "latex": "$43$"
+      },
+      {
+        "id": "c",
+        "latex": "$18$"
+      },
+      {
+        "id": "d",
+        "latex": "$24$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "42",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The sum of distances to three points is minimized at the middle point $x=8$. The minimum is $18+24=42$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.2",
+    "tags": [
+      "absolute value",
+      "optimization"
+    ],
+    "checksum": "sha256-2697a068b57197c49821f9b58657ed1e6e7e78777323e7ff97d2e7faccf6e16b",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.absolute_value.hard.0023",
+    "topic_id": "ch20.absolute_value",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $|x + 6|+|x - 10|=54$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-6, 29$"
+      },
+      {
+        "id": "b",
+        "latex": "$-25, 29$"
+      },
+      {
+        "id": "c",
+        "latex": "$-6, 10$"
+      },
+      {
+        "id": "d",
+        "latex": "$-25, 10$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-25, 29",
+    "answer_type": "string",
+    "accepted_forms": [
+      "29, -25"
+    ],
+    "solution_latex": "Outside the interval $[-6,10]$, the sum increases by twice the distance from the nearer endpoint. Since $54=(10--6)+2\\cdot 19$, the solutions are $-25$ and $29$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.2",
+    "tags": [
+      "absolute value",
+      "casework"
+    ],
+    "checksum": "sha256-ee54ef817dc37db2592112da8de77fc32cae0d7b91271c0b45978986a2212f44",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.absolute_value.hard.0024",
+    "topic_id": "ch20.absolute_value",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "What is the minimum value of $|x - 4|+|x - 25|+|x - 51|$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$21$"
+      },
+      {
+        "id": "b",
+        "latex": "$26$"
+      },
+      {
+        "id": "c",
+        "latex": "$47$"
+      },
+      {
+        "id": "d",
+        "latex": "$48$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "47",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The sum of distances to three points is minimized at the middle point $x=25$. The minimum is $21+26=47$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.2",
+    "tags": [
+      "absolute value",
+      "optimization"
+    ],
+    "checksum": "sha256-d8c04b38481c9d34879441d886be726468fd0f7bcd036e5931cf2feb5c6877a2",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.absolute_value.hard.0025",
+    "topic_id": "ch20.absolute_value",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $|x - 8|+|x - 25|=55$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8, 25$"
+      },
+      {
+        "id": "b",
+        "latex": "$-11, 25$"
+      },
+      {
+        "id": "c",
+        "latex": "$8, 44$"
+      },
+      {
+        "id": "d",
+        "latex": "$-11, 44$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-11, 44",
+    "answer_type": "string",
+    "accepted_forms": [
+      "44, -11"
+    ],
+    "solution_latex": "Outside the interval $[8,25]$, the sum increases by twice the distance from the nearer endpoint. Since $55=(25-8)+2\\cdot 19$, the solutions are $-11$ and $44$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.2",
+    "tags": [
+      "absolute value",
+      "casework"
+    ],
+    "checksum": "sha256-7db6823a737ccb5efe1a0fd99700465f52158c5b776a17e11ca0a5eb82301d23",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.absolute_value.hard.0026",
+    "topic_id": "ch20.absolute_value",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "What is the minimum value of $|x + 14|+|x - 10|+|x - 38|$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$52$"
+      },
+      {
+        "id": "b",
+        "latex": "$53$"
+      },
+      {
+        "id": "c",
+        "latex": "$24$"
+      },
+      {
+        "id": "d",
+        "latex": "$28$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "52",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The sum of distances to three points is minimized at the middle point $x=10$. The minimum is $24+28=52$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.2",
+    "tags": [
+      "absolute value",
+      "optimization"
+    ],
+    "checksum": "sha256-6cb585a4374014b9696e99939ff2afc6ba6898066891b2b01f2f89fbdb4574a5",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.absolute_value.hard.0027",
+    "topic_id": "ch20.absolute_value",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $|x + 10|+|x - 8|=62$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-10, 30$"
+      },
+      {
+        "id": "b",
+        "latex": "$-32, 30$"
+      },
+      {
+        "id": "c",
+        "latex": "$-10, 8$"
+      },
+      {
+        "id": "d",
+        "latex": "$-32, 8$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-32, 30",
+    "answer_type": "string",
+    "accepted_forms": [
+      "30, -32"
+    ],
+    "solution_latex": "Outside the interval $[-10,8]$, the sum increases by twice the distance from the nearer endpoint. Since $62=(8--10)+2\\cdot 22$, the solutions are $-32$ and $30$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.2",
+    "tags": [
+      "absolute value",
+      "casework"
+    ],
+    "checksum": "sha256-782ae67c3783b65be631e5d2490b2dfc0358b5ab4d5910e6dab09a883681ea2b",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.absolute_value.hard.0028",
+    "topic_id": "ch20.absolute_value",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "What is the minimum value of $|x + 8|+|x - 14|+|x - 44|$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$22$"
+      },
+      {
+        "id": "b",
+        "latex": "$30$"
+      },
+      {
+        "id": "c",
+        "latex": "$52$"
+      },
+      {
+        "id": "d",
+        "latex": "$53$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "52",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The sum of distances to three points is minimized at the middle point $x=14$. The minimum is $22+30=52$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.2",
+    "tags": [
+      "absolute value",
+      "optimization"
+    ],
+    "checksum": "sha256-affd4072b4bcc723a2d82d9d84aa87258ee8938adbec197202746abe85fa9053",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.absolute_value.hard.0029",
+    "topic_id": "ch20.absolute_value",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $|x - 6|+|x - 25|=63$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6, 25$"
+      },
+      {
+        "id": "b",
+        "latex": "$-16, 25$"
+      },
+      {
+        "id": "c",
+        "latex": "$6, 47$"
+      },
+      {
+        "id": "d",
+        "latex": "$-16, 47$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-16, 47",
+    "answer_type": "string",
+    "accepted_forms": [
+      "47, -16"
+    ],
+    "solution_latex": "Outside the interval $[6,25]$, the sum increases by twice the distance from the nearer endpoint. Since $63=(25-6)+2\\cdot 22$, the solutions are $-16$ and $47$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.2",
+    "tags": [
+      "absolute value",
+      "casework"
+    ],
+    "checksum": "sha256-3f4162cc94fa2d6caf23711fcd917774d71b9c41959c796d7c689356f38ad9d5",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.absolute_value.hard.0030",
+    "topic_id": "ch20.absolute_value",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "What is the minimum value of $|x - 7|+|x - 32|+|x - 64|$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$57$"
+      },
+      {
+        "id": "b",
+        "latex": "$58$"
+      },
+      {
+        "id": "c",
+        "latex": "$25$"
+      },
+      {
+        "id": "d",
+        "latex": "$32$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "57",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The sum of distances to three points is minimized at the middle point $x=32$. The minimum is $25+32=57$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.2",
+    "tags": [
+      "absolute value",
+      "optimization"
+    ],
+    "checksum": "sha256-3b6439ebaff86d3a1bfa14d2c17db63d73f5196b4f834dddb146b314f8e40efc",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.absolute_value.hard.0031",
+    "topic_id": "ch20.absolute_value",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $|x + 14|+|x - 6|=70$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-14, 31$"
+      },
+      {
+        "id": "b",
+        "latex": "$-39, 31$"
+      },
+      {
+        "id": "c",
+        "latex": "$-14, 6$"
+      },
+      {
+        "id": "d",
+        "latex": "$-39, 6$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-39, 31",
+    "answer_type": "string",
+    "accepted_forms": [
+      "31, -39"
+    ],
+    "solution_latex": "Outside the interval $[-14,6]$, the sum increases by twice the distance from the nearer endpoint. Since $70=(6--14)+2\\cdot 25$, the solutions are $-39$ and $31$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.2",
+    "tags": [
+      "absolute value",
+      "casework"
+    ],
+    "checksum": "sha256-baad6758d113ecc94e0509dcf062fe5f0d1946ae1ef7263ad7fac407b81880e1",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.absolute_value.hard.0032",
+    "topic_id": "ch20.absolute_value",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "What is the minimum value of $|x + 12|+|x - 16|+|x - 50|$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$28$"
+      },
+      {
+        "id": "b",
+        "latex": "$34$"
+      },
+      {
+        "id": "c",
+        "latex": "$62$"
+      },
+      {
+        "id": "d",
+        "latex": "$63$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "62",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The sum of distances to three points is minimized at the middle point $x=16$. The minimum is $28+34=62$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.2",
+    "tags": [
+      "absolute value",
+      "optimization"
+    ],
+    "checksum": "sha256-312a95b00dcbea32afdf722edbba79102b8decbd6dd5716ffeabd75618d46eb9",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.absolute_value.hard.0033",
+    "topic_id": "ch20.absolute_value",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $|x + 8|+|x - 13|=71$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-8, 13$"
+      },
+      {
+        "id": "b",
+        "latex": "$-33, 13$"
+      },
+      {
+        "id": "c",
+        "latex": "$-8, 38$"
+      },
+      {
+        "id": "d",
+        "latex": "$-33, 38$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-33, 38",
+    "answer_type": "string",
+    "accepted_forms": [
+      "38, -33"
+    ],
+    "solution_latex": "Outside the interval $[-8,13]$, the sum increases by twice the distance from the nearer endpoint. Since $71=(13--8)+2\\cdot 25$, the solutions are $-33$ and $38$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.2",
+    "tags": [
+      "absolute value",
+      "casework"
+    ],
+    "checksum": "sha256-e012f4f638d438f4feb6d4d788e4aa0761367ed92f49759f6db9a38a862d0792",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.absolute_value.hard.0034",
+    "topic_id": "ch20.absolute_value",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "What is the minimum value of $|x - 6|+|x - 32|+|x - 68|$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$62$"
+      },
+      {
+        "id": "b",
+        "latex": "$63$"
+      },
+      {
+        "id": "c",
+        "latex": "$26$"
+      },
+      {
+        "id": "d",
+        "latex": "$36$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "62",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The sum of distances to three points is minimized at the middle point $x=32$. The minimum is $26+36=62$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.2",
+    "tags": [
+      "absolute value",
+      "optimization"
+    ],
+    "checksum": "sha256-4d9d7eefddaaa48c6820f18cb58a7591bf61d1043e35cb603132f0a220aac1f6",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.absolute_value.hard.0035",
+    "topic_id": "ch20.absolute_value",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $|x - 10|+|x - 32|=78$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10, 60$"
+      },
+      {
+        "id": "b",
+        "latex": "$-18, 60$"
+      },
+      {
+        "id": "c",
+        "latex": "$10, 32$"
+      },
+      {
+        "id": "d",
+        "latex": "$-18, 32$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-18, 60",
+    "answer_type": "string",
+    "accepted_forms": [
+      "60, -18"
+    ],
+    "solution_latex": "Outside the interval $[10,32]$, the sum increases by twice the distance from the nearer endpoint. Since $78=(32-10)+2\\cdot 28$, the solutions are $-18$ and $60$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.2",
+    "tags": [
+      "absolute value",
+      "casework"
+    ],
+    "checksum": "sha256-2f2dad9120d03e9ecda1f1aefc0cad6d9914a8c22976e35bc7cfba1dac200576",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.absolute_value.hard.0036",
+    "topic_id": "ch20.absolute_value",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "What is the minimum value of $|x + 16|+|x - 13|+|x - 51|$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$29$"
+      },
+      {
+        "id": "b",
+        "latex": "$38$"
+      },
+      {
+        "id": "c",
+        "latex": "$67$"
+      },
+      {
+        "id": "d",
+        "latex": "$68$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "67",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The sum of distances to three points is minimized at the middle point $x=13$. The minimum is $29+38=67$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.2",
+    "tags": [
+      "absolute value",
+      "optimization"
+    ],
+    "checksum": "sha256-42141c202d6d7676699c74033d6946589435e31eabad21ed43950dc577bce8fb",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.absolute_value.hard.0037",
+    "topic_id": "ch20.absolute_value",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $|x + 12|+|x - 11|=79$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-12, 11$"
+      },
+      {
+        "id": "b",
+        "latex": "$-40, 11$"
+      },
+      {
+        "id": "c",
+        "latex": "$-12, 39$"
+      },
+      {
+        "id": "d",
+        "latex": "$-40, 39$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-40, 39",
+    "answer_type": "string",
+    "accepted_forms": [
+      "39, -40"
+    ],
+    "solution_latex": "Outside the interval $[-12,11]$, the sum increases by twice the distance from the nearer endpoint. Since $79=(11--12)+2\\cdot 28$, the solutions are $-40$ and $39$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.2",
+    "tags": [
+      "absolute value",
+      "casework"
+    ],
+    "checksum": "sha256-c7575252cb9c4c69ea98dc3fb248e11f0f00cc9f8968fd93e7136c73f668f703",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.absolute_value.hard.0038",
+    "topic_id": "ch20.absolute_value",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "What is the minimum value of $|x + 10|+|x - 22|+|x - 62|$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$72$"
+      },
+      {
+        "id": "b",
+        "latex": "$73$"
+      },
+      {
+        "id": "c",
+        "latex": "$32$"
+      },
+      {
+        "id": "d",
+        "latex": "$40$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "72",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The sum of distances to three points is minimized at the middle point $x=22$. The minimum is $32+40=72$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.2",
+    "tags": [
+      "absolute value",
+      "optimization"
+    ],
+    "checksum": "sha256-85d86136dee1397337913925b35fb56f665308de36c006ec46b02bde7064eb06",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.absolute_value.hard.0039",
+    "topic_id": "ch20.absolute_value",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $|x - 8|+|x - 32|=86$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8, 63$"
+      },
+      {
+        "id": "b",
+        "latex": "$-23, 63$"
+      },
+      {
+        "id": "c",
+        "latex": "$8, 32$"
+      },
+      {
+        "id": "d",
+        "latex": "$-23, 32$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-23, 63",
+    "answer_type": "string",
+    "accepted_forms": [
+      "63, -23"
+    ],
+    "solution_latex": "Outside the interval $[8,32]$, the sum increases by twice the distance from the nearer endpoint. Since $86=(32-8)+2\\cdot 31$, the solutions are $-23$ and $63$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.2",
+    "tags": [
+      "absolute value",
+      "casework"
+    ],
+    "checksum": "sha256-a7b84ab2703cdd24b47620b44cfc9b1ae999e4451bffa3c24d97356ec967b3ed",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.absolute_value.hard.0040",
+    "topic_id": "ch20.absolute_value",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "What is the minimum value of $|x - 9|+|x - 39|+|x - 81|$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$30$"
+      },
+      {
+        "id": "b",
+        "latex": "$42$"
+      },
+      {
+        "id": "c",
+        "latex": "$72$"
+      },
+      {
+        "id": "d",
+        "latex": "$73$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "72",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The sum of distances to three points is minimized at the middle point $x=39$. The minimum is $30+42=72$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.2",
+    "tags": [
+      "absolute value",
+      "optimization"
+    ],
+    "checksum": "sha256-7aac390d580c576fada736c0504da781f1882dc37fcda1bd4ae73f62af1d1484",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.absolute_value.hard.0041",
+    "topic_id": "ch20.absolute_value",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $|x + 16|+|x - 9|=87$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-16, 9$"
+      },
+      {
+        "id": "b",
+        "latex": "$-47, 9$"
+      },
+      {
+        "id": "c",
+        "latex": "$-16, 40$"
+      },
+      {
+        "id": "d",
+        "latex": "$-47, 40$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-47, 40",
+    "answer_type": "string",
+    "accepted_forms": [
+      "40, -47"
+    ],
+    "solution_latex": "Outside the interval $[-16,9]$, the sum increases by twice the distance from the nearer endpoint. Since $87=(9--16)+2\\cdot 31$, the solutions are $-47$ and $40$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.2",
+    "tags": [
+      "absolute value",
+      "casework"
+    ],
+    "checksum": "sha256-b27daa7473c44264959cf9c1779adbf37af5f844cb38c11f8ad0ae07bb58122a",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.absolute_value.hard.0042",
+    "topic_id": "ch20.absolute_value",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "What is the minimum value of $|x + 14|+|x - 19|+|x - 63|$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$77$"
+      },
+      {
+        "id": "b",
+        "latex": "$78$"
+      },
+      {
+        "id": "c",
+        "latex": "$33$"
+      },
+      {
+        "id": "d",
+        "latex": "$44$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "77",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The sum of distances to three points is minimized at the middle point $x=19$. The minimum is $33+44=77$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.2",
+    "tags": [
+      "absolute value",
+      "optimization"
+    ],
+    "checksum": "sha256-8a522aca881d2ea3b1cb03a677892e3b4d363d5b97d4ad6d512bdef2105530c0",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.absolute_value.hard.0043",
+    "topic_id": "ch20.absolute_value",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $|x + 10|+|x - 16|=94$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-10, 50$"
+      },
+      {
+        "id": "b",
+        "latex": "$-44, 50$"
+      },
+      {
+        "id": "c",
+        "latex": "$-10, 16$"
+      },
+      {
+        "id": "d",
+        "latex": "$-44, 16$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-44, 50",
+    "answer_type": "string",
+    "accepted_forms": [
+      "50, -44"
+    ],
+    "solution_latex": "Outside the interval $[-10,16]$, the sum increases by twice the distance from the nearer endpoint. Since $94=(16--10)+2\\cdot 34$, the solutions are $-44$ and $50$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.2",
+    "tags": [
+      "absolute value",
+      "casework"
+    ],
+    "checksum": "sha256-3ade5c7711194f1355644e11e79ff2096d801e5ed860f9699c6866a72043a672",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.absolute_value.hard.0044",
+    "topic_id": "ch20.absolute_value",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "What is the minimum value of $|x - 8|+|x - 44|+|x - 90|$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$36$"
+      },
+      {
+        "id": "b",
+        "latex": "$46$"
+      },
+      {
+        "id": "c",
+        "latex": "$82$"
+      },
+      {
+        "id": "d",
+        "latex": "$83$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "82",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The sum of distances to three points is minimized at the middle point $x=44$. The minimum is $36+46=82$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.2",
+    "tags": [
+      "absolute value",
+      "optimization"
+    ],
+    "checksum": "sha256-ede4ebcadad24d7bc21930fae54353c98564d0f9ff8afcbded523f3e1cb8af1e",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.absolute_value.hard.0045",
+    "topic_id": "ch20.absolute_value",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $|x - 12|+|x - 39|=95$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12, 39$"
+      },
+      {
+        "id": "b",
+        "latex": "$-22, 39$"
+      },
+      {
+        "id": "c",
+        "latex": "$12, 73$"
+      },
+      {
+        "id": "d",
+        "latex": "$-22, 73$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-22, 73",
+    "answer_type": "string",
+    "accepted_forms": [
+      "73, -22"
+    ],
+    "solution_latex": "Outside the interval $[12,39]$, the sum increases by twice the distance from the nearer endpoint. Since $95=(39-12)+2\\cdot 34$, the solutions are $-22$ and $73$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.2",
+    "tags": [
+      "absolute value",
+      "casework"
+    ],
+    "checksum": "sha256-e0dafc38abe67dab212493b3b2ffba81cdd036fb7979cff71672f80480a6683e",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.absolute_value.hard.0046",
+    "topic_id": "ch20.absolute_value",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "What is the minimum value of $|x + 18|+|x - 16|+|x - 64|$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$82$"
+      },
+      {
+        "id": "b",
+        "latex": "$83$"
+      },
+      {
+        "id": "c",
+        "latex": "$34$"
+      },
+      {
+        "id": "d",
+        "latex": "$48$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "82",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The sum of distances to three points is minimized at the middle point $x=16$. The minimum is $34+48=82$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.2",
+    "tags": [
+      "absolute value",
+      "optimization"
+    ],
+    "checksum": "sha256-353af6ea2a42d0c4a68a650fdc12f973c388982688e2900c7504d978aa73c990",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.absolute_value.hard.0047",
+    "topic_id": "ch20.absolute_value",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $|x + 14|+|x - 14|=102$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-14, 51$"
+      },
+      {
+        "id": "b",
+        "latex": "$-51, 51$"
+      },
+      {
+        "id": "c",
+        "latex": "$-14, 14$"
+      },
+      {
+        "id": "d",
+        "latex": "$-51, 14$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-51, 51",
+    "answer_type": "string",
+    "accepted_forms": [
+      "51, -51"
+    ],
+    "solution_latex": "Outside the interval $[-14,14]$, the sum increases by twice the distance from the nearer endpoint. Since $102=(14--14)+2\\cdot 37$, the solutions are $-51$ and $51$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.2",
+    "tags": [
+      "absolute value",
+      "casework"
+    ],
+    "checksum": "sha256-25dc8bc0dc319d20c8556b9301f187e5f13ca2c7bb4c03862725105909c1eaa8",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.absolute_value.hard.0048",
+    "topic_id": "ch20.absolute_value",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "What is the minimum value of $|x + 12|+|x - 25|+|x - 75|$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$37$"
+      },
+      {
+        "id": "b",
+        "latex": "$50$"
+      },
+      {
+        "id": "c",
+        "latex": "$87$"
+      },
+      {
+        "id": "d",
+        "latex": "$88$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "87",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The sum of distances to three points is minimized at the middle point $x=25$. The minimum is $37+50=87$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.2",
+    "tags": [
+      "absolute value",
+      "optimization"
+    ],
+    "checksum": "sha256-a0e9e03696828ab7e61d51cf1232a9cc3e6f43b98ed8e20c42d2aae4a18367f0",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.absolute_value.hard.0049",
+    "topic_id": "ch20.absolute_value",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $|x - 10|+|x - 39|=103$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10, 39$"
+      },
+      {
+        "id": "b",
+        "latex": "$-27, 39$"
+      },
+      {
+        "id": "c",
+        "latex": "$10, 76$"
+      },
+      {
+        "id": "d",
+        "latex": "$-27, 76$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-27, 76",
+    "answer_type": "string",
+    "accepted_forms": [
+      "76, -27"
+    ],
+    "solution_latex": "Outside the interval $[10,39]$, the sum increases by twice the distance from the nearer endpoint. Since $103=(39-10)+2\\cdot 37$, the solutions are $-27$ and $76$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.2",
+    "tags": [
+      "absolute value",
+      "casework"
+    ],
+    "checksum": "sha256-65609ad675b01e237325e8792511d51563915f0e04da11c6df24dd2110642ef4",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.absolute_value.hard.0050",
+    "topic_id": "ch20.absolute_value",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "What is the minimum value of $|x - 11|+|x - 51|+|x - 103|$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$92$"
+      },
+      {
+        "id": "b",
+        "latex": "$93$"
+      },
+      {
+        "id": "c",
+        "latex": "$40$"
+      },
+      {
+        "id": "d",
+        "latex": "$52$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "92",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The sum of distances to three points is minimized at the middle point $x=51$. The minimum is $40+52=92$.",
+    "complexity_factor": 1.4,
+    "source_section": "20.2",
+    "tags": [
+      "absolute value",
+      "optimization"
+    ],
+    "checksum": "sha256-85e8925c9ef9b0696060a365d1d71a2969b70992b0646c613c10382a4b78aa75",
+    "status": "valid"
+  }
+]

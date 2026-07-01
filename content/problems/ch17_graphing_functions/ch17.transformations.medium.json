@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "ch17.transformations.medium.0001",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Starting from $y=x^2$, shift right 1 and then vertically by 1. What expression gives the new $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^2+2$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x-1)^2+1$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x+1)^2+1$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x-1)^2-1$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(x-1)^2+1",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "A right shift by 1 uses $x-1$, and the vertical shift adds 1, giving $(x-1)^2+1$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-0d0921784a2fb5e064c450bb2ca4cf2a2957df599e800cebb2f0ad70fb0b9b6f",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.medium.0002",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Start with $y=x^2$, shift right 1, reflect across the $x$-axis, and shift by 1 vertically. What is the new expression?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-(x-1)^2+1$"
+      },
+      {
+        "id": "b",
+        "latex": "$-(x-1)^2-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$-(x+1)^2+1$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x-1)^2+1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-(x-1)^2+1",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "The reflection negates the squared term after the horizontal shift, so the expression is $-(x-1)^2+1$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-d1d42d3ca92d4801ef84e7fa8f86f18f2ba32d1f81f094f6b21b1c991f383a3d",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.medium.0003",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(-4,-5)$ is on $y=f(x)$. What point is on $y=f(x-1)+3$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-5,-2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3,-8)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,-4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-3,-2)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-3,-2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The graph moves right 1 and vertically by 3, so $(-4,-5)$ becomes $(-3,-2)$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-f1aa5cb96d3dccc1e0a7fa4a564f960f268f56700d7bb85c75067b37f0505575",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.medium.0004",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(-5,2)$ is on $y=f(x)$. What point is on $y=-1f(x)+2$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-5,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-5,-4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(5,4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-5,4)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-5,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $x$-coordinate stays fixed and the $y$-value becomes -1(2)+2=0.",
+    "complexity_factor": 1.15,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-bc9b9061a368ce1cb52c3849e27e549d0bdd975d8392703115c40a7d2b1a01db",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.medium.0005",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "A point with $y$-value -5 on $y=f(x)$ moves to $y$-value -4 on $y=f(x)+k$. What is $k$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$-6$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The vertical change is $(-4)-(-5)=1$, so $k=1$.",
+    "complexity_factor": 1.15,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-1021d904291c77ebb1f301d7151679035da72822681e52c534444cb7575ee95f",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.medium.0006",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Starting from $y=x^2$, shift right 2 and then vertically by -2. What expression gives the new $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x-2)^2+2$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^2+0$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x-2)^2-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x+2)^2-2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x-2)^2-2",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "A right shift by 2 uses $x-2$, and the vertical shift adds -2, giving $(x-2)^2-2$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-494213f00839183fe6aa55147b2581a499ea179710cc78208ab87ee4eb5b589a",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.medium.0007",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Start with $y=x^2$, shift right 2, reflect across the $x$-axis, and shift by -2 vertically. What is the new expression?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-(x+2)^2-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-(x-2)^2+2$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x-2)^2-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-(x-2)^2-2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-(x-2)^2-2",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "The reflection negates the squared term after the horizontal shift, so the expression is $-(x-2)^2-2$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-f68b8c7e8884edb64b6530b3de6e8dc12a706293dacc8c22d96614e91146fe54",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.medium.0008",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(-3,-3)$ is on $y=f(x)$. What point is on $y=f(x-2)-2$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,-5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-5,-5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,-1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-5,-1)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-1,-5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The graph moves right 2 and vertically by -2, so $(-3,-3)$ becomes $(-1,-5)$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-29f62d6b9ddcf5dcb335f225a4670630c00f4d4cef56440588d284135d2295ab",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.medium.0009",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(-4,3)$ is on $y=f(x)$. What point is on $y=2f(x)-1$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-8,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-4,2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-4,5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-4,7)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-4,5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $x$-coordinate stays fixed and the $y$-value becomes 2(3)-1=5.",
+    "complexity_factor": 1.15,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-55e41a4c72481e37071369edb5ac4e82bf0647d43c1109d2eb0ebf62519c9401",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.medium.0010",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "A point with $y$-value -4 on $y=f(x)$ moves to $y$-value -6 on $y=f(x)+k$. What is $k$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-6$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The vertical change is $(-6)-(-4)=-2$, so $k=-2$.",
+    "complexity_factor": 1.15,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-0b18b15ff45c83ebc21e327cf2f30e2755d63de3544fe7669d070156d390252c",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.medium.0011",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Starting from $y=x^2$, shift right 3 and then vertically by 3. What expression gives the new $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x+3)^2+3$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^2+6$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x-3)^2-3$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x-3)^2+3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x-3)^2+3",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "A right shift by 3 uses $x-3$, and the vertical shift adds 3, giving $(x-3)^2+3$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-b928b0aadc0fcc76e6774a759a4b01f04bf5c38825fec6a5f9d41ea8b86abd10",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.medium.0012",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Start with $y=x^2$, shift right 3, reflect across the $x$-axis, and shift by 3 vertically. What is the new expression?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-(x+3)^2+3$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x-3)^2+3$"
+      },
+      {
+        "id": "c",
+        "latex": "$-(x-3)^2+3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-(x-3)^2-3$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-(x-3)^2+3",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "The reflection negates the squared term after the horizontal shift, so the expression is $-(x-3)^2+3$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-ec27e8388c7d02d225f9d0778e7450cada27d83e318798590cb65b09f4edf8b4",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.medium.0013",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(-2,-1)$ is on $y=f(x)$. What point is on $y=f(x-3)+3$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-5,-4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1,2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-5,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1,-4)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(1,2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The graph moves right 3 and vertically by 3, so $(-2,-1)$ becomes $(1,2)$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-11e74b7eb555e55d32f6293c2675b85c7fc8e6c2b603f466722d7a68d7fc224c",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.medium.0014",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(-3,4)$ is on $y=f(x)$. What point is on $y=3f(x)+2$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-3,14)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3,6)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-3,10)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-9,6)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-3,14)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $x$-coordinate stays fixed and the $y$-value becomes 3(4)+2=14.",
+    "complexity_factor": 1.15,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-db2677c6fdcc766fc748ccfc83979a892bd04e3bab70eb842ee2436cd74a48f3",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.medium.0015",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "A point with $y$-value -3 on $y=f(x)$ moves to $y$-value 0 on $y=f(x)+k$. What is $k$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$-6$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The vertical change is $(0)-(-3)=3$, so $k=3$.",
+    "complexity_factor": 1.15,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-ca2c82842c1a7ffa602cafdb63d742d3cf7c77eddc6c52ce1ce416f7b7e95148",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.medium.0016",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Starting from $y=x^2$, shift right 4 and then vertically by -4. What expression gives the new $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x-4)^2-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x-4)^2+4$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x+4)^2-4$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^2+0$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(x-4)^2-4",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "A right shift by 4 uses $x-4$, and the vertical shift adds -4, giving $(x-4)^2-4$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-82ee04c72883f802a9b8f1dafc2c95f0fac215e185925342249b8b18edaa563d",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.medium.0017",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Start with $y=x^2$, shift right 4, reflect across the $x$-axis, and shift by -4 vertically. What is the new expression?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x-4)^2-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-(x-4)^2-4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-(x-4)^2+4$"
+      },
+      {
+        "id": "d",
+        "latex": "$-(x+4)^2-4$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-(x-4)^2-4",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "The reflection negates the squared term after the horizontal shift, so the expression is $-(x-4)^2-4$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-2bafd35721a41100bda9ae3648dc8c3efbec4989264f6cd48eeac6582c024f30",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.medium.0018",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(-1,1)$ is on $y=f(x)$. What point is on $y=f(x-4)-2$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3,3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3,5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3,-1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-5,-1)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(3,-1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The graph moves right 4 and vertically by -2, so $(-1,1)$ becomes $(3,-1)$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-12b5b4bf7a8e252f8e85c1b760815480f8f7546ff178b62eb39625d842f4759e",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.medium.0019",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(-2,5)$ is on $y=f(x)$. What point is on $y=-2f(x)-1$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2,-9)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-2,4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4,4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2,-11)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-2,-11)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $x$-coordinate stays fixed and the $y$-value becomes -2(5)-1=-11.",
+    "complexity_factor": 1.15,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-468f33fdf4e61ff2ba20473fb9e8d3b0d67a2907deb812e86ec23f24ad955d1b",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.medium.0020",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "A point with $y$-value -2 on $y=f(x)$ moves to $y$-value -6 on $y=f(x)+k$. What is $k$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-6$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The vertical change is $(-6)-(-2)=-4$, so $k=-4$.",
+    "complexity_factor": 1.15,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-19600c3a97d02047a008ab59d0bf63610d67b94527f5e48641315c8e4a8571fa",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.medium.0021",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Starting from $y=x^2$, shift right 5 and then vertically by 5. What expression gives the new $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x+5)^2+5$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^2+10$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x-5)^2+5$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x-5)^2-5$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x-5)^2+5",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "A right shift by 5 uses $x-5$, and the vertical shift adds 5, giving $(x-5)^2+5$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-e0e4902c82d28b41e1f758ba6da438430d7593a42633557f3260939bcc52050a",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.medium.0022",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Start with $y=x^2$, shift right 5, reflect across the $x$-axis, and shift by 5 vertically. What is the new expression?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-(x-5)^2+5$"
+      },
+      {
+        "id": "b",
+        "latex": "$-(x+5)^2+5$"
+      },
+      {
+        "id": "c",
+        "latex": "$-(x-5)^2-5$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x-5)^2+5$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-(x-5)^2+5",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "The reflection negates the squared term after the horizontal shift, so the expression is $-(x-5)^2+5$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-a1934f2ede22b41a3f160fe253c21ffadf7abb9771f2306b34ac007d0f1b758b",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.medium.0023",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(0,3)$ is on $y=f(x)$. What point is on $y=f(x-5)+3$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-5,6)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3,8)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(5,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(5,6)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(5,6)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The graph moves right 5 and vertically by 3, so $(0,3)$ becomes $(5,6)$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-a3160c5eae1d83fe9a1b3cfc49fcc0309bd22d339db3eaae7101ae48e1fdbd3f",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.medium.0024",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(-1,6)$ is on $y=f(x)$. What point is on $y=-1f(x)+2$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,-8)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1,8)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,-4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,8)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-1,-4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $x$-coordinate stays fixed and the $y$-value becomes -1(6)+2=-4.",
+    "complexity_factor": 1.15,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-4cfaea44cba2ebce440438d2cb5e2e12c5a632fe681c07d200e12ec8b3b66cff",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.medium.0025",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "A point with $y$-value -1 on $y=f(x)$ moves to $y$-value 4 on $y=f(x)+k$. What is $k$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-6$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$-5$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The vertical change is $(4)-(-1)=5$, so $k=5$.",
+    "complexity_factor": 1.15,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-a86762d1723d28dd27790c012fe176d770868f36cbf3ecb09e93be09c75d5af3",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.medium.0026",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Starting from $y=x^2$, shift right 6 and then vertically by -6. What expression gives the new $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x-6)^2-6$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^2+0$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x-6)^2+6$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x+6)^2-6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(x-6)^2-6",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "A right shift by 6 uses $x-6$, and the vertical shift adds -6, giving $(x-6)^2-6$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-a968de6a4753b4963eecd439e02085287e09d54d47e161fe0f6fca181227a83f",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.medium.0027",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Start with $y=x^2$, shift right 6, reflect across the $x$-axis, and shift by -6 vertically. What is the new expression?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x-6)^2-6$"
+      },
+      {
+        "id": "b",
+        "latex": "$-(x+6)^2-6$"
+      },
+      {
+        "id": "c",
+        "latex": "$-(x-6)^2+6$"
+      },
+      {
+        "id": "d",
+        "latex": "$-(x-6)^2-6$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-(x-6)^2-6",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "The reflection negates the squared term after the horizontal shift, so the expression is $-(x-6)^2-6$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-087c80715c7715be6884acc09453717b00d60c2779c8834e5d491078909d354e",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.medium.0028",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(1,5)$ is on $y=f(x)$. What point is on $y=f(x-6)-2$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(7,3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(7,7)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-5,3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,11)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(7,3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The graph moves right 6 and vertically by -2, so $(1,5)$ becomes $(7,3)$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-19bd5f0f29ad16ff954a045ce20f86e6b8be4a76dd2e4d57c9046bbc879f35db",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.medium.0029",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(0,7)$ is on $y=f(x)$. What point is on $y=2f(x)-1$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0,6)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,13)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,14)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0,15)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(0,13)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $x$-coordinate stays fixed and the $y$-value becomes 2(7)-1=13.",
+    "complexity_factor": 1.15,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-7562ef0f2f91de7325a00a87db6f0c58a37b94b29845116caaa64192acab1e15",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.medium.0030",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "A point with $y$-value 0 on $y=f(x)$ moves to $y$-value -6 on $y=f(x)+k$. What is $k$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-5$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-6$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The vertical change is $(-6)-(0)=-6$, so $k=-6$.",
+    "complexity_factor": 1.15,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-6b17792b672b0ce73b9450a80125cbb9b9a7bb0a176777bf8f4418f2302739e3",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.medium.0031",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Starting from $y=x^2$, shift right 7 and then vertically by 7. What expression gives the new $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x-7)^2-7$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^2+14$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x+7)^2+7$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x-7)^2+7$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x-7)^2+7",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "A right shift by 7 uses $x-7$, and the vertical shift adds 7, giving $(x-7)^2+7$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-a6464e07400479c756b7f53a259d04590158153998193d6f638336c59ede7020",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.medium.0032",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Start with $y=x^2$, shift right 7, reflect across the $x$-axis, and shift by 7 vertically. What is the new expression?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-(x-7)^2+7$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x-7)^2+7$"
+      },
+      {
+        "id": "c",
+        "latex": "$-(x+7)^2+7$"
+      },
+      {
+        "id": "d",
+        "latex": "$-(x-7)^2-7$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-(x-7)^2+7",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "The reflection negates the squared term after the horizontal shift, so the expression is $-(x-7)^2+7$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-db6143d9fea3b40fc524a945c3a2def3d2970f1ba643942c6bf96b239e965082",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.medium.0033",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(2,7)$ is on $y=f(x)$. What point is on $y=f(x-7)+3$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-5,10)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(5,14)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(9,10)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(9,4)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(9,10)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The graph moves right 7 and vertically by 3, so $(2,7)$ becomes $(9,10)$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-99ce54a5f948e740f46c121ddf5ed02e617527b93fde9f924ad2d17986762aca",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.medium.0034",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(1,8)$ is on $y=f(x)$. What point is on $y=3f(x)+2$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1,26)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1,22)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1,10)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3,10)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(1,26)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $x$-coordinate stays fixed and the $y$-value becomes 3(8)+2=26.",
+    "complexity_factor": 1.15,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-5592035ddbf711581b72a2dfeac075247cebb4a25c9d495af8a3b57c7d9e9fe3",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.medium.0035",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "A point with $y$-value 1 on $y=f(x)$ moves to $y$-value 8 on $y=f(x)+k$. What is $k$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-7$"
+      },
+      {
+        "id": "b",
+        "latex": "$-6$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The vertical change is $(8)-(1)=7$, so $k=7$.",
+    "complexity_factor": 1.15,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-c18325d7afbfc5a6b774d5e898bf89d809726266d5e224d729feb77839ea8520",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.medium.0036",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Starting from $y=x^2$, shift right 8 and then vertically by -8. What expression gives the new $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x-8)^2+8$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x+8)^2-8$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x-8)^2-8$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^2+0$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x-8)^2-8",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "A right shift by 8 uses $x-8$, and the vertical shift adds -8, giving $(x-8)^2-8$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-9ce5b0bcd113e5e698a97cb56d14777082dd37558a864974d25fd8886cbb8632",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.medium.0037",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Start with $y=x^2$, shift right 8, reflect across the $x$-axis, and shift by -8 vertically. What is the new expression?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-(x-8)^2+8$"
+      },
+      {
+        "id": "b",
+        "latex": "$-(x-8)^2-8$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x-8)^2-8$"
+      },
+      {
+        "id": "d",
+        "latex": "$-(x+8)^2-8$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-(x-8)^2-8",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "The reflection negates the squared term after the horizontal shift, so the expression is $-(x-8)^2-8$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-dc8cc3617b245d1d1796555ac49e172c73f94b374f357de4ce05dcd0e8d0979a",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.medium.0038",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(3,9)$ is on $y=f(x)$. What point is on $y=f(x-8)-2$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(11,7)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1,17)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(11,11)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-5,7)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(11,7)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The graph moves right 8 and vertically by -2, so $(3,9)$ becomes $(11,7)$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-7a99fa6cd7607096053ec38fda15ab2aac64522945fcc36ccd558ffce0544bb7",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.medium.0039",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(2,9)$ is on $y=f(x)$. What point is on $y=-2f(x)-1$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-4,8)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2,-17)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2,8)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,-19)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(2,-19)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $x$-coordinate stays fixed and the $y$-value becomes -2(9)-1=-19.",
+    "complexity_factor": 1.15,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-eccc85a6ccf29c1769163e328a1ee41e52a6fd3098d8506ec6de4b0e033ca533",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.medium.0040",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "A point with $y$-value 2 on $y=f(x)$ moves to $y$-value -6 on $y=f(x)+k$. What is $k$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-8$"
+      },
+      {
+        "id": "b",
+        "latex": "$-6$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The vertical change is $(-6)-(2)=-8$, so $k=-8$.",
+    "complexity_factor": 1.15,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-2615fb2de6f3e7386bd8902eb47521448636ca36b680a279b27beab47a1f5771",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.medium.0041",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Starting from $y=x^2$, shift right 9 and then vertically by 9. What expression gives the new $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x+9)^2+9$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x-9)^2+9$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^2+18$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x-9)^2-9$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(x-9)^2+9",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "A right shift by 9 uses $x-9$, and the vertical shift adds 9, giving $(x-9)^2+9$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-fa9d0a8d4d2298ece92a4228e296520a19e8bf42946dc9994e1307b04928d1bd",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.medium.0042",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Start with $y=x^2$, shift right 9, reflect across the $x$-axis, and shift by 9 vertically. What is the new expression?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-(x+9)^2+9$"
+      },
+      {
+        "id": "b",
+        "latex": "$-(x-9)^2-9$"
+      },
+      {
+        "id": "c",
+        "latex": "$-(x-9)^2+9$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x-9)^2+9$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-(x-9)^2+9",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "The reflection negates the squared term after the horizontal shift, so the expression is $-(x-9)^2+9$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-cda296357242dbff45ce1e934491f6faab2c5f143f162c5857817c38ec487c88",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.medium.0043",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(4,11)$ is on $y=f(x)$. What point is on $y=f(x-9)+3$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(13,8)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(7,20)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-5,14)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(13,14)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(13,14)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The graph moves right 9 and vertically by 3, so $(4,11)$ becomes $(13,14)$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-ac036dcf961a8d23158959d7591a6e386f545b02c888538ca3bfe708207365d3",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.medium.0044",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(3,10)$ is on $y=f(x)$. What point is on $y=-1f(x)+2$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3,-8)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3,12)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3,-12)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3,12)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(3,-8)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $x$-coordinate stays fixed and the $y$-value becomes -1(10)+2=-8.",
+    "complexity_factor": 1.15,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-fdc249226d67d1b9d58710e9c9f6916061489983c8be3abd1006f6e8946e8e79",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.medium.0045",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "A point with $y$-value 3 on $y=f(x)$ moves to $y$-value 12 on $y=f(x)+k$. What is $k$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-9$"
+      },
+      {
+        "id": "b",
+        "latex": "$-6$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The vertical change is $(12)-(3)=9$, so $k=9$.",
+    "complexity_factor": 1.15,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-5acbaa39cebae1835c3ce4163dea0c99d1bdda7e57a73657237bb931e4fb11df",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.medium.0046",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Starting from $y=x^2$, shift right 10 and then vertically by -10. What expression gives the new $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x-10)^2-10$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x-10)^2+10$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^2+0$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x+10)^2-10$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(x-10)^2-10",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "A right shift by 10 uses $x-10$, and the vertical shift adds -10, giving $(x-10)^2-10$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-95cb05bb8adba29ef3301208c8d0a4d539f8748c0633a33ae7d4df9193f0246b",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.medium.0047",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Start with $y=x^2$, shift right 10, reflect across the $x$-axis, and shift by -10 vertically. What is the new expression?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x-10)^2-10$"
+      },
+      {
+        "id": "b",
+        "latex": "$-(x-10)^2+10$"
+      },
+      {
+        "id": "c",
+        "latex": "$-(x+10)^2-10$"
+      },
+      {
+        "id": "d",
+        "latex": "$-(x-10)^2-10$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-(x-10)^2-10",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "The reflection negates the squared term after the horizontal shift, so the expression is $-(x-10)^2-10$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-33d444b575fc4a254b71f963cc4038993676c991f47b50382d18d149269df53b",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.medium.0048",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(5,13)$ is on $y=f(x)$. What point is on $y=f(x-10)-2$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(15,15)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-5,11)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(15,11)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3,23)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(15,11)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The graph moves right 10 and vertically by -2, so $(5,13)$ becomes $(15,11)$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-b661e157a8d48672180c0a8f2878032c9699ef0c3f1ffe3d73064b27b56d0ead",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.medium.0049",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(4,11)$ is on $y=f(x)$. What point is on $y=2f(x)-1$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4,10)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4,21)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(8,10)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4,23)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(4,21)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $x$-coordinate stays fixed and the $y$-value becomes 2(11)-1=21.",
+    "complexity_factor": 1.15,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-07299efdeb6ea20f0b54ed7bc1f42047ec4d253977fe8c550011997f7bf37570",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.medium.0050",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "A point with $y$-value 4 on $y=f(x)$ moves to $y$-value -6 on $y=f(x)+k$. What is $k$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-10$"
+      },
+      {
+        "id": "b",
+        "latex": "$14$"
+      },
+      {
+        "id": "c",
+        "latex": "$-6$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The vertical change is $(-6)-(4)=-10$, so $k=-10$.",
+    "complexity_factor": 1.15,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-e52460de4b674b4dcf8a028a3612390181af82c55814c720b126c3495c98788d",
+    "status": "valid"
+  }
+]

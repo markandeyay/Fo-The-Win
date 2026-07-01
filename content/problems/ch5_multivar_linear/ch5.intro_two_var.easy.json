@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "ch5.intro_two_var.easy.0001",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "If $x = 2$, find $y$ in the equation $2x + 5y = -31$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-7$"
+      },
+      {
+        "id": "c",
+        "latex": "$-6$"
+      },
+      {
+        "id": "d",
+        "latex": "$-8$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x = 2$: $4 + 5y = -31$, so $5y = -35$ and $y = -7$.",
+    "complexity_factor": 0.85,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "linear_equations"
+    ],
+    "checksum": "sha256-4d6380e2af445fdc9ef9db82c62f317821a30f7213f3bc1d18bceeb9ed289c50",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.easy.0002",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Which ordered pair is a solution to $5x + 4y = 10$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-2,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2,1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3,0)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(2,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Substituting $(2,0)$ gives $10 + 0 = 10$, which is true.",
+    "complexity_factor": 0.85,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "solution"
+    ],
+    "checksum": "sha256-786f3f597a93369bf5365b72864810f1b961b246b9eb99e9f64bf169ddbdd85a",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.easy.0003",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Find the $x$-intercept of $4x + 5y = 20$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(5,1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-5,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(5,0)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(5,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Set $y = 0$: $4x = 20$, so $x = 5$. The $x$-intercept is $(5,0)$.",
+    "complexity_factor": 0.85,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "intercepts"
+    ],
+    "checksum": "sha256-c77564020655428e73a268eab36ded8512a95aa51299ea76e4bded704397e72b",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.easy.0004",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Find the $y$-intercept of $6x + 5y = -20$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0,-4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1,-4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-4,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0,4)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(0,-4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Set $x = 0$: $5y = -20$, so $y = -4$. The $y$-intercept is $(0,-4)$.",
+    "complexity_factor": 0.85,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "intercepts"
+    ],
+    "checksum": "sha256-2921ec040c3be6df5b87af7af1b34b30ea17e8d8d2ecd2470eb709aa05fb892c",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.easy.0005",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Rewrite $2x + y = 10$ in the form $y = mx + b$. What is $m$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1/8$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1/9$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2/1$"
+      },
+      {
+        "id": "d",
+        "latex": "$4/3$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-2/1",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Solving for $y$: $1y = -2x + 10$, so $y = \\dfrac{-2}{1}x + \\dfrac{10}{1}$. The slope is $\\dfrac{-2}{1}$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "slope_intercept"
+    ],
+    "checksum": "sha256-6ae4e4dc8ab78f538f23d4159a28d7118ed0a19799690b9fcac309232d7cdf7b",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.easy.0006",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "If $x = -3$, find $y$ in the equation $4x + 3y = 12$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x = -3$: $-12 + 3y = 12$, so $3y = 24$ and $y = 8$.",
+    "complexity_factor": 0.85,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "linear_equations"
+    ],
+    "checksum": "sha256-dcab40d42c4f924ebd76234e578bac07bda281554d34c36da29a57e47a790987",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.easy.0007",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Which ordered pair is a solution to $2x + y = -11$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4,-3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-4,-2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-4,-3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-3,-3)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-4,-3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Substituting $(-4,-3)$ gives $-8 + -3 = -11$, which is true.",
+    "complexity_factor": 0.85,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "solution"
+    ],
+    "checksum": "sha256-adac1a0c735d9a541176f984592b2ae3849b892c53cfdf933560ef87de79beed",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.easy.0008",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Find the $x$-intercept of $3x + 3y = 6$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2,1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0,2)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(2,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Set $y = 0$: $3x = 6$, so $x = 2$. The $x$-intercept is $(2,0)$.",
+    "complexity_factor": 0.85,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "intercepts"
+    ],
+    "checksum": "sha256-83aa7869eba18231dc23d342e6db88905d5af5ec38de3a7b5b4181cbbc4a1d8f",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.easy.0009",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Find the $y$-intercept of $6x + y = -1$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1,-1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,-1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0,1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,0)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(0,-1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Set $x = 0$: $1y = -1$, so $y = -1$. The $y$-intercept is $(0,-1)$.",
+    "complexity_factor": 0.85,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "intercepts"
+    ],
+    "checksum": "sha256-bae3841a3cbcaf7a4eb7a31449b9f40b0bc6cf5c0d9cb93f34b63f3a02f6d43a",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.easy.0010",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Rewrite $6x + 5y = 1$ in the form $y = mx + b$. What is $m$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1/7$"
+      },
+      {
+        "id": "b",
+        "latex": "$-6/5$"
+      },
+      {
+        "id": "c",
+        "latex": "$1/12$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2/9$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-6/5",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Solving for $y$: $5y = -6x + 1$, so $y = \\dfrac{-6}{5}x + \\dfrac{1}{5}$. The slope is $\\dfrac{-6}{5}$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "slope_intercept"
+    ],
+    "checksum": "sha256-42824b0ffecf69e98b21cd89583764cc2c910b454cd020dbe85dc1588a186a10",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.easy.0011",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "If $x = 5$, find $y$ in the equation $3x + 4y = -13$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-7$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-8$"
+      },
+      {
+        "id": "d",
+        "latex": "$-6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x = 5$: $15 + 4y = -13$, so $4y = -28$ and $y = -7$.",
+    "complexity_factor": 0.85,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "linear_equations"
+    ],
+    "checksum": "sha256-6395478dfbac84205104e2dbf4c50b3b715e15b0e16b4ccad87433a431621b1d",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.easy.0012",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Which ordered pair is a solution to $x + 5y = 7$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2,1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2,1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3,1)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(2,1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Substituting $(2,1)$ gives $2 + 5 = 7$, which is true.",
+    "complexity_factor": 0.85,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "solution"
+    ],
+    "checksum": "sha256-7482a75f61fe7396bbcd3b9967aa174c55f70a0ed2220e22bdd88e9673a8e000",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.easy.0013",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Find the $x$-intercept of $x + 4y = -5$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-5,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-5,1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(5,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0,-5)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-5,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Set $y = 0$: $1x = -5$, so $x = -5$. The $x$-intercept is $(-5,0)$.",
+    "complexity_factor": 0.85,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "intercepts"
+    ],
+    "checksum": "sha256-79e4ae31f20b6cf3e27edc6de4e3d0d1971f651fdeab06e703833c69f0336ccd",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.easy.0014",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Find the $y$-intercept of $4x + 3y = -18$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1,-6)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,6)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0,-6)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-6,0)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(0,-6)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Set $x = 0$: $3y = -18$, so $y = -6$. The $y$-intercept is $(0,-6)$.",
+    "complexity_factor": 0.85,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "intercepts"
+    ],
+    "checksum": "sha256-c9917117a93fe1bba8dbb5242502867e1bf18af9052be6d7de1baeff37d3869b",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.easy.0015",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Rewrite $2x + 4y = 5$ in the form $y = mx + b$. What is $m$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1/5$"
+      },
+      {
+        "id": "b",
+        "latex": "$3/8$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1/2$"
+      },
+      {
+        "id": "d",
+        "latex": "$1/2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-1/2",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Solving for $y$: $4y = -2x + 5$, so $y = \\dfrac{-1}{2}x + \\dfrac{5}{4}$. The slope is $\\dfrac{-1}{2}$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "slope_intercept"
+    ],
+    "checksum": "sha256-c325f3742b5720289c166bd8b2afce59e1915f4c2f1a3e15cdd52b6afe1ca2f1",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.easy.0016",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "If $x = 4$, find $y$ in the equation $5x + 5y = 5$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$-3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x = 4$: $20 + 5y = 5$, so $5y = -15$ and $y = -3$.",
+    "complexity_factor": 0.85,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "linear_equations"
+    ],
+    "checksum": "sha256-02c31d44c5686b9de8cbaab43823126ffecd0a61a92e87ca3c5a90a199566cf9",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.easy.0017",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Which ordered pair is a solution to $4x + 3y = 12$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0,5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1,4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1,3)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(0,4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Substituting $(0,4)$ gives $0 + 12 = 12$, which is true.",
+    "complexity_factor": 0.85,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "solution"
+    ],
+    "checksum": "sha256-b8154ccd2031ef36f3c88bd44a8d1504b606ec3fa4e08199ad425affc756e999",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.easy.0018",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Find the $x$-intercept of $6x + 5y = -36$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(6,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-6,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0,-6)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-6,1)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-6,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Set $y = 0$: $6x = -36$, so $x = -6$. The $x$-intercept is $(-6,0)$.",
+    "complexity_factor": 0.85,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "intercepts"
+    ],
+    "checksum": "sha256-00213f34d9b7d29fa960775ca53ca1522a92523aa70414b52382b0a6d4aeadb0",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.easy.0019",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Find the $y$-intercept of $2x + y = 5$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0,5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,-5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(5,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1,5)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(0,5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Set $x = 0$: $1y = 5$, so $y = 5$. The $y$-intercept is $(0,5)$.",
+    "complexity_factor": 0.85,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "intercepts"
+    ],
+    "checksum": "sha256-3cc99f01e2350848b26785a28ffa6d23a5c7cee8a3e5095e9abf2e401d7106d4",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.easy.0020",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Rewrite $4x + 6y = 11$ in the form $y = mx + b$. What is $m$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2/3$"
+      },
+      {
+        "id": "b",
+        "latex": "$7/10$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1/10$"
+      },
+      {
+        "id": "d",
+        "latex": "$1/3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-2/3",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Solving for $y$: $6y = -4x + 11$, so $y = \\dfrac{-2}{3}x + \\dfrac{11}{6}$. The slope is $\\dfrac{-2}{3}$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "slope_intercept"
+    ],
+    "checksum": "sha256-7fbaba73618e1d23e96ca664c75b61257cdcf2424f3714fb416ffc67e69c9dd0",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.easy.0021",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "If $x = 8$, find $y$ in the equation $6x + 3y = 45$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$15$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x = 8$: $48 + 3y = 45$, so $3y = -3$ and $y = -1$.",
+    "complexity_factor": 0.85,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "linear_equations"
+    ],
+    "checksum": "sha256-8e560424ed6a70cf94064127c42bd7569088937c243dc0e641b0fe9e58f53159",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.easy.0022",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Which ordered pair is a solution to $3x + 4y = 8$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1,1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0,3)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(0,2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Substituting $(0,2)$ gives $0 + 8 = 8$, which is true.",
+    "complexity_factor": 0.85,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "solution"
+    ],
+    "checksum": "sha256-03927152d863ae13a8f3228f04cf6a70129ad1026b0384370596e132b8c37e21",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.easy.0023",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Find the $x$-intercept of $4x + y = 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1,-2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0,1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1,0)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(0,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Set $y = 0$: $4x = 0$, so $x = 0$. The $x$-intercept is $(0,0)$.",
+    "complexity_factor": 0.85,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "intercepts"
+    ],
+    "checksum": "sha256-e5db65fdbeff061f6eff620b6861659e36a737fa6fa2bbbd182ef33620fbcec6",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.easy.0024",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Find the $y$-intercept of $2x + 4y = -20$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-5,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1,-5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0,-5)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(0,-5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Set $x = 0$: $4y = -20$, so $y = -5$. The $y$-intercept is $(0,-5)$.",
+    "complexity_factor": 0.85,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "intercepts"
+    ],
+    "checksum": "sha256-e77df8fa4b4a036bec1345fb93eb3c5df1602b8f37ff2d781638e705a5ebdd37",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.easy.0025",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Rewrite $2x + 3y = 7$ in the form $y = mx + b$. What is $m$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2/3$"
+      },
+      {
+        "id": "b",
+        "latex": "$0/1$"
+      },
+      {
+        "id": "c",
+        "latex": "$5/6$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2/3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-2/3",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Solving for $y$: $3y = -2x + 7$, so $y = \\dfrac{-2}{3}x + \\dfrac{7}{3}$. The slope is $\\dfrac{-2}{3}$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "slope_intercept"
+    ],
+    "checksum": "sha256-506f2bf50880541ae299696ff526b84c4eb498f4ff61bac7867397fcfbd396d6",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.easy.0026",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "If $x = 3$, find $y$ in the equation $x + 6y = -3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$-6$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x = 3$: $3 + 6y = -3$, so $6y = -6$ and $y = -1$.",
+    "complexity_factor": 0.85,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "linear_equations"
+    ],
+    "checksum": "sha256-f85af53f2926a4930e9e7156f89883da4efd06ad206acad9032bf4a457df636a",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.easy.0027",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Which ordered pair is a solution to $2x + y = -9$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3,-3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3,-2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-3,-3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2,-3)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-3,-3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Substituting $(-3,-3)$ gives $-6 + -3 = -9$, which is true.",
+    "complexity_factor": 0.85,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "solution"
+    ],
+    "checksum": "sha256-c38520dd27361b1368354850f8f5216333e9c7931732294a239dae7ccfecadba",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.easy.0028",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Find the $x$-intercept of $5x + 5y = 30$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-6,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(6,1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0,6)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(6,0)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(6,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Set $y = 0$: $5x = 30$, so $x = 6$. The $x$-intercept is $(6,0)$.",
+    "complexity_factor": 0.85,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "intercepts"
+    ],
+    "checksum": "sha256-4ed182c37d9b920136d58371b06c2dda024d8e5201294b5c9a0934e1fc8bb55c",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.easy.0029",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Find the $y$-intercept of $2x + 5y = 30$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(6,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,6)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0,-6)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1,6)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(0,6)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Set $x = 0$: $5y = 30$, so $y = 6$. The $y$-intercept is $(0,6)$.",
+    "complexity_factor": 0.85,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "intercepts"
+    ],
+    "checksum": "sha256-c7717192bc79b1f74d572cd43a2f9ec7f73cfe2c6a96e582786380273c1459b0",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.easy.0030",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Rewrite $2x + y = 8$ in the form $y = mx + b$. What is $m$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1/10$"
+      },
+      {
+        "id": "b",
+        "latex": "$3/4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2/1$"
+      },
+      {
+        "id": "d",
+        "latex": "$4/9$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-2/1",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Solving for $y$: $1y = -2x + 8$, so $y = \\dfrac{-2}{1}x + \\dfrac{8}{1}$. The slope is $\\dfrac{-2}{1}$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "slope_intercept"
+    ],
+    "checksum": "sha256-254e95513fa48f4932fe9e48ba6b6cf86c3fb4ca09ddaa3b2f51806c340e6f69",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.easy.0031",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "If $x = -2$, find $y$ in the equation $4x + 3y = -29$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-7$"
+      },
+      {
+        "id": "b",
+        "latex": "$-10$"
+      },
+      {
+        "id": "c",
+        "latex": "$-6$"
+      },
+      {
+        "id": "d",
+        "latex": "$-8$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x = -2$: $-8 + 3y = -29$, so $3y = -21$ and $y = -7$.",
+    "complexity_factor": 0.85,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "linear_equations"
+    ],
+    "checksum": "sha256-cf585d5ecfdc11b39c21b14304d69b9cb4cbff09eabb8b94bcb631d0b58f1aaf",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.easy.0032",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Which ordered pair is a solution to $5x + 2y = 14$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4,-2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(5,-3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4,-3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-4,-3)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(4,-3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Substituting $(4,-3)$ gives $20 + -6 = 14$, which is true.",
+    "complexity_factor": 0.85,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "solution"
+    ],
+    "checksum": "sha256-6321b55d396976092f2852479773e80fc0c526949ed2c850860e5f3b461364e7",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.easy.0033",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Find the $x$-intercept of $5x + 2y = -10$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0,-2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2,1)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-2,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Set $y = 0$: $5x = -10$, so $x = -2$. The $x$-intercept is $(-2,0)$.",
+    "complexity_factor": 0.85,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "intercepts"
+    ],
+    "checksum": "sha256-b6bee451b2e815ed69dd5f95a4cb599bf50dd91bc45a502f7ff04c5dd2028330",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.easy.0034",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Find the $y$-intercept of $5x + 2y = -10$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0,-5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1,-5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-5,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0,5)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(0,-5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Set $x = 0$: $2y = -10$, so $y = -5$. The $y$-intercept is $(0,-5)$.",
+    "complexity_factor": 0.85,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "intercepts"
+    ],
+    "checksum": "sha256-9d067028f9cfec7a479a7fd6c0f7f56c1a7294a78798a8687496d3db880de006",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.easy.0035",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Rewrite $5x + 5y = 6$ in the form $y = mx + b$. What is $m$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1/1$"
+      },
+      {
+        "id": "b",
+        "latex": "$4/3$"
+      },
+      {
+        "id": "c",
+        "latex": "$2/5$"
+      },
+      {
+        "id": "d",
+        "latex": "$2/7$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-1/1",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Solving for $y$: $5y = -5x + 6$, so $y = \\dfrac{-1}{1}x + \\dfrac{6}{5}$. The slope is $\\dfrac{-1}{1}$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "slope_intercept"
+    ],
+    "checksum": "sha256-7478c8ba196bca284fa93f68f941743e67c54e9ddec3a77cb705eec6e9f61ba0",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.easy.0036",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "If $x = -8$, find $y$ in the equation $5x + 5y = 5$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x = -8$: $-40 + 5y = 5$, so $5y = 45$ and $y = 9$.",
+    "complexity_factor": 0.85,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "linear_equations"
+    ],
+    "checksum": "sha256-f28796d011b1bbf163a1dd57d03b2cb75d3c02256c046dc12f79b0a449aacebf",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.easy.0037",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Which ordered pair is a solution to $3x + y = -5$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2,1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1,1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,1)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-2,1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Substituting $(-2,1)$ gives $-6 + 1 = -5$, which is true.",
+    "complexity_factor": 0.85,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "solution"
+    ],
+    "checksum": "sha256-431e652eeae84079d8ce4fdbe115621dabcab2bf18d35dae84c0bff3d02440c8",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.easy.0038",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Find the $x$-intercept of $x + 2y = 2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,1)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(2,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Set $y = 0$: $1x = 2$, so $x = 2$. The $x$-intercept is $(2,0)$.",
+    "complexity_factor": 0.85,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "intercepts"
+    ],
+    "checksum": "sha256-7ec2e0196b337172183129320413213afcef4f884beb3e49e09cbb3a4644c19d",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.easy.0039",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Find the $y$-intercept of $x + 5y = 10$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0,-2)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(0,2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Set $x = 0$: $5y = 10$, so $y = 2$. The $y$-intercept is $(0,2)$.",
+    "complexity_factor": 0.85,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "intercepts"
+    ],
+    "checksum": "sha256-241fc63bbdb60feccbe7da899ced62b00d49befeb89d2e4ad1aef42282fd635d",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.easy.0040",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Rewrite $4x + 5y = 3$ in the form $y = mx + b$. What is $m$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1/9$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4/5$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1/7$"
+      },
+      {
+        "id": "d",
+        "latex": "$1/11$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-4/5",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Solving for $y$: $5y = -4x + 3$, so $y = \\dfrac{-4}{5}x + \\dfrac{3}{5}$. The slope is $\\dfrac{-4}{5}$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "slope_intercept"
+    ],
+    "checksum": "sha256-ad1a66526c023d59a139b51e1f2317481f9e4ae8aa60e47fd43a95560c0635e8",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.easy.0041",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "If $x = 1$, find $y$ in the equation $6x + 3y = -24$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-10$"
+      },
+      {
+        "id": "b",
+        "latex": "$-8$"
+      },
+      {
+        "id": "c",
+        "latex": "$-9$"
+      },
+      {
+        "id": "d",
+        "latex": "$-11$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x = 1$: $6 + 3y = -24$, so $3y = -30$ and $y = -10$.",
+    "complexity_factor": 0.85,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "linear_equations"
+    ],
+    "checksum": "sha256-198e84f32173a9adef8e3a0afcfc18539753d731405a5cce184f1c303b3557be",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.easy.0042",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Which ordered pair is a solution to $3x + 3y = 3$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2,4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2,3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2,3)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-2,3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Substituting $(-2,3)$ gives $-6 + 9 = 3$, which is true.",
+    "complexity_factor": 0.85,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "solution"
+    ],
+    "checksum": "sha256-d2c50687b1ba21ba8bd9b98b3a162d3a3af29a3cdcbe1a2aa360de4a97b47e7e",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.easy.0043",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Find the $x$-intercept of $6x + 2y = 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0,1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,-1)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(0,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Set $y = 0$: $6x = 0$, so $x = 0$. The $x$-intercept is $(0,0)$.",
+    "complexity_factor": 0.85,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "intercepts"
+    ],
+    "checksum": "sha256-9866614e13c5a64f96aa3783b2bd42a7f7e3e2d86136e76b21d1919ba6ddb5d4",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.easy.0044",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Find the $y$-intercept of $4x + 4y = 20$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0,5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,-5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(5,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1,5)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(0,5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Set $x = 0$: $4y = 20$, so $y = 5$. The $y$-intercept is $(0,5)$.",
+    "complexity_factor": 0.85,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "intercepts"
+    ],
+    "checksum": "sha256-61c06a2b0e0c2510a8d24700e5f0f4f6a8272429de9fe029142cda12201cdb35",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.easy.0045",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Rewrite $2x + 4y = 4$ in the form $y = mx + b$. What is $m$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0/1$"
+      },
+      {
+        "id": "b",
+        "latex": "$7/11$"
+      },
+      {
+        "id": "c",
+        "latex": "$2/3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1/2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-1/2",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Solving for $y$: $4y = -2x + 4$, so $y = \\dfrac{-1}{2}x + \\dfrac{1}{1}$. The slope is $\\dfrac{-1}{2}$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "slope_intercept"
+    ],
+    "checksum": "sha256-e53ef89a2f99c015a3d42bb1a6efcc7500df90b1a0b67a1854b8abd46eadc784",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.easy.0046",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "If $x = 6$, find $y$ in the equation $4x + 6y = 6$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x = 6$: $24 + 6y = 6$, so $6y = -18$ and $y = -3$.",
+    "complexity_factor": 0.85,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "linear_equations"
+    ],
+    "checksum": "sha256-36865185d7247218d2bcef4db7d6e8f9f877b2e4985f692fa41cfdc5a851d2c5",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.easy.0047",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Which ordered pair is a solution to $3x + 2y = 8$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(5,-2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4,-2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-4,-2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4,-1)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(4,-2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Substituting $(4,-2)$ gives $12 + -4 = 8$, which is true.",
+    "complexity_factor": 0.85,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "solution"
+    ],
+    "checksum": "sha256-e895623b69a857b08b610217f4b4d1a654e931e59664e009bb7957b0d77b879c",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.easy.0048",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Find the $x$-intercept of $x + 4y = -2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-2,1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0,-2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,0)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-2,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Set $y = 0$: $1x = -2$, so $x = -2$. The $x$-intercept is $(-2,0)$.",
+    "complexity_factor": 0.85,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "intercepts"
+    ],
+    "checksum": "sha256-3cae6a768b4b1e46fc99fa00b86ab2736b81c21232452d57c8699ab6ba92099f",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.easy.0049",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Find the $y$-intercept of $6x + 3y = 15$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0,5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,-5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1,5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(5,0)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(0,5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Set $x = 0$: $3y = 15$, so $y = 5$. The $y$-intercept is $(0,5)$.",
+    "complexity_factor": 0.85,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "intercepts"
+    ],
+    "checksum": "sha256-e142b86d4ed7278d6390d94bd1b9f37646a42930c25071ce549883b3c135cd3f",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.easy.0050",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Rewrite $x + 4y = 12$ in the form $y = mx + b$. What is $m$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5/13$"
+      },
+      {
+        "id": "b",
+        "latex": "$2/3$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1/4$"
+      },
+      {
+        "id": "d",
+        "latex": "$3/8$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-1/4",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Solving for $y$: $4y = -1x + 12$, so $y = \\dfrac{-1}{4}x + \\dfrac{3}{1}$. The slope is $\\dfrac{-1}{4}$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "slope_intercept"
+    ],
+    "checksum": "sha256-01adc17807bf3a14593369ec73fda8cf122e9eabe3defcb4e36e9a0dfce6de6f",
+    "status": "valid"
+  }
+]

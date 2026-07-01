@@ -1,78 +1,1952 @@
 [
   {
+    "id": "ch21.telescoping.medium.0001",
     "topic_id": "ch21.telescoping",
     "group_id": "ch21_sequences_series",
     "difficulty": "medium",
-    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{10} \\frac{1}{n(n+1)}$.",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{6} \\frac{2}{(n+0)(n+1)}$.",
     "answer_format": "mc",
     "choices": [
       {
         "id": "a",
-        "latex": "$\\dfrac{10}{11}$"
+        "latex": "$7/4$"
       },
       {
         "id": "b",
-        "latex": "$\\dfrac{1}{10}$"
+        "latex": "$13/9$"
       },
       {
         "id": "c",
-        "latex": "$\\dfrac{1}{11}$"
+        "latex": "$12/7$"
       },
       {
         "id": "d",
-        "latex": "$\\dfrac{9}{10}$"
+        "latex": "$6/7$"
       }
     ],
-    "correct_choice": "a",
-    "correct_answer": "10/11",
+    "correct_choice": "c",
+    "correct_answer": "12/7",
     "answer_type": "fraction",
-    "solution_latex": "$\\frac{1}{n(n+1)} = \\frac{1}{n} - \\frac{1}{n+1}$. The sum telescopes to $1 - \\frac{1}{11} = \\frac{10}{11}$.",
-    "complexity_factor": 1.3,
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{2}{(n+0)(n+1)}=2\\left(\\frac{1}{n+0}-\\frac{1}{n+1}\\right)$, the sum is $2(1/1-1/7)=12/7$.",
+    "complexity_factor": 1.35,
     "source_section": "21.5",
     "tags": [
       "telescoping",
-      "series"
+      "partial-fractions"
     ],
-    "id": "ch21.telescoping.medium.0001",
-    "checksum": "sha256-19605a83a3755fdc273b2f758a5b02ff793afb4f23ef1ad3b64984556a8139b0",
+    "checksum": "sha256-b7c2f19d0eaa0218a1938f1da262318192f58a65bfc26486f552da8b82b424c5",
     "status": "valid"
   },
   {
+    "id": "ch21.telescoping.medium.0002",
     "topic_id": "ch21.telescoping",
     "group_id": "ch21_sequences_series",
     "difficulty": "medium",
-    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{5} \\left( \\frac{1}{n} - \\frac{1}{n+1} \\right)$.",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{7} \\frac{4}{(n+1)(n+2)}$.",
     "answer_format": "mc",
     "choices": [
       {
         "id": "a",
-        "latex": "$\\dfrac{5}{6}$"
+        "latex": "$7/18$"
       },
       {
         "id": "b",
-        "latex": "$\\dfrac{1}{5}$"
+        "latex": "$8/5$"
       },
       {
         "id": "c",
-        "latex": "$\\dfrac{1}{6}$"
+        "latex": "$15/11$"
       },
       {
         "id": "d",
-        "latex": "$\\dfrac{4}{5}$"
+        "latex": "$14/9$"
       }
     ],
-    "correct_choice": "a",
-    "correct_answer": "5/6",
+    "correct_choice": "d",
+    "correct_answer": "14/9",
     "answer_type": "fraction",
-    "solution_latex": "The series telescopes: $1 - \\frac{1}{6} = \\frac{5}{6}$.",
-    "complexity_factor": 1.2,
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{4}{(n+1)(n+2)}=4\\left(\\frac{1}{n+1}-\\frac{1}{n+2}\\right)$, the sum is $4(1/2-1/9)=14/9$.",
+    "complexity_factor": 1.35,
     "source_section": "21.5",
     "tags": [
       "telescoping",
-      "series"
+      "partial-fractions"
     ],
-    "id": "ch21.telescoping.medium.0002",
-    "checksum": "sha256-27ad0ceccec7aca4acfd9859649f341507f244c60c24f1505d8ba249d5ba15cb",
+    "checksum": "sha256-94849e1e3ded4774735219d9b477d6babd829593be4e18bb472411f5799b5fe6",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.medium.0003",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{8} \\frac{1}{(n+2)(n+3)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8/33$"
+      },
+      {
+        "id": "b",
+        "latex": "$1/4$"
+      },
+      {
+        "id": "c",
+        "latex": "$9/35$"
+      },
+      {
+        "id": "d",
+        "latex": "$5/18$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "8/33",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{1}{(n+2)(n+3)}=1\\left(\\frac{1}{n+2}-\\frac{1}{n+3}\\right)$, the sum is $1(1/3-1/11)=8/33$.",
+    "complexity_factor": 1.35,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions"
+    ],
+    "checksum": "sha256-9aeb000ab809b991ecf27df581a43a0fb9aaa47515fe58bb30955c7dab70c8df",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.medium.0004",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{9} \\frac{3}{(n+3)(n+4)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$14/27$"
+      },
+      {
+        "id": "b",
+        "latex": "$27/52$"
+      },
+      {
+        "id": "c",
+        "latex": "$9/52$"
+      },
+      {
+        "id": "d",
+        "latex": "$15/28$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "27/52",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{3}{(n+3)(n+4)}=3\\left(\\frac{1}{n+3}-\\frac{1}{n+4}\\right)$, the sum is $3(1/4-1/13)=27/52$.",
+    "complexity_factor": 1.35,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions"
+    ],
+    "checksum": "sha256-90e3073b0465787e5433cef43fc14b609284f588dd30cf43ab97834da798120d",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.medium.0005",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{10} \\frac{5}{(n+4)(n+5)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11/16$"
+      },
+      {
+        "id": "b",
+        "latex": "$3/5$"
+      },
+      {
+        "id": "c",
+        "latex": "$2/3$"
+      },
+      {
+        "id": "d",
+        "latex": "$2/15$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "2/3",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{5}{(n+4)(n+5)}=5\\left(\\frac{1}{n+4}-\\frac{1}{n+5}\\right)$, the sum is $5(1/5-1/15)=2/3$.",
+    "complexity_factor": 1.35,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions"
+    ],
+    "checksum": "sha256-eeba714b680133b4d558bc3a02817054e3fbf5a3a4a3103631abd62489ea5afd",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.medium.0006",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{11} \\frac{2}{(n+0)(n+1)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11/12$"
+      },
+      {
+        "id": "b",
+        "latex": "$24/13$"
+      },
+      {
+        "id": "c",
+        "latex": "$3/2$"
+      },
+      {
+        "id": "d",
+        "latex": "$11/6$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "11/6",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{2}{(n+0)(n+1)}=2\\left(\\frac{1}{n+0}-\\frac{1}{n+1}\\right)$, the sum is $2(1/1-1/12)=11/6$.",
+    "complexity_factor": 1.35,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions"
+    ],
+    "checksum": "sha256-609a69bc0c795f65d154f4d463e6754a706b75f3063ca4b2cc5fe7ed1708609a",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.medium.0007",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{12} \\frac{4}{(n+1)(n+2)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12/7$"
+      },
+      {
+        "id": "b",
+        "latex": "$3/7$"
+      },
+      {
+        "id": "c",
+        "latex": "$26/15$"
+      },
+      {
+        "id": "d",
+        "latex": "$13/9$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "12/7",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{4}{(n+1)(n+2)}=4\\left(\\frac{1}{n+1}-\\frac{1}{n+2}\\right)$, the sum is $4(1/2-1/14)=12/7$.",
+    "complexity_factor": 1.35,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions"
+    ],
+    "checksum": "sha256-760821921c0142c1b2925a4263d0132b746b08c9e6d7c80c2c925dcc7cd24fbf",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.medium.0008",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{13} \\frac{1}{(n+2)(n+3)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5/17$"
+      },
+      {
+        "id": "b",
+        "latex": "$13/48$"
+      },
+      {
+        "id": "c",
+        "latex": "$14/51$"
+      },
+      {
+        "id": "d",
+        "latex": "$7/25$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "13/48",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{1}{(n+2)(n+3)}=1\\left(\\frac{1}{n+2}-\\frac{1}{n+3}\\right)$, the sum is $1(1/3-1/16)=13/48$.",
+    "complexity_factor": 1.35,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions"
+    ],
+    "checksum": "sha256-4118785d86e7b281307194ae00085fd2483062abb2842378eeff2d67507e1948",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.medium.0009",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{14} \\frac{3}{(n+3)(n+4)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$45/76$"
+      },
+      {
+        "id": "b",
+        "latex": "$4/7$"
+      },
+      {
+        "id": "c",
+        "latex": "$7/12$"
+      },
+      {
+        "id": "d",
+        "latex": "$7/36$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "7/12",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{3}{(n+3)(n+4)}=3\\left(\\frac{1}{n+3}-\\frac{1}{n+4}\\right)$, the sum is $3(1/4-1/18)=7/12$.",
+    "complexity_factor": 1.35,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions"
+    ],
+    "checksum": "sha256-29cee2f3315236ca543ef62a109ea532c55db764d6d4e44403c9c9a1ecc5c3c5",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.medium.0010",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{15} \\frac{5}{(n+4)(n+5)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3/20$"
+      },
+      {
+        "id": "b",
+        "latex": "$16/21$"
+      },
+      {
+        "id": "c",
+        "latex": "$2/3$"
+      },
+      {
+        "id": "d",
+        "latex": "$3/4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "3/4",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{5}{(n+4)(n+5)}=5\\left(\\frac{1}{n+4}-\\frac{1}{n+5}\\right)$, the sum is $5(1/5-1/20)=3/4$.",
+    "complexity_factor": 1.35,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions"
+    ],
+    "checksum": "sha256-4389764379a98937bf9fdc24d84e52c63121afdf410c3c5b00d03fdd7f84fcaa",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.medium.0011",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{16} \\frac{2}{(n+0)(n+1)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$32/17$"
+      },
+      {
+        "id": "b",
+        "latex": "$16/17$"
+      },
+      {
+        "id": "c",
+        "latex": "$17/9$"
+      },
+      {
+        "id": "d",
+        "latex": "$33/19$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "32/17",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{2}{(n+0)(n+1)}=2\\left(\\frac{1}{n+0}-\\frac{1}{n+1}\\right)$, the sum is $2(1/1-1/17)=32/17$.",
+    "complexity_factor": 1.35,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions"
+    ],
+    "checksum": "sha256-6780ee5e29f6a9da3bef433aff3f9934a29e4dff1467fe48a3355fb30adef9fe",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.medium.0012",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{17} \\frac{4}{(n+1)(n+2)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5/3$"
+      },
+      {
+        "id": "b",
+        "latex": "$34/19$"
+      },
+      {
+        "id": "c",
+        "latex": "$17/38$"
+      },
+      {
+        "id": "d",
+        "latex": "$9/5$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "34/19",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{4}{(n+1)(n+2)}=4\\left(\\frac{1}{n+1}-\\frac{1}{n+2}\\right)$, the sum is $4(1/2-1/19)=34/19$.",
+    "complexity_factor": 1.35,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions"
+    ],
+    "checksum": "sha256-e48b43993dbb672a73f6f9b4ed9d39b250ed39b01f775bd2ae9d42fe6af3ceca",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.medium.0013",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{6} \\frac{1}{(n+2)(n+3)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3/11$"
+      },
+      {
+        "id": "b",
+        "latex": "$1/3$"
+      },
+      {
+        "id": "c",
+        "latex": "$2/9$"
+      },
+      {
+        "id": "d",
+        "latex": "$7/30$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "2/9",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{1}{(n+2)(n+3)}=1\\left(\\frac{1}{n+2}-\\frac{1}{n+3}\\right)$, the sum is $1(1/3-1/9)=2/9$.",
+    "complexity_factor": 1.35,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions"
+    ],
+    "checksum": "sha256-b0d6f995d88dbb922579ea9605423903160fb865efb4b4e0e0ae2cd8541941c3",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.medium.0014",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{7} \\frac{3}{(n+3)(n+4)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7/44$"
+      },
+      {
+        "id": "b",
+        "latex": "$1/2$"
+      },
+      {
+        "id": "c",
+        "latex": "$11/23$"
+      },
+      {
+        "id": "d",
+        "latex": "$21/44$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "21/44",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{3}{(n+3)(n+4)}=3\\left(\\frac{1}{n+3}-\\frac{1}{n+4}\\right)$, the sum is $3(1/4-1/11)=21/44$.",
+    "complexity_factor": 1.35,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions"
+    ],
+    "checksum": "sha256-19b6679f8fad6f2fa8c8cd51408e6da85e9807182bcbcd841feebe1a2edb89a9",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.medium.0015",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{8} \\frac{5}{(n+4)(n+5)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8/13$"
+      },
+      {
+        "id": "b",
+        "latex": "$8/65$"
+      },
+      {
+        "id": "c",
+        "latex": "$9/14$"
+      },
+      {
+        "id": "d",
+        "latex": "$3/5$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "8/13",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{5}{(n+4)(n+5)}=5\\left(\\frac{1}{n+4}-\\frac{1}{n+5}\\right)$, the sum is $5(1/5-1/13)=8/13$.",
+    "complexity_factor": 1.35,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions"
+    ],
+    "checksum": "sha256-53ffe6ad4fdfe8d589aacea2c992d86f0b8fb8fe9e59e654385dd1b32210c85c",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.medium.0016",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{9} \\frac{2}{(n+0)(n+1)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10/7$"
+      },
+      {
+        "id": "b",
+        "latex": "$9/5$"
+      },
+      {
+        "id": "c",
+        "latex": "$9/10$"
+      },
+      {
+        "id": "d",
+        "latex": "$20/11$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "9/5",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{2}{(n+0)(n+1)}=2\\left(\\frac{1}{n+0}-\\frac{1}{n+1}\\right)$, the sum is $2(1/1-1/10)=9/5$.",
+    "complexity_factor": 1.35,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions"
+    ],
+    "checksum": "sha256-fe5de50e0e0f455c17dc215a129bb489548c8ffdf0f0777bde0ee62d17212348",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.medium.0017",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{10} \\frac{4}{(n+1)(n+2)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$22/13$"
+      },
+      {
+        "id": "b",
+        "latex": "$6/5$"
+      },
+      {
+        "id": "c",
+        "latex": "$5/3$"
+      },
+      {
+        "id": "d",
+        "latex": "$5/12$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "5/3",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{4}{(n+1)(n+2)}=4\\left(\\frac{1}{n+1}-\\frac{1}{n+2}\\right)$, the sum is $4(1/2-1/12)=5/3$.",
+    "complexity_factor": 1.35,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions"
+    ],
+    "checksum": "sha256-3b5670020d08e27142815ee90ca86388575528e60f913b83b6db96b1fa33bc7f",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.medium.0018",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{11} \\frac{1}{(n+2)(n+3)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4/15$"
+      },
+      {
+        "id": "b",
+        "latex": "$3/11$"
+      },
+      {
+        "id": "c",
+        "latex": "$13/45$"
+      },
+      {
+        "id": "d",
+        "latex": "$11/42$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "11/42",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{1}{(n+2)(n+3)}=1\\left(\\frac{1}{n+2}-\\frac{1}{n+3}\\right)$, the sum is $1(1/3-1/14)=11/42$.",
+    "complexity_factor": 1.35,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions"
+    ],
+    "checksum": "sha256-658b7acce0224b586b4a8e45c08af01ef7745c141e297d0116e500feb6337187",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.medium.0019",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{12} \\frac{3}{(n+3)(n+4)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9/16$"
+      },
+      {
+        "id": "b",
+        "latex": "$3/16$"
+      },
+      {
+        "id": "c",
+        "latex": "$39/68$"
+      },
+      {
+        "id": "d",
+        "latex": "$5/9$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "9/16",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{3}{(n+3)(n+4)}=3\\left(\\frac{1}{n+3}-\\frac{1}{n+4}\\right)$, the sum is $3(1/4-1/16)=9/16$.",
+    "complexity_factor": 1.35,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions"
+    ],
+    "checksum": "sha256-f6a43f5ed2e6ba6c045097c58e2c463c5ee4460ff94c59ca77df268c52483cdf",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.medium.0020",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{13} \\frac{5}{(n+4)(n+5)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7/10$"
+      },
+      {
+        "id": "b",
+        "latex": "$13/18$"
+      },
+      {
+        "id": "c",
+        "latex": "$13/90$"
+      },
+      {
+        "id": "d",
+        "latex": "$14/19$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "13/18",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{5}{(n+4)(n+5)}=5\\left(\\frac{1}{n+4}-\\frac{1}{n+5}\\right)$, the sum is $5(1/5-1/18)=13/18$.",
+    "complexity_factor": 1.35,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions"
+    ],
+    "checksum": "sha256-5a3da1ace16891cd166e8b4b3399f7f857261a164dac1ff99ac77bfa31763f32",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.medium.0021",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{14} \\frac{2}{(n+0)(n+1)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$15/8$"
+      },
+      {
+        "id": "b",
+        "latex": "$29/17$"
+      },
+      {
+        "id": "c",
+        "latex": "$28/15$"
+      },
+      {
+        "id": "d",
+        "latex": "$14/15$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "28/15",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{2}{(n+0)(n+1)}=2\\left(\\frac{1}{n+0}-\\frac{1}{n+1}\\right)$, the sum is $2(1/1-1/15)=28/15$.",
+    "complexity_factor": 1.35,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions"
+    ],
+    "checksum": "sha256-ea4794a83bd41430f9d82d092d9c77aaed76a57f6a4c3236c7e05d19f56942ed",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.medium.0022",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{15} \\frac{4}{(n+1)(n+2)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$15/34$"
+      },
+      {
+        "id": "b",
+        "latex": "$16/9$"
+      },
+      {
+        "id": "c",
+        "latex": "$31/19$"
+      },
+      {
+        "id": "d",
+        "latex": "$30/17$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "30/17",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{4}{(n+1)(n+2)}=4\\left(\\frac{1}{n+1}-\\frac{1}{n+2}\\right)$, the sum is $4(1/2-1/17)=30/17$.",
+    "complexity_factor": 1.35,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions"
+    ],
+    "checksum": "sha256-19effc1be2f1c3e7d46abbc64f7832b089550d72dfeebf12fa6a18a8fdf150cf",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.medium.0023",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{16} \\frac{1}{(n+2)(n+3)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16/57$"
+      },
+      {
+        "id": "b",
+        "latex": "$17/60$"
+      },
+      {
+        "id": "c",
+        "latex": "$17/59$"
+      },
+      {
+        "id": "d",
+        "latex": "$3/10$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "16/57",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{1}{(n+2)(n+3)}=1\\left(\\frac{1}{n+2}-\\frac{1}{n+3}\\right)$, the sum is $1(1/3-1/19)=16/57$.",
+    "complexity_factor": 1.35,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions"
+    ],
+    "checksum": "sha256-f0988ea957192991da29eb707fc526f7bf0e629723808103de9ba6faaa203995",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.medium.0024",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{17} \\frac{3}{(n+3)(n+4)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3/5$"
+      },
+      {
+        "id": "b",
+        "latex": "$17/28$"
+      },
+      {
+        "id": "c",
+        "latex": "$17/84$"
+      },
+      {
+        "id": "d",
+        "latex": "$27/44$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "17/28",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{3}{(n+3)(n+4)}=3\\left(\\frac{1}{n+3}-\\frac{1}{n+4}\\right)$, the sum is $3(1/4-1/21)=17/28$.",
+    "complexity_factor": 1.35,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions"
+    ],
+    "checksum": "sha256-ffdf66c44e110ef617a7c8e38c20d903931b93ec75311fb8feff317cd12fcd40",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.medium.0025",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{6} \\frac{5}{(n+4)(n+5)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7/12$"
+      },
+      {
+        "id": "b",
+        "latex": "$7/13$"
+      },
+      {
+        "id": "c",
+        "latex": "$6/11$"
+      },
+      {
+        "id": "d",
+        "latex": "$6/55$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "6/11",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{5}{(n+4)(n+5)}=5\\left(\\frac{1}{n+4}-\\frac{1}{n+5}\\right)$, the sum is $5(1/5-1/11)=6/11$.",
+    "complexity_factor": 1.35,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions"
+    ],
+    "checksum": "sha256-584b4ddffcd672da3c2adf45b8d2ed37cda787629a4a42f09bedb455ea025b51",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.medium.0026",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{7} \\frac{2}{(n+0)(n+1)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7/8$"
+      },
+      {
+        "id": "b",
+        "latex": "$16/9$"
+      },
+      {
+        "id": "c",
+        "latex": "$4/3$"
+      },
+      {
+        "id": "d",
+        "latex": "$7/4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "7/4",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{2}{(n+0)(n+1)}=2\\left(\\frac{1}{n+0}-\\frac{1}{n+1}\\right)$, the sum is $2(1/1-1/8)=7/4$.",
+    "complexity_factor": 1.35,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions"
+    ],
+    "checksum": "sha256-84ce49977dce109d021e772b7446d0309cffdf58ef0e6ae1df1e333b71113679",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.medium.0027",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{8} \\frac{4}{(n+1)(n+2)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8/5$"
+      },
+      {
+        "id": "b",
+        "latex": "$2/5$"
+      },
+      {
+        "id": "c",
+        "latex": "$18/11$"
+      },
+      {
+        "id": "d",
+        "latex": "$9/7$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "8/5",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{4}{(n+1)(n+2)}=4\\left(\\frac{1}{n+1}-\\frac{1}{n+2}\\right)$, the sum is $4(1/2-1/10)=8/5$.",
+    "complexity_factor": 1.35,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions"
+    ],
+    "checksum": "sha256-27a3a04a23c62b28511b557b5a5da12ed8f5755958f6abfd40e5fe83f3b59cef",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.medium.0028",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{9} \\frac{1}{(n+2)(n+3)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3/7$"
+      },
+      {
+        "id": "b",
+        "latex": "$1/4$"
+      },
+      {
+        "id": "c",
+        "latex": "$10/39$"
+      },
+      {
+        "id": "d",
+        "latex": "$1/3$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1/4",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{1}{(n+2)(n+3)}=1\\left(\\frac{1}{n+2}-\\frac{1}{n+3}\\right)$, the sum is $1(1/3-1/12)=1/4$.",
+    "complexity_factor": 1.35,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions"
+    ],
+    "checksum": "sha256-c79109e36292fb0dd1b04c48569afb260c77e76ef5f910fed8d1617540d87394",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.medium.0029",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{10} \\frac{3}{(n+3)(n+4)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11/20$"
+      },
+      {
+        "id": "b",
+        "latex": "$8/15$"
+      },
+      {
+        "id": "c",
+        "latex": "$15/28$"
+      },
+      {
+        "id": "d",
+        "latex": "$5/28$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "15/28",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{3}{(n+3)(n+4)}=3\\left(\\frac{1}{n+3}-\\frac{1}{n+4}\\right)$, the sum is $3(1/4-1/14)=15/28$.",
+    "complexity_factor": 1.35,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions"
+    ],
+    "checksum": "sha256-0dd73410ef8d3e84180db2557914c08e24a98376741f27d4af4b7a6d26a0c5ec",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.medium.0030",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{11} \\frac{5}{(n+4)(n+5)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11/80$"
+      },
+      {
+        "id": "b",
+        "latex": "$12/17$"
+      },
+      {
+        "id": "c",
+        "latex": "$2/3$"
+      },
+      {
+        "id": "d",
+        "latex": "$11/16$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "11/16",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{5}{(n+4)(n+5)}=5\\left(\\frac{1}{n+4}-\\frac{1}{n+5}\\right)$, the sum is $5(1/5-1/16)=11/16$.",
+    "complexity_factor": 1.35,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions"
+    ],
+    "checksum": "sha256-d3ac0c7e35f88d249cb67ec841fbbe5f40bb7584ad6339187cf5777879c86aa3",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.medium.0031",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{12} \\frac{2}{(n+0)(n+1)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$24/13$"
+      },
+      {
+        "id": "b",
+        "latex": "$12/13$"
+      },
+      {
+        "id": "c",
+        "latex": "$13/7$"
+      },
+      {
+        "id": "d",
+        "latex": "$5/3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "24/13",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{2}{(n+0)(n+1)}=2\\left(\\frac{1}{n+0}-\\frac{1}{n+1}\\right)$, the sum is $2(1/1-1/13)=24/13$.",
+    "complexity_factor": 1.35,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions"
+    ],
+    "checksum": "sha256-61665fc4081b7a11878b37b6c04af17ca733a8c01722b090b851f3ada69f808e",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.medium.0032",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{13} \\frac{4}{(n+1)(n+2)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$27/17$"
+      },
+      {
+        "id": "b",
+        "latex": "$26/15$"
+      },
+      {
+        "id": "c",
+        "latex": "$13/30$"
+      },
+      {
+        "id": "d",
+        "latex": "$7/4$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "26/15",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{4}{(n+1)(n+2)}=4\\left(\\frac{1}{n+1}-\\frac{1}{n+2}\\right)$, the sum is $4(1/2-1/15)=26/15$.",
+    "complexity_factor": 1.35,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions"
+    ],
+    "checksum": "sha256-866185d42c945dbc6f859c9798ae40fbb3eb48ba0d96b3938d41cd4347ec6615",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.medium.0033",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{14} \\frac{1}{(n+2)(n+3)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$15/53$"
+      },
+      {
+        "id": "b",
+        "latex": "$8/27$"
+      },
+      {
+        "id": "c",
+        "latex": "$14/51$"
+      },
+      {
+        "id": "d",
+        "latex": "$5/18$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "14/51",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{1}{(n+2)(n+3)}=1\\left(\\frac{1}{n+2}-\\frac{1}{n+3}\\right)$, the sum is $1(1/3-1/17)=14/51$.",
+    "complexity_factor": 1.35,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions"
+    ],
+    "checksum": "sha256-4a66f73a4c977355700edfaefd6f746a188f181cd3dd657357b69d63c2e78add",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.medium.0034",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{15} \\frac{3}{(n+3)(n+4)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$15/76$"
+      },
+      {
+        "id": "b",
+        "latex": "$3/5$"
+      },
+      {
+        "id": "c",
+        "latex": "$23/39$"
+      },
+      {
+        "id": "d",
+        "latex": "$45/76$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "45/76",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{3}{(n+3)(n+4)}=3\\left(\\frac{1}{n+3}-\\frac{1}{n+4}\\right)$, the sum is $3(1/4-1/19)=45/76$.",
+    "complexity_factor": 1.35,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions"
+    ],
+    "checksum": "sha256-1b712df41c8e6b9c0a3de413784aeeda222fb8eceebc748f9c88b0a8e13bef54",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.medium.0035",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{16} \\frac{5}{(n+4)(n+5)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16/21$"
+      },
+      {
+        "id": "b",
+        "latex": "$16/105$"
+      },
+      {
+        "id": "c",
+        "latex": "$17/22$"
+      },
+      {
+        "id": "d",
+        "latex": "$17/23$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "16/21",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{5}{(n+4)(n+5)}=5\\left(\\frac{1}{n+4}-\\frac{1}{n+5}\\right)$, the sum is $5(1/5-1/21)=16/21$.",
+    "complexity_factor": 1.35,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions"
+    ],
+    "checksum": "sha256-14b7dcb031f2a8c4f11e37d72b9a202f23d88d991b6abe534e163ab6877d6ea7",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.medium.0036",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{17} \\frac{2}{(n+0)(n+1)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$18/11$"
+      },
+      {
+        "id": "b",
+        "latex": "$17/9$"
+      },
+      {
+        "id": "c",
+        "latex": "$17/18$"
+      },
+      {
+        "id": "d",
+        "latex": "$36/19$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "17/9",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{2}{(n+0)(n+1)}=2\\left(\\frac{1}{n+0}-\\frac{1}{n+1}\\right)$, the sum is $2(1/1-1/18)=17/9$.",
+    "complexity_factor": 1.35,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions"
+    ],
+    "checksum": "sha256-3a78a78e7cbe7b4d3c8a6c1230b294bd1024e265c8dd294b05f5485170ebdb15",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.medium.0037",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{6} \\frac{4}{(n+1)(n+2)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$14/9$"
+      },
+      {
+        "id": "b",
+        "latex": "$1/1$"
+      },
+      {
+        "id": "c",
+        "latex": "$3/2$"
+      },
+      {
+        "id": "d",
+        "latex": "$3/8$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3/2",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{4}{(n+1)(n+2)}=4\\left(\\frac{1}{n+1}-\\frac{1}{n+2}\\right)$, the sum is $4(1/2-1/8)=3/2$.",
+    "complexity_factor": 1.35,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions"
+    ],
+    "checksum": "sha256-abbb7e658e944e83735c623d9e47539db49529dbba43d374a3c0797123380515",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.medium.0038",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{7} \\frac{1}{(n+2)(n+3)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8/33$"
+      },
+      {
+        "id": "b",
+        "latex": "$1/4$"
+      },
+      {
+        "id": "c",
+        "latex": "$3/11$"
+      },
+      {
+        "id": "d",
+        "latex": "$7/30$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "7/30",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{1}{(n+2)(n+3)}=1\\left(\\frac{1}{n+2}-\\frac{1}{n+3}\\right)$, the sum is $1(1/3-1/10)=7/30$.",
+    "complexity_factor": 1.35,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions"
+    ],
+    "checksum": "sha256-faf7594bb2ad0bdd7b6f4658c3b5097907a3c16e397143fec68ccea86ec7787d",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.medium.0039",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{8} \\frac{3}{(n+3)(n+4)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1/2$"
+      },
+      {
+        "id": "b",
+        "latex": "$1/6$"
+      },
+      {
+        "id": "c",
+        "latex": "$27/52$"
+      },
+      {
+        "id": "d",
+        "latex": "$3/5$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1/2",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{3}{(n+3)(n+4)}=3\\left(\\frac{1}{n+3}-\\frac{1}{n+4}\\right)$, the sum is $3(1/4-1/12)=1/2$.",
+    "complexity_factor": 1.35,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions"
+    ],
+    "checksum": "sha256-cf68ef1b8e3ad7cad657ca6789a22db9c01363ddb97e3b8fc49bfd94fd948037",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.medium.0040",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{9} \\frac{5}{(n+4)(n+5)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5/8$"
+      },
+      {
+        "id": "b",
+        "latex": "$9/14$"
+      },
+      {
+        "id": "c",
+        "latex": "$9/70$"
+      },
+      {
+        "id": "d",
+        "latex": "$2/3$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "9/14",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{5}{(n+4)(n+5)}=5\\left(\\frac{1}{n+4}-\\frac{1}{n+5}\\right)$, the sum is $5(1/5-1/14)=9/14$.",
+    "complexity_factor": 1.35,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions"
+    ],
+    "checksum": "sha256-239e015fb8d582621a9a9b7192e3444244f94a786b108c05eb375197d9043ec0",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.medium.0041",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{10} \\frac{2}{(n+0)(n+1)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11/6$"
+      },
+      {
+        "id": "b",
+        "latex": "$21/13$"
+      },
+      {
+        "id": "c",
+        "latex": "$20/11$"
+      },
+      {
+        "id": "d",
+        "latex": "$10/11$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "20/11",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{2}{(n+0)(n+1)}=2\\left(\\frac{1}{n+0}-\\frac{1}{n+1}\\right)$, the sum is $2(1/1-1/11)=20/11$.",
+    "complexity_factor": 1.35,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions"
+    ],
+    "checksum": "sha256-00709205abe142ba5e0f8d45a50cc2b27e14b49cded14c757615e3b11a6fa3fa",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.medium.0042",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{11} \\frac{4}{(n+1)(n+2)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11/26$"
+      },
+      {
+        "id": "b",
+        "latex": "$12/7$"
+      },
+      {
+        "id": "c",
+        "latex": "$23/15$"
+      },
+      {
+        "id": "d",
+        "latex": "$22/13$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "22/13",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{4}{(n+1)(n+2)}=4\\left(\\frac{1}{n+1}-\\frac{1}{n+2}\\right)$, the sum is $4(1/2-1/13)=22/13$.",
+    "complexity_factor": 1.35,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions"
+    ],
+    "checksum": "sha256-4fd195a13cb88bab15b332f4abace2ed7e1a0e108715c4965655a883f9ab34b7",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.medium.0043",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{12} \\frac{1}{(n+2)(n+3)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4/15$"
+      },
+      {
+        "id": "b",
+        "latex": "$13/48$"
+      },
+      {
+        "id": "c",
+        "latex": "$5/17$"
+      },
+      {
+        "id": "d",
+        "latex": "$1/3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "4/15",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{1}{(n+2)(n+3)}=1\\left(\\frac{1}{n+2}-\\frac{1}{n+3}\\right)$, the sum is $1(1/3-1/15)=4/15$.",
+    "complexity_factor": 1.35,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions"
+    ],
+    "checksum": "sha256-7340999f901aa0b56027d22071ba550d3959515ee0c800aebf97ddcd019dffc3",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.medium.0044",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{13} \\frac{3}{(n+3)(n+4)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4/7$"
+      },
+      {
+        "id": "b",
+        "latex": "$39/68$"
+      },
+      {
+        "id": "c",
+        "latex": "$13/68$"
+      },
+      {
+        "id": "d",
+        "latex": "$7/12$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "39/68",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{3}{(n+3)(n+4)}=3\\left(\\frac{1}{n+3}-\\frac{1}{n+4}\\right)$, the sum is $3(1/4-1/17)=39/68$.",
+    "complexity_factor": 1.35,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions"
+    ],
+    "checksum": "sha256-5bca2bf0f2555e3952b8e89144604338f2311cd49156694cd6f8a3160d4abab7",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.medium.0045",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{14} \\frac{5}{(n+4)(n+5)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3/4$"
+      },
+      {
+        "id": "b",
+        "latex": "$5/7$"
+      },
+      {
+        "id": "c",
+        "latex": "$14/19$"
+      },
+      {
+        "id": "d",
+        "latex": "$14/95$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "14/19",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{5}{(n+4)(n+5)}=5\\left(\\frac{1}{n+4}-\\frac{1}{n+5}\\right)$, the sum is $5(1/5-1/19)=14/19$.",
+    "complexity_factor": 1.35,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions"
+    ],
+    "checksum": "sha256-81f9bd7cbae051c073a1cc87bb93b8ea67ebe9f3cd970c311ea6aeeb7dad384b",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.medium.0046",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{15} \\frac{2}{(n+0)(n+1)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$15/16$"
+      },
+      {
+        "id": "b",
+        "latex": "$32/17$"
+      },
+      {
+        "id": "c",
+        "latex": "$8/5$"
+      },
+      {
+        "id": "d",
+        "latex": "$15/8$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "15/8",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{2}{(n+0)(n+1)}=2\\left(\\frac{1}{n+0}-\\frac{1}{n+1}\\right)$, the sum is $2(1/1-1/16)=15/8$.",
+    "complexity_factor": 1.35,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions"
+    ],
+    "checksum": "sha256-a0f43d0a944e70c47fdff1e76b03b8c6529061d90b671a458aa5b173ff8cff56",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.medium.0047",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{16} \\frac{4}{(n+1)(n+2)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16/9$"
+      },
+      {
+        "id": "b",
+        "latex": "$4/9$"
+      },
+      {
+        "id": "c",
+        "latex": "$34/19$"
+      },
+      {
+        "id": "d",
+        "latex": "$17/11$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "16/9",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{4}{(n+1)(n+2)}=4\\left(\\frac{1}{n+1}-\\frac{1}{n+2}\\right)$, the sum is $4(1/2-1/18)=16/9$.",
+    "complexity_factor": 1.35,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions"
+    ],
+    "checksum": "sha256-416d9d9eb3e1c43784314197d63e2d0f0ec0a93fd91f9fd99ad9dd788f1b6ef5",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.medium.0048",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{17} \\frac{1}{(n+2)(n+3)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$19/63$"
+      },
+      {
+        "id": "b",
+        "latex": "$17/60$"
+      },
+      {
+        "id": "c",
+        "latex": "$2/7$"
+      },
+      {
+        "id": "d",
+        "latex": "$9/31$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "17/60",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{1}{(n+2)(n+3)}=1\\left(\\frac{1}{n+2}-\\frac{1}{n+3}\\right)$, the sum is $1(1/3-1/20)=17/60$.",
+    "complexity_factor": 1.35,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions"
+    ],
+    "checksum": "sha256-f1b595aec585bab7b38d1817c5396d4e4071b98908f653584eb07ca869f8a01c",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.medium.0049",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{6} \\frac{3}{(n+3)(n+4)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$21/44$"
+      },
+      {
+        "id": "b",
+        "latex": "$5/11$"
+      },
+      {
+        "id": "c",
+        "latex": "$9/20$"
+      },
+      {
+        "id": "d",
+        "latex": "$3/20$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "9/20",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{3}{(n+3)(n+4)}=3\\left(\\frac{1}{n+3}-\\frac{1}{n+4}\\right)$, the sum is $3(1/4-1/10)=9/20$.",
+    "complexity_factor": 1.35,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions"
+    ],
+    "checksum": "sha256-60727faa3ef9e76459c70e8862fb51b9817d1c2ff4849b8bcd4da63d35cd5290",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.telescoping.medium.0050",
+    "topic_id": "ch21.telescoping",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\displaystyle \\sum_{n=1}^{7} \\frac{5}{(n+4)(n+5)}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7/60$"
+      },
+      {
+        "id": "b",
+        "latex": "$8/13$"
+      },
+      {
+        "id": "c",
+        "latex": "$4/7$"
+      },
+      {
+        "id": "d",
+        "latex": "$7/12$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "7/12",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Since $\\frac{5}{(n+4)(n+5)}=5\\left(\\frac{1}{n+4}-\\frac{1}{n+5}\\right)$, the sum is $5(1/5-1/12)=7/12$.",
+    "complexity_factor": 1.35,
+    "source_section": "21.5",
+    "tags": [
+      "telescoping",
+      "partial-fractions"
+    ],
+    "checksum": "sha256-6525e1768a104f008302b00309b1b5bb3ed37fea9876db57389720d3979436b7",
     "status": "valid"
   }
 ]

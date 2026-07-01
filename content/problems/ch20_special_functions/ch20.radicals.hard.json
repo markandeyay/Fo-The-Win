@@ -1,0 +1,2027 @@
+[
+  {
+    "id": "ch20.radicals.hard.0001",
+    "topic_id": "ch20.radicals",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $\\sqrt{4+2\\sqrt{4}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\sqrt{12}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\sqrt{2}+\\sqrt{2}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\sqrt{4}+\\sqrt{4}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\sqrt{2}-\\sqrt{2}$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "sqrt(2)+sqrt(2)",
+    "answer_type": "string",
+    "accepted_forms": [
+      "\\sqrt{2}+\\sqrt{2}"
+    ],
+    "solution_latex": "Because $(\\sqrt{2}+\\sqrt{2})^2=2+2+2\\sqrt{4}=4+2\\sqrt{4}$, the radical simplifies to $\\sqrt{2}+\\sqrt{2}$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.1",
+    "tags": [
+      "radicals",
+      "nested radicals"
+    ],
+    "checksum": "sha256-869dd94dbec96b1223a68f436a3c41e56ee4caaff65bcbf97e0c0c5c72788ec0",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.radicals.hard.0002",
+    "topic_id": "ch20.radicals",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Rationalize $\\frac{1}{\\sqrt{7}+\\sqrt{4}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\sqrt{7}-\\sqrt{4}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{1}{3}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{\\sqrt{7}-\\sqrt{4}}{3}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{\\sqrt{7}+\\sqrt{4}}{3}$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(sqrt(7)-sqrt(4))/3",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Multiply by the conjugate: $\\frac{1}{\\sqrt{7}+\\sqrt{4}}\\cdot\\frac{\\sqrt{7}-\\sqrt{4}}{\\sqrt{7}-\\sqrt{4}}=\\frac{\\sqrt{7}-\\sqrt{4}}{7-4}$.",
+    "complexity_factor": 1.5,
+    "source_section": "20.1",
+    "tags": [
+      "radicals",
+      "rationalizing",
+      "conjugates"
+    ],
+    "checksum": "sha256-7ee626e08026ca4d4d0fd960a5d641b6024d740c235c876af9d32a75168da053",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.radicals.hard.0003",
+    "topic_id": "ch20.radicals",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $\\sqrt{9+2\\sqrt{20}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\sqrt{9}+\\sqrt{20}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\sqrt{5}-\\sqrt{4}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\sqrt{49}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\sqrt{5}+\\sqrt{4}$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "sqrt(5)+sqrt(4)",
+    "answer_type": "string",
+    "accepted_forms": [
+      "\\sqrt{4}+\\sqrt{5}"
+    ],
+    "solution_latex": "Because $(\\sqrt{5}+\\sqrt{4})^2=5+4+2\\sqrt{20}=9+2\\sqrt{20}$, the radical simplifies to $\\sqrt{5}+\\sqrt{4}$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.1",
+    "tags": [
+      "radicals",
+      "nested radicals"
+    ],
+    "checksum": "sha256-9f2d086481def8adb253f696e6976f215cc4b7d20c2f6a4ed985568c01eb252a",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.radicals.hard.0004",
+    "topic_id": "ch20.radicals",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Rationalize $\\frac{1}{\\sqrt{10}+\\sqrt{4}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\frac{\\sqrt{10}-\\sqrt{4}}{6}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{\\sqrt{10}+\\sqrt{4}}{6}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\sqrt{10}-\\sqrt{4}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{1}{6}$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(sqrt(10)-sqrt(4))/6",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Multiply by the conjugate: $\\frac{1}{\\sqrt{10}+\\sqrt{4}}\\cdot\\frac{\\sqrt{10}-\\sqrt{4}}{\\sqrt{10}-\\sqrt{4}}=\\frac{\\sqrt{10}-\\sqrt{4}}{10-4}$.",
+    "complexity_factor": 1.5,
+    "source_section": "20.1",
+    "tags": [
+      "radicals",
+      "rationalizing",
+      "conjugates"
+    ],
+    "checksum": "sha256-377da4ed63b27520351b5fe82f88a70cf3c8d7713ed00c1c5d8bcf852077569c",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.radicals.hard.0005",
+    "topic_id": "ch20.radicals",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $\\sqrt{13+2\\sqrt{42}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\sqrt{97}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\sqrt{7}+\\sqrt{6}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\sqrt{13}+\\sqrt{42}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\sqrt{7}-\\sqrt{6}$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "sqrt(7)+sqrt(6)",
+    "answer_type": "string",
+    "accepted_forms": [
+      "\\sqrt{6}+\\sqrt{7}"
+    ],
+    "solution_latex": "Because $(\\sqrt{7}+\\sqrt{6})^2=7+6+2\\sqrt{42}=13+2\\sqrt{42}$, the radical simplifies to $\\sqrt{7}+\\sqrt{6}$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.1",
+    "tags": [
+      "radicals",
+      "nested radicals"
+    ],
+    "checksum": "sha256-c6ca6f4e43ec8f89c2feadb026d5fd5c38c47d178ead7d5e960387495469507e",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.radicals.hard.0006",
+    "topic_id": "ch20.radicals",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Rationalize $\\frac{1}{\\sqrt{13}+\\sqrt{4}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\sqrt{13}-\\sqrt{4}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{1}{9}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{\\sqrt{13}-\\sqrt{4}}{9}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{\\sqrt{13}+\\sqrt{4}}{9}$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(sqrt(13)-sqrt(4))/9",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Multiply by the conjugate: $\\frac{1}{\\sqrt{13}+\\sqrt{4}}\\cdot\\frac{\\sqrt{13}-\\sqrt{4}}{\\sqrt{13}-\\sqrt{4}}=\\frac{\\sqrt{13}-\\sqrt{4}}{13-4}$.",
+    "complexity_factor": 1.5,
+    "source_section": "20.1",
+    "tags": [
+      "radicals",
+      "rationalizing",
+      "conjugates"
+    ],
+    "checksum": "sha256-01919a6ea2ef7044ff1a330bb33b75088e7cfe22ace81a70b8ccf00b2f37477e",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.radicals.hard.0007",
+    "topic_id": "ch20.radicals",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $\\sqrt{11+2\\sqrt{24}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\sqrt{11}+\\sqrt{24}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\sqrt{3}-\\sqrt{8}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\sqrt{59}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\sqrt{3}+\\sqrt{8}$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "sqrt(3)+sqrt(8)",
+    "answer_type": "string",
+    "accepted_forms": [
+      "\\sqrt{8}+\\sqrt{3}"
+    ],
+    "solution_latex": "Because $(\\sqrt{3}+\\sqrt{8})^2=3+8+2\\sqrt{24}=11+2\\sqrt{24}$, the radical simplifies to $\\sqrt{3}+\\sqrt{8}$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.1",
+    "tags": [
+      "radicals",
+      "nested radicals"
+    ],
+    "checksum": "sha256-a5cbbcce7106cf409bb790f9197d633bbcf5cd514fab1755d067962e709cd0d8",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.radicals.hard.0008",
+    "topic_id": "ch20.radicals",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Rationalize $\\frac{1}{\\sqrt{8}+\\sqrt{8}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\frac{\\sqrt{8}-\\sqrt{8}}{0}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{\\sqrt{8}+\\sqrt{8}}{0}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\sqrt{8}-\\sqrt{8}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{1}{0}$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(sqrt(8)-sqrt(8))/0",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Multiply by the conjugate: $\\frac{1}{\\sqrt{8}+\\sqrt{8}}\\cdot\\frac{\\sqrt{8}-\\sqrt{8}}{\\sqrt{8}-\\sqrt{8}}=\\frac{\\sqrt{8}-\\sqrt{8}}{8-8}$.",
+    "complexity_factor": 1.5,
+    "source_section": "20.1",
+    "tags": [
+      "radicals",
+      "rationalizing",
+      "conjugates"
+    ],
+    "checksum": "sha256-3aa77df15b6153f857fe4f68d86e0aa8f238f8d00365abf2e88d571dafe6d070",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.radicals.hard.0009",
+    "topic_id": "ch20.radicals",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $\\sqrt{12+2\\sqrt{36}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\sqrt{84}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\sqrt{6}+\\sqrt{6}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\sqrt{12}+\\sqrt{36}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\sqrt{6}-\\sqrt{6}$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "sqrt(6)+sqrt(6)",
+    "answer_type": "string",
+    "accepted_forms": [
+      "\\sqrt{6}+\\sqrt{6}"
+    ],
+    "solution_latex": "Because $(\\sqrt{6}+\\sqrt{6})^2=6+6+2\\sqrt{36}=12+2\\sqrt{36}$, the radical simplifies to $\\sqrt{6}+\\sqrt{6}$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.1",
+    "tags": [
+      "radicals",
+      "nested radicals"
+    ],
+    "checksum": "sha256-b48b826dbead6283517f503bc18a81f96bbd86b099646e55bf57ca6fde6b8e4f",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.radicals.hard.0010",
+    "topic_id": "ch20.radicals",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Rationalize $\\frac{1}{\\sqrt{11}+\\sqrt{8}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\sqrt{11}-\\sqrt{8}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{1}{3}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{\\sqrt{11}-\\sqrt{8}}{3}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{\\sqrt{11}+\\sqrt{8}}{3}$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(sqrt(11)-sqrt(8))/3",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Multiply by the conjugate: $\\frac{1}{\\sqrt{11}+\\sqrt{8}}\\cdot\\frac{\\sqrt{11}-\\sqrt{8}}{\\sqrt{11}-\\sqrt{8}}=\\frac{\\sqrt{11}-\\sqrt{8}}{11-8}$.",
+    "complexity_factor": 1.5,
+    "source_section": "20.1",
+    "tags": [
+      "radicals",
+      "rationalizing",
+      "conjugates"
+    ],
+    "checksum": "sha256-7ad7b935f22475eb43df7c8a0e2071eb73c461febe39ed3a73ef01f5870459fd",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.radicals.hard.0011",
+    "topic_id": "ch20.radicals",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $\\sqrt{16+2\\sqrt{64}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\sqrt{16}+\\sqrt{64}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\sqrt{8}-\\sqrt{8}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\sqrt{144}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\sqrt{8}+\\sqrt{8}$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "sqrt(8)+sqrt(8)",
+    "answer_type": "string",
+    "accepted_forms": [
+      "\\sqrt{8}+\\sqrt{8}"
+    ],
+    "solution_latex": "Because $(\\sqrt{8}+\\sqrt{8})^2=8+8+2\\sqrt{64}=16+2\\sqrt{64}$, the radical simplifies to $\\sqrt{8}+\\sqrt{8}$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.1",
+    "tags": [
+      "radicals",
+      "nested radicals"
+    ],
+    "checksum": "sha256-d30c39896b9f3d62f1c0ae95506b384566cdbaa6e61880baeebeecdd58cd5e6d",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.radicals.hard.0012",
+    "topic_id": "ch20.radicals",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Rationalize $\\frac{1}{\\sqrt{14}+\\sqrt{8}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\frac{\\sqrt{14}-\\sqrt{8}}{6}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{\\sqrt{14}+\\sqrt{8}}{6}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\sqrt{14}-\\sqrt{8}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{1}{6}$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(sqrt(14)-sqrt(8))/6",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Multiply by the conjugate: $\\frac{1}{\\sqrt{14}+\\sqrt{8}}\\cdot\\frac{\\sqrt{14}-\\sqrt{8}}{\\sqrt{14}-\\sqrt{8}}=\\frac{\\sqrt{14}-\\sqrt{8}}{14-8}$.",
+    "complexity_factor": 1.5,
+    "source_section": "20.1",
+    "tags": [
+      "radicals",
+      "rationalizing",
+      "conjugates"
+    ],
+    "checksum": "sha256-84de8466249c08c73a11aad8725ffdd6c9d4af50c291f67cbaa72970e751278d",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.radicals.hard.0013",
+    "topic_id": "ch20.radicals",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $\\sqrt{14+2\\sqrt{40}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\sqrt{94}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\sqrt{4}+\\sqrt{10}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\sqrt{14}+\\sqrt{40}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\sqrt{4}-\\sqrt{10}$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "sqrt(4)+sqrt(10)",
+    "answer_type": "string",
+    "accepted_forms": [
+      "\\sqrt{10}+\\sqrt{4}"
+    ],
+    "solution_latex": "Because $(\\sqrt{4}+\\sqrt{10})^2=4+10+2\\sqrt{40}=14+2\\sqrt{40}$, the radical simplifies to $\\sqrt{4}+\\sqrt{10}$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.1",
+    "tags": [
+      "radicals",
+      "nested radicals"
+    ],
+    "checksum": "sha256-a0ab3fab2c2d0d76171fb626f173d3098937782c4047c219b47b17bf17330956",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.radicals.hard.0014",
+    "topic_id": "ch20.radicals",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Rationalize $\\frac{1}{\\sqrt{9}+\\sqrt{8}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\sqrt{9}-\\sqrt{8}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{1}{1}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{\\sqrt{9}-\\sqrt{8}}{1}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{\\sqrt{9}+\\sqrt{8}}{1}$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(sqrt(9)-sqrt(8))/1",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Multiply by the conjugate: $\\frac{1}{\\sqrt{9}+\\sqrt{8}}\\cdot\\frac{\\sqrt{9}-\\sqrt{8}}{\\sqrt{9}-\\sqrt{8}}=\\frac{\\sqrt{9}-\\sqrt{8}}{9-8}$.",
+    "complexity_factor": 1.5,
+    "source_section": "20.1",
+    "tags": [
+      "radicals",
+      "rationalizing",
+      "conjugates"
+    ],
+    "checksum": "sha256-2dfd5aeabf4114031dfd1df2cc16261b16ae3bb802f64aecd308f6af55b22b96",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.radicals.hard.0015",
+    "topic_id": "ch20.radicals",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $\\sqrt{19+2\\sqrt{84}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\sqrt{19}+\\sqrt{84}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\sqrt{7}-\\sqrt{12}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\sqrt{187}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\sqrt{7}+\\sqrt{12}$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "sqrt(7)+sqrt(12)",
+    "answer_type": "string",
+    "accepted_forms": [
+      "\\sqrt{12}+\\sqrt{7}"
+    ],
+    "solution_latex": "Because $(\\sqrt{7}+\\sqrt{12})^2=7+12+2\\sqrt{84}=19+2\\sqrt{84}$, the radical simplifies to $\\sqrt{7}+\\sqrt{12}$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.1",
+    "tags": [
+      "radicals",
+      "nested radicals"
+    ],
+    "checksum": "sha256-84b652a29c018e8fef7982a8aa163958e04099390d1a5e33af6ed366efb93603",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.radicals.hard.0016",
+    "topic_id": "ch20.radicals",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Rationalize $\\frac{1}{\\sqrt{12}+\\sqrt{8}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\frac{\\sqrt{12}-\\sqrt{8}}{4}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{\\sqrt{12}+\\sqrt{8}}{4}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\sqrt{12}-\\sqrt{8}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{1}{4}$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(sqrt(12)-sqrt(8))/4",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Multiply by the conjugate: $\\frac{1}{\\sqrt{12}+\\sqrt{8}}\\cdot\\frac{\\sqrt{12}-\\sqrt{8}}{\\sqrt{12}-\\sqrt{8}}=\\frac{\\sqrt{12}-\\sqrt{8}}{12-8}$.",
+    "complexity_factor": 1.5,
+    "source_section": "20.1",
+    "tags": [
+      "radicals",
+      "rationalizing",
+      "conjugates"
+    ],
+    "checksum": "sha256-a0298351a7afe77b6d9899303058f9ce5ff3623043aaa366e3d33d647da93f2c",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.radicals.hard.0017",
+    "topic_id": "ch20.radicals",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $\\sqrt{23+2\\sqrt{126}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\sqrt{275}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\sqrt{9}+\\sqrt{14}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\sqrt{23}+\\sqrt{126}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\sqrt{9}-\\sqrt{14}$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "sqrt(9)+sqrt(14)",
+    "answer_type": "string",
+    "accepted_forms": [
+      "\\sqrt{14}+\\sqrt{9}"
+    ],
+    "solution_latex": "Because $(\\sqrt{9}+\\sqrt{14})^2=9+14+2\\sqrt{126}=23+2\\sqrt{126}$, the radical simplifies to $\\sqrt{9}+\\sqrt{14}$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.1",
+    "tags": [
+      "radicals",
+      "nested radicals"
+    ],
+    "checksum": "sha256-04e8b04537515ea34d60d69d7b63e1ea5b9ebe533e0041ce9c1a84e5d4cb9aac",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.radicals.hard.0018",
+    "topic_id": "ch20.radicals",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Rationalize $\\frac{1}{\\sqrt{15}+\\sqrt{12}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\sqrt{15}-\\sqrt{12}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{1}{3}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{\\sqrt{15}-\\sqrt{12}}{3}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{\\sqrt{15}+\\sqrt{12}}{3}$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(sqrt(15)-sqrt(12))/3",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Multiply by the conjugate: $\\frac{1}{\\sqrt{15}+\\sqrt{12}}\\cdot\\frac{\\sqrt{15}-\\sqrt{12}}{\\sqrt{15}-\\sqrt{12}}=\\frac{\\sqrt{15}-\\sqrt{12}}{15-12}$.",
+    "complexity_factor": 1.5,
+    "source_section": "20.1",
+    "tags": [
+      "radicals",
+      "rationalizing",
+      "conjugates"
+    ],
+    "checksum": "sha256-e813fc75741521f73ccc9ed8b6e228227d39c96dd5dfbfba3834fa0ab710e59c",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.radicals.hard.0019",
+    "topic_id": "ch20.radicals",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $\\sqrt{17+2\\sqrt{60}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\sqrt{17}+\\sqrt{60}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\sqrt{5}-\\sqrt{12}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\sqrt{137}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\sqrt{5}+\\sqrt{12}$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "sqrt(5)+sqrt(12)",
+    "answer_type": "string",
+    "accepted_forms": [
+      "\\sqrt{12}+\\sqrt{5}"
+    ],
+    "solution_latex": "Because $(\\sqrt{5}+\\sqrt{12})^2=5+12+2\\sqrt{60}=17+2\\sqrt{60}$, the radical simplifies to $\\sqrt{5}+\\sqrt{12}$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.1",
+    "tags": [
+      "radicals",
+      "nested radicals"
+    ],
+    "checksum": "sha256-467965f52a4c3fc32583dd524339d03a63cfaef17a7b034f3a673418f2f9e5db",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.radicals.hard.0020",
+    "topic_id": "ch20.radicals",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Rationalize $\\frac{1}{\\sqrt{10}+\\sqrt{12}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\frac{\\sqrt{10}-\\sqrt{12}}{-2}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{\\sqrt{10}+\\sqrt{12}}{-2}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\sqrt{10}-\\sqrt{12}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{1}{-2}$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(sqrt(10)-sqrt(12))/-2",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Multiply by the conjugate: $\\frac{1}{\\sqrt{10}+\\sqrt{12}}\\cdot\\frac{\\sqrt{10}-\\sqrt{12}}{\\sqrt{10}-\\sqrt{12}}=\\frac{\\sqrt{10}-\\sqrt{12}}{10-12}$.",
+    "complexity_factor": 1.5,
+    "source_section": "20.1",
+    "tags": [
+      "radicals",
+      "rationalizing",
+      "conjugates"
+    ],
+    "checksum": "sha256-247f8a80c1054b906aa72e6a730331d20f66ac506e2a62bc925eaf35a848c52d",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.radicals.hard.0021",
+    "topic_id": "ch20.radicals",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $\\sqrt{22+2\\sqrt{112}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\sqrt{246}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\sqrt{8}+\\sqrt{14}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\sqrt{22}+\\sqrt{112}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\sqrt{8}-\\sqrt{14}$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "sqrt(8)+sqrt(14)",
+    "answer_type": "string",
+    "accepted_forms": [
+      "\\sqrt{14}+\\sqrt{8}"
+    ],
+    "solution_latex": "Because $(\\sqrt{8}+\\sqrt{14})^2=8+14+2\\sqrt{112}=22+2\\sqrt{112}$, the radical simplifies to $\\sqrt{8}+\\sqrt{14}$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.1",
+    "tags": [
+      "radicals",
+      "nested radicals"
+    ],
+    "checksum": "sha256-9baf0f5e74e13a9835a7645067fab046404c8ea75531f52cbe95db4dc299ccbd",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.radicals.hard.0022",
+    "topic_id": "ch20.radicals",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Rationalize $\\frac{1}{\\sqrt{13}+\\sqrt{12}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\sqrt{13}-\\sqrt{12}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{1}{1}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{\\sqrt{13}-\\sqrt{12}}{1}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{\\sqrt{13}+\\sqrt{12}}{1}$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(sqrt(13)-sqrt(12))/1",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Multiply by the conjugate: $\\frac{1}{\\sqrt{13}+\\sqrt{12}}\\cdot\\frac{\\sqrt{13}-\\sqrt{12}}{\\sqrt{13}-\\sqrt{12}}=\\frac{\\sqrt{13}-\\sqrt{12}}{13-12}$.",
+    "complexity_factor": 1.5,
+    "source_section": "20.1",
+    "tags": [
+      "radicals",
+      "rationalizing",
+      "conjugates"
+    ],
+    "checksum": "sha256-81458313ab3c47c5bb4b897b8f38d525d2d677ef129cd976cb76b5c7129cb340",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.radicals.hard.0023",
+    "topic_id": "ch20.radicals",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $\\sqrt{26+2\\sqrt{160}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\sqrt{26}+\\sqrt{160}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\sqrt{10}-\\sqrt{16}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\sqrt{346}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\sqrt{10}+\\sqrt{16}$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "sqrt(10)+sqrt(16)",
+    "answer_type": "string",
+    "accepted_forms": [
+      "\\sqrt{16}+\\sqrt{10}"
+    ],
+    "solution_latex": "Because $(\\sqrt{10}+\\sqrt{16})^2=10+16+2\\sqrt{160}=26+2\\sqrt{160}$, the radical simplifies to $\\sqrt{10}+\\sqrt{16}$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.1",
+    "tags": [
+      "radicals",
+      "nested radicals"
+    ],
+    "checksum": "sha256-b7908b58159ba891808770f5bd471c081e06b0b26cc56465368eb3785e29ea27",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.radicals.hard.0024",
+    "topic_id": "ch20.radicals",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Rationalize $\\frac{1}{\\sqrt{16}+\\sqrt{12}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\frac{\\sqrt{16}-\\sqrt{12}}{4}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{\\sqrt{16}+\\sqrt{12}}{4}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\sqrt{16}-\\sqrt{12}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{1}{4}$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(sqrt(16)-sqrt(12))/4",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Multiply by the conjugate: $\\frac{1}{\\sqrt{16}+\\sqrt{12}}\\cdot\\frac{\\sqrt{16}-\\sqrt{12}}{\\sqrt{16}-\\sqrt{12}}=\\frac{\\sqrt{16}-\\sqrt{12}}{16-12}$.",
+    "complexity_factor": 1.5,
+    "source_section": "20.1",
+    "tags": [
+      "radicals",
+      "rationalizing",
+      "conjugates"
+    ],
+    "checksum": "sha256-e449be4c36ccebee947f8209616646a4fc840578d422d4256e6dc13d7e20cc8c",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.radicals.hard.0025",
+    "topic_id": "ch20.radicals",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $\\sqrt{24+2\\sqrt{108}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\sqrt{240}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\sqrt{6}+\\sqrt{18}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\sqrt{24}+\\sqrt{108}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\sqrt{6}-\\sqrt{18}$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "sqrt(6)+sqrt(18)",
+    "answer_type": "string",
+    "accepted_forms": [
+      "\\sqrt{18}+\\sqrt{6}"
+    ],
+    "solution_latex": "Because $(\\sqrt{6}+\\sqrt{18})^2=6+18+2\\sqrt{108}=24+2\\sqrt{108}$, the radical simplifies to $\\sqrt{6}+\\sqrt{18}$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.1",
+    "tags": [
+      "radicals",
+      "nested radicals"
+    ],
+    "checksum": "sha256-425af2d815790485f24b7ea8c09aff0d5e8933d1ea2c390ac98a92a4d089b9f4",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.radicals.hard.0026",
+    "topic_id": "ch20.radicals",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Rationalize $\\frac{1}{\\sqrt{11}+\\sqrt{12}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\sqrt{11}-\\sqrt{12}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{1}{-1}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{\\sqrt{11}-\\sqrt{12}}{-1}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{\\sqrt{11}+\\sqrt{12}}{-1}$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(sqrt(11)-sqrt(12))/-1",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Multiply by the conjugate: $\\frac{1}{\\sqrt{11}+\\sqrt{12}}\\cdot\\frac{\\sqrt{11}-\\sqrt{12}}{\\sqrt{11}-\\sqrt{12}}=\\frac{\\sqrt{11}-\\sqrt{12}}{11-12}$.",
+    "complexity_factor": 1.5,
+    "source_section": "20.1",
+    "tags": [
+      "radicals",
+      "rationalizing",
+      "conjugates"
+    ],
+    "checksum": "sha256-bb243bd83f69373efb4d31c2822f74cace72922a0ae833186fb2c1400cc92483",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.radicals.hard.0027",
+    "topic_id": "ch20.radicals",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $\\sqrt{29+2\\sqrt{180}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\sqrt{29}+\\sqrt{180}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\sqrt{9}-\\sqrt{20}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\sqrt{389}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\sqrt{9}+\\sqrt{20}$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "sqrt(9)+sqrt(20)",
+    "answer_type": "string",
+    "accepted_forms": [
+      "\\sqrt{20}+\\sqrt{9}"
+    ],
+    "solution_latex": "Because $(\\sqrt{9}+\\sqrt{20})^2=9+20+2\\sqrt{180}=29+2\\sqrt{180}$, the radical simplifies to $\\sqrt{9}+\\sqrt{20}$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.1",
+    "tags": [
+      "radicals",
+      "nested radicals"
+    ],
+    "checksum": "sha256-4f3a425812972cfdb8848ca9c83b31e45963ffb41c8ad5aa998cb74e2f034b16",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.radicals.hard.0028",
+    "topic_id": "ch20.radicals",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Rationalize $\\frac{1}{\\sqrt{14}+\\sqrt{16}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\frac{\\sqrt{14}-\\sqrt{16}}{-2}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{\\sqrt{14}+\\sqrt{16}}{-2}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\sqrt{14}-\\sqrt{16}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{1}{-2}$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(sqrt(14)-sqrt(16))/-2",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Multiply by the conjugate: $\\frac{1}{\\sqrt{14}+\\sqrt{16}}\\cdot\\frac{\\sqrt{14}-\\sqrt{16}}{\\sqrt{14}-\\sqrt{16}}=\\frac{\\sqrt{14}-\\sqrt{16}}{14-16}$.",
+    "complexity_factor": 1.5,
+    "source_section": "20.1",
+    "tags": [
+      "radicals",
+      "rationalizing",
+      "conjugates"
+    ],
+    "checksum": "sha256-d8b778c5afb55c540241692aa172ba7fde04647bd57adb09146d1daedce98b53",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.radicals.hard.0029",
+    "topic_id": "ch20.radicals",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $\\sqrt{29+2\\sqrt{198}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\sqrt{425}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\sqrt{11}+\\sqrt{18}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\sqrt{29}+\\sqrt{198}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\sqrt{11}-\\sqrt{18}$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "sqrt(11)+sqrt(18)",
+    "answer_type": "string",
+    "accepted_forms": [
+      "\\sqrt{18}+\\sqrt{11}"
+    ],
+    "solution_latex": "Because $(\\sqrt{11}+\\sqrt{18})^2=11+18+2\\sqrt{198}=29+2\\sqrt{198}$, the radical simplifies to $\\sqrt{11}+\\sqrt{18}$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.1",
+    "tags": [
+      "radicals",
+      "nested radicals"
+    ],
+    "checksum": "sha256-8be2640f6a259fbead515c158d7817f2836f056f888fe88ccf64e494cb99ab2c",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.radicals.hard.0030",
+    "topic_id": "ch20.radicals",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Rationalize $\\frac{1}{\\sqrt{17}+\\sqrt{16}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\sqrt{17}-\\sqrt{16}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{1}{1}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{\\sqrt{17}-\\sqrt{16}}{1}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{\\sqrt{17}+\\sqrt{16}}{1}$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(sqrt(17)-sqrt(16))/1",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Multiply by the conjugate: $\\frac{1}{\\sqrt{17}+\\sqrt{16}}\\cdot\\frac{\\sqrt{17}-\\sqrt{16}}{\\sqrt{17}-\\sqrt{16}}=\\frac{\\sqrt{17}-\\sqrt{16}}{17-16}$.",
+    "complexity_factor": 1.5,
+    "source_section": "20.1",
+    "tags": [
+      "radicals",
+      "rationalizing",
+      "conjugates"
+    ],
+    "checksum": "sha256-6c49823553b59aa6b2313768dce9d401bf9c3c7eb780a92cb0a05bf024ecd1a5",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.radicals.hard.0031",
+    "topic_id": "ch20.radicals",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $\\sqrt{27+2\\sqrt{140}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\sqrt{27}+\\sqrt{140}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\sqrt{7}-\\sqrt{20}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\sqrt{307}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\sqrt{7}+\\sqrt{20}$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "sqrt(7)+sqrt(20)",
+    "answer_type": "string",
+    "accepted_forms": [
+      "\\sqrt{20}+\\sqrt{7}"
+    ],
+    "solution_latex": "Because $(\\sqrt{7}+\\sqrt{20})^2=7+20+2\\sqrt{140}=27+2\\sqrt{140}$, the radical simplifies to $\\sqrt{7}+\\sqrt{20}$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.1",
+    "tags": [
+      "radicals",
+      "nested radicals"
+    ],
+    "checksum": "sha256-4510d64b5781a19969e3b5edb060ad1a30a716c05574d890ed2d90fa48d9e19f",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.radicals.hard.0032",
+    "topic_id": "ch20.radicals",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Rationalize $\\frac{1}{\\sqrt{12}+\\sqrt{16}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\frac{\\sqrt{12}-\\sqrt{16}}{-4}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{\\sqrt{12}+\\sqrt{16}}{-4}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\sqrt{12}-\\sqrt{16}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{1}{-4}$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(sqrt(12)-sqrt(16))/-4",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Multiply by the conjugate: $\\frac{1}{\\sqrt{12}+\\sqrt{16}}\\cdot\\frac{\\sqrt{12}-\\sqrt{16}}{\\sqrt{12}-\\sqrt{16}}=\\frac{\\sqrt{12}-\\sqrt{16}}{12-16}$.",
+    "complexity_factor": 1.5,
+    "source_section": "20.1",
+    "tags": [
+      "radicals",
+      "rationalizing",
+      "conjugates"
+    ],
+    "checksum": "sha256-646f38b553e0f18286affb8b1a7f10a251ce1aeafacec7969614f9724530a2ea",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.radicals.hard.0033",
+    "topic_id": "ch20.radicals",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $\\sqrt{32+2\\sqrt{220}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\sqrt{472}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\sqrt{10}+\\sqrt{22}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\sqrt{32}+\\sqrt{220}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\sqrt{10}-\\sqrt{22}$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "sqrt(10)+sqrt(22)",
+    "answer_type": "string",
+    "accepted_forms": [
+      "\\sqrt{22}+\\sqrt{10}"
+    ],
+    "solution_latex": "Because $(\\sqrt{10}+\\sqrt{22})^2=10+22+2\\sqrt{220}=32+2\\sqrt{220}$, the radical simplifies to $\\sqrt{10}+\\sqrt{22}$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.1",
+    "tags": [
+      "radicals",
+      "nested radicals"
+    ],
+    "checksum": "sha256-c0247681fea6a50e7567946d7ddd34bc9dfab3828b2b29d7550936900d231b34",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.radicals.hard.0034",
+    "topic_id": "ch20.radicals",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Rationalize $\\frac{1}{\\sqrt{15}+\\sqrt{16}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\sqrt{15}-\\sqrt{16}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{1}{-1}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{\\sqrt{15}-\\sqrt{16}}{-1}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{\\sqrt{15}+\\sqrt{16}}{-1}$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(sqrt(15)-sqrt(16))/-1",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Multiply by the conjugate: $\\frac{1}{\\sqrt{15}+\\sqrt{16}}\\cdot\\frac{\\sqrt{15}-\\sqrt{16}}{\\sqrt{15}-\\sqrt{16}}=\\frac{\\sqrt{15}-\\sqrt{16}}{15-16}$.",
+    "complexity_factor": 1.5,
+    "source_section": "20.1",
+    "tags": [
+      "radicals",
+      "rationalizing",
+      "conjugates"
+    ],
+    "checksum": "sha256-2de668d798790b48389637fbbd22db4a1a42c8af8627c33fdd753189330d6e46",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.radicals.hard.0035",
+    "topic_id": "ch20.radicals",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $\\sqrt{36+2\\sqrt{288}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\sqrt{36}+\\sqrt{288}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\sqrt{12}-\\sqrt{24}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\sqrt{612}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\sqrt{12}+\\sqrt{24}$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "sqrt(12)+sqrt(24)",
+    "answer_type": "string",
+    "accepted_forms": [
+      "\\sqrt{24}+\\sqrt{12}"
+    ],
+    "solution_latex": "Because $(\\sqrt{12}+\\sqrt{24})^2=12+24+2\\sqrt{288}=36+2\\sqrt{288}$, the radical simplifies to $\\sqrt{12}+\\sqrt{24}$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.1",
+    "tags": [
+      "radicals",
+      "nested radicals"
+    ],
+    "checksum": "sha256-8a684ae422df3b14fbc9f42eb9ad58af9bcc17e6c5c29481cddbc7fc9ed065f7",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.radicals.hard.0036",
+    "topic_id": "ch20.radicals",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Rationalize $\\frac{1}{\\sqrt{18}+\\sqrt{16}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\frac{\\sqrt{18}-\\sqrt{16}}{2}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{\\sqrt{18}+\\sqrt{16}}{2}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\sqrt{18}-\\sqrt{16}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{1}{2}$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(sqrt(18)-sqrt(16))/2",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Multiply by the conjugate: $\\frac{1}{\\sqrt{18}+\\sqrt{16}}\\cdot\\frac{\\sqrt{18}-\\sqrt{16}}{\\sqrt{18}-\\sqrt{16}}=\\frac{\\sqrt{18}-\\sqrt{16}}{18-16}$.",
+    "complexity_factor": 1.5,
+    "source_section": "20.1",
+    "tags": [
+      "radicals",
+      "rationalizing",
+      "conjugates"
+    ],
+    "checksum": "sha256-fee386fa7e470c03e217e4e10d08d47857247cb95033251031c8bd6b5c99b622",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.radicals.hard.0037",
+    "topic_id": "ch20.radicals",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $\\sqrt{34+2\\sqrt{208}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\sqrt{450}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\sqrt{8}+\\sqrt{26}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\sqrt{34}+\\sqrt{208}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\sqrt{8}-\\sqrt{26}$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "sqrt(8)+sqrt(26)",
+    "answer_type": "string",
+    "accepted_forms": [
+      "\\sqrt{26}+\\sqrt{8}"
+    ],
+    "solution_latex": "Because $(\\sqrt{8}+\\sqrt{26})^2=8+26+2\\sqrt{208}=34+2\\sqrt{208}$, the radical simplifies to $\\sqrt{8}+\\sqrt{26}$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.1",
+    "tags": [
+      "radicals",
+      "nested radicals"
+    ],
+    "checksum": "sha256-1b6d2b2de532589f8563cac1415eb3c277fa33b929000d881cda02a99c7bdcec",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.radicals.hard.0038",
+    "topic_id": "ch20.radicals",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Rationalize $\\frac{1}{\\sqrt{13}+\\sqrt{20}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\sqrt{13}-\\sqrt{20}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{1}{-7}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{\\sqrt{13}-\\sqrt{20}}{-7}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{\\sqrt{13}+\\sqrt{20}}{-7}$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(sqrt(13)-sqrt(20))/-7",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Multiply by the conjugate: $\\frac{1}{\\sqrt{13}+\\sqrt{20}}\\cdot\\frac{\\sqrt{13}-\\sqrt{20}}{\\sqrt{13}-\\sqrt{20}}=\\frac{\\sqrt{13}-\\sqrt{20}}{13-20}$.",
+    "complexity_factor": 1.5,
+    "source_section": "20.1",
+    "tags": [
+      "radicals",
+      "rationalizing",
+      "conjugates"
+    ],
+    "checksum": "sha256-f16fc552d8de7bddd26017fdbf4ee59a3434be1580f89919380aa643879dd7b1",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.radicals.hard.0039",
+    "topic_id": "ch20.radicals",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $\\sqrt{35+2\\sqrt{264}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\sqrt{35}+\\sqrt{264}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\sqrt{11}-\\sqrt{24}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\sqrt{563}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\sqrt{11}+\\sqrt{24}$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "sqrt(11)+sqrt(24)",
+    "answer_type": "string",
+    "accepted_forms": [
+      "\\sqrt{24}+\\sqrt{11}"
+    ],
+    "solution_latex": "Because $(\\sqrt{11}+\\sqrt{24})^2=11+24+2\\sqrt{264}=35+2\\sqrt{264}$, the radical simplifies to $\\sqrt{11}+\\sqrt{24}$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.1",
+    "tags": [
+      "radicals",
+      "nested radicals"
+    ],
+    "checksum": "sha256-2dcd860b5afb010489e8d92c1da840d914600007933ca6bff408c94be8e39b62",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.radicals.hard.0040",
+    "topic_id": "ch20.radicals",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Rationalize $\\frac{1}{\\sqrt{16}+\\sqrt{20}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\frac{\\sqrt{16}-\\sqrt{20}}{-4}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{\\sqrt{16}+\\sqrt{20}}{-4}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\sqrt{16}-\\sqrt{20}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{1}{-4}$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(sqrt(16)-sqrt(20))/-4",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Multiply by the conjugate: $\\frac{1}{\\sqrt{16}+\\sqrt{20}}\\cdot\\frac{\\sqrt{16}-\\sqrt{20}}{\\sqrt{16}-\\sqrt{20}}=\\frac{\\sqrt{16}-\\sqrt{20}}{16-20}$.",
+    "complexity_factor": 1.5,
+    "source_section": "20.1",
+    "tags": [
+      "radicals",
+      "rationalizing",
+      "conjugates"
+    ],
+    "checksum": "sha256-06b4acc0bb975ffd9addce8f3995fdb27dc3f763d9daa6520e0283d568d45743",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.radicals.hard.0041",
+    "topic_id": "ch20.radicals",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $\\sqrt{39+2\\sqrt{338}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\sqrt{715}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\sqrt{13}+\\sqrt{26}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\sqrt{39}+\\sqrt{338}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\sqrt{13}-\\sqrt{26}$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "sqrt(13)+sqrt(26)",
+    "answer_type": "string",
+    "accepted_forms": [
+      "\\sqrt{26}+\\sqrt{13}"
+    ],
+    "solution_latex": "Because $(\\sqrt{13}+\\sqrt{26})^2=13+26+2\\sqrt{338}=39+2\\sqrt{338}$, the radical simplifies to $\\sqrt{13}+\\sqrt{26}$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.1",
+    "tags": [
+      "radicals",
+      "nested radicals"
+    ],
+    "checksum": "sha256-73d4adffd7ac1df8860a2d780b95f10739a2f7faed10bd960a68d99580b563aa",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.radicals.hard.0042",
+    "topic_id": "ch20.radicals",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Rationalize $\\frac{1}{\\sqrt{19}+\\sqrt{20}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\sqrt{19}-\\sqrt{20}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{1}{-1}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{\\sqrt{19}-\\sqrt{20}}{-1}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{\\sqrt{19}+\\sqrt{20}}{-1}$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(sqrt(19)-sqrt(20))/-1",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Multiply by the conjugate: $\\frac{1}{\\sqrt{19}+\\sqrt{20}}\\cdot\\frac{\\sqrt{19}-\\sqrt{20}}{\\sqrt{19}-\\sqrt{20}}=\\frac{\\sqrt{19}-\\sqrt{20}}{19-20}$.",
+    "complexity_factor": 1.5,
+    "source_section": "20.1",
+    "tags": [
+      "radicals",
+      "rationalizing",
+      "conjugates"
+    ],
+    "checksum": "sha256-375741db58cec42d3b036a2da6caf977a9fa15c30af616a3cfed8af1e98986ff",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.radicals.hard.0043",
+    "topic_id": "ch20.radicals",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $\\sqrt{37+2\\sqrt{252}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\sqrt{37}+\\sqrt{252}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\sqrt{9}-\\sqrt{28}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\sqrt{541}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\sqrt{9}+\\sqrt{28}$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "sqrt(9)+sqrt(28)",
+    "answer_type": "string",
+    "accepted_forms": [
+      "\\sqrt{28}+\\sqrt{9}"
+    ],
+    "solution_latex": "Because $(\\sqrt{9}+\\sqrt{28})^2=9+28+2\\sqrt{252}=37+2\\sqrt{252}$, the radical simplifies to $\\sqrt{9}+\\sqrt{28}$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.1",
+    "tags": [
+      "radicals",
+      "nested radicals"
+    ],
+    "checksum": "sha256-671386f45bd6b1ff3856de2961ab03ed9d3072719ea1e6322e39ae90d63d7958",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.radicals.hard.0044",
+    "topic_id": "ch20.radicals",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Rationalize $\\frac{1}{\\sqrt{14}+\\sqrt{20}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\frac{\\sqrt{14}-\\sqrt{20}}{-6}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{\\sqrt{14}+\\sqrt{20}}{-6}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\sqrt{14}-\\sqrt{20}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{1}{-6}$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(sqrt(14)-sqrt(20))/-6",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Multiply by the conjugate: $\\frac{1}{\\sqrt{14}+\\sqrt{20}}\\cdot\\frac{\\sqrt{14}-\\sqrt{20}}{\\sqrt{14}-\\sqrt{20}}=\\frac{\\sqrt{14}-\\sqrt{20}}{14-20}$.",
+    "complexity_factor": 1.5,
+    "source_section": "20.1",
+    "tags": [
+      "radicals",
+      "rationalizing",
+      "conjugates"
+    ],
+    "checksum": "sha256-145db8a93a0453771d1bbdf85e64b6e4fc818636c019a271d36e54b52b9a5d99",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.radicals.hard.0045",
+    "topic_id": "ch20.radicals",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $\\sqrt{42+2\\sqrt{360}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\sqrt{762}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\sqrt{12}+\\sqrt{30}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\sqrt{42}+\\sqrt{360}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\sqrt{12}-\\sqrt{30}$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "sqrt(12)+sqrt(30)",
+    "answer_type": "string",
+    "accepted_forms": [
+      "\\sqrt{30}+\\sqrt{12}"
+    ],
+    "solution_latex": "Because $(\\sqrt{12}+\\sqrt{30})^2=12+30+2\\sqrt{360}=42+2\\sqrt{360}$, the radical simplifies to $\\sqrt{12}+\\sqrt{30}$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.1",
+    "tags": [
+      "radicals",
+      "nested radicals"
+    ],
+    "checksum": "sha256-5b9b886e98b29273eaa27bb52c71a71084cfbc2d833b7153632de1fd79cfc880",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.radicals.hard.0046",
+    "topic_id": "ch20.radicals",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Rationalize $\\frac{1}{\\sqrt{17}+\\sqrt{20}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\sqrt{17}-\\sqrt{20}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{1}{-3}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{\\sqrt{17}-\\sqrt{20}}{-3}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{\\sqrt{17}+\\sqrt{20}}{-3}$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(sqrt(17)-sqrt(20))/-3",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Multiply by the conjugate: $\\frac{1}{\\sqrt{17}+\\sqrt{20}}\\cdot\\frac{\\sqrt{17}-\\sqrt{20}}{\\sqrt{17}-\\sqrt{20}}=\\frac{\\sqrt{17}-\\sqrt{20}}{17-20}$.",
+    "complexity_factor": 1.5,
+    "source_section": "20.1",
+    "tags": [
+      "radicals",
+      "rationalizing",
+      "conjugates"
+    ],
+    "checksum": "sha256-739dd59def6ee7cd553f738db244cbd93b9349bbf2eb93af22d937e12708e1d1",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.radicals.hard.0047",
+    "topic_id": "ch20.radicals",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $\\sqrt{46+2\\sqrt{448}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\sqrt{46}+\\sqrt{448}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\sqrt{14}-\\sqrt{32}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\sqrt{942}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\sqrt{14}+\\sqrt{32}$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "sqrt(14)+sqrt(32)",
+    "answer_type": "string",
+    "accepted_forms": [
+      "\\sqrt{32}+\\sqrt{14}"
+    ],
+    "solution_latex": "Because $(\\sqrt{14}+\\sqrt{32})^2=14+32+2\\sqrt{448}=46+2\\sqrt{448}$, the radical simplifies to $\\sqrt{14}+\\sqrt{32}$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.1",
+    "tags": [
+      "radicals",
+      "nested radicals"
+    ],
+    "checksum": "sha256-1da930e41fe1503151d96ad50ed05d8a9ab26a2c72519dae35a68d3db9977a0a",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.radicals.hard.0048",
+    "topic_id": "ch20.radicals",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Rationalize $\\frac{1}{\\sqrt{20}+\\sqrt{24}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\frac{\\sqrt{20}-\\sqrt{24}}{-4}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{\\sqrt{20}+\\sqrt{24}}{-4}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\sqrt{20}-\\sqrt{24}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{1}{-4}$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(sqrt(20)-sqrt(24))/-4",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Multiply by the conjugate: $\\frac{1}{\\sqrt{20}+\\sqrt{24}}\\cdot\\frac{\\sqrt{20}-\\sqrt{24}}{\\sqrt{20}-\\sqrt{24}}=\\frac{\\sqrt{20}-\\sqrt{24}}{20-24}$.",
+    "complexity_factor": 1.5,
+    "source_section": "20.1",
+    "tags": [
+      "radicals",
+      "rationalizing",
+      "conjugates"
+    ],
+    "checksum": "sha256-b2bf4c563af3ff6a5b18dfd3729a5c147b84b1f9c392883d3742941e7c1b4ef9",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.radicals.hard.0049",
+    "topic_id": "ch20.radicals",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $\\sqrt{40+2\\sqrt{300}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\sqrt{640}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\sqrt{10}+\\sqrt{30}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\sqrt{40}+\\sqrt{300}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\sqrt{10}-\\sqrt{30}$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "sqrt(10)+sqrt(30)",
+    "answer_type": "string",
+    "accepted_forms": [
+      "\\sqrt{30}+\\sqrt{10}"
+    ],
+    "solution_latex": "Because $(\\sqrt{10}+\\sqrt{30})^2=10+30+2\\sqrt{300}=40+2\\sqrt{300}$, the radical simplifies to $\\sqrt{10}+\\sqrt{30}$.",
+    "complexity_factor": 1.45,
+    "source_section": "20.1",
+    "tags": [
+      "radicals",
+      "nested radicals"
+    ],
+    "checksum": "sha256-512efd2db3bd146b0891e3488911ba705488a2c59f80953551a7c478877b9590",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.radicals.hard.0050",
+    "topic_id": "ch20.radicals",
+    "group_id": "ch20_special_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Rationalize $\\frac{1}{\\sqrt{15}+\\sqrt{24}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$\\sqrt{15}-\\sqrt{24}$"
+      },
+      {
+        "id": "b",
+        "latex": "$\\frac{1}{-9}$"
+      },
+      {
+        "id": "c",
+        "latex": "$\\frac{\\sqrt{15}-\\sqrt{24}}{-9}$"
+      },
+      {
+        "id": "d",
+        "latex": "$\\frac{\\sqrt{15}+\\sqrt{24}}{-9}$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(sqrt(15)-sqrt(24))/-9",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Multiply by the conjugate: $\\frac{1}{\\sqrt{15}+\\sqrt{24}}\\cdot\\frac{\\sqrt{15}-\\sqrt{24}}{\\sqrt{15}-\\sqrt{24}}=\\frac{\\sqrt{15}-\\sqrt{24}}{15-24}$.",
+    "complexity_factor": 1.5,
+    "source_section": "20.1",
+    "tags": [
+      "radicals",
+      "rationalizing",
+      "conjugates"
+    ],
+    "checksum": "sha256-7648c0bd42bb0f25ac96dd70a01f5770d0e16cc07070acefd4e03eaeb6441253",
+    "status": "valid"
+  }
+]

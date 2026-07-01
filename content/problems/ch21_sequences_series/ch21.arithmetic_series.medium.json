@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "ch21.arithmetic_series.medium.0001",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "An arithmetic series has first term $-8$, last term $10$, and $7$ terms. Find its sum.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$14$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$25$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=\\frac{n}{2}(a_1+a_n)$, so $S_{7}=\\frac{7}{2}(-8+10)=7$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "first-last"
+    ],
+    "checksum": "sha256-e323c2d713b3835f83e521d35b8494295b8f185e82b0478a03b67bc51cd358eb",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.medium.0002",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "An arithmetic series has first term $-4$, last term $38$, and $8$ terms. Find its sum.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$178$"
+      },
+      {
+        "id": "b",
+        "latex": "$136$"
+      },
+      {
+        "id": "c",
+        "latex": "$272$"
+      },
+      {
+        "id": "d",
+        "latex": "$119$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "136",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=\\frac{n}{2}(a_1+a_n)$, so $S_{8}=\\frac{8}{2}(-4+38)=136$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "first-last"
+    ],
+    "checksum": "sha256-845481814399e21db411c331138fac103c0c511cbae2644314cf5c065c4ca03c",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.medium.0003",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "An arithmetic series has first term $-1$, last term $23$, and $9$ terms. Find its sum.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$88$"
+      },
+      {
+        "id": "b",
+        "latex": "$123$"
+      },
+      {
+        "id": "c",
+        "latex": "$99$"
+      },
+      {
+        "id": "d",
+        "latex": "$198$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "99",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=\\frac{n}{2}(a_1+a_n)$, so $S_{9}=\\frac{9}{2}(-1+23)=99$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "first-last"
+    ],
+    "checksum": "sha256-a38927c745a90ba1fc332b6b0c6c47c05da26e5176716c45f671b9bf6d285b97",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.medium.0004",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "An arithmetic series has first term $2$, last term $56$, and $10$ terms. Find its sum.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$580$"
+      },
+      {
+        "id": "b",
+        "latex": "$261$"
+      },
+      {
+        "id": "c",
+        "latex": "$344$"
+      },
+      {
+        "id": "d",
+        "latex": "$290$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "290",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=\\frac{n}{2}(a_1+a_n)$, so $S_{10}=\\frac{10}{2}(2+56)=290$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "first-last"
+    ],
+    "checksum": "sha256-9effb4a902e6dd61b72c2431b1a215c814d39fd6fe6102148fa81d8d1fe69563",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.medium.0005",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "An arithmetic series has first term $5$, last term $35$, and $11$ terms. Find its sum.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$220$"
+      },
+      {
+        "id": "b",
+        "latex": "$440$"
+      },
+      {
+        "id": "c",
+        "latex": "$200$"
+      },
+      {
+        "id": "d",
+        "latex": "$250$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "220",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=\\frac{n}{2}(a_1+a_n)$, so $S_{11}=\\frac{11}{2}(5+35)=220$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "first-last"
+    ],
+    "checksum": "sha256-d73b00023ea6a5dd13bfbf7b7132beac2c94d36a9e1379942110a955b1205c87",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.medium.0006",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "An arithmetic series has first term $9$, last term $75$, and $12$ terms. Find its sum.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$570$"
+      },
+      {
+        "id": "b",
+        "latex": "$504$"
+      },
+      {
+        "id": "c",
+        "latex": "$1008$"
+      },
+      {
+        "id": "d",
+        "latex": "$462$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "504",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=\\frac{n}{2}(a_1+a_n)$, so $S_{12}=\\frac{12}{2}(9+75)=504$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "first-last"
+    ],
+    "checksum": "sha256-13d2a857ca1f083e0ef6053f346966fc6cfc33bb80bba72a129cdf71d84f4f8e",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.medium.0007",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "An arithmetic series has first term $13$, last term $49$, and $13$ terms. Find its sum.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$372$"
+      },
+      {
+        "id": "b",
+        "latex": "$439$"
+      },
+      {
+        "id": "c",
+        "latex": "$403$"
+      },
+      {
+        "id": "d",
+        "latex": "$806$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "403",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=\\frac{n}{2}(a_1+a_n)$, so $S_{13}=\\frac{13}{2}(13+49)=403$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "first-last"
+    ],
+    "checksum": "sha256-ef0da7b7d4bca7f5be8afc61c686bc73b2fad73d06e5ca78df6bbd4979b0c4af",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.medium.0008",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "An arithmetic series has first term $-8$, last term $70$, and $14$ terms. Find its sum.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$868$"
+      },
+      {
+        "id": "b",
+        "latex": "$403$"
+      },
+      {
+        "id": "c",
+        "latex": "$512$"
+      },
+      {
+        "id": "d",
+        "latex": "$434$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "434",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=\\frac{n}{2}(a_1+a_n)$, so $S_{14}=\\frac{14}{2}(-8+70)=434$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "first-last"
+    ],
+    "checksum": "sha256-bddb1fe230d60f3e618bb9a6c13889c4d8cc7e8cf43e23f209a9f78feb284dbe",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.medium.0009",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "An arithmetic series has first term $-4$, last term $38$, and $15$ terms. Find its sum.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$255$"
+      },
+      {
+        "id": "b",
+        "latex": "$510$"
+      },
+      {
+        "id": "c",
+        "latex": "$238$"
+      },
+      {
+        "id": "d",
+        "latex": "$297$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "255",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=\\frac{n}{2}(a_1+a_n)$, so $S_{15}=\\frac{15}{2}(-4+38)=255$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "first-last"
+    ],
+    "checksum": "sha256-e24f36346313f0cf6954a3509ea8e3a5aa8d1b4684cc90308c400afabeb5b4ab",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.medium.0010",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "An arithmetic series has first term $-1$, last term $89$, and $16$ terms. Find its sum.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$794$"
+      },
+      {
+        "id": "b",
+        "latex": "$704$"
+      },
+      {
+        "id": "c",
+        "latex": "$1408$"
+      },
+      {
+        "id": "d",
+        "latex": "$660$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "704",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=\\frac{n}{2}(a_1+a_n)$, so $S_{16}=\\frac{16}{2}(-1+89)=704$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "first-last"
+    ],
+    "checksum": "sha256-0fb14a5a24816f7d0f0b0acda9c287dac3e7cd965e2986532617c10bb44ba64a",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.medium.0011",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "An arithmetic series has first term $2$, last term $50$, and $17$ terms. Find its sum.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$416$"
+      },
+      {
+        "id": "b",
+        "latex": "$490$"
+      },
+      {
+        "id": "c",
+        "latex": "$442$"
+      },
+      {
+        "id": "d",
+        "latex": "$884$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "442",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=\\frac{n}{2}(a_1+a_n)$, so $S_{17}=\\frac{17}{2}(2+50)=442$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "first-last"
+    ],
+    "checksum": "sha256-51c1ee6f4a55dec5a93c6038ea2436ee3e8a883b4bdf018866936129e7ea2f4d",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.medium.0012",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "An arithmetic series has first term $5$, last term $107$, and $18$ terms. Find its sum.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2016$"
+      },
+      {
+        "id": "b",
+        "latex": "$952$"
+      },
+      {
+        "id": "c",
+        "latex": "$1110$"
+      },
+      {
+        "id": "d",
+        "latex": "$1008$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1008",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=\\frac{n}{2}(a_1+a_n)$, so $S_{18}=\\frac{18}{2}(5+107)=1008$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "first-last"
+    ],
+    "checksum": "sha256-92a7dc94380d968a0b1e79f8d10145753797a53b4275933774d9636517cf30b7",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.medium.0013",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "An arithmetic series has first term $9$, last term $27$, and $7$ terms. Find its sum.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$126$"
+      },
+      {
+        "id": "b",
+        "latex": "$252$"
+      },
+      {
+        "id": "c",
+        "latex": "$108$"
+      },
+      {
+        "id": "d",
+        "latex": "$144$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "126",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=\\frac{n}{2}(a_1+a_n)$, so $S_{7}=\\frac{7}{2}(9+27)=126$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "first-last"
+    ],
+    "checksum": "sha256-24e60bcff745c8d8e6bcd56e43d9a8c0b557be0f7470fb07bc34167fad535c45",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.medium.0014",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "An arithmetic series has first term $13$, last term $55$, and $8$ terms. Find its sum.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$314$"
+      },
+      {
+        "id": "b",
+        "latex": "$272$"
+      },
+      {
+        "id": "c",
+        "latex": "$544$"
+      },
+      {
+        "id": "d",
+        "latex": "$238$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "272",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=\\frac{n}{2}(a_1+a_n)$, so $S_{8}=\\frac{8}{2}(13+55)=272$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "first-last"
+    ],
+    "checksum": "sha256-1fe4b389adda4fbbde21ac3e34f928dff32a6babb167c285b647835145b1d913",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.medium.0015",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "An arithmetic series has first term $-8$, last term $16$, and $9$ terms. Find its sum.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$32$"
+      },
+      {
+        "id": "b",
+        "latex": "$60$"
+      },
+      {
+        "id": "c",
+        "latex": "$36$"
+      },
+      {
+        "id": "d",
+        "latex": "$72$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "36",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=\\frac{n}{2}(a_1+a_n)$, so $S_{9}=\\frac{9}{2}(-8+16)=36$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "first-last"
+    ],
+    "checksum": "sha256-001ed46a88facbd385761150e52d9793ddb844a83c43f42af662d28ea8f519a3",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.medium.0016",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "An arithmetic series has first term $-4$, last term $50$, and $10$ terms. Find its sum.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$460$"
+      },
+      {
+        "id": "b",
+        "latex": "$207$"
+      },
+      {
+        "id": "c",
+        "latex": "$284$"
+      },
+      {
+        "id": "d",
+        "latex": "$230$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "230",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=\\frac{n}{2}(a_1+a_n)$, so $S_{10}=\\frac{10}{2}(-4+50)=230$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "first-last"
+    ],
+    "checksum": "sha256-c16952ca826f7311e306c1beccb076326ec06aa8c6e57aec980e28ed2cd12977",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.medium.0017",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "An arithmetic series has first term $-1$, last term $29$, and $11$ terms. Find its sum.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$154$"
+      },
+      {
+        "id": "b",
+        "latex": "$308$"
+      },
+      {
+        "id": "c",
+        "latex": "$140$"
+      },
+      {
+        "id": "d",
+        "latex": "$184$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "154",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=\\frac{n}{2}(a_1+a_n)$, so $S_{11}=\\frac{11}{2}(-1+29)=154$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "first-last"
+    ],
+    "checksum": "sha256-32909e574b7842e4e03467c0f69de3e3f2718e07d38d76c10cdf8d1e4f6c31a8",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.medium.0018",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "An arithmetic series has first term $2$, last term $68$, and $12$ terms. Find its sum.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$486$"
+      },
+      {
+        "id": "b",
+        "latex": "$420$"
+      },
+      {
+        "id": "c",
+        "latex": "$840$"
+      },
+      {
+        "id": "d",
+        "latex": "$385$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "420",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=\\frac{n}{2}(a_1+a_n)$, so $S_{12}=\\frac{12}{2}(2+68)=420$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "first-last"
+    ],
+    "checksum": "sha256-da2bfba6c9719f7c7c52cb588c9fbc9b924e0523e4e152446ddc59d9c329ea68",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.medium.0019",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "An arithmetic series has first term $5$, last term $41$, and $13$ terms. Find its sum.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$276$"
+      },
+      {
+        "id": "b",
+        "latex": "$335$"
+      },
+      {
+        "id": "c",
+        "latex": "$299$"
+      },
+      {
+        "id": "d",
+        "latex": "$598$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "299",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=\\frac{n}{2}(a_1+a_n)$, so $S_{13}=\\frac{13}{2}(5+41)=299$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "first-last"
+    ],
+    "checksum": "sha256-cc9409a2aeec8b8f9e5f574aa4244294e1c46613ee3955d810f4ba088f52d43e",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.medium.0020",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "An arithmetic series has first term $9$, last term $87$, and $14$ terms. Find its sum.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1344$"
+      },
+      {
+        "id": "b",
+        "latex": "$624$"
+      },
+      {
+        "id": "c",
+        "latex": "$750$"
+      },
+      {
+        "id": "d",
+        "latex": "$672$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "672",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=\\frac{n}{2}(a_1+a_n)$, so $S_{14}=\\frac{14}{2}(9+87)=672$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "first-last"
+    ],
+    "checksum": "sha256-bd8311bbe4d583e219da48d70a673652b9d01736dc47da5ff52b061963e73dfe",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.medium.0021",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "An arithmetic series has first term $13$, last term $55$, and $15$ terms. Find its sum.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$510$"
+      },
+      {
+        "id": "b",
+        "latex": "$1020$"
+      },
+      {
+        "id": "c",
+        "latex": "$476$"
+      },
+      {
+        "id": "d",
+        "latex": "$552$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "510",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=\\frac{n}{2}(a_1+a_n)$, so $S_{15}=\\frac{15}{2}(13+55)=510$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "first-last"
+    ],
+    "checksum": "sha256-eaf797d24dbe99616dd697f8499cb9814a28277b760fb3694bf73ab286cba5f1",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.medium.0022",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "An arithmetic series has first term $-8$, last term $82$, and $16$ terms. Find its sum.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$682$"
+      },
+      {
+        "id": "b",
+        "latex": "$592$"
+      },
+      {
+        "id": "c",
+        "latex": "$1184$"
+      },
+      {
+        "id": "d",
+        "latex": "$555$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "592",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=\\frac{n}{2}(a_1+a_n)$, so $S_{16}=\\frac{16}{2}(-8+82)=592$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "first-last"
+    ],
+    "checksum": "sha256-4b77c137bbe493f0a5963f2f5810365c5408d256a64dc9a9974d9169a45fd4ca",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.medium.0023",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "An arithmetic series has first term $-4$, last term $44$, and $17$ terms. Find its sum.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$320$"
+      },
+      {
+        "id": "b",
+        "latex": "$388$"
+      },
+      {
+        "id": "c",
+        "latex": "$340$"
+      },
+      {
+        "id": "d",
+        "latex": "$680$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "340",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=\\frac{n}{2}(a_1+a_n)$, so $S_{17}=\\frac{17}{2}(-4+44)=340$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "first-last"
+    ],
+    "checksum": "sha256-158ce02f9cccf339eb6b26c8b28f7d4a911be938c7371e6d1f6d8fe3886c1e95",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.medium.0024",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "An arithmetic series has first term $-1$, last term $101$, and $18$ terms. Find its sum.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1800$"
+      },
+      {
+        "id": "b",
+        "latex": "$850$"
+      },
+      {
+        "id": "c",
+        "latex": "$1002$"
+      },
+      {
+        "id": "d",
+        "latex": "$900$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "900",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=\\frac{n}{2}(a_1+a_n)$, so $S_{18}=\\frac{18}{2}(-1+101)=900$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "first-last"
+    ],
+    "checksum": "sha256-82d50df0e4247a97a401264cd7fbf958bee36cd5338199b924204fd85c29dcdf",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.medium.0025",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "An arithmetic series has first term $2$, last term $20$, and $7$ terms. Find its sum.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$77$"
+      },
+      {
+        "id": "b",
+        "latex": "$154$"
+      },
+      {
+        "id": "c",
+        "latex": "$66$"
+      },
+      {
+        "id": "d",
+        "latex": "$95$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "77",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=\\frac{n}{2}(a_1+a_n)$, so $S_{7}=\\frac{7}{2}(2+20)=77$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "first-last"
+    ],
+    "checksum": "sha256-c2ced7c231251c6fc6fef0f2e323e986785368d2f4300efa10a21abbc3271cdb",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.medium.0026",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "An arithmetic series has first term $5$, last term $47$, and $8$ terms. Find its sum.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$250$"
+      },
+      {
+        "id": "b",
+        "latex": "$208$"
+      },
+      {
+        "id": "c",
+        "latex": "$416$"
+      },
+      {
+        "id": "d",
+        "latex": "$182$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "208",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=\\frac{n}{2}(a_1+a_n)$, so $S_{8}=\\frac{8}{2}(5+47)=208$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "first-last"
+    ],
+    "checksum": "sha256-8721eebc80946e3d50ebf16d0f22903fd45d0c4c9418c36177b9c2156cf45170",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.medium.0027",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "An arithmetic series has first term $9$, last term $33$, and $9$ terms. Find its sum.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$168$"
+      },
+      {
+        "id": "b",
+        "latex": "$213$"
+      },
+      {
+        "id": "c",
+        "latex": "$189$"
+      },
+      {
+        "id": "d",
+        "latex": "$378$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "189",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=\\frac{n}{2}(a_1+a_n)$, so $S_{9}=\\frac{9}{2}(9+33)=189$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "first-last"
+    ],
+    "checksum": "sha256-cafd44057277dfd28e8de2f938d98a4e58835c259944496daf78925212be9629",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.medium.0028",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "An arithmetic series has first term $13$, last term $67$, and $10$ terms. Find its sum.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$800$"
+      },
+      {
+        "id": "b",
+        "latex": "$360$"
+      },
+      {
+        "id": "c",
+        "latex": "$454$"
+      },
+      {
+        "id": "d",
+        "latex": "$400$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "400",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=\\frac{n}{2}(a_1+a_n)$, so $S_{10}=\\frac{10}{2}(13+67)=400$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "first-last"
+    ],
+    "checksum": "sha256-213b96b07103a8cebf4696abeabbef2be3627a32f115ea09f232dddce2d96ffd",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.medium.0029",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "An arithmetic series has first term $-8$, last term $22$, and $11$ terms. Find its sum.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$77$"
+      },
+      {
+        "id": "b",
+        "latex": "$154$"
+      },
+      {
+        "id": "c",
+        "latex": "$70$"
+      },
+      {
+        "id": "d",
+        "latex": "$107$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "77",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=\\frac{n}{2}(a_1+a_n)$, so $S_{11}=\\frac{11}{2}(-8+22)=77$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "first-last"
+    ],
+    "checksum": "sha256-ca92aa7eca6c728ff1c68d99519a374501868ef709caf83765b89246e7b4a539",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.medium.0030",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "An arithmetic series has first term $-4$, last term $62$, and $12$ terms. Find its sum.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$414$"
+      },
+      {
+        "id": "b",
+        "latex": "$348$"
+      },
+      {
+        "id": "c",
+        "latex": "$696$"
+      },
+      {
+        "id": "d",
+        "latex": "$319$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "348",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=\\frac{n}{2}(a_1+a_n)$, so $S_{12}=\\frac{12}{2}(-4+62)=348$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "first-last"
+    ],
+    "checksum": "sha256-60aeebe0b64bc281b557596083a5c559e3504c078a25638c86544ca39baa86cb",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.medium.0031",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "An arithmetic series has first term $-1$, last term $35$, and $13$ terms. Find its sum.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$204$"
+      },
+      {
+        "id": "b",
+        "latex": "$257$"
+      },
+      {
+        "id": "c",
+        "latex": "$221$"
+      },
+      {
+        "id": "d",
+        "latex": "$442$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "221",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=\\frac{n}{2}(a_1+a_n)$, so $S_{13}=\\frac{13}{2}(-1+35)=221$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "first-last"
+    ],
+    "checksum": "sha256-05b6e9887647f794b62a1ee5f28d4fbb688b42e4f7e8785ef49478ccd1bf7337",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.medium.0032",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "An arithmetic series has first term $2$, last term $80$, and $14$ terms. Find its sum.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1148$"
+      },
+      {
+        "id": "b",
+        "latex": "$533$"
+      },
+      {
+        "id": "c",
+        "latex": "$652$"
+      },
+      {
+        "id": "d",
+        "latex": "$574$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "574",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=\\frac{n}{2}(a_1+a_n)$, so $S_{14}=\\frac{14}{2}(2+80)=574$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "first-last"
+    ],
+    "checksum": "sha256-c4317fefb09d92b2a35eea8abbce94693ad09a26530441dce62485b5a4448b05",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.medium.0033",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "An arithmetic series has first term $5$, last term $47$, and $15$ terms. Find its sum.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$390$"
+      },
+      {
+        "id": "b",
+        "latex": "$780$"
+      },
+      {
+        "id": "c",
+        "latex": "$364$"
+      },
+      {
+        "id": "d",
+        "latex": "$432$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "390",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=\\frac{n}{2}(a_1+a_n)$, so $S_{15}=\\frac{15}{2}(5+47)=390$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "first-last"
+    ],
+    "checksum": "sha256-655906f8c1226472768fd73b9bb0167092102e5339da1e5fb0ce9eff1c35d908",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.medium.0034",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "An arithmetic series has first term $9$, last term $99$, and $16$ terms. Find its sum.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$954$"
+      },
+      {
+        "id": "b",
+        "latex": "$864$"
+      },
+      {
+        "id": "c",
+        "latex": "$1728$"
+      },
+      {
+        "id": "d",
+        "latex": "$810$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "864",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=\\frac{n}{2}(a_1+a_n)$, so $S_{16}=\\frac{16}{2}(9+99)=864$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "first-last"
+    ],
+    "checksum": "sha256-8ab058cf3290999c20cdbe492d6992c1afe24dbce82fdc555a36f2e7f46f94cf",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.medium.0035",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "An arithmetic series has first term $13$, last term $61$, and $17$ terms. Find its sum.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$592$"
+      },
+      {
+        "id": "b",
+        "latex": "$677$"
+      },
+      {
+        "id": "c",
+        "latex": "$629$"
+      },
+      {
+        "id": "d",
+        "latex": "$1258$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "629",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=\\frac{n}{2}(a_1+a_n)$, so $S_{17}=\\frac{17}{2}(13+61)=629$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "first-last"
+    ],
+    "checksum": "sha256-155ccb8c57541f2d61cb5b5494eb844dd86d7788a8cce08a8126c69771554001",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.medium.0036",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "An arithmetic series has first term $-8$, last term $94$, and $18$ terms. Find its sum.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1548$"
+      },
+      {
+        "id": "b",
+        "latex": "$731$"
+      },
+      {
+        "id": "c",
+        "latex": "$876$"
+      },
+      {
+        "id": "d",
+        "latex": "$774$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "774",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=\\frac{n}{2}(a_1+a_n)$, so $S_{18}=\\frac{18}{2}(-8+94)=774$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "first-last"
+    ],
+    "checksum": "sha256-49cc771692af3104cbcaa284441e5d63d99e627ed7bcc9c473b118bfe63f0b46",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.medium.0037",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "An arithmetic series has first term $-4$, last term $14$, and $7$ terms. Find its sum.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$35$"
+      },
+      {
+        "id": "b",
+        "latex": "$70$"
+      },
+      {
+        "id": "c",
+        "latex": "$30$"
+      },
+      {
+        "id": "d",
+        "latex": "$53$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "35",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=\\frac{n}{2}(a_1+a_n)$, so $S_{7}=\\frac{7}{2}(-4+14)=35$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "first-last"
+    ],
+    "checksum": "sha256-cb0dbb0a4bd90b08d69cb324bd669b3b7ae4a7143f4b3c10b39c170c1afa316a",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.medium.0038",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "An arithmetic series has first term $-1$, last term $41$, and $8$ terms. Find its sum.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$202$"
+      },
+      {
+        "id": "b",
+        "latex": "$160$"
+      },
+      {
+        "id": "c",
+        "latex": "$320$"
+      },
+      {
+        "id": "d",
+        "latex": "$140$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "160",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=\\frac{n}{2}(a_1+a_n)$, so $S_{8}=\\frac{8}{2}(-1+41)=160$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "first-last"
+    ],
+    "checksum": "sha256-39507458776dd54f913b0f376d1539ed82b32e28e4661aa38829e0babc32230c",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.medium.0039",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "An arithmetic series has first term $2$, last term $26$, and $9$ terms. Find its sum.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$112$"
+      },
+      {
+        "id": "b",
+        "latex": "$150$"
+      },
+      {
+        "id": "c",
+        "latex": "$126$"
+      },
+      {
+        "id": "d",
+        "latex": "$252$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "126",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=\\frac{n}{2}(a_1+a_n)$, so $S_{9}=\\frac{9}{2}(2+26)=126$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "first-last"
+    ],
+    "checksum": "sha256-c47f93f641768ac5f50cc408541cfe3f890fa9073bdae865274bc18516643013",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.medium.0040",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "An arithmetic series has first term $5$, last term $59$, and $10$ terms. Find its sum.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$640$"
+      },
+      {
+        "id": "b",
+        "latex": "$288$"
+      },
+      {
+        "id": "c",
+        "latex": "$374$"
+      },
+      {
+        "id": "d",
+        "latex": "$320$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "320",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=\\frac{n}{2}(a_1+a_n)$, so $S_{10}=\\frac{10}{2}(5+59)=320$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "first-last"
+    ],
+    "checksum": "sha256-15e0ec84b92e32320ebaa5eff020e8cc525cafa81fa33e8538994c396e3c3eb3",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.medium.0041",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "An arithmetic series has first term $9$, last term $39$, and $11$ terms. Find its sum.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$264$"
+      },
+      {
+        "id": "b",
+        "latex": "$528$"
+      },
+      {
+        "id": "c",
+        "latex": "$240$"
+      },
+      {
+        "id": "d",
+        "latex": "$294$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "264",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=\\frac{n}{2}(a_1+a_n)$, so $S_{11}=\\frac{11}{2}(9+39)=264$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "first-last"
+    ],
+    "checksum": "sha256-5180015fec4521f5019a8b2d9f55a34f89ab21e74b25e59cc9d885790fddabd9",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.medium.0042",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "An arithmetic series has first term $13$, last term $79$, and $12$ terms. Find its sum.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$618$"
+      },
+      {
+        "id": "b",
+        "latex": "$552$"
+      },
+      {
+        "id": "c",
+        "latex": "$1104$"
+      },
+      {
+        "id": "d",
+        "latex": "$506$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "552",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=\\frac{n}{2}(a_1+a_n)$, so $S_{12}=\\frac{12}{2}(13+79)=552$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "first-last"
+    ],
+    "checksum": "sha256-520697d37e2fd92d0221a333fc2a10ecedb68f559448498d51ac4fbb6ae22e7f",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.medium.0043",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "An arithmetic series has first term $-8$, last term $28$, and $13$ terms. Find its sum.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$120$"
+      },
+      {
+        "id": "b",
+        "latex": "$166$"
+      },
+      {
+        "id": "c",
+        "latex": "$130$"
+      },
+      {
+        "id": "d",
+        "latex": "$260$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "130",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=\\frac{n}{2}(a_1+a_n)$, so $S_{13}=\\frac{13}{2}(-8+28)=130$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "first-last"
+    ],
+    "checksum": "sha256-93906b0fb89dddb4bc916144ac5caeb4253fec7be23954a8582ba5de2bddbab3",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.medium.0044",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "An arithmetic series has first term $-4$, last term $74$, and $14$ terms. Find its sum.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$980$"
+      },
+      {
+        "id": "b",
+        "latex": "$455$"
+      },
+      {
+        "id": "c",
+        "latex": "$568$"
+      },
+      {
+        "id": "d",
+        "latex": "$490$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "490",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=\\frac{n}{2}(a_1+a_n)$, so $S_{14}=\\frac{14}{2}(-4+74)=490$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "first-last"
+    ],
+    "checksum": "sha256-124ecdbcdbe372d7221496d447d3fbc78e388f4f844ae8293b1284a62bad91f6",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.medium.0045",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "An arithmetic series has first term $-1$, last term $41$, and $15$ terms. Find its sum.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$300$"
+      },
+      {
+        "id": "b",
+        "latex": "$600$"
+      },
+      {
+        "id": "c",
+        "latex": "$280$"
+      },
+      {
+        "id": "d",
+        "latex": "$342$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "300",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=\\frac{n}{2}(a_1+a_n)$, so $S_{15}=\\frac{15}{2}(-1+41)=300$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "first-last"
+    ],
+    "checksum": "sha256-1368976e9b00a8ce855618668ec4f990fb3c7284b9eb00479261e0c5a93e6aab",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.medium.0046",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "An arithmetic series has first term $2$, last term $92$, and $16$ terms. Find its sum.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$842$"
+      },
+      {
+        "id": "b",
+        "latex": "$752$"
+      },
+      {
+        "id": "c",
+        "latex": "$1504$"
+      },
+      {
+        "id": "d",
+        "latex": "$705$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "752",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=\\frac{n}{2}(a_1+a_n)$, so $S_{16}=\\frac{16}{2}(2+92)=752$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "first-last"
+    ],
+    "checksum": "sha256-1f32f787115c002a1b3f6da748fa677e1e881bae7503aaec5ab2e9333d1c111b",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.medium.0047",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "An arithmetic series has first term $5$, last term $53$, and $17$ terms. Find its sum.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$464$"
+      },
+      {
+        "id": "b",
+        "latex": "$541$"
+      },
+      {
+        "id": "c",
+        "latex": "$493$"
+      },
+      {
+        "id": "d",
+        "latex": "$986$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "493",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=\\frac{n}{2}(a_1+a_n)$, so $S_{17}=\\frac{17}{2}(5+53)=493$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "first-last"
+    ],
+    "checksum": "sha256-10d13003e972a1b11fb7ca541bf9110543b310e8cebc950a5f67146a389bbb23",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.medium.0048",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "An arithmetic series has first term $9$, last term $111$, and $18$ terms. Find its sum.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2160$"
+      },
+      {
+        "id": "b",
+        "latex": "$1020$"
+      },
+      {
+        "id": "c",
+        "latex": "$1182$"
+      },
+      {
+        "id": "d",
+        "latex": "$1080$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1080",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=\\frac{n}{2}(a_1+a_n)$, so $S_{18}=\\frac{18}{2}(9+111)=1080$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "first-last"
+    ],
+    "checksum": "sha256-0efea08a8fcea9f133b29da2a881546fbfecb2c896702f6e28d758b78e6a9a5e",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.medium.0049",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "An arithmetic series has first term $13$, last term $31$, and $7$ terms. Find its sum.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$154$"
+      },
+      {
+        "id": "b",
+        "latex": "$308$"
+      },
+      {
+        "id": "c",
+        "latex": "$132$"
+      },
+      {
+        "id": "d",
+        "latex": "$172$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "154",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=\\frac{n}{2}(a_1+a_n)$, so $S_{7}=\\frac{7}{2}(13+31)=154$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "first-last"
+    ],
+    "checksum": "sha256-5693cfb080f288df2cff7bb92f5e72ef23b97faf007b8e4228f7fe499b47aa49",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.medium.0050",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "medium",
+    "prompt_latex": "An arithmetic series has first term $-8$, last term $34$, and $8$ terms. Find its sum.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$146$"
+      },
+      {
+        "id": "b",
+        "latex": "$104$"
+      },
+      {
+        "id": "c",
+        "latex": "$208$"
+      },
+      {
+        "id": "d",
+        "latex": "$91$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "104",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Use $S_n=\\frac{n}{2}(a_1+a_n)$, so $S_{8}=\\frac{8}{2}(-8+34)=104$.",
+    "complexity_factor": 1.3,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "first-last"
+    ],
+    "checksum": "sha256-ee358c17ead9afe13d4850bd285d5cafcf092cf508e6829779bcf745411d583b",
+    "status": "valid"
+  }
+]

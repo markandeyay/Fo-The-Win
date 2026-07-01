@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "ch11.sfft.hard.0001",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "How many ordered positive integer pairs $(x,y)$ satisfy $\\frac{1}{x}+\\frac{1}{y}=\\frac{1}{4}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Multiplying by $4xy$ gives $4x+4y=xy$, or $(x-4)(y-4)=16$. Positive divisors of $16$ give $5$ ordered positive pairs.",
+    "complexity_factor": 1.45,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "reciprocal-equation"
+    ],
+    "checksum": "sha256-6a06d126ecf10fe11deee6e961a973289d36b5945590438b53894a8c86f14555",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.hard.0002",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "How many ordered positive integer pairs $(x,y)$ satisfy $\\frac{1}{x}+\\frac{1}{y}=\\frac{1}{6}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Multiplying by $6xy$ gives $6x+6y=xy$, or $(x-6)(y-6)=36$. Positive divisors of $36$ give $9$ ordered positive pairs.",
+    "complexity_factor": 1.45,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "reciprocal-equation"
+    ],
+    "checksum": "sha256-3b5546eb734eb526ba04678f3c12a81dbf1d3bc36c70d7a01206a4d73562a1cf",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.hard.0003",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "How many ordered positive integer pairs $(x,y)$ satisfy $\\frac{1}{x}+\\frac{1}{y}=\\frac{1}{8}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Multiplying by $8xy$ gives $8x+8y=xy$, or $(x-8)(y-8)=64$. Positive divisors of $64$ give $7$ ordered positive pairs.",
+    "complexity_factor": 1.45,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "reciprocal-equation"
+    ],
+    "checksum": "sha256-bafd7400624b9ddd7d722a21d910e3301bca49df6c8658c2018a5c9e06a7e613",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.hard.0004",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "How many ordered positive integer pairs $(x,y)$ satisfy $\\frac{1}{x}+\\frac{1}{y}=\\frac{1}{9}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Multiplying by $9xy$ gives $9x+9y=xy$, or $(x-9)(y-9)=81$. Positive divisors of $81$ give $5$ ordered positive pairs.",
+    "complexity_factor": 1.45,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "reciprocal-equation"
+    ],
+    "checksum": "sha256-99d52ecfee39b8c7d9b6ab1b2e49c61394139c45f56c9760de41399b711a0c33",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.hard.0005",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "How many ordered positive integer pairs $(x,y)$ satisfy $\\frac{1}{x}+\\frac{1}{y}=\\frac{1}{10}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$11$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Multiplying by $10xy$ gives $10x+10y=xy$, or $(x-10)(y-10)=100$. Positive divisors of $100$ give $9$ ordered positive pairs.",
+    "complexity_factor": 1.45,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "reciprocal-equation"
+    ],
+    "checksum": "sha256-35c1e0b4a74b9cf05cd781d7153b05e3e83772b141721065042ea75d6077c1bd",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.hard.0006",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "How many ordered positive integer pairs $(x,y)$ satisfy $\\frac{1}{x}+\\frac{1}{y}=\\frac{1}{12}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$17$"
+      },
+      {
+        "id": "b",
+        "latex": "$14$"
+      },
+      {
+        "id": "c",
+        "latex": "$16$"
+      },
+      {
+        "id": "d",
+        "latex": "$15$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "15",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Multiplying by $12xy$ gives $12x+12y=xy$, or $(x-12)(y-12)=144$. Positive divisors of $144$ give $15$ ordered positive pairs.",
+    "complexity_factor": 1.45,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "reciprocal-equation"
+    ],
+    "checksum": "sha256-92dbc628766faeaf2916d3290588bf4949e3187dd73a5fe273f61a0783aa4ffb",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.hard.0007",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "How many ordered positive integer pairs $(x,y)$ satisfy $\\frac{1}{x}+\\frac{1}{y}=\\frac{1}{14}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Multiplying by $14xy$ gives $14x+14y=xy$, or $(x-14)(y-14)=196$. Positive divisors of $196$ give $9$ ordered positive pairs.",
+    "complexity_factor": 1.45,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "reciprocal-equation"
+    ],
+    "checksum": "sha256-d7e00e38f135beb9e1ca0de8e502045e66a0420cd2c1413fc5f96d51a1c4905d",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.hard.0008",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "How many ordered positive integer pairs $(x,y)$ satisfy $\\frac{1}{x}+\\frac{1}{y}=\\frac{1}{15}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Multiplying by $15xy$ gives $15x+15y=xy$, or $(x-15)(y-15)=225$. Positive divisors of $225$ give $9$ ordered positive pairs.",
+    "complexity_factor": 1.45,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "reciprocal-equation"
+    ],
+    "checksum": "sha256-18c39b8e4b49644339ab26e58cfe836abc22c53d18fb5b8fbd0bcd833541087e",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.hard.0009",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "How many ordered positive integer pairs $(x,y)$ satisfy $\\frac{1}{x}+\\frac{1}{y}=\\frac{1}{18}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$17$"
+      },
+      {
+        "id": "c",
+        "latex": "$14$"
+      },
+      {
+        "id": "d",
+        "latex": "$15$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "15",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Multiplying by $18xy$ gives $18x+18y=xy$, or $(x-18)(y-18)=324$. Positive divisors of $324$ give $15$ ordered positive pairs.",
+    "complexity_factor": 1.45,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "reciprocal-equation"
+    ],
+    "checksum": "sha256-509a2149847f0ca2c76ddef930d4517d0505e4b18c129eb7b2c2c77627bc9d76",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.hard.0010",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "How many ordered positive integer pairs $(x,y)$ satisfy $\\frac{1}{x}+\\frac{1}{y}=\\frac{1}{20}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$15$"
+      },
+      {
+        "id": "b",
+        "latex": "$17$"
+      },
+      {
+        "id": "c",
+        "latex": "$16$"
+      },
+      {
+        "id": "d",
+        "latex": "$14$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "15",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Multiplying by $20xy$ gives $20x+20y=xy$, or $(x-20)(y-20)=400$. Positive divisors of $400$ give $15$ ordered positive pairs.",
+    "complexity_factor": 1.45,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "reciprocal-equation"
+    ],
+    "checksum": "sha256-4aef46de67e5fb0bff9a033e55212ac1c18760ae6b0f56a7ce4bf50cae25daba",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.hard.0011",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "How many ordered positive integer pairs $(x,y)$ satisfy $\\frac{1}{x}+\\frac{1}{y}=\\frac{1}{21}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Multiplying by $21xy$ gives $21x+21y=xy$, or $(x-21)(y-21)=441$. Positive divisors of $441$ give $9$ ordered positive pairs.",
+    "complexity_factor": 1.45,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "reciprocal-equation"
+    ],
+    "checksum": "sha256-48380d3112c3a717c61bf43353032beaf5940c981f7beca274d7a7b5267c7c2e",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.hard.0012",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "How many ordered positive integer pairs $(x,y)$ satisfy $\\frac{1}{x}+\\frac{1}{y}=\\frac{1}{22}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Multiplying by $22xy$ gives $22x+22y=xy$, or $(x-22)(y-22)=484$. Positive divisors of $484$ give $9$ ordered positive pairs.",
+    "complexity_factor": 1.45,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "reciprocal-equation"
+    ],
+    "checksum": "sha256-4214ddca043dc2f578db46229148b9b15262340fe3fb6a50f2125c308f9b5795",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.hard.0013",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "How many ordered positive integer pairs $(x,y)$ satisfy $\\frac{1}{x}+\\frac{1}{y}=\\frac{1}{24}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$23$"
+      },
+      {
+        "id": "b",
+        "latex": "$22$"
+      },
+      {
+        "id": "c",
+        "latex": "$20$"
+      },
+      {
+        "id": "d",
+        "latex": "$21$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "21",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Multiplying by $24xy$ gives $24x+24y=xy$, or $(x-24)(y-24)=576$. Positive divisors of $576$ give $21$ ordered positive pairs.",
+    "complexity_factor": 1.45,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "reciprocal-equation"
+    ],
+    "checksum": "sha256-710fce817eb0ccd811e00fa85a98105c7d3980da190c3726d29fff7c4f18e1fa",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.hard.0014",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "How many ordered positive integer pairs $(x,y)$ satisfy $\\frac{1}{x}+\\frac{1}{y}=\\frac{1}{25}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Multiplying by $25xy$ gives $25x+25y=xy$, or $(x-25)(y-25)=625$. Positive divisors of $625$ give $5$ ordered positive pairs.",
+    "complexity_factor": 1.45,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "reciprocal-equation"
+    ],
+    "checksum": "sha256-ca0274673b03401fa0cc6ec6c39567f5f4081834082179d260371dccb0fe0fbd",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.hard.0015",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "How many ordered positive integer pairs $(x,y)$ satisfy $\\frac{1}{x}+\\frac{1}{y}=\\frac{1}{26}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$11$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Multiplying by $26xy$ gives $26x+26y=xy$, or $(x-26)(y-26)=676$. Positive divisors of $676$ give $9$ ordered positive pairs.",
+    "complexity_factor": 1.45,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "reciprocal-equation"
+    ],
+    "checksum": "sha256-626ace648806e6250d2aaa0928c55e1b6642f468578c93eb8be9cb331bf587a9",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.hard.0016",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "How many ordered positive integer pairs $(x,y)$ satisfy $\\frac{1}{x}+\\frac{1}{y}=\\frac{1}{27}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Multiplying by $27xy$ gives $27x+27y=xy$, or $(x-27)(y-27)=729$. Positive divisors of $729$ give $7$ ordered positive pairs.",
+    "complexity_factor": 1.45,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "reciprocal-equation"
+    ],
+    "checksum": "sha256-219edde21888cd9fce58f9a08851eef240287f5f5584382a0cb3ca016c489858",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.hard.0017",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "How many ordered positive integer pairs $(x,y)$ satisfy $\\frac{1}{x}+\\frac{1}{y}=\\frac{1}{28}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$14$"
+      },
+      {
+        "id": "b",
+        "latex": "$15$"
+      },
+      {
+        "id": "c",
+        "latex": "$16$"
+      },
+      {
+        "id": "d",
+        "latex": "$17$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "15",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Multiplying by $28xy$ gives $28x+28y=xy$, or $(x-28)(y-28)=784$. Positive divisors of $784$ give $15$ ordered positive pairs.",
+    "complexity_factor": 1.45,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "reciprocal-equation"
+    ],
+    "checksum": "sha256-7d4078f148e115731e2ac3fd3999526e5eb248b2fb5e033322e698f7ae802b19",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.hard.0018",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "How many ordered positive integer pairs $(x,y)$ satisfy $\\frac{1}{x}+\\frac{1}{y}=\\frac{1}{30}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$27$"
+      },
+      {
+        "id": "b",
+        "latex": "$26$"
+      },
+      {
+        "id": "c",
+        "latex": "$28$"
+      },
+      {
+        "id": "d",
+        "latex": "$29$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "27",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Multiplying by $30xy$ gives $30x+30y=xy$, or $(x-30)(y-30)=900$. Positive divisors of $900$ give $27$ ordered positive pairs.",
+    "complexity_factor": 1.45,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "reciprocal-equation"
+    ],
+    "checksum": "sha256-03a4d13aa8902b1fa646898e1b7fa870a62cb6bfcdfda59d6f46444c0344056c",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.hard.0019",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "How many ordered positive integer pairs $(x,y)$ satisfy $\\frac{1}{x}+\\frac{1}{y}=\\frac{1}{32}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$13$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "11",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Multiplying by $32xy$ gives $32x+32y=xy$, or $(x-32)(y-32)=1024$. Positive divisors of $1024$ give $11$ ordered positive pairs.",
+    "complexity_factor": 1.45,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "reciprocal-equation"
+    ],
+    "checksum": "sha256-7f19335232ebfd4881c2e9f028af636d9ccbf7b7cb6e48bcf4fc678de48151b6",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.hard.0020",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "How many ordered positive integer pairs $(x,y)$ satisfy $\\frac{1}{x}+\\frac{1}{y}=\\frac{1}{33}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Multiplying by $33xy$ gives $33x+33y=xy$, or $(x-33)(y-33)=1089$. Positive divisors of $1089$ give $9$ ordered positive pairs.",
+    "complexity_factor": 1.45,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "reciprocal-equation"
+    ],
+    "checksum": "sha256-a60a575b2e108be4bcf31e978c2547c45c20d2c3d3cfacd7c6b66efa5a68c443",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.hard.0021",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "How many ordered positive integer pairs $(x,y)$ satisfy $\\frac{1}{x}+\\frac{1}{y}=\\frac{1}{35}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$11$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Multiplying by $35xy$ gives $35x+35y=xy$, or $(x-35)(y-35)=1225$. Positive divisors of $1225$ give $9$ ordered positive pairs.",
+    "complexity_factor": 1.45,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "reciprocal-equation"
+    ],
+    "checksum": "sha256-47dc00332e4837b1eb4cb807de8661050258498d573fa2f47e2934225d97df75",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.hard.0022",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "How many ordered positive integer pairs $(x,y)$ satisfy $\\frac{1}{x}+\\frac{1}{y}=\\frac{1}{36}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$25$"
+      },
+      {
+        "id": "b",
+        "latex": "$24$"
+      },
+      {
+        "id": "c",
+        "latex": "$27$"
+      },
+      {
+        "id": "d",
+        "latex": "$26$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "25",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Multiplying by $36xy$ gives $36x+36y=xy$, or $(x-36)(y-36)=1296$. Positive divisors of $1296$ give $25$ ordered positive pairs.",
+    "complexity_factor": 1.45,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "reciprocal-equation"
+    ],
+    "checksum": "sha256-d4c951286b8230346df3ffc44fbe0d1537d63b48fdd3367e8151e2dbbbea5653",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.hard.0023",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "How many ordered positive integer pairs $(x,y)$ satisfy $\\frac{1}{x}+\\frac{1}{y}=\\frac{1}{39}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$11$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Multiplying by $39xy$ gives $39x+39y=xy$, or $(x-39)(y-39)=1521$. Positive divisors of $1521$ give $9$ ordered positive pairs.",
+    "complexity_factor": 1.45,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "reciprocal-equation"
+    ],
+    "checksum": "sha256-a5fe9d413909c2f815e09121a72b1c62e57f3887f5ed3cc881cb270ef0eb090c",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.hard.0024",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "How many ordered positive integer pairs $(x,y)$ satisfy $\\frac{1}{x}+\\frac{1}{y}=\\frac{1}{40}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$22$"
+      },
+      {
+        "id": "b",
+        "latex": "$21$"
+      },
+      {
+        "id": "c",
+        "latex": "$20$"
+      },
+      {
+        "id": "d",
+        "latex": "$23$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "21",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Multiplying by $40xy$ gives $40x+40y=xy$, or $(x-40)(y-40)=1600$. Positive divisors of $1600$ give $21$ ordered positive pairs.",
+    "complexity_factor": 1.45,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "reciprocal-equation"
+    ],
+    "checksum": "sha256-22af61a721938930846f3445c883592234d71771c391f86ca7bcebe7c7fc00aa",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.hard.0025",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "How many ordered positive integer pairs $(x,y)$ satisfy $\\frac{1}{x}+\\frac{1}{y}=\\frac{1}{42}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$28$"
+      },
+      {
+        "id": "b",
+        "latex": "$29$"
+      },
+      {
+        "id": "c",
+        "latex": "$27$"
+      },
+      {
+        "id": "d",
+        "latex": "$26$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "27",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Multiplying by $42xy$ gives $42x+42y=xy$, or $(x-42)(y-42)=1764$. Positive divisors of $1764$ give $27$ ordered positive pairs.",
+    "complexity_factor": 1.45,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "reciprocal-equation"
+    ],
+    "checksum": "sha256-3b00c55ceeac68b3d37884c0d15691ea9845efe95889fc935fc8f921035c1b4a",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.hard.0026",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "For all ordered positive integer pairs $(x,y)$ satisfying $\\frac{1}{x}+\\frac{1}{y}=\\frac{1}{4}$, find the sum of all values of $x+y$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$103$"
+      },
+      {
+        "id": "b",
+        "latex": "$102$"
+      },
+      {
+        "id": "c",
+        "latex": "$101$"
+      },
+      {
+        "id": "d",
+        "latex": "$104$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "102",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Write $(x-4)(y-4)=16$. For each divisor $d$ of $16$, $x+y=2\\cdot 4+d+16/d$. Summing over all divisors gives $102$.",
+    "complexity_factor": 1.55,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "reciprocal-equation"
+    ],
+    "checksum": "sha256-9480cdc9b14394887287393fdd8a85953eafed2b6f21e6f43d92acdae08d9e6a",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.hard.0027",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "For all ordered positive integer pairs $(x,y)$ satisfying $\\frac{1}{x}+\\frac{1}{y}=\\frac{1}{5}$, find the sum of all values of $x+y$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$93$"
+      },
+      {
+        "id": "b",
+        "latex": "$91$"
+      },
+      {
+        "id": "c",
+        "latex": "$94$"
+      },
+      {
+        "id": "d",
+        "latex": "$92$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "92",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Write $(x-5)(y-5)=25$. For each divisor $d$ of $25$, $x+y=2\\cdot 5+d+25/d$. Summing over all divisors gives $92$.",
+    "complexity_factor": 1.55,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "reciprocal-equation"
+    ],
+    "checksum": "sha256-5b3bb5d0979fae38ed0b8ff86d5dde9cf62b1f2d7677b1dff13900a96aa2eb9d",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.hard.0028",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "For all ordered positive integer pairs $(x,y)$ satisfying $\\frac{1}{x}+\\frac{1}{y}=\\frac{1}{6}$, find the sum of all values of $x+y$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$291$"
+      },
+      {
+        "id": "b",
+        "latex": "$289$"
+      },
+      {
+        "id": "c",
+        "latex": "$290$"
+      },
+      {
+        "id": "d",
+        "latex": "$292$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "290",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Write $(x-6)(y-6)=36$. For each divisor $d$ of $36$, $x+y=2\\cdot 6+d+36/d$. Summing over all divisors gives $290$.",
+    "complexity_factor": 1.55,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "reciprocal-equation"
+    ],
+    "checksum": "sha256-af3749186ee34a02d0fa73b2dee9d31978854814ccd2886c0924b75d5a7ec8b1",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.hard.0029",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "For all ordered positive integer pairs $(x,y)$ satisfying $\\frac{1}{x}+\\frac{1}{y}=\\frac{1}{8}$, find the sum of all values of $x+y$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$367$"
+      },
+      {
+        "id": "b",
+        "latex": "$366$"
+      },
+      {
+        "id": "c",
+        "latex": "$368$"
+      },
+      {
+        "id": "d",
+        "latex": "$365$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "366",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Write $(x-8)(y-8)=64$. For each divisor $d$ of $64$, $x+y=2\\cdot 8+d+64/d$. Summing over all divisors gives $366$.",
+    "complexity_factor": 1.55,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "reciprocal-equation"
+    ],
+    "checksum": "sha256-423426317106a3e41335fdf0dc0e73b2d62a8194e7a1595a8238fc281761e2d8",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.hard.0030",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "For all ordered positive integer pairs $(x,y)$ satisfying $\\frac{1}{x}+\\frac{1}{y}=\\frac{1}{9}$, find the sum of all values of $x+y$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$332$"
+      },
+      {
+        "id": "b",
+        "latex": "$331$"
+      },
+      {
+        "id": "c",
+        "latex": "$334$"
+      },
+      {
+        "id": "d",
+        "latex": "$333$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "332",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Write $(x-9)(y-9)=81$. For each divisor $d$ of $81$, $x+y=2\\cdot 9+d+81/d$. Summing over all divisors gives $332$.",
+    "complexity_factor": 1.55,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "reciprocal-equation"
+    ],
+    "checksum": "sha256-7ed47b873d79a035c4ab3d748b592140b14943d0522b9f5d14d486adb9e31cd0",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.hard.0031",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "For all ordered positive integer pairs $(x,y)$ satisfying $\\frac{1}{x}+\\frac{1}{y}=\\frac{1}{10}$, find the sum of all values of $x+y$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$614$"
+      },
+      {
+        "id": "b",
+        "latex": "$615$"
+      },
+      {
+        "id": "c",
+        "latex": "$616$"
+      },
+      {
+        "id": "d",
+        "latex": "$613$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "614",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Write $(x-10)(y-10)=100$. For each divisor $d$ of $100$, $x+y=2\\cdot 10+d+100/d$. Summing over all divisors gives $614$.",
+    "complexity_factor": 1.55,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "reciprocal-equation"
+    ],
+    "checksum": "sha256-1d69cb8d6a70e021715506ccc80d6844efdc37ca0ad84317a7ecb2ea7c149180",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.hard.0032",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "For all ordered positive integer pairs $(x,y)$ satisfying $\\frac{1}{x}+\\frac{1}{y}=\\frac{1}{12}$, find the sum of all values of $x+y$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1168$"
+      },
+      {
+        "id": "b",
+        "latex": "$1166$"
+      },
+      {
+        "id": "c",
+        "latex": "$1165$"
+      },
+      {
+        "id": "d",
+        "latex": "$1167$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1166",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Write $(x-12)(y-12)=144$. For each divisor $d$ of $144$, $x+y=2\\cdot 12+d+144/d$. Summing over all divisors gives $1166$.",
+    "complexity_factor": 1.55,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "reciprocal-equation"
+    ],
+    "checksum": "sha256-f7cdc5681b872cf937ece104c8c1f5386bd82d57d04d0ae5239ee99bc6e5edcb",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.hard.0033",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "For all ordered positive integer pairs $(x,y)$ satisfying $\\frac{1}{x}+\\frac{1}{y}=\\frac{1}{15}$, find the sum of all values of $x+y$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1075$"
+      },
+      {
+        "id": "b",
+        "latex": "$1076$"
+      },
+      {
+        "id": "c",
+        "latex": "$1077$"
+      },
+      {
+        "id": "d",
+        "latex": "$1078$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1076",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Write $(x-15)(y-15)=225$. For each divisor $d$ of $225$, $x+y=2\\cdot 15+d+225/d$. Summing over all divisors gives $1076$.",
+    "complexity_factor": 1.55,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "reciprocal-equation"
+    ],
+    "checksum": "sha256-1e7c594ba23d9a51aacf952054e2efd137295c9c0f8188a4cbc6074a8795bbce",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.hard.0034",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "For all ordered positive integer pairs $(x,y)$ satisfying $\\frac{1}{x}+\\frac{1}{y}=\\frac{1}{18}$, find the sum of all values of $x+y$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2233$"
+      },
+      {
+        "id": "b",
+        "latex": "$2236$"
+      },
+      {
+        "id": "c",
+        "latex": "$2234$"
+      },
+      {
+        "id": "d",
+        "latex": "$2235$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "2234",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Write $(x-18)(y-18)=324$. For each divisor $d$ of $324$, $x+y=2\\cdot 18+d+324/d$. Summing over all divisors gives $2234$.",
+    "complexity_factor": 1.55,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "reciprocal-equation"
+    ],
+    "checksum": "sha256-4a60dbf2d17d467d47816bde8429a844c98f93817091f5eb10a5ab2b110a8539",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.hard.0035",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "For all ordered positive integer pairs $(x,y)$ satisfying $\\frac{1}{x}+\\frac{1}{y}=\\frac{1}{20}$, find the sum of all values of $x+y$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2523$"
+      },
+      {
+        "id": "b",
+        "latex": "$2522$"
+      },
+      {
+        "id": "c",
+        "latex": "$2521$"
+      },
+      {
+        "id": "d",
+        "latex": "$2524$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "2522",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Write $(x-20)(y-20)=400$. For each divisor $d$ of $400$, $x+y=2\\cdot 20+d+400/d$. Summing over all divisors gives $2522$.",
+    "complexity_factor": 1.55,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "reciprocal-equation"
+    ],
+    "checksum": "sha256-03b0686a32da0969e8893f7d8be15556d28d723904ba60e94964569f1584809d",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.hard.0036",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "For all ordered positive integer pairs $(x,y)$ satisfying $\\frac{1}{x}+\\frac{1}{y}=\\frac{1}{21}$, find the sum of all values of $x+y$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1861$"
+      },
+      {
+        "id": "b",
+        "latex": "$1859$"
+      },
+      {
+        "id": "c",
+        "latex": "$1862$"
+      },
+      {
+        "id": "d",
+        "latex": "$1860$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1860",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Write $(x-21)(y-21)=441$. For each divisor $d$ of $441$, $x+y=2\\cdot 21+d+441/d$. Summing over all divisors gives $1860$.",
+    "complexity_factor": 1.55,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "reciprocal-equation"
+    ],
+    "checksum": "sha256-d9dc88f92dbc163caf90602dc6551f4fc5437c549ef894cde59c6f87ea0e8447",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.hard.0037",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "For all ordered positive integer pairs $(x,y)$ satisfying $\\frac{1}{x}+\\frac{1}{y}=\\frac{1}{22}$, find the sum of all values of $x+y$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2257$"
+      },
+      {
+        "id": "b",
+        "latex": "$2258$"
+      },
+      {
+        "id": "c",
+        "latex": "$2259$"
+      },
+      {
+        "id": "d",
+        "latex": "$2260$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "2258",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Write $(x-22)(y-22)=484$. For each divisor $d$ of $484$, $x+y=2\\cdot 22+d+484/d$. Summing over all divisors gives $2258$.",
+    "complexity_factor": 1.55,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "reciprocal-equation"
+    ],
+    "checksum": "sha256-ae4c237da35a48d407421ced12787ad076c454a5be5c413010f1d66dc0205592",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.hard.0038",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "For all ordered positive integer pairs $(x,y)$ satisfying $\\frac{1}{x}+\\frac{1}{y}=\\frac{1}{24}$, find the sum of all values of $x+y$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4309$"
+      },
+      {
+        "id": "b",
+        "latex": "$4311$"
+      },
+      {
+        "id": "c",
+        "latex": "$4312$"
+      },
+      {
+        "id": "d",
+        "latex": "$4310$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "4310",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Write $(x-24)(y-24)=576$. For each divisor $d$ of $576$, $x+y=2\\cdot 24+d+576/d$. Summing over all divisors gives $4310$.",
+    "complexity_factor": 1.55,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "reciprocal-equation"
+    ],
+    "checksum": "sha256-889731a5263feda456b5f1b46870e6023e60c7a9855a06ae5e862546fbebc0d8",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.hard.0039",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "For all ordered positive integer pairs $(x,y)$ satisfying $\\frac{1}{x}+\\frac{1}{y}=\\frac{1}{25}$, find the sum of all values of $x+y$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1811$"
+      },
+      {
+        "id": "b",
+        "latex": "$1814$"
+      },
+      {
+        "id": "c",
+        "latex": "$1812$"
+      },
+      {
+        "id": "d",
+        "latex": "$1813$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "1812",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Write $(x-25)(y-25)=625$. For each divisor $d$ of $625$, $x+y=2\\cdot 25+d+625/d$. Summing over all divisors gives $1812$.",
+    "complexity_factor": 1.55,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "reciprocal-equation"
+    ],
+    "checksum": "sha256-33a1904f3634796d89288cf5bdae048a9ad92c4f2e26b6f1602a590bc293b3cb",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.hard.0040",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "For all ordered positive integer pairs $(x,y)$ satisfying $\\frac{1}{x}+\\frac{1}{y}=\\frac{1}{27}$, find the sum of all values of $x+y$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2565$"
+      },
+      {
+        "id": "b",
+        "latex": "$2564$"
+      },
+      {
+        "id": "c",
+        "latex": "$2566$"
+      },
+      {
+        "id": "d",
+        "latex": "$2563$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "2564",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Write $(x-27)(y-27)=729$. For each divisor $d$ of $729$, $x+y=2\\cdot 27+d+729/d$. Summing over all divisors gives $2564$.",
+    "complexity_factor": 1.55,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "reciprocal-equation"
+    ],
+    "checksum": "sha256-6f962bb3fd8462aa27ab99d5b2c160e6d7f93a030e1ed3f3768f40898eb3ccde",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.hard.0041",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "For all ordered positive integer pairs $(x,y)$ satisfying $\\frac{1}{x}+\\frac{1}{y}=\\frac{1}{28}$, find the sum of all values of $x+y$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4373$"
+      },
+      {
+        "id": "b",
+        "latex": "$4374$"
+      },
+      {
+        "id": "c",
+        "latex": "$4376$"
+      },
+      {
+        "id": "d",
+        "latex": "$4375$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "4374",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Write $(x-28)(y-28)=784$. For each divisor $d$ of $784$, $x+y=2\\cdot 28+d+784/d$. Summing over all divisors gives $4374$.",
+    "complexity_factor": 1.55,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "reciprocal-equation"
+    ],
+    "checksum": "sha256-152018bc5b15b4792421ba3cdc2af030b02c9efa762d37f58ea1a02b3ba55f5b",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.hard.0042",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "For all ordered positive integer pairs $(x,y)$ satisfying $\\frac{1}{x}+\\frac{1}{y}=\\frac{1}{30}$, find the sum of all values of $x+y$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7261$"
+      },
+      {
+        "id": "b",
+        "latex": "$7264$"
+      },
+      {
+        "id": "c",
+        "latex": "$7262$"
+      },
+      {
+        "id": "d",
+        "latex": "$7263$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "7262",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Write $(x-30)(y-30)=900$. For each divisor $d$ of $900$, $x+y=2\\cdot 30+d+900/d$. Summing over all divisors gives $7262$.",
+    "complexity_factor": 1.55,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "reciprocal-equation"
+    ],
+    "checksum": "sha256-e0b5ee4aebc46de947a595a080d36e0a7719feb2e3a9f1fd989b183bc7a6c67e",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.hard.0043",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "For all ordered positive integer pairs $(x,y)$ satisfying $\\frac{1}{x}+\\frac{1}{y}=\\frac{1}{32}$, find the sum of all values of $x+y$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4797$"
+      },
+      {
+        "id": "b",
+        "latex": "$4799$"
+      },
+      {
+        "id": "c",
+        "latex": "$4798$"
+      },
+      {
+        "id": "d",
+        "latex": "$4800$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "4798",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Write $(x-32)(y-32)=1024$. For each divisor $d$ of $1024$, $x+y=2\\cdot 32+d+1024/d$. Summing over all divisors gives $4798$.",
+    "complexity_factor": 1.55,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "reciprocal-equation"
+    ],
+    "checksum": "sha256-e8757a12a6e6befbc03fea62d5295f82943c389c1f717b42a7f67542bd26fd78",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.hard.0044",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "For all ordered positive integer pairs $(x,y)$ satisfying $\\frac{1}{x}+\\frac{1}{y}=\\frac{1}{33}$, find the sum of all values of $x+y$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4051$"
+      },
+      {
+        "id": "b",
+        "latex": "$4053$"
+      },
+      {
+        "id": "c",
+        "latex": "$4052$"
+      },
+      {
+        "id": "d",
+        "latex": "$4054$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "4052",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Write $(x-33)(y-33)=1089$. For each divisor $d$ of $1089$, $x+y=2\\cdot 33+d+1089/d$. Summing over all divisors gives $4052$.",
+    "complexity_factor": 1.55,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "reciprocal-equation"
+    ],
+    "checksum": "sha256-b47dff1b8bb875f836c6d18332aacb1dc2bd1f472021b5f8b55b0d50a9072951",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.hard.0045",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "For all ordered positive integer pairs $(x,y)$ satisfying $\\frac{1}{x}+\\frac{1}{y}=\\frac{1}{35}$, find the sum of all values of $x+y$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4165$"
+      },
+      {
+        "id": "b",
+        "latex": "$4164$"
+      },
+      {
+        "id": "c",
+        "latex": "$4166$"
+      },
+      {
+        "id": "d",
+        "latex": "$4163$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "4164",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Write $(x-35)(y-35)=1225$. For each divisor $d$ of $1225$, $x+y=2\\cdot 35+d+1225/d$. Summing over all divisors gives $4164$.",
+    "complexity_factor": 1.55,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "reciprocal-equation"
+    ],
+    "checksum": "sha256-8306093c0392f7f77a50312190ad3d3bbda1449ec6e6a60653b341f38aa0d728",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.hard.0046",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "For all ordered positive integer pairs $(x,y)$ satisfying $\\frac{1}{x}+\\frac{1}{y}=\\frac{1}{36}$, find the sum of all values of $x+y$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9304$"
+      },
+      {
+        "id": "b",
+        "latex": "$9302$"
+      },
+      {
+        "id": "c",
+        "latex": "$9301$"
+      },
+      {
+        "id": "d",
+        "latex": "$9303$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "9302",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Write $(x-36)(y-36)=1296$. For each divisor $d$ of $1296$, $x+y=2\\cdot 36+d+1296/d$. Summing over all divisors gives $9302$.",
+    "complexity_factor": 1.55,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "reciprocal-equation"
+    ],
+    "checksum": "sha256-86c7e115d53b46cd0ed0631b92be223409236e08f3c10b89ae414df2a36f05ca",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.hard.0047",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "For all ordered positive integer pairs $(x,y)$ satisfying $\\frac{1}{x}+\\frac{1}{y}=\\frac{1}{39}$, find the sum of all values of $x+y$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5461$"
+      },
+      {
+        "id": "b",
+        "latex": "$5462$"
+      },
+      {
+        "id": "c",
+        "latex": "$5459$"
+      },
+      {
+        "id": "d",
+        "latex": "$5460$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "5460",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Write $(x-39)(y-39)=1521$. For each divisor $d$ of $1521$, $x+y=2\\cdot 39+d+1521/d$. Summing over all divisors gives $5460$.",
+    "complexity_factor": 1.55,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "reciprocal-equation"
+    ],
+    "checksum": "sha256-fe848fafddde9278f73cd2914b92a36048f5967ee5af51e742b725009eb154f2",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.hard.0048",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "For all ordered positive integer pairs $(x,y)$ satisfying $\\frac{1}{x}+\\frac{1}{y}=\\frac{1}{40}$, find the sum of all values of $x+y$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9554$"
+      },
+      {
+        "id": "b",
+        "latex": "$9555$"
+      },
+      {
+        "id": "c",
+        "latex": "$9556$"
+      },
+      {
+        "id": "d",
+        "latex": "$9553$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "9554",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Write $(x-40)(y-40)=1600$. For each divisor $d$ of $1600$, $x+y=2\\cdot 40+d+1600/d$. Summing over all divisors gives $9554$.",
+    "complexity_factor": 1.55,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "reciprocal-equation"
+    ],
+    "checksum": "sha256-affb369c273114224bb47f5057fd876a5b6cf694c7036acb67069f16efeadd99",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.hard.0049",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "For all ordered positive integer pairs $(x,y)$ satisfying $\\frac{1}{x}+\\frac{1}{y}=\\frac{1}{42}$, find the sum of all values of $x+y$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12642$"
+      },
+      {
+        "id": "b",
+        "latex": "$12644$"
+      },
+      {
+        "id": "c",
+        "latex": "$12641$"
+      },
+      {
+        "id": "d",
+        "latex": "$12643$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "12642",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Write $(x-42)(y-42)=1764$. For each divisor $d$ of $1764$, $x+y=2\\cdot 42+d+1764/d$. Summing over all divisors gives $12642$.",
+    "complexity_factor": 1.55,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "reciprocal-equation"
+    ],
+    "checksum": "sha256-0ef4b00b0c7b9b80387fc844458ef77bcde635f2061d90762a998070bd20e3ae",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.hard.0050",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "For all ordered positive integer pairs $(x,y)$ satisfying $\\frac{1}{x}+\\frac{1}{y}=\\frac{1}{45}$, find the sum of all values of $x+y$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8854$"
+      },
+      {
+        "id": "b",
+        "latex": "$8851$"
+      },
+      {
+        "id": "c",
+        "latex": "$8853$"
+      },
+      {
+        "id": "d",
+        "latex": "$8852$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "8852",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Write $(x-45)(y-45)=2025$. For each divisor $d$ of $2025$, $x+y=2\\cdot 45+d+2025/d$. Summing over all divisors gives $8852$.",
+    "complexity_factor": 1.55,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "reciprocal-equation"
+    ],
+    "checksum": "sha256-179807a61d573b92d41e50570ad2cbea33ffedd8c9de518ae539c50ad45a774a",
+    "status": "valid"
+  }
+]

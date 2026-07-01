@@ -1,0 +1,2148 @@
+[
+  {
+    "id": "ch12.complex.medium.0001",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Multiply $(-4+2i)(-3+i)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10-10i$"
+      },
+      {
+        "id": "b",
+        "latex": "$14-10i$"
+      },
+      {
+        "id": "c",
+        "latex": "$10+2i$"
+      },
+      {
+        "id": "d",
+        "latex": "$12+2i$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "10-10i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "10 - 10i",
+      "-10i+10"
+    ],
+    "solution_latex": "Use $i^2=-1$: real part $-4\\cdot -3-2\\cdot 1=10$ and imaginary part $-4\\cdot 1+2\\cdot -3=-10$.",
+    "complexity_factor": 1.1,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-a8fda2c74f627037cbc596bb7dfe70950a5e856c4e7c4c830c546f552aa295aa"
+  },
+  {
+    "id": "ch12.complex.medium.0002",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "What is the conjugate of $-3+3i$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3-3i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3-3i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-3+3i$"
+      },
+      {
+        "id": "d",
+        "latex": "$3+3i$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-3-3i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 3 - 3i",
+      "-3i-3"
+    ],
+    "solution_latex": "The conjugate keeps the real part and changes the sign of the imaginary part, giving $-3-3i$.",
+    "complexity_factor": 1.05,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "conjugate"
+    ],
+    "status": "valid",
+    "checksum": "sha256-14cfb7d456e7ca898c68e2774852d395b8b8b8daf468e268a6fceb587b06cc2f"
+  },
+  {
+    "id": "ch12.complex.medium.0003",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Multiply $(-2+4i)(-1+3i)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$14-10i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-10-2i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-10-10i$"
+      },
+      {
+        "id": "d",
+        "latex": "$2+12i$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-10-10i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 10 - 10i",
+      "-10i-10"
+    ],
+    "solution_latex": "Use $i^2=-1$: real part $-2\\cdot -1-4\\cdot 3=-10$ and imaginary part $-2\\cdot 3+4\\cdot -1=-10$.",
+    "complexity_factor": 1.1,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-76fb3146e33cf498a994081a963aaf80b3d704b9e84718d8c6fbd867334116f0"
+  },
+  {
+    "id": "ch12.complex.medium.0004",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "What is the conjugate of $-1+5i$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1-5i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1+5i$"
+      },
+      {
+        "id": "c",
+        "latex": "$1+5i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1-5i$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-1-5i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 1 - 5i",
+      "-5i-1"
+    ],
+    "solution_latex": "The conjugate keeps the real part and changes the sign of the imaginary part, giving $-1-5i$.",
+    "complexity_factor": 1.05,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "conjugate"
+    ],
+    "status": "valid",
+    "checksum": "sha256-cb505b0f560bb005f001bd4adba1ebcfa99a1f1a6eaf19da1a359be0357ec2b0"
+  },
+  {
+    "id": "ch12.complex.medium.0005",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Multiply $(6i)(1+5i)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-30+6i$"
+      },
+      {
+        "id": "b",
+        "latex": "$30+6i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-30-6i$"
+      },
+      {
+        "id": "d",
+        "latex": "$30i$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-30+6i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 30 + 6i",
+      "6i-30"
+    ],
+    "solution_latex": "Use $i^2=-1$: real part $0\\cdot 1-6\\cdot 5=-30$ and imaginary part $0\\cdot 5+6\\cdot 1=6$.",
+    "complexity_factor": 1.1,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-c7e536d5902a48d75036ce25e3fdcbcc62cf76a51cdb5d1945bf0ab452058952"
+  },
+  {
+    "id": "ch12.complex.medium.0006",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "What is the conjugate of $1+7i$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1-7i$"
+      },
+      {
+        "id": "b",
+        "latex": "$1-7i$"
+      },
+      {
+        "id": "c",
+        "latex": "$1+7i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1+7i$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1-7i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "1 - 7i",
+      "-7i+1"
+    ],
+    "solution_latex": "The conjugate keeps the real part and changes the sign of the imaginary part, giving $1-7i$.",
+    "complexity_factor": 1.05,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "conjugate"
+    ],
+    "status": "valid",
+    "checksum": "sha256-e648a885ad10170355163b5e25dd2784887b179aa168b310113b8534dfe1939b"
+  },
+  {
+    "id": "ch12.complex.medium.0007",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Multiply $(2+8i)(3+i)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$14+26i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2-22i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2+26i$"
+      },
+      {
+        "id": "d",
+        "latex": "$6+8i$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-2+26i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 2 + 26i",
+      "26i-2"
+    ],
+    "solution_latex": "Use $i^2=-1$: real part $2\\cdot 3-8\\cdot 1=-2$ and imaginary part $2\\cdot 1+8\\cdot 3=26$.",
+    "complexity_factor": 1.1,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-f064a50e19b0e154edc4b1a555693508bec5e6ff04bf9a0f343392ab8b528fe6"
+  },
+  {
+    "id": "ch12.complex.medium.0008",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "What is the conjugate of $3+2i$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3-2i$"
+      },
+      {
+        "id": "b",
+        "latex": "$3+2i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-3+2i$"
+      },
+      {
+        "id": "d",
+        "latex": "$3-2i$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "3-2i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "3 - 2i",
+      "-2i+3"
+    ],
+    "solution_latex": "The conjugate keeps the real part and changes the sign of the imaginary part, giving $3-2i$.",
+    "complexity_factor": 1.05,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "conjugate"
+    ],
+    "status": "valid",
+    "checksum": "sha256-b37419b553ae713cb642c28f0547c1ccfb57e7758c0c0c9235410bebd9ed83d0"
+  },
+  {
+    "id": "ch12.complex.medium.0009",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Multiply $(4+3i)(-3+3i)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-21+3i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3+3i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-21+21i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-12+9i$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-21+3i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 21 + 3i",
+      "3i-21"
+    ],
+    "solution_latex": "Use $i^2=-1$: real part $4\\cdot -3-3\\cdot 3=-21$ and imaginary part $4\\cdot 3+3\\cdot -3=3$.",
+    "complexity_factor": 1.1,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-8b53c36071b63d9fb576a00f33c72d651c7dc663d900a18e80aa3a1720dafd76"
+  },
+  {
+    "id": "ch12.complex.medium.0010",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "What is the conjugate of $-4+4i$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4-4i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4-4i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4+4i$"
+      },
+      {
+        "id": "d",
+        "latex": "$4+4i$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-4-4i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 4 - 4i",
+      "-4i-4"
+    ],
+    "solution_latex": "The conjugate keeps the real part and changes the sign of the imaginary part, giving $-4-4i$.",
+    "complexity_factor": 1.05,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "conjugate"
+    ],
+    "status": "valid",
+    "checksum": "sha256-a24b9651429133d4dc7cd05df0aec792cccebd45833846815c9736f6ad7236d4"
+  },
+  {
+    "id": "ch12.complex.medium.0011",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Multiply $(-3+5i)(-1+5i)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$28-20i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-22-10i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-22-20i$"
+      },
+      {
+        "id": "d",
+        "latex": "$3+25i$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-22-20i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 22 - 20i",
+      "-20i-22"
+    ],
+    "solution_latex": "Use $i^2=-1$: real part $-3\\cdot -1-5\\cdot 5=-22$ and imaginary part $-3\\cdot 5+5\\cdot -1=-20$.",
+    "complexity_factor": 1.1,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-ff826d5841e98c85e6837c9b64b94ba67ab0aae4586db1def006fae0875e5049"
+  },
+  {
+    "id": "ch12.complex.medium.0012",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "What is the conjugate of $-2+6i$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2-6i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2+6i$"
+      },
+      {
+        "id": "c",
+        "latex": "$2+6i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2-6i$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-2-6i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 2 - 6i",
+      "-6i-2"
+    ],
+    "solution_latex": "The conjugate keeps the real part and changes the sign of the imaginary part, giving $-2-6i$.",
+    "complexity_factor": 1.05,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "conjugate"
+    ],
+    "status": "valid",
+    "checksum": "sha256-238a483bf81c65197934304400995c56fdb01c63119f7c2a2090d5cc48338e5f"
+  },
+  {
+    "id": "ch12.complex.medium.0013",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Multiply $(-1+7i)(1+i)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-8+6i$"
+      },
+      {
+        "id": "b",
+        "latex": "$6+6i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-8-8i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1+7i$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-8+6i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 8 + 6i",
+      "6i-8"
+    ],
+    "solution_latex": "Use $i^2=-1$: real part $-1\\cdot 1-7\\cdot 1=-8$ and imaginary part $-1\\cdot 1+7\\cdot 1=6$.",
+    "complexity_factor": 1.1,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-f4b427b14923382c5ed40708826485936fd5b6309873aef794d2fa91678cc690"
+  },
+  {
+    "id": "ch12.complex.medium.0014",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "What is the conjugate of $8i$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-8i$"
+      },
+      {
+        "id": "c",
+        "latex": "$113+i$"
+      },
+      {
+        "id": "d",
+        "latex": "$114+2i$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-8i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 8i"
+    ],
+    "solution_latex": "The conjugate keeps the real part and changes the sign of the imaginary part, giving $-8i$.",
+    "complexity_factor": 1.05,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "conjugate"
+    ],
+    "status": "valid",
+    "checksum": "sha256-fdf6fe6be426f1aca8b9ae3ce33efb620ead7c47a89cdd1f14d1a0ad805bd2c8"
+  },
+  {
+    "id": "ch12.complex.medium.0015",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Multiply $(1+2i)(3+3i)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9+9i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3-3i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-3+9i$"
+      },
+      {
+        "id": "d",
+        "latex": "$3+6i$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-3+9i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 3 + 9i",
+      "9i-3"
+    ],
+    "solution_latex": "Use $i^2=-1$: real part $1\\cdot 3-2\\cdot 3=-3$ and imaginary part $1\\cdot 3+2\\cdot 3=9$.",
+    "complexity_factor": 1.1,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-ec939842af39a471b83b1256afef465d3d6702d4f5ea9ed8247d7728e0341af8"
+  },
+  {
+    "id": "ch12.complex.medium.0016",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "What is the conjugate of $2+3i$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2-3i$"
+      },
+      {
+        "id": "b",
+        "latex": "$2+3i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2+3i$"
+      },
+      {
+        "id": "d",
+        "latex": "$2-3i$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2-3i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "2 - 3i",
+      "-3i+2"
+    ],
+    "solution_latex": "The conjugate keeps the real part and changes the sign of the imaginary part, giving $2-3i$.",
+    "complexity_factor": 1.05,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "conjugate"
+    ],
+    "status": "valid",
+    "checksum": "sha256-73226c3845969f4433df43d75914ef6a0fde9e9bc3ef8cd4266692738cdc1cda"
+  },
+  {
+    "id": "ch12.complex.medium.0017",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Multiply $(3+4i)(-3+5i)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-29+3i$"
+      },
+      {
+        "id": "b",
+        "latex": "$11+3i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-29+27i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-9+20i$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-29+3i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 29 + 3i",
+      "3i-29"
+    ],
+    "solution_latex": "Use $i^2=-1$: real part $3\\cdot -3-4\\cdot 5=-29$ and imaginary part $3\\cdot 5+4\\cdot -3=3$.",
+    "complexity_factor": 1.1,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-134ed2205c09a4feeefc54fe72548fc954e5a1833a29f061c8bd8d7aaa8cf593"
+  },
+  {
+    "id": "ch12.complex.medium.0018",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "What is the conjugate of $4+5i$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4-5i$"
+      },
+      {
+        "id": "b",
+        "latex": "$4-5i$"
+      },
+      {
+        "id": "c",
+        "latex": "$4+5i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4+5i$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "4-5i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "4 - 5i",
+      "-5i+4"
+    ],
+    "solution_latex": "The conjugate keeps the real part and changes the sign of the imaginary part, giving $4-5i$.",
+    "complexity_factor": 1.05,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "conjugate"
+    ],
+    "status": "valid",
+    "checksum": "sha256-486a9122b2318eb0f6d8002b1ee64b4ac8ef9d0bd7776b6bec301e958f02dcc5"
+  },
+  {
+    "id": "ch12.complex.medium.0019",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Multiply $(-4+6i)(-1+i)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10-10i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2+2i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2-10i$"
+      },
+      {
+        "id": "d",
+        "latex": "$4+6i$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-2-10i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 2 - 10i",
+      "-10i-2"
+    ],
+    "solution_latex": "Use $i^2=-1$: real part $-4\\cdot -1-6\\cdot 1=-2$ and imaginary part $-4\\cdot 1+6\\cdot -1=-10$.",
+    "complexity_factor": 1.1,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-0835b6bd1d442b32b5225443f3698491488e12d835b08dea8fcc17d75ab127c2"
+  },
+  {
+    "id": "ch12.complex.medium.0020",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "What is the conjugate of $-3+7i$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3-7i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3+7i$"
+      },
+      {
+        "id": "c",
+        "latex": "$3+7i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3-7i$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-3-7i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 3 - 7i",
+      "-7i-3"
+    ],
+    "solution_latex": "The conjugate keeps the real part and changes the sign of the imaginary part, giving $-3-7i$.",
+    "complexity_factor": 1.05,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "conjugate"
+    ],
+    "status": "valid",
+    "checksum": "sha256-0a202b0371e661fe1f33a344609a3c2326c29407f3b2dc681922eeb39744cb85"
+  },
+  {
+    "id": "ch12.complex.medium.0021",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Multiply $(-2+8i)(1+3i)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-26+2i$"
+      },
+      {
+        "id": "b",
+        "latex": "$22+2i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-26-14i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2+24i$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-26+2i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 26 + 2i",
+      "2i-26"
+    ],
+    "solution_latex": "Use $i^2=-1$: real part $-2\\cdot 1-8\\cdot 3=-26$ and imaginary part $-2\\cdot 3+8\\cdot 1=2$.",
+    "complexity_factor": 1.1,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-f150c787e4b1eb4155856b72957ba301e6c25c8ec8121776e78f70ddf7d3deef"
+  },
+  {
+    "id": "ch12.complex.medium.0022",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "What is the conjugate of $-1+2i$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1-2i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1-2i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1+2i$"
+      },
+      {
+        "id": "d",
+        "latex": "$1+2i$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-1-2i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 1 - 2i",
+      "-2i-1"
+    ],
+    "solution_latex": "The conjugate keeps the real part and changes the sign of the imaginary part, giving $-1-2i$.",
+    "complexity_factor": 1.05,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "conjugate"
+    ],
+    "status": "valid",
+    "checksum": "sha256-0112fbd0f338835b9077f1a154ddaa5479dc2a8e942fd5f46fbeaff65fcfe8f4"
+  },
+  {
+    "id": "ch12.complex.medium.0023",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Multiply $(3i)(3+5i)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$15+9i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-15-9i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-15+9i$"
+      },
+      {
+        "id": "d",
+        "latex": "$15i$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-15+9i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 15 + 9i",
+      "9i-15"
+    ],
+    "solution_latex": "Use $i^2=-1$: real part $0\\cdot 3-3\\cdot 5=-15$ and imaginary part $0\\cdot 5+3\\cdot 3=9$.",
+    "complexity_factor": 1.1,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-d70d6f042daf5cb6ad8d569cc1843e06f339c4d9bea5075c318ea69359964bcb"
+  },
+  {
+    "id": "ch12.complex.medium.0024",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "What is the conjugate of $1+4i$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1-4i$"
+      },
+      {
+        "id": "b",
+        "latex": "$1+4i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1+4i$"
+      },
+      {
+        "id": "d",
+        "latex": "$1-4i$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1-4i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "1 - 4i",
+      "-4i+1"
+    ],
+    "solution_latex": "The conjugate keeps the real part and changes the sign of the imaginary part, giving $1-4i$.",
+    "complexity_factor": 1.05,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "conjugate"
+    ],
+    "status": "valid",
+    "checksum": "sha256-7d392f5d0193bb2ea81b62bfbe0df6d0bc9e0d19f88a057cc321dfa5305d460b"
+  },
+  {
+    "id": "ch12.complex.medium.0025",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Multiply $(2+5i)(-3+i)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-11-13i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1-13i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-11+17i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-6+5i$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-11-13i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 11 - 13i",
+      "-13i-11"
+    ],
+    "solution_latex": "Use $i^2=-1$: real part $2\\cdot -3-5\\cdot 1=-11$ and imaginary part $2\\cdot 1+5\\cdot -3=-13$.",
+    "complexity_factor": 1.1,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-1cef25fd7a4e50a1a16e04549ec1072e5596ba0f08912661165e0b5b5a63b65f"
+  },
+  {
+    "id": "ch12.complex.medium.0026",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "What is the conjugate of $3+6i$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3-6i$"
+      },
+      {
+        "id": "b",
+        "latex": "$3-6i$"
+      },
+      {
+        "id": "c",
+        "latex": "$3+6i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3+6i$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "3-6i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "3 - 6i",
+      "-6i+3"
+    ],
+    "solution_latex": "The conjugate keeps the real part and changes the sign of the imaginary part, giving $3-6i$.",
+    "complexity_factor": 1.05,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "conjugate"
+    ],
+    "status": "valid",
+    "checksum": "sha256-e8a15767da1d2489d84e6db45ed8ff8db91eeaaaecd08072011646152d6365a8"
+  },
+  {
+    "id": "ch12.complex.medium.0027",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Multiply $(4+7i)(-1+3i)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$17+5i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-25+19i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-25+5i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4+21i$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-25+5i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 25 + 5i",
+      "5i-25"
+    ],
+    "solution_latex": "Use $i^2=-1$: real part $4\\cdot -1-7\\cdot 3=-25$ and imaginary part $4\\cdot 3+7\\cdot -1=5$.",
+    "complexity_factor": 1.1,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-3d99e6a30b43e1990f3831b05c6b8f5d50d5c0c6d2fadc0171ea53f068727d78"
+  },
+  {
+    "id": "ch12.complex.medium.0028",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "What is the conjugate of $-4+8i$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4-8i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4+8i$"
+      },
+      {
+        "id": "c",
+        "latex": "$4+8i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4-8i$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-4-8i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 4 - 8i",
+      "-8i-4"
+    ],
+    "solution_latex": "The conjugate keeps the real part and changes the sign of the imaginary part, giving $-4-8i$.",
+    "complexity_factor": 1.05,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "conjugate"
+    ],
+    "status": "valid",
+    "checksum": "sha256-399f4d207eec95dfe2a1281f6d28cdae7ca279eb9e251519145338669e891634"
+  },
+  {
+    "id": "ch12.complex.medium.0029",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Multiply $(-3+2i)(1+5i)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-13-13i$"
+      },
+      {
+        "id": "b",
+        "latex": "$7-13i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-13-17i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3+10i$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-13-13i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 13 - 13i",
+      "-13i-13"
+    ],
+    "solution_latex": "Use $i^2=-1$: real part $-3\\cdot 1-2\\cdot 5=-13$ and imaginary part $-3\\cdot 5+2\\cdot 1=-13$.",
+    "complexity_factor": 1.1,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-56b759930b5c724c251fd6866b343e41f7559d6d1c6f4bd94d9ae1e70b3ad09a"
+  },
+  {
+    "id": "ch12.complex.medium.0030",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "What is the conjugate of $-2+3i$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2-3i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2-3i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2+3i$"
+      },
+      {
+        "id": "d",
+        "latex": "$2+3i$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-2-3i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 2 - 3i",
+      "-3i-2"
+    ],
+    "solution_latex": "The conjugate keeps the real part and changes the sign of the imaginary part, giving $-2-3i$.",
+    "complexity_factor": 1.05,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "conjugate"
+    ],
+    "status": "valid",
+    "checksum": "sha256-831c5fc934643e5b9c99ff477a8a6ec8479470b1a05fec067c2ba454dd08b330"
+  },
+  {
+    "id": "ch12.complex.medium.0031",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Multiply $(-1+4i)(3+i)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1+11i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-7-13i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-7+11i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3+4i$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-7+11i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 7 + 11i",
+      "11i-7"
+    ],
+    "solution_latex": "Use $i^2=-1$: real part $-1\\cdot 3-4\\cdot 1=-7$ and imaginary part $-1\\cdot 1+4\\cdot 3=11$.",
+    "complexity_factor": 1.1,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-d6ab3b69cf09114fc53f7d9c7ebfbffcde4f588bc7556d7ceb4d83bd64a421df"
+  },
+  {
+    "id": "ch12.complex.medium.0032",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "What is the conjugate of $5i$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5i$"
+      },
+      {
+        "id": "b",
+        "latex": "$131+i$"
+      },
+      {
+        "id": "c",
+        "latex": "$132+2i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-5i$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-5i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 5i"
+    ],
+    "solution_latex": "The conjugate keeps the real part and changes the sign of the imaginary part, giving $-5i$.",
+    "complexity_factor": 1.05,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "conjugate"
+    ],
+    "status": "valid",
+    "checksum": "sha256-e6ba177fa67e26e18c7cb35735952cd5b751fbcd609b665685687c1114c373d8"
+  },
+  {
+    "id": "ch12.complex.medium.0033",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Multiply $(1+6i)(-3+3i)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-21-15i$"
+      },
+      {
+        "id": "b",
+        "latex": "$15-15i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-21+21i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3+18i$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-21-15i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 21 - 15i",
+      "-15i-21"
+    ],
+    "solution_latex": "Use $i^2=-1$: real part $1\\cdot -3-6\\cdot 3=-21$ and imaginary part $1\\cdot 3+6\\cdot -3=-15$.",
+    "complexity_factor": 1.1,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-ef0a28ac6e0387f7f72572112f4e2ac84939701a403c7f127af419d8d51365ae"
+  },
+  {
+    "id": "ch12.complex.medium.0034",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "What is the conjugate of $2+7i$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2-7i$"
+      },
+      {
+        "id": "b",
+        "latex": "$2-7i$"
+      },
+      {
+        "id": "c",
+        "latex": "$2+7i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2+7i$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "2-7i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "2 - 7i",
+      "-7i+2"
+    ],
+    "solution_latex": "The conjugate keeps the real part and changes the sign of the imaginary part, giving $2-7i$.",
+    "complexity_factor": 1.05,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "conjugate"
+    ],
+    "status": "valid",
+    "checksum": "sha256-89c0daeb55f311304b480a3437c5d6838f494a44c6b10b8232d1b0c9904b6f51"
+  },
+  {
+    "id": "ch12.complex.medium.0035",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Multiply $(3+8i)(-1+5i)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$37+7i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-43+23i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-43+7i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3+40i$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-43+7i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 43 + 7i",
+      "7i-43"
+    ],
+    "solution_latex": "Use $i^2=-1$: real part $3\\cdot -1-8\\cdot 5=-43$ and imaginary part $3\\cdot 5+8\\cdot -1=7$.",
+    "complexity_factor": 1.1,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-1c07211ef0507dde66459e1bf9764664cd9cdccac8b757af8b60413002d71edf"
+  },
+  {
+    "id": "ch12.complex.medium.0036",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "What is the conjugate of $4+2i$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4-2i$"
+      },
+      {
+        "id": "b",
+        "latex": "$4+2i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4+2i$"
+      },
+      {
+        "id": "d",
+        "latex": "$4-2i$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "4-2i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "4 - 2i",
+      "-2i+4"
+    ],
+    "solution_latex": "The conjugate keeps the real part and changes the sign of the imaginary part, giving $4-2i$.",
+    "complexity_factor": 1.05,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "conjugate"
+    ],
+    "status": "valid",
+    "checksum": "sha256-b83d3ca7a2a518d96a9a5703d45704be3921cd09e7f4915249aad4b0f40b23bd"
+  },
+  {
+    "id": "ch12.complex.medium.0037",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Multiply $(-4+3i)(1+i)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-7-i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1-i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-7-7i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4+3i$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-7-i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 7 - i",
+      "-i-7"
+    ],
+    "solution_latex": "Use $i^2=-1$: real part $-4\\cdot 1-3\\cdot 1=-7$ and imaginary part $-4\\cdot 1+3\\cdot 1=-1$.",
+    "complexity_factor": 1.1,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-a38bed1828f5f81e8aa48cab39dd0ec2cc2b0d3da9561951ef0cb19baa8c052a"
+  },
+  {
+    "id": "ch12.complex.medium.0038",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "What is the conjugate of $-3+4i$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3-4i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3-4i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-3+4i$"
+      },
+      {
+        "id": "d",
+        "latex": "$3+4i$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-3-4i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 3 - 4i",
+      "-4i-3"
+    ],
+    "solution_latex": "The conjugate keeps the real part and changes the sign of the imaginary part, giving $-3-4i$.",
+    "complexity_factor": 1.05,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "conjugate"
+    ],
+    "status": "valid",
+    "checksum": "sha256-2b7d5aa22bca67ee67e60b9e6ae5c89b24e1f70d9cf42d7873c275cfc706fe7f"
+  },
+  {
+    "id": "ch12.complex.medium.0039",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Multiply $(-2+5i)(3+3i)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9+9i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-21-21i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-21+9i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-6+15i$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-21+9i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 21 + 9i",
+      "9i-21"
+    ],
+    "solution_latex": "Use $i^2=-1$: real part $-2\\cdot 3-5\\cdot 3=-21$ and imaginary part $-2\\cdot 3+5\\cdot 3=9$.",
+    "complexity_factor": 1.1,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-089cad211b7c0fd33dd6f39150cba043e5f7db51cb0690a5d354229236261bc4"
+  },
+  {
+    "id": "ch12.complex.medium.0040",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "What is the conjugate of $-1+6i$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1-6i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1+6i$"
+      },
+      {
+        "id": "c",
+        "latex": "$1+6i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1-6i$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-1-6i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 1 - 6i",
+      "-6i-1"
+    ],
+    "solution_latex": "The conjugate keeps the real part and changes the sign of the imaginary part, giving $-1-6i$.",
+    "complexity_factor": 1.05,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "conjugate"
+    ],
+    "status": "valid",
+    "checksum": "sha256-831299a4f6eeef5281fed8e3515ad68185ae47983e500e41ebc4a45be491322c"
+  },
+  {
+    "id": "ch12.complex.medium.0041",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Multiply $(7i)(-3+5i)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-35-21i$"
+      },
+      {
+        "id": "b",
+        "latex": "$35-21i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-35+21i$"
+      },
+      {
+        "id": "d",
+        "latex": "$35i$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-35-21i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 35 - 21i",
+      "-21i-35"
+    ],
+    "solution_latex": "Use $i^2=-1$: real part $0\\cdot -3-7\\cdot 5=-35$ and imaginary part $0\\cdot 5+7\\cdot -3=-21$.",
+    "complexity_factor": 1.1,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-8dcbecfadf38cecec365c598b1b620b866e3290d1a875f9aa24d87ac205aeb42"
+  },
+  {
+    "id": "ch12.complex.medium.0042",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "What is the conjugate of $1+8i$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1-8i$"
+      },
+      {
+        "id": "b",
+        "latex": "$1-8i$"
+      },
+      {
+        "id": "c",
+        "latex": "$1+8i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1+8i$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1-8i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "1 - 8i",
+      "-8i+1"
+    ],
+    "solution_latex": "The conjugate keeps the real part and changes the sign of the imaginary part, giving $1-8i$.",
+    "complexity_factor": 1.05,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "conjugate"
+    ],
+    "status": "valid",
+    "checksum": "sha256-6c95bd36d252cd20b8cd4af62d34500fe74fe6d7dc115ba824d88e1baff050ae"
+  },
+  {
+    "id": "ch12.complex.medium.0043",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Multiply $(2+2i)(-1+i)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4+4i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2+2i$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-4",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 4"
+    ],
+    "solution_latex": "Use $i^2=-1$: real part $2\\cdot -1-2\\cdot 1=-4$ and imaginary part $2\\cdot 1+2\\cdot -1=0$.",
+    "complexity_factor": 1.1,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-c66b87e4fe51f997da6bd0d8b5f3a803e0b0762725412700c858e8a132214115"
+  },
+  {
+    "id": "ch12.complex.medium.0044",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "What is the conjugate of $3+3i$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3-3i$"
+      },
+      {
+        "id": "b",
+        "latex": "$3+3i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-3+3i$"
+      },
+      {
+        "id": "d",
+        "latex": "$3-3i$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "3-3i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "3 - 3i",
+      "-3i+3"
+    ],
+    "solution_latex": "The conjugate keeps the real part and changes the sign of the imaginary part, giving $3-3i$.",
+    "complexity_factor": 1.05,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "conjugate"
+    ],
+    "status": "valid",
+    "checksum": "sha256-6041c28830ec54719da74558509fd8aa33e25d5a0a9a4b3d075fa06c165fad23"
+  },
+  {
+    "id": "ch12.complex.medium.0045",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Multiply $(4+4i)(1+3i)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-8+16i$"
+      },
+      {
+        "id": "b",
+        "latex": "$16+16i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-8+8i$"
+      },
+      {
+        "id": "d",
+        "latex": "$4+12i$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-8+16i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 8 + 16i",
+      "16i-8"
+    ],
+    "solution_latex": "Use $i^2=-1$: real part $4\\cdot 1-4\\cdot 3=-8$ and imaginary part $4\\cdot 3+4\\cdot 1=16$.",
+    "complexity_factor": 1.1,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-33874ad327de42759b8f7e44eeb1e7c27a0876f8ba2bd84ee6a19da07beffecb"
+  },
+  {
+    "id": "ch12.complex.medium.0046",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "What is the conjugate of $-4+5i$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4-5i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4-5i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4+5i$"
+      },
+      {
+        "id": "d",
+        "latex": "$4+5i$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-4-5i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 4 - 5i",
+      "-5i-4"
+    ],
+    "solution_latex": "The conjugate keeps the real part and changes the sign of the imaginary part, giving $-4-5i$.",
+    "complexity_factor": 1.05,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "conjugate"
+    ],
+    "status": "valid",
+    "checksum": "sha256-f1b8ee14d1ea4118726f7cb5ba9a69287668859b13fac3998dc27d26e494875a"
+  },
+  {
+    "id": "ch12.complex.medium.0047",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Multiply $(-3+6i)(3+5i)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$21+3i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-39-33i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-39+3i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-9+30i$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-39+3i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 39 + 3i",
+      "3i-39"
+    ],
+    "solution_latex": "Use $i^2=-1$: real part $-3\\cdot 3-6\\cdot 5=-39$ and imaginary part $-3\\cdot 5+6\\cdot 3=3$.",
+    "complexity_factor": 1.1,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-d7b9fe5aae4baa6b399e24b31d60311b130deeb8263529dae3a703635a60f8ec"
+  },
+  {
+    "id": "ch12.complex.medium.0048",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "What is the conjugate of $-2+7i$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2-7i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2+7i$"
+      },
+      {
+        "id": "c",
+        "latex": "$2+7i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2-7i$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-2-7i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 2 - 7i",
+      "-7i-2"
+    ],
+    "solution_latex": "The conjugate keeps the real part and changes the sign of the imaginary part, giving $-2-7i$.",
+    "complexity_factor": 1.05,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "conjugate"
+    ],
+    "status": "valid",
+    "checksum": "sha256-068cd36bded72d5d0eeddb7741c527c19432bce7e1bc5e3969d55a959ca441e7"
+  },
+  {
+    "id": "ch12.complex.medium.0049",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Multiply $(-1+8i)(-3+i)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-5-25i$"
+      },
+      {
+        "id": "b",
+        "latex": "$11-25i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-5+23i$"
+      },
+      {
+        "id": "d",
+        "latex": "$3+8i$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-5-25i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 5 - 25i",
+      "-25i-5"
+    ],
+    "solution_latex": "Use $i^2=-1$: real part $-1\\cdot -3-8\\cdot 1=-5$ and imaginary part $-1\\cdot 1+8\\cdot -3=-25$.",
+    "complexity_factor": 1.1,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-4ac5b031dea9303af5a203d2398c25130e9abf691e9b17a529f6b9c13f277524"
+  },
+  {
+    "id": "ch12.complex.medium.0050",
+    "topic_id": "ch12.complex",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "What is the conjugate of $2i$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2i$"
+      },
+      {
+        "id": "c",
+        "latex": "$149+i$"
+      },
+      {
+        "id": "d",
+        "latex": "$150+2i$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-2i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 2i"
+    ],
+    "solution_latex": "The conjugate keeps the real part and changes the sign of the imaginary part, giving $-2i$.",
+    "complexity_factor": 1.05,
+    "source_section": "12.3",
+    "tags": [
+      "complex",
+      "operations",
+      "conjugate"
+    ],
+    "status": "valid",
+    "checksum": "sha256-857b31c62b5dabf73d5ec94b05bc187c666e97ed3eae09b3a7a3875f65c15b47"
+  }
+]

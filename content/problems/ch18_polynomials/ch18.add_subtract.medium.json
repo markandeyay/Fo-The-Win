@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "ch18.add_subtract.medium.0001",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "medium",
+    "prompt_latex": "Let $P(x)=x^4 + 2x^2 - 1$ and $Q(x)=4x^4 - 2x^3 - 4x^2 + 5x - 3$. Simplify $-2P(x) + 4Q(x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-18x^4 + 8x^3 + 12x^2 - 20x + 14$"
+      },
+      {
+        "id": "b",
+        "latex": "$12x^4 - 8x^3 - 20x^2 + 20x - 10$"
+      },
+      {
+        "id": "c",
+        "latex": "$14x^4 - 8x^3 - 20x^2 + 20x - 10$"
+      },
+      {
+        "id": "d",
+        "latex": "$5x^4 - 2x^3 - 2x^2 + 5x - 4$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "14*x^4-8*x^3-20*x^2+20*x-10",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Distribute the coefficients to $P(x)$ and $Q(x)$, then combine like powers of $x$ to get $14x^4 - 8x^3 - 20x^2 + 20x - 10$.",
+    "complexity_factor": 1.1,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "linear_combination",
+      "like_terms"
+    ],
+    "checksum": "sha256-7f13bacee195aa216a6c08c910781e9b089bb7d86631a08c6f70fac3bc669217",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.medium.0002",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "medium",
+    "prompt_latex": "Let $P(x)=5x^4 - 5x^3 - 2x^2 + 4x$ and $Q(x)=-3x^4 + 5x^3 + 4x^2 - x + 3$. Simplify $3P(x) + 4Q(x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2x^4 + 2x^2 + 3x + 3$"
+      },
+      {
+        "id": "b",
+        "latex": "$27x^4 - 35x^3 - 22x^2 + 16x - 12$"
+      },
+      {
+        "id": "c",
+        "latex": "$3x^4 + 5x^3 + 13x^2 + 8x + 12$"
+      },
+      {
+        "id": "d",
+        "latex": "$3x^4 + 5x^3 + 10x^2 + 8x + 12$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "3*x^4+5*x^3+10*x^2+8*x+12",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Distribute the coefficients to $P(x)$ and $Q(x)$, then combine like powers of $x$ to get $3x^4 + 5x^3 + 10x^2 + 8x + 12$.",
+    "complexity_factor": 1.1,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "linear_combination",
+      "like_terms"
+    ],
+    "checksum": "sha256-7e0cf0a833190b913b15252f3a374face1635d2666d8822ceff44b9ca9d10c36",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.medium.0003",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "medium",
+    "prompt_latex": "Let $P(x)=-4x^4 - 5x^3 + x^2 + 6$ and $Q(x)=5x^4 + 4x^3 + x^2 - 3x + 1$. Simplify $2P(x) + 4Q(x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-28x^4 - 26x^3 - 2x^2 + 12x + 8$"
+      },
+      {
+        "id": "b",
+        "latex": "$12x^4 + 6x^3 + 6x^2 - 12x + 16$"
+      },
+      {
+        "id": "c",
+        "latex": "$12x^4 + 6x^3 + 8x^2 - 12x + 16$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^4 - x^3 + 2x^2 - 3x + 7$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "12*x^4+6*x^3+6*x^2-12*x+16",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Distribute the coefficients to $P(x)$ and $Q(x)$, then combine like powers of $x$ to get $12x^4 + 6x^3 + 6x^2 - 12x + 16$.",
+    "complexity_factor": 1.1,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "linear_combination",
+      "like_terms"
+    ],
+    "checksum": "sha256-e7360594d4d82fdeea72b52957731a916ab6c391542fe002f419404362e57611",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.medium.0004",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "medium",
+    "prompt_latex": "Let $P(x)=-2x^3 - 3x^2 - 2$ and $Q(x)=4x^3 - x^2 - 4x - 4$. Simplify $3P(x) + 4Q(x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-22x^3 - 5x^2 + 16x + 10$"
+      },
+      {
+        "id": "b",
+        "latex": "$10x^3 - 13x^2 - 18x - 22$"
+      },
+      {
+        "id": "c",
+        "latex": "$10x^3 - 13x^2 - 16x - 22$"
+      },
+      {
+        "id": "d",
+        "latex": "$2x^3 - 4x^2 - 4x - 6$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "10*x^3-13*x^2-16*x-22",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Distribute the coefficients to $P(x)$ and $Q(x)$, then combine like powers of $x$ to get $10x^3 - 13x^2 - 16x - 22$.",
+    "complexity_factor": 1.1,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "linear_combination",
+      "like_terms"
+    ],
+    "checksum": "sha256-c21605885219551a70c87cc5ef86ae6fb756962b1453ea501cf64974f9f54131",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.medium.0005",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "medium",
+    "prompt_latex": "Let $P(x)=5x^4 - x^3 + 3x^2 + 1$ and $Q(x)=-x^4 + 4x^3 - 2x^2 - 3x + 4$. Simplify $-2P(x) - 2Q(x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-8x^4 - 6x^3 - 2x^2 + 6x - 10$"
+      },
+      {
+        "id": "b",
+        "latex": "$-8x^4 - 6x^3 - 2x^2 + 6x - 12$"
+      },
+      {
+        "id": "c",
+        "latex": "$4x^4 + 3x^3 + x^2 - 3x + 5$"
+      },
+      {
+        "id": "d",
+        "latex": "$-12x^4 + 10x^3 - 10x^2 - 6x + 6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-8*x^4-6*x^3-2*x^2+6*x-10",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Distribute the coefficients to $P(x)$ and $Q(x)$, then combine like powers of $x$ to get $-8x^4 - 6x^3 - 2x^2 + 6x - 10$.",
+    "complexity_factor": 1.1,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "linear_combination",
+      "like_terms"
+    ],
+    "checksum": "sha256-9feb944660d73c7d29442654299c39bb401f1add2dd50dbcb9fefc2ec1bd4334",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.medium.0006",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "medium",
+    "prompt_latex": "Let $P(x)=-3x^4 - 5x^3 - 3x^2 + 3$ and $Q(x)=4x^4 - x^3 + x^2 + 4x + 3$. Simplify $3P(x) + 2Q(x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-x^4 - 17x^3 - 5x^2 + 8x + 15$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^4 - 6x^3 - 2x^2 + 4x + 6$"
+      },
+      {
+        "id": "c",
+        "latex": "$-x^4 - 17x^3 - 7x^2 + 8x + 15$"
+      },
+      {
+        "id": "d",
+        "latex": "$-17x^4 - 13x^3 - 11x^2 - 8x + 3$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-x^4-17*x^3-7*x^2+8*x+15",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Distribute the coefficients to $P(x)$ and $Q(x)$, then combine like powers of $x$ to get $-x^4 - 17x^3 - 7x^2 + 8x + 15$.",
+    "complexity_factor": 1.1,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "linear_combination",
+      "like_terms"
+    ],
+    "checksum": "sha256-6379d3547e45871a97ec416c07e555eb78aa847902a89960539e456738a156c2",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.medium.0007",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "medium",
+    "prompt_latex": "Let $P(x)=-3x^3 - 4x^2 + 3$ and $Q(x)=-x^3 + 4x^2 + x - 4$. Simplify $2P(x) - 3Q(x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3x^3 - 22x^2 - 3x + 18$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3x^3 - 20x^2 - 3x + 18$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4x^3 + x - 1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-9x^3 + 4x^2 + 3x - 6$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-3*x^3-20*x^2-3*x+18",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Distribute the coefficients to $P(x)$ and $Q(x)$, then combine like powers of $x$ to get $-3x^3 - 20x^2 - 3x + 18$.",
+    "complexity_factor": 1.1,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "linear_combination",
+      "like_terms"
+    ],
+    "checksum": "sha256-168cc71193e5288d5ce07bff0aefe272fe0609beb985f61284493f8f972f3bd4",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.medium.0008",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "medium",
+    "prompt_latex": "Let $P(x)=4x^4 + 5x^3 + x^2 + 2x$ and $Q(x)=-x^4 - 2x^3 - x^2 + 4$. Simplify $-2P(x) - 2Q(x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3x^4 + 3x^3 + 2x + 4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-10x^4 - 14x^3 - 4x^2 - 4x + 8$"
+      },
+      {
+        "id": "c",
+        "latex": "$-6x^4 - 6x^3 - 4x - 8$"
+      },
+      {
+        "id": "d",
+        "latex": "$-6x^4 - 9x^3 - 4x - 8$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-6*x^4-6*x^3-4*x-8",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Distribute the coefficients to $P(x)$ and $Q(x)$, then combine like powers of $x$ to get $-6x^4 - 6x^3 - 4x - 8$.",
+    "complexity_factor": 1.1,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "linear_combination",
+      "like_terms"
+    ],
+    "checksum": "sha256-d413d0aafeebead5eb77c22d0924d34652a04c25288c206c4de528e42dbb7651",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.medium.0009",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "medium",
+    "prompt_latex": "Let $P(x)=-3x^4 - 5x^3 - x^2 - 2$ and $Q(x)=-4x^4 + 3x^3 - x^2 - 4x + 3$. Simplify $3P(x) + 2Q(x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-17x^4 - 9x^3 - 5x^2 - 6x$"
+      },
+      {
+        "id": "b",
+        "latex": "$-7x^4 - 2x^3 - 2x^2 - 4x + 1$"
+      },
+      {
+        "id": "c",
+        "latex": "$-17x^4 - 9x^3 - 5x^2 - 8x$"
+      },
+      {
+        "id": "d",
+        "latex": "$-x^4 - 21x^3 - x^2 + 8x - 12$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-17*x^4-9*x^3-5*x^2-8*x",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Distribute the coefficients to $P(x)$ and $Q(x)$, then combine like powers of $x$ to get $-17x^4 - 9x^3 - 5x^2 - 8x$.",
+    "complexity_factor": 1.1,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "linear_combination",
+      "like_terms"
+    ],
+    "checksum": "sha256-2150fc607c3f608aa1ea50d751877ec2e35c18ab3e8d4e7dcd09b0b52d33caed",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.medium.0010",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "medium",
+    "prompt_latex": "Let $P(x)=5x^4 + 4x^3 - x^2 - 4x$ and $Q(x)=-x^4 + 4x^3 + 4x^2 - x + 3$. Simplify $-2P(x) - 2Q(x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-12x^4 + 10x^2 + 6x + 6$"
+      },
+      {
+        "id": "b",
+        "latex": "$-8x^4 - 16x^3 - 6x^2 + 10x - 6$"
+      },
+      {
+        "id": "c",
+        "latex": "$-8x^4 - 16x^3 - 6x^2 + 10x - 4$"
+      },
+      {
+        "id": "d",
+        "latex": "$4x^4 + 8x^3 + 3x^2 - 5x + 3$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-8*x^4-16*x^3-6*x^2+10*x-6",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Distribute the coefficients to $P(x)$ and $Q(x)$, then combine like powers of $x$ to get $-8x^4 - 16x^3 - 6x^2 + 10x - 6$.",
+    "complexity_factor": 1.1,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "linear_combination",
+      "like_terms"
+    ],
+    "checksum": "sha256-8c821f219f681057827ac572ded4019607900f2ce4dabe1eea08ace4e6b0d649",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.medium.0011",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "medium",
+    "prompt_latex": "Let $P(x)=-x^3 - 3x - 5$ and $Q(x)=-3x^3 - 2x + 2$. Simplify $-2P(x) - 2Q(x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4x^3 - 5x - 3$"
+      },
+      {
+        "id": "b",
+        "latex": "$5x^3 + 10x + 6$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4x^3 + 2x + 14$"
+      },
+      {
+        "id": "d",
+        "latex": "$8x^3 + 10x + 6$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "8*x^3+10*x+6",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Distribute the coefficients to $P(x)$ and $Q(x)$, then combine like powers of $x$ to get $8x^3 + 10x + 6$.",
+    "complexity_factor": 1.1,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "linear_combination",
+      "like_terms"
+    ],
+    "checksum": "sha256-99c9fe4fd81921c5761fdcf6aac206d9801f0417f59ae2c78bdd096571827bed",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.medium.0012",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "medium",
+    "prompt_latex": "Let $P(x)=3x^3 + 3x^2 + 2x$ and $Q(x)=-2x^3 + x^2 - 3x - 4$. Simplify $-2P(x) + 2Q(x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-10x^3 - 4x^2 - 10x - 8$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^3 + 4x^2 - x - 4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-10x^3 - 4x^2 - 12x - 8$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2x^3 - 8x^2 + 2x + 8$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-10*x^3-4*x^2-10*x-8",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Distribute the coefficients to $P(x)$ and $Q(x)$, then combine like powers of $x$ to get $-10x^3 - 4x^2 - 10x - 8$.",
+    "complexity_factor": 1.1,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "linear_combination",
+      "like_terms"
+    ],
+    "checksum": "sha256-a417302635fab41c6d84fe7c60f3814830240365038e25ff5881e249bc354e4c",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.medium.0013",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "medium",
+    "prompt_latex": "Let $P(x)=3x^3 - 3x^2 + x$ and $Q(x)=3x^3 + x^2 - x$. Simplify $2P(x) - 3Q(x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6x^3 - 2x^2$"
+      },
+      {
+        "id": "b",
+        "latex": "$15x^3 - 3x^2 - x$"
+      },
+      {
+        "id": "c",
+        "latex": "$-3x^3 - 9x^2 + 5x$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3x^3 - 7x^2 + 5x$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-3*x^3-9*x^2+5*x",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Distribute the coefficients to $P(x)$ and $Q(x)$, then combine like powers of $x$ to get $-3x^3 - 9x^2 + 5x$.",
+    "complexity_factor": 1.1,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "linear_combination",
+      "like_terms"
+    ],
+    "checksum": "sha256-ad939fdafd2b567be6c62ec99d94dd4c642722d771c38aa8f0481cc2688b783b",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.medium.0014",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "medium",
+    "prompt_latex": "Let $P(x)=-x^3 - 5x^2 - 3x$ and $Q(x)=x^3 + 2x^2 - 2x + 2$. Simplify $-2P(x) - 2Q(x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6x^2 + 13x - 4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3x^2 - 5x + 2$"
+      },
+      {
+        "id": "c",
+        "latex": "$6x^2 + 10x - 4$"
+      },
+      {
+        "id": "d",
+        "latex": "$4x^3 + 14x^2 + 2x + 4$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "6*x^2+10*x-4",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Distribute the coefficients to $P(x)$ and $Q(x)$, then combine like powers of $x$ to get $6x^2 + 10x - 4$.",
+    "complexity_factor": 1.1,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "linear_combination",
+      "like_terms"
+    ],
+    "checksum": "sha256-75ea04f6bc040b8a53470fce9ed0fca1126b5b8ce0ff57378dad0890c0611bac",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.medium.0015",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "medium",
+    "prompt_latex": "Let $P(x)=-4x^3 + 4x^2 + 3$ and $Q(x)=3x^3 + x^2 + 4$. Simplify $-2P(x) - 3Q(x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-x^3 + 5x^2 + 7$"
+      },
+      {
+        "id": "b",
+        "latex": "$17x^3 - 5x^2 + 6$"
+      },
+      {
+        "id": "c",
+        "latex": "$-x^3 - 8x^2 - 18$"
+      },
+      {
+        "id": "d",
+        "latex": "$-x^3 - 11x^2 - 18$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-x^3-11*x^2-18",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Distribute the coefficients to $P(x)$ and $Q(x)$, then combine like powers of $x$ to get $-x^3 - 11x^2 - 18$.",
+    "complexity_factor": 1.1,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "linear_combination",
+      "like_terms"
+    ],
+    "checksum": "sha256-77b706b3dae2cb678921704c17e706b46d2463eaa73b7f664bcc1a55269d8e27",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.medium.0016",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "medium",
+    "prompt_latex": "Let $P(x)=x^3 - 3x^2 - 3$ and $Q(x)=-2x^3 + 3x^2 + 3x - 4$. Simplify $2P(x) + 2Q(x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6x^3 - 12x^2 - 6x + 2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2x^3 + 6x - 14$"
+      },
+      {
+        "id": "c",
+        "latex": "$-x^3 + 3x - 7$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2x^3 + 9x - 14$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-2*x^3+6*x-14",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Distribute the coefficients to $P(x)$ and $Q(x)$, then combine like powers of $x$ to get $-2x^3 + 6x - 14$.",
+    "complexity_factor": 1.1,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "linear_combination",
+      "like_terms"
+    ],
+    "checksum": "sha256-59fc25ece74c2d48ff3b4c339765ea96a4173db38fb9269304e20b002a9dcc8a",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.medium.0017",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "medium",
+    "prompt_latex": "Let $P(x)=3x^3 - 3x + 4$ and $Q(x)=3x^3 + 4x^2 - 4x$. Simplify $3P(x) - 3Q(x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-12x^2 + 3x + 12$"
+      },
+      {
+        "id": "b",
+        "latex": "$18x^3 + 12x^2 - 21x + 12$"
+      },
+      {
+        "id": "c",
+        "latex": "$6x^3 + 4x^2 - 7x + 4$"
+      },
+      {
+        "id": "d",
+        "latex": "$-12x^2 + 12$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-12*x^2+3*x+12",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Distribute the coefficients to $P(x)$ and $Q(x)$, then combine like powers of $x$ to get $-12x^2 + 3x + 12$.",
+    "complexity_factor": 1.1,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "linear_combination",
+      "like_terms"
+    ],
+    "checksum": "sha256-c3dc7e32f90ad9cc022d3a26cb7fcf55e37af318292933cdac06130a7428956b",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.medium.0018",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "medium",
+    "prompt_latex": "Let $P(x)=x^3 - 4x - 2$ and $Q(x)=4x^3 - x^2 + 2x + 1$. Simplify $3P(x) - 2Q(x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11x^3 - 2x^2 - 8x - 4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-5x^3 + 2x^2 - 16x - 8$"
+      },
+      {
+        "id": "c",
+        "latex": "$-5x^3 + 2x^2 - 16x - 11$"
+      },
+      {
+        "id": "d",
+        "latex": "$5x^3 - x^2 - 2x - 1$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-5*x^3+2*x^2-16*x-8",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Distribute the coefficients to $P(x)$ and $Q(x)$, then combine like powers of $x$ to get $-5x^3 + 2x^2 - 16x - 8$.",
+    "complexity_factor": 1.1,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "linear_combination",
+      "like_terms"
+    ],
+    "checksum": "sha256-969737506ce40703f474a76d727ad09f0ac661b5435ba9b6310f63953c163cfb",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.medium.0019",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "medium",
+    "prompt_latex": "Let $P(x)=2x^4 + 2x^2 + 3x$ and $Q(x)=2x^4 - 2x^3 + 3x^2 - 2x - 4$. Simplify $2P(x) - 3Q(x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10x^4 - 6x^3 + 13x^2 - 12$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2x^4 + 6x^3 - 5x^2 + 12x + 12$"
+      },
+      {
+        "id": "c",
+        "latex": "$4x^4 - 2x^3 + 5x^2 + x - 4$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2x^4 + 3x^3 - 5x^2 + 12x + 12$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-2*x^4+6*x^3-5*x^2+12*x+12",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Distribute the coefficients to $P(x)$ and $Q(x)$, then combine like powers of $x$ to get $-2x^4 + 6x^3 - 5x^2 + 12x + 12$.",
+    "complexity_factor": 1.1,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "linear_combination",
+      "like_terms"
+    ],
+    "checksum": "sha256-75fd3ff6b38ae1f617fddae782fbe2eae8719ad6eedff476bf4e516994a9e3b3",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.medium.0020",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "medium",
+    "prompt_latex": "Let $P(x)=4x^4 - 4x^3 - 2x - 2$ and $Q(x)=-2x^4 + 2x^3 + 2x^2 - 4x - 2$. Simplify $3P(x) - 3Q(x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2x^4 - 2x^3 + 2x^2 - 6x - 4$"
+      },
+      {
+        "id": "b",
+        "latex": "$18x^4 - 18x^3 - 3x^2 + 6x$"
+      },
+      {
+        "id": "c",
+        "latex": "$6x^4 - 6x^3 + 6x^2 - 18x - 12$"
+      },
+      {
+        "id": "d",
+        "latex": "$18x^4 - 18x^3 - 6x^2 + 6x$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "18*x^4-18*x^3-6*x^2+6*x",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Distribute the coefficients to $P(x)$ and $Q(x)$, then combine like powers of $x$ to get $18x^4 - 18x^3 - 6x^2 + 6x$.",
+    "complexity_factor": 1.1,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "linear_combination",
+      "like_terms"
+    ],
+    "checksum": "sha256-fa6c4bbf135c0211fcd78ceae609551c2a0b7ab17630b18bd72207af70fe9ef9",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.medium.0021",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "medium",
+    "prompt_latex": "Let $P(x)=-4x^4 - 4x + 1$ and $Q(x)=5x^4 + 2x^3 + 5x^2 - 4x + 4$. Simplify $2P(x) + 2Q(x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-18x^4 - 4x^3 - 10x^2 - 6$"
+      },
+      {
+        "id": "b",
+        "latex": "$2x^4 + 4x^3 + 10x^2 - 16x + 10$"
+      },
+      {
+        "id": "c",
+        "latex": "$2x^4 + x^3 + 10x^2 - 16x + 10$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^4 + 2x^3 + 5x^2 - 8x + 5$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "2*x^4+4*x^3+10*x^2-16*x+10",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Distribute the coefficients to $P(x)$ and $Q(x)$, then combine like powers of $x$ to get $2x^4 + 4x^3 + 10x^2 - 16x + 10$.",
+    "complexity_factor": 1.1,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "linear_combination",
+      "like_terms"
+    ],
+    "checksum": "sha256-bd034655f8318e997321ff98b926ea20eab1cc7ab1b0f876199b87e4e54e3c71",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.medium.0022",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "medium",
+    "prompt_latex": "Let $P(x)=5x^4 + 2x^3 - 2x^2 + 2x$ and $Q(x)=-4x^4 + 3x^3 + 4x^2 + x + 1$. Simplify $-2P(x) - 2Q(x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^4 + 5x^3 + 2x^2 + 3x + 1$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2x^4 - 10x^3 - 4x^2 - 6x - 2$"
+      },
+      {
+        "id": "c",
+        "latex": "$-18x^4 + 2x^3 + 12x^2 - 2x + 2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2x^4 - 10x^3 - 4x^2 - 9x - 2$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-2*x^4-10*x^3-4*x^2-6*x-2",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Distribute the coefficients to $P(x)$ and $Q(x)$, then combine like powers of $x$ to get $-2x^4 - 10x^3 - 4x^2 - 6x - 2$.",
+    "complexity_factor": 1.1,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "linear_combination",
+      "like_terms"
+    ],
+    "checksum": "sha256-cad56125714a65b408aef7df09c19e121eb033159fd2388631951e1e85d663e3",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.medium.0023",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "medium",
+    "prompt_latex": "Let $P(x)=5x^3 - 2x^2$ and $Q(x)=2x^3 - 3x^2 - 3x - 2$. Simplify $2P(x) + 2Q(x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6x^3 + 2x^2 + 6x + 4$"
+      },
+      {
+        "id": "b",
+        "latex": "$14x^3 - 10x^2 - 6x - 4$"
+      },
+      {
+        "id": "c",
+        "latex": "$14x^3 - 12x^2 - 6x - 4$"
+      },
+      {
+        "id": "d",
+        "latex": "$7x^3 - 5x^2 - 3x - 2$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "14*x^3-10*x^2-6*x-4",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Distribute the coefficients to $P(x)$ and $Q(x)$, then combine like powers of $x$ to get $14x^3 - 10x^2 - 6x - 4$.",
+    "complexity_factor": 1.1,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "linear_combination",
+      "like_terms"
+    ],
+    "checksum": "sha256-966eacc26190c301a196399ea17ff6f37a64fb676c78b75e54af693c3c62ba2b",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.medium.0024",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "medium",
+    "prompt_latex": "Let $P(x)=x^4 - x^3 + 3$ and $Q(x)=-4x^4 - 4x^3 + 5x^2 + x - 2$. Simplify $3P(x) - 3Q(x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$15x^4 + 9x^3 - 17x^2 - 3x + 15$"
+      },
+      {
+        "id": "b",
+        "latex": "$-9x^4 - 15x^3 + 15x^2 + 3x + 3$"
+      },
+      {
+        "id": "c",
+        "latex": "$15x^4 + 9x^3 - 15x^2 - 3x + 15$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3x^4 - 5x^3 + 5x^2 + x + 1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "15*x^4+9*x^3-15*x^2-3*x+15",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Distribute the coefficients to $P(x)$ and $Q(x)$, then combine like powers of $x$ to get $15x^4 + 9x^3 - 15x^2 - 3x + 15$.",
+    "complexity_factor": 1.1,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "linear_combination",
+      "like_terms"
+    ],
+    "checksum": "sha256-6041cb3d117b92a29cb560deb0ba76faebf40338908c98d892f530162be2b7d7",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.medium.0025",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "medium",
+    "prompt_latex": "Let $P(x)=-x^4 - 3x^2 - 4x - 2$ and $Q(x)=-x^4 + 4x^3 - x^2 - 3x - 1$. Simplify $2P(x) + 4Q(x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-6x^4 + 16x^3 - 10x^2 - 20x - 8$"
+      },
+      {
+        "id": "b",
+        "latex": "$-6x^4 + 13x^3 - 10x^2 - 20x - 8$"
+      },
+      {
+        "id": "c",
+        "latex": "$2x^4 - 16x^3 - 2x^2 + 4x$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2x^4 + 4x^3 - 4x^2 - 7x - 3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-6*x^4+16*x^3-10*x^2-20*x-8",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Distribute the coefficients to $P(x)$ and $Q(x)$, then combine like powers of $x$ to get $-6x^4 + 16x^3 - 10x^2 - 20x - 8$.",
+    "complexity_factor": 1.1,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "linear_combination",
+      "like_terms"
+    ],
+    "checksum": "sha256-ca00903434921ca9e10c259e6de5af756416585c64e213fa5435ec32fe5ca288",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.medium.0026",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "medium",
+    "prompt_latex": "Let $P(x)=3x^3 - 5x^2 + 2$ and $Q(x)=-2x^3 - 2x^2 + 5x + 5$. Simplify $2P(x) - 3Q(x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12x^3 - 4x^2 - 15x - 11$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^3 - 7x^2 + 5x + 7$"
+      },
+      {
+        "id": "c",
+        "latex": "$10x^3 - 4x^2 - 15x - 11$"
+      },
+      {
+        "id": "d",
+        "latex": "$-16x^2 + 15x + 19$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "12*x^3-4*x^2-15*x-11",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Distribute the coefficients to $P(x)$ and $Q(x)$, then combine like powers of $x$ to get $12x^3 - 4x^2 - 15x - 11$.",
+    "complexity_factor": 1.1,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "linear_combination",
+      "like_terms"
+    ],
+    "checksum": "sha256-9bce8eb53ade99802a42759add0a0be25586a19512aa98f9fe283426c3f557db",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.medium.0027",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "medium",
+    "prompt_latex": "Let $P(x)=-x^3 + 6x^2 + 3$ and $Q(x)=x^3 + 3x^2 + 2x + 3$. Simplify $3P(x) + 4Q(x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9x^2 + 2x + 6$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^3 + 30x^2 + 8x + 21$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^3 + 30x^2 + 5x + 21$"
+      },
+      {
+        "id": "d",
+        "latex": "$-7x^3 + 6x^2 - 8x - 3$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "x^3+30*x^2+8*x+21",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Distribute the coefficients to $P(x)$ and $Q(x)$, then combine like powers of $x$ to get $x^3 + 30x^2 + 8x + 21$.",
+    "complexity_factor": 1.1,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "linear_combination",
+      "like_terms"
+    ],
+    "checksum": "sha256-7a420ed02b93ba7f9cf09dea6c822a82c079883f6f6c2dd4ed15e7b45e4ca7d4",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.medium.0028",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "medium",
+    "prompt_latex": "Let $P(x)=2x^4 - 3x^3 - x^2$ and $Q(x)=x^4 - 2x^3 + 5x^2 + 2x - 1$. Simplify $2P(x) - 3Q(x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7x^4 - 12x^3 + 13x^2 + 6x - 3$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^4 - 17x^2 - 6x + 3$"
+      },
+      {
+        "id": "c",
+        "latex": "$3x^4 - 5x^3 + 4x^2 + 2x - 1$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^4 - 20x^2 - 6x + 3$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "x^4-17*x^2-6*x+3",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Distribute the coefficients to $P(x)$ and $Q(x)$, then combine like powers of $x$ to get $x^4 - 17x^2 - 6x + 3$.",
+    "complexity_factor": 1.1,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "linear_combination",
+      "like_terms"
+    ],
+    "checksum": "sha256-895fe010ea3d1f93b42166b3a67312e45df825a4d6562e130b401981cced2d11",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.medium.0029",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "medium",
+    "prompt_latex": "Let $P(x)=x^3 + 3x^2 + 3$ and $Q(x)=2x^3 + 3x^2 - 2x + 2$. Simplify $2P(x) - 3Q(x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4x^3 - 3x^2 + 6x - 2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4x^3 - 3x^2 + 6x$"
+      },
+      {
+        "id": "c",
+        "latex": "$8x^3 + 15x^2 - 6x + 12$"
+      },
+      {
+        "id": "d",
+        "latex": "$3x^3 + 6x^2 - 2x + 5$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-4*x^3-3*x^2+6*x",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Distribute the coefficients to $P(x)$ and $Q(x)$, then combine like powers of $x$ to get $-4x^3 - 3x^2 + 6x$.",
+    "complexity_factor": 1.1,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "linear_combination",
+      "like_terms"
+    ],
+    "checksum": "sha256-b7057003a4429fdd96b97d3701c6f1a01ed453f32e1b1faaf9eef7df2bbe2ef7",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.medium.0030",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "medium",
+    "prompt_latex": "Let $P(x)=3x^3 + 6x^2 - 5$ and $Q(x)=2x^3 + 5x + 2$. Simplify $3P(x) + 4Q(x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$17x^3 + 18x^2 + 20x - 7$"
+      },
+      {
+        "id": "b",
+        "latex": "$17x^3 + 15x^2 + 20x - 7$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^3 + 18x^2 - 20x - 23$"
+      },
+      {
+        "id": "d",
+        "latex": "$5x^3 + 6x^2 + 5x - 3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "17*x^3+18*x^2+20*x-7",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Distribute the coefficients to $P(x)$ and $Q(x)$, then combine like powers of $x$ to get $17x^3 + 18x^2 + 20x - 7$.",
+    "complexity_factor": 1.1,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "linear_combination",
+      "like_terms"
+    ],
+    "checksum": "sha256-dbee5192ae09e9f725b763935aba32ffd9093ceb4a3c6717868f913fb95af7ff",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.medium.0031",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "medium",
+    "prompt_latex": "Let $P(x)=5x^4 - 3x^3 + x + 5$ and $Q(x)=4x^4 + 5x^3 - 4x^2 - 2x - 1$. Simplify $3P(x) + 2Q(x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9x^4 + 2x^3 - 4x^2 - x + 4$"
+      },
+      {
+        "id": "b",
+        "latex": "$7x^4 - 19x^3 + 8x^2 + 7x + 17$"
+      },
+      {
+        "id": "c",
+        "latex": "$23x^4 + x^3 - 8x^2 - x + 15$"
+      },
+      {
+        "id": "d",
+        "latex": "$23x^4 + x^3 - 8x^2 - x + 13$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "23*x^4+x^3-8*x^2-x+13",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Distribute the coefficients to $P(x)$ and $Q(x)$, then combine like powers of $x$ to get $23x^4 + x^3 - 8x^2 - x + 13$.",
+    "complexity_factor": 1.1,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "linear_combination",
+      "like_terms"
+    ],
+    "checksum": "sha256-ddd25ae8e34b9fa4af58b5353537a74b3c7304f859d0c89ef1a3fce1fd7fad6a",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.medium.0032",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "medium",
+    "prompt_latex": "Let $P(x)=6x^4 - 3x^2$ and $Q(x)=2x^4 - 4x^3 + 2x^2 - 2x - 1$. Simplify $2P(x) - 2Q(x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6x^4 + 8x^3 - 10x^2 + 4x + 2$"
+      },
+      {
+        "id": "b",
+        "latex": "$8x^4 - 4x^3 - x^2 - 2x - 1$"
+      },
+      {
+        "id": "c",
+        "latex": "$8x^4 + 8x^3 - 10x^2 + 4x + 2$"
+      },
+      {
+        "id": "d",
+        "latex": "$16x^4 - 8x^3 - 2x^2 - 4x - 2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "8*x^4+8*x^3-10*x^2+4*x+2",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Distribute the coefficients to $P(x)$ and $Q(x)$, then combine like powers of $x$ to get $8x^4 + 8x^3 - 10x^2 + 4x + 2$.",
+    "complexity_factor": 1.1,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "linear_combination",
+      "like_terms"
+    ],
+    "checksum": "sha256-ea097d9a9f537502efc5f5be03aa6f1d66a88d14958731bd8df9a4819ad0b217",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.medium.0033",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "medium",
+    "prompt_latex": "Let $P(x)=-3x^3 + 5x^2 + 4x$ and $Q(x)=-4x^3 + 3x^2 + 5x - 1$. Simplify $2P(x) - 3Q(x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-7x^3 + 8x^2 + 9x - 1$"
+      },
+      {
+        "id": "b",
+        "latex": "$-18x^3 + 19x^2 + 23x - 3$"
+      },
+      {
+        "id": "c",
+        "latex": "$3x^3 + x^2 - 7x + 3$"
+      },
+      {
+        "id": "d",
+        "latex": "$6x^3 + x^2 - 7x + 3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "6*x^3+x^2-7*x+3",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Distribute the coefficients to $P(x)$ and $Q(x)$, then combine like powers of $x$ to get $6x^3 + x^2 - 7x + 3$.",
+    "complexity_factor": 1.1,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "linear_combination",
+      "like_terms"
+    ],
+    "checksum": "sha256-c952860dd764348f066812636beb3de3e64a22b1d6728e6df2992a7e0060a569",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.medium.0034",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "medium",
+    "prompt_latex": "Let $P(x)=3x^3 + 3x^2$ and $Q(x)=2x^3 + 3x^2 - 3x - 2$. Simplify $3P(x) + 4Q(x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5x^3 + 6x^2 - 3x - 2$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^3 - 3x^2 + 12x + 8$"
+      },
+      {
+        "id": "c",
+        "latex": "$17x^3 + 21x^2 - 12x - 8$"
+      },
+      {
+        "id": "d",
+        "latex": "$20x^3 + 21x^2 - 12x - 8$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "17*x^3+21*x^2-12*x-8",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Distribute the coefficients to $P(x)$ and $Q(x)$, then combine like powers of $x$ to get $17x^3 + 21x^2 - 12x - 8$.",
+    "complexity_factor": 1.1,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "linear_combination",
+      "like_terms"
+    ],
+    "checksum": "sha256-af9206c35570a985a6d7292607a03f60faad0ff08e1e65da21ec4a1c6720cd12",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.medium.0035",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "medium",
+    "prompt_latex": "Let $P(x)=-4x^4 - 4x^3 + x + 1$ and $Q(x)=5x^4 - 2x^3 + 3x^2 + 2x - 3$. Simplify $-2P(x) + 4Q(x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-12x^4 + 16x^3 - 12x^2 - 10x + 10$"
+      },
+      {
+        "id": "b",
+        "latex": "$25x^4 + 12x^2 + 6x - 14$"
+      },
+      {
+        "id": "c",
+        "latex": "$28x^4 + 12x^2 + 6x - 14$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^4 - 6x^3 + 3x^2 + 3x - 2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "28*x^4+12*x^2+6*x-14",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Distribute the coefficients to $P(x)$ and $Q(x)$, then combine like powers of $x$ to get $28x^4 + 12x^2 + 6x - 14$.",
+    "complexity_factor": 1.1,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "linear_combination",
+      "like_terms"
+    ],
+    "checksum": "sha256-b5a3b739169a969ea2a52eeac1c1d005a9b01da76da40c101ec08b960dc9c7de",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.medium.0036",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "medium",
+    "prompt_latex": "Let $P(x)=-x^3 - x^2 + 5$ and $Q(x)=5x^3 + 5x^2 + 4x - 4$. Simplify $3P(x) + 4Q(x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4x^3 + 4x^2 + 4x + 1$"
+      },
+      {
+        "id": "b",
+        "latex": "$20x^3 + 17x^2 + 16x - 1$"
+      },
+      {
+        "id": "c",
+        "latex": "$17x^3 + 17x^2 + 16x - 1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-23x^3 - 23x^2 - 16x + 31$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "17*x^3+17*x^2+16*x-1",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Distribute the coefficients to $P(x)$ and $Q(x)$, then combine like powers of $x$ to get $17x^3 + 17x^2 + 16x - 1$.",
+    "complexity_factor": 1.1,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "linear_combination",
+      "like_terms"
+    ],
+    "checksum": "sha256-a03685375d2afdde618e09fa3d0fa597c753940248969f8564ebe192c436407e",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.medium.0037",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "medium",
+    "prompt_latex": "Let $P(x)=-4x^3 - 3x^2 + 3$ and $Q(x)=x^3 - 3x^2 - x$. Simplify $-2P(x) - 3Q(x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5x^3 + 18x^2 + 3x - 6$"
+      },
+      {
+        "id": "b",
+        "latex": "$5x^3 + 15x^2 + 3x - 6$"
+      },
+      {
+        "id": "c",
+        "latex": "$-3x^3 - 6x^2 - x + 3$"
+      },
+      {
+        "id": "d",
+        "latex": "$11x^3 - 3x^2 - 3x - 6$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "5*x^3+15*x^2+3*x-6",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Distribute the coefficients to $P(x)$ and $Q(x)$, then combine like powers of $x$ to get $5x^3 + 15x^2 + 3x - 6$.",
+    "complexity_factor": 1.1,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "linear_combination",
+      "like_terms"
+    ],
+    "checksum": "sha256-6f5d536114cc614dcd7922571cc53523ea79a134401d072ca315d7a85c8cb367",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.medium.0038",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "medium",
+    "prompt_latex": "Let $P(x)=-x^4 + 2x - 1$ and $Q(x)=x^4 + 5x^3 + 5x^2 - x$. Simplify $-2P(x) - 3Q(x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5x^3 + 5x^2 + x - 1$"
+      },
+      {
+        "id": "b",
+        "latex": "$5x^4 + 15x^3 + 15x^2 - 7x + 2$"
+      },
+      {
+        "id": "c",
+        "latex": "$-x^4 - 15x^3 - 15x^2 - x + 2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-x^4 - 15x^3 - 15x^2 - x - 1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-x^4-15*x^3-15*x^2-x+2",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Distribute the coefficients to $P(x)$ and $Q(x)$, then combine like powers of $x$ to get $-x^4 - 15x^3 - 15x^2 - x + 2$.",
+    "complexity_factor": 1.1,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "linear_combination",
+      "like_terms"
+    ],
+    "checksum": "sha256-74dc043827cebaa5cc794e49f9005e375ac995ca7d7face21e6da8fcfa90db07",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.medium.0039",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "medium",
+    "prompt_latex": "Let $P(x)=-4x^4 + 5x^3 - 4$ and $Q(x)=4x^4 + x^3 - x^2 - 3x - 4$. Simplify $-2P(x) - 3Q(x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4x^4 - 13x^3 + 6x^2 + 9x + 20$"
+      },
+      {
+        "id": "b",
+        "latex": "$20x^4 - 7x^3 - 3x^2 - 9x - 4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4x^4 - 13x^3 + 3x^2 + 9x + 20$"
+      },
+      {
+        "id": "d",
+        "latex": "$6x^3 - x^2 - 3x - 8$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-4*x^4-13*x^3+3*x^2+9*x+20",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Distribute the coefficients to $P(x)$ and $Q(x)$, then combine like powers of $x$ to get $-4x^4 - 13x^3 + 3x^2 + 9x + 20$.",
+    "complexity_factor": 1.1,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "linear_combination",
+      "like_terms"
+    ],
+    "checksum": "sha256-002efb7b6a66dbc2278d9d34b2a61e6175c9373b63574de4bb3a2ca0a21919bd",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.medium.0040",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "medium",
+    "prompt_latex": "Let $P(x)=2x^3 + 2x$ and $Q(x)=3x^3 + 5x^2 - x$. Simplify $3P(x) - 2Q(x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5x^3 + 5x^2 + x$"
+      },
+      {
+        "id": "b",
+        "latex": "$-10x^2 + 8x$"
+      },
+      {
+        "id": "c",
+        "latex": "$-10x^2 + 8x - 3$"
+      },
+      {
+        "id": "d",
+        "latex": "$12x^3 + 10x^2 + 4x$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-10*x^2+8*x",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Distribute the coefficients to $P(x)$ and $Q(x)$, then combine like powers of $x$ to get $-10x^2 + 8x$.",
+    "complexity_factor": 1.1,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "linear_combination",
+      "like_terms"
+    ],
+    "checksum": "sha256-7c89f83cdbb56a8cd281063bd15ef7f909ec665b2e88a56d671b9d6d1cfa946e",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.medium.0041",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "medium",
+    "prompt_latex": "Let $P(x)=-2x^3 - x^2 + 2x$ and $Q(x)=2x^3 - x^2 + 4x + 5$. Simplify $3P(x) + 2Q(x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-10x^3 - x^2 - 2x - 10$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2x^2 + 6x + 5$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2x^3 - 5x^2 + 14x + 10$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2x^3 - 3x^2 + 14x + 10$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-2*x^3-5*x^2+14*x+10",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Distribute the coefficients to $P(x)$ and $Q(x)$, then combine like powers of $x$ to get $-2x^3 - 5x^2 + 14x + 10$.",
+    "complexity_factor": 1.1,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "linear_combination",
+      "like_terms"
+    ],
+    "checksum": "sha256-f66b28c3ffacb73b1b18790b806e843e8cafa46ac616d81a058d689192e0c529",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.medium.0042",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "medium",
+    "prompt_latex": "Let $P(x)=-x^4 - 2x^3 + 2x^2 - 5x$ and $Q(x)=-3x^4 - 2x^3 + 3x^2 - 4$. Simplify $2P(x) + 2Q(x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-8x^4 - 11x^3 + 10x^2 - 10x - 8$"
+      },
+      {
+        "id": "b",
+        "latex": "$-8x^4 - 8x^3 + 10x^2 - 10x - 8$"
+      },
+      {
+        "id": "c",
+        "latex": "$4x^4 - 2x^2 - 10x + 8$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4x^4 - 4x^3 + 5x^2 - 5x - 4$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-8*x^4-8*x^3+10*x^2-10*x-8",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Distribute the coefficients to $P(x)$ and $Q(x)$, then combine like powers of $x$ to get $-8x^4 - 8x^3 + 10x^2 - 10x - 8$.",
+    "complexity_factor": 1.1,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "linear_combination",
+      "like_terms"
+    ],
+    "checksum": "sha256-6284a92ea40c09e34272a05c1094b77366b7494919daaad977bcb21b5bf46c56",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.medium.0043",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "medium",
+    "prompt_latex": "Let $P(x)=-3x^3 + 5x$ and $Q(x)=-x^3 - 2x^2 + 3x - 4$. Simplify $2P(x) + 4Q(x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-10x^3 - 8x^2 + 22x - 16$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4x^3 - 2x^2 + 8x - 4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2x^3 + 8x^2 - 2x + 16$"
+      },
+      {
+        "id": "d",
+        "latex": "$-10x^3 - 8x^2 + 22x - 14$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-10*x^3-8*x^2+22*x-16",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Distribute the coefficients to $P(x)$ and $Q(x)$, then combine like powers of $x$ to get $-10x^3 - 8x^2 + 22x - 16$.",
+    "complexity_factor": 1.1,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "linear_combination",
+      "like_terms"
+    ],
+    "checksum": "sha256-9107e75579110bd3a17b7fa42d923309861a5d9d08806bd9af4b453e82db2016",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.medium.0044",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "medium",
+    "prompt_latex": "Let $P(x)=-2x^4 - 4x^3 + 4x - 3$ and $Q(x)=4x^4 - x^2 + 4x + 4$. Simplify $2P(x) + 2Q(x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2x^4 - 4x^3 - x^2 + 8x + 1$"
+      },
+      {
+        "id": "b",
+        "latex": "$7x^4 - 8x^3 - 2x^2 + 16x + 2$"
+      },
+      {
+        "id": "c",
+        "latex": "$-12x^4 - 8x^3 + 2x^2 - 14$"
+      },
+      {
+        "id": "d",
+        "latex": "$4x^4 - 8x^3 - 2x^2 + 16x + 2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "4*x^4-8*x^3-2*x^2+16*x+2",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Distribute the coefficients to $P(x)$ and $Q(x)$, then combine like powers of $x$ to get $4x^4 - 8x^3 - 2x^2 + 16x + 2$.",
+    "complexity_factor": 1.1,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "linear_combination",
+      "like_terms"
+    ],
+    "checksum": "sha256-62811ccb56688164d4ab71a4127b7dea3a0abb6caf5834ebe607602387edd526",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.medium.0045",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "medium",
+    "prompt_latex": "Let $P(x)=3x^3 - x + 4$ and $Q(x)=5x^3 + 5x^2 + x - 3$. Simplify $-2P(x) - 2Q(x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4x^3 + 10x^2 + 4x - 14$"
+      },
+      {
+        "id": "b",
+        "latex": "$-16x^3 - 10x^2 + 3x - 2$"
+      },
+      {
+        "id": "c",
+        "latex": "$-16x^3 - 10x^2 - 2$"
+      },
+      {
+        "id": "d",
+        "latex": "$8x^3 + 5x^2 + 1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-16*x^3-10*x^2-2",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Distribute the coefficients to $P(x)$ and $Q(x)$, then combine like powers of $x$ to get $-16x^3 - 10x^2 - 2$.",
+    "complexity_factor": 1.1,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "linear_combination",
+      "like_terms"
+    ],
+    "checksum": "sha256-68a396336a6df83426a6b957352c0530c088043869bc3080042ef8a90b3e3aec",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.medium.0046",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "medium",
+    "prompt_latex": "Let $P(x)=2x^3 + x - 5$ and $Q(x)=-4x^3 + 2x^2 - x - 3$. Simplify $3P(x) - 3Q(x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2x^3 + 2x^2 - 8$"
+      },
+      {
+        "id": "b",
+        "latex": "$18x^3 - 8x^2 + 6x - 6$"
+      },
+      {
+        "id": "c",
+        "latex": "$-6x^3 + 6x^2 - 24$"
+      },
+      {
+        "id": "d",
+        "latex": "$18x^3 - 6x^2 + 6x - 6$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "18*x^3-6*x^2+6*x-6",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Distribute the coefficients to $P(x)$ and $Q(x)$, then combine like powers of $x$ to get $18x^3 - 6x^2 + 6x - 6$.",
+    "complexity_factor": 1.1,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "linear_combination",
+      "like_terms"
+    ],
+    "checksum": "sha256-f3fe7a1449c76421e4ba600771a6cbce56c3b40feb0edf41b6be76197e852050",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.medium.0047",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "medium",
+    "prompt_latex": "Let $P(x)=2x^4 - 2x^3 - x^2 - 5$ and $Q(x)=5x^4 - 4x^3 - x^2 - x + 5$. Simplify $3P(x) + 4Q(x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$26x^4 - 22x^3 - 7x^2 - 4x + 5$"
+      },
+      {
+        "id": "b",
+        "latex": "$-14x^4 + 10x^3 + x^2 + 4x - 35$"
+      },
+      {
+        "id": "c",
+        "latex": "$28x^4 - 22x^3 - 7x^2 - 4x + 5$"
+      },
+      {
+        "id": "d",
+        "latex": "$7x^4 - 6x^3 - 2x^2 - x$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "26*x^4-22*x^3-7*x^2-4*x+5",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Distribute the coefficients to $P(x)$ and $Q(x)$, then combine like powers of $x$ to get $26x^4 - 22x^3 - 7x^2 - 4x + 5$.",
+    "complexity_factor": 1.1,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "linear_combination",
+      "like_terms"
+    ],
+    "checksum": "sha256-7b663aeb1a2e567ace02dbc6c56b8432b35efdb35cc0ad6e9f6afd6164552f80",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.medium.0048",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "medium",
+    "prompt_latex": "Let $P(x)=-5x^3 + x^2 + 5$ and $Q(x)=3x^3 + x^2 + 3x + 4$. Simplify $2P(x) + 4Q(x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-22x^3 - 2x^2 - 12x - 6$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2x^3 + 2x^2 + 3x + 9$"
+      },
+      {
+        "id": "c",
+        "latex": "$2x^3 + 6x^2 + 12x + 26$"
+      },
+      {
+        "id": "d",
+        "latex": "$2x^3 + 6x^2 + 12x + 28$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "2*x^3+6*x^2+12*x+26",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Distribute the coefficients to $P(x)$ and $Q(x)$, then combine like powers of $x$ to get $2x^3 + 6x^2 + 12x + 26$.",
+    "complexity_factor": 1.1,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "linear_combination",
+      "like_terms"
+    ],
+    "checksum": "sha256-4bcc16ebcc76f09123eac9ef4ccb26cd4aced89e314f08a3c06e0df87b4a53b3",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.medium.0049",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "medium",
+    "prompt_latex": "Let $P(x)=-4x^4 + x^2 + 5x + 4$ and $Q(x)=4x^4 + 3x^3 + 2x^2 - 3x + 1$. Simplify $3P(x) - 3Q(x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-24x^4 - 9x^3 - 3x^2 + 24x + 7$"
+      },
+      {
+        "id": "b",
+        "latex": "$3x^3 + 3x^2 + 2x + 5$"
+      },
+      {
+        "id": "c",
+        "latex": "$-24x^4 - 9x^3 - 3x^2 + 24x + 9$"
+      },
+      {
+        "id": "d",
+        "latex": "$9x^3 + 9x^2 + 6x + 15$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-24*x^4-9*x^3-3*x^2+24*x+9",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Distribute the coefficients to $P(x)$ and $Q(x)$, then combine like powers of $x$ to get $-24x^4 - 9x^3 - 3x^2 + 24x + 9$.",
+    "complexity_factor": 1.1,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "linear_combination",
+      "like_terms"
+    ],
+    "checksum": "sha256-f3c013cb4a832281c207e6653d5966d23e6c2615e142fd5295f31bea6812c9d7",
+    "status": "valid"
+  },
+  {
+    "id": "ch18.add_subtract.medium.0050",
+    "topic_id": "ch18.add_subtract",
+    "group_id": "ch18_polynomials",
+    "difficulty": "medium",
+    "prompt_latex": "Let $P(x)=5x^4 - 2x^3 - 4x^2 + 6$ and $Q(x)=2x^4 - 3x^3 + 4x^2 - 2x + 5$. Simplify $-2P(x) - 3Q(x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4x^4 - 5x^3 + 20x^2 - 6x + 3$"
+      },
+      {
+        "id": "b",
+        "latex": "$7x^4 - 5x^3 - 2x + 11$"
+      },
+      {
+        "id": "c",
+        "latex": "$-16x^4 + 13x^3 - 4x^2 + 6x - 27$"
+      },
+      {
+        "id": "d",
+        "latex": "$-16x^4 + 13x^3 - 6x^2 + 6x - 27$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-16*x^4+13*x^3-4*x^2+6*x-27",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Distribute the coefficients to $P(x)$ and $Q(x)$, then combine like powers of $x$ to get $-16x^4 + 13x^3 - 4x^2 + 6x - 27$.",
+    "complexity_factor": 1.1,
+    "source_section": "18.1",
+    "tags": [
+      "polynomials",
+      "linear_combination",
+      "like_terms"
+    ],
+    "checksum": "sha256-f614785b958e95d40f9e24d13f42cee743a5c440e3034a5fcaab84c0cfb698cf",
+    "status": "valid"
+  }
+]

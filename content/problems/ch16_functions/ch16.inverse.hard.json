@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "ch16.inverse.hard.0001",
+    "topic_id": "ch16.inverse",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=2x - 7$ and $g(x)=3x - 5$. Find $(f^{-1}circ g)(-4)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-5$"
+      },
+      {
+        "id": "b",
+        "latex": "$-41$"
+      },
+      {
+        "id": "c",
+        "latex": "$-50$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-4)=-17$. Since $f^{-1}(y)=(y + 7)/2$, $(f^{-1}circ g)(-4)=-5$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.4",
+    "tags": [
+      "functions",
+      "inverse",
+      "composition"
+    ],
+    "checksum": "sha256-e033b12f154d5189492a5152d4b481796183a6e2023d12d5ce23d7c201bbb90f",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.inverse.hard.0002",
+    "topic_id": "ch16.inverse",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=3x - 1$ and $g(x)=-3x - 1$. Find $(f^{-1}circ g)(-5)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$41$"
+      },
+      {
+        "id": "b",
+        "latex": "$47$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-5)=14$. Since $f^{-1}(y)=(y + 1)/3$, $(f^{-1}circ g)(-5)=5$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.4",
+    "tags": [
+      "functions",
+      "inverse",
+      "composition"
+    ],
+    "checksum": "sha256-8177fe0a9c43bc1cd94b3b9b1c3ff8cef03e2c496dcef959a9e780ff7bbed9b1",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.inverse.hard.0003",
+    "topic_id": "ch16.inverse",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=4x + 5$ and $g(x)=5x + 11$. Find $(f^{-1}circ g)(-6)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-84$"
+      },
+      {
+        "id": "b",
+        "latex": "$-5$"
+      },
+      {
+        "id": "c",
+        "latex": "$-6$"
+      },
+      {
+        "id": "d",
+        "latex": "$-71$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-6)=-19$. Since $f^{-1}(y)=(y - 5)/4$, $(f^{-1}circ g)(-6)=-6$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.4",
+    "tags": [
+      "functions",
+      "inverse",
+      "composition"
+    ],
+    "checksum": "sha256-8d5400f06ac607fa5b41183b11d1f0aa10b5c139a9cb2621042eb8bb20b445d1",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.inverse.hard.0004",
+    "topic_id": "ch16.inverse",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=5x - 8$ and $g(x)=4x + 70$. Find $(f^{-1}circ g)(-7)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$202$"
+      },
+      {
+        "id": "d",
+        "latex": "$-102$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-7)=42$. Since $f^{-1}(y)=(y + 8)/5$, $(f^{-1}circ g)(-7)=10$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.4",
+    "tags": [
+      "functions",
+      "inverse",
+      "composition"
+    ],
+    "checksum": "sha256-b11c971bd2859f04db546dbdec28454b160ca285815ecfb355f9fdf9f88ff8f5",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.inverse.hard.0005",
+    "topic_id": "ch16.inverse",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=6x - 2$ and $g(x)=-4x - 76$. Find $(f^{-1}circ g)(-8)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-7$"
+      },
+      {
+        "id": "b",
+        "latex": "$-266$"
+      },
+      {
+        "id": "c",
+        "latex": "$124$"
+      },
+      {
+        "id": "d",
+        "latex": "$-6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-8)=-44$. Since $f^{-1}(y)=(y + 2)/6$, $(f^{-1}circ g)(-8)=-7$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.4",
+    "tags": [
+      "functions",
+      "inverse",
+      "composition"
+    ],
+    "checksum": "sha256-b93912cf2f4cc1fb0fb4ebfa6c5eedc4bea6600ad5e3acf92a7812fd3cdc43b3",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.inverse.hard.0006",
+    "topic_id": "ch16.inverse",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=7x + 6$ and $g(x)=6x + 165$. Find $(f^{-1}circ g)(-9)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$783$"
+      },
+      {
+        "id": "b",
+        "latex": "$-177$"
+      },
+      {
+        "id": "c",
+        "latex": "$16$"
+      },
+      {
+        "id": "d",
+        "latex": "$15$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "15",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-9)=111$. Since $f^{-1}(y)=(y - 6)/7$, $(f^{-1}circ g)(-9)=15$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.4",
+    "tags": [
+      "functions",
+      "inverse",
+      "composition"
+    ],
+    "checksum": "sha256-245d495960a91c396c04861c182f7939a4fb23563be412a8466b0fe25670d313",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.inverse.hard.0007",
+    "topic_id": "ch16.inverse",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=8x - 9$ and $g(x)=-6x + 19$. Find $(f^{-1}circ g)(-10)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$553$"
+      },
+      {
+        "id": "b",
+        "latex": "$12$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$623$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "11",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-10)=79$. Since $f^{-1}(y)=(y + 9)/8$, $(f^{-1}circ g)(-10)=11$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.4",
+    "tags": [
+      "functions",
+      "inverse",
+      "composition"
+    ],
+    "checksum": "sha256-c74e09110a4ae2a58ffef1d0f4eb49afd25c5872c3c6b4a5cf8116d943e210a4",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.inverse.hard.0008",
+    "topic_id": "ch16.inverse",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=9x - 3$ and $g(x)=8x - 59$. Find $(f^{-1}circ g)(-11)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-15$"
+      },
+      {
+        "id": "b",
+        "latex": "$-16$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1326$"
+      },
+      {
+        "id": "d",
+        "latex": "$-875$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-16",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-11)=-147$. Since $f^{-1}(y)=(y + 3)/9$, $(f^{-1}circ g)(-11)=-16$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.4",
+    "tags": [
+      "functions",
+      "inverse",
+      "composition"
+    ],
+    "checksum": "sha256-50567b5a36539849b755e8ed12af5850807e0110576da1838dc2f6002c31e0fb",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.inverse.hard.0009",
+    "topic_id": "ch16.inverse",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=3x + 7$ and $g(x)=7x + 139$. Find $(f^{-1}circ g)(-12)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$172$"
+      },
+      {
+        "id": "c",
+        "latex": "$-64$"
+      },
+      {
+        "id": "d",
+        "latex": "$17$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "16",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-12)=55$. Since $f^{-1}(y)=(y - 7)/3$, $(f^{-1}circ g)(-12)=16$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.4",
+    "tags": [
+      "functions",
+      "inverse",
+      "composition"
+    ],
+    "checksum": "sha256-0943b79f9bd9e94769f87f912b573c4fb56606c29ee8bae8e05db853b402cb37",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.inverse.hard.0010",
+    "topic_id": "ch16.inverse",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=4x - 10$ and $g(x)=-7x - 169$. Find $(f^{-1}circ g)(-13)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-322$"
+      },
+      {
+        "id": "b",
+        "latex": "$265$"
+      },
+      {
+        "id": "c",
+        "latex": "$-16$"
+      },
+      {
+        "id": "d",
+        "latex": "$-17$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-17",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-13)=-78$. Since $f^{-1}(y)=(y + 10)/4$, $(f^{-1}circ g)(-13)=-17$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.4",
+    "tags": [
+      "functions",
+      "inverse",
+      "composition"
+    ],
+    "checksum": "sha256-f8542f7240a073ad289a988ddcb0352fa576b106e1de25c316f38528a533d251",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.inverse.hard.0011",
+    "topic_id": "ch16.inverse",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=5x - 4$ and $g(x)=9x + 227$. Find $(f^{-1}circ g)(-14)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-439$"
+      },
+      {
+        "id": "b",
+        "latex": "$22$"
+      },
+      {
+        "id": "c",
+        "latex": "$21$"
+      },
+      {
+        "id": "d",
+        "latex": "$501$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "21",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-14)=101$. Since $f^{-1}(y)=(y + 4)/5$, $(f^{-1}circ g)(-14)=21$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.4",
+    "tags": [
+      "functions",
+      "inverse",
+      "composition"
+    ],
+    "checksum": "sha256-ffa78c949a75b3e4aba4f7944748757672a9f931a678f1e143057fffbfbf1fe5",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.inverse.hard.0012",
+    "topic_id": "ch16.inverse",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=6x + 8$ and $g(x)=-9x - 235$. Find $(f^{-1}circ g)(-15)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-17$"
+      },
+      {
+        "id": "b",
+        "latex": "$-18$"
+      },
+      {
+        "id": "c",
+        "latex": "$-592$"
+      },
+      {
+        "id": "d",
+        "latex": "$503$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-18",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-15)=-100$. Since $f^{-1}(y)=(y - 8)/6$, $(f^{-1}circ g)(-15)=-18$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.4",
+    "tags": [
+      "functions",
+      "inverse",
+      "composition"
+    ],
+    "checksum": "sha256-2b837838c95e716e8e6ce4d95a13ae2619d42bc197a44349889dcd8347a56ba4",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.inverse.hard.0013",
+    "topic_id": "ch16.inverse",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=7x - 11$ and $g(x)=11x + 347$. Find $(f^{-1}circ g)(-16)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$26$"
+      },
+      {
+        "id": "b",
+        "latex": "$1186$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1006$"
+      },
+      {
+        "id": "d",
+        "latex": "$27$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "26",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-16)=171$. Since $f^{-1}(y)=(y + 11)/7$, $(f^{-1}circ g)(-16)=26$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.4",
+    "tags": [
+      "functions",
+      "inverse",
+      "composition"
+    ],
+    "checksum": "sha256-4eff707fd63b8c71b1d5eb64d963020133625633cfd7b0f6ffb31f496d34efe9",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.inverse.hard.0014",
+    "topic_id": "ch16.inverse",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=8x - 5$ and $g(x)=10x + 341$. Find $(f^{-1}circ g)(-17)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1363$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1069$"
+      },
+      {
+        "id": "c",
+        "latex": "$23$"
+      },
+      {
+        "id": "d",
+        "latex": "$22$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "22",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-17)=171$. Since $f^{-1}(y)=(y + 5)/8$, $(f^{-1}circ g)(-17)=22$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.4",
+    "tags": [
+      "functions",
+      "inverse",
+      "composition"
+    ],
+    "checksum": "sha256-f7214e23c1e8b04d468fc20aa28a588bc93ec9a8fe7fef84f0911ba732ce4179",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.inverse.hard.0015",
+    "topic_id": "ch16.inverse",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=9x + 9$ and $g(x)=-10x - 414$. Find $(f^{-1}circ g)(-18)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1116$"
+      },
+      {
+        "id": "b",
+        "latex": "$-26$"
+      },
+      {
+        "id": "c",
+        "latex": "$-27$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2097$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-27",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-18)=-234$. Since $f^{-1}(y)=(y - 9)/9$, $(f^{-1}circ g)(-18)=-27$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.4",
+    "tags": [
+      "functions",
+      "inverse",
+      "composition"
+    ],
+    "checksum": "sha256-2e2b3ad95ac4124ab186c1167e6fec7c8e8e1b70795f10262acba25b506a200c",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.inverse.hard.0016",
+    "topic_id": "ch16.inverse",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=10x - 12$ and $g(x)=12x + 486$. Find $(f^{-1}circ g)(-19)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$28$"
+      },
+      {
+        "id": "b",
+        "latex": "$27$"
+      },
+      {
+        "id": "c",
+        "latex": "$2568$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1938$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "27",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-19)=258$. Since $f^{-1}(y)=(y + 12)/10$, $(f^{-1}circ g)(-19)=27$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.4",
+    "tags": [
+      "functions",
+      "inverse",
+      "composition"
+    ],
+    "checksum": "sha256-79c69dbff5cd6ae4b8decb85221563f52d8b47d5925ee3b11dbf5c3a4e771f6e",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.inverse.hard.0017",
+    "topic_id": "ch16.inverse",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=4x - 6$ and $g(x)=-12x - 358$. Find $(f^{-1}circ g)(-20)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-28$"
+      },
+      {
+        "id": "b",
+        "latex": "$-478$"
+      },
+      {
+        "id": "c",
+        "latex": "$674$"
+      },
+      {
+        "id": "d",
+        "latex": "$-27$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-28",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-20)=-118$. Since $f^{-1}(y)=(y + 6)/4$, $(f^{-1}circ g)(-20)=-28$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.4",
+    "tags": [
+      "functions",
+      "inverse",
+      "composition"
+    ],
+    "checksum": "sha256-e795ffec8938ba59bd58c0097eb1c7700acc6513f0d6dd0ac7582a5719fbec13",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.inverse.hard.0018",
+    "topic_id": "ch16.inverse",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=5x + 10$ and $g(x)=14x + 464$. Find $(f^{-1}circ g)(-21)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$860$"
+      },
+      {
+        "id": "b",
+        "latex": "$-866$"
+      },
+      {
+        "id": "c",
+        "latex": "$33$"
+      },
+      {
+        "id": "d",
+        "latex": "$32$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "32",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-21)=170$. Since $f^{-1}(y)=(y - 10)/5$, $(f^{-1}circ g)(-21)=32$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.4",
+    "tags": [
+      "functions",
+      "inverse",
+      "composition"
+    ],
+    "checksum": "sha256-537545a9d0627d5ab3cc03e3759aa59f98a11fd9db99978bb424b8416304af7f",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.inverse.hard.0019",
+    "topic_id": "ch16.inverse",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=6x - 13$ and $g(x)=13x + 99$. Find $(f^{-1}circ g)(-22)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1786$"
+      },
+      {
+        "id": "b",
+        "latex": "$-28$"
+      },
+      {
+        "id": "c",
+        "latex": "$-29$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1135$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-29",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-22)=-187$. Since $f^{-1}(y)=(y + 13)/6$, $(f^{-1}circ g)(-22)=-29$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.4",
+    "tags": [
+      "functions",
+      "inverse",
+      "composition"
+    ],
+    "checksum": "sha256-639a198a1aa0f15304079d5efb09382b25efacc33956f7e19296f5659423e3a3",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.inverse.hard.0020",
+    "topic_id": "ch16.inverse",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=7x - 7$ and $g(x)=-13x - 47$. Find $(f^{-1}circ g)(-23)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$38$"
+      },
+      {
+        "id": "b",
+        "latex": "$37$"
+      },
+      {
+        "id": "c",
+        "latex": "$1757$"
+      },
+      {
+        "id": "d",
+        "latex": "$2137$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "37",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-23)=252$. Since $f^{-1}(y)=(y + 7)/7$, $(f^{-1}circ g)(-23)=37$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.4",
+    "tags": [
+      "functions",
+      "inverse",
+      "composition"
+    ],
+    "checksum": "sha256-f952816058966d87e30020f0c2714fbf8b2017c5b7311ef216d3829109b121d5",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.inverse.hard.0021",
+    "topic_id": "ch16.inverse",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=8x + 11$ and $g(x)=15x + 635$. Find $(f^{-1}circ g)(-24)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$33$"
+      },
+      {
+        "id": "b",
+        "latex": "$2211$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2080$"
+      },
+      {
+        "id": "d",
+        "latex": "$34$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "33",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-24)=275$. Since $f^{-1}(y)=(y - 11)/8$, $(f^{-1}circ g)(-24)=33$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.4",
+    "tags": [
+      "functions",
+      "inverse",
+      "composition"
+    ],
+    "checksum": "sha256-f5a6f6f89547007f9fe76b3d6e48b168cd5405d204c27a67b8dd7c14df7e2bbc",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.inverse.hard.0022",
+    "topic_id": "ch16.inverse",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=9x - 14$ and $g(x)=-15x - 731$. Find $(f^{-1}circ g)(-25)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3218$"
+      },
+      {
+        "id": "b",
+        "latex": "$2854$"
+      },
+      {
+        "id": "c",
+        "latex": "$-37$"
+      },
+      {
+        "id": "d",
+        "latex": "$-38$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-38",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-25)=-356$. Since $f^{-1}(y)=(y + 14)/9$, $(f^{-1}circ g)(-25)=-38$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.4",
+    "tags": [
+      "functions",
+      "inverse",
+      "composition"
+    ],
+    "checksum": "sha256-fcc8016d1491c3189aba421022d53ebcba361e7a4d9e129c40aea16c428cb380",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.inverse.hard.0023",
+    "topic_id": "ch16.inverse",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=10x - 8$ and $g(x)=17x + 814$. Find $(f^{-1}circ g)(-26)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3742$"
+      },
+      {
+        "id": "b",
+        "latex": "$39$"
+      },
+      {
+        "id": "c",
+        "latex": "$38$"
+      },
+      {
+        "id": "d",
+        "latex": "$3712$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "38",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-26)=372$. Since $f^{-1}(y)=(y + 8)/10$, $(f^{-1}circ g)(-26)=38$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.4",
+    "tags": [
+      "functions",
+      "inverse",
+      "composition"
+    ],
+    "checksum": "sha256-6811d836537203571fbef22b3095aeef11b7bc3d34aad0679ab993bc217872b4",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.inverse.hard.0024",
+    "topic_id": "ch16.inverse",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=11x + 12$ and $g(x)=16x + 15$. Find $(f^{-1}circ g)(-27)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-38$"
+      },
+      {
+        "id": "b",
+        "latex": "$-39$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4575$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4545$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-39",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-27)=-417$. Since $f^{-1}(y)=(y - 12)/11$, $(f^{-1}circ g)(-27)=-39$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.4",
+    "tags": [
+      "functions",
+      "inverse",
+      "composition"
+    ],
+    "checksum": "sha256-494747ea38cf81a1628c9e68eb31099bbf1f322252679189a66a4000a727e390",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.inverse.hard.0025",
+    "topic_id": "ch16.inverse",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=5x - 15$ and $g(x)=-16x - 248$. Find $(f^{-1}circ g)(-28)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$43$"
+      },
+      {
+        "id": "b",
+        "latex": "$985$"
+      },
+      {
+        "id": "c",
+        "latex": "$2232$"
+      },
+      {
+        "id": "d",
+        "latex": "$44$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "43",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-28)=200$. Since $f^{-1}(y)=(y + 15)/5$, $(f^{-1}circ g)(-28)=43$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.4",
+    "tags": [
+      "functions",
+      "inverse",
+      "composition"
+    ],
+    "checksum": "sha256-ca94662fe6ffac8e6e2abea47f8b4d9ef175a9e4eab8b7acb762a75fbb049407",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.inverse.hard.0026",
+    "topic_id": "ch16.inverse",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=6x - 9$ and $g(x)=18x + 273$. Find $(f^{-1}circ g)(-29)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1503$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3021$"
+      },
+      {
+        "id": "c",
+        "latex": "$-39$"
+      },
+      {
+        "id": "d",
+        "latex": "$-40$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-40",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-29)=-249$. Since $f^{-1}(y)=(y + 9)/6$, $(f^{-1}circ g)(-29)=-40$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.4",
+    "tags": [
+      "functions",
+      "inverse",
+      "composition"
+    ],
+    "checksum": "sha256-b5604883059ae6558d7a01ae054d4e4293e6d1177107ad9059de467479e7f23c",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.inverse.hard.0027",
+    "topic_id": "ch16.inverse",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=7x + 13$ and $g(x)=-18x - 191$. Find $(f^{-1}circ g)(-30)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3355$"
+      },
+      {
+        "id": "b",
+        "latex": "$49$"
+      },
+      {
+        "id": "c",
+        "latex": "$48$"
+      },
+      {
+        "id": "d",
+        "latex": "$2456$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "48",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-30)=349$. Since $f^{-1}(y)=(y - 13)/7$, $(f^{-1}circ g)(-30)=48$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.4",
+    "tags": [
+      "functions",
+      "inverse",
+      "composition"
+    ],
+    "checksum": "sha256-d74e73c03832fc65b295a41cd56a1c4c2c7a81f031f6c15d804f57cff594df03",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.inverse.hard.0028",
+    "topic_id": "ch16.inverse",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=8x - 16$ and $g(x)=20x + 956$. Find $(f^{-1}circ g)(-31)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$45$"
+      },
+      {
+        "id": "b",
+        "latex": "$44$"
+      },
+      {
+        "id": "c",
+        "latex": "$2672$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4324$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "44",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-31)=336$. Since $f^{-1}(y)=(y + 16)/8$, $(f^{-1}circ g)(-31)=44$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.4",
+    "tags": [
+      "functions",
+      "inverse",
+      "composition"
+    ],
+    "checksum": "sha256-f58140b2f86c5151cc4e8c02fe3ebed80b030612e9e01b71a81f1cc2e69a71b5",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.inverse.hard.0029",
+    "topic_id": "ch16.inverse",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=9x - 10$ and $g(x)=19x + 157$. Find $(f^{-1}circ g)(-32)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-49$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4069$"
+      },
+      {
+        "id": "c",
+        "latex": "$-5505$"
+      },
+      {
+        "id": "d",
+        "latex": "$-48$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-49",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-32)=-451$. Since $f^{-1}(y)=(y + 10)/9$, $(f^{-1}circ g)(-32)=-49$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.4",
+    "tags": [
+      "functions",
+      "inverse",
+      "composition"
+    ],
+    "checksum": "sha256-8ba71383dd3bede9ee12007d92623360c4d75f5f69d0d3a1c066835a9ff814de",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.inverse.hard.0030",
+    "topic_id": "ch16.inverse",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=10x + 14$ and $g(x)=-19x - 123$. Find $(f^{-1}circ g)(-33)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5054$"
+      },
+      {
+        "id": "b",
+        "latex": "$5881$"
+      },
+      {
+        "id": "c",
+        "latex": "$50$"
+      },
+      {
+        "id": "d",
+        "latex": "$49$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "49",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-33)=504$. Since $f^{-1}(y)=(y - 14)/10$, $(f^{-1}circ g)(-33)=49$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.4",
+    "tags": [
+      "functions",
+      "inverse",
+      "composition"
+    ],
+    "checksum": "sha256-aec78946b3bf7813ed1656b34f0b1c1a76986c2ff90b169fcbc6197dc7ae1b25",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.inverse.hard.0031",
+    "topic_id": "ch16.inverse",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=11x - 17$ and $g(x)=21x + 147$. Find $(f^{-1}circ g)(-34)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-8064$"
+      },
+      {
+        "id": "b",
+        "latex": "$-49$"
+      },
+      {
+        "id": "c",
+        "latex": "$-50$"
+      },
+      {
+        "id": "d",
+        "latex": "$-6254$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-50",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-34)=-567$. Since $f^{-1}(y)=(y + 17)/11$, $(f^{-1}circ g)(-34)=-50$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.4",
+    "tags": [
+      "functions",
+      "inverse",
+      "composition"
+    ],
+    "checksum": "sha256-127862585099efcfc7c3cdac56236bb4b91454ff6a67d13c014fbdffc42a15ec",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.inverse.hard.0032",
+    "topic_id": "ch16.inverse",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=12x - 11$ and $g(x)=-21x - 98$. Find $(f^{-1}circ g)(-35)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$55$"
+      },
+      {
+        "id": "b",
+        "latex": "$54$"
+      },
+      {
+        "id": "c",
+        "latex": "$7633$"
+      },
+      {
+        "id": "d",
+        "latex": "$8953$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "54",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-35)=637$. Since $f^{-1}(y)=(y + 11)/12$, $(f^{-1}circ g)(-35)=54$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.4",
+    "tags": [
+      "functions",
+      "inverse",
+      "composition"
+    ],
+    "checksum": "sha256-f21c142c5462d21c010bfa452fe5aa537863dd5dc847cda5e07623b7215b1730",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.inverse.hard.0033",
+    "topic_id": "ch16.inverse",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=6x + 15$ and $g(x)=23x + 537$. Find $(f^{-1}circ g)(-36)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-51$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1731$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4086$"
+      },
+      {
+        "id": "d",
+        "latex": "$-50$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-51",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-36)=-291$. Since $f^{-1}(y)=(y - 15)/6$, $(f^{-1}circ g)(-36)=-51$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.4",
+    "tags": [
+      "functions",
+      "inverse",
+      "composition"
+    ],
+    "checksum": "sha256-0b635966ec0d0cf27b4906e17c4aedcb254763267fbd17e7d3a9536020788b64",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.inverse.hard.0034",
+    "topic_id": "ch16.inverse",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=7x - 18$ and $g(x)=22x + 1209$. Find $(f^{-1}circ g)(-37)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2747$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4885$"
+      },
+      {
+        "id": "c",
+        "latex": "$60$"
+      },
+      {
+        "id": "d",
+        "latex": "$59$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "59",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-37)=395$. Since $f^{-1}(y)=(y + 18)/7$, $(f^{-1}circ g)(-37)=59$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.4",
+    "tags": [
+      "functions",
+      "inverse",
+      "composition"
+    ],
+    "checksum": "sha256-5255524ad9a44da95dd4a49cf763a60abbd682ca6e57c8b089c298249970b7e4",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.inverse.hard.0035",
+    "topic_id": "ch16.inverse",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=8x - 12$ and $g(x)=-22x - 408$. Find $(f^{-1}circ g)(-38)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6544$"
+      },
+      {
+        "id": "b",
+        "latex": "$56$"
+      },
+      {
+        "id": "c",
+        "latex": "$55$"
+      },
+      {
+        "id": "d",
+        "latex": "$3412$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "55",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-38)=428$. Since $f^{-1}(y)=(y + 12)/8$, $(f^{-1}circ g)(-38)=55$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.4",
+    "tags": [
+      "functions",
+      "inverse",
+      "composition"
+    ],
+    "checksum": "sha256-dde73b31175ab68a3bac493f950bccd33f80f749bca5fb4a1b2b3745201fc299",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.inverse.hard.0036",
+    "topic_id": "ch16.inverse",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=9x + 16$ and $g(x)=24x + 412$. Find $(f^{-1}circ g)(-39)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-59$"
+      },
+      {
+        "id": "b",
+        "latex": "$-60$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4700$"
+      },
+      {
+        "id": "d",
+        "latex": "$-7628$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-60",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-39)=-524$. Since $f^{-1}(y)=(y - 16)/9$, $(f^{-1}circ g)(-39)=-60$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.4",
+    "tags": [
+      "functions",
+      "inverse",
+      "composition"
+    ],
+    "checksum": "sha256-7715412d7396c5946f0b6e7d1e2d7d2036645c3c02c5f7642bea489682d76a1d",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.inverse.hard.0037",
+    "topic_id": "ch16.inverse",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=10x - 19$ and $g(x)=-24x - 379$. Find $(f^{-1}circ g)(-40)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$60$"
+      },
+      {
+        "id": "b",
+        "latex": "$5791$"
+      },
+      {
+        "id": "c",
+        "latex": "$9677$"
+      },
+      {
+        "id": "d",
+        "latex": "$61$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "60",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-40)=581$. Since $f^{-1}(y)=(y + 19)/10$, $(f^{-1}circ g)(-40)=60$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.4",
+    "tags": [
+      "functions",
+      "inverse",
+      "composition"
+    ],
+    "checksum": "sha256-1d7fa12437b17c2c2693d58c686d235e5cf4f11bbc73a7642a8f43daf7244934",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.inverse.hard.0038",
+    "topic_id": "ch16.inverse",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=11x - 13$ and $g(x)=26x + 382$. Find $(f^{-1}circ g)(-41)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-7537$"
+      },
+      {
+        "id": "b",
+        "latex": "$-11682$"
+      },
+      {
+        "id": "c",
+        "latex": "$-60$"
+      },
+      {
+        "id": "d",
+        "latex": "$-61$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-61",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-41)=-684$. Since $f^{-1}(y)=(y + 13)/11$, $(f^{-1}circ g)(-41)=-61$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.4",
+    "tags": [
+      "functions",
+      "inverse",
+      "composition"
+    ],
+    "checksum": "sha256-6c844ae3649e60bf1bac320858cf4eb780b6df71409523027c2de5017d2a3ca9",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.inverse.hard.0039",
+    "topic_id": "ch16.inverse",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=12x + 17$ and $g(x)=25x + 1847$. Find $(f^{-1}circ g)(-42)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-10328$"
+      },
+      {
+        "id": "b",
+        "latex": "$66$"
+      },
+      {
+        "id": "c",
+        "latex": "$65$"
+      },
+      {
+        "id": "d",
+        "latex": "$9581$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "65",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-42)=797$. Since $f^{-1}(y)=(y - 17)/12$, $(f^{-1}circ g)(-42)=65$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.4",
+    "tags": [
+      "functions",
+      "inverse",
+      "composition"
+    ],
+    "checksum": "sha256-39f448622e3ea4c1eb7cfd6fffe045c700664128b6bb8609c1c90093080444e1",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.inverse.hard.0040",
+    "topic_id": "ch16.inverse",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=13x - 20$ and $g(x)=-25x - 1901$. Find $(f^{-1}circ g)(-43)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-61$"
+      },
+      {
+        "id": "b",
+        "latex": "$-62$"
+      },
+      {
+        "id": "c",
+        "latex": "$-10758$"
+      },
+      {
+        "id": "d",
+        "latex": "$12574$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-62",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-43)=-826$. Since $f^{-1}(y)=(y + 20)/13$, $(f^{-1}circ g)(-43)=-62$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.4",
+    "tags": [
+      "functions",
+      "inverse",
+      "composition"
+    ],
+    "checksum": "sha256-a0ec3003e8bc93c3350fcfbca1a4ac124cfcfbee0380bb731c8eba62ebfc1a4e",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.inverse.hard.0041",
+    "topic_id": "ch16.inverse",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=7x - 14$ and $g(x)=27x + 1664$. Find $(f^{-1}circ g)(-44)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$70$"
+      },
+      {
+        "id": "b",
+        "latex": "$3318$"
+      },
+      {
+        "id": "c",
+        "latex": "$-7030$"
+      },
+      {
+        "id": "d",
+        "latex": "$71$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "70",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-44)=476$. Since $f^{-1}(y)=(y + 14)/7$, $(f^{-1}circ g)(-44)=70$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.4",
+    "tags": [
+      "functions",
+      "inverse",
+      "composition"
+    ],
+    "checksum": "sha256-17a43a6b80308a84c1a67d5cd74896c5a7078a9c7f5b8c444e71ddb618b4f47e",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.inverse.hard.0042",
+    "topic_id": "ch16.inverse",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=8x + 18$ and $g(x)=-27x - 669$. Find $(f^{-1}circ g)(-45)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4386$"
+      },
+      {
+        "id": "b",
+        "latex": "$8565$"
+      },
+      {
+        "id": "c",
+        "latex": "$67$"
+      },
+      {
+        "id": "d",
+        "latex": "$66$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "66",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-45)=546$. Since $f^{-1}(y)=(y - 18)/8$, $(f^{-1}circ g)(-45)=66$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.4",
+    "tags": [
+      "functions",
+      "inverse",
+      "composition"
+    ],
+    "checksum": "sha256-ea8431b70968c2ddf92e839e38500deb886a0b7616d9b531ec9b29d8df9812b2",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.inverse.hard.0043",
+    "topic_id": "ch16.inverse",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=9x - 21$ and $g(x)=29x + 674$. Find $(f^{-1}circ g)(-46)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-11941$"
+      },
+      {
+        "id": "b",
+        "latex": "$-70$"
+      },
+      {
+        "id": "c",
+        "latex": "$-71$"
+      },
+      {
+        "id": "d",
+        "latex": "$-5961$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-71",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-46)=-660$. Since $f^{-1}(y)=(y + 21)/9$, $(f^{-1}circ g)(-46)=-71$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.4",
+    "tags": [
+      "functions",
+      "inverse",
+      "composition"
+    ],
+    "checksum": "sha256-4e785e51cbeed0690b84dfc9eb07b5d7c4bf26866ee5fa97c4e4e7687fcbc0ac",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.inverse.hard.0044",
+    "topic_id": "ch16.inverse",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=10x - 15$ and $g(x)=28x + 2011$. Find $(f^{-1}circ g)(-47)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$72$"
+      },
+      {
+        "id": "b",
+        "latex": "$71$"
+      },
+      {
+        "id": "c",
+        "latex": "$6935$"
+      },
+      {
+        "id": "d",
+        "latex": "$-11569$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "71",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-47)=695$. Since $f^{-1}(y)=(y + 15)/10$, $(f^{-1}circ g)(-47)=71$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.4",
+    "tags": [
+      "functions",
+      "inverse",
+      "composition"
+    ],
+    "checksum": "sha256-59a417825955fa9f58ba96f94e512d56c77b278e8597c95d5d7aa61ae3f0987a",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.inverse.hard.0045",
+    "topic_id": "ch16.inverse",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=11x + 19$ and $g(x)=-28x - 2117$. Find $(f^{-1}circ g)(-48)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-72$"
+      },
+      {
+        "id": "b",
+        "latex": "$-8484$"
+      },
+      {
+        "id": "c",
+        "latex": "$12135$"
+      },
+      {
+        "id": "d",
+        "latex": "$-71$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-72",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-48)=-773$. Since $f^{-1}(y)=(y - 19)/11$, $(f^{-1}circ g)(-48)=-72$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.4",
+    "tags": [
+      "functions",
+      "inverse",
+      "composition"
+    ],
+    "checksum": "sha256-1a5720d27952ed7e75983ae4aceb16d630503b9a5a5c0fb67cbe7711d3ab7994",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.inverse.hard.0046",
+    "topic_id": "ch16.inverse",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=12x - 22$ and $g(x)=30x + 2360$. Find $(f^{-1}circ g)(-49)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10658$"
+      },
+      {
+        "id": "b",
+        "latex": "$-15940$"
+      },
+      {
+        "id": "c",
+        "latex": "$77$"
+      },
+      {
+        "id": "d",
+        "latex": "$76$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "76",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-49)=890$. Since $f^{-1}(y)=(y + 22)/12$, $(f^{-1}circ g)(-49)=76$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.4",
+    "tags": [
+      "functions",
+      "inverse",
+      "composition"
+    ],
+    "checksum": "sha256-2e266a9d12a05bea002c375c2b94d5ccbbbccda786db26c7f9f42fd2ed4fb339",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.inverse.hard.0047",
+    "topic_id": "ch16.inverse",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=13x - 16$ and $g(x)=-30x - 2465$. Find $(f^{-1}circ g)(-50)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$17515$"
+      },
+      {
+        "id": "b",
+        "latex": "$-72$"
+      },
+      {
+        "id": "c",
+        "latex": "$-73$"
+      },
+      {
+        "id": "d",
+        "latex": "$-12561$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-73",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-50)=-965$. Since $f^{-1}(y)=(y + 16)/13$, $(f^{-1}circ g)(-50)=-73$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.4",
+    "tags": [
+      "functions",
+      "inverse",
+      "composition"
+    ],
+    "checksum": "sha256-aef46542f9c4208a03269d6973cf423de6c37e6ab515a44878cc60f5c07364ac",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.inverse.hard.0048",
+    "topic_id": "ch16.inverse",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=14x + 20$ and $g(x)=32x + 2786$. Find $(f^{-1}circ g)(-51)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$82$"
+      },
+      {
+        "id": "b",
+        "latex": "$81$"
+      },
+      {
+        "id": "c",
+        "latex": "$16176$"
+      },
+      {
+        "id": "d",
+        "latex": "$-19422$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "81",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-51)=1154$. Since $f^{-1}(y)=(y - 20)/14$, $(f^{-1}circ g)(-51)=81$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.4",
+    "tags": [
+      "functions",
+      "inverse",
+      "composition"
+    ],
+    "checksum": "sha256-de1a1b301d1d50f8a6ce55cbe3d97fb964b61607ede8ad657778a8824bc8b6af",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.inverse.hard.0049",
+    "topic_id": "ch16.inverse",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=8x - 23$ and $g(x)=31x + 2205$. Find $(f^{-1}circ g)(-52)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$77$"
+      },
+      {
+        "id": "b",
+        "latex": "$4721$"
+      },
+      {
+        "id": "c",
+        "latex": "$-11404$"
+      },
+      {
+        "id": "d",
+        "latex": "$78$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "77",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-52)=593$. Since $f^{-1}(y)=(y + 23)/8$, $(f^{-1}circ g)(-52)=77$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.4",
+    "tags": [
+      "functions",
+      "inverse",
+      "composition"
+    ],
+    "checksum": "sha256-31a0bdfdd3660e66bf69836de0e6656d47d002a3fa9b22b8fb0c3598e0ea0bf3",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.inverse.hard.0050",
+    "topic_id": "ch16.inverse",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=9x - 17$ and $g(x)=-31x - 2398$. Find $(f^{-1}circ g)(-53)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-6812$"
+      },
+      {
+        "id": "b",
+        "latex": "$12916$"
+      },
+      {
+        "id": "c",
+        "latex": "$-81$"
+      },
+      {
+        "id": "d",
+        "latex": "$-82$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-82",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-53)=-755$. Since $f^{-1}(y)=(y + 17)/9$, $(f^{-1}circ g)(-53)=-82$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.4",
+    "tags": [
+      "functions",
+      "inverse",
+      "composition"
+    ],
+    "checksum": "sha256-59a8501a27f443356bdd5ce0c38dc9f2d2341eca06dce5bc19f63f7aaad69c61",
+    "status": "valid"
+  }
+]

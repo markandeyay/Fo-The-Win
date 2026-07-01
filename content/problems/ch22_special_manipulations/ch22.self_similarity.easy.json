@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "ch22.self_similarity.easy.0001",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "easy",
+    "prompt_latex": "Find the positive value of $R=\\sqrt{6+\\sqrt{6+\\sqrt{6+\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The tail is again $R$, so $R=\\sqrt{6+R}$. Then $R^2-R-6=0$, giving the positive solution $R=3$.",
+    "complexity_factor": 1.25,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals"
+    ],
+    "checksum": "sha256-c3923aaf1ca997d5f21b43edcdebfdbd6c96486b3ad2e2912f5f4404bb5210b2",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.easy.0002",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "easy",
+    "prompt_latex": "Find the positive value of $R=\\sqrt{12+\\sqrt{12+\\sqrt{12+\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The tail is again $R$, so $R=\\sqrt{12+R}$. Then $R^2-R-12=0$, giving the positive solution $R=4$.",
+    "complexity_factor": 1.25,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals"
+    ],
+    "checksum": "sha256-f5efbc096e6588e6e0ca388c1f2a579dd8a41bc2fddec1fe980a979648d3b44d",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.easy.0003",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "easy",
+    "prompt_latex": "Find the positive value of $R=\\sqrt{20+\\sqrt{20+\\sqrt{20+\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$20$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The tail is again $R$, so $R=\\sqrt{20+R}$. Then $R^2-R-20=0$, giving the positive solution $R=5$.",
+    "complexity_factor": 1.25,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals"
+    ],
+    "checksum": "sha256-0306f21046e8938e755d738e6f4bdbe390a5c31aabd2411346952bdd254f7be8",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.easy.0004",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "easy",
+    "prompt_latex": "Find the positive value of $R=\\sqrt{30+\\sqrt{30+\\sqrt{30+\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$30$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The tail is again $R$, so $R=\\sqrt{30+R}$. Then $R^2-R-30=0$, giving the positive solution $R=6$.",
+    "complexity_factor": 1.25,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals"
+    ],
+    "checksum": "sha256-038b6eec3206dee68e388b0ddf3f8667e30466b7e629f12b1e02452e5b07743d",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.easy.0005",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "easy",
+    "prompt_latex": "Find the positive value of $R=\\sqrt{42+\\sqrt{42+\\sqrt{42+\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$42$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The tail is again $R$, so $R=\\sqrt{42+R}$. Then $R^2-R-42=0$, giving the positive solution $R=7$.",
+    "complexity_factor": 1.25,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals"
+    ],
+    "checksum": "sha256-dffecde794c8b77c03f62af1e4cc5f0ea35932cf8e4169730e561381b6d42595",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.easy.0006",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "easy",
+    "prompt_latex": "Find the positive value of $R=\\sqrt{56+\\sqrt{56+\\sqrt{56+\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$56$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The tail is again $R$, so $R=\\sqrt{56+R}$. Then $R^2-R-56=0$, giving the positive solution $R=8$.",
+    "complexity_factor": 1.25,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals"
+    ],
+    "checksum": "sha256-44e971e631f1636d0125fac1fd9203e2477d41fea089c18bdf313fe6933dd39d",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.easy.0007",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "easy",
+    "prompt_latex": "Find the positive value of $R=\\sqrt{72+\\sqrt{72+\\sqrt{72+\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$72$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The tail is again $R$, so $R=\\sqrt{72+R}$. Then $R^2-R-72=0$, giving the positive solution $R=9$.",
+    "complexity_factor": 1.25,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals"
+    ],
+    "checksum": "sha256-96e292506b2055f8b566d5acdec4917df7833c26f7ac951b32ba7e8aff7e4ee1",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.easy.0008",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "easy",
+    "prompt_latex": "Find the positive value of $R=\\sqrt{90+\\sqrt{90+\\sqrt{90+\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$90$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The tail is again $R$, so $R=\\sqrt{90+R}$. Then $R^2-R-90=0$, giving the positive solution $R=10$.",
+    "complexity_factor": 1.25,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals"
+    ],
+    "checksum": "sha256-95bc7c7fcd22220e25ef44f13637b661379916a0190db2ea8afaf4bd6663d801",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.easy.0009",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "easy",
+    "prompt_latex": "Find the positive value of $R=\\sqrt{110+\\sqrt{110+\\sqrt{110+\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$12$"
+      },
+      {
+        "id": "c",
+        "latex": "$110$"
+      },
+      {
+        "id": "d",
+        "latex": "$11$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "11",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The tail is again $R$, so $R=\\sqrt{110+R}$. Then $R^2-R-110=0$, giving the positive solution $R=11$.",
+    "complexity_factor": 1.25,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals"
+    ],
+    "checksum": "sha256-66813bdbe88106743b24b1fcab48d91f0fa62ec01fc101c513c67305a04be172",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.easy.0010",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "easy",
+    "prompt_latex": "Find the positive value of $R=\\sqrt{132+\\sqrt{132+\\sqrt{132+\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11$"
+      },
+      {
+        "id": "b",
+        "latex": "$13$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$132$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The tail is again $R$, so $R=\\sqrt{132+R}$. Then $R^2-R-132=0$, giving the positive solution $R=12$.",
+    "complexity_factor": 1.25,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals"
+    ],
+    "checksum": "sha256-563caf9ae5891b0bf4094f3c00d506d44cf1848fa9859399fb58b1a3c06aba54",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.easy.0011",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "easy",
+    "prompt_latex": "Find the positive value of $R=\\sqrt{156+\\sqrt{156+\\sqrt{156+\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12$"
+      },
+      {
+        "id": "b",
+        "latex": "$13$"
+      },
+      {
+        "id": "c",
+        "latex": "$14$"
+      },
+      {
+        "id": "d",
+        "latex": "$156$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "13",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The tail is again $R$, so $R=\\sqrt{156+R}$. Then $R^2-R-156=0$, giving the positive solution $R=13$.",
+    "complexity_factor": 1.25,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals"
+    ],
+    "checksum": "sha256-b4681beceadda96289b99f776b90ac9c8b9214e1474593d6cb7c9a01d7ca6f98",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.easy.0012",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "easy",
+    "prompt_latex": "Find the positive value of $R=\\sqrt{182+\\sqrt{182+\\sqrt{182+\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$14$"
+      },
+      {
+        "id": "b",
+        "latex": "$13$"
+      },
+      {
+        "id": "c",
+        "latex": "$15$"
+      },
+      {
+        "id": "d",
+        "latex": "$182$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "14",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The tail is again $R$, so $R=\\sqrt{182+R}$. Then $R^2-R-182=0$, giving the positive solution $R=14$.",
+    "complexity_factor": 1.25,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals"
+    ],
+    "checksum": "sha256-387eebaf3cbb7291ab90877a2454438bf0f69b37d59ecea651163f5f9a2b2bd3",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.easy.0013",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "easy",
+    "prompt_latex": "Find the positive value of $R=\\sqrt{210+\\sqrt{210+\\sqrt{210+\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$14$"
+      },
+      {
+        "id": "b",
+        "latex": "$16$"
+      },
+      {
+        "id": "c",
+        "latex": "$210$"
+      },
+      {
+        "id": "d",
+        "latex": "$15$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "15",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The tail is again $R$, so $R=\\sqrt{210+R}$. Then $R^2-R-210=0$, giving the positive solution $R=15$.",
+    "complexity_factor": 1.25,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals"
+    ],
+    "checksum": "sha256-b9d73f1862b1e17a4b4b20138a3c52c285ee8d7f0ec3d2ccad873672df86d1f6",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.easy.0014",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "easy",
+    "prompt_latex": "Find the positive value of $R=\\sqrt{240+\\sqrt{240+\\sqrt{240+\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$15$"
+      },
+      {
+        "id": "b",
+        "latex": "$17$"
+      },
+      {
+        "id": "c",
+        "latex": "$16$"
+      },
+      {
+        "id": "d",
+        "latex": "$240$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "16",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The tail is again $R$, so $R=\\sqrt{240+R}$. Then $R^2-R-240=0$, giving the positive solution $R=16$.",
+    "complexity_factor": 1.25,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals"
+    ],
+    "checksum": "sha256-f60e4bea9235c2b2e7e574818ff363977cb3ab6a1232161f55320b080e5dd4fa",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.easy.0015",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "easy",
+    "prompt_latex": "Find the positive value of $R=\\sqrt{272+\\sqrt{272+\\sqrt{272+\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$17$"
+      },
+      {
+        "id": "c",
+        "latex": "$18$"
+      },
+      {
+        "id": "d",
+        "latex": "$272$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "17",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The tail is again $R$, so $R=\\sqrt{272+R}$. Then $R^2-R-272=0$, giving the positive solution $R=17$.",
+    "complexity_factor": 1.25,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals"
+    ],
+    "checksum": "sha256-43fd5a854e8ee8d7da3e732462b34ecb68924a0ef37ba229206f683ca869b80e",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.easy.0016",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "easy",
+    "prompt_latex": "Find the positive value of $R=\\sqrt{306+\\sqrt{306+\\sqrt{306+\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$18$"
+      },
+      {
+        "id": "b",
+        "latex": "$17$"
+      },
+      {
+        "id": "c",
+        "latex": "$19$"
+      },
+      {
+        "id": "d",
+        "latex": "$306$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "18",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The tail is again $R$, so $R=\\sqrt{306+R}$. Then $R^2-R-306=0$, giving the positive solution $R=18$.",
+    "complexity_factor": 1.25,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals"
+    ],
+    "checksum": "sha256-012a09b99d6771d30e7d42738fff18f637277e37a2e5872d9c8ce861fa31e315",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.easy.0017",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "easy",
+    "prompt_latex": "Find the positive value of $R=\\sqrt{342+\\sqrt{342+\\sqrt{342+\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$18$"
+      },
+      {
+        "id": "b",
+        "latex": "$20$"
+      },
+      {
+        "id": "c",
+        "latex": "$342$"
+      },
+      {
+        "id": "d",
+        "latex": "$19$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "19",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The tail is again $R$, so $R=\\sqrt{342+R}$. Then $R^2-R-342=0$, giving the positive solution $R=19$.",
+    "complexity_factor": 1.25,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals"
+    ],
+    "checksum": "sha256-db70c25ebc160349781f03d2e77821fc05e71526e93c0f2ff0d31d2e6f0df950",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.easy.0018",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "easy",
+    "prompt_latex": "Find the positive value of $R=\\sqrt{380+\\sqrt{380+\\sqrt{380+\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$19$"
+      },
+      {
+        "id": "b",
+        "latex": "$21$"
+      },
+      {
+        "id": "c",
+        "latex": "$20$"
+      },
+      {
+        "id": "d",
+        "latex": "$380$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "20",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The tail is again $R$, so $R=\\sqrt{380+R}$. Then $R^2-R-380=0$, giving the positive solution $R=20$.",
+    "complexity_factor": 1.25,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals"
+    ],
+    "checksum": "sha256-3a17adad745d974890db96abef308793d3f6cba9de906e04ca5c98ab0e69ca40",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.easy.0019",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "easy",
+    "prompt_latex": "Find the positive value of $R=\\sqrt{420+\\sqrt{420+\\sqrt{420+\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$20$"
+      },
+      {
+        "id": "b",
+        "latex": "$21$"
+      },
+      {
+        "id": "c",
+        "latex": "$22$"
+      },
+      {
+        "id": "d",
+        "latex": "$420$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "21",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The tail is again $R$, so $R=\\sqrt{420+R}$. Then $R^2-R-420=0$, giving the positive solution $R=21$.",
+    "complexity_factor": 1.25,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals"
+    ],
+    "checksum": "sha256-bbe27779a0b61a9f23d992040a8befce5949091874b6fc5509269cd214865f4a",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.easy.0020",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "easy",
+    "prompt_latex": "Find the positive value of $R=\\sqrt{462+\\sqrt{462+\\sqrt{462+\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$22$"
+      },
+      {
+        "id": "b",
+        "latex": "$21$"
+      },
+      {
+        "id": "c",
+        "latex": "$23$"
+      },
+      {
+        "id": "d",
+        "latex": "$462$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "22",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The tail is again $R$, so $R=\\sqrt{462+R}$. Then $R^2-R-462=0$, giving the positive solution $R=22$.",
+    "complexity_factor": 1.25,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals"
+    ],
+    "checksum": "sha256-a771f41abe3004501bf84227393a4019b6b2e1c9be3bd846122742248e0966aa",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.easy.0021",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "easy",
+    "prompt_latex": "Find the positive value of $R=\\sqrt{506+\\sqrt{506+\\sqrt{506+\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$22$"
+      },
+      {
+        "id": "b",
+        "latex": "$24$"
+      },
+      {
+        "id": "c",
+        "latex": "$506$"
+      },
+      {
+        "id": "d",
+        "latex": "$23$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "23",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The tail is again $R$, so $R=\\sqrt{506+R}$. Then $R^2-R-506=0$, giving the positive solution $R=23$.",
+    "complexity_factor": 1.25,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals"
+    ],
+    "checksum": "sha256-cfc98718a142aabbf510d2b4b39029a208aaf73fa573c35c0ceb20710dc4d193",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.easy.0022",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "easy",
+    "prompt_latex": "Find the positive value of $R=\\sqrt{552+\\sqrt{552+\\sqrt{552+\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$23$"
+      },
+      {
+        "id": "b",
+        "latex": "$25$"
+      },
+      {
+        "id": "c",
+        "latex": "$24$"
+      },
+      {
+        "id": "d",
+        "latex": "$552$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "24",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The tail is again $R$, so $R=\\sqrt{552+R}$. Then $R^2-R-552=0$, giving the positive solution $R=24$.",
+    "complexity_factor": 1.25,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals"
+    ],
+    "checksum": "sha256-802da22a6bd7b9dd44248037324ae992176cdbf0abd820bcc144d361584a70d4",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.easy.0023",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "easy",
+    "prompt_latex": "Find the positive value of $R=\\sqrt{600+\\sqrt{600+\\sqrt{600+\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$24$"
+      },
+      {
+        "id": "b",
+        "latex": "$25$"
+      },
+      {
+        "id": "c",
+        "latex": "$26$"
+      },
+      {
+        "id": "d",
+        "latex": "$600$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "25",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The tail is again $R$, so $R=\\sqrt{600+R}$. Then $R^2-R-600=0$, giving the positive solution $R=25$.",
+    "complexity_factor": 1.25,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals"
+    ],
+    "checksum": "sha256-c97a958dfb48bc08489cc46dc310f9c20828e35b70758245a37106642fe1084b",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.easy.0024",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "easy",
+    "prompt_latex": "Find the positive value of $R=\\sqrt{650+\\sqrt{650+\\sqrt{650+\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$26$"
+      },
+      {
+        "id": "b",
+        "latex": "$25$"
+      },
+      {
+        "id": "c",
+        "latex": "$27$"
+      },
+      {
+        "id": "d",
+        "latex": "$650$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "26",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The tail is again $R$, so $R=\\sqrt{650+R}$. Then $R^2-R-650=0$, giving the positive solution $R=26$.",
+    "complexity_factor": 1.25,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals"
+    ],
+    "checksum": "sha256-79f5321b5876ebf72b95411745781680b5dae69ce540e5674c1837ea2cce1a52",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.easy.0025",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "easy",
+    "prompt_latex": "Find the positive value of $R=\\sqrt{702+\\sqrt{702+\\sqrt{702+\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$26$"
+      },
+      {
+        "id": "b",
+        "latex": "$28$"
+      },
+      {
+        "id": "c",
+        "latex": "$702$"
+      },
+      {
+        "id": "d",
+        "latex": "$27$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "27",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The tail is again $R$, so $R=\\sqrt{702+R}$. Then $R^2-R-702=0$, giving the positive solution $R=27$.",
+    "complexity_factor": 1.25,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals"
+    ],
+    "checksum": "sha256-6ba41a8f14a7535b9be704337a58ac644d5eda4f48261392abd602068a5c8b8b",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.easy.0026",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "easy",
+    "prompt_latex": "Find the positive value of $R=\\sqrt{756+\\sqrt{756+\\sqrt{756+\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$27$"
+      },
+      {
+        "id": "b",
+        "latex": "$29$"
+      },
+      {
+        "id": "c",
+        "latex": "$28$"
+      },
+      {
+        "id": "d",
+        "latex": "$756$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "28",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The tail is again $R$, so $R=\\sqrt{756+R}$. Then $R^2-R-756=0$, giving the positive solution $R=28$.",
+    "complexity_factor": 1.25,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals"
+    ],
+    "checksum": "sha256-2b5bd2e21121b7d8164d8a9b36e9a7623b96d5d5b4b5e8308aebc497bb2ecabd",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.easy.0027",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "easy",
+    "prompt_latex": "Find the positive value of $R=\\sqrt{812+\\sqrt{812+\\sqrt{812+\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$28$"
+      },
+      {
+        "id": "b",
+        "latex": "$29$"
+      },
+      {
+        "id": "c",
+        "latex": "$30$"
+      },
+      {
+        "id": "d",
+        "latex": "$812$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "29",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The tail is again $R$, so $R=\\sqrt{812+R}$. Then $R^2-R-812=0$, giving the positive solution $R=29$.",
+    "complexity_factor": 1.25,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals"
+    ],
+    "checksum": "sha256-1201a84a6490c53c324fcf3367daf7cc5e3d123e68629bd38b297e86d28075a0",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.easy.0028",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "easy",
+    "prompt_latex": "Find the positive value of $R=\\sqrt{870+\\sqrt{870+\\sqrt{870+\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$30$"
+      },
+      {
+        "id": "b",
+        "latex": "$29$"
+      },
+      {
+        "id": "c",
+        "latex": "$31$"
+      },
+      {
+        "id": "d",
+        "latex": "$870$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "30",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The tail is again $R$, so $R=\\sqrt{870+R}$. Then $R^2-R-870=0$, giving the positive solution $R=30$.",
+    "complexity_factor": 1.25,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals"
+    ],
+    "checksum": "sha256-0cb932f00e755aeb06446cb0db4fc1fb7a9e1b7cf9e1128a9c20412ea8dfe030",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.easy.0029",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "easy",
+    "prompt_latex": "Find the positive value of $R=\\sqrt{930+\\sqrt{930+\\sqrt{930+\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$30$"
+      },
+      {
+        "id": "b",
+        "latex": "$32$"
+      },
+      {
+        "id": "c",
+        "latex": "$930$"
+      },
+      {
+        "id": "d",
+        "latex": "$31$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "31",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The tail is again $R$, so $R=\\sqrt{930+R}$. Then $R^2-R-930=0$, giving the positive solution $R=31$.",
+    "complexity_factor": 1.25,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals"
+    ],
+    "checksum": "sha256-58dcf6afd5a25cd046f5f0ac170ca045cdd9be32552d0d0e6423e13e59f5991c",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.easy.0030",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "easy",
+    "prompt_latex": "Find the positive value of $R=\\sqrt{992+\\sqrt{992+\\sqrt{992+\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$31$"
+      },
+      {
+        "id": "b",
+        "latex": "$33$"
+      },
+      {
+        "id": "c",
+        "latex": "$32$"
+      },
+      {
+        "id": "d",
+        "latex": "$992$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "32",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The tail is again $R$, so $R=\\sqrt{992+R}$. Then $R^2-R-992=0$, giving the positive solution $R=32$.",
+    "complexity_factor": 1.25,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals"
+    ],
+    "checksum": "sha256-203b7663dcf5ecfb72603bc9dfe9d2d231d8c386ebfb63d71c8400675fe56909",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.easy.0031",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "easy",
+    "prompt_latex": "Find the positive value of $R=\\sqrt{1056+\\sqrt{1056+\\sqrt{1056+\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$32$"
+      },
+      {
+        "id": "b",
+        "latex": "$33$"
+      },
+      {
+        "id": "c",
+        "latex": "$34$"
+      },
+      {
+        "id": "d",
+        "latex": "$1056$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "33",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The tail is again $R$, so $R=\\sqrt{1056+R}$. Then $R^2-R-1056=0$, giving the positive solution $R=33$.",
+    "complexity_factor": 1.25,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals"
+    ],
+    "checksum": "sha256-d0d1dcde3a53912df244d5a7ada5a55b252f90994d3961e29f1608704bed55ba",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.easy.0032",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "easy",
+    "prompt_latex": "Find the positive value of $R=\\sqrt{1122+\\sqrt{1122+\\sqrt{1122+\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$34$"
+      },
+      {
+        "id": "b",
+        "latex": "$33$"
+      },
+      {
+        "id": "c",
+        "latex": "$35$"
+      },
+      {
+        "id": "d",
+        "latex": "$1122$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "34",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The tail is again $R$, so $R=\\sqrt{1122+R}$. Then $R^2-R-1122=0$, giving the positive solution $R=34$.",
+    "complexity_factor": 1.25,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals"
+    ],
+    "checksum": "sha256-8fd3e0fab3efa233ae6666e1ef3f31f619ec67ed90f418edede916d48b099690",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.easy.0033",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "easy",
+    "prompt_latex": "Find the positive value of $R=\\sqrt{1190+\\sqrt{1190+\\sqrt{1190+\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$34$"
+      },
+      {
+        "id": "b",
+        "latex": "$36$"
+      },
+      {
+        "id": "c",
+        "latex": "$1190$"
+      },
+      {
+        "id": "d",
+        "latex": "$35$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "35",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The tail is again $R$, so $R=\\sqrt{1190+R}$. Then $R^2-R-1190=0$, giving the positive solution $R=35$.",
+    "complexity_factor": 1.25,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals"
+    ],
+    "checksum": "sha256-50d3c062a39069c8d86b77e65a566009d1d82090dc6e1dcfa525f37d8ee4fb65",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.easy.0034",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "easy",
+    "prompt_latex": "Find the positive value of $R=\\sqrt{1260+\\sqrt{1260+\\sqrt{1260+\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$35$"
+      },
+      {
+        "id": "b",
+        "latex": "$37$"
+      },
+      {
+        "id": "c",
+        "latex": "$36$"
+      },
+      {
+        "id": "d",
+        "latex": "$1260$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "36",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The tail is again $R$, so $R=\\sqrt{1260+R}$. Then $R^2-R-1260=0$, giving the positive solution $R=36$.",
+    "complexity_factor": 1.25,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals"
+    ],
+    "checksum": "sha256-3a07b233732fcbe9740af944864290a3c8ad8dad75467a82677d0084a99c2b21",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.easy.0035",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "easy",
+    "prompt_latex": "Find the positive value of $R=\\sqrt{1332+\\sqrt{1332+\\sqrt{1332+\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$36$"
+      },
+      {
+        "id": "b",
+        "latex": "$37$"
+      },
+      {
+        "id": "c",
+        "latex": "$38$"
+      },
+      {
+        "id": "d",
+        "latex": "$1332$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "37",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The tail is again $R$, so $R=\\sqrt{1332+R}$. Then $R^2-R-1332=0$, giving the positive solution $R=37$.",
+    "complexity_factor": 1.25,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals"
+    ],
+    "checksum": "sha256-6a55912039cfe9c0e495def33306370fbf861de816ef3603ff0491a9d3a647d7",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.easy.0036",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "easy",
+    "prompt_latex": "Find the positive value of $R=\\sqrt{1406+\\sqrt{1406+\\sqrt{1406+\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$38$"
+      },
+      {
+        "id": "b",
+        "latex": "$37$"
+      },
+      {
+        "id": "c",
+        "latex": "$39$"
+      },
+      {
+        "id": "d",
+        "latex": "$1406$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "38",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The tail is again $R$, so $R=\\sqrt{1406+R}$. Then $R^2-R-1406=0$, giving the positive solution $R=38$.",
+    "complexity_factor": 1.25,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals"
+    ],
+    "checksum": "sha256-e843751aaad1f7263174ce360f8374b5f1a31d415e9e79f9c6178a95af08c754",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.easy.0037",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "easy",
+    "prompt_latex": "Find the positive value of $R=\\sqrt{1482+\\sqrt{1482+\\sqrt{1482+\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$38$"
+      },
+      {
+        "id": "b",
+        "latex": "$40$"
+      },
+      {
+        "id": "c",
+        "latex": "$1482$"
+      },
+      {
+        "id": "d",
+        "latex": "$39$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "39",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The tail is again $R$, so $R=\\sqrt{1482+R}$. Then $R^2-R-1482=0$, giving the positive solution $R=39$.",
+    "complexity_factor": 1.25,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals"
+    ],
+    "checksum": "sha256-b1e95488535e734fc1918c27cd3dc5f9d38218932b3f3a472728c6c405847b97",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.easy.0038",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "easy",
+    "prompt_latex": "Find the positive value of $R=\\sqrt{1560+\\sqrt{1560+\\sqrt{1560+\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$39$"
+      },
+      {
+        "id": "b",
+        "latex": "$41$"
+      },
+      {
+        "id": "c",
+        "latex": "$40$"
+      },
+      {
+        "id": "d",
+        "latex": "$1560$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "40",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The tail is again $R$, so $R=\\sqrt{1560+R}$. Then $R^2-R-1560=0$, giving the positive solution $R=40$.",
+    "complexity_factor": 1.25,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals"
+    ],
+    "checksum": "sha256-a1a9ed830cd4fad27be64e04aff5deae425a8dba36b5d560e0808570b05d671e",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.easy.0039",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "easy",
+    "prompt_latex": "Find the positive value of $R=\\sqrt{1640+\\sqrt{1640+\\sqrt{1640+\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$40$"
+      },
+      {
+        "id": "b",
+        "latex": "$41$"
+      },
+      {
+        "id": "c",
+        "latex": "$42$"
+      },
+      {
+        "id": "d",
+        "latex": "$1640$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "41",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The tail is again $R$, so $R=\\sqrt{1640+R}$. Then $R^2-R-1640=0$, giving the positive solution $R=41$.",
+    "complexity_factor": 1.25,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals"
+    ],
+    "checksum": "sha256-04c748a96e1fdbe48d46ddd9c8ef5682b10ab6740edcca54dcbc9b49178cefb7",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.easy.0040",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "easy",
+    "prompt_latex": "Find the positive value of $R=\\sqrt{1722+\\sqrt{1722+\\sqrt{1722+\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$42$"
+      },
+      {
+        "id": "b",
+        "latex": "$41$"
+      },
+      {
+        "id": "c",
+        "latex": "$43$"
+      },
+      {
+        "id": "d",
+        "latex": "$1722$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "42",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The tail is again $R$, so $R=\\sqrt{1722+R}$. Then $R^2-R-1722=0$, giving the positive solution $R=42$.",
+    "complexity_factor": 1.25,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals"
+    ],
+    "checksum": "sha256-6f6343ab50c43e7fa93b2d1f0ec7c431c782b2acea715bc44081caa5e01c471a",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.easy.0041",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "easy",
+    "prompt_latex": "Find the positive value of $R=\\sqrt{1806+\\sqrt{1806+\\sqrt{1806+\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$42$"
+      },
+      {
+        "id": "b",
+        "latex": "$44$"
+      },
+      {
+        "id": "c",
+        "latex": "$1806$"
+      },
+      {
+        "id": "d",
+        "latex": "$43$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "43",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The tail is again $R$, so $R=\\sqrt{1806+R}$. Then $R^2-R-1806=0$, giving the positive solution $R=43$.",
+    "complexity_factor": 1.25,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals"
+    ],
+    "checksum": "sha256-383b9a1f8fc85bb6e6a3d42193c0999d59005070d1e067bc57c6dd88d29746d3",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.easy.0042",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "easy",
+    "prompt_latex": "Find the positive value of $R=\\sqrt{1892+\\sqrt{1892+\\sqrt{1892+\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$43$"
+      },
+      {
+        "id": "b",
+        "latex": "$45$"
+      },
+      {
+        "id": "c",
+        "latex": "$44$"
+      },
+      {
+        "id": "d",
+        "latex": "$1892$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "44",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The tail is again $R$, so $R=\\sqrt{1892+R}$. Then $R^2-R-1892=0$, giving the positive solution $R=44$.",
+    "complexity_factor": 1.25,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals"
+    ],
+    "checksum": "sha256-cc8dfed57d7e0c9331ec91f357c62e630a4b40d3aa64b36a18ec51a6b4c3c06c",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.easy.0043",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "easy",
+    "prompt_latex": "Find the positive value of $R=\\sqrt{1980+\\sqrt{1980+\\sqrt{1980+\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$44$"
+      },
+      {
+        "id": "b",
+        "latex": "$45$"
+      },
+      {
+        "id": "c",
+        "latex": "$46$"
+      },
+      {
+        "id": "d",
+        "latex": "$1980$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "45",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The tail is again $R$, so $R=\\sqrt{1980+R}$. Then $R^2-R-1980=0$, giving the positive solution $R=45$.",
+    "complexity_factor": 1.25,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals"
+    ],
+    "checksum": "sha256-db58b7bd3540924d79e21e0149dfe35b0bd3893053f5949fa29036867648df46",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.easy.0044",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "easy",
+    "prompt_latex": "Find the positive value of $R=\\sqrt{2070+\\sqrt{2070+\\sqrt{2070+\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$46$"
+      },
+      {
+        "id": "b",
+        "latex": "$45$"
+      },
+      {
+        "id": "c",
+        "latex": "$47$"
+      },
+      {
+        "id": "d",
+        "latex": "$2070$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "46",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The tail is again $R$, so $R=\\sqrt{2070+R}$. Then $R^2-R-2070=0$, giving the positive solution $R=46$.",
+    "complexity_factor": 1.25,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals"
+    ],
+    "checksum": "sha256-3b7bab995c14e7077df328cb8e264dd66779c426e8bfeaec3fd46ac178683493",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.easy.0045",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "easy",
+    "prompt_latex": "Find the positive value of $R=\\sqrt{2162+\\sqrt{2162+\\sqrt{2162+\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$46$"
+      },
+      {
+        "id": "b",
+        "latex": "$48$"
+      },
+      {
+        "id": "c",
+        "latex": "$2162$"
+      },
+      {
+        "id": "d",
+        "latex": "$47$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "47",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The tail is again $R$, so $R=\\sqrt{2162+R}$. Then $R^2-R-2162=0$, giving the positive solution $R=47$.",
+    "complexity_factor": 1.25,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals"
+    ],
+    "checksum": "sha256-1876a027848fc6b334d1d086777b02162813efa015740cd48f08fb4c83bf3638",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.easy.0046",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "easy",
+    "prompt_latex": "Find the positive value of $R=\\sqrt{2256+\\sqrt{2256+\\sqrt{2256+\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$47$"
+      },
+      {
+        "id": "b",
+        "latex": "$49$"
+      },
+      {
+        "id": "c",
+        "latex": "$48$"
+      },
+      {
+        "id": "d",
+        "latex": "$2256$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "48",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The tail is again $R$, so $R=\\sqrt{2256+R}$. Then $R^2-R-2256=0$, giving the positive solution $R=48$.",
+    "complexity_factor": 1.25,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals"
+    ],
+    "checksum": "sha256-38382cdcbe55c1ed7000c96bf15f39034827606546cd3bd473cbf48d271b3974",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.easy.0047",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "easy",
+    "prompt_latex": "Find the positive value of $R=\\sqrt{2352+\\sqrt{2352+\\sqrt{2352+\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$48$"
+      },
+      {
+        "id": "b",
+        "latex": "$49$"
+      },
+      {
+        "id": "c",
+        "latex": "$50$"
+      },
+      {
+        "id": "d",
+        "latex": "$2352$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "49",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The tail is again $R$, so $R=\\sqrt{2352+R}$. Then $R^2-R-2352=0$, giving the positive solution $R=49$.",
+    "complexity_factor": 1.25,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals"
+    ],
+    "checksum": "sha256-35043614ec014af8b5505532744448e96ffd55e90184d35b385805c44981376c",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.easy.0048",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "easy",
+    "prompt_latex": "Find the positive value of $R=\\sqrt{2450+\\sqrt{2450+\\sqrt{2450+\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$50$"
+      },
+      {
+        "id": "b",
+        "latex": "$49$"
+      },
+      {
+        "id": "c",
+        "latex": "$51$"
+      },
+      {
+        "id": "d",
+        "latex": "$2450$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "50",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The tail is again $R$, so $R=\\sqrt{2450+R}$. Then $R^2-R-2450=0$, giving the positive solution $R=50$.",
+    "complexity_factor": 1.25,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals"
+    ],
+    "checksum": "sha256-8b22c8f573889905eba7df17d71046283e31fd104929ad5449ec4726731148b4",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.easy.0049",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "easy",
+    "prompt_latex": "Find the positive value of $R=\\sqrt{2550+\\sqrt{2550+\\sqrt{2550+\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$50$"
+      },
+      {
+        "id": "b",
+        "latex": "$52$"
+      },
+      {
+        "id": "c",
+        "latex": "$2550$"
+      },
+      {
+        "id": "d",
+        "latex": "$51$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "51",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The tail is again $R$, so $R=\\sqrt{2550+R}$. Then $R^2-R-2550=0$, giving the positive solution $R=51$.",
+    "complexity_factor": 1.25,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals"
+    ],
+    "checksum": "sha256-5edc0a24aee15c73c9b2d15e359441119f56387350749a8343e0cffc973eeae9",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.easy.0050",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "easy",
+    "prompt_latex": "Find the positive value of $R=\\sqrt{2652+\\sqrt{2652+\\sqrt{2652+\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$51$"
+      },
+      {
+        "id": "b",
+        "latex": "$53$"
+      },
+      {
+        "id": "c",
+        "latex": "$52$"
+      },
+      {
+        "id": "d",
+        "latex": "$2652$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "52",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The tail is again $R$, so $R=\\sqrt{2652+R}$. Then $R^2-R-2652=0$, giving the positive solution $R=52$.",
+    "complexity_factor": 1.25,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "nested-radicals"
+    ],
+    "checksum": "sha256-e913d5bd1b2402fee8e817e125c431eeb19467c4136ca01e286977c248aeda25",
+    "status": "valid"
+  }
+]

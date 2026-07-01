@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "ch17.basics.easy.0001",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "For $f(x)=-2x-3$, what is $f(-2)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$-7$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=-2$: $f(-2)=-2(-2)-3=1$.",
+    "complexity_factor": 1,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-f535258696ba7eaca998b53d9597c5c65c14a2e0d47de60883a2c7694faa47c1",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.easy.0002",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "For $g(x)=x^2-3$, what is the $y$-coordinate when $x=-2$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-7$"
+      },
+      {
+        "id": "b",
+        "latex": "$25$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The graph has $y=g(-2)=-2^2-3=1$.",
+    "complexity_factor": 1,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-50c5625d79046c7efabf7fabc928eac4395b55bc48151f9c0425f26a0e6636b5",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.easy.0003",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Which ordered pair is on the graph of $y=x^2+0$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0,1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1,2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1,3)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-1,1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "At $x=-1$, $y=-1^2+0=1$, so the point is $(-1,1)$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-f832f95b5ea319df3e44b3794fccbf4403a0541dac0fcf35a16855514d1c348c",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.easy.0004",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "The graph of $y=-4x-20$ crosses the $x$-axis at what $x$-coordinate?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-20$"
+      },
+      {
+        "id": "b",
+        "latex": "$-5$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "At the $x$-axis, $y=0$. Solving $0=-4x-20$ gives $x=-5$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-657cd5d6b96c2387b172ed9cd3c06a84f8134584bfc9a5f22d717b25f88dbee0",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.easy.0005",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "For $f(x)=4x+1$, what is $f(2)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$-7$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=2$: $f(2)=4(2)+1=9$.",
+    "complexity_factor": 1,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-a2207a8c4a472107972be7218c4a76817d402109c832b42cbb46d9f62079d811",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.easy.0006",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "For $g(x)=x^2+1$, what is the $y$-coordinate when $x=2$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The graph has $y=g(2)=2^2+1=5$.",
+    "complexity_factor": 1,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-f5ed0c7d5f74bce297ba68b8d4f0fa0d4138c4fd6a63ec503da0f16aed5a818a",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.easy.0007",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Which ordered pair is on the graph of $y=x^2-3$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3,6)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4,6)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3,7)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-3,8)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(3,6)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "At $x=3$, $y=3^2-3=6$, so the point is $(3,6)$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-f273a958add4fb0037ba2b47670a435b27171015eaffcf7053f1424c7caeb17f",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.easy.0008",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "The graph of $y=-3x-12$ crosses the $x$-axis at what $x$-coordinate?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-12$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "At the $x$-axis, $y=0$. Solving $0=-3x-12$ gives $x=-4$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-68e5bb75db8fe9ec1c34f47917febba7c8f1f55aae52cda4a308379779c4e1d8",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.easy.0009",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "For $f(x)=2x-4$, what is $f(-1)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-5$"
+      },
+      {
+        "id": "c",
+        "latex": "$-6$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=-1$: $f(-1)=2(-1)-4=-6$.",
+    "complexity_factor": 1,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-074419f5b04290d9aa17b03a1b4e21f7c702b47e51eba084160e6d59a8bbeb91",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.easy.0010",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "For $g(x)=x^2+5$, what is the $y$-coordinate when $x=-3$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$13$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$14$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "14",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The graph has $y=g(-3)=-3^2+5=14$.",
+    "complexity_factor": 1,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-22aa8f76afba89f306bc9d70b30ef0a95ae452055479b1f55a53b858bc8fd100",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.easy.0011",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Which ordered pair is on the graph of $y=x^2+1$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1,3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1,4)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-1,2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "At $x=-1$, $y=-1^2+1=2$, so the point is $(-1,2)$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-914cad3c7b4ab0aef5734f3e60bc86d1de51edebf22a2467f447bb9e54990726",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.easy.0012",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "The graph of $y=-2x-6$ crosses the $x$-axis at what $x$-coordinate?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-6$"
+      },
+      {
+        "id": "c",
+        "latex": "$-3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "At the $x$-axis, $y=0$. Solving $0=-2x-6$ gives $x=-3$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-09f2271a13e27d9b0c4b40469dc78cd4f59966d34df77b158f1100953e620785",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.easy.0013",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "For $f(x)=-2x+0$, what is $f(3)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-6$"
+      },
+      {
+        "id": "b",
+        "latex": "$-5$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=3$: $f(3)=-2(3)+0=-6$.",
+    "complexity_factor": 1,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-1589e6ec10f2ede7d07b2dd042745997d346491d9224d23cc54722113e218935",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.easy.0014",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "For $g(x)=x^2-2$, what is the $y$-coordinate when $x=1$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The graph has $y=g(1)=1^2-2=-1$.",
+    "complexity_factor": 1,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-6888843ef7924fcd96b31fbbbb52a002db42d684b4c9acb83ad08b2624e98e23",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.easy.0015",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Which ordered pair is on the graph of $y=x^2-2$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4,7)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3,8)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3,7)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-3,9)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(3,7)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "At $x=3$, $y=3^2-2=7$, so the point is $(3,7)$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-17ff6f215fc84d11141b3625401954542ce34ae3c2dfcacba9fb9166b35dd0eb",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.easy.0016",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "The graph of $y=2x+4$ crosses the $x$-axis at what $x$-coordinate?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "At the $x$-axis, $y=0$. Solving $0=2x+4$ gives $x=-2$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-54b57c1d91591639df07a8657ba9df62816c519cb4bd901a180c4b3838e00288",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.easy.0017",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "For $f(x)=4x+4$, what is $f(0)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=0$: $f(0)=4(0)+4=4$.",
+    "complexity_factor": 1,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-2918911c5fb0923c28dbba49f205c730146e1deec8627f3630ccae24379dc04f",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.easy.0018",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "For $g(x)=x^2+2$, what is the $y$-coordinate when $x=-4$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-6$"
+      },
+      {
+        "id": "b",
+        "latex": "$14$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$18$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "18",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The graph has $y=g(-4)=-4^2+2=18$.",
+    "complexity_factor": 1,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-6cd535c467ac3471fabdbef4b551903e0965806b4cf59ca1d485c0a796397853",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.easy.0019",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Which ordered pair is on the graph of $y=x^2+2$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1,5)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-1,3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "At $x=-1$, $y=-1^2+2=3$, so the point is $(-1,3)$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-abc98271222a3a02369a225313dea9757dc69615dc37006d047e27ed24451ecd",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.easy.0020",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "The graph of $y=3x+3$ crosses the $x$-axis at what $x$-coordinate?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "At the $x$-axis, $y=0$. Solving $0=3x+3$ gives $x=-1$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-19aa557f6d7768a7c2f154bf3a5478b8895ce0f0871acabae188e41aff817eb6",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.easy.0021",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "For $f(x)=2x-1$, what is $f(-3)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$-6$"
+      },
+      {
+        "id": "c",
+        "latex": "$-7$"
+      },
+      {
+        "id": "d",
+        "latex": "$-5$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=-3$: $f(-3)=2(-3)-1=-7$.",
+    "complexity_factor": 1,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-90c2c83dae86ce101335cf0f35b98dd5b3af5223e483be660fc5222f83d5c92a",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.easy.0022",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "For $g(x)=x^2-5$, what is the $y$-coordinate when $x=0$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$25$"
+      },
+      {
+        "id": "b",
+        "latex": "$-6$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$-5$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The graph has $y=g(0)=0^2-5=-5$.",
+    "complexity_factor": 1,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-576cbd944783a56f5a4efff7e85081000e1b3292d4d0f2c6cb0035dc131b742e",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.easy.0023",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Which ordered pair is on the graph of $y=x^2-1$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3,8)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3,9)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4,8)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-3,10)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(3,8)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "At $x=3$, $y=3^2-1=8$, so the point is $(3,8)$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-60e4d2be5bceef9091ee738decad510a31567c05df5acefba89149df71ff0468",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.easy.0024",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "The graph of $y=4x+0$ crosses the $x$-axis at what $x$-coordinate?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "At the $x$-axis, $y=0$. Solving $0=4x+0$ gives $x=0$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-2abed8a396992591ec478e78dbf29ec226a9de68c57d937c4de5683b52174ac1",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.easy.0025",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "For $f(x)=-2x+3$, what is $f(1)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-5$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=1$: $f(1)=-2(1)+3=1$.",
+    "complexity_factor": 1,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-61a6413e3de9f96f15f487d2877b0a3c20f3c23118773a517095281e20801f81",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.easy.0026",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "For $g(x)=x^2-1$, what is the $y$-coordinate when $x=4$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$17$"
+      },
+      {
+        "id": "d",
+        "latex": "$15$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "15",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The graph has $y=g(4)=4^2-1=15$.",
+    "complexity_factor": 1,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-10f2c596cbcd3b36634367f9ae3d831c407ebeb53588ad9e9d955c162d33259c",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.easy.0027",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Which ordered pair is on the graph of $y=x^2+3$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0,4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1,5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1,6)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-1,4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "At $x=-1$, $y=-1^2+3=4$, so the point is $(-1,4)$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-a5fe04e0ce692758865f1ae74ace36db040815bb958291f1f0fbed85e1fb2b71",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.easy.0028",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "The graph of $y=-4x+4$ crosses the $x$-axis at what $x$-coordinate?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "At the $x$-axis, $y=0$. Solving $0=-4x+4$ gives $x=1$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-0410ee9ec2d5ee36c2e8fadae3c5b3353307cfbf3148b5452fa725696aa68076",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.easy.0029",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "For $f(x)=4x-2$, what is $f(-2)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-10$"
+      },
+      {
+        "id": "b",
+        "latex": "$-9$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$-6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=-2$: $f(-2)=4(-2)-2=-10$.",
+    "complexity_factor": 1,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-f1f2fbf216a0ff3560090f10c10edb0ea92de228a1d6718101ead58fc4b125d1",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.easy.0030",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "For $g(x)=x^2+3$, what is the $y$-coordinate when $x=-1$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The graph has $y=g(-1)=-1^2+3=4$.",
+    "complexity_factor": 1,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-62005a65fc6e56cf855c5266782b032ab44e6d6b9a6c00b0faf11d53bb72af6b",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.easy.0031",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Which ordered pair is on the graph of $y=x^2+0$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3,9)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4,9)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3,10)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-3,11)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(3,9)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "At $x=3$, $y=3^2+0=9$, so the point is $(3,9)$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-d17ca7f0ee4a27b8e9fa868bb44ae735feaa746218be9429f9ffd327640c948f",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.easy.0032",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "The graph of $y=-3x+6$ crosses the $x$-axis at what $x$-coordinate?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "At the $x$-axis, $y=0$. Solving $0=-3x+6$ gives $x=2$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-3cfd356f4db179d7ca418fe9e571c7b8bca533990f1ac55a289663ed28d85b27",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.easy.0033",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "For $f(x)=2x+2$, what is $f(2)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=2$: $f(2)=2(2)+2=6$.",
+    "complexity_factor": 1,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-37054c34d9df1094799da03bf6202d30fa82e3e4495b8d2c891075c0d2e0ef4d",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.easy.0034",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "For $g(x)=x^2-4$, what is the $y$-coordinate when $x=3$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$13$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The graph has $y=g(3)=3^2-4=5$.",
+    "complexity_factor": 1,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-20822ec631ae48ea8ddcafc9655861121f944983d67bb562384c2c685c0f3730",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.easy.0035",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Which ordered pair is on the graph of $y=x^2-3$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,-2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1,-1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0,-2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1,0)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-1,-2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "At $x=-1$, $y=-1^2-3=-2$, so the point is $(-1,-2)$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-319caea58f6b4b0aceff196be1e2afd2aab472456fc1619a63fc42673c388edc",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.easy.0036",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "The graph of $y=-2x+6$ crosses the $x$-axis at what $x$-coordinate?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "At the $x$-axis, $y=0$. Solving $0=-2x+6$ gives $x=3$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-5b9a67ae24a8960c6c0e21a99698c9cd9e96be97e6851fd7cfac0d7bd19b38e5",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.easy.0037",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "For $f(x)=-2x-3$, what is $f(-1)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$-5$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=-1$: $f(-1)=-2(-1)-3=-1$.",
+    "complexity_factor": 1,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-8472ba171bd50695c1b3646480e32b766128effad9ad21e152e9d02213fd3fa3",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.easy.0038",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "For $g(x)=x^2+0$, what is the $y$-coordinate when $x=-2$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The graph has $y=g(-2)=-2^2+0=4$.",
+    "complexity_factor": 1,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-4eaab49b5bb0df34120cb59e0af50b70fc2ba83c89fc8b34ee97fd254d929271",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.easy.0039",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Which ordered pair is on the graph of $y=x^2+1$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4,10)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3,11)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3,10)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-3,12)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(3,10)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "At $x=3$, $y=3^2+1=10$, so the point is $(3,10)$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-4593e9a7b7aeeba33808022646ca44c3d39802df2e9a235e02267d8f5c5f72f2",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.easy.0040",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "The graph of $y=2x-8$ crosses the $x$-axis at what $x$-coordinate?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-8$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "At the $x$-axis, $y=0$. Solving $0=2x-8$ gives $x=4$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-06d986ae00c5466a2aa12d803ea7b289b5e71e838d00d85e610905e3aa5df02c",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.easy.0041",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "For $f(x)=4x+1$, what is $f(3)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$13$"
+      },
+      {
+        "id": "b",
+        "latex": "$14$"
+      },
+      {
+        "id": "c",
+        "latex": "$-11$"
+      },
+      {
+        "id": "d",
+        "latex": "$11$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "13",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=3$: $f(3)=4(3)+1=13$.",
+    "complexity_factor": 1,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-4d21447c698a9fe0a8e9cda322d0dd17c5fa696d56aa7c5f5ebfce3b4427b3b2",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.easy.0042",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "For $g(x)=x^2+4$, what is the $y$-coordinate when $x=2$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$36$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The graph has $y=g(2)=2^2+4=8$.",
+    "complexity_factor": 1,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-50f459db1e90dee06f773ba16057436c9496a341bd49e50f8b9a790588c0be53",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.easy.0043",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Which ordered pair is on the graph of $y=x^2-2$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,-1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,-1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1,1)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-1,-1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "At $x=-1$, $y=-1^2-2=-1$, so the point is $(-1,-1)$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-d7c43881819b27fae23e23c40d5897c0a6978707a638e55855b6f854510161e3",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.easy.0044",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "The graph of $y=3x-15$ crosses the $x$-axis at what $x$-coordinate?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-5$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$-15$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "At the $x$-axis, $y=0$. Solving $0=3x-15$ gives $x=5$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-25262ac1d100dde7ab3b59b323fae72f45569ee6ba9c21719ec3bd0f0b246568",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.easy.0045",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "For $f(x)=2x-4$, what is $f(0)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=0$: $f(0)=2(0)-4=-4$.",
+    "complexity_factor": 1,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-2a16b7385621be845c4f85e0496fc353e936ddc89504ffbb89aaa39227c38843",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.easy.0046",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "For $g(x)=x^2-3$, what is the $y$-coordinate when $x=-3$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12$"
+      },
+      {
+        "id": "b",
+        "latex": "$36$"
+      },
+      {
+        "id": "c",
+        "latex": "$-9$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The graph has $y=g(-3)=-3^2-3=6$.",
+    "complexity_factor": 1,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-2781c59f8c8836307635ad0f0dda0c468aa80bf4514815befe4629da2a2f1146",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.easy.0047",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Which ordered pair is on the graph of $y=x^2+2$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3,11)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3,12)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4,11)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-3,13)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(3,11)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "At $x=3$, $y=3^2+2=11$, so the point is $(3,11)$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-ac963db310a24ee440e360337d9fcb94b9915860c2209c00a6a7185b2b084f67",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.easy.0048",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "The graph of $y=4x-24$ crosses the $x$-axis at what $x$-coordinate?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-6$"
+      },
+      {
+        "id": "b",
+        "latex": "$-24$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "At the $x$-axis, $y=0$. Solving $0=4x-24$ gives $x=6$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-fa8f15dd0ac5c3d35c91072f28e75d4e7d289328efb5eaf157fc9ec65ba16268",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.easy.0049",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "For $f(x)=-2x+0$, what is $f(-3)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=-3$: $f(-3)=-2(-3)+0=6$.",
+    "complexity_factor": 1,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-b1484e5d80eeeed26a5331dc0c334f1deecd464acb3a3fed2d209362d876dbc1",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.easy.0050",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "For $g(x)=x^2+1$, what is the $y$-coordinate when $x=1$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The graph has $y=g(1)=1^2+1=2$.",
+    "complexity_factor": 1,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-7bda68f9159cecd83de2edc17e5e38bcfff7faf6a6aa6cb78e1bcd4665b02598",
+    "status": "valid"
+  }
+]

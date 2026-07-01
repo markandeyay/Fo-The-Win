@@ -1,0 +1,2027 @@
+[
+  {
+    "id": "ch20.rational_functions.medium.0001",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $x\\ne 2$, simplify $\\frac{(x - 2)(x + 1)}{x - 2}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x + 3$"
+      },
+      {
+        "id": "b",
+        "latex": "$x + 1$"
+      },
+      {
+        "id": "c",
+        "latex": "$x - 2$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 2)(x + 1)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "x+1",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "x+1"
+    ],
+    "solution_latex": "Cancel the common factor $x - 2$ to get $x + 1$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "simplifying",
+      "domain restriction"
+    ],
+    "checksum": "sha256-a99a9c6907409f26b99dc3d7fcba3151c2483c96274232391a224744ca8bac91",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.medium.0002",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "What value of $x$ is excluded from the domain of $f(x)=\\frac{3x+1}{x + 12}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-11$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$-12$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator cannot be $0$. Solving $x + 12=0$ gives $x=-12$.",
+    "complexity_factor": 1.15,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "domain"
+    ],
+    "checksum": "sha256-22d33a9dddc4321ebb8fb83520e2de1a93644cb37aba855647af949bdaea9e0d",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.medium.0003",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $x\\ne 3$, simplify $\\frac{(x - 3)(x + 5)}{x - 3}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x - 3$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 3)(x + 5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$x + 8$"
+      },
+      {
+        "id": "d",
+        "latex": "$x + 5$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x+5",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "x+5"
+    ],
+    "solution_latex": "Cancel the common factor $x - 3$ to get $x + 5$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "simplifying",
+      "domain restriction"
+    ],
+    "checksum": "sha256-63f586aaa35feb2b09170535fab001243b4c788502af3bc11aba7a07bacd4656",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.medium.0004",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "What value of $x$ is excluded from the domain of $f(x)=\\frac{3x+1}{x + 11}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-11$"
+      },
+      {
+        "id": "b",
+        "latex": "$11$"
+      },
+      {
+        "id": "c",
+        "latex": "$-10$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-11",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator cannot be $0$. Solving $x + 11=0$ gives $x=-11$.",
+    "complexity_factor": 1.15,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "domain"
+    ],
+    "checksum": "sha256-30a35726ac2db1d0467fbd9f08078a3601fa4f64cc5b2e30c598edb159d4d784",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.medium.0005",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $x\\ne 4$, simplify $\\frac{(x - 4)(x + 5)}{x - 4}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x + 9$"
+      },
+      {
+        "id": "b",
+        "latex": "$x + 5$"
+      },
+      {
+        "id": "c",
+        "latex": "$x - 4$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 4)(x + 5)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "x+5",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "x+5"
+    ],
+    "solution_latex": "Cancel the common factor $x - 4$ to get $x + 5$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "simplifying",
+      "domain restriction"
+    ],
+    "checksum": "sha256-4a91fabeb8de63743b3e68808ef94e1925a5fcb937fe4b568446333d455cb49d",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.medium.0006",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "What value of $x$ is excluded from the domain of $f(x)=\\frac{3x+1}{x + 10}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-9$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$-10$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator cannot be $0$. Solving $x + 10=0$ gives $x=-10$.",
+    "complexity_factor": 1.15,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "domain"
+    ],
+    "checksum": "sha256-a164f4b495858bfdd710b22159528437b06fe332abb5715d527c5f68a702aedc",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.medium.0007",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $x\\ne 5$, simplify $\\frac{(x - 5)(x + 5)}{x - 5}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x - 5$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 5)(x + 5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$x + 10$"
+      },
+      {
+        "id": "d",
+        "latex": "$x + 5$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x+5",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "x+5"
+    ],
+    "solution_latex": "Cancel the common factor $x - 5$ to get $x + 5$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "simplifying",
+      "domain restriction"
+    ],
+    "checksum": "sha256-732a7683f09c80de259bab2a25a07f3e741e0596d3d31faf9160c0763d112229",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.medium.0008",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "What value of $x$ is excluded from the domain of $f(x)=\\frac{3x+1}{x + 9}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-9$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$-8$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator cannot be $0$. Solving $x + 9=0$ gives $x=-9$.",
+    "complexity_factor": 1.15,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "domain"
+    ],
+    "checksum": "sha256-984b33aaa7e7751266e44a5751ac08a00b6130dd1b40965c8dda04e2abf200d6",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.medium.0009",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $x\\ne 6$, simplify $\\frac{(x - 6)(x + 5)}{x - 6}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x + 11$"
+      },
+      {
+        "id": "b",
+        "latex": "$x + 5$"
+      },
+      {
+        "id": "c",
+        "latex": "$x - 6$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 6)(x + 5)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "x+5",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "x+5"
+    ],
+    "solution_latex": "Cancel the common factor $x - 6$ to get $x + 5$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "simplifying",
+      "domain restriction"
+    ],
+    "checksum": "sha256-ca3bdb185ece220e422cbe946a746b3e9de462509e51b1479556a9778acae304",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.medium.0010",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "What value of $x$ is excluded from the domain of $f(x)=\\frac{3x+1}{x + 8}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-7$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$-8$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator cannot be $0$. Solving $x + 8=0$ gives $x=-8$.",
+    "complexity_factor": 1.15,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "domain"
+    ],
+    "checksum": "sha256-7355626dafe0a531561b3bd1c7222afb77aa021739e37f044429aa08db613d30",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.medium.0011",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $x\\ne 7$, simplify $\\frac{(x - 7)(x + 5)}{x - 7}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x - 7$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 7)(x + 5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$x + 12$"
+      },
+      {
+        "id": "d",
+        "latex": "$x + 5$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x+5",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "x+5"
+    ],
+    "solution_latex": "Cancel the common factor $x - 7$ to get $x + 5$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "simplifying",
+      "domain restriction"
+    ],
+    "checksum": "sha256-9fee680f6e36933ad379ed5fa961614b1100a333ac7c7fa09c2c04d3bd050de9",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.medium.0012",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "What value of $x$ is excluded from the domain of $f(x)=\\frac{3x+1}{x + 7}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-7$"
+      },
+      {
+        "id": "b",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$-6$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator cannot be $0$. Solving $x + 7=0$ gives $x=-7$.",
+    "complexity_factor": 1.15,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "domain"
+    ],
+    "checksum": "sha256-2db6715f94a87b6e160a235a26aad9ae91cce798e3a8ee58b386ca6ef95b6622",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.medium.0013",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $x\\ne 8$, simplify $\\frac{(x - 8)(x + 9)}{x - 8}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x + 17$"
+      },
+      {
+        "id": "b",
+        "latex": "$x + 9$"
+      },
+      {
+        "id": "c",
+        "latex": "$x - 8$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 8)(x + 9)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "x+9",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "x+9"
+    ],
+    "solution_latex": "Cancel the common factor $x - 8$ to get $x + 9$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "simplifying",
+      "domain restriction"
+    ],
+    "checksum": "sha256-cea2e4b70a0db27e399c969b7a685dec98c17b7402e45c033295384cbf58df20",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.medium.0014",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "What value of $x$ is excluded from the domain of $f(x)=\\frac{3x+1}{x + 6}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-5$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$-6$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator cannot be $0$. Solving $x + 6=0$ gives $x=-6$.",
+    "complexity_factor": 1.15,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "domain"
+    ],
+    "checksum": "sha256-a2d11931a22daa7e557194044a4433f7ef271e355eb50724fa1da64b6ecefc64",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.medium.0015",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $x\\ne 9$, simplify $\\frac{(x - 9)(x + 9)}{x - 9}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x - 9$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 9)(x + 9)$"
+      },
+      {
+        "id": "c",
+        "latex": "$x + 18$"
+      },
+      {
+        "id": "d",
+        "latex": "$x + 9$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x+9",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "x+9"
+    ],
+    "solution_latex": "Cancel the common factor $x - 9$ to get $x + 9$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "simplifying",
+      "domain restriction"
+    ],
+    "checksum": "sha256-79008e69bc52b667e1b837821091f4109088600e28240c19c5ef9b68dbf723af",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.medium.0016",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "What value of $x$ is excluded from the domain of $f(x)=\\frac{3x+1}{x + 5}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-5$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator cannot be $0$. Solving $x + 5=0$ gives $x=-5$.",
+    "complexity_factor": 1.15,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "domain"
+    ],
+    "checksum": "sha256-028b01b086891b417c9e203ac99f8d6b5b05b12a7d38d696ee843cf16f47ba08",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.medium.0017",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $x\\ne 10$, simplify $\\frac{(x - 10)(x + 9)}{x - 10}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x + 19$"
+      },
+      {
+        "id": "b",
+        "latex": "$x + 9$"
+      },
+      {
+        "id": "c",
+        "latex": "$x - 10$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 10)(x + 9)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "x+9",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "x+9"
+    ],
+    "solution_latex": "Cancel the common factor $x - 10$ to get $x + 9$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "simplifying",
+      "domain restriction"
+    ],
+    "checksum": "sha256-822443eb74e71623c9da7100c4a3801a22bc58bd1d1097f98bb4cbee25923f96",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.medium.0018",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "What value of $x$ is excluded from the domain of $f(x)=\\frac{3x+1}{x + 4}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator cannot be $0$. Solving $x + 4=0$ gives $x=-4$.",
+    "complexity_factor": 1.15,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "domain"
+    ],
+    "checksum": "sha256-737ab1b4b59dc565dc87a7c55fd3084de772f8063aa667da08bcd44e46ed7596",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.medium.0019",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $x\\ne 11$, simplify $\\frac{(x - 11)(x + 9)}{x - 11}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x - 11$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 11)(x + 9)$"
+      },
+      {
+        "id": "c",
+        "latex": "$x + 20$"
+      },
+      {
+        "id": "d",
+        "latex": "$x + 9$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x+9",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "x+9"
+    ],
+    "solution_latex": "Cancel the common factor $x - 11$ to get $x + 9$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "simplifying",
+      "domain restriction"
+    ],
+    "checksum": "sha256-3ee438bce3c97fa49b34e2a897f0507e75a78b28c2ac30743de4f626236d08f4",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.medium.0020",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "What value of $x$ is excluded from the domain of $f(x)=\\frac{3x+1}{x + 3}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator cannot be $0$. Solving $x + 3=0$ gives $x=-3$.",
+    "complexity_factor": 1.15,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "domain"
+    ],
+    "checksum": "sha256-4b9a43b30c2097ce72231ec35b796b30e72ea926555f1eab416cf6d13a43000b",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.medium.0021",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $x\\ne 12$, simplify $\\frac{(x - 12)(x + 9)}{x - 12}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x + 21$"
+      },
+      {
+        "id": "b",
+        "latex": "$x + 9$"
+      },
+      {
+        "id": "c",
+        "latex": "$x - 12$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 12)(x + 9)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "x+9",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "x+9"
+    ],
+    "solution_latex": "Cancel the common factor $x - 12$ to get $x + 9$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "simplifying",
+      "domain restriction"
+    ],
+    "checksum": "sha256-a84e0851e7e919ccdd2f3fb70071a52dbccb5a480b3646ab196e87f71f3b0980",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.medium.0022",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "What value of $x$ is excluded from the domain of $f(x)=\\frac{3x+1}{x + 2}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator cannot be $0$. Solving $x + 2=0$ gives $x=-2$.",
+    "complexity_factor": 1.15,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "domain"
+    ],
+    "checksum": "sha256-cfc242f1d8cde5c624efa5f9b588b97b6d91404d7d9b3d96369bac3468ce878d",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.medium.0023",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $x\\ne 13$, simplify $\\frac{(x - 13)(x + 13)}{x - 13}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x - 13$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 13)(x + 13)$"
+      },
+      {
+        "id": "c",
+        "latex": "$x + 26$"
+      },
+      {
+        "id": "d",
+        "latex": "$x + 13$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x+13",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "x+13"
+    ],
+    "solution_latex": "Cancel the common factor $x - 13$ to get $x + 13$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "simplifying",
+      "domain restriction"
+    ],
+    "checksum": "sha256-e7142babf65c6a3a1a5783f83ecee298fbd9b9ec0d1a7ba73e759119d104d889",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.medium.0024",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "What value of $x$ is excluded from the domain of $f(x)=\\frac{3x+1}{x + 1}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator cannot be $0$. Solving $x + 1=0$ gives $x=-1$.",
+    "complexity_factor": 1.15,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "domain"
+    ],
+    "checksum": "sha256-08de9e85490a6a5840258647df1a0cad69d052ce7aa53ff27c49f08cf1f58778",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.medium.0025",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $x\\ne 14$, simplify $\\frac{(x - 14)(x + 13)}{x - 14}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x + 27$"
+      },
+      {
+        "id": "b",
+        "latex": "$x + 13$"
+      },
+      {
+        "id": "c",
+        "latex": "$x - 14$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 14)(x + 13)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "x+13",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "x+13"
+    ],
+    "solution_latex": "Cancel the common factor $x - 14$ to get $x + 13$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "simplifying",
+      "domain restriction"
+    ],
+    "checksum": "sha256-e6f301c50102d97585fbd8316283787f7390e662968212878109a9a605642ef8",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.medium.0026",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "What value of $x$ is excluded from the domain of $f(x)=\\frac{3x+1}{x + 0}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator cannot be $0$. Solving $x + 0=0$ gives $x=0$.",
+    "complexity_factor": 1.15,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "domain"
+    ],
+    "checksum": "sha256-5cb47c8dd9b0cf9af86149aa2a51e6260bc2e6dc5c29b7e855a608898f6b4a36",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.medium.0027",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $x\\ne 15$, simplify $\\frac{(x - 15)(x + 13)}{x - 15}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x - 15$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 15)(x + 13)$"
+      },
+      {
+        "id": "c",
+        "latex": "$x + 28$"
+      },
+      {
+        "id": "d",
+        "latex": "$x + 13$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x+13",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "x+13"
+    ],
+    "solution_latex": "Cancel the common factor $x - 15$ to get $x + 13$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "simplifying",
+      "domain restriction"
+    ],
+    "checksum": "sha256-240b9af5761a9d94d6134d15e3c4a0ad133cc6c63ffdc02d36899c90c84fbb9d",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.medium.0028",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "What value of $x$ is excluded from the domain of $f(x)=\\frac{3x+1}{x - 1}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator cannot be $0$. Solving $x - 1=0$ gives $x=1$.",
+    "complexity_factor": 1.15,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "domain"
+    ],
+    "checksum": "sha256-ba9c4a2f9333f0f45806e62f34b576788e141416c3ab34588995bfb32db79b31",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.medium.0029",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $x\\ne 16$, simplify $\\frac{(x - 16)(x + 13)}{x - 16}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x + 29$"
+      },
+      {
+        "id": "b",
+        "latex": "$x + 13$"
+      },
+      {
+        "id": "c",
+        "latex": "$x - 16$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 16)(x + 13)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "x+13",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "x+13"
+    ],
+    "solution_latex": "Cancel the common factor $x - 16$ to get $x + 13$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "simplifying",
+      "domain restriction"
+    ],
+    "checksum": "sha256-93fdbd6348a60d5bde3118e530e1ade7386e38eafba96f1a4c8b587484a0e7c7",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.medium.0030",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "What value of $x$ is excluded from the domain of $f(x)=\\frac{3x+1}{x - 2}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator cannot be $0$. Solving $x - 2=0$ gives $x=2$.",
+    "complexity_factor": 1.15,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "domain"
+    ],
+    "checksum": "sha256-03e51082f6fbe81602734cb786f529d866eda8f70c489884a529abd84388a26c",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.medium.0031",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $x\\ne 17$, simplify $\\frac{(x - 17)(x + 13)}{x - 17}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x - 17$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 17)(x + 13)$"
+      },
+      {
+        "id": "c",
+        "latex": "$x + 30$"
+      },
+      {
+        "id": "d",
+        "latex": "$x + 13$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x+13",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "x+13"
+    ],
+    "solution_latex": "Cancel the common factor $x - 17$ to get $x + 13$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "simplifying",
+      "domain restriction"
+    ],
+    "checksum": "sha256-3e67260f9dad3a1a5b8f0ba8d317fca9594933634b6013bfa15948e534c2969f",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.medium.0032",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "What value of $x$ is excluded from the domain of $f(x)=\\frac{3x+1}{x - 3}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator cannot be $0$. Solving $x - 3=0$ gives $x=3$.",
+    "complexity_factor": 1.15,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "domain"
+    ],
+    "checksum": "sha256-7523b11465ec7d7c7d1cfeb163d2381ff340d98e9e2adf76574ad74f7743578f",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.medium.0033",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $x\\ne 18$, simplify $\\frac{(x - 18)(x + 17)}{x - 18}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x + 35$"
+      },
+      {
+        "id": "b",
+        "latex": "$x + 17$"
+      },
+      {
+        "id": "c",
+        "latex": "$x - 18$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 18)(x + 17)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "x+17",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "x+17"
+    ],
+    "solution_latex": "Cancel the common factor $x - 18$ to get $x + 17$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "simplifying",
+      "domain restriction"
+    ],
+    "checksum": "sha256-77a85593d26381f27178f8425fd60431060699fedc11f882104b82cc73dba2fc",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.medium.0034",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "What value of $x$ is excluded from the domain of $f(x)=\\frac{3x+1}{x - 4}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator cannot be $0$. Solving $x - 4=0$ gives $x=4$.",
+    "complexity_factor": 1.15,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "domain"
+    ],
+    "checksum": "sha256-df387c72f67ae34254e6ee77e7aa6758913e92f1b102d780cff05a919bc1e624",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.medium.0035",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $x\\ne 19$, simplify $\\frac{(x - 19)(x + 17)}{x - 19}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x - 19$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 19)(x + 17)$"
+      },
+      {
+        "id": "c",
+        "latex": "$x + 36$"
+      },
+      {
+        "id": "d",
+        "latex": "$x + 17$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x+17",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "x+17"
+    ],
+    "solution_latex": "Cancel the common factor $x - 19$ to get $x + 17$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "simplifying",
+      "domain restriction"
+    ],
+    "checksum": "sha256-4a3b193fb35cda3ef90c15210c27a7b876d74a57caa0896548c526df562b5649",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.medium.0036",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "What value of $x$ is excluded from the domain of $f(x)=\\frac{3x+1}{x - 5}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$-5$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator cannot be $0$. Solving $x - 5=0$ gives $x=5$.",
+    "complexity_factor": 1.15,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "domain"
+    ],
+    "checksum": "sha256-f242dc83c4c6cf2074b803df32927be48d7a561ca19d176ddcac5c9bc5ca8628",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.medium.0037",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $x\\ne 20$, simplify $\\frac{(x - 20)(x + 17)}{x - 20}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x + 37$"
+      },
+      {
+        "id": "b",
+        "latex": "$x + 17$"
+      },
+      {
+        "id": "c",
+        "latex": "$x - 20$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 20)(x + 17)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "x+17",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "x+17"
+    ],
+    "solution_latex": "Cancel the common factor $x - 20$ to get $x + 17$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "simplifying",
+      "domain restriction"
+    ],
+    "checksum": "sha256-af0391b7279b03260a0ebe3c24200b0452b6cd610ca9982036e144a3b6f9798a",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.medium.0038",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "What value of $x$ is excluded from the domain of $f(x)=\\frac{3x+1}{x - 6}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$-6$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator cannot be $0$. Solving $x - 6=0$ gives $x=6$.",
+    "complexity_factor": 1.15,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "domain"
+    ],
+    "checksum": "sha256-34b5c315cf07242643ce3111b1144b26a5733b2bad1535937a21551f127a4486",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.medium.0039",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $x\\ne 21$, simplify $\\frac{(x - 21)(x + 17)}{x - 21}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x - 21$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 21)(x + 17)$"
+      },
+      {
+        "id": "c",
+        "latex": "$x + 38$"
+      },
+      {
+        "id": "d",
+        "latex": "$x + 17$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x+17",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "x+17"
+    ],
+    "solution_latex": "Cancel the common factor $x - 21$ to get $x + 17$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "simplifying",
+      "domain restriction"
+    ],
+    "checksum": "sha256-ab989e456f8ce8466f3bd6187a6c4697c25c082c8e79613557fdede24eb86685",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.medium.0040",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "What value of $x$ is excluded from the domain of $f(x)=\\frac{3x+1}{x - 7}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$-7$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator cannot be $0$. Solving $x - 7=0$ gives $x=7$.",
+    "complexity_factor": 1.15,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "domain"
+    ],
+    "checksum": "sha256-8768f93e755cd9d49129eee01ae4d80ca19b04ccb2be5fe91ee53d209ccb44d2",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.medium.0041",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $x\\ne 22$, simplify $\\frac{(x - 22)(x + 17)}{x - 22}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x + 39$"
+      },
+      {
+        "id": "b",
+        "latex": "$x + 17$"
+      },
+      {
+        "id": "c",
+        "latex": "$x - 22$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 22)(x + 17)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "x+17",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "x+17"
+    ],
+    "solution_latex": "Cancel the common factor $x - 22$ to get $x + 17$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "simplifying",
+      "domain restriction"
+    ],
+    "checksum": "sha256-10eed8219cf161c549c1d9d4fffe41c919a780bc8060b0531514ffbaeb22736a",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.medium.0042",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "What value of $x$ is excluded from the domain of $f(x)=\\frac{3x+1}{x - 8}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$-8$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator cannot be $0$. Solving $x - 8=0$ gives $x=8$.",
+    "complexity_factor": 1.15,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "domain"
+    ],
+    "checksum": "sha256-d13f01777bfd839b40691e7d75d550ef6464ae47210fc8ce7fc7d5f80a441ff9",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.medium.0043",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $x\\ne 23$, simplify $\\frac{(x - 23)(x + 21)}{x - 23}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x - 23$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 23)(x + 21)$"
+      },
+      {
+        "id": "c",
+        "latex": "$x + 44$"
+      },
+      {
+        "id": "d",
+        "latex": "$x + 21$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x+21",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "x+21"
+    ],
+    "solution_latex": "Cancel the common factor $x - 23$ to get $x + 21$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "simplifying",
+      "domain restriction"
+    ],
+    "checksum": "sha256-ed1b2ca23d661f2fa216925ece5991121d5d0c66aeb19b1823b35c4ae7914914",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.medium.0044",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "What value of $x$ is excluded from the domain of $f(x)=\\frac{3x+1}{x - 9}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$-9$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator cannot be $0$. Solving $x - 9=0$ gives $x=9$.",
+    "complexity_factor": 1.15,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "domain"
+    ],
+    "checksum": "sha256-d28836a1b77ffda775a1b3acc685061694e7be3e0dd77006fe2b3ca58e44bd35",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.medium.0045",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $x\\ne 24$, simplify $\\frac{(x - 24)(x + 21)}{x - 24}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x + 45$"
+      },
+      {
+        "id": "b",
+        "latex": "$x + 21$"
+      },
+      {
+        "id": "c",
+        "latex": "$x - 24$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 24)(x + 21)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "x+21",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "x+21"
+    ],
+    "solution_latex": "Cancel the common factor $x - 24$ to get $x + 21$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "simplifying",
+      "domain restriction"
+    ],
+    "checksum": "sha256-594e67d32c77c4bf54e5186e816265e19f8326626198188cc992dfbbb1660773",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.medium.0046",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "What value of $x$ is excluded from the domain of $f(x)=\\frac{3x+1}{x - 10}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$-10$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator cannot be $0$. Solving $x - 10=0$ gives $x=10$.",
+    "complexity_factor": 1.15,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "domain"
+    ],
+    "checksum": "sha256-e16b41580880fa8a6a3528a39548491df0886b325ce6a903b419895ed7ad356f",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.medium.0047",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $x\\ne 25$, simplify $\\frac{(x - 25)(x + 21)}{x - 25}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x - 25$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 25)(x + 21)$"
+      },
+      {
+        "id": "c",
+        "latex": "$x + 46$"
+      },
+      {
+        "id": "d",
+        "latex": "$x + 21$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x+21",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "x+21"
+    ],
+    "solution_latex": "Cancel the common factor $x - 25$ to get $x + 21$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "simplifying",
+      "domain restriction"
+    ],
+    "checksum": "sha256-7f2196444cc55f21148f09c3617b7b02103dd5e738eb68f40f497a0bd5b29453",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.medium.0048",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "What value of $x$ is excluded from the domain of $f(x)=\\frac{3x+1}{x - 11}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11$"
+      },
+      {
+        "id": "b",
+        "latex": "$-11$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "11",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator cannot be $0$. Solving $x - 11=0$ gives $x=11$.",
+    "complexity_factor": 1.15,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "domain"
+    ],
+    "checksum": "sha256-1f9643761289b7c37fec618bd4e6d93e8963548489f9326bf7d11690808bb7c8",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.medium.0049",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $x\\ne 26$, simplify $\\frac{(x - 26)(x + 21)}{x - 26}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x + 47$"
+      },
+      {
+        "id": "b",
+        "latex": "$x + 21$"
+      },
+      {
+        "id": "c",
+        "latex": "$x - 26$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 26)(x + 21)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "x+21",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "x+21"
+    ],
+    "solution_latex": "Cancel the common factor $x - 26$ to get $x + 21$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "simplifying",
+      "domain restriction"
+    ],
+    "checksum": "sha256-62cbff2a8f36caea2f46471c127f2c8bf987e32b68e88c041ddd25bb185dec74",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.rational_functions.medium.0050",
+    "topic_id": "ch20.rational_functions",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "What value of $x$ is excluded from the domain of $f(x)=\\frac{3x+1}{x - 12}$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$13$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$-12$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator cannot be $0$. Solving $x - 12=0$ gives $x=12$.",
+    "complexity_factor": 1.15,
+    "source_section": "20.4",
+    "tags": [
+      "rational functions",
+      "domain"
+    ],
+    "checksum": "sha256-9d86d1b450b3a2b5de41ff5c453ac7c50ca2aded0c5a6572d3d240314acbd7a4",
+    "status": "valid"
+  }
+]

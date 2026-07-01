@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "ch12.imaginary.medium.0001",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Simplify $i^{5}+i^{9}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2i$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$1+2i$"
+      },
+      {
+        "id": "d",
+        "latex": "$100+i$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2i",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Reduce each exponent modulo $4$: $i^{5}=i$ and $i^{9}=i$, so the sum is $2i$.",
+    "complexity_factor": 1,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers"
+    ],
+    "status": "valid",
+    "checksum": "sha256-ccbf6d7a6858a3469bdabc68263ab5c4b8dac9c90916d3f7e933b5a9bc72be84"
+  },
+  {
+    "id": "ch12.imaginary.medium.0002",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Simplify $(\\sqrt{-9})(\\sqrt{-16})$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12$"
+      },
+      {
+        "id": "b",
+        "latex": "$-12$"
+      },
+      {
+        "id": "c",
+        "latex": "$12i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-12i$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-12",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "$\\sqrt{-9}=3i$ and $\\sqrt{-16}=4i$, so the product is $12i^2=-12$.",
+    "complexity_factor": 1,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers",
+      "square-roots",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-5e83e57d3dec811c004c76e06e6d39d40c2a7ac9de6fab659a3b37dffdb91c44"
+  },
+  {
+    "id": "ch12.imaginary.medium.0003",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Simplify $i^{7}+i^{13}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2i$"
+      },
+      {
+        "id": "b",
+        "latex": "$2i$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "0",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Reduce each exponent modulo $4$: $i^{7}=-i$ and $i^{13}=i$, so the sum is $0$.",
+    "complexity_factor": 1,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers"
+    ],
+    "status": "valid",
+    "checksum": "sha256-14cbd150674334ba43e00303597c00abda98a00548c8f8d7aba43395ae9f7b26"
+  },
+  {
+    "id": "ch12.imaginary.medium.0004",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Simplify $(\\sqrt{-25})(\\sqrt{-36})$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$30$"
+      },
+      {
+        "id": "b",
+        "latex": "$30i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-30i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-30$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-30",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "$\\sqrt{-25}=5i$ and $\\sqrt{-36}=6i$, so the product is $30i^2=-30$.",
+    "complexity_factor": 1,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers",
+      "square-roots",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-f77362f827503898cf483c58896f08a8b049385b189ffbf9c0a127c3ea261473"
+  },
+  {
+    "id": "ch12.imaginary.medium.0005",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Simplify $i^{9}+i^{17}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2i$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$1+2i$"
+      },
+      {
+        "id": "d",
+        "latex": "$104+i$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2i",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Reduce each exponent modulo $4$: $i^{9}=i$ and $i^{17}=i$, so the sum is $2i$.",
+    "complexity_factor": 1,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers"
+    ],
+    "status": "valid",
+    "checksum": "sha256-d6a79dedd293a533f5969f15a6a75ffd0a308728dd357c6b9ea2fe1f6ce8baf9"
+  },
+  {
+    "id": "ch12.imaginary.medium.0006",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Simplify $(\\sqrt{-49})(\\sqrt{-64})$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$56$"
+      },
+      {
+        "id": "b",
+        "latex": "$-56$"
+      },
+      {
+        "id": "c",
+        "latex": "$56i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-56i$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-56",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "$\\sqrt{-49}=7i$ and $\\sqrt{-64}=8i$, so the product is $56i^2=-56$.",
+    "complexity_factor": 1,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers",
+      "square-roots",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-8dc5f01c1dfc043beb90950f7ddfc3d59c8e759e0ee26d108e961d11600e6d7b"
+  },
+  {
+    "id": "ch12.imaginary.medium.0007",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Simplify $i^{11}+i^{21}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2i$"
+      },
+      {
+        "id": "b",
+        "latex": "$2i$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "0",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Reduce each exponent modulo $4$: $i^{11}=-i$ and $i^{21}=i$, so the sum is $0$.",
+    "complexity_factor": 1,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers"
+    ],
+    "status": "valid",
+    "checksum": "sha256-3ec7844aff5440685fa75a053cd5b924626c7697c83036178a849a37278b3ef5"
+  },
+  {
+    "id": "ch12.imaginary.medium.0008",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Simplify $(\\sqrt{-81})(\\sqrt{-9})$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$27$"
+      },
+      {
+        "id": "b",
+        "latex": "$27i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-27i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-27$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-27",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "$\\sqrt{-81}=9i$ and $\\sqrt{-9}=3i$, so the product is $27i^2=-27$.",
+    "complexity_factor": 1,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers",
+      "square-roots",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-439bc77428cc7ee6aec232ef8f24a72b4a86fb5cab183b39374abb8d68815285"
+  },
+  {
+    "id": "ch12.imaginary.medium.0009",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Simplify $i^{13}+i^{25}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2i$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$1+2i$"
+      },
+      {
+        "id": "d",
+        "latex": "$108+i$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2i",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Reduce each exponent modulo $4$: $i^{13}=i$ and $i^{25}=i$, so the sum is $2i$.",
+    "complexity_factor": 1,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers"
+    ],
+    "status": "valid",
+    "checksum": "sha256-137e174481f8b3e39e300f99c30304c77c76414986bad5d26a6a30d5ff8b1871"
+  },
+  {
+    "id": "ch12.imaginary.medium.0010",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Simplify $(\\sqrt{-4})(\\sqrt{-25})$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$-10$"
+      },
+      {
+        "id": "c",
+        "latex": "$10i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-10i$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-10",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "$\\sqrt{-4}=2i$ and $\\sqrt{-25}=5i$, so the product is $10i^2=-10$.",
+    "complexity_factor": 1,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers",
+      "square-roots",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-11af5f3c328d689f1bfa1f937a98e2b1412e76fedcdd2db017dfe5ed71ddacf9"
+  },
+  {
+    "id": "ch12.imaginary.medium.0011",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Simplify $i^{15}+i^{29}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2i$"
+      },
+      {
+        "id": "b",
+        "latex": "$2i$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "0",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Reduce each exponent modulo $4$: $i^{15}=-i$ and $i^{29}=i$, so the sum is $0$.",
+    "complexity_factor": 1,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers"
+    ],
+    "status": "valid",
+    "checksum": "sha256-3930faaee79d9528644da5e02aab927d09872d7d430596ca929cc350ac060ad2"
+  },
+  {
+    "id": "ch12.imaginary.medium.0012",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Simplify $(\\sqrt{-16})(\\sqrt{-49})$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$28$"
+      },
+      {
+        "id": "b",
+        "latex": "$28i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-28i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-28$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-28",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "$\\sqrt{-16}=4i$ and $\\sqrt{-49}=7i$, so the product is $28i^2=-28$.",
+    "complexity_factor": 1,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers",
+      "square-roots",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-fdbc680398ea706d1bd86e315bbecc78cc8d7772f14708c22952b3c30c8533c3"
+  },
+  {
+    "id": "ch12.imaginary.medium.0013",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Simplify $i^{17}+i^{33}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2i$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$1+2i$"
+      },
+      {
+        "id": "d",
+        "latex": "$112+i$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2i",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Reduce each exponent modulo $4$: $i^{17}=i$ and $i^{33}=i$, so the sum is $2i$.",
+    "complexity_factor": 1,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers"
+    ],
+    "status": "valid",
+    "checksum": "sha256-6a67fa05d4a0d7cfe7091ca23ba74d5766031fd9c279a91d3b8fa72efc2dbec4"
+  },
+  {
+    "id": "ch12.imaginary.medium.0014",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Simplify $(\\sqrt{-36})(\\sqrt{-81})$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$54$"
+      },
+      {
+        "id": "b",
+        "latex": "$-54$"
+      },
+      {
+        "id": "c",
+        "latex": "$54i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-54i$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-54",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "$\\sqrt{-36}=6i$ and $\\sqrt{-81}=9i$, so the product is $54i^2=-54$.",
+    "complexity_factor": 1,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers",
+      "square-roots",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-14902be6ebfab0a54c5c00aa44849e8f198483a8a7c5aafffcc70593fa7f0682"
+  },
+  {
+    "id": "ch12.imaginary.medium.0015",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Simplify $i^{19}+i^{37}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2i$"
+      },
+      {
+        "id": "b",
+        "latex": "$2i$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "0",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Reduce each exponent modulo $4$: $i^{19}=-i$ and $i^{37}=i$, so the sum is $0$.",
+    "complexity_factor": 1,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers"
+    ],
+    "status": "valid",
+    "checksum": "sha256-c9c8a03c5adec88e9dca2e7f3228b9986093745ca60348093e77c0b9263e8c7f"
+  },
+  {
+    "id": "ch12.imaginary.medium.0016",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Simplify $(\\sqrt{-64})(\\sqrt{-16})$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$32$"
+      },
+      {
+        "id": "b",
+        "latex": "$32i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-32i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-32$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-32",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "$\\sqrt{-64}=8i$ and $\\sqrt{-16}=4i$, so the product is $32i^2=-32$.",
+    "complexity_factor": 1,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers",
+      "square-roots",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-59aa5e3970061361e31e0c93b4e853fa8a7492bff391575234585aeb9d658efc"
+  },
+  {
+    "id": "ch12.imaginary.medium.0017",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Simplify $i^{21}+i^{41}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2i$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$1+2i$"
+      },
+      {
+        "id": "d",
+        "latex": "$116+i$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2i",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Reduce each exponent modulo $4$: $i^{21}=i$ and $i^{41}=i$, so the sum is $2i$.",
+    "complexity_factor": 1,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers"
+    ],
+    "status": "valid",
+    "checksum": "sha256-d096026118765fa4bfb0a5c0eb5f9fca678227613c9a0667d0bd3370bfb4beae"
+  },
+  {
+    "id": "ch12.imaginary.medium.0018",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Simplify $(\\sqrt{-100})(\\sqrt{-36})$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$60$"
+      },
+      {
+        "id": "b",
+        "latex": "$-60$"
+      },
+      {
+        "id": "c",
+        "latex": "$60i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-60i$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-60",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "$\\sqrt{-100}=10i$ and $\\sqrt{-36}=6i$, so the product is $60i^2=-60$.",
+    "complexity_factor": 1,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers",
+      "square-roots",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-b4b5a313f0bcfa28487abfd9b75913c13b51235ca036b4448750c98a3d3bb40a"
+  },
+  {
+    "id": "ch12.imaginary.medium.0019",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Simplify $i^{23}+i^{45}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2i$"
+      },
+      {
+        "id": "b",
+        "latex": "$2i$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "0",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Reduce each exponent modulo $4$: $i^{23}=-i$ and $i^{45}=i$, so the sum is $0$.",
+    "complexity_factor": 1,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers"
+    ],
+    "status": "valid",
+    "checksum": "sha256-b6009cf31a997407e48be4c3a37322455b46b7645b58d56d82c34f80161b8c59"
+  },
+  {
+    "id": "ch12.imaginary.medium.0020",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Simplify $(\\sqrt{-9})(\\sqrt{-64})$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$24$"
+      },
+      {
+        "id": "b",
+        "latex": "$24i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-24i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-24$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-24",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "$\\sqrt{-9}=3i$ and $\\sqrt{-64}=8i$, so the product is $24i^2=-24$.",
+    "complexity_factor": 1,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers",
+      "square-roots",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-bd7dd037ec577d8398390073717b5a451fc4ec301a5085839058f381b2f4636a"
+  },
+  {
+    "id": "ch12.imaginary.medium.0021",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Simplify $i^{25}+i^{49}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2i$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$1+2i$"
+      },
+      {
+        "id": "d",
+        "latex": "$120+i$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2i",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Reduce each exponent modulo $4$: $i^{25}=i$ and $i^{49}=i$, so the sum is $2i$.",
+    "complexity_factor": 1,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers"
+    ],
+    "status": "valid",
+    "checksum": "sha256-ca9a8801a4f03c694427ee94832af55dd6f3beeab39864a5c48fe42fc11b2fff"
+  },
+  {
+    "id": "ch12.imaginary.medium.0022",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Simplify $(\\sqrt{-25})(\\sqrt{-9})$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$15$"
+      },
+      {
+        "id": "b",
+        "latex": "$-15$"
+      },
+      {
+        "id": "c",
+        "latex": "$15i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-15i$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-15",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "$\\sqrt{-25}=5i$ and $\\sqrt{-9}=3i$, so the product is $15i^2=-15$.",
+    "complexity_factor": 1,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers",
+      "square-roots",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-fce1ad5184c4ef792b3dc5559d0bf048cc152107ff430c78553d6763b6ce01b6"
+  },
+  {
+    "id": "ch12.imaginary.medium.0023",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Simplify $i^{27}+i^{53}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2i$"
+      },
+      {
+        "id": "b",
+        "latex": "$2i$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "0",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Reduce each exponent modulo $4$: $i^{27}=-i$ and $i^{53}=i$, so the sum is $0$.",
+    "complexity_factor": 1,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers"
+    ],
+    "status": "valid",
+    "checksum": "sha256-a9cf746ffe8017972a949f57a43fe18906f474252e9404dbbaee32cb90a48911"
+  },
+  {
+    "id": "ch12.imaginary.medium.0024",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Simplify $(\\sqrt{-49})(\\sqrt{-25})$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$35$"
+      },
+      {
+        "id": "b",
+        "latex": "$35i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-35i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-35$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-35",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "$\\sqrt{-49}=7i$ and $\\sqrt{-25}=5i$, so the product is $35i^2=-35$.",
+    "complexity_factor": 1,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers",
+      "square-roots",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-92d020b77a1c659256c4572278afaef37bf167173aa08a15f7d58bd735260314"
+  },
+  {
+    "id": "ch12.imaginary.medium.0025",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Simplify $i^{29}+i^{57}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2i$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$1+2i$"
+      },
+      {
+        "id": "d",
+        "latex": "$124+i$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2i",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Reduce each exponent modulo $4$: $i^{29}=i$ and $i^{57}=i$, so the sum is $2i$.",
+    "complexity_factor": 1,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers"
+    ],
+    "status": "valid",
+    "checksum": "sha256-363e99965f588bf8fa8d006161b69449ab430ce2f204bf9646fe2500511b1875"
+  },
+  {
+    "id": "ch12.imaginary.medium.0026",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Simplify $(\\sqrt{-81})(\\sqrt{-49})$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$63$"
+      },
+      {
+        "id": "b",
+        "latex": "$-63$"
+      },
+      {
+        "id": "c",
+        "latex": "$63i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-63i$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-63",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "$\\sqrt{-81}=9i$ and $\\sqrt{-49}=7i$, so the product is $63i^2=-63$.",
+    "complexity_factor": 1,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers",
+      "square-roots",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-d6143aaa5be61eecb19cb0277f22d99bcde265037552e4e365275f1be8ce853c"
+  },
+  {
+    "id": "ch12.imaginary.medium.0027",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Simplify $i^{31}+i^{61}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2i$"
+      },
+      {
+        "id": "b",
+        "latex": "$2i$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "0",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Reduce each exponent modulo $4$: $i^{31}=-i$ and $i^{61}=i$, so the sum is $0$.",
+    "complexity_factor": 1,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers"
+    ],
+    "status": "valid",
+    "checksum": "sha256-965a4f0e974df3ff2cc6053f4a328708a9954ef6c25d50f6ec6f42acc5848232"
+  },
+  {
+    "id": "ch12.imaginary.medium.0028",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Simplify $(\\sqrt{-4})(\\sqrt{-81})$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$18$"
+      },
+      {
+        "id": "b",
+        "latex": "$18i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-18i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-18$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-18",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "$\\sqrt{-4}=2i$ and $\\sqrt{-81}=9i$, so the product is $18i^2=-18$.",
+    "complexity_factor": 1,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers",
+      "square-roots",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-64493f1470db3c05f58ec4d14fa28fbdc55935dc0abf4653e5da6613148e655f"
+  },
+  {
+    "id": "ch12.imaginary.medium.0029",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Simplify $i^{33}+i^{65}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2i$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$1+2i$"
+      },
+      {
+        "id": "d",
+        "latex": "$128+i$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2i",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Reduce each exponent modulo $4$: $i^{33}=i$ and $i^{65}=i$, so the sum is $2i$.",
+    "complexity_factor": 1,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers"
+    ],
+    "status": "valid",
+    "checksum": "sha256-15f42a854366afa109b5e6f80da274988e0b44a036004b9c97d96c195afd3294"
+  },
+  {
+    "id": "ch12.imaginary.medium.0030",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Simplify $(\\sqrt{-16})(\\sqrt{-16})$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$-16$"
+      },
+      {
+        "id": "c",
+        "latex": "$16i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-16i$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-16",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "$\\sqrt{-16}=4i$ and $\\sqrt{-16}=4i$, so the product is $16i^2=-16$.",
+    "complexity_factor": 1,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers",
+      "square-roots",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-0dc15c15f67a4f455a670bf368c0b8e919c9a66f9339636edb58e79ae135904c"
+  },
+  {
+    "id": "ch12.imaginary.medium.0031",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Simplify $i^{35}+i^{69}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2i$"
+      },
+      {
+        "id": "b",
+        "latex": "$2i$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "0",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Reduce each exponent modulo $4$: $i^{35}=-i$ and $i^{69}=i$, so the sum is $0$.",
+    "complexity_factor": 1,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers"
+    ],
+    "status": "valid",
+    "checksum": "sha256-cc434a3d34242da9e388d21baa5920ab0a02a9b6a0a9edfbe54facffdc57ec07"
+  },
+  {
+    "id": "ch12.imaginary.medium.0032",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Simplify $(\\sqrt{-36})(\\sqrt{-36})$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$36$"
+      },
+      {
+        "id": "b",
+        "latex": "$36i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-36i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-36$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-36",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "$\\sqrt{-36}=6i$ and $\\sqrt{-36}=6i$, so the product is $36i^2=-36$.",
+    "complexity_factor": 1,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers",
+      "square-roots",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-b8e8e7c7ca80386d967ff2ef1b12c5f4901fe06ddf7eb0b1bc55887470e2be3f"
+  },
+  {
+    "id": "ch12.imaginary.medium.0033",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Simplify $i^{37}+i^{73}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2i$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$1+2i$"
+      },
+      {
+        "id": "d",
+        "latex": "$132+i$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2i",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Reduce each exponent modulo $4$: $i^{37}=i$ and $i^{73}=i$, so the sum is $2i$.",
+    "complexity_factor": 1,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers"
+    ],
+    "status": "valid",
+    "checksum": "sha256-8ba23483126c5d1f8b8cbd644e944d65af6d0220b00941aad10937f9ea116a18"
+  },
+  {
+    "id": "ch12.imaginary.medium.0034",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Simplify $(\\sqrt{-64})(\\sqrt{-64})$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$64$"
+      },
+      {
+        "id": "b",
+        "latex": "$-64$"
+      },
+      {
+        "id": "c",
+        "latex": "$64i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-64i$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-64",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "$\\sqrt{-64}=8i$ and $\\sqrt{-64}=8i$, so the product is $64i^2=-64$.",
+    "complexity_factor": 1,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers",
+      "square-roots",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-88958ba8853f1e60de7bfffe4afd4e6456688f517bcb52db0f8a07b8961d6dc1"
+  },
+  {
+    "id": "ch12.imaginary.medium.0035",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Simplify $i^{39}+i^{77}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2i$"
+      },
+      {
+        "id": "b",
+        "latex": "$2i$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "0",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Reduce each exponent modulo $4$: $i^{39}=-i$ and $i^{77}=i$, so the sum is $0$.",
+    "complexity_factor": 1,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers"
+    ],
+    "status": "valid",
+    "checksum": "sha256-30626370b36129dd3bd15984e8a3e5e70566acb20ae4b65b10cdf308649b76e9"
+  },
+  {
+    "id": "ch12.imaginary.medium.0036",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Simplify $(\\sqrt{-100})(\\sqrt{-9})$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$30$"
+      },
+      {
+        "id": "b",
+        "latex": "$30i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-30i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-30$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-30",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "$\\sqrt{-100}=10i$ and $\\sqrt{-9}=3i$, so the product is $30i^2=-30$.",
+    "complexity_factor": 1,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers",
+      "square-roots",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-ed35669e75e381ef9f055fee115dba6450c502c7429c18da6cdc942156f43ba1"
+  },
+  {
+    "id": "ch12.imaginary.medium.0037",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Simplify $i^{41}+i^{81}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2i$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$1+2i$"
+      },
+      {
+        "id": "d",
+        "latex": "$136+i$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2i",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Reduce each exponent modulo $4$: $i^{41}=i$ and $i^{81}=i$, so the sum is $2i$.",
+    "complexity_factor": 1,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers"
+    ],
+    "status": "valid",
+    "checksum": "sha256-e09011a4b53ef6696fd795c06d8367ea0d0339efdc2a2861e512bc6436936729"
+  },
+  {
+    "id": "ch12.imaginary.medium.0038",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Simplify $(\\sqrt{-9})(\\sqrt{-25})$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$15$"
+      },
+      {
+        "id": "b",
+        "latex": "$-15$"
+      },
+      {
+        "id": "c",
+        "latex": "$15i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-15i$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-15",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "$\\sqrt{-9}=3i$ and $\\sqrt{-25}=5i$, so the product is $15i^2=-15$.",
+    "complexity_factor": 1,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers",
+      "square-roots",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-11041abe808e25bb7d66f43dd0f479220f6401cdadc056c931036e9024009c6c"
+  },
+  {
+    "id": "ch12.imaginary.medium.0039",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Simplify $i^{43}+i^{85}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2i$"
+      },
+      {
+        "id": "b",
+        "latex": "$2i$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "0",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Reduce each exponent modulo $4$: $i^{43}=-i$ and $i^{85}=i$, so the sum is $0$.",
+    "complexity_factor": 1,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers"
+    ],
+    "status": "valid",
+    "checksum": "sha256-bc9a9a89a8b8eb2f0b5e3d10ad4ef16c1ec69c0cc72f5a8edd878cb90c6c134d"
+  },
+  {
+    "id": "ch12.imaginary.medium.0040",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Simplify $(\\sqrt{-25})(\\sqrt{-49})$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$35$"
+      },
+      {
+        "id": "b",
+        "latex": "$35i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-35i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-35$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-35",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "$\\sqrt{-25}=5i$ and $\\sqrt{-49}=7i$, so the product is $35i^2=-35$.",
+    "complexity_factor": 1,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers",
+      "square-roots",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-098d6b0d324425e774df099536c16240783bcf3eb1711e1d3ae65faaa3a10abb"
+  },
+  {
+    "id": "ch12.imaginary.medium.0041",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Simplify $i^{45}+i^{89}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2i$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$1+2i$"
+      },
+      {
+        "id": "d",
+        "latex": "$140+i$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2i",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Reduce each exponent modulo $4$: $i^{45}=i$ and $i^{89}=i$, so the sum is $2i$.",
+    "complexity_factor": 1,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers"
+    ],
+    "status": "valid",
+    "checksum": "sha256-19f01ba4ec589ae509e12547afebd4c7639cb67fefc0176989b2771c8e7e2a48"
+  },
+  {
+    "id": "ch12.imaginary.medium.0042",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Simplify $(\\sqrt{-49})(\\sqrt{-81})$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$63$"
+      },
+      {
+        "id": "b",
+        "latex": "$-63$"
+      },
+      {
+        "id": "c",
+        "latex": "$63i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-63i$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-63",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "$\\sqrt{-49}=7i$ and $\\sqrt{-81}=9i$, so the product is $63i^2=-63$.",
+    "complexity_factor": 1,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers",
+      "square-roots",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-2a1afb416b4cef58dff2963b6fe8b1cf10356b4a92ad2a5e6bf7dc50956e4d55"
+  },
+  {
+    "id": "ch12.imaginary.medium.0043",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Simplify $i^{47}+i^{93}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2i$"
+      },
+      {
+        "id": "b",
+        "latex": "$2i$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "0",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Reduce each exponent modulo $4$: $i^{47}=-i$ and $i^{93}=i$, so the sum is $0$.",
+    "complexity_factor": 1,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers"
+    ],
+    "status": "valid",
+    "checksum": "sha256-6e07e77774af4fbd4742ae7f4836041891c798198b79bc61fb739c18d1e7c859"
+  },
+  {
+    "id": "ch12.imaginary.medium.0044",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Simplify $(\\sqrt{-81})(\\sqrt{-16})$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$36$"
+      },
+      {
+        "id": "b",
+        "latex": "$36i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-36i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-36$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-36",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "$\\sqrt{-81}=9i$ and $\\sqrt{-16}=4i$, so the product is $36i^2=-36$.",
+    "complexity_factor": 1,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers",
+      "square-roots",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-a8e19bf9a34d95af5cf3860fff305243e5a2e8f586638b9028ff7366c361dee4"
+  },
+  {
+    "id": "ch12.imaginary.medium.0045",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Simplify $i^{49}+i^{97}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2i$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$1+2i$"
+      },
+      {
+        "id": "d",
+        "latex": "$144+i$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2i",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Reduce each exponent modulo $4$: $i^{49}=i$ and $i^{97}=i$, so the sum is $2i$.",
+    "complexity_factor": 1,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers"
+    ],
+    "status": "valid",
+    "checksum": "sha256-301e7e8971da42eda27a07f5bbc43e5ab774833351c5bb28b6e7284ad594f1bb"
+  },
+  {
+    "id": "ch12.imaginary.medium.0046",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Simplify $(\\sqrt{-4})(\\sqrt{-36})$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12$"
+      },
+      {
+        "id": "b",
+        "latex": "$-12$"
+      },
+      {
+        "id": "c",
+        "latex": "$12i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-12i$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-12",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "$\\sqrt{-4}=2i$ and $\\sqrt{-36}=6i$, so the product is $12i^2=-12$.",
+    "complexity_factor": 1,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers",
+      "square-roots",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-b9ca861f628f70f43d463d1eeed0fd98d6ad9f3f3a067a4c61719c676497a71b"
+  },
+  {
+    "id": "ch12.imaginary.medium.0047",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Simplify $i^{51}+i^{101}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2i$"
+      },
+      {
+        "id": "b",
+        "latex": "$2i$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "0",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Reduce each exponent modulo $4$: $i^{51}=-i$ and $i^{101}=i$, so the sum is $0$.",
+    "complexity_factor": 1,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers"
+    ],
+    "status": "valid",
+    "checksum": "sha256-61037d27f34b6a8036cce4fe3f43c3adc4840347deb91ab06cd4cea43e72fbb3"
+  },
+  {
+    "id": "ch12.imaginary.medium.0048",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Simplify $(\\sqrt{-16})(\\sqrt{-64})$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$32$"
+      },
+      {
+        "id": "b",
+        "latex": "$32i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-32i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-32$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-32",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "$\\sqrt{-16}=4i$ and $\\sqrt{-64}=8i$, so the product is $32i^2=-32$.",
+    "complexity_factor": 1,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers",
+      "square-roots",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-18af35b6e88a37dfae1b754524611018d4e2b5002e72c46ad00686d7498a0305"
+  },
+  {
+    "id": "ch12.imaginary.medium.0049",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Simplify $i^{53}+i^{105}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2i$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$1+2i$"
+      },
+      {
+        "id": "d",
+        "latex": "$148+i$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2i",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Reduce each exponent modulo $4$: $i^{53}=i$ and $i^{105}=i$, so the sum is $2i$.",
+    "complexity_factor": 1,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers"
+    ],
+    "status": "valid",
+    "checksum": "sha256-6c8f4f749b90cf72632c538727ee690759f6eac8e2f22968e0ad3b5a95dfbb51"
+  },
+  {
+    "id": "ch12.imaginary.medium.0050",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "medium",
+    "prompt_latex": "Simplify $(\\sqrt{-36})(\\sqrt{-9})$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$18$"
+      },
+      {
+        "id": "b",
+        "latex": "$-18$"
+      },
+      {
+        "id": "c",
+        "latex": "$18i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-18i$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-18",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "$\\sqrt{-36}=6i$ and $\\sqrt{-9}=3i$, so the product is $18i^2=-18$.",
+    "complexity_factor": 1,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers",
+      "square-roots",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-ee3e18221b1f326185ba699b56b603abdaba55e3450f73a781008ef36369bb2a"
+  }
+]

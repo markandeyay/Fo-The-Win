@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "ch14.circles.hard.0001",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "For the circle $x^2+y^2+2x+0y-168=0$, the larger horizontal tangent line is $y=t$. What is $t$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-13$"
+      },
+      {
+        "id": "b",
+        "latex": "$13$"
+      },
+      {
+        "id": "c",
+        "latex": "$14$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "13",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives center $(-1,0)$ and radius $13$. The top tangent has $t=0+13=13$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "tangent",
+      "completing-square"
+    ],
+    "status": "valid",
+    "checksum": "sha256-6d7ee65cbd0c10ea98081519f366162f703d45bf28fd10d0fc1b9b0c7c222c44"
+  },
+  {
+    "id": "ch14.circles.hard.0002",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "The line $y=15$ cuts the circle $(x-4)^2+(y-7)^2=100$ in two points. What is the distance between those two points?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $y=15$ to get $(x-4)^2+64=100$, so $(x-4)^2=36$. The distance is $2\\cdot 6=12$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "chord",
+      "line-intersection"
+    ],
+    "status": "valid",
+    "checksum": "sha256-48503e5ee6f91276d054ff71ff2c3275f8c747735f6a4b6f262a23fd45252791"
+  },
+  {
+    "id": "ch14.circles.hard.0003",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "A circle has diameter endpoints $(-12,-16)$ and $(4,14)$. What is the radius of the circle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$23$"
+      },
+      {
+        "id": "b",
+        "latex": "$289$"
+      },
+      {
+        "id": "c",
+        "latex": "$34$"
+      },
+      {
+        "id": "d",
+        "latex": "$17$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "17",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The diameter length is $\\sqrt{(16)^2+(30)^2}=2\\cdot 17$, so the radius is $17$.",
+    "complexity_factor": 1.25,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "diameter",
+      "distance"
+    ],
+    "status": "valid",
+    "checksum": "sha256-ecaa2c9bb5f070e47ef3bcb53035c8c9bc5877d5bbaa092d11780a3651fec2dc"
+  },
+  {
+    "id": "ch14.circles.hard.0004",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "The circle $(x-1)^2+(y-6)^2=625$ intersects the line $x=8$ at points with $y$-coordinates $m$ and $n$. What is $m+n$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12$"
+      },
+      {
+        "id": "b",
+        "latex": "$30$"
+      },
+      {
+        "id": "c",
+        "latex": "$-18$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitution gives $49+(y-6)^2=625$, so the two $y$-coordinates are $-18$ and $30$. Their sum is $12$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "line-intersection",
+      "symmetry"
+    ],
+    "status": "valid",
+    "checksum": "sha256-1659b38cde0ce4bb02a8ef70c2d631b21e677e3b25a7f0664ca4d6d28b6fab85"
+  },
+  {
+    "id": "ch14.circles.hard.0005",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "For the circle $x^2+y^2-12x+4y+15=0$, the larger horizontal tangent line is $y=t$. What is $t$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-7$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$11$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives center $(6,-2)$ and radius $5$. The top tangent has $t=-2+5=3$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "tangent",
+      "completing-square"
+    ],
+    "status": "valid",
+    "checksum": "sha256-3ae7ff0d03c002703ffe7a566df75be6fc0adc0aa7f04e81d5209cc475c74852"
+  },
+  {
+    "id": "ch14.circles.hard.0006",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "The line $y=17$ cuts the circle $(x+2)^2+(y-5)^2=169$ in two points. What is the distance between those two points?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$24$"
+      },
+      {
+        "id": "b",
+        "latex": "$13$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $y=17$ to get $(x+2)^2+144=169$, so $(x+2)^2=25$. The distance is $2\\cdot 5=10$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "chord",
+      "line-intersection"
+    ],
+    "status": "valid",
+    "checksum": "sha256-7734801a7d6f1a82d9f1d0fd9857bd68d9271d3afa50a53aedffae7f6154925a"
+  },
+  {
+    "id": "ch14.circles.hard.0007",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "A circle has diameter endpoints $(-3,-11)$ and $(9,5)$. What is the radius of the circle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$14$"
+      },
+      {
+        "id": "b",
+        "latex": "$100$"
+      },
+      {
+        "id": "c",
+        "latex": "$20$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The diameter length is $\\sqrt{(12)^2+(16)^2}=2\\cdot 10$, so the radius is $10$.",
+    "complexity_factor": 1.25,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "diameter",
+      "distance"
+    ],
+    "status": "valid",
+    "checksum": "sha256-8eb70f4647e3dcbcc154682c4bb8f1b4cf8cfeff7771cb96eafe08f7589f499e"
+  },
+  {
+    "id": "ch14.circles.hard.0008",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "The circle $(x+5)^2+(y-4)^2=289$ intersects the line $x=3$ at points with $y$-coordinates $m$ and $n$. What is $m+n$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$19$"
+      },
+      {
+        "id": "c",
+        "latex": "$-11$"
+      },
+      {
+        "id": "d",
+        "latex": "$-10$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitution gives $64+(y-4)^2=289$, so the two $y$-coordinates are $-11$ and $19$. Their sum is $8$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "line-intersection",
+      "symmetry"
+    ],
+    "status": "valid",
+    "checksum": "sha256-a64bdc942574b733f1b28090afe2953d2b56e8d854093a187c3db23b4296b7a3"
+  },
+  {
+    "id": "ch14.circles.hard.0009",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "For the circle $x^2+y^2+0x+8y-609=0$, the larger horizontal tangent line is $y=t$. What is $t$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-29$"
+      },
+      {
+        "id": "b",
+        "latex": "$21$"
+      },
+      {
+        "id": "c",
+        "latex": "$22$"
+      },
+      {
+        "id": "d",
+        "latex": "$25$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "21",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives center $(0,-4)$ and radius $25$. The top tangent has $t=-4+25=21$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "tangent",
+      "completing-square"
+    ],
+    "status": "valid",
+    "checksum": "sha256-90aa4d3e6a58c50c4ca7f1b5866d075893d5e2f3d78d65027ff36bc9fb4b73a9"
+  },
+  {
+    "id": "ch14.circles.hard.0010",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "The line $y=7$ cuts the circle $(x-5)^2+(y-3)^2=25$ in two points. What is the distance between those two points?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $y=7$ to get $(x-5)^2+16=25$, so $(x-5)^2=9$. The distance is $2\\cdot 3=6$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "chord",
+      "line-intersection"
+    ],
+    "status": "valid",
+    "checksum": "sha256-7d0893ee4dca94378a0dc1dc0cc1e0d0176ca85a39a770f846ef39ddfb7f37a9"
+  },
+  {
+    "id": "ch14.circles.hard.0011",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "A circle has diameter endpoints $(-8,-17)$ and $(2,7)$. What is the radius of the circle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$17$"
+      },
+      {
+        "id": "b",
+        "latex": "$169$"
+      },
+      {
+        "id": "c",
+        "latex": "$26$"
+      },
+      {
+        "id": "d",
+        "latex": "$13$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "13",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The diameter length is $\\sqrt{(10)^2+(24)^2}=2\\cdot 13$, so the radius is $13$.",
+    "complexity_factor": 1.25,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "diameter",
+      "distance"
+    ],
+    "status": "valid",
+    "checksum": "sha256-40379b188c8b9cf49783cd8a7a76a282fc2183fe02c73e9605cc06d90508b1d2"
+  },
+  {
+    "id": "ch14.circles.hard.0012",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "The circle $(x-2)^2+(y-2)^2=100$ intersects the line $x=8$ at points with $y$-coordinates $m$ and $n$. What is $m+n$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$-6$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitution gives $36+(y-2)^2=100$, so the two $y$-coordinates are $-6$ and $10$. Their sum is $4$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "line-intersection",
+      "symmetry"
+    ],
+    "status": "valid",
+    "checksum": "sha256-c4f72b488a65d85f7f3c47b9ff9634371591e5cd4199fdc28ceb27ec33968186"
+  },
+  {
+    "id": "ch14.circles.hard.0013",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "For the circle $x^2+y^2+12x+12y-217=0$, the larger horizontal tangent line is $y=t$. What is $t$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-23$"
+      },
+      {
+        "id": "b",
+        "latex": "$11$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$17$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "11",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives center $(-6,-6)$ and radius $17$. The top tangent has $t=-6+17=11$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "tangent",
+      "completing-square"
+    ],
+    "status": "valid",
+    "checksum": "sha256-268770bfa21b658122d89b3a764c5796cfc443130298dc592e07c461cad4bd78"
+  },
+  {
+    "id": "ch14.circles.hard.0014",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "The line $y=25$ cuts the circle $(x+1)^2+(y-1)^2=625$ in two points. What is the distance between those two points?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$48$"
+      },
+      {
+        "id": "b",
+        "latex": "$25$"
+      },
+      {
+        "id": "c",
+        "latex": "$14$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "14",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $y=25$ to get $(x+1)^2+576=625$, so $(x+1)^2=49$. The distance is $2\\cdot 7=14$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "chord",
+      "line-intersection"
+    ],
+    "status": "valid",
+    "checksum": "sha256-b59864c7716e3f5f864e68f9de896d3fc9cc73721ea0eeaa4bee5191ee91a02b"
+  },
+  {
+    "id": "ch14.circles.hard.0015",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "A circle has diameter endpoints $(1,-11)$ and $(7,-3)$. What is the radius of the circle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$25$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The diameter length is $\\sqrt{(6)^2+(8)^2}=2\\cdot 5$, so the radius is $5$.",
+    "complexity_factor": 1.25,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "diameter",
+      "distance"
+    ],
+    "status": "valid",
+    "checksum": "sha256-d2866bb4092617007f01e8f96aad7f2f60a53ef89e42c36abfc25e07b5622fb9"
+  },
+  {
+    "id": "ch14.circles.hard.0016",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "The circle $(x+4)^2+(y)^2=169$ intersects the line $x=1$ at points with $y$-coordinates $m$ and $n$. What is $m+n$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$12$"
+      },
+      {
+        "id": "c",
+        "latex": "$-12$"
+      },
+      {
+        "id": "d",
+        "latex": "$-8$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitution gives $25+(y)^2=169$, so the two $y$-coordinates are $-12$ and $12$. Their sum is $0$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "line-intersection",
+      "symmetry"
+    ],
+    "status": "valid",
+    "checksum": "sha256-6f4f91554a2fea4d0c4f8af2c48d45d790628896ed512709e3f32717e0134bc8"
+  },
+  {
+    "id": "ch14.circles.hard.0017",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "For the circle $x^2+y^2-2x-14y-50=0$, the larger horizontal tangent line is $y=t$. What is $t$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$17$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$11$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "17",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives center $(1,7)$ and radius $10$. The top tangent has $t=7+10=17$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "tangent",
+      "completing-square"
+    ],
+    "status": "valid",
+    "checksum": "sha256-14d326d9baaebd85c8700fd35ebc1b45f92793a644b2e84a255081f0ee385af2"
+  },
+  {
+    "id": "ch14.circles.hard.0018",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "The line $y=14$ cuts the circle $(x-6)^2+(y+1)^2=289$ in two points. What is the distance between those two points?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$30$"
+      },
+      {
+        "id": "b",
+        "latex": "$17$"
+      },
+      {
+        "id": "c",
+        "latex": "$16$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "16",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $y=14$ to get $(x-6)^2+225=289$, so $(x-6)^2=64$. The distance is $2\\cdot 8=16$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "chord",
+      "line-intersection"
+    ],
+    "status": "valid",
+    "checksum": "sha256-2f8df45c021f0442b3adde39823e34594c89997127a10b796dc8cc5ae2086380"
+  },
+  {
+    "id": "ch14.circles.hard.0019",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "A circle has diameter endpoints $(-9,-18)$ and $(5,30)$. What is the radius of the circle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$31$"
+      },
+      {
+        "id": "b",
+        "latex": "$625$"
+      },
+      {
+        "id": "c",
+        "latex": "$50$"
+      },
+      {
+        "id": "d",
+        "latex": "$25$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "25",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The diameter length is $\\sqrt{(14)^2+(48)^2}=2\\cdot 25$, so the radius is $25$.",
+    "complexity_factor": 1.25,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "diameter",
+      "distance"
+    ],
+    "status": "valid",
+    "checksum": "sha256-09d0aa4f5cc764473553d45ebf07106de51d91ef487466a15eb028bda0dc316d"
+  },
+  {
+    "id": "ch14.circles.hard.0020",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "The circle $(x-3)^2+(y+2)^2=25$ intersects the line $x=6$ at points with $y$-coordinates $m$ and $n$. What is $m+n$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$-6$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitution gives $9+(y+2)^2=25$, so the two $y$-coordinates are $-6$ and $2$. Their sum is $-4$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "line-intersection",
+      "symmetry"
+    ],
+    "status": "valid",
+    "checksum": "sha256-c41b4bb5d0f2d91428b9c0ba6eae3759a4e00f56890a8c5393630d13601d0d16"
+  },
+  {
+    "id": "ch14.circles.hard.0021",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "For the circle $x^2+y^2+10x-10y-119=0$, the larger horizontal tangent line is $y=t$. What is $t$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-8$"
+      },
+      {
+        "id": "b",
+        "latex": "$18$"
+      },
+      {
+        "id": "c",
+        "latex": "$13$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "18",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives center $(-5,5)$ and radius $13$. The top tangent has $t=5+13=18$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "tangent",
+      "completing-square"
+    ],
+    "status": "valid",
+    "checksum": "sha256-a78edc6970b0f4d0c4ab471b4495867f7ffc67758cf27078687446144714283c"
+  },
+  {
+    "id": "ch14.circles.hard.0022",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "The line $y=5$ cuts the circle $(x)^2+(y+3)^2=100$ in two points. What is the distance between those two points?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $y=5$ to get $(x)^2+64=100$, so $(x)^2=36$. The distance is $2\\cdot 6=12$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "chord",
+      "line-intersection"
+    ],
+    "status": "valid",
+    "checksum": "sha256-b94bd6f4c7a12e1c8afa48f0ff584879c18ed6f02171aa386dd68672b81d4879"
+  },
+  {
+    "id": "ch14.circles.hard.0023",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "A circle has diameter endpoints $(-3,-11)$ and $(13,19)$. What is the radius of the circle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$23$"
+      },
+      {
+        "id": "b",
+        "latex": "$289$"
+      },
+      {
+        "id": "c",
+        "latex": "$34$"
+      },
+      {
+        "id": "d",
+        "latex": "$17$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "17",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The diameter length is $\\sqrt{(16)^2+(30)^2}=2\\cdot 17$, so the radius is $17$.",
+    "complexity_factor": 1.25,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "diameter",
+      "distance"
+    ],
+    "status": "valid",
+    "checksum": "sha256-c64257d902ffad7e0ad968f7d2dd0bab1c003ce2dbb3295bc915bcc99684cef2"
+  },
+  {
+    "id": "ch14.circles.hard.0024",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "The circle $(x+3)^2+(y+4)^2=625$ intersects the line $x=4$ at points with $y$-coordinates $m$ and $n$. What is $m+n$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-8$"
+      },
+      {
+        "id": "b",
+        "latex": "$20$"
+      },
+      {
+        "id": "c",
+        "latex": "$-28$"
+      },
+      {
+        "id": "d",
+        "latex": "$-6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitution gives $49+(y+4)^2=625$, so the two $y$-coordinates are $-28$ and $20$. Their sum is $-8$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "line-intersection",
+      "symmetry"
+    ],
+    "status": "valid",
+    "checksum": "sha256-12fc0f92b2359fbf0b52d287bdabd294ee5dd11750c437b87177a05d5dec0b14"
+  },
+  {
+    "id": "ch14.circles.hard.0025",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "For the circle $x^2+y^2-4x-6y-12=0$, the larger horizontal tangent line is $y=t$. What is $t$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives center $(2,3)$ and radius $5$. The top tangent has $t=3+5=8$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "tangent",
+      "completing-square"
+    ],
+    "status": "valid",
+    "checksum": "sha256-7e85366200aa3ccb071f2b1f174c29649b66186346fc1f6b3c1288776accb1be"
+  },
+  {
+    "id": "ch14.circles.hard.0026",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "The line $y=7$ cuts the circle $(x+6)^2+(y+5)^2=169$ in two points. What is the distance between those two points?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$24$"
+      },
+      {
+        "id": "b",
+        "latex": "$13$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $y=7$ to get $(x+6)^2+144=169$, so $(x+6)^2=25$. The distance is $2\\cdot 5=10$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "chord",
+      "line-intersection"
+    ],
+    "status": "valid",
+    "checksum": "sha256-32080ac2880b4bfc40cee6491d05d16091bf259c2665e190facd68b569d68497"
+  },
+  {
+    "id": "ch14.circles.hard.0027",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "A circle has diameter endpoints $(-7,-6)$ and $(5,10)$. What is the radius of the circle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$14$"
+      },
+      {
+        "id": "b",
+        "latex": "$100$"
+      },
+      {
+        "id": "c",
+        "latex": "$20$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The diameter length is $\\sqrt{(12)^2+(16)^2}=2\\cdot 10$, so the radius is $10$.",
+    "complexity_factor": 1.25,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "diameter",
+      "distance"
+    ],
+    "status": "valid",
+    "checksum": "sha256-a2f2ee7c602e14864a35e285a87d3307a47e4ad71249c5c86fd6fb75b1d093c6"
+  },
+  {
+    "id": "ch14.circles.hard.0028",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "The circle $(x-4)^2+(y+6)^2=289$ intersects the line $x=12$ at points with $y$-coordinates $m$ and $n$. What is $m+n$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-12$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$-21$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitution gives $64+(y+6)^2=289$, so the two $y$-coordinates are $-21$ and $9$. Their sum is $-12$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "line-intersection",
+      "symmetry"
+    ],
+    "status": "valid",
+    "checksum": "sha256-380b6b61a0373f3e3d6686bee52f3490629569b1ca9c303a8cccadc52ead0479"
+  },
+  {
+    "id": "ch14.circles.hard.0029",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "For the circle $x^2+y^2+8x-2y-608=0$, the larger horizontal tangent line is $y=t$. What is $t$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-24$"
+      },
+      {
+        "id": "b",
+        "latex": "$26$"
+      },
+      {
+        "id": "c",
+        "latex": "$25$"
+      },
+      {
+        "id": "d",
+        "latex": "$21$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "26",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives center $(-4,1)$ and radius $25$. The top tangent has $t=1+25=26$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "tangent",
+      "completing-square"
+    ],
+    "status": "valid",
+    "checksum": "sha256-8d46298a8c5f756c83554d56e10aa708af37aa88fe5e16a6fa8d9a3da856a89a"
+  },
+  {
+    "id": "ch14.circles.hard.0030",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "The line $y=-3$ cuts the circle $(x-1)^2+(y+7)^2=25$ in two points. What is the distance between those two points?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $y=-3$ to get $(x-1)^2+16=25$, so $(x-1)^2=9$. The distance is $2\\cdot 3=6$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "chord",
+      "line-intersection"
+    ],
+    "status": "valid",
+    "checksum": "sha256-a05b14f3a271e815f042ee6409422dd630ba39f9ed772f7c12ac36b9be037be3"
+  },
+  {
+    "id": "ch14.circles.hard.0031",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "A circle has diameter endpoints $(1,-12)$ and $(11,12)$. What is the radius of the circle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$17$"
+      },
+      {
+        "id": "b",
+        "latex": "$169$"
+      },
+      {
+        "id": "c",
+        "latex": "$26$"
+      },
+      {
+        "id": "d",
+        "latex": "$13$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "13",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The diameter length is $\\sqrt{(10)^2+(24)^2}=2\\cdot 13$, so the radius is $13$.",
+    "complexity_factor": 1.25,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "diameter",
+      "distance"
+    ],
+    "status": "valid",
+    "checksum": "sha256-54e0a0a21c6df2cdfa39bfe747c41228e2949542bd7a5160479e031e4d4fc3df"
+  },
+  {
+    "id": "ch14.circles.hard.0032",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "The circle $(x+2)^2+(y-7)^2=100$ intersects the line $x=4$ at points with $y$-coordinates $m$ and $n$. What is $m+n$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$14$"
+      },
+      {
+        "id": "b",
+        "latex": "$15$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "14",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitution gives $36+(y-7)^2=100$, so the two $y$-coordinates are $-1$ and $15$. Their sum is $14$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "line-intersection",
+      "symmetry"
+    ],
+    "status": "valid",
+    "checksum": "sha256-f7ad258a0590ad31cda572e3ef96e6722af56919490890acd1f4ec7f895000b7"
+  },
+  {
+    "id": "ch14.circles.hard.0033",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "For the circle $x^2+y^2-6x+2y-279=0$, the larger horizontal tangent line is $y=t$. What is $t$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-18$"
+      },
+      {
+        "id": "b",
+        "latex": "$16$"
+      },
+      {
+        "id": "c",
+        "latex": "$17$"
+      },
+      {
+        "id": "d",
+        "latex": "$20$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "16",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives center $(3,-1)$ and radius $17$. The top tangent has $t=-1+17=16$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "tangent",
+      "completing-square"
+    ],
+    "status": "valid",
+    "checksum": "sha256-f4932bdbd1040a736594d19394c593baef26c157c422923e989c0aa2d1572f65"
+  },
+  {
+    "id": "ch14.circles.hard.0034",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "The line $y=30$ cuts the circle $(x+5)^2+(y-6)^2=625$ in two points. What is the distance between those two points?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$48$"
+      },
+      {
+        "id": "b",
+        "latex": "$25$"
+      },
+      {
+        "id": "c",
+        "latex": "$14$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "14",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $y=30$ to get $(x+5)^2+576=625$, so $(x+5)^2=49$. The distance is $2\\cdot 7=14$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "chord",
+      "line-intersection"
+    ],
+    "status": "valid",
+    "checksum": "sha256-5d71a99116bd09f586cb83eb15e4a770b8dd10e89fa28594d5e01e4753c6ebac"
+  },
+  {
+    "id": "ch14.circles.hard.0035",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "A circle has diameter endpoints $(-3,-6)$ and $(3,2)$. What is the radius of the circle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$25$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The diameter length is $\\sqrt{(6)^2+(8)^2}=2\\cdot 5$, so the radius is $5$.",
+    "complexity_factor": 1.25,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "diameter",
+      "distance"
+    ],
+    "status": "valid",
+    "checksum": "sha256-c8aa1d680db9a4678d4e017dcafe467f94306c498e0f3f8827f0d79adc6fce05"
+  },
+  {
+    "id": "ch14.circles.hard.0036",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "The circle $(x-5)^2+(y-5)^2=169$ intersects the line $x=10$ at points with $y$-coordinates $m$ and $n$. What is $m+n$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$17$"
+      },
+      {
+        "id": "c",
+        "latex": "$-7$"
+      },
+      {
+        "id": "d",
+        "latex": "$11$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitution gives $25+(y-5)^2=169$, so the two $y$-coordinates are $-7$ and $17$. Their sum is $10$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "line-intersection",
+      "symmetry"
+    ],
+    "status": "valid",
+    "checksum": "sha256-7e5897fc869de5e80659c3fe9916fbde2ff56af3bc12f6990f6022eb307f36ee"
+  },
+  {
+    "id": "ch14.circles.hard.0037",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "For the circle $x^2+y^2+6x+6y-82=0$, the larger horizontal tangent line is $y=t$. What is $t$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-13$"
+      },
+      {
+        "id": "b",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives center $(-3,-3)$ and radius $10$. The top tangent has $t=-3+10=7$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "tangent",
+      "completing-square"
+    ],
+    "status": "valid",
+    "checksum": "sha256-e1d06cda2d7fc5f65de69d021300d143490806714b0c98859c34408d720c36f6"
+  },
+  {
+    "id": "ch14.circles.hard.0038",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "The line $y=19$ cuts the circle $(x-2)^2+(y-4)^2=289$ in two points. What is the distance between those two points?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$30$"
+      },
+      {
+        "id": "b",
+        "latex": "$17$"
+      },
+      {
+        "id": "c",
+        "latex": "$16$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "16",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $y=19$ to get $(x-2)^2+225=289$, so $(x-2)^2=64$. The distance is $2\\cdot 8=16$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "chord",
+      "line-intersection"
+    ],
+    "status": "valid",
+    "checksum": "sha256-3ffa3032f35dee5698565e0f7b313b4dc9e78c06a34d318c5da3568bf0889b5a"
+  },
+  {
+    "id": "ch14.circles.hard.0039",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "A circle has diameter endpoints $(-13,-28)$ and $(1,20)$. What is the radius of the circle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$31$"
+      },
+      {
+        "id": "b",
+        "latex": "$625$"
+      },
+      {
+        "id": "c",
+        "latex": "$50$"
+      },
+      {
+        "id": "d",
+        "latex": "$25$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "25",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The diameter length is $\\sqrt{(14)^2+(48)^2}=2\\cdot 25$, so the radius is $25$.",
+    "complexity_factor": 1.25,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "diameter",
+      "distance"
+    ],
+    "status": "valid",
+    "checksum": "sha256-caaf727bcd42ee30f318f15b1d8b5291bfb10eb0e33212d21f876c39e92e6034"
+  },
+  {
+    "id": "ch14.circles.hard.0040",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "The circle $(x+1)^2+(y-3)^2=25$ intersects the line $x=2$ at points with $y$-coordinates $m$ and $n$. What is $m+n$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitution gives $9+(y-3)^2=25$, so the two $y$-coordinates are $-1$ and $7$. Their sum is $6$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "line-intersection",
+      "symmetry"
+    ],
+    "status": "valid",
+    "checksum": "sha256-54ce2c04251fba9ef62b0d71d51577fbde237da69a54f373814e6acddc752536"
+  },
+  {
+    "id": "ch14.circles.hard.0041",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "For the circle $x^2+y^2-8x+10y-128=0$, the larger horizontal tangent line is $y=t$. What is $t$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-18$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$13$"
+      },
+      {
+        "id": "d",
+        "latex": "$17$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives center $(4,-5)$ and radius $13$. The top tangent has $t=-5+13=8$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "tangent",
+      "completing-square"
+    ],
+    "status": "valid",
+    "checksum": "sha256-f44264602e625bd829138856e4901582b555e904e1ff7b213946f6e4e1d8befb"
+  },
+  {
+    "id": "ch14.circles.hard.0042",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "The line $y=10$ cuts the circle $(x+4)^2+(y-2)^2=100$ in two points. What is the distance between those two points?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $y=10$ to get $(x+4)^2+64=100$, so $(x+4)^2=36$. The distance is $2\\cdot 6=12$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "chord",
+      "line-intersection"
+    ],
+    "status": "valid",
+    "checksum": "sha256-2bd81c377b9f4fc008f6ae2cd23c7968eba071ad6904ec8ab243dac0d7633c04"
+  },
+  {
+    "id": "ch14.circles.hard.0043",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "A circle has diameter endpoints $(-7,-21)$ and $(9,9)$. What is the radius of the circle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$23$"
+      },
+      {
+        "id": "b",
+        "latex": "$289$"
+      },
+      {
+        "id": "c",
+        "latex": "$34$"
+      },
+      {
+        "id": "d",
+        "latex": "$17$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "17",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The diameter length is $\\sqrt{(16)^2+(30)^2}=2\\cdot 17$, so the radius is $17$.",
+    "complexity_factor": 1.25,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "diameter",
+      "distance"
+    ],
+    "status": "valid",
+    "checksum": "sha256-b3900bc7686313ee436d235ba15f70ca54d90f75dbcf7bd2c7d8f4dd23952d43"
+  },
+  {
+    "id": "ch14.circles.hard.0044",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "The circle $(x-6)^2+(y-1)^2=625$ intersects the line $x=13$ at points with $y$-coordinates $m$ and $n$. What is $m+n$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$25$"
+      },
+      {
+        "id": "c",
+        "latex": "$-23$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitution gives $49+(y-1)^2=625$, so the two $y$-coordinates are $-23$ and $25$. Their sum is $2$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "line-intersection",
+      "symmetry"
+    ],
+    "status": "valid",
+    "checksum": "sha256-b2c36d101e6a4ac3053939a44309dcfe13e27a8c86a2e1cca829347120e52858"
+  },
+  {
+    "id": "ch14.circles.hard.0045",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "For the circle $x^2+y^2+4x+14y+28=0$, the larger horizontal tangent line is $y=t$. What is $t$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-12$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives center $(-2,-7)$ and radius $5$. The top tangent has $t=-7+5=-2$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "tangent",
+      "completing-square"
+    ],
+    "status": "valid",
+    "checksum": "sha256-7df37b701387bea07c7d38aa1c534e83b199027290853ad21f859be9ddfff278"
+  },
+  {
+    "id": "ch14.circles.hard.0046",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "The line $y=12$ cuts the circle $(x-3)^2+(y)^2=169$ in two points. What is the distance between those two points?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$24$"
+      },
+      {
+        "id": "b",
+        "latex": "$13$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $y=12$ to get $(x-3)^2+144=169$, so $(x-3)^2=25$. The distance is $2\\cdot 5=10$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "chord",
+      "line-intersection"
+    ],
+    "status": "valid",
+    "checksum": "sha256-c33c3d011e1605dce78f738138047d1f412edf11a82d0541f2d4c783d1b79705"
+  },
+  {
+    "id": "ch14.circles.hard.0047",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "A circle has diameter endpoints $(-11,-1)$ and $(1,15)$. What is the radius of the circle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$14$"
+      },
+      {
+        "id": "b",
+        "latex": "$100$"
+      },
+      {
+        "id": "c",
+        "latex": "$20$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The diameter length is $\\sqrt{(12)^2+(16)^2}=2\\cdot 10$, so the radius is $10$.",
+    "complexity_factor": 1.25,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "diameter",
+      "distance"
+    ],
+    "status": "valid",
+    "checksum": "sha256-4d46d63dcdb8bd9e3afbb14a6d5c3f67e6543be839ce47c272e8aea78fee4078"
+  },
+  {
+    "id": "ch14.circles.hard.0048",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "The circle $(x)^2+(y+1)^2=289$ intersects the line $x=8$ at points with $y$-coordinates $m$ and $n$. What is $m+n$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$14$"
+      },
+      {
+        "id": "c",
+        "latex": "$-16$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitution gives $64+(y+1)^2=289$, so the two $y$-coordinates are $-16$ and $14$. Their sum is $-2$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "line-intersection",
+      "symmetry"
+    ],
+    "status": "valid",
+    "checksum": "sha256-9b8eaa6e0417fb84dd29da8f453063b78d266645b2baa05933a6589251db423f"
+  },
+  {
+    "id": "ch14.circles.hard.0049",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "For the circle $x^2+y^2-10x-12y-564=0$, the larger horizontal tangent line is $y=t$. What is $t$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-19$"
+      },
+      {
+        "id": "b",
+        "latex": "$31$"
+      },
+      {
+        "id": "c",
+        "latex": "$25$"
+      },
+      {
+        "id": "d",
+        "latex": "$30$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "31",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives center $(5,6)$ and radius $25$. The top tangent has $t=6+25=31$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "tangent",
+      "completing-square"
+    ],
+    "status": "valid",
+    "checksum": "sha256-43c68b844dc80bbc687c3aecbc15c8daaaada9eb569c2a3fe21f24bc47bca219"
+  },
+  {
+    "id": "ch14.circles.hard.0050",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "hard",
+    "prompt_latex": "The line $y=2$ cuts the circle $(x+3)^2+(y+2)^2=25$ in two points. What is the distance between those two points?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $y=2$ to get $(x+3)^2+16=25$, so $(x+3)^2=9$. The distance is $2\\cdot 3=6$.",
+    "complexity_factor": 1.3,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "chord",
+      "line-intersection"
+    ],
+    "status": "valid",
+    "checksum": "sha256-96ecc7eb8e0c24ae5f576347ee26a2b9b8c9eff677f0a475b05fb3e7799f1afa"
+  }
+]

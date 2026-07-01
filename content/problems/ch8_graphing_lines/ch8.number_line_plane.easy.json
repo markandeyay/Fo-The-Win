@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "ch8.number_line_plane.easy.0001",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "easy",
+    "prompt_latex": "In which quadrant is the point $(2, 1)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "III"
+      },
+      {
+        "id": "b",
+        "latex": "II"
+      },
+      {
+        "id": "c",
+        "latex": "IV"
+      },
+      {
+        "id": "d",
+        "latex": "I"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "I",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The signs are $x > 0$ and $y > 0$, so the point is in Quadrant I.",
+    "complexity_factor": 1,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "quadrants"
+    ],
+    "checksum": "sha256-bdbc05fe1245b08f35eaedf555049616e9d750bffda0b232fd1aa4d3ba9eaf47",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.easy.0002",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "easy",
+    "prompt_latex": "Reflect the point $(-3, 4)$ across the $x$-axis.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-3, -4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3, -4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-3, 4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-4, -3)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-3,-4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Reflection across the $x$-axis keeps $x$ and changes $y$ to $-y$, giving $(-3, -4)$.",
+    "complexity_factor": 1,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "reflection"
+    ],
+    "checksum": "sha256-08b40ac575390adddfdfbd41f4c0f2083923199ce938687beff26959c9914494",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.easy.0003",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "easy",
+    "prompt_latex": "Reflect the point $(4, -7)$ across the $y$-axis.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-4, -7)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-4, 7)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4, -7)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-7, -4)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-4,-7)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Reflection across the $y$-axis changes $x$ to $-x$ and keeps $y$, giving $(-4, -7)$.",
+    "complexity_factor": 1,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "reflection"
+    ],
+    "checksum": "sha256-7a7d2a385ab4f41704807c7c466a0e2e0d714c20d21f4a26c3afc36394656663",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.easy.0004",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "easy",
+    "prompt_latex": "What is the distance between $-7$ and $-1$ on the number line?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$-6$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Distance on a number line is absolute difference: $|-1 - (-7)| = 6$.",
+    "complexity_factor": 0.95,
+    "source_section": "8.1",
+    "tags": [
+      "number-line",
+      "distance"
+    ],
+    "checksum": "sha256-268a1fda33b40a056970cfc413c0bc2c912da20135564b464e054fd945970eb1",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.easy.0005",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "easy",
+    "prompt_latex": "Starting at $(6, 6)$, move 5 units right and 1 units down. What point do you reach?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(11, -5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-11, 5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(5, 11)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(11, 5)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(11,5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Moving right adds to $x$ and moving down subtracts from $y$: $(6+5, 6-1) = (11, 5)$.",
+    "complexity_factor": 1,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "translation"
+    ],
+    "checksum": "sha256-e1e5adbd581d4dcef6a9bb1c23497ce705683ff0faaf4ad55377e3a61ec93950",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.easy.0006",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "easy",
+    "prompt_latex": "In which quadrant is the point $(-7, 2)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "I"
+      },
+      {
+        "id": "b",
+        "latex": "II"
+      },
+      {
+        "id": "c",
+        "latex": "IV"
+      },
+      {
+        "id": "d",
+        "latex": "III"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "II",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The signs are $x < 0$ and $y > 0$, so the point is in Quadrant II.",
+    "complexity_factor": 1,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "quadrants"
+    ],
+    "checksum": "sha256-8a52cbd917aa709cbc9bbd6479bca51161db01884755bca8586b8ad5d97f7dd4",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.easy.0007",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "easy",
+    "prompt_latex": "Reflect the point $(8, -5)$ across the $x$-axis.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(5, 8)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-8, 5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(8, -5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(8, 5)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(8,5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Reflection across the $x$-axis keeps $x$ and changes $y$ to $-y$, giving $(8, 5)$.",
+    "complexity_factor": 1,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "reflection"
+    ],
+    "checksum": "sha256-b426fed306fb8203f4e50c41ecd19533f12a8ed63d7458153b7630e75c44f1ae",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.easy.0008",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "easy",
+    "prompt_latex": "Reflect the point $(-9, -1)$ across the $y$-axis.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(9, -1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-9, -1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(9, 1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1, 9)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(9,-1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Reflection across the $y$-axis changes $x$ to $-x$ and keeps $y$, giving $(9, -1)$.",
+    "complexity_factor": 1,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "reflection"
+    ],
+    "checksum": "sha256-9ade14afa7c35bbfa8e4a76950b6ee8cce1627d79e39f559af7bbc2eb2fe1e29",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.easy.0009",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "easy",
+    "prompt_latex": "What is the distance between $-2$ and $9$ on the number line?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$11$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$-11$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "11",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Distance on a number line is absolute difference: $|9 - (-2)| = 11$.",
+    "complexity_factor": 0.95,
+    "source_section": "8.1",
+    "tags": [
+      "number-line",
+      "distance"
+    ],
+    "checksum": "sha256-0c7063eccbaf3e7aa832a6449cc38db8254b3b59d163b90f55ac84b7b5a4fd23",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.easy.0010",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "easy",
+    "prompt_latex": "Starting at $(-3, 7)$, move 5 units right and 2 units down. What point do you reach?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(5, 2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2, 5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2, -5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2, 5)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(2,5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Moving right adds to $x$ and moving down subtracts from $y$: $(-3+5, 7-2) = (2, 5)$.",
+    "complexity_factor": 1,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "translation"
+    ],
+    "checksum": "sha256-56d84a7598f372f7b148a1952cbe78c41e5d403f9d1d8b8441df951a2f424d25",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.easy.0011",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "easy",
+    "prompt_latex": "In which quadrant is the point $(4, -3)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "III"
+      },
+      {
+        "id": "b",
+        "latex": "IV"
+      },
+      {
+        "id": "c",
+        "latex": "I"
+      },
+      {
+        "id": "d",
+        "latex": "II"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "IV",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The signs are $x > 0$ and $y < 0$, so the point is in Quadrant IV.",
+    "complexity_factor": 1,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "quadrants"
+    ],
+    "checksum": "sha256-eda0f7b9cd6ac8628eaff10298af66ac536dca86dd0b6ca55056318f488a6ea2",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.easy.0012",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "easy",
+    "prompt_latex": "Reflect the point $(-5, -6)$ across the $x$-axis.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(6, -5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(5, 6)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-5, -6)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-5, 6)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-5,6)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Reflection across the $x$-axis keeps $x$ and changes $y$ to $-y$, giving $(-5, 6)$.",
+    "complexity_factor": 1,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "reflection"
+    ],
+    "checksum": "sha256-e7a170c92dcf513856c2fb5b4a2ff3ff9c269d1844f10dfd06fdd232740ee97b",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.easy.0013",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "easy",
+    "prompt_latex": "Reflect the point $(6, 2)$ across the $y$-axis.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2, -6)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-6, -2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-6, 2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(6, 2)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-6,2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Reflection across the $y$-axis changes $x$ to $-x$ and keeps $y$, giving $(-6, 2)$.",
+    "complexity_factor": 1,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "reflection"
+    ],
+    "checksum": "sha256-b249572200efc4baa1bdd784c9f3f53e6a586fa4735fe0e2df32c73a507c06b0",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.easy.0014",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "easy",
+    "prompt_latex": "What is the distance between $3$ and $10$ on the number line?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$-7$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Distance on a number line is absolute difference: $|10 - (3)| = 7$.",
+    "complexity_factor": 0.95,
+    "source_section": "8.1",
+    "tags": [
+      "number-line",
+      "distance"
+    ],
+    "checksum": "sha256-86f9e40987d5a7c382df05ab656b3f0eca5cf61cab4fa7688dc3a8c727fc1286",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.easy.0015",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "easy",
+    "prompt_latex": "Starting at $(8, -1)$, move 5 units right and 3 units down. What point do you reach?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(13, -4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-13, -4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(13, 4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-4, 13)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(13,-4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Moving right adds to $x$ and moving down subtracts from $y$: $(8+5, -1-3) = (13, -4)$.",
+    "complexity_factor": 1,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "translation"
+    ],
+    "checksum": "sha256-8129c485824d67ddd581fb3c5cc08640b1ed9131210e1ea86cd3ab9b209d669a",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.easy.0016",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "easy",
+    "prompt_latex": "In which quadrant is the point $(-9, -4)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "II"
+      },
+      {
+        "id": "b",
+        "latex": "III"
+      },
+      {
+        "id": "c",
+        "latex": "IV"
+      },
+      {
+        "id": "d",
+        "latex": "I"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "III",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The signs are $x < 0$ and $y < 0$, so the point is in Quadrant III.",
+    "complexity_factor": 1,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "quadrants"
+    ],
+    "checksum": "sha256-57c59f25901208f10e0b9979ad2dbe824e9e8549e70ce2c5b75d71c86675678e",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.easy.0017",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "easy",
+    "prompt_latex": "Reflect the point $(2, 7)$ across the $x$-axis.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2, -7)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2, 7)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2, -7)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-7, 2)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(2,-7)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Reflection across the $x$-axis keeps $x$ and changes $y$ to $-y$, giving $(2, -7)$.",
+    "complexity_factor": 1,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "reflection"
+    ],
+    "checksum": "sha256-74feaecfbce3ff2b2775d2cce3a54a9ae67b74128cb41dfb2bec698d6339e3c6",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.easy.0018",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "easy",
+    "prompt_latex": "Reflect the point $(-3, 3)$ across the $y$-axis.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3, 3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3, 3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3, -3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4, 3)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(3,3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Reflection across the $y$-axis changes $x$ to $-x$ and keeps $y$, giving $(3, 3)$.",
+    "complexity_factor": 1,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "reflection"
+    ],
+    "checksum": "sha256-ce16fe61e30ba9da694e0b8a98809709a9a1c36975487461525c3c50101d6d91",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.easy.0019",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "easy",
+    "prompt_latex": "What is the distance between $8$ and $11$ on the number line?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-3$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Distance on a number line is absolute difference: $|11 - (8)| = 3$.",
+    "complexity_factor": 0.95,
+    "source_section": "8.1",
+    "tags": [
+      "number-line",
+      "distance"
+    ],
+    "checksum": "sha256-4bab4cbbfac09534ffe163fbd23614dc3ce3d1dc9fb7d3ea6e76f9d904dc7802",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.easy.0020",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "easy",
+    "prompt_latex": "Starting at $(-5, -2)$, move 5 units right and 4 units down. What point do you reach?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0, -6)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-6, 0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0, 6)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1, -6)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(0,-6)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Moving right adds to $x$ and moving down subtracts from $y$: $(-5+5, -2-4) = (0, -6)$.",
+    "complexity_factor": 1,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "translation"
+    ],
+    "checksum": "sha256-4b0af9987b0bb51e640136e02e4fc7e4baba79cc5dd468be7c744f60ef9d72bc",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.easy.0021",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "easy",
+    "prompt_latex": "In which quadrant is the point $(6, 5)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "I"
+      },
+      {
+        "id": "b",
+        "latex": "II"
+      },
+      {
+        "id": "c",
+        "latex": "IV"
+      },
+      {
+        "id": "d",
+        "latex": "III"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "I",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The signs are $x > 0$ and $y > 0$, so the point is in Quadrant I.",
+    "complexity_factor": 1,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "quadrants"
+    ],
+    "checksum": "sha256-917b68e75499412ca4e3f36ac4b8cca96e733d8de5926ddb937749322cf8ac63",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.easy.0022",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "easy",
+    "prompt_latex": "Reflect the point $(-7, 1)$ across the $x$-axis.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1, -7)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(7, -1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-7, -1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-7, 1)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-7,-1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Reflection across the $x$-axis keeps $x$ and changes $y$ to $-y$, giving $(-7, -1)$.",
+    "complexity_factor": 1,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "reflection"
+    ],
+    "checksum": "sha256-5011177f94d6c0f68dfcdbb5b658484316a0b19e72e7f9ea5d3e7e42dcc089fd",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.easy.0023",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "easy",
+    "prompt_latex": "Reflect the point $(8, -4)$ across the $y$-axis.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-8, -4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-4, -8)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-8, 4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(8, -4)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-8,-4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Reflection across the $y$-axis changes $x$ to $-x$ and keeps $y$, giving $(-8, -4)$.",
+    "complexity_factor": 1,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "reflection"
+    ],
+    "checksum": "sha256-9bb32e1203eb1de86ec777c915fc64e3201a1b7af40f26101aa80154b803b3bb",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.easy.0024",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "easy",
+    "prompt_latex": "What is the distance between $13$ and $21$ on the number line?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-8$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Distance on a number line is absolute difference: $|21 - (13)| = 8$.",
+    "complexity_factor": 0.95,
+    "source_section": "8.1",
+    "tags": [
+      "number-line",
+      "distance"
+    ],
+    "checksum": "sha256-923027e9a7d314aba7c1561c62c59c1527ca2ddc603f0db0a39487d77a589414",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.easy.0025",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "easy",
+    "prompt_latex": "Starting at $(2, 3)$, move 5 units right and 1 units down. What point do you reach?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(7, 2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(7, -2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-7, 2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2, 7)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(7,2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Moving right adds to $x$ and moving down subtracts from $y$: $(2+5, 3-1) = (7, 2)$.",
+    "complexity_factor": 1,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "translation"
+    ],
+    "checksum": "sha256-bdb7240299bb42a01b0c5ef2b1f2c475e80f41f7f9b76aac048e4dfcdeae1234",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.easy.0026",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "easy",
+    "prompt_latex": "In which quadrant is the point $(-3, 6)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "II"
+      },
+      {
+        "id": "b",
+        "latex": "IV"
+      },
+      {
+        "id": "c",
+        "latex": "I"
+      },
+      {
+        "id": "d",
+        "latex": "III"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "II",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The signs are $x < 0$ and $y > 0$, so the point is in Quadrant II.",
+    "complexity_factor": 1,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "quadrants"
+    ],
+    "checksum": "sha256-409a16d376a73790974138f1878bba58dea4e9110f0e2e0a08583493dbceef0e",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.easy.0027",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "easy",
+    "prompt_latex": "Reflect the point $(4, -2)$ across the $x$-axis.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4, -2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-4, 2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4, 2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2, 4)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(4,2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Reflection across the $x$-axis keeps $x$ and changes $y$ to $-y$, giving $(4, 2)$.",
+    "complexity_factor": 1,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "reflection"
+    ],
+    "checksum": "sha256-b109dbedd70f618e787cf6325d252cd0e08598031737b4dab06368db34e966e2",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.easy.0028",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "easy",
+    "prompt_latex": "Reflect the point $(-5, -5)$ across the $y$-axis.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(5, 5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(5, -5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-5, 5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-5, -5)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(5,-5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Reflection across the $y$-axis changes $x$ to $-x$ and keeps $y$, giving $(5, -5)$.",
+    "complexity_factor": 1,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "reflection"
+    ],
+    "checksum": "sha256-5d5b8986fdf85d8d28002334dac649bcc7d92cf60f3cf2326878b1dd3cc797eb",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.easy.0029",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "easy",
+    "prompt_latex": "What is the distance between $18$ and $22$ on the number line?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Distance on a number line is absolute difference: $|22 - (18)| = 4$.",
+    "complexity_factor": 0.95,
+    "source_section": "8.1",
+    "tags": [
+      "number-line",
+      "distance"
+    ],
+    "checksum": "sha256-c98570352d9245e3d2860cac19e62ddc14e21f4322dd4a89e660619cc413235e",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.easy.0030",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "easy",
+    "prompt_latex": "Starting at $(-7, 4)$, move 5 units right and 2 units down. What point do you reach?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2, -2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2, 2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2, -2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2, 2)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-2,2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Moving right adds to $x$ and moving down subtracts from $y$: $(-7+5, 4-2) = (-2, 2)$.",
+    "complexity_factor": 1,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "translation"
+    ],
+    "checksum": "sha256-7bfc678a55df9e03e0f17057d563acddfa1901765cee188a250191582923e52a",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.easy.0031",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "easy",
+    "prompt_latex": "In which quadrant is the point $(8, -7)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "III"
+      },
+      {
+        "id": "b",
+        "latex": "I"
+      },
+      {
+        "id": "c",
+        "latex": "II"
+      },
+      {
+        "id": "d",
+        "latex": "IV"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "IV",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The signs are $x > 0$ and $y < 0$, so the point is in Quadrant IV.",
+    "complexity_factor": 1,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "quadrants"
+    ],
+    "checksum": "sha256-71453912e5488a5d414b1a42effbe779be27845b516457a205bca68d3fa2313e",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.easy.0032",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "easy",
+    "prompt_latex": "Reflect the point $(-9, -3)$ across the $x$-axis.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-9, -3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-9, 3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(9, 3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3, -9)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-9,3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Reflection across the $x$-axis keeps $x$ and changes $y$ to $-y$, giving $(-9, 3)$.",
+    "complexity_factor": 1,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "reflection"
+    ],
+    "checksum": "sha256-f5c1fc1119d9be3713c93dfd2c1728c0b43ed364b64c1a919ec22ef6e992c7b0",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.easy.0033",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "easy",
+    "prompt_latex": "Reflect the point $(2, 6)$ across the $y$-axis.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(6, -2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2, 6)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2, -6)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2, 6)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-2,6)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Reflection across the $y$-axis changes $x$ to $-x$ and keeps $y$, giving $(-2, 6)$.",
+    "complexity_factor": 1,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "reflection"
+    ],
+    "checksum": "sha256-9a01c057eebd3c1b470680bb29ef706b76853c1d7fc6e7c015646bdd6bbbedbb",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.easy.0034",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "easy",
+    "prompt_latex": "What is the distance between $23$ and $32$ on the number line?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-9$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Distance on a number line is absolute difference: $|32 - (23)| = 9$.",
+    "complexity_factor": 0.95,
+    "source_section": "8.1",
+    "tags": [
+      "number-line",
+      "distance"
+    ],
+    "checksum": "sha256-782cbb05b25e1d03a9dba71e739c41a16fa8be2f8d981f2b8a1d278c45b1c71e",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.easy.0035",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "easy",
+    "prompt_latex": "Starting at $(4, -5)$, move 5 units right and 3 units down. What point do you reach?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(9, 8)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(9, -8)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-9, -8)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-8, 9)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(9,-8)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Moving right adds to $x$ and moving down subtracts from $y$: $(4+5, -5-3) = (9, -8)$.",
+    "complexity_factor": 1,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "translation"
+    ],
+    "checksum": "sha256-bb02b43906626841c43b03cc45ae480620fad3c31e27de44a2d2535a194ad9c5",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.easy.0036",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "easy",
+    "prompt_latex": "In which quadrant is the point $(-5, -1)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "II"
+      },
+      {
+        "id": "b",
+        "latex": "IV"
+      },
+      {
+        "id": "c",
+        "latex": "I"
+      },
+      {
+        "id": "d",
+        "latex": "III"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "III",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The signs are $x < 0$ and $y < 0$, so the point is in Quadrant III.",
+    "complexity_factor": 1,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "quadrants"
+    ],
+    "checksum": "sha256-0ee6818a808b4a6d139203b304e31bf301e74addfde53d74206ef71e14695893",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.easy.0037",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "easy",
+    "prompt_latex": "Reflect the point $(6, 4)$ across the $x$-axis.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(6, -4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-4, 6)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(6, 4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-6, -4)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(6,-4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Reflection across the $x$-axis keeps $x$ and changes $y$ to $-y$, giving $(6, -4)$.",
+    "complexity_factor": 1,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "reflection"
+    ],
+    "checksum": "sha256-651395e4fa06918192a91282180af9b22a3014374c899e5b78579529dd35144a",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.easy.0038",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "easy",
+    "prompt_latex": "Reflect the point $(-7, 7)$ across the $y$-axis.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(7, -7)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(7, 7)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(8, 7)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-7, 7)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(7,7)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Reflection across the $y$-axis changes $x$ to $-x$ and keeps $y$, giving $(7, 7)$.",
+    "complexity_factor": 1,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "reflection"
+    ],
+    "checksum": "sha256-b6ff29ae34f3576cd1c5849eb3b6e799202e85a8b121bf398f893ac4bbfde42c",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.easy.0039",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "easy",
+    "prompt_latex": "What is the distance between $28$ and $33$ on the number line?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$-5$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Distance on a number line is absolute difference: $|33 - (28)| = 5$.",
+    "complexity_factor": 0.95,
+    "source_section": "8.1",
+    "tags": [
+      "number-line",
+      "distance"
+    ],
+    "checksum": "sha256-d902641a8c1279db47b4a9a6d781b216c9aa15bed4563cfd4eb421578190700e",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.easy.0040",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "easy",
+    "prompt_latex": "Starting at $(-9, -6)$, move 5 units right and 4 units down. What point do you reach?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-10, -4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-4, -10)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4, -10)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-4, 10)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-4,-10)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Moving right adds to $x$ and moving down subtracts from $y$: $(-9+5, -6-4) = (-4, -10)$.",
+    "complexity_factor": 1,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "translation"
+    ],
+    "checksum": "sha256-f85fe8cfc8518a2d97d8c69bf2b06ec9e190e06d84cd56725ab98b5cd3238ab3",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.easy.0041",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "easy",
+    "prompt_latex": "In which quadrant is the point $(2, 2)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "II"
+      },
+      {
+        "id": "b",
+        "latex": "I"
+      },
+      {
+        "id": "c",
+        "latex": "IV"
+      },
+      {
+        "id": "d",
+        "latex": "III"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "I",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The signs are $x > 0$ and $y > 0$, so the point is in Quadrant I.",
+    "complexity_factor": 1,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "quadrants"
+    ],
+    "checksum": "sha256-ff1235387342a3c62422831185fd05b15d5e9e0b0568e86e4d54bea83fe2a805",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.easy.0042",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "easy",
+    "prompt_latex": "Reflect the point $(-3, 5)$ across the $x$-axis.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-3, -5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-5, -3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3, -5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-3, 5)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-3,-5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Reflection across the $x$-axis keeps $x$ and changes $y$ to $-y$, giving $(-3, -5)$.",
+    "complexity_factor": 1,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "reflection"
+    ],
+    "checksum": "sha256-c2474bafbcdfef54937c36737c9226a71107f9581eeaf20a571836878adeee85",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.easy.0043",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "easy",
+    "prompt_latex": "Reflect the point $(4, -1)$ across the $y$-axis.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4, -1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-4, 1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-4, -1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1, -4)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-4,-1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Reflection across the $y$-axis changes $x$ to $-x$ and keeps $y$, giving $(-4, -1)$.",
+    "complexity_factor": 1,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "reflection"
+    ],
+    "checksum": "sha256-3290ade53d4bfd3755189e696a8d7199d9e001b5d98445bae041dcaddc39c2ea",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.easy.0044",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "easy",
+    "prompt_latex": "What is the distance between $33$ and $43$ on the number line?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$-10$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$11$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Distance on a number line is absolute difference: $|43 - (33)| = 10$.",
+    "complexity_factor": 0.95,
+    "source_section": "8.1",
+    "tags": [
+      "number-line",
+      "distance"
+    ],
+    "checksum": "sha256-af93cd49f96c158292d5837c854c36301414163f37d69f56b412d2c48bf9323e",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.easy.0045",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "easy",
+    "prompt_latex": "Starting at $(6, 7)$, move 5 units right and 1 units down. What point do you reach?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(11, -6)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-11, 6)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(6, 11)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(11, 6)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(11,6)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Moving right adds to $x$ and moving down subtracts from $y$: $(6+5, 7-1) = (11, 6)$.",
+    "complexity_factor": 1,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "translation"
+    ],
+    "checksum": "sha256-451f092ea6bd90a8e3fb42a5c50be420b6c8b71c000d577f2a14ca5c4eb23f9a",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.easy.0046",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "easy",
+    "prompt_latex": "In which quadrant is the point $(-7, 3)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "I"
+      },
+      {
+        "id": "b",
+        "latex": "II"
+      },
+      {
+        "id": "c",
+        "latex": "IV"
+      },
+      {
+        "id": "d",
+        "latex": "III"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "II",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The signs are $x < 0$ and $y > 0$, so the point is in Quadrant II.",
+    "complexity_factor": 1,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "quadrants"
+    ],
+    "checksum": "sha256-8cd8f094a989a4df26cdc695d8a01b7cacb7939647da99f98c8dd311fba1beb5",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.easy.0047",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "easy",
+    "prompt_latex": "Reflect the point $(8, -6)$ across the $x$-axis.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(6, 8)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(8, 6)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(8, -6)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-8, 6)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(8,6)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Reflection across the $x$-axis keeps $x$ and changes $y$ to $-y$, giving $(8, 6)$.",
+    "complexity_factor": 1,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "reflection"
+    ],
+    "checksum": "sha256-00de94e53f893d2cd68b3e59376b04c2a89839b18059b4a45b2b419163117f8d",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.easy.0048",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "easy",
+    "prompt_latex": "Reflect the point $(-9, -2)$ across the $y$-axis.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(9, -2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-2, 9)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(9, 2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-9, -2)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(9,-2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Reflection across the $y$-axis changes $x$ to $-x$ and keeps $y$, giving $(9, -2)$.",
+    "complexity_factor": 1,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "reflection"
+    ],
+    "checksum": "sha256-041e47ec373a3a0160b9bd7f5df5c070960c301d7835844cf7e00a52d8460ecf",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.easy.0049",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "easy",
+    "prompt_latex": "What is the distance between $38$ and $44$ on the number line?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$-6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Distance on a number line is absolute difference: $|44 - (38)| = 6$.",
+    "complexity_factor": 0.95,
+    "source_section": "8.1",
+    "tags": [
+      "number-line",
+      "distance"
+    ],
+    "checksum": "sha256-7f5e3ca6439be041966d03b8171a371cadca5837e6cf52f037f4529b2f2c7400",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.easy.0050",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "easy",
+    "prompt_latex": "Starting at $(-3, 1)$, move 5 units right and 2 units down. What point do you reach?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2, 1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1, 2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2, -1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2, -1)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(2,-1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Moving right adds to $x$ and moving down subtracts from $y$: $(-3+5, 1-2) = (2, -1)$.",
+    "complexity_factor": 1,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "translation"
+    ],
+    "checksum": "sha256-4df2b50bff106839da8b43429ca83b4394239eb604f29f6e0d57708291a8a571",
+    "status": "valid"
+  }
+]

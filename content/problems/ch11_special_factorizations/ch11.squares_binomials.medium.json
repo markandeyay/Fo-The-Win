@@ -1,0 +1,2062 @@
+[
+  {
+    "id": "ch11.squares_binomials.medium.0001",
+    "topic_id": "ch11.squares_binomials",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Expand: $(2x + 1)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4x^2 + 1$"
+      },
+      {
+        "id": "b",
+        "latex": "$4x^2 + 2x + 1$"
+      },
+      {
+        "id": "c",
+        "latex": "$4x^2 + 4x + 1$"
+      },
+      {
+        "id": "d",
+        "latex": "$4x^2 - 4x + 1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "4*x^2+4*x+1",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(2*x+1)^2"
+    ],
+    "solution_latex": "Use $(a+b)^2=a^2+2ab+b^2$: the middle coefficient is $2\\cdot 2\\cdot 1=4$.",
+    "complexity_factor": 1.1,
+    "source_section": "11.1",
+    "tags": [
+      "special-factorization",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-e5832eb19eaa0e0daee22a782cafd50de5de760210f82e783a2addc532e96354",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.squares_binomials.medium.0002",
+    "topic_id": "ch11.squares_binomials",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Expand: $(3x - 4)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9x^2 + 24x + 16$"
+      },
+      {
+        "id": "b",
+        "latex": "$9x^2 - 12x + 16$"
+      },
+      {
+        "id": "c",
+        "latex": "$9x^2 + 16$"
+      },
+      {
+        "id": "d",
+        "latex": "$9x^2 - 24x + 16$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "9*x^2-24*x+16",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(3*x-4)^2"
+    ],
+    "solution_latex": "Use $(a+b)^2=a^2+2ab+b^2$: the middle coefficient is $2\\cdot 3\\cdot -4=-24$.",
+    "complexity_factor": 1.1,
+    "source_section": "11.1",
+    "tags": [
+      "special-factorization",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-32303cb3aa4ca6bc02a31d1e315744e43f1e96ccf19d5761ef534ef86879441d",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.squares_binomials.medium.0003",
+    "topic_id": "ch11.squares_binomials",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Expand: $(4x + 7)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16x^2 + 56x + 49$"
+      },
+      {
+        "id": "b",
+        "latex": "$16x^2 + 28x + 49$"
+      },
+      {
+        "id": "c",
+        "latex": "$16x^2 - 56x + 49$"
+      },
+      {
+        "id": "d",
+        "latex": "$16x^2 + 49$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "16*x^2+56*x+49",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(4*x+7)^2"
+    ],
+    "solution_latex": "Use $(a+b)^2=a^2+2ab+b^2$: the middle coefficient is $2\\cdot 4\\cdot 7=56$.",
+    "complexity_factor": 1.1,
+    "source_section": "11.1",
+    "tags": [
+      "special-factorization",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-8c9279a6e773814bad978d0fbeded21a0fc6af58cb02fb52ff0ec677b35c87fd",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.squares_binomials.medium.0004",
+    "topic_id": "ch11.squares_binomials",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Expand: $(5x - 10)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$25x^2 + 100x + 100$"
+      },
+      {
+        "id": "b",
+        "latex": "$25x^2 - 50x + 100$"
+      },
+      {
+        "id": "c",
+        "latex": "$25x^2 - 100x + 100$"
+      },
+      {
+        "id": "d",
+        "latex": "$25x^2 + 100$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "25*x^2-100*x+100",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(5*x-10)^2"
+    ],
+    "solution_latex": "Use $(a+b)^2=a^2+2ab+b^2$: the middle coefficient is $2\\cdot 5\\cdot -10=-100$.",
+    "complexity_factor": 1.1,
+    "source_section": "11.1",
+    "tags": [
+      "special-factorization",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-55004ec5eee49cb83aa6a0c791b655d18bdce2fe9f6037ad221554120e3b57ba",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.squares_binomials.medium.0005",
+    "topic_id": "ch11.squares_binomials",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Expand: $(6x + 3)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$36x^2 + 36x + 9$"
+      },
+      {
+        "id": "b",
+        "latex": "$36x^2 + 9$"
+      },
+      {
+        "id": "c",
+        "latex": "$36x^2 + 18x + 9$"
+      },
+      {
+        "id": "d",
+        "latex": "$36x^2 - 36x + 9$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "36*x^2+36*x+9",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(6*x+3)^2"
+    ],
+    "solution_latex": "Use $(a+b)^2=a^2+2ab+b^2$: the middle coefficient is $2\\cdot 6\\cdot 3=36$.",
+    "complexity_factor": 1.1,
+    "source_section": "11.1",
+    "tags": [
+      "special-factorization",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-741c0732d994122c8e2470e8904a294e7208832074669ecc8c865727e8a8c31a",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.squares_binomials.medium.0006",
+    "topic_id": "ch11.squares_binomials",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Expand: $(7x - 6)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$49x^2 + 36$"
+      },
+      {
+        "id": "b",
+        "latex": "$49x^2 - 84x + 36$"
+      },
+      {
+        "id": "c",
+        "latex": "$49x^2 - 42x + 36$"
+      },
+      {
+        "id": "d",
+        "latex": "$49x^2 + 84x + 36$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "49*x^2-84*x+36",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(7*x-6)^2"
+    ],
+    "solution_latex": "Use $(a+b)^2=a^2+2ab+b^2$: the middle coefficient is $2\\cdot 7\\cdot -6=-84$.",
+    "complexity_factor": 1.1,
+    "source_section": "11.1",
+    "tags": [
+      "special-factorization",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-8312234b93b650e687a96e0b607f630938eca31455e3df4f297bc804c9d7a19c",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.squares_binomials.medium.0007",
+    "topic_id": "ch11.squares_binomials",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Expand: $(2x + 9)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4x^2 + 36x + 81$"
+      },
+      {
+        "id": "b",
+        "latex": "$4x^2 + 18x + 81$"
+      },
+      {
+        "id": "c",
+        "latex": "$4x^2 + 81$"
+      },
+      {
+        "id": "d",
+        "latex": "$4x^2 - 36x + 81$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "4*x^2+36*x+81",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(2*x+9)^2"
+    ],
+    "solution_latex": "Use $(a+b)^2=a^2+2ab+b^2$: the middle coefficient is $2\\cdot 2\\cdot 9=36$.",
+    "complexity_factor": 1.1,
+    "source_section": "11.1",
+    "tags": [
+      "special-factorization",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-fdffc15732ce6710ca02196aea65afe1a5a6062b43a95d42fd6542bb0b1e9529",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.squares_binomials.medium.0008",
+    "topic_id": "ch11.squares_binomials",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Expand: $(3x - 2)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9x^2 + 4$"
+      },
+      {
+        "id": "b",
+        "latex": "$9x^2 - 6x + 4$"
+      },
+      {
+        "id": "c",
+        "latex": "$9x^2 + 12x + 4$"
+      },
+      {
+        "id": "d",
+        "latex": "$9x^2 - 12x + 4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "9*x^2-12*x+4",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(3*x-2)^2"
+    ],
+    "solution_latex": "Use $(a+b)^2=a^2+2ab+b^2$: the middle coefficient is $2\\cdot 3\\cdot -2=-12$.",
+    "complexity_factor": 1.1,
+    "source_section": "11.1",
+    "tags": [
+      "special-factorization",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-993e090cfad58a730d9046689d688bb9eafada7f43ada5628bba5f3791af0df2",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.squares_binomials.medium.0009",
+    "topic_id": "ch11.squares_binomials",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Expand: $(4x + 5)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16x^2 + 25$"
+      },
+      {
+        "id": "b",
+        "latex": "$16x^2 + 40x + 25$"
+      },
+      {
+        "id": "c",
+        "latex": "$16x^2 - 40x + 25$"
+      },
+      {
+        "id": "d",
+        "latex": "$16x^2 + 20x + 25$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "16*x^2+40*x+25",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(4*x+5)^2"
+    ],
+    "solution_latex": "Use $(a+b)^2=a^2+2ab+b^2$: the middle coefficient is $2\\cdot 4\\cdot 5=40$.",
+    "complexity_factor": 1.1,
+    "source_section": "11.1",
+    "tags": [
+      "special-factorization",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-bb86038cba4067bdff140d1359a5cf4cfed4449f76b93773571bf0c3b484f423",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.squares_binomials.medium.0010",
+    "topic_id": "ch11.squares_binomials",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Expand: $(5x - 8)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$25x^2 - 40x + 64$"
+      },
+      {
+        "id": "b",
+        "latex": "$25x^2 - 80x + 64$"
+      },
+      {
+        "id": "c",
+        "latex": "$25x^2 + 80x + 64$"
+      },
+      {
+        "id": "d",
+        "latex": "$25x^2 + 64$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "25*x^2-80*x+64",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(5*x-8)^2"
+    ],
+    "solution_latex": "Use $(a+b)^2=a^2+2ab+b^2$: the middle coefficient is $2\\cdot 5\\cdot -8=-80$.",
+    "complexity_factor": 1.1,
+    "source_section": "11.1",
+    "tags": [
+      "special-factorization",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-a6c98ca2a672633df387d05890f249b2e83401fdf13638a38a7e19f722459ca0",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.squares_binomials.medium.0011",
+    "topic_id": "ch11.squares_binomials",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Expand: $(6x + 1)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$36x^2 + 12x + 1$"
+      },
+      {
+        "id": "b",
+        "latex": "$36x^2 + 6x + 1$"
+      },
+      {
+        "id": "c",
+        "latex": "$36x^2 + 1$"
+      },
+      {
+        "id": "d",
+        "latex": "$36x^2 - 12x + 1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "36*x^2+12*x+1",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(6*x+1)^2"
+    ],
+    "solution_latex": "Use $(a+b)^2=a^2+2ab+b^2$: the middle coefficient is $2\\cdot 6\\cdot 1=12$.",
+    "complexity_factor": 1.1,
+    "source_section": "11.1",
+    "tags": [
+      "special-factorization",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-835b9394c3078a6c133a8645fef04d8a4773df7078ae2f88477a19a660a60ee0",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.squares_binomials.medium.0012",
+    "topic_id": "ch11.squares_binomials",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Expand: $(7x - 4)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$49x^2 - 28x + 16$"
+      },
+      {
+        "id": "b",
+        "latex": "$49x^2 - 56x + 16$"
+      },
+      {
+        "id": "c",
+        "latex": "$49x^2 + 16$"
+      },
+      {
+        "id": "d",
+        "latex": "$49x^2 + 56x + 16$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "49*x^2-56*x+16",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(7*x-4)^2"
+    ],
+    "solution_latex": "Use $(a+b)^2=a^2+2ab+b^2$: the middle coefficient is $2\\cdot 7\\cdot -4=-56$.",
+    "complexity_factor": 1.1,
+    "source_section": "11.1",
+    "tags": [
+      "special-factorization",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-7cdb08a839f41a8c2450c606a418c61aa2bb433f2051ae02f8f2fac879cbee5d",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.squares_binomials.medium.0013",
+    "topic_id": "ch11.squares_binomials",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Expand: $(2x + 7)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4x^2 + 28x + 49$"
+      },
+      {
+        "id": "b",
+        "latex": "$4x^2 + 49$"
+      },
+      {
+        "id": "c",
+        "latex": "$4x^2 + 14x + 49$"
+      },
+      {
+        "id": "d",
+        "latex": "$4x^2 - 28x + 49$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "4*x^2+28*x+49",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(2*x+7)^2"
+    ],
+    "solution_latex": "Use $(a+b)^2=a^2+2ab+b^2$: the middle coefficient is $2\\cdot 2\\cdot 7=28$.",
+    "complexity_factor": 1.1,
+    "source_section": "11.1",
+    "tags": [
+      "special-factorization",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-0dc837e9d337e03b8a600288cb4fecd75edfaa3bf58d29617d9bae5acf6a2343",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.squares_binomials.medium.0014",
+    "topic_id": "ch11.squares_binomials",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Expand: $(3x - 10)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9x^2 + 100$"
+      },
+      {
+        "id": "b",
+        "latex": "$9x^2 - 60x + 100$"
+      },
+      {
+        "id": "c",
+        "latex": "$9x^2 - 30x + 100$"
+      },
+      {
+        "id": "d",
+        "latex": "$9x^2 + 60x + 100$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "9*x^2-60*x+100",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(3*x-10)^2"
+    ],
+    "solution_latex": "Use $(a+b)^2=a^2+2ab+b^2$: the middle coefficient is $2\\cdot 3\\cdot -10=-60$.",
+    "complexity_factor": 1.1,
+    "source_section": "11.1",
+    "tags": [
+      "special-factorization",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-a29c2808951f7f21362a37695f67e22ac165c9582f7306c57ccd36b69cba4441",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.squares_binomials.medium.0015",
+    "topic_id": "ch11.squares_binomials",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Expand: $(4x + 3)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16x^2 + 9$"
+      },
+      {
+        "id": "b",
+        "latex": "$16x^2 + 24x + 9$"
+      },
+      {
+        "id": "c",
+        "latex": "$16x^2 - 24x + 9$"
+      },
+      {
+        "id": "d",
+        "latex": "$16x^2 + 12x + 9$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "16*x^2+24*x+9",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(4*x+3)^2"
+    ],
+    "solution_latex": "Use $(a+b)^2=a^2+2ab+b^2$: the middle coefficient is $2\\cdot 4\\cdot 3=24$.",
+    "complexity_factor": 1.1,
+    "source_section": "11.1",
+    "tags": [
+      "special-factorization",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-009fc0e4c07cfa8fb9cb384df709477b07d0ed1792697d0e596ac8d36c9d74be",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.squares_binomials.medium.0016",
+    "topic_id": "ch11.squares_binomials",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Expand: $(5x - 6)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$25x^2 - 30x + 36$"
+      },
+      {
+        "id": "b",
+        "latex": "$25x^2 + 36$"
+      },
+      {
+        "id": "c",
+        "latex": "$25x^2 + 60x + 36$"
+      },
+      {
+        "id": "d",
+        "latex": "$25x^2 - 60x + 36$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "25*x^2-60*x+36",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(5*x-6)^2"
+    ],
+    "solution_latex": "Use $(a+b)^2=a^2+2ab+b^2$: the middle coefficient is $2\\cdot 5\\cdot -6=-60$.",
+    "complexity_factor": 1.1,
+    "source_section": "11.1",
+    "tags": [
+      "special-factorization",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-57897d8da34038460cc6e3efb1f1fd413fbec540769a6d340b1dbe4a3a1390bd",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.squares_binomials.medium.0017",
+    "topic_id": "ch11.squares_binomials",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Expand: $(6x + 9)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$36x^2 + 81$"
+      },
+      {
+        "id": "b",
+        "latex": "$36x^2 + 54x + 81$"
+      },
+      {
+        "id": "c",
+        "latex": "$36x^2 - 108x + 81$"
+      },
+      {
+        "id": "d",
+        "latex": "$36x^2 + 108x + 81$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "36*x^2+108*x+81",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(6*x+9)^2"
+    ],
+    "solution_latex": "Use $(a+b)^2=a^2+2ab+b^2$: the middle coefficient is $2\\cdot 6\\cdot 9=108$.",
+    "complexity_factor": 1.1,
+    "source_section": "11.1",
+    "tags": [
+      "special-factorization",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-62fbe8b5542db4473dddbd02c8df09c8c83d19ce6b44ee44eacb460f9aeb3cb5",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.squares_binomials.medium.0018",
+    "topic_id": "ch11.squares_binomials",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Expand: $(7x - 2)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$49x^2 + 28x + 4$"
+      },
+      {
+        "id": "b",
+        "latex": "$49x^2 - 14x + 4$"
+      },
+      {
+        "id": "c",
+        "latex": "$49x^2 - 28x + 4$"
+      },
+      {
+        "id": "d",
+        "latex": "$49x^2 + 4$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "49*x^2-28*x+4",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(7*x-2)^2"
+    ],
+    "solution_latex": "Use $(a+b)^2=a^2+2ab+b^2$: the middle coefficient is $2\\cdot 7\\cdot -2=-28$.",
+    "complexity_factor": 1.1,
+    "source_section": "11.1",
+    "tags": [
+      "special-factorization",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-c124ee11a9f2911d1d15808e864495d1e3690662177126518a5096450d74443a",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.squares_binomials.medium.0019",
+    "topic_id": "ch11.squares_binomials",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Expand: $(2x + 5)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4x^2 + 10x + 25$"
+      },
+      {
+        "id": "b",
+        "latex": "$4x^2 + 25$"
+      },
+      {
+        "id": "c",
+        "latex": "$4x^2 + 20x + 25$"
+      },
+      {
+        "id": "d",
+        "latex": "$4x^2 - 20x + 25$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "4*x^2+20*x+25",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(2*x+5)^2"
+    ],
+    "solution_latex": "Use $(a+b)^2=a^2+2ab+b^2$: the middle coefficient is $2\\cdot 2\\cdot 5=20$.",
+    "complexity_factor": 1.1,
+    "source_section": "11.1",
+    "tags": [
+      "special-factorization",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-210fefc86bf3d87c597b2035f439b475398e82a0ce07ae87b4a292a450b67451",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.squares_binomials.medium.0020",
+    "topic_id": "ch11.squares_binomials",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Expand: $(3x - 8)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9x^2 + 64$"
+      },
+      {
+        "id": "b",
+        "latex": "$9x^2 + 48x + 64$"
+      },
+      {
+        "id": "c",
+        "latex": "$9x^2 - 48x + 64$"
+      },
+      {
+        "id": "d",
+        "latex": "$9x^2 - 24x + 64$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "9*x^2-48*x+64",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(3*x-8)^2"
+    ],
+    "solution_latex": "Use $(a+b)^2=a^2+2ab+b^2$: the middle coefficient is $2\\cdot 3\\cdot -8=-48$.",
+    "complexity_factor": 1.1,
+    "source_section": "11.1",
+    "tags": [
+      "special-factorization",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-0d156f3a2215cd26830bfb646dfbeb7a01ec64c09939e7866fba83fac74a8922",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.squares_binomials.medium.0021",
+    "topic_id": "ch11.squares_binomials",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Expand: $(4x + 1)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16x^2 + 1$"
+      },
+      {
+        "id": "b",
+        "latex": "$16x^2 + 8x + 1$"
+      },
+      {
+        "id": "c",
+        "latex": "$16x^2 - 8x + 1$"
+      },
+      {
+        "id": "d",
+        "latex": "$16x^2 + 4x + 1$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "16*x^2+8*x+1",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(4*x+1)^2"
+    ],
+    "solution_latex": "Use $(a+b)^2=a^2+2ab+b^2$: the middle coefficient is $2\\cdot 4\\cdot 1=8$.",
+    "complexity_factor": 1.1,
+    "source_section": "11.1",
+    "tags": [
+      "special-factorization",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-83da49f7aa2b38b4be37e429b8133d859aab890f7ea2ecf2940a60a2d81e75c2",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.squares_binomials.medium.0022",
+    "topic_id": "ch11.squares_binomials",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Expand: $(5x - 4)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$25x^2 - 40x + 16$"
+      },
+      {
+        "id": "b",
+        "latex": "$25x^2 + 40x + 16$"
+      },
+      {
+        "id": "c",
+        "latex": "$25x^2 + 16$"
+      },
+      {
+        "id": "d",
+        "latex": "$25x^2 - 20x + 16$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "25*x^2-40*x+16",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(5*x-4)^2"
+    ],
+    "solution_latex": "Use $(a+b)^2=a^2+2ab+b^2$: the middle coefficient is $2\\cdot 5\\cdot -4=-40$.",
+    "complexity_factor": 1.1,
+    "source_section": "11.1",
+    "tags": [
+      "special-factorization",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-f9bcef089ec4aa29f2a08977d3eaebdb941a1afaa5dc543657d28f9c79464fca",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.squares_binomials.medium.0023",
+    "topic_id": "ch11.squares_binomials",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Expand: $(6x + 7)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$36x^2 + 42x + 49$"
+      },
+      {
+        "id": "b",
+        "latex": "$36x^2 - 84x + 49$"
+      },
+      {
+        "id": "c",
+        "latex": "$36x^2 + 84x + 49$"
+      },
+      {
+        "id": "d",
+        "latex": "$36x^2 + 49$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "36*x^2+84*x+49",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(6*x+7)^2"
+    ],
+    "solution_latex": "Use $(a+b)^2=a^2+2ab+b^2$: the middle coefficient is $2\\cdot 6\\cdot 7=84$.",
+    "complexity_factor": 1.1,
+    "source_section": "11.1",
+    "tags": [
+      "special-factorization",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-05e58192705df348474c643271aab3d073d017edb233c05cb1a9746e0f0e0242",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.squares_binomials.medium.0024",
+    "topic_id": "ch11.squares_binomials",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Expand: $(7x - 10)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$49x^2 + 140x + 100$"
+      },
+      {
+        "id": "b",
+        "latex": "$49x^2 + 100$"
+      },
+      {
+        "id": "c",
+        "latex": "$49x^2 - 140x + 100$"
+      },
+      {
+        "id": "d",
+        "latex": "$49x^2 - 70x + 100$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "49*x^2-140*x+100",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(7*x-10)^2"
+    ],
+    "solution_latex": "Use $(a+b)^2=a^2+2ab+b^2$: the middle coefficient is $2\\cdot 7\\cdot -10=-140$.",
+    "complexity_factor": 1.1,
+    "source_section": "11.1",
+    "tags": [
+      "special-factorization",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-523b3e0a612336f07b934b8952193bb61b6c2e63bb73260eaf85908586ba381f",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.squares_binomials.medium.0025",
+    "topic_id": "ch11.squares_binomials",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Expand: $(2x + 3)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4x^2 - 12x + 9$"
+      },
+      {
+        "id": "b",
+        "latex": "$4x^2 + 12x + 9$"
+      },
+      {
+        "id": "c",
+        "latex": "$4x^2 + 9$"
+      },
+      {
+        "id": "d",
+        "latex": "$4x^2 + 6x + 9$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "4*x^2+12*x+9",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(2*x+3)^2"
+    ],
+    "solution_latex": "Use $(a+b)^2=a^2+2ab+b^2$: the middle coefficient is $2\\cdot 2\\cdot 3=12$.",
+    "complexity_factor": 1.1,
+    "source_section": "11.1",
+    "tags": [
+      "special-factorization",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-9bb877ac56b2c3e460b71e6a361c7a5f040cd39d85a038ff6a68f15d54df8a6e",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.squares_binomials.medium.0026",
+    "topic_id": "ch11.squares_binomials",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Expand: $(3x - 6)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9x^2 + 36x + 36$"
+      },
+      {
+        "id": "b",
+        "latex": "$9x^2 - 18x + 36$"
+      },
+      {
+        "id": "c",
+        "latex": "$9x^2 + 36$"
+      },
+      {
+        "id": "d",
+        "latex": "$9x^2 - 36x + 36$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "9*x^2-36*x+36",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(3*x-6)^2"
+    ],
+    "solution_latex": "Use $(a+b)^2=a^2+2ab+b^2$: the middle coefficient is $2\\cdot 3\\cdot -6=-36$.",
+    "complexity_factor": 1.1,
+    "source_section": "11.1",
+    "tags": [
+      "special-factorization",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-ae5785884fcb2b24853eff539edae1ccc9ce083c1e399af8937926e6dbf26d4d",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.squares_binomials.medium.0027",
+    "topic_id": "ch11.squares_binomials",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Expand: $(4x + 9)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16x^2 + 81$"
+      },
+      {
+        "id": "b",
+        "latex": "$16x^2 + 36x + 81$"
+      },
+      {
+        "id": "c",
+        "latex": "$16x^2 + 72x + 81$"
+      },
+      {
+        "id": "d",
+        "latex": "$16x^2 - 72x + 81$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "16*x^2+72*x+81",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(4*x+9)^2"
+    ],
+    "solution_latex": "Use $(a+b)^2=a^2+2ab+b^2$: the middle coefficient is $2\\cdot 4\\cdot 9=72$.",
+    "complexity_factor": 1.1,
+    "source_section": "11.1",
+    "tags": [
+      "special-factorization",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-53a504f84f456b968a8650fb08c396e85be741c2ea994e403c27dce64935bef2",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.squares_binomials.medium.0028",
+    "topic_id": "ch11.squares_binomials",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Expand: $(5x - 2)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$25x^2 - 10x + 4$"
+      },
+      {
+        "id": "b",
+        "latex": "$25x^2 + 4$"
+      },
+      {
+        "id": "c",
+        "latex": "$25x^2 + 20x + 4$"
+      },
+      {
+        "id": "d",
+        "latex": "$25x^2 - 20x + 4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "25*x^2-20*x+4",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(5*x-2)^2"
+    ],
+    "solution_latex": "Use $(a+b)^2=a^2+2ab+b^2$: the middle coefficient is $2\\cdot 5\\cdot -2=-20$.",
+    "complexity_factor": 1.1,
+    "source_section": "11.1",
+    "tags": [
+      "special-factorization",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-62b408b14299bddc8f025cff271c7eddb46f8c5ed477f0b0d83b56e4af21602e",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.squares_binomials.medium.0029",
+    "topic_id": "ch11.squares_binomials",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Expand: $(6x + 5)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$36x^2 + 60x + 25$"
+      },
+      {
+        "id": "b",
+        "latex": "$36x^2 - 60x + 25$"
+      },
+      {
+        "id": "c",
+        "latex": "$36x^2 + 30x + 25$"
+      },
+      {
+        "id": "d",
+        "latex": "$36x^2 + 25$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "36*x^2+60*x+25",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(6*x+5)^2"
+    ],
+    "solution_latex": "Use $(a+b)^2=a^2+2ab+b^2$: the middle coefficient is $2\\cdot 6\\cdot 5=60$.",
+    "complexity_factor": 1.1,
+    "source_section": "11.1",
+    "tags": [
+      "special-factorization",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-01ad3eed43f58ce0c80d5b2428ab2b3d2ffe18e30161974405adf3ac4627cd0c",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.squares_binomials.medium.0030",
+    "topic_id": "ch11.squares_binomials",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Expand: $(7x - 8)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$49x^2 - 56x + 64$"
+      },
+      {
+        "id": "b",
+        "latex": "$49x^2 + 112x + 64$"
+      },
+      {
+        "id": "c",
+        "latex": "$49x^2 + 64$"
+      },
+      {
+        "id": "d",
+        "latex": "$49x^2 - 112x + 64$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "49*x^2-112*x+64",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(7*x-8)^2"
+    ],
+    "solution_latex": "Use $(a+b)^2=a^2+2ab+b^2$: the middle coefficient is $2\\cdot 7\\cdot -8=-112$.",
+    "complexity_factor": 1.1,
+    "source_section": "11.1",
+    "tags": [
+      "special-factorization",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-935679977ee624c5a41abf37bf1f4f5f250045aad9f856a891b927e4a15a02fb",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.squares_binomials.medium.0031",
+    "topic_id": "ch11.squares_binomials",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "If $4x^2 + kx + 4=(2x + 2)^2$, what is $k$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The middle term is $2\\cdot 2x\\cdot (2)=8x$, so $k=8$.",
+    "complexity_factor": 1.1,
+    "source_section": "11.1",
+    "tags": [
+      "special-factorization",
+      "square-of-binomial",
+      "missing-coefficient"
+    ],
+    "checksum": "sha256-290b8c9a21787b562382794295e9706897be97ac1542a40b47db5f6fac2e47ae",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.squares_binomials.medium.0032",
+    "topic_id": "ch11.squares_binomials",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "If $9x^2 + kx + 16=(3x - 4)^2$, what is $k$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-25$"
+      },
+      {
+        "id": "b",
+        "latex": "$-24$"
+      },
+      {
+        "id": "c",
+        "latex": "$-22$"
+      },
+      {
+        "id": "d",
+        "latex": "$-23$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-24",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The middle term is $2\\cdot 3x\\cdot (-4)=-24x$, so $k=-24$.",
+    "complexity_factor": 1.1,
+    "source_section": "11.1",
+    "tags": [
+      "special-factorization",
+      "square-of-binomial",
+      "missing-coefficient"
+    ],
+    "checksum": "sha256-8f876eddbc48323cb6f96a0cf5d73c93b20654e8df4c4b3beb6fe0d6043bab1c",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.squares_binomials.medium.0033",
+    "topic_id": "ch11.squares_binomials",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "If $16x^2 + kx + 36=(4x + 6)^2$, what is $k$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$47$"
+      },
+      {
+        "id": "b",
+        "latex": "$50$"
+      },
+      {
+        "id": "c",
+        "latex": "$49$"
+      },
+      {
+        "id": "d",
+        "latex": "$48$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "48",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The middle term is $2\\cdot 4x\\cdot (6)=48x$, so $k=48$.",
+    "complexity_factor": 1.1,
+    "source_section": "11.1",
+    "tags": [
+      "special-factorization",
+      "square-of-binomial",
+      "missing-coefficient"
+    ],
+    "checksum": "sha256-0e9f86e0c5e20ea7ac883a1b48e2593996bf9993f682f62de466858bd9e0c743",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.squares_binomials.medium.0034",
+    "topic_id": "ch11.squares_binomials",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "If $25x^2 + kx + 64=(5x - 8)^2$, what is $k$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-78$"
+      },
+      {
+        "id": "b",
+        "latex": "$-80$"
+      },
+      {
+        "id": "c",
+        "latex": "$-81$"
+      },
+      {
+        "id": "d",
+        "latex": "$-79$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-80",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The middle term is $2\\cdot 5x\\cdot (-8)=-80x$, so $k=-80$.",
+    "complexity_factor": 1.1,
+    "source_section": "11.1",
+    "tags": [
+      "special-factorization",
+      "square-of-binomial",
+      "missing-coefficient"
+    ],
+    "checksum": "sha256-38f3c1120c8ba2622d9e1baceea422c1d2623ff1940b69ef11135d5bc865661f",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.squares_binomials.medium.0035",
+    "topic_id": "ch11.squares_binomials",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "If $36x^2 + kx + 100=(6x + 10)^2$, what is $k$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$119$"
+      },
+      {
+        "id": "b",
+        "latex": "$121$"
+      },
+      {
+        "id": "c",
+        "latex": "$120$"
+      },
+      {
+        "id": "d",
+        "latex": "$122$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "120",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The middle term is $2\\cdot 6x\\cdot (10)=120x$, so $k=120$.",
+    "complexity_factor": 1.1,
+    "source_section": "11.1",
+    "tags": [
+      "special-factorization",
+      "square-of-binomial",
+      "missing-coefficient"
+    ],
+    "checksum": "sha256-46904944fe254b754f8e2f25638ed97324dd13c81ffd0fd4069dd359d00aaf20",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.squares_binomials.medium.0036",
+    "topic_id": "ch11.squares_binomials",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "If $49x^2 + kx + 9=(7x - 3)^2$, what is $k$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-43$"
+      },
+      {
+        "id": "b",
+        "latex": "$-40$"
+      },
+      {
+        "id": "c",
+        "latex": "$-41$"
+      },
+      {
+        "id": "d",
+        "latex": "$-42$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-42",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The middle term is $2\\cdot 7x\\cdot (-3)=-42x$, so $k=-42$.",
+    "complexity_factor": 1.1,
+    "source_section": "11.1",
+    "tags": [
+      "special-factorization",
+      "square-of-binomial",
+      "missing-coefficient"
+    ],
+    "checksum": "sha256-01532b2ea292648632da00d502fd946d4f11280708b1b9c57d84e18aed16e587",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.squares_binomials.medium.0037",
+    "topic_id": "ch11.squares_binomials",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "If $64x^2 + kx + 25=(8x + 5)^2$, what is $k$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$82$"
+      },
+      {
+        "id": "b",
+        "latex": "$79$"
+      },
+      {
+        "id": "c",
+        "latex": "$80$"
+      },
+      {
+        "id": "d",
+        "latex": "$81$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "80",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The middle term is $2\\cdot 8x\\cdot (5)=80x$, so $k=80$.",
+    "complexity_factor": 1.1,
+    "source_section": "11.1",
+    "tags": [
+      "special-factorization",
+      "square-of-binomial",
+      "missing-coefficient"
+    ],
+    "checksum": "sha256-834be2571b0f8599e8551d48398c6b71370754eee63e3f8efce141fe678e9b05",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.squares_binomials.medium.0038",
+    "topic_id": "ch11.squares_binomials",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "If $4x^2 + kx + 49=(2x - 7)^2$, what is $k$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-27$"
+      },
+      {
+        "id": "b",
+        "latex": "$-28$"
+      },
+      {
+        "id": "c",
+        "latex": "$-26$"
+      },
+      {
+        "id": "d",
+        "latex": "$-29$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-28",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The middle term is $2\\cdot 2x\\cdot (-7)=-28x$, so $k=-28$.",
+    "complexity_factor": 1.1,
+    "source_section": "11.1",
+    "tags": [
+      "special-factorization",
+      "square-of-binomial",
+      "missing-coefficient"
+    ],
+    "checksum": "sha256-3721b07be6f3adce0cce286e69400e435333841e01d943f343d4ad1bb04c33d1",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.squares_binomials.medium.0039",
+    "topic_id": "ch11.squares_binomials",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "If $9x^2 + kx + 81=(3x + 9)^2$, what is $k$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$53$"
+      },
+      {
+        "id": "b",
+        "latex": "$54$"
+      },
+      {
+        "id": "c",
+        "latex": "$55$"
+      },
+      {
+        "id": "d",
+        "latex": "$56$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "54",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The middle term is $2\\cdot 3x\\cdot (9)=54x$, so $k=54$.",
+    "complexity_factor": 1.1,
+    "source_section": "11.1",
+    "tags": [
+      "special-factorization",
+      "square-of-binomial",
+      "missing-coefficient"
+    ],
+    "checksum": "sha256-df4ba03fd5189c9cc92273dc78b7e159a55a21313aeb4d284efe0128cdbc8275",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.squares_binomials.medium.0040",
+    "topic_id": "ch11.squares_binomials",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "If $16x^2 + kx + 4=(4x - 2)^2$, what is $k$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-17$"
+      },
+      {
+        "id": "b",
+        "latex": "$-15$"
+      },
+      {
+        "id": "c",
+        "latex": "$-16$"
+      },
+      {
+        "id": "d",
+        "latex": "$-14$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-16",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The middle term is $2\\cdot 4x\\cdot (-2)=-16x$, so $k=-16$.",
+    "complexity_factor": 1.1,
+    "source_section": "11.1",
+    "tags": [
+      "special-factorization",
+      "square-of-binomial",
+      "missing-coefficient"
+    ],
+    "checksum": "sha256-c94bd2f874a37bb78159a917371fcec8c2be8c6875b145c98e0c62d34e773fb2",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.squares_binomials.medium.0041",
+    "topic_id": "ch11.squares_binomials",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "If $25x^2 + kx + 16=(5x + 4)^2$, what is $k$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$41$"
+      },
+      {
+        "id": "b",
+        "latex": "$39$"
+      },
+      {
+        "id": "c",
+        "latex": "$40$"
+      },
+      {
+        "id": "d",
+        "latex": "$42$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "40",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The middle term is $2\\cdot 5x\\cdot (4)=40x$, so $k=40$.",
+    "complexity_factor": 1.1,
+    "source_section": "11.1",
+    "tags": [
+      "special-factorization",
+      "square-of-binomial",
+      "missing-coefficient"
+    ],
+    "checksum": "sha256-a9e6f9c8a57c4571a9330a4c98bd6e0113a330f83c01ea171beb26327aa58146",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.squares_binomials.medium.0042",
+    "topic_id": "ch11.squares_binomials",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "If $36x^2 + kx + 36=(6x - 6)^2$, what is $k$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-71$"
+      },
+      {
+        "id": "b",
+        "latex": "$-72$"
+      },
+      {
+        "id": "c",
+        "latex": "$-70$"
+      },
+      {
+        "id": "d",
+        "latex": "$-73$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-72",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The middle term is $2\\cdot 6x\\cdot (-6)=-72x$, so $k=-72$.",
+    "complexity_factor": 1.1,
+    "source_section": "11.1",
+    "tags": [
+      "special-factorization",
+      "square-of-binomial",
+      "missing-coefficient"
+    ],
+    "checksum": "sha256-a73bdc8c98b9bf2520a5d1e8fa3a302982a4814a22dc1b07454ec7ed49e7a374",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.squares_binomials.medium.0043",
+    "topic_id": "ch11.squares_binomials",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "If $49x^2 + kx + 64=(7x + 8)^2$, what is $k$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$114$"
+      },
+      {
+        "id": "b",
+        "latex": "$113$"
+      },
+      {
+        "id": "c",
+        "latex": "$112$"
+      },
+      {
+        "id": "d",
+        "latex": "$111$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "112",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The middle term is $2\\cdot 7x\\cdot (8)=112x$, so $k=112$.",
+    "complexity_factor": 1.1,
+    "source_section": "11.1",
+    "tags": [
+      "special-factorization",
+      "square-of-binomial",
+      "missing-coefficient"
+    ],
+    "checksum": "sha256-60328e9410ba7c4c2b882d1af22a380e66f0ea319e16cb8a21c2103c045982d0",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.squares_binomials.medium.0044",
+    "topic_id": "ch11.squares_binomials",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "If $64x^2 + kx + 100=(8x - 10)^2$, what is $k$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-159$"
+      },
+      {
+        "id": "b",
+        "latex": "$-160$"
+      },
+      {
+        "id": "c",
+        "latex": "$-158$"
+      },
+      {
+        "id": "d",
+        "latex": "$-161$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-160",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The middle term is $2\\cdot 8x\\cdot (-10)=-160x$, so $k=-160$.",
+    "complexity_factor": 1.1,
+    "source_section": "11.1",
+    "tags": [
+      "special-factorization",
+      "square-of-binomial",
+      "missing-coefficient"
+    ],
+    "checksum": "sha256-9eac708ce0817a31620ae31bc140e509537ad0ad3375301266f908ca65b7fde7",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.squares_binomials.medium.0045",
+    "topic_id": "ch11.squares_binomials",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "If $4x^2 + kx + 9=(2x + 3)^2$, what is $k$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11$"
+      },
+      {
+        "id": "b",
+        "latex": "$12$"
+      },
+      {
+        "id": "c",
+        "latex": "$13$"
+      },
+      {
+        "id": "d",
+        "latex": "$14$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The middle term is $2\\cdot 2x\\cdot (3)=12x$, so $k=12$.",
+    "complexity_factor": 1.1,
+    "source_section": "11.1",
+    "tags": [
+      "special-factorization",
+      "square-of-binomial",
+      "missing-coefficient"
+    ],
+    "checksum": "sha256-4c89713d61b06d0e532bc6599eab3ab6bbeeb05fb61f3e781da963f6386e2a32",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.squares_binomials.medium.0046",
+    "topic_id": "ch11.squares_binomials",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "If $9x^2 + kx + 25=(3x - 5)^2$, what is $k$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-31$"
+      },
+      {
+        "id": "b",
+        "latex": "$-29$"
+      },
+      {
+        "id": "c",
+        "latex": "$-30$"
+      },
+      {
+        "id": "d",
+        "latex": "$-28$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-30",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The middle term is $2\\cdot 3x\\cdot (-5)=-30x$, so $k=-30$.",
+    "complexity_factor": 1.1,
+    "source_section": "11.1",
+    "tags": [
+      "special-factorization",
+      "square-of-binomial",
+      "missing-coefficient"
+    ],
+    "checksum": "sha256-8155290f77dc1bb06d93fcccf06054140eb04e37f47bc2060c0db7447b13d5d6",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.squares_binomials.medium.0047",
+    "topic_id": "ch11.squares_binomials",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "If $16x^2 + kx + 49=(4x + 7)^2$, what is $k$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$57$"
+      },
+      {
+        "id": "b",
+        "latex": "$56$"
+      },
+      {
+        "id": "c",
+        "latex": "$58$"
+      },
+      {
+        "id": "d",
+        "latex": "$55$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "56",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The middle term is $2\\cdot 4x\\cdot (7)=56x$, so $k=56$.",
+    "complexity_factor": 1.1,
+    "source_section": "11.1",
+    "tags": [
+      "special-factorization",
+      "square-of-binomial",
+      "missing-coefficient"
+    ],
+    "checksum": "sha256-68d8d2d2efcb423efb09fe670e70f34504da17fafbf5992b3162b63ad55eda2c",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.squares_binomials.medium.0048",
+    "topic_id": "ch11.squares_binomials",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "If $25x^2 + kx + 81=(5x - 9)^2$, what is $k$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-88$"
+      },
+      {
+        "id": "b",
+        "latex": "$-90$"
+      },
+      {
+        "id": "c",
+        "latex": "$-89$"
+      },
+      {
+        "id": "d",
+        "latex": "$-91$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-90",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The middle term is $2\\cdot 5x\\cdot (-9)=-90x$, so $k=-90$.",
+    "complexity_factor": 1.1,
+    "source_section": "11.1",
+    "tags": [
+      "special-factorization",
+      "square-of-binomial",
+      "missing-coefficient"
+    ],
+    "checksum": "sha256-115dbef19288c0e747fdf4b77b6e0f0e6b135ae95622e9af3513c89fb49d92df",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.squares_binomials.medium.0049",
+    "topic_id": "ch11.squares_binomials",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "If $36x^2 + kx + 4=(6x + 2)^2$, what is $k$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$26$"
+      },
+      {
+        "id": "b",
+        "latex": "$24$"
+      },
+      {
+        "id": "c",
+        "latex": "$23$"
+      },
+      {
+        "id": "d",
+        "latex": "$25$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "24",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The middle term is $2\\cdot 6x\\cdot (2)=24x$, so $k=24$.",
+    "complexity_factor": 1.1,
+    "source_section": "11.1",
+    "tags": [
+      "special-factorization",
+      "square-of-binomial",
+      "missing-coefficient"
+    ],
+    "checksum": "sha256-2f9e7a9fe5777498e1fd6e0501e74b26e236c62f8bcfb5f388f3dfa81dbf4084",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.squares_binomials.medium.0050",
+    "topic_id": "ch11.squares_binomials",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "If $49x^2 + kx + 16=(7x - 4)^2$, what is $k$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-54$"
+      },
+      {
+        "id": "b",
+        "latex": "$-55$"
+      },
+      {
+        "id": "c",
+        "latex": "$-56$"
+      },
+      {
+        "id": "d",
+        "latex": "$-57$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-56",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The middle term is $2\\cdot 7x\\cdot (-4)=-56x$, so $k=-56$.",
+    "complexity_factor": 1.1,
+    "source_section": "11.1",
+    "tags": [
+      "special-factorization",
+      "square-of-binomial",
+      "missing-coefficient"
+    ],
+    "checksum": "sha256-7a8a1d11fc638070f66f1964aa039e3ca14534611bfd32331f015bad1705cd68",
+    "status": "valid"
+  }
+]

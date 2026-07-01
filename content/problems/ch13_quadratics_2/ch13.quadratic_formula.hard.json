@@ -1,0 +1,2077 @@
+[
+  {
+    "id": "ch13.quadratic_formula.hard.0001",
+    "topic_id": "ch13.quadratic_formula",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "hard",
+    "prompt_latex": "Use the quadratic formula to solve $2x^2 + 10x + 11.5=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=\\frac{10\\pm\\sqrt{8}}{4}$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=\\frac{-10\\pm\\sqrt{12}}{4}$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=\\frac{-10\\pm\\sqrt{8}}{4}$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=\\frac{-10\\pm\\sqrt{8}}{2}$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "x=(-10+-sqrt(8))/4",
+    "answer_type": "string",
+    "accepted_forms": [
+      "x=(-10+-sqrt(8))/4"
+    ],
+    "solution_latex": "The discriminant is $8$, so $x=\\frac{-10\\pm\\sqrt{8}}{4}$.",
+    "complexity_factor": 1.45,
+    "source_section": "13.3",
+    "tags": [
+      "quadratic",
+      "quadratic-formula",
+      "radical-roots"
+    ],
+    "checksum": "sha256-9dddf2b50563da46e29441c8535551e4a5078f181ec54ae7921268970ea4b973",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.quadratic_formula.hard.0002",
+    "topic_id": "ch13.quadratic_formula",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ does $x^2 + 4x+k=0$ have exactly one real solution?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$16$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Exactly one real solution means discriminant $0$: $(4)^2-4k=0$, so $k=4$.",
+    "complexity_factor": 1.3,
+    "source_section": "13.3",
+    "tags": [
+      "quadratic",
+      "quadratic-formula",
+      "discriminant",
+      "parameter"
+    ],
+    "checksum": "sha256-8aa2665ce0df4ea4090f40fa48432dd24ec1e20c33226c77f62369de837a0cc1",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.quadratic_formula.hard.0003",
+    "topic_id": "ch13.quadratic_formula",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "hard",
+    "prompt_latex": "Use the quadratic formula to solve $x^2 + 7x + 9=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=\\frac{7\\pm\\sqrt{13}}{2}$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=\\frac{-7\\pm\\sqrt{17}}{2}$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=\\frac{-7\\pm\\sqrt{13}}{1}$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=\\frac{-7\\pm\\sqrt{13}}{2}$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x=(-7+-sqrt(13))/2",
+    "answer_type": "string",
+    "accepted_forms": [
+      "x=(-7+-sqrt(13))/2"
+    ],
+    "solution_latex": "The discriminant is $13$, so $x=\\frac{-7\\pm\\sqrt{13}}{2}$.",
+    "complexity_factor": 1.45,
+    "source_section": "13.3",
+    "tags": [
+      "quadratic",
+      "quadratic-formula",
+      "radical-roots"
+    ],
+    "checksum": "sha256-76053065b0c7f905439b3759f9cdc763a31f60d1e0aebb91517873fc6f3c392c",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.quadratic_formula.hard.0004",
+    "topic_id": "ch13.quadratic_formula",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ does $x^2 + 6x+k=0$ have exactly one real solution?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$36$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$15$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Exactly one real solution means discriminant $0$: $(6)^2-4k=0$, so $k=9$.",
+    "complexity_factor": 1.3,
+    "source_section": "13.3",
+    "tags": [
+      "quadratic",
+      "quadratic-formula",
+      "discriminant",
+      "parameter"
+    ],
+    "checksum": "sha256-fc253f099cb902a722f21bcea2cd6359f5601a1e409fc7c3d930d50e648153fc",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.quadratic_formula.hard.0005",
+    "topic_id": "ch13.quadratic_formula",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "hard",
+    "prompt_latex": "Use the quadratic formula to solve $3x^2 + 18x + 25.333333333333332=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=\\frac{-18\\pm\\sqrt{24}}{6}$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=\\frac{-18\\pm\\sqrt{20}}{6}$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=\\frac{18\\pm\\sqrt{20}}{6}$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=\\frac{-18\\pm\\sqrt{20}}{3}$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "x=(-18+-sqrt(20))/6",
+    "answer_type": "string",
+    "accepted_forms": [
+      "x=(-18+-sqrt(20))/6"
+    ],
+    "solution_latex": "The discriminant is $20$, so $x=\\frac{-18\\pm\\sqrt{20}}{6}$.",
+    "complexity_factor": 1.45,
+    "source_section": "13.3",
+    "tags": [
+      "quadratic",
+      "quadratic-formula",
+      "radical-roots"
+    ],
+    "checksum": "sha256-fa67b2668a1f798f32963d1d35450756aebac22cc86e0685299987ef5265e323",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.quadratic_formula.hard.0006",
+    "topic_id": "ch13.quadratic_formula",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ does $x^2 + 8x+k=0$ have exactly one real solution?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$24$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$64$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "16",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Exactly one real solution means discriminant $0$: $(8)^2-4k=0$, so $k=16$.",
+    "complexity_factor": 1.3,
+    "source_section": "13.3",
+    "tags": [
+      "quadratic",
+      "quadratic-formula",
+      "discriminant",
+      "parameter"
+    ],
+    "checksum": "sha256-af6bfb859cf0481593e8f0a4144092096a1eb888b0265f975a50653334b40ea4",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.quadratic_formula.hard.0007",
+    "topic_id": "ch13.quadratic_formula",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "hard",
+    "prompt_latex": "Use the quadratic formula to solve $2x^2 + 6x + 1=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=\\frac{6\\pm\\sqrt{28}}{4}$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=\\frac{-6\\pm\\sqrt{28}}{2}$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=\\frac{-6\\pm\\sqrt{32}}{4}$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=\\frac{-6\\pm\\sqrt{28}}{4}$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x=(-6+-sqrt(28))/4",
+    "answer_type": "string",
+    "accepted_forms": [
+      "x=(-6+-sqrt(28))/4"
+    ],
+    "solution_latex": "The discriminant is $28$, so $x=\\frac{-6\\pm\\sqrt{28}}{4}$.",
+    "complexity_factor": 1.45,
+    "source_section": "13.3",
+    "tags": [
+      "quadratic",
+      "quadratic-formula",
+      "radical-roots"
+    ],
+    "checksum": "sha256-700f31a2689da31bb46c1aaeab33194058f53927f071df8756528642d6adb675",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.quadratic_formula.hard.0008",
+    "topic_id": "ch13.quadratic_formula",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ does $x^2 + 10x+k=0$ have exactly one real solution?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$25$"
+      },
+      {
+        "id": "b",
+        "latex": "$15$"
+      },
+      {
+        "id": "c",
+        "latex": "$100$"
+      },
+      {
+        "id": "d",
+        "latex": "$35$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "25",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Exactly one real solution means discriminant $0$: $(10)^2-4k=0$, so $k=25$.",
+    "complexity_factor": 1.3,
+    "source_section": "13.3",
+    "tags": [
+      "quadratic",
+      "quadratic-formula",
+      "discriminant",
+      "parameter"
+    ],
+    "checksum": "sha256-22649e09896b85802328b05fd08d51700b773ea8f63263c71a6a391a87f7b647",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.quadratic_formula.hard.0009",
+    "topic_id": "ch13.quadratic_formula",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "hard",
+    "prompt_latex": "Use the quadratic formula to solve $x^2 + 8x + 8=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=\\frac{8\\pm\\sqrt{32}}{2}$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=\\frac{-8\\pm\\sqrt{32}}{2}$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=\\frac{-8\\pm\\sqrt{36}}{2}$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=\\frac{-8\\pm\\sqrt{32}}{1}$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "x=(-8+-sqrt(32))/2",
+    "answer_type": "string",
+    "accepted_forms": [
+      "x=(-8+-sqrt(32))/2"
+    ],
+    "solution_latex": "The discriminant is $32$, so $x=\\frac{-8\\pm\\sqrt{32}}{2}$.",
+    "complexity_factor": 1.45,
+    "source_section": "13.3",
+    "tags": [
+      "quadratic",
+      "quadratic-formula",
+      "radical-roots"
+    ],
+    "checksum": "sha256-7a70d3a5db39d8962d497a2929badab3b806f5a88920daa4b1a775be08164f6b",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.quadratic_formula.hard.0010",
+    "topic_id": "ch13.quadratic_formula",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ does $x^2 + 12x+k=0$ have exactly one real solution?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$24$"
+      },
+      {
+        "id": "b",
+        "latex": "$48$"
+      },
+      {
+        "id": "c",
+        "latex": "$36$"
+      },
+      {
+        "id": "d",
+        "latex": "$144$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "36",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Exactly one real solution means discriminant $0$: $(12)^2-4k=0$, so $k=36$.",
+    "complexity_factor": 1.3,
+    "source_section": "13.3",
+    "tags": [
+      "quadratic",
+      "quadratic-formula",
+      "discriminant",
+      "parameter"
+    ],
+    "checksum": "sha256-8af74d681c51bdeea0f2ce3dc38bbf4dca3f89b22d74bf44b1f0d245b0a23467",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.quadratic_formula.hard.0011",
+    "topic_id": "ch13.quadratic_formula",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "hard",
+    "prompt_latex": "Use the quadratic formula to solve $3x^2 + 12x + 11.333333333333334=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=\\frac{-12\\pm\\sqrt{8}}{3}$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=\\frac{-12\\pm\\sqrt{12}}{6}$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=\\frac{12\\pm\\sqrt{8}}{6}$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=\\frac{-12\\pm\\sqrt{8}}{6}$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x=(-12+-sqrt(8))/6",
+    "answer_type": "string",
+    "accepted_forms": [
+      "x=(-12+-sqrt(8))/6"
+    ],
+    "solution_latex": "The discriminant is $8$, so $x=\\frac{-12\\pm\\sqrt{8}}{6}$.",
+    "complexity_factor": 1.45,
+    "source_section": "13.3",
+    "tags": [
+      "quadratic",
+      "quadratic-formula",
+      "radical-roots"
+    ],
+    "checksum": "sha256-b84e440998d208834b52149ac7dbbf79eea34099822a55f93a2a452a2d6bb3f5",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.quadratic_formula.hard.0012",
+    "topic_id": "ch13.quadratic_formula",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ does $x^2 + 14x+k=0$ have exactly one real solution?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$49$"
+      },
+      {
+        "id": "b",
+        "latex": "$196$"
+      },
+      {
+        "id": "c",
+        "latex": "$35$"
+      },
+      {
+        "id": "d",
+        "latex": "$63$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "49",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Exactly one real solution means discriminant $0$: $(14)^2-4k=0$, so $k=49$.",
+    "complexity_factor": 1.3,
+    "source_section": "13.3",
+    "tags": [
+      "quadratic",
+      "quadratic-formula",
+      "discriminant",
+      "parameter"
+    ],
+    "checksum": "sha256-26081abf0679f53e2c4766674a562a43bf38a15fd266211a95bb73080184861c",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.quadratic_formula.hard.0013",
+    "topic_id": "ch13.quadratic_formula",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "hard",
+    "prompt_latex": "Use the quadratic formula to solve $2x^2 + 13x + 19.5=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=\\frac{13\\pm\\sqrt{13}}{4}$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=\\frac{-13\\pm\\sqrt{17}}{4}$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=\\frac{-13\\pm\\sqrt{13}}{4}$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=\\frac{-13\\pm\\sqrt{13}}{2}$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "x=(-13+-sqrt(13))/4",
+    "answer_type": "string",
+    "accepted_forms": [
+      "x=(-13+-sqrt(13))/4"
+    ],
+    "solution_latex": "The discriminant is $13$, so $x=\\frac{-13\\pm\\sqrt{13}}{4}$.",
+    "complexity_factor": 1.45,
+    "source_section": "13.3",
+    "tags": [
+      "quadratic",
+      "quadratic-formula",
+      "radical-roots"
+    ],
+    "checksum": "sha256-88c437f35507d32f9efdf068287092fd626048878bc0782729a1e1bc8a70c276",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.quadratic_formula.hard.0014",
+    "topic_id": "ch13.quadratic_formula",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ does $x^2 + 16x+k=0$ have exactly one real solution?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$64$"
+      },
+      {
+        "id": "b",
+        "latex": "$48$"
+      },
+      {
+        "id": "c",
+        "latex": "$80$"
+      },
+      {
+        "id": "d",
+        "latex": "$256$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "64",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Exactly one real solution means discriminant $0$: $(16)^2-4k=0$, so $k=64$.",
+    "complexity_factor": 1.3,
+    "source_section": "13.3",
+    "tags": [
+      "quadratic",
+      "quadratic-formula",
+      "discriminant",
+      "parameter"
+    ],
+    "checksum": "sha256-e65d8fb3ca83e02e0e5155f474810e61a7b6f2b5ba8c3630d2aba25435458bed",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.quadratic_formula.hard.0015",
+    "topic_id": "ch13.quadratic_formula",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "hard",
+    "prompt_latex": "Use the quadratic formula to solve $x^2 + 4x - 1=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=\\frac{4\\pm\\sqrt{20}}{2}$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=\\frac{-4\\pm\\sqrt{24}}{2}$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=\\frac{-4\\pm\\sqrt{20}}{1}$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=\\frac{-4\\pm\\sqrt{20}}{2}$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x=(-4+-sqrt(20))/2",
+    "answer_type": "string",
+    "accepted_forms": [
+      "x=(-4+-sqrt(20))/2"
+    ],
+    "solution_latex": "The discriminant is $20$, so $x=\\frac{-4\\pm\\sqrt{20}}{2}$.",
+    "complexity_factor": 1.45,
+    "source_section": "13.3",
+    "tags": [
+      "quadratic",
+      "quadratic-formula",
+      "radical-roots"
+    ],
+    "checksum": "sha256-c85d5fed1879e08e58dcfb8d90b057724963d25530c5fa81b2acc77fded5c544",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.quadratic_formula.hard.0016",
+    "topic_id": "ch13.quadratic_formula",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ does $x^2 + 18x+k=0$ have exactly one real solution?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$63$"
+      },
+      {
+        "id": "b",
+        "latex": "$324$"
+      },
+      {
+        "id": "c",
+        "latex": "$81$"
+      },
+      {
+        "id": "d",
+        "latex": "$99$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "81",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Exactly one real solution means discriminant $0$: $(18)^2-4k=0$, so $k=81$.",
+    "complexity_factor": 1.3,
+    "source_section": "13.3",
+    "tags": [
+      "quadratic",
+      "quadratic-formula",
+      "discriminant",
+      "parameter"
+    ],
+    "checksum": "sha256-7e56eb20bfddc349335e400d518d1212902e80acc6a7f7f6a5b24d4267dc6215",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.quadratic_formula.hard.0017",
+    "topic_id": "ch13.quadratic_formula",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "hard",
+    "prompt_latex": "Use the quadratic formula to solve $3x^2 + 8x + 3=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=\\frac{-8\\pm\\sqrt{32}}{6}$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=\\frac{-8\\pm\\sqrt{28}}{6}$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=\\frac{8\\pm\\sqrt{28}}{6}$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=\\frac{-8\\pm\\sqrt{28}}{3}$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "x=(-8+-sqrt(28))/6",
+    "answer_type": "string",
+    "accepted_forms": [
+      "x=(-8+-sqrt(28))/6"
+    ],
+    "solution_latex": "The discriminant is $28$, so $x=\\frac{-8\\pm\\sqrt{28}}{6}$.",
+    "complexity_factor": 1.45,
+    "source_section": "13.3",
+    "tags": [
+      "quadratic",
+      "quadratic-formula",
+      "radical-roots"
+    ],
+    "checksum": "sha256-19aa777f6ed097ecefe65f36e9f9ee57d7e90c2079ed3f383a1e190c28619fdb",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.quadratic_formula.hard.0018",
+    "topic_id": "ch13.quadratic_formula",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ does $x^2 + 20x+k=0$ have exactly one real solution?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$100$"
+      },
+      {
+        "id": "b",
+        "latex": "$120$"
+      },
+      {
+        "id": "c",
+        "latex": "$80$"
+      },
+      {
+        "id": "d",
+        "latex": "$400$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "100",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Exactly one real solution means discriminant $0$: $(20)^2-4k=0$, so $k=100$.",
+    "complexity_factor": 1.3,
+    "source_section": "13.3",
+    "tags": [
+      "quadratic",
+      "quadratic-formula",
+      "discriminant",
+      "parameter"
+    ],
+    "checksum": "sha256-f305aaf2e1518fcd5d630ada99cbb071a95173032715332b6d2179cac703e37b",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.quadratic_formula.hard.0019",
+    "topic_id": "ch13.quadratic_formula",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "hard",
+    "prompt_latex": "Use the quadratic formula to solve $2x^2 + 18x + 36.5=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=\\frac{18\\pm\\sqrt{32}}{4}$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=\\frac{-18\\pm\\sqrt{32}}{2}$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=\\frac{-18\\pm\\sqrt{36}}{4}$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=\\frac{-18\\pm\\sqrt{32}}{4}$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x=(-18+-sqrt(32))/4",
+    "answer_type": "string",
+    "accepted_forms": [
+      "x=(-18+-sqrt(32))/4"
+    ],
+    "solution_latex": "The discriminant is $32$, so $x=\\frac{-18\\pm\\sqrt{32}}{4}$.",
+    "complexity_factor": 1.45,
+    "source_section": "13.3",
+    "tags": [
+      "quadratic",
+      "quadratic-formula",
+      "radical-roots"
+    ],
+    "checksum": "sha256-dd3cd506f730c64b50bf7792c90d8b635bf8043173bf6a8557f73e5b04df4e44",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.quadratic_formula.hard.0020",
+    "topic_id": "ch13.quadratic_formula",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ does $x^2 + 22x+k=0$ have exactly one real solution?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$121$"
+      },
+      {
+        "id": "b",
+        "latex": "$99$"
+      },
+      {
+        "id": "c",
+        "latex": "$484$"
+      },
+      {
+        "id": "d",
+        "latex": "$143$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "121",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Exactly one real solution means discriminant $0$: $(22)^2-4k=0$, so $k=121$.",
+    "complexity_factor": 1.3,
+    "source_section": "13.3",
+    "tags": [
+      "quadratic",
+      "quadratic-formula",
+      "discriminant",
+      "parameter"
+    ],
+    "checksum": "sha256-0796b660dfd4d0af574d5c52a4de71d7b8270e4503930f74912d91420d731f1d",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.quadratic_formula.hard.0021",
+    "topic_id": "ch13.quadratic_formula",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "hard",
+    "prompt_latex": "Use the quadratic formula to solve $x^2 + 10x + 23=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=\\frac{10\\pm\\sqrt{8}}{2}$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=\\frac{-10\\pm\\sqrt{8}}{2}$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=\\frac{-10\\pm\\sqrt{12}}{2}$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=\\frac{-10\\pm\\sqrt{8}}{1}$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "x=(-10+-sqrt(8))/2",
+    "answer_type": "string",
+    "accepted_forms": [
+      "x=(-10+-sqrt(8))/2"
+    ],
+    "solution_latex": "The discriminant is $8$, so $x=\\frac{-10\\pm\\sqrt{8}}{2}$.",
+    "complexity_factor": 1.45,
+    "source_section": "13.3",
+    "tags": [
+      "quadratic",
+      "quadratic-formula",
+      "radical-roots"
+    ],
+    "checksum": "sha256-12d484339555c690c1289c66823d99374eb9538334c0dcce7a04cc8cc5e1b975",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.quadratic_formula.hard.0022",
+    "topic_id": "ch13.quadratic_formula",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ does $x^2 + 24x+k=0$ have exactly one real solution?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$120$"
+      },
+      {
+        "id": "b",
+        "latex": "$168$"
+      },
+      {
+        "id": "c",
+        "latex": "$144$"
+      },
+      {
+        "id": "d",
+        "latex": "$576$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "144",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Exactly one real solution means discriminant $0$: $(24)^2-4k=0$, so $k=144$.",
+    "complexity_factor": 1.3,
+    "source_section": "13.3",
+    "tags": [
+      "quadratic",
+      "quadratic-formula",
+      "discriminant",
+      "parameter"
+    ],
+    "checksum": "sha256-797061b95d39c7f845beffee5e99b17aa099ebe90aa4d4753357475b9661fd83",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.quadratic_formula.hard.0023",
+    "topic_id": "ch13.quadratic_formula",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "hard",
+    "prompt_latex": "Use the quadratic formula to solve $3x^2 + 23x + 43=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=\\frac{-23\\pm\\sqrt{13}}{3}$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=\\frac{-23\\pm\\sqrt{17}}{6}$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=\\frac{23\\pm\\sqrt{13}}{6}$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=\\frac{-23\\pm\\sqrt{13}}{6}$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x=(-23+-sqrt(13))/6",
+    "answer_type": "string",
+    "accepted_forms": [
+      "x=(-23+-sqrt(13))/6"
+    ],
+    "solution_latex": "The discriminant is $13$, so $x=\\frac{-23\\pm\\sqrt{13}}{6}$.",
+    "complexity_factor": 1.45,
+    "source_section": "13.3",
+    "tags": [
+      "quadratic",
+      "quadratic-formula",
+      "radical-roots"
+    ],
+    "checksum": "sha256-d8672940570935da33bc6daae74039d61f85e4dac1cd2f70b37fcbb384e50c81",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.quadratic_formula.hard.0024",
+    "topic_id": "ch13.quadratic_formula",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ does $x^2 + 26x+k=0$ have exactly one real solution?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$169$"
+      },
+      {
+        "id": "b",
+        "latex": "$676$"
+      },
+      {
+        "id": "c",
+        "latex": "$143$"
+      },
+      {
+        "id": "d",
+        "latex": "$195$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "169",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Exactly one real solution means discriminant $0$: $(26)^2-4k=0$, so $k=169$.",
+    "complexity_factor": 1.3,
+    "source_section": "13.3",
+    "tags": [
+      "quadratic",
+      "quadratic-formula",
+      "discriminant",
+      "parameter"
+    ],
+    "checksum": "sha256-c6acfed7b40ce18cf50e7b0a04b39ff237030c8b928f299a4f95d83e635dbda4",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.quadratic_formula.hard.0025",
+    "topic_id": "ch13.quadratic_formula",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "hard",
+    "prompt_latex": "Use the quadratic formula to solve $2x^2 + 6x + 2=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=\\frac{6\\pm\\sqrt{20}}{4}$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=\\frac{-6\\pm\\sqrt{24}}{4}$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=\\frac{-6\\pm\\sqrt{20}}{4}$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=\\frac{-6\\pm\\sqrt{20}}{2}$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "x=(-6+-sqrt(20))/4",
+    "answer_type": "string",
+    "accepted_forms": [
+      "x=(-6+-sqrt(20))/4"
+    ],
+    "solution_latex": "The discriminant is $20$, so $x=\\frac{-6\\pm\\sqrt{20}}{4}$.",
+    "complexity_factor": 1.45,
+    "source_section": "13.3",
+    "tags": [
+      "quadratic",
+      "quadratic-formula",
+      "radical-roots"
+    ],
+    "checksum": "sha256-854a39dfc5975468548270424502c8dc8b7e2e7a91298aee5938b99a52289e46",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.quadratic_formula.hard.0026",
+    "topic_id": "ch13.quadratic_formula",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ does $x^2 + 28x+k=0$ have exactly one real solution?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$196$"
+      },
+      {
+        "id": "b",
+        "latex": "$168$"
+      },
+      {
+        "id": "c",
+        "latex": "$224$"
+      },
+      {
+        "id": "d",
+        "latex": "$784$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "196",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Exactly one real solution means discriminant $0$: $(28)^2-4k=0$, so $k=196$.",
+    "complexity_factor": 1.3,
+    "source_section": "13.3",
+    "tags": [
+      "quadratic",
+      "quadratic-formula",
+      "discriminant",
+      "parameter"
+    ],
+    "checksum": "sha256-2e388332585df020f257fddcae706286ebfba130f57d16b8e3522932878a70c5",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.quadratic_formula.hard.0027",
+    "topic_id": "ch13.quadratic_formula",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "hard",
+    "prompt_latex": "Use the quadratic formula to solve $x^2 + 8x + 9=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=\\frac{8\\pm\\sqrt{28}}{2}$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=\\frac{-8\\pm\\sqrt{32}}{2}$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=\\frac{-8\\pm\\sqrt{28}}{1}$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=\\frac{-8\\pm\\sqrt{28}}{2}$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x=(-8+-sqrt(28))/2",
+    "answer_type": "string",
+    "accepted_forms": [
+      "x=(-8+-sqrt(28))/2"
+    ],
+    "solution_latex": "The discriminant is $28$, so $x=\\frac{-8\\pm\\sqrt{28}}{2}$.",
+    "complexity_factor": 1.45,
+    "source_section": "13.3",
+    "tags": [
+      "quadratic",
+      "quadratic-formula",
+      "radical-roots"
+    ],
+    "checksum": "sha256-27a46a4ff4f2f6015095865636d1ad5c350b916b45e0b03b6f1de0532d21f5df",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.quadratic_formula.hard.0028",
+    "topic_id": "ch13.quadratic_formula",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ does $x^2 + 30x+k=0$ have exactly one real solution?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$195$"
+      },
+      {
+        "id": "b",
+        "latex": "$900$"
+      },
+      {
+        "id": "c",
+        "latex": "$225$"
+      },
+      {
+        "id": "d",
+        "latex": "$255$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "225",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Exactly one real solution means discriminant $0$: $(30)^2-4k=0$, so $k=225$.",
+    "complexity_factor": 1.3,
+    "source_section": "13.3",
+    "tags": [
+      "quadratic",
+      "quadratic-formula",
+      "discriminant",
+      "parameter"
+    ],
+    "checksum": "sha256-5e0223c2a0abaf49c3c8308de43c9ca9f5583464e2d9c0aa1e3e1b104b59f630",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.quadratic_formula.hard.0029",
+    "topic_id": "ch13.quadratic_formula",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "hard",
+    "prompt_latex": "Use the quadratic formula to solve $3x^2 + 24x + 45.333333333333336=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=\\frac{-24\\pm\\sqrt{36}}{6}$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=\\frac{-24\\pm\\sqrt{32}}{6}$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=\\frac{24\\pm\\sqrt{32}}{6}$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=\\frac{-24\\pm\\sqrt{32}}{3}$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "x=(-24+-sqrt(32))/6",
+    "answer_type": "string",
+    "accepted_forms": [
+      "x=(-24+-sqrt(32))/6"
+    ],
+    "solution_latex": "The discriminant is $32$, so $x=\\frac{-24\\pm\\sqrt{32}}{6}$.",
+    "complexity_factor": 1.45,
+    "source_section": "13.3",
+    "tags": [
+      "quadratic",
+      "quadratic-formula",
+      "radical-roots"
+    ],
+    "checksum": "sha256-8d58ec0b85c6cf9258c1a2bcf07cf4b22b39dbcf652c52bf94b7abcff5065821",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.quadratic_formula.hard.0030",
+    "topic_id": "ch13.quadratic_formula",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ does $x^2 + 32x+k=0$ have exactly one real solution?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$256$"
+      },
+      {
+        "id": "b",
+        "latex": "$288$"
+      },
+      {
+        "id": "c",
+        "latex": "$224$"
+      },
+      {
+        "id": "d",
+        "latex": "$1024$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "256",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Exactly one real solution means discriminant $0$: $(32)^2-4k=0$, so $k=256$.",
+    "complexity_factor": 1.3,
+    "source_section": "13.3",
+    "tags": [
+      "quadratic",
+      "quadratic-formula",
+      "discriminant",
+      "parameter"
+    ],
+    "checksum": "sha256-fc75987ffc9e8feda84eef790a93f267fbf80348834debb30224479611a40e4a",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.quadratic_formula.hard.0031",
+    "topic_id": "ch13.quadratic_formula",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "hard",
+    "prompt_latex": "Use the quadratic formula to solve $2x^2 + 16x + 31=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=\\frac{16\\pm\\sqrt{8}}{4}$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=\\frac{-16\\pm\\sqrt{8}}{2}$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=\\frac{-16\\pm\\sqrt{12}}{4}$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=\\frac{-16\\pm\\sqrt{8}}{4}$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x=(-16+-sqrt(8))/4",
+    "answer_type": "string",
+    "accepted_forms": [
+      "x=(-16+-sqrt(8))/4"
+    ],
+    "solution_latex": "The discriminant is $8$, so $x=\\frac{-16\\pm\\sqrt{8}}{4}$.",
+    "complexity_factor": 1.45,
+    "source_section": "13.3",
+    "tags": [
+      "quadratic",
+      "quadratic-formula",
+      "radical-roots"
+    ],
+    "checksum": "sha256-530eafbb98250275039e8630e2712e8c47725f722c564841d3cea8586ada06bf",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.quadratic_formula.hard.0032",
+    "topic_id": "ch13.quadratic_formula",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ does $x^2 + 34x+k=0$ have exactly one real solution?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$289$"
+      },
+      {
+        "id": "b",
+        "latex": "$255$"
+      },
+      {
+        "id": "c",
+        "latex": "$1156$"
+      },
+      {
+        "id": "d",
+        "latex": "$323$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "289",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Exactly one real solution means discriminant $0$: $(34)^2-4k=0$, so $k=289$.",
+    "complexity_factor": 1.3,
+    "source_section": "13.3",
+    "tags": [
+      "quadratic",
+      "quadratic-formula",
+      "discriminant",
+      "parameter"
+    ],
+    "checksum": "sha256-76de95fa4c8336daf0213d723efb6a8c7e209ae5b95e11ed283dadcdae121ace",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.quadratic_formula.hard.0033",
+    "topic_id": "ch13.quadratic_formula",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "hard",
+    "prompt_latex": "Use the quadratic formula to solve $x^2 + 5x + 3=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=\\frac{5\\pm\\sqrt{13}}{2}$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=\\frac{-5\\pm\\sqrt{13}}{2}$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=\\frac{-5\\pm\\sqrt{17}}{2}$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=\\frac{-5\\pm\\sqrt{13}}{1}$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "x=(-5+-sqrt(13))/2",
+    "answer_type": "string",
+    "accepted_forms": [
+      "x=(-5+-sqrt(13))/2"
+    ],
+    "solution_latex": "The discriminant is $13$, so $x=\\frac{-5\\pm\\sqrt{13}}{2}$.",
+    "complexity_factor": 1.45,
+    "source_section": "13.3",
+    "tags": [
+      "quadratic",
+      "quadratic-formula",
+      "radical-roots"
+    ],
+    "checksum": "sha256-68e399b7badd672398acea2c1445099a8fc333909ea041deb6bd06884e596645",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.quadratic_formula.hard.0034",
+    "topic_id": "ch13.quadratic_formula",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ does $x^2 + 36x+k=0$ have exactly one real solution?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$288$"
+      },
+      {
+        "id": "b",
+        "latex": "$360$"
+      },
+      {
+        "id": "c",
+        "latex": "$324$"
+      },
+      {
+        "id": "d",
+        "latex": "$1296$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "324",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Exactly one real solution means discriminant $0$: $(36)^2-4k=0$, so $k=324$.",
+    "complexity_factor": 1.3,
+    "source_section": "13.3",
+    "tags": [
+      "quadratic",
+      "quadratic-formula",
+      "discriminant",
+      "parameter"
+    ],
+    "checksum": "sha256-b4162eafd6fc081e39a61b69db841e0825012e976dc32e587cfb65a4c91be58d",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.quadratic_formula.hard.0035",
+    "topic_id": "ch13.quadratic_formula",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "hard",
+    "prompt_latex": "Use the quadratic formula to solve $3x^2 + 12x + 10.333333333333334=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=\\frac{-12\\pm\\sqrt{20}}{3}$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=\\frac{-12\\pm\\sqrt{24}}{6}$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=\\frac{12\\pm\\sqrt{20}}{6}$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=\\frac{-12\\pm\\sqrt{20}}{6}$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x=(-12+-sqrt(20))/6",
+    "answer_type": "string",
+    "accepted_forms": [
+      "x=(-12+-sqrt(20))/6"
+    ],
+    "solution_latex": "The discriminant is $20$, so $x=\\frac{-12\\pm\\sqrt{20}}{6}$.",
+    "complexity_factor": 1.45,
+    "source_section": "13.3",
+    "tags": [
+      "quadratic",
+      "quadratic-formula",
+      "radical-roots"
+    ],
+    "checksum": "sha256-8253f42410011937e553e8c23d9ad38c630ff776c0e1b546f13d3c54b156b320",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.quadratic_formula.hard.0036",
+    "topic_id": "ch13.quadratic_formula",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ does $x^2 + 38x+k=0$ have exactly one real solution?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$361$"
+      },
+      {
+        "id": "b",
+        "latex": "$1444$"
+      },
+      {
+        "id": "c",
+        "latex": "$323$"
+      },
+      {
+        "id": "d",
+        "latex": "$399$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "361",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Exactly one real solution means discriminant $0$: $(38)^2-4k=0$, so $k=361$.",
+    "complexity_factor": 1.3,
+    "source_section": "13.3",
+    "tags": [
+      "quadratic",
+      "quadratic-formula",
+      "discriminant",
+      "parameter"
+    ],
+    "checksum": "sha256-045f1c167a69838c00aa5cece1cb05a1d4c412a829bf50e5e168c786d1206026",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.quadratic_formula.hard.0037",
+    "topic_id": "ch13.quadratic_formula",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "hard",
+    "prompt_latex": "Use the quadratic formula to solve $2x^2 + 14x + 21=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=\\frac{14\\pm\\sqrt{28}}{4}$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=\\frac{-14\\pm\\sqrt{32}}{4}$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=\\frac{-14\\pm\\sqrt{28}}{4}$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=\\frac{-14\\pm\\sqrt{28}}{2}$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "x=(-14+-sqrt(28))/4",
+    "answer_type": "string",
+    "accepted_forms": [
+      "x=(-14+-sqrt(28))/4"
+    ],
+    "solution_latex": "The discriminant is $28$, so $x=\\frac{-14\\pm\\sqrt{28}}{4}$.",
+    "complexity_factor": 1.45,
+    "source_section": "13.3",
+    "tags": [
+      "quadratic",
+      "quadratic-formula",
+      "radical-roots"
+    ],
+    "checksum": "sha256-6f3d595a96bb199a5fc29facf7e11c694587e6eb4ec62805d7afe1bbfb0ffbd3",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.quadratic_formula.hard.0038",
+    "topic_id": "ch13.quadratic_formula",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ does $x^2 + 40x+k=0$ have exactly one real solution?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$400$"
+      },
+      {
+        "id": "b",
+        "latex": "$360$"
+      },
+      {
+        "id": "c",
+        "latex": "$440$"
+      },
+      {
+        "id": "d",
+        "latex": "$1600$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "400",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Exactly one real solution means discriminant $0$: $(40)^2-4k=0$, so $k=400$.",
+    "complexity_factor": 1.3,
+    "source_section": "13.3",
+    "tags": [
+      "quadratic",
+      "quadratic-formula",
+      "discriminant",
+      "parameter"
+    ],
+    "checksum": "sha256-b13833e7e04ffd56df66ae4f66fcad4d8c2da3d95f98efb45c265b7e71c98d74",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.quadratic_formula.hard.0039",
+    "topic_id": "ch13.quadratic_formula",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "hard",
+    "prompt_latex": "Use the quadratic formula to solve $x^2 + 10x + 17=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=\\frac{10\\pm\\sqrt{32}}{2}$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=\\frac{-10\\pm\\sqrt{36}}{2}$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=\\frac{-10\\pm\\sqrt{32}}{1}$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=\\frac{-10\\pm\\sqrt{32}}{2}$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x=(-10+-sqrt(32))/2",
+    "answer_type": "string",
+    "accepted_forms": [
+      "x=(-10+-sqrt(32))/2"
+    ],
+    "solution_latex": "The discriminant is $32$, so $x=\\frac{-10\\pm\\sqrt{32}}{2}$.",
+    "complexity_factor": 1.45,
+    "source_section": "13.3",
+    "tags": [
+      "quadratic",
+      "quadratic-formula",
+      "radical-roots"
+    ],
+    "checksum": "sha256-6633e8a4d8eb8e2c7bef3c44bde920e3e4f3a3a88cfab2c71af26843c5f61968",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.quadratic_formula.hard.0040",
+    "topic_id": "ch13.quadratic_formula",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ does $x^2 + 42x+k=0$ have exactly one real solution?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$399$"
+      },
+      {
+        "id": "b",
+        "latex": "$1764$"
+      },
+      {
+        "id": "c",
+        "latex": "$441$"
+      },
+      {
+        "id": "d",
+        "latex": "$483$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "441",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Exactly one real solution means discriminant $0$: $(42)^2-4k=0$, so $k=441$.",
+    "complexity_factor": 1.3,
+    "source_section": "13.3",
+    "tags": [
+      "quadratic",
+      "quadratic-formula",
+      "discriminant",
+      "parameter"
+    ],
+    "checksum": "sha256-91515541368c9539e914f3a7aad3a23a6673a87548fdb76e31e9b1212393e3fd",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.quadratic_formula.hard.0041",
+    "topic_id": "ch13.quadratic_formula",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "hard",
+    "prompt_latex": "Use the quadratic formula to solve $3x^2 + 18x + 26.333333333333332=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=\\frac{-18\\pm\\sqrt{12}}{6}$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=\\frac{-18\\pm\\sqrt{8}}{6}$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=\\frac{18\\pm\\sqrt{8}}{6}$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=\\frac{-18\\pm\\sqrt{8}}{3}$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "x=(-18+-sqrt(8))/6",
+    "answer_type": "string",
+    "accepted_forms": [
+      "x=(-18+-sqrt(8))/6"
+    ],
+    "solution_latex": "The discriminant is $8$, so $x=\\frac{-18\\pm\\sqrt{8}}{6}$.",
+    "complexity_factor": 1.45,
+    "source_section": "13.3",
+    "tags": [
+      "quadratic",
+      "quadratic-formula",
+      "radical-roots"
+    ],
+    "checksum": "sha256-aa6cd3971baeabc31984b3040df9b92e71907a8a19a5503ba8adf18c73152637",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.quadratic_formula.hard.0042",
+    "topic_id": "ch13.quadratic_formula",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ does $x^2 + 44x+k=0$ have exactly one real solution?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$484$"
+      },
+      {
+        "id": "b",
+        "latex": "$528$"
+      },
+      {
+        "id": "c",
+        "latex": "$440$"
+      },
+      {
+        "id": "d",
+        "latex": "$1936$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "484",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Exactly one real solution means discriminant $0$: $(44)^2-4k=0$, so $k=484$.",
+    "complexity_factor": 1.3,
+    "source_section": "13.3",
+    "tags": [
+      "quadratic",
+      "quadratic-formula",
+      "discriminant",
+      "parameter"
+    ],
+    "checksum": "sha256-481e37ba26c4d79b42a08e1e8e0888e721ee987781e76eecdbcc12b4bb459548",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.quadratic_formula.hard.0043",
+    "topic_id": "ch13.quadratic_formula",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "hard",
+    "prompt_latex": "Use the quadratic formula to solve $2x^2 + 7x + 4.5=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=\\frac{7\\pm\\sqrt{13}}{4}$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=\\frac{-7\\pm\\sqrt{13}}{2}$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=\\frac{-7\\pm\\sqrt{17}}{4}$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=\\frac{-7\\pm\\sqrt{13}}{4}$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x=(-7+-sqrt(13))/4",
+    "answer_type": "string",
+    "accepted_forms": [
+      "x=(-7+-sqrt(13))/4"
+    ],
+    "solution_latex": "The discriminant is $13$, so $x=\\frac{-7\\pm\\sqrt{13}}{4}$.",
+    "complexity_factor": 1.45,
+    "source_section": "13.3",
+    "tags": [
+      "quadratic",
+      "quadratic-formula",
+      "radical-roots"
+    ],
+    "checksum": "sha256-1d9138efebb3216a2c9abcf6e348eb878f83f649de66a4087e5f265a0c5bb918",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.quadratic_formula.hard.0044",
+    "topic_id": "ch13.quadratic_formula",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ does $x^2 + 46x+k=0$ have exactly one real solution?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$529$"
+      },
+      {
+        "id": "b",
+        "latex": "$483$"
+      },
+      {
+        "id": "c",
+        "latex": "$2116$"
+      },
+      {
+        "id": "d",
+        "latex": "$575$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "529",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Exactly one real solution means discriminant $0$: $(46)^2-4k=0$, so $k=529$.",
+    "complexity_factor": 1.3,
+    "source_section": "13.3",
+    "tags": [
+      "quadratic",
+      "quadratic-formula",
+      "discriminant",
+      "parameter"
+    ],
+    "checksum": "sha256-067462034c8058c4ad2ef8dff2ed358fecd1bcd103a52d38bc9515b51a934a13",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.quadratic_formula.hard.0045",
+    "topic_id": "ch13.quadratic_formula",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "hard",
+    "prompt_latex": "Use the quadratic formula to solve $x^2 + 8x + 11=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=\\frac{8\\pm\\sqrt{20}}{2}$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=\\frac{-8\\pm\\sqrt{20}}{2}$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=\\frac{-8\\pm\\sqrt{24}}{2}$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=\\frac{-8\\pm\\sqrt{20}}{1}$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "x=(-8+-sqrt(20))/2",
+    "answer_type": "string",
+    "accepted_forms": [
+      "x=(-8+-sqrt(20))/2"
+    ],
+    "solution_latex": "The discriminant is $20$, so $x=\\frac{-8\\pm\\sqrt{20}}{2}$.",
+    "complexity_factor": 1.45,
+    "source_section": "13.3",
+    "tags": [
+      "quadratic",
+      "quadratic-formula",
+      "radical-roots"
+    ],
+    "checksum": "sha256-8486c13c259bf98aa825b480b55698857c7b1f85d3016ecf232098a7f3c321c0",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.quadratic_formula.hard.0046",
+    "topic_id": "ch13.quadratic_formula",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ does $x^2 + 48x+k=0$ have exactly one real solution?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$528$"
+      },
+      {
+        "id": "b",
+        "latex": "$624$"
+      },
+      {
+        "id": "c",
+        "latex": "$576$"
+      },
+      {
+        "id": "d",
+        "latex": "$2304$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "576",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Exactly one real solution means discriminant $0$: $(48)^2-4k=0$, so $k=576$.",
+    "complexity_factor": 1.3,
+    "source_section": "13.3",
+    "tags": [
+      "quadratic",
+      "quadratic-formula",
+      "discriminant",
+      "parameter"
+    ],
+    "checksum": "sha256-23d2bb5a2cdaf0279f8b5414b26b1b64de235ef8cc80faeb74f6d869736e839c",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.quadratic_formula.hard.0047",
+    "topic_id": "ch13.quadratic_formula",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "hard",
+    "prompt_latex": "Use the quadratic formula to solve $3x^2 + 20x + 31=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=\\frac{-20\\pm\\sqrt{28}}{3}$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=\\frac{-20\\pm\\sqrt{32}}{6}$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=\\frac{20\\pm\\sqrt{28}}{6}$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=\\frac{-20\\pm\\sqrt{28}}{6}$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x=(-20+-sqrt(28))/6",
+    "answer_type": "string",
+    "accepted_forms": [
+      "x=(-20+-sqrt(28))/6"
+    ],
+    "solution_latex": "The discriminant is $28$, so $x=\\frac{-20\\pm\\sqrt{28}}{6}$.",
+    "complexity_factor": 1.45,
+    "source_section": "13.3",
+    "tags": [
+      "quadratic",
+      "quadratic-formula",
+      "radical-roots"
+    ],
+    "checksum": "sha256-b9356a57b97657e3c6794ed2fb2d87ff6f9edb1457ba61a8101a48155480fac1",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.quadratic_formula.hard.0048",
+    "topic_id": "ch13.quadratic_formula",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ does $x^2 + 50x+k=0$ have exactly one real solution?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$625$"
+      },
+      {
+        "id": "b",
+        "latex": "$2500$"
+      },
+      {
+        "id": "c",
+        "latex": "$575$"
+      },
+      {
+        "id": "d",
+        "latex": "$675$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "625",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Exactly one real solution means discriminant $0$: $(50)^2-4k=0$, so $k=625$.",
+    "complexity_factor": 1.3,
+    "source_section": "13.3",
+    "tags": [
+      "quadratic",
+      "quadratic-formula",
+      "discriminant",
+      "parameter"
+    ],
+    "checksum": "sha256-b87755012d38f0d8febe738918ffacfa34b36f34f8a560b7f2be422d0cd97685",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.quadratic_formula.hard.0049",
+    "topic_id": "ch13.quadratic_formula",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "hard",
+    "prompt_latex": "Use the quadratic formula to solve $2x^2 + 16x + 28=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x=\\frac{16\\pm\\sqrt{32}}{4}$"
+      },
+      {
+        "id": "b",
+        "latex": "$x=\\frac{-16\\pm\\sqrt{36}}{4}$"
+      },
+      {
+        "id": "c",
+        "latex": "$x=\\frac{-16\\pm\\sqrt{32}}{4}$"
+      },
+      {
+        "id": "d",
+        "latex": "$x=\\frac{-16\\pm\\sqrt{32}}{2}$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "x=(-16+-sqrt(32))/4",
+    "answer_type": "string",
+    "accepted_forms": [
+      "x=(-16+-sqrt(32))/4"
+    ],
+    "solution_latex": "The discriminant is $32$, so $x=\\frac{-16\\pm\\sqrt{32}}{4}$.",
+    "complexity_factor": 1.45,
+    "source_section": "13.3",
+    "tags": [
+      "quadratic",
+      "quadratic-formula",
+      "radical-roots"
+    ],
+    "checksum": "sha256-4e402634508f733e62ee81cd50b991e18c13a2f0bff16a3ffd5d4819898f54a5",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.quadratic_formula.hard.0050",
+    "topic_id": "ch13.quadratic_formula",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $k$ does $x^2 + 52x+k=0$ have exactly one real solution?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$676$"
+      },
+      {
+        "id": "b",
+        "latex": "$624$"
+      },
+      {
+        "id": "c",
+        "latex": "$728$"
+      },
+      {
+        "id": "d",
+        "latex": "$2704$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "676",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Exactly one real solution means discriminant $0$: $(52)^2-4k=0$, so $k=676$.",
+    "complexity_factor": 1.3,
+    "source_section": "13.3",
+    "tags": [
+      "quadratic",
+      "quadratic-formula",
+      "discriminant",
+      "parameter"
+    ],
+    "checksum": "sha256-29a059da99e6a98b00eb3da6aed5702950cf77e97c6e202c351de53f54fa8872",
+    "status": "valid"
+  }
+]

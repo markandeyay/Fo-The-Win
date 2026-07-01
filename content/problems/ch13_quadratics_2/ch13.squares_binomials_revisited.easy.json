@@ -1,0 +1,2052 @@
+[
+  {
+    "id": "ch13.squares_binomials_revisited.easy.0001",
+    "topic_id": "ch13.squares_binomials_revisited",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "Expand: $(x + 2)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^2 + 4$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^2 + 2x + 4$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^2 + 4x + 4$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^2 - 4x + 4$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "x^2+4*x+4",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x+2)^2"
+    ],
+    "solution_latex": "Use $(u+v)^2=u^2 + 2uv+v^2$ with $v=2$, giving $x^2 + 4x + 4$.",
+    "complexity_factor": 1,
+    "source_section": "13.1",
+    "tags": [
+      "quadratic",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-8228bdb5bb30a5083a0d481d64c5f2d0f536f0ea79b9ebd7e4e8587bbba66439",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.squares_binomials_revisited.easy.0002",
+    "topic_id": "ch13.squares_binomials_revisited",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "In the expansion of $(x - 2)^2$, what is the coefficient of $x$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-5$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The middle term is $2cdot xcdot -2=-4x$, so the coefficient is $-4$.",
+    "complexity_factor": 0.95,
+    "source_section": "13.1",
+    "tags": [
+      "quadratic",
+      "square-of-binomial",
+      "coefficient"
+    ],
+    "checksum": "sha256-03fa9f0b4d050caba98e1b3eb648367d144136b47c27dbaf8443feacf1df7f69",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.squares_binomials_revisited.easy.0003",
+    "topic_id": "ch13.squares_binomials_revisited",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "Expand: $(x - 3)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^2 + 9$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^2 - 3x + 9$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^2 + 6x + 9$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^2 - 6x + 9$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x^2-6*x+9",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x-3)^2"
+    ],
+    "solution_latex": "Use $(u-v)^2=u^2 - 2uv+v^2$ with $v=3$, giving $x^2 - 6x + 9$.",
+    "complexity_factor": 1,
+    "source_section": "13.1",
+    "tags": [
+      "quadratic",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-e19fea481436555d5813c4e8a01c798df23bff726d2e926ebf6cb928a4790cb6",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.squares_binomials_revisited.easy.0004",
+    "topic_id": "ch13.squares_binomials_revisited",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "In the expansion of $(x + 3)^2$, what is the coefficient of $x$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-6$"
+      },
+      {
+        "id": "b",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The middle term is $2cdot xcdot 3=6x$, so the coefficient is $6$.",
+    "complexity_factor": 0.95,
+    "source_section": "13.1",
+    "tags": [
+      "quadratic",
+      "square-of-binomial",
+      "coefficient"
+    ],
+    "checksum": "sha256-ae91e9d5158ef087b29a285bd8b4beb0fb0510b93f5a0b1ab4c67506f2b1326d",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.squares_binomials_revisited.easy.0005",
+    "topic_id": "ch13.squares_binomials_revisited",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "Expand: $(x + 4)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^2 + 4x + 16$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^2 + 8x + 16$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^2 + 16$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^2 - 8x + 16$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "x^2+8*x+16",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x+4)^2"
+    ],
+    "solution_latex": "Use $(u+v)^2=u^2 + 2uv+v^2$ with $v=4$, giving $x^2 + 8x + 16$.",
+    "complexity_factor": 1,
+    "source_section": "13.1",
+    "tags": [
+      "quadratic",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-eb29c2c5d91e654d7be3dc8b5d66aaf0359de54e2595adba9de070ae0bf4c7ab",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.squares_binomials_revisited.easy.0006",
+    "topic_id": "ch13.squares_binomials_revisited",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "In the expansion of $(x - 4)^2$, what is the coefficient of $x$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-8$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$-9$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The middle term is $2cdot xcdot -4=-8x$, so the coefficient is $-8$.",
+    "complexity_factor": 0.95,
+    "source_section": "13.1",
+    "tags": [
+      "quadratic",
+      "square-of-binomial",
+      "coefficient"
+    ],
+    "checksum": "sha256-7195128b29ad5081690ab9a52cde278a4f980d85def07294366b70cba508e2e0",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.squares_binomials_revisited.easy.0007",
+    "topic_id": "ch13.squares_binomials_revisited",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "Expand: $(x - 5)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^2 + 25$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^2 + 10x + 25$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^2 - 5x + 25$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^2 - 10x + 25$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x^2-10*x+25",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x-5)^2"
+    ],
+    "solution_latex": "Use $(u-v)^2=u^2 - 2uv+v^2$ with $v=5$, giving $x^2 - 10x + 25$.",
+    "complexity_factor": 1,
+    "source_section": "13.1",
+    "tags": [
+      "quadratic",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-39c6e05f11be14e29d82f8346edf52f91e3ae119f2e2f5607c3ba1d874ffd1a7",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.squares_binomials_revisited.easy.0008",
+    "topic_id": "ch13.squares_binomials_revisited",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "In the expansion of $(x + 5)^2$, what is the coefficient of $x$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$-10$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The middle term is $2cdot xcdot 5=10x$, so the coefficient is $10$.",
+    "complexity_factor": 0.95,
+    "source_section": "13.1",
+    "tags": [
+      "quadratic",
+      "square-of-binomial",
+      "coefficient"
+    ],
+    "checksum": "sha256-92f6566b035d1d9f142d242dc8de546c234b93239a357b6969fb93f2fd296e2e",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.squares_binomials_revisited.easy.0009",
+    "topic_id": "ch13.squares_binomials_revisited",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "Expand: $(x + 6)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^2 + 36$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^2 + 12x + 36$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^2 + 6x + 36$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^2 - 12x + 36$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "x^2+12*x+36",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x+6)^2"
+    ],
+    "solution_latex": "Use $(u+v)^2=u^2 + 2uv+v^2$ with $v=6$, giving $x^2 + 12x + 36$.",
+    "complexity_factor": 1,
+    "source_section": "13.1",
+    "tags": [
+      "quadratic",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-5bc0ef1318f02fe31b6638e38d6a18629721e9a1cb7ee28fdc0630eebce45b73",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.squares_binomials_revisited.easy.0010",
+    "topic_id": "ch13.squares_binomials_revisited",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "In the expansion of $(x - 6)^2$, what is the coefficient of $x$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12$"
+      },
+      {
+        "id": "b",
+        "latex": "$-6$"
+      },
+      {
+        "id": "c",
+        "latex": "$-12$"
+      },
+      {
+        "id": "d",
+        "latex": "$-13$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The middle term is $2cdot xcdot -6=-12x$, so the coefficient is $-12$.",
+    "complexity_factor": 0.95,
+    "source_section": "13.1",
+    "tags": [
+      "quadratic",
+      "square-of-binomial",
+      "coefficient"
+    ],
+    "checksum": "sha256-14347c5c05c2a904063a0388ab3826be8d07fad73953566b3f7cf4d84581b3f2",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.squares_binomials_revisited.easy.0011",
+    "topic_id": "ch13.squares_binomials_revisited",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "Expand: $(x - 7)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^2 + 14x + 49$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^2 - 7x + 49$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^2 + 49$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^2 - 14x + 49$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x^2-14*x+49",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x-7)^2"
+    ],
+    "solution_latex": "Use $(u-v)^2=u^2 - 2uv+v^2$ with $v=7$, giving $x^2 - 14x + 49$.",
+    "complexity_factor": 1,
+    "source_section": "13.1",
+    "tags": [
+      "quadratic",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-10934259d365093c934147ef16559703395411eadc40cf5d750397295df6c627",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.squares_binomials_revisited.easy.0012",
+    "topic_id": "ch13.squares_binomials_revisited",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "In the expansion of $(x + 7)^2$, what is the coefficient of $x$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$14$"
+      },
+      {
+        "id": "b",
+        "latex": "$15$"
+      },
+      {
+        "id": "c",
+        "latex": "$-14$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "14",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The middle term is $2cdot xcdot 7=14x$, so the coefficient is $14$.",
+    "complexity_factor": 0.95,
+    "source_section": "13.1",
+    "tags": [
+      "quadratic",
+      "square-of-binomial",
+      "coefficient"
+    ],
+    "checksum": "sha256-353d38ba37bf287fb7953dd41f1c63e0065c1849b38d69dfdc713598e55fe2c3",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.squares_binomials_revisited.easy.0013",
+    "topic_id": "ch13.squares_binomials_revisited",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "Expand: $(x + 8)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^2 + 64$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^2 + 8x + 64$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^2 + 16x + 64$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^2 - 16x + 64$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "x^2+16*x+64",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x+8)^2"
+    ],
+    "solution_latex": "Use $(u+v)^2=u^2 + 2uv+v^2$ with $v=8$, giving $x^2 + 16x + 64$.",
+    "complexity_factor": 1,
+    "source_section": "13.1",
+    "tags": [
+      "quadratic",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-7bf8c462e05222664bd652bd200982075bb4415bdb22352654d7e7041828bbbf",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.squares_binomials_revisited.easy.0014",
+    "topic_id": "ch13.squares_binomials_revisited",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "In the expansion of $(x - 8)^2$, what is the coefficient of $x$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-16$"
+      },
+      {
+        "id": "b",
+        "latex": "$16$"
+      },
+      {
+        "id": "c",
+        "latex": "$-8$"
+      },
+      {
+        "id": "d",
+        "latex": "$-17$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-16",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The middle term is $2cdot xcdot -8=-16x$, so the coefficient is $-16$.",
+    "complexity_factor": 0.95,
+    "source_section": "13.1",
+    "tags": [
+      "quadratic",
+      "square-of-binomial",
+      "coefficient"
+    ],
+    "checksum": "sha256-ace47c947fb56d0625e1cde334f1ebae5c87473c7e4a28c1cfd07cb5b216f545",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.squares_binomials_revisited.easy.0015",
+    "topic_id": "ch13.squares_binomials_revisited",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "Expand: $(x - 9)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^2 + 81$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^2 - 9x + 81$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^2 + 18x + 81$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^2 - 18x + 81$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x^2-18*x+81",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x-9)^2"
+    ],
+    "solution_latex": "Use $(u-v)^2=u^2 - 2uv+v^2$ with $v=9$, giving $x^2 - 18x + 81$.",
+    "complexity_factor": 1,
+    "source_section": "13.1",
+    "tags": [
+      "quadratic",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-47bd2d6497b14f5ca08a2c052786e6d09989b6f55e2cc7f44d4198491b4b0284",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.squares_binomials_revisited.easy.0016",
+    "topic_id": "ch13.squares_binomials_revisited",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "In the expansion of $(x + 9)^2$, what is the coefficient of $x$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-18$"
+      },
+      {
+        "id": "b",
+        "latex": "$19$"
+      },
+      {
+        "id": "c",
+        "latex": "$18$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "18",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The middle term is $2cdot xcdot 9=18x$, so the coefficient is $18$.",
+    "complexity_factor": 0.95,
+    "source_section": "13.1",
+    "tags": [
+      "quadratic",
+      "square-of-binomial",
+      "coefficient"
+    ],
+    "checksum": "sha256-5ddb4b12a6e407a7330cf8a869bd6b7fde1167a4d03e26258e7e982496f2ef9a",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.squares_binomials_revisited.easy.0017",
+    "topic_id": "ch13.squares_binomials_revisited",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "Expand: $(x + 10)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^2 + 10x + 100$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^2 + 20x + 100$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^2 + 100$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^2 - 20x + 100$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "x^2+20*x+100",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x+10)^2"
+    ],
+    "solution_latex": "Use $(u+v)^2=u^2 + 2uv+v^2$ with $v=10$, giving $x^2 + 20x + 100$.",
+    "complexity_factor": 1,
+    "source_section": "13.1",
+    "tags": [
+      "quadratic",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-9aa5063dc2fd358c39126ad8347ce13ff096692cb2054aa8155a9f8c11319442",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.squares_binomials_revisited.easy.0018",
+    "topic_id": "ch13.squares_binomials_revisited",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "In the expansion of $(x - 10)^2$, what is the coefficient of $x$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-20$"
+      },
+      {
+        "id": "b",
+        "latex": "$-10$"
+      },
+      {
+        "id": "c",
+        "latex": "$20$"
+      },
+      {
+        "id": "d",
+        "latex": "$-21$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-20",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The middle term is $2cdot xcdot -10=-20x$, so the coefficient is $-20$.",
+    "complexity_factor": 0.95,
+    "source_section": "13.1",
+    "tags": [
+      "quadratic",
+      "square-of-binomial",
+      "coefficient"
+    ],
+    "checksum": "sha256-d1699efd1d689776a9d4165715ef13a6449d0a840853527b35d6ec345d957272",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.squares_binomials_revisited.easy.0019",
+    "topic_id": "ch13.squares_binomials_revisited",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "Expand: $(x - 11)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^2 + 121$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^2 + 22x + 121$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^2 - 11x + 121$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^2 - 22x + 121$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x^2-22*x+121",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x-11)^2"
+    ],
+    "solution_latex": "Use $(u-v)^2=u^2 - 2uv+v^2$ with $v=11$, giving $x^2 - 22x + 121$.",
+    "complexity_factor": 1,
+    "source_section": "13.1",
+    "tags": [
+      "quadratic",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-d5b81bdcd5ad50fb2e08296e9521d4b961b18b092fc8c6213ac4c6e07f8b1126",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.squares_binomials_revisited.easy.0020",
+    "topic_id": "ch13.squares_binomials_revisited",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "In the expansion of $(x + 11)^2$, what is the coefficient of $x$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$22$"
+      },
+      {
+        "id": "b",
+        "latex": "$-22$"
+      },
+      {
+        "id": "c",
+        "latex": "$23$"
+      },
+      {
+        "id": "d",
+        "latex": "$11$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "22",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The middle term is $2cdot xcdot 11=22x$, so the coefficient is $22$.",
+    "complexity_factor": 0.95,
+    "source_section": "13.1",
+    "tags": [
+      "quadratic",
+      "square-of-binomial",
+      "coefficient"
+    ],
+    "checksum": "sha256-c9eb1505a0641123e33a75eb18c39061d2c2eeb03a4ef731a6736b0947a74f29",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.squares_binomials_revisited.easy.0021",
+    "topic_id": "ch13.squares_binomials_revisited",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "Expand: $(x + 12)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^2 + 144$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^2 + 24x + 144$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^2 + 12x + 144$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^2 - 24x + 144$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "x^2+24*x+144",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x+12)^2"
+    ],
+    "solution_latex": "Use $(u+v)^2=u^2 + 2uv+v^2$ with $v=12$, giving $x^2 + 24x + 144$.",
+    "complexity_factor": 1,
+    "source_section": "13.1",
+    "tags": [
+      "quadratic",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-a1d2b141330981a17b39caf116ae8cfd80d1bf128656a3ae994278690203a5da",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.squares_binomials_revisited.easy.0022",
+    "topic_id": "ch13.squares_binomials_revisited",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "In the expansion of $(x - 12)^2$, what is the coefficient of $x$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$24$"
+      },
+      {
+        "id": "b",
+        "latex": "$-12$"
+      },
+      {
+        "id": "c",
+        "latex": "$-24$"
+      },
+      {
+        "id": "d",
+        "latex": "$-25$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-24",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The middle term is $2cdot xcdot -12=-24x$, so the coefficient is $-24$.",
+    "complexity_factor": 0.95,
+    "source_section": "13.1",
+    "tags": [
+      "quadratic",
+      "square-of-binomial",
+      "coefficient"
+    ],
+    "checksum": "sha256-038995948fd74c72f6beb3110aadef1a97b3b302f03179978364055be48194df",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.squares_binomials_revisited.easy.0023",
+    "topic_id": "ch13.squares_binomials_revisited",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "Expand: $(x - 13)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^2 + 26x + 169$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^2 - 13x + 169$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^2 + 169$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^2 - 26x + 169$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x^2-26*x+169",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x-13)^2"
+    ],
+    "solution_latex": "Use $(u-v)^2=u^2 - 2uv+v^2$ with $v=13$, giving $x^2 - 26x + 169$.",
+    "complexity_factor": 1,
+    "source_section": "13.1",
+    "tags": [
+      "quadratic",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-32ddcba2efc6c2ddb53e9b7dbbe5b1ad5a030c7748d53601f13be48de9f41972",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.squares_binomials_revisited.easy.0024",
+    "topic_id": "ch13.squares_binomials_revisited",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "In the expansion of $(x + 13)^2$, what is the coefficient of $x$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$26$"
+      },
+      {
+        "id": "b",
+        "latex": "$27$"
+      },
+      {
+        "id": "c",
+        "latex": "$-26$"
+      },
+      {
+        "id": "d",
+        "latex": "$13$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "26",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The middle term is $2cdot xcdot 13=26x$, so the coefficient is $26$.",
+    "complexity_factor": 0.95,
+    "source_section": "13.1",
+    "tags": [
+      "quadratic",
+      "square-of-binomial",
+      "coefficient"
+    ],
+    "checksum": "sha256-4af119893c7ae558254cdc3325a595c6a9fe921b2ebdfd37a099bb245e5b58fc",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.squares_binomials_revisited.easy.0025",
+    "topic_id": "ch13.squares_binomials_revisited",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "Expand: $(x + 14)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^2 + 196$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^2 + 14x + 196$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^2 + 28x + 196$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^2 - 28x + 196$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "x^2+28*x+196",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x+14)^2"
+    ],
+    "solution_latex": "Use $(u+v)^2=u^2 + 2uv+v^2$ with $v=14$, giving $x^2 + 28x + 196$.",
+    "complexity_factor": 1,
+    "source_section": "13.1",
+    "tags": [
+      "quadratic",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-7aff297f9d14850c0d7e6b914db4dd75e80e919058bde1ceaa6089000c2da71a",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.squares_binomials_revisited.easy.0026",
+    "topic_id": "ch13.squares_binomials_revisited",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "In the expansion of $(x - 14)^2$, what is the coefficient of $x$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-28$"
+      },
+      {
+        "id": "b",
+        "latex": "$28$"
+      },
+      {
+        "id": "c",
+        "latex": "$-14$"
+      },
+      {
+        "id": "d",
+        "latex": "$-29$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-28",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The middle term is $2cdot xcdot -14=-28x$, so the coefficient is $-28$.",
+    "complexity_factor": 0.95,
+    "source_section": "13.1",
+    "tags": [
+      "quadratic",
+      "square-of-binomial",
+      "coefficient"
+    ],
+    "checksum": "sha256-150ce478238f79abdbeea5d0334bdb8a45e6bb253494721398655197a9470e78",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.squares_binomials_revisited.easy.0027",
+    "topic_id": "ch13.squares_binomials_revisited",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "Expand: $(x - 15)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^2 + 225$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^2 - 15x + 225$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^2 + 30x + 225$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^2 - 30x + 225$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x^2-30*x+225",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x-15)^2"
+    ],
+    "solution_latex": "Use $(u-v)^2=u^2 - 2uv+v^2$ with $v=15$, giving $x^2 - 30x + 225$.",
+    "complexity_factor": 1,
+    "source_section": "13.1",
+    "tags": [
+      "quadratic",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-acb0e583f9d20654c476a7aa39f082485d959793218c8bbd236511980a00e46c",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.squares_binomials_revisited.easy.0028",
+    "topic_id": "ch13.squares_binomials_revisited",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "In the expansion of $(x + 15)^2$, what is the coefficient of $x$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-30$"
+      },
+      {
+        "id": "b",
+        "latex": "$31$"
+      },
+      {
+        "id": "c",
+        "latex": "$30$"
+      },
+      {
+        "id": "d",
+        "latex": "$15$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "30",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The middle term is $2cdot xcdot 15=30x$, so the coefficient is $30$.",
+    "complexity_factor": 0.95,
+    "source_section": "13.1",
+    "tags": [
+      "quadratic",
+      "square-of-binomial",
+      "coefficient"
+    ],
+    "checksum": "sha256-b666c1ef332eadececfcedb637989e62e22ef7707073eccc2e3082d5a1edc63f",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.squares_binomials_revisited.easy.0029",
+    "topic_id": "ch13.squares_binomials_revisited",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "Expand: $(x + 16)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^2 + 16x + 256$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^2 + 32x + 256$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^2 + 256$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^2 - 32x + 256$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "x^2+32*x+256",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x+16)^2"
+    ],
+    "solution_latex": "Use $(u+v)^2=u^2 + 2uv+v^2$ with $v=16$, giving $x^2 + 32x + 256$.",
+    "complexity_factor": 1,
+    "source_section": "13.1",
+    "tags": [
+      "quadratic",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-4670741ce2fd4ebe321ea83767ce917c75534072c57350079af7945d1a3067c4",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.squares_binomials_revisited.easy.0030",
+    "topic_id": "ch13.squares_binomials_revisited",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "In the expansion of $(x - 16)^2$, what is the coefficient of $x$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-32$"
+      },
+      {
+        "id": "b",
+        "latex": "$-16$"
+      },
+      {
+        "id": "c",
+        "latex": "$32$"
+      },
+      {
+        "id": "d",
+        "latex": "$-33$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-32",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The middle term is $2cdot xcdot -16=-32x$, so the coefficient is $-32$.",
+    "complexity_factor": 0.95,
+    "source_section": "13.1",
+    "tags": [
+      "quadratic",
+      "square-of-binomial",
+      "coefficient"
+    ],
+    "checksum": "sha256-216a0188270d254213f5e48ef7567d025df0c4ba34f4410eaeab160ec62e7753",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.squares_binomials_revisited.easy.0031",
+    "topic_id": "ch13.squares_binomials_revisited",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "Expand: $(x - 17)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^2 + 289$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^2 + 34x + 289$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^2 - 17x + 289$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^2 - 34x + 289$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x^2-34*x+289",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x-17)^2"
+    ],
+    "solution_latex": "Use $(u-v)^2=u^2 - 2uv+v^2$ with $v=17$, giving $x^2 - 34x + 289$.",
+    "complexity_factor": 1,
+    "source_section": "13.1",
+    "tags": [
+      "quadratic",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-53de4082892edce746fb479bdbd59938aebd7e9c4b9ac8a7f5cbbfdebadfe50a",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.squares_binomials_revisited.easy.0032",
+    "topic_id": "ch13.squares_binomials_revisited",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "In the expansion of $(x + 17)^2$, what is the coefficient of $x$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$34$"
+      },
+      {
+        "id": "b",
+        "latex": "$-34$"
+      },
+      {
+        "id": "c",
+        "latex": "$35$"
+      },
+      {
+        "id": "d",
+        "latex": "$17$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "34",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The middle term is $2cdot xcdot 17=34x$, so the coefficient is $34$.",
+    "complexity_factor": 0.95,
+    "source_section": "13.1",
+    "tags": [
+      "quadratic",
+      "square-of-binomial",
+      "coefficient"
+    ],
+    "checksum": "sha256-b5c0f9d864f2bb79a810244d28d91eadbc73bb94c6a1ff07a11494c946b5be64",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.squares_binomials_revisited.easy.0033",
+    "topic_id": "ch13.squares_binomials_revisited",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "Expand: $(x + 18)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^2 + 324$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^2 + 36x + 324$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^2 + 18x + 324$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^2 - 36x + 324$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "x^2+36*x+324",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x+18)^2"
+    ],
+    "solution_latex": "Use $(u+v)^2=u^2 + 2uv+v^2$ with $v=18$, giving $x^2 + 36x + 324$.",
+    "complexity_factor": 1,
+    "source_section": "13.1",
+    "tags": [
+      "quadratic",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-d91942f6216ac79e6ddd041ae5fee750851a4fb09715b44da85e01c6908286ce",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.squares_binomials_revisited.easy.0034",
+    "topic_id": "ch13.squares_binomials_revisited",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "In the expansion of $(x - 18)^2$, what is the coefficient of $x$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$36$"
+      },
+      {
+        "id": "b",
+        "latex": "$-18$"
+      },
+      {
+        "id": "c",
+        "latex": "$-36$"
+      },
+      {
+        "id": "d",
+        "latex": "$-37$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-36",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The middle term is $2cdot xcdot -18=-36x$, so the coefficient is $-36$.",
+    "complexity_factor": 0.95,
+    "source_section": "13.1",
+    "tags": [
+      "quadratic",
+      "square-of-binomial",
+      "coefficient"
+    ],
+    "checksum": "sha256-b294e290e6fa06d1c9c664a0841b77b62648a9849652121268666ca7795995e6",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.squares_binomials_revisited.easy.0035",
+    "topic_id": "ch13.squares_binomials_revisited",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "Expand: $(x - 19)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^2 + 38x + 361$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^2 - 19x + 361$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^2 + 361$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^2 - 38x + 361$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x^2-38*x+361",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x-19)^2"
+    ],
+    "solution_latex": "Use $(u-v)^2=u^2 - 2uv+v^2$ with $v=19$, giving $x^2 - 38x + 361$.",
+    "complexity_factor": 1,
+    "source_section": "13.1",
+    "tags": [
+      "quadratic",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-d9192d437a0f61e94c28e96d636c1cf1146f70f455b302a8d0c553b0219b8ed3",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.squares_binomials_revisited.easy.0036",
+    "topic_id": "ch13.squares_binomials_revisited",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "In the expansion of $(x + 19)^2$, what is the coefficient of $x$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$38$"
+      },
+      {
+        "id": "b",
+        "latex": "$39$"
+      },
+      {
+        "id": "c",
+        "latex": "$-38$"
+      },
+      {
+        "id": "d",
+        "latex": "$19$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "38",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The middle term is $2cdot xcdot 19=38x$, so the coefficient is $38$.",
+    "complexity_factor": 0.95,
+    "source_section": "13.1",
+    "tags": [
+      "quadratic",
+      "square-of-binomial",
+      "coefficient"
+    ],
+    "checksum": "sha256-ba026f2da14166922a78e85988a9277d26a8e07b59285cd652c42f0021affd31",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.squares_binomials_revisited.easy.0037",
+    "topic_id": "ch13.squares_binomials_revisited",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "Expand: $(x + 20)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^2 + 400$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^2 + 20x + 400$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^2 + 40x + 400$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^2 - 40x + 400$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "x^2+40*x+400",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x+20)^2"
+    ],
+    "solution_latex": "Use $(u+v)^2=u^2 + 2uv+v^2$ with $v=20$, giving $x^2 + 40x + 400$.",
+    "complexity_factor": 1,
+    "source_section": "13.1",
+    "tags": [
+      "quadratic",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-32d69ef7a488eb709edb11048faf51f4fdacf892ce8c2f9c2f4a174ab7c586f1",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.squares_binomials_revisited.easy.0038",
+    "topic_id": "ch13.squares_binomials_revisited",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "In the expansion of $(x - 20)^2$, what is the coefficient of $x$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-40$"
+      },
+      {
+        "id": "b",
+        "latex": "$40$"
+      },
+      {
+        "id": "c",
+        "latex": "$-20$"
+      },
+      {
+        "id": "d",
+        "latex": "$-41$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-40",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The middle term is $2cdot xcdot -20=-40x$, so the coefficient is $-40$.",
+    "complexity_factor": 0.95,
+    "source_section": "13.1",
+    "tags": [
+      "quadratic",
+      "square-of-binomial",
+      "coefficient"
+    ],
+    "checksum": "sha256-0dbf02086ca71b2c23b26aaec2bb9bf61f114c7c2d5d53acfff56fa3d1e2354e",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.squares_binomials_revisited.easy.0039",
+    "topic_id": "ch13.squares_binomials_revisited",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "Expand: $(x - 21)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^2 + 441$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^2 - 21x + 441$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^2 + 42x + 441$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^2 - 42x + 441$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x^2-42*x+441",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x-21)^2"
+    ],
+    "solution_latex": "Use $(u-v)^2=u^2 - 2uv+v^2$ with $v=21$, giving $x^2 - 42x + 441$.",
+    "complexity_factor": 1,
+    "source_section": "13.1",
+    "tags": [
+      "quadratic",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-e2fb0ce32b65f89699c4c838c6a9db6bc35d6d5352dc49b15813958ca9365494",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.squares_binomials_revisited.easy.0040",
+    "topic_id": "ch13.squares_binomials_revisited",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "In the expansion of $(x + 21)^2$, what is the coefficient of $x$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-42$"
+      },
+      {
+        "id": "b",
+        "latex": "$43$"
+      },
+      {
+        "id": "c",
+        "latex": "$42$"
+      },
+      {
+        "id": "d",
+        "latex": "$21$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "42",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The middle term is $2cdot xcdot 21=42x$, so the coefficient is $42$.",
+    "complexity_factor": 0.95,
+    "source_section": "13.1",
+    "tags": [
+      "quadratic",
+      "square-of-binomial",
+      "coefficient"
+    ],
+    "checksum": "sha256-5f698115944aeeb5490bf53ccc22284cfa5a02352ec0d2e3107d594ccea44070",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.squares_binomials_revisited.easy.0041",
+    "topic_id": "ch13.squares_binomials_revisited",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "Expand: $(x + 22)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^2 + 22x + 484$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^2 + 44x + 484$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^2 + 484$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^2 - 44x + 484$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "x^2+44*x+484",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x+22)^2"
+    ],
+    "solution_latex": "Use $(u+v)^2=u^2 + 2uv+v^2$ with $v=22$, giving $x^2 + 44x + 484$.",
+    "complexity_factor": 1,
+    "source_section": "13.1",
+    "tags": [
+      "quadratic",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-b334fd607c2b90655d3fd09d64079461d7fe67f39f3254a6ae5fb325d0954d44",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.squares_binomials_revisited.easy.0042",
+    "topic_id": "ch13.squares_binomials_revisited",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "In the expansion of $(x - 22)^2$, what is the coefficient of $x$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-44$"
+      },
+      {
+        "id": "b",
+        "latex": "$-22$"
+      },
+      {
+        "id": "c",
+        "latex": "$44$"
+      },
+      {
+        "id": "d",
+        "latex": "$-45$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-44",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The middle term is $2cdot xcdot -22=-44x$, so the coefficient is $-44$.",
+    "complexity_factor": 0.95,
+    "source_section": "13.1",
+    "tags": [
+      "quadratic",
+      "square-of-binomial",
+      "coefficient"
+    ],
+    "checksum": "sha256-7d98ba2b5bd04b30fe8804b2d7af2f46dc0c4803ed3f72b584d31eeed0ad7aae",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.squares_binomials_revisited.easy.0043",
+    "topic_id": "ch13.squares_binomials_revisited",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "Expand: $(x - 23)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^2 + 529$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^2 + 46x + 529$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^2 - 23x + 529$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^2 - 46x + 529$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x^2-46*x+529",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x-23)^2"
+    ],
+    "solution_latex": "Use $(u-v)^2=u^2 - 2uv+v^2$ with $v=23$, giving $x^2 - 46x + 529$.",
+    "complexity_factor": 1,
+    "source_section": "13.1",
+    "tags": [
+      "quadratic",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-c6f89a043dbf4c8dcd9be4683f6f3f82a62f3d6a3b8b7e5cdbe1ed5744b7f581",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.squares_binomials_revisited.easy.0044",
+    "topic_id": "ch13.squares_binomials_revisited",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "In the expansion of $(x + 23)^2$, what is the coefficient of $x$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$46$"
+      },
+      {
+        "id": "b",
+        "latex": "$-46$"
+      },
+      {
+        "id": "c",
+        "latex": "$47$"
+      },
+      {
+        "id": "d",
+        "latex": "$23$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "46",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The middle term is $2cdot xcdot 23=46x$, so the coefficient is $46$.",
+    "complexity_factor": 0.95,
+    "source_section": "13.1",
+    "tags": [
+      "quadratic",
+      "square-of-binomial",
+      "coefficient"
+    ],
+    "checksum": "sha256-62ebad773ec69bed44a3f337e6b19cb498fbe1e44c00502bdcc4870f08b149ad",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.squares_binomials_revisited.easy.0045",
+    "topic_id": "ch13.squares_binomials_revisited",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "Expand: $(x + 24)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^2 + 576$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^2 + 48x + 576$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^2 + 24x + 576$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^2 - 48x + 576$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "x^2+48*x+576",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x+24)^2"
+    ],
+    "solution_latex": "Use $(u+v)^2=u^2 + 2uv+v^2$ with $v=24$, giving $x^2 + 48x + 576$.",
+    "complexity_factor": 1,
+    "source_section": "13.1",
+    "tags": [
+      "quadratic",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-872bc09ba1412cab44ccdd80943c6e3b612b07c7ec42c1d21d1076a5a7a87b28",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.squares_binomials_revisited.easy.0046",
+    "topic_id": "ch13.squares_binomials_revisited",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "In the expansion of $(x - 24)^2$, what is the coefficient of $x$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$48$"
+      },
+      {
+        "id": "b",
+        "latex": "$-24$"
+      },
+      {
+        "id": "c",
+        "latex": "$-48$"
+      },
+      {
+        "id": "d",
+        "latex": "$-49$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-48",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The middle term is $2cdot xcdot -24=-48x$, so the coefficient is $-48$.",
+    "complexity_factor": 0.95,
+    "source_section": "13.1",
+    "tags": [
+      "quadratic",
+      "square-of-binomial",
+      "coefficient"
+    ],
+    "checksum": "sha256-1f09f1545a26931a074b2742782f81c7ed9bb41e327d8964ea7c77769d1b5625",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.squares_binomials_revisited.easy.0047",
+    "topic_id": "ch13.squares_binomials_revisited",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "Expand: $(x - 25)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^2 + 50x + 625$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^2 - 25x + 625$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^2 + 625$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^2 - 50x + 625$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x^2-50*x+625",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x-25)^2"
+    ],
+    "solution_latex": "Use $(u-v)^2=u^2 - 2uv+v^2$ with $v=25$, giving $x^2 - 50x + 625$.",
+    "complexity_factor": 1,
+    "source_section": "13.1",
+    "tags": [
+      "quadratic",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-3e7ae393018556aa5cd526642065319d0aa35dd49bfc219e1a02f50fce0b9c18",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.squares_binomials_revisited.easy.0048",
+    "topic_id": "ch13.squares_binomials_revisited",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "In the expansion of $(x + 25)^2$, what is the coefficient of $x$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$50$"
+      },
+      {
+        "id": "b",
+        "latex": "$51$"
+      },
+      {
+        "id": "c",
+        "latex": "$-50$"
+      },
+      {
+        "id": "d",
+        "latex": "$25$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "50",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The middle term is $2cdot xcdot 25=50x$, so the coefficient is $50$.",
+    "complexity_factor": 0.95,
+    "source_section": "13.1",
+    "tags": [
+      "quadratic",
+      "square-of-binomial",
+      "coefficient"
+    ],
+    "checksum": "sha256-60988e3cc6b1ce0c75a66cd87626972458d96f5ff20758e5dc04b4e90f84b020",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.squares_binomials_revisited.easy.0049",
+    "topic_id": "ch13.squares_binomials_revisited",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "Expand: $(x + 26)^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^2 + 676$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^2 + 26x + 676$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^2 + 52x + 676$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^2 - 52x + 676$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "x^2+52*x+676",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x+26)^2"
+    ],
+    "solution_latex": "Use $(u+v)^2=u^2 + 2uv+v^2$ with $v=26$, giving $x^2 + 52x + 676$.",
+    "complexity_factor": 1,
+    "source_section": "13.1",
+    "tags": [
+      "quadratic",
+      "square-of-binomial",
+      "expansion"
+    ],
+    "checksum": "sha256-a690c198676b5fa71b87128a73118cc373ac5be491c633e01956d379d1f49d8d",
+    "status": "valid"
+  },
+  {
+    "id": "ch13.squares_binomials_revisited.easy.0050",
+    "topic_id": "ch13.squares_binomials_revisited",
+    "group_id": "ch13_quadratics_2",
+    "difficulty": "easy",
+    "prompt_latex": "In the expansion of $(x - 26)^2$, what is the coefficient of $x$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-52$"
+      },
+      {
+        "id": "b",
+        "latex": "$52$"
+      },
+      {
+        "id": "c",
+        "latex": "$-26$"
+      },
+      {
+        "id": "d",
+        "latex": "$-53$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-52",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The middle term is $2cdot xcdot -26=-52x$, so the coefficient is $-52$.",
+    "complexity_factor": 0.95,
+    "source_section": "13.1",
+    "tags": [
+      "quadratic",
+      "square-of-binomial",
+      "coefficient"
+    ],
+    "checksum": "sha256-f91b7e77f4a037cccc042a018992f6f143d38161044e23f5cecf7ea9d1807cab",
+    "status": "valid"
+  }
+]

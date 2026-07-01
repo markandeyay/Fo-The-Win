@@ -1,18 +1,741 @@
 [
   {
+    "id": "ch1.exponents.easy.0001",
     "topic_id": "ch1.exponents",
     "group_id": "ch1_rules",
     "difficulty": "easy",
-    "prompt_latex": "Evaluate $2^3 \\cdot 2^2$.",
+    "prompt_latex": "Evaluate $(-3)^{2}$.",
     "answer_format": "mc",
     "choices": [
       {
         "id": "a",
-        "latex": "$32$"
+        "latex": "$-6$"
       },
       {
         "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$-8$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$(-3)^{2}=9$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.6",
+    "tags": [
+      "exponents"
+    ],
+    "checksum": "sha256-ceab4f96d934fd88b423c039a765a5772d8473cb0c0eb079bdf34bf416eac4fb",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.exponents.easy.0002",
+    "topic_id": "ch1.exponents",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $4^{0}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Any nonzero number to the zero power is $1$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.6",
+    "tags": [
+      "exponents"
+    ],
+    "checksum": "sha256-95568334371dffc98943bdcb9743e4dd205b04a44d22c13ca3e23ecb2718aee3",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.exponents.easy.0003",
+    "topic_id": "ch1.exponents",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $6^{1}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Any number to the first power equals itself, so the value is 6.",
+    "complexity_factor": 0.75,
+    "source_section": "1.6",
+    "tags": [
+      "exponents"
+    ],
+    "checksum": "sha256-3f9ac9870b604576e4b136774d828bb0a47489d2edd63dcd86cbb979a12553a0",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.exponents.easy.0004",
+    "topic_id": "ch1.exponents",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $6^{3}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$216$"
+      },
+      {
+        "id": "b",
+        "latex": "$18$"
+      },
+      {
+        "id": "c",
+        "latex": "$222$"
+      },
+      {
+        "id": "d",
+        "latex": "$210$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "216",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$6^{3}=216$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.6",
+    "tags": [
+      "exponents"
+    ],
+    "checksum": "sha256-38381bbb175f6427b9b97c89e8fb136402143ad6c56f64c67d459297b6e8f8e7",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.exponents.easy.0005",
+    "topic_id": "ch1.exponents",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $(-7)^{3}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$343$"
+      },
+      {
+        "id": "b",
+        "latex": "$-21$"
+      },
+      {
+        "id": "c",
+        "latex": "$-342$"
+      },
+      {
+        "id": "d",
+        "latex": "$-343$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-343",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$(-7)^{3}=-343$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.6",
+    "tags": [
+      "exponents"
+    ],
+    "checksum": "sha256-e23cbe4a007e7f72a26db7873fe1ceb221d2b0af954f40dd933ab22409129631",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.exponents.easy.0006",
+    "topic_id": "ch1.exponents",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $8^{0}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Any nonzero number to the zero power is $1$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.6",
+    "tags": [
+      "exponents"
+    ],
+    "checksum": "sha256-c6055ee564878997d7bed38b36a76c4b8b1d1d0b3aff6c0121255b650dc67bc8",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.exponents.easy.0007",
+    "topic_id": "ch1.exponents",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $10^{1}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$11$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Any number to the first power equals itself, so the value is 10.",
+    "complexity_factor": 0.75,
+    "source_section": "1.6",
+    "tags": [
+      "exponents"
+    ],
+    "checksum": "sha256-8d7d030b4da1645c32e511b094925bc85a88c9be5df0fd7516acc66a833822fe",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.exponents.easy.0008",
+    "topic_id": "ch1.exponents",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $10^{4}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10000$"
+      },
+      {
+        "id": "b",
+        "latex": "$40$"
+      },
+      {
+        "id": "c",
+        "latex": "$10010$"
+      },
+      {
+        "id": "d",
+        "latex": "$9990$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "10000",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$10^{4}=10000$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.6",
+    "tags": [
+      "exponents"
+    ],
+    "checksum": "sha256-91847643880296c77577f5235cad20249c66464f3f301ea48e3026f62f5404ed",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.exponents.easy.0009",
+    "topic_id": "ch1.exponents",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $(-4)^{4}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-16$"
+      },
+      {
+        "id": "b",
+        "latex": "$257$"
+      },
+      {
+        "id": "c",
+        "latex": "$-255$"
+      },
+      {
+        "id": "d",
+        "latex": "$256$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "256",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$(-4)^{4}=256$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.6",
+    "tags": [
+      "exponents"
+    ],
+    "checksum": "sha256-18310b53b254ef5939b36cbc70b43ee373011f6eddebd12ad306f729f455ffb0",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.exponents.easy.0010",
+    "topic_id": "ch1.exponents",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $12^{0}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$12$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Any nonzero number to the zero power is $1$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.6",
+    "tags": [
+      "exponents"
+    ],
+    "checksum": "sha256-4c9c5dcdd802e691459a5e381fcddc26a71546db3f5cef55ad534d14b58aa8a2",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.exponents.easy.0011",
+    "topic_id": "ch1.exponents",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $14^{1}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$14$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$15$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "14",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Any number to the first power equals itself, so the value is 14.",
+    "complexity_factor": 0.75,
+    "source_section": "1.6",
+    "tags": [
+      "exponents"
+    ],
+    "checksum": "sha256-f84026a8aea8435994267e6c157918c1449901775bda0f3a2048b2322be20067",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.exponents.easy.0012",
+    "topic_id": "ch1.exponents",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $4^{5}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1024$"
+      },
+      {
+        "id": "b",
+        "latex": "$20$"
+      },
+      {
+        "id": "c",
+        "latex": "$1028$"
+      },
+      {
+        "id": "d",
+        "latex": "$1020$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1024",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$4^{5}=1024$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.6",
+    "tags": [
+      "exponents"
+    ],
+    "checksum": "sha256-8bad6eeac6b41cd74df2dee9f2bd53c0e6b5e0f4b3645991a0c7b1216bda8383",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.exponents.easy.0013",
+    "topic_id": "ch1.exponents",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $(-8)^{2}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-16$"
+      },
+      {
+        "id": "b",
+        "latex": "$65$"
+      },
+      {
+        "id": "c",
+        "latex": "$-63$"
+      },
+      {
+        "id": "d",
         "latex": "$64$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "64",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$(-8)^{2}=64$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.6",
+    "tags": [
+      "exponents"
+    ],
+    "checksum": "sha256-8dcdb22b5d401f553db76b53f2d8e7ec770fc1d0b9b9ea4410d9a0a6a46677eb",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.exponents.easy.0014",
+    "topic_id": "ch1.exponents",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $16^{0}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$16$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Any nonzero number to the zero power is $1$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.6",
+    "tags": [
+      "exponents"
+    ],
+    "checksum": "sha256-67a3e2fdc97b0908c024d832c1dbe07ba309231d70a14843963b83cf56dea721",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.exponents.easy.0015",
+    "topic_id": "ch1.exponents",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $18^{1}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$18$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$19$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "18",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Any number to the first power equals itself, so the value is 18.",
+    "complexity_factor": 0.75,
+    "source_section": "1.6",
+    "tags": [
+      "exponents"
+    ],
+    "checksum": "sha256-78e34f943d2a4df4ce8f8b0c66ae25ccf982874e7cf861abc2e27a16eac1e00e",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.exponents.easy.0016",
+    "topic_id": "ch1.exponents",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $8^{2}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$64$"
+      },
+      {
+        "id": "b",
+        "latex": "$16$"
+      },
+      {
+        "id": "c",
+        "latex": "$72$"
+      },
+      {
+        "id": "d",
+        "latex": "$56$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "64",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$8^{2}=64$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.6",
+    "tags": [
+      "exponents"
+    ],
+    "checksum": "sha256-653d64ebc3b307092654d30b1bc3421228a5cf89f9f819bf4891603b33ee824c",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.exponents.easy.0017",
+    "topic_id": "ch1.exponents",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $(-5)^{3}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$125$"
+      },
+      {
+        "id": "b",
+        "latex": "$-15$"
+      },
+      {
+        "id": "c",
+        "latex": "$-124$"
+      },
+      {
+        "id": "d",
+        "latex": "$-125$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-125",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$(-5)^{3}=-125$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.6",
+    "tags": [
+      "exponents"
+    ],
+    "checksum": "sha256-392b36ddedab8da87d7cf4f95d6e35f7b988565cc267d49b5d463d3d2ab71de0",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.exponents.easy.0018",
+    "topic_id": "ch1.exponents",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $20^{0}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$20$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Any nonzero number to the zero power is $1$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.6",
+    "tags": [
+      "exponents"
+    ],
+    "checksum": "sha256-613de12b1e0b24eee806a3e495ecc58c63928d5834c4fbebc62af71c9676626f",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.exponents.easy.0019",
+    "topic_id": "ch1.exponents",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $22^{1}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$22$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$23$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "22",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Any number to the first power equals itself, so the value is 22.",
+    "complexity_factor": 0.75,
+    "source_section": "1.6",
+    "tags": [
+      "exponents"
+    ],
+    "checksum": "sha256-f5edb2644d4a1077d436ed31c0e759f63811f632c93dde9fb80cdf9f749e0037",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.exponents.easy.0020",
+    "topic_id": "ch1.exponents",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $2^{3}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
       },
       {
         "id": "c",
@@ -20,20 +743,1160 @@
       },
       {
         "id": "d",
-        "latex": "$24$"
+        "latex": "$-8$"
       }
     ],
     "correct_choice": "a",
-    "correct_answer": "32",
+    "correct_answer": "8",
     "answer_type": "integer",
-    "solution_latex": "$2^3 \\cdot 2^2 = 2^{3+2} = 2^5 = 32$.",
-    "complexity_factor": 0.8,
+    "accepted_forms": [],
+    "solution_latex": "$2^{3}=8$.",
+    "complexity_factor": 0.75,
     "source_section": "1.6",
     "tags": [
       "exponents"
     ],
-    "id": "ch1.exponents.easy.0001",
-    "checksum": "sha256-90e3718e3a27f60ffb1dd7f793e4d17454bd7fd73faa519bc0386581baa62906",
+    "checksum": "sha256-313a2d559572b2aa78bd7f3dcb8204cecee69cfaa7e3481512e2fc3174483dc3",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.exponents.easy.0021",
+    "topic_id": "ch1.exponents",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $(-2)^{4}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-8$"
+      },
+      {
+        "id": "b",
+        "latex": "$17$"
+      },
+      {
+        "id": "c",
+        "latex": "$-15$"
+      },
+      {
+        "id": "d",
+        "latex": "$16$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "16",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$(-2)^{4}=16$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.6",
+    "tags": [
+      "exponents"
+    ],
+    "checksum": "sha256-c27df860bf6e21fcb50bf0e0d74c377da0acdffe96931689116071b5570316a2",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.exponents.easy.0022",
+    "topic_id": "ch1.exponents",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $24^{0}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$24$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Any nonzero number to the zero power is $1$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.6",
+    "tags": [
+      "exponents"
+    ],
+    "checksum": "sha256-908739a42b7f3be15b0f901862fca289567e060f039d521d8bfdaee991269a55",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.exponents.easy.0023",
+    "topic_id": "ch1.exponents",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $26^{1}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$26$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$27$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "26",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Any number to the first power equals itself, so the value is 26.",
+    "complexity_factor": 0.75,
+    "source_section": "1.6",
+    "tags": [
+      "exponents"
+    ],
+    "checksum": "sha256-a75f20c6d9d317b897d16a6a99781db7202f9fe5f6b601bc3c653cdaa414481c",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.exponents.easy.0024",
+    "topic_id": "ch1.exponents",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $6^{4}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1296$"
+      },
+      {
+        "id": "b",
+        "latex": "$24$"
+      },
+      {
+        "id": "c",
+        "latex": "$1302$"
+      },
+      {
+        "id": "d",
+        "latex": "$1290$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1296",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$6^{4}=1296$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.6",
+    "tags": [
+      "exponents"
+    ],
+    "checksum": "sha256-e926c653ad98e19c8f3d7300bfe3740e09f1c02af76210c99821f2cb1bb400a0",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.exponents.easy.0025",
+    "topic_id": "ch1.exponents",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $(-6)^{2}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-12$"
+      },
+      {
+        "id": "b",
+        "latex": "$37$"
+      },
+      {
+        "id": "c",
+        "latex": "$-35$"
+      },
+      {
+        "id": "d",
+        "latex": "$36$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "36",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$(-6)^{2}=36$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.6",
+    "tags": [
+      "exponents"
+    ],
+    "checksum": "sha256-3d7d31120566e74ffa38693bed02bd60ceee97eaf4c1f160275b1ebc73beee22",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.exponents.easy.0026",
+    "topic_id": "ch1.exponents",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $28^{0}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$28$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Any nonzero number to the zero power is $1$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.6",
+    "tags": [
+      "exponents"
+    ],
+    "checksum": "sha256-9be3d67ed3224324681e985677b929a9f18ed66b850abc442435471aae3e5092",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.exponents.easy.0027",
+    "topic_id": "ch1.exponents",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $30^{1}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$30$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$31$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "30",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Any number to the first power equals itself, so the value is 30.",
+    "complexity_factor": 0.75,
+    "source_section": "1.6",
+    "tags": [
+      "exponents"
+    ],
+    "checksum": "sha256-2fd5256a1a560c7a0df2194077cea338e0ca2014f126369d36cfd38bac1d1362",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.exponents.easy.0028",
+    "topic_id": "ch1.exponents",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $10^{5}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$100000$"
+      },
+      {
+        "id": "b",
+        "latex": "$50$"
+      },
+      {
+        "id": "c",
+        "latex": "$100010$"
+      },
+      {
+        "id": "d",
+        "latex": "$99990$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "100000",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$10^{5}=100000$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.6",
+    "tags": [
+      "exponents"
+    ],
+    "checksum": "sha256-82cf4ca8e9c36d971ee8da3da1e72ed0ea3a53698712bbc541cc7c33f141b793",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.exponents.easy.0029",
+    "topic_id": "ch1.exponents",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $(-3)^{3}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$27$"
+      },
+      {
+        "id": "b",
+        "latex": "$-9$"
+      },
+      {
+        "id": "c",
+        "latex": "$-26$"
+      },
+      {
+        "id": "d",
+        "latex": "$-27$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-27",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$(-3)^{3}=-27$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.6",
+    "tags": [
+      "exponents"
+    ],
+    "checksum": "sha256-d23df355c635f9266b1dbc52360faeb6df839799d1c68903f94627bd7602ecbb",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.exponents.easy.0030",
+    "topic_id": "ch1.exponents",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $32^{0}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$32$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Any nonzero number to the zero power is $1$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.6",
+    "tags": [
+      "exponents"
+    ],
+    "checksum": "sha256-6cf27ee6b061a50f0b8e35cece9e1fa94dd8a2c679b897bd8c31060132ae21c1",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.exponents.easy.0031",
+    "topic_id": "ch1.exponents",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $34^{1}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$34$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$35$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "34",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Any number to the first power equals itself, so the value is 34.",
+    "complexity_factor": 0.75,
+    "source_section": "1.6",
+    "tags": [
+      "exponents"
+    ],
+    "checksum": "sha256-2b904c28e9d2760a102c52a80b3539d5be91621b30c0b73427cda05cefefe9c8",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.exponents.easy.0032",
+    "topic_id": "ch1.exponents",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $4^{2}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$20$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "16",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$4^{2}=16$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.6",
+    "tags": [
+      "exponents"
+    ],
+    "checksum": "sha256-88aba4d73865cf358838bcedefdfa78271e85ccaabacb17ed2e890a83e3cab7f",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.exponents.easy.0033",
+    "topic_id": "ch1.exponents",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $(-7)^{4}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-28$"
+      },
+      {
+        "id": "b",
+        "latex": "$2402$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2400$"
+      },
+      {
+        "id": "d",
+        "latex": "$2401$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2401",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$(-7)^{4}=2401$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.6",
+    "tags": [
+      "exponents"
+    ],
+    "checksum": "sha256-e787d86759cbea2f52b8374eb1ae7616eda9b895c563811c4ab589a55e5ac7f6",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.exponents.easy.0034",
+    "topic_id": "ch1.exponents",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $36^{0}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$36$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Any nonzero number to the zero power is $1$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.6",
+    "tags": [
+      "exponents"
+    ],
+    "checksum": "sha256-a0535e789e12a91e8d4a7d5eed1f5160ead0c77ecb1dd3f492b37f4086407c17",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.exponents.easy.0035",
+    "topic_id": "ch1.exponents",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $38^{1}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$38$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$39$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "38",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Any number to the first power equals itself, so the value is 38.",
+    "complexity_factor": 0.75,
+    "source_section": "1.6",
+    "tags": [
+      "exponents"
+    ],
+    "checksum": "sha256-66bc69badc8794c9e13551bd7243f3a3af1a26564fe42d1d3b332263963b5d26",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.exponents.easy.0036",
+    "topic_id": "ch1.exponents",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $8^{3}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$512$"
+      },
+      {
+        "id": "b",
+        "latex": "$24$"
+      },
+      {
+        "id": "c",
+        "latex": "$520$"
+      },
+      {
+        "id": "d",
+        "latex": "$504$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "512",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$8^{3}=512$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.6",
+    "tags": [
+      "exponents"
+    ],
+    "checksum": "sha256-2970c9abdc97094c118f36bb84ac35ccc48efd6ccb4d2c8afbec823a434e73ed",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.exponents.easy.0037",
+    "topic_id": "ch1.exponents",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $(-4)^{2}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-8$"
+      },
+      {
+        "id": "b",
+        "latex": "$17$"
+      },
+      {
+        "id": "c",
+        "latex": "$-15$"
+      },
+      {
+        "id": "d",
+        "latex": "$16$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "16",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$(-4)^{2}=16$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.6",
+    "tags": [
+      "exponents"
+    ],
+    "checksum": "sha256-de11aed7a4a82789823fdf1e8374073eeba92c97992f3be58974d0e8f2e1c0a4",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.exponents.easy.0038",
+    "topic_id": "ch1.exponents",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $40^{0}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$40$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Any nonzero number to the zero power is $1$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.6",
+    "tags": [
+      "exponents"
+    ],
+    "checksum": "sha256-1e06d99cbd6747430288295a7c03ad85df218e201757dc21f27c501a2e48b61c",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.exponents.easy.0039",
+    "topic_id": "ch1.exponents",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $42^{1}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$42$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$43$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "42",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Any number to the first power equals itself, so the value is 42.",
+    "complexity_factor": 0.75,
+    "source_section": "1.6",
+    "tags": [
+      "exponents"
+    ],
+    "checksum": "sha256-3d6e2ec55deb90651021cc8d3042e87ff39dd907a73db64cf654e8d3f2d66c97",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.exponents.easy.0040",
+    "topic_id": "ch1.exponents",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $2^{4}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$18$"
+      },
+      {
+        "id": "d",
+        "latex": "$14$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "16",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$2^{4}=16$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.6",
+    "tags": [
+      "exponents"
+    ],
+    "checksum": "sha256-a4d012c93918034618695a8169caf6af35adba286de1f3e5eae80cbe3c547ac0",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.exponents.easy.0041",
+    "topic_id": "ch1.exponents",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $(-8)^{3}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$512$"
+      },
+      {
+        "id": "b",
+        "latex": "$-24$"
+      },
+      {
+        "id": "c",
+        "latex": "$-511$"
+      },
+      {
+        "id": "d",
+        "latex": "$-512$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-512",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$(-8)^{3}=-512$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.6",
+    "tags": [
+      "exponents"
+    ],
+    "checksum": "sha256-1b67137168e4212d643f5866b8545f3b40e060fd15d8fd216444558d281c67b3",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.exponents.easy.0042",
+    "topic_id": "ch1.exponents",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $44^{0}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$44$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Any nonzero number to the zero power is $1$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.6",
+    "tags": [
+      "exponents"
+    ],
+    "checksum": "sha256-ebecb91d7d7b96f32f88c10b30b9a0b450639e622bbb08130be7b4c4030c493e",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.exponents.easy.0043",
+    "topic_id": "ch1.exponents",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $46^{1}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$46$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$47$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "46",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Any number to the first power equals itself, so the value is 46.",
+    "complexity_factor": 0.75,
+    "source_section": "1.6",
+    "tags": [
+      "exponents"
+    ],
+    "checksum": "sha256-4a4864e9132350eec02638df3403d560e826b72bc9f7ba9c997358f9b8e9c78d",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.exponents.easy.0044",
+    "topic_id": "ch1.exponents",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $6^{5}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7776$"
+      },
+      {
+        "id": "b",
+        "latex": "$30$"
+      },
+      {
+        "id": "c",
+        "latex": "$7782$"
+      },
+      {
+        "id": "d",
+        "latex": "$7770$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "7776",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$6^{5}=7776$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.6",
+    "tags": [
+      "exponents"
+    ],
+    "checksum": "sha256-d1e03d2cc60e9b6310c8d60d56d0d7d9eb0400c5ad0fec67b251ba7144b3cee0",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.exponents.easy.0045",
+    "topic_id": "ch1.exponents",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $(-5)^{4}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-20$"
+      },
+      {
+        "id": "b",
+        "latex": "$626$"
+      },
+      {
+        "id": "c",
+        "latex": "$-624$"
+      },
+      {
+        "id": "d",
+        "latex": "$625$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "625",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$(-5)^{4}=625$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.6",
+    "tags": [
+      "exponents"
+    ],
+    "checksum": "sha256-3287a2a2360f937d1e7cd7518c0c34371beb1540f40f7697772056e8758d2453",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.exponents.easy.0046",
+    "topic_id": "ch1.exponents",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $48^{0}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$48$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Any nonzero number to the zero power is $1$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.6",
+    "tags": [
+      "exponents"
+    ],
+    "checksum": "sha256-455c87214dbc6a238d0d5d43ee471e9ea7aab9f167c962ab9397a46e62d476a1",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.exponents.easy.0047",
+    "topic_id": "ch1.exponents",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $50^{1}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$50$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$51$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "50",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Any number to the first power equals itself, so the value is 50.",
+    "complexity_factor": 0.75,
+    "source_section": "1.6",
+    "tags": [
+      "exponents"
+    ],
+    "checksum": "sha256-954d85b9418852328a2b02957d6844925417e76a5366903d6907582534000b5c",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.exponents.easy.0048",
+    "topic_id": "ch1.exponents",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $10^{2}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$100$"
+      },
+      {
+        "id": "b",
+        "latex": "$20$"
+      },
+      {
+        "id": "c",
+        "latex": "$110$"
+      },
+      {
+        "id": "d",
+        "latex": "$90$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "100",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$10^{2}=100$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.6",
+    "tags": [
+      "exponents"
+    ],
+    "checksum": "sha256-1d6d9f600fee1a60ed2410519e3a193e12062879a90891d054b14a3dc5b8af51",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.exponents.easy.0049",
+    "topic_id": "ch1.exponents",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $(-2)^{2}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$-3$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$(-2)^{2}=4$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.6",
+    "tags": [
+      "exponents"
+    ],
+    "checksum": "sha256-a761863422d4c0c916c5a29f40a2f81391a8de8b6efd1f24d5eb498b3eda66c0",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.exponents.easy.0050",
+    "topic_id": "ch1.exponents",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $52^{0}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$52$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Any nonzero number to the zero power is $1$.",
+    "complexity_factor": 0.75,
+    "source_section": "1.6",
+    "tags": [
+      "exponents"
+    ],
+    "checksum": "sha256-fe2b48c0cdcac68102feacc61f806d2f8b663988575a9a08c4a1d1e50feea50d",
     "status": "valid"
   }
 ]

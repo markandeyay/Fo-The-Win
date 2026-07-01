@@ -1,0 +1,1962 @@
+[
+  {
+    "id": "ch8.intro_graphing_linear.hard.0001",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "What is the intersection point of $y = 2x + 3$ and $y = 4x + 11$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-5, -4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-4, 5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-4, -5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4, -5)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-4,-5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Both equations give $y=-5$ when $x=-4$, so the intersection is $(-4, -5)$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "intersection"
+    ],
+    "checksum": "sha256-11b4da59b706e96f8cc591ffd433acfbe054de327186e4ef7ca1c96be14de95f",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.hard.0002",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "The point $(k, 1)$ lies on $y = -2x - 5$. What is $k$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Solve $1=-2k- 5$ to get $k=-3$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "parameters"
+    ],
+    "checksum": "sha256-ccf41c7ebd3cf8a7d03fe3e82bba5e492d9093b81100d0d33d9c5285cf418e77",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.hard.0003",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "The point $(-2, k)$ lies on $4x + 6y = 10$. What is $k$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=-2$: $4(-2)+6k=10$, so $k=3$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "parameters",
+      "standard-form"
+    ],
+    "checksum": "sha256-7db853643ce21a4cc0ca7a08f31c1eb59596552cadd8c8021b5431d893fa547d",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.hard.0004",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "How many integer points on $y = -3x - 3$ have integer $x$ with $-3 \\le x \\le 6$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$-10$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "For every integer $x$ in the interval, $y=-3x- 3$ is an integer. There are $10$ such $x$-values.",
+    "complexity_factor": 1.24,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "integer-points"
+    ],
+    "checksum": "sha256-c812cddca0b294661bc889b970748a69aae29e8dc4cc643e4a03b0c65c39e7a6",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.hard.0005",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "What is the $x$-intercept point of the line $y = 2x - 2$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1, 0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2, 0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0, 1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1, 0)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(1,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Set $y=0$: $0=2x- 2$, so $x=1$ and the point is $(1, 0)$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "intercepts"
+    ],
+    "checksum": "sha256-e137a2d7392454081bdfd3cb3aca8f0f49470bfab885acae997beb5093f43f3c",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.hard.0006",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "What is the intersection point of $y = 2x + 2$ and $y = x + 3$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4, 1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1, 4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1, 4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1, -4)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(1,4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Both equations give $y=4$ when $x=1$, so the intersection is $(1, 4)$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "intersection"
+    ],
+    "checksum": "sha256-124f4c40b882dc8ecdd33e9ea4521c520ff7ae85968feadd7d68905fd8478550",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.hard.0007",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "The point $(k, 2)$ lies on $y = x$. What is $k$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Solve $2=1k+ 0$ to get $k=2$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "parameters"
+    ],
+    "checksum": "sha256-2efa6b981fbdafb87af3f3cdf82bc81b415839a30047594b2c1278c20052c09c",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.hard.0008",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "The point $(3, k)$ lies on $4x + 3y = 15$. What is $k$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=3$: $4(3)+3k=15$, so $k=1$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "parameters",
+      "standard-form"
+    ],
+    "checksum": "sha256-8c73cbf255b4ccf7b39a8b928a3e2ec51dee487fb3d05d1b6c197680fa8e6b51",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.hard.0009",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "How many integer points on $y = -2x + 2$ have integer $x$ with $-3 \\le x \\le 3$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$-7$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "For every integer $x$ in the interval, $y=-2x+ 2$ is an integer. There are $7$ such $x$-values.",
+    "complexity_factor": 1.24,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "integer-points"
+    ],
+    "checksum": "sha256-4b6eba40e4287eec3feaaa3dd4c7cab50c74a9846ac5a5d25eec9d097db037e7",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.hard.0010",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "What is the $x$-intercept point of the line $y = x + 3$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3, 0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-2, 0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-3, 0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0, -3)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-3,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Set $y=0$: $0=1x+ 3$, so $x=-3$ and the point is $(-3, 0)$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "intercepts"
+    ],
+    "checksum": "sha256-e1bd7fba1d6b001e815b4ab514f273a6676e5db64d50ee965a75afcd3767e8a1",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.hard.0011",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "What is the intersection point of $y = 3x + 11$ and $y = 5x + 17$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-3, 2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2, -3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-3, -2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3, 2)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-3,2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Both equations give $y=2$ when $x=-3$, so the intersection is $(-3, 2)$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "intersection"
+    ],
+    "checksum": "sha256-bcd69ba90a4d8a061e221cdc8d6b8563f3db8d9949aa1cd1c44b85a8030d8c1a",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.hard.0012",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "The point $(k, 7)$ lies on $y = -x + 5$. What is $k$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$-3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Solve $7=-1k+ 5$ to get $k=-2$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "parameters"
+    ],
+    "checksum": "sha256-23c1356abb8eefc0a6dcbb826d65d18f22e1289eeceab954aa02e46de83b9ecd",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.hard.0013",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "The point $(-1, k)$ lies on $4x + 4y = -8$. What is $k$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=-1$: $4(-1)+4k=-8$, so $k=-1$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "parameters",
+      "standard-form"
+    ],
+    "checksum": "sha256-72507ae9884db217e4744fcfb97e06c18b28a024d17c9632a247ccb9c46f370f",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.hard.0014",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "How many integer points on $y = -2x - 6$ have integer $x$ with $-3 \\le x \\le 4$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$-8$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "For every integer $x$ in the interval, $y=-2x- 6$ is an integer. There are $8$ such $x$-values.",
+    "complexity_factor": 1.24,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "integer-points"
+    ],
+    "checksum": "sha256-1e893d7c94aebdf3c23d4d2cf02921fbeea587d259b82cf39ee2f5a78853527c",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.hard.0015",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "What is the $x$-intercept point of the line $y = 3x - 3$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1, 0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0, 1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2, 0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1, 0)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(1,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Set $y=0$: $0=3x- 3$, so $x=1$ and the point is $(1, 0)$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "intercepts"
+    ],
+    "checksum": "sha256-4f35e363b29858e48500716f9904612b04e9c9b0062dabed5da7527410ca9077",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.hard.0016",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "What is the intersection point of $y = -x + 2$ and $y = -3x + 6$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2, 0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3, 0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0, 2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2, 0)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(2,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Both equations give $y=0$ when $x=2$, so the intersection is $(2, 0)$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "intersection"
+    ],
+    "checksum": "sha256-081c84712f824ed8bb6a07eb9fa972d1195745bc4c5069a91fd5dc972d3102af",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.hard.0017",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "The point $(k, 3)$ lies on $y = 2x - 3$. What is $k$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Solve $3=2k- 3$ to get $k=3$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "parameters"
+    ],
+    "checksum": "sha256-f48304e71c47b025c756e850fba444b3e3b499f9b13f2e5aae739ebfd499192f",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.hard.0018",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "The point $(4, k)$ lies on $4x + 5y = 1$. What is $k$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=4$: $4(4)+5k=1$, so $k=-3$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "parameters",
+      "standard-form"
+    ],
+    "checksum": "sha256-1954dd98e5488e3872fa26fc749479c615717079fa3db39fb205511702d30551",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.hard.0019",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "How many integer points on $y = x - 1$ have integer $x$ with $-3 \\le x \\le 5$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$-9$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "For every integer $x$ in the interval, $y=1x- 1$ is an integer. There are $9$ such $x$-values.",
+    "complexity_factor": 1.24,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "integer-points"
+    ],
+    "checksum": "sha256-5254cc1a88cc365e2c13c4738618803affb03ee9dcd1178e8815b393a73ac568",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.hard.0020",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "What is the $x$-intercept point of the line $y = 2x$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1, 1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0, -1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1, 0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0, 0)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(0,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Set $y=0$: $0=2x+ 0$, so $x=0$ and the point is $(0, 0)$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "intercepts"
+    ],
+    "checksum": "sha256-a2459a71b3ea601a10ca9d609dd23bae7bbfd397932466b35873fe11107be51d",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.hard.0021",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "What is the intersection point of $y = -2x - 6$ and $y = 0 - 2$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1, -2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-2, 2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2, -2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2, -2)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-2,-2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Both equations give $y=-2$ when $x=-2$, so the intersection is $(-2, -2)$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "intersection"
+    ],
+    "checksum": "sha256-015f5645cee5d90fe83a59c1e0c860becd63e867770b77282711a7af77322ccb",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.hard.0022",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "The point $(k, 0)$ lies on $y = 2x + 2$. What is $k$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Solve $0=2k+ 2$ to get $k=-1$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "parameters"
+    ],
+    "checksum": "sha256-ad98930a0fb2ad21f4adbb05e659e0f9f4b298bc50ee31ff7bf0f59dfb6235f5",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.hard.0023",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "The point $(0, k)$ lies on $4x + 6y = -30$. What is $k$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-5$"
+      },
+      {
+        "id": "b",
+        "latex": "$-6$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=0$: $4(0)+6k=-30$, so $k=-5$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "parameters",
+      "standard-form"
+    ],
+    "checksum": "sha256-41fc41a533fb7621312fda03a529957b06ba8ee3d7cfc071eae0215fad2e2bf4",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.hard.0024",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "How many integer points on $y = x + 4$ have integer $x$ with $-3 \\le x \\le 6$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11$"
+      },
+      {
+        "id": "b",
+        "latex": "$-10$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "For every integer $x$ in the interval, $y=1x+ 4$ is an integer. There are $10$ such $x$-values.",
+    "complexity_factor": 1.24,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "integer-points"
+    ],
+    "checksum": "sha256-d99fa0e9a5570faa51a5ddd973daca53f4eac19481f5ed69d6c45b497399331d",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.hard.0025",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "What is the $x$-intercept point of the line $y = -2x + 4$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2, 0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2, 0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3, 0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0, 2)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(2,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Set $y=0$: $0=-2x+ 4$, so $x=2$ and the point is $(2, 0)$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "intercepts"
+    ],
+    "checksum": "sha256-46613628551a3074cc2a82a9efef552bb2a52530f3c6d7ee8cbe9977392a2760",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.hard.0026",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "What is the intersection point of $y = -3x + 5$ and $y = -2x + 2$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-3, -4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3, 4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3, -4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-4, 3)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(3,-4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Both equations give $y=-4$ when $x=3$, so the intersection is $(3, -4)$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "intersection"
+    ],
+    "checksum": "sha256-cf15f3d9bb524dd73611daffed0797fcac886b76d947b98000a0148dc19827ec",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.hard.0027",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "The point $(k, -14)$ lies on $y = -2x - 6$. What is $k$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Solve $-14=-2k- 6$ to get $k=4$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "parameters"
+    ],
+    "checksum": "sha256-1219223c3b0c72779a023af76ea509cd7d6d67ad430f3d67f980bf88555a06d1",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.hard.0028",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "The point $(-4, k)$ lies on $4x + 3y = -4$. What is $k$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=-4$: $4(-4)+3k=-4$, so $k=4$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "parameters",
+      "standard-form"
+    ],
+    "checksum": "sha256-f79b1b7066c3ffa685232265e5be1246eab56e9b409656eb4d27ca856a7f04a8",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.hard.0029",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "How many integer points on $y = -2x - 4$ have integer $x$ with $-3 \\le x \\le 3$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-7$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "For every integer $x$ in the interval, $y=-2x- 4$ is an integer. There are $7$ such $x$-values.",
+    "complexity_factor": 1.24,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "integer-points"
+    ],
+    "checksum": "sha256-3704ed77879120465b1287f5a963d31baa2c9a6523fda45cd2f2c5593cd9da43",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.hard.0030",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "What is the $x$-intercept point of the line $y = -3x - 3$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0, -1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1, 0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1, 0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0, 0)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-1,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Set $y=0$: $0=-3x- 3$, so $x=-1$ and the point is $(-1, 0)$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "intercepts"
+    ],
+    "checksum": "sha256-ffd24cb592369e55a5e0efcf5bc28e310def81b4a34ce5ac2a18980542aa4b69",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.hard.0031",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "What is the intersection point of $y = -2x + 3$ and $y = -4x + 1$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1, 5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1, -5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(5, -1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1, 5)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-1,5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Both equations give $y=5$ when $x=-1$, so the intersection is $(-1, 5)$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "intersection"
+    ],
+    "checksum": "sha256-78d609f88104955a934186bab4be699596d8e8558e413ac41d907708662c2aff",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.hard.0032",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "The point $(k, -1)$ lies on $y = -x - 1$. What is $k$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Solve $-1=-1k- 1$ to get $k=0$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "parameters"
+    ],
+    "checksum": "sha256-029a15741561758a978c8022ba6f4676aeed2aa32e8f07b7cf31b47c318b7dec",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.hard.0033",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "The point $(1, k)$ lies on $4x + 4y = 12$. What is $k$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=1$: $4(1)+4k=12$, so $k=2$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "parameters",
+      "standard-form"
+    ],
+    "checksum": "sha256-d035a595ea892eb19ebedc1c8a03a814a302dbbb96810d675c47cf99fd08ae6d",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.hard.0034",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "How many integer points on $y = x + 1$ have integer $x$ with $-3 \\le x \\le 4$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-8$"
+      },
+      {
+        "id": "b",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "For every integer $x$ in the interval, $y=1x+ 1$ is an integer. There are $8$ such $x$-values.",
+    "complexity_factor": 1.24,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "integer-points"
+    ],
+    "checksum": "sha256-b0e43479beb5e19e813aaae9eb118eb84e5e59bd9f54ba12fa4e53a8046a246b",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.hard.0035",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "What is the $x$-intercept point of the line $y = -3x$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1, 1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1, 0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0, -1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0, 0)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(0,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Set $y=0$: $0=-3x+ 0$, so $x=0$ and the point is $(0, 0)$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "intercepts"
+    ],
+    "checksum": "sha256-3fdec37149391cdbeb7f2acf7fc2d8b62ca86f1a2031271ac66e6dd2b521e804",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.hard.0036",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "What is the intersection point of $y = 3x - 9$ and $y = 5x - 17$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4, 3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4, -3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3, 4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-4, 3)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(4,3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Both equations give $y=3$ when $x=4$, so the intersection is $(4, 3)$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "intersection"
+    ],
+    "checksum": "sha256-bec2eed462fcf1c174c5835f798fd96a1df99dc15f1b75e0d0091731fc8a81b6",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.hard.0037",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "The point $(k, 16)$ lies on $y = -3x + 4$. What is $k$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-5$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Solve $16=-3k+ 4$ to get $k=-4$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "parameters"
+    ],
+    "checksum": "sha256-8e6661cc67d243ef99ac3e8dfd667a9263bda798170ab31f4616f64f051dccc2",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.hard.0038",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "The point $(-3, k)$ lies on $4x + 5y = -12$. What is $k$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=-3$: $4(-3)+5k=-12$, so $k=0$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "parameters",
+      "standard-form"
+    ],
+    "checksum": "sha256-59d99772f3d186936539681b35488b7182213c7665f48c96d1547ba9c16abb3a",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.hard.0039",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "How many integer points on $y = 2x + 6$ have integer $x$ with $-3 \\le x \\le 5$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-9$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "For every integer $x$ in the interval, $y=2x+ 6$ is an integer. There are $9$ such $x$-values.",
+    "complexity_factor": 1.24,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "integer-points"
+    ],
+    "checksum": "sha256-f33f782b3326da23789d8e8abab6cc68ed2dd8c4d20620d876ab129257b3c8cb",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.hard.0040",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "What is the $x$-intercept point of the line $y = -x - 6$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-6, 0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0, -6)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(6, 0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-5, 0)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-6,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Set $y=0$: $0=-1x- 6$, so $x=-6$ and the point is $(-6, 0)$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "intercepts"
+    ],
+    "checksum": "sha256-2273ca2a913037328864902f90078e0690d7284478b9fa3eec83552ca7a26a8e",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.hard.0041",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "What is the intersection point of $y = -3x + 1$ and $y = -2x + 1$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1, 1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0, 1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1, 0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0, -1)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(0,1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Both equations give $y=1$ when $x=0$, so the intersection is $(0, 1)$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "intersection"
+    ],
+    "checksum": "sha256-a43aa6cd589973bdbce955ddeb84f077c44e002a8adcd61f045ad8db9e2f4b30",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.hard.0042",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "The point $(k, -7)$ lies on $y = -3x - 4$. What is $k$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Solve $-7=-3k- 4$ to get $k=1$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "parameters"
+    ],
+    "checksum": "sha256-4140fa82d462710add51b6d6872c5fec01e6c54301596a415cc4901ae0dd0d15",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.hard.0043",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "The point $(2, k)$ lies on $4x + 6y = -4$. What is $k$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=2$: $4(2)+6k=-4$, so $k=-2$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "parameters",
+      "standard-form"
+    ],
+    "checksum": "sha256-f4daad74e42fa67507536fe7d0907ad27e375c251fed20e7e91aa7f062d462fa",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.hard.0044",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "How many integer points on $y = -3x - 2$ have integer $x$ with $-3 \\le x \\le 6$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$-10$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "For every integer $x$ in the interval, $y=-3x- 2$ is an integer. There are $10$ such $x$-values.",
+    "complexity_factor": 1.24,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "integer-points"
+    ],
+    "checksum": "sha256-d5264953f2b8841bb25440961e42435e5e04b122359e78913f4d8dd097e8150b",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.hard.0045",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "What is the $x$-intercept point of the line $y = -2x$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1, 0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1, 1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0, 0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0, -1)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(0,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Set $y=0$: $0=-2x+ 0$, so $x=0$ and the point is $(0, 0)$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "intercepts"
+    ],
+    "checksum": "sha256-d21e63e7c01c2da7f12c3ce95f548911045048c0cd185116c100848f4718cb37",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.hard.0046",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "What is the intersection point of $y = x + 3$ and $y = 3x + 11$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-4, -1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1, -4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-4, 1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4, -1)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-4,-1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Both equations give $y=-1$ when $x=-4$, so the intersection is $(-4, -1)$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "intersection"
+    ],
+    "checksum": "sha256-a126e44e99170f3f8aa307ea3ef7dd53e1caf2c7690a4f6da1a234c32f18a565",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.hard.0047",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "The point $(k, -5)$ lies on $y = 2x + 1$. What is $k$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Solve $-5=2k+ 1$ to get $k=-3$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "parameters"
+    ],
+    "checksum": "sha256-e37f4fd4248140ef3ba6c8c075fe1a472fb36675f947d15c052b2f2c0dc47336",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.hard.0048",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "The point $(-2, k)$ lies on $4x + 3y = -20$. What is $k$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-5$"
+      },
+      {
+        "id": "c",
+        "latex": "$-3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=-2$: $4(-2)+3k=-20$, so $k=-4$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "parameters",
+      "standard-form"
+    ],
+    "checksum": "sha256-4e8be585b6deea47650f4be7999e5be0bcb54dbdea2f632b00800a3004201815",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.hard.0049",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "How many integer points on $y = x + 3$ have integer $x$ with $-3 \\le x \\le 3$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$-7$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "For every integer $x$ in the interval, $y=1x+ 3$ is an integer. There are $7$ such $x$-values.",
+    "complexity_factor": 1.24,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "integer-points"
+    ],
+    "checksum": "sha256-f3aefe00fbd83d0dfbc8a81bb25aa3047c61da6571917742bba1e8626d4fa26d",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.hard.0050",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "What is the $x$-intercept point of the line $y = 2x + 4$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2, 0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0, -2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1, 0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2, 0)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-2,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Set $y=0$: $0=2x+ 4$, so $x=-2$ and the point is $(-2, 0)$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "intercepts"
+    ],
+    "checksum": "sha256-aa2630cb127f2cff272691e9f4d759873621ea3c732b50fa1886de46be7c1405",
+    "status": "valid"
+  }
+]

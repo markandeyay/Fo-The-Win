@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "ch20.floor_ceiling.easy.0001",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\lfloor\\frac{-23}{2}\\rfloor$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-10$"
+      },
+      {
+        "id": "b",
+        "latex": "$-9$"
+      },
+      {
+        "id": "c",
+        "latex": "$-12$"
+      },
+      {
+        "id": "d",
+        "latex": "$-11$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\frac{-23}{2}=-11.50\\ldots$, so the greatest integer not exceeding it is $-12$.",
+    "complexity_factor": 0.95,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-c4ce7a31598d35a3f3b61750591e984d9ef793c5d9e525dfc6f7cbe05ec23dfd",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.easy.0002",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\lceil\\frac{-17}{4}\\rceil$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-5$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\frac{-17}{4}=-4.25\\ldots$, so the least integer not less than it is $-4$.",
+    "complexity_factor": 0.95,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-c68850acc5d96a4cc6ecc8d246791ad73cb73cf3fc0335b8fd3a9a4fb871f7ef",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.easy.0003",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\lfloor\\frac{-11}{6}\\rfloor$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\frac{-11}{6}=-1.83\\ldots$, so the greatest integer not exceeding it is $-2$.",
+    "complexity_factor": 0.95,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-f47726ffa9185cd4d711e53c7e252fd0d2101e39c12158832bc800c1c475547e",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.easy.0004",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\lceil\\frac{-7}{4}\\rceil$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\frac{-7}{4}=-1.75\\ldots$, so the least integer not less than it is $-1$.",
+    "complexity_factor": 0.95,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-0ca23f4eb33f9ccee8eb42c4a5d5bc2424d6b7dfebd4e2acc198cb24927dfb4a",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.easy.0005",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\lfloor\\frac{7}{6}\\rfloor$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\frac{7}{6}=1.17\\ldots$, so the greatest integer not exceeding it is $1$.",
+    "complexity_factor": 0.95,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-a2d586b52c490c3b261e2c6cfa50d9b68166b27835007ec80c7928a5a8dbbf1d",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.easy.0006",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\lceil\\frac{11}{4}\\rceil$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\frac{11}{4}=2.75\\ldots$, so the least integer not less than it is $3$.",
+    "complexity_factor": 0.95,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-d75c2c34991f82cb9b6420363c25a9edfc8a4a934c0673c915e24e7da913b5c5",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.easy.0007",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\lfloor\\frac{17}{6}\\rfloor$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\frac{17}{6}=2.83\\ldots$, so the greatest integer not exceeding it is $2$.",
+    "complexity_factor": 0.95,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-4e2e514e2d5a78105c630d04fa60a3ac5052b3b58cc43418547d2d5d6fc20a82",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.easy.0008",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\lceil\\frac{23}{8}\\rceil$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\frac{23}{8}=2.88\\ldots$, so the least integer not less than it is $3$.",
+    "complexity_factor": 0.95,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-5bb716548372b73c2d5af8053070d98b6ebe629c4b47a0cd583c591935ff52da",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.easy.0009",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\lfloor\\frac{-24}{6}\\rfloor$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\frac{-24}{6}=-4.00\\ldots$, so the greatest integer not exceeding it is $-4$.",
+    "complexity_factor": 0.95,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-03c09208a9bc301c2a142bf06451260668618736d7be4a1913ce1109af4c72e6",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.easy.0010",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\lceil\\frac{-18}{8}\\rceil$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\frac{-18}{8}=-2.25\\ldots$, so the least integer not less than it is $-2$.",
+    "complexity_factor": 0.95,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-0a922fd046971eb6bf82100eafd3bda8a1f882c399bcdff348cb60e51d5804c5",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.easy.0011",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\lfloor\\frac{-12}{6}\\rfloor$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\frac{-12}{6}=-2.00\\ldots$, so the greatest integer not exceeding it is $-2$.",
+    "complexity_factor": 0.95,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-911f2b68050d9bbfb8d8720f3eab6c98354157be572c30de14379feffce8a47a",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.easy.0012",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\lceil\\frac{-8}{8}\\rceil$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\frac{-8}{8}=-1.00\\ldots$, so the least integer not less than it is $-1$.",
+    "complexity_factor": 0.95,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-1fe2ff20030ad599dd34546c69d225f67642d83d373ccc11a141c862d685dfbe",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.easy.0013",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\lfloor\\frac{8}{10}\\rfloor$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\frac{8}{10}=0.80\\ldots$, so the greatest integer not exceeding it is $0$.",
+    "complexity_factor": 0.95,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-9cf999970b14a2f9a39d01c2ac4fa756c2464cde4d94521a6299e01ef0c53400",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.easy.0014",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\lceil\\frac{12}{8}\\rceil$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\frac{12}{8}=1.50\\ldots$, so the least integer not less than it is $2$.",
+    "complexity_factor": 0.95,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-b9df91a3a9c4dca770310bb409cf6738d24a061b79f3a7c01518afdcd854d578",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.easy.0015",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\lfloor\\frac{18}{10}\\rfloor$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\frac{18}{10}=1.80\\ldots$, so the greatest integer not exceeding it is $1$.",
+    "complexity_factor": 0.95,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-2c262027fc7d5dbb6a194fdae7f03286f30cbc317b59ca908a5ff5dbc2098b0b",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.easy.0016",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\lceil\\frac{24}{8}\\rceil$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\frac{24}{8}=3.00\\ldots$, so the least integer not less than it is $3$.",
+    "complexity_factor": 0.95,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-eaffc395477838496b737879c3186d1ae9642afef228ba645adb111e6018c022",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.easy.0017",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\lfloor\\frac{-25}{10}\\rfloor$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$-3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\frac{-25}{10}=-2.50\\ldots$, so the greatest integer not exceeding it is $-3$.",
+    "complexity_factor": 0.95,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-442abd4215bcf3ef1419537baaf68ee8ad778b21890972ef1ac58a49a016bd2d",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.easy.0018",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\lceil\\frac{-19}{12}\\rceil$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\frac{-19}{12}=-1.58\\ldots$, so the least integer not less than it is $-1$.",
+    "complexity_factor": 0.95,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-aa83e20ae3d32bf20e19bab90dcce1c2c35885aaa9e8a123870f362292004021",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.easy.0019",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\lfloor\\frac{-13}{10}\\rfloor$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\frac{-13}{10}=-1.30\\ldots$, so the greatest integer not exceeding it is $-2$.",
+    "complexity_factor": 0.95,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-85eeeb7e0ff6732387696ef84d8e10ea2a7f4aa8cdedd6c3859babe834c371af",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.easy.0020",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\lceil\\frac{-9}{12}\\rceil$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\frac{-9}{12}=-0.75\\ldots$, so the least integer not less than it is $0$.",
+    "complexity_factor": 0.95,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-b7fdc94417ec1bc6cf5f62b57e507dd0a1158cef3339a3ea06106a792a9fdb43",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.easy.0021",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\lfloor\\frac{9}{10}\\rfloor$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\frac{9}{10}=0.90\\ldots$, so the greatest integer not exceeding it is $0$.",
+    "complexity_factor": 0.95,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-b70ee6df08e7eccafd2b7826d7c3a42b3401008c7316507092bc0695e9c91147",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.easy.0022",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\lceil\\frac{13}{12}\\rceil$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\frac{13}{12}=1.08\\ldots$, so the least integer not less than it is $2$.",
+    "complexity_factor": 0.95,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-4aa7b2d2fc05698c3659921854e2ad3ccd9ae396276de9f0f77b783d1d1b2e11",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.easy.0023",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\lfloor\\frac{19}{14}\\rfloor$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\frac{19}{14}=1.36\\ldots$, so the greatest integer not exceeding it is $1$.",
+    "complexity_factor": 0.95,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-5df03d846e50d12a65025fc599a5e25464b2b0bb343ce14f0543b8b7da361658",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.easy.0024",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\lceil\\frac{25}{12}\\rceil$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\frac{25}{12}=2.08\\ldots$, so the least integer not less than it is $3$.",
+    "complexity_factor": 0.95,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-557fbc01e9c5a2038bdde05411d3842423790db3c4d0d8f6c24a58ddd7772cca",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.easy.0025",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\lfloor\\frac{-26}{14}\\rfloor$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\frac{-26}{14}=-1.86\\ldots$, so the greatest integer not exceeding it is $-2$.",
+    "complexity_factor": 0.95,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-6d469ef3b141bcc851dd918c3cbe54025f61ca1a55b713a74b4ecef9e4f1d9d8",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.easy.0026",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\lceil\\frac{-20}{12}\\rceil$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\frac{-20}{12}=-1.67\\ldots$, so the least integer not less than it is $-1$.",
+    "complexity_factor": 0.95,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-0d99cd6ef357dee8974c241a80b8cad12b69c35a71466a5e16b0fe641914cbb1",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.easy.0027",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\lfloor\\frac{-14}{14}\\rfloor$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\frac{-14}{14}=-1.00\\ldots$, so the greatest integer not exceeding it is $-1$.",
+    "complexity_factor": 0.95,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-4df98c3f20c59eed71427956ccebbfdece97db3c975d96b9e1117d31f6ae1ae5",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.easy.0028",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\lceil\\frac{-10}{16}\\rceil$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\frac{-10}{16}=-0.63\\ldots$, so the least integer not less than it is $0$.",
+    "complexity_factor": 0.95,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-be7872bfe213e8bcbc18944f7a117ca9d629f114d4a0505172ebbdbafc953983",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.easy.0029",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\lfloor\\frac{10}{14}\\rfloor$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\frac{10}{14}=0.71\\ldots$, so the greatest integer not exceeding it is $0$.",
+    "complexity_factor": 0.95,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-2ec84ccee38b55a8fcc0a9954430ae5adc2c6e6ff1ca8c64c379bd5367948654",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.easy.0030",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\lceil\\frac{14}{16}\\rceil$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\frac{14}{16}=0.88\\ldots$, so the least integer not less than it is $1$.",
+    "complexity_factor": 0.95,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-8e1de2ad25de23d51b323db10208bfa55dbc6d51de5f092b57fedb27aafbcbb4",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.easy.0031",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\lfloor\\frac{20}{14}\\rfloor$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\frac{20}{14}=1.43\\ldots$, so the greatest integer not exceeding it is $1$.",
+    "complexity_factor": 0.95,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-ee7df5b71cb81656770f6231ef3df42c2f5d690c49c1ad32f4a226df3c68061b",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.easy.0032",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\lceil\\frac{26}{16}\\rceil$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\frac{26}{16}=1.63\\ldots$, so the least integer not less than it is $2$.",
+    "complexity_factor": 0.95,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-2bf6f6e5280a2823f81643c0c3a26a9ec011af12cabfa256823f213df65e484c",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.easy.0033",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\lfloor\\frac{-27}{18}\\rfloor$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\frac{-27}{18}=-1.50\\ldots$, so the greatest integer not exceeding it is $-2$.",
+    "complexity_factor": 0.95,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-2e34ae576e8bf68b7f4f036c402881fb710e43dbb46968cc8f35c3ac3164b6be",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.easy.0034",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\lceil\\frac{-21}{16}\\rceil$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\frac{-21}{16}=-1.31\\ldots$, so the least integer not less than it is $-1$.",
+    "complexity_factor": 0.95,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-0f02cebbfbf776a385f993ffd19745268818ffe4ca0facf282c9ea10aba0e968",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.easy.0035",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\lfloor\\frac{-15}{18}\\rfloor$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\frac{-15}{18}=-0.83\\ldots$, so the greatest integer not exceeding it is $-1$.",
+    "complexity_factor": 0.95,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-c473eb2f84d4ecb87573839140bd4051a0d9912878cd709a1bdb61a3e0797393",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.easy.0036",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\lceil\\frac{-11}{16}\\rceil$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\frac{-11}{16}=-0.69\\ldots$, so the least integer not less than it is $0$.",
+    "complexity_factor": 0.95,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-e72b823c1ea56518e084ab2d5fb0819212f107934a6a66ead672c7f4b048c161",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.easy.0037",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\lfloor\\frac{11}{18}\\rfloor$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\frac{11}{18}=0.61\\ldots$, so the greatest integer not exceeding it is $0$.",
+    "complexity_factor": 0.95,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-c58cd7e2be1093c3698b0a6e049505c147f7f10e6d828bff67ba11df4b22f3ff",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.easy.0038",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\lceil\\frac{15}{20}\\rceil$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\frac{15}{20}=0.75\\ldots$, so the least integer not less than it is $1$.",
+    "complexity_factor": 0.95,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-13d8c9d5845d43694470d7204686f4d8d081c3f1f43094943e4b02d2f4215f6c",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.easy.0039",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\lfloor\\frac{21}{18}\\rfloor$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\frac{21}{18}=1.17\\ldots$, so the greatest integer not exceeding it is $1$.",
+    "complexity_factor": 0.95,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-13570907d4711a8065609387b40d396b3eab90a1120184451c7f5bf7b5dd7719",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.easy.0040",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\lceil\\frac{27}{20}\\rceil$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\frac{27}{20}=1.35\\ldots$, so the least integer not less than it is $2$.",
+    "complexity_factor": 0.95,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-2c708ae501f88199298cf80643abaed7a3c9598eb87de41c02bef72724aaeb8d",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.easy.0041",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\lfloor\\frac{-28}{18}\\rfloor$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\frac{-28}{18}=-1.56\\ldots$, so the greatest integer not exceeding it is $-2$.",
+    "complexity_factor": 0.95,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-491a5761cab6fe17966e58018ca11785e4390d62007530b67ab999ee7c9e343f",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.easy.0042",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\lceil\\frac{-22}{20}\\rceil$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\frac{-22}{20}=-1.10\\ldots$, so the least integer not less than it is $-1$.",
+    "complexity_factor": 0.95,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-cf06007afe06fe36456669b3471748810c2d8aab1af2583e2d65ab848740b63d",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.easy.0043",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\lfloor\\frac{-16}{22}\\rfloor$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\frac{-16}{22}=-0.73\\ldots$, so the greatest integer not exceeding it is $-1$.",
+    "complexity_factor": 0.95,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-d77b5305b0898e882f9a3a27a291f60b3d8f947a532a0abc5c25055c5df4e31c",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.easy.0044",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\lceil\\frac{-12}{20}\\rceil$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\frac{-12}{20}=-0.60\\ldots$, so the least integer not less than it is $0$.",
+    "complexity_factor": 0.95,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-bfdf23d7b58192813791d0a2347aed4e46133dd311005d2b37f0c099026acdd5",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.easy.0045",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\lfloor\\frac{12}{22}\\rfloor$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\frac{12}{22}=0.55\\ldots$, so the greatest integer not exceeding it is $0$.",
+    "complexity_factor": 0.95,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-3e7912d85199920e9a1fce065db20c0c4ab5a6278a3fe647923cf210ebacf605",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.easy.0046",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\lceil\\frac{16}{20}\\rceil$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\frac{16}{20}=0.80\\ldots$, so the least integer not less than it is $1$.",
+    "complexity_factor": 0.95,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-f7505444d288372334251363359f77375ad45981e8df9c3ea41c54747073779b",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.easy.0047",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\lfloor\\frac{22}{22}\\rfloor$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\frac{22}{22}=1.00\\ldots$, so the greatest integer not exceeding it is $1$.",
+    "complexity_factor": 0.95,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-7f693fd042b5173edd2812b1a20a32701ed530161babbb7cfda82cc4b7941852",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.easy.0048",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\lceil\\frac{28}{24}\\rceil$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\frac{28}{24}=1.17\\ldots$, so the least integer not less than it is $2$.",
+    "complexity_factor": 0.95,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-7b74ddd89d868158bb46d1932a1027fa89ba7ba3aa75a298a16f5dc241f816b1",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.easy.0049",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\lfloor\\frac{-29}{22}\\rfloor$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\frac{-29}{22}=-1.32\\ldots$, so the greatest integer not exceeding it is $-2$.",
+    "complexity_factor": 0.95,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-0110c9ec9e116ee26983599a609595252f09c7f7ed57718962cb2454f11bbe8e",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.easy.0050",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Evaluate $\\lceil\\frac{-23}{24}\\rceil$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\frac{-23}{24}=-0.96\\ldots$, so the least integer not less than it is $0$.",
+    "complexity_factor": 0.95,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-a8cc0b91380497daf94b4ec5ba151f0dca85b99dfeadc1d72c814dc7044cf4e0",
+    "status": "valid"
+  }
+]

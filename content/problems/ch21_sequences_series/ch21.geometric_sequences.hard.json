@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "ch21.geometric_sequences.hard.0001",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "In a geometric sequence of positive terms, $a_{2}=3$ and $a_{6}=243$. Find $a_{4}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$27$"
+      },
+      {
+        "id": "b",
+        "latex": "$123$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$81$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "27",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Because $4$ is halfway between $2$ and $6$, $a_{4}^2=a_{2}a_{6}$. Thus $a_{4}=\\sqrt{3\\cdot 243}=27$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "geometric-mean"
+    ],
+    "checksum": "sha256-65ba5d7ff93c76aa29b90146e5a48ba951440005ece56d8386558b4fc6fcad7b",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.hard.0002",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "In a geometric sequence of positive terms, $a_{3}=8$ and $a_{9}=512$. Find $a_{6}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$256$"
+      },
+      {
+        "id": "b",
+        "latex": "$64$"
+      },
+      {
+        "id": "c",
+        "latex": "$260$"
+      },
+      {
+        "id": "d",
+        "latex": "$16$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "64",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Because $6$ is halfway between $3$ and $9$, $a_{6}^2=a_{3}a_{9}$. Thus $a_{6}=\\sqrt{8\\cdot 512}=64$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "geometric-mean"
+    ],
+    "checksum": "sha256-0e05832d5480817f4867e857194a39fe7e9207040f4362d3311073d404f6f200",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.hard.0003",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "In a geometric sequence of positive terms, $a_{4}=192$ and $a_{8}=49152$. Find $a_{6}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$768$"
+      },
+      {
+        "id": "b",
+        "latex": "$12288$"
+      },
+      {
+        "id": "c",
+        "latex": "$3072$"
+      },
+      {
+        "id": "d",
+        "latex": "$24672$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3072",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Because $6$ is halfway between $4$ and $8$, $a_{6}^2=a_{4}a_{8}$. Thus $a_{6}=\\sqrt{192\\cdot 49152}=3072$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "geometric-mean"
+    ],
+    "checksum": "sha256-7f38b12ce8edaf62188df49ed181c96f058a3fd241b307004a90bf0afdaa37ab",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.hard.0004",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "In a geometric sequence of positive terms, $a_{2}=12$ and $a_{8}=8748$. Find $a_{5}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4380$"
+      },
+      {
+        "id": "b",
+        "latex": "$36$"
+      },
+      {
+        "id": "c",
+        "latex": "$2916$"
+      },
+      {
+        "id": "d",
+        "latex": "$324$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "324",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Because $5$ is halfway between $2$ and $8$, $a_{5}^2=a_{2}a_{8}$. Thus $a_{5}=\\sqrt{12\\cdot 8748}=324$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "geometric-mean"
+    ],
+    "checksum": "sha256-a4ef58963c4b423082edfa6b4b7320887a2ed1d4b90f2254f2cc35d6078953e5",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.hard.0005",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "In a geometric sequence of positive terms, $a_{3}=20$ and $a_{7}=320$. Find $a_{5}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$80$"
+      },
+      {
+        "id": "b",
+        "latex": "$170$"
+      },
+      {
+        "id": "c",
+        "latex": "$40$"
+      },
+      {
+        "id": "d",
+        "latex": "$160$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "80",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Because $5$ is halfway between $3$ and $7$, $a_{5}^2=a_{3}a_{7}$. Thus $a_{5}=\\sqrt{20\\cdot 320}=80$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "geometric-mean"
+    ],
+    "checksum": "sha256-65ad9d1f2349302bdc706d6a5042423e2855d3edcdcc3010118375b5fbc39bcd",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.hard.0006",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "In a geometric sequence of positive terms, $a_{4}=64$ and $a_{10}=262144$. Find $a_{7}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$65536$"
+      },
+      {
+        "id": "b",
+        "latex": "$4096$"
+      },
+      {
+        "id": "c",
+        "latex": "$131104$"
+      },
+      {
+        "id": "d",
+        "latex": "$256$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "4096",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Because $7$ is halfway between $4$ and $10$, $a_{7}^2=a_{4}a_{10}$. Thus $a_{7}=\\sqrt{64\\cdot 262144}=4096$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "geometric-mean"
+    ],
+    "checksum": "sha256-78785727db271f62d817f50da13cf612c59782298f57b49a04e206d0fc0737af",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.hard.0007",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "In a geometric sequence of positive terms, $a_{2}=6$ and $a_{6}=486$. Find $a_{4}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$18$"
+      },
+      {
+        "id": "b",
+        "latex": "$162$"
+      },
+      {
+        "id": "c",
+        "latex": "$54$"
+      },
+      {
+        "id": "d",
+        "latex": "$246$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "54",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Because $4$ is halfway between $2$ and $6$, $a_{4}^2=a_{2}a_{6}$. Thus $a_{4}=\\sqrt{6\\cdot 486}=54$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "geometric-mean"
+    ],
+    "checksum": "sha256-30e914b1235f2f3031e0e335af7d65a603520e5f176c088d3e86fcf67f73b307",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.hard.0008",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "In a geometric sequence of positive terms, $a_{3}=12$ and $a_{9}=768$. Find $a_{6}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$390$"
+      },
+      {
+        "id": "b",
+        "latex": "$24$"
+      },
+      {
+        "id": "c",
+        "latex": "$384$"
+      },
+      {
+        "id": "d",
+        "latex": "$96$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "96",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Because $6$ is halfway between $3$ and $9$, $a_{6}^2=a_{3}a_{9}$. Thus $a_{6}=\\sqrt{12\\cdot 768}=96$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "geometric-mean"
+    ],
+    "checksum": "sha256-ac41261242a9a52655df6b96faeda2efa1e2ffa3df933f4cd6bbe885bcd93869",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.hard.0009",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "In a geometric sequence of positive terms, $a_{4}=256$ and $a_{8}=65536$. Find $a_{6}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4096$"
+      },
+      {
+        "id": "b",
+        "latex": "$32896$"
+      },
+      {
+        "id": "c",
+        "latex": "$1024$"
+      },
+      {
+        "id": "d",
+        "latex": "$16384$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "4096",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Because $6$ is halfway between $4$ and $8$, $a_{6}^2=a_{4}a_{8}$. Thus $a_{6}=\\sqrt{256\\cdot 65536}=4096$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "geometric-mean"
+    ],
+    "checksum": "sha256-a008f4d44dfb8d2df07385f70cbb14605b5da8e367975ea6672b0f47902e90d0",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.hard.0010",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "In a geometric sequence of positive terms, $a_{2}=15$ and $a_{8}=10935$. Find $a_{5}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3645$"
+      },
+      {
+        "id": "b",
+        "latex": "$405$"
+      },
+      {
+        "id": "c",
+        "latex": "$5475$"
+      },
+      {
+        "id": "d",
+        "latex": "$45$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "405",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Because $5$ is halfway between $2$ and $8$, $a_{5}^2=a_{2}a_{8}$. Thus $a_{5}=\\sqrt{15\\cdot 10935}=405$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "geometric-mean"
+    ],
+    "checksum": "sha256-5db13eecb3e3d9824859452d4e5c53f2eafb1b14da9af68d8fbbc581ba14bd57",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.hard.0011",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "In a geometric sequence of positive terms, $a_{3}=4$ and $a_{7}=64$. Find $a_{5}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$32$"
+      },
+      {
+        "id": "c",
+        "latex": "$16$"
+      },
+      {
+        "id": "d",
+        "latex": "$34$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "16",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Because $5$ is halfway between $3$ and $7$, $a_{5}^2=a_{3}a_{7}$. Thus $a_{5}=\\sqrt{4\\cdot 64}=16$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "geometric-mean"
+    ],
+    "checksum": "sha256-a8d7b0c6f241429dcd806ea64cb5dcd6138c2451aa0f9a64e0078dddaf41795d",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.hard.0012",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "In a geometric sequence of positive terms, $a_{4}=128$ and $a_{10}=524288$. Find $a_{7}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$262208$"
+      },
+      {
+        "id": "b",
+        "latex": "$512$"
+      },
+      {
+        "id": "c",
+        "latex": "$131072$"
+      },
+      {
+        "id": "d",
+        "latex": "$8192$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "8192",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Because $7$ is halfway between $4$ and $10$, $a_{7}^2=a_{4}a_{10}$. Thus $a_{7}=\\sqrt{128\\cdot 524288}=8192$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "geometric-mean"
+    ],
+    "checksum": "sha256-1d4d6652d61ef3f191838cf7398787512859346540a994bf08af34c0afa85128",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.hard.0013",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "In a geometric sequence of positive terms, $a_{2}=9$ and $a_{6}=729$. Find $a_{4}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$81$"
+      },
+      {
+        "id": "b",
+        "latex": "$369$"
+      },
+      {
+        "id": "c",
+        "latex": "$27$"
+      },
+      {
+        "id": "d",
+        "latex": "$243$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "81",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Because $4$ is halfway between $2$ and $6$, $a_{4}^2=a_{2}a_{6}$. Thus $a_{4}=\\sqrt{9\\cdot 729}=81$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "geometric-mean"
+    ],
+    "checksum": "sha256-109062bd8cf14c2c7036ce1e10382f1f4acb9bafb27e4b9f3c840ede1a6ccbd9",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.hard.0014",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "In a geometric sequence of positive terms, $a_{3}=16$ and $a_{9}=1024$. Find $a_{6}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$512$"
+      },
+      {
+        "id": "b",
+        "latex": "$128$"
+      },
+      {
+        "id": "c",
+        "latex": "$520$"
+      },
+      {
+        "id": "d",
+        "latex": "$32$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "128",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Because $6$ is halfway between $3$ and $9$, $a_{6}^2=a_{3}a_{9}$. Thus $a_{6}=\\sqrt{16\\cdot 1024}=128$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "geometric-mean"
+    ],
+    "checksum": "sha256-29ac34b29b747dc63bc0c44957a5d7acd8a5a644a7dbb2a886b21398ab7b2311",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.hard.0015",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "In a geometric sequence of positive terms, $a_{4}=320$ and $a_{8}=81920$. Find $a_{6}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1280$"
+      },
+      {
+        "id": "b",
+        "latex": "$20480$"
+      },
+      {
+        "id": "c",
+        "latex": "$5120$"
+      },
+      {
+        "id": "d",
+        "latex": "$41120$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "5120",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Because $6$ is halfway between $4$ and $8$, $a_{6}^2=a_{4}a_{8}$. Thus $a_{6}=\\sqrt{320\\cdot 81920}=5120$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "geometric-mean"
+    ],
+    "checksum": "sha256-57f071a5ebe6b7879fa960e870555a0cf2e833344f88b2371dfb9507d7f00caa",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.hard.0016",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "In a geometric sequence of positive terms, $a_{2}=3$ and $a_{8}=2187$. Find $a_{5}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1095$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$729$"
+      },
+      {
+        "id": "d",
+        "latex": "$81$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "81",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Because $5$ is halfway between $2$ and $8$, $a_{5}^2=a_{2}a_{8}$. Thus $a_{5}=\\sqrt{3\\cdot 2187}=81$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "geometric-mean"
+    ],
+    "checksum": "sha256-6f064b029b4804fbe5aceccbf6aec67e980e5db7ccbf607eeac2af75c0b62b49",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.hard.0017",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "In a geometric sequence of positive terms, $a_{3}=8$ and $a_{7}=128$. Find $a_{5}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$32$"
+      },
+      {
+        "id": "b",
+        "latex": "$68$"
+      },
+      {
+        "id": "c",
+        "latex": "$16$"
+      },
+      {
+        "id": "d",
+        "latex": "$64$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "32",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Because $5$ is halfway between $3$ and $7$, $a_{5}^2=a_{3}a_{7}$. Thus $a_{5}=\\sqrt{8\\cdot 128}=32$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "geometric-mean"
+    ],
+    "checksum": "sha256-c312685ec675f7f51872da2ebb38d8400acc5cf1a32b7be027f6c1dcdbe6257d",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.hard.0018",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "In a geometric sequence of positive terms, $a_{4}=192$ and $a_{10}=786432$. Find $a_{7}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$196608$"
+      },
+      {
+        "id": "b",
+        "latex": "$12288$"
+      },
+      {
+        "id": "c",
+        "latex": "$393312$"
+      },
+      {
+        "id": "d",
+        "latex": "$768$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "12288",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Because $7$ is halfway between $4$ and $10$, $a_{7}^2=a_{4}a_{10}$. Thus $a_{7}=\\sqrt{192\\cdot 786432}=12288$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "geometric-mean"
+    ],
+    "checksum": "sha256-983119658d62e5bb3449484d04b0b8b1a7d54461564223dd9829581f4532ce65",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.hard.0019",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "In a geometric sequence of positive terms, $a_{2}=12$ and $a_{6}=972$. Find $a_{4}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$36$"
+      },
+      {
+        "id": "b",
+        "latex": "$324$"
+      },
+      {
+        "id": "c",
+        "latex": "$108$"
+      },
+      {
+        "id": "d",
+        "latex": "$492$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "108",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Because $4$ is halfway between $2$ and $6$, $a_{4}^2=a_{2}a_{6}$. Thus $a_{4}=\\sqrt{12\\cdot 972}=108$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "geometric-mean"
+    ],
+    "checksum": "sha256-a7a494c7fbe96c96099cfdfe212469ed5139e2ff998bf81d18a103f49051a331",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.hard.0020",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "In a geometric sequence of positive terms, $a_{3}=20$ and $a_{9}=1280$. Find $a_{6}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$650$"
+      },
+      {
+        "id": "b",
+        "latex": "$40$"
+      },
+      {
+        "id": "c",
+        "latex": "$640$"
+      },
+      {
+        "id": "d",
+        "latex": "$160$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "160",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Because $6$ is halfway between $3$ and $9$, $a_{6}^2=a_{3}a_{9}$. Thus $a_{6}=\\sqrt{20\\cdot 1280}=160$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "geometric-mean"
+    ],
+    "checksum": "sha256-e14b71ab65121af757b48f914bf9bf6b734094f05257def771562ae845867d9b",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.hard.0021",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "In a geometric sequence of positive terms, $a_{4}=64$ and $a_{8}=16384$. Find $a_{6}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1024$"
+      },
+      {
+        "id": "b",
+        "latex": "$8224$"
+      },
+      {
+        "id": "c",
+        "latex": "$256$"
+      },
+      {
+        "id": "d",
+        "latex": "$4096$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1024",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Because $6$ is halfway between $4$ and $8$, $a_{6}^2=a_{4}a_{8}$. Thus $a_{6}=\\sqrt{64\\cdot 16384}=1024$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "geometric-mean"
+    ],
+    "checksum": "sha256-e1bebcf5fe132084b931480a2a9d60d2d1644d1f2146b10583aed9ff133a8f96",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.hard.0022",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "In a geometric sequence of positive terms, $a_{2}=6$ and $a_{8}=4374$. Find $a_{5}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1458$"
+      },
+      {
+        "id": "b",
+        "latex": "$162$"
+      },
+      {
+        "id": "c",
+        "latex": "$2190$"
+      },
+      {
+        "id": "d",
+        "latex": "$18$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "162",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Because $5$ is halfway between $2$ and $8$, $a_{5}^2=a_{2}a_{8}$. Thus $a_{5}=\\sqrt{6\\cdot 4374}=162$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "geometric-mean"
+    ],
+    "checksum": "sha256-ec21928dc4c6690688f09806a77eca43cd4ae71bfd318732127dbb52cbb995af",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.hard.0023",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "In a geometric sequence of positive terms, $a_{3}=12$ and $a_{7}=192$. Find $a_{5}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$24$"
+      },
+      {
+        "id": "b",
+        "latex": "$96$"
+      },
+      {
+        "id": "c",
+        "latex": "$48$"
+      },
+      {
+        "id": "d",
+        "latex": "$102$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "48",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Because $5$ is halfway between $3$ and $7$, $a_{5}^2=a_{3}a_{7}$. Thus $a_{5}=\\sqrt{12\\cdot 192}=48$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "geometric-mean"
+    ],
+    "checksum": "sha256-d8d181dd289dbe61a7fd92d7fb07340e9ab3cfd123d1827209f6ac97d9873a33",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.hard.0024",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "In a geometric sequence of positive terms, $a_{4}=256$ and $a_{10}=1048576$. Find $a_{7}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$524416$"
+      },
+      {
+        "id": "b",
+        "latex": "$1024$"
+      },
+      {
+        "id": "c",
+        "latex": "$262144$"
+      },
+      {
+        "id": "d",
+        "latex": "$16384$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "16384",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Because $7$ is halfway between $4$ and $10$, $a_{7}^2=a_{4}a_{10}$. Thus $a_{7}=\\sqrt{256\\cdot 1048576}=16384$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "geometric-mean"
+    ],
+    "checksum": "sha256-154f597507ad8730993c9caeab036fa3a611d0972b418836b25d33dce4609746",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.hard.0025",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "In a geometric sequence of positive terms, $a_{2}=15$ and $a_{6}=1215$. Find $a_{4}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$135$"
+      },
+      {
+        "id": "b",
+        "latex": "$615$"
+      },
+      {
+        "id": "c",
+        "latex": "$45$"
+      },
+      {
+        "id": "d",
+        "latex": "$405$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "135",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Because $4$ is halfway between $2$ and $6$, $a_{4}^2=a_{2}a_{6}$. Thus $a_{4}=\\sqrt{15\\cdot 1215}=135$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "geometric-mean"
+    ],
+    "checksum": "sha256-58207a65bc286595a9b65c717189ba196aa0797bc2917d76fd93240e35a0d5c5",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.hard.0026",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "In a geometric sequence of positive terms, $a_{3}=4$ and $a_{9}=256$. Find $a_{6}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$128$"
+      },
+      {
+        "id": "b",
+        "latex": "$32$"
+      },
+      {
+        "id": "c",
+        "latex": "$130$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "32",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Because $6$ is halfway between $3$ and $9$, $a_{6}^2=a_{3}a_{9}$. Thus $a_{6}=\\sqrt{4\\cdot 256}=32$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "geometric-mean"
+    ],
+    "checksum": "sha256-4c2a57d71c4e9ad59dde50afee3fb1768b8ee9718b24ae15659f3904cb996a30",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.hard.0027",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "In a geometric sequence of positive terms, $a_{4}=128$ and $a_{8}=32768$. Find $a_{6}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$512$"
+      },
+      {
+        "id": "b",
+        "latex": "$8192$"
+      },
+      {
+        "id": "c",
+        "latex": "$2048$"
+      },
+      {
+        "id": "d",
+        "latex": "$16448$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "2048",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Because $6$ is halfway between $4$ and $8$, $a_{6}^2=a_{4}a_{8}$. Thus $a_{6}=\\sqrt{128\\cdot 32768}=2048$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "geometric-mean"
+    ],
+    "checksum": "sha256-25e9569c2d939ccf60f747446aa369aefe34e4dd65ceab79bc281d4491a35c49",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.hard.0028",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "In a geometric sequence of positive terms, $a_{2}=9$ and $a_{8}=6561$. Find $a_{5}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3285$"
+      },
+      {
+        "id": "b",
+        "latex": "$27$"
+      },
+      {
+        "id": "c",
+        "latex": "$2187$"
+      },
+      {
+        "id": "d",
+        "latex": "$243$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "243",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Because $5$ is halfway between $2$ and $8$, $a_{5}^2=a_{2}a_{8}$. Thus $a_{5}=\\sqrt{9\\cdot 6561}=243$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "geometric-mean"
+    ],
+    "checksum": "sha256-eef6848145d95eca1a08667caaa614a38b5b3491d4738b641887f5e02b7c640d",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.hard.0029",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "In a geometric sequence of positive terms, $a_{3}=16$ and $a_{7}=256$. Find $a_{5}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$64$"
+      },
+      {
+        "id": "b",
+        "latex": "$136$"
+      },
+      {
+        "id": "c",
+        "latex": "$32$"
+      },
+      {
+        "id": "d",
+        "latex": "$128$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "64",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Because $5$ is halfway between $3$ and $7$, $a_{5}^2=a_{3}a_{7}$. Thus $a_{5}=\\sqrt{16\\cdot 256}=64$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "geometric-mean"
+    ],
+    "checksum": "sha256-00a160e90218558ac5dcaa983c32267f680856948257fb23b0e99529dc275657",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.hard.0030",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "In a geometric sequence of positive terms, $a_{4}=320$ and $a_{10}=1310720$. Find $a_{7}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$327680$"
+      },
+      {
+        "id": "b",
+        "latex": "$20480$"
+      },
+      {
+        "id": "c",
+        "latex": "$655520$"
+      },
+      {
+        "id": "d",
+        "latex": "$1280$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "20480",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Because $7$ is halfway between $4$ and $10$, $a_{7}^2=a_{4}a_{10}$. Thus $a_{7}=\\sqrt{320\\cdot 1310720}=20480$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "geometric-mean"
+    ],
+    "checksum": "sha256-4e5e4ebcb245dcb85ae8285dfd9c5d7aba3c010b90ff620b8cee722b2ec17974",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.hard.0031",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "In a geometric sequence of positive terms, $a_{2}=18$ and $a_{6}=1458$. Find $a_{4}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$54$"
+      },
+      {
+        "id": "b",
+        "latex": "$486$"
+      },
+      {
+        "id": "c",
+        "latex": "$162$"
+      },
+      {
+        "id": "d",
+        "latex": "$738$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "162",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Because $4$ is halfway between $2$ and $6$, $a_{4}^2=a_{2}a_{6}$. Thus $a_{4}=\\sqrt{18\\cdot 1458}=162$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "geometric-mean"
+    ],
+    "checksum": "sha256-949f33189e1f06f2ba1092bb1463c99d7c24a036533d7aa6932d8a23658ffefa",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.hard.0032",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "In a geometric sequence of positive terms, $a_{3}=28$ and $a_{9}=1792$. Find $a_{6}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$910$"
+      },
+      {
+        "id": "b",
+        "latex": "$56$"
+      },
+      {
+        "id": "c",
+        "latex": "$896$"
+      },
+      {
+        "id": "d",
+        "latex": "$224$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "224",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Because $6$ is halfway between $3$ and $9$, $a_{6}^2=a_{3}a_{9}$. Thus $a_{6}=\\sqrt{28\\cdot 1792}=224$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "geometric-mean"
+    ],
+    "checksum": "sha256-16883fb3617ea87cf82bc639baf8735af10350422c12d488bd43f6fe63bb3ebf",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.hard.0033",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "In a geometric sequence of positive terms, $a_{4}=512$ and $a_{8}=131072$. Find $a_{6}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8192$"
+      },
+      {
+        "id": "b",
+        "latex": "$65792$"
+      },
+      {
+        "id": "c",
+        "latex": "$2048$"
+      },
+      {
+        "id": "d",
+        "latex": "$32768$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "8192",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Because $6$ is halfway between $4$ and $8$, $a_{6}^2=a_{4}a_{8}$. Thus $a_{6}=\\sqrt{512\\cdot 131072}=8192$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "geometric-mean"
+    ],
+    "checksum": "sha256-07f1c6031f580764dacc376949f3a4ef57e729b62e8e58244c9e6b986b73ef10",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.hard.0034",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "In a geometric sequence of positive terms, $a_{2}=27$ and $a_{8}=19683$. Find $a_{5}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6561$"
+      },
+      {
+        "id": "b",
+        "latex": "$729$"
+      },
+      {
+        "id": "c",
+        "latex": "$9855$"
+      },
+      {
+        "id": "d",
+        "latex": "$81$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "729",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Because $5$ is halfway between $2$ and $8$, $a_{5}^2=a_{2}a_{8}$. Thus $a_{5}=\\sqrt{27\\cdot 19683}=729$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "geometric-mean"
+    ],
+    "checksum": "sha256-f8defb60097d44159903a27c6389f1273db971c4fc5e36b529260761df2d34aa",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.hard.0035",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "In a geometric sequence of positive terms, $a_{3}=40$ and $a_{7}=640$. Find $a_{5}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$80$"
+      },
+      {
+        "id": "b",
+        "latex": "$320$"
+      },
+      {
+        "id": "c",
+        "latex": "$160$"
+      },
+      {
+        "id": "d",
+        "latex": "$340$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "160",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Because $5$ is halfway between $3$ and $7$, $a_{5}^2=a_{3}a_{7}$. Thus $a_{5}=\\sqrt{40\\cdot 640}=160$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "geometric-mean"
+    ],
+    "checksum": "sha256-ee4409b496c49d6e148085c18b526bcb8d59e55be880257d0959980aa81499f4",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.hard.0036",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "In a geometric sequence of positive terms, $a_{4}=384$ and $a_{10}=1572864$. Find $a_{7}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$786624$"
+      },
+      {
+        "id": "b",
+        "latex": "$1536$"
+      },
+      {
+        "id": "c",
+        "latex": "$393216$"
+      },
+      {
+        "id": "d",
+        "latex": "$24576$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "24576",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Because $7$ is halfway between $4$ and $10$, $a_{7}^2=a_{4}a_{10}$. Thus $a_{7}=\\sqrt{384\\cdot 1572864}=24576$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "geometric-mean"
+    ],
+    "checksum": "sha256-9aa35e7f4007e554f341c7b4c9d1e1a1bd9cba2b017bd2f218e0938e1998f000",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.hard.0037",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "In a geometric sequence of positive terms, $a_{2}=21$ and $a_{6}=1701$. Find $a_{4}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$189$"
+      },
+      {
+        "id": "b",
+        "latex": "$861$"
+      },
+      {
+        "id": "c",
+        "latex": "$63$"
+      },
+      {
+        "id": "d",
+        "latex": "$567$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "189",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Because $4$ is halfway between $2$ and $6$, $a_{4}^2=a_{2}a_{6}$. Thus $a_{4}=\\sqrt{21\\cdot 1701}=189$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "geometric-mean"
+    ],
+    "checksum": "sha256-37b341fb6855283e7abdc2239aef7e6c28e43f66cee6237d762bbfb05e5d3bcc",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.hard.0038",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "In a geometric sequence of positive terms, $a_{3}=32$ and $a_{9}=2048$. Find $a_{6}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1024$"
+      },
+      {
+        "id": "b",
+        "latex": "$256$"
+      },
+      {
+        "id": "c",
+        "latex": "$1040$"
+      },
+      {
+        "id": "d",
+        "latex": "$64$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "256",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Because $6$ is halfway between $3$ and $9$, $a_{6}^2=a_{3}a_{9}$. Thus $a_{6}=\\sqrt{32\\cdot 2048}=256$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "geometric-mean"
+    ],
+    "checksum": "sha256-c59da14a3d10a82763078508b82e60a562eef055fe4fd6a6d1777365f6500b7a",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.hard.0039",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "In a geometric sequence of positive terms, $a_{4}=576$ and $a_{8}=147456$. Find $a_{6}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2304$"
+      },
+      {
+        "id": "b",
+        "latex": "$36864$"
+      },
+      {
+        "id": "c",
+        "latex": "$9216$"
+      },
+      {
+        "id": "d",
+        "latex": "$74016$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "9216",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Because $6$ is halfway between $4$ and $8$, $a_{6}^2=a_{4}a_{8}$. Thus $a_{6}=\\sqrt{576\\cdot 147456}=9216$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "geometric-mean"
+    ],
+    "checksum": "sha256-1149a17c9d7141abff2c2ddb0c4ac9a827939e4f0a24d61e8f2e162f40c2399a",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.hard.0040",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "In a geometric sequence of positive terms, $a_{2}=30$ and $a_{8}=21870$. Find $a_{5}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10950$"
+      },
+      {
+        "id": "b",
+        "latex": "$90$"
+      },
+      {
+        "id": "c",
+        "latex": "$7290$"
+      },
+      {
+        "id": "d",
+        "latex": "$810$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "810",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Because $5$ is halfway between $2$ and $8$, $a_{5}^2=a_{2}a_{8}$. Thus $a_{5}=\\sqrt{30\\cdot 21870}=810$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "geometric-mean"
+    ],
+    "checksum": "sha256-ff9bdf7c7dcfc04e948a90b14bf254ee534eb0249ae4e672261bf7f645c18c2b",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.hard.0041",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "In a geometric sequence of positive terms, $a_{3}=24$ and $a_{7}=384$. Find $a_{5}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$96$"
+      },
+      {
+        "id": "b",
+        "latex": "$204$"
+      },
+      {
+        "id": "c",
+        "latex": "$48$"
+      },
+      {
+        "id": "d",
+        "latex": "$192$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "96",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Because $5$ is halfway between $3$ and $7$, $a_{5}^2=a_{3}a_{7}$. Thus $a_{5}=\\sqrt{24\\cdot 384}=96$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "geometric-mean"
+    ],
+    "checksum": "sha256-f5e763f6169a342202236cbc99362e1a17607547cfbef0108073834ff50bdd4d",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.hard.0042",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "In a geometric sequence of positive terms, $a_{4}=448$ and $a_{10}=1835008$. Find $a_{7}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$458752$"
+      },
+      {
+        "id": "b",
+        "latex": "$28672$"
+      },
+      {
+        "id": "c",
+        "latex": "$917728$"
+      },
+      {
+        "id": "d",
+        "latex": "$1792$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "28672",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Because $7$ is halfway between $4$ and $10$, $a_{7}^2=a_{4}a_{10}$. Thus $a_{7}=\\sqrt{448\\cdot 1835008}=28672$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "geometric-mean"
+    ],
+    "checksum": "sha256-3999527e9ed85a7f7d01cddc931cceb583cf32d79b0c6f0aee3fc2e9f87a5560",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.hard.0043",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "In a geometric sequence of positive terms, $a_{2}=24$ and $a_{6}=1944$. Find $a_{4}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$72$"
+      },
+      {
+        "id": "b",
+        "latex": "$648$"
+      },
+      {
+        "id": "c",
+        "latex": "$216$"
+      },
+      {
+        "id": "d",
+        "latex": "$984$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "216",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Because $4$ is halfway between $2$ and $6$, $a_{4}^2=a_{2}a_{6}$. Thus $a_{4}=\\sqrt{24\\cdot 1944}=216$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "geometric-mean"
+    ],
+    "checksum": "sha256-fee8ee1aefec8b7113eb6c88328855ff3ef40dea52aed4767de40d3e8fa8448a",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.hard.0044",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "In a geometric sequence of positive terms, $a_{3}=36$ and $a_{9}=2304$. Find $a_{6}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1170$"
+      },
+      {
+        "id": "b",
+        "latex": "$72$"
+      },
+      {
+        "id": "c",
+        "latex": "$1152$"
+      },
+      {
+        "id": "d",
+        "latex": "$288$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "288",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Because $6$ is halfway between $3$ and $9$, $a_{6}^2=a_{3}a_{9}$. Thus $a_{6}=\\sqrt{36\\cdot 2304}=288$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "geometric-mean"
+    ],
+    "checksum": "sha256-7c7c842b6d413fde04b049cfd64f1e860f21b2f5e6b5a4699a22b99346085b42",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.hard.0045",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "In a geometric sequence of positive terms, $a_{4}=640$ and $a_{8}=163840$. Find $a_{6}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10240$"
+      },
+      {
+        "id": "b",
+        "latex": "$82240$"
+      },
+      {
+        "id": "c",
+        "latex": "$2560$"
+      },
+      {
+        "id": "d",
+        "latex": "$40960$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "10240",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Because $6$ is halfway between $4$ and $8$, $a_{6}^2=a_{4}a_{8}$. Thus $a_{6}=\\sqrt{640\\cdot 163840}=10240$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "geometric-mean"
+    ],
+    "checksum": "sha256-46fe30729e962382fed6866d66bc50c70c94a00e3eb9f9635d2eb2cee350af3a",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.hard.0046",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "In a geometric sequence of positive terms, $a_{2}=18$ and $a_{8}=13122$. Find $a_{5}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4374$"
+      },
+      {
+        "id": "b",
+        "latex": "$486$"
+      },
+      {
+        "id": "c",
+        "latex": "$6570$"
+      },
+      {
+        "id": "d",
+        "latex": "$54$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "486",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Because $5$ is halfway between $2$ and $8$, $a_{5}^2=a_{2}a_{8}$. Thus $a_{5}=\\sqrt{18\\cdot 13122}=486$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "geometric-mean"
+    ],
+    "checksum": "sha256-90450f833c4177fd4827d1c7a0fd5089fd789f4429dd3c9d50ce541a497954c3",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.hard.0047",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "In a geometric sequence of positive terms, $a_{3}=28$ and $a_{7}=448$. Find $a_{5}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$56$"
+      },
+      {
+        "id": "b",
+        "latex": "$224$"
+      },
+      {
+        "id": "c",
+        "latex": "$112$"
+      },
+      {
+        "id": "d",
+        "latex": "$238$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "112",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Because $5$ is halfway between $3$ and $7$, $a_{5}^2=a_{3}a_{7}$. Thus $a_{5}=\\sqrt{28\\cdot 448}=112$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "geometric-mean"
+    ],
+    "checksum": "sha256-1e1f4bed1839d2612be004c658023b1072358ed2bb80bcd0a56c47d2bd101924",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.hard.0048",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "In a geometric sequence of positive terms, $a_{4}=512$ and $a_{10}=2097152$. Find $a_{7}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1048832$"
+      },
+      {
+        "id": "b",
+        "latex": "$2048$"
+      },
+      {
+        "id": "c",
+        "latex": "$524288$"
+      },
+      {
+        "id": "d",
+        "latex": "$32768$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "32768",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Because $7$ is halfway between $4$ and $10$, $a_{7}^2=a_{4}a_{10}$. Thus $a_{7}=\\sqrt{512\\cdot 2097152}=32768$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "geometric-mean"
+    ],
+    "checksum": "sha256-76942e9ec21260377603754dba9476b5c607c9698de0fa900ec6ee491266f7e6",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.hard.0049",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "In a geometric sequence of positive terms, $a_{2}=27$ and $a_{6}=2187$. Find $a_{4}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$243$"
+      },
+      {
+        "id": "b",
+        "latex": "$1107$"
+      },
+      {
+        "id": "c",
+        "latex": "$81$"
+      },
+      {
+        "id": "d",
+        "latex": "$729$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "243",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Because $4$ is halfway between $2$ and $6$, $a_{4}^2=a_{2}a_{6}$. Thus $a_{4}=\\sqrt{27\\cdot 2187}=243$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "geometric-mean"
+    ],
+    "checksum": "sha256-76732755722b3bb3838bf4066407002857df9482bbf4ca5b63603635a12c9bc4",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.geometric_sequences.hard.0050",
+    "topic_id": "ch21.geometric_sequences",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "In a geometric sequence of positive terms, $a_{3}=40$ and $a_{9}=2560$. Find $a_{6}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1280$"
+      },
+      {
+        "id": "b",
+        "latex": "$320$"
+      },
+      {
+        "id": "c",
+        "latex": "$1300$"
+      },
+      {
+        "id": "d",
+        "latex": "$80$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "320",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Because $6$ is halfway between $3$ and $9$, $a_{6}^2=a_{3}a_{9}$. Thus $a_{6}=\\sqrt{40\\cdot 2560}=320$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.3",
+    "tags": [
+      "geometric-sequence",
+      "geometric-mean"
+    ],
+    "checksum": "sha256-1a367b42c1e1c6b04732fe0f23ce84dc3e260a7e9b06431332ddd8be05e946c4",
+    "status": "valid"
+  }
+]

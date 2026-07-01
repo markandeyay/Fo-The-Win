@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "ch17.transformations.hard.0001",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A point $(-5,-7)$ on $y=f(x)$ becomes $(-4,-4)$ on $y=f(x-h)+3$. What is $h$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Only the horizontal coordinate determines $h$: -5+h=-4$, so $h=1$.",
+    "complexity_factor": 1.3,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-79da274336e7491c020a093eeabe85c45d1440566f53029a58c6ac8f7360ab92",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.hard.0002",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Start with $y=x^2$. Reflect across the $x$-axis, shift right 1, then down 2. Which expression results?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-(x-1)^2-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-(x-1)^2+2$"
+      },
+      {
+        "id": "c",
+        "latex": "$-(x+1)^2-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x-1)^2-2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-(x-1)^2-2",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "The right shift gives $(x-1)^2$, reflection gives $-(x-1)^2$, and down 2 gives $-(x-1)^2-2$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-9d8f92699f913886c684a5ce22215848a51d718836ff8f48d15f8bac863f421b",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.hard.0003",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A point with $y$-value 2 on $y=f(x)$ has $y$-value -2 on $y=af(x)+2$. What is $a$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Solve -2=a(2)+2$, which gives $a=-2$.",
+    "complexity_factor": 1.3,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-8a8aee73d068803874faabb32c070606ccf2694ab9f76c2f9f9968ae33311a14",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.hard.0004",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A transformed parabola has vertex $(1,1)$, opens downward, and is vertically stretched by 3. What is its equation's right side?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3*(x-1)^2+1$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3*(x+1)^2+1$"
+      },
+      {
+        "id": "c",
+        "latex": "$3*(x-1)^2+1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3*(x-1)^2-1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-3*(x-1)^2+1",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Vertex form with downward opening and stretch 3 is $y=-3(x-1)^2+1$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-32c9bfa8004018827afc2a9095f8a7ef89492356cd1134fbab4e34856a42f78b",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.hard.0005",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "If $r=-4$ is an $x$-intercept of $y=f(x)$, what is the corresponding $x$-intercept of $y=f(x-1)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-5$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The graph shifts right 1, so each $x$-intercept increases by 1: -4+1=-3.",
+    "complexity_factor": 1.3,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-bf7f2c24146c92ac5364346005b8180ec6a1395f611db7d54c83c6a2a1e4bb77",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.hard.0006",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A point $(-4,-5)$ on $y=f(x)$ becomes $(-2,-7)$ on $y=f(x-h)+-2$. What is $h$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Only the horizontal coordinate determines $h$: -4+h=-2$, so $h=2$.",
+    "complexity_factor": 1.3,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-5d1b31db16a6a5078367932a48020f5c45347106b0b1b447d32d95ce525c70ac",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.hard.0007",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Start with $y=x^2$. Reflect across the $x$-axis, shift right 2, then down 3. Which expression results?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-(x+2)^2-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-(x-2)^2+3$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x-2)^2-3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-(x-2)^2-3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-(x-2)^2-3",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "The right shift gives $(x-2)^2$, reflection gives $-(x-2)^2$, and down 3 gives $-(x-2)^2-3$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-7a37f8ce26b4c346077e39d695f148ba57aaa746a1feb20b70d1f8fe997ac840",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.hard.0008",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A point with $y$-value 3 on $y=f(x)$ has $y$-value 5 on $y=af(x)-1$. What is $a$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Solve 5=a(3)-1$, which gives $a=2$.",
+    "complexity_factor": 1.3,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-ff48e80c12a0584325fccc80e27e896155fa442031807dcdbbe0f7be11069783",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.hard.0009",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A transformed parabola has vertex $(2,-2)$, opens downward, and is vertically stretched by 4. What is its equation's right side?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4*(x-2)^2-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4*(x-2)^2+2$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4*(x-2)^2-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4*(x+2)^2-2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-4*(x-2)^2-2",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Vertex form with downward opening and stretch 4 is $y=-4(x-2)^2-2$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-95b34b5a54c80bb1c46d3f3e98f10d0d38e52a3da1abef56d9f6bd11fb4b65ba",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.hard.0010",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "If $r=-3$ is an $x$-intercept of $y=f(x)$, what is the corresponding $x$-intercept of $y=f(x-2)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$-3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-5$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The graph shifts right 2, so each $x$-intercept increases by 2: -3+2=-1.",
+    "complexity_factor": 1.3,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-2a4ae28a9a206c08df668466428befd309e5c2dd189db55f07f4e067d09d36cb",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.hard.0011",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A point $(-3,-3)$ on $y=f(x)$ becomes $(0,0)$ on $y=f(x-h)+3$. What is $h$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Only the horizontal coordinate determines $h$: -3+h=0$, so $h=3$.",
+    "complexity_factor": 1.3,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-0c3aac7d2f5be2848a561f06d56e775890c014b78ddaf03a97410ce13fbc1b7a",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.hard.0012",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Start with $y=x^2$. Reflect across the $x$-axis, shift right 3, then down 4. Which expression results?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-(x+3)^2-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x-3)^2-4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-(x-3)^2-4$"
+      },
+      {
+        "id": "d",
+        "latex": "$-(x-3)^2+4$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-(x-3)^2-4",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "The right shift gives $(x-3)^2$, reflection gives $-(x-3)^2$, and down 4 gives $-(x-3)^2-4$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-97ffa9db5fc697f8696c5d4feaa4b2b61e544743843a968bb381ee37d2ef4774",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.hard.0013",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A point with $y$-value 4 on $y=f(x)$ has $y$-value 14 on $y=af(x)+2$. What is $a$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$-3$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Solve 14=a(4)+2$, which gives $a=3$.",
+    "complexity_factor": 1.3,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-f72b3e116e18caba105ff465c6cc8003b85c52df88197d1a69d153d016a02073",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.hard.0014",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A transformed parabola has vertex $(3,3)$, opens downward, and is vertically stretched by 2. What is its equation's right side?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2*(x-3)^2+3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2*(x-3)^2-3$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2*(x+3)^2+3$"
+      },
+      {
+        "id": "d",
+        "latex": "$2*(x-3)^2+3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-2*(x-3)^2+3",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Vertex form with downward opening and stretch 2 is $y=-2(x-3)^2+3$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-f7c466eb5d873a5560014d9f727886b0b3452cae580027864d1ceaae9e7561f7",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.hard.0015",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "If $r=-2$ is an $x$-intercept of $y=f(x)$, what is the corresponding $x$-intercept of $y=f(x-3)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-5$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The graph shifts right 3, so each $x$-intercept increases by 3: -2+3=1.",
+    "complexity_factor": 1.3,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-b164a4997a4346cfb2e4ce4a9d765590978ece1a6ba1e7012a6838ed94a3c40c",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.hard.0016",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A point $(-2,-1)$ on $y=f(x)$ becomes $(2,-3)$ on $y=f(x-h)+-2$. What is $h$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Only the horizontal coordinate determines $h$: -2+h=2$, so $h=4$.",
+    "complexity_factor": 1.3,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-9761f756c494495e7ab33a543102bba0c9e117919bedf5fbf9ef94699da57045",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.hard.0017",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Start with $y=x^2$. Reflect across the $x$-axis, shift right 4, then down 5. Which expression results?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x-4)^2-5$"
+      },
+      {
+        "id": "b",
+        "latex": "$-(x-4)^2-5$"
+      },
+      {
+        "id": "c",
+        "latex": "$-(x-4)^2+5$"
+      },
+      {
+        "id": "d",
+        "latex": "$-(x+4)^2-5$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-(x-4)^2-5",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "The right shift gives $(x-4)^2$, reflection gives $-(x-4)^2$, and down 5 gives $-(x-4)^2-5$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-bee589b6dbe46faff6c612d69f0d8f0c71e3d0f431ecc48dead6fd0d172ad9c4",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.hard.0018",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A point with $y$-value 5 on $y=f(x)$ has $y$-value 19 on $y=af(x)-1$. What is $a$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$14$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Solve 19=a(5)-1$, which gives $a=4$.",
+    "complexity_factor": 1.3,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-9c7e2d209d10547a37c4ca31e220e64d01090343e097d474619a0f7dbee5e56c",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.hard.0019",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A transformed parabola has vertex $(4,-4)$, opens downward, and is vertically stretched by 3. What is its equation's right side?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3*(x+4)^2-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3*(x-4)^2+4$"
+      },
+      {
+        "id": "c",
+        "latex": "$3*(x-4)^2-4$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3*(x-4)^2-4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-3*(x-4)^2-4",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Vertex form with downward opening and stretch 3 is $y=-3(x-4)^2-4$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-60ddf44f959b33a8fa9d568d9adf5f1a647750043c0f5e3284bc496a84fd4e75",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.hard.0020",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "If $r=-1$ is an $x$-intercept of $y=f(x)$, what is the corresponding $x$-intercept of $y=f(x-4)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-5$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The graph shifts right 4, so each $x$-intercept increases by 4: -1+4=3.",
+    "complexity_factor": 1.3,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-810025050f0d1eb2b352308756c2874889c56f0a65882ca455faccf44db20e9d",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.hard.0021",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A point $(-1,1)$ on $y=f(x)$ becomes $(4,4)$ on $y=f(x-h)+3$. What is $h$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-5$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Only the horizontal coordinate determines $h$: -1+h=4$, so $h=5$.",
+    "complexity_factor": 1.3,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-8030951b8cc10b362dd1a6fbe5025143cd9f278c4dcf2f6d4f81a0701bef06b1",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.hard.0022",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Start with $y=x^2$. Reflect across the $x$-axis, shift right 5, then down 6. Which expression results?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-(x-5)^2-6$"
+      },
+      {
+        "id": "b",
+        "latex": "$-(x+5)^2-6$"
+      },
+      {
+        "id": "c",
+        "latex": "$-(x-5)^2+6$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x-5)^2-6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-(x-5)^2-6",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "The right shift gives $(x-5)^2$, reflection gives $-(x-5)^2$, and down 6 gives $-(x-5)^2-6$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-531dcc280153e565267f64557200710cbc39cf86b9550de1ca3f49f9f1144328",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.hard.0023",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A point with $y$-value 6 on $y=f(x)$ has $y$-value -16 on $y=af(x)+2$. What is $a$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-22$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Solve -16=a(6)+2$, which gives $a=-3$.",
+    "complexity_factor": 1.3,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-51c9e615c055c5c4c8093bd31a58e7142b9e2c48ab3b008cd41690c6848f41b3",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.hard.0024",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A transformed parabola has vertex $(5,5)$, opens downward, and is vertically stretched by 4. What is its equation's right side?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4*(x+5)^2+5$"
+      },
+      {
+        "id": "b",
+        "latex": "$4*(x-5)^2+5$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4*(x-5)^2+5$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4*(x-5)^2-5$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-4*(x-5)^2+5",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Vertex form with downward opening and stretch 4 is $y=-4(x-5)^2+5$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-5531d1ebde3ceb1359c9f4ae56dc88e93825246f7f43e6d0f5c7299fe1fda7e2",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.hard.0025",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "If $r=0$ is an $x$-intercept of $y=f(x)$, what is the corresponding $x$-intercept of $y=f(x-5)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$-5$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The graph shifts right 5, so each $x$-intercept increases by 5: 0+5=5.",
+    "complexity_factor": 1.3,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-e9049a1d78b74ffb689f7a71e986bc9f91d8c6b81a65638cc09506e73b0af4ac",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.hard.0026",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A point $(0,3)$ on $y=f(x)$ becomes $(6,1)$ on $y=f(x-h)+-2$. What is $h$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Only the horizontal coordinate determines $h$: 0+h=6$, so $h=6$.",
+    "complexity_factor": 1.3,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-2b7c13aa1710c6164e12b89033d2d26c8a3a6cf4eab75a9d22ec1b21d10f9676",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.hard.0027",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Start with $y=x^2$. Reflect across the $x$-axis, shift right 6, then down 7. Which expression results?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x-6)^2-7$"
+      },
+      {
+        "id": "b",
+        "latex": "$-(x+6)^2-7$"
+      },
+      {
+        "id": "c",
+        "latex": "$-(x-6)^2+7$"
+      },
+      {
+        "id": "d",
+        "latex": "$-(x-6)^2-7$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-(x-6)^2-7",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "The right shift gives $(x-6)^2$, reflection gives $-(x-6)^2$, and down 7 gives $-(x-6)^2-7$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-5496170474de4e9fdec32f0150a3fda960710a64adf44d8f827948ad0a68b8ee",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.hard.0028",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A point with $y$-value 7 on $y=f(x)$ has $y$-value -15 on $y=af(x)-1$. What is $a$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-22$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Solve -15=a(7)-1$, which gives $a=-2$.",
+    "complexity_factor": 1.3,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-ea8e097d2532542821f3f8e692c7d667405728e018726156aa9cb75550eea040",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.hard.0029",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A transformed parabola has vertex $(6,-6)$, opens downward, and is vertically stretched by 2. What is its equation's right side?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2*(x-6)^2-6$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2*(x-6)^2-6$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2*(x-6)^2+6$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2*(x+6)^2-6$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-2*(x-6)^2-6",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Vertex form with downward opening and stretch 2 is $y=-2(x-6)^2-6$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-5ee9a97d03fa32bb183b4ab359f9f0d1ddfbe8d239cbe077b683cafa6ab98238",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.hard.0030",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "If $r=1$ is an $x$-intercept of $y=f(x)$, what is the corresponding $x$-intercept of $y=f(x-6)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$-5$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The graph shifts right 6, so each $x$-intercept increases by 6: 1+6=7.",
+    "complexity_factor": 1.3,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-78a545022fa700f5c04460db07d0485e7f353320e179c70e20a559ec19cafe82",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.hard.0031",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A point $(1,5)$ on $y=f(x)$ becomes $(8,8)$ on $y=f(x-h)+3$. What is $h$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$-7$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Only the horizontal coordinate determines $h$: 1+h=8$, so $h=7$.",
+    "complexity_factor": 1.3,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-77f284dddb4656dcf6eaf31c0a2527d250764203184f7e7c30ffa88d81eb1933",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.hard.0032",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Start with $y=x^2$. Reflect across the $x$-axis, shift right 7, then down 8. Which expression results?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-(x-7)^2-8$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x-7)^2-8$"
+      },
+      {
+        "id": "c",
+        "latex": "$-(x+7)^2-8$"
+      },
+      {
+        "id": "d",
+        "latex": "$-(x-7)^2+8$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-(x-7)^2-8",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "The right shift gives $(x-7)^2$, reflection gives $-(x-7)^2$, and down 8 gives $-(x-7)^2-8$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-b3299650b072fb4b812eaeda458c43764c85256d7c49e772bc9abcadb072618c",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.hard.0033",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A point with $y$-value 8 on $y=f(x)$ has $y$-value 18 on $y=af(x)+2$. What is $a$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Solve 18=a(8)+2$, which gives $a=2$.",
+    "complexity_factor": 1.3,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-42e0b2110e83822a87860f48e1e5b813625c2f7971fc527fa89894ae42319d92",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.hard.0034",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A transformed parabola has vertex $(7,7)$, opens downward, and is vertically stretched by 3. What is its equation's right side?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3*(x-7)^2+7$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3*(x+7)^2+7$"
+      },
+      {
+        "id": "c",
+        "latex": "$-3*(x-7)^2-7$"
+      },
+      {
+        "id": "d",
+        "latex": "$3*(x-7)^2+7$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-3*(x-7)^2+7",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Vertex form with downward opening and stretch 3 is $y=-3(x-7)^2+7$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-880c780afb8b446e8dd01dd9fc7a367257f897d2247f7534ae9320cd5039f46d",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.hard.0035",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "If $r=2$ is an $x$-intercept of $y=f(x)$, what is the corresponding $x$-intercept of $y=f(x-7)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-5$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The graph shifts right 7, so each $x$-intercept increases by 7: 2+7=9.",
+    "complexity_factor": 1.3,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-b390ad095f909f012f444fbed1a569595efb74e9b3310403448d4b7764031002",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.hard.0036",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A point $(2,7)$ on $y=f(x)$ becomes $(10,5)$ on $y=f(x-h)+-2$. What is $h$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-8$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Only the horizontal coordinate determines $h$: 2+h=10$, so $h=8$.",
+    "complexity_factor": 1.3,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-51ff74d9c579a8a967c42350ec1f90980c4da5590925ca8b647b2d59f9c32d65",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.hard.0037",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Start with $y=x^2$. Reflect across the $x$-axis, shift right 8, then down 9. Which expression results?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-(x-8)^2+9$"
+      },
+      {
+        "id": "b",
+        "latex": "$-(x-8)^2-9$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x-8)^2-9$"
+      },
+      {
+        "id": "d",
+        "latex": "$-(x+8)^2-9$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-(x-8)^2-9",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "The right shift gives $(x-8)^2$, reflection gives $-(x-8)^2$, and down 9 gives $-(x-8)^2-9$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-090bbf56280c0fb4204c1641b9403d4b31e8bb51c157e33e25b717f30422974e",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.hard.0038",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A point with $y$-value 9 on $y=f(x)$ has $y$-value 26 on $y=af(x)-1$. What is $a$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$17$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Solve 26=a(9)-1$, which gives $a=3$.",
+    "complexity_factor": 1.3,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-70d61c0aaa7529d6e1a2776d8b8609b087a5421cfb011d84e23d28de6d68ddaa",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.hard.0039",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A transformed parabola has vertex $(8,-8)$, opens downward, and is vertically stretched by 4. What is its equation's right side?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4*(x-8)^2-8$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4*(x+8)^2-8$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4*(x-8)^2+8$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4*(x-8)^2-8$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-4*(x-8)^2-8",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Vertex form with downward opening and stretch 4 is $y=-4(x-8)^2-8$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-11b86ec8ebd9e01e3fd0f81bfcd81c87f4b4abe9d1096a17cebfcfe513d51e24",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.hard.0040",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "If $r=3$ is an $x$-intercept of $y=f(x)$, what is the corresponding $x$-intercept of $y=f(x-8)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$-5$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "11",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The graph shifts right 8, so each $x$-intercept increases by 8: 3+8=11.",
+    "complexity_factor": 1.3,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-ce02ddd353001b131684075a870908ca95154d7a099d6da04f9c57c4a5c4535d",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.hard.0041",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A point $(3,9)$ on $y=f(x)$ becomes $(12,12)$ on $y=f(x-h)+3$. What is $h$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-9$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Only the horizontal coordinate determines $h$: 3+h=12$, so $h=9$.",
+    "complexity_factor": 1.3,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-79c1f07b2877bed9de44ff46f92cb2258d04f1c37daaee4dede105e8aaff4415",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.hard.0042",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Start with $y=x^2$. Reflect across the $x$-axis, shift right 9, then down 10. Which expression results?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-(x+9)^2-10$"
+      },
+      {
+        "id": "b",
+        "latex": "$-(x-9)^2+10$"
+      },
+      {
+        "id": "c",
+        "latex": "$-(x-9)^2-10$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x-9)^2-10$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-(x-9)^2-10",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "The right shift gives $(x-9)^2$, reflection gives $-(x-9)^2$, and down 10 gives $-(x-9)^2-10$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-e32bb3cf93c99079f2ff7de99edeede9320b20b148268056f86ad035b4d0e234",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.hard.0043",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A point with $y$-value 10 on $y=f(x)$ has $y$-value 42 on $y=af(x)+2$. What is $a$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$32$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Solve 42=a(10)+2$, which gives $a=4$.",
+    "complexity_factor": 1.3,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-9f0466760c134de189f0a189e4816ffcc6dd7fa017312339a735b0b32a11bd15",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.hard.0044",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A transformed parabola has vertex $(9,9)$, opens downward, and is vertically stretched by 2. What is its equation's right side?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2*(x-9)^2+9$"
+      },
+      {
+        "id": "b",
+        "latex": "$2*(x-9)^2+9$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2*(x+9)^2+9$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2*(x-9)^2-9$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-2*(x-9)^2+9",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Vertex form with downward opening and stretch 2 is $y=-2(x-9)^2+9$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-e5472c5da75c627a18d5a55ff3cfa44fcfcbfd11148ab7dba5636a62c83824c8",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.hard.0045",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "If $r=4$ is an $x$-intercept of $y=f(x)$, what is the corresponding $x$-intercept of $y=f(x-9)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-5$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$13$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "13",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The graph shifts right 9, so each $x$-intercept increases by 9: 4+9=13.",
+    "complexity_factor": 1.3,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-a99637cc68e2facbbce3ebf3b7894d7c699fb39501d9c8509e396cd9d49dbb6d",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.hard.0046",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A point $(4,11)$ on $y=f(x)$ becomes $(14,9)$ on $y=f(x-h)+-2$. What is $h$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$-10$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Only the horizontal coordinate determines $h$: 4+h=14$, so $h=10$.",
+    "complexity_factor": 1.3,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-09ed069219c38c052b8620f13597abf46d61c63968a3909e964eeacddcc040b9",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.hard.0047",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Start with $y=x^2$. Reflect across the $x$-axis, shift right 10, then down 11. Which expression results?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x-10)^2-11$"
+      },
+      {
+        "id": "b",
+        "latex": "$-(x-10)^2+11$"
+      },
+      {
+        "id": "c",
+        "latex": "$-(x+10)^2-11$"
+      },
+      {
+        "id": "d",
+        "latex": "$-(x-10)^2-11$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-(x-10)^2-11",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "The right shift gives $(x-10)^2$, reflection gives $-(x-10)^2$, and down 11 gives $-(x-10)^2-11$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-6f001d9580a14c682a738b7ba49125ff2e9c460fc39e21f056092d90758b29dc",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.hard.0048",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A point with $y$-value 11 on $y=f(x)$ has $y$-value -34 on $y=af(x)-1$. What is $a$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$-3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-45$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Solve -34=a(11)-1$, which gives $a=-3$.",
+    "complexity_factor": 1.3,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-ac31935806ba97fd40c525dcd854a9847c56467dddbc6afb241c9ec1912119fa",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.hard.0049",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A transformed parabola has vertex $(10,-10)$, opens downward, and is vertically stretched by 3. What is its equation's right side?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3*(x-10)^2+10$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3*(x-10)^2-10$"
+      },
+      {
+        "id": "c",
+        "latex": "$3*(x-10)^2-10$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3*(x+10)^2-10$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-3*(x-10)^2-10",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Vertex form with downward opening and stretch 3 is $y=-3(x-10)^2-10$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-f9bd59ee777d4f3cc54c8fd3392cd88c7cbae0bc240c68bd7986cb0341240f50",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.hard.0050",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "If $r=5$ is an $x$-intercept of $y=f(x)$, what is the corresponding $x$-intercept of $y=f(x-10)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$15$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$-5$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "15",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The graph shifts right 10, so each $x$-intercept increases by 10: 5+10=15.",
+    "complexity_factor": 1.3,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-1cc94a68448609db48b81a9b1a8759d0d7be113dfca39685596f3a4f6111ebe9",
+    "status": "valid"
+  }
+]

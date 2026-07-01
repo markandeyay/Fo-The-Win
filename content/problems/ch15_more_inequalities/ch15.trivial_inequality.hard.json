@@ -1,0 +1,2052 @@
+[
+  {
+    "id": "ch15.trivial_inequality.hard.0001",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Real numbers $x$ and $y$ satisfy $(x+3)^2+(y+3)^2=0$. What is $x+y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-6$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Both squares are nonnegative, and their sum is $0$, so each square must be $0$. Thus $x=-3$ and $y=-3$, giving $x+y=-6$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative",
+      "system"
+    ],
+    "checksum": "sha256-e7107894593a0456763527b95313892453998f46e951a3b7833bede4e316483b",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.hard.0002",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Real numbers $x$ and $y$ satisfy $(x+2)^2+(y+1)^2=0$. What is $xy$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$-3$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Both squares are nonnegative, and their sum is $0$, so each square must be $0$. Thus $x=-2$ and $y=-1$, giving $xy=2$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative",
+      "system"
+    ],
+    "checksum": "sha256-66253677032675ee461722ebcaa20937c9268d161d08b267397bb7d0849dd2c4",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.hard.0003",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Real numbers $x$ and $y$ satisfy $(x+1)^2+(y-1)^2=0$. What is $x+y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Both squares are nonnegative, and their sum is $0$, so each square must be $0$. Thus $x=-1$ and $y=1$, giving $x+y=0$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative",
+      "system"
+    ],
+    "checksum": "sha256-e422b1e545fe304e01ad17f37092414826a0d046346237aab85258840968f590",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.hard.0004",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Real numbers $x$ and $y$ satisfy $x^2+(y-3)^2=0$. What is $xy$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Both squares are nonnegative, and their sum is $0$, so each square must be $0$. Thus $x=0$ and $y=3$, giving $xy=0$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative",
+      "system"
+    ],
+    "checksum": "sha256-93945f058f5cca24109a8e8ca335787c4b7da7425868a079bf6d338d31504452",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.hard.0005",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Real numbers $x$ and $y$ satisfy $(x-1)^2+(y-5)^2=0$. What is $x+y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Both squares are nonnegative, and their sum is $0$, so each square must be $0$. Thus $x=1$ and $y=5$, giving $x+y=6$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative",
+      "system"
+    ],
+    "checksum": "sha256-a6dcb7d1a0d92951cd8043fec4f9798f68fa6be16e6d0f7cee6d5b0fa82d8752",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.hard.0006",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Real numbers $x$ and $y$ satisfy $(x-2)^2+(y+4)^2=0$. What is $xy$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-6$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$-8$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Both squares are nonnegative, and their sum is $0$, so each square must be $0$. Thus $x=2$ and $y=-4$, giving $xy=-8$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative",
+      "system"
+    ],
+    "checksum": "sha256-1472cc83c7768c0efabd2b04a6aed3dade27204e0e126d825393e35e0dd4ae2b",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.hard.0007",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Real numbers $x$ and $y$ satisfy $(x-3)^2+(y+2)^2=0$. What is $x+y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$-6$"
+      },
+      {
+        "id": "c",
+        "latex": "$-5$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Both squares are nonnegative, and their sum is $0$, so each square must be $0$. Thus $x=3$ and $y=-2$, giving $x+y=1$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative",
+      "system"
+    ],
+    "checksum": "sha256-d6f040aa769baf90cbf1abc89d08518b7a5389da008a81a7b0d405da67dda73b",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.hard.0008",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Real numbers $x$ and $y$ satisfy $(x-4)^2+(y-0)^2=0$. What is $xy$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Both squares are nonnegative, and their sum is $0$, so each square must be $0$. Thus $x=4$ and $y=0$, giving $xy=0$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative",
+      "system"
+    ],
+    "checksum": "sha256-5c91bac98372c5f13b0fab396806ba80968e1ba78dd5d087b0b9484c5297494f",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.hard.0009",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Real numbers $x$ and $y$ satisfy $(x+4)^2+(y-2)^2=0$. What is $x+y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$-6$"
+      },
+      {
+        "id": "d",
+        "latex": "$-8$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Both squares are nonnegative, and their sum is $0$, so each square must be $0$. Thus $x=-4$ and $y=2$, giving $x+y=-2$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative",
+      "system"
+    ],
+    "checksum": "sha256-dc2f5e31322cadc768c45869cea1777d14241d344e29b46651200576ef25777c",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.hard.0010",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Real numbers $x$ and $y$ satisfy $(x+3)^2+(y-4)^2=0$. What is $xy$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-7$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$-12$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Both squares are nonnegative, and their sum is $0$, so each square must be $0$. Thus $x=-3$ and $y=4$, giving $xy=-12$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative",
+      "system"
+    ],
+    "checksum": "sha256-55b97f25bf29b4e9ff8e924c552ec8e57cb564e4ea79af68849cd49a63c89ce6",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.hard.0011",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Real numbers $x$ and $y$ satisfy $(x+2)^2+(y+5)^2=0$. What is $x+y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$-7$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Both squares are nonnegative, and their sum is $0$, so each square must be $0$. Thus $x=-2$ and $y=-5$, giving $x+y=-7$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative",
+      "system"
+    ],
+    "checksum": "sha256-5a9f47e7d4c9b5e1e819d39a2f247c487793a46396890696e81024e96e56bb01",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.hard.0012",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Real numbers $x$ and $y$ satisfy $(x+1)^2+(y+3)^2=0$. What is $xy$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Both squares are nonnegative, and their sum is $0$, so each square must be $0$. Thus $x=-1$ and $y=-3$, giving $xy=3$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative",
+      "system"
+    ],
+    "checksum": "sha256-db1085aa49c0a0c35eb6ceb8f567b568046b39aa43dd321d9a3f02e79f38062b",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.hard.0013",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Real numbers $x$ and $y$ satisfy $x^2+(y+1)^2=0$. What is $x+y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Both squares are nonnegative, and their sum is $0$, so each square must be $0$. Thus $x=0$ and $y=-1$, giving $x+y=-1$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative",
+      "system"
+    ],
+    "checksum": "sha256-e4613c4ea5093057283d2483587b63fdaedf1c075aadc723f4cb465c19c58b6c",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.hard.0014",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Real numbers $x$ and $y$ satisfy $(x-1)^2+(y-1)^2=0$. What is $xy$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Both squares are nonnegative, and their sum is $0$, so each square must be $0$. Thus $x=1$ and $y=1$, giving $xy=1$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative",
+      "system"
+    ],
+    "checksum": "sha256-dcd45ac52dea0fd1ba9b542906af67e72cdf9f7d88f4e553b3e3e3e1046fc5e0",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.hard.0015",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Real numbers $x$ and $y$ satisfy $(x-2)^2+(y-3)^2=0$. What is $x+y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Both squares are nonnegative, and their sum is $0$, so each square must be $0$. Thus $x=2$ and $y=3$, giving $x+y=5$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative",
+      "system"
+    ],
+    "checksum": "sha256-6da61846feb0a5c1bacff84cdbc7a35c0cb34288d578aadbe39c307ad9c41b95",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.hard.0016",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Real numbers $x$ and $y$ satisfy $(x-3)^2+(y-5)^2=0$. What is $xy$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$15$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "15",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Both squares are nonnegative, and their sum is $0$, so each square must be $0$. Thus $x=3$ and $y=5$, giving $xy=15$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative",
+      "system"
+    ],
+    "checksum": "sha256-5a64a0ad34c59b8df551690672f7565a4a1aa7a9417080f97cb72b43342efa2b",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.hard.0017",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Real numbers $x$ and $y$ satisfy $(x-4)^2+(y+4)^2=0$. What is $x+y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-8$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$-16$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Both squares are nonnegative, and their sum is $0$, so each square must be $0$. Thus $x=4$ and $y=-4$, giving $x+y=0$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative",
+      "system"
+    ],
+    "checksum": "sha256-e5d2f43bb21810352eec72d7fe2ecd3b26830a4707280e2ae936b500dbe5a247",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.hard.0018",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Real numbers $x$ and $y$ satisfy $(x+4)^2+(y+2)^2=0$. What is $xy$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-6$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Both squares are nonnegative, and their sum is $0$, so each square must be $0$. Thus $x=-4$ and $y=-2$, giving $xy=8$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative",
+      "system"
+    ],
+    "checksum": "sha256-6a2565d26d8f62c003fd44c323673ccf4428145e5b2fdcf1ba0faf08e3aa4d21",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.hard.0019",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Real numbers $x$ and $y$ satisfy $(x+3)^2+(y-0)^2=0$. What is $x+y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Both squares are nonnegative, and their sum is $0$, so each square must be $0$. Thus $x=-3$ and $y=0$, giving $x+y=-3$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative",
+      "system"
+    ],
+    "checksum": "sha256-0d67428c6290bb7ecd87899bebe35edda7039cce41c78ef9ae093725c6087bad",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.hard.0020",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Real numbers $x$ and $y$ satisfy $(x+2)^2+(y-2)^2=0$. What is $xy$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Both squares are nonnegative, and their sum is $0$, so each square must be $0$. Thus $x=-2$ and $y=2$, giving $xy=-4$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative",
+      "system"
+    ],
+    "checksum": "sha256-072d65a2b7e2b366c9a591ecb78605d72d3ffff1c7c3212d84525207b4bf1d1b",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.hard.0021",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Real numbers $x$ and $y$ satisfy $(x+1)^2+(y-4)^2=0$. What is $x+y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$-5$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Both squares are nonnegative, and their sum is $0$, so each square must be $0$. Thus $x=-1$ and $y=4$, giving $x+y=3$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative",
+      "system"
+    ],
+    "checksum": "sha256-0484f5dd7ed92413a028620bf89de17440311f6eeef5a6dded34ddc6e8902755",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.hard.0022",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Real numbers $x$ and $y$ satisfy $x^2+(y+5)^2=0$. What is $xy$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$-5$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Both squares are nonnegative, and their sum is $0$, so each square must be $0$. Thus $x=0$ and $y=-5$, giving $xy=0$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative",
+      "system"
+    ],
+    "checksum": "sha256-24b2cec944a30caee84c773fb4e302bb06d4fd4bf11647d7ecbcef503a371fb6",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.hard.0023",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Real numbers $x$ and $y$ satisfy $(x-1)^2+(y+3)^2=0$. What is $x+y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Both squares are nonnegative, and their sum is $0$, so each square must be $0$. Thus $x=1$ and $y=-3$, giving $x+y=-2$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative",
+      "system"
+    ],
+    "checksum": "sha256-dc07c33ded1238bbc764663fb635d1b4564baad76fa1e471c8b704e1fa060806",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.hard.0024",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Real numbers $x$ and $y$ satisfy $(x-2)^2+(y+1)^2=0$. What is $xy$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Both squares are nonnegative, and their sum is $0$, so each square must be $0$. Thus $x=2$ and $y=-1$, giving $xy=-2$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative",
+      "system"
+    ],
+    "checksum": "sha256-6d3ce3f7b88066354ba24a29e27ba388f8fb26e37981d1cb9306b70ba77e580e",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.hard.0025",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Real numbers $x$ and $y$ satisfy $(x-3)^2+(y-1)^2=0$. What is $x+y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Both squares are nonnegative, and their sum is $0$, so each square must be $0$. Thus $x=3$ and $y=1$, giving $x+y=4$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative",
+      "system"
+    ],
+    "checksum": "sha256-e73c7129c4dccc065a7dcd391fd5c7c0a6751dc09804c00fdaf47b7de9811373",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.hard.0026",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Real numbers $x$ and $y$ satisfy $(x-4)^2+(y-3)^2=0$. What is $xy$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Both squares are nonnegative, and their sum is $0$, so each square must be $0$. Thus $x=4$ and $y=3$, giving $xy=12$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative",
+      "system"
+    ],
+    "checksum": "sha256-a8ceca5d39287ba916e4901fd64399f9b8c609dafffdbf1ffc3579fcaaf73c88",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.hard.0027",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Real numbers $x$ and $y$ satisfy $(x+4)^2+(y-5)^2=0$. What is $x+y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$-20$"
+      },
+      {
+        "id": "d",
+        "latex": "$-9$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Both squares are nonnegative, and their sum is $0$, so each square must be $0$. Thus $x=-4$ and $y=5$, giving $x+y=1$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative",
+      "system"
+    ],
+    "checksum": "sha256-ce66ed6e02548293ce35ae2a0d1c1c14303da44d0bca20709dda713795a14ecf",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.hard.0028",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Real numbers $x$ and $y$ satisfy $(x+3)^2+(y+4)^2=0$. What is $xy$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$12$"
+      },
+      {
+        "id": "c",
+        "latex": "$-7$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Both squares are nonnegative, and their sum is $0$, so each square must be $0$. Thus $x=-3$ and $y=-4$, giving $xy=12$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative",
+      "system"
+    ],
+    "checksum": "sha256-2df1894ab18288b17f2370661838cbb674aba1728989ccc718a3c2449d7ea4dd",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.hard.0029",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Real numbers $x$ and $y$ satisfy $(x+2)^2+(y+2)^2=0$. What is $x+y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Both squares are nonnegative, and their sum is $0$, so each square must be $0$. Thus $x=-2$ and $y=-2$, giving $x+y=-4$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative",
+      "system"
+    ],
+    "checksum": "sha256-6d2acd54f34c9ab3bc890eba7b45196bd33bbd842f674068e3f7bb656c33bcd1",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.hard.0030",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Real numbers $x$ and $y$ satisfy $(x+1)^2+(y-0)^2=0$. What is $xy$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Both squares are nonnegative, and their sum is $0$, so each square must be $0$. Thus $x=-1$ and $y=0$, giving $xy=0$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative",
+      "system"
+    ],
+    "checksum": "sha256-e579073b44ac79ab37519fdded3bbad5f537f72b929286c2c66ca380f298104e",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.hard.0031",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Real numbers $x$ and $y$ satisfy $x^2+(y-2)^2=0$. What is $x+y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Both squares are nonnegative, and their sum is $0$, so each square must be $0$. Thus $x=0$ and $y=2$, giving $x+y=2$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative",
+      "system"
+    ],
+    "checksum": "sha256-f5976ca46ce99c705333a9721c7fde73268307c1d86dc20d1f759605822766c8",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.hard.0032",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Real numbers $x$ and $y$ satisfy $(x-1)^2+(y-4)^2=0$. What is $xy$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Both squares are nonnegative, and their sum is $0$, so each square must be $0$. Thus $x=1$ and $y=4$, giving $xy=4$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative",
+      "system"
+    ],
+    "checksum": "sha256-148df537a824303792046facf507d8f866601a6de42a8d64a7ab9440377f24d5",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.hard.0033",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Real numbers $x$ and $y$ satisfy $(x-2)^2+(y+5)^2=0$. What is $x+y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-7$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$-10$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Both squares are nonnegative, and their sum is $0$, so each square must be $0$. Thus $x=2$ and $y=-5$, giving $x+y=-3$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative",
+      "system"
+    ],
+    "checksum": "sha256-a6137514682b71a9f298ecf9836db029e0329b26410af8bc2108f04bd5cd8773",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.hard.0034",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Real numbers $x$ and $y$ satisfy $(x-3)^2+(y+3)^2=0$. What is $xy$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$-6$"
+      },
+      {
+        "id": "d",
+        "latex": "$-9$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Both squares are nonnegative, and their sum is $0$, so each square must be $0$. Thus $x=3$ and $y=-3$, giving $xy=-9$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative",
+      "system"
+    ],
+    "checksum": "sha256-bed6854cd44e396937da4c425bac800b2b13a944b64647e77ab9b7abad5ecde8",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.hard.0035",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Real numbers $x$ and $y$ satisfy $(x-4)^2+(y+1)^2=0$. What is $x+y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-5$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Both squares are nonnegative, and their sum is $0$, so each square must be $0$. Thus $x=4$ and $y=-1$, giving $x+y=3$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative",
+      "system"
+    ],
+    "checksum": "sha256-54deaae535bc8eb6e857a9cde770b1fe67f79fe225fb30a774a502447d03c726",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.hard.0036",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Real numbers $x$ and $y$ satisfy $(x+4)^2+(y-1)^2=0$. What is $xy$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-5$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Both squares are nonnegative, and their sum is $0$, so each square must be $0$. Thus $x=-4$ and $y=1$, giving $xy=-4$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative",
+      "system"
+    ],
+    "checksum": "sha256-e153423767af079052cc1c87e2a89a0e48f37eb21279069f8bf4e6af9d457beb",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.hard.0037",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Real numbers $x$ and $y$ satisfy $(x+3)^2+(y-3)^2=0$. What is $x+y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$-6$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$-9$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Both squares are nonnegative, and their sum is $0$, so each square must be $0$. Thus $x=-3$ and $y=3$, giving $x+y=0$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative",
+      "system"
+    ],
+    "checksum": "sha256-b50c65479ff70a0557831a079f49863193e6d0510903f8896a9f0137340b885c",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.hard.0038",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Real numbers $x$ and $y$ satisfy $(x+2)^2+(y-5)^2=0$. What is $xy$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-7$"
+      },
+      {
+        "id": "b",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-10$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Both squares are nonnegative, and their sum is $0$, so each square must be $0$. Thus $x=-2$ and $y=5$, giving $xy=-10$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative",
+      "system"
+    ],
+    "checksum": "sha256-f1cc574aca6f849d186e0aaa86a8d09b6ea589c80d1ee8c96d4f7bf9bed17cf4",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.hard.0039",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Real numbers $x$ and $y$ satisfy $(x+1)^2+(y+4)^2=0$. What is $x+y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-5$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Both squares are nonnegative, and their sum is $0$, so each square must be $0$. Thus $x=-1$ and $y=-4$, giving $x+y=-5$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative",
+      "system"
+    ],
+    "checksum": "sha256-255902d22ea7ea186c2bc810a63a12992978b56a86c21e3a85a4c6b5c1c153e1",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.hard.0040",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Real numbers $x$ and $y$ satisfy $x^2+(y+2)^2=0$. What is $xy$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Both squares are nonnegative, and their sum is $0$, so each square must be $0$. Thus $x=0$ and $y=-2$, giving $xy=0$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative",
+      "system"
+    ],
+    "checksum": "sha256-e66e93d8abb142f5d329d5fbe162dce24a8af2af200b861ffdfda6e77fdbba4a",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.hard.0041",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Real numbers $x$ and $y$ satisfy $(x-1)^2+(y-0)^2=0$. What is $x+y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Both squares are nonnegative, and their sum is $0$, so each square must be $0$. Thus $x=1$ and $y=0$, giving $x+y=1$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative",
+      "system"
+    ],
+    "checksum": "sha256-870d8713196e87343a05b1ec0b78da9bc5f6ba8a7c839d767eab777d39f68826",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.hard.0042",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Real numbers $x$ and $y$ satisfy $(x-2)^2+(y-2)^2=0$. What is $xy$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Both squares are nonnegative, and their sum is $0$, so each square must be $0$. Thus $x=2$ and $y=2$, giving $xy=4$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative",
+      "system"
+    ],
+    "checksum": "sha256-262e91585cb6e07d251c78bb99353e726ec5f20c59ede634423fa3ae92e3bcc5",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.hard.0043",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Real numbers $x$ and $y$ satisfy $(x-3)^2+(y-4)^2=0$. What is $x+y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$12$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Both squares are nonnegative, and their sum is $0$, so each square must be $0$. Thus $x=3$ and $y=4$, giving $x+y=7$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative",
+      "system"
+    ],
+    "checksum": "sha256-c70de19470a60a8a16619ce6c23b2d86eab3cbe1268c23211b140a2c6dabb9ff",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.hard.0044",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Real numbers $x$ and $y$ satisfy $(x-4)^2+(y+5)^2=0$. What is $xy$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$-20$"
+      },
+      {
+        "id": "d",
+        "latex": "$-9$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-20",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Both squares are nonnegative, and their sum is $0$, so each square must be $0$. Thus $x=4$ and $y=-5$, giving $xy=-20$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative",
+      "system"
+    ],
+    "checksum": "sha256-3a7122f2db08272a279d5cfe8f7a4ba5f803b30940fd53e8a1bb21e66e8dd883",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.hard.0045",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Real numbers $x$ and $y$ satisfy $(x+4)^2+(y+3)^2=0$. What is $x+y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-7$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Both squares are nonnegative, and their sum is $0$, so each square must be $0$. Thus $x=-4$ and $y=-3$, giving $x+y=-7$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative",
+      "system"
+    ],
+    "checksum": "sha256-9ad304ecbd56e0210d4dd8636c0511f0932090bbd55f9a9d357ca78242359069",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.hard.0046",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Real numbers $x$ and $y$ satisfy $(x+3)^2+(y+1)^2=0$. What is $xy$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Both squares are nonnegative, and their sum is $0$, so each square must be $0$. Thus $x=-3$ and $y=-1$, giving $xy=3$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative",
+      "system"
+    ],
+    "checksum": "sha256-f5ebece11c9db5b5f87fd43385908d1abb9a6f74fe4dffad693e6a817a1f8258",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.hard.0047",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Real numbers $x$ and $y$ satisfy $(x+2)^2+(y-1)^2=0$. What is $x+y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Both squares are nonnegative, and their sum is $0$, so each square must be $0$. Thus $x=-2$ and $y=1$, giving $x+y=-1$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative",
+      "system"
+    ],
+    "checksum": "sha256-877dcf9110958677372f24679dd024fe3b792e48bfa3a854d7fb9bbe83a63271",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.hard.0048",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Real numbers $x$ and $y$ satisfy $(x+1)^2+(y-3)^2=0$. What is $xy$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Both squares are nonnegative, and their sum is $0$, so each square must be $0$. Thus $x=-1$ and $y=3$, giving $xy=-3$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative",
+      "system"
+    ],
+    "checksum": "sha256-e980c50aaf36345ea71285ff309a7803518cd37c480226ee4e6ceb49c6286ba9",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.hard.0049",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Real numbers $x$ and $y$ satisfy $x^2+(y-5)^2=0$. What is $x+y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$-5$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Both squares are nonnegative, and their sum is $0$, so each square must be $0$. Thus $x=0$ and $y=5$, giving $x+y=5$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative",
+      "system"
+    ],
+    "checksum": "sha256-c76c7b1e4690ccc1f771e509cc7422f286844caac9f7422a580132d2ec4b73ef",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.trivial_inequality.hard.0050",
+    "topic_id": "ch15.trivial_inequality",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "hard",
+    "prompt_latex": "Real numbers $x$ and $y$ satisfy $(x-1)^2+(y+4)^2=0$. What is $xy$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$-5$"
+      },
+      {
+        "id": "c",
+        "latex": "$-3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Both squares are nonnegative, and their sum is $0$, so each square must be $0$. Thus $x=1$ and $y=-4$, giving $xy=-4$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.3",
+    "tags": [
+      "inequality",
+      "square",
+      "nonnegative",
+      "system"
+    ],
+    "checksum": "sha256-8a690e154cb5f98d83e05713bea37f83c421b7627a7220da99214ae6c7382b4c",
+    "status": "valid"
+  }
+]

@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "ch19.exponential_functions.hard.0001",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $1$: The smaller solution of $3^{2x}-90\\cdot 3^{x}+729=0$ is what?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $y=3^{x}$. Then $y^2-90y+729=(y-9)(y-81)$, so the smaller solution is $x=2$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-d76e4381cbaa00f3f8b435c7cd262c1173ca33e29fa62ea952235a86b9bfd056",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.hard.0002",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $2$: Find $x$ if $4^{x+3}=4^{6}\\cdot 4^{3-x}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The right side is $4^{9-x}$. Thus $x+3=9-x$, so $x=3$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-8dfa4078c60ec99497f64a375abb920081f49a43db4b64d9c10812fb58d3a092",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.hard.0003",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $3$: The smaller solution of $2^{2x}-10\\cdot 2^{x}+16=0$ is what?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $y=2^{x}$. Then $y^2-10y+16=(y-2)(y-8)$, so the smaller solution is $x=1$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-9f208aa99793b8c2357c334cc55424f25adf3d0224eb81ab6c8eb5dacc993900",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.hard.0004",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $4$: Find $x$ if $2^{x+5}=2^{13}\\cdot 2^{2-x}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The right side is $2^{15-x}$. Thus $x+5=15-x$, so $x=5$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-7588c7e9652f95d1a191d94b9f77e44899b514bc9b88abcd5c77089ee8b67fc1",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.hard.0005",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $5$: The smaller solution of $4^{2x}-1088\\cdot 4^{x}+65536=0$ is what?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $y=4^{x}$. Then $y^2-1088y+65536=(y-64)(y-1024)$, so the smaller solution is $x=3$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-af88667c07b47c0980b8880e38672431d7793db5f953c0195dac99ffb562d190",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.hard.0006",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $6$: Find $x$ if $4^{x+2}=4^{3}\\cdot 4^{1-x}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The right side is $4^{4-x}$. Thus $x+2=4-x$, so $x=1$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-fc2ff51442314b4a8a117727d29717e3824c7c33165a90ed0e55b21bcdb198d2",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.hard.0007",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $7$: The smaller solution of $3^{2x}-90\\cdot 3^{x}+729=0$ is what?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $y=3^{x}$. Then $y^2-90y+729=(y-9)(y-81)$, so the smaller solution is $x=2$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-5d1f42c3dd47b570487a3cebe0e6e1dc6b94eff25497f9e00090fa738c94b288",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.hard.0008",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $8$: Find $x$ if $2^{x+4}=2^{7}\\cdot 2^{3-x}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The right side is $2^{10-x}$. Thus $x+4=10-x$, so $x=3$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-990e71be22ffccbd69a3e6eb02bb5491537b46b87201c278c7cf3ab4da1d6564",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.hard.0009",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $9$: The smaller solution of $2^{2x}-10\\cdot 2^{x}+16=0$ is what?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $y=2^{x}$. Then $y^2-10y+16=(y-2)(y-8)$, so the smaller solution is $x=1$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-1bc7f1c8a85f992a490d182d10e2ca82a656d19066304b81b87e607e839c674e",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.hard.0010",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $10$: Find $x$ if $4^{x+1}=4^{9}\\cdot 4^{2-x}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The right side is $4^{11-x}$. Thus $x+1=11-x$, so $x=5$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-30f694a3946c31bf4925b9a02f7176417103ad43610853d03224032c1c412701",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.hard.0011",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $11$: The smaller solution of $4^{2x}-1088\\cdot 4^{x}+65536=0$ is what?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $y=4^{x}$. Then $y^2-1088y+65536=(y-64)(y-1024)$, so the smaller solution is $x=3$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-505c8299e6fbbcf4f9a45977cd2cb6b256686fba96a65490ad45155cf303ef66",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.hard.0012",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $12$: Find $x$ if $2^{x+3}=2^{4}\\cdot 2^{1-x}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The right side is $2^{5-x}$. Thus $x+3=5-x$, so $x=1$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-e32e755816a80a104bdecbc25abbedcd9ddfdb183998a18c737f4a4d8d9862fc",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.hard.0013",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $13$: The smaller solution of $3^{2x}-90\\cdot 3^{x}+729=0$ is what?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $y=3^{x}$. Then $y^2-90y+729=(y-9)(y-81)$, so the smaller solution is $x=2$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-086f5936448b25d5a7610f307fa98b34871b78bb88c2fc2802f56cd7b991f715",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.hard.0014",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $14$: Find $x$ if $4^{x+5}=4^{8}\\cdot 4^{3-x}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The right side is $4^{11-x}$. Thus $x+5=11-x$, so $x=3$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-af3c2136b7514ac2793cec299fb5fd2c9ef73513d820b8fceb83f0fb1d7c85d4",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.hard.0015",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $15$: The smaller solution of $2^{2x}-10\\cdot 2^{x}+16=0$ is what?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $y=2^{x}$. Then $y^2-10y+16=(y-2)(y-8)$, so the smaller solution is $x=1$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-839041aacfb5f4b7ec03044b1f3617ff7f49161ce1bcb18f2d45fd55561c5f00",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.hard.0016",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $16$: Find $x$ if $2^{x+2}=2^{10}\\cdot 2^{2-x}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The right side is $2^{12-x}$. Thus $x+2=12-x$, so $x=5$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-82857d2fb8affac91117078be3c53e493e8ea42761f5aa040d54011ef8dea778",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.hard.0017",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $17$: The smaller solution of $4^{2x}-1088\\cdot 4^{x}+65536=0$ is what?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $y=4^{x}$. Then $y^2-1088y+65536=(y-64)(y-1024)$, so the smaller solution is $x=3$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-15559297a0800e7b3f8c7c7a4a9fb98afd4af94a2c8808c83aac12686926a7c2",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.hard.0018",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $18$: Find $x$ if $4^{x+4}=4^{5}\\cdot 4^{1-x}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The right side is $4^{6-x}$. Thus $x+4=6-x$, so $x=1$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-11716ee3886913991e82e559fd89f085ce48f38230cc9f6bb01f1a2fbd3424f4",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.hard.0019",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $19$: The smaller solution of $3^{2x}-90\\cdot 3^{x}+729=0$ is what?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $y=3^{x}$. Then $y^2-90y+729=(y-9)(y-81)$, so the smaller solution is $x=2$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-39862d5cc2fdb2b84c20e440965a410604e12ca5a32947f848460084232f2362",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.hard.0020",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $20$: Find $x$ if $2^{x+1}=2^{4}\\cdot 2^{3-x}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$11$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The right side is $2^{7-x}$. Thus $x+1=7-x$, so $x=3$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-032454a9735a95e3b0711cb6b6dc3f81cb677b551d34cc9574c3bdf8f6d091ef",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.hard.0021",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $21$: The smaller solution of $2^{2x}-10\\cdot 2^{x}+16=0$ is what?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $y=2^{x}$. Then $y^2-10y+16=(y-2)(y-8)$, so the smaller solution is $x=1$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-73c1251dfdecdc0531825cacf3d8dd38dac486e7b2a385a71cd9b82b69240838",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.hard.0022",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $22$: Find $x$ if $4^{x+3}=4^{11}\\cdot 4^{2-x}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The right side is $4^{13-x}$. Thus $x+3=13-x$, so $x=5$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-77676bb903197b427493c9aad0a6324fab94b6da211f08f3ef8f80d8d05bd8a5",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.hard.0023",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $23$: The smaller solution of $4^{2x}-1088\\cdot 4^{x}+65536=0$ is what?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $y=4^{x}$. Then $y^2-1088y+65536=(y-64)(y-1024)$, so the smaller solution is $x=3$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-64f1a03b543814e5bf163eb8d011100ade747930f641bc4d79894bb0a47be8a1",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.hard.0024",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $24$: Find $x$ if $2^{x+5}=2^{6}\\cdot 2^{1-x}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The right side is $2^{7-x}$. Thus $x+5=7-x$, so $x=1$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-e22395935fe73c2001367ddc4584323b9957d19a48bc28928d6b520e34c3818c",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.hard.0025",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $25$: The smaller solution of $3^{2x}-90\\cdot 3^{x}+729=0$ is what?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $y=3^{x}$. Then $y^2-90y+729=(y-9)(y-81)$, so the smaller solution is $x=2$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-f7d0b99e9ded95981790bd2d03a18d15b8c44214161b2fc7ad5816d7d27e7fba",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.hard.0026",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $26$: Find $x$ if $4^{x+2}=4^{5}\\cdot 4^{3-x}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The right side is $4^{8-x}$. Thus $x+2=8-x$, so $x=3$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-248162724f0d144c767b349c314e86a6556108312bc6667ac915a32f1af5e909",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.hard.0027",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $27$: The smaller solution of $2^{2x}-10\\cdot 2^{x}+16=0$ is what?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $y=2^{x}$. Then $y^2-10y+16=(y-2)(y-8)$, so the smaller solution is $x=1$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-fc071a8bb2865730b6e41d295e5f8238dde37731fc9142990fe93911cc583311",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.hard.0028",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $28$: Find $x$ if $2^{x+4}=2^{12}\\cdot 2^{2-x}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The right side is $2^{14-x}$. Thus $x+4=14-x$, so $x=5$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-56b699650f772b31534a8071b0beec376bbc31d437a356d574b48bab0f4e4d38",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.hard.0029",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $29$: The smaller solution of $4^{2x}-1088\\cdot 4^{x}+65536=0$ is what?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $y=4^{x}$. Then $y^2-1088y+65536=(y-64)(y-1024)$, so the smaller solution is $x=3$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-190197a49dc1c6e7cf2adcc9bef64138c9fe6774dc8d52a3694f29b548a0f694",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.hard.0030",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $30$: Find $x$ if $4^{x+1}=4^{2}\\cdot 4^{1-x}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The right side is $4^{3-x}$. Thus $x+1=3-x$, so $x=1$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-baedc04857b11893bf13adf8d065f7206e3f97ae0a9ffee73d29a8a5f307c820",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.hard.0031",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $31$: The smaller solution of $3^{2x}-90\\cdot 3^{x}+729=0$ is what?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $y=3^{x}$. Then $y^2-90y+729=(y-9)(y-81)$, so the smaller solution is $x=2$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-8560836a260666e576abbc25b20dad70c6881467a43e4da67a85a8991d9fc319",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.hard.0032",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $32$: Find $x$ if $2^{x+3}=2^{6}\\cdot 2^{3-x}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The right side is $2^{9-x}$. Thus $x+3=9-x$, so $x=3$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-b3d15e1c28d975adf6cc27402b3ab044bedf049b5e5f9478303c62b49c7bef03",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.hard.0033",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $33$: The smaller solution of $2^{2x}-10\\cdot 2^{x}+16=0$ is what?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $y=2^{x}$. Then $y^2-10y+16=(y-2)(y-8)$, so the smaller solution is $x=1$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-710a61dcb8c68473d48763f726eb87dd6a0edfd3e9cec66a2b59762855d8bc46",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.hard.0034",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $34$: Find $x$ if $4^{x+5}=4^{13}\\cdot 4^{2-x}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The right side is $4^{15-x}$. Thus $x+5=15-x$, so $x=5$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-a551d4c924a6138b9934eea209b92c80a412bdd4e3d75660435644666fd0b9c3",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.hard.0035",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $35$: The smaller solution of $4^{2x}-1088\\cdot 4^{x}+65536=0$ is what?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $y=4^{x}$. Then $y^2-1088y+65536=(y-64)(y-1024)$, so the smaller solution is $x=3$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-9125dfc93c7c05ac810826a350dcf2d9c8987b0a8d35f3f8828cd16141abd07b",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.hard.0036",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $36$: Find $x$ if $2^{x+2}=2^{3}\\cdot 2^{1-x}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The right side is $2^{4-x}$. Thus $x+2=4-x$, so $x=1$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-090a5c4a9186f26b0e52a7ae8826cc87a4bedbb6494100938019d6ebf3ae8fbe",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.hard.0037",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $37$: The smaller solution of $3^{2x}-90\\cdot 3^{x}+729=0$ is what?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $y=3^{x}$. Then $y^2-90y+729=(y-9)(y-81)$, so the smaller solution is $x=2$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-38e774cb3309c55e99b6a114dd4b8e5c1623a940d760aecf811a2d3659d126e5",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.hard.0038",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $38$: Find $x$ if $4^{x+4}=4^{7}\\cdot 4^{3-x}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The right side is $4^{10-x}$. Thus $x+4=10-x$, so $x=3$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-64a3aaad0aabaa5a1cc8f95039ed5b3aff232f13da46c65dba2633bcc496972c",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.hard.0039",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $39$: The smaller solution of $2^{2x}-10\\cdot 2^{x}+16=0$ is what?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $y=2^{x}$. Then $y^2-10y+16=(y-2)(y-8)$, so the smaller solution is $x=1$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-29a127c02033f1aa3606cd69b05c754afa1cb02e1de6ee5c3396969c9bed6ad1",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.hard.0040",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $40$: Find $x$ if $2^{x+1}=2^{9}\\cdot 2^{2-x}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The right side is $2^{11-x}$. Thus $x+1=11-x$, so $x=5$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-92ea759d71b7f6f91028d7a808bd06a5208752e21b9eb778910e26657b15243e",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.hard.0041",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $41$: The smaller solution of $4^{2x}-1088\\cdot 4^{x}+65536=0$ is what?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $y=4^{x}$. Then $y^2-1088y+65536=(y-64)(y-1024)$, so the smaller solution is $x=3$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-312355959b7eef60f21f6d4ee13eade2a9e3b7adb8c1e7e33412fb5f47927cbf",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.hard.0042",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $42$: Find $x$ if $4^{x+3}=4^{4}\\cdot 4^{1-x}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The right side is $4^{5-x}$. Thus $x+3=5-x$, so $x=1$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-0a7b629f899a33ed76cfbf635ad773b29721630d20771f0f5fc40af33fc319cb",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.hard.0043",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $43$: The smaller solution of $3^{2x}-90\\cdot 3^{x}+729=0$ is what?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $y=3^{x}$. Then $y^2-90y+729=(y-9)(y-81)$, so the smaller solution is $x=2$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-cd068c6899db0e527d03d4bf82bf8dc3b4de4100fa10481d8242e538066e38a0",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.hard.0044",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $44$: Find $x$ if $2^{x+5}=2^{8}\\cdot 2^{3-x}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The right side is $2^{11-x}$. Thus $x+5=11-x$, so $x=3$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-d13de891c232da88fbf3548decf0b1bdf364d254060f58494e73d1b79d63b9b1",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.hard.0045",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $45$: The smaller solution of $2^{2x}-10\\cdot 2^{x}+16=0$ is what?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $y=2^{x}$. Then $y^2-10y+16=(y-2)(y-8)$, so the smaller solution is $x=1$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-0f0ace0c135489b01500ab89dbd67429600a9187c941f85fddf3ba3c3924b3f9",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.hard.0046",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $46$: Find $x$ if $4^{x+2}=4^{10}\\cdot 4^{2-x}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The right side is $4^{12-x}$. Thus $x+2=12-x$, so $x=5$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-c6ec1765d238c9ba375e695b978c98915692ae06fdecbefa450cc4de66aac897",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.hard.0047",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $47$: The smaller solution of $4^{2x}-1088\\cdot 4^{x}+65536=0$ is what?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $y=4^{x}$. Then $y^2-1088y+65536=(y-64)(y-1024)$, so the smaller solution is $x=3$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-c0610d25ba61b5c076b9469ce511df70a81045a6b8647470b2c4ee749e7eb297",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.hard.0048",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $48$: Find $x$ if $2^{x+4}=2^{5}\\cdot 2^{1-x}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The right side is $2^{6-x}$. Thus $x+4=6-x$, so $x=1$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-1a80f6ac069f709e4c1a573e86d3dd910050c00f673b2163385fc5b260b331f5",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.hard.0049",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $49$: The smaller solution of $3^{2x}-90\\cdot 3^{x}+729=0$ is what?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $y=3^{x}$. Then $y^2-90y+729=(y-9)(y-81)$, so the smaller solution is $x=2$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-bba0947da4fbf0ef2ba763453a0193cc46a1e88fb2686409d05cd2123b80c8e0",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.hard.0050",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "hard",
+    "prompt_latex": "Entry $50$: Find $x$ if $4^{x+1}=4^{4}\\cdot 4^{3-x}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$11$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The right side is $4^{7-x}$. Thus $x+1=7-x$, so $x=3$.",
+    "complexity_factor": 1.5,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-1aedf6b3ff63c576a07458c929d8264ecf956a9f2e3fb9ba41abdffb64a7719a",
+    "status": "valid"
+  }
+]

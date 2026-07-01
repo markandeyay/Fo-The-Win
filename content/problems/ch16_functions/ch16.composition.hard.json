@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "ch16.composition.hard.0001",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=2x - 6$ and $g(x)=5x - 5$. If $f(g(x))=-66$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-5$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4$"
+      },
+      {
+        "id": "d",
+        "latex": "$-30$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$f(g(x))=10x - 16$. Solving $10x - 16=-66$ gives $x=-5$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "linear-equations"
+    ],
+    "checksum": "sha256-f1a5544ffd10781a5eaae99b0a800a57d751e8b8d1fab681cb0d91d9f6eb54f2",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.hard.0002",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=3x + 1$ and $g(x)=3x - 3$. If $f(g(x))=-26$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$-9$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$f(g(x))=9x - 8$. Solving $9x - 8=-26$ gives $x=-2$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "linear-equations"
+    ],
+    "checksum": "sha256-b2f5b8754a74e9f75d57379a1b8614fda341355fcf50b6513cd2aadd5d98fae1",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.hard.0003",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=4x + 7$ and $g(x)=-2x + 5$. If $f(g(x))=19$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$f(g(x))=-8x + 27$. Solving $-8x + 27=19$ gives $x=1$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "linear-equations"
+    ],
+    "checksum": "sha256-d4c0603ff19b281c31b3fa99b7cc140ef3e42868667742280c81f7038af1d6b9",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.hard.0004",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=-2x - 4$ and $g(x)=4x + 9$. If $f(g(x))=-54$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$25$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$f(g(x))=-8x - 22$. Solving $-8x - 22=-54$ gives $x=4$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "linear-equations"
+    ],
+    "checksum": "sha256-a41b31d14eea5f5cfb879c40e2d562ab3701c8d32db66bf7020842be4201f03f",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.hard.0005",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=-3x + 5$ and $g(x)=-4x - 10$. If $f(g(x))=-37$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-6$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$-5$"
+      },
+      {
+        "id": "d",
+        "latex": "$14$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$f(g(x))=12x + 35$. Solving $12x + 35=-37$ gives $x=-6$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "linear-equations"
+    ],
+    "checksum": "sha256-c81a9d1e5e056e669c2b153eb8c429907c2cca889a06b532f13c5d1274a4e31d",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.hard.0006",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=3x - 8$ and $g(x)=8x - 8$. If $f(g(x))=-104$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$-32$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$f(g(x))=24x - 32$. Solving $24x - 32=-104$ gives $x=-3$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "linear-equations"
+    ],
+    "checksum": "sha256-58f713069848825e2a0ffdeedf38aa1e14380477d7bf095607f440c8804d3b46",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.hard.0007",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=4x + 3$ and $g(x)=6x + 10$. If $f(g(x))=91$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$22$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$f(g(x))=24x + 43$. Solving $24x + 43=91$ gives $x=2$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "linear-equations"
+    ],
+    "checksum": "sha256-8928c41fb11ec50b7f316883272565b132921b0abdaddcf5529cf750500704ca",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.hard.0008",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=5x + 9$ and $g(x)=-5x + 14$. If $f(g(x))=-46$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-11$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$-5$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$f(g(x))=-25x + 79$. Solving $-25x + 79=-46$ gives $x=5$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "linear-equations"
+    ],
+    "checksum": "sha256-16a98de3176e7207926ab0f42a6b47cb997fff397309c5dfad35ac0c2ecddef1",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.hard.0009",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=-3x - 6$ and $g(x)=7x - 15$. If $f(g(x))=186$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-7$"
+      },
+      {
+        "id": "b",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$-6$"
+      },
+      {
+        "id": "d",
+        "latex": "$-64$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$f(g(x))=-21x + 39$. Solving $-21x + 39=186$ gives $x=-7$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "linear-equations"
+    ],
+    "checksum": "sha256-daf8bd0ddd43cd6e9be5b1902bdcd748a536ca2da177884aede2e140d8a8dab3",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.hard.0010",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=-4x + 7$ and $g(x)=-7x - 13$. If $f(g(x))=-53$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3$"
+      },
+      {
+        "id": "c",
+        "latex": "$15$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$f(g(x))=28x + 59$. Solving $28x + 59=-53$ gives $x=-4$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "linear-equations"
+    ],
+    "checksum": "sha256-cdc1df33eb6a87a7d1d3a41d1eefd0ac8aa33dc82066dc79aa80b823f5d32f69",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.hard.0011",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=4x - 10$ and $g(x)=11x + 15$. If $f(g(x))=182$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$48$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$f(g(x))=44x + 50$. Solving $44x + 50=182$ gives $x=3$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "linear-equations"
+    ],
+    "checksum": "sha256-fd92213376f0e14453cd4224314390e2f61a63860d8470b11310938676920111",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.hard.0012",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=5x + 5$ and $g(x)=9x + 19$. If $f(g(x))=370$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$73$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$-6$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$f(g(x))=45x + 100$. Solving $45x + 100=370$ gives $x=6$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "linear-equations"
+    ],
+    "checksum": "sha256-53d51f884ef49914507c6e84d68049ecac0cea8fd8f2be2a84e53e4828243e28",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.hard.0013",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=6x + 11$ and $g(x)=-8x - 20$. If $f(g(x))=275$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-8$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$-7$"
+      },
+      {
+        "id": "d",
+        "latex": "$44$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$f(g(x))=-48x - 109$. Solving $-48x - 109=275$ gives $x=-8$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "linear-equations"
+    ],
+    "checksum": "sha256-f03a9fa8c00f656a53e283f5aaf3ee5a001af6b15ea114b98cfe12316f69feda",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.hard.0014",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=-4x - 8$ and $g(x)=10x - 18$. If $f(g(x))=264$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-68$"
+      },
+      {
+        "id": "d",
+        "latex": "$-5$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$f(g(x))=-40x + 64$. Solving $-40x + 64=264$ gives $x=-5$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "linear-equations"
+    ],
+    "checksum": "sha256-d644856e1ab188a877376c14e3c1cd048b4af6cb60870128f9263f7f9983e01d",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.hard.0015",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=-5x + 9$ and $g(x)=-10x + 20$. If $f(g(x))=109$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$-20$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$f(g(x))=50x - 91$. Solving $50x - 91=109$ gives $x=4$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "linear-equations"
+    ],
+    "checksum": "sha256-1bc22ab6795a2277b94590b0fa9d6463edc77d9ed820df8dd3130d0abfaacd12",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.hard.0016",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=5x - 12$ and $g(x)=14x + 24$. If $f(g(x))=598$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$122$"
+      },
+      {
+        "id": "b",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$-7$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$f(g(x))=70x + 108$. Solving $70x + 108=598$ gives $x=7$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "linear-equations"
+    ],
+    "checksum": "sha256-64bb6a4ae3c895f020c332dc00b59d08b312a3db7424034c7c5172bf888f980d",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.hard.0017",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=6x + 7$ and $g(x)=12x - 25$. If $f(g(x))=-791$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-9$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$-8$"
+      },
+      {
+        "id": "d",
+        "latex": "$-133$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$f(g(x))=72x - 143$. Solving $72x - 143=-791$ gives $x=-9$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "linear-equations"
+    ],
+    "checksum": "sha256-9479a9e48d4add3aeee426531bdfff7ba0126c6b2530146854e0304c9e391d04",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.hard.0018",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=7x + 13$ and $g(x)=-11x - 23$. If $f(g(x))=314$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$-5$"
+      },
+      {
+        "id": "c",
+        "latex": "$43$"
+      },
+      {
+        "id": "d",
+        "latex": "$-6$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$f(g(x))=-77x - 148$. Solving $-77x - 148=314$ gives $x=-6$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "linear-equations"
+    ],
+    "checksum": "sha256-c04aed11d7cd1c56e1c74abc3883ca842121e305b7814e98d07ac8dd4b8435d5",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.hard.0019",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=-5x - 10$ and $g(x)=13x + 25$. If $f(g(x))=-460$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$90$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$-5$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$f(g(x))=-65x - 135$. Solving $-65x - 135=-460$ gives $x=5$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "linear-equations"
+    ],
+    "checksum": "sha256-786cb47bd5793d207060e968e138e55595a387f4edccde4f174b05a2120a6a45",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.hard.0020",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=-6x + 11$ and $g(x)=-13x + 29$. If $f(g(x))=461$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-75$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$-8$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$f(g(x))=78x - 163$. Solving $78x - 163=461$ gives $x=8$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "linear-equations"
+    ],
+    "checksum": "sha256-b9bbc4f2633398a9b33307e50d0a695ffe09cc9cc17eb612785fcbc3d2f8be7c",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.hard.0021",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=6x - 14$ and $g(x)=17x - 30$. If $f(g(x))=-1214$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-10$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$-9$"
+      },
+      {
+        "id": "d",
+        "latex": "$-200$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$f(g(x))=102x - 194$. Solving $102x - 194=-1214$ gives $x=-10$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "linear-equations"
+    ],
+    "checksum": "sha256-971ca4722f6829b022a57d1f75405d8c30aa77b4cf00088d82d008bf80999b8f",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.hard.0022",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=7x + 9$ and $g(x)=15x - 28$. If $f(g(x))=-922$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$-6$"
+      },
+      {
+        "id": "c",
+        "latex": "$-133$"
+      },
+      {
+        "id": "d",
+        "latex": "$-7$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$f(g(x))=105x - 187$. Solving $105x - 187=-922$ gives $x=-7$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "linear-equations"
+    ],
+    "checksum": "sha256-256498fb4b54d94d3c1c5287b20c28ba21e103b3a1b5067e7d387150934cda44",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.hard.0023",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=8x + 15$ and $g(x)=-14x + 30$. If $f(g(x))=-417$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$-54$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$-6$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$f(g(x))=-112x + 255$. Solving $-112x + 255=-417$ gives $x=6$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "linear-equations"
+    ],
+    "checksum": "sha256-96e27ab3fcf097506888ddeb1aa88c94b739896f13575340b7d27865fdd06037",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.hard.0024",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=-6x - 12$ and $g(x)=16x + 34$. If $f(g(x))=-1080$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$178$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$-9$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$f(g(x))=-96x - 216$. Solving $-96x - 216=-1080$ gives $x=9$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "linear-equations"
+    ],
+    "checksum": "sha256-5a656f5f3163fba409f23d13b233f4c5db7e4d12b348fc269b2400add01541ff",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.hard.0025",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=-7x + 13$ and $g(x)=-16x - 35$. If $f(g(x))=-974$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-11$"
+      },
+      {
+        "id": "b",
+        "latex": "$11$"
+      },
+      {
+        "id": "c",
+        "latex": "$-10$"
+      },
+      {
+        "id": "d",
+        "latex": "$141$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-11",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$f(g(x))=112x + 258$. Solving $112x + 258=-974$ gives $x=-11$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "linear-equations"
+    ],
+    "checksum": "sha256-9c5d48a687f4f3a07d530bb5a75e1f12c2beb7a1fe80c57f63f19a6dfc49e43b",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.hard.0026",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=7x - 16$ and $g(x)=20x - 33$. If $f(g(x))=-1367$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$-7$"
+      },
+      {
+        "id": "c",
+        "latex": "$-193$"
+      },
+      {
+        "id": "d",
+        "latex": "$-8$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$f(g(x))=140x - 247$. Solving $140x - 247=-1367$ gives $x=-8$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "linear-equations"
+    ],
+    "checksum": "sha256-75dc12a9ea13789a5ab610b6bbc720315f9fb8d6b508b5f0c19abf8cca5f0c4f",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.hard.0027",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=8x + 11$ and $g(x)=18x + 35$. If $f(g(x))=1299$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$161$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$-7$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$f(g(x))=144x + 291$. Solving $144x + 291=1299$ gives $x=7$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "linear-equations"
+    ],
+    "checksum": "sha256-001f2abb0c1207f62943c303b2556df8dcc32bc01a8a5959e73783e421ef37fc",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.hard.0028",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=9x + 17$ and $g(x)=-17x + 39$. If $f(g(x))=-1162$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-131$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$-10$"
+      },
+      {
+        "id": "d",
+        "latex": "$11$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$f(g(x))=-153x + 368$. Solving $-153x + 368=-1162$ gives $x=10$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "linear-equations"
+    ],
+    "checksum": "sha256-46f5f2bbbfa418275657dfa1d9be1ae5948c9887c8f2721335fc3d82c5c3a5da",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.hard.0029",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=-7x - 14$ and $g(x)=19x - 40$. If $f(g(x))=1862$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-12$"
+      },
+      {
+        "id": "b",
+        "latex": "$12$"
+      },
+      {
+        "id": "c",
+        "latex": "$-11$"
+      },
+      {
+        "id": "d",
+        "latex": "$-268$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$f(g(x))=-133x + 266$. Solving $-133x + 266=1862$ gives $x=-12$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "linear-equations"
+    ],
+    "checksum": "sha256-ffa3f13bb9b2993d719546f4e1df41422f57e5e2300a942bdbfe0de5f6c577c1",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.hard.0030",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=-8x + 15$ and $g(x)=-19x - 38$. If $f(g(x))=-1049$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$-8$"
+      },
+      {
+        "id": "c",
+        "latex": "$133$"
+      },
+      {
+        "id": "d",
+        "latex": "$-9$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$f(g(x))=152x + 319$. Solving $152x + 319=-1049$ gives $x=-9$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "linear-equations"
+    ],
+    "checksum": "sha256-777c4110f500e0e07c403148f068ed6d717928778da1d73ba3839491ad084833",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.hard.0031",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=8x - 18$ and $g(x)=23x + 40$. If $f(g(x))=1774$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$224$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$-8$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$f(g(x))=184x + 302$. Solving $184x + 302=1774$ gives $x=8$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "linear-equations"
+    ],
+    "checksum": "sha256-473d289cfb8ae9160942464e46d94c97334a3da4cd7e811111a72442835a8655",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.hard.0032",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=9x + 13$ and $g(x)=21x + 44$. If $f(g(x))=2488$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$275$"
+      },
+      {
+        "id": "b",
+        "latex": "$11$"
+      },
+      {
+        "id": "c",
+        "latex": "$-11$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "11",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$f(g(x))=189x + 409$. Solving $189x + 409=2488$ gives $x=11$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "linear-equations"
+    ],
+    "checksum": "sha256-e49e2857dabfae7fa8d5753c8594bb611a3ba7650abcc0507ebfd0f26e983a56",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.hard.0033",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=10x + 19$ and $g(x)=-20x - 45$. If $f(g(x))=2169$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-13$"
+      },
+      {
+        "id": "b",
+        "latex": "$13$"
+      },
+      {
+        "id": "c",
+        "latex": "$-12$"
+      },
+      {
+        "id": "d",
+        "latex": "$215$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-13",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$f(g(x))=-200x - 431$. Solving $-200x - 431=2169$ gives $x=-13$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "linear-equations"
+    ],
+    "checksum": "sha256-30836cf13672c1bc90d83a7ad9edf75a833ccb3799c7eca3ee0f7d24e7e3b05d",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.hard.0034",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=-8x - 16$ and $g(x)=22x - 43$. If $f(g(x))=2088$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$-9$"
+      },
+      {
+        "id": "c",
+        "latex": "$-263$"
+      },
+      {
+        "id": "d",
+        "latex": "$-10$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$f(g(x))=-176x + 328$. Solving $-176x + 328=2088$ gives $x=-10$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "linear-equations"
+    ],
+    "checksum": "sha256-9c055cd0991cba945abbef990c7093b0bfb36ba37b194492d3744b506ab9912c",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.hard.0035",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=-9x + 17$ and $g(x)=-22x + 45$. If $f(g(x))=1394$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$-153$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$-9$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$f(g(x))=198x - 388$. Solving $198x - 388=1394$ gives $x=9$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "linear-equations"
+    ],
+    "checksum": "sha256-e1dd63aca85d670cdae7a218e182f5b326da15e17797b7e5269ab5c436735bb1",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.hard.0036",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=9x - 20$ and $g(x)=26x + 49$. If $f(g(x))=3229$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$361$"
+      },
+      {
+        "id": "b",
+        "latex": "$12$"
+      },
+      {
+        "id": "c",
+        "latex": "$-12$"
+      },
+      {
+        "id": "d",
+        "latex": "$13$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$f(g(x))=234x + 421$. Solving $234x + 421=3229$ gives $x=12$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "linear-equations"
+    ],
+    "checksum": "sha256-92ad88ba529462f713bf7b7ffebaa1e49640a8c780ad1709719ce3b0f792b5ef",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.hard.0037",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=10x + 15$ and $g(x)=24x - 50$. If $f(g(x))=-3845$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-14$"
+      },
+      {
+        "id": "b",
+        "latex": "$14$"
+      },
+      {
+        "id": "c",
+        "latex": "$-13$"
+      },
+      {
+        "id": "d",
+        "latex": "$-386$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-14",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$f(g(x))=240x - 485$. Solving $240x - 485=-3845$ gives $x=-14$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "linear-equations"
+    ],
+    "checksum": "sha256-b3415440e4fc84e22a2f9919e995baad1cc1e8368e85969327a7500780b1b03f",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.hard.0038",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=11x + 21$ and $g(x)=-23x - 48$. If $f(g(x))=2276$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11$"
+      },
+      {
+        "id": "b",
+        "latex": "$-10$"
+      },
+      {
+        "id": "c",
+        "latex": "$205$"
+      },
+      {
+        "id": "d",
+        "latex": "$-11$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-11",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$f(g(x))=-253x - 507$. Solving $-253x - 507=2276$ gives $x=-11$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "linear-equations"
+    ],
+    "checksum": "sha256-793dbfd620da5c24c00b6d455f2e36b6716368026cc35967dc1b12e0b01716d2",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.hard.0039",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=-9x - 18$ and $g(x)=25x + 50$. If $f(g(x))=-2718$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11$"
+      },
+      {
+        "id": "b",
+        "latex": "$300$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$-10$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$f(g(x))=-225x - 468$. Solving $-225x - 468=-2718$ gives $x=10$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "linear-equations"
+    ],
+    "checksum": "sha256-5e614dbf9dd1ab663bca4aea55cc05ae9be37ea035917b6d429f058db35061de",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.hard.0040",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=-10x + 19$ and $g(x)=-25x + 54$. If $f(g(x))=2729$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-271$"
+      },
+      {
+        "id": "b",
+        "latex": "$13$"
+      },
+      {
+        "id": "c",
+        "latex": "$-13$"
+      },
+      {
+        "id": "d",
+        "latex": "$14$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "13",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$f(g(x))=250x - 521$. Solving $250x - 521=2729$ gives $x=13$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "linear-equations"
+    ],
+    "checksum": "sha256-029b8e014494dde977523b23473cc61fb382dbbed726e9d106b8e661fac3a528",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.hard.0041",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=10x - 22$ and $g(x)=29x - 55$. If $f(g(x))=-4922$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-15$"
+      },
+      {
+        "id": "b",
+        "latex": "$15$"
+      },
+      {
+        "id": "c",
+        "latex": "$-14$"
+      },
+      {
+        "id": "d",
+        "latex": "$-490$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-15",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$f(g(x))=290x - 572$. Solving $290x - 572=-4922$ gives $x=-15$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "linear-equations"
+    ],
+    "checksum": "sha256-518110ebb24f0b7fd53efdd6e4764b35b6be27656224e3d0fc355ea53dab54c4",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.hard.0042",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=11x + 17$ and $g(x)=27x - 53$. If $f(g(x))=-4130$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12$"
+      },
+      {
+        "id": "b",
+        "latex": "$-11$"
+      },
+      {
+        "id": "c",
+        "latex": "$-377$"
+      },
+      {
+        "id": "d",
+        "latex": "$-12$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$f(g(x))=297x - 566$. Solving $297x - 566=-4130$ gives $x=-12$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "linear-equations"
+    ],
+    "checksum": "sha256-3c7d20d0e63d43232f09356bebcbec9b41e74ddd63563296bb0a7b82c1288393",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.hard.0043",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=12x + 23$ and $g(x)=-26x + 55$. If $f(g(x))=-2749$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12$"
+      },
+      {
+        "id": "b",
+        "latex": "$-231$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$-11$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "11",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$f(g(x))=-312x + 683$. Solving $-312x + 683=-2749$ gives $x=11$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "linear-equations"
+    ],
+    "checksum": "sha256-7d65d6dfe9e46c0d9c9c0874bbbb09722534f6fc5c5bc9ece51281df02a257ae",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.hard.0044",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=-10x - 20$ and $g(x)=28x + 59$. If $f(g(x))=-4530$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$451$"
+      },
+      {
+        "id": "b",
+        "latex": "$14$"
+      },
+      {
+        "id": "c",
+        "latex": "$-14$"
+      },
+      {
+        "id": "d",
+        "latex": "$15$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "14",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$f(g(x))=-280x - 610$. Solving $-280x - 610=-4530$ gives $x=14$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "linear-equations"
+    ],
+    "checksum": "sha256-7aa5cee6721dd76163ddb41129b2208823c1759f4ba948ba9944500ca8076736",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.hard.0045",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=-11x + 21$ and $g(x)=-28x - 60$. If $f(g(x))=-4247$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-16$"
+      },
+      {
+        "id": "b",
+        "latex": "$16$"
+      },
+      {
+        "id": "c",
+        "latex": "$-15$"
+      },
+      {
+        "id": "d",
+        "latex": "$388$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-16",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$f(g(x))=308x + 681$. Solving $308x + 681=-4247$ gives $x=-16$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "linear-equations"
+    ],
+    "checksum": "sha256-550093e94b786171efd8db903227f1dd3caca5128fdaa5aedf6710d2806b916d",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.hard.0046",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=11x - 24$ and $g(x)=32x - 58$. If $f(g(x))=-5238$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$13$"
+      },
+      {
+        "id": "b",
+        "latex": "$-12$"
+      },
+      {
+        "id": "c",
+        "latex": "$-474$"
+      },
+      {
+        "id": "d",
+        "latex": "$-13$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-13",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$f(g(x))=352x - 662$. Solving $352x - 662=-5238$ gives $x=-13$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "linear-equations"
+    ],
+    "checksum": "sha256-add5f686c81c52b6abe245f110caf9d71be55e7bb9966fbd05006aae5e085a18",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.hard.0047",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=12x + 19$ and $g(x)=30x + 60$. If $f(g(x))=5059$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$13$"
+      },
+      {
+        "id": "b",
+        "latex": "$420$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$-12$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$f(g(x))=360x + 739$. Solving $360x + 739=5059$ gives $x=12$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "linear-equations"
+    ],
+    "checksum": "sha256-b8ac3ebfbaf32896f8d0403ffb28bc91f874ac69f00c623cd6b53c4fc4e605fa",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.hard.0048",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=13x + 25$ and $g(x)=-29x + 64$. If $f(g(x))=-4798$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-371$"
+      },
+      {
+        "id": "b",
+        "latex": "$15$"
+      },
+      {
+        "id": "c",
+        "latex": "$-15$"
+      },
+      {
+        "id": "d",
+        "latex": "$16$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "15",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$f(g(x))=-377x + 857$. Solving $-377x + 857=-4798$ gives $x=15$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "linear-equations"
+    ],
+    "checksum": "sha256-6cb8ac8021d42301e86c5a76f1dde2bf9a1b28c07fe49eca3811ac8253c646b8",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.hard.0049",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=-11x - 22$ and $g(x)=31x - 65$. If $f(g(x))=6490$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-17$"
+      },
+      {
+        "id": "b",
+        "latex": "$17$"
+      },
+      {
+        "id": "c",
+        "latex": "$-16$"
+      },
+      {
+        "id": "d",
+        "latex": "$-592$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-17",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$f(g(x))=-341x + 693$. Solving $-341x + 693=6490$ gives $x=-17$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "linear-equations"
+    ],
+    "checksum": "sha256-0aab45470e914028838e028a2338b171a2f6665d94706c4148664b94190a6d80",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.hard.0050",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=-12x + 23$ and $g(x)=-31x - 63$. If $f(g(x))=-4429$, find $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$14$"
+      },
+      {
+        "id": "b",
+        "latex": "$-13$"
+      },
+      {
+        "id": "c",
+        "latex": "$371$"
+      },
+      {
+        "id": "d",
+        "latex": "$-14$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-14",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$f(g(x))=372x + 779$. Solving $372x + 779=-4429$ gives $x=-14$.",
+    "complexity_factor": 1.35,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "linear-equations"
+    ],
+    "checksum": "sha256-726d97f08b97efddf574fd7cfca0d7cd2781222c63af4353619b549a25161cbf",
+    "status": "valid"
+  }
+]

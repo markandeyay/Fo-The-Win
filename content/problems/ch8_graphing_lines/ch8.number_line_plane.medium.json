@@ -1,0 +1,1962 @@
+[
+  {
+    "id": "ch8.number_line_plane.medium.0001",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the midpoint of the segment from $(-8, -7)$ to $(-4, -3)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-6, 5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(6, -5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-6, -5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-5, -6)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-6,-5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Average the coordinates: $\\left(\\frac{-8+-4}{2}, \\frac{-7+-3}{2}\\right) = (-6, -5)$.",
+    "complexity_factor": 1.12,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "midpoint"
+    ],
+    "checksum": "sha256-0735ac75568526cdaf743d1ec3185c8bf1ba8b600fd251e486b58c9b92c5bfac",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.medium.0002",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Three vertices of an axis-aligned rectangle are $(-7, -5)$, $(-1, -5)$, and $(-7, 1)$. What is the fourth vertex?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1, 1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1, -1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1, 1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1, -1)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-1,1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The missing corner uses the unused $x$-coordinate and unused $y$-coordinate, so it is $(-1, 1)$.",
+    "complexity_factor": 1.1,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "rectangle"
+    ],
+    "checksum": "sha256-70a583cfb63da0e2f9c6892b8390256aba71e094ba640cf1409ac32c63fcd33e",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.medium.0003",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "An axis-aligned rectangle has opposite vertices $(-6, -3)$ and $(2, 5)$. What is its area?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$64$"
+      },
+      {
+        "id": "b",
+        "latex": "$63$"
+      },
+      {
+        "id": "c",
+        "latex": "$65$"
+      },
+      {
+        "id": "d",
+        "latex": "$-64$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "64",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The side lengths are $|2--6|=8$ and $|5--3|=8$, so the area is $64$.",
+    "complexity_factor": 1.12,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "area"
+    ],
+    "checksum": "sha256-022ca5fc5aee5a1430bb22e0d0c9a4b1860fe2a3766d99f8abe4ad1ac78f94d4",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.medium.0004",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the distance from $(-5, -1)$ to the $x$-axis?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Distance to the $x$-axis is $|y|$, so the distance is $|-1|=1$.",
+    "complexity_factor": 1.05,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "distance"
+    ],
+    "checksum": "sha256-12c02b06a71ff4d138039580448dff7737af3d1b0f21aa3d3725663aed94066c",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.medium.0005",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Reflect $(-4, 1)$ across the origin, then move $2$ units right and $3$ units down. What point results?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(6, -4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(6, 4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-6, -4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-4, 6)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(6,-4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Reflecting across the origin gives $(4, -1)$. Moving gives $(4+2, -1-3)=(6, -4)$.",
+    "complexity_factor": 1.14,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "reflection",
+      "translation"
+    ],
+    "checksum": "sha256-3e04b1399a469377dafff0355baf3bbcfd813433e403813bed9b6cf552da898d",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.medium.0006",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the midpoint of the segment from $(-3, -6)$ to $(1, -2)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1, 4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-4, -1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1, -4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1, -4)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-1,-4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Average the coordinates: $\\left(\\frac{-3+1}{2}, \\frac{-6+-2}{2}\\right) = (-1, -4)$.",
+    "complexity_factor": 1.12,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "midpoint"
+    ],
+    "checksum": "sha256-a804fd02976cbd77c99c9871552c82ffda91583fec355f9be7ec885547d01d92",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.medium.0007",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Three vertices of an axis-aligned rectangle are $(-2, -4)$, $(4, -4)$, and $(-2, 2)$. What is the fourth vertex?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4, 2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-4, 2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4, -2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2, 4)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(4,2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The missing corner uses the unused $x$-coordinate and unused $y$-coordinate, so it is $(4, 2)$.",
+    "complexity_factor": 1.1,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "rectangle"
+    ],
+    "checksum": "sha256-566d5f1ab5479de9ab57aba5f372e85365e4a3a968267530a91ad38ad862abc0",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.medium.0008",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "An axis-aligned rectangle has opposite vertices $(-1, -2)$ and $(7, 6)$. What is its area?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-64$"
+      },
+      {
+        "id": "b",
+        "latex": "$63$"
+      },
+      {
+        "id": "c",
+        "latex": "$65$"
+      },
+      {
+        "id": "d",
+        "latex": "$64$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "64",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The side lengths are $|7--1|=8$ and $|6--2|=8$, so the area is $64$.",
+    "complexity_factor": 1.12,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "area"
+    ],
+    "checksum": "sha256-c08d4679c7b15b282be722f09ba1a993a8a50af2889d574b5ae52b8f427e2f12",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.medium.0009",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the distance from $(0, 0)$ to the $x$-axis?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Distance to the $x$-axis is $|y|$, so the distance is $|0|=0$.",
+    "complexity_factor": 1.05,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "distance"
+    ],
+    "checksum": "sha256-f1e568c2e5cca43da3ca78700e7739ff7efb49cccee9bc29722ac840b3862aea",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.medium.0010",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Reflect $(-8, -7)$ across the origin, then move $2$ units right and $3$ units down. What point results?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(10, 4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(10, -4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4, 10)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-10, 4)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(10,4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Reflecting across the origin gives $(8, 7)$. Moving gives $(8+2, 7-3)=(10, 4)$.",
+    "complexity_factor": 1.14,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "reflection",
+      "translation"
+    ],
+    "checksum": "sha256-4bde6b6f3a6c24db1609f530a616b17cfbea3776197156ece89d4a66f9804e49",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.medium.0011",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the midpoint of the segment from $(-7, -5)$ to $(-3, -1)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(5, -3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3, -5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-5, -3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-5, 3)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-5,-3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Average the coordinates: $\\left(\\frac{-7+-3}{2}, \\frac{-5+-1}{2}\\right) = (-5, -3)$.",
+    "complexity_factor": 1.12,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "midpoint"
+    ],
+    "checksum": "sha256-8c4858b8dcec92de91f2b1e84b991b81c34a3619ba5ea0d723197bdeffc5bd23",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.medium.0012",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Three vertices of an axis-aligned rectangle are $(-6, -3)$, $(0, -3)$, and $(-6, 3)$. What is the fourth vertex?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1, 3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0, -3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3, 0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0, 3)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(0,3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The missing corner uses the unused $x$-coordinate and unused $y$-coordinate, so it is $(0, 3)$.",
+    "complexity_factor": 1.1,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "rectangle"
+    ],
+    "checksum": "sha256-69f1795cdb218db6a128b956f26941b660db8362d947cdb43352ddc387bda549",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.medium.0013",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "An axis-aligned rectangle has opposite vertices $(-5, -1)$ and $(3, 7)$. What is its area?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-64$"
+      },
+      {
+        "id": "b",
+        "latex": "$64$"
+      },
+      {
+        "id": "c",
+        "latex": "$65$"
+      },
+      {
+        "id": "d",
+        "latex": "$63$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "64",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The side lengths are $|3--5|=8$ and $|7--1|=8$, so the area is $64$.",
+    "complexity_factor": 1.12,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "area"
+    ],
+    "checksum": "sha256-838e34edfdc49dd395d700a204816a70bcc4aa2b487d816f4d56783825842a6d",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.medium.0014",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the distance from $(-4, 1)$ to the $x$-axis?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Distance to the $x$-axis is $|y|$, so the distance is $|1|=1$.",
+    "complexity_factor": 1.05,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "distance"
+    ],
+    "checksum": "sha256-e591126ce0ea66ca4d87832e364caddbff898bf3a9ed7feb00beac9b18c13ef8",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.medium.0015",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Reflect $(-3, -6)$ across the origin, then move $2$ units right and $3$ units down. What point results?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-5, 3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3, 5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(5, -3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(5, 3)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(5,3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Reflecting across the origin gives $(3, 6)$. Moving gives $(3+2, 6-3)=(5, 3)$.",
+    "complexity_factor": 1.14,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "reflection",
+      "translation"
+    ],
+    "checksum": "sha256-7f91788f094d290d5dfc9838fc3161bd0b9677ac4de669380ed01fcf5a446818",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.medium.0016",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the midpoint of the segment from $(-2, -4)$ to $(2, 0)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2, 0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0, 2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1, -2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0, -2)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(0,-2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Average the coordinates: $\\left(\\frac{-2+2}{2}, \\frac{-4+0}{2}\\right) = (0, -2)$.",
+    "complexity_factor": 1.12,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "midpoint"
+    ],
+    "checksum": "sha256-4c2f9cafd2aeb95909f5c947844c1c7d4b7300a8bcc78312168132f23b0821c4",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.medium.0017",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Three vertices of an axis-aligned rectangle are $(-1, -2)$, $(5, -2)$, and $(-1, 4)$. What is the fourth vertex?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4, 5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(5, -4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(5, 4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-5, 4)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(5,4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The missing corner uses the unused $x$-coordinate and unused $y$-coordinate, so it is $(5, 4)$.",
+    "complexity_factor": 1.1,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "rectangle"
+    ],
+    "checksum": "sha256-9c1719f083a6f8638fbe1fc56446facf0927068852dadd158e561d5f8f64c020",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.medium.0018",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "An axis-aligned rectangle has opposite vertices $(0, 0)$ and $(8, 8)$. What is its area?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-64$"
+      },
+      {
+        "id": "b",
+        "latex": "$63$"
+      },
+      {
+        "id": "c",
+        "latex": "$64$"
+      },
+      {
+        "id": "d",
+        "latex": "$65$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "64",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The side lengths are $|8-0|=8$ and $|8-0|=8$, so the area is $64$.",
+    "complexity_factor": 1.12,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "area"
+    ],
+    "checksum": "sha256-c5274b541987c995e64429adf29976226cc6ec5c51025a4da575af5ec01c0820",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.medium.0019",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the distance from $(-8, -7)$ to the $x$-axis?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-7$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Distance to the $x$-axis is $|y|$, so the distance is $|-7|=7$.",
+    "complexity_factor": 1.05,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "distance"
+    ],
+    "checksum": "sha256-8655dae2df8a82ee5785e942ed0506c6f2787ac81d626e77a8f582e411071c35",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.medium.0020",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Reflect $(-7, -5)$ across the origin, then move $2$ units right and $3$ units down. What point results?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(9, 2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-9, 2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2, 9)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(9, -2)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(9,2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Reflecting across the origin gives $(7, 5)$. Moving gives $(7+2, 5-3)=(9, 2)$.",
+    "complexity_factor": 1.14,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "reflection",
+      "translation"
+    ],
+    "checksum": "sha256-5330ce6b8e400156c49eed3aae800fd9201f6d00b222a0e3da94035977f399ce",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.medium.0021",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the midpoint of the segment from $(-6, -3)$ to $(-2, 1)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1, -4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-4, 1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-4, -1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4, -1)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-4,-1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Average the coordinates: $\\left(\\frac{-6+-2}{2}, \\frac{-3+1}{2}\\right) = (-4, -1)$.",
+    "complexity_factor": 1.12,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "midpoint"
+    ],
+    "checksum": "sha256-ad102e99d3bbfce9ca6fe8936f90c12bb794a8fe5f4861ca85c41f51017b7999",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.medium.0022",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Three vertices of an axis-aligned rectangle are $(-5, -1)$, $(1, -1)$, and $(-5, 5)$. What is the fourth vertex?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1, 5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(5, 1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1, -5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1, 5)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(1,5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The missing corner uses the unused $x$-coordinate and unused $y$-coordinate, so it is $(1, 5)$.",
+    "complexity_factor": 1.1,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "rectangle"
+    ],
+    "checksum": "sha256-07183ecf6b461d02e8054142662a4b7ad75fed547266712f79eb126b6c3d9d18",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.medium.0023",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "An axis-aligned rectangle has opposite vertices $(-4, 1)$ and $(4, 9)$. What is its area?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$65$"
+      },
+      {
+        "id": "b",
+        "latex": "$-64$"
+      },
+      {
+        "id": "c",
+        "latex": "$64$"
+      },
+      {
+        "id": "d",
+        "latex": "$63$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "64",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The side lengths are $|4--4|=8$ and $|9-1|=8$, so the area is $64$.",
+    "complexity_factor": 1.12,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "area"
+    ],
+    "checksum": "sha256-343966dcce5d5f21c45bd59e4c2c89e1026d059d51810ce669a910edb9bdd3f3",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.medium.0024",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the distance from $(-3, -6)$ to the $x$-axis?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$-6$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Distance to the $x$-axis is $|y|$, so the distance is $|-6|=6$.",
+    "complexity_factor": 1.05,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "distance"
+    ],
+    "checksum": "sha256-024c62960ef65f25076db752f77cde6ef7db4b80ce21260d487cf5186a086bd8",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.medium.0025",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Reflect $(-2, -4)$ across the origin, then move $2$ units right and $3$ units down. What point results?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4, -1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-4, 1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4, 1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1, 4)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(4,1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Reflecting across the origin gives $(2, 4)$. Moving gives $(2+2, 4-3)=(4, 1)$.",
+    "complexity_factor": 1.14,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "reflection",
+      "translation"
+    ],
+    "checksum": "sha256-c3f19a01caed4c42fb72cfb1c50c02109a086222858990fb01d60ca2be82b1e8",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.medium.0026",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the midpoint of the segment from $(10, -11)$ to $(14, -7)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-12, -9)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-9, 12)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(12, 9)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(12, -9)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(12,-9)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Average the coordinates: $\\left(\\frac{10+14}{2}, \\frac{-11+-7}{2}\\right) = (12, -9)$.",
+    "complexity_factor": 1.12,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "midpoint"
+    ],
+    "checksum": "sha256-18e0ad973b87900c5b688955cc03bd7409a9a86bb7a6d8af27d36008e5d6194f",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.medium.0027",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Three vertices of an axis-aligned rectangle are $(11, -9)$, $(17, -9)$, and $(11, -3)$. What is the fourth vertex?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-3, 17)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(17, 3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-17, -3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(17, -3)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(17,-3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The missing corner uses the unused $x$-coordinate and unused $y$-coordinate, so it is $(17, -3)$.",
+    "complexity_factor": 1.1,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "rectangle"
+    ],
+    "checksum": "sha256-af5b27b9b87f3a60ecfcd145df7ee859b9b0a9cdedaa363d0443ab27da76cc77",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.medium.0028",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "An axis-aligned rectangle has opposite vertices $(3, -16)$ and $(11, -8)$. What is its area?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$64$"
+      },
+      {
+        "id": "b",
+        "latex": "$65$"
+      },
+      {
+        "id": "c",
+        "latex": "$63$"
+      },
+      {
+        "id": "d",
+        "latex": "$-64$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "64",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The side lengths are $|11-3|=8$ and $|-8--16|=8$, so the area is $64$.",
+    "complexity_factor": 1.12,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "area"
+    ],
+    "checksum": "sha256-a93a4e0562a422be09b54de8afee17024aeb318a72d3dfe49ef5d8ffa9702794",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.medium.0029",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the distance from $(4, -14)$ to the $x$-axis?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$15$"
+      },
+      {
+        "id": "b",
+        "latex": "$-14$"
+      },
+      {
+        "id": "c",
+        "latex": "$14$"
+      },
+      {
+        "id": "d",
+        "latex": "$13$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "14",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Distance to the $x$-axis is $|y|$, so the distance is $|-14|=14$.",
+    "complexity_factor": 1.05,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "distance"
+    ],
+    "checksum": "sha256-2eeb1a06a576333b6308e7cd2e97cdfa71018845eda243279111bf6724d49fd9",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.medium.0030",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Reflect $(5, -12)$ across the origin, then move $2$ units right and $3$ units down. What point results?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-3, 9)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3, -9)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(9, -3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3, 9)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-3,9)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Reflecting across the origin gives $(-5, 12)$. Moving gives $(-5+2, 12-3)=(-3, 9)$.",
+    "complexity_factor": 1.14,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "reflection",
+      "translation"
+    ],
+    "checksum": "sha256-1f9f2dd537756b74df9c5f7267c054764b3bbd1418a814d78acc9436c5911a7a",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.medium.0031",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the midpoint of the segment from $(6, -10)$ to $(10, -6)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(8, -8)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-8, 8)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(8, 8)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-8, -8)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(8,-8)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Average the coordinates: $\\left(\\frac{6+10}{2}, \\frac{-10+-6}{2}\\right) = (8, -8)$.",
+    "complexity_factor": 1.12,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "midpoint"
+    ],
+    "checksum": "sha256-23f11d0bdb0e52816dfc1850e1d3a2c4a61cd6934ed4149c08e8aa7d6d0acfa8",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.medium.0032",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Three vertices of an axis-aligned rectangle are $(7, -8)$, $(13, -8)$, and $(7, -2)$. What is the fourth vertex?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2, 13)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(13, 2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-13, -2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(13, -2)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(13,-2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The missing corner uses the unused $x$-coordinate and unused $y$-coordinate, so it is $(13, -2)$.",
+    "complexity_factor": 1.1,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "rectangle"
+    ],
+    "checksum": "sha256-cd11505d01c5473bc6106b59cf10d87988b02b88744407c42f4524976aeba538",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.medium.0033",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "An axis-aligned rectangle has opposite vertices $(8, -15)$ and $(16, -7)$. What is its area?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-64$"
+      },
+      {
+        "id": "b",
+        "latex": "$63$"
+      },
+      {
+        "id": "c",
+        "latex": "$64$"
+      },
+      {
+        "id": "d",
+        "latex": "$65$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "64",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The side lengths are $|16-8|=8$ and $|-7--15|=8$, so the area is $64$.",
+    "complexity_factor": 1.12,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "area"
+    ],
+    "checksum": "sha256-b8e78bafdc13fcfe99031c947bdf265a6a748bba763a31a4b63765756bcc7838",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.medium.0034",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the distance from $(9, -13)$ to the $x$-axis?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12$"
+      },
+      {
+        "id": "b",
+        "latex": "$13$"
+      },
+      {
+        "id": "c",
+        "latex": "$14$"
+      },
+      {
+        "id": "d",
+        "latex": "$-13$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "13",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Distance to the $x$-axis is $|y|$, so the distance is $|-13|=13$.",
+    "complexity_factor": 1.05,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "distance"
+    ],
+    "checksum": "sha256-562dffd03c2c656e1a40541202d193c982c2dcc04b1d1d6277dcb77402ac8c4a",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.medium.0035",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Reflect $(10, -11)$ across the origin, then move $2$ units right and $3$ units down. What point results?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-8, -8)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(8, 8)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-8, 8)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(8, -8)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-8,8)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Reflecting across the origin gives $(-10, 11)$. Moving gives $(-10+2, 11-3)=(-8, 8)$.",
+    "complexity_factor": 1.14,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "reflection",
+      "translation"
+    ],
+    "checksum": "sha256-0c6070530b84d33c877e96f69967d6f8af2356818f9ff7fc2d8693697a80bc04",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.medium.0036",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the midpoint of the segment from $(11, -9)$ to $(15, -5)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-13, -7)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(13, 7)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(13, -7)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-7, 13)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(13,-7)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Average the coordinates: $\\left(\\frac{11+15}{2}, \\frac{-9+-5}{2}\\right) = (13, -7)$.",
+    "complexity_factor": 1.12,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "midpoint"
+    ],
+    "checksum": "sha256-d4e9f1f6efb6b6441c0d248f41fc1b46651cafd03b31aed1447964ad7a61f940",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.medium.0037",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Three vertices of an axis-aligned rectangle are $(3, -16)$, $(9, -16)$, and $(3, -10)$. What is the fourth vertex?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-10, 9)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(9, -10)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(9, 10)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-9, -10)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(9,-10)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The missing corner uses the unused $x$-coordinate and unused $y$-coordinate, so it is $(9, -10)$.",
+    "complexity_factor": 1.1,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "rectangle"
+    ],
+    "checksum": "sha256-e9fce2e681818ed60b39bf51c830c9dd2dcf626cf7b4ec035ddc175c780651b9",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.medium.0038",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "An axis-aligned rectangle has opposite vertices $(4, -14)$ and $(12, -6)$. What is its area?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$64$"
+      },
+      {
+        "id": "b",
+        "latex": "$-64$"
+      },
+      {
+        "id": "c",
+        "latex": "$65$"
+      },
+      {
+        "id": "d",
+        "latex": "$63$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "64",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The side lengths are $|12-4|=8$ and $|-6--14|=8$, so the area is $64$.",
+    "complexity_factor": 1.12,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "area"
+    ],
+    "checksum": "sha256-26d48bbe35260ca0d1e48a6811b9211c237f6557586268cd37e8dd826ad60fa1",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.medium.0039",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the distance from $(5, -12)$ to the $x$-axis?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12$"
+      },
+      {
+        "id": "b",
+        "latex": "$-12$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$13$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Distance to the $x$-axis is $|y|$, so the distance is $|-12|=12$.",
+    "complexity_factor": 1.05,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "distance"
+    ],
+    "checksum": "sha256-d503812e3cac562a8877bd689d359ca8a770b1e735903d5f264951491e7d3698",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.medium.0040",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Reflect $(6, -10)$ across the origin, then move $2$ units right and $3$ units down. What point results?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-4, -7)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4, 7)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-4, 7)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(7, -4)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-4,7)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Reflecting across the origin gives $(-6, 10)$. Moving gives $(-6+2, 10-3)=(-4, 7)$.",
+    "complexity_factor": 1.14,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "reflection",
+      "translation"
+    ],
+    "checksum": "sha256-7d08fe9139f9a1a39d40d2520cf92cf9a564d49b5866e061eae139272a810825",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.medium.0041",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the midpoint of the segment from $(7, -8)$ to $(11, -4)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-9, -6)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-6, 9)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(9, -6)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(9, 6)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(9,-6)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Average the coordinates: $\\left(\\frac{7+11}{2}, \\frac{-8+-4}{2}\\right) = (9, -6)$.",
+    "complexity_factor": 1.12,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "midpoint"
+    ],
+    "checksum": "sha256-4fe42624c01ce6c7c6169a4d3c9dfd806cb7fe5a6e2959a73247d3db140455ff",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.medium.0042",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Three vertices of an axis-aligned rectangle are $(8, -15)$, $(14, -15)$, and $(8, -9)$. What is the fourth vertex?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(14, 9)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(14, -9)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-9, 14)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-14, -9)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(14,-9)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The missing corner uses the unused $x$-coordinate and unused $y$-coordinate, so it is $(14, -9)$.",
+    "complexity_factor": 1.1,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "rectangle"
+    ],
+    "checksum": "sha256-b68555793aceeb224efdc7021e01019ec2a699a34cc8c8373e5581b5a9f9d4fc",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.medium.0043",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "An axis-aligned rectangle has opposite vertices $(9, -13)$ and $(17, -5)$. What is its area?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-64$"
+      },
+      {
+        "id": "b",
+        "latex": "$64$"
+      },
+      {
+        "id": "c",
+        "latex": "$65$"
+      },
+      {
+        "id": "d",
+        "latex": "$63$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "64",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The side lengths are $|17-9|=8$ and $|-5--13|=8$, so the area is $64$.",
+    "complexity_factor": 1.12,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "area"
+    ],
+    "checksum": "sha256-c94784a879aac276371799922b6a9a9b55240b26dd08d593fc1d945792cfafc6",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.medium.0044",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the distance from $(10, -11)$ to the $x$-axis?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$-11$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "11",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Distance to the $x$-axis is $|y|$, so the distance is $|-11|=11$.",
+    "complexity_factor": 1.05,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "distance"
+    ],
+    "checksum": "sha256-31891572485f50510373a49ad70a69bf478cb1c030df98d46b9f29c68b33c24b",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.medium.0045",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Reflect $(11, -9)$ across the origin, then move $2$ units right and $3$ units down. What point results?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(6, -9)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(9, 6)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-9, -6)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-9, 6)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-9,6)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Reflecting across the origin gives $(-11, 9)$. Moving gives $(-11+2, 9-3)=(-9, 6)$.",
+    "complexity_factor": 1.14,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "reflection",
+      "translation"
+    ],
+    "checksum": "sha256-87aa4b40afe7b1c9d9dd8e1fb97c0debdb4f78a049baedb596717d9656afb881",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.medium.0046",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the midpoint of the segment from $(3, -16)$ to $(7, -12)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(5, -14)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-5, -14)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(5, 14)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-14, 5)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(5,-14)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Average the coordinates: $\\left(\\frac{3+7}{2}, \\frac{-16+-12}{2}\\right) = (5, -14)$.",
+    "complexity_factor": 1.12,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "midpoint"
+    ],
+    "checksum": "sha256-b96031a7b0b7958fbd1d62e85431e2650daad76b6b0b8b01618c1da714c5440c",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.medium.0047",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Three vertices of an axis-aligned rectangle are $(4, -14)$, $(10, -14)$, and $(4, -8)$. What is the fourth vertex?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-10, -8)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(10, -8)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(10, 8)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-8, 10)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(10,-8)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The missing corner uses the unused $x$-coordinate and unused $y$-coordinate, so it is $(10, -8)$.",
+    "complexity_factor": 1.1,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "rectangle"
+    ],
+    "checksum": "sha256-93b3978fe1d2eaab8de4a7d7f0349ad29e8e0780456d6ba45f32b43731f08842",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.medium.0048",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "An axis-aligned rectangle has opposite vertices $(5, -12)$ and $(13, -4)$. What is its area?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-64$"
+      },
+      {
+        "id": "b",
+        "latex": "$64$"
+      },
+      {
+        "id": "c",
+        "latex": "$63$"
+      },
+      {
+        "id": "d",
+        "latex": "$65$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "64",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The side lengths are $|13-5|=8$ and $|-4--12|=8$, so the area is $64$.",
+    "complexity_factor": 1.12,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "area"
+    ],
+    "checksum": "sha256-23101e160c5018172a0b6706c976b8e65f90b58f2c2a2c481aad8d80f069a83a",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.medium.0049",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the distance from $(6, -10)$ to the $x$-axis?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$-10$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$11$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Distance to the $x$-axis is $|y|$, so the distance is $|-10|=10$.",
+    "complexity_factor": 1.05,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "distance"
+    ],
+    "checksum": "sha256-30713676a47c5febecf73c17ecf3bcb475bd113e699ada39e44991487e1f4e62",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.medium.0050",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Reflect $(7, -8)$ across the origin, then move $2$ units right and $3$ units down. What point results?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-5, 5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-5, -5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(5, 5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(5, -5)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-5,5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Reflecting across the origin gives $(-7, 8)$. Moving gives $(-7+2, 8-3)=(-5, 5)$.",
+    "complexity_factor": 1.14,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "reflection",
+      "translation"
+    ],
+    "checksum": "sha256-f93a94e4f4b707eac0104c1708d090de30c190aff77f9b30e15af55c44a8e3b2",
+    "status": "valid"
+  }
+]

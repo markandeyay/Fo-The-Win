@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "ch16.composition.easy.0001",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=2x - 6$ and $g(x)=5x - 5$. Find $f(g(-3))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-46$"
+      },
+      {
+        "id": "b",
+        "latex": "$-65$"
+      },
+      {
+        "id": "c",
+        "latex": "$-32$"
+      },
+      {
+        "id": "d",
+        "latex": "$-12$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-46",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-3)=-20$. Then $f(-20)=-46$.",
+    "complexity_factor": 1.1,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-2d6cbc30669d63134010458ada0ba94316c0fdae738b7e57acc14f7be95c6671",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.easy.0002",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=3x + 1$ and $g(x)=3x - 3$. Find $f(g(4))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$36$"
+      },
+      {
+        "id": "b",
+        "latex": "$22$"
+      },
+      {
+        "id": "c",
+        "latex": "$13$"
+      },
+      {
+        "id": "d",
+        "latex": "$28$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "28",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(4)=9$. Then $f(9)=28$.",
+    "complexity_factor": 1.1,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-434da10a42bceb198b822639de6a783dd57a22eb9252fce3c2e4ef8ee5d9446f",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.easy.0003",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=4x + 7$ and $g(x)=-2x + 5$. Find $f(g(4))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$20$"
+      },
+      {
+        "id": "b",
+        "latex": "$23$"
+      },
+      {
+        "id": "c",
+        "latex": "$-5$"
+      },
+      {
+        "id": "d",
+        "latex": "$-41$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(4)=-3$. Then $f(-3)=-5$.",
+    "complexity_factor": 1.1,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-f206207910df0c93e86006d253a8caf021c4853f9e2d2fa6998da4545de1aadf",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.easy.0004",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=-2x - 4$ and $g(x)=4x + 9$. Find $f(g(4))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-12$"
+      },
+      {
+        "id": "b",
+        "latex": "$-54$"
+      },
+      {
+        "id": "c",
+        "latex": "$-39$"
+      },
+      {
+        "id": "d",
+        "latex": "$13$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-54",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(4)=25$. Then $f(25)=-54$.",
+    "complexity_factor": 1.1,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-5ae6102d879f4998dea4de11394fc3e9f964a5aa105d5ceae614ceba278b9235",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.easy.0005",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=-3x + 5$ and $g(x)=-4x - 10$. Find $f(g(4))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$83$"
+      },
+      {
+        "id": "b",
+        "latex": "$18$"
+      },
+      {
+        "id": "c",
+        "latex": "$-33$"
+      },
+      {
+        "id": "d",
+        "latex": "$-7$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "83",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(4)=-26$. Then $f(-26)=83$.",
+    "complexity_factor": 1.1,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-b43b59036cbb4fa54abf045ca9020e90f7a9b6431737f3fea5055b20dc24f349",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.easy.0006",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=3x - 8$ and $g(x)=8x - 8$. Find $f(g(4))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$24$"
+      },
+      {
+        "id": "b",
+        "latex": "$28$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$64$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "64",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(4)=24$. Then $f(24)=64$.",
+    "complexity_factor": 1.1,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-f3d03a77d0912ab0c079b772a9266c2c0331d90e9da5ff3913c0df8fb0769d78",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.easy.0007",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=4x + 3$ and $g(x)=6x + 10$. Find $f(g(-6))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-47$"
+      },
+      {
+        "id": "b",
+        "latex": "$-21$"
+      },
+      {
+        "id": "c",
+        "latex": "$-101$"
+      },
+      {
+        "id": "d",
+        "latex": "$-116$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-101",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-6)=-26$. Then $f(-26)=-101$.",
+    "complexity_factor": 1.1,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-6e428e2563c74b3469b5482646c7e0c6602863d4092df5693cd4824c01270a11",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.easy.0008",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=5x + 9$ and $g(x)=-5x + 14$. Find $f(g(-8))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-31$"
+      },
+      {
+        "id": "b",
+        "latex": "$279$"
+      },
+      {
+        "id": "c",
+        "latex": "$169$"
+      },
+      {
+        "id": "d",
+        "latex": "$23$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "279",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-8)=54$. Then $f(54)=279$.",
+    "complexity_factor": 1.1,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-5208fc2fa61c51ac54a62f675b958405dededa3a6d0c8631999ca7dfbb62222e",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.easy.0009",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=-3x - 6$ and $g(x)=7x - 15$. Find $f(g(-10))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$249$"
+      },
+      {
+        "id": "b",
+        "latex": "$153$"
+      },
+      {
+        "id": "c",
+        "latex": "$-61$"
+      },
+      {
+        "id": "d",
+        "latex": "$24$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "249",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-10)=-85$. Then $f(-85)=249$.",
+    "complexity_factor": 1.1,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-2dea12e4897bc48c08dbaab871c9bf0224b418df6616399f99d16ee783fe197c",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.easy.0010",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=-4x + 7$ and $g(x)=-7x - 13$. Find $f(g(11))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$246$"
+      },
+      {
+        "id": "b",
+        "latex": "$-127$"
+      },
+      {
+        "id": "c",
+        "latex": "$-37$"
+      },
+      {
+        "id": "d",
+        "latex": "$367$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "367",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(11)=-90$. Then $f(-90)=367$.",
+    "complexity_factor": 1.1,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-bcf156c1588c007867cf8d04e40aea8bb5e6e57612118174eca9fc5b770e5eb2",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.easy.0011",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=4x - 10$ and $g(x)=11x + 15$. Find $f(g(11))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$170$"
+      },
+      {
+        "id": "b",
+        "latex": "$34$"
+      },
+      {
+        "id": "c",
+        "latex": "$534$"
+      },
+      {
+        "id": "d",
+        "latex": "$389$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "534",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(11)=136$. Then $f(136)=534$.",
+    "complexity_factor": 1.1,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-743d8d788cfc2cde69f54a4a72f17ff62284a7d05eab5f94477117bc8ccfb0ff",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.easy.0012",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=5x + 5$ and $g(x)=9x + 19$. Find $f(g(11))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$60$"
+      },
+      {
+        "id": "b",
+        "latex": "$595$"
+      },
+      {
+        "id": "c",
+        "latex": "$559$"
+      },
+      {
+        "id": "d",
+        "latex": "$178$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "595",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(11)=118$. Then $f(118)=595$.",
+    "complexity_factor": 1.1,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-ee427339b1e8e40e819142758c9ebc9f8d5105ae8b6b3ba6c3db863f101c790f",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.easy.0013",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=6x + 11$ and $g(x)=-8x - 20$. Find $f(g(11))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-637$"
+      },
+      {
+        "id": "b",
+        "latex": "$-636$"
+      },
+      {
+        "id": "c",
+        "latex": "$-31$"
+      },
+      {
+        "id": "d",
+        "latex": "$77$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-637",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(11)=-108$. Then $f(-108)=-637$.",
+    "complexity_factor": 1.1,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-033590e11cdb1f292e37ad1c82144e1295c46b7143102d1c21e8214f0361c9b9",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.easy.0014",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=-4x - 8$ and $g(x)=10x - 18$. Find $f(g(11))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-538$"
+      },
+      {
+        "id": "b",
+        "latex": "$40$"
+      },
+      {
+        "id": "c",
+        "latex": "$-52$"
+      },
+      {
+        "id": "d",
+        "latex": "$-376$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-376",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(11)=92$. Then $f(92)=-376$.",
+    "complexity_factor": 1.1,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-fbc499ddb038052c7834bf28948aa7fcea5353f37173e9757515b53cb3854395",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.easy.0015",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=-5x + 9$ and $g(x)=-10x + 20$. Find $f(g(-13))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$224$"
+      },
+      {
+        "id": "b",
+        "latex": "$74$"
+      },
+      {
+        "id": "c",
+        "latex": "$-741$"
+      },
+      {
+        "id": "d",
+        "latex": "$-720$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-741",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-13)=150$. Then $f(150)=-741$.",
+    "complexity_factor": 1.1,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-727c8ba5993f13a851b6b4b6de6f4c013664e1cd4bcb166cbdfe8a9621235e34",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.easy.0016",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=5x - 12$ and $g(x)=14x + 24$. Find $f(g(-15))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-87$"
+      },
+      {
+        "id": "b",
+        "latex": "$-942$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1194$"
+      },
+      {
+        "id": "d",
+        "latex": "$-273$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-942",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-15)=-186$. Then $f(-186)=-942$.",
+    "complexity_factor": 1.1,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-e6f204a97309361c73608bda0eef1b2876156245ffe10b5658dde9dd55d09f34",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.easy.0017",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=6x + 7$ and $g(x)=12x - 25$. Find $f(g(-17))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1367$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1165$"
+      },
+      {
+        "id": "c",
+        "latex": "$-324$"
+      },
+      {
+        "id": "d",
+        "latex": "$-95$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-1367",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-17)=-229$. Then $f(-229)=-1367$.",
+    "complexity_factor": 1.1,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-90666d861811b842ea026b172207374f0a5e45caa170d99afa8b7b40b5bd82bc",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.easy.0018",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=7x + 13$ and $g(x)=-11x - 23$. Find $f(g(18))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1552$"
+      },
+      {
+        "id": "b",
+        "latex": "$-82$"
+      },
+      {
+        "id": "c",
+        "latex": "$139$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1534$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-1534",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(18)=-221$. Then $f(-221)=-1534$.",
+    "complexity_factor": 1.1,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-6a00da240e69a103b55d5ec0a155369551562ef5b2ec023e997e32834c872dc5",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.easy.0019",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=-5x - 10$ and $g(x)=13x + 25$. Find $f(g(18))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$159$"
+      },
+      {
+        "id": "b",
+        "latex": "$-100$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1305$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1275$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-1305",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(18)=259$. Then $f(259)=-1305$.",
+    "complexity_factor": 1.1,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-427dc1147843397d8f063d37442cd5bbc3a1103ed00b398333cc93a683dc277d",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.easy.0020",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=-6x + 11$ and $g(x)=-13x + 29$. Find $f(g(18))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-97$"
+      },
+      {
+        "id": "b",
+        "latex": "$1241$"
+      },
+      {
+        "id": "c",
+        "latex": "$1290$"
+      },
+      {
+        "id": "d",
+        "latex": "$-302$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1241",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(18)=-205$. Then $f(-205)=1241$.",
+    "complexity_factor": 1.1,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-dbd67c0f9150bfcb6c8bebc5eb4103a785838b2e5aeac59660eddcfafce39a0a",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.easy.0021",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=6x - 14$ and $g(x)=17x - 30$. Find $f(g(18))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1642$"
+      },
+      {
+        "id": "b",
+        "latex": "$1568$"
+      },
+      {
+        "id": "c",
+        "latex": "$370$"
+      },
+      {
+        "id": "d",
+        "latex": "$94$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1642",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(18)=276$. Then $f(276)=1642$.",
+    "complexity_factor": 1.1,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-178112256bf6baa48819d6755aad60a13d22c99e622e64d513c46f781c751e4f",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.easy.0022",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=7x + 9$ and $g(x)=15x - 28$. Find $f(g(18))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1997$"
+      },
+      {
+        "id": "b",
+        "latex": "$377$"
+      },
+      {
+        "id": "c",
+        "latex": "$135$"
+      },
+      {
+        "id": "d",
+        "latex": "$1703$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1703",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(18)=242$. Then $f(242)=1703$.",
+    "complexity_factor": 1.1,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-6081286bbd45faf829e7ebac91af981a3c4bfe0019dc44f4cf79cbe2fe953e90",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.easy.0023",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=8x + 15$ and $g(x)=-14x + 30$. Find $f(g(-20))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$165$"
+      },
+      {
+        "id": "b",
+        "latex": "$-145$"
+      },
+      {
+        "id": "c",
+        "latex": "$2495$"
+      },
+      {
+        "id": "d",
+        "latex": "$2060$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "2495",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-20)=310$. Then $f(310)=2495$.",
+    "complexity_factor": 1.1,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-83a81ada29801fe0d3a704f749a6a23a636f42711a6deead9e610d38bceb140e",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.easy.0024",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=-6x - 12$ and $g(x)=16x + 34$. Find $f(g(-22))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$120$"
+      },
+      {
+        "id": "b",
+        "latex": "$1896$"
+      },
+      {
+        "id": "c",
+        "latex": "$1954$"
+      },
+      {
+        "id": "d",
+        "latex": "$-198$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1896",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-22)=-318$. Then $f(-318)=1896$.",
+    "complexity_factor": 1.1,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-ef9777bcb43a83642f583e848ee4ff7c1397e0e9f9a45846d820aa1ac7a845d6",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.easy.0025",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=-7x + 13$ and $g(x)=-16x - 35$. Find $f(g(-24))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2430$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2931$"
+      },
+      {
+        "id": "c",
+        "latex": "$530$"
+      },
+      {
+        "id": "d",
+        "latex": "$181$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-2430",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-24)=349$. Then $f(349)=-2430$.",
+    "complexity_factor": 1.1,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-5473ae0ec8ce4f881a5d479ee3dcc1798dbdff11d81bca8a72a240ce68a1616b",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.easy.0026",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=7x - 16$ and $g(x)=20x - 33$. Find $f(g(25))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3147$"
+      },
+      {
+        "id": "b",
+        "latex": "$626$"
+      },
+      {
+        "id": "c",
+        "latex": "$159$"
+      },
+      {
+        "id": "d",
+        "latex": "$3253$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "3253",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(25)=467$. Then $f(467)=3253$.",
+    "complexity_factor": 1.1,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-6f6ef3aad43bae1fb277f5f97ee1f69ec42bdaaac894d9c9c797d812ea63828c",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.easy.0027",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=8x + 11$ and $g(x)=18x + 35$. Find $f(g(25))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$696$"
+      },
+      {
+        "id": "b",
+        "latex": "$211$"
+      },
+      {
+        "id": "c",
+        "latex": "$3891$"
+      },
+      {
+        "id": "d",
+        "latex": "$3833$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3891",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(25)=485$. Then $f(485)=3891$.",
+    "complexity_factor": 1.1,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-bfc525834fbd89fa108116d1badadbf3189ec366e3ec26f1d5b31aabdd9ced5c",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.easy.0028",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=9x + 17$ and $g(x)=-17x + 39$. Find $f(g(25))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$242$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3457$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4075$"
+      },
+      {
+        "id": "d",
+        "latex": "$-144$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-3457",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(25)=-386$. Then $f(-386)=-3457$.",
+    "complexity_factor": 1.1,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-dca0932aa51dd06b328d3757ea2b7ca092d78173790664f10b6afe8b51594ac7",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.easy.0029",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=-7x - 14$ and $g(x)=19x - 40$. Find $f(g(25))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3059$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3631$"
+      },
+      {
+        "id": "c",
+        "latex": "$246$"
+      },
+      {
+        "id": "d",
+        "latex": "$-189$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-3059",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(25)=435$. Then $f(435)=-3059$.",
+    "complexity_factor": 1.1,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-f433d4cc4a2156bf9b375f5782eda5701330aa8941626eb74bd4c0761666070a",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.easy.0030",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=-8x + 15$ and $g(x)=-19x - 38$. Find $f(g(25))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3477$"
+      },
+      {
+        "id": "b",
+        "latex": "$-698$"
+      },
+      {
+        "id": "c",
+        "latex": "$-185$"
+      },
+      {
+        "id": "d",
+        "latex": "$4119$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "4119",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(25)=-513$. Then $f(-513)=4119$.",
+    "complexity_factor": 1.1,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-cc10c89ac89dcad0149685d71f1aac3c6773109e6c719faade08c6c59fa97219",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.easy.0031",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=8x - 18$ and $g(x)=23x + 40$. Find $f(g(-27))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-815$"
+      },
+      {
+        "id": "b",
+        "latex": "$-234$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4666$"
+      },
+      {
+        "id": "d",
+        "latex": "$-5342$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-4666",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-27)=-581$. Then $f(-581)=-4666$.",
+    "complexity_factor": 1.1,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-ce257923aaf1ce6f288fda3fde4996eb76b90b619ed52e319f577cc6e8cb25d1",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.easy.0032",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=9x + 13$ and $g(x)=21x + 44$. Find $f(g(-29))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-248$"
+      },
+      {
+        "id": "b",
+        "latex": "$-5072$"
+      },
+      {
+        "id": "c",
+        "latex": "$-5164$"
+      },
+      {
+        "id": "d",
+        "latex": "$-813$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-5072",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-29)=-565$. Then $f(-565)=-5072$.",
+    "complexity_factor": 1.1,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-55039f2939f2177426557e37381924be0a135b0ba1a9bb06a8d7a063869be846",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.easy.0033",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=10x + 19$ and $g(x)=-20x - 45$. Find $f(g(-31))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5769$"
+      },
+      {
+        "id": "b",
+        "latex": "$5775$"
+      },
+      {
+        "id": "c",
+        "latex": "$284$"
+      },
+      {
+        "id": "d",
+        "latex": "$-291$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "5769",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-31)=575$. Then $f(575)=5769$.",
+    "complexity_factor": 1.1,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-c28698fc35680f550df23fa392ecbc0599ea7604faf38ecbc74fd381416d184a",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.easy.0034",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=-8x - 16$ and $g(x)=22x - 43$. Find $f(g(32))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-6027$"
+      },
+      {
+        "id": "b",
+        "latex": "$389$"
+      },
+      {
+        "id": "c",
+        "latex": "$-272$"
+      },
+      {
+        "id": "d",
+        "latex": "$-5304$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-5304",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(32)=661$. Then $f(661)=-5304$.",
+    "complexity_factor": 1.1,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-1083eab70d92679985513230515f2047d63e3ad432fc13b8b542b2fa3d544a99",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.easy.0035",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=-9x + 17$ and $g(x)=-22x + 45$. Find $f(g(32))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-930$"
+      },
+      {
+        "id": "b",
+        "latex": "$-271$"
+      },
+      {
+        "id": "c",
+        "latex": "$5948$"
+      },
+      {
+        "id": "d",
+        "latex": "$6007$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "5948",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(32)=-659$. Then $f(-659)=5948$.",
+    "complexity_factor": 1.1,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-dc7ec544b900fa15cdbab8fe0207d3a1df7a9ef34a7de04c0c15dae8502f53e7",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.easy.0036",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=9x - 20$ and $g(x)=26x + 49$. Find $f(g(32))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$268$"
+      },
+      {
+        "id": "b",
+        "latex": "$7909$"
+      },
+      {
+        "id": "c",
+        "latex": "$7017$"
+      },
+      {
+        "id": "d",
+        "latex": "$1149$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "7909",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(32)=881$. Then $f(881)=7909$.",
+    "complexity_factor": 1.1,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-a0509b3fa2c0f89805623aec772663aef30ec743485f322e6d944f6611f8aa0a",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.easy.0037",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=10x + 15$ and $g(x)=24x - 50$. Find $f(g(32))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7195$"
+      },
+      {
+        "id": "b",
+        "latex": "$7990$"
+      },
+      {
+        "id": "c",
+        "latex": "$1053$"
+      },
+      {
+        "id": "d",
+        "latex": "$335$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "7195",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(32)=718$. Then $f(718)=7195$.",
+    "complexity_factor": 1.1,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-4906db6360d797566e7bf61f1d5256fc84709932787d4401cc1c38bddd0f1403",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.easy.0038",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=11x + 21$ and $g(x)=-23x - 48$. Find $f(g(32))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-8627$"
+      },
+      {
+        "id": "b",
+        "latex": "$-411$"
+      },
+      {
+        "id": "c",
+        "latex": "$373$"
+      },
+      {
+        "id": "d",
+        "latex": "$-8603$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-8603",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(32)=-784$. Then $f(-784)=-8603$.",
+    "complexity_factor": 1.1,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-d2bdb026955ca8fd38fb0f705f9fecc5a33bb6ba8e40c38d2d348f0d2cb82384",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.easy.0039",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=-9x - 18$ and $g(x)=25x + 50$. Find $f(g(-34))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-512$"
+      },
+      {
+        "id": "b",
+        "latex": "$288$"
+      },
+      {
+        "id": "c",
+        "latex": "$7182$"
+      },
+      {
+        "id": "d",
+        "latex": "$7250$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "7182",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-34)=-800$. Then $f(-800)=7182$.",
+    "complexity_factor": 1.1,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-c51246d12075ae49d5f1ce9ce0ed4bd0db7adca0649af47f3de99678696895df",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.easy.0040",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=-10x + 19$ and $g(x)=-25x + 54$. Find $f(g(-36))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$379$"
+      },
+      {
+        "id": "b",
+        "latex": "$-9521$"
+      },
+      {
+        "id": "c",
+        "latex": "$-9421$"
+      },
+      {
+        "id": "d",
+        "latex": "$1333$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-9521",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-36)=954$. Then $f(954)=-9521$.",
+    "complexity_factor": 1.1,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-7e330b0b127bc18419dab7c5d595a1eb14bfaa6975766c2506484093dc84180f",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.easy.0041",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=10x - 22$ and $g(x)=29x - 55$. Find $f(g(-38))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-11592$"
+      },
+      {
+        "id": "b",
+        "latex": "$-11713$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1559$"
+      },
+      {
+        "id": "d",
+        "latex": "$-402$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-11592",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-38)=-1157$. Then $f(-1157)=-11592$.",
+    "complexity_factor": 1.1,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-7e63314f1bf3c1bb127e9593447dca587e058f3c43b8c5adc561c3336de0d5fc",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.easy.0042",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=11x + 17$ and $g(x)=27x - 53$. Find $f(g(39))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11989$"
+      },
+      {
+        "id": "b",
+        "latex": "$1446$"
+      },
+      {
+        "id": "c",
+        "latex": "$446$"
+      },
+      {
+        "id": "d",
+        "latex": "$11017$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "11017",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(39)=1000$. Then $f(1000)=11017$.",
+    "complexity_factor": 1.1,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-33aff173177d079a8593e7a8499ec49d455c08c55f4da7524c418641324a34b8",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.easy.0043",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=12x + 23$ and $g(x)=-26x + 55$. Find $f(g(39))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-468$"
+      },
+      {
+        "id": "b",
+        "latex": "$491$"
+      },
+      {
+        "id": "c",
+        "latex": "$-11485$"
+      },
+      {
+        "id": "d",
+        "latex": "$-12711$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-11485",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(39)=-959$. Then $f(-959)=-11485$.",
+    "complexity_factor": 1.1,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-d68e399489ff29a453c8afbf104ed98fa8a6d5c0a036e99852e820343ec0701b",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.easy.0044",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=-10x - 20$ and $g(x)=28x + 59$. Find $f(g(39))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-410$"
+      },
+      {
+        "id": "b",
+        "latex": "$-11530$"
+      },
+      {
+        "id": "c",
+        "latex": "$-11421$"
+      },
+      {
+        "id": "d",
+        "latex": "$741$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-11530",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(39)=1151$. Then $f(1151)=-11530$.",
+    "complexity_factor": 1.1,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-550b4894867e70cf0642d5000272ca9641232d636569b4550b1fdd047139f629",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.easy.0045",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=-11x + 21$ and $g(x)=-28x - 60$. Find $f(g(39))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12693$"
+      },
+      {
+        "id": "b",
+        "latex": "$11364$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1560$"
+      },
+      {
+        "id": "d",
+        "latex": "$-408$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "12693",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(39)=-1152$. Then $f(-1152)=12693$.",
+    "complexity_factor": 1.1,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-a8cfe86ef7bcfc67b83b3d7a9b5e085c81e88ddddf67046f90b4371aac97cefe",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.easy.0046",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=11x - 24$ and $g(x)=32x - 58$. Find $f(g(39))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12902$"
+      },
+      {
+        "id": "b",
+        "latex": "$1595$"
+      },
+      {
+        "id": "c",
+        "latex": "$405$"
+      },
+      {
+        "id": "d",
+        "latex": "$13066$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "13066",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(39)=1190$. Then $f(1190)=13066$.",
+    "complexity_factor": 1.1,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-1ea8b784ad6b7b9d60ac4fc18afeeb21aab7a9026cf2031c6eb4ef2f69fb1de1",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.easy.0047",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=12x + 19$ and $g(x)=30x + 60$. Find $f(g(-41))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1643$"
+      },
+      {
+        "id": "b",
+        "latex": "$-473$"
+      },
+      {
+        "id": "c",
+        "latex": "$-14021$"
+      },
+      {
+        "id": "d",
+        "latex": "$-14130$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-14021",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-41)=-1170$. Then $f(-1170)=-14021$.",
+    "complexity_factor": 1.1,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-caeda624a6f7527080c242c88f2fa5f649a07f6811f3439574f11a20669d7c2f",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.easy.0048",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=13x + 25$ and $g(x)=-29x + 64$. Find $f(g(-43))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-534$"
+      },
+      {
+        "id": "b",
+        "latex": "$17068$"
+      },
+      {
+        "id": "c",
+        "latex": "$15550$"
+      },
+      {
+        "id": "d",
+        "latex": "$777$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "17068",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-43)=1311$. Then $f(1311)=17068$.",
+    "complexity_factor": 1.1,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-28ccb704870efa207fc86d08e0db01f7ebe6d706abac0df2ff0e69217798dc17",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.easy.0049",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=-11x - 22$ and $g(x)=31x - 65$. Find $f(g(-45))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16038$"
+      },
+      {
+        "id": "b",
+        "latex": "$14598$"
+      },
+      {
+        "id": "c",
+        "latex": "$-987$"
+      },
+      {
+        "id": "d",
+        "latex": "$473$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "16038",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(-45)=-1460$. Then $f(-1460)=16038$.",
+    "complexity_factor": 1.1,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-a149cad9faab6991bef1d33ff7d5ad0879069a7d1eaaa6f11fce924eb72da6e7",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.easy.0050",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=-12x + 23$ and $g(x)=-31x - 63$. Find $f(g(46))$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16336$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2018$"
+      },
+      {
+        "id": "c",
+        "latex": "$-529$"
+      },
+      {
+        "id": "d",
+        "latex": "$17891$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "17891",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "First $g(46)=-1489$. Then $f(-1489)=17891$.",
+    "complexity_factor": 1.1,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "evaluation"
+    ],
+    "checksum": "sha256-3a28d07907e221a01e9cf52bf51690c7c9393262e3fa0d764dd7ea7c1dc48a35",
+    "status": "valid"
+  }
+]

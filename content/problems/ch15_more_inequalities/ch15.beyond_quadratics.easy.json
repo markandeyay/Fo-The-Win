@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "ch15.beyond_quadratics.easy.0001",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+7)(x+6)(x-7) < 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7)\\cup(-6,7)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-7,-6)\\cup(7,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-7]\\cup[-6,7]$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-7,7)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-\\infty,-7)\\cup(-6,7)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The simple zeros are $-7, -6, 7$, and the sign alternates on the number line. This gives $(-\\infty,-7)\\cup(-6,7)$.",
+    "complexity_factor": 1.15,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-3fc466465ce892bd54d8d55b3f9f6dd8ebe24194fd438eb34948c7b04ecd7156",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.easy.0002",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+7)(x+5)(x+3) \\ge 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7]\\cup[-5,-3]$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-7,-5)\\cup(-3,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$[-7,-3]$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,-5]\\cup[-3,\\infty)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "[-7,-5]\\cup[-3,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The simple zeros are $-7, -5, -3$, and the sign alternates on the number line. This gives $[-7,-5]\\cup[-3,\\infty)$.",
+    "complexity_factor": 1.15,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-ad1cbad8af4c100cdb7fd6f0913abdc8f41db0e577085a2d2042d59bdd156b01",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.easy.0003",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+7)(x+5)(x+1) \\le 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7]\\cup[-5,-1]$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-\\infty,-7)\\cup(-5,-1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$[-7,-1]$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,-5]\\cup[-1,\\infty)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-\\infty,-7]\\cup[-5,-1]",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The simple zeros are $-7, -5, -1$, and the sign alternates on the number line. This gives $(-\\infty,-7]\\cup[-5,-1]$.",
+    "complexity_factor": 1.15,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-f16438f17fadc9b017afb2796d01319e5f1b2c8ae1107a316d9066d0e3c1fcbe",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.easy.0004",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+7)(x+5)(x-2) > 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7)\\cup(-5,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-7,-5)\\cup(2,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-7,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,-5]\\cup[2,\\infty)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-7,-5)\\cup(2,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The simple zeros are $-7, -5, 2$, and the sign alternates on the number line. This gives $(-7,-5)\\cup(2,\\infty)$.",
+    "complexity_factor": 1.15,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-e334e0943fad91c7574dea96179cd2a9f00d61e0f80e86341c0413578bea0162",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.easy.0005",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+7)(x+5)(x-4) < 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7]\\cup[-5,4]$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-7,-5)\\cup(4,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-7)\\cup(-5,4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-7,4)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-\\infty,-7)\\cup(-5,4)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The simple zeros are $-7, -5, 4$, and the sign alternates on the number line. This gives $(-\\infty,-7)\\cup(-5,4)$.",
+    "complexity_factor": 1.15,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-54476e62a90ea55ccb4bdc7f0fb1f6eafc677bdc1978c6b711ee57d3ed49738a",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.easy.0006",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+7)(x+5)(x-6) \\ge 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-7,-5)\\cup(6,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$[-7,6]$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-7]\\cup[-5,6]$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,-5]\\cup[6,\\infty)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "[-7,-5]\\cup[6,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The simple zeros are $-7, -5, 6$, and the sign alternates on the number line. This gives $[-7,-5]\\cup[6,\\infty)$.",
+    "complexity_factor": 1.15,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-5bd036373296bcf65109efa128af5010e6ee9bceebfc430f0e7a1cc26db97a1a",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.easy.0007",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+7)(x+4)(x+3) \\le 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7]\\cup[-4,-3]$"
+      },
+      {
+        "id": "b",
+        "latex": "$[-7,-3]$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-7)\\cup(-4,-3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,-4]\\cup[-3,\\infty)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-\\infty,-7]\\cup[-4,-3]",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The simple zeros are $-7, -4, -3$, and the sign alternates on the number line. This gives $(-\\infty,-7]\\cup[-4,-3]$.",
+    "complexity_factor": 1.15,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-4e80f82235b4d4defa24ab8c614e251e854400c725ab4bffc50a97506945df02",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.easy.0008",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+7)(x+4)(x+1) > 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7)\\cup(-4,-1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-7,-1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-7,-4)\\cup(-1,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,-4]\\cup[-1,\\infty)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-7,-4)\\cup(-1,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The simple zeros are $-7, -4, -1$, and the sign alternates on the number line. This gives $(-7,-4)\\cup(-1,\\infty)$.",
+    "complexity_factor": 1.15,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-81364b66fbed2f88586779e65541a10591fbe3b192d8f1b1e9a438210913b61c",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.easy.0009",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+7)(x+4)(x-2) < 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7)\\cup(-4,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-\\infty,-7]\\cup[-4,2]$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-7,-4)\\cup(2,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-7,2)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-\\infty,-7)\\cup(-4,2)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The simple zeros are $-7, -4, 2$, and the sign alternates on the number line. This gives $(-\\infty,-7)\\cup(-4,2)$.",
+    "complexity_factor": 1.15,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-6b44c62ed1f6f0460ba9a6d94c5ae209b9b6bda737ff0ba9b6b2f3359bdfea15",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.easy.0010",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+7)(x+4)(x-4) \\ge 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7]\\cup[-4,4]$"
+      },
+      {
+        "id": "b",
+        "latex": "$[-7,4]$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-7,-4)\\cup(4,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,-4]\\cup[4,\\infty)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "[-7,-4]\\cup[4,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The simple zeros are $-7, -4, 4$, and the sign alternates on the number line. This gives $[-7,-4]\\cup[4,\\infty)$.",
+    "complexity_factor": 1.15,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-72b33374e5ddb03b03e9fda743b411370bab66c96a12b7ce9ce1d561102930ca",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.easy.0011",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+7)(x+4)(x-6) \\le 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7)\\cup(-4,6)$"
+      },
+      {
+        "id": "b",
+        "latex": "$[-7,6]$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-7]\\cup[-4,6]$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,-4]\\cup[6,\\infty)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-\\infty,-7]\\cup[-4,6]",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The simple zeros are $-7, -4, 6$, and the sign alternates on the number line. This gives $(-\\infty,-7]\\cup[-4,6]$.",
+    "complexity_factor": 1.15,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-67bdb1274b10b36098bfa8eb5e514d62ed98f4cf9bff418a917f9c8d5b60bf82",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.easy.0012",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+7)(x+3)(x+2) > 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-7,-2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-7,-3)\\cup(-2,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-7)\\cup(-3,-2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,-3]\\cup[-2,\\infty)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-7,-3)\\cup(-2,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The simple zeros are $-7, -3, -2$, and the sign alternates on the number line. This gives $(-7,-3)\\cup(-2,\\infty)$.",
+    "complexity_factor": 1.15,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-e8f071d675565205b5da2d5aec483618fda547734e7597935c22e91a7fc7e7fc",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.easy.0013",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+7)(x+3)(x-1) < 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7)\\cup(-3,1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-7,-3)\\cup(1,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-7]\\cup[-3,1]$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-7,1)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-\\infty,-7)\\cup(-3,1)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The simple zeros are $-7, -3, 1$, and the sign alternates on the number line. This gives $(-\\infty,-7)\\cup(-3,1)$.",
+    "complexity_factor": 1.15,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-e01a37db53442e5f6c149209b27da1c8de179384d430032acf2f09fc1c3cba35",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.easy.0014",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+7)(x+3)(x-3) \\ge 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7]\\cup[-3,3]$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-7,-3)\\cup(3,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$[-7,3]$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,-3]\\cup[3,\\infty)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "[-7,-3]\\cup[3,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The simple zeros are $-7, -3, 3$, and the sign alternates on the number line. This gives $[-7,-3]\\cup[3,\\infty)$.",
+    "complexity_factor": 1.15,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-2df8232566e8c4dacd90c377c42d216163a60d217d71cb953e57a2a18294d597",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.easy.0015",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+7)(x+3)(x-5) \\le 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7]\\cup[-3,5]$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-\\infty,-7)\\cup(-3,5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$[-7,5]$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,-3]\\cup[5,\\infty)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-\\infty,-7]\\cup[-3,5]",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The simple zeros are $-7, -3, 5$, and the sign alternates on the number line. This gives $(-\\infty,-7]\\cup[-3,5]$.",
+    "complexity_factor": 1.15,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-0f3afadd61cbbbe117529a6b520233b3aec68f0fc78058acb740b0409cb6b33c",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.easy.0016",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+7)(x+3)(x-7) > 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7)\\cup(-3,7)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-7,-3)\\cup(7,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-7,7)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,-3]\\cup[7,\\infty)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-7,-3)\\cup(7,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The simple zeros are $-7, -3, 7$, and the sign alternates on the number line. This gives $(-7,-3)\\cup(7,\\infty)$.",
+    "complexity_factor": 1.15,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-de47872aa5ef644b4a049255126ad63f470483073692250d56701d58d507aca6",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.easy.0017",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+7)(x+2)(x-1) < 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7]\\cup[-2,1]$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-7,-2)\\cup(1,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-7)\\cup(-2,1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-7,1)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-\\infty,-7)\\cup(-2,1)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The simple zeros are $-7, -2, 1$, and the sign alternates on the number line. This gives $(-\\infty,-7)\\cup(-2,1)$.",
+    "complexity_factor": 1.15,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-63398c7310c01e165d8e1e05cb12c45f612be6a0f5145b33476f08d03d336336",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.easy.0018",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+7)(x+2)(x-3) \\ge 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-7,-2)\\cup(3,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$[-7,3]$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-7]\\cup[-2,3]$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,-2]\\cup[3,\\infty)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "[-7,-2]\\cup[3,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The simple zeros are $-7, -2, 3$, and the sign alternates on the number line. This gives $[-7,-2]\\cup[3,\\infty)$.",
+    "complexity_factor": 1.15,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-4e31c34f140de94154606727134a364b558657495f7a1730b1f55212eeb104a5",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.easy.0019",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+7)(x+2)(x-5) \\le 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7]\\cup[-2,5]$"
+      },
+      {
+        "id": "b",
+        "latex": "$[-7,5]$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-7)\\cup(-2,5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,-2]\\cup[5,\\infty)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-\\infty,-7]\\cup[-2,5]",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The simple zeros are $-7, -2, 5$, and the sign alternates on the number line. This gives $(-\\infty,-7]\\cup[-2,5]$.",
+    "complexity_factor": 1.15,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-acb9e764b34aa50a3287478b4e0320ddecb3643007f5055f06b4c2a9eb0f77ec",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.easy.0020",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+7)(x+2)(x-7) > 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7)\\cup(-2,7)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-7,7)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-7,-2)\\cup(7,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,-2]\\cup[7,\\infty)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-7,-2)\\cup(7,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The simple zeros are $-7, -2, 7$, and the sign alternates on the number line. This gives $(-7,-2)\\cup(7,\\infty)$.",
+    "complexity_factor": 1.15,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-8cace4b036844fdde87ebe932b21b5879bfc66e11543f3a0fb333779605ea3ed",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.easy.0021",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+7)(x+1)(x-2) < 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7)\\cup(-1,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-\\infty,-7]\\cup[-1,2]$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-7,-1)\\cup(2,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-7,2)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-\\infty,-7)\\cup(-1,2)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The simple zeros are $-7, -1, 2$, and the sign alternates on the number line. This gives $(-\\infty,-7)\\cup(-1,2)$.",
+    "complexity_factor": 1.15,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-4a4fd48132988a8216c5d4b6085fbd8281bd796e4f75b16e70144f048fab6501",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.easy.0022",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+7)(x+1)(x-4) \\ge 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7]\\cup[-1,4]$"
+      },
+      {
+        "id": "b",
+        "latex": "$[-7,4]$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-7,-1)\\cup(4,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,-1]\\cup[4,\\infty)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "[-7,-1]\\cup[4,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The simple zeros are $-7, -1, 4$, and the sign alternates on the number line. This gives $[-7,-1]\\cup[4,\\infty)$.",
+    "complexity_factor": 1.15,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-533ca7a9550095985b693b319d4861b97996e72eacca171d9a4fc609d9134959",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.easy.0023",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+7)(x+1)(x-6) \\le 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7)\\cup(-1,6)$"
+      },
+      {
+        "id": "b",
+        "latex": "$[-7,6]$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-7]\\cup[-1,6]$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,-1]\\cup[6,\\infty)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-\\infty,-7]\\cup[-1,6]",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The simple zeros are $-7, -1, 6$, and the sign alternates on the number line. This gives $(-\\infty,-7]\\cup[-1,6]$.",
+    "complexity_factor": 1.15,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-17db201edbd96e138f89501916b7907d0033180d8a73f90a431ef7b84c4f1a31",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.easy.0024",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+7)(x-1)(x-2) > 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-7,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-7,1)\\cup(2,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-7)\\cup(1,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,1]\\cup[2,\\infty)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-7,1)\\cup(2,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The simple zeros are $-7, 1, 2$, and the sign alternates on the number line. This gives $(-7,1)\\cup(2,\\infty)$.",
+    "complexity_factor": 1.15,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-80addcaed1bedb98eed56da026d00b587780a5ddc381197a476e80a06744500b",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.easy.0025",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+7)(x-1)(x-4) < 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7)\\cup(1,4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-7,1)\\cup(4,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-7]\\cup[1,4]$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-7,4)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-\\infty,-7)\\cup(1,4)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The simple zeros are $-7, 1, 4$, and the sign alternates on the number line. This gives $(-\\infty,-7)\\cup(1,4)$.",
+    "complexity_factor": 1.15,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-061602ed3c8214a82ff199872ba3257af30d37b4fecc6276e7f8293c0ae9a67e",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.easy.0026",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+7)(x-1)(x-6) \\ge 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7]\\cup[1,6]$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-7,1)\\cup(6,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$[-7,6]$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,1]\\cup[6,\\infty)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "[-7,1]\\cup[6,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The simple zeros are $-7, 1, 6$, and the sign alternates on the number line. This gives $[-7,1]\\cup[6,\\infty)$.",
+    "complexity_factor": 1.15,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-1580f342ed49a92c89d7939706f4a24acb8d3430f1b3c3e27a20bada2a963b05",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.easy.0027",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+7)(x-2)(x-3) \\le 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7]\\cup[2,3]$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-\\infty,-7)\\cup(2,3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$[-7,3]$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,2]\\cup[3,\\infty)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-\\infty,-7]\\cup[2,3]",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The simple zeros are $-7, 2, 3$, and the sign alternates on the number line. This gives $(-\\infty,-7]\\cup[2,3]$.",
+    "complexity_factor": 1.15,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-7dd99c881800b6809d5348cccefbedb42ef2346b5d6b50e64a2e25de0b386d10",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.easy.0028",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+7)(x-2)(x-5) > 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7)\\cup(2,5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-7,2)\\cup(5,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-7,5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,2]\\cup[5,\\infty)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-7,2)\\cup(5,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The simple zeros are $-7, 2, 5$, and the sign alternates on the number line. This gives $(-7,2)\\cup(5,\\infty)$.",
+    "complexity_factor": 1.15,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-05e5b18438dbadf904431792f4aaf21dae423d7dca5e2f210586a1505c00c767",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.easy.0029",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+7)(x-2)(x-7) < 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7]\\cup[2,7]$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-7,2)\\cup(7,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-7)\\cup(2,7)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-7,7)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-\\infty,-7)\\cup(2,7)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The simple zeros are $-7, 2, 7$, and the sign alternates on the number line. This gives $(-\\infty,-7)\\cup(2,7)$.",
+    "complexity_factor": 1.15,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-4d5376e3877d84e2ecdb7a27b6764d34f3acb73258e11de23b9ec65d682eef5e",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.easy.0030",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+7)(x-3)(x-5) \\ge 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-7,3)\\cup(5,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$[-7,5]$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-7]\\cup[3,5]$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,3]\\cup[5,\\infty)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "[-7,3]\\cup[5,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The simple zeros are $-7, 3, 5$, and the sign alternates on the number line. This gives $[-7,3]\\cup[5,\\infty)$.",
+    "complexity_factor": 1.15,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-73eedc4377dce98f783b1b8b209ba0844bb0433b063c24dd848c6040b78e3fcb",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.easy.0031",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+7)(x-3)(x-7) \\le 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7]\\cup[3,7]$"
+      },
+      {
+        "id": "b",
+        "latex": "$[-7,7]$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-7)\\cup(3,7)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,3]\\cup[7,\\infty)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-\\infty,-7]\\cup[3,7]",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The simple zeros are $-7, 3, 7$, and the sign alternates on the number line. This gives $(-\\infty,-7]\\cup[3,7]$.",
+    "complexity_factor": 1.15,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-32a7fc7ab4a897f63300566a69f7b9059ada49ae89289e6a9bc918e7ea34ee96",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.easy.0032",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+7)(x-4)(x-6) > 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7)\\cup(4,6)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-7,6)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-7,4)\\cup(6,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,4]\\cup[6,\\infty)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-7,4)\\cup(6,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The simple zeros are $-7, 4, 6$, and the sign alternates on the number line. This gives $(-7,4)\\cup(6,\\infty)$.",
+    "complexity_factor": 1.15,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-04b1a1f74f7bd93c99cea5616958e37e6db17b1f856d355cafefcc95119a8b97",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.easy.0033",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+7)(x-5)(x-6) < 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7)\\cup(5,6)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-\\infty,-7]\\cup[5,6]$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-7,5)\\cup(6,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-7,6)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-\\infty,-7)\\cup(5,6)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The simple zeros are $-7, 5, 6$, and the sign alternates on the number line. This gives $(-\\infty,-7)\\cup(5,6)$.",
+    "complexity_factor": 1.15,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-9e03cd79af8d114e53fed3919468b04f76dd90a962eea33d2f9cbf3a249305c7",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.easy.0034",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+7)(x-6)(x-7) \\ge 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7]\\cup[6,7]$"
+      },
+      {
+        "id": "b",
+        "latex": "$[-7,7]$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-7,6)\\cup(7,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,6]\\cup[7,\\infty)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "[-7,6]\\cup[7,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The simple zeros are $-7, 6, 7$, and the sign alternates on the number line. This gives $[-7,6]\\cup[7,\\infty)$.",
+    "complexity_factor": 1.15,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-390d6f0648cab2893d8a44c86be1998d30afee4280efc103a518e04cfeb6fa76",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.easy.0035",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+6)(x+5)(x+3) \\le 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-6)\\cup(-5,-3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$[-6,-3]$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-6]\\cup[-5,-3]$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-6,-5]\\cup[-3,\\infty)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-\\infty,-6]\\cup[-5,-3]",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The simple zeros are $-6, -5, -3$, and the sign alternates on the number line. This gives $(-\\infty,-6]\\cup[-5,-3]$.",
+    "complexity_factor": 1.15,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-415fb6ae480ff48a3ef213eb9f368d885164277eb429be117f32ddc661c997c6",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.easy.0036",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+6)(x+5)(x+1) > 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-6,-1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-6,-5)\\cup(-1,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-6)\\cup(-5,-1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-6,-5]\\cup[-1,\\infty)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-6,-5)\\cup(-1,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The simple zeros are $-6, -5, -1$, and the sign alternates on the number line. This gives $(-6,-5)\\cup(-1,\\infty)$.",
+    "complexity_factor": 1.15,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-c1c59f02ff2335c53336f7353b365cc600da72502478c8d9b2d66b552e7b39bb",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.easy.0037",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+6)(x+5)(x-2) < 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-6)\\cup(-5,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-6,-5)\\cup(2,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-6]\\cup[-5,2]$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-6,2)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-\\infty,-6)\\cup(-5,2)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The simple zeros are $-6, -5, 2$, and the sign alternates on the number line. This gives $(-\\infty,-6)\\cup(-5,2)$.",
+    "complexity_factor": 1.15,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-d1682870e28710a33d67b1198ec3704133d0192572b3c38d6e7d065c94336723",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.easy.0038",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+6)(x+5)(x-4) \\ge 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-6]\\cup[-5,4]$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-6,-5)\\cup(4,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$[-6,4]$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-6,-5]\\cup[4,\\infty)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "[-6,-5]\\cup[4,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The simple zeros are $-6, -5, 4$, and the sign alternates on the number line. This gives $[-6,-5]\\cup[4,\\infty)$.",
+    "complexity_factor": 1.15,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-232544e1c578082b178c267c0fd1fabbe963bd536c6c60f0a53152b3cf540bfa",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.easy.0039",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+6)(x+5)(x-6) \\le 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-6]\\cup[-5,6]$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-\\infty,-6)\\cup(-5,6)$"
+      },
+      {
+        "id": "c",
+        "latex": "$[-6,6]$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-6,-5]\\cup[6,\\infty)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-\\infty,-6]\\cup[-5,6]",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The simple zeros are $-6, -5, 6$, and the sign alternates on the number line. This gives $(-\\infty,-6]\\cup[-5,6]$.",
+    "complexity_factor": 1.15,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-f22cf2fc13d7d03221df968c53001a637cccf2e84368c6b91994be37cfae41a3",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.easy.0040",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+6)(x+4)(x+3) > 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-6)\\cup(-4,-3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-6,-4)\\cup(-3,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-6,-3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-6,-4]\\cup[-3,\\infty)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-6,-4)\\cup(-3,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The simple zeros are $-6, -4, -3$, and the sign alternates on the number line. This gives $(-6,-4)\\cup(-3,\\infty)$.",
+    "complexity_factor": 1.15,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-30e56bc764392aed9deecdd0f6451b09dd60c4cf04d90a3f9f4cce6e43c01aec",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.easy.0041",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+6)(x+4)(x+1) < 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-6]\\cup[-4,-1]$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-6,-4)\\cup(-1,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-6)\\cup(-4,-1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-6,-1)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-\\infty,-6)\\cup(-4,-1)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The simple zeros are $-6, -4, -1$, and the sign alternates on the number line. This gives $(-\\infty,-6)\\cup(-4,-1)$.",
+    "complexity_factor": 1.15,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-998f10f12159cf69a15eca5039b7613a045db049bcb07b19da60a142738c28f9",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.easy.0042",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+6)(x+4)(x-2) \\ge 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-6,-4)\\cup(2,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$[-6,2]$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-6]\\cup[-4,2]$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-6,-4]\\cup[2,\\infty)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "[-6,-4]\\cup[2,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The simple zeros are $-6, -4, 2$, and the sign alternates on the number line. This gives $[-6,-4]\\cup[2,\\infty)$.",
+    "complexity_factor": 1.15,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-938cf5bf68de3c3a9a2d1aca63f6394207170bd46a2f60e71ef47c6328e9dc33",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.easy.0043",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+6)(x+4)(x-4) \\le 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-6]\\cup[-4,4]$"
+      },
+      {
+        "id": "b",
+        "latex": "$[-6,4]$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-6)\\cup(-4,4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-6,-4]\\cup[4,\\infty)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-\\infty,-6]\\cup[-4,4]",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The simple zeros are $-6, -4, 4$, and the sign alternates on the number line. This gives $(-\\infty,-6]\\cup[-4,4]$.",
+    "complexity_factor": 1.15,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-1a96d6022598a917a2f19332e24c442e38c0e44b413c5314b78ab1d27e8dc908",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.easy.0044",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+6)(x+4)(x-6) > 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-6)\\cup(-4,6)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-6,6)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-6,-4)\\cup(6,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-6,-4]\\cup[6,\\infty)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-6,-4)\\cup(6,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The simple zeros are $-6, -4, 6$, and the sign alternates on the number line. This gives $(-6,-4)\\cup(6,\\infty)$.",
+    "complexity_factor": 1.15,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-023957b6ce3a6f09b639c5930c829223c4cc4e68a11642e441630200f9c5d8b7",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.easy.0045",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+6)(x+3)(x+2) < 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-6)\\cup(-3,-2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-\\infty,-6]\\cup[-3,-2]$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-6,-3)\\cup(-2,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-6,-2)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-\\infty,-6)\\cup(-3,-2)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The simple zeros are $-6, -3, -2$, and the sign alternates on the number line. This gives $(-\\infty,-6)\\cup(-3,-2)$.",
+    "complexity_factor": 1.15,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-aa7462346287827224a62595075b17e93495af0965951e9252776e0550187711",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.easy.0046",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+6)(x+3)(x-1) \\ge 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-6]\\cup[-3,1]$"
+      },
+      {
+        "id": "b",
+        "latex": "$[-6,1]$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-6,-3)\\cup(1,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-6,-3]\\cup[1,\\infty)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "[-6,-3]\\cup[1,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The simple zeros are $-6, -3, 1$, and the sign alternates on the number line. This gives $[-6,-3]\\cup[1,\\infty)$.",
+    "complexity_factor": 1.15,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-fb515c62fe71cab8920d65e19f8941228d876f015cb4663a7c38bca321b7d169",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.easy.0047",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+6)(x+3)(x-3) \\le 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-6)\\cup(-3,3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$[-6,3]$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-6]\\cup[-3,3]$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-6,-3]\\cup[3,\\infty)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-\\infty,-6]\\cup[-3,3]",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The simple zeros are $-6, -3, 3$, and the sign alternates on the number line. This gives $(-\\infty,-6]\\cup[-3,3]$.",
+    "complexity_factor": 1.15,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-bf7074064d567072bc75f0e675402b6e79873f71b121da489d1efd5c0f913f4f",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.easy.0048",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+6)(x+3)(x-5) > 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-6,5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-6,-3)\\cup(5,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-6)\\cup(-3,5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-6,-3]\\cup[5,\\infty)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-6,-3)\\cup(5,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The simple zeros are $-6, -3, 5$, and the sign alternates on the number line. This gives $(-6,-3)\\cup(5,\\infty)$.",
+    "complexity_factor": 1.15,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-b18b2a51ef58abeb8f6a5d689d04299c56f81c89bce4a3554bffa9d3364ade8d",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.easy.0049",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+6)(x+3)(x-7) < 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-6)\\cup(-3,7)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-6,-3)\\cup(7,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-6]\\cup[-3,7]$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-6,7)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-\\infty,-6)\\cup(-3,7)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The simple zeros are $-6, -3, 7$, and the sign alternates on the number line. This gives $(-\\infty,-6)\\cup(-3,7)$.",
+    "complexity_factor": 1.15,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-70b4b8f3e5c23fc6a7487c62925ac571670c19474b739ed0a0937683abf709d5",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.easy.0050",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $(x+6)(x+2)(x-1) \\ge 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-6]\\cup[-2,1]$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-6,-2)\\cup(1,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$[-6,1]$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-6,-2]\\cup[1,\\infty)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "[-6,-2]\\cup[1,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The simple zeros are $-6, -2, 1$, and the sign alternates on the number line. This gives $[-6,-2]\\cup[1,\\infty)$.",
+    "complexity_factor": 1.15,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-f660676d5f5d14917b2703da158b81e9d86d3a93e822a66d0c37f576402edf7c",
+    "status": "valid"
+  }
+]

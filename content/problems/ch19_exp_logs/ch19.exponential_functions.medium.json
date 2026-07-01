@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "ch19.exponential_functions.medium.0001",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $1$: An exponential function has $f(0)=3$ and $f(1)=9$. If $f(x)=a\\cdot r^x$, find $f(3)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$27$"
+      },
+      {
+        "id": "b",
+        "latex": "$81$"
+      },
+      {
+        "id": "c",
+        "latex": "$30$"
+      },
+      {
+        "id": "d",
+        "latex": "$243$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "81",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The common ratio is $9/3=3$, so $f(3)=3\\cdot 3^{3}=81$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-10f55b484158048d2701b71d2b9f1f858007fa0c823dc76517034a60eae5b6f2",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.medium.0002",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $2$: For $f(x)=3\\cdot 4^{x+3}$, find $x$ when $f(x)=12288$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by $3$ to get $4^{x+3}=4096=4^{6}$, so $x=3$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-a950a01baf9b213083a7d320e4d7901db760c3504da76ad8a72177d1ebcbc302",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.medium.0003",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $3$: An exponential function has $f(0)=5$ and $f(1)=25$. If $f(x)=a\\cdot r^x$, find $f(5)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$125$"
+      },
+      {
+        "id": "b",
+        "latex": "$3130$"
+      },
+      {
+        "id": "c",
+        "latex": "$3125$"
+      },
+      {
+        "id": "d",
+        "latex": "$15625$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "15625",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The common ratio is $25/5=5$, so $f(5)=5\\cdot 5^{5}=15625$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-852bc8992847b8976153036ba93923e1d3fa2855e0ab5d0e374a58b1b5cbc348",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.medium.0004",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $4$: For $f(x)=5\\cdot 2^{x+2}$, find $x$ when $f(x)=40$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by $5$ to get $2^{x+2}=8=2^{3}$, so $x=1$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-9a6d9bc4137f46243a4ba9479fa79c7172f30749c430e0bfb2302e02292c9cb4",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.medium.0005",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $5$: An exponential function has $f(0)=7$ and $f(1)=21$. If $f(x)=a\\cdot r^x$, find $f(3)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$63$"
+      },
+      {
+        "id": "b",
+        "latex": "$189$"
+      },
+      {
+        "id": "c",
+        "latex": "$34$"
+      },
+      {
+        "id": "d",
+        "latex": "$567$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "189",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The common ratio is $21/7=3$, so $f(3)=7\\cdot 3^{3}=189$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-624564622c4bb37c0ea37060eaaf0ed9933f0a9a911e4bd861ed5e843de5a8da",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.medium.0006",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $6$: For $f(x)=1\\cdot 4^{x+1}$, find $x$ when $f(x)=256$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by $1$ to get $4^{x+1}=256=4^{4}$, so $x=3$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-90462595c24fab8517f5a68afdcfc777a27c32be1d76bd07787f2fcb6e7e8842",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.medium.0007",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $7$: An exponential function has $f(0)=9$ and $f(1)=45$. If $f(x)=a\\cdot r^x$, find $f(5)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$225$"
+      },
+      {
+        "id": "b",
+        "latex": "$3134$"
+      },
+      {
+        "id": "c",
+        "latex": "$5625$"
+      },
+      {
+        "id": "d",
+        "latex": "$28125$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "28125",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The common ratio is $45/9=5$, so $f(5)=9\\cdot 5^{5}=28125$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-9957dd8701e89c23fc57e3a8bb8978211668ee00c6d06ff99b0678d2eb3fd212",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.medium.0008",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $8$: For $f(x)=3\\cdot 2^{x+3}$, find $x$ when $f(x)=48$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by $3$ to get $2^{x+3}=16=2^{4}$, so $x=1$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-629f39fec1fcc3b72cbcbfd52589e3d015a9f803ca9850c1e1a9d2d6be7b9a2f",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.medium.0009",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $9$: An exponential function has $f(0)=3$ and $f(1)=9$. If $f(x)=a\\cdot r^x$, find $f(3)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$27$"
+      },
+      {
+        "id": "b",
+        "latex": "$81$"
+      },
+      {
+        "id": "c",
+        "latex": "$30$"
+      },
+      {
+        "id": "d",
+        "latex": "$243$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "81",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The common ratio is $9/3=3$, so $f(3)=3\\cdot 3^{3}=81$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-196b51fa65801757a5a4c86ff2d0eb3f1d3252ac24e6ae431e8ba9cc540636fa",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.medium.0010",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $10$: For $f(x)=5\\cdot 4^{x+2}$, find $x$ when $f(x)=5120$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by $5$ to get $4^{x+2}=1024=4^{5}$, so $x=3$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-506ba552e3b15a23ab9592d1af5c8c5f049397fda778634c4f256f4da4b9f0aa",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.medium.0011",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $11$: An exponential function has $f(0)=5$ and $f(1)=25$. If $f(x)=a\\cdot r^x$, find $f(5)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$125$"
+      },
+      {
+        "id": "b",
+        "latex": "$3130$"
+      },
+      {
+        "id": "c",
+        "latex": "$3125$"
+      },
+      {
+        "id": "d",
+        "latex": "$15625$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "15625",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The common ratio is $25/5=5$, so $f(5)=5\\cdot 5^{5}=15625$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-59f7f5610cab32960a4200567e9c247d1aeee9f32de06053b2baf17598ca5131",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.medium.0012",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $12$: For $f(x)=1\\cdot 2^{x+1}$, find $x$ when $f(x)=4$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by $1$ to get $2^{x+1}=4=2^{2}$, so $x=1$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-da31123a5bc53f0b0eda6506b877c733a213c50d7dd97998eb43d921200b44d8",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.medium.0013",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $13$: An exponential function has $f(0)=7$ and $f(1)=21$. If $f(x)=a\\cdot r^x$, find $f(3)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$63$"
+      },
+      {
+        "id": "b",
+        "latex": "$189$"
+      },
+      {
+        "id": "c",
+        "latex": "$34$"
+      },
+      {
+        "id": "d",
+        "latex": "$567$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "189",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The common ratio is $21/7=3$, so $f(3)=7\\cdot 3^{3}=189$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-6bc2fb16307edf12b7bb119b730e22493a6a7ce0e09c545c92ab3d8718f06f31",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.medium.0014",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $14$: For $f(x)=3\\cdot 4^{x+3}$, find $x$ when $f(x)=12288$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by $3$ to get $4^{x+3}=4096=4^{6}$, so $x=3$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-dde5bfa05a43f3ce03b03184b2a7ca74672f7f17a33245883fbeff275a8ac760",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.medium.0015",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $15$: An exponential function has $f(0)=9$ and $f(1)=45$. If $f(x)=a\\cdot r^x$, find $f(5)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$225$"
+      },
+      {
+        "id": "b",
+        "latex": "$3134$"
+      },
+      {
+        "id": "c",
+        "latex": "$5625$"
+      },
+      {
+        "id": "d",
+        "latex": "$28125$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "28125",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The common ratio is $45/9=5$, so $f(5)=9\\cdot 5^{5}=28125$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-aff70e86ebbf5923f8fe6f10852add03695cf71a2ae482937135c625d93e6b29",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.medium.0016",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $16$: For $f(x)=5\\cdot 2^{x+2}$, find $x$ when $f(x)=40$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by $5$ to get $2^{x+2}=8=2^{3}$, so $x=1$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-31bc4121d4fbe439d39e934074717b3b924c93b8f342217922348ec716622c23",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.medium.0017",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $17$: An exponential function has $f(0)=3$ and $f(1)=9$. If $f(x)=a\\cdot r^x$, find $f(3)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$27$"
+      },
+      {
+        "id": "b",
+        "latex": "$81$"
+      },
+      {
+        "id": "c",
+        "latex": "$30$"
+      },
+      {
+        "id": "d",
+        "latex": "$243$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "81",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The common ratio is $9/3=3$, so $f(3)=3\\cdot 3^{3}=81$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-5e86b2639e77881eaab204102ebdd328ee8ac0be575f15e901324f08b2fc280a",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.medium.0018",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $18$: For $f(x)=1\\cdot 4^{x+1}$, find $x$ when $f(x)=256$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by $1$ to get $4^{x+1}=256=4^{4}$, so $x=3$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-4992007793a3eef1eef475d2f36fffc23e8bcc788e44c3461d13e6dbf7b1c1b3",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.medium.0019",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $19$: An exponential function has $f(0)=5$ and $f(1)=25$. If $f(x)=a\\cdot r^x$, find $f(5)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$125$"
+      },
+      {
+        "id": "b",
+        "latex": "$3130$"
+      },
+      {
+        "id": "c",
+        "latex": "$3125$"
+      },
+      {
+        "id": "d",
+        "latex": "$15625$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "15625",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The common ratio is $25/5=5$, so $f(5)=5\\cdot 5^{5}=15625$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-a32bb3e598f5eb1d33f24f576a44581f4c80fdd9de5649920d7c408ef82a4d50",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.medium.0020",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $20$: For $f(x)=3\\cdot 2^{x+3}$, find $x$ when $f(x)=48$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by $3$ to get $2^{x+3}=16=2^{4}$, so $x=1$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-ea29a07cd52c6c28f68e4545334d7f576ed7002d3c8e996f961130befdca5689",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.medium.0021",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $21$: An exponential function has $f(0)=7$ and $f(1)=21$. If $f(x)=a\\cdot r^x$, find $f(3)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$63$"
+      },
+      {
+        "id": "b",
+        "latex": "$189$"
+      },
+      {
+        "id": "c",
+        "latex": "$34$"
+      },
+      {
+        "id": "d",
+        "latex": "$567$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "189",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The common ratio is $21/7=3$, so $f(3)=7\\cdot 3^{3}=189$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-488d47ba08fc2655d4ae929e10cfc9848af0a912f5ecff4bfb7ee15c8d42877a",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.medium.0022",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $22$: For $f(x)=5\\cdot 4^{x+2}$, find $x$ when $f(x)=5120$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by $5$ to get $4^{x+2}=1024=4^{5}$, so $x=3$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-eba4e4809753a9544ee0adee4f8fb8d38f0f43d9e93dcb81c37b903c8d3799a1",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.medium.0023",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $23$: An exponential function has $f(0)=9$ and $f(1)=45$. If $f(x)=a\\cdot r^x$, find $f(5)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$225$"
+      },
+      {
+        "id": "b",
+        "latex": "$3134$"
+      },
+      {
+        "id": "c",
+        "latex": "$5625$"
+      },
+      {
+        "id": "d",
+        "latex": "$28125$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "28125",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The common ratio is $45/9=5$, so $f(5)=9\\cdot 5^{5}=28125$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-ed1ecf03b5ec245feab4e4aaa10f786f7aac4c3184fe57ed1c32dad969f03ba2",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.medium.0024",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $24$: For $f(x)=1\\cdot 2^{x+1}$, find $x$ when $f(x)=4$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by $1$ to get $2^{x+1}=4=2^{2}$, so $x=1$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-b05d8f72bc5238b4331628f8e4898166af13c48e894739d8d2309a72dcbac80f",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.medium.0025",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $25$: An exponential function has $f(0)=3$ and $f(1)=9$. If $f(x)=a\\cdot r^x$, find $f(3)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$27$"
+      },
+      {
+        "id": "b",
+        "latex": "$81$"
+      },
+      {
+        "id": "c",
+        "latex": "$30$"
+      },
+      {
+        "id": "d",
+        "latex": "$243$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "81",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The common ratio is $9/3=3$, so $f(3)=3\\cdot 3^{3}=81$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-f79d3c9489e19aed96e447b3d6e3e46c1eafd00741574d2438149d5d156b71dd",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.medium.0026",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $26$: For $f(x)=3\\cdot 4^{x+3}$, find $x$ when $f(x)=12288$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by $3$ to get $4^{x+3}=4096=4^{6}$, so $x=3$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-27a80e7ba30e2addbbfa3d17dc432163ab29bf3c3ad5d7eb72804a09d3d5acfe",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.medium.0027",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $27$: An exponential function has $f(0)=5$ and $f(1)=25$. If $f(x)=a\\cdot r^x$, find $f(5)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$125$"
+      },
+      {
+        "id": "b",
+        "latex": "$3130$"
+      },
+      {
+        "id": "c",
+        "latex": "$3125$"
+      },
+      {
+        "id": "d",
+        "latex": "$15625$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "15625",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The common ratio is $25/5=5$, so $f(5)=5\\cdot 5^{5}=15625$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-f07af6fd4d218848d7c59b1b0831ea1d20e51817ceada86c46c51405398ca588",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.medium.0028",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $28$: For $f(x)=5\\cdot 2^{x+2}$, find $x$ when $f(x)=40$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by $5$ to get $2^{x+2}=8=2^{3}$, so $x=1$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-6487c95275090965e7f8d6112a6b8c784a80a49bd5423e22dc6b7cfdb4ccaba0",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.medium.0029",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $29$: An exponential function has $f(0)=7$ and $f(1)=21$. If $f(x)=a\\cdot r^x$, find $f(3)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$63$"
+      },
+      {
+        "id": "b",
+        "latex": "$189$"
+      },
+      {
+        "id": "c",
+        "latex": "$34$"
+      },
+      {
+        "id": "d",
+        "latex": "$567$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "189",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The common ratio is $21/7=3$, so $f(3)=7\\cdot 3^{3}=189$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-b283dede460f9404e1b3f2014b275ca1bbddb7c493e9b0d7c1a5465f52b36517",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.medium.0030",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $30$: For $f(x)=1\\cdot 4^{x+1}$, find $x$ when $f(x)=256$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by $1$ to get $4^{x+1}=256=4^{4}$, so $x=3$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-487ee66f09e436c3fe934344dd90d8364c22e271eb505a38e5963046e32acaf2",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.medium.0031",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $31$: An exponential function has $f(0)=9$ and $f(1)=45$. If $f(x)=a\\cdot r^x$, find $f(5)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$225$"
+      },
+      {
+        "id": "b",
+        "latex": "$3134$"
+      },
+      {
+        "id": "c",
+        "latex": "$5625$"
+      },
+      {
+        "id": "d",
+        "latex": "$28125$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "28125",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The common ratio is $45/9=5$, so $f(5)=9\\cdot 5^{5}=28125$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-3a2fe7ad776b9dfc4e67bcc86c9e93ccb2a3d77f730804312aaa901de51b5185",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.medium.0032",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $32$: For $f(x)=3\\cdot 2^{x+3}$, find $x$ when $f(x)=48$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by $3$ to get $2^{x+3}=16=2^{4}$, so $x=1$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-a1f62087ab6062990c5573daf38f1c16b8078fb474e2337189693d9aa1b24962",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.medium.0033",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $33$: An exponential function has $f(0)=3$ and $f(1)=9$. If $f(x)=a\\cdot r^x$, find $f(3)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$27$"
+      },
+      {
+        "id": "b",
+        "latex": "$81$"
+      },
+      {
+        "id": "c",
+        "latex": "$30$"
+      },
+      {
+        "id": "d",
+        "latex": "$243$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "81",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The common ratio is $9/3=3$, so $f(3)=3\\cdot 3^{3}=81$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-337e41115ebb4b3445794b6673b4bdaaf4c8b99499c5cb4cbc8708980ede83fd",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.medium.0034",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $34$: For $f(x)=5\\cdot 4^{x+2}$, find $x$ when $f(x)=5120$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by $5$ to get $4^{x+2}=1024=4^{5}$, so $x=3$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-286ece3e5c27f928c667fc937473c320ad568a5ef1d89273cfe04675f7e9ebf3",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.medium.0035",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $35$: An exponential function has $f(0)=5$ and $f(1)=25$. If $f(x)=a\\cdot r^x$, find $f(5)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$125$"
+      },
+      {
+        "id": "b",
+        "latex": "$3130$"
+      },
+      {
+        "id": "c",
+        "latex": "$3125$"
+      },
+      {
+        "id": "d",
+        "latex": "$15625$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "15625",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The common ratio is $25/5=5$, so $f(5)=5\\cdot 5^{5}=15625$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-0b47bc322b30d24467f2dc6f50f5848537eebd92f680d7eb80d61ff87782185e",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.medium.0036",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $36$: For $f(x)=1\\cdot 2^{x+1}$, find $x$ when $f(x)=4$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by $1$ to get $2^{x+1}=4=2^{2}$, so $x=1$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-a148af157a16bd8ef0167c998c631ace4e9097c4dce91932677d6bae933d360e",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.medium.0037",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $37$: An exponential function has $f(0)=7$ and $f(1)=21$. If $f(x)=a\\cdot r^x$, find $f(3)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$63$"
+      },
+      {
+        "id": "b",
+        "latex": "$189$"
+      },
+      {
+        "id": "c",
+        "latex": "$34$"
+      },
+      {
+        "id": "d",
+        "latex": "$567$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "189",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The common ratio is $21/7=3$, so $f(3)=7\\cdot 3^{3}=189$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-fd32073ca648dd9bded6747af944a954f4c5af02486d86728f27b3af68d46647",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.medium.0038",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $38$: For $f(x)=3\\cdot 4^{x+3}$, find $x$ when $f(x)=12288$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by $3$ to get $4^{x+3}=4096=4^{6}$, so $x=3$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-8c3690ba053526ff3652a74b13bea1e75e217cedde44262a5d96a476e724ad70",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.medium.0039",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $39$: An exponential function has $f(0)=9$ and $f(1)=45$. If $f(x)=a\\cdot r^x$, find $f(5)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$225$"
+      },
+      {
+        "id": "b",
+        "latex": "$3134$"
+      },
+      {
+        "id": "c",
+        "latex": "$5625$"
+      },
+      {
+        "id": "d",
+        "latex": "$28125$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "28125",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The common ratio is $45/9=5$, so $f(5)=9\\cdot 5^{5}=28125$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-25b6e2884e8964aeca3690bf91c6aadfddb2d6ed905e5f7f9abdee6dad2d2ec6",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.medium.0040",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $40$: For $f(x)=5\\cdot 2^{x+2}$, find $x$ when $f(x)=40$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by $5$ to get $2^{x+2}=8=2^{3}$, so $x=1$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-e2c9be2fec70ec829dfc51a4ec45eb120fcba92f3f4634bd04ed4ab7bde175d0",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.medium.0041",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $41$: An exponential function has $f(0)=3$ and $f(1)=9$. If $f(x)=a\\cdot r^x$, find $f(3)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$27$"
+      },
+      {
+        "id": "b",
+        "latex": "$81$"
+      },
+      {
+        "id": "c",
+        "latex": "$30$"
+      },
+      {
+        "id": "d",
+        "latex": "$243$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "81",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The common ratio is $9/3=3$, so $f(3)=3\\cdot 3^{3}=81$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-cfb7fef9d2a0e318d39134c93a9292ee1cb39299031b6a91b65cea0e2834ec03",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.medium.0042",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $42$: For $f(x)=1\\cdot 4^{x+1}$, find $x$ when $f(x)=256$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by $1$ to get $4^{x+1}=256=4^{4}$, so $x=3$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-acf34f79ae11f6f839eaeecaead59facaa57df08b35f3a0949d6f9f64fcb0c99",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.medium.0043",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $43$: An exponential function has $f(0)=5$ and $f(1)=25$. If $f(x)=a\\cdot r^x$, find $f(5)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$125$"
+      },
+      {
+        "id": "b",
+        "latex": "$3130$"
+      },
+      {
+        "id": "c",
+        "latex": "$3125$"
+      },
+      {
+        "id": "d",
+        "latex": "$15625$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "15625",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The common ratio is $25/5=5$, so $f(5)=5\\cdot 5^{5}=15625$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-3442d281ae6a6e734337e2730e4eccc875342f550bcde6216d83393c1b8c62f1",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.medium.0044",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $44$: For $f(x)=3\\cdot 2^{x+3}$, find $x$ when $f(x)=48$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by $3$ to get $2^{x+3}=16=2^{4}$, so $x=1$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-8484f4503b602b40d4cb4edbfe112a44018a76d37a8186144cb5b88bb0983d51",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.medium.0045",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $45$: An exponential function has $f(0)=7$ and $f(1)=21$. If $f(x)=a\\cdot r^x$, find $f(3)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$63$"
+      },
+      {
+        "id": "b",
+        "latex": "$189$"
+      },
+      {
+        "id": "c",
+        "latex": "$34$"
+      },
+      {
+        "id": "d",
+        "latex": "$567$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "189",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The common ratio is $21/7=3$, so $f(3)=7\\cdot 3^{3}=189$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-2ef9f0d1359ca6381963a89a33129f1f950b450e2f05ed7faa921deeae7eec5a",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.medium.0046",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $46$: For $f(x)=5\\cdot 4^{x+2}$, find $x$ when $f(x)=5120$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by $5$ to get $4^{x+2}=1024=4^{5}$, so $x=3$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-a5240c85f140483ed0145fd5b2c2a2427a561ca32c8fd4ba8a21a78992ae73c4",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.medium.0047",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $47$: An exponential function has $f(0)=9$ and $f(1)=45$. If $f(x)=a\\cdot r^x$, find $f(5)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$225$"
+      },
+      {
+        "id": "b",
+        "latex": "$3134$"
+      },
+      {
+        "id": "c",
+        "latex": "$5625$"
+      },
+      {
+        "id": "d",
+        "latex": "$28125$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "28125",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The common ratio is $45/9=5$, so $f(5)=9\\cdot 5^{5}=28125$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-f0879056238b32d389b0a097c518101737ef30aad41aeb19a1a763f88829aa13",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.medium.0048",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $48$: For $f(x)=1\\cdot 2^{x+1}$, find $x$ when $f(x)=4$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by $1$ to get $2^{x+1}=4=2^{2}$, so $x=1$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-26d63debbb961e4f16d9ae20655b6f35efe98cb544463ad1085271a294f33d06",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.medium.0049",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $49$: An exponential function has $f(0)=3$ and $f(1)=9$. If $f(x)=a\\cdot r^x$, find $f(3)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$27$"
+      },
+      {
+        "id": "b",
+        "latex": "$81$"
+      },
+      {
+        "id": "c",
+        "latex": "$30$"
+      },
+      {
+        "id": "d",
+        "latex": "$243$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "81",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The common ratio is $9/3=3$, so $f(3)=3\\cdot 3^{3}=81$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-cef55e8ed9faac386e99dc16e9ea558da95b81bd08cbaa7a2f936bf3cebfd22d",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.exponential_functions.medium.0050",
+    "topic_id": "ch19.exponential_functions",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $50$: For $f(x)=3\\cdot 4^{x+3}$, find $x$ when $f(x)=12288$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by $3$ to get $4^{x+3}=4096=4^{6}$, so $x=3$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.1",
+    "tags": [
+      "exponential-functions",
+      "exponents"
+    ],
+    "checksum": "sha256-3ad1aaf9ad166dcb52bae365148f9424b211c4bdf089096cbf1d3de08579f924",
+    "status": "valid"
+  }
+]

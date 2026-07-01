@@ -1,0 +1,1962 @@
+[
+  {
+    "id": "ch8.number_line_plane.hard.0001",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "The points $(-6, -5)$, $(-3, -5)$, and $(-6, 1)$ are vertices of a triangle. What is its area?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$-9$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The legs have lengths $3$ and $6$, so the area is $\\frac{1}{2}(3)(6)=9$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "area",
+      "triangle"
+    ],
+    "checksum": "sha256-ebb87ab1666b62e703a676000a4f21212b6e7cd7fed4ac39aaf2127138518520",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.hard.0002",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "An axis-aligned rectangle has opposite vertices $(-5, -3)$ and $(-1, 5)$. What is its perimeter?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$24$"
+      },
+      {
+        "id": "b",
+        "latex": "$-24$"
+      },
+      {
+        "id": "c",
+        "latex": "$23$"
+      },
+      {
+        "id": "d",
+        "latex": "$25$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "24",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The side lengths are $4$ and $8$, so the perimeter is $2(4+8)=24$.",
+    "complexity_factor": 1.22,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "perimeter"
+    ],
+    "checksum": "sha256-58b2962d0dc3613b3747178bed5598240bfbf992105fe6daa21dca34e6f19574",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.hard.0003",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Point $P$ lies between $-10$ and $2$ on a number line, and $AP:PB=2:1$. What is the coordinate of $P$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The whole interval has length $12$. Since $AP$ is $\\frac{2}{3}$ of it, $P=-10+\\frac{2}{3}(12)=-2$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.1",
+    "tags": [
+      "number-line",
+      "ratio"
+    ],
+    "checksum": "sha256-10bf1f9aca9b3a657426802ff4c789ccc54d869e4e4c2e21b78fc7972d4821d1",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.hard.0004",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Consecutive vertices of a square are $(-3, 1)$, $(2, 3)$, and $(0, 8)$. What is the fourth vertex?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-5, 6)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(6, -5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-5, -6)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(5, 6)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-5,6)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The side vector $(5, 2)$ turns to $(-2, 5)$, so the fourth vertex is $(-3-2, 1+5)=(-5, 6)$.",
+    "complexity_factor": 1.3,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "square"
+    ],
+    "checksum": "sha256-0cdfd96c10d0a45b4d7fed2122ba296ce31f8b7db11ba284ce5b463507f4d8da",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.hard.0005",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "How many lattice points are inside or on the boundary of the rectangle $-2 \\le x \\le 5$, $-4 \\le y \\le 0$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-40$"
+      },
+      {
+        "id": "b",
+        "latex": "$39$"
+      },
+      {
+        "id": "c",
+        "latex": "$40$"
+      },
+      {
+        "id": "d",
+        "latex": "$41$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "40",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "There are $7+1$ integer $x$-values and $4+1$ integer $y$-values, for $(8)(5)=40$ points.",
+    "complexity_factor": 1.25,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "lattice-points"
+    ],
+    "checksum": "sha256-ad7c090104c17c0bc584077b0ad5c6769b08f3d9b6fb48ebb18d57b63679b4d6",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.hard.0006",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "The points $(-1, -2)$, $(7, -2)$, and $(-1, 4)$ are vertices of a triangle. What is its area?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$23$"
+      },
+      {
+        "id": "b",
+        "latex": "$-24$"
+      },
+      {
+        "id": "c",
+        "latex": "$24$"
+      },
+      {
+        "id": "d",
+        "latex": "$25$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "24",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The legs have lengths $8$ and $6$, so the area is $\\frac{1}{2}(8)(6)=24$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "area",
+      "triangle"
+    ],
+    "checksum": "sha256-2aa6df9912f09a393fbe62e4eed101217cc39ebb724e67f1123d1a57f9677584",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.hard.0007",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "An axis-aligned rectangle has opposite vertices $(0, 0)$ and $(3, 8)$. What is its perimeter?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$22$"
+      },
+      {
+        "id": "b",
+        "latex": "$23$"
+      },
+      {
+        "id": "c",
+        "latex": "$-22$"
+      },
+      {
+        "id": "d",
+        "latex": "$21$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "22",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The side lengths are $3$ and $8$, so the perimeter is $2(3+8)=22$.",
+    "complexity_factor": 1.22,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "perimeter"
+    ],
+    "checksum": "sha256-52cc3546dc2a6caeb20bad398508f0b160eccdbd5034ca742788f74cd5ab7654",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.hard.0008",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Point $P$ lies between $-5$ and $7$ on a number line, and $AP:PB=2:1$. What is the coordinate of $P$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The whole interval has length $12$. Since $AP$ is $\\frac{2}{3}$ of it, $P=-5+\\frac{2}{3}(12)=3$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.1",
+    "tags": [
+      "number-line",
+      "ratio"
+    ],
+    "checksum": "sha256-0bb782d7f196c4b263edb7b507d165f1accd7df95b5018cd0dc8c08a10812777",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.hard.0009",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Consecutive vertices of a square are $(-5, -3)$, $(-3, 0)$, and $(-6, 2)$. What is the fourth vertex?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-8, -1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-8, 1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1, -8)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(8, -1)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-8,-1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The side vector $(2, 3)$ turns to $(-3, 2)$, so the fourth vertex is $(-5-3, -3+2)=(-8, -1)$.",
+    "complexity_factor": 1.3,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "square"
+    ],
+    "checksum": "sha256-fbac1d4ecf6b13dea0481b55c71d81453e7c9aa194b72ef2cd7f5c02c8f9611c",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.hard.0010",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "How many lattice points are inside or on the boundary of the rectangle $-4 \\le x \\le 2$, $-1 \\le y \\le 3$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$35$"
+      },
+      {
+        "id": "b",
+        "latex": "$36$"
+      },
+      {
+        "id": "c",
+        "latex": "$-35$"
+      },
+      {
+        "id": "d",
+        "latex": "$34$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "35",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "There are $6+1$ integer $x$-values and $4+1$ integer $y$-values, for $(7)(5)=35$ points.",
+    "complexity_factor": 1.25,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "lattice-points"
+    ],
+    "checksum": "sha256-b3008b88cbf9dae45afd0746ccbe914c6256c3a7139d78b836c28469f75f8f48",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.hard.0011",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "The points $(-3, 1)$, $(4, 1)$, and $(-3, 7)$ are vertices of a triangle. What is its area?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$22$"
+      },
+      {
+        "id": "b",
+        "latex": "$20$"
+      },
+      {
+        "id": "c",
+        "latex": "$-21$"
+      },
+      {
+        "id": "d",
+        "latex": "$21$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "21",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The legs have lengths $7$ and $6$, so the area is $\\frac{1}{2}(7)(6)=21$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "area",
+      "triangle"
+    ],
+    "checksum": "sha256-57c83f8e235c36c3853fc4d4bbaad26ea230c32f5436304dfe1192909ed79099",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.hard.0012",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "An axis-aligned rectangle has opposite vertices $(-2, -4)$ and $(6, 4)$. What is its perimeter?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$33$"
+      },
+      {
+        "id": "b",
+        "latex": "$-32$"
+      },
+      {
+        "id": "c",
+        "latex": "$31$"
+      },
+      {
+        "id": "d",
+        "latex": "$32$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "32",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The side lengths are $8$ and $8$, so the perimeter is $2(8+8)=32$.",
+    "complexity_factor": 1.22,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "perimeter"
+    ],
+    "checksum": "sha256-c1cbb642bd783c0a243cac9846f098a30f72a8d3ab2132d088f7e92a29ecdbe6",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.hard.0013",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Point $P$ lies between $0$ and $12$ on a number line, and $AP:PB=2:1$. What is the coordinate of $P$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$-8$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The whole interval has length $12$. Since $AP$ is $\\frac{2}{3}$ of it, $P=0+\\frac{2}{3}(12)=8$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.1",
+    "tags": [
+      "number-line",
+      "ratio"
+    ],
+    "checksum": "sha256-362604b7281afc84d23b2d8a53afceb75c162c21dfecc5796134e8d116a70f4b",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.hard.0014",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Consecutive vertices of a square are $(0, 0)$, $(3, 4)$, and $(-1, 7)$. What is the fourth vertex?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-4, 3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-4, -3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4, 3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3, -4)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-4,3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The side vector $(3, 4)$ turns to $(-4, 3)$, so the fourth vertex is $(0-4, 0+3)=(-4, 3)$.",
+    "complexity_factor": 1.3,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "square"
+    ],
+    "checksum": "sha256-9dfa9887cc724712ac30be402be21d7f2d3a95c3ca11af93b531a5474cded9ab",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.hard.0015",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "How many lattice points are inside or on the boundary of the rectangle $-6 \\le x \\le -1$, $-5 \\le y \\le -1$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$30$"
+      },
+      {
+        "id": "b",
+        "latex": "$29$"
+      },
+      {
+        "id": "c",
+        "latex": "$31$"
+      },
+      {
+        "id": "d",
+        "latex": "$-30$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "30",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "There are $5+1$ integer $x$-values and $4+1$ integer $y$-values, for $(6)(5)=30$ points.",
+    "complexity_factor": 1.25,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "lattice-points"
+    ],
+    "checksum": "sha256-e8d2f86fd57ed49f9f7f4325a28393ef7b1f3733a47abb1a3385ae847f5206bd",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.hard.0016",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "The points $(-5, -3)$, $(1, -3)$, and $(-5, 3)$ are vertices of a triangle. What is its area?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$19$"
+      },
+      {
+        "id": "b",
+        "latex": "$17$"
+      },
+      {
+        "id": "c",
+        "latex": "$18$"
+      },
+      {
+        "id": "d",
+        "latex": "$-18$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "18",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The legs have lengths $6$ and $6$, so the area is $\\frac{1}{2}(6)(6)=18$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "area",
+      "triangle"
+    ],
+    "checksum": "sha256-799f2ec96b6ad0a726b00f208ab32738dffb888523618338147f906bdfbe3cc0",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.hard.0017",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "An axis-aligned rectangle has opposite vertices $(-4, -1)$ and $(3, 7)$. What is its perimeter?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$29$"
+      },
+      {
+        "id": "b",
+        "latex": "$31$"
+      },
+      {
+        "id": "c",
+        "latex": "$30$"
+      },
+      {
+        "id": "d",
+        "latex": "$-30$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "30",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The side lengths are $7$ and $8$, so the perimeter is $2(7+8)=30$.",
+    "complexity_factor": 1.22,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "perimeter"
+    ],
+    "checksum": "sha256-925a13fa4fe852a447185b9dce852b44603faac6fc8cc5739ee8326ddf853c50",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.hard.0018",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Point $P$ lies between $5$ and $17$ on a number line, and $AP:PB=2:1$. What is the coordinate of $P$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$14$"
+      },
+      {
+        "id": "b",
+        "latex": "$13$"
+      },
+      {
+        "id": "c",
+        "latex": "$-13$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "13",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The whole interval has length $12$. Since $AP$ is $\\frac{2}{3}$ of it, $P=5+\\frac{2}{3}(12)=13$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.1",
+    "tags": [
+      "number-line",
+      "ratio"
+    ],
+    "checksum": "sha256-e8a3d86f08e46dff2e28d680f8ec64b9378ddbf761b01b9b4de3a464aafc5570",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.hard.0019",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Consecutive vertices of a square are $(-2, -4)$, $(2, -3)$, and $(1, 1)$. What is the fourth vertex?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2, 0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0, -3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-3, 0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3, 0)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-3,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The side vector $(4, 1)$ turns to $(-1, 4)$, so the fourth vertex is $(-2-1, -4+4)=(-3, 0)$.",
+    "complexity_factor": 1.3,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "square"
+    ],
+    "checksum": "sha256-66610f96e1c298e25d0d7dab28c832f6f2470ae88af8414dd3bab4bdfdf85ca8",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.hard.0020",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "How many lattice points are inside or on the boundary of the rectangle $-1 \\le x \\le 3$, $-2 \\le y \\le 2$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$24$"
+      },
+      {
+        "id": "b",
+        "latex": "$25$"
+      },
+      {
+        "id": "c",
+        "latex": "$-25$"
+      },
+      {
+        "id": "d",
+        "latex": "$26$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "25",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "There are $4+1$ integer $x$-values and $4+1$ integer $y$-values, for $(5)(5)=25$ points.",
+    "complexity_factor": 1.25,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "lattice-points"
+    ],
+    "checksum": "sha256-d0ddbebd73fb78445fdce3cda5985675d42378b470595633b671a73fce2eb68f",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.hard.0021",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "The points $(0, 0)$, $(5, 0)$, and $(0, 6)$ are vertices of a triangle. What is its area?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$15$"
+      },
+      {
+        "id": "c",
+        "latex": "$14$"
+      },
+      {
+        "id": "d",
+        "latex": "$-15$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "15",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The legs have lengths $5$ and $6$, so the area is $\\frac{1}{2}(5)(6)=15$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "area",
+      "triangle"
+    ],
+    "checksum": "sha256-1262e90d2bf39554fc5384fe5e94357d6a013a3966180c19680ce8d075765857",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.hard.0022",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "An axis-aligned rectangle has opposite vertices $(-6, -5)$ and $(0, 3)$. What is its perimeter?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$28$"
+      },
+      {
+        "id": "b",
+        "latex": "$29$"
+      },
+      {
+        "id": "c",
+        "latex": "$-28$"
+      },
+      {
+        "id": "d",
+        "latex": "$27$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "28",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The side lengths are $6$ and $8$, so the perimeter is $2(6+8)=28$.",
+    "complexity_factor": 1.22,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "perimeter"
+    ],
+    "checksum": "sha256-e141518fabde862d2884abb5e51acc8d89405254c844e731b56f15a5a917c2c2",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.hard.0023",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Point $P$ lies between $10$ and $22$ on a number line, and $AP:PB=2:1$. What is the coordinate of $P$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$19$"
+      },
+      {
+        "id": "b",
+        "latex": "$-18$"
+      },
+      {
+        "id": "c",
+        "latex": "$18$"
+      },
+      {
+        "id": "d",
+        "latex": "$17$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "18",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The whole interval has length $12$. Since $AP$ is $\\frac{2}{3}$ of it, $P=10+\\frac{2}{3}(12)=18$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.1",
+    "tags": [
+      "number-line",
+      "ratio"
+    ],
+    "checksum": "sha256-9a9d87b7d34caaf0b739d7695db5391dd2be247128a90db63e191392da71b6ee",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.hard.0024",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Consecutive vertices of a square are $(-4, -1)$, $(1, 1)$, and $(-1, 6)$. What is the fourth vertex?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-6, 4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4, -6)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-6, -4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(6, 4)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-6,4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The side vector $(5, 2)$ turns to $(-2, 5)$, so the fourth vertex is $(-4-2, -1+5)=(-6, 4)$.",
+    "complexity_factor": 1.3,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "square"
+    ],
+    "checksum": "sha256-6e33e98ea5b2b00c6f6e8e1459a1ae7e9af498af52c8e8e89cbc4c05dd065d01",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.hard.0025",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "How many lattice points are inside or on the boundary of the rectangle $-3 \\le x \\le 0$, $1 \\le y \\le 5$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$19$"
+      },
+      {
+        "id": "b",
+        "latex": "$21$"
+      },
+      {
+        "id": "c",
+        "latex": "$-20$"
+      },
+      {
+        "id": "d",
+        "latex": "$20$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "20",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "There are $3+1$ integer $x$-values and $4+1$ integer $y$-values, for $(4)(5)=20$ points.",
+    "complexity_factor": 1.25,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "lattice-points"
+    ],
+    "checksum": "sha256-f374c42bd1d929986c0bbc189f324e37266550fc720116c5dd4e07b3e0e09a20",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.hard.0026",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "The points $(-2, -4)$, $(2, -4)$, and $(-2, 2)$ are vertices of a triangle. What is its area?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11$"
+      },
+      {
+        "id": "b",
+        "latex": "$-12$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$13$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The legs have lengths $4$ and $6$, so the area is $\\frac{1}{2}(4)(6)=12$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "area",
+      "triangle"
+    ],
+    "checksum": "sha256-57ef3710bea121871ac669c62139555fcc1834c8fde811f9d5f7a0621a07414c",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.hard.0027",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "An axis-aligned rectangle has opposite vertices $(-1, -2)$ and $(4, 6)$. What is its perimeter?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-26$"
+      },
+      {
+        "id": "b",
+        "latex": "$25$"
+      },
+      {
+        "id": "c",
+        "latex": "$26$"
+      },
+      {
+        "id": "d",
+        "latex": "$27$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "26",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The side lengths are $5$ and $8$, so the perimeter is $2(5+8)=26$.",
+    "complexity_factor": 1.22,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "perimeter"
+    ],
+    "checksum": "sha256-6b76659d0d7b9eb9b281c1cfb9b0c1d0a2389f8e789e071b74c5bf73add3cdf2",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.hard.0028",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Point $P$ lies between $15$ and $27$ on a number line, and $AP:PB=2:1$. What is the coordinate of $P$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-23$"
+      },
+      {
+        "id": "b",
+        "latex": "$23$"
+      },
+      {
+        "id": "c",
+        "latex": "$22$"
+      },
+      {
+        "id": "d",
+        "latex": "$24$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "23",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The whole interval has length $12$. Since $AP$ is $\\frac{2}{3}$ of it, $P=15+\\frac{2}{3}(12)=23$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.1",
+    "tags": [
+      "number-line",
+      "ratio"
+    ],
+    "checksum": "sha256-1755488e2bb27ba732cface94f90396ab45ac62b87f0af469b0d448683c4f175",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.hard.0029",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Consecutive vertices of a square are $(-6, -5)$, $(-4, -2)$, and $(-7, 0)$. What is the fourth vertex?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-9, 3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-9, -3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(9, -3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-3, -9)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-9,-3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The side vector $(2, 3)$ turns to $(-3, 2)$, so the fourth vertex is $(-6-3, -5+2)=(-9, -3)$.",
+    "complexity_factor": 1.3,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "square"
+    ],
+    "checksum": "sha256-a6684249bb770d79193983b3126f6653389b7644cc185be34f8cc55ce4a257ed",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.hard.0030",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "How many lattice points are inside or on the boundary of the rectangle $-5 \\le x \\le 3$, $-3 \\le y \\le 1$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$44$"
+      },
+      {
+        "id": "b",
+        "latex": "$45$"
+      },
+      {
+        "id": "c",
+        "latex": "$46$"
+      },
+      {
+        "id": "d",
+        "latex": "$-45$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "45",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "There are $8+1$ integer $x$-values and $4+1$ integer $y$-values, for $(9)(5)=45$ points.",
+    "complexity_factor": 1.25,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "lattice-points"
+    ],
+    "checksum": "sha256-30a9a5b074478ef3c7c8022676608c26d92f99d3096f0d9957a97df8a857ef35",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.hard.0031",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "The points $(-4, -1)$, $(-1, -1)$, and $(-4, 5)$ are vertices of a triangle. What is its area?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-9$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The legs have lengths $3$ and $6$, so the area is $\\frac{1}{2}(3)(6)=9$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "area",
+      "triangle"
+    ],
+    "checksum": "sha256-d134bb87e4cc8b90ff0f44253bc495597c5f3c62035f3a7a507b1279fbead949",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.hard.0032",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "An axis-aligned rectangle has opposite vertices $(-3, 1)$ and $(1, 9)$. What is its perimeter?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$25$"
+      },
+      {
+        "id": "b",
+        "latex": "$24$"
+      },
+      {
+        "id": "c",
+        "latex": "$23$"
+      },
+      {
+        "id": "d",
+        "latex": "$-24$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "24",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The side lengths are $4$ and $8$, so the perimeter is $2(4+8)=24$.",
+    "complexity_factor": 1.22,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "perimeter"
+    ],
+    "checksum": "sha256-4775aff4b49ac5e4723dbaee85d114ac2ef9aa8c52042b4fb03d82acad0dadbb",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.hard.0033",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Point $P$ lies between $20$ and $32$ on a number line, and $AP:PB=2:1$. What is the coordinate of $P$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$28$"
+      },
+      {
+        "id": "b",
+        "latex": "$29$"
+      },
+      {
+        "id": "c",
+        "latex": "$-28$"
+      },
+      {
+        "id": "d",
+        "latex": "$27$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "28",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The whole interval has length $12$. Since $AP$ is $\\frac{2}{3}$ of it, $P=20+\\frac{2}{3}(12)=28$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.1",
+    "tags": [
+      "number-line",
+      "ratio"
+    ],
+    "checksum": "sha256-55b2213378e5f885ca570a9122f098c5b0e3b48be5c122411752a425a0d84da7",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.hard.0034",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Consecutive vertices of a square are $(-1, -2)$, $(2, 2)$, and $(-2, 5)$. What is the fourth vertex?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1, -5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(5, 1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-5, 1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-5, -1)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-5,1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The side vector $(3, 4)$ turns to $(-4, 3)$, so the fourth vertex is $(-1-4, -2+3)=(-5, 1)$.",
+    "complexity_factor": 1.3,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "square"
+    ],
+    "checksum": "sha256-269aaf7fc4f3a65d32dc00d731d480775b73e906b173843711edf4bcbeaaf56f",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.hard.0035",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "How many lattice points are inside or on the boundary of the rectangle $0 \\le x \\le 7$, $0 \\le y \\le 4$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$40$"
+      },
+      {
+        "id": "b",
+        "latex": "$39$"
+      },
+      {
+        "id": "c",
+        "latex": "$-40$"
+      },
+      {
+        "id": "d",
+        "latex": "$41$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "40",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "There are $7+1$ integer $x$-values and $4+1$ integer $y$-values, for $(8)(5)=40$ points.",
+    "complexity_factor": 1.25,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "lattice-points"
+    ],
+    "checksum": "sha256-99c122bc022c64b87bfd5e8c93c043ea3bb195648a52e9d41ec060bbf6646005",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.hard.0036",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "The points $(-6, -5)$, $(2, -5)$, and $(-6, 1)$ are vertices of a triangle. What is its area?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$25$"
+      },
+      {
+        "id": "b",
+        "latex": "$-24$"
+      },
+      {
+        "id": "c",
+        "latex": "$23$"
+      },
+      {
+        "id": "d",
+        "latex": "$24$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "24",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The legs have lengths $8$ and $6$, so the area is $\\frac{1}{2}(8)(6)=24$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "area",
+      "triangle"
+    ],
+    "checksum": "sha256-2edcce3af437113902ff7d0cefb8b119d6814a9b3dd6876f2a3787d9fd955ddd",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.hard.0037",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "An axis-aligned rectangle has opposite vertices $(-5, -3)$ and $(-2, 5)$. What is its perimeter?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$23$"
+      },
+      {
+        "id": "b",
+        "latex": "$-22$"
+      },
+      {
+        "id": "c",
+        "latex": "$21$"
+      },
+      {
+        "id": "d",
+        "latex": "$22$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "22",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The side lengths are $3$ and $8$, so the perimeter is $2(3+8)=22$.",
+    "complexity_factor": 1.22,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "perimeter"
+    ],
+    "checksum": "sha256-ecabed117fb989a1da4bee7ffd8fcf9458e11cfa173015c3dd8b364bc3f26bdd",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.hard.0038",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Point $P$ lies between $25$ and $37$ on a number line, and $AP:PB=2:1$. What is the coordinate of $P$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$34$"
+      },
+      {
+        "id": "b",
+        "latex": "$32$"
+      },
+      {
+        "id": "c",
+        "latex": "$-33$"
+      },
+      {
+        "id": "d",
+        "latex": "$33$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "33",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The whole interval has length $12$. Since $AP$ is $\\frac{2}{3}$ of it, $P=25+\\frac{2}{3}(12)=33$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.1",
+    "tags": [
+      "number-line",
+      "ratio"
+    ],
+    "checksum": "sha256-4c5dd8ad124ae4b041553496e88b0edca55a404513159cb149193ac479d9fadc",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.hard.0039",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Consecutive vertices of a square are $(-3, 1)$, $(1, 2)$, and $(0, 6)$. What is the fourth vertex?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4, 5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-4, -5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(5, -4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-4, 5)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-4,5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The side vector $(4, 1)$ turns to $(-1, 4)$, so the fourth vertex is $(-3-1, 1+4)=(-4, 5)$.",
+    "complexity_factor": 1.3,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "square"
+    ],
+    "checksum": "sha256-6a62cab2fc77a7ebe674d0111133310d347e9c71f4691c296a00684c0de98f5e",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.hard.0040",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "How many lattice points are inside or on the boundary of the rectangle $-2 \\le x \\le 4$, $-4 \\le y \\le 0$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-35$"
+      },
+      {
+        "id": "b",
+        "latex": "$36$"
+      },
+      {
+        "id": "c",
+        "latex": "$34$"
+      },
+      {
+        "id": "d",
+        "latex": "$35$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "35",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "There are $6+1$ integer $x$-values and $4+1$ integer $y$-values, for $(7)(5)=35$ points.",
+    "complexity_factor": 1.25,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "lattice-points"
+    ],
+    "checksum": "sha256-0bb9a4cea9f5643d1ffa71aa2978fd5e062707d16a13b79b64ce1b4f63bd7190",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.hard.0041",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "The points $(-1, -2)$, $(6, -2)$, and $(-1, 4)$ are vertices of a triangle. What is its area?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$20$"
+      },
+      {
+        "id": "b",
+        "latex": "$22$"
+      },
+      {
+        "id": "c",
+        "latex": "$-21$"
+      },
+      {
+        "id": "d",
+        "latex": "$21$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "21",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The legs have lengths $7$ and $6$, so the area is $\\frac{1}{2}(7)(6)=21$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "area",
+      "triangle"
+    ],
+    "checksum": "sha256-4a20ca9805ad1ea3dc0bf6ce4598ea68ab8a0ed8665e4310f3c5f3c87eb96bf2",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.hard.0042",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "An axis-aligned rectangle has opposite vertices $(0, 0)$ and $(8, 8)$. What is its perimeter?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$31$"
+      },
+      {
+        "id": "b",
+        "latex": "$-32$"
+      },
+      {
+        "id": "c",
+        "latex": "$33$"
+      },
+      {
+        "id": "d",
+        "latex": "$32$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "32",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The side lengths are $8$ and $8$, so the perimeter is $2(8+8)=32$.",
+    "complexity_factor": 1.22,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "perimeter"
+    ],
+    "checksum": "sha256-7639efb29b2d368aaccb58b94d2414c69bd2cb00e9fc11fe2d83e8185d9b1794",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.hard.0043",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Point $P$ lies between $30$ and $42$ on a number line, and $AP:PB=2:1$. What is the coordinate of $P$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$37$"
+      },
+      {
+        "id": "b",
+        "latex": "$38$"
+      },
+      {
+        "id": "c",
+        "latex": "$-38$"
+      },
+      {
+        "id": "d",
+        "latex": "$39$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "38",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The whole interval has length $12$. Since $AP$ is $\\frac{2}{3}$ of it, $P=30+\\frac{2}{3}(12)=38$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.1",
+    "tags": [
+      "number-line",
+      "ratio"
+    ],
+    "checksum": "sha256-7301b230b1096008c166d4da9f23f2e24fa344dac062ce84ce63ef3710287777",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.hard.0044",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Consecutive vertices of a square are $(-5, -3)$, $(0, -1)$, and $(-2, 4)$. What is the fourth vertex?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-7, 2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-7, -2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2, -7)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(7, 2)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-7,2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The side vector $(5, 2)$ turns to $(-2, 5)$, so the fourth vertex is $(-5-2, -3+5)=(-7, 2)$.",
+    "complexity_factor": 1.3,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "square"
+    ],
+    "checksum": "sha256-1f0895a713d77eab69308332302f383117114a3892b8ceb0345d1e9e6ee981f9",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.hard.0045",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "How many lattice points are inside or on the boundary of the rectangle $-4 \\le x \\le 1$, $-1 \\le y \\le 3$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$30$"
+      },
+      {
+        "id": "b",
+        "latex": "$31$"
+      },
+      {
+        "id": "c",
+        "latex": "$-30$"
+      },
+      {
+        "id": "d",
+        "latex": "$29$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "30",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "There are $5+1$ integer $x$-values and $4+1$ integer $y$-values, for $(6)(5)=30$ points.",
+    "complexity_factor": 1.25,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "lattice-points"
+    ],
+    "checksum": "sha256-bc82ee9953e3ce7764d4eb9cc649dcc4761822045690f6bf2a794798717e44a0",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.hard.0046",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "The points $(-3, 1)$, $(3, 1)$, and $(-3, 7)$ are vertices of a triangle. What is its area?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$18$"
+      },
+      {
+        "id": "b",
+        "latex": "$19$"
+      },
+      {
+        "id": "c",
+        "latex": "$-18$"
+      },
+      {
+        "id": "d",
+        "latex": "$17$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "18",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The legs have lengths $6$ and $6$, so the area is $\\frac{1}{2}(6)(6)=18$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "area",
+      "triangle"
+    ],
+    "checksum": "sha256-3c61f062be81432decb671fdf67154f272f18617d69d2438973daa1bcf49b8dc",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.hard.0047",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "An axis-aligned rectangle has opposite vertices $(-2, -4)$ and $(5, 4)$. What is its perimeter?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$30$"
+      },
+      {
+        "id": "b",
+        "latex": "$-30$"
+      },
+      {
+        "id": "c",
+        "latex": "$31$"
+      },
+      {
+        "id": "d",
+        "latex": "$29$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "30",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The side lengths are $7$ and $8$, so the perimeter is $2(7+8)=30$.",
+    "complexity_factor": 1.22,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "perimeter"
+    ],
+    "checksum": "sha256-27434dffe615c2472607ce28f0f59ae20fecd38298e5c09f1f19ff9246dcec43",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.hard.0048",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Point $P$ lies between $35$ and $47$ on a number line, and $AP:PB=2:1$. What is the coordinate of $P$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$42$"
+      },
+      {
+        "id": "b",
+        "latex": "$-43$"
+      },
+      {
+        "id": "c",
+        "latex": "$44$"
+      },
+      {
+        "id": "d",
+        "latex": "$43$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "43",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The whole interval has length $12$. Since $AP$ is $\\frac{2}{3}$ of it, $P=35+\\frac{2}{3}(12)=43$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.1",
+    "tags": [
+      "number-line",
+      "ratio"
+    ],
+    "checksum": "sha256-36c5beb1e3364b9b109c1e1e50530aa903030ddd61122464a8acfcbea9caaa0e",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.hard.0049",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Consecutive vertices of a square are $(0, 0)$, $(2, 3)$, and $(-1, 5)$. What is the fourth vertex?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3, 2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3, 2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2, -3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-3, -2)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-3,2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The side vector $(2, 3)$ turns to $(-3, 2)$, so the fourth vertex is $(0-3, 0+2)=(-3, 2)$.",
+    "complexity_factor": 1.3,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "square"
+    ],
+    "checksum": "sha256-e9791e90b61eb657fab3f7a772551d87a07121d043111032a4bca1e1fd79a3e6",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.number_line_plane.hard.0050",
+    "topic_id": "ch8.number_line_plane",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "How many lattice points are inside or on the boundary of the rectangle $-6 \\le x \\le -2$, $-5 \\le y \\le -1$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$24$"
+      },
+      {
+        "id": "b",
+        "latex": "$-25$"
+      },
+      {
+        "id": "c",
+        "latex": "$25$"
+      },
+      {
+        "id": "d",
+        "latex": "$26$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "25",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "There are $4+1$ integer $x$-values and $4+1$ integer $y$-values, for $(5)(5)=25$ points.",
+    "complexity_factor": 1.25,
+    "source_section": "8.1",
+    "tags": [
+      "coordinate-plane",
+      "lattice-points"
+    ],
+    "checksum": "sha256-79df840ad6825e863f0e701f150db8b428cb637728097e003ebe32c4bc1e3121",
+    "status": "valid"
+  }
+]

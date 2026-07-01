@@ -1,0 +1,2116 @@
+[
+  {
+    "id": "ch12.imaginary.hard.0001",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $(1+\\sqrt{-4})(1+\\sqrt{-9})$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-5+5i$"
+      },
+      {
+        "id": "b",
+        "latex": "$5+5i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-5-5i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4+5i$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-5+5i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 5 + 5i",
+      "5i-5"
+    ],
+    "solution_latex": "This is $(1+2i)(1+3i)$. The real part is $1-2\\cdot 3=-5$ and the imaginary part is $2+3=5$, so the result is $-5+5i$.",
+    "complexity_factor": 1.2,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers",
+      "square-roots",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-b6d4db4fae87f14f673983f75d5e31f30b991552b6daaeb6d302c48cecbd6f04"
+  },
+  {
+    "id": "ch12.imaginary.hard.0002",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $i^{5}+i^{13}-i^{20}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1+2i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1+3i$"
+      },
+      {
+        "id": "d",
+        "latex": "$1-2i$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-1+2i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 1 + 2i",
+      "2i-1"
+    ],
+    "solution_latex": "Reduce $5$, $13$, and $20$ modulo $4$, then combine the resulting values of $1$, $i$, $-1$, and $-i$ to get $-1+2i$.",
+    "complexity_factor": 1.2,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers"
+    ],
+    "status": "valid",
+    "checksum": "sha256-28f7b99d5ae1a1076bb8fda524d081fac652a15682365e2660530fb104d160e6"
+  },
+  {
+    "id": "ch12.imaginary.hard.0003",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $(1+\\sqrt{-16})(1+\\sqrt{-25})$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$19+9i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-19-9i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-19+9i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-18+9i$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-19+9i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 19 + 9i",
+      "9i-19"
+    ],
+    "solution_latex": "This is $(1+4i)(1+5i)$. The real part is $1-4\\cdot 5=-19$ and the imaginary part is $4+5=9$, so the result is $-19+9i$.",
+    "complexity_factor": 1.2,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers",
+      "square-roots",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-78a4baf683e2f683167df754502dba7343955a54d87b01d7588dbe72fa8691a0"
+  },
+  {
+    "id": "ch12.imaginary.hard.0004",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $i^{7}+i^{17}-i^{26}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$1+i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Reduce $7$, $17$, and $26$ modulo $4$, then combine the resulting values of $1$, $i$, $-1$, and $-i$ to get $1$.",
+    "complexity_factor": 1.2,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers"
+    ],
+    "status": "valid",
+    "checksum": "sha256-b2979ee2f5d3ee490028f6c289c0523cee49c0a4567ad6c60d031a6f21547cee"
+  },
+  {
+    "id": "ch12.imaginary.hard.0005",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $(1+\\sqrt{-36})(1+\\sqrt{-49})$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-41+13i$"
+      },
+      {
+        "id": "b",
+        "latex": "$41+13i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-41-13i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-40+13i$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-41+13i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 41 + 13i",
+      "13i-41"
+    ],
+    "solution_latex": "This is $(1+6i)(1+7i)$. The real part is $1-6\\cdot 7=-41$ and the imaginary part is $6+7=13$, so the result is $-41+13i$.",
+    "complexity_factor": 1.2,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers",
+      "square-roots",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-28ffef4e40c5052c1a9282d8b7bcb117410f39777bc0e024e23e8dd1f30fdebb"
+  },
+  {
+    "id": "ch12.imaginary.hard.0006",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $i^{9}+i^{21}-i^{32}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1+2i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1+3i$"
+      },
+      {
+        "id": "d",
+        "latex": "$1-2i$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-1+2i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 1 + 2i",
+      "2i-1"
+    ],
+    "solution_latex": "Reduce $9$, $21$, and $32$ modulo $4$, then combine the resulting values of $1$, $i$, $-1$, and $-i$ to get $-1+2i$.",
+    "complexity_factor": 1.2,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers"
+    ],
+    "status": "valid",
+    "checksum": "sha256-5e5f54aff36eba75176a5c408329b5d2153e8333e2a05fbf5b9e50ea26cd6976"
+  },
+  {
+    "id": "ch12.imaginary.hard.0007",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $(1+\\sqrt{-64})(1+\\sqrt{-81})$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$71+17i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-71-17i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-71+17i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-70+17i$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-71+17i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 71 + 17i",
+      "17i-71"
+    ],
+    "solution_latex": "This is $(1+8i)(1+9i)$. The real part is $1-8\\cdot 9=-71$ and the imaginary part is $8+9=17$, so the result is $-71+17i$.",
+    "complexity_factor": 1.2,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers",
+      "square-roots",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-5a699b2a40c1d16694bf27f2af67d012c05238a851dc26405ff8255ea385463c"
+  },
+  {
+    "id": "ch12.imaginary.hard.0008",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $i^{11}+i^{25}-i^{38}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$1+i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Reduce $11$, $25$, and $38$ modulo $4$, then combine the resulting values of $1$, $i$, $-1$, and $-i$ to get $1$.",
+    "complexity_factor": 1.2,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers"
+    ],
+    "status": "valid",
+    "checksum": "sha256-cdab5b8ea3a88f898417562a0f27083780abed424301634d37653c0c1b41cb34"
+  },
+  {
+    "id": "ch12.imaginary.hard.0009",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $(1+\\sqrt{-100})(1+\\sqrt{-121})$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-109+21i$"
+      },
+      {
+        "id": "b",
+        "latex": "$109+21i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-109-21i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-108+21i$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-109+21i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 109 + 21i",
+      "21i-109"
+    ],
+    "solution_latex": "This is $(1+10i)(1+11i)$. The real part is $1-10\\cdot 11=-109$ and the imaginary part is $10+11=21$, so the result is $-109+21i$.",
+    "complexity_factor": 1.2,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers",
+      "square-roots",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-558050370a0e758cbf93bbe317f3619356655623e6d3f024b1c45b5037eb827a"
+  },
+  {
+    "id": "ch12.imaginary.hard.0010",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $i^{13}+i^{29}-i^{44}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1+2i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1+3i$"
+      },
+      {
+        "id": "d",
+        "latex": "$1-2i$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-1+2i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 1 + 2i",
+      "2i-1"
+    ],
+    "solution_latex": "Reduce $13$, $29$, and $44$ modulo $4$, then combine the resulting values of $1$, $i$, $-1$, and $-i$ to get $-1+2i$.",
+    "complexity_factor": 1.2,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers"
+    ],
+    "status": "valid",
+    "checksum": "sha256-a6df0099e439ae649dbcfda9eb61d9dc8c157b2048a693cab1f9d6988caa7b48"
+  },
+  {
+    "id": "ch12.imaginary.hard.0011",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $(1+\\sqrt{-144})(1+\\sqrt{-169})$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$155+25i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-155-25i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-155+25i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-154+25i$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-155+25i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 155 + 25i",
+      "25i-155"
+    ],
+    "solution_latex": "This is $(1+12i)(1+13i)$. The real part is $1-12\\cdot 13=-155$ and the imaginary part is $12+13=25$, so the result is $-155+25i$.",
+    "complexity_factor": 1.2,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers",
+      "square-roots",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-590be0ab5738285bec9cf90b704d7f44076319f9453f64ed16d7f3dec9febbe3"
+  },
+  {
+    "id": "ch12.imaginary.hard.0012",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $i^{15}+i^{33}-i^{50}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$1+i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Reduce $15$, $33$, and $50$ modulo $4$, then combine the resulting values of $1$, $i$, $-1$, and $-i$ to get $1$.",
+    "complexity_factor": 1.2,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers"
+    ],
+    "status": "valid",
+    "checksum": "sha256-9694c1a263e57377f795127e05ebb293073352f56ec7758be48fb04cb002115d"
+  },
+  {
+    "id": "ch12.imaginary.hard.0013",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $(1+\\sqrt{-196})(1+\\sqrt{-225})$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-209+29i$"
+      },
+      {
+        "id": "b",
+        "latex": "$209+29i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-209-29i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-208+29i$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-209+29i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 209 + 29i",
+      "29i-209"
+    ],
+    "solution_latex": "This is $(1+14i)(1+15i)$. The real part is $1-14\\cdot 15=-209$ and the imaginary part is $14+15=29$, so the result is $-209+29i$.",
+    "complexity_factor": 1.2,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers",
+      "square-roots",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-72b825475b47390188df7f056aef2848f418ff2b840e3786d26123b7d2268a30"
+  },
+  {
+    "id": "ch12.imaginary.hard.0014",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $i^{17}+i^{37}-i^{56}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1+2i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1+3i$"
+      },
+      {
+        "id": "d",
+        "latex": "$1-2i$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-1+2i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 1 + 2i",
+      "2i-1"
+    ],
+    "solution_latex": "Reduce $17$, $37$, and $56$ modulo $4$, then combine the resulting values of $1$, $i$, $-1$, and $-i$ to get $-1+2i$.",
+    "complexity_factor": 1.2,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers"
+    ],
+    "status": "valid",
+    "checksum": "sha256-0b412cf051d1640af4654e94eae26b4545bc778788de8338c68277ddbd3c5738"
+  },
+  {
+    "id": "ch12.imaginary.hard.0015",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $(1+\\sqrt{-256})(1+\\sqrt{-289})$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$271+33i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-271-33i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-271+33i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-270+33i$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-271+33i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 271 + 33i",
+      "33i-271"
+    ],
+    "solution_latex": "This is $(1+16i)(1+17i)$. The real part is $1-16\\cdot 17=-271$ and the imaginary part is $16+17=33$, so the result is $-271+33i$.",
+    "complexity_factor": 1.2,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers",
+      "square-roots",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-31213e37c6245d53bcd81dd8a6d0f50899e3f969378e572870e7def8c316f398"
+  },
+  {
+    "id": "ch12.imaginary.hard.0016",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $i^{19}+i^{41}-i^{62}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$1+i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Reduce $19$, $41$, and $62$ modulo $4$, then combine the resulting values of $1$, $i$, $-1$, and $-i$ to get $1$.",
+    "complexity_factor": 1.2,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers"
+    ],
+    "status": "valid",
+    "checksum": "sha256-935f947274ff7df309dbd61457c4e74149561500596fb5e90d7af53127f6a337"
+  },
+  {
+    "id": "ch12.imaginary.hard.0017",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $(1+\\sqrt{-324})(1+\\sqrt{-361})$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-341+37i$"
+      },
+      {
+        "id": "b",
+        "latex": "$341+37i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-341-37i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-340+37i$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-341+37i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 341 + 37i",
+      "37i-341"
+    ],
+    "solution_latex": "This is $(1+18i)(1+19i)$. The real part is $1-18\\cdot 19=-341$ and the imaginary part is $18+19=37$, so the result is $-341+37i$.",
+    "complexity_factor": 1.2,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers",
+      "square-roots",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-605e3e00e08adaba2f362202afcb4a29dd5ece308860ce8987e45fc194ec73c8"
+  },
+  {
+    "id": "ch12.imaginary.hard.0018",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $i^{21}+i^{45}-i^{68}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1+2i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1+3i$"
+      },
+      {
+        "id": "d",
+        "latex": "$1-2i$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-1+2i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 1 + 2i",
+      "2i-1"
+    ],
+    "solution_latex": "Reduce $21$, $45$, and $68$ modulo $4$, then combine the resulting values of $1$, $i$, $-1$, and $-i$ to get $-1+2i$.",
+    "complexity_factor": 1.2,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers"
+    ],
+    "status": "valid",
+    "checksum": "sha256-a75b01f523936e0ad589f843558955ce40c9d48347f4e596fc95add014cd87af"
+  },
+  {
+    "id": "ch12.imaginary.hard.0019",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $(1+\\sqrt{-400})(1+\\sqrt{-441})$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$419+41i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-419-41i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-419+41i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-418+41i$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-419+41i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 419 + 41i",
+      "41i-419"
+    ],
+    "solution_latex": "This is $(1+20i)(1+21i)$. The real part is $1-20\\cdot 21=-419$ and the imaginary part is $20+21=41$, so the result is $-419+41i$.",
+    "complexity_factor": 1.2,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers",
+      "square-roots",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-c679f479e86d435545ccd9b83457b3281bbc3e62eec5ffa662aeff406a60bb48"
+  },
+  {
+    "id": "ch12.imaginary.hard.0020",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $i^{23}+i^{49}-i^{74}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$1+i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Reduce $23$, $49$, and $74$ modulo $4$, then combine the resulting values of $1$, $i$, $-1$, and $-i$ to get $1$.",
+    "complexity_factor": 1.2,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers"
+    ],
+    "status": "valid",
+    "checksum": "sha256-6064df4715687a632a65f04ca30e97e276135011e7a9a0aac59ff47e4282c168"
+  },
+  {
+    "id": "ch12.imaginary.hard.0021",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $(1+\\sqrt{-484})(1+\\sqrt{-529})$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-505+45i$"
+      },
+      {
+        "id": "b",
+        "latex": "$505+45i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-505-45i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-504+45i$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-505+45i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 505 + 45i",
+      "45i-505"
+    ],
+    "solution_latex": "This is $(1+22i)(1+23i)$. The real part is $1-22\\cdot 23=-505$ and the imaginary part is $22+23=45$, so the result is $-505+45i$.",
+    "complexity_factor": 1.2,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers",
+      "square-roots",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-f40fdd76abfe287804c6c8ddb4318c7462ca9ed6d58bcf5fbab7519fed851518"
+  },
+  {
+    "id": "ch12.imaginary.hard.0022",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $i^{25}+i^{53}-i^{80}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1+2i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1+3i$"
+      },
+      {
+        "id": "d",
+        "latex": "$1-2i$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-1+2i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 1 + 2i",
+      "2i-1"
+    ],
+    "solution_latex": "Reduce $25$, $53$, and $80$ modulo $4$, then combine the resulting values of $1$, $i$, $-1$, and $-i$ to get $-1+2i$.",
+    "complexity_factor": 1.2,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers"
+    ],
+    "status": "valid",
+    "checksum": "sha256-2fdff234d62673cd356b59e46ef39d75e7a98e5e21651140f8cc8c8d32cd5886"
+  },
+  {
+    "id": "ch12.imaginary.hard.0023",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $(1+\\sqrt{-576})(1+\\sqrt{-625})$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$599+49i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-599-49i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-599+49i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-598+49i$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-599+49i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 599 + 49i",
+      "49i-599"
+    ],
+    "solution_latex": "This is $(1+24i)(1+25i)$. The real part is $1-24\\cdot 25=-599$ and the imaginary part is $24+25=49$, so the result is $-599+49i$.",
+    "complexity_factor": 1.2,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers",
+      "square-roots",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-27bf5b8202400df0356f049dd06e6b040c892db1903033654c1a6d8a3286ac87"
+  },
+  {
+    "id": "ch12.imaginary.hard.0024",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $i^{27}+i^{57}-i^{86}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$1+i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Reduce $27$, $57$, and $86$ modulo $4$, then combine the resulting values of $1$, $i$, $-1$, and $-i$ to get $1$.",
+    "complexity_factor": 1.2,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers"
+    ],
+    "status": "valid",
+    "checksum": "sha256-6eca13d0f74fe543153c465b7ff8c1978b9c14d56a61a92583d39e617a3d1831"
+  },
+  {
+    "id": "ch12.imaginary.hard.0025",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $(1+\\sqrt{-676})(1+\\sqrt{-729})$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-701+53i$"
+      },
+      {
+        "id": "b",
+        "latex": "$701+53i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-701-53i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-700+53i$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-701+53i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 701 + 53i",
+      "53i-701"
+    ],
+    "solution_latex": "This is $(1+26i)(1+27i)$. The real part is $1-26\\cdot 27=-701$ and the imaginary part is $26+27=53$, so the result is $-701+53i$.",
+    "complexity_factor": 1.2,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers",
+      "square-roots",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-b3d89fe0c50cb26bad3956098e305c6f5e1816c2dbf018bcdb3574dfd68fd34d"
+  },
+  {
+    "id": "ch12.imaginary.hard.0026",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $i^{29}+i^{61}-i^{92}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1+2i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1+3i$"
+      },
+      {
+        "id": "d",
+        "latex": "$1-2i$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-1+2i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 1 + 2i",
+      "2i-1"
+    ],
+    "solution_latex": "Reduce $29$, $61$, and $92$ modulo $4$, then combine the resulting values of $1$, $i$, $-1$, and $-i$ to get $-1+2i$.",
+    "complexity_factor": 1.2,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers"
+    ],
+    "status": "valid",
+    "checksum": "sha256-22f5191cb7a8925204253383fe9493046d657593dcebd7d03128135a1ee61e7c"
+  },
+  {
+    "id": "ch12.imaginary.hard.0027",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $(1+\\sqrt{-784})(1+\\sqrt{-841})$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$811+57i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-811-57i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-811+57i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-810+57i$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-811+57i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 811 + 57i",
+      "57i-811"
+    ],
+    "solution_latex": "This is $(1+28i)(1+29i)$. The real part is $1-28\\cdot 29=-811$ and the imaginary part is $28+29=57$, so the result is $-811+57i$.",
+    "complexity_factor": 1.2,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers",
+      "square-roots",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-d197463fd8196e755d09479f42849bd75b148ed9a7d80d7687253681ed9b3e49"
+  },
+  {
+    "id": "ch12.imaginary.hard.0028",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $i^{31}+i^{65}-i^{98}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$1+i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Reduce $31$, $65$, and $98$ modulo $4$, then combine the resulting values of $1$, $i$, $-1$, and $-i$ to get $1$.",
+    "complexity_factor": 1.2,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers"
+    ],
+    "status": "valid",
+    "checksum": "sha256-38d14a919e65a5880fd0b817927ae90ff2f3a2eb36ee7d940bccdc830ecd26cd"
+  },
+  {
+    "id": "ch12.imaginary.hard.0029",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $(1+\\sqrt{-900})(1+\\sqrt{-961})$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-929+61i$"
+      },
+      {
+        "id": "b",
+        "latex": "$929+61i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-929-61i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-928+61i$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-929+61i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 929 + 61i",
+      "61i-929"
+    ],
+    "solution_latex": "This is $(1+30i)(1+31i)$. The real part is $1-30\\cdot 31=-929$ and the imaginary part is $30+31=61$, so the result is $-929+61i$.",
+    "complexity_factor": 1.2,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers",
+      "square-roots",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-cf95cf4d016fbecfe73549971b8ae37c2ad8578a9a94c0d9b5aae88fa45eaa45"
+  },
+  {
+    "id": "ch12.imaginary.hard.0030",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $i^{33}+i^{69}-i^{104}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1+2i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1+3i$"
+      },
+      {
+        "id": "d",
+        "latex": "$1-2i$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-1+2i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 1 + 2i",
+      "2i-1"
+    ],
+    "solution_latex": "Reduce $33$, $69$, and $104$ modulo $4$, then combine the resulting values of $1$, $i$, $-1$, and $-i$ to get $-1+2i$.",
+    "complexity_factor": 1.2,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers"
+    ],
+    "status": "valid",
+    "checksum": "sha256-cce2fb56950c03400e1cbb7e521c302a7d49ae9ce85acc1784affe58c2b5caf4"
+  },
+  {
+    "id": "ch12.imaginary.hard.0031",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $(1+\\sqrt{-1024})(1+\\sqrt{-1089})$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1055+65i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1055-65i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1055+65i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1054+65i$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-1055+65i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 1055 + 65i",
+      "65i-1055"
+    ],
+    "solution_latex": "This is $(1+32i)(1+33i)$. The real part is $1-32\\cdot 33=-1055$ and the imaginary part is $32+33=65$, so the result is $-1055+65i$.",
+    "complexity_factor": 1.2,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers",
+      "square-roots",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-4bdc7443f6ab73ef7b2acb512be643430e579410d08d47a2bb79c4d08429b2e4"
+  },
+  {
+    "id": "ch12.imaginary.hard.0032",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $i^{35}+i^{73}-i^{110}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$1+i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Reduce $35$, $73$, and $110$ modulo $4$, then combine the resulting values of $1$, $i$, $-1$, and $-i$ to get $1$.",
+    "complexity_factor": 1.2,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers"
+    ],
+    "status": "valid",
+    "checksum": "sha256-4362536e96d622d647ac13401f38af4adb967227d892e7167e7f27cb7dac98ba"
+  },
+  {
+    "id": "ch12.imaginary.hard.0033",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $(1+\\sqrt{-1156})(1+\\sqrt{-1225})$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1189+69i$"
+      },
+      {
+        "id": "b",
+        "latex": "$1189+69i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1189-69i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1188+69i$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-1189+69i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 1189 + 69i",
+      "69i-1189"
+    ],
+    "solution_latex": "This is $(1+34i)(1+35i)$. The real part is $1-34\\cdot 35=-1189$ and the imaginary part is $34+35=69$, so the result is $-1189+69i$.",
+    "complexity_factor": 1.2,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers",
+      "square-roots",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-0fbaad99880ef429bac87c20568662eb18e5816dfb92939e4dd134c9e47f6e09"
+  },
+  {
+    "id": "ch12.imaginary.hard.0034",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $i^{37}+i^{77}-i^{116}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1+2i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1+3i$"
+      },
+      {
+        "id": "d",
+        "latex": "$1-2i$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-1+2i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 1 + 2i",
+      "2i-1"
+    ],
+    "solution_latex": "Reduce $37$, $77$, and $116$ modulo $4$, then combine the resulting values of $1$, $i$, $-1$, and $-i$ to get $-1+2i$.",
+    "complexity_factor": 1.2,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers"
+    ],
+    "status": "valid",
+    "checksum": "sha256-b559af134212ba457cb192d739a774bbac5ce8ecc65c5f87fc5d4c4c93e6c82e"
+  },
+  {
+    "id": "ch12.imaginary.hard.0035",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $(1+\\sqrt{-1296})(1+\\sqrt{-1369})$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1331+73i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1331-73i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1331+73i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1330+73i$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-1331+73i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 1331 + 73i",
+      "73i-1331"
+    ],
+    "solution_latex": "This is $(1+36i)(1+37i)$. The real part is $1-36\\cdot 37=-1331$ and the imaginary part is $36+37=73$, so the result is $-1331+73i$.",
+    "complexity_factor": 1.2,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers",
+      "square-roots",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-e807277235790d785670137c80c26e5662886a8812e5a8874f522dbad4ba6ce7"
+  },
+  {
+    "id": "ch12.imaginary.hard.0036",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $i^{39}+i^{81}-i^{122}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$1+i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Reduce $39$, $81$, and $122$ modulo $4$, then combine the resulting values of $1$, $i$, $-1$, and $-i$ to get $1$.",
+    "complexity_factor": 1.2,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers"
+    ],
+    "status": "valid",
+    "checksum": "sha256-03e895a4bda3c4902a65717fe34b477773a8a54e7112f6e08d7666d00213b2fb"
+  },
+  {
+    "id": "ch12.imaginary.hard.0037",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $(1+\\sqrt{-1444})(1+\\sqrt{-1521})$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1481+77i$"
+      },
+      {
+        "id": "b",
+        "latex": "$1481+77i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1481-77i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1480+77i$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-1481+77i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 1481 + 77i",
+      "77i-1481"
+    ],
+    "solution_latex": "This is $(1+38i)(1+39i)$. The real part is $1-38\\cdot 39=-1481$ and the imaginary part is $38+39=77$, so the result is $-1481+77i$.",
+    "complexity_factor": 1.2,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers",
+      "square-roots",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-791e9e4d1468d652d76c05395875e51ef48a15be424a9ffa99ddfe4c2a4bc265"
+  },
+  {
+    "id": "ch12.imaginary.hard.0038",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $i^{41}+i^{85}-i^{128}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1+2i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1+3i$"
+      },
+      {
+        "id": "d",
+        "latex": "$1-2i$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-1+2i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 1 + 2i",
+      "2i-1"
+    ],
+    "solution_latex": "Reduce $41$, $85$, and $128$ modulo $4$, then combine the resulting values of $1$, $i$, $-1$, and $-i$ to get $-1+2i$.",
+    "complexity_factor": 1.2,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers"
+    ],
+    "status": "valid",
+    "checksum": "sha256-35dfced7a1a354bbfc671e5cb5e7648078b02cd4dae06a9abc73925275d43f75"
+  },
+  {
+    "id": "ch12.imaginary.hard.0039",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $(1+\\sqrt{-1600})(1+\\sqrt{-1681})$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1639+81i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1639-81i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1639+81i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1638+81i$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-1639+81i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 1639 + 81i",
+      "81i-1639"
+    ],
+    "solution_latex": "This is $(1+40i)(1+41i)$. The real part is $1-40\\cdot 41=-1639$ and the imaginary part is $40+41=81$, so the result is $-1639+81i$.",
+    "complexity_factor": 1.2,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers",
+      "square-roots",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-5c3cf8734c587354f6a4fada12e72caff60bc68ed64da6e40f08153555b3675e"
+  },
+  {
+    "id": "ch12.imaginary.hard.0040",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $i^{43}+i^{89}-i^{134}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$1+i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Reduce $43$, $89$, and $134$ modulo $4$, then combine the resulting values of $1$, $i$, $-1$, and $-i$ to get $1$.",
+    "complexity_factor": 1.2,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers"
+    ],
+    "status": "valid",
+    "checksum": "sha256-07973c1067de75fd59ba751a2e44e0093d8f82c19a95e0b3841e35276ff11a92"
+  },
+  {
+    "id": "ch12.imaginary.hard.0041",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $(1+\\sqrt{-1764})(1+\\sqrt{-1849})$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1805+85i$"
+      },
+      {
+        "id": "b",
+        "latex": "$1805+85i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1805-85i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1804+85i$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-1805+85i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 1805 + 85i",
+      "85i-1805"
+    ],
+    "solution_latex": "This is $(1+42i)(1+43i)$. The real part is $1-42\\cdot 43=-1805$ and the imaginary part is $42+43=85$, so the result is $-1805+85i$.",
+    "complexity_factor": 1.2,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers",
+      "square-roots",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-99e57493bbfbc5f76b2a042c7ed984842622f7b006ba7d5cc06b3eb868d0486f"
+  },
+  {
+    "id": "ch12.imaginary.hard.0042",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $i^{45}+i^{93}-i^{140}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1+2i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1+3i$"
+      },
+      {
+        "id": "d",
+        "latex": "$1-2i$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-1+2i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 1 + 2i",
+      "2i-1"
+    ],
+    "solution_latex": "Reduce $45$, $93$, and $140$ modulo $4$, then combine the resulting values of $1$, $i$, $-1$, and $-i$ to get $-1+2i$.",
+    "complexity_factor": 1.2,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers"
+    ],
+    "status": "valid",
+    "checksum": "sha256-66b8e153e0c0d91365fb79c8606c76c8740b58e0af19b6a7117a196e83be0875"
+  },
+  {
+    "id": "ch12.imaginary.hard.0043",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $(1+\\sqrt{-1936})(1+\\sqrt{-2025})$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1979+89i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1979-89i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1979+89i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1978+89i$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-1979+89i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 1979 + 89i",
+      "89i-1979"
+    ],
+    "solution_latex": "This is $(1+44i)(1+45i)$. The real part is $1-44\\cdot 45=-1979$ and the imaginary part is $44+45=89$, so the result is $-1979+89i$.",
+    "complexity_factor": 1.2,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers",
+      "square-roots",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-0e8d5a4f47e433df7341f6b83c43198428eaad868e9a6801983e4daeaf5a1a7a"
+  },
+  {
+    "id": "ch12.imaginary.hard.0044",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $i^{47}+i^{97}-i^{146}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$1+i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Reduce $47$, $97$, and $146$ modulo $4$, then combine the resulting values of $1$, $i$, $-1$, and $-i$ to get $1$.",
+    "complexity_factor": 1.2,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers"
+    ],
+    "status": "valid",
+    "checksum": "sha256-ccdff3b050c3ed6c3dd28bc57589faf290f0d8a736888ffe95fea5875e174c9b"
+  },
+  {
+    "id": "ch12.imaginary.hard.0045",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $(1+\\sqrt{-2116})(1+\\sqrt{-2209})$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2161+93i$"
+      },
+      {
+        "id": "b",
+        "latex": "$2161+93i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2161-93i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2160+93i$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-2161+93i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 2161 + 93i",
+      "93i-2161"
+    ],
+    "solution_latex": "This is $(1+46i)(1+47i)$. The real part is $1-46\\cdot 47=-2161$ and the imaginary part is $46+47=93$, so the result is $-2161+93i$.",
+    "complexity_factor": 1.2,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers",
+      "square-roots",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-07efbbdda17c1c9f91f444792c36d3d1e581c2795b81a39c4c6701baf4e4e903"
+  },
+  {
+    "id": "ch12.imaginary.hard.0046",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $i^{49}+i^{101}-i^{152}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1+2i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1+3i$"
+      },
+      {
+        "id": "d",
+        "latex": "$1-2i$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-1+2i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 1 + 2i",
+      "2i-1"
+    ],
+    "solution_latex": "Reduce $49$, $101$, and $152$ modulo $4$, then combine the resulting values of $1$, $i$, $-1$, and $-i$ to get $-1+2i$.",
+    "complexity_factor": 1.2,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers"
+    ],
+    "status": "valid",
+    "checksum": "sha256-ba1a6d50c5d9401f3601e9d1e11b1abfc19d7fe46e9fd4453e11f3813b3984cd"
+  },
+  {
+    "id": "ch12.imaginary.hard.0047",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $(1+\\sqrt{-2304})(1+\\sqrt{-2401})$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2351+97i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2351-97i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2351+97i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2350+97i$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-2351+97i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 2351 + 97i",
+      "97i-2351"
+    ],
+    "solution_latex": "This is $(1+48i)(1+49i)$. The real part is $1-48\\cdot 49=-2351$ and the imaginary part is $48+49=97$, so the result is $-2351+97i$.",
+    "complexity_factor": 1.2,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers",
+      "square-roots",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-afdc4f30a9c5f2dc39fed8866970e392d297c9078d1eb9eb2cd1acecdc54056e"
+  },
+  {
+    "id": "ch12.imaginary.hard.0048",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $i^{51}+i^{105}-i^{158}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$1+i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Reduce $51$, $105$, and $158$ modulo $4$, then combine the resulting values of $1$, $i$, $-1$, and $-i$ to get $1$.",
+    "complexity_factor": 1.2,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers"
+    ],
+    "status": "valid",
+    "checksum": "sha256-f9a911a42013a2d16500d7b712f85f46952d4ad1c1297a2c7090a2a50f915687"
+  },
+  {
+    "id": "ch12.imaginary.hard.0049",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $(1+\\sqrt{-2500})(1+\\sqrt{-2601})$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2549+101i$"
+      },
+      {
+        "id": "b",
+        "latex": "$2549+101i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2549-101i$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2548+101i$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-2549+101i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 2549 + 101i",
+      "101i-2549"
+    ],
+    "solution_latex": "This is $(1+50i)(1+51i)$. The real part is $1-50\\cdot 51=-2549$ and the imaginary part is $50+51=101$, so the result is $-2549+101i$.",
+    "complexity_factor": 1.2,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers",
+      "square-roots",
+      "multiplication"
+    ],
+    "status": "valid",
+    "checksum": "sha256-ed1b55d36d00ec202446899459a5a227011b5f0083b0ad59683e2ab664b97631"
+  },
+  {
+    "id": "ch12.imaginary.hard.0050",
+    "topic_id": "ch12.imaginary",
+    "group_id": "ch12_complex",
+    "difficulty": "hard",
+    "prompt_latex": "Simplify $i^{53}+i^{109}-i^{164}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2i$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1+2i$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1+3i$"
+      },
+      {
+        "id": "d",
+        "latex": "$1-2i$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-1+2i",
+    "answer_type": "string",
+    "accepted_forms": [
+      "- 1 + 2i",
+      "2i-1"
+    ],
+    "solution_latex": "Reduce $53$, $109$, and $164$ modulo $4$, then combine the resulting values of $1$, $i$, $-1$, and $-i$ to get $-1+2i$.",
+    "complexity_factor": 1.2,
+    "source_section": "12.2",
+    "tags": [
+      "imaginary",
+      "i-powers"
+    ],
+    "status": "valid",
+    "checksum": "sha256-475b5dd6a6e22b13bd562dffd87e603d4ebc7a7fab13a79c9ec61cd6cd1857dd"
+  }
+]

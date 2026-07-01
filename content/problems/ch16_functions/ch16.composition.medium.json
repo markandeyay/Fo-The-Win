@@ -1,0 +1,2102 @@
+[
+  {
+    "id": "ch16.composition.medium.0001",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=2x - 6$ and $g(x)=5x - 5$. Which expression equals $f(g(x))$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7x - 11$"
+      },
+      {
+        "id": "b",
+        "latex": "$10x - 11$"
+      },
+      {
+        "id": "c",
+        "latex": "$10x - 16$"
+      },
+      {
+        "id": "d",
+        "latex": "$10x - 35$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "10x-16",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "10*x-16"
+    ],
+    "solution_latex": "Substitute $g(x)$ into $f$: $f(g(x))=2(5x - 5) - 6=10x - 16$.",
+    "complexity_factor": 1.2,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "expressions"
+    ],
+    "checksum": "sha256-cfc7c017d12f6e222dcc68ca10cbb99ad9760c9304199233b099f459bbf145bd",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.medium.0002",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=3x + 1$ and $g(x)=3x - 3$. Which expression equals $f(g(x))$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9x - 2$"
+      },
+      {
+        "id": "b",
+        "latex": "$9x - 8$"
+      },
+      {
+        "id": "c",
+        "latex": "$9x$"
+      },
+      {
+        "id": "d",
+        "latex": "$6x - 2$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "9x-8",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "9*x-8"
+    ],
+    "solution_latex": "Substitute $g(x)$ into $f$: $f(g(x))=3(3x - 3) + 1=9x - 8$.",
+    "complexity_factor": 1.2,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "expressions"
+    ],
+    "checksum": "sha256-7426de5da936446eca91dce1266964afd5a1033432373265f23b20abdd63eba1",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.medium.0003",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=4x + 7$ and $g(x)=-2x + 5$. Which expression equals $f(g(x))$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-8x + 27$"
+      },
+      {
+        "id": "b",
+        "latex": "$-8x - 9$"
+      },
+      {
+        "id": "c",
+        "latex": "$2x + 12$"
+      },
+      {
+        "id": "d",
+        "latex": "$-8x + 12$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-8x+27",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "-8*x+27"
+    ],
+    "solution_latex": "Substitute $g(x)$ into $f$: $f(g(x))=4(-2x + 5) + 7=-8x + 27$.",
+    "complexity_factor": 1.2,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "expressions"
+    ],
+    "checksum": "sha256-151ef19f42c2519dba2350d6806ca239478857b334b049bd196718efb033d405",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.medium.0004",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=-2x - 4$ and $g(x)=4x + 9$. Which expression equals $f(g(x))$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-8x - 7$"
+      },
+      {
+        "id": "b",
+        "latex": "$2x + 5$"
+      },
+      {
+        "id": "c",
+        "latex": "$-8x + 5$"
+      },
+      {
+        "id": "d",
+        "latex": "$-8x - 22$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-8x-22",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "-8*x-22"
+    ],
+    "solution_latex": "Substitute $g(x)$ into $f$: $f(g(x))=-2(4x + 9) - 4=-8x - 22$.",
+    "complexity_factor": 1.2,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "expressions"
+    ],
+    "checksum": "sha256-3d73df5ca5d81e4e674a4863457387c2b07f831ffece4e082b078ec1e5043302",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.medium.0005",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=-3x + 5$ and $g(x)=-4x - 10$. Which expression equals $f(g(x))$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-7x - 5$"
+      },
+      {
+        "id": "b",
+        "latex": "$12x - 5$"
+      },
+      {
+        "id": "c",
+        "latex": "$12x + 35$"
+      },
+      {
+        "id": "d",
+        "latex": "$12x - 30$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "12x+35",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "12*x+35"
+    ],
+    "solution_latex": "Substitute $g(x)$ into $f$: $f(g(x))=-3(-4x - 10) + 5=12x + 35$.",
+    "complexity_factor": 1.2,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "expressions"
+    ],
+    "checksum": "sha256-b980ddf4dca372c7a360631e1e226268762b916fb5854060ca1ef9337ad4e54a",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.medium.0006",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=3x - 8$ and $g(x)=8x - 8$. Which expression equals $f(g(x))$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$24x - 16$"
+      },
+      {
+        "id": "b",
+        "latex": "$24x - 32$"
+      },
+      {
+        "id": "c",
+        "latex": "$24x - 72$"
+      },
+      {
+        "id": "d",
+        "latex": "$11x - 16$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "24x-32",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "24*x-32"
+    ],
+    "solution_latex": "Substitute $g(x)$ into $f$: $f(g(x))=3(8x - 8) - 8=24x - 32$.",
+    "complexity_factor": 1.2,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "expressions"
+    ],
+    "checksum": "sha256-691f1522e61e12cec22d3d621aa94505902c5046df71a4ba9287244b5e21574e",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.medium.0007",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=4x + 3$ and $g(x)=6x + 10$. Which expression equals $f(g(x))$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$24x + 43$"
+      },
+      {
+        "id": "b",
+        "latex": "$24x + 28$"
+      },
+      {
+        "id": "c",
+        "latex": "$10x + 13$"
+      },
+      {
+        "id": "d",
+        "latex": "$24x + 13$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "24x+43",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "24*x+43"
+    ],
+    "solution_latex": "Substitute $g(x)$ into $f$: $f(g(x))=4(6x + 10) + 3=24x + 43$.",
+    "complexity_factor": 1.2,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "expressions"
+    ],
+    "checksum": "sha256-45a0b8f83df0c1ceb754d80ce46cf74c449d89d27d55085350202f67496f9934",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.medium.0008",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=5x + 9$ and $g(x)=-5x + 14$. Which expression equals $f(g(x))$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-25x - 31$"
+      },
+      {
+        "id": "b",
+        "latex": "$0x + 23$"
+      },
+      {
+        "id": "c",
+        "latex": "$-25x + 23$"
+      },
+      {
+        "id": "d",
+        "latex": "$-25x + 79$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-25x+79",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "-25*x+79"
+    ],
+    "solution_latex": "Substitute $g(x)$ into $f$: $f(g(x))=5(-5x + 14) + 9=-25x + 79$.",
+    "complexity_factor": 1.2,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "expressions"
+    ],
+    "checksum": "sha256-e948ad8ffcd8a3200a81ab65183cf3f4ed480b5241a5b92f5445f30bc37d2f09",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.medium.0009",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=-3x - 6$ and $g(x)=7x - 15$. Which expression equals $f(g(x))$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4x - 21$"
+      },
+      {
+        "id": "b",
+        "latex": "$-21x - 21$"
+      },
+      {
+        "id": "c",
+        "latex": "$-21x + 39$"
+      },
+      {
+        "id": "d",
+        "latex": "$-21x - 57$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-21x+39",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "-21*x+39"
+    ],
+    "solution_latex": "Substitute $g(x)$ into $f$: $f(g(x))=-3(7x - 15) - 6=-21x + 39$.",
+    "complexity_factor": 1.2,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "expressions"
+    ],
+    "checksum": "sha256-f248c485ebcc6552ce4704de3a5e4fb5c5336cd8fcf4e3b55430bf141a2ac43c",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.medium.0010",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=-4x + 7$ and $g(x)=-7x - 13$. Which expression equals $f(g(x))$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$28x - 6$"
+      },
+      {
+        "id": "b",
+        "latex": "$28x + 59$"
+      },
+      {
+        "id": "c",
+        "latex": "$28x - 62$"
+      },
+      {
+        "id": "d",
+        "latex": "$-11x - 6$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "28x+59",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "28*x+59"
+    ],
+    "solution_latex": "Substitute $g(x)$ into $f$: $f(g(x))=-4(-7x - 13) + 7=28x + 59$.",
+    "complexity_factor": 1.2,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "expressions"
+    ],
+    "checksum": "sha256-a051457e52d8bf04792dca92ab72323cdefb12988570d2757629b984359c05d5",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.medium.0011",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=4x - 10$ and $g(x)=11x + 15$. Which expression equals $f(g(x))$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$44x + 50$"
+      },
+      {
+        "id": "b",
+        "latex": "$44x - 95$"
+      },
+      {
+        "id": "c",
+        "latex": "$15x + 5$"
+      },
+      {
+        "id": "d",
+        "latex": "$44x + 5$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "44x+50",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "44*x+50"
+    ],
+    "solution_latex": "Substitute $g(x)$ into $f$: $f(g(x))=4(11x + 15) - 10=44x + 50$.",
+    "complexity_factor": 1.2,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "expressions"
+    ],
+    "checksum": "sha256-4dec79f93191f244322195f563fe47253974065d4755a92da9c7e4642768762f",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.medium.0012",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=5x + 5$ and $g(x)=9x + 19$. Which expression equals $f(g(x))$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$45x + 64$"
+      },
+      {
+        "id": "b",
+        "latex": "$14x + 24$"
+      },
+      {
+        "id": "c",
+        "latex": "$45x + 24$"
+      },
+      {
+        "id": "d",
+        "latex": "$45x + 100$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "45x+100",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "45*x+100"
+    ],
+    "solution_latex": "Substitute $g(x)$ into $f$: $f(g(x))=5(9x + 19) + 5=45x + 100$.",
+    "complexity_factor": 1.2,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "expressions"
+    ],
+    "checksum": "sha256-a4bdb12bdabbfae1405f034f6d410cf6252002168c20cc36c8c773765dba8a39",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.medium.0013",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=6x + 11$ and $g(x)=-8x - 20$. Which expression equals $f(g(x))$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2x - 9$"
+      },
+      {
+        "id": "b",
+        "latex": "$-48x - 9$"
+      },
+      {
+        "id": "c",
+        "latex": "$-48x - 109$"
+      },
+      {
+        "id": "d",
+        "latex": "$-48x - 108$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-48x-109",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "-48*x-109"
+    ],
+    "solution_latex": "Substitute $g(x)$ into $f$: $f(g(x))=6(-8x - 20) + 11=-48x - 109$.",
+    "complexity_factor": 1.2,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "expressions"
+    ],
+    "checksum": "sha256-47542bb5126d3ac24825f98c389d6886f56915e5abef515d419533247cf0ba38",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.medium.0014",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=-4x - 8$ and $g(x)=10x - 18$. Which expression equals $f(g(x))$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-40x - 26$"
+      },
+      {
+        "id": "b",
+        "latex": "$-40x + 64$"
+      },
+      {
+        "id": "c",
+        "latex": "$-40x - 98$"
+      },
+      {
+        "id": "d",
+        "latex": "$6x - 26$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-40x+64",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "-40*x+64"
+    ],
+    "solution_latex": "Substitute $g(x)$ into $f$: $f(g(x))=-4(10x - 18) - 8=-40x + 64$.",
+    "complexity_factor": 1.2,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "expressions"
+    ],
+    "checksum": "sha256-5b0a8279f490d7743891c8c074aeda14b5fec6797d368dd40b4489d434202852",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.medium.0015",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=-5x + 9$ and $g(x)=-10x + 20$. Which expression equals $f(g(x))$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$50x - 91$"
+      },
+      {
+        "id": "b",
+        "latex": "$50x - 70$"
+      },
+      {
+        "id": "c",
+        "latex": "$-15x + 29$"
+      },
+      {
+        "id": "d",
+        "latex": "$50x + 29$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "50x-91",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "50*x-91"
+    ],
+    "solution_latex": "Substitute $g(x)$ into $f$: $f(g(x))=-5(-10x + 20) + 9=50x - 91$.",
+    "complexity_factor": 1.2,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "expressions"
+    ],
+    "checksum": "sha256-4551bd2c98bb7c51b7c66777661279d40a412ac9b65a946a6d194c3c96abe12a",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.medium.0016",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=5x - 12$ and $g(x)=14x + 24$. Which expression equals $f(g(x))$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$70x - 144$"
+      },
+      {
+        "id": "b",
+        "latex": "$19x + 12$"
+      },
+      {
+        "id": "c",
+        "latex": "$70x + 12$"
+      },
+      {
+        "id": "d",
+        "latex": "$70x + 108$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "70x+108",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "70*x+108"
+    ],
+    "solution_latex": "Substitute $g(x)$ into $f$: $f(g(x))=5(14x + 24) - 12=70x + 108$.",
+    "complexity_factor": 1.2,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "expressions"
+    ],
+    "checksum": "sha256-4772e5ddd09c157cfef73cdcad368c6f6aa7259d31759538826648c45a90fe8b",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.medium.0017",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=6x + 7$ and $g(x)=12x - 25$. Which expression equals $f(g(x))$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$18x - 18$"
+      },
+      {
+        "id": "b",
+        "latex": "$72x - 18$"
+      },
+      {
+        "id": "c",
+        "latex": "$72x - 143$"
+      },
+      {
+        "id": "d",
+        "latex": "$72x + 59$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "72x-143",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "72*x-143"
+    ],
+    "solution_latex": "Substitute $g(x)$ into $f$: $f(g(x))=6(12x - 25) + 7=72x - 143$.",
+    "complexity_factor": 1.2,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "expressions"
+    ],
+    "checksum": "sha256-27856b6371c73314437c1925b1563e68cbc98bc026b6403856fcbcc695353623",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.medium.0018",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=7x + 13$ and $g(x)=-11x - 23$. Which expression equals $f(g(x))$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-77x - 10$"
+      },
+      {
+        "id": "b",
+        "latex": "$-77x - 148$"
+      },
+      {
+        "id": "c",
+        "latex": "$-77x - 166$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4x - 10$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-77x-148",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "-77*x-148"
+    ],
+    "solution_latex": "Substitute $g(x)$ into $f$: $f(g(x))=7(-11x - 23) + 13=-77x - 148$.",
+    "complexity_factor": 1.2,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "expressions"
+    ],
+    "checksum": "sha256-3a355b9a409d4d98170eb91a50f9ce86bfb2e4b04215e6f7b25aaa33ad9697e4",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.medium.0019",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=-5x - 10$ and $g(x)=13x + 25$. Which expression equals $f(g(x))$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-65x - 135$"
+      },
+      {
+        "id": "b",
+        "latex": "$-65x - 105$"
+      },
+      {
+        "id": "c",
+        "latex": "$8x + 15$"
+      },
+      {
+        "id": "d",
+        "latex": "$-65x + 15$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-65x-135",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "-65*x-135"
+    ],
+    "solution_latex": "Substitute $g(x)$ into $f$: $f(g(x))=-5(13x + 25) - 10=-65x - 135$.",
+    "complexity_factor": 1.2,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "expressions"
+    ],
+    "checksum": "sha256-c6b548dc6731362fb354dbf7cbe8417bcbebe291b25e659ed25f9e96a5a1f29f",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.medium.0020",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=-6x + 11$ and $g(x)=-13x + 29$. Which expression equals $f(g(x))$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$78x - 114$"
+      },
+      {
+        "id": "b",
+        "latex": "$-19x + 40$"
+      },
+      {
+        "id": "c",
+        "latex": "$78x + 40$"
+      },
+      {
+        "id": "d",
+        "latex": "$78x - 163$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "78x-163",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "78*x-163"
+    ],
+    "solution_latex": "Substitute $g(x)$ into $f$: $f(g(x))=-6(-13x + 29) + 11=78x - 163$.",
+    "complexity_factor": 1.2,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "expressions"
+    ],
+    "checksum": "sha256-1e16f081a4f2f6d7a19102da3d6eea4e436ffe103a3490bac5f54efcf438190b",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.medium.0021",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=6x - 14$ and $g(x)=17x - 30$. Which expression equals $f(g(x))$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$23x - 44$"
+      },
+      {
+        "id": "b",
+        "latex": "$102x - 44$"
+      },
+      {
+        "id": "c",
+        "latex": "$102x - 194$"
+      },
+      {
+        "id": "d",
+        "latex": "$102x - 268$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "102x-194",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "102*x-194"
+    ],
+    "solution_latex": "Substitute $g(x)$ into $f$: $f(g(x))=6(17x - 30) - 14=102x - 194$.",
+    "complexity_factor": 1.2,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "expressions"
+    ],
+    "checksum": "sha256-f9c961f888acbdd66e1b99695e7dbd677e56b12c97d602dfa89389c5f211e833",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.medium.0022",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=7x + 9$ and $g(x)=15x - 28$. Which expression equals $f(g(x))$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$105x - 19$"
+      },
+      {
+        "id": "b",
+        "latex": "$105x - 187$"
+      },
+      {
+        "id": "c",
+        "latex": "$105x + 107$"
+      },
+      {
+        "id": "d",
+        "latex": "$22x - 19$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "105x-187",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "105*x-187"
+    ],
+    "solution_latex": "Substitute $g(x)$ into $f$: $f(g(x))=7(15x - 28) + 9=105x - 187$.",
+    "complexity_factor": 1.2,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "expressions"
+    ],
+    "checksum": "sha256-7b7123447a27666a3cb178bd9de68f256404094bca5f5d3947f31cb0b17b84d5",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.medium.0023",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=8x + 15$ and $g(x)=-14x + 30$. Which expression equals $f(g(x))$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-112x + 255$"
+      },
+      {
+        "id": "b",
+        "latex": "$-112x - 180$"
+      },
+      {
+        "id": "c",
+        "latex": "$-6x + 45$"
+      },
+      {
+        "id": "d",
+        "latex": "$-112x + 45$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-112x+255",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "-112*x+255"
+    ],
+    "solution_latex": "Substitute $g(x)$ into $f$: $f(g(x))=8(-14x + 30) + 15=-112x + 255$.",
+    "complexity_factor": 1.2,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "expressions"
+    ],
+    "checksum": "sha256-b690738bad403c781d99fed41cdbd3450f30cdc02d6264f8504260978198a404",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.medium.0024",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=-6x - 12$ and $g(x)=16x + 34$. Which expression equals $f(g(x))$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-96x - 158$"
+      },
+      {
+        "id": "b",
+        "latex": "$10x + 22$"
+      },
+      {
+        "id": "c",
+        "latex": "$-96x + 22$"
+      },
+      {
+        "id": "d",
+        "latex": "$-96x - 216$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-96x-216",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "-96*x-216"
+    ],
+    "solution_latex": "Substitute $g(x)$ into $f$: $f(g(x))=-6(16x + 34) - 12=-96x - 216$.",
+    "complexity_factor": 1.2,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "expressions"
+    ],
+    "checksum": "sha256-9a359aada03b61d1b715e1ee59005b4e1bbc162eedc2842089ae6cf4a0577311",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.medium.0025",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=-7x + 13$ and $g(x)=-16x - 35$. Which expression equals $f(g(x))$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-23x - 22$"
+      },
+      {
+        "id": "b",
+        "latex": "$112x - 22$"
+      },
+      {
+        "id": "c",
+        "latex": "$112x + 258$"
+      },
+      {
+        "id": "d",
+        "latex": "$112x - 243$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "112x+258",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "112*x+258"
+    ],
+    "solution_latex": "Substitute $g(x)$ into $f$: $f(g(x))=-7(-16x - 35) + 13=112x + 258$.",
+    "complexity_factor": 1.2,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "expressions"
+    ],
+    "checksum": "sha256-2d3be7bd9c266a78915ef1b2da5410b66256dcae5d6a7c945e1fe78812c8b343",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.medium.0026",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=7x - 16$ and $g(x)=20x - 33$. Which expression equals $f(g(x))$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$140x - 49$"
+      },
+      {
+        "id": "b",
+        "latex": "$140x - 247$"
+      },
+      {
+        "id": "c",
+        "latex": "$140x - 353$"
+      },
+      {
+        "id": "d",
+        "latex": "$27x - 49$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "140x-247",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "140*x-247"
+    ],
+    "solution_latex": "Substitute $g(x)$ into $f$: $f(g(x))=7(20x - 33) - 16=140x - 247$.",
+    "complexity_factor": 1.2,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "expressions"
+    ],
+    "checksum": "sha256-6bec681cf565ba545fe2f39df837626afa1a2d681e1f1932d9d4a5b926f461c7",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.medium.0027",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=8x + 11$ and $g(x)=18x + 35$. Which expression equals $f(g(x))$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$144x + 291$"
+      },
+      {
+        "id": "b",
+        "latex": "$144x + 233$"
+      },
+      {
+        "id": "c",
+        "latex": "$26x + 46$"
+      },
+      {
+        "id": "d",
+        "latex": "$144x + 46$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "144x+291",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "144*x+291"
+    ],
+    "solution_latex": "Substitute $g(x)$ into $f$: $f(g(x))=8(18x + 35) + 11=144x + 291$.",
+    "complexity_factor": 1.2,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "expressions"
+    ],
+    "checksum": "sha256-e8119a7b78fc72566f020ba73b2f0edba2f208d89132a217751eac558b5b8b60",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.medium.0028",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=9x + 17$ and $g(x)=-17x + 39$. Which expression equals $f(g(x))$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-153x - 250$"
+      },
+      {
+        "id": "b",
+        "latex": "$-8x + 56$"
+      },
+      {
+        "id": "c",
+        "latex": "$-153x + 56$"
+      },
+      {
+        "id": "d",
+        "latex": "$-153x + 368$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-153x+368",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "-153*x+368"
+    ],
+    "solution_latex": "Substitute $g(x)$ into $f$: $f(g(x))=9(-17x + 39) + 17=-153x + 368$.",
+    "complexity_factor": 1.2,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "expressions"
+    ],
+    "checksum": "sha256-b9e3ad6f5c41e27502d24738284f06bad3faf6cc84900294ca5b67954eb439a9",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.medium.0029",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=-7x - 14$ and $g(x)=19x - 40$. Which expression equals $f(g(x))$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12x - 54$"
+      },
+      {
+        "id": "b",
+        "latex": "$-133x - 54$"
+      },
+      {
+        "id": "c",
+        "latex": "$-133x + 266$"
+      },
+      {
+        "id": "d",
+        "latex": "$-133x - 306$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-133x+266",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "-133*x+266"
+    ],
+    "solution_latex": "Substitute $g(x)$ into $f$: $f(g(x))=-7(19x - 40) - 14=-133x + 266$.",
+    "complexity_factor": 1.2,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "expressions"
+    ],
+    "checksum": "sha256-7952e1c853b12e180c81d613483aada72f2e1b480445c9badfcc4858a790bc33",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.medium.0030",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=-8x + 15$ and $g(x)=-19x - 38$. Which expression equals $f(g(x))$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$152x - 23$"
+      },
+      {
+        "id": "b",
+        "latex": "$152x + 319$"
+      },
+      {
+        "id": "c",
+        "latex": "$152x - 323$"
+      },
+      {
+        "id": "d",
+        "latex": "$-27x - 23$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "152x+319",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "152*x+319"
+    ],
+    "solution_latex": "Substitute $g(x)$ into $f$: $f(g(x))=-8(-19x - 38) + 15=152x + 319$.",
+    "complexity_factor": 1.2,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "expressions"
+    ],
+    "checksum": "sha256-dc6f182c865be63dcc117da77d00e42bdbecdf2e78bab2c7aa128a3b5066592b",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.medium.0031",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=8x - 18$ and $g(x)=23x + 40$. Which expression equals $f(g(x))$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$184x + 302$"
+      },
+      {
+        "id": "b",
+        "latex": "$184x - 374$"
+      },
+      {
+        "id": "c",
+        "latex": "$31x + 22$"
+      },
+      {
+        "id": "d",
+        "latex": "$184x + 22$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "184x+302",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "184*x+302"
+    ],
+    "solution_latex": "Substitute $g(x)$ into $f$: $f(g(x))=8(23x + 40) - 18=184x + 302$.",
+    "complexity_factor": 1.2,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "expressions"
+    ],
+    "checksum": "sha256-24deaa8ec7e3522a88cecc3006dfcbd0e6c13d96f3a9316ce85d5a0ad6acf6d4",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.medium.0032",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=9x + 13$ and $g(x)=21x + 44$. Which expression equals $f(g(x))$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$189x + 317$"
+      },
+      {
+        "id": "b",
+        "latex": "$30x + 57$"
+      },
+      {
+        "id": "c",
+        "latex": "$189x + 57$"
+      },
+      {
+        "id": "d",
+        "latex": "$189x + 409$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "189x+409",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "189*x+409"
+    ],
+    "solution_latex": "Substitute $g(x)$ into $f$: $f(g(x))=9(21x + 44) + 13=189x + 409$.",
+    "complexity_factor": 1.2,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "expressions"
+    ],
+    "checksum": "sha256-0f21cf049d433fc297d22f9d8ac9ead8d13d68274dbd6c529e579498c6a85dd8",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.medium.0033",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=10x + 19$ and $g(x)=-20x - 45$. Which expression equals $f(g(x))$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-10x - 26$"
+      },
+      {
+        "id": "b",
+        "latex": "$-200x - 26$"
+      },
+      {
+        "id": "c",
+        "latex": "$-200x - 431$"
+      },
+      {
+        "id": "d",
+        "latex": "$-200x - 425$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-200x-431",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "-200*x-431"
+    ],
+    "solution_latex": "Substitute $g(x)$ into $f$: $f(g(x))=10(-20x - 45) + 19=-200x - 431$.",
+    "complexity_factor": 1.2,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "expressions"
+    ],
+    "checksum": "sha256-0b499620c827ef0358178a3d6c2ebf3a8ce4275bd3e3e06509922a7f9eab8578",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.medium.0034",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=-8x - 16$ and $g(x)=22x - 43$. Which expression equals $f(g(x))$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-176x - 59$"
+      },
+      {
+        "id": "b",
+        "latex": "$-176x + 328$"
+      },
+      {
+        "id": "c",
+        "latex": "$-176x - 395$"
+      },
+      {
+        "id": "d",
+        "latex": "$14x - 59$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-176x+328",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "-176*x+328"
+    ],
+    "solution_latex": "Substitute $g(x)$ into $f$: $f(g(x))=-8(22x - 43) - 16=-176x + 328$.",
+    "complexity_factor": 1.2,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "expressions"
+    ],
+    "checksum": "sha256-fa0058b412c49e8d50508ddd7817d6ae260a85ff438c5cabc41df5f0305d3cc3",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.medium.0035",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=-9x + 17$ and $g(x)=-22x + 45$. Which expression equals $f(g(x))$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$198x - 388$"
+      },
+      {
+        "id": "b",
+        "latex": "$198x - 329$"
+      },
+      {
+        "id": "c",
+        "latex": "$-31x + 62$"
+      },
+      {
+        "id": "d",
+        "latex": "$198x + 62$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "198x-388",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "198*x-388"
+    ],
+    "solution_latex": "Substitute $g(x)$ into $f$: $f(g(x))=-9(-22x + 45) + 17=198x - 388$.",
+    "complexity_factor": 1.2,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "expressions"
+    ],
+    "checksum": "sha256-840e467b59030c501fd13d7d2910079167dc728036176610ac1dcc95db32b996",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.medium.0036",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=9x - 20$ and $g(x)=26x + 49$. Which expression equals $f(g(x))$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$234x - 471$"
+      },
+      {
+        "id": "b",
+        "latex": "$35x + 29$"
+      },
+      {
+        "id": "c",
+        "latex": "$234x + 29$"
+      },
+      {
+        "id": "d",
+        "latex": "$234x + 421$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "234x+421",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "234*x+421"
+    ],
+    "solution_latex": "Substitute $g(x)$ into $f$: $f(g(x))=9(26x + 49) - 20=234x + 421$.",
+    "complexity_factor": 1.2,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "expressions"
+    ],
+    "checksum": "sha256-1cf8dd953f8c97686a9229978f2b6f8a2e6de0467053ad031a3ce5d625d81682",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.medium.0037",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=10x + 15$ and $g(x)=24x - 50$. Which expression equals $f(g(x))$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$34x - 35$"
+      },
+      {
+        "id": "b",
+        "latex": "$240x - 35$"
+      },
+      {
+        "id": "c",
+        "latex": "$240x - 485$"
+      },
+      {
+        "id": "d",
+        "latex": "$240x + 310$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "240x-485",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "240*x-485"
+    ],
+    "solution_latex": "Substitute $g(x)$ into $f$: $f(g(x))=10(24x - 50) + 15=240x - 485$.",
+    "complexity_factor": 1.2,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "expressions"
+    ],
+    "checksum": "sha256-efae0ac7f041952093bb2480a799ab72d975b1d109d5bfd5c7d2518c11aac268",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.medium.0038",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=11x + 21$ and $g(x)=-23x - 48$. Which expression equals $f(g(x))$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-253x - 27$"
+      },
+      {
+        "id": "b",
+        "latex": "$-253x - 507$"
+      },
+      {
+        "id": "c",
+        "latex": "$-253x - 531$"
+      },
+      {
+        "id": "d",
+        "latex": "$-12x - 27$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-253x-507",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "-253*x-507"
+    ],
+    "solution_latex": "Substitute $g(x)$ into $f$: $f(g(x))=11(-23x - 48) + 21=-253x - 507$.",
+    "complexity_factor": 1.2,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "expressions"
+    ],
+    "checksum": "sha256-ad82d8ca91e3b11e37e06d940215e34c7165a6749c2082b2e81c0d12d6a13c9a",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.medium.0039",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=-9x - 18$ and $g(x)=25x + 50$. Which expression equals $f(g(x))$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-225x - 468$"
+      },
+      {
+        "id": "b",
+        "latex": "$-225x - 400$"
+      },
+      {
+        "id": "c",
+        "latex": "$16x + 32$"
+      },
+      {
+        "id": "d",
+        "latex": "$-225x + 32$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-225x-468",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "-225*x-468"
+    ],
+    "solution_latex": "Substitute $g(x)$ into $f$: $f(g(x))=-9(25x + 50) - 18=-225x - 468$.",
+    "complexity_factor": 1.2,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "expressions"
+    ],
+    "checksum": "sha256-696b534dc8ae6d4deaebda75ec961a220f57d1e5b76d1e3b0fb718eaf078d8ce",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.medium.0040",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=-10x + 19$ and $g(x)=-25x + 54$. Which expression equals $f(g(x))$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$250x - 421$"
+      },
+      {
+        "id": "b",
+        "latex": "$-35x + 73$"
+      },
+      {
+        "id": "c",
+        "latex": "$250x + 73$"
+      },
+      {
+        "id": "d",
+        "latex": "$250x - 521$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "250x-521",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "250*x-521"
+    ],
+    "solution_latex": "Substitute $g(x)$ into $f$: $f(g(x))=-10(-25x + 54) + 19=250x - 521$.",
+    "complexity_factor": 1.2,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "expressions"
+    ],
+    "checksum": "sha256-fb61bdff8f44e7120f474b27a1f183c30bfb0a7ad7dbbc9217ad8702a1c0784a",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.medium.0041",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=10x - 22$ and $g(x)=29x - 55$. Which expression equals $f(g(x))$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$39x - 77$"
+      },
+      {
+        "id": "b",
+        "latex": "$290x - 77$"
+      },
+      {
+        "id": "c",
+        "latex": "$290x - 572$"
+      },
+      {
+        "id": "d",
+        "latex": "$290x - 693$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "290x-572",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "290*x-572"
+    ],
+    "solution_latex": "Substitute $g(x)$ into $f$: $f(g(x))=10(29x - 55) - 22=290x - 572$.",
+    "complexity_factor": 1.2,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "expressions"
+    ],
+    "checksum": "sha256-a9f45217f40864c3e1dd19123ca5552f4efa031a88c5dea262b522512474d603",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.medium.0042",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=11x + 17$ and $g(x)=27x - 53$. Which expression equals $f(g(x))$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$297x - 36$"
+      },
+      {
+        "id": "b",
+        "latex": "$297x - 566$"
+      },
+      {
+        "id": "c",
+        "latex": "$297x + 406$"
+      },
+      {
+        "id": "d",
+        "latex": "$38x - 36$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "297x-566",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "297*x-566"
+    ],
+    "solution_latex": "Substitute $g(x)$ into $f$: $f(g(x))=11(27x - 53) + 17=297x - 566$.",
+    "complexity_factor": 1.2,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "expressions"
+    ],
+    "checksum": "sha256-fbb3996747e923f8dae84d81e9486f7dff0a8e4643c0579e45a05ddbddb70cd2",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.medium.0043",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=12x + 23$ and $g(x)=-26x + 55$. Which expression equals $f(g(x))$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-312x + 683$"
+      },
+      {
+        "id": "b",
+        "latex": "$-312x - 543$"
+      },
+      {
+        "id": "c",
+        "latex": "$-14x + 78$"
+      },
+      {
+        "id": "d",
+        "latex": "$-312x + 78$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-312x+683",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "-312*x+683"
+    ],
+    "solution_latex": "Substitute $g(x)$ into $f$: $f(g(x))=12(-26x + 55) + 23=-312x + 683$.",
+    "complexity_factor": 1.2,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "expressions"
+    ],
+    "checksum": "sha256-d3d9bb465d6e170f8ff396bad243df42c089eedefe9d456169d20ba8074283b9",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.medium.0044",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=-10x - 20$ and $g(x)=28x + 59$. Which expression equals $f(g(x))$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-280x - 501$"
+      },
+      {
+        "id": "b",
+        "latex": "$18x + 39$"
+      },
+      {
+        "id": "c",
+        "latex": "$-280x + 39$"
+      },
+      {
+        "id": "d",
+        "latex": "$-280x - 610$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-280x-610",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "-280*x-610"
+    ],
+    "solution_latex": "Substitute $g(x)$ into $f$: $f(g(x))=-10(28x + 59) - 20=-280x - 610$.",
+    "complexity_factor": 1.2,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "expressions"
+    ],
+    "checksum": "sha256-343d359d02600e2f4292501436590668270b45cfedaed9b217359ed12c0539f9",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.medium.0045",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=-11x + 21$ and $g(x)=-28x - 60$. Which expression equals $f(g(x))$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-39x - 39$"
+      },
+      {
+        "id": "b",
+        "latex": "$308x - 39$"
+      },
+      {
+        "id": "c",
+        "latex": "$308x + 681$"
+      },
+      {
+        "id": "d",
+        "latex": "$308x - 648$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "308x+681",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "308*x+681"
+    ],
+    "solution_latex": "Substitute $g(x)$ into $f$: $f(g(x))=-11(-28x - 60) + 21=308x + 681$.",
+    "complexity_factor": 1.2,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "expressions"
+    ],
+    "checksum": "sha256-f4b8462ee20120cad686df56ec89dc7fc83f94f78a4c3fdbed388c023167fcd0",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.medium.0046",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=11x - 24$ and $g(x)=32x - 58$. Which expression equals $f(g(x))$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$352x - 82$"
+      },
+      {
+        "id": "b",
+        "latex": "$352x - 662$"
+      },
+      {
+        "id": "c",
+        "latex": "$352x - 826$"
+      },
+      {
+        "id": "d",
+        "latex": "$43x - 82$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "352x-662",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "352*x-662"
+    ],
+    "solution_latex": "Substitute $g(x)$ into $f$: $f(g(x))=11(32x - 58) - 24=352x - 662$.",
+    "complexity_factor": 1.2,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "expressions"
+    ],
+    "checksum": "sha256-72e25eeeb770439c325372acf7f01d074277fe7092007e121cd4b3cbda7f51b5",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.medium.0047",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=12x + 19$ and $g(x)=30x + 60$. Which expression equals $f(g(x))$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$360x + 739$"
+      },
+      {
+        "id": "b",
+        "latex": "$360x + 630$"
+      },
+      {
+        "id": "c",
+        "latex": "$42x + 79$"
+      },
+      {
+        "id": "d",
+        "latex": "$360x + 79$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "360x+739",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "360*x+739"
+    ],
+    "solution_latex": "Substitute $g(x)$ into $f$: $f(g(x))=12(30x + 60) + 19=360x + 739$.",
+    "complexity_factor": 1.2,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "expressions"
+    ],
+    "checksum": "sha256-966dc3bf086f259bf5f7a281ba39b02c13ee07ff5cc33805018a3e338e1c1875",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.medium.0048",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=13x + 25$ and $g(x)=-29x + 64$. Which expression equals $f(g(x))$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-377x - 661$"
+      },
+      {
+        "id": "b",
+        "latex": "$-16x + 89$"
+      },
+      {
+        "id": "c",
+        "latex": "$-377x + 89$"
+      },
+      {
+        "id": "d",
+        "latex": "$-377x + 857$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-377x+857",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "-377*x+857"
+    ],
+    "solution_latex": "Substitute $g(x)$ into $f$: $f(g(x))=13(-29x + 64) + 25=-377x + 857$.",
+    "complexity_factor": 1.2,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "expressions"
+    ],
+    "checksum": "sha256-c082a1a0d611705d7fe5d881f9e79ac169c64152c1cd5a4b4111f96fcab73fa9",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.medium.0049",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=-11x - 22$ and $g(x)=31x - 65$. Which expression equals $f(g(x))$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$20x - 87$"
+      },
+      {
+        "id": "b",
+        "latex": "$-341x - 87$"
+      },
+      {
+        "id": "c",
+        "latex": "$-341x + 693$"
+      },
+      {
+        "id": "d",
+        "latex": "$-341x - 747$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-341x+693",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "-341*x+693"
+    ],
+    "solution_latex": "Substitute $g(x)$ into $f$: $f(g(x))=-11(31x - 65) - 22=-341x + 693$.",
+    "complexity_factor": 1.2,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "expressions"
+    ],
+    "checksum": "sha256-c6494621670cd6acadb73e30f300b2882e5652c5793fcce643aa1b12cebdad80",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.composition.medium.0050",
+    "topic_id": "ch16.composition",
+    "group_id": "ch16_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Let $f(x)=-12x + 23$ and $g(x)=-31x - 63$. Which expression equals $f(g(x))$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$372x - 40$"
+      },
+      {
+        "id": "b",
+        "latex": "$372x + 779$"
+      },
+      {
+        "id": "c",
+        "latex": "$372x - 776$"
+      },
+      {
+        "id": "d",
+        "latex": "$-43x - 40$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "372x+779",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "372*x+779"
+    ],
+    "solution_latex": "Substitute $g(x)$ into $f$: $f(g(x))=-12(-31x - 63) + 23=372x + 779$.",
+    "complexity_factor": 1.2,
+    "source_section": "16.3",
+    "tags": [
+      "functions",
+      "composition",
+      "expressions"
+    ],
+    "checksum": "sha256-6637dab713ba8fcde0819f8c21aaf82d6b3b8884e48d4b2ea8e22a935f793cca",
+    "status": "valid"
+  }
+]

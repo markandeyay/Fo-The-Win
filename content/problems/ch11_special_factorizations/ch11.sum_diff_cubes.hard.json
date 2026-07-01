@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "ch11.sum_diff_cubes.hard.0001",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "Factor completely: $2x^3 + 16$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2(x - 2)(x^2 + 2x + 4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$2(x + 2)(x^2 - 2x + 4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$2(x + 2)(x^2 + 2x + 4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 2)(x^2 - 2x + 4)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "2*(x+2)*(x^2-2*x+4)",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First factor out $2$, then factor $x^3 + 2^3$ using the cube identity.",
+    "complexity_factor": 1.35,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-a9d3ef25c3f819f99c969ad446a7de66e2511905ee1e0fd130ebf35be6cc235a",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.hard.0002",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "Factor completely: $3x^3 - 375$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3(x + 5)(x^2 - 5x + 25)$"
+      },
+      {
+        "id": "b",
+        "latex": "$3(x - 5)(x^2 - 5x + 25)$"
+      },
+      {
+        "id": "c",
+        "latex": "$3(x - 5)(x^2 + 5x + 25)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 5)(x^2 + 5x + 25)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3*(x-5)*(x^2+5*x+25)",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First factor out $3$, then factor $x^3 - 5^3$ using the cube identity.",
+    "complexity_factor": 1.35,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-f5dd75ecb48dea55a401697b6adfb4d03b3066b7843799bd0fceef6c0b18e9ea",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.hard.0003",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "Factor completely: $4x^3 + 2048$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4(x - 8)(x^2 + 8x + 64)$"
+      },
+      {
+        "id": "b",
+        "latex": "$4(x + 8)(x^2 + 8x + 64)$"
+      },
+      {
+        "id": "c",
+        "latex": "$4(x + 8)(x^2 - 8x + 64)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 8)(x^2 - 8x + 64)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "4*(x+8)*(x^2-8*x+64)",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First factor out $4$, then factor $x^3 + 8^3$ using the cube identity.",
+    "complexity_factor": 1.35,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-3f2bfd085d48363cea42a5e8ed2ce225c6d6ec7a8e3bae02d6cb7ec7f66a80ba",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.hard.0004",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "Factor completely: $5x^3 - 6655$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5(x - 11)(x^2 + 11x + 121)$"
+      },
+      {
+        "id": "b",
+        "latex": "$5(x + 11)(x^2 - 11x + 121)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 11)(x^2 + 11x + 121)$"
+      },
+      {
+        "id": "d",
+        "latex": "$5(x - 11)(x^2 - 11x + 121)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "5*(x-11)*(x^2+11*x+121)",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First factor out $5$, then factor $x^3 - 11^3$ using the cube identity.",
+    "complexity_factor": 1.35,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-4cc1cde5d20ed4467837628d6856333d0d02eacd61529c2dbdbd0eaab1e58064",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.hard.0005",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "Factor completely: $6x^3 + 384$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 4)(x^2 - 4x + 16)$"
+      },
+      {
+        "id": "b",
+        "latex": "$6(x - 4)(x^2 + 4x + 16)$"
+      },
+      {
+        "id": "c",
+        "latex": "$6(x + 4)(x^2 + 4x + 16)$"
+      },
+      {
+        "id": "d",
+        "latex": "$6(x + 4)(x^2 - 4x + 16)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "6*(x+4)*(x^2-4*x+16)",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First factor out $6$, then factor $x^3 + 4^3$ using the cube identity.",
+    "complexity_factor": 1.35,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-21be85ffcdcaa27f24e1b27498f73914fb9011128d5fcda70ec4977b515d64ac",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.hard.0006",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "Factor completely: $7x^3 - 2401$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 7)(x^2 + 7x + 49)$"
+      },
+      {
+        "id": "b",
+        "latex": "$7(x - 7)(x^2 + 7x + 49)$"
+      },
+      {
+        "id": "c",
+        "latex": "$7(x - 7)(x^2 - 7x + 49)$"
+      },
+      {
+        "id": "d",
+        "latex": "$7(x + 7)(x^2 - 7x + 49)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "7*(x-7)*(x^2+7*x+49)",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First factor out $7$, then factor $x^3 - 7^3$ using the cube identity.",
+    "complexity_factor": 1.35,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-735f4cc04f4e404dc3ac3ae3399f7465d89bacaa5c571cf0257e81b1a53c4717",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.hard.0007",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "Factor completely: $8x^3 + 8000$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 10)(x^2 - 10x + 100)$"
+      },
+      {
+        "id": "b",
+        "latex": "$8(x + 10)(x^2 - 10x + 100)$"
+      },
+      {
+        "id": "c",
+        "latex": "$8(x - 10)(x^2 + 10x + 100)$"
+      },
+      {
+        "id": "d",
+        "latex": "$8(x + 10)(x^2 + 10x + 100)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "8*(x+10)*(x^2-10*x+100)",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First factor out $8$, then factor $x^3 + 10^3$ using the cube identity.",
+    "complexity_factor": 1.35,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-a0becb397172dab6a0307ffa2d8232ef4bd4520ede6d3810224e79f3ccdfbb98",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.hard.0008",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "Factor completely: $2x^3 - 54$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2(x - 3)(x^2 + 3x + 9)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 3)(x^2 + 3x + 9)$"
+      },
+      {
+        "id": "c",
+        "latex": "$2(x + 3)(x^2 - 3x + 9)$"
+      },
+      {
+        "id": "d",
+        "latex": "$2(x - 3)(x^2 - 3x + 9)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2*(x-3)*(x^2+3*x+9)",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First factor out $2$, then factor $x^3 - 3^3$ using the cube identity.",
+    "complexity_factor": 1.35,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-f14fd56ce7e89919b9418917aee283c3e291c91ab2786e872114430a28cc1501",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.hard.0009",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "Factor completely: $3x^3 + 648$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3(x - 6)(x^2 + 6x + 36)$"
+      },
+      {
+        "id": "b",
+        "latex": "$3(x + 6)(x^2 + 6x + 36)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 6)(x^2 - 6x + 36)$"
+      },
+      {
+        "id": "d",
+        "latex": "$3(x + 6)(x^2 - 6x + 36)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "3*(x+6)*(x^2-6*x+36)",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First factor out $3$, then factor $x^3 + 6^3$ using the cube identity.",
+    "complexity_factor": 1.35,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-cbec82b6327aa4d4e2e0c0384af1c901962b9de8709e706bffb3f9e6e8aef282",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.hard.0010",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "Factor completely: $4x^3 - 2916$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 9)(x^2 + 9x + 81)$"
+      },
+      {
+        "id": "b",
+        "latex": "$4(x - 9)(x^2 + 9x + 81)$"
+      },
+      {
+        "id": "c",
+        "latex": "$4(x + 9)(x^2 - 9x + 81)$"
+      },
+      {
+        "id": "d",
+        "latex": "$4(x - 9)(x^2 - 9x + 81)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "4*(x-9)*(x^2+9*x+81)",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First factor out $4$, then factor $x^3 - 9^3$ using the cube identity.",
+    "complexity_factor": 1.35,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-14cf26fb63306ed682d4e6bb9514bacaa70d8019ba20d6b3d8121c3afdc43bf4",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.hard.0011",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "Factor completely: $5x^3 + 40$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5(x - 2)(x^2 + 2x + 4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$5(x + 2)(x^2 - 2x + 4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 2)(x^2 - 2x + 4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$5(x + 2)(x^2 + 2x + 4)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "5*(x+2)*(x^2-2*x+4)",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First factor out $5$, then factor $x^3 + 2^3$ using the cube identity.",
+    "complexity_factor": 1.35,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-cf9e6d941f6c8262c83dbdeec76884d1ee661e3cb591626810d055b8719ffb95",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.hard.0012",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "Factor completely: $6x^3 - 750$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6(x - 5)(x^2 - 5x + 25)$"
+      },
+      {
+        "id": "b",
+        "latex": "$6(x + 5)(x^2 - 5x + 25)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 5)(x^2 + 5x + 25)$"
+      },
+      {
+        "id": "d",
+        "latex": "$6(x - 5)(x^2 + 5x + 25)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "6*(x-5)*(x^2+5*x+25)",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First factor out $6$, then factor $x^3 - 5^3$ using the cube identity.",
+    "complexity_factor": 1.35,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-16606b3943e0637b438e52b09919a7ec04257b85e24b8148a121f16a23daa006",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.hard.0013",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "Factor completely: $7x^3 + 3584$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 8)(x^2 - 8x + 64)$"
+      },
+      {
+        "id": "b",
+        "latex": "$7(x + 8)(x^2 + 8x + 64)$"
+      },
+      {
+        "id": "c",
+        "latex": "$7(x - 8)(x^2 + 8x + 64)$"
+      },
+      {
+        "id": "d",
+        "latex": "$7(x + 8)(x^2 - 8x + 64)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "7*(x+8)*(x^2-8*x+64)",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First factor out $7$, then factor $x^3 + 8^3$ using the cube identity.",
+    "complexity_factor": 1.35,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-4f3674a313cd3f8f962500992c015b3efc0322f7910fb3227c6e5e7801d906b5",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.hard.0014",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "Factor completely: $8x^3 - 10648$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 11)(x^2 + 11x + 121)$"
+      },
+      {
+        "id": "b",
+        "latex": "$8(x + 11)(x^2 - 11x + 121)$"
+      },
+      {
+        "id": "c",
+        "latex": "$8(x - 11)(x^2 - 11x + 121)$"
+      },
+      {
+        "id": "d",
+        "latex": "$8(x - 11)(x^2 + 11x + 121)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "8*(x-11)*(x^2+11*x+121)",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First factor out $8$, then factor $x^3 - 11^3$ using the cube identity.",
+    "complexity_factor": 1.35,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-084e831ea31a2fa79d9990a405f51626c3c9749940a6ff55e1e003e33cc88837",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.hard.0015",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "Factor completely: $2x^3 + 128$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2(x - 4)(x^2 + 4x + 16)$"
+      },
+      {
+        "id": "b",
+        "latex": "$2(x + 4)(x^2 - 4x + 16)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 4)(x^2 - 4x + 16)$"
+      },
+      {
+        "id": "d",
+        "latex": "$2(x + 4)(x^2 + 4x + 16)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "2*(x+4)*(x^2-4*x+16)",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First factor out $2$, then factor $x^3 + 4^3$ using the cube identity.",
+    "complexity_factor": 1.35,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-91a3761f0f974981ee6108e6707c83bca584ad81a6ab0efd628b5ba878b03c58",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.hard.0016",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "Factor completely: $3x^3 - 1029$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3(x + 7)(x^2 - 7x + 49)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 7)(x^2 + 7x + 49)$"
+      },
+      {
+        "id": "c",
+        "latex": "$3(x - 7)(x^2 + 7x + 49)$"
+      },
+      {
+        "id": "d",
+        "latex": "$3(x - 7)(x^2 - 7x + 49)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3*(x-7)*(x^2+7*x+49)",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First factor out $3$, then factor $x^3 - 7^3$ using the cube identity.",
+    "complexity_factor": 1.35,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-e8272d575960f9771995580bf53c3974f420fdabd1ca503a7827bbe1a95cd908",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.hard.0017",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "Factor completely: $4x^3 + 4000$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4(x + 10)(x^2 - 10x + 100)$"
+      },
+      {
+        "id": "b",
+        "latex": "$4(x - 10)(x^2 + 10x + 100)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 10)(x^2 - 10x + 100)$"
+      },
+      {
+        "id": "d",
+        "latex": "$4(x + 10)(x^2 + 10x + 100)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "4*(x+10)*(x^2-10*x+100)",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First factor out $4$, then factor $x^3 + 10^3$ using the cube identity.",
+    "complexity_factor": 1.35,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-2f3c1dda1079f57ff98d10df1007d65c8cd862badd34628da2359fafba90ffa4",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.hard.0018",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "Factor completely: $5x^3 - 135$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5(x + 3)(x^2 - 3x + 9)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 3)(x^2 + 3x + 9)$"
+      },
+      {
+        "id": "c",
+        "latex": "$5(x - 3)(x^2 + 3x + 9)$"
+      },
+      {
+        "id": "d",
+        "latex": "$5(x - 3)(x^2 - 3x + 9)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "5*(x-3)*(x^2+3*x+9)",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First factor out $5$, then factor $x^3 - 3^3$ using the cube identity.",
+    "complexity_factor": 1.35,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-bdcb6f62f5d5e36a4e89b01d5dc9d8dc42d84039f212c25b41d2d21f0dd276ce",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.hard.0019",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "Factor completely: $6x^3 + 1296$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 6)(x^2 - 6x + 36)$"
+      },
+      {
+        "id": "b",
+        "latex": "$6(x - 6)(x^2 + 6x + 36)$"
+      },
+      {
+        "id": "c",
+        "latex": "$6(x + 6)(x^2 + 6x + 36)$"
+      },
+      {
+        "id": "d",
+        "latex": "$6(x + 6)(x^2 - 6x + 36)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "6*(x+6)*(x^2-6*x+36)",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First factor out $6$, then factor $x^3 + 6^3$ using the cube identity.",
+    "complexity_factor": 1.35,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-20ddb831d9169a53cbcdddc52379474b5f4943cae82e795af8ab43f9817c7b58",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.hard.0020",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "Factor completely: $7x^3 - 5103$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7(x - 9)(x^2 - 9x + 81)$"
+      },
+      {
+        "id": "b",
+        "latex": "$7(x - 9)(x^2 + 9x + 81)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 9)(x^2 + 9x + 81)$"
+      },
+      {
+        "id": "d",
+        "latex": "$7(x + 9)(x^2 - 9x + 81)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "7*(x-9)*(x^2+9*x+81)",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First factor out $7$, then factor $x^3 - 9^3$ using the cube identity.",
+    "complexity_factor": 1.35,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-fef2e0e2fdd86e181c506be34179670800e4b44ce361e2e8f8e55f3f3e40d872",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.hard.0021",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "Factor completely: $8x^3 + 64$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8(x - 2)(x^2 + 2x + 4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 2)(x^2 - 2x + 4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$8(x + 2)(x^2 - 2x + 4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$8(x + 2)(x^2 + 2x + 4)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "8*(x+2)*(x^2-2*x+4)",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First factor out $8$, then factor $x^3 + 2^3$ using the cube identity.",
+    "complexity_factor": 1.35,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-f620963e59f3f4e1e9da71ac98537a3242edb3bc2cf5607a576181e290f359f9",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.hard.0022",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "Factor completely: $2x^3 - 250$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2(x + 5)(x^2 - 5x + 25)$"
+      },
+      {
+        "id": "b",
+        "latex": "$2(x - 5)(x^2 - 5x + 25)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 5)(x^2 + 5x + 25)$"
+      },
+      {
+        "id": "d",
+        "latex": "$2(x - 5)(x^2 + 5x + 25)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2*(x-5)*(x^2+5*x+25)",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First factor out $2$, then factor $x^3 - 5^3$ using the cube identity.",
+    "complexity_factor": 1.35,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-8875f4590341ce5f66c1a13ff005602d42a5333172035a8d508687657ec3a3d4",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.hard.0023",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "Factor completely: $3x^3 + 1536$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 8)(x^2 - 8x + 64)$"
+      },
+      {
+        "id": "b",
+        "latex": "$3(x + 8)(x^2 - 8x + 64)$"
+      },
+      {
+        "id": "c",
+        "latex": "$3(x - 8)(x^2 + 8x + 64)$"
+      },
+      {
+        "id": "d",
+        "latex": "$3(x + 8)(x^2 + 8x + 64)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "3*(x+8)*(x^2-8*x+64)",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First factor out $3$, then factor $x^3 + 8^3$ using the cube identity.",
+    "complexity_factor": 1.35,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-34fc4fd38f65fc93882a3424a3ebed6cfe808079581b877addd9e9a5eca5874d",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.hard.0024",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "Factor completely: $4x^3 - 5324$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4(x - 11)(x^2 - 11x + 121)$"
+      },
+      {
+        "id": "b",
+        "latex": "$4(x - 11)(x^2 + 11x + 121)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 11)(x^2 + 11x + 121)$"
+      },
+      {
+        "id": "d",
+        "latex": "$4(x + 11)(x^2 - 11x + 121)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "4*(x-11)*(x^2+11*x+121)",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First factor out $4$, then factor $x^3 - 11^3$ using the cube identity.",
+    "complexity_factor": 1.35,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-9bcabbd0a9ea69d38e84e61324dc2f4f36b9e354de14b34523bcbe27d27cf97d",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.hard.0025",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "Factor completely: $5x^3 + 320$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 4)(x^2 - 4x + 16)$"
+      },
+      {
+        "id": "b",
+        "latex": "$5(x - 4)(x^2 + 4x + 16)$"
+      },
+      {
+        "id": "c",
+        "latex": "$5(x + 4)(x^2 - 4x + 16)$"
+      },
+      {
+        "id": "d",
+        "latex": "$5(x + 4)(x^2 + 4x + 16)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "5*(x+4)*(x^2-4*x+16)",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "First factor out $5$, then factor $x^3 + 4^3$ using the cube identity.",
+    "complexity_factor": 1.35,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-c6e90f5fd37302c4874340fcc3696ca8d4ab4c0e6b2d287dcd77e91b7e428f55",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.hard.0026",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "Find the integer solution of $x^3 + 8=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$x^3=-2^3$, so $x=-2$.",
+    "complexity_factor": 1.25,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "equation"
+    ],
+    "checksum": "sha256-0050a38b9ad2026110000fc6219ba7d7054bf9403d34b15ce4113a0bea779dae",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.hard.0027",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "Find the integer solution of $x^3 - 27=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$x^3=3^3$, so $x=3$.",
+    "complexity_factor": 1.25,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "equation"
+    ],
+    "checksum": "sha256-9ff60d624d44a04c40b7fa2ee67c64e71b82095754a02b779e32ed7ab9b18447",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.hard.0028",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "Find the integer solution of $x^3 + 64=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-5$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$x^3=-4^3$, so $x=-4$.",
+    "complexity_factor": 1.25,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "equation"
+    ],
+    "checksum": "sha256-118306809179e8e4fee7f3b71535503fb21ecd6775cbc041d0771df0665b0314",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.hard.0029",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "Find the integer solution of $x^3 - 125=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$x^3=5^3$, so $x=5$.",
+    "complexity_factor": 1.25,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "equation"
+    ],
+    "checksum": "sha256-b498a79bbe5a6e4df9459dc33a2528253034ffe0359a4fe2fdebbd67d43f9e4f",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.hard.0030",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "Find the integer solution of $x^3 + 216=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-5$"
+      },
+      {
+        "id": "c",
+        "latex": "$-6$"
+      },
+      {
+        "id": "d",
+        "latex": "$-7$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$x^3=-6^3$, so $x=-6$.",
+    "complexity_factor": 1.25,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "equation"
+    ],
+    "checksum": "sha256-084632a6fe5251c6c4e8df27c5104dc9b4f040dc3eebaeb4b9806684ca100f23",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.hard.0031",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "Find the integer solution of $x^3 - 343=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$x^3=7^3$, so $x=7$.",
+    "complexity_factor": 1.25,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "equation"
+    ],
+    "checksum": "sha256-df7d31c281bc9065cdb5bb400a1be3a9ecd9eb64c05162b68628d51529bd39fc",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.hard.0032",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "Find the integer solution of $x^3 + 512=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-8$"
+      },
+      {
+        "id": "b",
+        "latex": "$-7$"
+      },
+      {
+        "id": "c",
+        "latex": "$-6$"
+      },
+      {
+        "id": "d",
+        "latex": "$-9$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$x^3=-8^3$, so $x=-8$.",
+    "complexity_factor": 1.25,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "equation"
+    ],
+    "checksum": "sha256-2829135ad4964f8f46872659801334fa62234e7cbfc57442529ce4b32b9d9c96",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.hard.0033",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "Find the integer solution of $x^3 - 729=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$11$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$x^3=9^3$, so $x=9$.",
+    "complexity_factor": 1.25,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "equation"
+    ],
+    "checksum": "sha256-c645ed88679e572020adca3f52ad16f5287d917312d1a5d7e0b6a931da487582",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.hard.0034",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "Find the integer solution of $x^3 + 1000=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-10$"
+      },
+      {
+        "id": "b",
+        "latex": "$-9$"
+      },
+      {
+        "id": "c",
+        "latex": "$-11$"
+      },
+      {
+        "id": "d",
+        "latex": "$-8$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$x^3=-10^3$, so $x=-10$.",
+    "complexity_factor": 1.25,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "equation"
+    ],
+    "checksum": "sha256-a9f97de060b6c9742c7f68732629143186e78691c59d5ac5f8e76e0b52a42778",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.hard.0035",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "Find the integer solution of $x^3 - 1331=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$13$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "11",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$x^3=11^3$, so $x=11$.",
+    "complexity_factor": 1.25,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "equation"
+    ],
+    "checksum": "sha256-7c141550f3e0882bcfad066f4cd2cc2fbc0b836fc362cf0567bd3a17e1410041",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.hard.0036",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "Find the integer solution of $x^3 + 1728=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-11$"
+      },
+      {
+        "id": "b",
+        "latex": "$-10$"
+      },
+      {
+        "id": "c",
+        "latex": "$-12$"
+      },
+      {
+        "id": "d",
+        "latex": "$-13$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$x^3=-12^3$, so $x=-12$.",
+    "complexity_factor": 1.25,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "equation"
+    ],
+    "checksum": "sha256-605fdc6f992029972668e2dc96bbe6c769fa4387f5a8adb7f5a0455d1a4b592f",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.hard.0037",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "Find the integer solution of $x^3 - 2197=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12$"
+      },
+      {
+        "id": "b",
+        "latex": "$14$"
+      },
+      {
+        "id": "c",
+        "latex": "$13$"
+      },
+      {
+        "id": "d",
+        "latex": "$15$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "13",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$x^3=13^3$, so $x=13$.",
+    "complexity_factor": 1.25,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "equation"
+    ],
+    "checksum": "sha256-09aa82cd5b899def957815b95d4d29b66284e5c5eb52c6d9e5025b8c2820bd35",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.hard.0038",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "Find the integer solution of $x^3 + 2744=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-13$"
+      },
+      {
+        "id": "b",
+        "latex": "$-15$"
+      },
+      {
+        "id": "c",
+        "latex": "$-14$"
+      },
+      {
+        "id": "d",
+        "latex": "$-12$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-14",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$x^3=-14^3$, so $x=-14$.",
+    "complexity_factor": 1.25,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "equation"
+    ],
+    "checksum": "sha256-aaffdac3dadd1ef960f891056902112fdbcc14a90962ee839904d7427db94d50",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.hard.0039",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "Find the integer solution of $x^3 - 3375=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$17$"
+      },
+      {
+        "id": "b",
+        "latex": "$14$"
+      },
+      {
+        "id": "c",
+        "latex": "$15$"
+      },
+      {
+        "id": "d",
+        "latex": "$16$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "15",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$x^3=15^3$, so $x=15$.",
+    "complexity_factor": 1.25,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "equation"
+    ],
+    "checksum": "sha256-62456184cbeb9b22e0d92ca364d9d2f28a694e8b09025fd3c1f655157845cc1f",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.hard.0040",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "Find the integer solution of $x^3 + 4096=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-14$"
+      },
+      {
+        "id": "b",
+        "latex": "$-16$"
+      },
+      {
+        "id": "c",
+        "latex": "$-15$"
+      },
+      {
+        "id": "d",
+        "latex": "$-17$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-16",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$x^3=-16^3$, so $x=-16$.",
+    "complexity_factor": 1.25,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "equation"
+    ],
+    "checksum": "sha256-34a0f708ab8cc958d52b0b839fa74d6c8b66ced188c2a4e3a9be0d3f604ff053",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.hard.0041",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "Find the integer solution of $x^3 - 4913=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$17$"
+      },
+      {
+        "id": "b",
+        "latex": "$19$"
+      },
+      {
+        "id": "c",
+        "latex": "$18$"
+      },
+      {
+        "id": "d",
+        "latex": "$16$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "17",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$x^3=17^3$, so $x=17$.",
+    "complexity_factor": 1.25,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "equation"
+    ],
+    "checksum": "sha256-0d8665cbf2a3a0cc55c5298a96e6c4f8a14b44f96a3a64cbecf101adf478630a",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.hard.0042",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "Find the integer solution of $x^3 + 5832=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-16$"
+      },
+      {
+        "id": "b",
+        "latex": "$-19$"
+      },
+      {
+        "id": "c",
+        "latex": "$-17$"
+      },
+      {
+        "id": "d",
+        "latex": "$-18$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-18",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$x^3=-18^3$, so $x=-18$.",
+    "complexity_factor": 1.25,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "equation"
+    ],
+    "checksum": "sha256-b26d7e894cafb9b085b46a17c7ee8c843c62c4be22f972f80f0a6c3a49f35917",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.hard.0043",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "Find the integer solution of $x^3 - 6859=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$21$"
+      },
+      {
+        "id": "b",
+        "latex": "$20$"
+      },
+      {
+        "id": "c",
+        "latex": "$18$"
+      },
+      {
+        "id": "d",
+        "latex": "$19$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "19",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$x^3=19^3$, so $x=19$.",
+    "complexity_factor": 1.25,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "equation"
+    ],
+    "checksum": "sha256-23049deae92164206f2294e7cd045a6ef903b9e63fa2830445f7fb201a984ca6",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.hard.0044",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "Find the integer solution of $x^3 + 8000=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-20$"
+      },
+      {
+        "id": "b",
+        "latex": "$-18$"
+      },
+      {
+        "id": "c",
+        "latex": "$-21$"
+      },
+      {
+        "id": "d",
+        "latex": "$-19$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-20",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$x^3=-20^3$, so $x=-20$.",
+    "complexity_factor": 1.25,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "equation"
+    ],
+    "checksum": "sha256-b8f0fca2c95f1cc706ef75beb65c29e3c2ccbd6736f718b64910e80463fd95d3",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.hard.0045",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "Find the integer solution of $x^3 - 9261=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$20$"
+      },
+      {
+        "id": "b",
+        "latex": "$22$"
+      },
+      {
+        "id": "c",
+        "latex": "$21$"
+      },
+      {
+        "id": "d",
+        "latex": "$23$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "21",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$x^3=21^3$, so $x=21$.",
+    "complexity_factor": 1.25,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "equation"
+    ],
+    "checksum": "sha256-063e965f7d81927b739a33ab728dc0af4dd6facd7577a774d8191f1eeade8698",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.hard.0046",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "Find the integer solution of $x^3 + 10648=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-22$"
+      },
+      {
+        "id": "b",
+        "latex": "$-20$"
+      },
+      {
+        "id": "c",
+        "latex": "$-21$"
+      },
+      {
+        "id": "d",
+        "latex": "$-23$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-22",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$x^3=-22^3$, so $x=-22$.",
+    "complexity_factor": 1.25,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "equation"
+    ],
+    "checksum": "sha256-cd568bb3e032409279f0195ea0c4b52f78be1340b180b5eabbb0fe92647af746",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.hard.0047",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "Find the integer solution of $x^3 - 12167=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$24$"
+      },
+      {
+        "id": "b",
+        "latex": "$25$"
+      },
+      {
+        "id": "c",
+        "latex": "$23$"
+      },
+      {
+        "id": "d",
+        "latex": "$22$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "23",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$x^3=23^3$, so $x=23$.",
+    "complexity_factor": 1.25,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "equation"
+    ],
+    "checksum": "sha256-5b92f692d4df908be1c26ee7337f1b5636adb7daafdda4eea99cd7b3eb44ba39",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.hard.0048",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "Find the integer solution of $x^3 + 13824=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-22$"
+      },
+      {
+        "id": "b",
+        "latex": "$-24$"
+      },
+      {
+        "id": "c",
+        "latex": "$-23$"
+      },
+      {
+        "id": "d",
+        "latex": "$-25$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-24",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$x^3=-24^3$, so $x=-24$.",
+    "complexity_factor": 1.25,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "equation"
+    ],
+    "checksum": "sha256-ae08c591645ad7700909599bbe19675d1a54afae302611f21173fd88aa1a2b7e",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.hard.0049",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "Find the integer solution of $x^3 - 15625=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$26$"
+      },
+      {
+        "id": "b",
+        "latex": "$27$"
+      },
+      {
+        "id": "c",
+        "latex": "$24$"
+      },
+      {
+        "id": "d",
+        "latex": "$25$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "25",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$x^3=25^3$, so $x=25$.",
+    "complexity_factor": 1.25,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "equation"
+    ],
+    "checksum": "sha256-bf3a6d925f8e42669234f97447b7e31669bbc33780ab6a7d62fe1d3ee12ffca9",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.hard.0050",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "hard",
+    "prompt_latex": "Find the integer solution of $x^3 + 17576=0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-24$"
+      },
+      {
+        "id": "b",
+        "latex": "$-26$"
+      },
+      {
+        "id": "c",
+        "latex": "$-25$"
+      },
+      {
+        "id": "d",
+        "latex": "$-27$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-26",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$x^3=-26^3$, so $x=-26$.",
+    "complexity_factor": 1.25,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "equation"
+    ],
+    "checksum": "sha256-521008050962b5c213efdaf74ceb60b0f002b63cf032d8a3667a28f415d6387c",
+    "status": "valid"
+  }
+]

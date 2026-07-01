@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "ch17.basics.hard.0001",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many intersection points do the graphs $y=x^2-1$ and $y=-2x+0$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Intersections satisfy $x^2-1=-2x+0$. The discriminant is 8, so there are 2 real intersection points.",
+    "complexity_factor": 1.3,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-0e231e7a630d9dcefae9290db32cb16bbcd22f5502609cb193591b394a2062d1",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.hard.0002",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $t$ is the line $y=t$ tangent to the graph $y=(x+3)^2-4$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-7$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The parabola's lowest point is its vertex $(-3,-4)$, so the horizontal tangent line is $y=-4$.",
+    "complexity_factor": 1.25,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-9a3888034bc59cd7fe78c53e2af3f492812df76f838d6e3179761369141d2c25",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.hard.0003",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "The graph $y=x^2+2x+1$ has its vertex at what $x$-coordinate?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "For $y=x^2+Bx+C$, the vertex has $x=-B/2$. Here $B=2$, so $x=-1$.",
+    "complexity_factor": 1.25,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-a0f2864273808dc3bde9e743fb35c2f7413daa70d2de1a2e96294f7e6a0c2581",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.hard.0004",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A horizontal line cuts $y=(x-1)^2+0$ in two points whose $x$-coordinates differ by 4. What is the line's $y$-value?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The two $x$-values are $h-r$ and $h+r$, so the line has $y=k+r^2=0+4=4$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-fb32c5bd6971b5a9dab40557ede73db414d0aa5f6fc4f7948a2be38bc749cc17",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.hard.0005",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "The graph $y=x^2+px+0$ passes through $(1,3)$ and $(-1,-1)$. What is $p$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Subtract the two equations: 3--1=2(1)p$, so $p=2$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-7f47598476dee1c33f13db37b3efbb8f00347cf7e2003d800ad9355ceb46bbc7",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.hard.0006",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many intersection points do the graphs $y=x^2-1$ and $y=3x+9$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Intersections satisfy $x^2-1=3x+9$. The discriminant is 49, so there are 2 real intersection points.",
+    "complexity_factor": 1.3,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-cf84c499765c2dbc0eff46b3a88b417811129e12751632fd2cf5fbe7ef03eb2b",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.hard.0007",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $t$ is the line $y=t$ tangent to the graph $y=(x-2)^2+1$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The parabola's lowest point is its vertex $(2,1)$, so the horizontal tangent line is $y=1$.",
+    "complexity_factor": 1.25,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-29a5513b4a7c5ef6cb72d5c78dab28e328fa4958094d9fa589af9a5b1f82b256",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.hard.0008",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "The graph $y=x^2-8x+14$ has its vertex at what $x$-coordinate?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$14$"
+      },
+      {
+        "id": "d",
+        "latex": "$-8$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "For $y=x^2+Bx+C$, the vertex has $x=-B/2$. Here $B=-8$, so $x=4$.",
+    "complexity_factor": 1.25,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-e137b00a974b6b689a2ecf1b9690c75f65e35f331d446ff40f34b7527c187f82",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.hard.0009",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A horizontal line cuts $y=(x+1)^2-4$ in two points whose $x$-coordinates differ by 6. What is the line's $y$-value?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-13$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The two $x$-values are $h-r$ and $h+r$, so the line has $y=k+r^2=-4+9=5$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-05478a827840d3334f1d42247e6ff7b754209fafe8e6b91854d5c2e6c93cce37",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.hard.0010",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "The graph $y=x^2+px+5$ passes through $(1,8)$ and $(-1,4)$. What is $p$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Subtract the two equations: 8-4=2(1)p$, so $p=2$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-8598fd16812277233ea8376e1558107a01155fff2fa59df86b4ef38b5be41c54",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.hard.0011",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many intersection points do the graphs $y=x^2-1$ and $y=1x-3$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Intersections satisfy $x^2-1=1x-3$. The discriminant is -7, so there are 0 real intersection points.",
+    "complexity_factor": 1.3,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-3aa2fc7a85407db637ce3a8883bc59c31129035bcb0c70773eeffa4511ac7916",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.hard.0012",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $t$ is the line $y=t$ tangent to the graph $y=(x+4)^2+6$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$-6$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The parabola's lowest point is its vertex $(-4,6)$, so the horizontal tangent line is $y=6$.",
+    "complexity_factor": 1.25,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-4441f1887cefc58d91ad35fb6e830255dee249a89c7083e3190485725806c733",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.hard.0013",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "The graph $y=x^2+0x+3$ has its vertex at what $x$-coordinate?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "For $y=x^2+Bx+C$, the vertex has $x=-B/2$. Here $B=0$, so $x=0$.",
+    "complexity_factor": 1.25,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-1f24e90d80fb9b03fc603525eece4c74d68338fda6c09c529af145256dfdd57f",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.hard.0014",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A horizontal line cuts $y=(x+3)^2+1$ in two points whose $x$-coordinates differ by 8. What is the line's $y$-value?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$-15$"
+      },
+      {
+        "id": "d",
+        "latex": "$17$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "17",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The two $x$-values are $h-r$ and $h+r$, so the line has $y=k+r^2=1+16=17$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-4437ca42e712f508bd27aebd37e41cdce2d7d5f47e3c26b3c323d49b405e2cdc",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.hard.0015",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "The graph $y=x^2+px+-1$ passes through $(1,-2)$ and $(-1,2)$. What is $p$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Subtract the two equations: -2-2=2(1)p$, so $p=-2$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-aede07d6b15686ae76d3d71c342a251bb6a7cd8f2db2ebd80eae1a4b326c8d7a",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.hard.0016",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many intersection points do the graphs $y=x^2-1$ and $y=-1x-1$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Intersections satisfy $x^2-1=-1x-1$. The discriminant is 1, so there are 2 real intersection points.",
+    "complexity_factor": 1.3,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-2dc0ff6f713ea4fdacc6650f709be0eef2e300ea633ed3f16a4daf88b11577f2",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.hard.0017",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $t$ is the line $y=t$ tangent to the graph $y=(x-1)^2-2$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The parabola's lowest point is its vertex $(1,-2)$, so the horizontal tangent line is $y=-2$.",
+    "complexity_factor": 1.25,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-b11196b03423c3f41f19453d642ae30c91cf91c368c34d7d9ee90db7dc197925",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.hard.0018",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "The graph $y=x^2+8x+17$ has its vertex at what $x$-coordinate?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$17$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "For $y=x^2+Bx+C$, the vertex has $x=-B/2$. Here $B=8$, so $x=-4$.",
+    "complexity_factor": 1.25,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-eb2bdcf9ee3308aab81bfd090b643bff55e99d2f75ce3c2183479076e9e43869",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.hard.0019",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A horizontal line cuts $y=(x-2)^2-3$ in two points whose $x$-coordinates differ by 10. What is the line's $y$-value?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$22$"
+      },
+      {
+        "id": "b",
+        "latex": "$-28$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "22",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The two $x$-values are $h-r$ and $h+r$, so the line has $y=k+r^2=-3+25=22$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-151fd65b554f1ef896c67abecc9cfebfd1da752b1be8cc259b7437feea9e64a9",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.hard.0020",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "The graph $y=x^2+px+4$ passes through $(1,8)$ and $(-1,2)$. What is $p$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Subtract the two equations: 8-2=2(1)p$, so $p=3$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-2be324478c73511d2854906ca3f0fbccd9b59c2b70c640208fd80e98def437c6",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.hard.0021",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many intersection points do the graphs $y=x^2-1$ and $y=-3x+9$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Intersections satisfy $x^2-1=-3x+9$. The discriminant is 49, so there are 2 real intersection points.",
+    "complexity_factor": 1.3,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-9eb13fcd8a4cef1d6018b5e26d196478ae45ee7e426e2d803f7ac8c9041b1d37",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.hard.0022",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $t$ is the line $y=t$ tangent to the graph $y=(x+5)^2+3$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-5$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The parabola's lowest point is its vertex $(-5,3)$, so the horizontal tangent line is $y=3$.",
+    "complexity_factor": 1.25,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-5b3cb95ec40df9f3d229e82d7e085fbefb18b92206be06b5938734678699bd77",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.hard.0023",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "The graph $y=x^2-2x+0$ has its vertex at what $x$-coordinate?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "For $y=x^2+Bx+C$, the vertex has $x=-B/2$. Here $B=-2$, so $x=1$.",
+    "complexity_factor": 1.25,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-9b9577e59000533024d0c5647571ff8969bbd15aec84a9645bb493c71b35b57f",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.hard.0024",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A horizontal line cuts $y=(x-0)^2+2$ in two points whose $x$-coordinates differ by 4. What is the line's $y$-value?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The two $x$-values are $h-r$ and $h+r$, so the line has $y=k+r^2=2+4=6$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-52910f6622a3d8bd1575967b0cd9945c1f28f7dc6ed0f4f006def90b54d31a38",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.hard.0025",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "The graph $y=x^2+px+-2$ passes through $(1,0)$ and $(-1,-2)$. What is $p$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Subtract the two equations: 0--2=2(1)p$, so $p=1$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-a180082032e74c3d6d6b4587fbb7f5256e65ce50f186658474a1415946c45455",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.hard.0026",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many intersection points do the graphs $y=x^2-1$ and $y=2x-3$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Intersections satisfy $x^2-1=2x-3$. The discriminant is -4, so there are 0 real intersection points.",
+    "complexity_factor": 1.3,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-231eaad78097b5ca8f7cc89643e8937242862db47934ca8c9f528b0a7c88c5bf",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.hard.0027",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $t$ is the line $y=t$ tangent to the graph $y=(x-0)^2-5$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$-5$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The parabola's lowest point is its vertex $(0,-5)$, so the horizontal tangent line is $y=-5$.",
+    "complexity_factor": 1.25,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-29e6394130e53dfae2193dc63876e55e99c5136666948933592f9555ac09a267",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.hard.0028",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "The graph $y=x^2+6x+6$ has its vertex at what $x$-coordinate?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "For $y=x^2+Bx+C$, the vertex has $x=-B/2$. Here $B=6$, so $x=-3$.",
+    "complexity_factor": 1.25,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-43912edd2352f4d2182683d7d192d2a2da536b9b0c4745b322bbe7d69fef0fe8",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.hard.0029",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A horizontal line cuts $y=(x+2)^2-2$ in two points whose $x$-coordinates differ by 6. What is the line's $y$-value?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$-11$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The two $x$-values are $h-r$ and $h+r$, so the line has $y=k+r^2=-2+9=7$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-2e61329d86d0982384081006e253695f5ff56452c90da973ae0d66bac3c48dc7",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.hard.0030",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "The graph $y=x^2+px+3$ passes through $(1,3)$ and $(-1,5)$. What is $p$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Subtract the two equations: 3-5=2(1)p$, so $p=-1$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-5419b7a63e123a94e782d792efdafe4b3c4ac9b5e31530a021752aa43fcbe5ad",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.hard.0031",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many intersection points do the graphs $y=x^2-1$ and $y=2x+0$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Intersections satisfy $x^2-1=2x+0$. The discriminant is 8, so there are 2 real intersection points.",
+    "complexity_factor": 1.3,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-b5b6140354c95cf792420a5447c30c5fc21227578657a6de049786d0ed069752",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.hard.0032",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $t$ is the line $y=t$ tangent to the graph $y=(x-5)^2+0$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The parabola's lowest point is its vertex $(5,0)$, so the horizontal tangent line is $y=0$.",
+    "complexity_factor": 1.25,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-11eb72d2afc02afd8fb8cc5c535350379c90c2d0617bdd7c668e736352317b98",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.hard.0033",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "The graph $y=x^2-4x+6$ has its vertex at what $x$-coordinate?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "For $y=x^2+Bx+C$, the vertex has $x=-B/2$. Here $B=-4$, so $x=2$.",
+    "complexity_factor": 1.25,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-57f98e0c6c131b3aefb273dffe37ac0a9f36825dca099a36b8abb090d0e7c8d9",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.hard.0034",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A horizontal line cuts $y=(x-3)^2+3$ in two points whose $x$-coordinates differ by 8. What is the line's $y$-value?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-13$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$19$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "19",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The two $x$-values are $h-r$ and $h+r$, so the line has $y=k+r^2=3+16=19$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-3d97a26e659ff942d35476a2ea7c2b2eeb1195f127b51ff3e85ff14d5e5dcbe9",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.hard.0035",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "The graph $y=x^2+px+-3$ passes through $(1,-5)$ and $(-1,1)$. What is $p$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Subtract the two equations: -5-1=2(1)p$, so $p=-3$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-bb2f061c47a399b3d948a38b1ab2e824eb12bc5954d6859a7c18b81de2866643",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.hard.0036",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many intersection points do the graphs $y=x^2-1$ and $y=-2x+4$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Intersections satisfy $x^2-1=-2x+4$. The discriminant is 24, so there are 2 real intersection points.",
+    "complexity_factor": 1.3,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-1ddd99e99b612fd4746369d64a1a8ab219152165fa76b4c63956a9568de1421d",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.hard.0037",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $t$ is the line $y=t$ tangent to the graph $y=(x+1)^2+5$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$-5$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The parabola's lowest point is its vertex $(-1,5)$, so the horizontal tangent line is $y=5$.",
+    "complexity_factor": 1.25,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-6b153baa9f762124b6c4326e793148e627d96edd34d0e69ac1027e3c19efa5f3",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.hard.0038",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "The graph $y=x^2+4x+4$ has its vertex at what $x$-coordinate?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "For $y=x^2+Bx+C$, the vertex has $x=-B/2$. Here $B=4$, so $x=-2$.",
+    "complexity_factor": 1.25,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-0530fdbb91b49e2a2e29d82fc172a1ff7756a926726115de07984e81b8853747",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.hard.0039",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A horizontal line cuts $y=(x-1)^2-1$ in two points whose $x$-coordinates differ by 10. What is the line's $y$-value?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-26$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$24$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "24",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The two $x$-values are $h-r$ and $h+r$, so the line has $y=k+r^2=-1+25=24$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-29d50ed5fcd6eaa89d52581d673d5c14b83fdee5b1bb4ee9830fce4b772c1639",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.hard.0040",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "The graph $y=x^2+px+2$ passes through $(1,5)$ and $(-1,1)$. What is $p$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Subtract the two equations: 5-1=2(1)p$, so $p=2$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-d5a21f2b87ad73fcfc897b9a12b22016d1213accd88a5616db2343d1d77733aa",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.hard.0041",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many intersection points do the graphs $y=x^2-1$ and $y=3x-3$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Intersections satisfy $x^2-1=3x-3$. The discriminant is 1, so there are 2 real intersection points.",
+    "complexity_factor": 1.3,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-f918f9bbab9736004db8a34ee6fcd0d27e164c4ecbf6162ce538e87e5ac2e9ef",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.hard.0042",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $t$ is the line $y=t$ tangent to the graph $y=(x-4)^2-3$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The parabola's lowest point is its vertex $(4,-3)$, so the horizontal tangent line is $y=-3$.",
+    "complexity_factor": 1.25,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-4290048c7cf30575adf64b69e67ee74a2a9ced98c12fca0c7856521dc30b79bb",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.hard.0043",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "The graph $y=x^2-6x+7$ has its vertex at what $x$-coordinate?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-6$"
+      },
+      {
+        "id": "c",
+        "latex": "$-3$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "For $y=x^2+Bx+C$, the vertex has $x=-B/2$. Here $B=-6$, so $x=3$.",
+    "complexity_factor": 1.25,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-bd797108e6276fbfc4f9fb6ad02352deee6e8cf2614b1ab2bfeb2ae1cced01e2",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.hard.0044",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A horizontal line cuts $y=(x+1)^2+4$ in two points whose $x$-coordinates differ by 4. What is the line's $y$-value?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The two $x$-values are $h-r$ and $h+r$, so the line has $y=k+r^2=4+4=8$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-15b24dedcac08e252696e74c4cc71a524c6d9351b51468cc8d29ddb311e1499e",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.hard.0045",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "The graph $y=x^2+px+-4$ passes through $(1,-1)$ and $(-1,-5)$. What is $p$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Subtract the two equations: -1--5=2(1)p$, so $p=2$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-e3231b81d5dec967de80fd19c9fd630eea7174ceba0154ea1a2acc2288e9c638",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.hard.0046",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "How many intersection points do the graphs $y=x^2-1$ and $y=1x-1$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Intersections satisfy $x^2-1=1x-1$. The discriminant is 1, so there are 2 real intersection points.",
+    "complexity_factor": 1.3,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-1bba85bf76c273285bc44f9749c6ca08b0ee8a5277628f4ec5fa77806c36a264",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.hard.0047",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "For what value of $t$ is the line $y=t$ tangent to the graph $y=(x+2)^2+2$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The parabola's lowest point is its vertex $(-2,2)$, so the horizontal tangent line is $y=2$.",
+    "complexity_factor": 1.25,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-b47bc247d3f82ec553fb13a8cd85f4a27f39254ebecfbed25a2c19891e07c935",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.hard.0048",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "The graph $y=x^2+2x+4$ has its vertex at what $x$-coordinate?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "For $y=x^2+Bx+C$, the vertex has $x=-B/2$. Here $B=2$, so $x=-1$.",
+    "complexity_factor": 1.25,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-6a6c578fd9bbeb02077a85d3da8b2b08b9f777cc090e094d80303ffeee589fe7",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.hard.0049",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "A horizontal line cuts $y=(x+3)^2+0$ in two points whose $x$-coordinates differ by 6. What is the line's $y$-value?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$-9$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The two $x$-values are $h-r$ and $h+r$, so the line has $y=k+r^2=0+9=9$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-0bf8d0f5aa0a922a1a7db8f5dc22c84495031423c18bc728035a430a61cc92fe",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.basics.hard.0050",
+    "topic_id": "ch17.basics",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "hard",
+    "prompt_latex": "The graph $y=x^2+px+1$ passes through $(1,0)$ and $(-1,4)$. What is $p$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Subtract the two equations: 0-4=2(1)p$, so $p=-2$.",
+    "complexity_factor": 1.35,
+    "source_section": "17.1",
+    "tags": [
+      "graphing-functions",
+      "function-values",
+      "intercepts"
+    ],
+    "checksum": "sha256-854d28341d3cbb6fe02b43ce96b3b32dbdaff66f68fe043bac4169ef9585702a",
+    "status": "valid"
+  }
+]

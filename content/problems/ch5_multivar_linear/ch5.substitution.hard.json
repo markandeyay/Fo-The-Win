@@ -1,0 +1,1976 @@
+[
+  {
+    "id": "ch5.substitution.hard.0001",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 3x - 7y = -45 \\\\ 7x + 4y = -31 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0,-6)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1,-6)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,-5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,6)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-1,-6)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Isolate $x$ from the first equation and substitute into the second. After simplifying, $x = -1$ and $y = -6$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems"
+    ],
+    "checksum": "sha256-d2aa0b447f94c0b75d2b266efe30011b24a33df45d023f5b575c9869bbaa22c7",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.hard.0002",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 8x - 7y = 3 \\\\ 6x + 9y = 21 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-3,4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-4,5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-4,-5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-5,5)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-4,5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Isolate $x$ from the first equation and substitute into the second. After simplifying, $x = -4$ and $y = 5$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems"
+    ],
+    "checksum": "sha256-bfe695e0a36a9989e7b6b787d1275a9bf452874729331dce30bb12b03acc7194",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.hard.0003",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "How many solutions does the system $\\begin{cases} 1x + 1y = 7 \\\\ 2x + 2y = 17 \\end{cases}$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$infinitely many$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The left side of the second equation is 2 times the first, but the right side is not, so the lines are parallel and distinct.",
+    "complexity_factor": 1.35,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems",
+      "special"
+    ],
+    "checksum": "sha256-b5bdda0b689925375101e08009d04ad7a7f689321a3eaf92506327944157b2bb",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.hard.0004",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} \\dfrac{1}{x} + \\dfrac{1}{y} = \\dfrac{3752999689475413}{4503599627370496} \\\\ \\dfrac{1}{x} - \\dfrac{2}{y} = -0.6666666666666667 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4,2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1,3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,3)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(3,2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Let $u = 1/x$ and $v = 1/y$. Solve the linear system for $u$ and $v$, then invert to find $(x,y) = (3,2)$.",
+    "complexity_factor": 1.45,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "reciprocal",
+      "systems"
+    ],
+    "checksum": "sha256-0e91b62492774c0b720bf5d3783c45112978a638d9d73d74a5f24f4293767b06",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.hard.0005",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 4x - 5y = 42 \\\\ 7x + 7y = 63 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3,-6)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3,5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4,5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3,6)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(3,6)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Isolate $x$ from the first equation and substitute into the second. After simplifying, $x = 3$ and $y = 6$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems"
+    ],
+    "checksum": "sha256-6f7f59bd0abd84813cd4ef643b541e7d51b49307ea4c8da2b1a7ae4dab00515d",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.hard.0006",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 4x - 3y = -4 \\\\ 7x + 6y = -10 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2,-4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3,-5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2,4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4,-3)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(2,-4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Isolate $x$ from the first equation and substitute into the second. After simplifying, $x = 2$ and $y = -4$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems"
+    ],
+    "checksum": "sha256-5c7dfb6737566397586e713388fe52450a18471e9e85ff926fbfef2f15ac9dac",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.hard.0007",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "How many solutions does the system $\\begin{cases} 4x + 2y = 18 \\\\ 8x + 4y = 37 \\end{cases}$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$infinitely many$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "0",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The left side of the second equation is 2 times the first, but the right side is not, so the lines are parallel and distinct.",
+    "complexity_factor": 1.35,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems",
+      "special"
+    ],
+    "checksum": "sha256-3f2569e2e036193c135351a4a3e4f29ac10a9fef8f31e7fba01b4225432d319f",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.hard.0008",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} \\dfrac{1}{x} + \\dfrac{3}{y} = \\dfrac{2476979795053773}{2251799813685248} \\\\ \\dfrac{3}{x} - \\dfrac{3}{y} = 0.8999999999999999 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3,5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(5,2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2,3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,5)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(2,5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Let $u = 1/x$ and $v = 1/y$. Solve the linear system for $u$ and $v$, then invert to find $(x,y) = (2,5)$.",
+    "complexity_factor": 1.45,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "reciprocal",
+      "systems"
+    ],
+    "checksum": "sha256-0d8268ae3944f35d5b017c4d01fc8649516c2fc2ef024d8fd677417b2a30c0a3",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.hard.0009",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 8x - 8y = -40 \\\\ 8x + 7y = -38 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,-2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3,2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2,-3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-3,-2)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-3,-2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Isolate $x$ from the first equation and substitute into the second. After simplifying, $x = -3$ and $y = -2$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems"
+    ],
+    "checksum": "sha256-a6ccb2004a9d618bd7864fb257896716941ce814f9e6eb31d520ea1a9b79841b",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.hard.0010",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 8x - 3y = 42 \\\\ 8x + 9y = 78 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3,6)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4,3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4,8)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3,-6)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(3,6)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Isolate $x$ from the first equation and substitute into the second. After simplifying, $x = 3$ and $y = 6$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems"
+    ],
+    "checksum": "sha256-8fbc71970a74b0b082d7693facdd1750be73965669f46949620dbdffb3b7fce8",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.hard.0011",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "How many solutions does the system $\\begin{cases} 3x + 4y = 22 \\\\ 12x + 16y = 88 \\end{cases}$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$infinitely many$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "infinitely many",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The second equation is 4 times the first, so the equations describe the same line.",
+    "complexity_factor": 1.35,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems",
+      "special"
+    ],
+    "checksum": "sha256-9928c5f0592390e7cc7ba79e756d9edcdc43ba2d9002e632563c17c1796e588d",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.hard.0012",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} \\dfrac{1}{x} + \\dfrac{1}{y} = \\dfrac{3602879701896397}{9007199254740992} \\\\ \\dfrac{2}{x} - \\dfrac{2}{y} = 0 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(6,5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(5,5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(7,5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(5,3)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(5,5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Let $u = 1/x$ and $v = 1/y$. Solve the linear system for $u$ and $v$, then invert to find $(x,y) = (5,5)$.",
+    "complexity_factor": 1.45,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "reciprocal",
+      "systems"
+    ],
+    "checksum": "sha256-50fc265627a802ab7c27cc0e8f900f844d7b0d57c923072d1f9001e8ab9b69bf",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.hard.0013",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 6x - 8y = -46 \\\\ 7x + 9y = -52 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,-5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1,-3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0,-6)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-1,-5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Isolate $x$ from the first equation and substitute into the second. After simplifying, $x = -1$ and $y = -5$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems"
+    ],
+    "checksum": "sha256-2c0f3d82dee4f2ebb04d893d8e2c2328296e7a5cd8457b13747b1c91b304630d",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.hard.0014",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 4x - 5y = -12 \\\\ 3x + 6y = -18 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3,-5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2,-4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0,-4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,4)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(2,-4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Isolate $x$ from the first equation and substitute into the second. After simplifying, $x = 2$ and $y = -4$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems"
+    ],
+    "checksum": "sha256-78f3045ac4dd516a627ac4c2047fa8af9645bead1906a84834c64919a4eb2307",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.hard.0015",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "How many solutions does the system $\\begin{cases} 3x + 3y = 15 \\\\ 6x + 6y = 31 \\end{cases}$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$infinitely many$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The left side of the second equation is 2 times the first, but the right side is not, so the lines are parallel and distinct.",
+    "complexity_factor": 1.35,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems",
+      "special"
+    ],
+    "checksum": "sha256-20a45a19b6ce5e5dbae5837d04f7c1e8cf1bb2f62aa3af26e752bb122ee84b6d",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.hard.0016",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} \\dfrac{3}{x} + \\dfrac{1}{y} = \\dfrac{3602879701896397}{4503599627370496} \\\\ \\dfrac{1}{x} - \\dfrac{2}{y} = -0.2 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(5,5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(6,7)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(6,5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(5,3)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(5,5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Let $u = 1/x$ and $v = 1/y$. Solve the linear system for $u$ and $v$, then invert to find $(x,y) = (5,5)$.",
+    "complexity_factor": 1.45,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "reciprocal",
+      "systems"
+    ],
+    "checksum": "sha256-11d0481d744f898272a9f5f291ed14da5d5c1f25f70441acad195356fe625c1d",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.hard.0017",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 6x - 8y = -2 \\\\ 3x + 8y = -5 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2,-2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1,-1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1,-3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1,1)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(1,-1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Isolate $x$ from the first equation and substitute into the second. After simplifying, $x = 1$ and $y = -1$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems"
+    ],
+    "checksum": "sha256-6ead5ecf464ebc286216c4631d9d81a99600425965de01484d301777ec6aabe6",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.hard.0018",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 8x - 4y = 36 \\\\ 8x + 4y = 36 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(5,1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(6,-3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(5,-1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(6,1)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(5,-1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Isolate $x$ from the first equation and substitute into the second. After simplifying, $x = 5$ and $y = -1$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems"
+    ],
+    "checksum": "sha256-1ea231761f503363725b792fad5331bf6c2c86ef77bc42f1c01dd8ea29f02764",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.hard.0019",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "How many solutions does the system $\\begin{cases} 1x + 3y = 15 \\\\ 4x + 12y = 60 \\end{cases}$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$infinitely many$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "infinitely many",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The second equation is 4 times the first, so the equations describe the same line.",
+    "complexity_factor": 1.35,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems",
+      "special"
+    ],
+    "checksum": "sha256-35cecc9371dbc23c94306a47a645a290845a63d26ee284d7f56a1cdfda5dd646",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.hard.0020",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} \\dfrac{2}{x} + \\dfrac{2}{y} = \\dfrac{2627099782632789}{2251799813685248} \\\\ \\dfrac{1}{x} - \\dfrac{2}{y} = -0.41666666666666663 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3,4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4,3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(5,3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4,2)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(4,3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Let $u = 1/x$ and $v = 1/y$. Solve the linear system for $u$ and $v$, then invert to find $(x,y) = (4,3)$.",
+    "complexity_factor": 1.45,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "reciprocal",
+      "systems"
+    ],
+    "checksum": "sha256-829ed5bcfdbdc6d91956f3596555b4ea53aa981762ac7874de6de9fa36d9b074",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.hard.0021",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 4x - 2y = 10 \\\\ 8x + 4y = 20 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4,-3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3,-1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3,1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3,-2)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(3,-1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Isolate $x$ from the first equation and substitute into the second. After simplifying, $x = 3$ and $y = -1$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems"
+    ],
+    "checksum": "sha256-282712d1267099e4c1e22b2da9e176dd7b92d3a72f3a6e0c43af9a9490e5f194",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.hard.0022",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 7x - 5y = 22 \\\\ 7x + 5y = 22 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(5,-4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(6,4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(7,-5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(6,-4)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(6,-4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Isolate $x$ from the first equation and substitute into the second. After simplifying, $x = 6$ and $y = -4$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems"
+    ],
+    "checksum": "sha256-b3d1742c6fae5bf6316828b17f07f49c6f5522397177f2589b01d9580b16f1ea",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.hard.0023",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "How many solutions does the system $\\begin{cases} 2x + 1y = 11 \\\\ 4x + 2y = 23 \\end{cases}$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$infinitely many$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The left side of the second equation is 2 times the first, but the right side is not, so the lines are parallel and distinct.",
+    "complexity_factor": 1.35,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems",
+      "special"
+    ],
+    "checksum": "sha256-5a3e94713f3ff5731899c7f9ad46e06a70d0674e9a116cb21c81ac43eb9568d6",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.hard.0024",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} \\dfrac{1}{x} + \\dfrac{3}{y} = \\dfrac{7}{4} \\\\ \\dfrac{1}{x} - \\dfrac{2}{y} = -0.75 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(5,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2,4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,3)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(4,2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Let $u = 1/x$ and $v = 1/y$. Solve the linear system for $u$ and $v$, then invert to find $(x,y) = (4,2)$.",
+    "complexity_factor": 1.45,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "reciprocal",
+      "systems"
+    ],
+    "checksum": "sha256-f58600c338374b5fb0c72d7732659133d0ce413e4d56dcdb0d2a8d1f797f571a",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.hard.0025",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 6x - 7y = 15 \\\\ 8x + 4y = 36 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(6,3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(6,-3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4,-2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(7,-4)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(6,-3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Isolate $x$ from the first equation and substitute into the second. After simplifying, $x = 6$ and $y = -3$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems"
+    ],
+    "checksum": "sha256-985cfde9a45b0d323a49b95f270da0ba3df62a179051a48dec94c67ae27d37c0",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.hard.0026",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 6x - 2y = 24 \\\\ 5x + 6y = 20 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(5,-3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(5,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(6,1)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(4,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Isolate $x$ from the first equation and substitute into the second. After simplifying, $x = 4$ and $y = 0$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems"
+    ],
+    "checksum": "sha256-effb480eef85e7626c6c5bebf644a1aa928c761d16ea55ebadb98eb4db1c7d80",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.hard.0027",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "How many solutions does the system $\\begin{cases} 3x + 1y = 14 \\\\ 9x + 3y = 42 \\end{cases}$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$infinitely many$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "infinitely many",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The second equation is 3 times the first, so the equations describe the same line.",
+    "complexity_factor": 1.35,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems",
+      "special"
+    ],
+    "checksum": "sha256-bb3a8ce977fb41350a985bc3162d2500f9e1bd6dfa8531a044cac2ec94507974",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.hard.0028",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} \\dfrac{1}{x} + \\dfrac{2}{y} = \\dfrac{3752999689475413}{4503599627370496} \\\\ \\dfrac{3}{x} - \\dfrac{1}{y} = 0.75 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4,4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4,3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3,3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3,4)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(3,4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Let $u = 1/x$ and $v = 1/y$. Solve the linear system for $u$ and $v$, then invert to find $(x,y) = (3,4)$.",
+    "complexity_factor": 1.45,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "reciprocal",
+      "systems"
+    ],
+    "checksum": "sha256-5abd2646a423ec1789423431bd8c02af1627b968b4c00a466b9b93a306f723b4",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.hard.0029",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 8x - 3y = -23 \\\\ 4x + 2y = -10 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-3,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-5,2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-4,3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-4,-3)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-4,3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Isolate $x$ from the first equation and substitute into the second. After simplifying, $x = -4$ and $y = 3$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems"
+    ],
+    "checksum": "sha256-ac9b8d171c2004b3ccc9deab0ee01a18a502155df6e0e1d71d5e5fd8c8bf2312",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.hard.0030",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 6x - 7y = 46 \\\\ 9x + 6y = 51 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3,-4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4,4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4,3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3,4)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(3,4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Isolate $x$ from the first equation and substitute into the second. After simplifying, $x = 3$ and $y = 4$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems"
+    ],
+    "checksum": "sha256-9689d75a260a213db2986ba4726752ff2b796dc4ffbe6119639afa4249f3f012",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.hard.0031",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "How many solutions does the system $\\begin{cases} 1x + 4y = 16 \\\\ 2x + 8y = 33 \\end{cases}$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$infinitely many$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The left side of the second equation is 2 times the first, but the right side is not, so the lines are parallel and distinct.",
+    "complexity_factor": 1.35,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems",
+      "special"
+    ],
+    "checksum": "sha256-abe9888ca62f3b8a09730904d8d748cd7ecc663e6571458232e173a4bb4343a0",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.hard.0032",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} \\dfrac{2}{x} + \\dfrac{1}{y} = \\dfrac{8256599316845909}{9007199254740992} \\\\ \\dfrac{3}{x} - \\dfrac{2}{y} = 0.5 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4,4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3,4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4,3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3,3)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(3,4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Let $u = 1/x$ and $v = 1/y$. Solve the linear system for $u$ and $v$, then invert to find $(x,y) = (3,4)$.",
+    "complexity_factor": 1.45,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "reciprocal",
+      "systems"
+    ],
+    "checksum": "sha256-5c8f76ffba5f5cc59cfda2e761466fdbeee4a0e83bf2fa27b689449dceb6b349",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.hard.0033",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 6x - 2y = 8 \\\\ 5x + 5y = 10 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1,1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1,-1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,-2)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(1,1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Isolate $x$ from the first equation and substitute into the second. After simplifying, $x = 1$ and $y = 1$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems"
+    ],
+    "checksum": "sha256-dd9d28621840580299abd9f55413f7b841aab9e7987af1999273dd9ffa20db9b",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.hard.0034",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 6x - 7y = 0 \\\\ 6x + 7y = 0 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,-1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1,-1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2,1)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(0,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Isolate $x$ from the first equation and substitute into the second. After simplifying, $x = 0$ and $y = 0$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems"
+    ],
+    "checksum": "sha256-02e6e7ecaf854794492c1875f822c203008f64de6b83ca874df318d7a1741a7f",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.hard.0035",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "How many solutions does the system $\\begin{cases} 3x + 2y = 16 \\\\ 9x + 6y = 48 \\end{cases}$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$infinitely many$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "infinitely many",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The second equation is 3 times the first, so the equations describe the same line.",
+    "complexity_factor": 1.35,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems",
+      "special"
+    ],
+    "checksum": "sha256-d9cba6546c3ea187c5c9314e0cc7cdb88aad5343372bb8eb51f3674960bc7934",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.hard.0036",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} \\dfrac{1}{x} + \\dfrac{2}{y} = \\dfrac{3152519739159347}{4503599627370496} \\\\ \\dfrac{1}{x} - \\dfrac{2}{y} = -0.3 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(6,4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(5,3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4,5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(5,4)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(5,4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Let $u = 1/x$ and $v = 1/y$. Solve the linear system for $u$ and $v$, then invert to find $(x,y) = (5,4)$.",
+    "complexity_factor": 1.45,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "reciprocal",
+      "systems"
+    ],
+    "checksum": "sha256-7008536c4befa45fb57ac7961d67c4bbfc3bff544fb55cbd4b87a40b19fbe149",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.hard.0037",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 7x - 4y = -2 \\\\ 4x + 2y = -2 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2,-3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1,1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-4,4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2,3)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-2,3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Isolate $x$ from the first equation and substitute into the second. After simplifying, $x = -2$ and $y = 3$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems"
+    ],
+    "checksum": "sha256-21230dcb2f25bac60e8f5cf02a50f237e76b8d1bb3103432ad54fa80f9c23179",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.hard.0038",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 4x - 7y = 10 \\\\ 5x + 2y = -1 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1,-2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0,1)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-1,2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Isolate $x$ from the first equation and substitute into the second. After simplifying, $x = -1$ and $y = 2$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems"
+    ],
+    "checksum": "sha256-dc81a2037631124f78cc32dca4c1e2c2caae0fb65805950b75258b7abd3fc526",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.hard.0039",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "How many solutions does the system $\\begin{cases} 2x + 3y = 17 \\\\ 6x + 9y = 52 \\end{cases}$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$infinitely many$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "0",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The left side of the second equation is 3 times the first, but the right side is not, so the lines are parallel and distinct.",
+    "complexity_factor": 1.35,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems",
+      "special"
+    ],
+    "checksum": "sha256-0976ebf49cc9475751edbbe25519e01d36fd6fd012ef798d3c594ebe0373b33b",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.hard.0040",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} \\dfrac{1}{x} + \\dfrac{1}{y} = \\dfrac{3}{4} \\\\ \\dfrac{2}{x} - \\dfrac{2}{y} = 0.5 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2,4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3,4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,3)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(2,4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Let $u = 1/x$ and $v = 1/y$. Solve the linear system for $u$ and $v$, then invert to find $(x,y) = (2,4)$.",
+    "complexity_factor": 1.45,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "reciprocal",
+      "systems"
+    ],
+    "checksum": "sha256-2c22fcd447f2d70a4071c2442c8ae56f0f3b73cfb5ae4c4b7c2403bd9ae685fb",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.hard.0041",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 4x - 8y = 20 \\\\ 7x + 5y = 17 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1,3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1,-2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,2)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(1,2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Isolate $x$ from the first equation and substitute into the second. After simplifying, $x = 1$ and $y = 2$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems"
+    ],
+    "checksum": "sha256-08ffc1723e84cda8ea300c6f43d6a63bef1cd759f1ea776bf0307dbb9710f7e5",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.hard.0042",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 8x - 3y = 49 \\\\ 9x + 8y = 69 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(6,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(5,3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3,3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(5,-3)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(5,3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Isolate $x$ from the first equation and substitute into the second. After simplifying, $x = 5$ and $y = 3$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems"
+    ],
+    "checksum": "sha256-5752b780b4aa668c56f57fc35f6c2febd3396d6dde969d919e9a2a2c7cfb6165",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.hard.0043",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "How many solutions does the system $\\begin{cases} 1x + 4y = 11 \\\\ 3x + 12y = 33 \\end{cases}$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$infinitely many$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "infinitely many",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The second equation is 3 times the first, so the equations describe the same line.",
+    "complexity_factor": 1.35,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems",
+      "special"
+    ],
+    "checksum": "sha256-c1821fd8b931b5450c8c91a1482a1e4db55beab9b80e73d6f3d49623c6469d15",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.hard.0044",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} \\dfrac{3}{x} + \\dfrac{1}{y} = \\dfrac{2476979795053773}{2251799813685248} \\\\ \\dfrac{3}{x} - \\dfrac{3}{y} = -0.8999999999999999 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(6,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(5,2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(5,3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,5)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(5,2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Let $u = 1/x$ and $v = 1/y$. Solve the linear system for $u$ and $v$, then invert to find $(x,y) = (5,2)$.",
+    "complexity_factor": 1.45,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "reciprocal",
+      "systems"
+    ],
+    "checksum": "sha256-dd6b78c3bb85bcdde4789f5c39d328f5f01836d89793a4de6585a1ef882538c8",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.hard.0045",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 3x - 4y = 12 \\\\ 9x + 6y = 36 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(5,-1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4,-1)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(4,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Isolate $x$ from the first equation and substitute into the second. After simplifying, $x = 4$ and $y = 0$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems"
+    ],
+    "checksum": "sha256-a90435172e248ba06bc6baaeaf3556b28b7921e357b8ca19d81181505f22b73b",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.hard.0046",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 3x - 6y = -15 \\\\ 6x + 7y = -15 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1,-4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2,-3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1,3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1,-3)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(1,-3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Isolate $x$ from the first equation and substitute into the second. After simplifying, $x = 1$ and $y = -3$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems"
+    ],
+    "checksum": "sha256-53f07233f4ab789776bf7965ac33c48e89a68069ec5c0c814d78eb7028c6c17b",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.hard.0047",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "How many solutions does the system $\\begin{cases} 3x + 1y = 9 \\\\ 6x + 2y = 20 \\end{cases}$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$infinitely many$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The left side of the second equation is 2 times the first, but the right side is not, so the lines are parallel and distinct.",
+    "complexity_factor": 1.35,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems",
+      "special"
+    ],
+    "checksum": "sha256-530015c3cb6a8d0f1cf3fd553c5ec6e330bcd28043d867b946bc4b782e4c278c",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.hard.0048",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} \\dfrac{1}{x} + \\dfrac{2}{y} = \\dfrac{3752999689475413}{4503599627370496} \\\\ \\dfrac{1}{x} - \\dfrac{2}{y} = -0.16666666666666669 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4,4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3,4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4,3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3,3)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(3,4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Let $u = 1/x$ and $v = 1/y$. Solve the linear system for $u$ and $v$, then invert to find $(x,y) = (3,4)$.",
+    "complexity_factor": 1.45,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "reciprocal",
+      "systems"
+    ],
+    "checksum": "sha256-35d401a86bd6b05c295c4503725238d137dd8621f4cafede8da11f0d3cf323c8",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.hard.0049",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 6x - 7y = 7 \\\\ 3x + 5y = 5 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0,-1)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(0,1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Isolate $x$ from the first equation and substitute into the second. After simplifying, $x = 0$ and $y = 1$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems"
+    ],
+    "checksum": "sha256-7e791cea48f91c83e1a7a6e6cf5ba086131f7ca26fcc0abb812e6385e17100a1",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.substitution.hard.0050",
+    "topic_id": "ch5.substitution",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 9x - 3y = -36 \\\\ 5x + 3y = -28 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2,6)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1,-9)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-3,-6)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2,-6)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-2,-6)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Isolate $x$ from the first equation and substitute into the second. After simplifying, $x = -2$ and $y = -6$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.2",
+    "tags": [
+      "substitution",
+      "systems"
+    ],
+    "checksum": "sha256-23edd06dd2324877ebc104ee63fdab4ae65ce2839f7db8eb7da32a4509c2b096",
+    "status": "valid"
+  }
+]

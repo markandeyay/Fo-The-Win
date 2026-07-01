@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "ch22.self_similarity.medium.0001",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "medium",
+    "prompt_latex": "Find the positive value of $C=2+\\dfrac{15}{2+\\dfrac{15}{2+\\dfrac{15}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator after the first fraction is again $C$, so $C=2+\\dfrac{15}{C}$. Thus $C^2-2C-15=0$, and the positive root is $5$.",
+    "complexity_factor": 1.35,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions"
+    ],
+    "checksum": "sha256-257ab753b7d6f323ccc15b15fa756d0a1c72efc9789723d53aecfe9f5d94077b",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.medium.0002",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "medium",
+    "prompt_latex": "Find the positive value of $C=3+\\dfrac{28}{3+\\dfrac{28}{3+\\dfrac{28}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator after the first fraction is again $C$, so $C=3+\\dfrac{28}{C}$. Thus $C^2-3C-28=0$, and the positive root is $7$.",
+    "complexity_factor": 1.35,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions"
+    ],
+    "checksum": "sha256-2df326be803702e2332e8ce8fa115dc11c78f25aaa78e896851c5e9356814a67",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.medium.0003",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "medium",
+    "prompt_latex": "Find the positive value of $C=4+\\dfrac{45}{4+\\dfrac{45}{4+\\dfrac{45}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator after the first fraction is again $C$, so $C=4+\\dfrac{45}{C}$. Thus $C^2-4C-45=0$, and the positive root is $9$.",
+    "complexity_factor": 1.35,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions"
+    ],
+    "checksum": "sha256-6c75008e21a8427a4e67d061e8e3160717dfa28dcc28f0d2f657843ab2025813",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.medium.0004",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "medium",
+    "prompt_latex": "Find the positive value of $C=5+\\dfrac{66}{5+\\dfrac{66}{5+\\dfrac{66}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "11",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator after the first fraction is again $C$, so $C=5+\\dfrac{66}{C}$. Thus $C^2-5C-66=0$, and the positive root is $11$.",
+    "complexity_factor": 1.35,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions"
+    ],
+    "checksum": "sha256-a69ec4a10b4484f59fe134c4bdbc53c40aea0e4179857b17c29c2766d66e5ed8",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.medium.0005",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "medium",
+    "prompt_latex": "Find the positive value of $C=1+\\dfrac{56}{1+\\dfrac{56}{1+\\dfrac{56}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator after the first fraction is again $C$, so $C=1+\\dfrac{56}{C}$. Thus $C^2-1C-56=0$, and the positive root is $8$.",
+    "complexity_factor": 1.35,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions"
+    ],
+    "checksum": "sha256-5b891da4b3fed9ac7db3f66c1de86715eab09d99d1f468d5f6aa9f8102f4af44",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.medium.0006",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "medium",
+    "prompt_latex": "Find the positive value of $C=2+\\dfrac{80}{2+\\dfrac{80}{2+\\dfrac{80}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$11$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator after the first fraction is again $C$, so $C=2+\\dfrac{80}{C}$. Thus $C^2-2C-80=0$, and the positive root is $10$.",
+    "complexity_factor": 1.35,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions"
+    ],
+    "checksum": "sha256-225c0b20d98879b62e6e1ef043f6d4a1cdc967a4e86c7ba2c28d19e700f07a0e",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.medium.0007",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "medium",
+    "prompt_latex": "Find the positive value of $C=3+\\dfrac{108}{3+\\dfrac{108}{3+\\dfrac{108}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$11$"
+      },
+      {
+        "id": "c",
+        "latex": "$13$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator after the first fraction is again $C$, so $C=3+\\dfrac{108}{C}$. Thus $C^2-3C-108=0$, and the positive root is $12$.",
+    "complexity_factor": 1.35,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions"
+    ],
+    "checksum": "sha256-d59388dad3973eb2f58ef496c6b0cc981bb9f158b42c37a8fdb33538fe8d66c1",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.medium.0008",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "medium",
+    "prompt_latex": "Find the positive value of $C=4+\\dfrac{140}{4+\\dfrac{140}{4+\\dfrac{140}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$13$"
+      },
+      {
+        "id": "c",
+        "latex": "$14$"
+      },
+      {
+        "id": "d",
+        "latex": "$15$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "14",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator after the first fraction is again $C$, so $C=4+\\dfrac{140}{C}$. Thus $C^2-4C-140=0$, and the positive root is $14$.",
+    "complexity_factor": 1.35,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions"
+    ],
+    "checksum": "sha256-ce3d7412d4d3d9ecf1602f10024d4e4191a42f3f7d4f5c31b846fdf04a129de7",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.medium.0009",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "medium",
+    "prompt_latex": "Find the positive value of $C=5+\\dfrac{176}{5+\\dfrac{176}{5+\\dfrac{176}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$16$"
+      },
+      {
+        "id": "c",
+        "latex": "$15$"
+      },
+      {
+        "id": "d",
+        "latex": "$17$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "16",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator after the first fraction is again $C$, so $C=5+\\dfrac{176}{C}$. Thus $C^2-5C-176=0$, and the positive root is $16$.",
+    "complexity_factor": 1.35,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions"
+    ],
+    "checksum": "sha256-f9c15cf8f602808ef47bdad000ce8a27c447f63af742c4a8037bca751b73279c",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.medium.0010",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "medium",
+    "prompt_latex": "Find the positive value of $C=1+\\dfrac{156}{1+\\dfrac{156}{1+\\dfrac{156}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$13$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$14$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "13",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator after the first fraction is again $C$, so $C=1+\\dfrac{156}{C}$. Thus $C^2-1C-156=0$, and the positive root is $13$.",
+    "complexity_factor": 1.35,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions"
+    ],
+    "checksum": "sha256-e5de77ea35c3c4639b15107ec111baac1a8b80c281a23b53085d5b4337035cd5",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.medium.0011",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "medium",
+    "prompt_latex": "Find the positive value of $C=2+\\dfrac{195}{2+\\dfrac{195}{2+\\dfrac{195}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$14$"
+      },
+      {
+        "id": "c",
+        "latex": "$16$"
+      },
+      {
+        "id": "d",
+        "latex": "$15$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "15",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator after the first fraction is again $C$, so $C=2+\\dfrac{195}{C}$. Thus $C^2-2C-195=0$, and the positive root is $15$.",
+    "complexity_factor": 1.35,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions"
+    ],
+    "checksum": "sha256-bd304e4ebd41d594f65a699f8ab4fdb33dd448dabbfb8ff324fa435f2eb109cc",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.medium.0012",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "medium",
+    "prompt_latex": "Find the positive value of $C=3+\\dfrac{238}{3+\\dfrac{238}{3+\\dfrac{238}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$16$"
+      },
+      {
+        "id": "c",
+        "latex": "$17$"
+      },
+      {
+        "id": "d",
+        "latex": "$18$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "17",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator after the first fraction is again $C$, so $C=3+\\dfrac{238}{C}$. Thus $C^2-3C-238=0$, and the positive root is $17$.",
+    "complexity_factor": 1.35,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions"
+    ],
+    "checksum": "sha256-30a363e71eb0244f9af969addc4d9a81b7d55f33db77c3555127117e397a8256",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.medium.0013",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "medium",
+    "prompt_latex": "Find the positive value of $C=4+\\dfrac{12}{4+\\dfrac{12}{4+\\dfrac{12}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator after the first fraction is again $C$, so $C=4+\\dfrac{12}{C}$. Thus $C^2-4C-12=0$, and the positive root is $6$.",
+    "complexity_factor": 1.35,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions"
+    ],
+    "checksum": "sha256-5e4cb04525530fdb4ec040e3f206ca0c3709619e06596d7fa4024ddb82ba9824",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.medium.0014",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "medium",
+    "prompt_latex": "Find the positive value of $C=5+\\dfrac{24}{5+\\dfrac{24}{5+\\dfrac{24}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator after the first fraction is again $C$, so $C=5+\\dfrac{24}{C}$. Thus $C^2-5C-24=0$, and the positive root is $8$.",
+    "complexity_factor": 1.35,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions"
+    ],
+    "checksum": "sha256-2004ff979cff093c94e2519152b4cfccd928db95340271b91ad005f92b5303c2",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.medium.0015",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "medium",
+    "prompt_latex": "Find the positive value of $C=1+\\dfrac{20}{1+\\dfrac{20}{1+\\dfrac{20}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator after the first fraction is again $C$, so $C=1+\\dfrac{20}{C}$. Thus $C^2-1C-20=0$, and the positive root is $5$.",
+    "complexity_factor": 1.35,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions"
+    ],
+    "checksum": "sha256-7f9940e7faa7f7df81f89e5a9248fd442f525b11f093e0ed06d4b0a892570937",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.medium.0016",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "medium",
+    "prompt_latex": "Find the positive value of $C=2+\\dfrac{35}{2+\\dfrac{35}{2+\\dfrac{35}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator after the first fraction is again $C$, so $C=2+\\dfrac{35}{C}$. Thus $C^2-2C-35=0$, and the positive root is $7$.",
+    "complexity_factor": 1.35,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions"
+    ],
+    "checksum": "sha256-88e9121a95b9690d284f7528bb92d7fd88a8666ab08b840c7d7a3ca539a4b290",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.medium.0017",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "medium",
+    "prompt_latex": "Find the positive value of $C=3+\\dfrac{54}{3+\\dfrac{54}{3+\\dfrac{54}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator after the first fraction is again $C$, so $C=3+\\dfrac{54}{C}$. Thus $C^2-3C-54=0$, and the positive root is $9$.",
+    "complexity_factor": 1.35,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions"
+    ],
+    "checksum": "sha256-aacb1ff6f00f13f10c06c598440aefc16f00d36857dfabd62c4bfc81558a4dbe",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.medium.0018",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "medium",
+    "prompt_latex": "Find the positive value of $C=4+\\dfrac{77}{4+\\dfrac{77}{4+\\dfrac{77}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "11",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator after the first fraction is again $C$, so $C=4+\\dfrac{77}{C}$. Thus $C^2-4C-77=0$, and the positive root is $11$.",
+    "complexity_factor": 1.35,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions"
+    ],
+    "checksum": "sha256-382bbb72428ac709927e2fbb32300811a0f2aa4fccfdb9b2d2aa0e7ca4c94405",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.medium.0019",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "medium",
+    "prompt_latex": "Find the positive value of $C=5+\\dfrac{104}{5+\\dfrac{104}{5+\\dfrac{104}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$12$"
+      },
+      {
+        "id": "c",
+        "latex": "$14$"
+      },
+      {
+        "id": "d",
+        "latex": "$13$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "13",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator after the first fraction is again $C$, so $C=5+\\dfrac{104}{C}$. Thus $C^2-5C-104=0$, and the positive root is $13$.",
+    "complexity_factor": 1.35,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions"
+    ],
+    "checksum": "sha256-8b62f531471786a3fdbd593a4b5522c83e4d6d797396976e0f1acb9b63a94234",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.medium.0020",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "medium",
+    "prompt_latex": "Find the positive value of $C=1+\\dfrac{90}{1+\\dfrac{90}{1+\\dfrac{90}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$11$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator after the first fraction is again $C$, so $C=1+\\dfrac{90}{C}$. Thus $C^2-1C-90=0$, and the positive root is $10$.",
+    "complexity_factor": 1.35,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions"
+    ],
+    "checksum": "sha256-c22415ae868568046459d16f65fef357947592bd716a57713e23c32cb8f29be7",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.medium.0021",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "medium",
+    "prompt_latex": "Find the positive value of $C=2+\\dfrac{120}{2+\\dfrac{120}{2+\\dfrac{120}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$12$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$13$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator after the first fraction is again $C$, so $C=2+\\dfrac{120}{C}$. Thus $C^2-2C-120=0$, and the positive root is $12$.",
+    "complexity_factor": 1.35,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions"
+    ],
+    "checksum": "sha256-5091b3ab4710bf0c1f8c2e72cf1cee457f2954bab683c52386c47eb1b7fdbbbc",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.medium.0022",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "medium",
+    "prompt_latex": "Find the positive value of $C=3+\\dfrac{154}{3+\\dfrac{154}{3+\\dfrac{154}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$14$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$13$"
+      },
+      {
+        "id": "d",
+        "latex": "$15$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "14",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator after the first fraction is again $C$, so $C=3+\\dfrac{154}{C}$. Thus $C^2-3C-154=0$, and the positive root is $14$.",
+    "complexity_factor": 1.35,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions"
+    ],
+    "checksum": "sha256-3d178af997c58cecf746355f646fabf436839aa05d80abb1b632169ac91a7b9f",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.medium.0023",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "medium",
+    "prompt_latex": "Find the positive value of $C=4+\\dfrac{192}{4+\\dfrac{192}{4+\\dfrac{192}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$15$"
+      },
+      {
+        "id": "c",
+        "latex": "$17$"
+      },
+      {
+        "id": "d",
+        "latex": "$16$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "16",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator after the first fraction is again $C$, so $C=4+\\dfrac{192}{C}$. Thus $C^2-4C-192=0$, and the positive root is $16$.",
+    "complexity_factor": 1.35,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions"
+    ],
+    "checksum": "sha256-26c6cf49ad46ba23c01889e9b676d0bac135bf4cd9b0649b5e1d000dbf5ff314",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.medium.0024",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "medium",
+    "prompt_latex": "Find the positive value of $C=5+\\dfrac{234}{5+\\dfrac{234}{5+\\dfrac{234}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$17$"
+      },
+      {
+        "id": "c",
+        "latex": "$18$"
+      },
+      {
+        "id": "d",
+        "latex": "$19$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "18",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator after the first fraction is again $C$, so $C=5+\\dfrac{234}{C}$. Thus $C^2-5C-234=0$, and the positive root is $18$.",
+    "complexity_factor": 1.35,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions"
+    ],
+    "checksum": "sha256-2b045b00735cb08497a6635105dc635aa059de4da75ea04b00e59ed837f7fca6",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.medium.0025",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "medium",
+    "prompt_latex": "Find the positive value of $C=1+\\dfrac{210}{1+\\dfrac{210}{1+\\dfrac{210}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$15$"
+      },
+      {
+        "id": "c",
+        "latex": "$14$"
+      },
+      {
+        "id": "d",
+        "latex": "$16$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "15",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator after the first fraction is again $C$, so $C=1+\\dfrac{210}{C}$. Thus $C^2-1C-210=0$, and the positive root is $15$.",
+    "complexity_factor": 1.35,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions"
+    ],
+    "checksum": "sha256-0f2086223347d13e4bfe696a78cfea711d2e050a7e8d6adb7453024a10328fbb",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.medium.0026",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "medium",
+    "prompt_latex": "Find the positive value of $C=2+\\dfrac{8}{2+\\dfrac{8}{2+\\dfrac{8}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator after the first fraction is again $C$, so $C=2+\\dfrac{8}{C}$. Thus $C^2-2C-8=0$, and the positive root is $4$.",
+    "complexity_factor": 1.35,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions"
+    ],
+    "checksum": "sha256-19f93a037c912f7cd96816bde91d49be53e98fc088afefa2a544d1165ce8dcb0",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.medium.0027",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "medium",
+    "prompt_latex": "Find the positive value of $C=3+\\dfrac{18}{3+\\dfrac{18}{3+\\dfrac{18}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator after the first fraction is again $C$, so $C=3+\\dfrac{18}{C}$. Thus $C^2-3C-18=0$, and the positive root is $6$.",
+    "complexity_factor": 1.35,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions"
+    ],
+    "checksum": "sha256-d1f0dee5c7c78987c1c3fa8a60a86d1689ee88837573fafdb1cc484a214d543c",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.medium.0028",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "medium",
+    "prompt_latex": "Find the positive value of $C=4+\\dfrac{32}{4+\\dfrac{32}{4+\\dfrac{32}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator after the first fraction is again $C$, so $C=4+\\dfrac{32}{C}$. Thus $C^2-4C-32=0$, and the positive root is $8$.",
+    "complexity_factor": 1.35,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions"
+    ],
+    "checksum": "sha256-3b4a27b3facb884d296584b36545ed17ea641c080cc08321c25fd724855ba214",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.medium.0029",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "medium",
+    "prompt_latex": "Find the positive value of $C=5+\\dfrac{50}{5+\\dfrac{50}{5+\\dfrac{50}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$11$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator after the first fraction is again $C$, so $C=5+\\dfrac{50}{C}$. Thus $C^2-5C-50=0$, and the positive root is $10$.",
+    "complexity_factor": 1.35,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions"
+    ],
+    "checksum": "sha256-916a91960ec77b387b1107cb8ccb8c2ad16ad76647c26627080355c2ef790345",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.medium.0030",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "medium",
+    "prompt_latex": "Find the positive value of $C=1+\\dfrac{42}{1+\\dfrac{42}{1+\\dfrac{42}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator after the first fraction is again $C$, so $C=1+\\dfrac{42}{C}$. Thus $C^2-1C-42=0$, and the positive root is $7$.",
+    "complexity_factor": 1.35,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions"
+    ],
+    "checksum": "sha256-9f40bcfc8db1dd6fb53c66691ee9de9679e065284b6929aad65b783a8466cd62",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.medium.0031",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "medium",
+    "prompt_latex": "Find the positive value of $C=2+\\dfrac{63}{2+\\dfrac{63}{2+\\dfrac{63}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator after the first fraction is again $C$, so $C=2+\\dfrac{63}{C}$. Thus $C^2-2C-63=0$, and the positive root is $9$.",
+    "complexity_factor": 1.35,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions"
+    ],
+    "checksum": "sha256-ea0f790bdf14163f71b47925e62f21ba2cd946f7dd48d60f51615c5f37a01704",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.medium.0032",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "medium",
+    "prompt_latex": "Find the positive value of $C=3+\\dfrac{88}{3+\\dfrac{88}{3+\\dfrac{88}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "11",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator after the first fraction is again $C$, so $C=3+\\dfrac{88}{C}$. Thus $C^2-3C-88=0$, and the positive root is $11$.",
+    "complexity_factor": 1.35,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions"
+    ],
+    "checksum": "sha256-e96e4322774ea0a1751a8af034fd12cad1df2eb8b7607aee630c4286f7586a69",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.medium.0033",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "medium",
+    "prompt_latex": "Find the positive value of $C=4+\\dfrac{117}{4+\\dfrac{117}{4+\\dfrac{117}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$13$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$14$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "13",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator after the first fraction is again $C$, so $C=4+\\dfrac{117}{C}$. Thus $C^2-4C-117=0$, and the positive root is $13$.",
+    "complexity_factor": 1.35,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions"
+    ],
+    "checksum": "sha256-ac82760b5c9d73e355fc9f2e0d0bbe3876fd36f1e12564ebec54ccc3aa67255e",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.medium.0034",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "medium",
+    "prompt_latex": "Find the positive value of $C=5+\\dfrac{150}{5+\\dfrac{150}{5+\\dfrac{150}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$15$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$14$"
+      },
+      {
+        "id": "d",
+        "latex": "$16$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "15",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator after the first fraction is again $C$, so $C=5+\\dfrac{150}{C}$. Thus $C^2-5C-150=0$, and the positive root is $15$.",
+    "complexity_factor": 1.35,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions"
+    ],
+    "checksum": "sha256-f9b5433d47e3271b49263f1cf479581209b0cd4bbb3ab865d89bb3ea4be5dbe2",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.medium.0035",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "medium",
+    "prompt_latex": "Find the positive value of $C=1+\\dfrac{132}{1+\\dfrac{132}{1+\\dfrac{132}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$11$"
+      },
+      {
+        "id": "c",
+        "latex": "$13$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator after the first fraction is again $C$, so $C=1+\\dfrac{132}{C}$. Thus $C^2-1C-132=0$, and the positive root is $12$.",
+    "complexity_factor": 1.35,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions"
+    ],
+    "checksum": "sha256-8de4285445cf549a4d79b4cc3a2d3857a49e08bb0f5f1717fadad8588340b94a",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.medium.0036",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "medium",
+    "prompt_latex": "Find the positive value of $C=2+\\dfrac{168}{2+\\dfrac{168}{2+\\dfrac{168}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$13$"
+      },
+      {
+        "id": "c",
+        "latex": "$14$"
+      },
+      {
+        "id": "d",
+        "latex": "$15$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "14",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator after the first fraction is again $C$, so $C=2+\\dfrac{168}{C}$. Thus $C^2-2C-168=0$, and the positive root is $14$.",
+    "complexity_factor": 1.35,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions"
+    ],
+    "checksum": "sha256-3bdfdfe99b62d254ca6fc5ce09d0f526ebab608c7810a0d9c934202473fa7377",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.medium.0037",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "medium",
+    "prompt_latex": "Find the positive value of $C=3+\\dfrac{208}{3+\\dfrac{208}{3+\\dfrac{208}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$16$"
+      },
+      {
+        "id": "c",
+        "latex": "$15$"
+      },
+      {
+        "id": "d",
+        "latex": "$17$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "16",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator after the first fraction is again $C$, so $C=3+\\dfrac{208}{C}$. Thus $C^2-3C-208=0$, and the positive root is $16$.",
+    "complexity_factor": 1.35,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions"
+    ],
+    "checksum": "sha256-da59f5ccd58f47d46e4d82653516311de3992201f30aac2863447c907c4cbebc",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.medium.0038",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "medium",
+    "prompt_latex": "Find the positive value of $C=4+\\dfrac{252}{4+\\dfrac{252}{4+\\dfrac{252}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$18$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$17$"
+      },
+      {
+        "id": "d",
+        "latex": "$19$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "18",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator after the first fraction is again $C$, so $C=4+\\dfrac{252}{C}$. Thus $C^2-4C-252=0$, and the positive root is $18$.",
+    "complexity_factor": 1.35,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions"
+    ],
+    "checksum": "sha256-d6a29e640109fec795828f18f65a3dd14ac67c7f89dc509c054e2e573e6eed61",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.medium.0039",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "medium",
+    "prompt_latex": "Find the positive value of $C=5+\\dfrac{14}{5+\\dfrac{14}{5+\\dfrac{14}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator after the first fraction is again $C$, so $C=5+\\dfrac{14}{C}$. Thus $C^2-5C-14=0$, and the positive root is $7$.",
+    "complexity_factor": 1.35,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions"
+    ],
+    "checksum": "sha256-93a6aab22cc32b5f45bd80df07b795529aa5e348ace6b81ce2387c7a39609f58",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.medium.0040",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "medium",
+    "prompt_latex": "Find the positive value of $C=1+\\dfrac{12}{1+\\dfrac{12}{1+\\dfrac{12}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator after the first fraction is again $C$, so $C=1+\\dfrac{12}{C}$. Thus $C^2-1C-12=0$, and the positive root is $4$.",
+    "complexity_factor": 1.35,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions"
+    ],
+    "checksum": "sha256-9518c78ec2ab02f157812324d823edf6ae793091860857a840a5328ce1d21653",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.medium.0041",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "medium",
+    "prompt_latex": "Find the positive value of $C=2+\\dfrac{24}{2+\\dfrac{24}{2+\\dfrac{24}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator after the first fraction is again $C$, so $C=2+\\dfrac{24}{C}$. Thus $C^2-2C-24=0$, and the positive root is $6$.",
+    "complexity_factor": 1.35,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions"
+    ],
+    "checksum": "sha256-192cbba767aafb1d10de0167d6a79926219129385993b4320efe6f006e1d393d",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.medium.0042",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "medium",
+    "prompt_latex": "Find the positive value of $C=3+\\dfrac{40}{3+\\dfrac{40}{3+\\dfrac{40}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator after the first fraction is again $C$, so $C=3+\\dfrac{40}{C}$. Thus $C^2-3C-40=0$, and the positive root is $8$.",
+    "complexity_factor": 1.35,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions"
+    ],
+    "checksum": "sha256-c2ef5b89d5f76f30d3dbadcc60ffe6ff4bcfb6e78050a78fd26d29628606439b",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.medium.0043",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "medium",
+    "prompt_latex": "Find the positive value of $C=4+\\dfrac{60}{4+\\dfrac{60}{4+\\dfrac{60}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator after the first fraction is again $C$, so $C=4+\\dfrac{60}{C}$. Thus $C^2-4C-60=0$, and the positive root is $10$.",
+    "complexity_factor": 1.35,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions"
+    ],
+    "checksum": "sha256-57dd85ed5b5c9caa0722527c95a685b557fb8efc626b2e3b9fc48adc6a5a8ce3",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.medium.0044",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "medium",
+    "prompt_latex": "Find the positive value of $C=5+\\dfrac{84}{5+\\dfrac{84}{5+\\dfrac{84}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$11$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$13$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator after the first fraction is again $C$, so $C=5+\\dfrac{84}{C}$. Thus $C^2-5C-84=0$, and the positive root is $12$.",
+    "complexity_factor": 1.35,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions"
+    ],
+    "checksum": "sha256-8460580de35612a1349c4b7c1dad8e26a961a99166d55f95d2179d3e4619e886",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.medium.0045",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "medium",
+    "prompt_latex": "Find the positive value of $C=1+\\dfrac{72}{1+\\dfrac{72}{1+\\dfrac{72}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator after the first fraction is again $C$, so $C=1+\\dfrac{72}{C}$. Thus $C^2-1C-72=0$, and the positive root is $9$.",
+    "complexity_factor": 1.35,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions"
+    ],
+    "checksum": "sha256-24dfc28199de71a949e9226031f814eca28ed3195a560183720f6c0d86a1d050",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.medium.0046",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "medium",
+    "prompt_latex": "Find the positive value of $C=2+\\dfrac{99}{2+\\dfrac{99}{2+\\dfrac{99}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "11",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator after the first fraction is again $C$, so $C=2+\\dfrac{99}{C}$. Thus $C^2-2C-99=0$, and the positive root is $11$.",
+    "complexity_factor": 1.35,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions"
+    ],
+    "checksum": "sha256-ba662b8d71e855e869a77825e0b8c9644a7f241a9d29a30ad450ed3c0c890c00",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.medium.0047",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "medium",
+    "prompt_latex": "Find the positive value of $C=3+\\dfrac{130}{3+\\dfrac{130}{3+\\dfrac{130}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$12$"
+      },
+      {
+        "id": "c",
+        "latex": "$14$"
+      },
+      {
+        "id": "d",
+        "latex": "$13$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "13",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator after the first fraction is again $C$, so $C=3+\\dfrac{130}{C}$. Thus $C^2-3C-130=0$, and the positive root is $13$.",
+    "complexity_factor": 1.35,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions"
+    ],
+    "checksum": "sha256-22f80b89c8ef317f6f6865ddaa554aff582064378f01e11f2780747e8d1b2729",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.medium.0048",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "medium",
+    "prompt_latex": "Find the positive value of $C=4+\\dfrac{165}{4+\\dfrac{165}{4+\\dfrac{165}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$14$"
+      },
+      {
+        "id": "c",
+        "latex": "$15$"
+      },
+      {
+        "id": "d",
+        "latex": "$16$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "15",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator after the first fraction is again $C$, so $C=4+\\dfrac{165}{C}$. Thus $C^2-4C-165=0$, and the positive root is $15$.",
+    "complexity_factor": 1.35,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions"
+    ],
+    "checksum": "sha256-5731ebb1ac8bdf3c5725ce0c7a83a9cb703f9f8d7ede47a5d5c723f3fd935cb9",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.medium.0049",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "medium",
+    "prompt_latex": "Find the positive value of $C=5+\\dfrac{204}{5+\\dfrac{204}{5+\\dfrac{204}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$17$"
+      },
+      {
+        "id": "c",
+        "latex": "$16$"
+      },
+      {
+        "id": "d",
+        "latex": "$18$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "17",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator after the first fraction is again $C$, so $C=5+\\dfrac{204}{C}$. Thus $C^2-5C-204=0$, and the positive root is $17$.",
+    "complexity_factor": 1.35,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions"
+    ],
+    "checksum": "sha256-4c1402b44148dc6041d1706c5b0e04a0e8a1e88806e450661332d02b94b7f82f",
+    "status": "valid"
+  },
+  {
+    "id": "ch22.self_similarity.medium.0050",
+    "topic_id": "ch22.self_similarity",
+    "group_id": "ch22_special_manipulations",
+    "difficulty": "medium",
+    "prompt_latex": "Find the positive value of $C=1+\\dfrac{182}{1+\\dfrac{182}{1+\\dfrac{182}{\\cdots}}}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$14$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$13$"
+      },
+      {
+        "id": "d",
+        "latex": "$15$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "14",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The denominator after the first fraction is again $C$, so $C=1+\\dfrac{182}{C}$. Thus $C^2-1C-182=0$, and the positive root is $14$.",
+    "complexity_factor": 1.35,
+    "source_section": "22.2",
+    "tags": [
+      "self-similarity",
+      "continued-fractions"
+    ],
+    "checksum": "sha256-582409f9cc513300015ca455d23d8d732fdf661a61a9ca5db015ae97fac55a4d",
+    "status": "valid"
+  }
+]

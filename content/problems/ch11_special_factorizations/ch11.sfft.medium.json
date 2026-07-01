@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "ch11.sfft.medium.0001",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "How many ordered integer pairs $(x,y)$ satisfy $xy + 1x + 2y = 10$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11$"
+      },
+      {
+        "id": "b",
+        "latex": "$13$"
+      },
+      {
+        "id": "c",
+        "latex": "$14$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add $2$ to both sides: $(x+2)(y+1)=12$. Each positive or negative divisor of $12$ gives one ordered pair, so there are $12$ pairs.",
+    "complexity_factor": 1.3,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "integer-solutions"
+    ],
+    "checksum": "sha256-779777d6f7e7d5ff23389e61029744d40dbbb0a61c39d4a17c1cfa6e6ecb5cd5",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.medium.0002",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "How many ordered integer pairs $(x,y)$ satisfy $xy + 2x + 4y = 10$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$13$"
+      },
+      {
+        "id": "b",
+        "latex": "$11$"
+      },
+      {
+        "id": "c",
+        "latex": "$14$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add $8$ to both sides: $(x+4)(y+2)=18$. Each positive or negative divisor of $18$ gives one ordered pair, so there are $12$ pairs.",
+    "complexity_factor": 1.3,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "integer-solutions"
+    ],
+    "checksum": "sha256-171e6a1009f8c7d1d5e1e2496611b0937a3f112d7d8bbbac6dc8b2c456224a77",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.medium.0003",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "How many ordered integer pairs $(x,y)$ satisfy $xy + 3x + 6y = 2$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$13$"
+      },
+      {
+        "id": "b",
+        "latex": "$14$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add $18$ to both sides: $(x+6)(y+3)=20$. Each positive or negative divisor of $20$ gives one ordered pair, so there are $12$ pairs.",
+    "complexity_factor": 1.3,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "integer-solutions"
+    ],
+    "checksum": "sha256-1ac2aef80c8f709f9d954084bacecb94ca3fc2e5d5caf62800e335c6388f474e",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.medium.0004",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "How many ordered integer pairs $(x,y)$ satisfy $xy + 4x + 8y = -8$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$18$"
+      },
+      {
+        "id": "c",
+        "latex": "$15$"
+      },
+      {
+        "id": "d",
+        "latex": "$17$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "16",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add $32$ to both sides: $(x+8)(y+4)=24$. Each positive or negative divisor of $24$ gives one ordered pair, so there are $16$ pairs.",
+    "complexity_factor": 1.3,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "integer-solutions"
+    ],
+    "checksum": "sha256-d32cdce81a2b204a4926fba00cde21f55afb9805f3fc343b31b8375ea74a9c0b",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.medium.0005",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "How many ordered integer pairs $(x,y)$ satisfy $xy + 5x + 2y = 20$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$15$"
+      },
+      {
+        "id": "b",
+        "latex": "$18$"
+      },
+      {
+        "id": "c",
+        "latex": "$17$"
+      },
+      {
+        "id": "d",
+        "latex": "$16$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "16",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add $10$ to both sides: $(x+2)(y+5)=30$. Each positive or negative divisor of $30$ gives one ordered pair, so there are $16$ pairs.",
+    "complexity_factor": 1.3,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "integer-solutions"
+    ],
+    "checksum": "sha256-99582ff19090a9235a6a8c46bdae901e7dd3336680f3102d12d01d498eeb7eda",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.medium.0006",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "How many ordered integer pairs $(x,y)$ satisfy $xy + 6x + 4y = 12$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$20$"
+      },
+      {
+        "id": "b",
+        "latex": "$19$"
+      },
+      {
+        "id": "c",
+        "latex": "$17$"
+      },
+      {
+        "id": "d",
+        "latex": "$18$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "18",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add $24$ to both sides: $(x+4)(y+6)=36$. Each positive or negative divisor of $36$ gives one ordered pair, so there are $18$ pairs.",
+    "complexity_factor": 1.3,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "integer-solutions"
+    ],
+    "checksum": "sha256-9d971baad4ad7aac6d2861da9b0a9a1ae58ab51ccebe2e8061711f019a0c2f9e",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.medium.0007",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "How many ordered integer pairs $(x,y)$ satisfy $xy + 7x + 6y = -2$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$18$"
+      },
+      {
+        "id": "b",
+        "latex": "$16$"
+      },
+      {
+        "id": "c",
+        "latex": "$17$"
+      },
+      {
+        "id": "d",
+        "latex": "$15$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "16",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add $42$ to both sides: $(x+6)(y+7)=40$. Each positive or negative divisor of $40$ gives one ordered pair, so there are $16$ pairs.",
+    "complexity_factor": 1.3,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "integer-solutions"
+    ],
+    "checksum": "sha256-1bb0e06d5eb51c944498ea610032fa7a425d553438ab8b59bd269272d092d3b8",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.medium.0008",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "How many ordered integer pairs $(x,y)$ satisfy $xy + 1x + 8y = 34$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$15$"
+      },
+      {
+        "id": "b",
+        "latex": "$18$"
+      },
+      {
+        "id": "c",
+        "latex": "$16$"
+      },
+      {
+        "id": "d",
+        "latex": "$17$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "16",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add $8$ to both sides: $(x+8)(y+1)=42$. Each positive or negative divisor of $42$ gives one ordered pair, so there are $16$ pairs.",
+    "complexity_factor": 1.3,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "integer-solutions"
+    ],
+    "checksum": "sha256-41c763f7980b015a48a32f060e261209539136bee8549420520fcfe1fc7cbd40",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.medium.0009",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "How many ordered integer pairs $(x,y)$ satisfy $xy + 2x + 2y = 44$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$19$"
+      },
+      {
+        "id": "b",
+        "latex": "$20$"
+      },
+      {
+        "id": "c",
+        "latex": "$21$"
+      },
+      {
+        "id": "d",
+        "latex": "$22$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "20",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add $4$ to both sides: $(x+2)(y+2)=48$. Each positive or negative divisor of $48$ gives one ordered pair, so there are $20$ pairs.",
+    "complexity_factor": 1.3,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "integer-solutions"
+    ],
+    "checksum": "sha256-b818021bf085df43a86be4c9c7cdcd135846dc6383488c9c39f70786688c806c",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.medium.0010",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "How many ordered integer pairs $(x,y)$ satisfy $xy + 3x + 4y = 42$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$18$"
+      },
+      {
+        "id": "b",
+        "latex": "$17$"
+      },
+      {
+        "id": "c",
+        "latex": "$16$"
+      },
+      {
+        "id": "d",
+        "latex": "$15$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "16",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add $12$ to both sides: $(x+4)(y+3)=54$. Each positive or negative divisor of $54$ gives one ordered pair, so there are $16$ pairs.",
+    "complexity_factor": 1.3,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "integer-solutions"
+    ],
+    "checksum": "sha256-8e92494d3ce7b16ada112d365290bd71314c622fce9d577359e119a32fac6290",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.medium.0011",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "How many ordered integer pairs $(x,y)$ satisfy $xy + 4x + 6y = -12$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$13$"
+      },
+      {
+        "id": "b",
+        "latex": "$12$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$14$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add $24$ to both sides: $(x+6)(y+4)=12$. Each positive or negative divisor of $12$ gives one ordered pair, so there are $12$ pairs.",
+    "complexity_factor": 1.3,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "integer-solutions"
+    ],
+    "checksum": "sha256-e927445426097a9c415042c3fbcab76bcdd4a70ec6c09b45680a677f57c33fc3",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.medium.0012",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "How many ordered integer pairs $(x,y)$ satisfy $xy + 5x + 8y = -22$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$14$"
+      },
+      {
+        "id": "b",
+        "latex": "$12$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$13$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add $40$ to both sides: $(x+8)(y+5)=18$. Each positive or negative divisor of $18$ gives one ordered pair, so there are $12$ pairs.",
+    "complexity_factor": 1.3,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "integer-solutions"
+    ],
+    "checksum": "sha256-714461c1d6ec9b80df429d9a8cb135575aa62cc030ad4e15609217a6d7280450",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.medium.0013",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "How many ordered integer pairs $(x,y)$ satisfy $xy + 6x + 2y = 8$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$13$"
+      },
+      {
+        "id": "b",
+        "latex": "$11$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$14$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add $12$ to both sides: $(x+2)(y+6)=20$. Each positive or negative divisor of $20$ gives one ordered pair, so there are $12$ pairs.",
+    "complexity_factor": 1.3,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "integer-solutions"
+    ],
+    "checksum": "sha256-a96e1370a950f9b1f67688526927a75d245c5383a049a0a66df3a75f49a78d0b",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.medium.0014",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "How many ordered integer pairs $(x,y)$ satisfy $xy + 7x + 4y = -4$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$17$"
+      },
+      {
+        "id": "b",
+        "latex": "$16$"
+      },
+      {
+        "id": "c",
+        "latex": "$15$"
+      },
+      {
+        "id": "d",
+        "latex": "$18$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "16",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add $28$ to both sides: $(x+4)(y+7)=24$. Each positive or negative divisor of $24$ gives one ordered pair, so there are $16$ pairs.",
+    "complexity_factor": 1.3,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "integer-solutions"
+    ],
+    "checksum": "sha256-e4e9d5e3cd97e6bb2f9eebcd549d17329932f5fc248bc869e720e68589d28605",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.medium.0015",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "How many ordered integer pairs $(x,y)$ satisfy $xy + 1x + 6y = 24$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$15$"
+      },
+      {
+        "id": "b",
+        "latex": "$18$"
+      },
+      {
+        "id": "c",
+        "latex": "$16$"
+      },
+      {
+        "id": "d",
+        "latex": "$17$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "16",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add $6$ to both sides: $(x+6)(y+1)=30$. Each positive or negative divisor of $30$ gives one ordered pair, so there are $16$ pairs.",
+    "complexity_factor": 1.3,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "integer-solutions"
+    ],
+    "checksum": "sha256-cbc3fabe4d1ef0aededbd1a89120159d4bf4fe135c796e33df01cd479c19f427",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.medium.0016",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "How many ordered integer pairs $(x,y)$ satisfy $xy + 2x + 8y = 20$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$17$"
+      },
+      {
+        "id": "b",
+        "latex": "$20$"
+      },
+      {
+        "id": "c",
+        "latex": "$18$"
+      },
+      {
+        "id": "d",
+        "latex": "$19$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "18",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add $16$ to both sides: $(x+8)(y+2)=36$. Each positive or negative divisor of $36$ gives one ordered pair, so there are $18$ pairs.",
+    "complexity_factor": 1.3,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "integer-solutions"
+    ],
+    "checksum": "sha256-fab9cb3f6d45b176832235bc230e28744029c2918934f45a0c4f008a7ff30b9e",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.medium.0017",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "How many ordered integer pairs $(x,y)$ satisfy $xy + 3x + 2y = 34$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$18$"
+      },
+      {
+        "id": "c",
+        "latex": "$15$"
+      },
+      {
+        "id": "d",
+        "latex": "$17$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "16",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add $6$ to both sides: $(x+2)(y+3)=40$. Each positive or negative divisor of $40$ gives one ordered pair, so there are $16$ pairs.",
+    "complexity_factor": 1.3,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "integer-solutions"
+    ],
+    "checksum": "sha256-e61e66f7d2c927c231bd424dcdb190c69a14868abe8d0a5aaba27f68ba17bd7f",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.medium.0018",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "How many ordered integer pairs $(x,y)$ satisfy $xy + 4x + 4y = 26$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$18$"
+      },
+      {
+        "id": "b",
+        "latex": "$17$"
+      },
+      {
+        "id": "c",
+        "latex": "$16$"
+      },
+      {
+        "id": "d",
+        "latex": "$15$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "16",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add $16$ to both sides: $(x+4)(y+4)=42$. Each positive or negative divisor of $42$ gives one ordered pair, so there are $16$ pairs.",
+    "complexity_factor": 1.3,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "integer-solutions"
+    ],
+    "checksum": "sha256-0d48fc6315f3317193a181c4a48e1a16b9045b63a98ab19f3e820caedd33b452",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.medium.0019",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "How many ordered integer pairs $(x,y)$ satisfy $xy + 5x + 6y = 18$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$22$"
+      },
+      {
+        "id": "b",
+        "latex": "$19$"
+      },
+      {
+        "id": "c",
+        "latex": "$20$"
+      },
+      {
+        "id": "d",
+        "latex": "$21$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "20",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add $30$ to both sides: $(x+6)(y+5)=48$. Each positive or negative divisor of $48$ gives one ordered pair, so there are $20$ pairs.",
+    "complexity_factor": 1.3,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "integer-solutions"
+    ],
+    "checksum": "sha256-867e84dbb80074ceaab29889df84edbcfb5bfcc27c190db23db2c4e18d6a3f39",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.medium.0020",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "How many ordered integer pairs $(x,y)$ satisfy $xy + 6x + 8y = 6$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$17$"
+      },
+      {
+        "id": "b",
+        "latex": "$18$"
+      },
+      {
+        "id": "c",
+        "latex": "$15$"
+      },
+      {
+        "id": "d",
+        "latex": "$16$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "16",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add $48$ to both sides: $(x+8)(y+6)=54$. Each positive or negative divisor of $54$ gives one ordered pair, so there are $16$ pairs.",
+    "complexity_factor": 1.3,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "integer-solutions"
+    ],
+    "checksum": "sha256-a4d5d03299bfd53144031ea72d87875b3dcb5f4a2c34d3a9a6f24928f80991b8",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.medium.0021",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "How many ordered integer pairs $(x,y)$ satisfy $xy + 7x + 2y = -2$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$13$"
+      },
+      {
+        "id": "b",
+        "latex": "$12$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$14$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add $14$ to both sides: $(x+2)(y+7)=12$. Each positive or negative divisor of $12$ gives one ordered pair, so there are $12$ pairs.",
+    "complexity_factor": 1.3,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "integer-solutions"
+    ],
+    "checksum": "sha256-32331cb28de977d1a03c6bfdb0efeba909cef9e507eaec6914683c9c2454a300",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.medium.0022",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "How many ordered integer pairs $(x,y)$ satisfy $xy + 1x + 4y = 14$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12$"
+      },
+      {
+        "id": "b",
+        "latex": "$13$"
+      },
+      {
+        "id": "c",
+        "latex": "$14$"
+      },
+      {
+        "id": "d",
+        "latex": "$11$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add $4$ to both sides: $(x+4)(y+1)=18$. Each positive or negative divisor of $18$ gives one ordered pair, so there are $12$ pairs.",
+    "complexity_factor": 1.3,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "integer-solutions"
+    ],
+    "checksum": "sha256-22a3c3df673f26f2c57fa814a9922b7e32b74aa8e9b119c216a27bf537330c4f",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.medium.0023",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "How many ordered integer pairs $(x,y)$ satisfy $xy + 2x + 6y = 8$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$14$"
+      },
+      {
+        "id": "b",
+        "latex": "$12$"
+      },
+      {
+        "id": "c",
+        "latex": "$13$"
+      },
+      {
+        "id": "d",
+        "latex": "$11$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add $12$ to both sides: $(x+6)(y+2)=20$. Each positive or negative divisor of $20$ gives one ordered pair, so there are $12$ pairs.",
+    "complexity_factor": 1.3,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "integer-solutions"
+    ],
+    "checksum": "sha256-6b807e5374a83ca0e68b8e4f0b32f3df9c2f4afe538e404f85ede39c257376f4",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.medium.0024",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "How many ordered integer pairs $(x,y)$ satisfy $xy + 3x + 8y = 0$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$15$"
+      },
+      {
+        "id": "b",
+        "latex": "$16$"
+      },
+      {
+        "id": "c",
+        "latex": "$18$"
+      },
+      {
+        "id": "d",
+        "latex": "$17$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "16",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add $24$ to both sides: $(x+8)(y+3)=24$. Each positive or negative divisor of $24$ gives one ordered pair, so there are $16$ pairs.",
+    "complexity_factor": 1.3,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "integer-solutions"
+    ],
+    "checksum": "sha256-7205199a846f0cecf61579f2e1e3d84f1076d65232c96d43c838cb63acc8555a",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.medium.0025",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "How many ordered integer pairs $(x,y)$ satisfy $xy + 4x + 2y = 22$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$17$"
+      },
+      {
+        "id": "b",
+        "latex": "$16$"
+      },
+      {
+        "id": "c",
+        "latex": "$18$"
+      },
+      {
+        "id": "d",
+        "latex": "$15$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "16",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add $8$ to both sides: $(x+2)(y+4)=30$. Each positive or negative divisor of $30$ gives one ordered pair, so there are $16$ pairs.",
+    "complexity_factor": 1.3,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "integer-solutions"
+    ],
+    "checksum": "sha256-3072a90190fec6b6b805cf8f71eeab26cd47a46ccd24a4e84a4eb7982e81f8fd",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.medium.0026",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "If $xy + 1x + 1y = 11$ and $x=2$, what is $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=2$: $2y+2+1y=11$, so $3y=9$ and $y=3$.",
+    "complexity_factor": 1.2,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "equation"
+    ],
+    "checksum": "sha256-82bed4d68e8682d4397544019430714904a40cacc824b4a845aa8902db088033",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.medium.0027",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "If $xy + 2x + 4y = 41$ and $x=3$, what is $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=3$: $3y+6+4y=41$, so $7y=35$ and $y=5$.",
+    "complexity_factor": 1.2,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "equation"
+    ],
+    "checksum": "sha256-dcab974a160770d5dcafe0ed3d2a210cc85b4d5e5fa82b5f56f71938ad689f96",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.medium.0028",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "If $xy + 3x + 7y = 89$ and $x=4$, what is $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=4$: $4y+12+7y=89$, so $11y=77$ and $y=7$.",
+    "complexity_factor": 1.2,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "equation"
+    ],
+    "checksum": "sha256-389a7e5ccecc7907050133cacdccf0f088b0def10e6e464d609ef6924d537177",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.medium.0029",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "If $xy + 4x + 2y = 83$ and $x=5$, what is $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=5$: $5y+20+2y=83$, so $7y=63$ and $y=9$.",
+    "complexity_factor": 1.2,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "equation"
+    ],
+    "checksum": "sha256-f92ef253e5de02bd869249c793f0aa10ec7d468c7a38dc903711576444604c1b",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.medium.0030",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "If $xy + 5x + 5y = 151$ and $x=6$, what is $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$12$"
+      },
+      {
+        "id": "c",
+        "latex": "$13$"
+      },
+      {
+        "id": "d",
+        "latex": "$11$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "11",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=6$: $6y+30+5y=151$, so $11y=121$ and $y=11$.",
+    "complexity_factor": 1.2,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "equation"
+    ],
+    "checksum": "sha256-55391d19632936a766caab174b56818b2e1daa3011932b71c299c7b667da12c1",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.medium.0031",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "If $xy + 6x + 8y = 102$ and $x=7$, what is $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=7$: $7y+42+8y=102$, so $15y=60$ and $y=4$.",
+    "complexity_factor": 1.2,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "equation"
+    ],
+    "checksum": "sha256-e19b9943dba3b0ac30507bb0990f7dc4665fdb6a910fe27de72fc74e91db0f1c",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.medium.0032",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "If $xy + 7x + 3y = 122$ and $x=8$, what is $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=8$: $8y+56+3y=122$, so $11y=66$ and $y=6$.",
+    "complexity_factor": 1.2,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "equation"
+    ],
+    "checksum": "sha256-4e43de23b8f46e77bc4c352e01712c08658a1ac7301ccedb824c33c6d371653a",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.medium.0033",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "If $xy + 8x + 6y = 192$ and $x=9$, what is $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=9$: $9y+72+6y=192$, so $15y=120$ and $y=8$.",
+    "complexity_factor": 1.2,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "equation"
+    ],
+    "checksum": "sha256-bf5809f2f09ef67f559b9b56298c90250d18512e723924ee7fe0258eb4723e53",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.medium.0034",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "If $xy + 1x + 1y = 120$ and $x=10$, what is $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=10$: $10y+10+1y=120$, so $11y=110$ and $y=10$.",
+    "complexity_factor": 1.2,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "equation"
+    ],
+    "checksum": "sha256-2ca03c88adbb96620b783429d4e27c14d05e16f961fbc2e2f51e874b53c2b54b",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.medium.0035",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "If $xy + 2x + 4y = 22$ and $x=2$, what is $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=2$: $2y+4+4y=22$, so $6y=18$ and $y=3$.",
+    "complexity_factor": 1.2,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "equation"
+    ],
+    "checksum": "sha256-01515dfde0bdf752957d4b61100aa0bfeab8a617baf32467c6ce3d605d048c35",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.medium.0036",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "If $xy + 3x + 7y = 59$ and $x=3$, what is $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=3$: $3y+9+7y=59$, so $10y=50$ and $y=5$.",
+    "complexity_factor": 1.2,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "equation"
+    ],
+    "checksum": "sha256-65f1946f9044bc8f234bd216f2428f44ea2bc167d9d8c2c1e8293a0d09d09e9c",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.medium.0037",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "If $xy + 4x + 2y = 58$ and $x=4$, what is $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=4$: $4y+16+2y=58$, so $6y=42$ and $y=7$.",
+    "complexity_factor": 1.2,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "equation"
+    ],
+    "checksum": "sha256-10b6c24266ae7b96613e1820b22b4e89591caad90a6bc14ada1d3109e6f11469",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.medium.0038",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "If $xy + 5x + 5y = 115$ and $x=5$, what is $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=5$: $5y+25+5y=115$, so $10y=90$ and $y=9$.",
+    "complexity_factor": 1.2,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "equation"
+    ],
+    "checksum": "sha256-047cbfcc48a2272e700e5a5bcf835b31c908384dda7ab3c6ed48033be065e0de",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.medium.0039",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "If $xy + 6x + 8y = 190$ and $x=6$, what is $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$12$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$13$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "11",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=6$: $6y+36+8y=190$, so $14y=154$ and $y=11$.",
+    "complexity_factor": 1.2,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "equation"
+    ],
+    "checksum": "sha256-99385137b6c17154123523ce8db6b0cc1c60363f0db08f5ea056858b1985420d",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.medium.0040",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "If $xy + 7x + 3y = 89$ and $x=7$, what is $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=7$: $7y+49+3y=89$, so $10y=40$ and $y=4$.",
+    "complexity_factor": 1.2,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "equation"
+    ],
+    "checksum": "sha256-67c0bfca60a04369e0ffcd6977cbca130a69d55161e705790ff8b03641d5d5ed",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.medium.0041",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "If $xy + 8x + 6y = 148$ and $x=8$, what is $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=8$: $8y+64+6y=148$, so $14y=84$ and $y=6$.",
+    "complexity_factor": 1.2,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "equation"
+    ],
+    "checksum": "sha256-ac3a6de0b59cd28138e58509349b865ca4c268a49bc9500d1e61a0e31050a541",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.medium.0042",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "If $xy + 1x + 1y = 89$ and $x=9$, what is $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=9$: $9y+9+1y=89$, so $10y=80$ and $y=8$.",
+    "complexity_factor": 1.2,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "equation"
+    ],
+    "checksum": "sha256-3b0a6b397484195f73d8ad000866c3160d2bc8f99e7af4fbbc153faa3926861c",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.medium.0043",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "If $xy + 2x + 4y = 160$ and $x=10$, what is $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=10$: $10y+20+4y=160$, so $14y=140$ and $y=10$.",
+    "complexity_factor": 1.2,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "equation"
+    ],
+    "checksum": "sha256-cdcf08d61d5e433d354c878db2862756914ac71c5de8f44e47a06a95f9468429",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.medium.0044",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "If $xy + 3x + 7y = 33$ and $x=2$, what is $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=2$: $2y+6+7y=33$, so $9y=27$ and $y=3$.",
+    "complexity_factor": 1.2,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "equation"
+    ],
+    "checksum": "sha256-a455daface3fe025b6ba5602414f96d447208c0c1142ab946a7d38e78663e78b",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.medium.0045",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "If $xy + 4x + 2y = 37$ and $x=3$, what is $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=3$: $3y+12+2y=37$, so $5y=25$ and $y=5$.",
+    "complexity_factor": 1.2,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "equation"
+    ],
+    "checksum": "sha256-37978e72d390347cb3560b773c1b4eccc8dbd77559778d6a6789e443f573a76f",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.medium.0046",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "If $xy + 5x + 5y = 83$ and $x=4$, what is $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=4$: $4y+20+5y=83$, so $9y=63$ and $y=7$.",
+    "complexity_factor": 1.2,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "equation"
+    ],
+    "checksum": "sha256-fe4fb642e599f063b49a72982ce76c3b401c994d16ed6209dd07e14dba5598b1",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.medium.0047",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "If $xy + 6x + 8y = 147$ and $x=5$, what is $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=5$: $5y+30+8y=147$, so $13y=117$ and $y=9$.",
+    "complexity_factor": 1.2,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "equation"
+    ],
+    "checksum": "sha256-ff174a90d5165916fc93415be4972ba0b26455227c8ec11843a8aeac7a127a8b",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.medium.0048",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "If $xy + 7x + 3y = 141$ and $x=6$, what is $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12$"
+      },
+      {
+        "id": "b",
+        "latex": "$11$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$13$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "11",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=6$: $6y+42+3y=141$, so $9y=99$ and $y=11$.",
+    "complexity_factor": 1.2,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "equation"
+    ],
+    "checksum": "sha256-98ef0e117b7e31a4b2e946a791d2a21179ff4cc2e5a595a5d8ec5c0f1c24535a",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.medium.0049",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "If $xy + 8x + 6y = 108$ and $x=7$, what is $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=7$: $7y+56+6y=108$, so $13y=52$ and $y=4$.",
+    "complexity_factor": 1.2,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "equation"
+    ],
+    "checksum": "sha256-726b2f2b692d817a0002e158d47cb8af073b9688747e7ebd8220f5339914fbd2",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sfft.medium.0050",
+    "topic_id": "ch11.sfft",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "If $xy + 1x + 1y = 62$ and $x=8$, what is $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=8$: $8y+8+1y=62$, so $9y=54$ and $y=6$.",
+    "complexity_factor": 1.2,
+    "source_section": "11.5",
+    "tags": [
+      "special-factorization",
+      "sfft",
+      "equation"
+    ],
+    "checksum": "sha256-bcdb73906471913bd7bc3908d440d82557ffc81e47c691d21fd43689ebec780f",
+    "status": "valid"
+  }
+]

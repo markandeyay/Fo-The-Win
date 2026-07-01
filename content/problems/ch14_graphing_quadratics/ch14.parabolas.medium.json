@@ -1,0 +1,2028 @@
+[
+  {
+    "id": "ch14.parabolas.medium.0001",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "What is the vertex of $y=x^2+4x+4$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-2,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4,4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2,4)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-2,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [
+      "(-2, 0)"
+    ],
+    "solution_latex": "Complete the square: $x^2+4x+4=(x+2)^2+0$, so the vertex is $(-2,0)$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "completing-square",
+      "vertex"
+    ],
+    "status": "valid",
+    "checksum": "sha256-b81423f8f7602a36a5e27fb0622bfdae2525cb2d7f6e917277a7beddfbfc3132"
+  },
+  {
+    "id": "ch14.parabolas.medium.0002",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "What is the minimum value of $y=x^2-4x+11$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11$"
+      },
+      {
+        "id": "b",
+        "latex": "$-7$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The parabola has vertex $(2,7)$ and opens upward, so its minimum value is $7$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "minimum",
+      "vertex"
+    ],
+    "status": "valid",
+    "checksum": "sha256-8de42c0c239f6e8b6b76e7347e30eb3238d648cca6d5a835216f391f7201d58b"
+  },
+  {
+    "id": "ch14.parabolas.medium.0003",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "A parabola has equation $y=a(x-6)^2-1$ and passes through $(10,-49)$. What is $a$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute the point: $-49=a(4)^2-1$, so $a=-3$.",
+    "complexity_factor": 1.2,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "vertex-form",
+      "coefficient"
+    ],
+    "status": "valid",
+    "checksum": "sha256-342a7c520d7680acf9c0775bde5aca856e70805adc5463b1b8c0996db734bb68"
+  },
+  {
+    "id": "ch14.parabolas.medium.0004",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "How many $x$-intercepts does the graph of $y=(x+3)^2-1$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $y=0$. Then $(x+3)^2=1$, which gives 2 real solutions.",
+    "complexity_factor": 1.15,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "intercepts",
+      "vertex-form"
+    ],
+    "status": "valid",
+    "checksum": "sha256-a093473e71ad8df9976f85f90766a254e5b0021a428a7f14a83e9e0fa4725cec"
+  },
+  {
+    "id": "ch14.parabolas.medium.0005",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "What is the vertex of $y=x^2-2x-1$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,-2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1,-2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2,-1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1,-1)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(1,-2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [
+      "(1, -2)"
+    ],
+    "solution_latex": "Complete the square: $x^2-2x-1=(x-1)^2-2$, so the vertex is $(1,-2)$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "completing-square",
+      "vertex"
+    ],
+    "status": "valid",
+    "checksum": "sha256-3f3d4d572306b48b99f995387c4af40ef048e97f3bd23fd8280c744c95b157ee"
+  },
+  {
+    "id": "ch14.parabolas.medium.0006",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "What is the minimum value of $y=x^2-10x+30$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-5$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$30$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The parabola has vertex $(5,5)$ and opens upward, so its minimum value is $5$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "minimum",
+      "vertex"
+    ],
+    "status": "valid",
+    "checksum": "sha256-41512cc2fe665037d6c5519e3d919b0835c712868667f2998385831c3a8c4965"
+  },
+  {
+    "id": "ch14.parabolas.medium.0007",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "A parabola has equation $y=a(x+4)^2-3$ and passes through $(0,-51)$. What is $a$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute the point: $-51=a(4)^2-3$, so $a=-3$.",
+    "complexity_factor": 1.2,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "vertex-form",
+      "coefficient"
+    ],
+    "status": "valid",
+    "checksum": "sha256-2f48b3a07402a221caee11ebe8f25b2274ec0344544c648138f7691260a51c00"
+  },
+  {
+    "id": "ch14.parabolas.medium.0008",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "How many $x$-intercepts does the graph of $y=(x)^2+9$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $y=0$. Then $(x)^2=-9$, which gives 0 real solutions.",
+    "complexity_factor": 1.15,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "intercepts",
+      "vertex-form"
+    ],
+    "status": "valid",
+    "checksum": "sha256-a6586dd0b035bc21ef6d0ed9a44590fb2a9151c10b4034d1bf05adbb1e398d59"
+  },
+  {
+    "id": "ch14.parabolas.medium.0009",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "What is the vertex of $y=x^2-8x+12$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-4,-4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4,-4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-8,12)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4,12)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(4,-4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [
+      "(4, -4)"
+    ],
+    "solution_latex": "Complete the square: $x^2-8x+12=(x-4)^2-4$, so the vertex is $(4,-4)$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "completing-square",
+      "vertex"
+    ],
+    "status": "valid",
+    "checksum": "sha256-4d850b1be9dd0e330b918f5bba5fcc1d587149e8894b95f427047a28b24d837b"
+  },
+  {
+    "id": "ch14.parabolas.medium.0010",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "What is the minimum value of $y=x^2+10x+28$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$28$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-5$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The parabola has vertex $(-5,3)$ and opens upward, so its minimum value is $3$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "minimum",
+      "vertex"
+    ],
+    "status": "valid",
+    "checksum": "sha256-253ddc1cc4fd0d00e6aec7129c02d424168226a7e4556e7f51accd4e406c8c1e"
+  },
+  {
+    "id": "ch14.parabolas.medium.0011",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "A parabola has equation $y=a(x+1)^2-5$ and passes through $(3,-53)$. What is $a$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute the point: $-53=a(4)^2-5$, so $a=-3$.",
+    "complexity_factor": 1.2,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "vertex-form",
+      "coefficient"
+    ],
+    "status": "valid",
+    "checksum": "sha256-ccbcfe16e9e5efb18207b2f1d26a6213cdfeaa7e9e95787a4cd31d57b5e4c358"
+  },
+  {
+    "id": "ch14.parabolas.medium.0012",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "How many $x$-intercepts does the graph of $y=(x-3)^2+4$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $y=0$. Then $(x-3)^2=-4$, which gives 0 real solutions.",
+    "complexity_factor": 1.15,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "intercepts",
+      "vertex-form"
+    ],
+    "status": "valid",
+    "checksum": "sha256-d0083a703e8a40cf827cde0e5babe26a6f42437e9485a491390eaeadee675cfe"
+  },
+  {
+    "id": "ch14.parabolas.medium.0013",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "What is the vertex of $y=x^2+12x+30$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(6,-6)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-6,-6)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(12,30)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-6,30)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-6,-6)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [
+      "(-6, -6)"
+    ],
+    "solution_latex": "Complete the square: $x^2+12x+30=(x+6)^2-6$, so the vertex is $(-6,-6)$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "completing-square",
+      "vertex"
+    ],
+    "status": "valid",
+    "checksum": "sha256-1ccf647a02d3007febbd64d6bc7fadf7e0213e5f71aee0f20bfe14200b8a89b3"
+  },
+  {
+    "id": "ch14.parabolas.medium.0014",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "What is the minimum value of $y=x^2+4x+5$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The parabola has vertex $(-2,1)$ and opens upward, so its minimum value is $1$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "minimum",
+      "vertex"
+    ],
+    "status": "valid",
+    "checksum": "sha256-95b0ede80b069c69160bfbc581d9bce4808b84bc1e4b1a4a07335bfec97605b3"
+  },
+  {
+    "id": "ch14.parabolas.medium.0015",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "A parabola has equation $y=a(x-2)^2-7$ and passes through $(6,-55)$. What is $a$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute the point: $-55=a(4)^2-7$, so $a=-3$.",
+    "complexity_factor": 1.2,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "vertex-form",
+      "coefficient"
+    ],
+    "status": "valid",
+    "checksum": "sha256-10bd4c550b6399ef88d7afb46b36949404c6367d5398062bc975108305a37596"
+  },
+  {
+    "id": "ch14.parabolas.medium.0016",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "How many $x$-intercepts does the graph of $y=(x-6)^2+1$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $y=0$. Then $(x-6)^2=-1$, which gives 0 real solutions.",
+    "complexity_factor": 1.15,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "intercepts",
+      "vertex-form"
+    ],
+    "status": "valid",
+    "checksum": "sha256-d14c608e293947321d11e6520eb990a1fb5c2421ed3d12d0a33fbbfc32f80e26"
+  },
+  {
+    "id": "ch14.parabolas.medium.0017",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "What is the vertex of $y=x^2+6x+16$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3,7)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3,7)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(6,16)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-3,16)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-3,7)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [
+      "(-3, 7)"
+    ],
+    "solution_latex": "Complete the square: $x^2+6x+16=(x+3)^2+7$, so the vertex is $(-3,7)$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "completing-square",
+      "vertex"
+    ],
+    "status": "valid",
+    "checksum": "sha256-48b434a5c9f3fa1c68a3b27094aa1a187d278d10f29e60a45c1da6169f96e13c"
+  },
+  {
+    "id": "ch14.parabolas.medium.0018",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "What is the minimum value of $y=x^2-2x+0$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The parabola has vertex $(1,-1)$ and opens upward, so its minimum value is $-1$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "minimum",
+      "vertex"
+    ],
+    "status": "valid",
+    "checksum": "sha256-cfe11b9228d05c040d4a8851d2efd0d72cb7a62af6b0472f0d3a3c09082599cc"
+  },
+  {
+    "id": "ch14.parabolas.medium.0019",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "A parabola has equation $y=a(x-5)^2+6$ and passes through $(9,-42)$. What is $a$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute the point: $-42=a(4)^2+6$, so $a=-3$.",
+    "complexity_factor": 1.2,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "vertex-form",
+      "coefficient"
+    ],
+    "status": "valid",
+    "checksum": "sha256-e378a629447faf71ed622cc9f25207ed6c7e71ea463f49485dd14fdfe7b13a57"
+  },
+  {
+    "id": "ch14.parabolas.medium.0020",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "How many $x$-intercepts does the graph of $y=(x+4)^2$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $y=0$. Then $(x+4)^2=0$, which gives 1 real solution.",
+    "complexity_factor": 1.15,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "intercepts",
+      "vertex-form"
+    ],
+    "status": "valid",
+    "checksum": "sha256-8cb25bd8ca80da8e39c425e761fc352e07ab36bc1e163f859387174d36a292be"
+  },
+  {
+    "id": "ch14.parabolas.medium.0021",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "What is the vertex of $y=x^2+0x+5$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0,-5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0,4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1,5)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(0,5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [
+      "(0, 5)"
+    ],
+    "solution_latex": "Complete the square: $x^2+0x+5=(x+0)^2+5$, so the vertex is $(0,5)$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "completing-square",
+      "vertex"
+    ],
+    "status": "valid",
+    "checksum": "sha256-dcd7a3fd3a9bacefeccc7b67fd599f433cf472f6bba68a9f584e2af926ff4b56"
+  },
+  {
+    "id": "ch14.parabolas.medium.0022",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "What is the minimum value of $y=x^2-8x+13$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$13$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$-3$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The parabola has vertex $(4,-3)$ and opens upward, so its minimum value is $-3$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "minimum",
+      "vertex"
+    ],
+    "status": "valid",
+    "checksum": "sha256-7a3813fd90745e4f371a784d8de5b33bbebdd8ddfc6d3e82c5d03653242236f1"
+  },
+  {
+    "id": "ch14.parabolas.medium.0023",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "A parabola has equation $y=a(x+5)^2+4$ and passes through $(-1,-44)$. What is $a$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute the point: $-44=a(4)^2+4$, so $a=-3$.",
+    "complexity_factor": 1.2,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "vertex-form",
+      "coefficient"
+    ],
+    "status": "valid",
+    "checksum": "sha256-dfef3c872cf6a512611a472a912cbd8fab1fe4038a0b87a4ec78a8479359f1be"
+  },
+  {
+    "id": "ch14.parabolas.medium.0024",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "How many $x$-intercepts does the graph of $y=(x+1)^2-1$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $y=0$. Then $(x+1)^2=1$, which gives 2 real solutions.",
+    "complexity_factor": 1.15,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "intercepts",
+      "vertex-form"
+    ],
+    "status": "valid",
+    "checksum": "sha256-c40445f8b6420eaf0c66438ea1cf428c2d9f0bbdfe339ba88580e39f5ce69d4a"
+  },
+  {
+    "id": "ch14.parabolas.medium.0025",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "What is the vertex of $y=x^2-6x+12$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-3,3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3,3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-6,12)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3,12)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(3,3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [
+      "(3, 3)"
+    ],
+    "solution_latex": "Complete the square: $x^2-6x+12=(x-3)^2+3$, so the vertex is $(3,3)$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "completing-square",
+      "vertex"
+    ],
+    "status": "valid",
+    "checksum": "sha256-51df3537778c4fe4460549b52ad98b29945d508625513e61da05704cc6348b4f"
+  },
+  {
+    "id": "ch14.parabolas.medium.0026",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "What is the minimum value of $y=x^2+12x+31$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$31$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$-5$"
+      },
+      {
+        "id": "d",
+        "latex": "$-6$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The parabola has vertex $(-6,-5)$ and opens upward, so its minimum value is $-5$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "minimum",
+      "vertex"
+    ],
+    "status": "valid",
+    "checksum": "sha256-999e6de540012976b908b0062b0bba3aa4cdc73cf8548605172aa455bc597b5a"
+  },
+  {
+    "id": "ch14.parabolas.medium.0027",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "A parabola has equation $y=a(x+2)^2+2$ and passes through $(2,-46)$. What is $a$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute the point: $-46=a(4)^2+2$, so $a=-3$.",
+    "complexity_factor": 1.2,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "vertex-form",
+      "coefficient"
+    ],
+    "status": "valid",
+    "checksum": "sha256-93723627b1d1ea1c34e01521ec35b20edec608a3dca515f3235491437284e754"
+  },
+  {
+    "id": "ch14.parabolas.medium.0028",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "How many $x$-intercepts does the graph of $y=(x-2)^2+9$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $y=0$. Then $(x-2)^2=-9$, which gives 0 real solutions.",
+    "complexity_factor": 1.15,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "intercepts",
+      "vertex-form"
+    ],
+    "status": "valid",
+    "checksum": "sha256-2daa2ccdab94db0725fc7374c5fed83df2a18a44de36cefb2ce9aca7bcace0b4"
+  },
+  {
+    "id": "ch14.parabolas.medium.0029",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "What is the vertex of $y=x^2-12x+37$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-6,1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(6,1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-12,37)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(6,37)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(6,1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [
+      "(6, 1)"
+    ],
+    "solution_latex": "Complete the square: $x^2-12x+37=(x-6)^2+1$, so the vertex is $(6,1)$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "completing-square",
+      "vertex"
+    ],
+    "status": "valid",
+    "checksum": "sha256-9dbbeacf1e71f5e132798d97a02a819d58232937b6a29752ea2b3f6ead591bef"
+  },
+  {
+    "id": "ch14.parabolas.medium.0030",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "What is the minimum value of $y=x^2+6x+2$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$-7$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The parabola has vertex $(-3,-7)$ and opens upward, so its minimum value is $-7$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "minimum",
+      "vertex"
+    ],
+    "status": "valid",
+    "checksum": "sha256-5c98325868f8b8a6a16a749ccc923b1c183e75c08efe540757aa33849d5e6891"
+  },
+  {
+    "id": "ch14.parabolas.medium.0031",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "A parabola has equation $y=a(x-1)^2+0$ and passes through $(5,-48)$. What is $a$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute the point: $-48=a(4)^2+0$, so $a=-3$.",
+    "complexity_factor": 1.2,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "vertex-form",
+      "coefficient"
+    ],
+    "status": "valid",
+    "checksum": "sha256-ddf30723c9fb98cf80af7a05c0199142009233e25f8812227194d1bb8b4f2630"
+  },
+  {
+    "id": "ch14.parabolas.medium.0032",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "How many $x$-intercepts does the graph of $y=(x-5)^2+4$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $y=0$. Then $(x-5)^2=-4$, which gives 0 real solutions.",
+    "complexity_factor": 1.15,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "intercepts",
+      "vertex-form"
+    ],
+    "status": "valid",
+    "checksum": "sha256-6e0fe382605af7d24c4c1edda997598ec9e2d5b3308fd36d37ec7c56099c90dd"
+  },
+  {
+    "id": "ch14.parabolas.medium.0033",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "What is the vertex of $y=x^2+8x+15$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4,-1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-4,-1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(8,15)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-4,15)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-4,-1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [
+      "(-4, -1)"
+    ],
+    "solution_latex": "Complete the square: $x^2+8x+15=(x+4)^2-1$, so the vertex is $(-4,-1)$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "completing-square",
+      "vertex"
+    ],
+    "status": "valid",
+    "checksum": "sha256-1538987ba339af8d57a32386b9505069c995fd4ddd897660d284c5ad33229bf9"
+  },
+  {
+    "id": "ch14.parabolas.medium.0034",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "What is the minimum value of $y=x^2+0x+6$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-6$"
+      },
+      {
+        "id": "b",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The parabola has vertex $(0,6)$ and opens upward, so its minimum value is $6$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "minimum",
+      "vertex"
+    ],
+    "status": "valid",
+    "checksum": "sha256-a817d422317ecf79342d03cbfd90915d05d038db0499ab95b9ce15abfc75a455"
+  },
+  {
+    "id": "ch14.parabolas.medium.0035",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "A parabola has equation $y=a(x-4)^2-2$ and passes through $(8,-50)$. What is $a$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute the point: $-50=a(4)^2-2$, so $a=-3$.",
+    "complexity_factor": 1.2,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "vertex-form",
+      "coefficient"
+    ],
+    "status": "valid",
+    "checksum": "sha256-0bb7dc09790f140109d6bba30abf652a2ed8f0ddd7e54402ead55b2e0ecc48c8"
+  },
+  {
+    "id": "ch14.parabolas.medium.0036",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "How many $x$-intercepts does the graph of $y=(x+5)^2+1$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $y=0$. Then $(x+5)^2=-1$, which gives 0 real solutions.",
+    "complexity_factor": 1.15,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "intercepts",
+      "vertex-form"
+    ],
+    "status": "valid",
+    "checksum": "sha256-f233ea383f56ef04989e4e18e54b343c9024d1a22937ca39164ea7926d0b6364"
+  },
+  {
+    "id": "ch14.parabolas.medium.0037",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "What is the vertex of $y=x^2+2x-2$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1,-3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1,-3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2,-2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,-2)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-1,-3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [
+      "(-1, -3)"
+    ],
+    "solution_latex": "Complete the square: $x^2+2x-2=(x+1)^2-3$, so the vertex is $(-1,-3)$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "completing-square",
+      "vertex"
+    ],
+    "status": "valid",
+    "checksum": "sha256-d0914bc42f742017be4e82698f3721ba489ef7310ea1832f3eeed252a13060bd"
+  },
+  {
+    "id": "ch14.parabolas.medium.0038",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "What is the minimum value of $y=x^2-6x+13$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$13$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The parabola has vertex $(3,4)$ and opens upward, so its minimum value is $4$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "minimum",
+      "vertex"
+    ],
+    "status": "valid",
+    "checksum": "sha256-cb759b22381f8aa3ad5494b9f1fa1b6dfe89dcbcb25fea571bab5e16ba4c9f00"
+  },
+  {
+    "id": "ch14.parabolas.medium.0039",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "A parabola has equation $y=a(x+6)^2-4$ and passes through $(-2,-52)$. What is $a$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute the point: $-52=a(4)^2-4$, so $a=-3$.",
+    "complexity_factor": 1.2,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "vertex-form",
+      "coefficient"
+    ],
+    "status": "valid",
+    "checksum": "sha256-4b8717d9b67f2e0a1f9dfdd2233cabd7af54210eb2f6cbb4724a1fe5cf519172"
+  },
+  {
+    "id": "ch14.parabolas.medium.0040",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "How many $x$-intercepts does the graph of $y=(x+2)^2$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $y=0$. Then $(x+2)^2=0$, which gives 1 real solution.",
+    "complexity_factor": 1.15,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "intercepts",
+      "vertex-form"
+    ],
+    "status": "valid",
+    "checksum": "sha256-b5635ace16a5f5d2aa3177764fc745b93528cd799c3544e8b49b58ec1a235b61"
+  },
+  {
+    "id": "ch14.parabolas.medium.0041",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "What is the vertex of $y=x^2-4x-1$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2,-5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2,-5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-4,-1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,-1)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(2,-5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [
+      "(2, -5)"
+    ],
+    "solution_latex": "Complete the square: $x^2-4x-1=(x-2)^2-5$, so the vertex is $(2,-5)$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "completing-square",
+      "vertex"
+    ],
+    "status": "valid",
+    "checksum": "sha256-e03227a64310c5627a2c9c46bd1b61337e5697c9bc5b5ed08cfd49ace6f55752"
+  },
+  {
+    "id": "ch14.parabolas.medium.0042",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "What is the minimum value of $y=x^2-12x+38$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$38$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The parabola has vertex $(6,2)$ and opens upward, so its minimum value is $2$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "minimum",
+      "vertex"
+    ],
+    "status": "valid",
+    "checksum": "sha256-0b6deee6fd8387ae99c372ce13da980e693584102049986acca535fe60ea88ca"
+  },
+  {
+    "id": "ch14.parabolas.medium.0043",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "A parabola has equation $y=a(x+3)^2-6$ and passes through $(1,-54)$. What is $a$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute the point: $-54=a(4)^2-6$, so $a=-3$.",
+    "complexity_factor": 1.2,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "vertex-form",
+      "coefficient"
+    ],
+    "status": "valid",
+    "checksum": "sha256-d27aa87bca6c3dd4229d36a99b612618d735ae9eb717015918006dfc9ddbe542"
+  },
+  {
+    "id": "ch14.parabolas.medium.0044",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "How many $x$-intercepts does the graph of $y=(x-1)^2-1$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $y=0$. Then $(x-1)^2=1$, which gives 2 real solutions.",
+    "complexity_factor": 1.15,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "intercepts",
+      "vertex-form"
+    ],
+    "status": "valid",
+    "checksum": "sha256-d6c03bb1cc8e96e6b82e2a4063acf3c970fa782e9db0238e9240b08fd20ce2d5"
+  },
+  {
+    "id": "ch14.parabolas.medium.0045",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "What is the vertex of $y=x^2-10x+18$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-5,-7)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(5,-7)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-10,18)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(5,18)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(5,-7)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [
+      "(5, -7)"
+    ],
+    "solution_latex": "Complete the square: $x^2-10x+18=(x-5)^2-7$, so the vertex is $(5,-7)$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "completing-square",
+      "vertex"
+    ],
+    "status": "valid",
+    "checksum": "sha256-e4d87755f1366f448a2ae78332c7deea747608e777a1910b84f64cdddb2873ee"
+  },
+  {
+    "id": "ch14.parabolas.medium.0046",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "What is the minimum value of $y=x^2+8x+16$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The parabola has vertex $(-4,0)$ and opens upward, so its minimum value is $0$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "minimum",
+      "vertex"
+    ],
+    "status": "valid",
+    "checksum": "sha256-8ed6cbf306dec3697d967a8b8a36beab4cdc3def57fc706a52a807ef8404e639"
+  },
+  {
+    "id": "ch14.parabolas.medium.0047",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "A parabola has equation $y=a(x)^2+7$ and passes through $(4,-41)$. What is $a$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute the point: $-41=a(4)^2+7$, so $a=-3$.",
+    "complexity_factor": 1.2,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "vertex-form",
+      "coefficient"
+    ],
+    "status": "valid",
+    "checksum": "sha256-8a1830e64e364baa6661d6a8fa08263cae16175a06142df8026e277eb7a990b9"
+  },
+  {
+    "id": "ch14.parabolas.medium.0048",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "How many $x$-intercepts does the graph of $y=(x-4)^2+9$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $y=0$. Then $(x-4)^2=-9$, which gives 0 real solutions.",
+    "complexity_factor": 1.15,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "intercepts",
+      "vertex-form"
+    ],
+    "status": "valid",
+    "checksum": "sha256-5d7c3943cb4d3b7dada09b4e39ebd0077cb0a18a21b5d4e64f09cdfce0678b16"
+  },
+  {
+    "id": "ch14.parabolas.medium.0049",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "What is the vertex of $y=x^2+10x+31$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(5,6)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-5,6)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(10,31)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-5,31)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-5,6)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [
+      "(-5, 6)"
+    ],
+    "solution_latex": "Complete the square: $x^2+10x+31=(x+5)^2+6$, so the vertex is $(-5,6)$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "completing-square",
+      "vertex"
+    ],
+    "status": "valid",
+    "checksum": "sha256-9bfe4fd5a946de8a11caa85559ccf3fc5192fe206789888064ed65d50e599ef6"
+  },
+  {
+    "id": "ch14.parabolas.medium.0050",
+    "topic_id": "ch14.parabolas",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "What is the minimum value of $y=x^2+2x-1$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The parabola has vertex $(-1,-2)$ and opens upward, so its minimum value is $-2$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.1",
+    "tags": [
+      "parabolas",
+      "minimum",
+      "vertex"
+    ],
+    "status": "valid",
+    "checksum": "sha256-c059717a7fd90236721347302cc0ed2b6fe03884138b7b13edc5d48a7eea0fd2"
+  }
+]

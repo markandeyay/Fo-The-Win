@@ -1,0 +1,2042 @@
+[
+  {
+    "id": "ch14.circles.medium.0001",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "What is the center of the circle $x^2+y^2+4x-2y-11=0$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2,-1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-2,1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2,-1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4,-2)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-2,1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [
+      "(-2, 1)"
+    ],
+    "solution_latex": "Completing the square gives $(x+2)^2+(y-1)^2=16$, so the center is $(-2,1)$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "completing-square",
+      "center"
+    ],
+    "status": "valid",
+    "checksum": "sha256-080500097ffc3f8519dc6f7f5cc606fffed63439f33689baf3373b210f916b0a"
+  },
+  {
+    "id": "ch14.circles.medium.0002",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "What is the radius of the circle $x^2+y^2-4x+8y-5=0$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$25$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $(x-2)^2+(y+4)^2=25$, so the radius is $5$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "completing-square",
+      "radius"
+    ],
+    "status": "valid",
+    "checksum": "sha256-077732dd3e8d99d082ffe8d8a3175f695684e9b20916d8c428758b54a0fbddca"
+  },
+  {
+    "id": "ch14.circles.medium.0003",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "The endpoints of a diameter of a circle are $(-2,-2)$ and $(14,6)$. What is the center?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(6,-2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-6,-2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(12,4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(6,2)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(6,2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [
+      "(6, 2)"
+    ],
+    "solution_latex": "The center is the midpoint of the diameter: $\\left(\\frac{-2+14}2,\\frac{-2+6}2\\right)=(6,2)$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "diameter",
+      "midpoint"
+    ],
+    "status": "valid",
+    "checksum": "sha256-e11c70f785ea6efdf37f033435d423795ea5d189c143bc2077d5c524dd8891d0"
+  },
+  {
+    "id": "ch14.circles.medium.0004",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "A circle centered at $(-3,-3)$ passes through $(4,21)$. What is $r^2$ for this circle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$625$"
+      },
+      {
+        "id": "b",
+        "latex": "$25$"
+      },
+      {
+        "id": "c",
+        "latex": "$73$"
+      },
+      {
+        "id": "d",
+        "latex": "$31$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "625",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The squared radius is $7^2+24^2=625$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "distance",
+      "radius-squared"
+    ],
+    "status": "valid",
+    "checksum": "sha256-a23569e3717fdaab18fe9d391c8e39bc2bfb896e9e737934d22547cc8fad54d8"
+  },
+  {
+    "id": "ch14.circles.medium.0005",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "The circle $(x-1)^2+(y-3)^2=100$ meets the vertical line $x=7$. What is the larger $y$-coordinate of the intersection points?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-5$"
+      },
+      {
+        "id": "b",
+        "latex": "$11$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "11",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=7$: $6^2+(y-3)^2=100$, so $(y-3)^2=64$ and the larger $y$ is $11$.",
+    "complexity_factor": 1.2,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "line-intersection",
+      "substitution"
+    ],
+    "status": "valid",
+    "checksum": "sha256-8cba38cdc94d7da68a0f821f7900618588d57b85e19f20ad60a68be50fc13dd7"
+  },
+  {
+    "id": "ch14.circles.medium.0006",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "What is the center of the circle $x^2+y^2-10x+4y+20=0$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-10,4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(5,2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(5,-2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-5,2)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(5,-2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [
+      "(5, -2)"
+    ],
+    "solution_latex": "Completing the square gives $(x-5)^2+(y+2)^2=9$, so the center is $(5,-2)$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "completing-square",
+      "center"
+    ],
+    "status": "valid",
+    "checksum": "sha256-1150b7197e708fc06d59c2acc9d997bdad0c26dd53821b90c41f4a3cda7796b6"
+  },
+  {
+    "id": "ch14.circles.medium.0007",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "What is the radius of the circle $x^2+y^2+8x-8y+16=0$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$16$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $(x+4)^2+(y-4)^2=16$, so the radius is $4$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "completing-square",
+      "radius"
+    ],
+    "status": "valid",
+    "checksum": "sha256-e8e58da891cbf4bfca8e8abc22b61ecd569c113d5c2f80fa52ac31b3cdaafb98"
+  },
+  {
+    "id": "ch14.circles.medium.0008",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "The endpoints of a diameter of a circle are $(-2,-7)$ and $(2,5)$. What is the center?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0,-1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,-2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0,1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,0)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(0,-1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [
+      "(0, -1)"
+    ],
+    "solution_latex": "The center is the midpoint of the diameter: $\\left(\\frac{-2+2}2,\\frac{-7+5}2\\right)=(0,-1)$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "diameter",
+      "midpoint"
+    ],
+    "status": "valid",
+    "checksum": "sha256-d647eedccb7bd163a6eb642ab624d4e4b28f135545ce0290b416a490f5589703"
+  },
+  {
+    "id": "ch14.circles.medium.0009",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "A circle centered at $(4,5)$ passes through $(11,29)$. What is $r^2$ for this circle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$25$"
+      },
+      {
+        "id": "b",
+        "latex": "$625$"
+      },
+      {
+        "id": "c",
+        "latex": "$31$"
+      },
+      {
+        "id": "d",
+        "latex": "$73$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "625",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The squared radius is $7^2+24^2=625$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "distance",
+      "radius-squared"
+    ],
+    "status": "valid",
+    "checksum": "sha256-2fc3c74f28ba451fe829f45ae3da9994518f5e923cd157bd6647867b9bcfcb11"
+  },
+  {
+    "id": "ch14.circles.medium.0010",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "The circle $(x+5)^2+(y)^2=100$ meets the vertical line $x=1$. What is the larger $y$-coordinate of the intersection points?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$-8$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=1$: $6^2+(y)^2=100$, so $(y)^2=64$ and the larger $y$ is $8$.",
+    "complexity_factor": 1.2,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "line-intersection",
+      "substitution"
+    ],
+    "status": "valid",
+    "checksum": "sha256-3ec63612b860306d09807d95f228049207b4a4a691b68b780ed225d952386974"
+  },
+  {
+    "id": "ch14.circles.medium.0011",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "What is the center of the circle $x^2+y^2+2x+10y-38=0$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2,10)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1,5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,-5)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-1,-5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [
+      "(-1, -5)"
+    ],
+    "solution_latex": "Completing the square gives $(x+1)^2+(y+5)^2=64$, so the center is $(-1,-5)$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "completing-square",
+      "center"
+    ],
+    "status": "valid",
+    "checksum": "sha256-c6851282fe92f4d562c5d371a991d4bb3ef7186811a7309276fbbf30271efc3c"
+  },
+  {
+    "id": "ch14.circles.medium.0012",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "What is the radius of the circle $x^2+y^2-6x-2y+1=0$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $(x-3)^2+(y-1)^2=9$, so the radius is $3$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "completing-square",
+      "radius"
+    ],
+    "status": "valid",
+    "checksum": "sha256-b5a7e2f537269fbaf14388fbe9d9d99fe11301ab5e668e4c6b3457db2ac8034c"
+  },
+  {
+    "id": "ch14.circles.medium.0013",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "The endpoints of a diameter of a circle are $(-10,-12)$ and $(-2,4)$. What is the center?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-12,-8)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-6,-4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-6,4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(6,4)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-6,-4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [
+      "(-6, -4)"
+    ],
+    "solution_latex": "The center is the midpoint of the diameter: $\\left(\\frac{-10+-2}2,\\frac{-12+4}2\\right)=(-6,-4)$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "diameter",
+      "midpoint"
+    ],
+    "status": "valid",
+    "checksum": "sha256-920bf637dedd281699f75353bbe1613210913abccb964b764a16b50b2083ad00"
+  },
+  {
+    "id": "ch14.circles.medium.0014",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "A circle centered at $(-2,2)$ passes through $(5,26)$. What is $r^2$ for this circle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$73$"
+      },
+      {
+        "id": "b",
+        "latex": "$31$"
+      },
+      {
+        "id": "c",
+        "latex": "$625$"
+      },
+      {
+        "id": "d",
+        "latex": "$25$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "625",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The squared radius is $7^2+24^2=625$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "distance",
+      "radius-squared"
+    ],
+    "status": "valid",
+    "checksum": "sha256-955969ba8e51eda1acd7866c44a3d8a7455e865aedcebf94ade3647db94b054f"
+  },
+  {
+    "id": "ch14.circles.medium.0015",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "The circle $(x-2)^2+(y+3)^2=100$ meets the vertical line $x=8$. What is the larger $y$-coordinate of the intersection points?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$-11$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=8$: $6^2+(y+3)^2=100$, so $(y+3)^2=64$ and the larger $y$ is $5$.",
+    "complexity_factor": 1.2,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "line-intersection",
+      "substitution"
+    ],
+    "status": "valid",
+    "checksum": "sha256-2adfb9e3ceed9ec2505e49dfcb09539b2fa364753b0ec6d2f59a7868d98b6fcb"
+  },
+  {
+    "id": "ch14.circles.medium.0016",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "What is the center of the circle $x^2+y^2-12x-6y-4=0$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(6,3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-6,-3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-12,-6)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(6,-3)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(6,3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [
+      "(6, 3)"
+    ],
+    "solution_latex": "Completing the square gives $(x-6)^2+(y-3)^2=49$, so the center is $(6,3)$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "completing-square",
+      "center"
+    ],
+    "status": "valid",
+    "checksum": "sha256-5722261c3ce6c49892944303d9dba6167c9175ba2a3eb8246d387b563aa8a3cb"
+  },
+  {
+    "id": "ch14.circles.medium.0017",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "What is the radius of the circle $x^2+y^2+6x+4y-51=0$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$64$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $(x+3)^2+(y+2)^2=64$, so the radius is $8$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "completing-square",
+      "radius"
+    ],
+    "status": "valid",
+    "checksum": "sha256-c6fdd81753a5a2d0ccf655ff0d6004f14734d141980e1e1f9f243cad9b765ffd"
+  },
+  {
+    "id": "ch14.circles.medium.0018",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "The endpoints of a diameter of a circle are $(-5,-6)$ and $(7,14)$. What is the center?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,-4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1,-4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1,4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,8)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(1,4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [
+      "(1, 4)"
+    ],
+    "solution_latex": "The center is the midpoint of the diameter: $\\left(\\frac{-5+7}2,\\frac{-6+14}2\\right)=(1,4)$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "diameter",
+      "midpoint"
+    ],
+    "status": "valid",
+    "checksum": "sha256-befaaa8bcde71ae44082871df4dda535d98ab910cc0d65054e00cefa877cb12b"
+  },
+  {
+    "id": "ch14.circles.medium.0019",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "A circle centered at $(5,-1)$ passes through $(12,23)$. What is $r^2$ for this circle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$31$"
+      },
+      {
+        "id": "b",
+        "latex": "$73$"
+      },
+      {
+        "id": "c",
+        "latex": "$25$"
+      },
+      {
+        "id": "d",
+        "latex": "$625$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "625",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The squared radius is $7^2+24^2=625$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "distance",
+      "radius-squared"
+    ],
+    "status": "valid",
+    "checksum": "sha256-8655c07e6921e74945b20f09e5b5946cd74de4fa02bca1c2ab3ff8a7d881faf1"
+  },
+  {
+    "id": "ch14.circles.medium.0020",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "The circle $(x+4)^2+(y-5)^2=100$ meets the vertical line $x=2$. What is the larger $y$-coordinate of the intersection points?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$13$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$11$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "13",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=2$: $6^2+(y-5)^2=100$, so $(y-5)^2=64$ and the larger $y$ is $13$.",
+    "complexity_factor": 1.2,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "line-intersection",
+      "substitution"
+    ],
+    "status": "valid",
+    "checksum": "sha256-1041eececb049be60c65e5d20031f5286c271415c82e9a6359897a267b997838"
+  },
+  {
+    "id": "ch14.circles.medium.0021",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "What is the center of the circle $x^2+y^2+0x+0y-36=0$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0,-1)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(0,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [
+      "(0, 0)"
+    ],
+    "solution_latex": "Completing the square gives $(x)^2+(y)^2=36$, so the center is $(0,0)$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "completing-square",
+      "center"
+    ],
+    "status": "valid",
+    "checksum": "sha256-2bcde217bf10c51d17a3bd56901f5d50a876f53c781923baafe4f341529a95d1"
+  },
+  {
+    "id": "ch14.circles.medium.0022",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "What is the radius of the circle $x^2+y^2-8x+10y-8=0$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$49$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $(x-4)^2+(y+5)^2=49$, so the radius is $7$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "completing-square",
+      "radius"
+    ],
+    "status": "valid",
+    "checksum": "sha256-46e545714a1dbacb97271397c399c9df7b820f29838c043b5a9a181d0ab64b02"
+  },
+  {
+    "id": "ch14.circles.medium.0023",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "The endpoints of a diameter of a circle are $(-13,-3)$ and $(3,5)$. What is the center?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-5,-1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(5,-1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-10,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-5,1)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-5,1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [
+      "(-5, 1)"
+    ],
+    "solution_latex": "The center is the midpoint of the diameter: $\\left(\\frac{-13+3}2,\\frac{-3+5}2\\right)=(-5,1)$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "diameter",
+      "midpoint"
+    ],
+    "status": "valid",
+    "checksum": "sha256-353a26156aa9485c1c12ba6695d72215d19b5022ca9f1b2c074528bc61d02260"
+  },
+  {
+    "id": "ch14.circles.medium.0024",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "A circle centered at $(-1,-4)$ passes through $(6,20)$. What is $r^2$ for this circle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$625$"
+      },
+      {
+        "id": "b",
+        "latex": "$25$"
+      },
+      {
+        "id": "c",
+        "latex": "$73$"
+      },
+      {
+        "id": "d",
+        "latex": "$31$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "625",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The squared radius is $7^2+24^2=625$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "distance",
+      "radius-squared"
+    ],
+    "status": "valid",
+    "checksum": "sha256-6595674f8fe9406093d3fb75b55b9ad775ece86a907b4dbc46bbe90d8ddbefd1"
+  },
+  {
+    "id": "ch14.circles.medium.0025",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "The circle $(x-3)^2+(y-2)^2=100$ meets the vertical line $x=9$. What is the larger $y$-coordinate of the intersection points?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-6$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$11$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=9$: $6^2+(y-2)^2=100$, so $(y-2)^2=64$ and the larger $y$ is $10$.",
+    "complexity_factor": 1.2,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "line-intersection",
+      "substitution"
+    ],
+    "status": "valid",
+    "checksum": "sha256-5a6de42b7aa6c38fc2148a0d290a009c4a4b59ce31e86e541cc2f55acb585619"
+  },
+  {
+    "id": "ch14.circles.medium.0026",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "What is the center of the circle $x^2+y^2+12x+6y+20=0$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(12,6)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-6,3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-6,-3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(6,3)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-6,-3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [
+      "(-6, -3)"
+    ],
+    "solution_latex": "Completing the square gives $(x+6)^2+(y+3)^2=25$, so the center is $(-6,-3)$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "completing-square",
+      "center"
+    ],
+    "status": "valid",
+    "checksum": "sha256-f8e3404ddd1a794354910adc3cca88b096edbebb9b06a633668c2b4eaf147ceb"
+  },
+  {
+    "id": "ch14.circles.medium.0027",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "What is the radius of the circle $x^2+y^2+4x-6y-23=0$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$36$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $(x+2)^2+(y-3)^2=36$, so the radius is $6$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "completing-square",
+      "radius"
+    ],
+    "status": "valid",
+    "checksum": "sha256-4ba28e74ddfbc3943a809dbef804c35c37482f35358ed591abca2493313bbf0b"
+  },
+  {
+    "id": "ch14.circles.medium.0028",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "The endpoints of a diameter of a circle are $(0,-8)$ and $(4,4)$. What is the center?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2,-2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4,-4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,2)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(2,-2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [
+      "(2, -2)"
+    ],
+    "solution_latex": "The center is the midpoint of the diameter: $\\left(\\frac{0+4}2,\\frac{-8+4}2\\right)=(2,-2)$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "diameter",
+      "midpoint"
+    ],
+    "status": "valid",
+    "checksum": "sha256-383adf0600ca189fcc4251c60c0390b5ba01d264790ad3ad30fbecc9273096a0"
+  },
+  {
+    "id": "ch14.circles.medium.0029",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "A circle centered at $(6,4)$ passes through $(13,28)$. What is $r^2$ for this circle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$25$"
+      },
+      {
+        "id": "b",
+        "latex": "$625$"
+      },
+      {
+        "id": "c",
+        "latex": "$31$"
+      },
+      {
+        "id": "d",
+        "latex": "$73$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "625",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The squared radius is $7^2+24^2=625$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "distance",
+      "radius-squared"
+    ],
+    "status": "valid",
+    "checksum": "sha256-1ceb4a7992f224125db1fe2812443e05496f42dd3117fa1572d95d59edc5e143"
+  },
+  {
+    "id": "ch14.circles.medium.0030",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "The circle $(x+3)^2+(y+1)^2=100$ meets the vertical line $x=3$. What is the larger $y$-coordinate of the intersection points?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$-9$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=3$: $6^2+(y+1)^2=100$, so $(y+1)^2=64$ and the larger $y$ is $7$.",
+    "complexity_factor": 1.2,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "line-intersection",
+      "substitution"
+    ],
+    "status": "valid",
+    "checksum": "sha256-449d258b4f74bb787a31beb1ec67a75dd24caadbe759b2920f41659121645f36"
+  },
+  {
+    "id": "ch14.circles.medium.0031",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "What is the center of the circle $x^2+y^2-2x-10y+10=0$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1,-5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-2,-10)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,-5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1,5)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(1,5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [
+      "(1, 5)"
+    ],
+    "solution_latex": "Completing the square gives $(x-1)^2+(y-5)^2=16$, so the center is $(1,5)$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "completing-square",
+      "center"
+    ],
+    "status": "valid",
+    "checksum": "sha256-a1bb6b7f26615df1075ec7696e20387f2130f5751de69ddf8141efb07b036fa1"
+  },
+  {
+    "id": "ch14.circles.medium.0032",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "What is the radius of the circle $x^2+y^2-10x+0y+0=0$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$25$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $(x-5)^2+(y)^2=25$, so the radius is $5$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "completing-square",
+      "radius"
+    ],
+    "status": "valid",
+    "checksum": "sha256-3eb9966385b9b4a5ba88c7ca276f6200f9a41417713e986a8a5d70132b417612"
+  },
+  {
+    "id": "ch14.circles.medium.0033",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "The endpoints of a diameter of a circle are $(-8,-13)$ and $(0,3)$. What is the center?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-8,-10)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-4,-5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-4,5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4,5)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-4,-5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [
+      "(-4, -5)"
+    ],
+    "solution_latex": "The center is the midpoint of the diameter: $\\left(\\frac{-8+0}2,\\frac{-13+3}2\\right)=(-4,-5)$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "diameter",
+      "midpoint"
+    ],
+    "status": "valid",
+    "checksum": "sha256-1e8093d3a27700e06b9277ad84050ce0f4633bf8b9958239b28df22373f55cc1"
+  },
+  {
+    "id": "ch14.circles.medium.0034",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "A circle centered at $(0,1)$ passes through $(7,25)$. What is $r^2$ for this circle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$73$"
+      },
+      {
+        "id": "b",
+        "latex": "$31$"
+      },
+      {
+        "id": "c",
+        "latex": "$625$"
+      },
+      {
+        "id": "d",
+        "latex": "$25$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "625",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The squared radius is $7^2+24^2=625$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "distance",
+      "radius-squared"
+    ],
+    "status": "valid",
+    "checksum": "sha256-23c3e6be9d834dd90ad4a89f32a2a6104140d101b525c264ab778f2f5e86df0c"
+  },
+  {
+    "id": "ch14.circles.medium.0035",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "The circle $(x-4)^2+(y+4)^2=100$ meets the vertical line $x=10$. What is the larger $y$-coordinate of the intersection points?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$12$"
+      },
+      {
+        "id": "c",
+        "latex": "$-12$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=10$: $6^2+(y+4)^2=100$, so $(y+4)^2=64$ and the larger $y$ is $4$.",
+    "complexity_factor": 1.2,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "line-intersection",
+      "substitution"
+    ],
+    "status": "valid",
+    "checksum": "sha256-16de00e48be74c5253ce578818a36a194d7c86bf23e02903988b187f8611246d"
+  },
+  {
+    "id": "ch14.circles.medium.0036",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "What is the center of the circle $x^2+y^2+10x-4y+20=0$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-5,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(5,-2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(10,-4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-5,-2)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-5,2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [
+      "(-5, 2)"
+    ],
+    "solution_latex": "Completing the square gives $(x+5)^2+(y-2)^2=9$, so the center is $(-5,2)$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "completing-square",
+      "center"
+    ],
+    "status": "valid",
+    "checksum": "sha256-31fc806bb24394c42ff6085534f82ab3252c2f09de4bf774841e5131ba4b798b"
+  },
+  {
+    "id": "ch14.circles.medium.0037",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "What is the radius of the circle $x^2+y^2+2x+6y-6=0$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $(x+1)^2+(y+3)^2=16$, so the radius is $4$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "completing-square",
+      "radius"
+    ],
+    "status": "valid",
+    "checksum": "sha256-30857e2e176e3b560b75b27e4c225d0eb393a6ba6f3795267ed258ea1f7c6e7e"
+  },
+  {
+    "id": "ch14.circles.medium.0038",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "The endpoints of a diameter of a circle are $(-3,-7)$ and $(9,13)$. What is the center?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-3,-3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3,-3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3,3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(6,6)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(3,3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [
+      "(3, 3)"
+    ],
+    "solution_latex": "The center is the midpoint of the diameter: $\\left(\\frac{-3+9}2,\\frac{-7+13}2\\right)=(3,3)$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "diameter",
+      "midpoint"
+    ],
+    "status": "valid",
+    "checksum": "sha256-470076e69d06cb905e21ed9cba01ad1eed2a4d475889a2d2b98e1f7332ad8dd2"
+  },
+  {
+    "id": "ch14.circles.medium.0039",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "A circle centered at $(-6,-2)$ passes through $(1,22)$. What is $r^2$ for this circle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$31$"
+      },
+      {
+        "id": "b",
+        "latex": "$73$"
+      },
+      {
+        "id": "c",
+        "latex": "$25$"
+      },
+      {
+        "id": "d",
+        "latex": "$625$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "625",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The squared radius is $7^2+24^2=625$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "distance",
+      "radius-squared"
+    ],
+    "status": "valid",
+    "checksum": "sha256-d26f8e3b70908655eab4a0fce1f0d9480e048f09930d9ed3e0c42e2fa30a9139"
+  },
+  {
+    "id": "ch14.circles.medium.0040",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "The circle $(x+2)^2+(y-4)^2=100$ meets the vertical line $x=4$. What is the larger $y$-coordinate of the intersection points?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=4$: $6^2+(y-4)^2=100$, so $(y-4)^2=64$ and the larger $y$ is $12$.",
+    "complexity_factor": 1.2,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "line-intersection",
+      "substitution"
+    ],
+    "status": "valid",
+    "checksum": "sha256-ba353ec03881a9ceb6c9eab85f03a46e6c62520b56a5b198fad2f440e7330b19"
+  },
+  {
+    "id": "ch14.circles.medium.0041",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "What is the center of the circle $x^2+y^2-4x+2y-59=0$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2,1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2,-1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2,1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-4,2)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(2,-1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [
+      "(2, -1)"
+    ],
+    "solution_latex": "Completing the square gives $(x-2)^2+(y+1)^2=64$, so the center is $(2,-1)$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "completing-square",
+      "center"
+    ],
+    "status": "valid",
+    "checksum": "sha256-52c79319bf95e41553a5518c96bdb18dd3785bf7344f63459c437afc7c688f0a"
+  },
+  {
+    "id": "ch14.circles.medium.0042",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "What is the radius of the circle $x^2+y^2-12x-10y+52=0$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $(x-6)^2+(y-5)^2=9$, so the radius is $3$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "completing-square",
+      "radius"
+    ],
+    "status": "valid",
+    "checksum": "sha256-88dcbabfe10046e8e708d5d1ee3f7ede80363fd0ee9708f2116543633f4d9934"
+  },
+  {
+    "id": "ch14.circles.medium.0043",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "The endpoints of a diameter of a circle are $(-11,-4)$ and $(5,4)$. What is the center?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0,-3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-6,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-3,0)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-3,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [
+      "(-3, 0)"
+    ],
+    "solution_latex": "The center is the midpoint of the diameter: $\\left(\\frac{-11+5}2,\\frac{-4+4}2\\right)=(-3,0)$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "diameter",
+      "midpoint"
+    ],
+    "status": "valid",
+    "checksum": "sha256-8984fa29872248e2b149da14ebf7a55cd3b5a46ea7316170155d0e5e732a89f0"
+  },
+  {
+    "id": "ch14.circles.medium.0044",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "A circle centered at $(1,-5)$ passes through $(8,19)$. What is $r^2$ for this circle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$625$"
+      },
+      {
+        "id": "b",
+        "latex": "$25$"
+      },
+      {
+        "id": "c",
+        "latex": "$73$"
+      },
+      {
+        "id": "d",
+        "latex": "$31$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "625",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The squared radius is $7^2+24^2=625$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "distance",
+      "radius-squared"
+    ],
+    "status": "valid",
+    "checksum": "sha256-615f958f1f6e32620b8752b64c4e0ae02e4bf3a9069a370727d548d8f1e75934"
+  },
+  {
+    "id": "ch14.circles.medium.0045",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "The circle $(x-5)^2+(y-1)^2=100$ meets the vertical line $x=11$. What is the larger $y$-coordinate of the intersection points?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-7$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$13$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=11$: $6^2+(y-1)^2=100$, so $(y-1)^2=64$ and the larger $y$ is $9$.",
+    "complexity_factor": 1.2,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "line-intersection",
+      "substitution"
+    ],
+    "status": "valid",
+    "checksum": "sha256-f16b018c097de72e4d9e4f79d5cdffe1ef04370d0a0976ac72e2828416d75ad6"
+  },
+  {
+    "id": "ch14.circles.medium.0046",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "What is the center of the circle $x^2+y^2+8x+8y-17=0$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(8,8)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-4,4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-4,-4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4,4)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-4,-4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [
+      "(-4, -4)"
+    ],
+    "solution_latex": "Completing the square gives $(x+4)^2+(y+4)^2=49$, so the center is $(-4,-4)$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "completing-square",
+      "center"
+    ],
+    "status": "valid",
+    "checksum": "sha256-706777171ce429cfec5e8465307d8810addf703523264438a5685f788ac9be6c"
+  },
+  {
+    "id": "ch14.circles.medium.0047",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "What is the radius of the circle $x^2+y^2+0x-4y-60=0$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$64$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Completing the square gives $(x)^2+(y-2)^2=64$, so the radius is $8$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "completing-square",
+      "radius"
+    ],
+    "status": "valid",
+    "checksum": "sha256-69ce41ede6e60e6ed9af77a73ff61239cf5d721ecd12f9e2af977360a063bd43"
+  },
+  {
+    "id": "ch14.circles.medium.0048",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "The endpoints of a diameter of a circle are $(2,-9)$ and $(6,3)$. What is the center?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4,-3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(8,-6)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-4,3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4,3)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(4,-3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [
+      "(4, -3)"
+    ],
+    "solution_latex": "The center is the midpoint of the diameter: $\\left(\\frac{2+6}2,\\frac{-9+3}2\\right)=(4,-3)$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "diameter",
+      "midpoint"
+    ],
+    "status": "valid",
+    "checksum": "sha256-ab1a241d2d63596a383719bbc1155a0d3e97b6cc031b1fbe248d6a92bf439e36"
+  },
+  {
+    "id": "ch14.circles.medium.0049",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "A circle centered at $(-5,3)$ passes through $(2,27)$. What is $r^2$ for this circle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$25$"
+      },
+      {
+        "id": "b",
+        "latex": "$625$"
+      },
+      {
+        "id": "c",
+        "latex": "$31$"
+      },
+      {
+        "id": "d",
+        "latex": "$73$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "625",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The squared radius is $7^2+24^2=625$.",
+    "complexity_factor": 1.15,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "distance",
+      "radius-squared"
+    ],
+    "status": "valid",
+    "checksum": "sha256-6eedff551443d74948fa18c8be8c86ee2c1a699475a0ce8891473a23c53ee38b"
+  },
+  {
+    "id": "ch14.circles.medium.0050",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "medium",
+    "prompt_latex": "The circle $(x+1)^2+(y+2)^2=100$ meets the vertical line $x=5$. What is the larger $y$-coordinate of the intersection points?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$-10$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=5$: $6^2+(y+2)^2=100$, so $(y+2)^2=64$ and the larger $y$ is $6$.",
+    "complexity_factor": 1.2,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "line-intersection",
+      "substitution"
+    ],
+    "status": "valid",
+    "checksum": "sha256-a31a54290e5d1f1646bb61c1d13387c75b28e4a7eb43375d5d017a6c337196c9"
+  }
+]

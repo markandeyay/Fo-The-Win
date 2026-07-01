@@ -1,0 +1,1962 @@
+[
+  {
+    "id": "ch8.find_equation.hard.0001",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Find the equation of the line through $(-5, 12)$ and $(-2, 0)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = 4x - 8$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = -4x - 7$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = -4x - 8$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -4x + 8$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "y=-4x-8",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slope is $-4$. Substituting $(-5, 12)$ in $y=mx+b$ gives $b=-8$, so $y = -4x - 8$.",
+    "complexity_factor": 1.3,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "two-points"
+    ],
+    "checksum": "sha256-7dcec6ec03816b778440ea9e1e082a9d6468e96a1eb7db730a236d505f6e8f89",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.hard.0002",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "A line perpendicular to $y = -x - 7$ passes through $(-2, -15)$. What is its equation?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = x - 13$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = x + 13$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = x - 12$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -x - 13$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "y=x-13",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The negative reciprocal of $-1$ is $1$. Using $(-2, -15)$ gives $b=-13$.",
+    "complexity_factor": 1.3,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "perpendicular"
+    ],
+    "checksum": "sha256-e9be0f5fb1c38b5cefeebff1c693fd9169b4287ec896e88c10aeae9629896644",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.hard.0003",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Which slope-intercept equation is equivalent to $3x + 3y = -27$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = -x - 8$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = -x + 9$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = x - 9$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -x - 9$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "y=-x-9",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Solve for $y$: $3y=-3x+-27$, so $y = -x - 9$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "standard-form",
+      "slope-intercept"
+    ],
+    "checksum": "sha256-066c0864e5a8e718fcc9fcbfcac547e907cda830fec5f5c6682fafd7524b3871",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.hard.0004",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Find the equation of the horizontal line through $(4, -21)$ and $(8, -21)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x = 4$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = -21$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = x - 21$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -x - 21$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "y=-21",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "A horizontal line has constant $y$-value, so its equation is $y=-21$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "horizontal-line"
+    ],
+    "checksum": "sha256-bbd67d4713c683aed54d4047fc5440456b24507f09c63932950e26c1558f685e",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.hard.0005",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Find the equation of the vertical line through $(-4, -20)$ and $(-4, -15)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x = -20$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = 0 - 4$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = -20$"
+      },
+      {
+        "id": "d",
+        "latex": "$x = -4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x=-4",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "A vertical line has constant $x$-value, so its equation is $x=-4$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "vertical-line"
+    ],
+    "checksum": "sha256-7e320c069b29a25eb08e0513e4c4658d54cc4f2b174bd3b4137524529599b9b6",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.hard.0006",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Find the equation of the line through $(-1, -2)$ and $(2, -5)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = -x - 3$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = -x + 3$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = x - 3$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -x - 2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "y=-x-3",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slope is $-1$. Substituting $(-1, -2)$ in $y=mx+b$ gives $b=-3$, so $y = -x - 3$.",
+    "complexity_factor": 1.3,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "two-points"
+    ],
+    "checksum": "sha256-5720e0929b26970558a8b1a23ae445528ae4825b61ab03c13f1e04016da402f6",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.hard.0007",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "A line perpendicular to $y = -x - 2$ passes through $(2, -10)$. What is its equation?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = -x - 12$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = x - 12$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = x + 12$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = x - 11$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "y=x-12",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The negative reciprocal of $-1$ is $1$. Using $(2, -10)$ gives $b=-12$.",
+    "complexity_factor": 1.3,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "perpendicular"
+    ],
+    "checksum": "sha256-f573285da5d6c4b4a37e5381b52f22c07aa0f7fd178b5a4f66d97a2e3a8e0842",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.hard.0008",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Which slope-intercept equation is equivalent to $5x + 2y = -17$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = \\frac{-5}{2}x + \\frac{17}{2}$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = \\frac{-5}{2}x - \\frac{15}{2}$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = \\frac{5}{2}x - \\frac{17}{2}$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = \\frac{-5}{2}x - \\frac{17}{2}$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "y=\\frac{-5}{2}x-\\frac{17}{2}",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Solve for $y$: $2y=-5x+-17$, so $y = \\frac{-5}{2}x - \\frac{17}{2}$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "standard-form",
+      "slope-intercept"
+    ],
+    "checksum": "sha256-35cbe949c9ab2c3875b52620736452eb8a17189b3750b20c2b0478b17d570dc8",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.hard.0009",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Find the equation of the horizontal line through $(-3, -6)$ and $(1, -6)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = -x - 6$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = -6$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = x - 6$"
+      },
+      {
+        "id": "d",
+        "latex": "$x = -3$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "y=-6",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "A horizontal line has constant $y$-value, so its equation is $y=-6$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "horizontal-line"
+    ],
+    "checksum": "sha256-ebd84a54a06409f7bbd24e567dc20abc19d4de6d67b66a432aeb1ca0aacb4d71",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.hard.0010",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Find the equation of the vertical line through $(0, 1)$ and $(0, 6)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x = 1$"
+      },
+      {
+        "id": "b",
+        "latex": "$x = 0$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = 1$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = 0$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "x=0",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "A vertical line has constant $x$-value, so its equation is $x=0$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "vertical-line"
+    ],
+    "checksum": "sha256-bbf6dc3278be5dfbd210f8289abb46b2cdecfbb8317dd5dd0fe0f78cf6317a06",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.hard.0011",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Find the equation of the line through $(3, 14)$ and $(6, 26)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = -4x + 2$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = 4x - 2$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = 4x + 3$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = 4x + 2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "y=4x+2",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slope is $4$. Substituting $(3, 14)$ in $y=mx+b$ gives $b=2$, so $y = 4x + 2$.",
+    "complexity_factor": 1.3,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "two-points"
+    ],
+    "checksum": "sha256-0604babdc9f9afc4d655ee6163d9d6eee0c6c8c9c750029aebf01c3226ba67c2",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.hard.0012",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "A line perpendicular to $y=-1x+1$ passes through $(-5, -12)$. What is its equation?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = x - 7$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = x - 6$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = -x - 7$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = x + 7$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "y=x-7",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "A perpendicular slope is the negative reciprocal, so the slope is $1$. Substitution gives $b=-7$.",
+    "complexity_factor": 1.3,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "perpendicular"
+    ],
+    "checksum": "sha256-42ac86f25d38d68e63a07e1c60ef622df65e046efc5fbe384c0f8ebcb45f9e12",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.hard.0013",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Which slope-intercept equation is equivalent to $4x + 2y = 8$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = -2x + 4$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = -2x + 5$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = 2x + 4$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -2x - 4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "y=-2x+4",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Solve for $y$: $2y=-4x+8$, so $y = -2x + 4$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "standard-form",
+      "slope-intercept"
+    ],
+    "checksum": "sha256-3a04bb0772f5da3a19ba6c0643b9c026d30a7eb03222ec385e684355f104c292",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.hard.0014",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Find the equation of the horizontal line through $(1, 7)$ and $(5, 7)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = -x + 7$"
+      },
+      {
+        "id": "b",
+        "latex": "$x = 1$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = x + 7$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = 7$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "y=7",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "A horizontal line has constant $y$-value, so its equation is $y=7$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "horizontal-line"
+    ],
+    "checksum": "sha256-e22ea0e3a59a2179211f0c9bcd4dc342fdd03d18595057fe3f7ae63da9bad5f5",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.hard.0015",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Find the equation of the vertical line through $(4, -10)$ and $(4, -5)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = 0 + 4$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = -10$"
+      },
+      {
+        "id": "c",
+        "latex": "$x = 4$"
+      },
+      {
+        "id": "d",
+        "latex": "$x = -10$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "x=4",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "A vertical line has constant $x$-value, so its equation is $x=4$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "vertical-line"
+    ],
+    "checksum": "sha256-5a59fbb0f33d6e69c9433a23436dd9df2075ce32c2403947013ab28e5f4ee4d0",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.hard.0016",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Find the equation of the line through $(-4, -1)$ and $(-1, 5)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = 2x - 7$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = -2x + 7$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = 2x + 8$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = 2x + 7$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "y=2x+7",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slope is $2$. Substituting $(-4, -1)$ in $y=mx+b$ gives $b=7$, so $y = 2x + 7$.",
+    "complexity_factor": 1.3,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "two-points"
+    ],
+    "checksum": "sha256-3461e5d68faa89658cbf106799eb75783f7a82c936deeb39d953abb057cb69ff",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.hard.0017",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "A line perpendicular to $y = -x + 8$ passes through $(-1, 11)$. What is its equation?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = -x + 12$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = x + 13$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = x + 12$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = x - 12$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "y=x+12",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The negative reciprocal of $-1$ is $1$. Using $(-1, 11)$ gives $b=12$.",
+    "complexity_factor": 1.3,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "perpendicular"
+    ],
+    "checksum": "sha256-a5575ed0091f371de4d3d27e887534b2cf7896df13e96a703f19e24602e8bc5c",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.hard.0018",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Which slope-intercept equation is equivalent to $3x + 5y = -4$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = \\frac{-3}{5}x + \\frac{4}{5}$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = \\frac{3}{5}x - \\frac{4}{5}$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = \\frac{-3}{5}x - \\frac{4}{5}$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = \\frac{-3}{5}x + \\frac{1}{5}$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "y=\\frac{-3}{5}x-\\frac{4}{5}",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Solve for $y$: $5y=-3x+-4$, so $y = \\frac{-3}{5}x - \\frac{4}{5}$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "standard-form",
+      "slope-intercept"
+    ],
+    "checksum": "sha256-e0f56629365f218c7d0a7bcdc3f89d17ac8ac52eb650355f129b7322f0d3e543",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.hard.0019",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Find the equation of the horizontal line through $(5, -12)$ and $(9, -12)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = x - 12$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = -12$"
+      },
+      {
+        "id": "c",
+        "latex": "$x = 5$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -x - 12$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "y=-12",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "A horizontal line has constant $y$-value, so its equation is $y=-12$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "horizontal-line"
+    ],
+    "checksum": "sha256-ca28717bd5c9134883b759df403c4d5348e6e100e16ac5a3f71464bc0d12c13b",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.hard.0020",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Find the equation of the vertical line through $(-3, 6)$ and $(-3, 11)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x = 6$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = 6$"
+      },
+      {
+        "id": "c",
+        "latex": "$x = -3$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = 0 - 3$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "x=-3",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "A vertical line has constant $x$-value, so its equation is $x=-3$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "vertical-line"
+    ],
+    "checksum": "sha256-b9903b411d55a18768bd957a265f379088c4ff5f3ca13faf64c0dc6e52c09602",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.hard.0021",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Find the equation of the line through $(0, -5)$ and $(3, 7)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = -4x - 5$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = 4x + 5$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = 4x - 4$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = 4x - 5$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "y=4x-5",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slope is $4$. Substituting $(0, -5)$ in $y=mx+b$ gives $b=-5$, so $y = 4x - 5$.",
+    "complexity_factor": 1.3,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "two-points"
+    ],
+    "checksum": "sha256-42d959658477bbba2c5f829b3ad83b9b7fdf6eebdfe81fb35dc2bcccbe1206d4",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.hard.0022",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "A line perpendicular to $y = x - 4$ passes through $(3, -16)$. What is its equation?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = x - 13$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = -x + 13$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = -x - 13$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -x - 12$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "y=-x-13",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The negative reciprocal of $1$ is $-1$. Using $(3, -16)$ gives $b=-13$.",
+    "complexity_factor": 1.3,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "perpendicular"
+    ],
+    "checksum": "sha256-7ef6619a6f7fa11b2e835ea3e8604a86931649391c597f71176ed9eff87f4085",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.hard.0023",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Which slope-intercept equation is equivalent to $2x + 2y = -6$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = -x - 3$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = -x - 2$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = x - 3$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -x + 3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "y=-x-3",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Solve for $y$: $2y=-2x+-6$, so $y = -x - 3$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "standard-form",
+      "slope-intercept"
+    ],
+    "checksum": "sha256-d31c97ab50d2f1957959f185ffe827bea2e911d4798032d06e04a242b106f41a",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.hard.0024",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Find the equation of the horizontal line through $(-2, -10)$ and $(2, -10)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = x - 10$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = -10$"
+      },
+      {
+        "id": "c",
+        "latex": "$x = -2$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -x - 10$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "y=-10",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "A horizontal line has constant $y$-value, so its equation is $y=-10$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "horizontal-line"
+    ],
+    "checksum": "sha256-2fa1c85e6961b47f4301054f1a6261c8e233528907453cacd19c8df6ee56bc1f",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.hard.0025",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Find the equation of the vertical line through $(1, 2)$ and $(1, 7)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x = 2$"
+      },
+      {
+        "id": "b",
+        "latex": "$x = 1$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = 2$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = 0 + 1$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "x=1",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "A vertical line has constant $x$-value, so its equation is $x=1$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "vertical-line"
+    ],
+    "checksum": "sha256-fd08ff7e44c1aaee49573ea8b0be5cbf4f1addc05c358620a934429f13ffc005",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.hard.0026",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Find the equation of the line through $(4, -12)$ and $(7, -21)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = -3x + 1$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = -3x$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = 3x$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -2x$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "y=-3x",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slope is $-3$. Substituting $(4, -12)$ in $y=mx+b$ gives $b=0$, so $y = -3x$.",
+    "complexity_factor": 1.3,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "two-points"
+    ],
+    "checksum": "sha256-869dccd35ba8260b106f3f6cd2a67f3bc13d2aca80d04baaea2e1a97991035a9",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.hard.0027",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "A line perpendicular to $y = x + 1$ passes through $(-4, -11)$. What is its equation?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = -x + 15$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = -x - 14$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = x - 15$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -x - 15$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "y=-x-15",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The negative reciprocal of $1$ is $-1$. Using $(-4, -11)$ gives $b=-15$.",
+    "complexity_factor": 1.3,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "perpendicular"
+    ],
+    "checksum": "sha256-089a11fea01757e6773efb044a93cc3a2f2383ec589cd5628888c78e5370fdc3",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.hard.0028",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Which slope-intercept equation is equivalent to $3x + 5y = -8$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = \\frac{-3}{5}x - \\frac{8}{5}$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = \\frac{-3}{5}x - \\frac{3}{5}$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = \\frac{-3}{5}x + \\frac{8}{5}$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = \\frac{3}{5}x - \\frac{8}{5}$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "y=\\frac{-3}{5}x-\\frac{8}{5}",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Solve for $y$: $5y=-3x+-8$, so $y = \\frac{-3}{5}x - \\frac{8}{5}$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "standard-form",
+      "slope-intercept"
+    ],
+    "checksum": "sha256-ef8b6396745c0d3992c728fb601ce0a6dbbff33d6fe6ec1a0ca39c2dea839a3b",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.hard.0029",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Find the equation of the horizontal line through $(2, -5)$ and $(6, -5)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = x - 5$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = -5$"
+      },
+      {
+        "id": "c",
+        "latex": "$x = 2$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -x - 5$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "y=-5",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "A horizontal line has constant $y$-value, so its equation is $y=-5$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "horizontal-line"
+    ],
+    "checksum": "sha256-7c4211aeebb19afbfb3ebf53eecec25157d714c8d4dc6e6c4dfb81ed74a9462c",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.hard.0030",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Find the equation of the vertical line through $(5, -1)$ and $(5, 4)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x = 5$"
+      },
+      {
+        "id": "b",
+        "latex": "$x = -1$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = -1$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = 0 + 5$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "x=5",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "A vertical line has constant $x$-value, so its equation is $x=5$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "vertical-line"
+    ],
+    "checksum": "sha256-03c5cfe6510e7181778dd3259f61f50e12a3ccb78e9e92a2135dd9e4185470ba",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.hard.0031",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Find the equation of the line through $(-3, 11)$ and $(0, 5)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = 2x + 5$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = -2x - 5$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = -2x + 6$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -2x + 5$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "y=-2x+5",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slope is $-2$. Substituting $(-3, 11)$ in $y=mx+b$ gives $b=5$, so $y = -2x + 5$.",
+    "complexity_factor": 1.3,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "two-points"
+    ],
+    "checksum": "sha256-a965b6ae34eb8e3734da29f021392bef22768e339134d464e504f711591cca54",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.hard.0032",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "A line perpendicular to $y=-1x+1$ passes through $(0, 6)$. What is its equation?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = -x + 6$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = x + 6$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = x + 7$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = x - 6$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "y=x+6",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "A perpendicular slope is the negative reciprocal, so the slope is $1$. Substitution gives $b=6$.",
+    "complexity_factor": 1.3,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "perpendicular"
+    ],
+    "checksum": "sha256-562ca548f7c26d52504bb79745300a910b528bb7a4550d9aafc16379fb0e0664",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.hard.0033",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Which slope-intercept equation is equivalent to $5x + 5y = -10$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = -x + 2$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = x - 2$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = -x - 2$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -x - 1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "y=-x-2",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Solve for $y$: $5y=-5x+-10$, so $y = -x - 2$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "standard-form",
+      "slope-intercept"
+    ],
+    "checksum": "sha256-90751c4cb3d95a7511cc1983000c3532e15c18aa7f06a2183902053551d71d63",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.hard.0034",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Find the equation of the horizontal line through $(-5, 13)$ and $(-1, 13)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x = -5$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = 13$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = x + 13$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -x + 13$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "y=13",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "A horizontal line has constant $y$-value, so its equation is $y=13$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "horizontal-line"
+    ],
+    "checksum": "sha256-b2feb54d1764ce814b678a70c8b4bfe704e47627ad8bcbdd045ec5f8c91e8eb1",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.hard.0035",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Find the equation of the vertical line through $(-2, -16)$ and $(-2, -11)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = 0 - 2$"
+      },
+      {
+        "id": "b",
+        "latex": "$x = -16$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = -16$"
+      },
+      {
+        "id": "d",
+        "latex": "$x = -2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x=-2",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "A vertical line has constant $x$-value, so its equation is $x=-2$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "vertical-line"
+    ],
+    "checksum": "sha256-7654db26aa9c672d2f7f154fe6074a1b5074220161725cf86546602d66e6a940",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.hard.0036",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Find the equation of the line through $(1, -4)$ and $(4, 5)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = 3x - 6$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = 3x - 7$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = -3x - 7$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = 3x + 7$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "y=3x-7",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slope is $3$. Substituting $(1, -4)$ in $y=mx+b$ gives $b=-7$, so $y = 3x - 7$.",
+    "complexity_factor": 1.3,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "two-points"
+    ],
+    "checksum": "sha256-5151ba02d452e46e372945f1ff9f83a31e69daabbfe2c8a043e54d075737aa7a",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.hard.0037",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "A line perpendicular to $y=-1x+1$ passes through $(4, -2)$. What is its equation?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = x + 6$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = -x - 6$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = x - 5$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = x - 6$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "y=x-6",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "A perpendicular slope is the negative reciprocal, so the slope is $1$. Substitution gives $b=-6$.",
+    "complexity_factor": 1.3,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "perpendicular"
+    ],
+    "checksum": "sha256-bd9529d5be6b15ed36d189b2cb1d392311578caf359db21cccd174e94b83ea0e",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.hard.0038",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Which slope-intercept equation is equivalent to $3x + 3y = -75$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = x - 25$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = -x - 24$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = -x - 25$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -x + 25$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "y=-x-25",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Solve for $y$: $3y=-3x+-75$, so $y = -x - 25$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "standard-form",
+      "slope-intercept"
+    ],
+    "checksum": "sha256-2110fa768faafefbf2fb53faedbbdb86be359ba1722f44be8a0bc0abec44ff9e",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.hard.0039",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Find the equation of the horizontal line through $(-1, -2)$ and $(3, -2)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = x - 2$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = -x - 2$"
+      },
+      {
+        "id": "c",
+        "latex": "$x = -1$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "y=-2",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "A horizontal line has constant $y$-value, so its equation is $y=-2$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "horizontal-line"
+    ],
+    "checksum": "sha256-ab1fb6f201f0379c1fedc0a964601cd3c7d16fb8fdb96442f0018f76d8c19801",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.hard.0040",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Find the equation of the vertical line through $(2, 5)$ and $(2, 10)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = 0 + 2$"
+      },
+      {
+        "id": "b",
+        "latex": "$x = 5$"
+      },
+      {
+        "id": "c",
+        "latex": "$x = 2$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = 5$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "x=2",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "A vertical line has constant $x$-value, so its equation is $x=2$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "vertical-line"
+    ],
+    "checksum": "sha256-f0d6341c237e22c52a359a2fe4de901723c2feb9753748f9db27af9d19b26cf7",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.hard.0041",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Find the equation of the line through $(5, 13)$ and $(8, 22)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = -3x - 2$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = 3x - 1$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = 3x + 2$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = 3x - 2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "y=3x-2",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slope is $3$. Substituting $(5, 13)$ in $y=mx+b$ gives $b=-2$, so $y = 3x - 2$.",
+    "complexity_factor": 1.3,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "two-points"
+    ],
+    "checksum": "sha256-b29b45aa1530891bfed55775ba57c02b4ffdf0b34846f14f34beba99722fc592",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.hard.0042",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "A line perpendicular to $y=-1x+1$ passes through $(-3, 5)$. What is its equation?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = x - 8$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = x + 8$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = -x + 8$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = x + 9$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "y=x+8",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "A perpendicular slope is the negative reciprocal, so the slope is $1$. Substitution gives $b=8$.",
+    "complexity_factor": 1.3,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "perpendicular"
+    ],
+    "checksum": "sha256-35f4ac0aa3d32cf0f6291a6e8c5baece752ec1eb037ea9032816b5e9f62bac67",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.hard.0043",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Which slope-intercept equation is equivalent to $5x + 3y = 0$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = \\frac{-5}{3}x + 2$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = \\frac{-5}{3}x$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = \\frac{5}{3}x$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = \\frac{-5}{3}x + 1$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "y=\\frac{-5}{3}x",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Solve for $y$: $3y=-5x+0$, so $y = \\frac{-5}{3}x$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "standard-form",
+      "slope-intercept"
+    ],
+    "checksum": "sha256-ac5d5ae08836446239e3afa268d14c883d9d97dd3352848fce9d13b24cdeb20c",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.hard.0044",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Find the equation of the horizontal line through $(3, -2)$ and $(7, -2)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = x - 2$"
+      },
+      {
+        "id": "b",
+        "latex": "$x = 3$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = -x - 2$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "y=-2",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "A horizontal line has constant $y$-value, so its equation is $y=-2$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "horizontal-line"
+    ],
+    "checksum": "sha256-70cfb6e4d4fa562a5bd80197598af121968af5b0a1ae46e349f456ee86b88ba0",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.hard.0045",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Find the equation of the vertical line through $(-5, 17)$ and $(-5, 22)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = 17$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = 0 - 5$"
+      },
+      {
+        "id": "c",
+        "latex": "$x = -5$"
+      },
+      {
+        "id": "d",
+        "latex": "$x = 17$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "x=-5",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "A vertical line has constant $x$-value, so its equation is $x=-5$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "vertical-line"
+    ],
+    "checksum": "sha256-474c67661ad58e2d37976f9438502d6ee43d716582465d6ede3b1532b8ff84ce",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.hard.0046",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Find the equation of the line through $(-2, -1)$ and $(1, 5)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = 2x - 3$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = 2x + 3$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = 2x + 4$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -2x + 3$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "y=2x+3",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slope is $2$. Substituting $(-2, -1)$ in $y=mx+b$ gives $b=3$, so $y = 2x + 3$.",
+    "complexity_factor": 1.3,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "two-points"
+    ],
+    "checksum": "sha256-2ba6af681ca404431022bcce877c3f46f73a3caab1c1c0c5b50ba377615fd71f",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.hard.0047",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "A line perpendicular to $y=1x+1$ passes through $(1, 8)$. What is its equation?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = -x + 10$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = -x - 9$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = -x + 9$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = x + 9$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "y=-x+9",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "A perpendicular slope is the negative reciprocal, so the slope is $-1$. Substitution gives $b=9$.",
+    "complexity_factor": 1.3,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "perpendicular"
+    ],
+    "checksum": "sha256-013807be74bb626cc8ef8fa5f972ca469419dfcba512a8991c98dbfd5b877a77",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.hard.0048",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Which slope-intercept equation is equivalent to $4x + 4y = 100$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = -x + 26$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = x + 25$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = -x - 25$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -x + 25$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "y=-x+25",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Solve for $y$: $4y=-4x+100$, so $y = -x + 25$.",
+    "complexity_factor": 1.28,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "standard-form",
+      "slope-intercept"
+    ],
+    "checksum": "sha256-e35a72fdfc4be1781bce3fce18b4e88bb22deb7f79c645399eb4085967424325",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.hard.0049",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Find the equation of the horizontal line through $(-4, -2)$ and $(0, -2)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = x - 2$"
+      },
+      {
+        "id": "b",
+        "latex": "$x = -4$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = -2$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -x - 2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "y=-2",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "A horizontal line has constant $y$-value, so its equation is $y=-2$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "horizontal-line"
+    ],
+    "checksum": "sha256-e307afce90e13a06b984f1850c29c8a2f0f617cb68aeefe120fd2f00864ffd24",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.hard.0050",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "hard",
+    "prompt_latex": "Find the equation of the vertical line through $(-1, 3)$ and $(-1, 8)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = 0 - 1$"
+      },
+      {
+        "id": "b",
+        "latex": "$x = 3$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = 3$"
+      },
+      {
+        "id": "d",
+        "latex": "$x = -1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x=-1",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "A vertical line has constant $x$-value, so its equation is $x=-1$.",
+    "complexity_factor": 1.25,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "vertical-line"
+    ],
+    "checksum": "sha256-dc67cc25214efc6d2566fb240b5c8fdb24e41ba5dd934c5bafd9a564097934a7",
+    "status": "valid"
+  }
+]

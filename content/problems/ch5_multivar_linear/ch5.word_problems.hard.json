@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "ch5.word_problems.hard.0001",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Chemist A has a $29\\%$ acid solution and chemist B has a $50\\%$ acid solution. How many liters of A must be mixed with the rest from B to make 28 liters of a $41\\%$ solution?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$14$"
+      },
+      {
+        "id": "b",
+        "latex": "$16$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$11$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $a$ and $b$ be the liters from A and B. Then $a + b = 28$ and $0.29a + 0.5b = 0.41 \\cdot 28$. Solving gives $a = 12$.",
+    "complexity_factor": 1.4,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "mixture"
+    ],
+    "checksum": "sha256-1ca981ba557d152eaa1cef3804cee7d6be23b0a6026d5809f6f0c9dbd545318c",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.hard.0002",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Pipe A can fill a tank in 4 hours and pipe B in 6 hours. How many hours does it take both pipes together to fill the tank?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$13/8$"
+      },
+      {
+        "id": "b",
+        "latex": "$3/2$"
+      },
+      {
+        "id": "c",
+        "latex": "$20/13$"
+      },
+      {
+        "id": "d",
+        "latex": "$12/5$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "12/5",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Combined rate is $1/4 + 1/6 = \\dfrac{5}{12}$ tanks per hour, so time is $\\dfrac{12}{5}$ hours.",
+    "complexity_factor": 1.45,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "work"
+    ],
+    "checksum": "sha256-922debd3da578395212d0435ddb9b5b432c473b6e3bc55aef6684f4e2ee4d7fa",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.hard.0003",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "A cyclist rides 137 miles at 38 mph and returns 137 miles at 44 mph. What is the total time of the trip (in hours)?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2812/419$"
+      },
+      {
+        "id": "b",
+        "latex": "$5622/841$"
+      },
+      {
+        "id": "c",
+        "latex": "$5617/836$"
+      },
+      {
+        "id": "d",
+        "latex": "$5626/839$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "5617/836",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Time there is $137/38$ and back is $137/44$. Total time is $\\dfrac{5617}{836}$ hours.",
+    "complexity_factor": 1.4,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "distance"
+    ],
+    "checksum": "sha256-253d1c2865fa804dd11243567169a930d176260dd42a3c1d8cd3a82bfa488f71",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.hard.0004",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "A small fair sold adult tickets for $9$ dollars and child tickets for $2$ dollars. It sold 4 child tickets and collected $71$ dollars total. How many adult tickets were sold?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $a$ be the number of adult tickets. Then $9a + 2\\cdot 4 = 71$, so $a = 7$.",
+    "complexity_factor": 1.35,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "linear_system"
+    ],
+    "checksum": "sha256-18441b808cc850085ea1e0ad9d17c6d7d0d0f5e6dbfaf52ebca002114b639c8c",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.hard.0005",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "In 7 years, a father will be 19 years older than his son, and the sum of their ages will be 49. How old is the son now?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$15$"
+      },
+      {
+        "id": "c",
+        "latex": "$27$"
+      },
+      {
+        "id": "d",
+        "latex": "$24$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let their current ages be $f$ and $s$. In 7 years, $f - s = 19$ and $(f + 7) + (s + 7) = 49$. Solving gives $s = 8$.",
+    "complexity_factor": 1.35,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "age"
+    ],
+    "checksum": "sha256-4afaf7e75e69631b6dbbbf793271016c02a43c458960b019235bd4e00ddab575",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.hard.0006",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Chemist A has a $22\\%$ acid solution and chemist B has a $44\\%$ acid solution. How many liters of A must be mixed with the rest from B to make 50 liters of a $33\\%$ solution?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$30$"
+      },
+      {
+        "id": "b",
+        "latex": "$16$"
+      },
+      {
+        "id": "c",
+        "latex": "$28$"
+      },
+      {
+        "id": "d",
+        "latex": "$25$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "25",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $a$ and $b$ be the liters from A and B. Then $a + b = 50$ and $0.22a + 0.44b = 0.33 \\cdot 50$. Solving gives $a = 25$.",
+    "complexity_factor": 1.4,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "mixture"
+    ],
+    "checksum": "sha256-b6edf90f295409cb25f15647210207e2d9f3431fb84625d6da3217e2d281970e",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.hard.0007",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Pipe A can fill a tank in 3 hours and pipe B in 5 hours. How many hours does it take both pipes together to fill the tank?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$19/11$"
+      },
+      {
+        "id": "b",
+        "latex": "$8/5$"
+      },
+      {
+        "id": "c",
+        "latex": "$11/7$"
+      },
+      {
+        "id": "d",
+        "latex": "$15/8$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "15/8",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Combined rate is $1/3 + 1/5 = \\dfrac{8}{15}$ tanks per hour, so time is $\\dfrac{15}{8}$ hours.",
+    "complexity_factor": 1.45,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "work"
+    ],
+    "checksum": "sha256-40db5a8528d86d5ff11159a11f7ecc86e68c29cd0eac71f61080445758f0f75c",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.hard.0008",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "A cyclist rides 129 miles at 35 mph and returns 129 miles at 47 mph. What is the total time of the trip (in hours)?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10585/1647$"
+      },
+      {
+        "id": "b",
+        "latex": "$1323/206$"
+      },
+      {
+        "id": "c",
+        "latex": "$10579/1651$"
+      },
+      {
+        "id": "d",
+        "latex": "$10578/1645$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "10578/1645",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Time there is $129/35$ and back is $129/47$. Total time is $\\dfrac{10578}{1645}$ hours.",
+    "complexity_factor": 1.4,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "distance"
+    ],
+    "checksum": "sha256-91abf9f64703d0fceb2258909d66398e14e20e9b6d64880fcce22830b72fe24e",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.hard.0009",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "A store sells item A for $2$, item B for $6$, and item C for $3$. A customer buys 5 of A, 8 of B, and 2 of C. What is the total cost?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$58$"
+      },
+      {
+        "id": "b",
+        "latex": "$64$"
+      },
+      {
+        "id": "c",
+        "latex": "$26$"
+      },
+      {
+        "id": "d",
+        "latex": "$54$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "64",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Compute $2 \\cdot 5 + 6 \\cdot 8 + 3 \\cdot 2 = 64$ dollars.",
+    "complexity_factor": 1.1,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "purchase"
+    ],
+    "checksum": "sha256-31164580eaa4d017b483b822606ee82f7c4ca3c91bd1297402d2ef3ce76289f7",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.hard.0010",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "In 9 years, a father will be 15 years older than his son, and the sum of their ages will be 71. How old is the son now?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$35$"
+      },
+      {
+        "id": "b",
+        "latex": "$28$"
+      },
+      {
+        "id": "c",
+        "latex": "$19$"
+      },
+      {
+        "id": "d",
+        "latex": "$34$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "19",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let their current ages be $f$ and $s$. In 9 years, $f - s = 15$ and $(f + 9) + (s + 9) = 71$. Solving gives $s = 19$.",
+    "complexity_factor": 1.35,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "age"
+    ],
+    "checksum": "sha256-33f11de93c8f5e17dbc4e355f48240e24555f6063055feb0c51a80a11037889f",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.hard.0011",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Chemist A has a $18\\%$ acid solution and chemist B has a $48\\%$ acid solution. How many liters of A must be mixed with the rest from B to make 30 liters of a $38\\%$ solution?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$11$"
+      },
+      {
+        "id": "c",
+        "latex": "$20$"
+      },
+      {
+        "id": "d",
+        "latex": "$15$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $a$ and $b$ be the liters from A and B. Then $a + b = 30$ and $0.18a + 0.48b = 0.38 \\cdot 30$. Solving gives $a = 10$.",
+    "complexity_factor": 1.4,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "mixture"
+    ],
+    "checksum": "sha256-551e9c609bd7432fcc1183e8355e04965a0a3dccfbe92785335c7c440c99a93f",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.hard.0012",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Pipe A can fill a tank in 4 hours and pipe B in 3 hours. How many hours does it take both pipes together to fill the tank?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12/7$"
+      },
+      {
+        "id": "b",
+        "latex": "$16/9$"
+      },
+      {
+        "id": "c",
+        "latex": "$1/1$"
+      },
+      {
+        "id": "d",
+        "latex": "$4/3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "12/7",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Combined rate is $1/4 + 1/3 = \\dfrac{7}{12}$ tanks per hour, so time is $\\dfrac{12}{7}$ hours.",
+    "complexity_factor": 1.45,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "work"
+    ],
+    "checksum": "sha256-93eec32a632fbc01a31b8569adf41e83c1fc90aac118d243fb710154902f34d4",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.hard.0013",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "A cyclist rides 91 miles at 49 mph and returns 91 miles at 38 mph. What is the total time of the trip (in hours)?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1140/269$"
+      },
+      {
+        "id": "b",
+        "latex": "$1131/266$"
+      },
+      {
+        "id": "c",
+        "latex": "$1133/270$"
+      },
+      {
+        "id": "d",
+        "latex": "$1137/269$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1131/266",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Time there is $91/49$ and back is $91/38$. Total time is $\\dfrac{1131}{266}$ hours.",
+    "complexity_factor": 1.4,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "distance"
+    ],
+    "checksum": "sha256-0222ec8462b6c1d9a691b9ba0ccd037afc36c4791ea1e4ab858e9434d3521566",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.hard.0014",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "A store sells item A for $4$, item B for $4$, and item C for $2$. A customer buys 6 of A, 3 of B, and 4 of C. What is the total cost?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$44$"
+      },
+      {
+        "id": "b",
+        "latex": "$20$"
+      },
+      {
+        "id": "c",
+        "latex": "$36$"
+      },
+      {
+        "id": "d",
+        "latex": "$23$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "44",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Compute $4 \\cdot 6 + 4 \\cdot 3 + 2 \\cdot 4 = 44$ dollars.",
+    "complexity_factor": 1.1,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "purchase"
+    ],
+    "checksum": "sha256-3eea975d224af9e8c52a8d3ec48710944048589cdae94586be116fcaf1ed38a9",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.hard.0015",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "In 9 years, a father will be 10 years older than his son, and the sum of their ages will be 50. How old is the son now?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11$"
+      },
+      {
+        "id": "b",
+        "latex": "$25$"
+      },
+      {
+        "id": "c",
+        "latex": "$21$"
+      },
+      {
+        "id": "d",
+        "latex": "$20$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "11",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let their current ages be $f$ and $s$. In 9 years, $f - s = 10$ and $(f + 9) + (s + 9) = 50$. Solving gives $s = 11$.",
+    "complexity_factor": 1.35,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "age"
+    ],
+    "checksum": "sha256-3ec465b3ee54e3ee81324c56284dd76eb60a69692c0b72e9cce1eb2714d5cd64",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.hard.0016",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Chemist A has a $21\\%$ acid solution and chemist B has a $54\\%$ acid solution. How many liters of A must be mixed with the rest from B to make 33 liters of a $29\\%$ solution?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$25$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "25",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $a$ and $b$ be the liters from A and B. Then $a + b = 33$ and $0.21a + 0.54b = 0.29 \\cdot 33$. Solving gives $a = 25$.",
+    "complexity_factor": 1.4,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "mixture"
+    ],
+    "checksum": "sha256-21860e9859931c328b54bb39fe02be3e4bb25659bd19789de497c7a7f25508af",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.hard.0017",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Pipe A can fill a tank in 3 hours and pipe B in 4 hours. How many hours does it take both pipes together to fill the tank?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$17/9$"
+      },
+      {
+        "id": "b",
+        "latex": "$14/9$"
+      },
+      {
+        "id": "c",
+        "latex": "$12/7$"
+      },
+      {
+        "id": "d",
+        "latex": "$21/10$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "12/7",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Combined rate is $1/3 + 1/4 = \\dfrac{7}{12}$ tanks per hour, so time is $\\dfrac{12}{7}$ hours.",
+    "complexity_factor": 1.45,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "work"
+    ],
+    "checksum": "sha256-dc2a94c25e99b456750a022064b447742996998f11f4715d97b9dcade0e25ca0",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.hard.0018",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "A cyclist rides 82 miles at 47 mph and returns 82 miles at 58 mph. What is the total time of the trip (in hours)?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4305/1363$"
+      },
+      {
+        "id": "b",
+        "latex": "$4314/1369$"
+      },
+      {
+        "id": "c",
+        "latex": "$4309/1368$"
+      },
+      {
+        "id": "d",
+        "latex": "$2157/683$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "4305/1363",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Time there is $82/47$ and back is $82/58$. Total time is $\\dfrac{4305}{1363}$ hours.",
+    "complexity_factor": 1.4,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "distance"
+    ],
+    "checksum": "sha256-5f5226b0804a7c77ffc4ac34f072cb4ef2f4ff3807005c42708d9bebfa1664d6",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.hard.0019",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "A store sells item A for $6$, item B for $2$, and item C for $2$. A customer buys 2 of A, 5 of B, and 2 of C. What is the total cost?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$14$"
+      },
+      {
+        "id": "b",
+        "latex": "$26$"
+      },
+      {
+        "id": "c",
+        "latex": "$19$"
+      },
+      {
+        "id": "d",
+        "latex": "$22$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "26",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Compute $6 \\cdot 2 + 2 \\cdot 5 + 2 \\cdot 2 = 26$ dollars.",
+    "complexity_factor": 1.1,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "purchase"
+    ],
+    "checksum": "sha256-cd9f52bfc933ade7e1dd64b44d698369142014cb43c77e578ea422c20b11241c",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.hard.0020",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "In 3 years, a father will be 14 years older than his son, and the sum of their ages will be 44. How old is the son now?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$26$"
+      },
+      {
+        "id": "b",
+        "latex": "$15$"
+      },
+      {
+        "id": "c",
+        "latex": "$22$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let their current ages be $f$ and $s$. In 3 years, $f - s = 14$ and $(f + 3) + (s + 3) = 44$. Solving gives $s = 12$.",
+    "complexity_factor": 1.35,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "age"
+    ],
+    "checksum": "sha256-4c791952f4df63502d3d47f56ea5937b0e69fc76a914bbd84656c60f4585c141",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.hard.0021",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Chemist A has a $30\\%$ acid solution and chemist B has a $40\\%$ acid solution. How many liters of A must be mixed with the rest from B to make 26 liters of a $35\\%$ solution?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$13$"
+      },
+      {
+        "id": "b",
+        "latex": "$18$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "13",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $a$ and $b$ be the liters from A and B. Then $a + b = 26$ and $0.3a + 0.4b = 0.35 \\cdot 26$. Solving gives $a = 13$.",
+    "complexity_factor": 1.4,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "mixture"
+    ],
+    "checksum": "sha256-c51929962c42ce5e5e53e94247d927ddb37c2489ee66fdb2ffa496ff306ce8cf",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.hard.0022",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Pipe A can fill a tank in 3 hours and pipe B in 3 hours. How many hours does it take both pipes together to fill the tank?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9/4$"
+      },
+      {
+        "id": "b",
+        "latex": "$9/11$"
+      },
+      {
+        "id": "c",
+        "latex": "$8/11$"
+      },
+      {
+        "id": "d",
+        "latex": "$3/2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "3/2",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Combined rate is $1/3 + 1/3 = \\dfrac{2}{3}$ tanks per hour, so time is $\\dfrac{3}{2}$ hours.",
+    "complexity_factor": 1.45,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "work"
+    ],
+    "checksum": "sha256-a7479a315d61b92550721c83d2b7675b3ecdd6225cd82c19d7d93ac878a088ba",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.hard.0023",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "A cyclist rides 63 miles at 57 mph and returns 63 miles at 49 mph. What is the total time of the trip (in hours)?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$327/137$"
+      },
+      {
+        "id": "b",
+        "latex": "$107/46$"
+      },
+      {
+        "id": "c",
+        "latex": "$318/133$"
+      },
+      {
+        "id": "d",
+        "latex": "$321/142$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "318/133",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Time there is $63/57$ and back is $63/49$. Total time is $\\dfrac{318}{133}$ hours.",
+    "complexity_factor": 1.4,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "distance"
+    ],
+    "checksum": "sha256-e8259ff8c2b7b8f07817670d875e4dfa195edfc1d786c0f2f69ff6ebd9585185",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.hard.0024",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "A store sells item A for $4$, item B for $3$, and item C for $2$. A customer buys 7 of A, 2 of B, and 7 of C. What is the total cost?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$20$"
+      },
+      {
+        "id": "b",
+        "latex": "$48$"
+      },
+      {
+        "id": "c",
+        "latex": "$34$"
+      },
+      {
+        "id": "d",
+        "latex": "$25$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "48",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Compute $4 \\cdot 7 + 3 \\cdot 2 + 2 \\cdot 7 = 48$ dollars.",
+    "complexity_factor": 1.1,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "purchase"
+    ],
+    "checksum": "sha256-19c9932f3231c7f49c5f13d4ea45236a56ab405859b1404ed09e53f1d99bbea0",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.hard.0025",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "In 2 years, a father will be 15 years older than his son, and the sum of their ages will be 77. How old is the son now?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$31$"
+      },
+      {
+        "id": "b",
+        "latex": "$29$"
+      },
+      {
+        "id": "c",
+        "latex": "$38$"
+      },
+      {
+        "id": "d",
+        "latex": "$44$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "29",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let their current ages be $f$ and $s$. In 2 years, $f - s = 15$ and $(f + 2) + (s + 2) = 77$. Solving gives $s = 29$.",
+    "complexity_factor": 1.35,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "age"
+    ],
+    "checksum": "sha256-c8f0367ac86e047a48eb37c836b895a72838635bb8a3270ed2d63c25eceb5626",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.hard.0026",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Chemist A has a $14\\%$ acid solution and chemist B has a $41\\%$ acid solution. How many liters of A must be mixed with the rest from B to make 45 liters of a $23\\%$ solution?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$30$"
+      },
+      {
+        "id": "c",
+        "latex": "$15$"
+      },
+      {
+        "id": "d",
+        "latex": "$22$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "30",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $a$ and $b$ be the liters from A and B. Then $a + b = 45$ and $0.14a + 0.41b = 0.23 \\cdot 45$. Solving gives $a = 30$.",
+    "complexity_factor": 1.4,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "mixture"
+    ],
+    "checksum": "sha256-f729d823c2f3f260c49cd8e16eb99d881ecfad0a78261bfaa6d16e1489be6bd2",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.hard.0027",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "A small fair sold adult tickets for $8$ dollars and child tickets for $5$ dollars. It sold 10 child tickets and collected $74$ dollars total. How many adult tickets were sold?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $a$ be the number of adult tickets. Then $8a + 5\\cdot 10 = 74$, so $a = 3$.",
+    "complexity_factor": 1.35,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "linear_system"
+    ],
+    "checksum": "sha256-89b9a251bb4400bd22739017f483db33db116cb395a3f9ebb4f7f95fe3afb717",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.hard.0028",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "A cyclist rides 92 miles at 59 mph and returns 92 miles at 60 mph. What is the total time of the trip (in hours)?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2739/887$"
+      },
+      {
+        "id": "b",
+        "latex": "$2740/891$"
+      },
+      {
+        "id": "c",
+        "latex": "$2739/893$"
+      },
+      {
+        "id": "d",
+        "latex": "$2737/885$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2737/885",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Time there is $92/59$ and back is $92/60$. Total time is $\\dfrac{2737}{885}$ hours.",
+    "complexity_factor": 1.4,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "distance"
+    ],
+    "checksum": "sha256-0d0962705515089a1e8984aff7f97ff52f4588d4b28775c7ea33c0bc1b663a32",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.hard.0029",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "A store sells item A for $5$, item B for $2$, and item C for $2$. A customer buys 5 of A, 4 of B, and 5 of C. What is the total cost?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$33$"
+      },
+      {
+        "id": "b",
+        "latex": "$43$"
+      },
+      {
+        "id": "c",
+        "latex": "$23$"
+      },
+      {
+        "id": "d",
+        "latex": "$18$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "43",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Compute $5 \\cdot 5 + 2 \\cdot 4 + 2 \\cdot 5 = 43$ dollars.",
+    "complexity_factor": 1.1,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "purchase"
+    ],
+    "checksum": "sha256-39d2477bf6d947ad815e679c022b145e4b7ea61a20e5dd2b5dad13d09e9662ab",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.hard.0030",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "In 4 years, a father will be 20 years older than his son, and the sum of their ages will be 40. How old is the son now?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$20$"
+      },
+      {
+        "id": "d",
+        "latex": "$26$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let their current ages be $f$ and $s$. In 4 years, $f - s = 20$ and $(f + 4) + (s + 4) = 40$. Solving gives $s = 6$.",
+    "complexity_factor": 1.35,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "age"
+    ],
+    "checksum": "sha256-d859252f7c429835ca5c86362a447d6e824263682da911ee7e7dfce249098ec6",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.hard.0031",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Chemist A has a $22\\%$ acid solution and chemist B has a $58\\%$ acid solution. How many liters of A must be mixed with the rest from B to make 36 liters of a $42\\%$ solution?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$18$"
+      },
+      {
+        "id": "b",
+        "latex": "$15$"
+      },
+      {
+        "id": "c",
+        "latex": "$16$"
+      },
+      {
+        "id": "d",
+        "latex": "$20$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "16",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $a$ and $b$ be the liters from A and B. Then $a + b = 36$ and $0.22a + 0.58b = 0.42 \\cdot 36$. Solving gives $a = 16$.",
+    "complexity_factor": 1.4,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "mixture"
+    ],
+    "checksum": "sha256-42ddc000ab3d1d650056ae9fa469a5100a2522e579be522f03db150d01a1111a",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.hard.0032",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Pipe A can fill a tank in 3 hours and pipe B in 6 hours. How many hours does it take both pipes together to fill the tank?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2/1$"
+      },
+      {
+        "id": "b",
+        "latex": "$9/4$"
+      },
+      {
+        "id": "c",
+        "latex": "$5/7$"
+      },
+      {
+        "id": "d",
+        "latex": "$1/2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2/1",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Combined rate is $1/3 + 1/6 = \\dfrac{1}{2}$ tanks per hour, so time is $\\dfrac{2}{1}$ hours.",
+    "complexity_factor": 1.45,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "work"
+    ],
+    "checksum": "sha256-5aecbea29be866116dbbb4a3bcaad7546190354473ad7b04c45d7c4998c4b39e",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.hard.0033",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "A cyclist rides 127 miles at 56 mph and returns 127 miles at 49 mph. What is the total time of the trip (in hours)?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1908/397$"
+      },
+      {
+        "id": "b",
+        "latex": "$1907/399$"
+      },
+      {
+        "id": "c",
+        "latex": "$1905/392$"
+      },
+      {
+        "id": "d",
+        "latex": "$478/99$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "1905/392",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Time there is $127/56$ and back is $127/49$. Total time is $\\dfrac{1905}{392}$ hours.",
+    "complexity_factor": 1.4,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "distance"
+    ],
+    "checksum": "sha256-4d41a4bfedd8725e9ebba2ce18eaf3ddda8f638764b1614b33c36c5d1164f266",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.hard.0034",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "A store sells item A for $2$, item B for $6$, and item C for $3$. A customer buys 6 of A, 2 of B, and 7 of C. What is the total cost?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$24$"
+      },
+      {
+        "id": "b",
+        "latex": "$26$"
+      },
+      {
+        "id": "c",
+        "latex": "$45$"
+      },
+      {
+        "id": "d",
+        "latex": "$33$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "45",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Compute $2 \\cdot 6 + 6 \\cdot 2 + 3 \\cdot 7 = 45$ dollars.",
+    "complexity_factor": 1.1,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "purchase"
+    ],
+    "checksum": "sha256-fe8c3e4f4384c48e71bbb4b3f1ed64585614d1dc44d4b2843c133e8f13ed25e3",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.hard.0035",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "In 9 years, a father will be 20 years older than his son, and the sum of their ages will be 40. How old is the son now?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$20$"
+      },
+      {
+        "id": "c",
+        "latex": "$21$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let their current ages be $f$ and $s$. In 9 years, $f - s = 20$ and $(f + 9) + (s + 9) = 40$. Solving gives $s = 1$.",
+    "complexity_factor": 1.35,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "age"
+    ],
+    "checksum": "sha256-19a519852f1a2f6963ccd4200dcc9a74f7ab0780de2dc6fcebfa532a502b219b",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.hard.0036",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Chemist A has a $24\\%$ acid solution and chemist B has a $46\\%$ acid solution. How many liters of A must be mixed with the rest from B to make 44 liters of a $30\\%$ solution?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$22$"
+      },
+      {
+        "id": "b",
+        "latex": "$13$"
+      },
+      {
+        "id": "c",
+        "latex": "$32$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "32",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $a$ and $b$ be the liters from A and B. Then $a + b = 44$ and $0.24a + 0.46b = 0.3 \\cdot 44$. Solving gives $a = 32$.",
+    "complexity_factor": 1.4,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "mixture"
+    ],
+    "checksum": "sha256-123d47babb8ee78d2486cc7676cdb9ff3745729e86dd60dc9496cb0cbf7c7bfa",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.hard.0037",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Pipe A can fill a tank in 5 hours and pipe B in 5 hours. How many hours does it take both pipes together to fill the tank?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3/2$"
+      },
+      {
+        "id": "b",
+        "latex": "$13/8$"
+      },
+      {
+        "id": "c",
+        "latex": "$11/10$"
+      },
+      {
+        "id": "d",
+        "latex": "$5/2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "5/2",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Combined rate is $1/5 + 1/5 = \\dfrac{2}{5}$ tanks per hour, so time is $\\dfrac{5}{2}$ hours.",
+    "complexity_factor": 1.45,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "work"
+    ],
+    "checksum": "sha256-fd56fb6be677003eba4739c748d0a79250e4b727d596aa883bedf64238ce12fb",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.hard.0038",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "A cyclist rides 96 miles at 34 mph and returns 96 miles at 49 mph. What is the total time of the trip (in hours)?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1995/419$"
+      },
+      {
+        "id": "b",
+        "latex": "$798/167$"
+      },
+      {
+        "id": "c",
+        "latex": "$3993/835$"
+      },
+      {
+        "id": "d",
+        "latex": "$3984/833$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "3984/833",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Time there is $96/34$ and back is $96/49$. Total time is $\\dfrac{3984}{833}$ hours.",
+    "complexity_factor": 1.4,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "distance"
+    ],
+    "checksum": "sha256-f43fd18917985bad514c3f61448f137200f0738755129f124facc2498aab01cc",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.hard.0039",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "A store sells item A for $3$, item B for $5$, and item C for $3$. A customer buys 2 of A, 5 of B, and 4 of C. What is the total cost?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$31$"
+      },
+      {
+        "id": "b",
+        "latex": "$43$"
+      },
+      {
+        "id": "c",
+        "latex": "$22$"
+      },
+      {
+        "id": "d",
+        "latex": "$37$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "43",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Compute $3 \\cdot 2 + 5 \\cdot 5 + 3 \\cdot 4 = 43$ dollars.",
+    "complexity_factor": 1.1,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "purchase"
+    ],
+    "checksum": "sha256-a330b5a380736ca7605acc1a70b12695878cc6986b7fef76ca591ea6ac5f2fb9",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.hard.0040",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "In 5 years, a father will be 16 years older than his son, and the sum of their ages will be 46. How old is the son now?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$26$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$15$"
+      },
+      {
+        "id": "d",
+        "latex": "$23$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let their current ages be $f$ and $s$. In 5 years, $f - s = 16$ and $(f + 5) + (s + 5) = 46$. Solving gives $s = 10$.",
+    "complexity_factor": 1.35,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "age"
+    ],
+    "checksum": "sha256-1a1af6a9118224496f5c17b60e69f0b05d4b1d2d3a5aa3897fde6f07f5d5b253",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.hard.0041",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Chemist A has a $15\\%$ acid solution and chemist B has a $51\\%$ acid solution. How many liters of A must be mixed with the rest from B to make 36 liters of a $37\\%$ solution?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$14$"
+      },
+      {
+        "id": "b",
+        "latex": "$13$"
+      },
+      {
+        "id": "c",
+        "latex": "$22$"
+      },
+      {
+        "id": "d",
+        "latex": "$18$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "14",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $a$ and $b$ be the liters from A and B. Then $a + b = 36$ and $0.15a + 0.51b = 0.37 \\cdot 36$. Solving gives $a = 14$.",
+    "complexity_factor": 1.4,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "mixture"
+    ],
+    "checksum": "sha256-dc08e47b35f074dccecb660e13988d8f90f6d101edab5766acd2a4c4833fe2c5",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.hard.0042",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Pipe A can fill a tank in 4 hours and pipe B in 4 hours. How many hours does it take both pipes together to fill the tank?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9/10$"
+      },
+      {
+        "id": "b",
+        "latex": "$3/4$"
+      },
+      {
+        "id": "c",
+        "latex": "$2/1$"
+      },
+      {
+        "id": "d",
+        "latex": "$11/3$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "2/1",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Combined rate is $1/4 + 1/4 = \\dfrac{1}{2}$ tanks per hour, so time is $\\dfrac{2}{1}$ hours.",
+    "complexity_factor": 1.45,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "work"
+    ],
+    "checksum": "sha256-847ac0ce1c7d3df6fa11b4187b8cbc6bde6712f4c4babfd476c24a41a9a57509",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.hard.0043",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "A cyclist rides 85 miles at 34 mph and returns 85 miles at 59 mph. What is the total time of the trip (in hours)?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$465/118$"
+      },
+      {
+        "id": "b",
+        "latex": "$59/15$"
+      },
+      {
+        "id": "c",
+        "latex": "$466/123$"
+      },
+      {
+        "id": "d",
+        "latex": "$467/121$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "465/118",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Time there is $85/34$ and back is $85/59$. Total time is $\\dfrac{465}{118}$ hours.",
+    "complexity_factor": 1.4,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "distance"
+    ],
+    "checksum": "sha256-6843ddd70f93c25fbe731cf825b55c0b8828400373c0cb74163124c4c1686e25",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.hard.0044",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "A store sells item A for $6$, item B for $6$, and item C for $4$. A customer buys 4 of A, 8 of B, and 3 of C. What is the total cost?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$72$"
+      },
+      {
+        "id": "b",
+        "latex": "$84$"
+      },
+      {
+        "id": "c",
+        "latex": "$60$"
+      },
+      {
+        "id": "d",
+        "latex": "$31$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "84",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Compute $6 \\cdot 4 + 6 \\cdot 8 + 4 \\cdot 3 = 84$ dollars.",
+    "complexity_factor": 1.1,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "purchase"
+    ],
+    "checksum": "sha256-d2e15a9d0ca45e9f5719937dff0536e1e528149401ed780169095ffdef9dca08",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.hard.0045",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "In 10 years, a father will be 11 years older than his son, and the sum of their ages will be 51. How old is the son now?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$21$"
+      },
+      {
+        "id": "b",
+        "latex": "$20$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$25$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let their current ages be $f$ and $s$. In 10 years, $f - s = 11$ and $(f + 10) + (s + 10) = 51$. Solving gives $s = 10$.",
+    "complexity_factor": 1.35,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "age"
+    ],
+    "checksum": "sha256-705899d7365d30110ee6524f876e0f9296981928ad760f16a02a7dc4c68aea71",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.hard.0046",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Chemist A has a $23\\%$ acid solution and chemist B has a $47\\%$ acid solution. How many liters of A must be mixed with the rest from B to make 42 liters of a $31\\%$ solution?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$28$"
+      },
+      {
+        "id": "b",
+        "latex": "$14$"
+      },
+      {
+        "id": "c",
+        "latex": "$13$"
+      },
+      {
+        "id": "d",
+        "latex": "$21$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "28",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let $a$ and $b$ be the liters from A and B. Then $a + b = 42$ and $0.23a + 0.47b = 0.31 \\cdot 42$. Solving gives $a = 28$.",
+    "complexity_factor": 1.4,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "mixture"
+    ],
+    "checksum": "sha256-a699322cf49890e09073a1166c7aa73bc546db005f8a983ec0f155a893ea36a6",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.hard.0047",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Pipe A can fill a tank in 2 hours and pipe B in 5 hours. How many hours does it take both pipes together to fill the tank?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$19/16$"
+      },
+      {
+        "id": "b",
+        "latex": "$5/3$"
+      },
+      {
+        "id": "c",
+        "latex": "$10/7$"
+      },
+      {
+        "id": "d",
+        "latex": "$14/15$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "10/7",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Combined rate is $1/2 + 1/5 = \\dfrac{7}{10}$ tanks per hour, so time is $\\dfrac{10}{7}$ hours.",
+    "complexity_factor": 1.45,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "work"
+    ],
+    "checksum": "sha256-733c7daf3001da466ae64387946cbb5f237ff90883c346af99b1d26703577d1f",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.hard.0048",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "A cyclist rides 98 miles at 30 mph and returns 98 miles at 34 mph. What is the total time of the trip (in hours)?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1571/257$"
+      },
+      {
+        "id": "b",
+        "latex": "$1573/262$"
+      },
+      {
+        "id": "c",
+        "latex": "$1568/255$"
+      },
+      {
+        "id": "d",
+        "latex": "$523/87$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "1568/255",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Time there is $98/30$ and back is $98/34$. Total time is $\\dfrac{1568}{255}$ hours.",
+    "complexity_factor": 1.4,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "distance"
+    ],
+    "checksum": "sha256-107561690a7b0a71acb86bdc439849495737ac415c3da71453d4ea50ddc40c9d",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.hard.0049",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "A store sells item A for $2$, item B for $2$, and item C for $6$. A customer buys 5 of A, 3 of B, and 7 of C. What is the total cost?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$58$"
+      },
+      {
+        "id": "c",
+        "latex": "$48$"
+      },
+      {
+        "id": "d",
+        "latex": "$25$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "58",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Compute $2 \\cdot 5 + 2 \\cdot 3 + 6 \\cdot 7 = 58$ dollars.",
+    "complexity_factor": 1.1,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "purchase"
+    ],
+    "checksum": "sha256-1f8b983abfc8d90af376cafaa4d017711ac8d446a4873f3ab9de99e3a521d0f6",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.word_problems.hard.0050",
+    "topic_id": "ch5.word_problems",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "In 2 years, a father will be 12 years older than his son, and the sum of their ages will be 42. How old is the son now?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$25$"
+      },
+      {
+        "id": "b",
+        "latex": "$15$"
+      },
+      {
+        "id": "c",
+        "latex": "$21$"
+      },
+      {
+        "id": "d",
+        "latex": "$13$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "13",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Let their current ages be $f$ and $s$. In 2 years, $f - s = 12$ and $(f + 2) + (s + 2) = 42$. Solving gives $s = 13$.",
+    "complexity_factor": 1.35,
+    "source_section": "5.4",
+    "tags": [
+      "word_problem",
+      "age"
+    ],
+    "checksum": "sha256-04381a45e0d610317abd0a9615ac9237ceac66b26142b9298dc72e861430a915",
+    "status": "valid"
+  }
+]

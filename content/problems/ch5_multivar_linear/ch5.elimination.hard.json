@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "ch5.elimination.hard.0001",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 4x + 6y = -30 \\\\ 4x - 4y = 20 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0,5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,-5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1,-6)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0,-4)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(0,-5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Eliminate $y$ by multiplying the first equation by 4 and the second by 6, then solve for $x$ and back-substitute.",
+    "complexity_factor": 1.3,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-c2190a2968271fae98ff0dd48013468f27ffcf4898ca6e63a8f16ee4f55a4e00",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.hard.0002",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 7x + 5y = -14 \\\\ 7x - 4y = -14 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,-1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-2,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2,-1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,2)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-2,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Eliminate $y$ by multiplying the first equation by 4 and the second by 5, then solve for $x$ and back-substitute.",
+    "complexity_factor": 1.3,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-54a709995d11689604a0405fd6edeb75b4ecc8da459d9a31c13b6ca5a9be1e70",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.hard.0003",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "How many solutions does $\\begin{cases} 3x + 3y = 21 \\\\ 9x + 9y = 63 \\end{cases}$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$infinitely many$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "infinitely many",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The second equation is a multiple of the first, so the lines coincide.",
+    "complexity_factor": 1.35,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "special"
+    ],
+    "checksum": "sha256-e7dfb010c4bec4ad9927dc248419c65cfd45481d661b0f02e5464967cf2261df",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.hard.0004",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 4y = 20 \\\\ 1x + 3z = -5 \\\\ y - z = 5 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4,3,-3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4,2,-2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4,2,-3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(5,2,-3)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(4,2,-3)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From $y - z = 5$, express $y$ in terms of $z$, then use the other two equations to find $x = 4$ and $z = -3$.",
+    "complexity_factor": 1.45,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "three_variables"
+    ],
+    "checksum": "sha256-e3fd738dbaced103bf0d5c61c7772983f38d24d520b8c69678e591747311668e",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.hard.0005",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 5x + 2y = -4 \\\\ 6x - 3y = -21 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2,-3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-2,3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0,3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,1)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-2,3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Eliminate $y$ by multiplying the first equation by 3 and the second by 2, then solve for $x$ and back-substitute.",
+    "complexity_factor": 1.3,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-e04125a8406f2134eeef228076b08d8980e344888ebc6cbc22e189a010fccd21",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.hard.0006",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 7x + 2y = -17 \\\\ 4x - 3y = -18 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2,-1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3,-2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2,3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-3,2)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-3,2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Eliminate $y$ by multiplying the first equation by 3 and the second by 2, then solve for $x$ and back-substitute.",
+    "complexity_factor": 1.3,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-4fb77d4a931d28e98877d6cd52fb6acf9bc8935aa73d0433d93d8e9d52e9d6e8",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.hard.0007",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "How many solutions does $\\begin{cases} 4x + 5y = 28 \\\\ 16x + 20y = 115 \\end{cases}$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$infinitely many$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "0",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The equations have the same left-hand-side ratio but different right-hand sides, so they are parallel.",
+    "complexity_factor": 1.35,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "special"
+    ],
+    "checksum": "sha256-6bedd60267c01049dd7f8cc60bb138d282fc65597802f91ff9dbc62735600ecb",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.hard.0008",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 1x + 1y = 1 \\\\ 3x + 4z = 7 \\\\ y - z = 0 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-3,4,4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-2,4,4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-3,4,5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-3,5,4)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-3,4,4)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From $y - z = 0$, express $y$ in terms of $z$, then use the other two equations to find $x = -3$ and $z = 4$.",
+    "complexity_factor": 1.45,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "three_variables"
+    ],
+    "checksum": "sha256-c1cfb8df6f87f43dffaf6598b85a3b283205b156ba3a17b985c039078c816992",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.hard.0009",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 7x + 3y = -26 \\\\ 3x - 3y = 6 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,-6)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-2,4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2,-4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-4,-4)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-2,-4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Eliminate $y$ by multiplying the first equation by 3 and the second by 3, then solve for $x$ and back-substitute.",
+    "complexity_factor": 1.3,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-875f20b842fda7c2359a8899e37ad3ae71bb59f828df540ff1dca3f046f6349e",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.hard.0010",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 4x + 7y = -13 \\\\ 5x - 2y = -27 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-5,1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-5,2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-4,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-5,-1)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-5,1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Eliminate $y$ by multiplying the first equation by 2 and the second by 7, then solve for $x$ and back-substitute.",
+    "complexity_factor": 1.3,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-5c9dd5f854c7f8354ee6877081f298f003733a1fe0d8b5d4fed171e8285ccd07",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.hard.0011",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "How many solutions does $\\begin{cases} 4x + 2y = 22 \\\\ 16x + 8y = 88 \\end{cases}$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$infinitely many$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "infinitely many",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The second equation is a multiple of the first, so the lines coincide.",
+    "complexity_factor": 1.35,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "special"
+    ],
+    "checksum": "sha256-a5f67a18e44cf29aaace849827c5898ad90bea6e63e42fcc8f401c354f99ab84",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.hard.0012",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 2x + 2y = 4 \\\\ 3x + 3z = -3 \\\\ y - z = 3 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2,4,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1,4,1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2,5,1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2,4,1)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-2,4,1)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From $y - z = 3$, express $y$ in terms of $z$, then use the other two equations to find $x = -2$ and $z = 1$.",
+    "complexity_factor": 1.45,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "three_variables"
+    ],
+    "checksum": "sha256-120005a760b37b51d18e7bf02082befc8d882876b4a3d7a8e540deb9c3e2b074",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.hard.0013",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 7x + 7y = -21 \\\\ 6x - 3y = 18 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1,-4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2,-5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,-3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1,4)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(1,-4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Eliminate $y$ by multiplying the first equation by 3 and the second by 7, then solve for $x$ and back-substitute.",
+    "complexity_factor": 1.3,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-dfc3546ad18af45b9a135e40194cea2e2c3d086997c597abb9d9bacac5135b7f",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.hard.0014",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 3y = -6 \\\\ 5x - 4y = -37 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-4,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-5,-3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-4,4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-5,3)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-5,3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Eliminate $y$ by multiplying the first equation by 4 and the second by 3, then solve for $x$ and back-substitute.",
+    "complexity_factor": 1.3,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-0d5b437d63a389c8c8f340eaf09ec4bb9e15d26f6c034b39fa42ddf3b075ac6e",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.hard.0015",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "How many solutions does $\\begin{cases} 4x + 2y = 22 \\\\ 16x + 8y = 91 \\end{cases}$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$infinitely many$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The equations have the same left-hand-side ratio but different right-hand sides, so they are parallel.",
+    "complexity_factor": 1.35,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "special"
+    ],
+    "checksum": "sha256-9d7f7a15391a688d5b0f3331c6208f2608bcdb2def03bf2b967419d9d5aed987",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.hard.0016",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 2y = -11 \\\\ 4x + 3z = 8 \\\\ y - z = -8 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0,-4,4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1,-4,4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,-4,5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,-3,4)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-1,-4,4)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From $y - z = -8$, express $y$ in terms of $z$, then use the other two equations to find $x = -1$ and $z = 4$.",
+    "complexity_factor": 1.45,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "three_variables"
+    ],
+    "checksum": "sha256-75712bc570081cfbc5d46f71445f8ed3bd63f4069ed92a8e751c4b27a062df0a",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.hard.0017",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 7y = 10 \\\\ 5x - 5y = 0 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1,1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1,-1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2,1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1,2)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(1,1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Eliminate $y$ by multiplying the first equation by 5 and the second by 7, then solve for $x$ and back-substitute.",
+    "complexity_factor": 1.3,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-2c8dda625d5a4f75cd9ae66b08a8ffb72ecfef329e51ff46d90d26dde48b6a39",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.hard.0018",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 7x + 3y = -1 \\\\ 6x - 4y = 32 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2,-5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3,-7)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2,-3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,5)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(2,-5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Eliminate $y$ by multiplying the first equation by 4 and the second by 3, then solve for $x$ and back-substitute.",
+    "complexity_factor": 1.3,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-0c0e8bd561de5eb6710d68a3b48063ef90b63e1832105abbcdb0a606d13b4c8d",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.hard.0019",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "How many solutions does $\\begin{cases} 3x + 4y = 24 \\\\ 6x + 8y = 48 \\end{cases}$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$infinitely many$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "infinitely many",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The second equation is a multiple of the first, so the lines coincide.",
+    "complexity_factor": 1.35,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "special"
+    ],
+    "checksum": "sha256-3396123c825470998db89879eb50ebfdad22a8b3ba55554843e4663ebd1bf278",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.hard.0020",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 2y = 3 \\\\ 2x + 1z = 3 \\\\ y - z = 0 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3,-3,-2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4,-3,-3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3,-3,-3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3,-2,-3)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(3,-3,-3)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From $y - z = 0$, express $y$ in terms of $z$, then use the other two equations to find $x = 3$ and $z = -3$.",
+    "complexity_factor": 1.45,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "three_variables"
+    ],
+    "checksum": "sha256-457115312703c90f96fdfe79f0a734aa12b65696b3bec8925c51f12e2a12cc89",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.hard.0021",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 6x + 7y = -2 \\\\ 7x - 2y = 18 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0,-1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3,-3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,-2)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(2,-2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Eliminate $y$ by multiplying the first equation by 2 and the second by 7, then solve for $x$ and back-substitute.",
+    "complexity_factor": 1.3,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-79b74cf435d38eecb5f924c8b06593ef07baa96ff2edca172da417d6e7a0a193",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.hard.0022",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 5y = -16 \\\\ 7x - 7y = 56 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3,5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4,-6)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3,-5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4,-7)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(3,-5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Eliminate $y$ by multiplying the first equation by 7 and the second by 5, then solve for $x$ and back-substitute.",
+    "complexity_factor": 1.3,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-17c358ece56316ab044719020874e31da4159f64134b647e356d2dbea8a6f3c9",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.hard.0023",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "How many solutions does $\\begin{cases} 4x + 3y = 31 \\\\ 16x + 12y = 126 \\end{cases}$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$infinitely many$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "0",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The equations have the same left-hand-side ratio but different right-hand sides, so they are parallel.",
+    "complexity_factor": 1.35,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "special"
+    ],
+    "checksum": "sha256-4930e7aae9a7f0fd8fe23fc58685b14b86a9f1037eb7d8362f39084d13e0c3be",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.hard.0024",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 1x + 3y = -9 \\\\ 2x + 3z = 0 \\\\ y - z = -2 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4,-4,-2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3,-4,-2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3,-3,-2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3,-4,-1)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(3,-4,-2)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From $y - z = -2$, express $y$ in terms of $z$, then use the other two equations to find $x = 3$ and $z = -2$.",
+    "complexity_factor": 1.45,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "three_variables"
+    ],
+    "checksum": "sha256-a84323b22085c5566e78b0bf680800c6285a43d12dd870474107b804cf750c3b",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.hard.0025",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 7x + 7y = 56 \\\\ 6x - 6y = -12 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3,5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(5,5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3,-5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4,4)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(3,5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Eliminate $y$ by multiplying the first equation by 6 and the second by 7, then solve for $x$ and back-substitute.",
+    "complexity_factor": 1.3,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-805312145367ca2b286cbf9ecb50127cbe0a6b2e3338ddf776779c1791fd88b2",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.hard.0026",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 4x + 7y = 9 \\\\ 5x - 5y = -30 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-3,3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-2,2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-5,3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-3,-3)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-3,3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Eliminate $y$ by multiplying the first equation by 5 and the second by 7, then solve for $x$ and back-substitute.",
+    "complexity_factor": 1.3,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-c37f9f9fcf35d029e3d7afd38c6c29d26408d94e7b23f84dffe56a52f43bd4bc",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.hard.0027",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "How many solutions does $\\begin{cases} 4x + 3y = 18 \\\\ 12x + 9y = 54 \\end{cases}$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$infinitely many$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "infinitely many",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The second equation is a multiple of the first, so the lines coincide.",
+    "complexity_factor": 1.35,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "special"
+    ],
+    "checksum": "sha256-04a924cf218e4ed7742dd07f062b393f8c9395cede4176f3f7c705c18bed4d01",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.hard.0028",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 2y = -10 \\\\ 1x + 3z = -7 \\\\ y - z = 2 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-4,1,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-4,1,-1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-3,1,-1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-4,2,-1)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-4,1,-1)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From $y - z = 2$, express $y$ in terms of $z$, then use the other two equations to find $x = -4$ and $z = -1$.",
+    "complexity_factor": 1.45,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "three_variables"
+    ],
+    "checksum": "sha256-005d2bafa380e8be7df37d198d87a103a0e4791ff9daf7b71ba9927af48dd5d2",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.hard.0029",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 3y = 0 \\\\ 3x - 7y = 20 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3,-3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2,-2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,2)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(2,-2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Eliminate $y$ by multiplying the first equation by 7 and the second by 3, then solve for $x$ and back-substitute.",
+    "complexity_factor": 1.3,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-bbe7c24c25362c528de6613e1135c80ab355377005497104a31e66b3563a3fa1",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.hard.0030",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 2y = 4 \\\\ 7x - 6y = -44 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2,5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3,6)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2,-5)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-2,5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Eliminate $y$ by multiplying the first equation by 6 and the second by 2, then solve for $x$ and back-substitute.",
+    "complexity_factor": 1.3,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-f1d4580f5c2d20049dc1e78dc7613cfe174db595168f9eb9b02076923fad8688",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.hard.0031",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "How many solutions does $\\begin{cases} 2x + 4y = 16 \\\\ 8x + 16y = 64 \\end{cases}$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$infinitely many$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "infinitely many",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The second equation is a multiple of the first, so the lines coincide.",
+    "complexity_factor": 1.35,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "special"
+    ],
+    "checksum": "sha256-7129336b726f7b4f3aeda43d2ac122ec887a867b8ec26acf64fae422830cf242",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.hard.0032",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 4x + 3y = -16 \\\\ 2x + 2z = -4 \\\\ y - z = -2 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-4,0,3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-4,1,2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-3,0,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-4,0,2)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-4,0,2)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From $y - z = -2$, express $y$ in terms of $z$, then use the other two equations to find $x = -4$ and $z = 2$.",
+    "complexity_factor": 1.45,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "three_variables"
+    ],
+    "checksum": "sha256-a30615bca21e7c7bd9cd820852bba77a17ee6791949113a29c72d7a70cb4b8f7",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.hard.0033",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 4y = -17 \\\\ 4x - 2y = -8 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2,-3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3,-2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-3,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2,-4)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-3,-2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Eliminate $y$ by multiplying the first equation by 2 and the second by 4, then solve for $x$ and back-substitute.",
+    "complexity_factor": 1.3,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-92dc4fd3882075a0945409d192d7347664023cee7a6184286c264b409be211f8",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.hard.0034",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 6y = -9 \\\\ 4x - 4y = 36 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(5,4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(6,-4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(5,-4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(6,-2)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(5,-4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Eliminate $y$ by multiplying the first equation by 4 and the second by 6, then solve for $x$ and back-substitute.",
+    "complexity_factor": 1.3,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-244fbb1184265627b30b914a5d39753224a0c6a970d8c37b5ebea9df636fe159",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.hard.0035",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "How many solutions does $\\begin{cases} 2x + 3y = 10 \\\\ 8x + 12y = 40 \\end{cases}$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$infinitely many$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "infinitely many",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The second equation is a multiple of the first, so the lines coincide.",
+    "complexity_factor": 1.35,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "special"
+    ],
+    "checksum": "sha256-fa11df22e7c666440ad0f917fb0e91f2601550dee082e18e81bb0b8c6c4b6957",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.hard.0036",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 4x + 4y = 16 \\\\ 3x + 2z = 2 \\\\ y - z = 3 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0,4,1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1,4,1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0,4,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0,5,1)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(0,4,1)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From $y - z = 3$, express $y$ in terms of $z$, then use the other two equations to find $x = 0$ and $z = 1$.",
+    "complexity_factor": 1.45,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "three_variables"
+    ],
+    "checksum": "sha256-57491bddc10cb5a4742ccf2debee6bf86d6ff38e39cb715a66660944d23414b8",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.hard.0037",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 5x + 4y = 2 \\\\ 3x - 2y = -12 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2,3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1,2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2,-3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-3,4)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-2,3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Eliminate $y$ by multiplying the first equation by 2 and the second by 4, then solve for $x$ and back-substitute.",
+    "complexity_factor": 1.3,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-cc515053fcbf8c322f72811217bba62f685d7f238fc1a53b31c294eed1cf7323",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.hard.0038",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 4x + 2y = 10 \\\\ 5x - 3y = -15 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1,3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,-5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0,5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,6)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(0,5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Eliminate $y$ by multiplying the first equation by 3 and the second by 2, then solve for $x$ and back-substitute.",
+    "complexity_factor": 1.3,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-9de94c199b43ab7eba1a38fe393b141707ec1c21719d858ec5e9f9dc56916684",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.hard.0039",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "How many solutions does $\\begin{cases} 5x + 5y = 40 \\\\ 15x + 15y = 122 \\end{cases}$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$infinitely many$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "0",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The equations have the same left-hand-side ratio but different right-hand sides, so they are parallel.",
+    "complexity_factor": 1.35,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "special"
+    ],
+    "checksum": "sha256-4229b1794f48fa1cc872be30debb9349bf01ad966083004a0c7e792101ddc8db",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.hard.0040",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 4x + 3y = 7 \\\\ 3x + 1z = 0 \\\\ y - z = 4 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1,1,-2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1,2,-3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2,1,-3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1,1,-3)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(1,1,-3)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From $y - z = 4$, express $y$ in terms of $z$, then use the other two equations to find $x = 1$ and $z = -3$.",
+    "complexity_factor": 1.45,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "three_variables"
+    ],
+    "checksum": "sha256-ae824b86e352c353e84e3629dce8239d85129ee0d002c65ed52cafbcb3f23995",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.hard.0041",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 6x + 6y = -18 \\\\ 5x - 5y = -5 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2,1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1,-1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,-2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2,-1)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-2,-1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Eliminate $y$ by multiplying the first equation by 5 and the second by 6, then solve for $x$ and back-substitute.",
+    "complexity_factor": 1.3,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-8dadaed76bdde3be8b6b996c90ec73dfc318047cad6310676b0ec6ceaee4d2d4",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.hard.0042",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 4x + 2y = 18 \\\\ 3x - 3y = 18 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(5,-1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(5,1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(6,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(6,-3)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(5,-1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Eliminate $y$ by multiplying the first equation by 3 and the second by 2, then solve for $x$ and back-substitute.",
+    "complexity_factor": 1.3,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-a07167b782b3846836a0e25f76e1c3e289c38043bbba45bf301b336a65bcda50",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.hard.0043",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "How many solutions does $\\begin{cases} 4x + 2y = 24 \\\\ 8x + 4y = 48 \\end{cases}$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$infinitely many$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "infinitely many",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The second equation is a multiple of the first, so the lines coincide.",
+    "complexity_factor": 1.35,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "special"
+    ],
+    "checksum": "sha256-7331ea472d9df50764d74d7e3166d52e7d6b61f371bda128f7bb77a972b2babe",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.hard.0044",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 4x + 3y = -3 \\\\ 2x + 4z = -4 \\\\ y - z = 0 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0,-1,-1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1,-1,-1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0,0,-1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0,-1,0)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(0,-1,-1)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From $y - z = 0$, express $y$ in terms of $z$, then use the other two equations to find $x = 0$ and $z = -1$.",
+    "complexity_factor": 1.45,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "three_variables"
+    ],
+    "checksum": "sha256-1e3105917b7f992623c8e2591ec44866ad9607851bc2738db9af82a21665d756",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.hard.0045",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 3y = -3 \\\\ 7x - 3y = 43 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4,5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(5,-6)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2,-4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4,-5)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(4,-5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Eliminate $y$ by multiplying the first equation by 3 and the second by 3, then solve for $x$ and back-substitute.",
+    "complexity_factor": 1.3,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-5121231418ccfd173adee63e8cd3a71e164314c69228bd79fe934b48a391c0c0",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.hard.0046",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 4x + 4y = -40 \\\\ 4x - 7y = 15 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-4,-6)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-5,5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-5,-5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-3,-5)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-5,-5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Eliminate $y$ by multiplying the first equation by 7 and the second by 4, then solve for $x$ and back-substitute.",
+    "complexity_factor": 1.3,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-01e7efd85e314ee32b0e185e0873cd0eb2348914353d52dcabf48ca73cb16366",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.hard.0047",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "How many solutions does $\\begin{cases} 3x + 2y = 23 \\\\ 12x + 8y = 93 \\end{cases}$ have?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$infinitely many$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "0",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The equations have the same left-hand-side ratio but different right-hand sides, so they are parallel.",
+    "complexity_factor": 1.35,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "special"
+    ],
+    "checksum": "sha256-437bf49f23eb31279774f09ecb3fb7956bfcca88183ff6da0c69ec5b7cb1bf30",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.hard.0048",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 2y = -18 \\\\ 3x + 2z = -10 \\\\ y - z = -4 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-4,-3,1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-4,-2,1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-4,-3,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-3,-3,1)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-4,-3,1)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From $y - z = -4$, express $y$ in terms of $z$, then use the other two equations to find $x = -4$ and $z = 1$.",
+    "complexity_factor": 1.45,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "three_variables"
+    ],
+    "checksum": "sha256-cdf16c4aa5cb8f851e1bb53f2762b8241e9edce65ad9518bb77b079386624d87",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.hard.0049",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 6x + 7y = 44 \\\\ 3x - 7y = 1 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(5,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(6,1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(5,-2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(5,0)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(5,2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Eliminate $y$ by multiplying the first equation by 7 and the second by 7, then solve for $x$ and back-substitute.",
+    "complexity_factor": 1.3,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-5471b6eff2cbdf7503fc42f1297b90d3f8db4d4210cfe64cdc82c6f0434402e2",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.hard.0050",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Solve $\\begin{cases} 5x + 3y = -4 \\\\ 7x - 5y = -24 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2,3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2,-2)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-2,2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Eliminate $y$ by multiplying the first equation by 5 and the second by 3, then solve for $x$ and back-substitute.",
+    "complexity_factor": 1.3,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-2ca99710e47516c598bcfbc7fc51056d0ccb6f38aa843ab924086b0e42a85a77",
+    "status": "valid"
+  }
+]

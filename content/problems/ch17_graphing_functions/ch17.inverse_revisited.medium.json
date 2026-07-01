@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "ch17.inverse_revisited.medium.0001",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "If $f(x)=3x+1$, what is $f^{-1}(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3*(x-1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x+1)/3$"
+      },
+      {
+        "id": "c",
+        "latex": "$x/3+1$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x-1)/3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x-1)/3",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Solve $y=3x+1$ for $x$: $x=(y-1)/3$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-e6d844dd9f11ea1285f5440755c6539d963983a807ecc3c05ce2042cf99b7aa6",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.medium.0002",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $f(x)=4x-3$, what is $f^{-1}(-7)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$-31$"
+      },
+      {
+        "id": "c",
+        "latex": "$-7$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(-1)=-7$, the inverse value is $f^{-1}(-7)=-1$.",
+    "complexity_factor": 1.15,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-925d8de1231962d20455bd2407870c3e88d9b1dbf0a5969261871296664cbf39",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.medium.0003",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(-1,-3)$ is on $y=f(x)$. What point is on $y=f^{-1}(x)+1$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,-2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-3,-2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2,-1)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-3,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The inverse gives $(-3,-1)$, then adding 1 shifts the $y$-value to 0.",
+    "complexity_factor": 1.2,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-9fdfa5b6137db7b8de1e74f9dff06552b8d3c301da7efe209ab707f4af678727",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.medium.0004",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The inverse of $f(x)=2x+b$ passes through $(1,1)$. What is $b$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "If $(1,1)$ is on the inverse, then $f(1)=1$. Thus 2(1)+b=1$, so $b=-1$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-cb8b9073cabbf920c7cfba01fb6aaa00c76d1b5cec13382fcb3744d9ad57a326",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.medium.0005",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "If $f(x)=3(x-2)+1$, what is $f^{-1}(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3*(x-1)+2$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x-1)/3-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x+1)/3+2$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x-1)/3+2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x-1)/3+2",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Solve $y=3(x-2)+1$: subtract 1, divide by 3, then add 2.",
+    "complexity_factor": 1.25,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-b1caec34fc6e7d27bd6a049a66d7283d5038d6ab4bc42a12839d71d9977695fc",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.medium.0006",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "If $f(x)=4x-2$, what is $f^{-1}(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x+2)/4$"
+      },
+      {
+        "id": "b",
+        "latex": "$4*(x+2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x-2)/4$"
+      },
+      {
+        "id": "d",
+        "latex": "$x/4-2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(x+2)/4",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Solve $y=4x-2$ for $x$: $x=(y+2)/4$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-ce425cc48e8459878e4e2bfdfc87513158f632cc0f3597f4b67de5ecf5af2502",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.medium.0007",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $f(x)=4x+2$, what is $f^{-1}(-10)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-10$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$-3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-38$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(-3)=-10$, the inverse value is $f^{-1}(-10)=-3$.",
+    "complexity_factor": 1.15,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-2083d6e111dcb65995b87d4e5d388ca6d63caa0c90b368ab312968fc0282c366",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.medium.0008",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(4,2)$ is on $y=f(x)$. What point is on $y=f^{-1}(x)+1$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2,5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3,4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2,3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4,3)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(2,5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The inverse gives $(2,4)$, then adding 1 shifts the $y$-value to 5.",
+    "complexity_factor": 1.2,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-ad24fbbf9c27a4ac09cb8313778fd9b0f07147405c0aca1553e4c97860f7ce88",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.medium.0009",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The inverse of $f(x)=3x+b$ passes through $(1,-1)$. What is $b$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "If $(1,-1)$ is on the inverse, then $f(-1)=1$. Thus 3(-1)+b=1$, so $b=4$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-f767c7d461a663d269fafcec91c081b1aeb59b236990c32c90293a7fd4137137",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.medium.0010",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "If $f(x)=4(x+0)-3$, what is $f^{-1}(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4*(x+3)+0$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x-3)/4+0$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x+3)/4+0$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x+0)/4-3$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x+3)/4+0",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Solve $y=4(x+0)-3$: subtract -3, divide by 4, then add 0.",
+    "complexity_factor": 1.25,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-53a72509e584d42cca17f653967cd7cd21480528bfa3ff530f12a7d9568127f7",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.medium.0011",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "If $f(x)=5x+3$, what is $f^{-1}(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x/5+3$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x-3)/5$"
+      },
+      {
+        "id": "c",
+        "latex": "$5*(x-3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x+3)/5$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(x-3)/5",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Solve $y=5x+3$ for $x$: $x=(y-3)/5$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-b5ec185e2e94944376915c7b1419c2a2c9449190a834fbb866165b96f610a4a2",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.medium.0012",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $f(x)=4x-4$, what is $f^{-1}(4)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(2)=4$, the inverse value is $f^{-1}(4)=2$.",
+    "complexity_factor": 1.15,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-e0125df1291e904f3b43bfcec8ad6401548eaa30a3e2362bb1f1fa49beb26e3b",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.medium.0013",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(0,-6)$ is on $y=f(x)$. What point is on $y=f^{-1}(x)+1$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0,-5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-5,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-6,-1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-6,1)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-6,1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The inverse gives $(-6,0)$, then adding 1 shifts the $y$-value to 1.",
+    "complexity_factor": 1.2,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-0a0446841843037b0565db06fb0eea8f095632096fc85891761cfb3d943d4590",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.medium.0014",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The inverse of $f(x)=4x+b$ passes through $(-14,-3)$. What is $b$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-11$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$53$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "If $(-14,-3)$ is on the inverse, then $f(-3)=-14$. Thus 4(-3)+b=-14$, so $b=-2$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-10dbe8a03dfdab2a51569ee1c50f2df4fac8dc715250952ed6b86f76ff347f98",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.medium.0015",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "If $f(x)=5(x+2)+2$, what is $f^{-1}(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x+2)/5-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x-2)/5-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x-2)/5+2$"
+      },
+      {
+        "id": "d",
+        "latex": "$5*(x-2)-2$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(x-2)/5-2",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Solve $y=5(x+2)+2$: subtract 2, divide by 5, then add -2.",
+    "complexity_factor": 1.25,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-f59cc033b1941a1a8fe051486157213ea29810c558e4a5098b418a84a22fc327",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.medium.0016",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "If $f(x)=2x-4$, what is $f^{-1}(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x-4)/2$"
+      },
+      {
+        "id": "b",
+        "latex": "$x/2-4$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x+4)/2$"
+      },
+      {
+        "id": "d",
+        "latex": "$2*(x+4)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x+4)/2",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Solve $y=2x-4$ for $x$: $x=(y+4)/2$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-f7d65344b8677abdbbc19e42b3cf2846dd169b9a7538fc718e3af5b466cf5ab8",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.medium.0017",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $f(x)=4x+1$, what is $f^{-1}(1)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(0)=1$, the inverse value is $f^{-1}(1)=0$.",
+    "complexity_factor": 1.15,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-04360dec0dbb2ac2f3f8407579ea53b2ff986bc0aa2a5e920cdd0f46a48f23d1",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.medium.0018",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(-4,-1)$ is on $y=f(x)$. What point is on $y=f^{-1}(x)+1$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,-3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-4,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0,-4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,-5)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-1,-3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The inverse gives $(-1,-4)$, then adding 1 shifts the $y$-value to -3.",
+    "complexity_factor": 1.2,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-857f300b72cb0ca650f4e6ac6d5df4436a8ad4a12abe5568bf2e336d159028ae",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.medium.0019",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The inverse of $f(x)=5x+b$ passes through $(13,2)$. What is $b$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-63$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$11$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "If $(13,2)$ is on the inverse, then $f(2)=13$. Thus 5(2)+b=13$, so $b=3$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-0292e8880e64aaff38b8072d5a9fb0b0f43e4899edb4aa0fb97a470f6ad07343",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.medium.0020",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "If $f(x)=2(x-3)-2$, what is $f^{-1}(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x+2)/2+3$"
+      },
+      {
+        "id": "b",
+        "latex": "$2*(x+2)+3$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x+2)/2-3$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x-2)/2+3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(x+2)/2+3",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Solve $y=2(x-3)-2$: subtract -2, divide by 2, then add 3.",
+    "complexity_factor": 1.25,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-26e6012cf8a438a57d8ee46ae7f3951b2cc579ba75934f94ba61930536cd3b31",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.medium.0021",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "If $f(x)=3x+5$, what is $f^{-1}(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3*(x-5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$x/3+5$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x+5)/3$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x-5)/3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x-5)/3",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Solve $y=3x+5$ for $x$: $x=(y-5)/3$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-dfd8c321fe52c947d77ae1e054ed0da2006897790c9b8519f9b12ba8628cfe6a",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.medium.0022",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $f(x)=4x-5$, what is $f^{-1}(-13)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-57$"
+      },
+      {
+        "id": "b",
+        "latex": "$-13$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-7$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(-2)=-13$, the inverse value is $f^{-1}(-13)=-2$.",
+    "complexity_factor": 1.15,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-193f310e441a277666032c4a257aa2be32bba4c3966ba82b6ae72986e5b46730",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.medium.0023",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(1,4)$ is on $y=f(x)$. What point is on $y=f^{-1}(x)+1$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4,2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1,5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(5,1)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(4,2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The inverse gives $(4,1)$, then adding 1 shifts the $y$-value to 2.",
+    "complexity_factor": 1.2,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-746fca82fa80c83f7956458206e39afd49fa4c2c37c7731f1bb9d386e64e78ff",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.medium.0024",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The inverse of $f(x)=2x+b$ passes through $(-3,0)$. What is $b$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "If $(-3,0)$ is on the inverse, then $f(0)=-3$. Thus 2(0)+b=-3$, so $b=-3$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-9878fd29ed55dedc4cc0c954f0da58f1ee1cbd4a71b72f64c83d8a907a3ebddb",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.medium.0025",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "If $f(x)=3(x-1)+3$, what is $f^{-1}(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x+3)/3+1$"
+      },
+      {
+        "id": "b",
+        "latex": "$3*(x-3)+1$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x-3)/3-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x-3)/3+1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x-3)/3+1",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Solve $y=3(x-1)+3$: subtract 3, divide by 3, then add 1.",
+    "complexity_factor": 1.25,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-ea4f03168d21f6ccf4a9000ba4ae373cd8cebd312f0d6b8e02c5140ba907d7b5",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.medium.0026",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "If $f(x)=4x-6$, what is $f^{-1}(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x+6)/4$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x-6)/4$"
+      },
+      {
+        "id": "c",
+        "latex": "$4*(x+6)$"
+      },
+      {
+        "id": "d",
+        "latex": "$x/4-6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(x+6)/4",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Solve $y=4x-6$ for $x$: $x=(y+6)/4$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-d06e58f0985cade8f8e15ba71cd7848a83f0695de50a8c956dffae364206a7e2",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.medium.0027",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $f(x)=4x+0$, what is $f^{-1}(12)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$48$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(3)=12$, the inverse value is $f^{-1}(12)=3$.",
+    "complexity_factor": 1.15,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-44995a355596ff45376559e0c60adf333f86894a1286ace2080531b9040e4b8c",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.medium.0028",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(-3,-4)$ is on $y=f(x)$. What point is on $y=f^{-1}(x)+1$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-4,-4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-2,-4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-4,-2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-3,-3)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-4,-2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The inverse gives $(-4,-3)$, then adding 1 shifts the $y$-value to -2.",
+    "complexity_factor": 1.2,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-530da9ff143863f94c181c33df3248481787d481342e7a8aed40e53682513575",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.medium.0029",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The inverse of $f(x)=3x+b$ passes through $(-4,-2)$. What is $b$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "If $(-4,-2)$ is on the inverse, then $f(-2)=-4$. Thus 3(-2)+b=-4$, so $b=2$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-8a918bdcac265c2cbb6637fb8b8bbe29fe6391b487584d6523e7bcaed24ac0d3",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.medium.0030",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "If $f(x)=4(x+1)-1$, what is $f^{-1}(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x+1)/4-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x-1)/4-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$4*(x+1)-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x+1)/4+1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(x+1)/4-1",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Solve $y=4(x+1)-1$: subtract -1, divide by 4, then add -1.",
+    "complexity_factor": 1.25,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-b6bca3773bb35fb17e2c8ad1f4aad751153bb0c4454bb16169a835f3558900c3",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.medium.0031",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "If $f(x)=5x+7$, what is $f^{-1}(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5*(x-7)$"
+      },
+      {
+        "id": "b",
+        "latex": "$x/5+7$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x-7)/5$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x+7)/5$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x-7)/5",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Solve $y=5x+7$ for $x$: $x=(y-7)/5$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-8becfab3f42134d0b9b4797b22aadd22f6fed132788be67ec709ee25a0f24f75",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.medium.0032",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $f(x)=4x+5$, what is $f^{-1}(9)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$41$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(1)=9$, the inverse value is $f^{-1}(9)=1$.",
+    "complexity_factor": 1.15,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-1cfd935a869a645ccb264a40cf9dfb539f0127cd9e0d732a52eb6077a9319139",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.medium.0033",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(2,1)$ is on $y=f(x)$. What point is on $y=f^{-1}(x)+1$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3,1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1,1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1,3)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(1,3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The inverse gives $(1,2)$, then adding 1 shifts the $y$-value to 3.",
+    "complexity_factor": 1.2,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-a746e7eb1c894c38dfb103d31a3617e4cc6670b30ff52415a9da2c3823c99d6b",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.medium.0034",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The inverse of $f(x)=4x+b$ passes through $(8,3)$. What is $b$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4$"
+      },
+      {
+        "id": "d",
+        "latex": "$-29$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "If $(8,3)$ is on the inverse, then $f(3)=8$. Thus 4(3)+b=8$, so $b=-4$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-6d7a960a2c78a5fdad8ba5c4c6cce752e005460ce870be10362af7ca220959d7",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.medium.0035",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "If $f(x)=5(x+3)+4$, what is $f^{-1}(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x-4)/5+3$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x-4)/5-3$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x+4)/5-3$"
+      },
+      {
+        "id": "d",
+        "latex": "$5*(x-4)-3$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(x-4)/5-3",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Solve $y=5(x+3)+4$: subtract 4, divide by 5, then add -3.",
+    "complexity_factor": 1.25,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-60d2f02dc02f7a8d1b24c9441bc626e595adcc2d0ef539d7c46673595b77e2f7",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.medium.0036",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "If $f(x)=2x-8$, what is $f^{-1}(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x+8)/2$"
+      },
+      {
+        "id": "b",
+        "latex": "$x/2-8$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x-8)/2$"
+      },
+      {
+        "id": "d",
+        "latex": "$2*(x+8)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(x+8)/2",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Solve $y=2x-8$ for $x$: $x=(y+8)/2$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-6189c844146a4c2f18c19d767b5e0daf8a1bf801c21e40d58ad29acae86fa53d",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.medium.0037",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $f(x)=4x-1$, what is $f^{-1}(-5)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-5$"
+      },
+      {
+        "id": "b",
+        "latex": "$-21$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(-1)=-5$, the inverse value is $f^{-1}(-5)=-1$.",
+    "complexity_factor": 1.15,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-a166959db8bebd77779bcaa537a0aa8a6b57f42a61ce46a50e5a52a7bddf988d",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.medium.0038",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(-2,6)$ is on $y=f(x)$. What point is on $y=f^{-1}(x)+1$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(6,-1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(7,-2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2,7)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(6,-3)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(6,-1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The inverse gives $(6,-2)$, then adding 1 shifts the $y$-value to -1.",
+    "complexity_factor": 1.2,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-3946ff23840361f9a107b7cd3cb05370d8c57c1d9ddd30cd5776e2db8f6cd5df",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.medium.0039",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The inverse of $f(x)=5x+b$ passes through $(6,1)$. What is $b$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$-29$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "If $(6,1)$ is on the inverse, then $f(1)=6$. Thus 5(1)+b=6$, so $b=1$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-fa7d3a416d71439f266e23a62361fe4ef18e1d1c145d296b755b90c21464ab7b",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.medium.0040",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "If $f(x)=2(x-2)+0$, what is $f^{-1}(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x+0)/2-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x-2)/2+0$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x+0)/2+2$"
+      },
+      {
+        "id": "d",
+        "latex": "$2*(x+0)+2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x+0)/2+2",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Solve $y=2(x-2)+0$: subtract 0, divide by 2, then add 2.",
+    "complexity_factor": 1.25,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-33dc32502efc3bd1e3b5a2dc47953f6e0f38efb7befe714a81c4e2dcb9aa38a1",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.medium.0041",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "If $f(x)=3x+9$, what is $f^{-1}(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x+9)/3$"
+      },
+      {
+        "id": "b",
+        "latex": "$x/3+9$"
+      },
+      {
+        "id": "c",
+        "latex": "$3*(x-9)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x-9)/3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x-9)/3",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Solve $y=3x+9$ for $x$: $x=(y-9)/3$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-cabe31651ea55228d98be6e34fb2a95b20f0346792c94608ca6645eb50ae5b88",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.medium.0042",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $f(x)=4x+4$, what is $f^{-1}(-8)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-8$"
+      },
+      {
+        "id": "c",
+        "latex": "$-28$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(-3)=-8$, the inverse value is $f^{-1}(-8)=-3$.",
+    "complexity_factor": 1.15,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-3467b3e1549a5d05b80b5abf561360888303f427798c8dce7b39bbde0bea0a65",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.medium.0043",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(3,-2)$ is on $y=f(x)$. What point is on $y=f^{-1}(x)+1$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3,-1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-2,2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2,4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,3)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-2,4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The inverse gives $(-2,3)$, then adding 1 shifts the $y$-value to 4.",
+    "complexity_factor": 1.2,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-294e42002fedf25ec71756cb723d4f331bfbcd9182e0dce9e0a33a98fd65d1c1",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.medium.0044",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The inverse of $f(x)=2x+b$ passes through $(-7,-1)$. What is $b$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-5$"
+      },
+      {
+        "id": "b",
+        "latex": "$-6$"
+      },
+      {
+        "id": "c",
+        "latex": "$13$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "If $(-7,-1)$ is on the inverse, then $f(-1)=-7$. Thus 2(-1)+b=-7$, so $b=-5$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-3e6fdbc4e487c107d9a220e6f59c7e63b03ccc583935b5f23cae0b23b4994667",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.medium.0045",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "If $f(x)=3(x+0)-4$, what is $f^{-1}(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x-4)/3+0$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x+0)/3-4$"
+      },
+      {
+        "id": "c",
+        "latex": "$3*(x+4)+0$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x+4)/3+0$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x+4)/3+0",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Solve $y=3(x+0)-4$: subtract -4, divide by 3, then add 0.",
+    "complexity_factor": 1.25,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-75fb3c3e5a8d9802f49a4392c4cb9c48ac846ca3468906cb1c2333942fe9ae12",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.medium.0046",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "If $f(x)=4x-10$, what is $f^{-1}(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x-10)/4$"
+      },
+      {
+        "id": "b",
+        "latex": "$4*(x+10)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x+10)/4$"
+      },
+      {
+        "id": "d",
+        "latex": "$x/4-10$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x+10)/4",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Solve $y=4x-10$ for $x$: $x=(y+10)/4$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-de56a8d8079b7cd50ef1e6d8e04b792fd3671d6178e6d3f64993456ec0c2aebb",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.medium.0047",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "For $f(x)=4x-2$, what is $f^{-1}(6)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$22$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(2)=6$, the inverse value is $f^{-1}(6)=2$.",
+    "complexity_factor": 1.15,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-bd92cbb2c3ded2d8c34d9302f5efff1d33002a202290c0e1d55cf89f1f97fdef",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.medium.0048",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(-1,3)$ is on $y=f(x)$. What point is on $y=f^{-1}(x)+1$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3,-2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4,-1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,4)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(3,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The inverse gives $(3,-1)$, then adding 1 shifts the $y$-value to 0.",
+    "complexity_factor": 1.2,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-74c0ced30f610642fd0a9ae4888b164691dcc695bf9dd8d6ea67eda51719ec39",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.medium.0049",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "The inverse of $f(x)=3x+b$ passes through $(-9,-3)$. What is $b$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-6$"
+      },
+      {
+        "id": "b",
+        "latex": "$24$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "If $(-9,-3)$ is on the inverse, then $f(-3)=-9$. Thus 3(-3)+b=-9$, so $b=0$.",
+    "complexity_factor": 1.2,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-840277196b86815818860cd049bab7e562a104909fbb681a11d8922900f7a9d6",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.inverse_revisited.medium.0050",
+    "topic_id": "ch17.inverse_revisited",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "medium",
+    "prompt_latex": "If $f(x)=4(x+2)+1$, what is $f^{-1}(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x-1)/4-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$4*(x-1)-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x+1)/4-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x-1)/4+2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(x-1)/4-2",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Solve $y=4(x+2)+1$: subtract 1, divide by 4, then add -2.",
+    "complexity_factor": 1.25,
+    "source_section": "17.3",
+    "tags": [
+      "graphing-functions",
+      "inverse-functions",
+      "reflection"
+    ],
+    "checksum": "sha256-654b3fa784acf32f2862902334ad74d4ebaa224d33e42e6d1aef27c30a6fc07a",
+    "status": "valid"
+  }
+]

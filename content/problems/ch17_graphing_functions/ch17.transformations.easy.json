@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "ch17.transformations.easy.0001",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Compared with $y=f(x)$, how is $y=f(x)+1$ shifted?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "left 1 units"
+      },
+      {
+        "id": "b",
+        "latex": "up 1 units"
+      },
+      {
+        "id": "c",
+        "latex": "down 1 units"
+      },
+      {
+        "id": "d",
+        "latex": "right 1 units"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "up 1 units",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Adding 1 outside the function raises every $y$-value by 1$.",
+    "complexity_factor": 1,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-382f8fc97228edc54cbb28a91d810bf21bf787ea8d74cb740421898bbce0cdd3",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.easy.0002",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Compared with $y=f(x)$, how is $y=f(x-1)$ shifted?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "right 1 units"
+      },
+      {
+        "id": "b",
+        "latex": "down 1 units"
+      },
+      {
+        "id": "c",
+        "latex": "up 1 units"
+      },
+      {
+        "id": "d",
+        "latex": "left 1 units"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "right 1 units",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Replacing $x$ by $x-1$ shifts the graph right 1 units.",
+    "complexity_factor": 1,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-2db71a01a09add2e9c0d118fe1e3659a6d5fcc4621cba1eea44ea98b638d3e9a",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.easy.0003",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Start with $y=x^2$ and shift the graph vertically by 1 unit up. What is the new equation?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x+1)^2$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^2-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$1*x^2$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^2+1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x^2+1",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "A vertical shift changes the output, so the equation is $y=x^2+1$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-9a20ecc781337449fef7cd74b4fca9795ebda8c00d46c5a24c909efbd9e5476c",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.easy.0004",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "A point on $y=f(x)$ has $y$-value 2. What is its new $y$-value on $y=-f(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Multiplying all outputs by $-1$ sends 2 to -2.",
+    "complexity_factor": 1,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-773914ee421d7d231ff4b1b19f272a68932aab6a7f2ff7620d5b2168eee585a0",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.easy.0005",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Compared with $y=f(x)$, what does $y=2f(x)$ do to the graph?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "compressed vertically by 2"
+      },
+      {
+        "id": "b",
+        "latex": "stretched vertically by 2"
+      },
+      {
+        "id": "c",
+        "latex": "shifted right 2 units"
+      },
+      {
+        "id": "d",
+        "latex": "shifted up 2 units"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "stretched vertically by 2",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Multiplying $f(x)$ by 2 multiplies each $y$-value by 2$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-fa03c2a50b9a3fbe0e79165d1034f28c1848538c2b9e98a40e7b48ab8c639e24",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.easy.0006",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Compared with $y=f(x)$, how is $y=f(x)+2$ shifted?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "right 2 units"
+      },
+      {
+        "id": "b",
+        "latex": "left 2 units"
+      },
+      {
+        "id": "c",
+        "latex": "up 2 units"
+      },
+      {
+        "id": "d",
+        "latex": "down 2 units"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "up 2 units",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Adding 2 outside the function raises every $y$-value by 2$.",
+    "complexity_factor": 1,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-a58dd83a2259f8a949e0df439b09a589a322ad618000e0236b208c41ded369d9",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.easy.0007",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Compared with $y=f(x)$, how is $y=f(x-2)$ shifted?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "up 2 units"
+      },
+      {
+        "id": "b",
+        "latex": "down 2 units"
+      },
+      {
+        "id": "c",
+        "latex": "left 2 units"
+      },
+      {
+        "id": "d",
+        "latex": "right 2 units"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "right 2 units",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Replacing $x$ by $x-2$ shifts the graph right 2 units.",
+    "complexity_factor": 1,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-8814642987eebaa40ec61e9e737b7e4b4f473b69454a1ae1f1d293526f9db995",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.easy.0008",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Start with $y=x^2$ and shift the graph vertically by 2 units down. What is the new equation?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^2-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x-2)^2$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^2+2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2*x^2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "x^2-2",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "A vertical shift changes the output, so the equation is $y=x^2-2$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-465c34d09bbbcf4627b279c6e566a6fb46b30ecc161316f30dca5def31b92366",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.easy.0009",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "A point on $y=f(x)$ has $y$-value 3. What is its new $y$-value on $y=-f(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-3$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Multiplying all outputs by $-1$ sends 3 to -3.",
+    "complexity_factor": 1,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-85283487acadb26663327c03b16e2b560224907b3d783edd3e766fc5486bac79",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.easy.0010",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Compared with $y=f(x)$, what does $y=3f(x)$ do to the graph?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "stretched vertically by 3"
+      },
+      {
+        "id": "b",
+        "latex": "shifted up 3 units"
+      },
+      {
+        "id": "c",
+        "latex": "shifted right 3 units"
+      },
+      {
+        "id": "d",
+        "latex": "compressed vertically by 3"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "stretched vertically by 3",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Multiplying $f(x)$ by 3 multiplies each $y$-value by 3$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-bb4a1d6d8c6cbdcfb7573d39742d36e2dde833e0192065e2d92c7223a5251f37",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.easy.0011",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Compared with $y=f(x)$, how is $y=f(x)+3$ shifted?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "down 3 units"
+      },
+      {
+        "id": "b",
+        "latex": "left 3 units"
+      },
+      {
+        "id": "c",
+        "latex": "right 3 units"
+      },
+      {
+        "id": "d",
+        "latex": "up 3 units"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "up 3 units",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Adding 3 outside the function raises every $y$-value by 3$.",
+    "complexity_factor": 1,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-59858937503f75f624fd56727692008de6e86d2f505cd454c26bc8dbc742fdfc",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.easy.0012",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Compared with $y=f(x)$, how is $y=f(x-3)$ shifted?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "up 3 units"
+      },
+      {
+        "id": "b",
+        "latex": "left 3 units"
+      },
+      {
+        "id": "c",
+        "latex": "right 3 units"
+      },
+      {
+        "id": "d",
+        "latex": "down 3 units"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "right 3 units",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Replacing $x$ by $x-3$ shifts the graph right 3 units.",
+    "complexity_factor": 1,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-3154c5c2af43461878090f0889f7be5ae0bf547b740664b4fc07b9648f29db92",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.easy.0013",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Start with $y=x^2$ and shift the graph vertically by 3 units up. What is the new equation?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3*x^2$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^2+3$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x+3)^2$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^2-3$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "x^2+3",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "A vertical shift changes the output, so the equation is $y=x^2+3$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-1e12cfc61bcba2f261dcdb72fd4c78523fe8860f8288141931f93cc6539291c3",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.easy.0014",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "A point on $y=f(x)$ has $y$-value 4. What is its new $y$-value on $y=-f(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-5$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Multiplying all outputs by $-1$ sends 4 to -4.",
+    "complexity_factor": 1,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-5cb454ab822b7082772b930fb42862658fee61c9b1415eeb776dde93f080d0a8",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.easy.0015",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Compared with $y=f(x)$, what does $y=4f(x)$ do to the graph?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "compressed vertically by 4"
+      },
+      {
+        "id": "b",
+        "latex": "shifted up 4 units"
+      },
+      {
+        "id": "c",
+        "latex": "shifted right 4 units"
+      },
+      {
+        "id": "d",
+        "latex": "stretched vertically by 4"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "stretched vertically by 4",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Multiplying $f(x)$ by 4 multiplies each $y$-value by 4$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-1b606be123c4f3f9f856d25a5c4166d5cde4a4cb7a4df137d83c4fab011d28ce",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.easy.0016",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Compared with $y=f(x)$, how is $y=f(x)+4$ shifted?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "up 4 units"
+      },
+      {
+        "id": "b",
+        "latex": "right 4 units"
+      },
+      {
+        "id": "c",
+        "latex": "down 4 units"
+      },
+      {
+        "id": "d",
+        "latex": "left 4 units"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "up 4 units",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Adding 4 outside the function raises every $y$-value by 4$.",
+    "complexity_factor": 1,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-d6a9b1a1d08c117a76d0e675b54613997e3476fdfc435e63f659947a9115551c",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.easy.0017",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Compared with $y=f(x)$, how is $y=f(x-4)$ shifted?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "left 4 units"
+      },
+      {
+        "id": "b",
+        "latex": "right 4 units"
+      },
+      {
+        "id": "c",
+        "latex": "down 4 units"
+      },
+      {
+        "id": "d",
+        "latex": "up 4 units"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "right 4 units",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Replacing $x$ by $x-4$ shifts the graph right 4 units.",
+    "complexity_factor": 1,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-143bf8dab59a30082f851568d416491e7cefa6127f3f0c73dd09db7faae1633b",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.easy.0018",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Start with $y=x^2$ and shift the graph vertically by 4 units down. What is the new equation?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^2+4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4*x^2$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^2-4$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x-4)^2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "x^2-4",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "A vertical shift changes the output, so the equation is $y=x^2-4$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-01cb95e93bfc296da5457050f01b3bf6b13581e1cbce4659a1516ae0abd81b51",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.easy.0019",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "A point on $y=f(x)$ has $y$-value 5. What is its new $y$-value on $y=-f(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-6$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$-5$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Multiplying all outputs by $-1$ sends 5 to -5.",
+    "complexity_factor": 1,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-56f287e10aa6fb483bb29fb5fed711f48637302e806ed20434bbd3f2d4340e9a",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.easy.0020",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Compared with $y=f(x)$, what does $y=5f(x)$ do to the graph?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "stretched vertically by 5"
+      },
+      {
+        "id": "b",
+        "latex": "compressed vertically by 5"
+      },
+      {
+        "id": "c",
+        "latex": "shifted up 5 units"
+      },
+      {
+        "id": "d",
+        "latex": "shifted right 5 units"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "stretched vertically by 5",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Multiplying $f(x)$ by 5 multiplies each $y$-value by 5$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-a2dba9818baf811ba4a099a87549c3087fb43d67beba7b323d3a653da9a5cbac",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.easy.0021",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Compared with $y=f(x)$, how is $y=f(x)+5$ shifted?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "down 5 units"
+      },
+      {
+        "id": "b",
+        "latex": "left 5 units"
+      },
+      {
+        "id": "c",
+        "latex": "up 5 units"
+      },
+      {
+        "id": "d",
+        "latex": "right 5 units"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "up 5 units",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Adding 5 outside the function raises every $y$-value by 5$.",
+    "complexity_factor": 1,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-483611906be0787f5618b58ddb55ea95b4f9cffe60d1d221be371a34a53850e3",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.easy.0022",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Compared with $y=f(x)$, how is $y=f(x-5)$ shifted?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "right 5 units"
+      },
+      {
+        "id": "b",
+        "latex": "up 5 units"
+      },
+      {
+        "id": "c",
+        "latex": "down 5 units"
+      },
+      {
+        "id": "d",
+        "latex": "left 5 units"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "right 5 units",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Replacing $x$ by $x-5$ shifts the graph right 5 units.",
+    "complexity_factor": 1,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-b38250902de1be6ca185dfa519f0f58b82df57099763d3e6533adf08403ca9fb",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.easy.0023",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Start with $y=x^2$ and shift the graph vertically by 5 units up. What is the new equation?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x+5)^2$"
+      },
+      {
+        "id": "b",
+        "latex": "$5*x^2$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^2-5$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^2+5$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x^2+5",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "A vertical shift changes the output, so the equation is $y=x^2+5$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-6508867f86f2ffef2d0589ddb4405af2eff7ac7e55e285ac6ae3a193842d6f86",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.easy.0024",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "A point on $y=f(x)$ has $y$-value 6. What is its new $y$-value on $y=-f(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$-6$"
+      },
+      {
+        "id": "d",
+        "latex": "$-7$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Multiplying all outputs by $-1$ sends 6 to -6.",
+    "complexity_factor": 1,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-d1632430b383ee1e84d93cfae154dcb3f0123b8b978379117cce8e70be6f1e7e",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.easy.0025",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Compared with $y=f(x)$, what does $y=6f(x)$ do to the graph?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "shifted right 6 units"
+      },
+      {
+        "id": "b",
+        "latex": "stretched vertically by 6"
+      },
+      {
+        "id": "c",
+        "latex": "compressed vertically by 6"
+      },
+      {
+        "id": "d",
+        "latex": "shifted up 6 units"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "stretched vertically by 6",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Multiplying $f(x)$ by 6 multiplies each $y$-value by 6$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-2114a54abef1c21f6264649fa5afe46fc29309b44d418d5996ed28b0dc2694a3",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.easy.0026",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Compared with $y=f(x)$, how is $y=f(x)+6$ shifted?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "up 6 units"
+      },
+      {
+        "id": "b",
+        "latex": "left 6 units"
+      },
+      {
+        "id": "c",
+        "latex": "right 6 units"
+      },
+      {
+        "id": "d",
+        "latex": "down 6 units"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "up 6 units",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Adding 6 outside the function raises every $y$-value by 6$.",
+    "complexity_factor": 1,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-8ee53ff48529bc778b9ebfb4160f44ddc3e9cbc044512199eed76fe8ccf15314",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.easy.0027",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Compared with $y=f(x)$, how is $y=f(x-6)$ shifted?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "left 6 units"
+      },
+      {
+        "id": "b",
+        "latex": "up 6 units"
+      },
+      {
+        "id": "c",
+        "latex": "down 6 units"
+      },
+      {
+        "id": "d",
+        "latex": "right 6 units"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "right 6 units",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Replacing $x$ by $x-6$ shifts the graph right 6 units.",
+    "complexity_factor": 1,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-cc8052e0d5748f6cca03cea9c8bbfd2637ee17d524becd7c59904da280681b58",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.easy.0028",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Start with $y=x^2$ and shift the graph vertically by 6 units down. What is the new equation?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^2-6$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^2+6$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x-6)^2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-6*x^2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "x^2-6",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "A vertical shift changes the output, so the equation is $y=x^2-6$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-c52942121d5407dbb0341ec5f45d4a6268adeecce6f3395661227dc02d62ce91",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.easy.0029",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "A point on $y=f(x)$ has $y$-value 7. What is its new $y$-value on $y=-f(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$-7$"
+      },
+      {
+        "id": "c",
+        "latex": "$-8$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Multiplying all outputs by $-1$ sends 7 to -7.",
+    "complexity_factor": 1,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-a8a8cb4d5b8bd97fe55e06916a78f47de3aab8a317ff7dd8af8d629333263562",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.easy.0030",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Compared with $y=f(x)$, what does $y=7f(x)$ do to the graph?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "shifted up 7 units"
+      },
+      {
+        "id": "b",
+        "latex": "shifted right 7 units"
+      },
+      {
+        "id": "c",
+        "latex": "stretched vertically by 7"
+      },
+      {
+        "id": "d",
+        "latex": "compressed vertically by 7"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "stretched vertically by 7",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Multiplying $f(x)$ by 7 multiplies each $y$-value by 7$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-0fb55d97ae3cf1e1880d733a76d63e107f0e20ff4e56f43f6805a191b13cd23b",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.easy.0031",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Compared with $y=f(x)$, how is $y=f(x)+7$ shifted?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "right 7 units"
+      },
+      {
+        "id": "b",
+        "latex": "left 7 units"
+      },
+      {
+        "id": "c",
+        "latex": "down 7 units"
+      },
+      {
+        "id": "d",
+        "latex": "up 7 units"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "up 7 units",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Adding 7 outside the function raises every $y$-value by 7$.",
+    "complexity_factor": 1,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-45aaa07faba918cd4e42e7c1453c77b26673ee65fdbcc116cbf800544a8ddfc2",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.easy.0032",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Compared with $y=f(x)$, how is $y=f(x-7)$ shifted?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "right 7 units"
+      },
+      {
+        "id": "b",
+        "latex": "left 7 units"
+      },
+      {
+        "id": "c",
+        "latex": "up 7 units"
+      },
+      {
+        "id": "d",
+        "latex": "down 7 units"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "right 7 units",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Replacing $x$ by $x-7$ shifts the graph right 7 units.",
+    "complexity_factor": 1,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-f79936c46abde2eec35f43d7175fb99c9c688f7fa277a95e9fe037d47598f2b8",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.easy.0033",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Start with $y=x^2$ and shift the graph vertically by 7 units up. What is the new equation?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x+7)^2$"
+      },
+      {
+        "id": "b",
+        "latex": "$7*x^2$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^2+7$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^2-7$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "x^2+7",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "A vertical shift changes the output, so the equation is $y=x^2+7$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-d0a0bd2cf0f8939d57f9b90eabd4cd5260bdaf4e90cb9c7b4b9e5ce93a4c3915",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.easy.0034",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "A point on $y=f(x)$ has $y$-value 8. What is its new $y$-value on $y=-f(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-8$"
+      },
+      {
+        "id": "b",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$-9$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Multiplying all outputs by $-1$ sends 8 to -8.",
+    "complexity_factor": 1,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-6aa3324f46b65b0d6c9b959b90202c1cc08a001661f818f6826dc2697283cdd6",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.easy.0035",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Compared with $y=f(x)$, what does $y=8f(x)$ do to the graph?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "compressed vertically by 8"
+      },
+      {
+        "id": "b",
+        "latex": "shifted right 8 units"
+      },
+      {
+        "id": "c",
+        "latex": "shifted up 8 units"
+      },
+      {
+        "id": "d",
+        "latex": "stretched vertically by 8"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "stretched vertically by 8",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Multiplying $f(x)$ by 8 multiplies each $y$-value by 8$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-01f6418c58c9799f5c0d439b2c8b69404d341c6944ead4a72be114fda2613ce7",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.easy.0036",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Compared with $y=f(x)$, how is $y=f(x)+8$ shifted?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "right 8 units"
+      },
+      {
+        "id": "b",
+        "latex": "down 8 units"
+      },
+      {
+        "id": "c",
+        "latex": "up 8 units"
+      },
+      {
+        "id": "d",
+        "latex": "left 8 units"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "up 8 units",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Adding 8 outside the function raises every $y$-value by 8$.",
+    "complexity_factor": 1,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-28d1ad8f50fc1c89c2f6a18c575cddf4576e0e4c674ec08c363cb4e728140978",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.easy.0037",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Compared with $y=f(x)$, how is $y=f(x-8)$ shifted?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "down 8 units"
+      },
+      {
+        "id": "b",
+        "latex": "right 8 units"
+      },
+      {
+        "id": "c",
+        "latex": "left 8 units"
+      },
+      {
+        "id": "d",
+        "latex": "up 8 units"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "right 8 units",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Replacing $x$ by $x-8$ shifts the graph right 8 units.",
+    "complexity_factor": 1,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-a0c42ae20d4b7a3a567cca092a2a569067f62c7339ab1b7f646eeee8a81888a4",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.easy.0038",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Start with $y=x^2$ and shift the graph vertically by 8 units down. What is the new equation?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^2-8$"
+      },
+      {
+        "id": "b",
+        "latex": "$-8*x^2$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^2+8$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x-8)^2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "x^2-8",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "A vertical shift changes the output, so the equation is $y=x^2-8$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-363b2ca3d5299f80cfea905cb9874bfb4e6566491257082f89f0c5aa1b47500f",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.easy.0039",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "A point on $y=f(x)$ has $y$-value 9. What is its new $y$-value on $y=-f(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$-10$"
+      },
+      {
+        "id": "d",
+        "latex": "$-9$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Multiplying all outputs by $-1$ sends 9 to -9.",
+    "complexity_factor": 1,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-20437c8484281651c80548bab3fc44baa8745bfd08b389e1101122a8963deda7",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.easy.0040",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Compared with $y=f(x)$, what does $y=9f(x)$ do to the graph?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "stretched vertically by 9"
+      },
+      {
+        "id": "b",
+        "latex": "shifted up 9 units"
+      },
+      {
+        "id": "c",
+        "latex": "compressed vertically by 9"
+      },
+      {
+        "id": "d",
+        "latex": "shifted right 9 units"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "stretched vertically by 9",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Multiplying $f(x)$ by 9 multiplies each $y$-value by 9$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-83b423007e761475e3e7c9e29147cee82e0395ef605d1009caa7824266690e1d",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.easy.0041",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Compared with $y=f(x)$, how is $y=f(x)+9$ shifted?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "down 9 units"
+      },
+      {
+        "id": "b",
+        "latex": "up 9 units"
+      },
+      {
+        "id": "c",
+        "latex": "left 9 units"
+      },
+      {
+        "id": "d",
+        "latex": "right 9 units"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "up 9 units",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Adding 9 outside the function raises every $y$-value by 9$.",
+    "complexity_factor": 1,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-ce3c3e2344688a926a8cf20b6d232af9d7c06078f871c20400758c43e5693c75",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.easy.0042",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Compared with $y=f(x)$, how is $y=f(x-9)$ shifted?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "up 9 units"
+      },
+      {
+        "id": "b",
+        "latex": "down 9 units"
+      },
+      {
+        "id": "c",
+        "latex": "right 9 units"
+      },
+      {
+        "id": "d",
+        "latex": "left 9 units"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "right 9 units",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Replacing $x$ by $x-9$ shifts the graph right 9 units.",
+    "complexity_factor": 1,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-a53c2226f9e935eb8d148db7be3ca9ad21596a5a3ebf30d6c30be72294460c4b",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.easy.0043",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Start with $y=x^2$ and shift the graph vertically by 9 units up. What is the new equation?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^2-9$"
+      },
+      {
+        "id": "b",
+        "latex": "$9*x^2$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x+9)^2$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^2+9$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x^2+9",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "A vertical shift changes the output, so the equation is $y=x^2+9$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-e4cf2dafe5408eef33d8d4867f512cd38d8300628429674b8f40c47b7b0b3f29",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.easy.0044",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "A point on $y=f(x)$ has $y$-value 10. What is its new $y$-value on $y=-f(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-10$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$-11$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Multiplying all outputs by $-1$ sends 10 to -10.",
+    "complexity_factor": 1,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-7633490f5a37b70f307b401b27f63cf9104ee064cf5e4abe4ee5d1fb2665f551",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.easy.0045",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Compared with $y=f(x)$, what does $y=10f(x)$ do to the graph?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "compressed vertically by 10"
+      },
+      {
+        "id": "b",
+        "latex": "shifted right 10 units"
+      },
+      {
+        "id": "c",
+        "latex": "stretched vertically by 10"
+      },
+      {
+        "id": "d",
+        "latex": "shifted up 10 units"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "stretched vertically by 10",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Multiplying $f(x)$ by 10 multiplies each $y$-value by 10$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-d1ca0e06786f8d2ff27e7ee2938b1c2af7aba2a99821d1fe6ff3407475004c94",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.easy.0046",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Compared with $y=f(x)$, how is $y=f(x)+10$ shifted?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "up 10 units"
+      },
+      {
+        "id": "b",
+        "latex": "right 10 units"
+      },
+      {
+        "id": "c",
+        "latex": "left 10 units"
+      },
+      {
+        "id": "d",
+        "latex": "down 10 units"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "up 10 units",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Adding 10 outside the function raises every $y$-value by 10$.",
+    "complexity_factor": 1,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-4d44ba43a0dc12a7386c7ff6a4dc31127e21b6ea55770f3e384a45c80b70d499",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.easy.0047",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Compared with $y=f(x)$, how is $y=f(x-10)$ shifted?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "left 10 units"
+      },
+      {
+        "id": "b",
+        "latex": "down 10 units"
+      },
+      {
+        "id": "c",
+        "latex": "up 10 units"
+      },
+      {
+        "id": "d",
+        "latex": "right 10 units"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "right 10 units",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Replacing $x$ by $x-10$ shifts the graph right 10 units.",
+    "complexity_factor": 1,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-910bbf9f44ded29d4810e49192abaa8ccb5b6332e37222e417a7dcab4c4b712b",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.easy.0048",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Start with $y=x^2$ and shift the graph vertically by 10 units down. What is the new equation?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^2+10$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x-10)^2$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^2-10$"
+      },
+      {
+        "id": "d",
+        "latex": "$-10*x^2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "x^2-10",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "A vertical shift changes the output, so the equation is $y=x^2-10$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-86698811fff822bfd71f147463f89c0d98626a3b1ab64306c23d8b1e9da4c126",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.easy.0049",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "A point on $y=f(x)$ has $y$-value 11. What is its new $y$-value on $y=-f(x)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-12$"
+      },
+      {
+        "id": "b",
+        "latex": "$-11$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-11",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Multiplying all outputs by $-1$ sends 11 to -11.",
+    "complexity_factor": 1,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-a1cf1aa160d918241193901848dfd61a1626fdc8a0aa83e82e9b2a5406af2fd1",
+    "status": "valid"
+  },
+  {
+    "id": "ch17.transformations.easy.0050",
+    "topic_id": "ch17.transformations",
+    "group_id": "ch17_graphing_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Compared with $y=f(x)$, what does $y=11f(x)$ do to the graph?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "stretched vertically by 11"
+      },
+      {
+        "id": "b",
+        "latex": "shifted right 11 units"
+      },
+      {
+        "id": "c",
+        "latex": "shifted up 11 units"
+      },
+      {
+        "id": "d",
+        "latex": "compressed vertically by 11"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "stretched vertically by 11",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Multiplying $f(x)$ by 11 multiplies each $y$-value by 11$.",
+    "complexity_factor": 1.05,
+    "source_section": "17.2",
+    "tags": [
+      "graphing-functions",
+      "transformations",
+      "shifts"
+    ],
+    "checksum": "sha256-dab2efea5336b0c56a79682ac7fa5a3c904279a5755b94bffef7323e1342a282",
+    "status": "valid"
+  }
+]

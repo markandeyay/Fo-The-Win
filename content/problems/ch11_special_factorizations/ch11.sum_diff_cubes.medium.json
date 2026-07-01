@@ -1,0 +1,2062 @@
+[
+  {
+    "id": "ch11.sum_diff_cubes.medium.0001",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Factor completely: $8x^3 + 8$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2x + 2)(4x^2 - 4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2x + 2)(4x^2 - 4x + 4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2x + 2)(4x^2 + 4x + 4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2x - 2)(4x^2 + 4x + 4)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(2*x+2)*(4*x^2-4*x+4)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(4*x^2-4*x+4)*(2*x+2)"
+    ],
+    "solution_latex": "View the expression as $(2x)^3 + 2^3$ and apply the cube identity.",
+    "complexity_factor": 1.2,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-360f8a7db1b90bacc2ba3558d1673c2f9a889461db46c7d7575decb37b2ffd55",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.medium.0002",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Factor completely: $27x^3 - 64$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3x - 4)(9x^2 + 12x + 16)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3x + 4)(9x^2 - 12x + 16)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3x - 4)(9x^2 - 12x + 16)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3x - 4)(9x^2 - 16)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(3*x-4)*(9*x^2+12*x+16)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(9*x^2+12*x+16)*(3*x-4)"
+    ],
+    "solution_latex": "View the expression as $(3x)^3 - 4^3$ and apply the cube identity.",
+    "complexity_factor": 1.2,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-1e48230a433187448cf98feaeeabd8799698250a85256b8e6cce5b2025a59b78",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.medium.0003",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Factor completely: $64x^3 + 216$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4x + 6)(16x^2 + 24x + 36)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4x - 6)(16x^2 + 24x + 36)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4x + 6)(16x^2 - 24x + 36)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4x + 6)(16x^2 - 36)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(4*x+6)*(16*x^2-24*x+36)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(16*x^2-24*x+36)*(4*x+6)"
+    ],
+    "solution_latex": "View the expression as $(4x)^3 + 6^3$ and apply the cube identity.",
+    "complexity_factor": 1.2,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-0fc4b371d232bd58bbe69085cf7fa96aae07c0186aff1961d128d6bbdedc455e",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.medium.0004",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Factor completely: $125x^3 - 512$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(5x + 8)(25x^2 - 40x + 64)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(5x - 8)(25x^2 - 40x + 64)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(5x - 8)(25x^2 + 40x + 64)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(5x - 8)(25x^2 - 64)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(5*x-8)*(25*x^2+40*x+64)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(25*x^2+40*x+64)*(5*x-8)"
+    ],
+    "solution_latex": "View the expression as $(5x)^3 - 8^3$ and apply the cube identity.",
+    "complexity_factor": 1.2,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-73d38a4ccad81ea0713a93bd0066c9f96a11f45e09f348eaa410863c35a6d4f3",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.medium.0005",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Factor completely: $216x^3 + 1000$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(6x + 10)(36x^2 + 60x + 100)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(6x + 10)(36x^2 - 60x + 100)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(6x - 10)(36x^2 + 60x + 100)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(6x + 10)(36x^2 - 100)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(6*x+10)*(36*x^2-60*x+100)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(36*x^2-60*x+100)*(6*x+10)"
+    ],
+    "solution_latex": "View the expression as $(6x)^3 + 10^3$ and apply the cube identity.",
+    "complexity_factor": 1.2,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-48342caacfd94131a53c786cd51926c583f5bcffc1105537fbb537b18cd3761d",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.medium.0006",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Factor completely: $8x^3 - 27$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2x - 3)(4x^2 + 6x + 9)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2x - 3)(4x^2 - 6x + 9)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2x - 3)(4x^2 - 9)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2x + 3)(4x^2 - 6x + 9)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(2*x-3)*(4*x^2+6*x+9)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(4*x^2+6*x+9)*(2*x-3)"
+    ],
+    "solution_latex": "View the expression as $(2x)^3 - 3^3$ and apply the cube identity.",
+    "complexity_factor": 1.2,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-d3d108cd251b9e7e4fb6e4e26a91643aafdf04092491a3317c8a852587db737f",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.medium.0007",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Factor completely: $27x^3 + 125$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3x + 5)(9x^2 - 15x + 25)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3x - 5)(9x^2 + 15x + 25)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3x + 5)(9x^2 + 15x + 25)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3x + 5)(9x^2 - 25)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(3*x+5)*(9*x^2-15*x+25)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(9*x^2-15*x+25)*(3*x+5)"
+    ],
+    "solution_latex": "View the expression as $(3x)^3 + 5^3$ and apply the cube identity.",
+    "complexity_factor": 1.2,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-93ad6868e5e2b74aa7adec0f5a7f5883839fff1df89384033f7abba6792aae23",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.medium.0008",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Factor completely: $64x^3 - 343$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4x - 7)(16x^2 - 49)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4x - 7)(16x^2 + 28x + 49)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4x - 7)(16x^2 - 28x + 49)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4x + 7)(16x^2 - 28x + 49)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(4*x-7)*(16*x^2+28*x+49)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(16*x^2+28*x+49)*(4*x-7)"
+    ],
+    "solution_latex": "View the expression as $(4x)^3 - 7^3$ and apply the cube identity.",
+    "complexity_factor": 1.2,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-8cd864fd2f5f3421dc153477618268ab1ad1fcac6e0322ea496b16dffcb30c6f",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.medium.0009",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Factor completely: $125x^3 + 729$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(5x + 9)(25x^2 - 81)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(5x + 9)(25x^2 - 45x + 81)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(5x - 9)(25x^2 + 45x + 81)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(5x + 9)(25x^2 + 45x + 81)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(5*x+9)*(25*x^2-45*x+81)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(25*x^2-45*x+81)*(5*x+9)"
+    ],
+    "solution_latex": "View the expression as $(5x)^3 + 9^3$ and apply the cube identity.",
+    "complexity_factor": 1.2,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-aa1c9601d2d2703478197b8d8d58fa017bbe884dfd4d4355262932aeacc4774d",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.medium.0010",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Factor completely: $216x^3 - 8$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(6x - 2)(36x^2 + 12x + 4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(6x - 2)(36x^2 - 4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(6x + 2)(36x^2 - 12x + 4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(6x - 2)(36x^2 - 12x + 4)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(6*x-2)*(36*x^2+12*x+4)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(36*x^2+12*x+4)*(6*x-2)"
+    ],
+    "solution_latex": "View the expression as $(6x)^3 - 2^3$ and apply the cube identity.",
+    "complexity_factor": 1.2,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-e20b3dc13ddb4da513fa1f66a712693e254ed8ce38ffcc9d3a2bb989a458ab40",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.medium.0011",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Factor completely: $8x^3 + 64$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2x + 4)(4x^2 - 16)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2x - 4)(4x^2 + 8x + 16)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2x + 4)(4x^2 - 8x + 16)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2x + 4)(4x^2 + 8x + 16)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(2*x+4)*(4*x^2-8*x+16)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(4*x^2-8*x+16)*(2*x+4)"
+    ],
+    "solution_latex": "View the expression as $(2x)^3 + 4^3$ and apply the cube identity.",
+    "complexity_factor": 1.2,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-365144eb9c9c22419a0b5744579e71f495db487fd01ceff4f357e564e9606422",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.medium.0012",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Factor completely: $27x^3 - 216$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3x - 6)(9x^2 - 36)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3x - 6)(9x^2 - 18x + 36)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3x + 6)(9x^2 - 18x + 36)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3x - 6)(9x^2 + 18x + 36)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(3*x-6)*(9*x^2+18*x+36)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(9*x^2+18*x+36)*(3*x-6)"
+    ],
+    "solution_latex": "View the expression as $(3x)^3 - 6^3$ and apply the cube identity.",
+    "complexity_factor": 1.2,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-da8a1a7a477bbb73510330fe6dc4afb569b210508e9e1a117c7b69ca3127a75e",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.medium.0013",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Factor completely: $64x^3 + 512$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4x + 8)(16x^2 - 64)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4x - 8)(16x^2 + 32x + 64)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4x + 8)(16x^2 - 32x + 64)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4x + 8)(16x^2 + 32x + 64)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(4*x+8)*(16*x^2-32*x+64)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(16*x^2-32*x+64)*(4*x+8)"
+    ],
+    "solution_latex": "View the expression as $(4x)^3 + 8^3$ and apply the cube identity.",
+    "complexity_factor": 1.2,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-b790d17f5c720bb41689c5dc4176490d242cbd694321bab98885cc645ab8018d",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.medium.0014",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Factor completely: $125x^3 - 1000$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(5x - 10)(25x^2 - 100)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(5x - 10)(25x^2 - 50x + 100)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(5x - 10)(25x^2 + 50x + 100)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(5x + 10)(25x^2 - 50x + 100)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(5*x-10)*(25*x^2+50*x+100)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(25*x^2+50*x+100)*(5*x-10)"
+    ],
+    "solution_latex": "View the expression as $(5x)^3 - 10^3$ and apply the cube identity.",
+    "complexity_factor": 1.2,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-77de9a91fb791d139332e15f8ca98f2b33bb4a8942a16734e66674da9143cad3",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.medium.0015",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Factor completely: $216x^3 + 27$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(6x + 3)(36x^2 + 18x + 9)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(6x - 3)(36x^2 + 18x + 9)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(6x + 3)(36x^2 - 9)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(6x + 3)(36x^2 - 18x + 9)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(6*x+3)*(36*x^2-18*x+9)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(36*x^2-18*x+9)*(6*x+3)"
+    ],
+    "solution_latex": "View the expression as $(6x)^3 + 3^3$ and apply the cube identity.",
+    "complexity_factor": 1.2,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-c486af94d85505341759cbad3597044b464696237cdc73d6e91010c014745ba2",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.medium.0016",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Factor completely: $8x^3 - 125$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2x - 5)(4x^2 + 10x + 25)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2x - 5)(4x^2 - 10x + 25)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2x + 5)(4x^2 - 10x + 25)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2x - 5)(4x^2 - 25)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(2*x-5)*(4*x^2+10*x+25)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(4*x^2+10*x+25)*(2*x-5)"
+    ],
+    "solution_latex": "View the expression as $(2x)^3 - 5^3$ and apply the cube identity.",
+    "complexity_factor": 1.2,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-75d72f2d95868d4c91c3ee910da45e25c9b3dbac46fba66b4670e30a8f519a36",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.medium.0017",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Factor completely: $27x^3 + 343$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3x + 7)(9x^2 - 49)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3x + 7)(9x^2 + 21x + 49)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3x - 7)(9x^2 + 21x + 49)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3x + 7)(9x^2 - 21x + 49)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(3*x+7)*(9*x^2-21*x+49)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(9*x^2-21*x+49)*(3*x+7)"
+    ],
+    "solution_latex": "View the expression as $(3x)^3 + 7^3$ and apply the cube identity.",
+    "complexity_factor": 1.2,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-bbdd135f0f9582e09696ed8c56625270913900f86bbdd7cdd350e56b62f58ce0",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.medium.0018",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Factor completely: $64x^3 - 729$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4x - 9)(16x^2 - 36x + 81)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4x + 9)(16x^2 - 36x + 81)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4x - 9)(16x^2 - 81)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4x - 9)(16x^2 + 36x + 81)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(4*x-9)*(16*x^2+36*x+81)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(16*x^2+36*x+81)*(4*x-9)"
+    ],
+    "solution_latex": "View the expression as $(4x)^3 - 9^3$ and apply the cube identity.",
+    "complexity_factor": 1.2,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-2dca04269ed17d70f438c13b2e90751efaa682d21b8b883ba4ca1cdf89d186d8",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.medium.0019",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Factor completely: $125x^3 + 8$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(5x - 2)(25x^2 + 10x + 4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(5x + 2)(25x^2 + 10x + 4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(5x + 2)(25x^2 - 10x + 4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(5x + 2)(25x^2 - 4)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(5*x+2)*(25*x^2-10*x+4)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(25*x^2-10*x+4)*(5*x+2)"
+    ],
+    "solution_latex": "View the expression as $(5x)^3 + 2^3$ and apply the cube identity.",
+    "complexity_factor": 1.2,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-46fb65428cd74acf4402ebb22cb942fc8e7a8fe4d046c99ff8f27d121cd5992b",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.medium.0020",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Factor completely: $216x^3 - 64$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(6x - 4)(36x^2 - 16)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(6x - 4)(36x^2 + 24x + 16)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(6x - 4)(36x^2 - 24x + 16)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(6x + 4)(36x^2 - 24x + 16)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(6*x-4)*(36*x^2+24*x+16)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(36*x^2+24*x+16)*(6*x-4)"
+    ],
+    "solution_latex": "View the expression as $(6x)^3 - 4^3$ and apply the cube identity.",
+    "complexity_factor": 1.2,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-fa38ea198c338edb2dae53f919777266323194be8571ae026bd0d5a1602ffca9",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.medium.0021",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Factor completely: $8x^3 + 216$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2x - 6)(4x^2 + 12x + 36)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2x + 6)(4x^2 - 36)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2x + 6)(4x^2 - 12x + 36)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2x + 6)(4x^2 + 12x + 36)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(2*x+6)*(4*x^2-12*x+36)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(4*x^2-12*x+36)*(2*x+6)"
+    ],
+    "solution_latex": "View the expression as $(2x)^3 + 6^3$ and apply the cube identity.",
+    "complexity_factor": 1.2,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-1f481d978b1f002ec9fa711c91c90b438f24912bd6d57986231e83c9af871297",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.medium.0022",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Factor completely: $27x^3 - 512$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3x + 8)(9x^2 - 24x + 64)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3x - 8)(9x^2 + 24x + 64)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3x - 8)(9x^2 - 64)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3x - 8)(9x^2 - 24x + 64)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(3*x-8)*(9*x^2+24*x+64)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(9*x^2+24*x+64)*(3*x-8)"
+    ],
+    "solution_latex": "View the expression as $(3x)^3 - 8^3$ and apply the cube identity.",
+    "complexity_factor": 1.2,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-8361b3c360ec3a45357cfe27c04ab5292e602d825a2fb7843d10ffe46185424c",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.medium.0023",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Factor completely: $64x^3 + 1000$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4x + 10)(16x^2 - 100)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4x + 10)(16x^2 + 40x + 100)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4x + 10)(16x^2 - 40x + 100)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4x - 10)(16x^2 + 40x + 100)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(4*x+10)*(16*x^2-40*x+100)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(16*x^2-40*x+100)*(4*x+10)"
+    ],
+    "solution_latex": "View the expression as $(4x)^3 + 10^3$ and apply the cube identity.",
+    "complexity_factor": 1.2,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-dd74037d224d6906f515020145f16d926270459ec26a1f1531ff5179888d9a98",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.medium.0024",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Factor completely: $125x^3 - 27$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(5x - 3)(25x^2 - 15x + 9)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(5x - 3)(25x^2 - 9)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(5x - 3)(25x^2 + 15x + 9)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(5x + 3)(25x^2 - 15x + 9)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(5*x-3)*(25*x^2+15*x+9)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(25*x^2+15*x+9)*(5*x-3)"
+    ],
+    "solution_latex": "View the expression as $(5x)^3 - 3^3$ and apply the cube identity.",
+    "complexity_factor": 1.2,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-45c02b770031811ad272e833ceaac5a6ef32d05ac1f2cf1925cdf3daba43f2cf",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.medium.0025",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Factor completely: $216x^3 + 125$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(6x + 5)(36x^2 - 30x + 25)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(6x - 5)(36x^2 + 30x + 25)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(6x + 5)(36x^2 + 30x + 25)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(6x + 5)(36x^2 - 25)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(6*x+5)*(36*x^2-30*x+25)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(36*x^2-30*x+25)*(6*x+5)"
+    ],
+    "solution_latex": "View the expression as $(6x)^3 + 5^3$ and apply the cube identity.",
+    "complexity_factor": 1.2,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-204c1e9b42b0c6325c72c8235e22858456b546acb8bf2a9dc7f4ecc9f7e8490b",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.medium.0026",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Factor completely: $8x^3 - 343$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2x - 7)(4x^2 + 14x + 49)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2x - 7)(4x^2 - 49)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2x - 7)(4x^2 - 14x + 49)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2x + 7)(4x^2 - 14x + 49)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(2*x-7)*(4*x^2+14*x+49)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(4*x^2+14*x+49)*(2*x-7)"
+    ],
+    "solution_latex": "View the expression as $(2x)^3 - 7^3$ and apply the cube identity.",
+    "complexity_factor": 1.2,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-dd1141ae325b57111fc9a4563764f7fcea8a0bf1048bbafb3bc5571f8bc3f44e",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.medium.0027",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Factor completely: $27x^3 + 729$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3x + 9)(9x^2 - 81)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3x + 9)(9x^2 - 27x + 81)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3x + 9)(9x^2 + 27x + 81)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3x - 9)(9x^2 + 27x + 81)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(3*x+9)*(9*x^2-27*x+81)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(9*x^2-27*x+81)*(3*x+9)"
+    ],
+    "solution_latex": "View the expression as $(3x)^3 + 9^3$ and apply the cube identity.",
+    "complexity_factor": 1.2,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-0ed3498694613c5e7dee9a8f9d4f8d58304d522e494a8c78bdab38572d8de314",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.medium.0028",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Factor completely: $64x^3 - 8$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4x - 2)(16x^2 + 8x + 4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4x - 2)(16x^2 - 4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4x + 2)(16x^2 - 8x + 4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4x - 2)(16x^2 - 8x + 4)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(4*x-2)*(16*x^2+8*x+4)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(16*x^2+8*x+4)*(4*x-2)"
+    ],
+    "solution_latex": "View the expression as $(4x)^3 - 2^3$ and apply the cube identity.",
+    "complexity_factor": 1.2,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-e38720682411c35064168201a1971c38fbb5dae4fe33de26fdb12e481e8c3d79",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.medium.0029",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Factor completely: $125x^3 + 64$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(5x - 4)(25x^2 + 20x + 16)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(5x + 4)(25x^2 - 16)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(5x + 4)(25x^2 + 20x + 16)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(5x + 4)(25x^2 - 20x + 16)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(5*x+4)*(25*x^2-20*x+16)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(25*x^2-20*x+16)*(5*x+4)"
+    ],
+    "solution_latex": "View the expression as $(5x)^3 + 4^3$ and apply the cube identity.",
+    "complexity_factor": 1.2,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-38fe222fe4fd0e024b94791b11a463fe29265dcb1c92d4336fddac1a20731251",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.medium.0030",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Factor completely: $216x^3 - 216$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(6x - 6)(36x^2 + 36x + 36)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(6x - 6)(36x^2 - 36x + 36)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(6x + 6)(36x^2 - 36x + 36)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(6x - 6)(36x^2 - 36)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(6*x-6)*(36*x^2+36*x+36)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(36*x^2+36*x+36)*(6*x-6)"
+    ],
+    "solution_latex": "View the expression as $(6x)^3 - 6^3$ and apply the cube identity.",
+    "complexity_factor": 1.2,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-09cc9a0c4927c171497c2937173075a9d56d400d3043777cbd6b69e62b8cae7b",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.medium.0031",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Expand: $(x + 2)(x^2 - 2x + 4)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^3 + 4x + 8$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^3 + 2x + 8$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^3 + 8$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^3 - 8$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "x^3+8",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "The middle terms cancel, leaving $x^3+2^3$.",
+    "complexity_factor": 1.15,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "expansion"
+    ],
+    "checksum": "sha256-5763428bf0deb3761c59a0220c116a94ba182ffbe85c079bdb78926fe3d884a6",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.medium.0032",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Expand: $(x - 3)(x^2 + 3x + 9)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^3 - 3x - 27$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^3 - 27$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^3 + 27$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^3 - 9x - 27$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "x^3-27",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "The middle terms cancel, leaving $x^3-3^3$.",
+    "complexity_factor": 1.15,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "expansion"
+    ],
+    "checksum": "sha256-1ec2efa99a679af5b36af7b4ace672c68959cc6d3153d86cdf0e090ad2616e80",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.medium.0033",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Expand: $(x + 4)(x^2 - 4x + 16)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^3 + 64$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^3 + 16x + 64$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^3 + 4x + 64$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^3 - 64$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "x^3+64",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "The middle terms cancel, leaving $x^3+4^3$.",
+    "complexity_factor": 1.15,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "expansion"
+    ],
+    "checksum": "sha256-06ab73299805428bb3e2cb04ef5dde942cd82569dbaf413b9fa4e0a500b6f3ef",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.medium.0034",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Expand: $(x - 5)(x^2 + 5x + 25)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^3 - 125$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^3 - 5x - 125$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^3 + 125$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^3 - 25x - 125$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "x^3-125",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "The middle terms cancel, leaving $x^3-5^3$.",
+    "complexity_factor": 1.15,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "expansion"
+    ],
+    "checksum": "sha256-39f402ad2f79bea3b5a81cefa52a1d645662e1214cd532b4e2c6c150c157838b",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.medium.0035",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Expand: $(x + 6)(x^2 - 6x + 36)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^3 + 216$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^3 - 216$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^3 + 36x + 216$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^3 + 6x + 216$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "x^3+216",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "The middle terms cancel, leaving $x^3+6^3$.",
+    "complexity_factor": 1.15,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "expansion"
+    ],
+    "checksum": "sha256-0e09ca964b65535e275134e5057a5fe7d04d3aef47c4e5b0c884764fbbbdefe1",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.medium.0036",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Expand: $(x - 7)(x^2 + 7x + 49)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^3 + 343$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^3 - 49x - 343$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^3 - 343$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^3 - 7x - 343$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "x^3-343",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "The middle terms cancel, leaving $x^3-7^3$.",
+    "complexity_factor": 1.15,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "expansion"
+    ],
+    "checksum": "sha256-9e7d80c30d316bf53c97ef2ccd3c5d088eacc3c5ab6f5aad178058c30f17bba7",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.medium.0037",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Expand: $(x + 8)(x^2 - 8x + 64)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^3 - 512$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^3 + 64x + 512$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^3 + 8x + 512$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^3 + 512$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x^3+512",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "The middle terms cancel, leaving $x^3+8^3$.",
+    "complexity_factor": 1.15,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "expansion"
+    ],
+    "checksum": "sha256-5d0559a77818cf4b8830926ee5d4d425d6c6984faa5f5d740b2d4809f74d7b08",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.medium.0038",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Expand: $(x - 9)(x^2 + 9x + 81)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^3 - 81x - 729$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^3 - 9x - 729$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^3 + 729$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^3 - 729$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x^3-729",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "The middle terms cancel, leaving $x^3-9^3$.",
+    "complexity_factor": 1.15,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "expansion"
+    ],
+    "checksum": "sha256-8d23b704061d91657e870eaeb3fa15a1f2eca13534c5e77916b5895e558f3c56",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.medium.0039",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Expand: $(x + 10)(x^2 - 10x + 100)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^3 - 1000$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^3 + 10x + 1000$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^3 + 1000$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^3 + 100x + 1000$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "x^3+1000",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "The middle terms cancel, leaving $x^3+10^3$.",
+    "complexity_factor": 1.15,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "expansion"
+    ],
+    "checksum": "sha256-3999adf7638055a3e9bd86d6f01f9c86a88ceb5339ef1116814b63d78d27dea9",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.medium.0040",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Expand: $(x - 11)(x^2 + 11x + 121)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^3 + 1331$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^3 - 11x - 1331$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^3 - 121x - 1331$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^3 - 1331$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x^3-1331",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "The middle terms cancel, leaving $x^3-11^3$.",
+    "complexity_factor": 1.15,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "expansion"
+    ],
+    "checksum": "sha256-9f70e5b1c5ee50a7052d39e4a0f090fc20831f25f0e2d09634b6eb31245d02b2",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.medium.0041",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Expand: $(x + 12)(x^2 - 12x + 144)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^3 + 144x + 1728$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^3 + 1728$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^3 - 1728$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^3 + 12x + 1728$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "x^3+1728",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "The middle terms cancel, leaving $x^3+12^3$.",
+    "complexity_factor": 1.15,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "expansion"
+    ],
+    "checksum": "sha256-7af427e1c2dfe644c4832a732a61230a26f832f69525a92d10cc02f097ed4e55",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.medium.0042",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Expand: $(x - 13)(x^2 + 13x + 169)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^3 - 169x - 2197$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^3 + 2197$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^3 - 2197$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^3 - 13x - 2197$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "x^3-2197",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "The middle terms cancel, leaving $x^3-13^3$.",
+    "complexity_factor": 1.15,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "expansion"
+    ],
+    "checksum": "sha256-1345cb19fb2aeabadcd463bb079e0abbc6bf983ba659e3d8132b7bbc052eb0ea",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.medium.0043",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Expand: $(x + 14)(x^2 - 14x + 196)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^3 - 2744$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^3 + 2744$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^3 + 196x + 2744$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^3 + 14x + 2744$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "x^3+2744",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "The middle terms cancel, leaving $x^3+14^3$.",
+    "complexity_factor": 1.15,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "expansion"
+    ],
+    "checksum": "sha256-97cb8793d90eefbf69972432ed39dc7ea6b027859b2cdc22ace503cb6ae16b42",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.medium.0044",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Expand: $(x - 15)(x^2 + 15x + 225)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^3 - 3375$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^3 + 3375$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^3 - 15x - 3375$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^3 - 225x - 3375$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "x^3-3375",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "The middle terms cancel, leaving $x^3-15^3$.",
+    "complexity_factor": 1.15,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "expansion"
+    ],
+    "checksum": "sha256-491200f5cb9d3789433950695d432aeeb14de7c01e648e50b8fe706355f6effe",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.medium.0045",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Expand: $(x + 16)(x^2 - 16x + 256)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^3 - 4096$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^3 + 256x + 4096$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^3 + 16x + 4096$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^3 + 4096$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x^3+4096",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "The middle terms cancel, leaving $x^3+16^3$.",
+    "complexity_factor": 1.15,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "expansion"
+    ],
+    "checksum": "sha256-1b21da3f3e10ecfda25304786897693dc2507a1d3382c91250e0537c375d8818",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.medium.0046",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Expand: $(x - 17)(x^2 + 17x + 289)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^3 + 4913$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^3 - 4913$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^3 - 289x - 4913$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^3 - 17x - 4913$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "x^3-4913",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "The middle terms cancel, leaving $x^3-17^3$.",
+    "complexity_factor": 1.15,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "expansion"
+    ],
+    "checksum": "sha256-e966f29bcac98d11296037ba08d306a033bfef19f0fa07332446480c3056f7a7",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.medium.0047",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Expand: $(x + 18)(x^2 - 18x + 324)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^3 + 324x + 5832$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^3 + 5832$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^3 + 18x + 5832$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^3 - 5832$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "x^3+5832",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "The middle terms cancel, leaving $x^3+18^3$.",
+    "complexity_factor": 1.15,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "expansion"
+    ],
+    "checksum": "sha256-7847073b11125a21b64bb8b599e6a5dc9c92b9209e69162abfb7e2dcce3138c3",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.medium.0048",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Expand: $(x - 19)(x^2 + 19x + 361)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^3 - 19x - 6859$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^3 - 6859$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^3 - 361x - 6859$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^3 + 6859$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "x^3-6859",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "The middle terms cancel, leaving $x^3-19^3$.",
+    "complexity_factor": 1.15,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "expansion"
+    ],
+    "checksum": "sha256-4f867941313db53ef79347fc7d6d8d4bc4e92ee162e712f88f798a872c5e4922",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.medium.0049",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Expand: $(x + 20)(x^2 - 20x + 400)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^3 + 8000$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^3 - 8000$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^3 + 20x + 8000$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^3 + 400x + 8000$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "x^3+8000",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "The middle terms cancel, leaving $x^3+20^3$.",
+    "complexity_factor": 1.15,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "expansion"
+    ],
+    "checksum": "sha256-cc80b3b1cd59609a4244d8852ef967f81ba1e740446511f056ef242da16390d0",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.medium.0050",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "medium",
+    "prompt_latex": "Expand: $(x - 21)(x^2 + 21x + 441)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$x^3 - 441x - 9261$"
+      },
+      {
+        "id": "b",
+        "latex": "$x^3 - 21x - 9261$"
+      },
+      {
+        "id": "c",
+        "latex": "$x^3 + 9261$"
+      },
+      {
+        "id": "d",
+        "latex": "$x^3 - 9261$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "x^3-9261",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "The middle terms cancel, leaving $x^3-21^3$.",
+    "complexity_factor": 1.15,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "expansion"
+    ],
+    "checksum": "sha256-aaae797c1a2451e58b1dbc110ea5cb17d2f0e6ca9cba44e842b8505fd7ca322e",
+    "status": "valid"
+  }
+]

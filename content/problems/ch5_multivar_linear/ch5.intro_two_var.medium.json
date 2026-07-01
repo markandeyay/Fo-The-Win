@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "ch5.intro_two_var.medium.0001",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Find $k$ so that $(-2,1)$ is a solution to $3x + 3y = k$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-9$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$-6$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute: $3(-2) + 3(1) = -6 + 3 = -3$.",
+    "complexity_factor": 1,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "parameter"
+    ],
+    "checksum": "sha256-51d4922ccdfdc1cca045fe3addf661be39c4309ca3164de41b31ea4513653760",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.medium.0002",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "What is the slope of the line through $(2,5)$ and $(3,4)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7/8$"
+      },
+      {
+        "id": "b",
+        "latex": "$5/7$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1/1$"
+      },
+      {
+        "id": "d",
+        "latex": "$7/4$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-1/1",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Slope $= \\dfrac{4 - 5}{3 - 2} = \\dfrac{-1}{1} = \\dfrac{-1}{1}$.",
+    "complexity_factor": 1,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "slope"
+    ],
+    "checksum": "sha256-902af72026483b115a4116d0e78c779bdb1b0b3de0c28a6a7097d5b04f3ba1cd",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.medium.0003",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "The line $4px + 3y = 4$ passes through $(4,-4)$. Find $p$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $(4,-4)$: $p(4) + 3(-4) = 4$, so $4p = 16$ and $p = 4$.",
+    "complexity_factor": 1.05,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "parameter"
+    ],
+    "checksum": "sha256-1f9bdb243b10be054d865aee6874b6bd1bc4fdd319b7a43693a0386d62d56605",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.medium.0004",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(2,y)$ lies on $2x + 2y = 6$. Find $x + y$ when $x = 2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x = 2$: $4 + 2y = 6$, so $y = 1$ and $x + y = 3$.",
+    "complexity_factor": 1,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "evaluation"
+    ],
+    "checksum": "sha256-94471003e6a13955c8aafdac40febefbba31bf6df6b3f3683c7c8625c71c1b4e",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.medium.0005",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "What is the $y$-intercept of $2x + 3y = 17$? (Give the $y$-coordinate.)",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8/3$"
+      },
+      {
+        "id": "b",
+        "latex": "$13/5$"
+      },
+      {
+        "id": "c",
+        "latex": "$17/3$"
+      },
+      {
+        "id": "d",
+        "latex": "$9/4$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "17/3",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Set $x = 0$, then $3y = 17$, so $y = \\dfrac{17}{3}$.",
+    "complexity_factor": 1,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "intercepts"
+    ],
+    "checksum": "sha256-aa28ccbd50c1f6cf76ad16ed1bb4bacc4f867a4e9a453e25631fd59c71616361",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.medium.0006",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Find $k$ so that $(0,2)$ is a solution to $5x + y = k$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$-3$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute: $5(0) + 1(2) = 0 + 2 = 2$.",
+    "complexity_factor": 1,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "parameter"
+    ],
+    "checksum": "sha256-863bd1e514817aa9036767c2a1cd4a834c8f4eb6ed690e62f9dc3ca7e9691019",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.medium.0007",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "What is the slope of the line through $(-1,2)$ and $(1,4)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1/1$"
+      },
+      {
+        "id": "b",
+        "latex": "$2/3$"
+      },
+      {
+        "id": "c",
+        "latex": "$3/8$"
+      },
+      {
+        "id": "d",
+        "latex": "$7/3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1/1",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Slope $= \\dfrac{4 - 2}{1 - -1} = \\dfrac{2}{2} = \\dfrac{1}{1}$.",
+    "complexity_factor": 1,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "slope"
+    ],
+    "checksum": "sha256-335f8be94b42d6df05d283ca52347865a0e3585144deba1e8efe5b536594d4b0",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.medium.0008",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "The line $3px + 6y = 6$ passes through $(4,-1)$. Find $p$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $(4,-1)$: $p(4) + 6(-1) = 6$, so $4p = 12$ and $p = 3$.",
+    "complexity_factor": 1.05,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "parameter"
+    ],
+    "checksum": "sha256-b7f6f676f9d6d391a84e0df9b97a5cb462ea230ae1b11805c8e1ae7bca89a724",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.medium.0009",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(-2,y)$ lies on $3x + 5y = -26$. Find $x + y$ when $x = -2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$-6$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-24$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x = -2$: $-6 + 5y = -26$, so $y = -4$ and $x + y = -6$.",
+    "complexity_factor": 1,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "evaluation"
+    ],
+    "checksum": "sha256-d1bc6a9053ddc30689207fa091213a70533acdf632291b99b65a34f11133ce87",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.medium.0010",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "What is the $y$-intercept of $6x + 5y = 9$? (Give the $y$-coordinate.)",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$18/11$"
+      },
+      {
+        "id": "b",
+        "latex": "$14/9$"
+      },
+      {
+        "id": "c",
+        "latex": "$5/4$"
+      },
+      {
+        "id": "d",
+        "latex": "$9/5$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "9/5",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Set $x = 0$, then $5y = 9$, so $y = \\dfrac{9}{5}$.",
+    "complexity_factor": 1,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "intercepts"
+    ],
+    "checksum": "sha256-fed1a0ab896dfe829e75d52ed032c5d853d67b08234c64541388179087c2bf6e",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.medium.0011",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Find $k$ so that $(-4,-4)$ is a solution to $4x + 3y = k$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-24$"
+      },
+      {
+        "id": "b",
+        "latex": "$-32$"
+      },
+      {
+        "id": "c",
+        "latex": "$-28$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-28",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute: $4(-4) + 3(-4) = -16 + -12 = -28$.",
+    "complexity_factor": 1,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "parameter"
+    ],
+    "checksum": "sha256-e2f9b619d4ac64424e2410433f97d1d65383a52a0de3ed4b846d7e147bf4e661",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.medium.0012",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "What is the slope of the line through $(-3,-2)$ and $(4,3)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1/1$"
+      },
+      {
+        "id": "b",
+        "latex": "$5/7$"
+      },
+      {
+        "id": "c",
+        "latex": "$7/12$"
+      },
+      {
+        "id": "d",
+        "latex": "$3/4$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "5/7",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Slope $= \\dfrac{3 - -2}{4 - -3} = \\dfrac{5}{7} = \\dfrac{5}{7}$.",
+    "complexity_factor": 1,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "slope"
+    ],
+    "checksum": "sha256-c93e640519ddcdd281906a69a907e1d2825ae3434cbf24fe09408d6b660e46da",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.medium.0013",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "The ordered pair $(x,y)$ satisfies $3x + 4y = -12$. If $x = 0$, find $y$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x = 0$ to get $0 + 4y = -12$. Thus $4y = -12$, so $y = -3$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "linear_equation"
+    ],
+    "checksum": "sha256-625e7b04f817dc78bba57c943b174ea7a0930f8168904f6d29c7738d5a3f1aeb",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.medium.0014",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(-1,y)$ lies on $4x + 6y = 14$. Find $x + y$ when $x = -1$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$15$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x = -1$: $-4 + 6y = 14$, so $y = 3$ and $x + y = 2$.",
+    "complexity_factor": 1,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "evaluation"
+    ],
+    "checksum": "sha256-e5b957a679bf7053c978e7971d57184ab26812f2740ccf853dad2d52753f5437",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.medium.0015",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "What is the $y$-intercept of $3x + 2y = 2$? (Give the $y$-coordinate.)",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3/5$"
+      },
+      {
+        "id": "b",
+        "latex": "$7/3$"
+      },
+      {
+        "id": "c",
+        "latex": "$1/1$"
+      },
+      {
+        "id": "d",
+        "latex": "$8/7$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "1/1",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Set $x = 0$, then $2y = 2$, so $y = \\dfrac{1}{1}$.",
+    "complexity_factor": 1,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "intercepts"
+    ],
+    "checksum": "sha256-9675a3c3729cecb3fb8e3fd1cd5e8976dd8ca6b1b3909fb96d5fb746042c0db3",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.medium.0016",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Find $k$ so that $(3,0)$ is a solution to $2x + y = k$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute: $2(3) + 1(0) = 6 + 0 = 6$.",
+    "complexity_factor": 1,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "parameter"
+    ],
+    "checksum": "sha256-d2bee9ae76d5f172bca9a20dcb7295d43a1afbe6becde26de913e71a0fb38611",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.medium.0017",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "What is the slope of the line through $(4,0)$ and $(3,-1)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7/8$"
+      },
+      {
+        "id": "b",
+        "latex": "$1/1$"
+      },
+      {
+        "id": "c",
+        "latex": "$1/3$"
+      },
+      {
+        "id": "d",
+        "latex": "$7/6$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1/1",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Slope $= \\dfrac{-1 - 0}{3 - 4} = \\dfrac{-1}{-1} = \\dfrac{1}{1}$.",
+    "complexity_factor": 1,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "slope"
+    ],
+    "checksum": "sha256-a79e7d1643a2e0864416aac80e587e0626dfaf05f3aa001e0d29c7fc38d13cf6",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.medium.0018",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "The line $2px + 4y = 8$ passes through $(0,2)$. Find $p$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $(0,2)$: $p(0) + 4(2) = 8$, so $0p = 0$ and $p = 2$.",
+    "complexity_factor": 1.05,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "parameter"
+    ],
+    "checksum": "sha256-90a27853e99ee1da20866d8b28dd0239619f76039a2955a26b41fc391562f380",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.medium.0019",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(-3,y)$ lies on $6x + 6y = -12$. Find $x + y$ when $x = -3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-9$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-12$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x = -3$: $-18 + 6y = -12$, so $y = 1$ and $x + y = -2$.",
+    "complexity_factor": 1,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "evaluation"
+    ],
+    "checksum": "sha256-98cc7f70143378714b085dea7dce5dfd31d8299540a4e66bc78b48b7d3c420d9",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.medium.0020",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "What is the $y$-intercept of $7x + 3y = 2$? (Give the $y$-coordinate.)",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1/4$"
+      },
+      {
+        "id": "b",
+        "latex": "$2/3$"
+      },
+      {
+        "id": "c",
+        "latex": "$4/7$"
+      },
+      {
+        "id": "d",
+        "latex": "$1/1$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "2/3",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Set $x = 0$, then $3y = 2$, so $y = \\dfrac{2}{3}$.",
+    "complexity_factor": 1,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "intercepts"
+    ],
+    "checksum": "sha256-23dd436c89465ca0ff2eb2234f63f746f235aeb2c2a92872619bc9328a67578b",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.medium.0021",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Find $k$ so that $(-4,-2)$ is a solution to $5x + 2y = k$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-16$"
+      },
+      {
+        "id": "b",
+        "latex": "$-29$"
+      },
+      {
+        "id": "c",
+        "latex": "$-19$"
+      },
+      {
+        "id": "d",
+        "latex": "$-24$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-24",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute: $5(-4) + 2(-2) = -20 + -4 = -24$.",
+    "complexity_factor": 1,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "parameter"
+    ],
+    "checksum": "sha256-24611242d38573857d4cd4b3b66bcc6b0af174023f4706f451ef81a0eafece7a",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.medium.0022",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "What is the slope of the line through $(4,-2)$ and $(-5,-1)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6/17$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1/9$"
+      },
+      {
+        "id": "c",
+        "latex": "$4/13$"
+      },
+      {
+        "id": "d",
+        "latex": "$2/17$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-1/9",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Slope $= \\dfrac{-1 - -2}{-5 - 4} = \\dfrac{1}{-9} = \\dfrac{-1}{9}$.",
+    "complexity_factor": 1,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "slope"
+    ],
+    "checksum": "sha256-f1610410d682842e002beb0fc1a26015ed6b56e2b502ef3c269011ca71811399",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.medium.0023",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "The line $4px + 3y = 28$ passes through $(4,4)$. Find $p$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$16$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $(4,4)$: $p(4) + 3(4) = 28$, so $4p = 16$ and $p = 4$.",
+    "complexity_factor": 1.05,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "parameter"
+    ],
+    "checksum": "sha256-60dbd5d72c2a08834f9345aa754641a672c63111279c28ce20f0ece5e4f09c3a",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.medium.0024",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(-4,y)$ lies on $x + 6y = -16$. Find $x + y$ when $x = -4$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-6$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-12$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x = -4$: $-4 + 6y = -16$, so $y = -2$ and $x + y = -6$.",
+    "complexity_factor": 1,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "evaluation"
+    ],
+    "checksum": "sha256-4d6426d72c3acce6e849b19b66bf960a9186eb395916660861e1c1b9fd71889c",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.medium.0025",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "What is the $y$-intercept of $7x + 7y = 11$? (Give the $y$-coordinate.)",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4/3$"
+      },
+      {
+        "id": "b",
+        "latex": "$3/2$"
+      },
+      {
+        "id": "c",
+        "latex": "$16/11$"
+      },
+      {
+        "id": "d",
+        "latex": "$11/7$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "11/7",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Set $x = 0$, then $7y = 11$, so $y = \\dfrac{11}{7}$.",
+    "complexity_factor": 1,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "intercepts"
+    ],
+    "checksum": "sha256-97317845866142a62af69be32f68f350e9e5c729fd5e23f6faac583cd3b46a39",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.medium.0026",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Find $k$ so that $(4,-4)$ is a solution to $5x + 2y = k$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$17$"
+      },
+      {
+        "id": "b",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$28$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute: $5(4) + 2(-4) = 20 + -8 = 12$.",
+    "complexity_factor": 1,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "parameter"
+    ],
+    "checksum": "sha256-adad680135d73f1420e3cb3a8562ff10b5ceffaede0813db002c7a91026dc762",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.medium.0027",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "What is the slope of the line through $(-2,0)$ and $(-4,-5)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$13/8$"
+      },
+      {
+        "id": "b",
+        "latex": "$11/5$"
+      },
+      {
+        "id": "c",
+        "latex": "$13/6$"
+      },
+      {
+        "id": "d",
+        "latex": "$5/2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "5/2",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Slope $= \\dfrac{-5 - 0}{-4 - -2} = \\dfrac{-5}{-2} = \\dfrac{5}{2}$.",
+    "complexity_factor": 1,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "slope"
+    ],
+    "checksum": "sha256-e80df0b3b84d576b4ba58ccbe332bbbbf4a57621a46d23de229471a66da16927",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.medium.0028",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "The ordered pair $(x,y)$ satisfies $2x + 4y = -2$. If $x = -3$, find $y$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x = -3$ to get $-6 + 4y = -2$. Thus $4y = 4$, so $y = 1$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "linear_equation"
+    ],
+    "checksum": "sha256-3c32468aa1bed32fb1ade88d1659052eb1c98c664e97e88c9fb08ee16cd00809",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.medium.0029",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(-1,y)$ lies on $6x + y = -5$. Find $x + y$ when $x = -1$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-5$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x = -1$: $-6 + 1y = -5$, so $y = 1$ and $x + y = 0$.",
+    "complexity_factor": 1,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "evaluation"
+    ],
+    "checksum": "sha256-6e05a0e6ca8064dc6b6633d6cdebdb2e15c09c2d1bb39a675b8a72a640cc6617",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.medium.0030",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "What is the $y$-intercept of $7x + 7y = 20$? (Give the $y$-coordinate.)",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7/4$"
+      },
+      {
+        "id": "b",
+        "latex": "$25/13$"
+      },
+      {
+        "id": "c",
+        "latex": "$20/7$"
+      },
+      {
+        "id": "d",
+        "latex": "$29/15$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "20/7",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Set $x = 0$, then $7y = 20$, so $y = \\dfrac{20}{7}$.",
+    "complexity_factor": 1,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "intercepts"
+    ],
+    "checksum": "sha256-1d3659ab7e7679f628381fdfa5a4c5b0bc05d507232a1506a4b06d76a8198369",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.medium.0031",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "The ordered pair $(x,y)$ satisfies $5x + 4y = 16$. If $x = 0$, find $y$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x = 0$ to get $0 + 4y = 16$. Thus $4y = 16$, so $y = 4$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "linear_equation"
+    ],
+    "checksum": "sha256-69d80b202b03319765f7d27b7916616efa44362c69009f4598ba07daa6e49acd",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.medium.0032",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "What is the slope of the line through $(-3,-1)$ and $(1,0)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3/7$"
+      },
+      {
+        "id": "b",
+        "latex": "$1/4$"
+      },
+      {
+        "id": "c",
+        "latex": "$2/3$"
+      },
+      {
+        "id": "d",
+        "latex": "$1/3$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1/4",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Slope $= \\dfrac{0 - -1}{1 - -3} = \\dfrac{1}{4} = \\dfrac{1}{4}$.",
+    "complexity_factor": 1,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "slope"
+    ],
+    "checksum": "sha256-9f4190284fa9d5493dca315425c55e76723750fea7d71203f8e3ec250f6dbbd9",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.medium.0033",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "The ordered pair $(x,y)$ satisfies $3x + 3y = -9$. If $x = 2$, find $y$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-5$"
+      },
+      {
+        "id": "c",
+        "latex": "$-6$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x = 2$ to get $6 + 3y = -9$. Thus $3y = -15$, so $y = -5$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "linear_equation"
+    ],
+    "checksum": "sha256-7c2491a47e7fc9f92f29ade87d08f4fdbc39acb36db7d3825f97af68b3a09675",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.medium.0034",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(-3,y)$ lies on $3x + 3y = -18$. Find $x + y$ when $x = -3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-15$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$-6$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x = -3$: $-9 + 3y = -18$, so $y = -3$ and $x + y = -6$.",
+    "complexity_factor": 1,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "evaluation"
+    ],
+    "checksum": "sha256-3138bfd474acfde59592e66668b01dbde2564c19fa55a251b093722fdc96fad9",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.medium.0035",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "What is the $y$-intercept of $2x + 3y = 15$? (Give the $y$-coordinate.)",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$14/9$"
+      },
+      {
+        "id": "b",
+        "latex": "$3/4$"
+      },
+      {
+        "id": "c",
+        "latex": "$5/1$"
+      },
+      {
+        "id": "d",
+        "latex": "$9/8$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "5/1",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Set $x = 0$, then $3y = 15$, so $y = \\dfrac{5}{1}$.",
+    "complexity_factor": 1,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "intercepts"
+    ],
+    "checksum": "sha256-6d24dffc83b2c02f7bf5830895056b221a4cd97dc54a0d2bf5bfaaafcae28b3a",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.medium.0036",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Find $k$ so that $(-3,2)$ is a solution to $2x + 2y = k$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4$"
+      },
+      {
+        "id": "d",
+        "latex": "$-10$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute: $2(-3) + 2(2) = -6 + 4 = -2$.",
+    "complexity_factor": 1,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "parameter"
+    ],
+    "checksum": "sha256-82952bc313a48d73f44f327cfd7b6d3452880c3557d966068486bed977ef56d8",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.medium.0037",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "What is the slope of the line through $(4,-5)$ and $(-3,-3)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7/10$"
+      },
+      {
+        "id": "b",
+        "latex": "$1/7$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1/11$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2/7$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-2/7",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Slope $= \\dfrac{-3 - -5}{-3 - 4} = \\dfrac{2}{-7} = \\dfrac{-2}{7}$.",
+    "complexity_factor": 1,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "slope"
+    ],
+    "checksum": "sha256-77b5f0f01815e1c022784fa09af16d643121e010cccfe3e48a5f5f29589f28c8",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.medium.0038",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "The line $6px + 5y = 18$ passes through $(3,0)$. Find $p$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$18$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $(3,0)$: $p(3) + 5(0) = 18$, so $3p = 18$ and $p = 6$.",
+    "complexity_factor": 1.05,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "parameter"
+    ],
+    "checksum": "sha256-e56f5040b0e4a73ab0b11a1c781992394caecf057407b3c4488164ee595bdb85",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.medium.0039",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(-1,y)$ lies on $6x + 2y = -2$. Find $x + y$ when $x = -1$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x = -1$: $-6 + 2y = -2$, so $y = 2$ and $x + y = 1$.",
+    "complexity_factor": 1,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "evaluation"
+    ],
+    "checksum": "sha256-3712612cac0a24c0d14fb0276797ee599fefacb8c0f8e6543425ea4fb053c6b8",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.medium.0040",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "What is the $y$-intercept of $8x + 2y = 17$? (Give the $y$-coordinate.)",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$17/2$"
+      },
+      {
+        "id": "b",
+        "latex": "$26/11$"
+      },
+      {
+        "id": "c",
+        "latex": "$5/1$"
+      },
+      {
+        "id": "d",
+        "latex": "$13/2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "17/2",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Set $x = 0$, then $2y = 17$, so $y = \\dfrac{17}{2}$.",
+    "complexity_factor": 1,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "intercepts"
+    ],
+    "checksum": "sha256-d080cabea47d27e21925662a264ae776fcf7a588c8eca1e4c6bb8ab385519d6f",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.medium.0041",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Find $k$ so that $(-3,-4)$ is a solution to $3x + y = k$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-13$"
+      },
+      {
+        "id": "b",
+        "latex": "$-5$"
+      },
+      {
+        "id": "c",
+        "latex": "$-16$"
+      },
+      {
+        "id": "d",
+        "latex": "$-10$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-13",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute: $3(-3) + 1(-4) = -9 + -4 = -13$.",
+    "complexity_factor": 1,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "parameter"
+    ],
+    "checksum": "sha256-842648e9062bd36cb52093ef4d44b225b8d6e9f2e4c17af5f1599364d8c7c900",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.medium.0042",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "What is the slope of the line through $(-5,-1)$ and $(5,1)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10/13$"
+      },
+      {
+        "id": "b",
+        "latex": "$7/11$"
+      },
+      {
+        "id": "c",
+        "latex": "$1/6$"
+      },
+      {
+        "id": "d",
+        "latex": "$1/5$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1/5",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Slope $= \\dfrac{1 - -1}{5 - -5} = \\dfrac{2}{10} = \\dfrac{1}{5}$.",
+    "complexity_factor": 1,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "slope"
+    ],
+    "checksum": "sha256-e88d157d3a46270c4496cffce39ba3db146adfe14ef7a3094c0101c78fe0160a",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.medium.0043",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "The line $6px + 6y = 30$ passes through $(4,1)$. Find $p$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$16$"
+      },
+      {
+        "id": "c",
+        "latex": "$24$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $(4,1)$: $p(4) + 6(1) = 30$, so $4p = 24$ and $p = 6$.",
+    "complexity_factor": 1.05,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "parameter"
+    ],
+    "checksum": "sha256-55aa7f3d1d018845494205297e6949118fa765aed44d828ace94952039bda3a2",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.medium.0044",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(1,y)$ lies on $6x + y = 10$. Find $x + y$ when $x = 1$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x = 1$: $6 + 1y = 10$, so $y = 4$ and $x + y = 5$.",
+    "complexity_factor": 1,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "evaluation"
+    ],
+    "checksum": "sha256-45635c3b283488647db4108d09d8ce81b6da7c43bbd4ff301a62da175fa38235",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.medium.0045",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "What is the $y$-intercept of $2x + 6y = 6$? (Give the $y$-coordinate.)",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1/1$"
+      },
+      {
+        "id": "b",
+        "latex": "$5/3$"
+      },
+      {
+        "id": "c",
+        "latex": "$5/4$"
+      },
+      {
+        "id": "d",
+        "latex": "$1/3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1/1",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Set $x = 0$, then $6y = 6$, so $y = \\dfrac{1}{1}$.",
+    "complexity_factor": 1,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "intercepts"
+    ],
+    "checksum": "sha256-b9c77fe0401f6a4a399df4f33a95d6d78b82f8dc48d22a8903181fd4b0530e7f",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.medium.0046",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Find $k$ so that $(-4,2)$ is a solution to $4x + 5y = k$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-6$"
+      },
+      {
+        "id": "b",
+        "latex": "$-10$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-26$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute: $4(-4) + 5(2) = -16 + 10 = -6$.",
+    "complexity_factor": 1,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "parameter"
+    ],
+    "checksum": "sha256-0dc2f557617a1878ed137ddf9695222c81cbd384e0b966c4a419dbb9a9dc7729",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.medium.0047",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "What is the slope of the line through $(5,0)$ and $(0,-5)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4/5$"
+      },
+      {
+        "id": "b",
+        "latex": "$3/5$"
+      },
+      {
+        "id": "c",
+        "latex": "$5/3$"
+      },
+      {
+        "id": "d",
+        "latex": "$1/1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1/1",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Slope $= \\dfrac{-5 - 0}{0 - 5} = \\dfrac{-5}{-5} = \\dfrac{1}{1}$.",
+    "complexity_factor": 1,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "slope"
+    ],
+    "checksum": "sha256-c63cd31ed224dd501909c995f85db15666a8c15b50c122e736b55c185ed99478",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.medium.0048",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "The line $4px + 2y = 2$ passes through $(2,-3)$. Find $p$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $(2,-3)$: $p(2) + 2(-3) = 2$, so $2p = 8$ and $p = 4$.",
+    "complexity_factor": 1.05,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "parameter"
+    ],
+    "checksum": "sha256-b43ec746dc2f0353684313d4ed65bab9348b036da7f812768a6a162f64e3eb67",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.medium.0049",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(3,y)$ lies on $3x + 6y = 9$. Find $x + y$ when $x = 3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$15$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x = 3$: $9 + 6y = 9$, so $y = 0$ and $x + y = 3$.",
+    "complexity_factor": 1,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "evaluation"
+    ],
+    "checksum": "sha256-37df1778814ff663b69e7a69d1fa0d14eabeca78ff817e09e0647b9b73e6224c",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.medium.0050",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "What is the $y$-intercept of $6x + 5y = 6$? (Give the $y$-coordinate.)",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10/7$"
+      },
+      {
+        "id": "b",
+        "latex": "$9/10$"
+      },
+      {
+        "id": "c",
+        "latex": "$7/5$"
+      },
+      {
+        "id": "d",
+        "latex": "$6/5$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "6/5",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Set $x = 0$, then $5y = 6$, so $y = \\dfrac{6}{5}$.",
+    "complexity_factor": 1,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "intercepts"
+    ],
+    "checksum": "sha256-3200510fbc079549d35e3699364688258a553202e88997ebd7c71d959a28e9ee",
+    "status": "valid"
+  }
+]

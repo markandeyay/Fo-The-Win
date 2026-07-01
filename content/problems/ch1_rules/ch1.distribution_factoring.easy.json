@@ -1,0 +1,1988 @@
+[
+  {
+    "id": "ch1.distribution_factoring.easy.0001",
+    "topic_id": "ch1.distribution_factoring",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Simplify $2(2x + 2)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "c",
+        "latex": "$4x+5$"
+      },
+      {
+        "id": "b",
+        "latex": "$4x+2$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4x+4) + 1$"
+      },
+      {
+        "id": "a",
+        "latex": "$4x+4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "4*x+4",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "4+4*x"
+    ],
+    "solution_latex": "Distribute: $2\\cdot 2x + 2\\cdot 2 = 4x + 4$.",
+    "complexity_factor": 0.85,
+    "source_section": "1.4",
+    "tags": [
+      "distribution"
+    ],
+    "checksum": "sha256-c87c047f931a9c00211501937c5f9cc30617fab1b3d997e3d8d0f3723b814dce",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.distribution_factoring.easy.0002",
+    "topic_id": "ch1.distribution_factoring",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Simplify $3(6 - 5x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "c",
+        "latex": "$18-16x$"
+      },
+      {
+        "id": "b",
+        "latex": "$18-5x$"
+      },
+      {
+        "id": "d",
+        "latex": "$9x-5$"
+      },
+      {
+        "id": "a",
+        "latex": "$18-15x$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "18-15*x",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "-15*x+18"
+    ],
+    "solution_latex": "Distribute: $3\\cdot 6 - 3\\cdot 5x = 18 - 15x$.",
+    "complexity_factor": 0.85,
+    "source_section": "1.4",
+    "tags": [
+      "distribution"
+    ],
+    "checksum": "sha256-25b969db199887123b82f26f9ac7debdf1aac079088af03c099d5a323fab33a5",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.distribution_factoring.easy.0003",
+    "topic_id": "ch1.distribution_factoring",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $88x + 88x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "c",
+        "latex": "$9(11+11)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(8+x)(11+11)$"
+      },
+      {
+        "id": "b",
+        "latex": "$176x$"
+      },
+      {
+        "id": "a",
+        "latex": "$8(11+11)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "8(11+11)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "8(11+11)"
+    ],
+    "solution_latex": "Both terms share $8x$: $8x(11+11)$.",
+    "complexity_factor": 0.85,
+    "source_section": "1.4",
+    "tags": [
+      "factoring"
+    ],
+    "checksum": "sha256-700fcd83275c3d9b2f8273c57f021c327ee987d78908ab569a3d98ed7076f72f",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.distribution_factoring.easy.0004",
+    "topic_id": "ch1.distribution_factoring",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Compute $3 \\cdot 105$ using the distributive property.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "b",
+        "latex": "$305$"
+      },
+      {
+        "id": "a",
+        "latex": "$315$"
+      },
+      {
+        "id": "d",
+        "latex": "$316$"
+      },
+      {
+        "id": "c",
+        "latex": "$308$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "315",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$3(100+5)=300+15=315$.",
+    "complexity_factor": 0.85,
+    "source_section": "1.4",
+    "tags": [
+      "distribution"
+    ],
+    "checksum": "sha256-6a0dee6342e23399f0c8a4b770767fbf18b144ecb87daf9dbb9dfbff0d70968f",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.distribution_factoring.easy.0005",
+    "topic_id": "ch1.distribution_factoring",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Simplify $-(4x - 6)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4x+6$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4x-6$"
+      },
+      {
+        "id": "d",
+        "latex": "$4x-6$"
+      },
+      {
+        "id": "c",
+        "latex": "$4x+6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-4*x+6",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "6-4*x"
+    ],
+    "solution_latex": "Distribute the negative: $-4x+6$.",
+    "complexity_factor": 0.85,
+    "source_section": "1.4",
+    "tags": [
+      "distribution"
+    ],
+    "checksum": "sha256-b91953314ea714ccd60cc012749bcd75ca012ff4a017e2437bcd82a47ea8b613",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.distribution_factoring.easy.0006",
+    "topic_id": "ch1.distribution_factoring",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $20x + 15y$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "c",
+        "latex": "$5(x+y)$"
+      },
+      {
+        "id": "d",
+        "latex": "$5(x+3y)$"
+      },
+      {
+        "id": "b",
+        "latex": "$35(x+y)$"
+      },
+      {
+        "id": "a",
+        "latex": "$5(4x+3y)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "5(4*x+3*y)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "5(3*y+4*x)"
+    ],
+    "solution_latex": "The greatest common factor is $5$.",
+    "complexity_factor": 0.85,
+    "source_section": "1.4",
+    "tags": [
+      "factoring"
+    ],
+    "checksum": "sha256-93850b47c273443e7ddcce2f7ce953b19cc7edc61bf41005eb1705ca3d81ed51",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.distribution_factoring.easy.0007",
+    "topic_id": "ch1.distribution_factoring",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $10x + 4$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "d",
+        "latex": "$(2+5)(x+2)$"
+      },
+      {
+        "id": "a",
+        "latex": "$2(5x+2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$2(x+2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$5x+2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2(5*x+2)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "2(2+5*x)"
+    ],
+    "solution_latex": "Factor out $2$: $2(5x+2)$.",
+    "complexity_factor": 0.85,
+    "source_section": "1.4",
+    "tags": [
+      "factoring"
+    ],
+    "checksum": "sha256-95518c61e281038199e7fae32b2b441e7c43d38ab07babe2696438c68fccec29",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.distribution_factoring.easy.0008",
+    "topic_id": "ch1.distribution_factoring",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Simplify $3(6x + 3)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "c",
+        "latex": "$9x+3$"
+      },
+      {
+        "id": "d",
+        "latex": "$18x+10$"
+      },
+      {
+        "id": "a",
+        "latex": "$18x+9$"
+      },
+      {
+        "id": "b",
+        "latex": "$18x+3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "18*x+9",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "9+18*x"
+    ],
+    "solution_latex": "Distribute: $3\\cdot 6x + 3\\cdot 3 = 18x + 9$.",
+    "complexity_factor": 0.85,
+    "source_section": "1.4",
+    "tags": [
+      "distribution"
+    ],
+    "checksum": "sha256-34aaf8710afefb18504cb988fcf4d3e7e61b1cf413a89a0fe8ad19e9287d5da9",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.distribution_factoring.easy.0009",
+    "topic_id": "ch1.distribution_factoring",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Simplify $5(5 - 3x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "b",
+        "latex": "$25-3x$"
+      },
+      {
+        "id": "c",
+        "latex": "$25-16x$"
+      },
+      {
+        "id": "d",
+        "latex": "$10x-3$"
+      },
+      {
+        "id": "a",
+        "latex": "$25-15x$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "25-15*x",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "-15*x+25"
+    ],
+    "solution_latex": "Distribute: $5\\cdot 5 - 5\\cdot 3x = 25 - 15x$.",
+    "complexity_factor": 0.85,
+    "source_section": "1.4",
+    "tags": [
+      "distribution"
+    ],
+    "checksum": "sha256-8647a1239f2d67e420d6f4a0387a55117948c0747fb9c40e1a4d2f3fa3840373",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.distribution_factoring.easy.0010",
+    "topic_id": "ch1.distribution_factoring",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $24x + 88x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "c",
+        "latex": "$9(3+11)$"
+      },
+      {
+        "id": "a",
+        "latex": "$8(3+11)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(8+x)(3+11)$"
+      },
+      {
+        "id": "b",
+        "latex": "$112x$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "8(3+11)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "8(11+3)"
+    ],
+    "solution_latex": "Both terms share $8x$: $8x(3+11)$.",
+    "complexity_factor": 0.85,
+    "source_section": "1.4",
+    "tags": [
+      "factoring"
+    ],
+    "checksum": "sha256-72138c38caf835ece0be8e1cbc13455cec8a8d337058791761fd00b2455b35a1",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.distribution_factoring.easy.0011",
+    "topic_id": "ch1.distribution_factoring",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Compute $10 \\cdot 106$ using the distributive property.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "b",
+        "latex": "$1006$"
+      },
+      {
+        "id": "c",
+        "latex": "$1016$"
+      },
+      {
+        "id": "d",
+        "latex": "$1061$"
+      },
+      {
+        "id": "a",
+        "latex": "$1060$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1060",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$10(100+6)=1000+60=1060$.",
+    "complexity_factor": 0.85,
+    "source_section": "1.4",
+    "tags": [
+      "distribution"
+    ],
+    "checksum": "sha256-92b08ebeee83e0ff0f0b5809d589be324b1356b9619c148df566e67569344e2c",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.distribution_factoring.easy.0012",
+    "topic_id": "ch1.distribution_factoring",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Simplify $-(6x - 9)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-6x+9$"
+      },
+      {
+        "id": "c",
+        "latex": "$6x+9$"
+      },
+      {
+        "id": "d",
+        "latex": "$6x-9$"
+      },
+      {
+        "id": "b",
+        "latex": "$-6x-9$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-6*x+9",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "9-6*x"
+    ],
+    "solution_latex": "Distribute the negative: $-6x+9$.",
+    "complexity_factor": 0.85,
+    "source_section": "1.4",
+    "tags": [
+      "distribution"
+    ],
+    "checksum": "sha256-dcd38a75ef9bdf385c43669a3ff9e2dbcbe6618b260767e2d0d803d00ae84998",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.distribution_factoring.easy.0013",
+    "topic_id": "ch1.distribution_factoring",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $9x + 9y$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "d",
+        "latex": "$3(x+3y)$"
+      },
+      {
+        "id": "b",
+        "latex": "$18(x+y)$"
+      },
+      {
+        "id": "a",
+        "latex": "$3(3x+3y)$"
+      },
+      {
+        "id": "c",
+        "latex": "$3(x+y)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "3(3*x+3*y)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "3(3*y+3*x)"
+    ],
+    "solution_latex": "The greatest common factor is $3$.",
+    "complexity_factor": 0.85,
+    "source_section": "1.4",
+    "tags": [
+      "factoring"
+    ],
+    "checksum": "sha256-40bebb186b51baec4b7749787ec13a63e8b081685c37993f96b4d3d031f6779c",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.distribution_factoring.easy.0014",
+    "topic_id": "ch1.distribution_factoring",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $20x + 24$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "c",
+        "latex": "$4(x+6)$"
+      },
+      {
+        "id": "b",
+        "latex": "$5x+6$"
+      },
+      {
+        "id": "a",
+        "latex": "$4(5x+6)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4+5)(x+6)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "4(5*x+6)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "4(6+5*x)"
+    ],
+    "solution_latex": "Factor out $4$: $4(5x+6)$.",
+    "complexity_factor": 0.85,
+    "source_section": "1.4",
+    "tags": [
+      "factoring"
+    ],
+    "checksum": "sha256-46e9a6a8afe85f8d34006632d0dbad742c91e06dab7d2d4ca63fc8d851d4da2e",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.distribution_factoring.easy.0015",
+    "topic_id": "ch1.distribution_factoring",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Simplify $6(10x + 1)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "c",
+        "latex": "$16x+1$"
+      },
+      {
+        "id": "d",
+        "latex": "$60x+7$"
+      },
+      {
+        "id": "b",
+        "latex": "$60x+1$"
+      },
+      {
+        "id": "a",
+        "latex": "$60x+6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "60*x+6",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "6+60*x"
+    ],
+    "solution_latex": "Distribute: $6\\cdot 10x + 6\\cdot 1 = 60x + 6$.",
+    "complexity_factor": 0.85,
+    "source_section": "1.4",
+    "tags": [
+      "distribution"
+    ],
+    "checksum": "sha256-8c28433f2b2995e0189ba0ca1f84e147d8b66ae7144d33689bd05146c9b5f6bd",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.distribution_factoring.easy.0016",
+    "topic_id": "ch1.distribution_factoring",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Simplify $9(5 - 1x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$45-9x$"
+      },
+      {
+        "id": "c",
+        "latex": "$45-10x$"
+      },
+      {
+        "id": "b",
+        "latex": "$45-1x$"
+      },
+      {
+        "id": "d",
+        "latex": "$14x-1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "45-9*x",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "-9*x+45"
+    ],
+    "solution_latex": "Distribute: $9\\cdot 5 - 9\\cdot 1x = 45 - 9x$.",
+    "complexity_factor": 0.85,
+    "source_section": "1.4",
+    "tags": [
+      "distribution"
+    ],
+    "checksum": "sha256-2ce8ffc168652e6e665aed420efb364a532f23f8a1c9dd9b241923fdd8b51404",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.distribution_factoring.easy.0017",
+    "topic_id": "ch1.distribution_factoring",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $36x + 44x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "b",
+        "latex": "$80x$"
+      },
+      {
+        "id": "c",
+        "latex": "$5(9+11)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4+x)(9+11)$"
+      },
+      {
+        "id": "a",
+        "latex": "$4(9+11)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "4(9+11)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "4(11+9)"
+    ],
+    "solution_latex": "Both terms share $4x$: $4x(9+11)$.",
+    "complexity_factor": 0.85,
+    "source_section": "1.4",
+    "tags": [
+      "factoring"
+    ],
+    "checksum": "sha256-108c30ac5863357015f6895f76bb4ed5bf29fe994a613a564e834e7c23c50771",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.distribution_factoring.easy.0018",
+    "topic_id": "ch1.distribution_factoring",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Compute $3 \\cdot 15$ using the distributive property.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "d",
+        "latex": "$46$"
+      },
+      {
+        "id": "b",
+        "latex": "$35$"
+      },
+      {
+        "id": "a",
+        "latex": "$45$"
+      },
+      {
+        "id": "c",
+        "latex": "$38$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "45",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$3(10+5)=30+15=45$.",
+    "complexity_factor": 0.85,
+    "source_section": "1.4",
+    "tags": [
+      "distribution"
+    ],
+    "checksum": "sha256-c9bc18354a11ca463aec5ba559daa92ad5ca8045c052905ec1c02813fbed4151",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.distribution_factoring.easy.0019",
+    "topic_id": "ch1.distribution_factoring",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Simplify $-(3x - 4)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "c",
+        "latex": "$3x+4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3x-4$"
+      },
+      {
+        "id": "a",
+        "latex": "$-3x+4$"
+      },
+      {
+        "id": "d",
+        "latex": "$3x-4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-3*x+4",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "4-3*x"
+    ],
+    "solution_latex": "Distribute the negative: $-3x+4$.",
+    "complexity_factor": 0.85,
+    "source_section": "1.4",
+    "tags": [
+      "distribution"
+    ],
+    "checksum": "sha256-ba7ac51f04449cbc8651941fa98eae493dfb7c4b3a8312d76ade9e02e40112de",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.distribution_factoring.easy.0020",
+    "topic_id": "ch1.distribution_factoring",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $12x + 12y$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "c",
+        "latex": "$3(x+y)$"
+      },
+      {
+        "id": "b",
+        "latex": "$24(x+y)$"
+      },
+      {
+        "id": "a",
+        "latex": "$3(4x+4y)$"
+      },
+      {
+        "id": "d",
+        "latex": "$3(x+4y)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "3(4*x+4*y)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "3(4*y+4*x)"
+    ],
+    "solution_latex": "The greatest common factor is $3$.",
+    "complexity_factor": 0.85,
+    "source_section": "1.4",
+    "tags": [
+      "factoring"
+    ],
+    "checksum": "sha256-77ef642fea56ce8601db5572f630dc912a1533c7098890eb7ca8fa7cc55deed1",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.distribution_factoring.easy.0021",
+    "topic_id": "ch1.distribution_factoring",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $10x + 6$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2(5x+3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$2(x+3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2+5)(x+3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$5x+3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2(5*x+3)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "2(3+5*x)"
+    ],
+    "solution_latex": "Factor out $2$: $2(5x+3)$.",
+    "complexity_factor": 0.85,
+    "source_section": "1.4",
+    "tags": [
+      "factoring"
+    ],
+    "checksum": "sha256-a2a44de30278630c01c3550da9cad2ce87585563f738613b30ec0a32b54de96a",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.distribution_factoring.easy.0022",
+    "topic_id": "ch1.distribution_factoring",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Simplify $9(7x + 2)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "d",
+        "latex": "$63x+19$"
+      },
+      {
+        "id": "c",
+        "latex": "$16x+2$"
+      },
+      {
+        "id": "a",
+        "latex": "$63x+18$"
+      },
+      {
+        "id": "b",
+        "latex": "$63x+2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "63*x+18",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "18+63*x"
+    ],
+    "solution_latex": "Distribute: $9\\cdot 7x + 9\\cdot 2 = 63x + 18$.",
+    "complexity_factor": 0.85,
+    "source_section": "1.4",
+    "tags": [
+      "distribution"
+    ],
+    "checksum": "sha256-162f368ab02df8978cf3965cba0c20465a4a71b526ddfa5f20f24ba4e5b3e8d8",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.distribution_factoring.easy.0023",
+    "topic_id": "ch1.distribution_factoring",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Simplify $3(12 - 3x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "c",
+        "latex": "$36-10x$"
+      },
+      {
+        "id": "d",
+        "latex": "$15x-3$"
+      },
+      {
+        "id": "a",
+        "latex": "$36-9x$"
+      },
+      {
+        "id": "b",
+        "latex": "$36-3x$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "36-9*x",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "-9*x+36"
+    ],
+    "solution_latex": "Distribute: $3\\cdot 12 - 3\\cdot 3x = 36 - 9x$.",
+    "complexity_factor": 0.85,
+    "source_section": "1.4",
+    "tags": [
+      "distribution"
+    ],
+    "checksum": "sha256-024b004f828c391095f9ce78ba623123e84ea6290a9e3f8b50f26595d27d0748",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.distribution_factoring.easy.0024",
+    "topic_id": "ch1.distribution_factoring",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $36x + 12x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "b",
+        "latex": "$48x$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4+x)(9+3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$5(9+3)$"
+      },
+      {
+        "id": "a",
+        "latex": "$4(9+3)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "4(9+3)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "4(3+9)"
+    ],
+    "solution_latex": "Both terms share $4x$: $4x(9+3)$.",
+    "complexity_factor": 0.85,
+    "source_section": "1.4",
+    "tags": [
+      "factoring"
+    ],
+    "checksum": "sha256-c20b446fd37d5627f68d278452caadd3c5848025a7eb6618c3d285046b00f943",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.distribution_factoring.easy.0025",
+    "topic_id": "ch1.distribution_factoring",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Compute $12 \\cdot 26$ using the distributive property.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "b",
+        "latex": "$246$"
+      },
+      {
+        "id": "a",
+        "latex": "$312$"
+      },
+      {
+        "id": "d",
+        "latex": "$313$"
+      },
+      {
+        "id": "c",
+        "latex": "$258$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "312",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$12(20+6)=240+72=312$.",
+    "complexity_factor": 0.85,
+    "source_section": "1.4",
+    "tags": [
+      "distribution"
+    ],
+    "checksum": "sha256-27520c955b21cf38dcc8e4057430042b8842b3792cd2845463c5dd53bbc11498",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.distribution_factoring.easy.0026",
+    "topic_id": "ch1.distribution_factoring",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Simplify $-(9x - 6)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "d",
+        "latex": "$9x-6$"
+      },
+      {
+        "id": "c",
+        "latex": "$9x+6$"
+      },
+      {
+        "id": "b",
+        "latex": "$-9x-6$"
+      },
+      {
+        "id": "a",
+        "latex": "$-9x+6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-9*x+6",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "6-9*x"
+    ],
+    "solution_latex": "Distribute the negative: $-9x+6$.",
+    "complexity_factor": 0.85,
+    "source_section": "1.4",
+    "tags": [
+      "distribution"
+    ],
+    "checksum": "sha256-a974be49da5bb6cf08013c1f53ad2b168fbd642e2c39f5f8ddd9407fea62de8e",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.distribution_factoring.easy.0027",
+    "topic_id": "ch1.distribution_factoring",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $18x + 6y$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "c",
+        "latex": "$3(x+y)$"
+      },
+      {
+        "id": "a",
+        "latex": "$3(6x+2y)$"
+      },
+      {
+        "id": "d",
+        "latex": "$3(x+2y)$"
+      },
+      {
+        "id": "b",
+        "latex": "$24(x+y)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "3(6*x+2*y)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "3(2*y+6*x)"
+    ],
+    "solution_latex": "The greatest common factor is $3$.",
+    "complexity_factor": 0.85,
+    "source_section": "1.4",
+    "tags": [
+      "factoring"
+    ],
+    "checksum": "sha256-63102caea40746d774c04460e64f9475c4eb47c3a4a0f436521ca3cc5ab42e2d",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.distribution_factoring.easy.0028",
+    "topic_id": "ch1.distribution_factoring",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $12x + 12$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "d",
+        "latex": "$(3+4)(x+4)$"
+      },
+      {
+        "id": "a",
+        "latex": "$3(4x+4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$3(x+4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$4x+4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "3(4*x+4)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "3(4+4*x)"
+    ],
+    "solution_latex": "Factor out $3$: $3(4x+4)$.",
+    "complexity_factor": 0.85,
+    "source_section": "1.4",
+    "tags": [
+      "factoring"
+    ],
+    "checksum": "sha256-6cdcfc8f31e58945480dec6e7d26ef6061be81caa48bf056e663329932a2a23e",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.distribution_factoring.easy.0029",
+    "topic_id": "ch1.distribution_factoring",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Simplify $4(10x + 9)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "c",
+        "latex": "$14x+9$"
+      },
+      {
+        "id": "d",
+        "latex": "$40x+37$"
+      },
+      {
+        "id": "b",
+        "latex": "$40x+9$"
+      },
+      {
+        "id": "a",
+        "latex": "$40x+36$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "40*x+36",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "36+40*x"
+    ],
+    "solution_latex": "Distribute: $4\\cdot 10x + 4\\cdot 9 = 40x + 36$.",
+    "complexity_factor": 0.85,
+    "source_section": "1.4",
+    "tags": [
+      "distribution"
+    ],
+    "checksum": "sha256-b6573a467ec9c6347bb8dd6f1edf24cf8221cdef5b54fab7c78272661d1808e5",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.distribution_factoring.easy.0030",
+    "topic_id": "ch1.distribution_factoring",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Simplify $6(10 - 5x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "b",
+        "latex": "$60-5x$"
+      },
+      {
+        "id": "c",
+        "latex": "$60-31x$"
+      },
+      {
+        "id": "d",
+        "latex": "$16x-5$"
+      },
+      {
+        "id": "a",
+        "latex": "$60-30x$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "60-30*x",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "-30*x+60"
+    ],
+    "solution_latex": "Distribute: $6\\cdot 10 - 6\\cdot 5x = 60 - 30x$.",
+    "complexity_factor": 0.85,
+    "source_section": "1.4",
+    "tags": [
+      "distribution"
+    ],
+    "checksum": "sha256-61e85e4820ca5639f2ec03c119c4af80b8c52996dde259b0f86968ce7f72ad1e",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.distribution_factoring.easy.0031",
+    "topic_id": "ch1.distribution_factoring",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $28x + 28x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "d",
+        "latex": "$(4+x)(7+7)$"
+      },
+      {
+        "id": "a",
+        "latex": "$4(7+7)$"
+      },
+      {
+        "id": "b",
+        "latex": "$56x$"
+      },
+      {
+        "id": "c",
+        "latex": "$5(7+7)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "4(7+7)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "4(7+7)"
+    ],
+    "solution_latex": "Both terms share $4x$: $4x(7+7)$.",
+    "complexity_factor": 0.85,
+    "source_section": "1.4",
+    "tags": [
+      "factoring"
+    ],
+    "checksum": "sha256-666d4cc50c679a0bcf943cac8118d8d1f96fb33b996ee70d5b640785da35a2f3",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.distribution_factoring.easy.0032",
+    "topic_id": "ch1.distribution_factoring",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Compute $4 \\cdot 57$ using the distributive property.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "b",
+        "latex": "$207$"
+      },
+      {
+        "id": "a",
+        "latex": "$228$"
+      },
+      {
+        "id": "d",
+        "latex": "$229$"
+      },
+      {
+        "id": "c",
+        "latex": "$211$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "228",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$4(50+7)=200+28=228$.",
+    "complexity_factor": 0.85,
+    "source_section": "1.4",
+    "tags": [
+      "distribution"
+    ],
+    "checksum": "sha256-4704326c94b4da7cc093e333f6879584c30ac34e6e793dded34e5887b7131611",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.distribution_factoring.easy.0033",
+    "topic_id": "ch1.distribution_factoring",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Simplify $-(4x - 7)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "b",
+        "latex": "$-4x-7$"
+      },
+      {
+        "id": "d",
+        "latex": "$4x-7$"
+      },
+      {
+        "id": "a",
+        "latex": "$-4x+7$"
+      },
+      {
+        "id": "c",
+        "latex": "$4x+7$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-4*x+7",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "7-4*x"
+    ],
+    "solution_latex": "Distribute the negative: $-4x+7$.",
+    "complexity_factor": 0.85,
+    "source_section": "1.4",
+    "tags": [
+      "distribution"
+    ],
+    "checksum": "sha256-20953fc103df950a1bb118bd572eb6fd62928cd23e80d34042113eaf281e65c2",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.distribution_factoring.easy.0034",
+    "topic_id": "ch1.distribution_factoring",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $15x + 15y$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "d",
+        "latex": "$5(x+3y)$"
+      },
+      {
+        "id": "a",
+        "latex": "$5(3x+3y)$"
+      },
+      {
+        "id": "c",
+        "latex": "$5(x+y)$"
+      },
+      {
+        "id": "b",
+        "latex": "$30(x+y)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "5(3*x+3*y)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "5(3*y+3*x)"
+    ],
+    "solution_latex": "The greatest common factor is $5$.",
+    "complexity_factor": 0.85,
+    "source_section": "1.4",
+    "tags": [
+      "factoring"
+    ],
+    "checksum": "sha256-17b729f1a990b1c4e8137e71332a27c6e9f5decdbd207040ef471e3ada445526",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.distribution_factoring.easy.0035",
+    "topic_id": "ch1.distribution_factoring",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $15x + 20$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5(3x+4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$5(x+4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(5+3)(x+4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$3x+4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "5(3*x+4)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "5(4+3*x)"
+    ],
+    "solution_latex": "Factor out $5$: $5(3x+4)$.",
+    "complexity_factor": 0.85,
+    "source_section": "1.4",
+    "tags": [
+      "factoring"
+    ],
+    "checksum": "sha256-4c91d105ae9e5e19165ed0491f26eeeb249c54ec0820458c23f2efc1d79abcbd",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.distribution_factoring.easy.0036",
+    "topic_id": "ch1.distribution_factoring",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Simplify $9(12x + 4)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "c",
+        "latex": "$21x+4$"
+      },
+      {
+        "id": "d",
+        "latex": "$108x+37$"
+      },
+      {
+        "id": "b",
+        "latex": "$108x+4$"
+      },
+      {
+        "id": "a",
+        "latex": "$108x+36$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "108*x+36",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "36+108*x"
+    ],
+    "solution_latex": "Distribute: $9\\cdot 12x + 9\\cdot 4 = 108x + 36$.",
+    "complexity_factor": 0.85,
+    "source_section": "1.4",
+    "tags": [
+      "distribution"
+    ],
+    "checksum": "sha256-dba0221d9524fb0e4617a16489283daf232cbaabaea1362eeec6623719a19309",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.distribution_factoring.easy.0037",
+    "topic_id": "ch1.distribution_factoring",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Simplify $9(15 - 1x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "b",
+        "latex": "$135-1x$"
+      },
+      {
+        "id": "a",
+        "latex": "$135-9x$"
+      },
+      {
+        "id": "c",
+        "latex": "$135-10x$"
+      },
+      {
+        "id": "d",
+        "latex": "$24x-1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "135-9*x",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "-9*x+135"
+    ],
+    "solution_latex": "Distribute: $9\\cdot 15 - 9\\cdot 1x = 135 - 9x$.",
+    "complexity_factor": 0.85,
+    "source_section": "1.4",
+    "tags": [
+      "distribution"
+    ],
+    "checksum": "sha256-08f6a3852963ee3012f60a835cd0bb6e106701873431d0ee35b362719a41e7a9",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.distribution_factoring.easy.0038",
+    "topic_id": "ch1.distribution_factoring",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Compute $7 \\cdot 107$ using the distributive property.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "c",
+        "latex": "$714$"
+      },
+      {
+        "id": "d",
+        "latex": "$750$"
+      },
+      {
+        "id": "b",
+        "latex": "$707$"
+      },
+      {
+        "id": "a",
+        "latex": "$749$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "749",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$7(100+7)=700+49=749$.",
+    "complexity_factor": 0.85,
+    "source_section": "1.4",
+    "tags": [
+      "distribution"
+    ],
+    "checksum": "sha256-63f42afa8d93b1c502602b7cedf486ab3947ed9d7e9691eac58393eab6e7e125",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.distribution_factoring.easy.0039",
+    "topic_id": "ch1.distribution_factoring",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Simplify $-(5x - 5)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "d",
+        "latex": "$5x-5$"
+      },
+      {
+        "id": "b",
+        "latex": "$-5x-5$"
+      },
+      {
+        "id": "a",
+        "latex": "$-5x+5$"
+      },
+      {
+        "id": "c",
+        "latex": "$5x+5$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-5*x+5",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "5-5*x"
+    ],
+    "solution_latex": "Distribute the negative: $-5x+5$.",
+    "complexity_factor": 0.85,
+    "source_section": "1.4",
+    "tags": [
+      "distribution"
+    ],
+    "checksum": "sha256-6e32943c855f445259f4fe702dd285a0a42d5a8f12a1761c6dc3d737bf35902e",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.distribution_factoring.easy.0040",
+    "topic_id": "ch1.distribution_factoring",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $12x + 24y$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "b",
+        "latex": "$36(x+y)$"
+      },
+      {
+        "id": "d",
+        "latex": "$6(x+4y)$"
+      },
+      {
+        "id": "a",
+        "latex": "$6(2x+4y)$"
+      },
+      {
+        "id": "c",
+        "latex": "$6(x+y)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "6(2*x+4*y)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "6(4*y+2*x)"
+    ],
+    "solution_latex": "The greatest common factor is $6$.",
+    "complexity_factor": 0.85,
+    "source_section": "1.4",
+    "tags": [
+      "factoring"
+    ],
+    "checksum": "sha256-8a20581afae1a279794cf2a5cf6010e40d6942fd51d8890e0957259b95664e3c",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.distribution_factoring.easy.0041",
+    "topic_id": "ch1.distribution_factoring",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $9x + 9$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "c",
+        "latex": "$3(x+3)$"
+      },
+      {
+        "id": "a",
+        "latex": "$3(3x+3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$3x+3$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3+3)(x+3)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "3(3*x+3)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "3(3+3*x)"
+    ],
+    "solution_latex": "Factor out $3$: $3(3x+3)$.",
+    "complexity_factor": 0.85,
+    "source_section": "1.4",
+    "tags": [
+      "factoring"
+    ],
+    "checksum": "sha256-270b05d347f4ee048a4787965548d0b9fc96f7ec9e24e823407e364427fcbfe7",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.distribution_factoring.easy.0042",
+    "topic_id": "ch1.distribution_factoring",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Simplify $6(9x + 8)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "b",
+        "latex": "$54x+8$"
+      },
+      {
+        "id": "d",
+        "latex": "$54x+49$"
+      },
+      {
+        "id": "a",
+        "latex": "$54x+48$"
+      },
+      {
+        "id": "c",
+        "latex": "$15x+8$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "54*x+48",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "48+54*x"
+    ],
+    "solution_latex": "Distribute: $6\\cdot 9x + 6\\cdot 8 = 54x + 48$.",
+    "complexity_factor": 0.85,
+    "source_section": "1.4",
+    "tags": [
+      "distribution"
+    ],
+    "checksum": "sha256-c3c312d81e4dbac820415e2f5e2e2a74158c5dfa716053913bfffee842b6806f",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.distribution_factoring.easy.0043",
+    "topic_id": "ch1.distribution_factoring",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Simplify $8(9 - 1x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "c",
+        "latex": "$72-9x$"
+      },
+      {
+        "id": "d",
+        "latex": "$17x-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$72-1x$"
+      },
+      {
+        "id": "a",
+        "latex": "$72-8x$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "72-8*x",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "-8*x+72"
+    ],
+    "solution_latex": "Distribute: $8\\cdot 9 - 8\\cdot 1x = 72 - 8x$.",
+    "complexity_factor": 0.85,
+    "source_section": "1.4",
+    "tags": [
+      "distribution"
+    ],
+    "checksum": "sha256-5fa2a9a488dc0ed104707f0bc29f6c01d06b295c39e1c66cab277d4ab8ae483c",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.distribution_factoring.easy.0044",
+    "topic_id": "ch1.distribution_factoring",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $63x + 14x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7(9+2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(7+x)(9+2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$8(9+2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$77x$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "7(9+2)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "7(2+9)"
+    ],
+    "solution_latex": "Both terms share $7x$: $7x(9+2)$.",
+    "complexity_factor": 0.85,
+    "source_section": "1.4",
+    "tags": [
+      "factoring"
+    ],
+    "checksum": "sha256-d2d25a60933a872c2a6307e106d1a8c37530c0d72c7af6953e80005e1400399a",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.distribution_factoring.easy.0045",
+    "topic_id": "ch1.distribution_factoring",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Compute $11 \\cdot 28$ using the distributive property.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "c",
+        "latex": "$239$"
+      },
+      {
+        "id": "a",
+        "latex": "$308$"
+      },
+      {
+        "id": "b",
+        "latex": "$228$"
+      },
+      {
+        "id": "d",
+        "latex": "$309$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "308",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$11(20+8)=220+88=308$.",
+    "complexity_factor": 0.85,
+    "source_section": "1.4",
+    "tags": [
+      "distribution"
+    ],
+    "checksum": "sha256-1fdf9d41663be2df629924add6c4ed5fd6649947fb1e56c195397f17893e5022",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.distribution_factoring.easy.0046",
+    "topic_id": "ch1.distribution_factoring",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Simplify $-(5x - 3)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-5x+3$"
+      },
+      {
+        "id": "d",
+        "latex": "$5x-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-5x-3$"
+      },
+      {
+        "id": "c",
+        "latex": "$5x+3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-5*x+3",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "3-5*x"
+    ],
+    "solution_latex": "Distribute the negative: $-5x+3$.",
+    "complexity_factor": 0.85,
+    "source_section": "1.4",
+    "tags": [
+      "distribution"
+    ],
+    "checksum": "sha256-ec01c9ce5e7ec02a5a23538be3395f1d8f7a64f1116b4507d20e08ea38396fd5",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.distribution_factoring.easy.0047",
+    "topic_id": "ch1.distribution_factoring",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $6x + 6y$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "b",
+        "latex": "$12(x+y)$"
+      },
+      {
+        "id": "c",
+        "latex": "$2(x+y)$"
+      },
+      {
+        "id": "a",
+        "latex": "$2(3x+3y)$"
+      },
+      {
+        "id": "d",
+        "latex": "$2(x+3y)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2(3*x+3*y)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "2(3*y+3*x)"
+    ],
+    "solution_latex": "The greatest common factor is $2$.",
+    "complexity_factor": 0.85,
+    "source_section": "1.4",
+    "tags": [
+      "factoring"
+    ],
+    "checksum": "sha256-d9df9319f5bd7743ba2030fbf8eb40d4d1e5bc009b41a7f233e42b7aab32ae9a",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.distribution_factoring.easy.0048",
+    "topic_id": "ch1.distribution_factoring",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Simplify $8(12x + 1)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$96x+8$"
+      },
+      {
+        "id": "d",
+        "latex": "$96x+9$"
+      },
+      {
+        "id": "c",
+        "latex": "$20x+1$"
+      },
+      {
+        "id": "b",
+        "latex": "$96x+1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "96*x+8",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "8+96*x"
+    ],
+    "solution_latex": "Distribute: $8\\cdot 12x + 8\\cdot 1 = 96x + 8$.",
+    "complexity_factor": 0.85,
+    "source_section": "1.4",
+    "tags": [
+      "distribution"
+    ],
+    "checksum": "sha256-27ddf7ce2de13f38db10dc2063f3bc5b52f4523c44e6134ab7132d8c2fe86fe6",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.distribution_factoring.easy.0049",
+    "topic_id": "ch1.distribution_factoring",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Simplify $4(12 - 6x)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "d",
+        "latex": "$16x-6$"
+      },
+      {
+        "id": "b",
+        "latex": "$48-6x$"
+      },
+      {
+        "id": "c",
+        "latex": "$48-25x$"
+      },
+      {
+        "id": "a",
+        "latex": "$48-24x$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "48-24*x",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "-24*x+48"
+    ],
+    "solution_latex": "Distribute: $4\\cdot 12 - 4\\cdot 6x = 48 - 24x$.",
+    "complexity_factor": 0.85,
+    "source_section": "1.4",
+    "tags": [
+      "distribution"
+    ],
+    "checksum": "sha256-6e9851799d2c7a55d43c4cf80b0cd9172b54b11037f2a0aeb086544e0d0957b7",
+    "status": "valid"
+  },
+  {
+    "id": "ch1.distribution_factoring.easy.0050",
+    "topic_id": "ch1.distribution_factoring",
+    "group_id": "ch1_rules",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $24x + 18x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "b",
+        "latex": "$42x$"
+      },
+      {
+        "id": "a",
+        "latex": "$3(8+6)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3+x)(8+6)$"
+      },
+      {
+        "id": "c",
+        "latex": "$4(8+6)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "3(8+6)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "3(6+8)"
+    ],
+    "solution_latex": "Both terms share $3x$: $3x(8+6)$.",
+    "complexity_factor": 0.85,
+    "source_section": "1.4",
+    "tags": [
+      "factoring"
+    ],
+    "checksum": "sha256-8827070a811ead0376c174f60dce1f15a4a1630ee489a45b5d97b09a6050fa03",
+    "status": "valid"
+  }
+]

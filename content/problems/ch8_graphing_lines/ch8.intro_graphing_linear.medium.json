@@ -1,0 +1,1982 @@
+[
+  {
+    "id": "ch8.intro_graphing_linear.medium.0001",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the $y$-intercept point of the line $y = x - 6$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-6, 0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0, 6)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0, -6)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1, -6)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(0,-6)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $y$-intercept occurs when $x=0$, so the point is $(0, -6)$.",
+    "complexity_factor": 1.12,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "intercepts"
+    ],
+    "checksum": "sha256-b250a5c72de5ea0ec4e0bfaeaedfa879799527122a92db9864034fd30613c3d6",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.medium.0002",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Which point lies on $2x + 4y = -6$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3, 0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3, 0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-3, 1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2, 0)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-3,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Check $(-3, 0)$: $2(-3)+4(0)=-6$, so it lies on the line.",
+    "complexity_factor": 1.13,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "standard-form",
+      "points"
+    ],
+    "checksum": "sha256-69e9f3d2e0265316c6f81d03cdaf12e1749ae8814305019a819964cbdad66a4d",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.medium.0003",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(-2, y)$ lies on $5x + 2y = -4$. What is $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=-2$: $5(-2)+2y=-4$, so $y=3$.",
+    "complexity_factor": 1.15,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "standard-form",
+      "substitution"
+    ],
+    "checksum": "sha256-4ce08ff79e3c54deb00498bd70d12526d0b0705fd830cf894b20b22aab5c5693",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.medium.0004",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "For how many integers $x$ in $\\{0, 1, 2, 3\\}$ does the point $(x, 3x- 3)$ lie on $y = 3x - 3$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Each point is built by using $y=3x- 3$, so all $4$ listed values give points on the line.",
+    "complexity_factor": 1.1,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "graphing"
+    ],
+    "checksum": "sha256-638de1ae417219e182698bf89e3f1271832ad86d1dd8b855384eb6a4ef8b5915",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.medium.0005",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A graph of $y = 3x - 2$ is drawn. Which plotted point should be on the graph when $x=0$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0, 2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0, -2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2, 0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1, -2)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(0,-2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Using $x=0$ gives $y=3(0)- 2=-2$, so the point is $(0,-2)$.",
+    "complexity_factor": 1.12,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "graphing",
+      "points"
+    ],
+    "checksum": "sha256-7ce45cdb580cb2af2648a419446e69646db00bbdc50ed952d31c29eac396fcec",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.medium.0006",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the $y$-intercept point of the line $y = -3x - 1$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0, 1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0, -1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1, 0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1, -1)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(0,-1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $y$-intercept occurs when $x=0$, so the point is $(0, -1)$.",
+    "complexity_factor": 1.12,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "intercepts"
+    ],
+    "checksum": "sha256-cf6503e6d0dff69f3fe51cd639d135eadd37160738033e63b665ca45552cf0bf",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.medium.0007",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Which point lies on $4x + 3y = 11$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2, 1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3, 1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2, 1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2, 2)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(2,1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Check $(2, 1)$: $4(2)+3(1)=11$, so it lies on the line.",
+    "complexity_factor": 1.13,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "standard-form",
+      "points"
+    ],
+    "checksum": "sha256-99735c00e4f5b522c049fef7fe40068338f41a66a9f3ce8561c730a664c45219",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.medium.0008",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(3, y)$ lies on $5x + 2y = 9$. What is $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=3$: $5(3)+2y=9$, so $y=-3$.",
+    "complexity_factor": 1.15,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "standard-form",
+      "substitution"
+    ],
+    "checksum": "sha256-eac0ef0ac90df441518aa48f1838eb15584e51ff00108fb383911a597c88ba61",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.medium.0009",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "For how many integers $x$ in $\\{-1, 0, 1, 2\\}$ does the point $(x, -1x+ 2)$ lie on $y = -x + 2$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Each point is built by using $y=-1x+ 2$, so all $4$ listed values give points on the line.",
+    "complexity_factor": 1.1,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "graphing"
+    ],
+    "checksum": "sha256-c93e46535f4b5b477ce1c96535b9afe3d357a14b7cd8a16e4fa4c8ee964227c3",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.medium.0010",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A graph of $y = 2x + 3$ is drawn. Which plotted point should be on the graph when $x=-4$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-4, -5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-4, 5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4, -5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-5, -4)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-4,-5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Using $x=-4$ gives $y=2(-4)+ 3=-5$, so the point is $(-4,-5)$.",
+    "complexity_factor": 1.12,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "graphing",
+      "points"
+    ],
+    "checksum": "sha256-54e686e15babb6640418e1a8ad33389357bd3efd15d89f82bfed4d9106e360a5",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.medium.0011",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the $y$-intercept point of the line $y = 3x + 4$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0, -4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4, 0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0, 4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1, 4)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(0,4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $y$-intercept occurs when $x=0$, so the point is $(0, 4)$.",
+    "complexity_factor": 1.12,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "intercepts"
+    ],
+    "checksum": "sha256-ddf3da2b887272b6549e52d6d5fff2a0b4d08525f334352e4b4b11bb15f4d85d",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.medium.0012",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Which point lies on $5x + 3y = -4$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2, 2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-2, 2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2, 3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1, 2)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-2,2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Check $(-2, 2)$: $5(-2)+3(2)=-4$, so it lies on the line.",
+    "complexity_factor": 1.13,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "standard-form",
+      "points"
+    ],
+    "checksum": "sha256-7ddb3c4f1cd158aca4b775784829cdf5f1a00b02587f94b2081f92aded778a98",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.medium.0013",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(-1, y)$ lies on $4x + 3y = -10$. What is $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=-1$: $4(-1)+3y=-10$, so $y=-2$.",
+    "complexity_factor": 1.15,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "standard-form",
+      "substitution"
+    ],
+    "checksum": "sha256-d50dfc81d3918415636da7a232a81c4a12ad858d58bd790d945326769c4fb94b",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.medium.0014",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "For how many integers $x$ in $\\{-2, -1, 0, 1\\}$ does the point $(x, -1x- 6)$ lie on $y = -x - 6$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Each point is built by using $y=-1x- 6$, so all $4$ listed values give points on the line.",
+    "complexity_factor": 1.1,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "graphing"
+    ],
+    "checksum": "sha256-aaa9fd3fd735529d2d5e13e79f4f50c26ab7757cfc5c49b90a15b3330e25bbf6",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.medium.0015",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A graph of $y = 2x - 5$ is drawn. Which plotted point should be on the graph when $x=1$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-3, 1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1, -3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1, 3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1, -3)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(1,-3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Using $x=1$ gives $y=2(1)- 5=-3$, so the point is $(1,-3)$.",
+    "complexity_factor": 1.12,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "graphing",
+      "points"
+    ],
+    "checksum": "sha256-6f82ee04308429084e1001a1424ddca09c12d194e261f5d5533bc1c124def300",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.medium.0016",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the $y$-intercept point of the line $y = 3x - 4$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0, -4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-4, 0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1, -4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0, 4)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(0,-4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $y$-intercept occurs when $x=0$, so the point is $(0, -4)$.",
+    "complexity_factor": 1.12,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "intercepts"
+    ],
+    "checksum": "sha256-eb853ddd8b331d4f85db875316828e5520dd8e4ef84fd23526481f02aa0503d7",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.medium.0017",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Which point lies on $4x + 3y = 21$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4, 3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3, 3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3, 4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-3, 3)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(3,3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Check $(3, 3)$: $4(3)+3(3)=21$, so it lies on the line.",
+    "complexity_factor": 1.13,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "standard-form",
+      "points"
+    ],
+    "checksum": "sha256-1e6d65f48d2cee8e210e0e702765e79dffc4443335a92147e3f610501e57819e",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.medium.0018",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(4, y)$ lies on $5x + 3y = 17$. What is $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=4$: $5(4)+3y=17$, so $y=-1$.",
+    "complexity_factor": 1.15,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "standard-form",
+      "substitution"
+    ],
+    "checksum": "sha256-08495dad2d62b6e3bcaaac14035fdb8b454c99be251402f0d6dd32340547d162",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.medium.0019",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "For how many integers $x$ in $\\{-3, -2, -1, 0\\}$ does the point $(x, 1x- 1)$ lie on $y = x - 1$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Each point is built by using $y=1x- 1$, so all $4$ listed values give points on the line.",
+    "complexity_factor": 1.1,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "graphing"
+    ],
+    "checksum": "sha256-52e26f40d25c8267fd8cc809c1487a1ce406a6e5ce91925d93a1ce011a96193c",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.medium.0020",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A graph of $y = 5x$ is drawn. Which plotted point should be on the graph when $x=-3$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-3, -15)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-15, -3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-3, 15)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3, -15)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-3,-15)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Using $x=-3$ gives $y=5(-3)+ 0=-15$, so the point is $(-3,-15)$.",
+    "complexity_factor": 1.12,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "graphing",
+      "points"
+    ],
+    "checksum": "sha256-542652b1facdd971e39500059fef887b248c58835e4696a8d8651e6366789622",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.medium.0021",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the $y$-intercept point of the line $y = 2x + 1$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1, 1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0, 1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1, 0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0, -1)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(0,1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $y$-intercept occurs when $x=0$, so the point is $(0, 1)$.",
+    "complexity_factor": 1.12,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "intercepts"
+    ],
+    "checksum": "sha256-9110e84ed3c8a947295a62468dd6edd98552b140b451bd8056ef586e0129a14b",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.medium.0022",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Which point lies on $4x + 2y = -10$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1, -3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1, -2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1, -3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0, -3)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-1,-3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Check $(-1, -3)$: $4(-1)+2(-3)=-10$, so it lies on the line.",
+    "complexity_factor": 1.13,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "standard-form",
+      "points"
+    ],
+    "checksum": "sha256-6f00ec5c252be458c34cf0d5a3dbe4831fda24e30c74d5d7dd98cceb0ac92e0d",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.medium.0023",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(0, y)$ lies on $4x + 4y = 0$. What is $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=0$: $4(0)+4y=0$, so $y=0$.",
+    "complexity_factor": 1.15,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "standard-form",
+      "substitution"
+    ],
+    "checksum": "sha256-fa0a72c657e2aedb622ead5c4b903c8650558a156f2d751574d5ba5faddd03fd",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.medium.0024",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "For how many integers $x$ in $\\{-4, -3, -2, -1\\}$ does the point $(x, 1x+ 4)$ lie on $y = x + 4$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Each point is built by using $y=1x+ 4$, so all $4$ listed values give points on the line.",
+    "complexity_factor": 1.1,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "graphing"
+    ],
+    "checksum": "sha256-461211bc1556d05fe36629e96d8d52354609aceef8715149fe63ee03399a3dae",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.medium.0025",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A graph of $y = 3x + 5$ is drawn. Which plotted point should be on the graph when $x=2$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2, 11)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2, -11)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2, 11)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(11, 2)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(2,11)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Using $x=2$ gives $y=3(2)+ 5=11$, so the point is $(2,11)$.",
+    "complexity_factor": 1.12,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "graphing",
+      "points"
+    ],
+    "checksum": "sha256-5d0c5324fd07a15a7efe1d6c1f9482879ac4f5bfee48e2ecf799b96a5398e34a",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.medium.0026",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the $y$-intercept point of the line $y = 3x + 6$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0, 6)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1, 6)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(6, 0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0, -6)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(0,6)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $y$-intercept occurs when $x=0$, so the point is $(0, 6)$.",
+    "complexity_factor": 1.12,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "intercepts"
+    ],
+    "checksum": "sha256-2b600b9c92ec30a2568ca98ae9603b74d1f673690aa779c8783a8e7b7cf61025",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.medium.0027",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Which point lies on $3x + 5y = 2$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4, -1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(5, -2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-4, -2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4, -2)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(4,-2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Check $(4, -2)$: $3(4)+5(-2)=2$, so it lies on the line.",
+    "complexity_factor": 1.13,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "standard-form",
+      "points"
+    ],
+    "checksum": "sha256-91eb389415464b993f40a0aec2a45d3faf6e6775c7958b19d9633c9a56bb1704",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.medium.0028",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(-4, y)$ lies on $5x + 4y = -16$. What is $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=-4$: $5(-4)+4y=-16$, so $y=1$.",
+    "complexity_factor": 1.15,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "standard-form",
+      "substitution"
+    ],
+    "checksum": "sha256-28328a1f68632dc8db2cd7e717519d542652b288ffa895cf217e9f4c13f4a0ee",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.medium.0029",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "For how many integers $x$ in $\\{-5, -4, -3, -2\\}$ does the point $(x, 2x- 4)$ lie on $y = 2x - 4$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Each point is built by using $y=2x- 4$, so all $4$ listed values give points on the line.",
+    "complexity_factor": 1.1,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "graphing"
+    ],
+    "checksum": "sha256-bfba06a609c6390ecf9659c5a105b325a16bdb1cc90f768c8be0477f893541aa",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.medium.0030",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A graph of $y = 2x - 3$ is drawn. Which plotted point should be on the graph when $x=-2$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2, -7)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-7, -2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2, 7)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2, -7)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-2,-7)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Using $x=-2$ gives $y=2(-2)- 3=-7$, so the point is $(-2,-7)$.",
+    "complexity_factor": 1.12,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "graphing",
+      "points"
+    ],
+    "checksum": "sha256-9a5f555d4f5df63d81762ab62a741f76b6bcb26f3357f79be9d6a47fca7c3427",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.medium.0031",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the $y$-intercept point of the line $y = x - 2$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0, 2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-2, 0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0, -2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1, -2)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(0,-2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $y$-intercept occurs when $x=0$, so the point is $(0, -2)$.",
+    "complexity_factor": 1.12,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "intercepts"
+    ],
+    "checksum": "sha256-e747e4c9b879e02711eb051caf87933459ff68f67901a70eb26ee494cf3daae5",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.medium.0032",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Which point lies on $3x + 4y = -4$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0, 0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0, -1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1, 0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1, -1)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(0,-1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Check $(0, -1)$: $3(0)+4(-1)=-4$, so it lies on the line.",
+    "complexity_factor": 1.13,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "standard-form",
+      "points"
+    ],
+    "checksum": "sha256-1d79bfce2eaa6074a3fe3a430196d70d91509b7bc318447496c42f3ac3bc447b",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.medium.0033",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(1, y)$ lies on $4x + 4y = 12$. What is $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=1$: $4(1)+4y=12$, so $y=2$.",
+    "complexity_factor": 1.15,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "standard-form",
+      "substitution"
+    ],
+    "checksum": "sha256-57f2251c2bc84924ebb70d916848b1ac9626edb119d155d2071b326cb7c9c2fc",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.medium.0034",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "For how many integers $x$ in $\\{-6, -5, -4, -3\\}$ does the point $(x, 1x+ 1)$ lie on $y = x + 1$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Each point is built by using $y=1x+ 1$, so all $4$ listed values give points on the line.",
+    "complexity_factor": 1.1,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "graphing"
+    ],
+    "checksum": "sha256-c414bd9d8278505901192f5b941bb1ada7e58fea3bfa6aa98bb19d2d83836404",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.medium.0035",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A graph of $y = 3x + 2$ is drawn. Which plotted point should be on the graph when $x=3$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3, -11)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3, 11)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-3, 11)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(11, 3)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(3,11)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Using $x=3$ gives $y=3(3)+ 2=11$, so the point is $(3,11)$.",
+    "complexity_factor": 1.12,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "graphing",
+      "points"
+    ],
+    "checksum": "sha256-584f70717190600ceb5df46224690d2d965dc12b293c81ad96ce9893fd84873c",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.medium.0036",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the $y$-intercept point of the line $y = -3x + 3$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0, 3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3, 0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1, 3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0, -3)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(0,3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $y$-intercept occurs when $x=0$, so the point is $(0, 3)$.",
+    "complexity_factor": 1.12,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "intercepts"
+    ],
+    "checksum": "sha256-1816894d0f10a48ef63bd37c62992d75d3083611bd77e562e84b4dd495be27a2",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.medium.0037",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Which point lies on $5x + 2y = -20$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-4, 1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3, 0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4, 0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-4, 0)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-4,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Check $(-4, 0)$: $5(-4)+2(0)=-20$, so it lies on the line.",
+    "complexity_factor": 1.13,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "standard-form",
+      "points"
+    ],
+    "checksum": "sha256-6384c7dda11336c400c89e53684207e25682dd062cddde2e1192f33fabe484fe",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.medium.0038",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(-3, y)$ lies on $5x + 4y = -3$. What is $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=-3$: $5(-3)+4y=-3$, so $y=3$.",
+    "complexity_factor": 1.15,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "standard-form",
+      "substitution"
+    ],
+    "checksum": "sha256-b85bf4efb2c5f9e57a0e3a3b601e96659a655988faa5658e9737673863097cf7",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.medium.0039",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "For how many integers $x$ in $\\{4, 5, 6, 7\\}$ does the point $(x, 1x+ 6)$ lie on $y = x + 6$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Each point is built by using $y=1x+ 6$, so all $4$ listed values give points on the line.",
+    "complexity_factor": 1.1,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "graphing"
+    ],
+    "checksum": "sha256-02e0dc8aeda8cb957774e7a19e832f6c9d366528101f7d7f140d4e4e1d6d2d25",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.medium.0040",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A graph of $y = 5x - 6$ is drawn. Which plotted point should be on the graph when $x=-1$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1, -11)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1, -11)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-11, -1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1, 11)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-1,-11)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Using $x=-1$ gives $y=5(-1)- 6=-11$, so the point is $(-1,-11)$.",
+    "complexity_factor": 1.12,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "graphing",
+      "points"
+    ],
+    "checksum": "sha256-39ac6dcc2954ad8232771bb51bb723a77f60a4d6c634b1b1190215929d811dcb",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.medium.0041",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the $y$-intercept point of the line $y = -2x - 5$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-5, 0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0, 5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0, -5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1, -5)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(0,-5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $y$-intercept occurs when $x=0$, so the point is $(0, -5)$.",
+    "complexity_factor": 1.12,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "intercepts"
+    ],
+    "checksum": "sha256-f47d7f27dad06062afcddcf421a57d09157b3597b5d9a5471c5b4a88208414f3",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.medium.0042",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Which point lies on $4x + 3y = 7$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1, 1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1, 1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2, 1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1, 2)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(1,1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Check $(1, 1)$: $4(1)+3(1)=7$, so it lies on the line.",
+    "complexity_factor": 1.13,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "standard-form",
+      "points"
+    ],
+    "checksum": "sha256-d775586e33dc1b34a6961da8447f9873c1ebeb3861a7d97f4b3f3480d13f00ab",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.medium.0043",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(2, y)$ lies on $5x + 5y = -5$. What is $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=2$: $5(2)+5y=-5$, so $y=-3$.",
+    "complexity_factor": 1.15,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "standard-form",
+      "substitution"
+    ],
+    "checksum": "sha256-7a02fee3da11e3023b9c9afec785a232c428b8da734e2657177e8e2b63f17627",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.medium.0044",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "For how many integers $x$ in $\\{3, 4, 5, 6\\}$ does the point $(x, -3x- 2)$ lie on $y = -3x - 2$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Each point is built by using $y=-3x- 2$, so all $4$ listed values give points on the line.",
+    "complexity_factor": 1.1,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "graphing"
+    ],
+    "checksum": "sha256-aa785b81208aa72e293b7fa4c3be68cb84a8731aee4434e36e2d579e86026182",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.medium.0045",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A graph of $y = 5x - 1$ is drawn. Which plotted point should be on the graph when $x=4$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4, -19)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4, 19)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(19, 4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-4, 19)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(4,19)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Using $x=4$ gives $y=5(4)- 1=19$, so the point is $(4,19)$.",
+    "complexity_factor": 1.12,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "graphing",
+      "points"
+    ],
+    "checksum": "sha256-bc1f5c3845769a8d516512d0cfff14f9ebb6696f72381a1ad128442bb62dd2c8",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.medium.0046",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the $y$-intercept point of the line $y = -2x$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1, 1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0, 0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0, -1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1, 0)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(0,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $y$-intercept occurs when $x=0$, so the point is $(0, 0)$.",
+    "complexity_factor": 1.12,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "intercepts"
+    ],
+    "checksum": "sha256-e48eddc62fe0adfa9a667ce418bad6717d6d05b251e4723a894415fc66dd7486",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.medium.0047",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Which point lies on $4x + 4y = -4$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-3, 2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3, 3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3, 2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2, 2)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-3,2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Check $(-3, 2)$: $4(-3)+4(2)=-4$, so it lies on the line.",
+    "complexity_factor": 1.13,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "standard-form",
+      "points"
+    ],
+    "checksum": "sha256-c34a97ddd6d816ca63acb23ec443ade5bebbc83a1ed33cc1774f25581f769656",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.medium.0048",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "The point $(-2, y)$ lies on $5x + 3y = -16$. What is $y$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x=-2$: $5(-2)+3y=-16$, so $y=-2$.",
+    "complexity_factor": 1.15,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "standard-form",
+      "substitution"
+    ],
+    "checksum": "sha256-62497bb7b5335c4eaf743e616ce58d11ff6df6699ea4a489a4b1a1a4c4914a14",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.medium.0049",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "For how many integers $x$ in $\\{2, 3, 4, 5\\}$ does the point $(x, -1x+ 3)$ lie on $y = -x + 3$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Each point is built by using $y=-1x+ 3$, so all $4$ listed values give points on the line.",
+    "complexity_factor": 1.1,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "graphing"
+    ],
+    "checksum": "sha256-272d7f63d4c1b71d13140d28f3b936139fac370400bc8d3a503b42e94e7dc735",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.intro_graphing_linear.medium.0050",
+    "topic_id": "ch8.intro_graphing_linear",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A graph of $y = 4x + 4$ is drawn. Which plotted point should be on the graph when $x=0$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1, 4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4, 0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0, 4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0, -4)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(0,4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Using $x=0$ gives $y=4(0)+ 4=4$, so the point is $(0,4)$.",
+    "complexity_factor": 1.12,
+    "source_section": "8.2",
+    "tags": [
+      "linear-equations",
+      "graphing",
+      "points"
+    ],
+    "checksum": "sha256-35e329a93affed35fbcceb695c2461dd6b2ed888b72ec0ca82cab9dd0ad1dd61",
+    "status": "valid"
+  }
+]

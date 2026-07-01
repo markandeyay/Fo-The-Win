@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "ch5.elimination.easy.0001",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 3y = 24 \\\\ 5x - 3y = 32 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(5,4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-4,4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4,5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4,4)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(4,4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $y$ terms add away, leaving $x = 4$. Then $y = 4$.",
+    "complexity_factor": 0.9,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-e0d9546444f58e773896e30a2eef67ab9eed77ee48fa8385e741e34e6dfc75bb",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.easy.0002",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 4x + 2y = -14 \\\\ 4x + 2y = -14 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2,-2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1,-3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2,-3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,-3)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-2,-3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $y$ terms subtract away, leaving $x = -2$. Then $y = -3$.",
+    "complexity_factor": 0.9,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-ca8cd9c3019ced7811b0881bd1ad13d563713511de1bb0864659bd051f6350f7",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.easy.0003",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 4y = 13 \\\\ 12x + 4y = 40 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4,1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3,2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3,1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-3,1)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(3,1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply the first equation by 4 and subtract to eliminate $x$, giving $y = 1$ and then $x = 3$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-98ece28b17c3a4df2196869d9a7b78077e6c4c3e520b550d503bd09ead6bfd84",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.easy.0004",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 1x + 2y = -1 \\\\ 2x + 1y = -2 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,1)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-1,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply the first equation by 2 and subtract to eliminate $x$, giving $y = 0$ and then $x = -1$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-ce46fd22e2d1d6bb4a356c525b56ddcf55ee8e7e6260a0c06589ca2da6ae1b0c",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.easy.0005",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 6x + 2y = 8 \\\\ 6x - 2y = 8 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2,1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1,1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1,2)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(1,1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $y$ terms add away, leaving $x = 1$. Then $y = 1$.",
+    "complexity_factor": 0.9,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-2ff2728610e0d9739adb954ef66d3cb32e3f002c3ce1863d6ab6379a6f342462",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.easy.0006",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 2x + 6y = 10 \\\\ 2x + 6y = 10 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-3,3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-4,4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4,3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-4,3)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-4,3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $y$ terms subtract away, leaving $x = -4$. Then $y = 3$.",
+    "complexity_factor": 0.9,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-42a76fb12a9631ede820ce120881bdbf734979a700f3cbdcb12ddb379a56cf66",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.easy.0007",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 2x + 1y = 8 \\\\ 4x + 3y = 16 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4,1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(5,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-4,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4,0)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(4,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply the first equation by 2 and subtract to eliminate $x$, giving $y = 0$ and then $x = 4$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-326ca59ae421810047834ca6eb6bade39455f459ae118e1428a46510f87ff86c",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.easy.0008",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 2y = -5 \\\\ 9x + 3y = -3 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2,-4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1,-3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,-4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1,-4)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(1,-4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply the first equation by 3 and subtract to eliminate $x$, giving $y = -4$ and then $x = 1$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-056f3ee08268a53ebd8e25ebfff6409357b9d52bf838b37d39d7071253d16bff",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.easy.0009",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 3y = 21 \\\\ 5x - 3y = 27 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3,4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4,4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-3,4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3,5)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(3,4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $y$ terms add away, leaving $x = 3$. Then $y = 4$.",
+    "complexity_factor": 0.9,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-9eaaf35b505690800174bd5ed5c10dff2377309892b6ddc312f08b2599eb49ff",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.easy.0010",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 2x + 5y = 1 \\\\ 1x + 5y = 3 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-2,2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2,1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2,1)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-2,1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $y$ terms subtract away, leaving $x = -2$. Then $y = 1$.",
+    "complexity_factor": 0.9,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-33c10ef55ffc704f8bece5a3009a2f07268d6672ce8b12181549791072e6661a",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.easy.0011",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 4x + 1y = 0 \\\\ 12x + 1y = -8 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1,5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0,4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1,4)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-1,4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply the first equation by 3 and subtract to eliminate $x$, giving $y = 4$ and then $x = -1$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-cef5dcd8be2921b1888425d992f2fd1b4ec6fa5f2ea2e8957433120b62ca417a",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.easy.0012",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 3y = 9 \\\\ 9x + 3y = 27 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3,1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3,0)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(3,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply the first equation by 3 and subtract to eliminate $x$, giving $y = 0$ and then $x = 3$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-da2a9c97fe2f776a7080c2f9b71edb398289112bb49fd40d2bbe5cde7bbef537",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.easy.0013",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 2x + 2y = -4 \\\\ 3x - 2y = -7 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-3,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3,1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2,1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3,1)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-3,1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $y$ terms add away, leaving $x = -3$. Then $y = 1$.",
+    "complexity_factor": 0.9,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-98e69d1e954a3d1373682dbb6e0c721deebf900815fe0f1c6a0112b9319ab0e6",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.easy.0014",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 1x + 3y = 20 \\\\ 6x - 3y = 45 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(6,5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-5,5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(5,6)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(5,5)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(5,5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $y$ terms add away, leaving $x = 5$. Then $y = 5$.",
+    "complexity_factor": 0.9,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-6f36092b32219873e0847cbcb81c256c4b2eaee92fd893702e3d5c20686a8c47",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.easy.0015",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 4x + 2y = 2 \\\\ 8x + 2y = 10 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2,-3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2,-2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3,-3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2,-3)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(2,-3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply the first equation by 2 and subtract to eliminate $x$, giving $y = -3$ and then $x = 2$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-4708235941dc5395d6a78d852f32aefcc966bce9df2d4fbf95117cdc6632b8b0",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.easy.0016",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 1y = 13 \\\\ 6x + 4y = 28 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4,1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4,2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-4,1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(5,1)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(4,1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply the first equation by 2 and subtract to eliminate $x$, giving $y = 1$ and then $x = 4$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-1e87dfb7c06584e131e6d580e09dfc1e747b19fe31576a8c428cd540bc318978",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.easy.0017",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 3y = 9 \\\\ 6x + 3y = 12 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1,3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,2)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(1,2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $y$ terms subtract away, leaving $x = 1$. Then $y = 2$.",
+    "complexity_factor": 0.9,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-1b47dece15f4084c212958f01816f4bcdfc982f60784458a35615076efe60cd8",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.easy.0018",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 5x + 3y = 35 \\\\ 4x + 3y = 31 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4,6)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-4,5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(5,5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4,5)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(4,5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $y$ terms subtract away, leaving $x = 4$. Then $y = 5$.",
+    "complexity_factor": 0.9,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-7bec06ea64c134538d5229c4bb08660bc4a798127f7427ba64c8d394443ec263",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.easy.0019",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 4x + 2y = -8 \\\\ 16x + 1y = -46 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-3,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3,3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3,2)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-3,2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply the first equation by 4 and subtract to eliminate $x$, giving $y = 2$ and then $x = -3$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-d7e765e999cd6925123affc6263bf64adb6c46f7b926db5d9d6f7ab3a8105ebe",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.easy.0020",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 2x + 1y = 4 \\\\ 4x + 4y = 12 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1,3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,2)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(1,2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply the first equation by 2 and subtract to eliminate $x$, giving $y = 2$ and then $x = 1$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-814155a5edc479cd34317c9fc518707033ba9cb8de44fa9b70dd67a8fe805612",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.easy.0021",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 5x + 5y = 30 \\\\ 3x - 5y = 20 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(5,1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(5,2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-5,1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(6,1)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(5,1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $y$ terms add away, leaving $x = 5$. Then $y = 1$.",
+    "complexity_factor": 0.9,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-c8ee41e9372397499ba8e984cb32312504e5fc759daea9e0a91d9fbbd5430d79",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.easy.0022",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 4x + 4y = -16 \\\\ 5x - 4y = -16 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,-4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,-3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1,-4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0,-4)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(0,-4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $y$ terms add away, leaving $x = 0$. Then $y = -4$.",
+    "complexity_factor": 0.9,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-3d627aa647c72c4194976b74f3e1c77f635e119a98fe90d51f8bf41dd05bf190",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.easy.0023",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 2x + 2y = 4 \\\\ 8x + 1y = 16 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,1)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(2,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply the first equation by 4 and subtract to eliminate $x$, giving $y = 0$ and then $x = 2$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-67c9eaf52ab263fd2cf7eb4808ef3547eacd25106ed566132af38a24d63c224a",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.easy.0024",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 4x + 3y = -1 \\\\ 16x + 4y = 20 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2,-2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2,-3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2,-3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3,-3)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(2,-3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply the first equation by 4 and subtract to eliminate $x$, giving $y = -3$ and then $x = 2$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-c99885a6f465d3e274bc08db4245e5568e58fd3595c78e956d29879c9eb38669",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.easy.0025",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 5x + 5y = 15 \\\\ 6x + 5y = 18 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3,1)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(3,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $y$ terms subtract away, leaving $x = 3$. Then $y = 0$.",
+    "complexity_factor": 0.9,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-418976ece5658307eb94a2ca1d95a3e2316872b226f0ea99df3e2aa226e1bac0",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.easy.0026",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 1y = -1 \\\\ 2x - 1y = -1 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1,-1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0,-1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1,-2)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(0,-1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $y$ terms add away, leaving $x = 0$. Then $y = -1$.",
+    "complexity_factor": 0.9,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-fb6d3e5699455ddc7db2682ac39bef5ba22d7c9162140656b3392fde567d1052",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.easy.0027",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 3y = 3 \\\\ 9x + 1y = 33 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(5,-3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4,-2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-4,-3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4,-3)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(4,-3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply the first equation by 3 and subtract to eliminate $x$, giving $y = -3$ and then $x = 4$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-d3910f416718c520e248b5e05ed1d35ecb20e819f3326a865b05a9a0b5c12eaf",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.easy.0028",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 1x + 3y = 13 \\\\ 3x + 3y = 15 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1,5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1,4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,4)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(1,4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply the first equation by 3 and subtract to eliminate $x$, giving $y = 4$ and then $x = 1$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-c18d42054127e184db3bb510ad3c35e14951a64d81d917453d96cc84e87f9fc6",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.easy.0029",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 2y = 18 \\\\ 6x - 2y = 30 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4,4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4,3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(5,3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-4,3)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(4,3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $y$ terms add away, leaving $x = 4$. Then $y = 3$.",
+    "complexity_factor": 0.9,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-ca77005bcd31991ae534208ad50edb48e6b2a392e77e4db1a80e3b9dc41a4a74",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.easy.0030",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 1x + 5y = -21 \\\\ 3x - 5y = -23 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0,-4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1,-3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1,-4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,-4)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-1,-4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $y$ terms add away, leaving $x = -1$. Then $y = -4$.",
+    "complexity_factor": 0.9,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-cdae8aa7d48dbeca9c2d80e34d439ca7d9f4cfbb1a3d8cb7937675237e0c5b43",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.easy.0031",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 4x + 4y = 0 \\\\ 16x + 2y = -28 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2,2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2,3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,2)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-2,2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply the first equation by 4 and subtract to eliminate $x$, giving $y = 2$ and then $x = -2$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-4c354258d2edc7db73d096a1f39fc554b501057fa6a7792ac7411381298e2b0d",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.easy.0032",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 1x + 1y = 2 \\\\ 3x + 3y = 6 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2,5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-2,4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,4)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-2,4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply the first equation by 3 and subtract to eliminate $x$, giving $y = 4$ and then $x = -2$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-ae5894bbd58e0526f97ace2077db68665b4dc3e22864bd0858260e8da5b82bec",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.easy.0033",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 5x + 5y = 30 \\\\ 4x - 5y = 28 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2,4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2,4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2,5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3,4)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(2,4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $y$ terms add away, leaving $x = 2$. Then $y = 4$.",
+    "complexity_factor": 0.9,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-a0cc9df52736245adb11f5b8ff9514df2d7238ee5b7f14a2050372b65708debb",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.easy.0034",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 4x + 6y = 40 \\\\ 1x - 6y = 28 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4,5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(5,4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-4,4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4,4)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(4,4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $y$ terms add away, leaving $x = 4$. Then $y = 4$.",
+    "complexity_factor": 0.9,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-b8c83db6416cc0b6bf4e4013a7d84a660a129cac02ab60a0972d92b0c703903a",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.easy.0035",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 1x + 2y = 10 \\\\ 4x + 4y = 28 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4,4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(5,3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4,3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-4,3)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(4,3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply the first equation by 4 and subtract to eliminate $x$, giving $y = 3$ and then $x = 4$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-ba220278f5fbb318e2bc396262de22d264821a52138ddc386ede1c3ed6319ee6",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.easy.0036",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 3y = 6 \\\\ 9x + 1y = -14 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2,5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1,4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2,4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,4)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-2,4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply the first equation by 3 and subtract to eliminate $x$, giving $y = 4$ and then $x = -2$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-92e42bf540a766f02d97f90dc70a2613086bf6cf7ea5623418c7252a557c9cce",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.easy.0037",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 5x + 6y = -31 \\\\ 4x + 6y = -26 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-4,-1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-5,-1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-5,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(5,-1)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-5,-1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $y$ terms subtract away, leaving $x = -5$. Then $y = -1$.",
+    "complexity_factor": 0.9,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-9f26a98221f06466b5ed07508fa7fcbbac35d493340127562173bbe85f4f834e",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.easy.0038",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 6x + 5y = -28 \\\\ 6x + 5y = -28 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3,-2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3,-2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-3,-1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2,-2)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-3,-2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $y$ terms subtract away, leaving $x = -3$. Then $y = -2$.",
+    "complexity_factor": 0.9,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-db9d339d6985a91b1cda484a9987e54abe3c0938c3ac84cffd76d5bfb198915f",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.easy.0039",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 4x + 3y = -2 \\\\ 12x + 2y = 8 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2,-2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1,-2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1,-1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,-2)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(1,-2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply the first equation by 3 and subtract to eliminate $x$, giving $y = -2$ and then $x = 1$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-0f73d6026b23050e2702e62df9c0aa6869f30e1d918be4dfac71d1a9982e0c66",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.easy.0040",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 4x + 2y = 12 \\\\ 8x + 1y = 18 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2,2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,3)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(2,2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply the first equation by 2 and subtract to eliminate $x$, giving $y = 2$ and then $x = 2$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-0f134ffb060e3006242d269493fb97cd127f8f21415dd067ae50ef0867865623",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.easy.0041",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 5x + 2y = -19 \\\\ 3x - 2y = -9 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-5,4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-4,3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(5,3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-5,3)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-5,3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $y$ terms add away, leaving $x = -5$. Then $y = 3$.",
+    "complexity_factor": 0.9,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-82458f99ae32a0fe5318bafef1e5c6586f267daf59be8cc1532c948737346eed",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.easy.0042",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 4x + 1y = 12 \\\\ 5x + 1y = 15 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3,1)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(3,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $y$ terms subtract away, leaving $x = 3$. Then $y = 0$.",
+    "complexity_factor": 0.9,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-09ddab249e9ce002f8cf66a4bec5cf5b666f330a6fc4daac9f29431783810390",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.easy.0043",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 2x + 2y = -8 \\\\ 6x + 3y = -18 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,-2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-2,-2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2,-1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,-2)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-2,-2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply the first equation by 3 and subtract to eliminate $x$, giving $y = -2$ and then $x = -2$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-cb1833dee76d76521a52dfd159121d3d3d8395242175d165ffb23a828057bb5c",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.easy.0044",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 1x + 2y = -1 \\\\ 2x + 2y = 2 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3,-2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4,-2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-3,-2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3,-1)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(3,-2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply the first equation by 2 and subtract to eliminate $x$, giving $y = -2$ and then $x = 3$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-f7253711812b49972f88631a2eb76cb9ec416f665409ec975ed83bd4128aeba7",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.easy.0045",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 1x + 6y = -8 \\\\ 4x - 6y = -14 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2,-1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-2,-1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,-1)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-2,-1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $y$ terms add away, leaving $x = -2$. Then $y = -1$.",
+    "complexity_factor": 0.9,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-245167f903862d3214d3c8fec774d634f164dc4116213cec767991f0f97144ed",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.easy.0046",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 4x + 4y = -12 \\\\ 1x + 4y = -12 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2,-2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,-2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1,-3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0,-3)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(0,-3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $y$ terms subtract away, leaving $x = 0$. Then $y = -3$.",
+    "complexity_factor": 0.9,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-d29d345d7b737be0ef92ded42258864b70f0e87ed526e3c01c3dad66e3bce0f9",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.easy.0047",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 1y = 13 \\\\ 6x + 3y = 30 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4,4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3,5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3,4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-3,4)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(3,4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply the first equation by 2 and subtract to eliminate $x$, giving $y = 4$ and then $x = 3$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-604b63a6bd32cb02b97284ce6ff5c08686ae21b0a77aa653847f3ab44ab33bb9",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.easy.0048",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 1x + 3y = -2 \\\\ 2x + 3y = -1 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,-1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1,-1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,-1)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(1,-1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Multiply the first equation by 2 and subtract to eliminate $x$, giving $y = -1$ and then $x = 1$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-ff53c9f03734ea91093c67ca53c2a2c7627c69369e12013001806ecf959f0f2c",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.easy.0049",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 1y = 0 \\\\ 4x + 1y = 0 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0,1)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(0,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $y$ terms subtract away, leaving $x = 0$. Then $y = 0$.",
+    "complexity_factor": 0.9,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-7f0e5ad9395718075b685725e4f95a023b5155e03e2586c55b74d8aa04db9484",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.elimination.easy.0050",
+    "topic_id": "ch5.elimination",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 1y = 14 \\\\ 2x - 1y = 9 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(5,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(6,-1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-5,-1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(5,-1)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(5,-1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "The $y$ terms add away, leaving $x = 5$. Then $y = -1$.",
+    "complexity_factor": 0.9,
+    "source_section": "5.3",
+    "tags": [
+      "elimination",
+      "systems"
+    ],
+    "checksum": "sha256-ab4b9b3066653a114095b419ed7b0655f4138e5fec459a9c4538e5867b98e0a2",
+    "status": "valid"
+  }
+]

@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "ch5.intro_two_var.hard.0001",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "The ordered pair $(x,y)$ satisfies $4x + 5y = -32$. If $x = -3$, find $y$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-5$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x = -3$ to get $-12 + 5y = -32$. Thus $5y = -20$, so $y = -4$.",
+    "complexity_factor": 1.35,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "linear_equation"
+    ],
+    "checksum": "sha256-118c2ead9dda7f5a6378563bc6aba66415063092462e2263197d64a523c798ef",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.hard.0002",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Find $k$ such that the point $(k, 2k - 2)$ lies on $4x + y = 2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4/7$"
+      },
+      {
+        "id": "b",
+        "latex": "$10/11$"
+      },
+      {
+        "id": "c",
+        "latex": "$2/3$"
+      },
+      {
+        "id": "d",
+        "latex": "$11/8$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "2/3",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Substitute: $4k + 1(2k - 2) = 2$, so $6k - 2 = 2$, giving $k = \\dfrac{2}{3}$.",
+    "complexity_factor": 1.4,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "parameter"
+    ],
+    "checksum": "sha256-773298d859f7de314815bb18014e8e06c83e6562888af6a2a141e429da72dc3e",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.hard.0003",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Let $(a,b)$ be the $x$-intercept of $6x + 6y = -6$. Find $a^2 + b^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$36$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$11$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The $x$-intercept is $(-1,0)$, so $a^2 + b^2 = -1^2 + 0^2 = 1$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "intercepts"
+    ],
+    "checksum": "sha256-26f6294bb89115e5a67a7989a76873b34c4170ce6d01975bf46a0e02f9af051f",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.hard.0004",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Find an equation of the line with $x$-intercept $(5,0)$ and $y$-intercept $(0,4)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4x - 5y = 20$"
+      },
+      {
+        "id": "b",
+        "latex": "$4x + 5y = 9$"
+      },
+      {
+        "id": "c",
+        "latex": "$5x + 4y = 20$"
+      },
+      {
+        "id": "d",
+        "latex": "$4x + 5y = 20$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "4x + 5y = 20",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Using $\\dfrac{x}{5} + \\dfrac{y}{4} = 1$ and clearing denominators gives $4x + 5y = 20$.",
+    "complexity_factor": 1.3,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "intercepts"
+    ],
+    "checksum": "sha256-6ec32df50c7af4abf4271bff94dcc56715646f1de09a2f37e0ad0a402859c594",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.hard.0005",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "The points $(1,-1)$ and $(-4,4)$ lie on a line. If $(x,y)$ also lies on this line, what value does $5x + 5y$ take at $(1,-2)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-5$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "For any point on this line, $5x + 5y = 0$. At $(1,-2)$ the value is $-5$.",
+    "complexity_factor": 1.35,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "line_equation"
+    ],
+    "checksum": "sha256-99ef4a5128758a2144c891c125953e7cd3a7bf399d299e700734909d5cbaca43",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.hard.0006",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "How many ordered pairs of positive integers $(x,y)$ satisfy $5x + 3y = 75$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$15$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "For each positive $x$ with $5x < 75$, check whether $75 - 5x$ is a positive multiple of 3. There are 4$ such pairs.",
+    "complexity_factor": 1.35,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "diophantine"
+    ],
+    "checksum": "sha256-ee31144436a11b11e238935c67886e0259a5dbe02b289aa4bcb79402e2dd2011",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.hard.0007",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Find $k$ such that the point $(k, 4k + 3)$ lies on $3x + y = 14$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11/7$"
+      },
+      {
+        "id": "b",
+        "latex": "$16/13$"
+      },
+      {
+        "id": "c",
+        "latex": "$1/1$"
+      },
+      {
+        "id": "d",
+        "latex": "$14/11$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "11/7",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Substitute: $3k + 1(4k + 3) = 14$, so $7k + 3 = 14$, giving $k = \\dfrac{11}{7}$.",
+    "complexity_factor": 1.4,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "parameter"
+    ],
+    "checksum": "sha256-ce2d1abe4781b532a7ee4e841ed3eaf08328e92818a9c25c0f30e6bb23103dca",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.hard.0008",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Let $(a,b)$ be the $x$-intercept of $4x + 4y = 20$. Find $a^2 + b^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$26$"
+      },
+      {
+        "id": "b",
+        "latex": "$16$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$25$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "25",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The $x$-intercept is $(5,0)$, so $a^2 + b^2 = 5^2 + 0^2 = 25$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "intercepts"
+    ],
+    "checksum": "sha256-8c3b3b2a5fb162ffb67de3fcd125edf84e6cbde80cd45902fa4af815cbde979a",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.hard.0009",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Find an equation of the line with $x$-intercept $(5,0)$ and $y$-intercept $(0,5)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5x + 5y = 25 + 1$"
+      },
+      {
+        "id": "b",
+        "latex": "$5x - 5y = 25$"
+      },
+      {
+        "id": "c",
+        "latex": "$5x + 5y = 10$"
+      },
+      {
+        "id": "d",
+        "latex": "$5x + 5y = 25$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "5x + 5y = 25",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Using $\\dfrac{x}{5} + \\dfrac{y}{5} = 1$ and clearing denominators gives $5x + 5y = 25$.",
+    "complexity_factor": 1.3,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "intercepts"
+    ],
+    "checksum": "sha256-f3a2c157cd1b68808eecf6d9559a92c875cede6364ca7157741bce0afd2fa225",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.hard.0010",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "The points $(4,0)$ and $(-3,3)$ lie on a line. If $(x,y)$ also lies on this line, what value does $3x + 7y$ take at $(4,3)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$33$"
+      },
+      {
+        "id": "b",
+        "latex": "$34$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "33",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "For any point on this line, $3x + 7y = 12$. At $(4,3)$ the value is $33$.",
+    "complexity_factor": 1.35,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "line_equation"
+    ],
+    "checksum": "sha256-2bce5c3a76b77609dfe05d1732bfa1684b95a97915706cd480553c0336872bac",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.hard.0011",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "How many ordered pairs of positive integers $(x,y)$ satisfy $4x + 3y = 72$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$18$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "For each positive $x$ with $4x < 72$, check whether $72 - 4x$ is a positive multiple of 3. There are 5$ such pairs.",
+    "complexity_factor": 1.35,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "diophantine"
+    ],
+    "checksum": "sha256-719acea66526d453ad72f0232122210ab3d1230b7dfb314c5572798b39cabab5",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.hard.0012",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Find $k$ such that the point $(k, 4k - 1)$ lies on $4x + 2y = 10$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5/4$"
+      },
+      {
+        "id": "b",
+        "latex": "$5/7$"
+      },
+      {
+        "id": "c",
+        "latex": "$1/3$"
+      },
+      {
+        "id": "d",
+        "latex": "$1/1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1/1",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Substitute: $4k + 2(4k - 1) = 10$, so $12k - 2 = 10$, giving $k = \\dfrac{1}{1}$.",
+    "complexity_factor": 1.4,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "parameter"
+    ],
+    "checksum": "sha256-f6b1633caf778b7395ed292ff2ec63846dbc3eb02e216aca2dc89b24842416dc",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.hard.0013",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Let $(a,b)$ be the $x$-intercept of $5x + 4y = 10$. Find $a^2 + b^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$25$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The $x$-intercept is $(2,0)$, so $a^2 + b^2 = 2^2 + 0^2 = 4$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "intercepts"
+    ],
+    "checksum": "sha256-a664c4b53040b1158688717d918ce28d3db5d95ae4c6da86b4b21142db965892",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.hard.0014",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Find an equation of the line with $x$-intercept $(5,0)$ and $y$-intercept $(0,3)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5x + 3y = 15$"
+      },
+      {
+        "id": "b",
+        "latex": "$3x - 5y = 15$"
+      },
+      {
+        "id": "c",
+        "latex": "$3x + 5y = 8$"
+      },
+      {
+        "id": "d",
+        "latex": "$3x + 5y = 15$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "3x + 5y = 15",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Using $\\dfrac{x}{5} + \\dfrac{y}{3} = 1$ and clearing denominators gives $3x + 5y = 15$.",
+    "complexity_factor": 1.3,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "intercepts"
+    ],
+    "checksum": "sha256-8dd1e0461a7e6994f1ed1dbf02850b17ce910755e013e55aac304294cbc157e3",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.hard.0015",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "The points $(0,1)$ and $(-3,2)$ lie on a line. If $(x,y)$ also lies on this line, what value does $x + 3y$ take at $(-4,-4)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-15$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$-16$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-16",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "For any point on this line, $x + 3y = 3$. At $(-4,-4)$ the value is $-16$.",
+    "complexity_factor": 1.35,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "line_equation"
+    ],
+    "checksum": "sha256-9447e12f6f29bb4d8244167294c2205856f97cffa26ffd6c661f0f96270c2bd0",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.hard.0016",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "How many ordered pairs of positive integers $(x,y)$ satisfy $3x + 4y = 60$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$15$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "For each positive $x$ with $3x < 60$, check whether $60 - 3x$ is a positive multiple of 4. There are 4$ such pairs.",
+    "complexity_factor": 1.35,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "diophantine"
+    ],
+    "checksum": "sha256-b967ebf2f0eae7e15cd0b14263b8118e11ff2a29059b67599e8b1286b7379628",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.hard.0017",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Find $k$ such that the point $(k, 2k - 2)$ lies on $x + 2y = 20$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$25/12$"
+      },
+      {
+        "id": "b",
+        "latex": "$11/4$"
+      },
+      {
+        "id": "c",
+        "latex": "$24/5$"
+      },
+      {
+        "id": "d",
+        "latex": "$8/3$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "24/5",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Substitute: $1k + 2(2k - 2) = 20$, so $5k - 4 = 20$, giving $k = \\dfrac{24}{5}$.",
+    "complexity_factor": 1.4,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "parameter"
+    ],
+    "checksum": "sha256-ec893540291505d91fe07f07d78fdbb4759f8510ca53f1ca2f2ebe1498e3371c",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.hard.0018",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Let $(a,b)$ be the $x$-intercept of $3x + 5y = 3$. Find $a^2 + b^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The $x$-intercept is $(1,0)$, so $a^2 + b^2 = 1^2 + 0^2 = 1$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "intercepts"
+    ],
+    "checksum": "sha256-264ad924d185ed766bf71e10d3af1630365762e64f04361184d04488d154a902",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.hard.0019",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Find an equation of the line with $x$-intercept $(2,0)$ and $y$-intercept $(0,3)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2x + 3y = 6$"
+      },
+      {
+        "id": "b",
+        "latex": "$3x + 2y = 6$"
+      },
+      {
+        "id": "c",
+        "latex": "$3x - 2y = 6$"
+      },
+      {
+        "id": "d",
+        "latex": "$3x + 2y = 5$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "3x + 2y = 6",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Using $\\dfrac{x}{2} + \\dfrac{y}{3} = 1$ and clearing denominators gives $3x + 2y = 6$.",
+    "complexity_factor": 1.3,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "intercepts"
+    ],
+    "checksum": "sha256-62f91f3c3dc81ec16299ac5e668498d71196ce4873d5f8b1db43b94137614849",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.hard.0020",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "The points $(-4,3)$ and $(-1,-3)$ lie on a line. If $(x,y)$ also lies on this line, what value does $-6x -3y$ take at $(-4,-4)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$15$"
+      },
+      {
+        "id": "b",
+        "latex": "$36$"
+      },
+      {
+        "id": "c",
+        "latex": "$-9$"
+      },
+      {
+        "id": "d",
+        "latex": "$37$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "36",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "For any point on this line, $-6x -3y = 15$. At $(-4,-4)$ the value is $36$.",
+    "complexity_factor": 1.35,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "line_equation"
+    ],
+    "checksum": "sha256-c276e08a996d3f3dd9fc5988562dc37d1d4ffdd2d5370ed72049402fc9216aba",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.hard.0021",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "The ordered pair $(x,y)$ satisfies $4x + 5y = 21$. If $x = -1$, find $y$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x = -1$ to get $-4 + 5y = 21$. Thus $5y = 25$, so $y = 5$.",
+    "complexity_factor": 1.35,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "linear_equation"
+    ],
+    "checksum": "sha256-28be26709d39ef732b43995ca5b47b7e67540b9490df3156d73151f1e42afcf1",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.hard.0022",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Find $k$ such that the point $(k, 4k - 2)$ lies on $x + 2y = 17$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7/3$"
+      },
+      {
+        "id": "b",
+        "latex": "$13/8$"
+      },
+      {
+        "id": "c",
+        "latex": "$13/10$"
+      },
+      {
+        "id": "d",
+        "latex": "$6/5$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "7/3",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Substitute: $1k + 2(4k - 2) = 17$, so $9k - 4 = 17$, giving $k = \\dfrac{7}{3}$.",
+    "complexity_factor": 1.4,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "parameter"
+    ],
+    "checksum": "sha256-134a361c5f1ff26108796d6ab508fe82aa18689e18a0285a8f1eb14402b9629a",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.hard.0023",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Let $(a,b)$ be the $x$-intercept of $5x + 6y = 20$. Find $a^2 + b^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$25$"
+      },
+      {
+        "id": "d",
+        "latex": "$17$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "16",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The $x$-intercept is $(4,0)$, so $a^2 + b^2 = 4^2 + 0^2 = 16$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "intercepts"
+    ],
+    "checksum": "sha256-cdd5e9a92c9914ce409179833e725462d5fd334f8f617e4ceb307a5ef76c8e14",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.hard.0024",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Find an equation of the line with $x$-intercept $(4,0)$ and $y$-intercept $(0,5)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4x + 5y = 20$"
+      },
+      {
+        "id": "b",
+        "latex": "$5x - 4y = 20$"
+      },
+      {
+        "id": "c",
+        "latex": "$5x + 4y = 9$"
+      },
+      {
+        "id": "d",
+        "latex": "$5x + 4y = 20$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "5x + 4y = 20",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Using $\\dfrac{x}{4} + \\dfrac{y}{5} = 1$ and clearing denominators gives $5x + 4y = 20$.",
+    "complexity_factor": 1.3,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "intercepts"
+    ],
+    "checksum": "sha256-f7647c789ec8d9e670e0105ba5921beddbd19179e904d093d3782eb2842135ce",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.hard.0025",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "The points $(2,2)$ and $(-2,1)$ lie on a line. If $(x,y)$ also lies on this line, what value does $-x + 4y$ take at $(1,2)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "For any point on this line, $-x + 4y = 6$. At $(1,2)$ the value is $7$.",
+    "complexity_factor": 1.35,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "line_equation"
+    ],
+    "checksum": "sha256-80030bbf0f60b1366ad184819b1dd35931da406ebe3d64b07734b45d2757bea4",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.hard.0026",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "The ordered pair $(x,y)$ satisfies $4x + 6y = 10$. If $x = 4$, find $y$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x = 4$ to get $16 + 6y = 10$. Thus $6y = -6$, so $y = -1$.",
+    "complexity_factor": 1.35,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "linear_equation"
+    ],
+    "checksum": "sha256-4e0a5c37bb523b80cba4fdd16a489868fe14649be87e71cab5c0219465e0185c",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.hard.0027",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Find $k$ such that the point $(k, 2k + 3)$ lies on $2x + 3y = 20$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$19/12$"
+      },
+      {
+        "id": "b",
+        "latex": "$15/13$"
+      },
+      {
+        "id": "c",
+        "latex": "$17/14$"
+      },
+      {
+        "id": "d",
+        "latex": "$11/8$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "11/8",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Substitute: $2k + 3(2k + 3) = 20$, so $8k + 9 = 20$, giving $k = \\dfrac{11}{8}$.",
+    "complexity_factor": 1.4,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "parameter"
+    ],
+    "checksum": "sha256-e31f2061fe6bb1c92af61f3c2613323c417b6287fc0f2b0cd19796ffde035cb6",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.hard.0028",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Let $(a,b)$ be the $x$-intercept of $4x + 5y = 20$. Find $a^2 + b^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$26$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$25$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "25",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The $x$-intercept is $(5,0)$, so $a^2 + b^2 = 5^2 + 0^2 = 25$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "intercepts"
+    ],
+    "checksum": "sha256-a5f92bf4b13c23eb320ec2f48a01448897423d74570a2d2bb02f5a56712ad8df",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.hard.0029",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Find an equation of the line with $x$-intercept $(3,0)$ and $y$-intercept $(0,4)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4x - 3y = 12$"
+      },
+      {
+        "id": "b",
+        "latex": "$3x + 4y = 12$"
+      },
+      {
+        "id": "c",
+        "latex": "$4x + 3y = 12$"
+      },
+      {
+        "id": "d",
+        "latex": "$4x + 3y = 7$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "4x + 3y = 12",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Using $\\dfrac{x}{3} + \\dfrac{y}{4} = 1$ and clearing denominators gives $4x + 3y = 12$.",
+    "complexity_factor": 1.3,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "intercepts"
+    ],
+    "checksum": "sha256-580d0b8de2dd0dcb2d821c0f7091d2caf91572720ceec40a5561d1332f8e36a1",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.hard.0030",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "The points $(-2,1)$ and $(0,-2)$ lie on a line. If $(x,y)$ also lies on this line, what value does $-3x -2y$ take at $(-2,3)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-5$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "For any point on this line, $-3x -2y = 4$. At $(-2,3)$ the value is $0$.",
+    "complexity_factor": 1.35,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "line_equation"
+    ],
+    "checksum": "sha256-3d3a1650b1997e9d482b8b309cf02dc8402ba047ff1bccc9a1478f46b6249c12",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.hard.0031",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "The ordered pair $(x,y)$ satisfies $4x + 7y = 28$. If $x = 0$, find $y$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x = 0$ to get $0 + 7y = 28$. Thus $7y = 28$, so $y = 4$.",
+    "complexity_factor": 1.35,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "linear_equation"
+    ],
+    "checksum": "sha256-b13c7fa0eda58386caffe6cbd357378065b160f9f7ac09b1f64ad361fe65b690",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.hard.0032",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Find $k$ such that the point $(k, 2k + 0)$ lies on $3x + 3y = 11$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$18/11$"
+      },
+      {
+        "id": "b",
+        "latex": "$17/11$"
+      },
+      {
+        "id": "c",
+        "latex": "$19/16$"
+      },
+      {
+        "id": "d",
+        "latex": "$11/9$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "11/9",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Substitute: $3k + 3(2k + 0) = 11$, so $9k + 0 = 11$, giving $k = \\dfrac{11}{9}$.",
+    "complexity_factor": 1.4,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "parameter"
+    ],
+    "checksum": "sha256-ef79032b9cd3db4bad1f69b160d8f3899281a8753f5c247484cf2ec1fc72262f",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.hard.0033",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Let $(a,b)$ be the $x$-intercept of $5x + 6y = 0$. Find $a^2 + b^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$25$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The $x$-intercept is $(0,0)$, so $a^2 + b^2 = 0^2 + 0^2 = 0$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "intercepts"
+    ],
+    "checksum": "sha256-12c3050255e2d4916f08a227e6c9ca27a60d5d95d1f2d52b804239f27a28b63d",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.hard.0034",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Find an equation of the line with $x$-intercept $(3,0)$ and $y$-intercept $(0,2)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3x + 2y = 6$"
+      },
+      {
+        "id": "b",
+        "latex": "$2x + 3y = 5$"
+      },
+      {
+        "id": "c",
+        "latex": "$2x + 3y = 6$"
+      },
+      {
+        "id": "d",
+        "latex": "$2x - 3y = 6$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "2x + 3y = 6",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Using $\\dfrac{x}{3} + \\dfrac{y}{2} = 1$ and clearing denominators gives $2x + 3y = 6$.",
+    "complexity_factor": 1.3,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "intercepts"
+    ],
+    "checksum": "sha256-fa114967b4cf37ff2ce7881ab74a2e6c6e36bb54564cbfa24d891ace92735c63",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.hard.0035",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "The points $(4,2)$ and $(-1,-4)$ lie on a line. If $(x,y)$ also lies on this line, what value does $-6x + 5y$ take at $(-1,-1)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-14$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "For any point on this line, $-6x + 5y = -14$. At $(-1,-1)$ the value is $1$.",
+    "complexity_factor": 1.35,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "line_equation"
+    ],
+    "checksum": "sha256-33387e65a7fbaf5f7a8a9a7f8d0f979c27c2fad88758c6632e6cea7736e7a896",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.hard.0036",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "How many ordered pairs of positive integers $(x,y)$ satisfy $3x + 2y = 36$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$12$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "For each positive $x$ with $3x < 36$, check whether $36 - 3x$ is a positive multiple of 2. There are 5$ such pairs.",
+    "complexity_factor": 1.35,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "diophantine"
+    ],
+    "checksum": "sha256-93702cced16095d83fcdad09bff1fc51825749af13a5e0129f5ec984897b96e6",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.hard.0037",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Find $k$ such that the point $(k, 4k + 3)$ lies on $4x + 3y = 6$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1/18$"
+      },
+      {
+        "id": "b",
+        "latex": "$1/19$"
+      },
+      {
+        "id": "c",
+        "latex": "$0/1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3/16$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-3/16",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Substitute: $4k + 3(4k + 3) = 6$, so $16k + 9 = 6$, giving $k = \\dfrac{-3}{16}$.",
+    "complexity_factor": 1.4,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "parameter"
+    ],
+    "checksum": "sha256-c8515d32848014db8a5ae754f81126f62bce07679d04a4269eadb71bf2cb7d4e",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.hard.0038",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Let $(a,b)$ be the $x$-intercept of $2x + 2y = -2$. Find $a^2 + b^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The $x$-intercept is $(-1,0)$, so $a^2 + b^2 = -1^2 + 0^2 = 1$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "intercepts"
+    ],
+    "checksum": "sha256-8cc904ac436d65f6431b21f318c80fedeb172ec242af7cf414b07c8b1e6e2fc0",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.hard.0039",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "The ordered pair $(x,y)$ satisfies $7x + 7y = 0$. If $x = -1$, find $y$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x = -1$ to get $-7 + 7y = 0$. Thus $7y = 7$, so $y = 1$.",
+    "complexity_factor": 1.35,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "linear_equation"
+    ],
+    "checksum": "sha256-9bfe6bbb85972a0e8f9a74be1b16760324c0ad0cee7a4fb409ce23ba9adf33ce",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.hard.0040",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "The points $(1,-1)$ and $(3,-1)$ lie on a line. If $(x,y)$ also lies on this line, what value does $-2y$ take at $(-2,-3)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "For any point on this line, $-2y = 2$. At $(-2,-3)$ the value is $6$.",
+    "complexity_factor": 1.35,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "line_equation"
+    ],
+    "checksum": "sha256-dc07aaa933817676c0619dc7e8fe5c33678c4bd2ebd146b0dfad18578508e36e",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.hard.0041",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "How many ordered pairs of positive integers $(x,y)$ satisfy $4x + 5y = 120$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$24$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "For each positive $x$ with $4x < 120$, check whether $120 - 4x$ is a positive multiple of 5. There are 5$ such pairs.",
+    "complexity_factor": 1.35,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "diophantine"
+    ],
+    "checksum": "sha256-73fb504178d2f40f91fa1c9148e6f07826ce4f458d59d3b0a89871f5e824aae1",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.hard.0042",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Find $k$ such that the point $(k, 3k - 2)$ lies on $x + 3y = 5$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5/3$"
+      },
+      {
+        "id": "b",
+        "latex": "$16/15$"
+      },
+      {
+        "id": "c",
+        "latex": "$11/10$"
+      },
+      {
+        "id": "d",
+        "latex": "$20/19$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "11/10",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Substitute: $1k + 3(3k - 2) = 5$, so $10k - 6 = 5$, giving $k = \\dfrac{11}{10}$.",
+    "complexity_factor": 1.4,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "parameter"
+    ],
+    "checksum": "sha256-5639bd25259f1cd10759264461c13ae1e894871b0e34d8edc0c540e8248bb2c0",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.hard.0043",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Let $(a,b)$ be the $x$-intercept of $5x + 4y = 5$. Find $a^2 + b^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$25$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The $x$-intercept is $(1,0)$, so $a^2 + b^2 = 1^2 + 0^2 = 1$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "intercepts"
+    ],
+    "checksum": "sha256-2143c0e6c93750effa495ce59ffb3234813555f6f3c36c0ba58ce96a4db335fd",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.hard.0044",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Find an equation of the line with $x$-intercept $(4,0)$ and $y$-intercept $(0,2)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2x + 4y = 6$"
+      },
+      {
+        "id": "b",
+        "latex": "$2x + 4y = 8$"
+      },
+      {
+        "id": "c",
+        "latex": "$2x - 4y = 8$"
+      },
+      {
+        "id": "d",
+        "latex": "$4x + 2y = 8$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "2x + 4y = 8",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Using $\\dfrac{x}{4} + \\dfrac{y}{2} = 1$ and clearing denominators gives $2x + 4y = 8$.",
+    "complexity_factor": 1.3,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "intercepts"
+    ],
+    "checksum": "sha256-b62819cf21568cddd368463b2bbd453e05da2dac1a38b626578d2651103e09b2",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.hard.0045",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "The points $(-1,-3)$ and $(-4,-4)$ lie on a line. If $(x,y)$ also lies on this line, what value does $-x + 3y$ take at $(-2,0)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-8$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "For any point on this line, $-x + 3y = -8$. At $(-2,0)$ the value is $2$.",
+    "complexity_factor": 1.35,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "line_equation"
+    ],
+    "checksum": "sha256-831ce6a342b1664f74850b4fdafe37489adcb0d678b74cffa2f6abfd2ec60716",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.hard.0046",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "The ordered pair $(x,y)$ satisfies $4x + 6y = -30$. If $x = -3$, find $y$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-3$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute $x = -3$ to get $-12 + 6y = -30$. Thus $6y = -18$, so $y = -3$.",
+    "complexity_factor": 1.35,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "linear_equation"
+    ],
+    "checksum": "sha256-9cac2f80c89dc949f001ec36cb73b8a865fae92a56c331e362ebdc8a9b78ae32",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.hard.0047",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Find $k$ such that the point $(k, 4k - 3)$ lies on $4x + 4y = 1$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5/7$"
+      },
+      {
+        "id": "b",
+        "latex": "$3/4$"
+      },
+      {
+        "id": "c",
+        "latex": "$13/20$"
+      },
+      {
+        "id": "d",
+        "latex": "$16/25$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "13/20",
+    "answer_type": "fraction",
+    "accepted_forms": [],
+    "solution_latex": "Substitute: $4k + 4(4k - 3) = 1$, so $20k - 12 = 1$, giving $k = \\dfrac{13}{20}$.",
+    "complexity_factor": 1.4,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "parameter"
+    ],
+    "checksum": "sha256-d8e7021b25c3a9963b2f56bac7bf63bf0849a1fc29349013c82bc9b2724e92fb",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.hard.0048",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Let $(a,b)$ be the $x$-intercept of $4x + 5y = 12$. Find $a^2 + b^2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$16$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The $x$-intercept is $(3,0)$, so $a^2 + b^2 = 3^2 + 0^2 = 9$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "intercepts"
+    ],
+    "checksum": "sha256-c2ac818b5432f8364f18b9928d4b0be7d4f28c563c622a67a922dcbeb260db98",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.hard.0049",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "Find an equation of the line with $x$-intercept $(3,0)$ and $y$-intercept $(0,6)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6x + 3y = 18$"
+      },
+      {
+        "id": "b",
+        "latex": "$3x + 6y = 18$"
+      },
+      {
+        "id": "c",
+        "latex": "$6x - 3y = 18$"
+      },
+      {
+        "id": "d",
+        "latex": "$6x + 3y = 9$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "6x + 3y = 18",
+    "answer_type": "expression",
+    "accepted_forms": [],
+    "solution_latex": "Using $\\dfrac{x}{3} + \\dfrac{y}{6} = 1$ and clearing denominators gives $6x + 3y = 18$.",
+    "complexity_factor": 1.3,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "intercepts"
+    ],
+    "checksum": "sha256-b0ac6df439099f50a4b12676540cd96d35a9ec3ed896283c7a081af0be73b768",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.intro_two_var.hard.0050",
+    "topic_id": "ch5.intro_two_var",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "hard",
+    "prompt_latex": "The points $(-2,4)$ and $(4,4)$ lie on a line. If $(x,y)$ also lies on this line, what value does $-6y$ take at $(2,-4)$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$25$"
+      },
+      {
+        "id": "b",
+        "latex": "$-6$"
+      },
+      {
+        "id": "c",
+        "latex": "$24$"
+      },
+      {
+        "id": "d",
+        "latex": "$-24$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "24",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "For any point on this line, $-6y = -24$. At $(2,-4)$ the value is $24$.",
+    "complexity_factor": 1.35,
+    "source_section": "5.1",
+    "tags": [
+      "two_variable",
+      "line_equation"
+    ],
+    "checksum": "sha256-5011e8e836cffeb6309576f333176f0c0a3a63e9a0478f51cf070473a8186130",
+    "status": "valid"
+  }
+]

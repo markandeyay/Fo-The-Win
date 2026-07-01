@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "ch5.more_variables.easy.0001",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 2x + 4y = 18 \\\\ x - y = -6 \\\\ z = -5 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,5,-4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1,5,-5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0,5,-5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,6,-5)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-1,5,-5)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From $z = -5$, solve the first two equations to get $x = -1$ and $y = 5$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-b6c4a303ded4bd6a6ee604c06834990c28e2c6a6b3bb78269cbb37e84790cf67",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.easy.0002",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 1x + 3y = -9 \\\\ x - y = -1 \\\\ z = -1 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-3,-1,-1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3,-2,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-3,-2,-1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2,-2,-1)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-3,-2,-1)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From $z = -1$, solve the first two equations to get $x = -3$ and $y = -2$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-d732d02cd48a32dc7a6db5d35b5aa9a2f00b3716797046afa1daeef45d0f509b",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.easy.0003",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "If $x + y + z = 7$, $x = 1$, and $y = 1$, what is $z$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute: $1 + 1 + z = 7$, so $z = 5$.",
+    "complexity_factor": 0.85,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "evaluation"
+    ],
+    "checksum": "sha256-d571ceb0a91da8c6e9b6cf2341cb5c3c120c527f6f8b4c6077c635e7f82f7798",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.easy.0004",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "If $x + y + z = 14$, $x = 6$, and $y = 5$, what is $z$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11$"
+      },
+      {
+        "id": "b",
+        "latex": "$14$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute: $6 + 5 + z = 14$, so $z = 3$.",
+    "complexity_factor": 0.85,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "evaluation"
+    ],
+    "checksum": "sha256-d8ebe71888f9dbfe97eb78cb872528d48a92ea1e1d263d42a4a88927e0f87886",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.easy.0005",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 1x + 1y = 2 \\\\ x - y = -8 \\\\ z = 4 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-3,5,4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3,5,5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2,5,4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-3,6,4)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-3,5,4)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From $z = 4$, solve the first two equations to get $x = -3$ and $y = 5$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-e543619fec6035a41cae97127a6e68de8761cfefbf318490b663721691620e6a",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.easy.0006",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 4x + 2y = 4 \\\\ x - y = 1 \\\\ z = 1 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2,0,1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1,0,1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1,1,1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1,0,2)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(1,0,1)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From $z = 1$, solve the first two equations to get $x = 1$ and $y = 0$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-e49f543db653671d5d357230d74597cb1433e5cbe0b2082df43564d672098273",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.easy.0007",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "If $x + y + z = 6$, $x = 2$, and $y = 3$, what is $z$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute: $2 + 3 + z = 6$, so $z = 1$.",
+    "complexity_factor": 0.85,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "evaluation"
+    ],
+    "checksum": "sha256-397718e109250c617c7a5108c7cf4ee62a5336b3e394e28f84c29d9fc8115b5b",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.easy.0008",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "If $x + y + z = 9$, $x = 4$, and $y = 4$, what is $z$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute: $4 + 4 + z = 9$, so $z = 1$.",
+    "complexity_factor": 0.85,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "evaluation"
+    ],
+    "checksum": "sha256-597f3ab09fb54bc4a7a93620e98ca8570039f938088abe750c1942c794295af8",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.easy.0009",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 1x + 1y = -3 \\\\ x - y = 3 \\\\ z = 2 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1,-3,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,-3,2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0,-2,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0,-3,3)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(0,-3,2)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From $z = 2$, solve the first two equations to get $x = 0$ and $y = -3$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-b54007731121bc0e55613720c57887c102de79b1a9aae4faa35dea3268db4dd0",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.easy.0010",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 3y = 21 \\\\ x - y = 1 \\\\ z = -5 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4,3,-4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(5,3,-5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4,4,-5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4,3,-5)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(4,3,-5)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From $z = -5$, solve the first two equations to get $x = 4$ and $y = 3$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-13972a6ce4387420f2bb7d9050eb78163848f86cba27b4d2354988cdd1116d34",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.easy.0011",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "If $x + y + z = 11$, $x = 5$, and $y = 5$, what is $z$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$11$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute: $5 + 5 + z = 11$, so $z = 1$.",
+    "complexity_factor": 0.85,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "evaluation"
+    ],
+    "checksum": "sha256-8592a57fed7ca65a89dc07a0f5a532ea01443724969d10fd5909ebebdb1cb692",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.easy.0012",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "If $x + y + z = 6$, $x = 3$, and $y = 2$, what is $z$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute: $3 + 2 + z = 6$, so $z = 1$.",
+    "complexity_factor": 0.85,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "evaluation"
+    ],
+    "checksum": "sha256-bd4b9ba8ec40f2075adb4a22ca2777bbbd741d6873e585f87e4fb0a2c825110a",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.easy.0013",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 2x + 1y = -5 \\\\ x - y = -10 \\\\ z = 3 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-5,5,3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-5,6,3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-5,5,4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-4,5,3)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-5,5,3)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From $z = 3$, solve the first two equations to get $x = -5$ and $y = 5$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-944e913291d73152897d4ce7de88357e096aa4a1798bdd775e5c8c4ebd4e3222",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.easy.0014",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 1x + 3y = 7 \\\\ x - y = 3 \\\\ z = 0 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4,1,1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4,2,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4,1,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(5,1,0)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(4,1,0)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From $z = 0$, solve the first two equations to get $x = 4$ and $y = 1$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-01ae5d29e789f585b50e9a54b03d60dc8299f3e5b847fb66fbf68a53f3dea229",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.easy.0015",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "For numbers $x,y,z$, suppose $x+y+z=-3$, $x-y=3$, and $y-z=3$. Find $z$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-5$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The system is satisfied by $x=2$, $y=-1$, and $z=-4$, so the requested value is $-4$.",
+    "complexity_factor": 1,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "linear_system"
+    ],
+    "checksum": "sha256-a6d36f31f4ca278400b1ade1edb8fdfc31f2a0b4e4448c7a8e8d4f3102631e23",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.easy.0016",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "If $x + y + z = 7$, $x = 4$, and $y = 2$, what is $z$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute: $4 + 2 + z = 7$, so $z = 1$.",
+    "complexity_factor": 0.85,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "evaluation"
+    ],
+    "checksum": "sha256-d5e044c04d775a4e77dfc98cfe4d30ed5392f9579e590b8175ecfe378a8a9e0a",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.easy.0017",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 2x + 2y = 12 \\\\ x - y = 2 \\\\ z = 1 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4,3,1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(5,2,1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4,2,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4,2,1)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(4,2,1)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From $z = 1$, solve the first two equations to get $x = 4$ and $y = 2$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-9c072e7de1f373e328a4f43a0f0a6eb7fdf22e5a2ec05ea836d7b1e0f0119c75",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.easy.0018",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 2x + 3y = -21 \\\\ x - y = 2 \\\\ z = -5 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-3,-5,-4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3,-4,-5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-3,-5,-5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2,-5,-5)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-3,-5,-5)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From $z = -5$, solve the first two equations to get $x = -3$ and $y = -5$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-174247d968eefaa16b04ca8d2e4d021b6f894c7a2c6cc7b00a2f18cf7414f76f",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.easy.0019",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "If $x + y + z = 12$, $x = 6$, and $y = 5$, what is $z$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$11$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute: $6 + 5 + z = 12$, so $z = 1$.",
+    "complexity_factor": 0.85,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "evaluation"
+    ],
+    "checksum": "sha256-e1adc6bc5030d5e21db3b0af0db6fdd07d7e4be37fc9d25f09990be9f456beec",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.easy.0020",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "If $x + y + z = 8$, $x = 2$, and $y = 1$, what is $z$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute: $2 + 1 + z = 8$, so $z = 5$.",
+    "complexity_factor": 0.85,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "evaluation"
+    ],
+    "checksum": "sha256-b22804e94eefd1844cfc2dd6623c24e8d15ab25a4e21c4d78a706458cbeafb93",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.easy.0021",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 4x + 2y = 10 \\\\ x - y = 1 \\\\ z = 3 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2,1,3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2,1,4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3,1,3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,2,3)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(2,1,3)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From $z = 3$, solve the first two equations to get $x = 2$ and $y = 1$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-8945b120699f0380f9e758421fba92a3a600987b03a5d3e0367736e758fc2a3a",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.easy.0022",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 1x + 2y = 7 \\\\ x - y = -5 \\\\ z = -4 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,5,-4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,4,-4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,4,-3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,4,-4)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-1,4,-4)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From $z = -4$, solve the first two equations to get $x = -1$ and $y = 4$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-7fa8f45803d8aecd152e976369149d21f2f490d155cb37583d2e47fd4cc9fe8e",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.easy.0023",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "If $x + y + z = 9$, $x = 3$, and $y = 2$, what is $z$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute: $3 + 2 + z = 9$, so $z = 4$.",
+    "complexity_factor": 0.85,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "evaluation"
+    ],
+    "checksum": "sha256-1b4dfccd046c74f97c45a3a02a3c4920fd1c009f074b7ec31a58aa26d2314a4e",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.easy.0024",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "For numbers $x,y,z$, suppose $x+y+z=4$, $x-y=5$, and $y-z=-8$. Find $z$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The system is satisfied by $x=2$, $y=-3$, and $z=5$, so the requested value is $5$.",
+    "complexity_factor": 1,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "linear_system"
+    ],
+    "checksum": "sha256-59f382a4e52e32aea6ae014d09f25b65008ddee90be06219d2a44943f30ec7fe",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.easy.0025",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 4y = 10 \\\\ x - y = 1 \\\\ z = -3 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3,1,-3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2,2,-3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2,1,-3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,1,-2)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(2,1,-3)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From $z = -3$, solve the first two equations to get $x = 2$ and $y = 1$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-cf3c99f8c462d444f61e3206e3c7509f87cac888078bea1db64bf7e1338d0543",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.easy.0026",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 1x + 3y = -3 \\\\ x - y = 1 \\\\ z = 2 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0,0,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,-1,3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0,-1,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1,-1,2)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(0,-1,2)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From $z = 2$, solve the first two equations to get $x = 0$ and $y = -1$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-543e5cafb739b225140a824ec0965d0d78f68351414765839aa41a3e064a5d0e",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.easy.0027",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "If $x + y + z = 16$, $x = 4$, and $y = 6$, what is $z$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute: $4 + 6 + z = 16$, so $z = 6$.",
+    "complexity_factor": 0.85,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "evaluation"
+    ],
+    "checksum": "sha256-056acb0b13569f2fcfd93864979729fe7f915c00679cdb40a985d6f9daf12c81",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.easy.0028",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "If $x + y + z = 12$, $x = 6$, and $y = 3$, what is $z$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute: $6 + 3 + z = 12$, so $z = 3$.",
+    "complexity_factor": 0.85,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "evaluation"
+    ],
+    "checksum": "sha256-fad9815dda7e03b6c8cd7052912286880f43b90f458f820be30124fdd3cc89bb",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.easy.0029",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 4x + 4y = -16 \\\\ x - y = 2 \\\\ z = -5 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,-3,-5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1,-3,-4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0,-3,-5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,-2,-5)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-1,-3,-5)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From $z = -5$, solve the first two equations to get $x = -1$ and $y = -3$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-5ae836a4125cb1ab45870b8e5abed034bff5e2b0688ccb7bc4efd5bfa623845d",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.easy.0030",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 4x + 4y = -8 \\\\ x - y = -4 \\\\ z = 3 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2,1,3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3,1,4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-3,2,3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-3,1,3)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-3,1,3)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From $z = 3$, solve the first two equations to get $x = -3$ and $y = 1$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-8d028d3be8f1fa8723ccd6f44f49691c569c5813f3953057f8af2185f0835b95",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.easy.0031",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "For numbers $x,y,z$, suppose $x+y+z=3$, $x-y=-4$, and $y-z=5$. Find $z$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The system is satisfied by $x=0$, $y=4$, and $z=-1$, so the requested value is $-1$.",
+    "complexity_factor": 1,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "linear_system"
+    ],
+    "checksum": "sha256-08fd024b2824ba5a7b206ffc4b263847c5985a5b9c2ce5164d0621182ee769da",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.easy.0032",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "If $x + y + z = 7$, $x = 2$, and $y = 2$, what is $z$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute: $2 + 2 + z = 7$, so $z = 3$.",
+    "complexity_factor": 0.85,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "evaluation"
+    ],
+    "checksum": "sha256-71f02663ad07335a0f0e003f75d1ec3e358d5ceca745b50cc1c0151a9d9b4eda",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.easy.0033",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 1y = 6 \\\\ x - y = 2 \\\\ z = 5 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3,0,5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2,0,5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2,0,6)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,1,5)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(2,0,5)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From $z = 5$, solve the first two equations to get $x = 2$ and $y = 0$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-ecff5a76952882d69c0931c266536d895b87fa3d7ae38d42b601f5123c31e9ef",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.easy.0034",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 2x + 4y = -12 \\\\ x - y = 3 \\\\ z = 0 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0,-3,1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,-2,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0,-3,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1,-3,0)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(0,-3,0)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From $z = 0$, solve the first two equations to get $x = 0$ and $y = -3$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-abe214073f271af7cc87b9cdf27ffd407943091d1c6e58c9bad4ef6e44358a76",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.easy.0035",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "For numbers $x,y,z$, suppose $x+y+z=4$, $x-y=7$, and $y-z=-6$. Find $z$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The system is satisfied by $x=4$, $y=-3$, and $z=3$, so the requested value is $3$.",
+    "complexity_factor": 1,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "linear_system"
+    ],
+    "checksum": "sha256-afaf7c55d1acd1a2788500cfa761d0e4ae72f46c135ce11966a60b292c0d2eb4",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.easy.0036",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "If $x + y + z = 8$, $x = 3$, and $y = 4$, what is $z$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute: $3 + 4 + z = 8$, so $z = 1$.",
+    "complexity_factor": 0.85,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "evaluation"
+    ],
+    "checksum": "sha256-a0f48da30ee705ba4f884f9b14f72e69ac212a774157e894f9c30f88b8958705",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.easy.0037",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 1x + 3y = -2 \\\\ x - y = 6 \\\\ z = -3 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4,-1,-3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(5,-2,-3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4,-2,-3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4,-2,-2)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(4,-2,-3)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From $z = -3$, solve the first two equations to get $x = 4$ and $y = -2$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-72ef7daac040b2adf332344fed1f4414d8391142e9e3c9468cfd05eaff46d570",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.easy.0038",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 2x + 4y = 4 \\\\ x - y = -1 \\\\ z = 0 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1,1,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,1,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0,2,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0,1,1)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(0,1,0)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From $z = 0$, solve the first two equations to get $x = 0$ and $y = 1$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-f24e173ca4a98191b4208d711a35782b9308ddcff1aa58f13ac03afb47f79a3b",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.easy.0039",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "If $x + y + z = 8$, $x = 2$, and $y = 2$, what is $z$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute: $2 + 2 + z = 8$, so $z = 4$.",
+    "complexity_factor": 0.85,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "evaluation"
+    ],
+    "checksum": "sha256-2b1cd5348cc933e70fa1f9bcb159b67c8d4db7d9320ce0903e1c2c4280984151",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.easy.0040",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "If $x + y + z = 9$, $x = 2$, and $y = 3$, what is $z$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute: $2 + 3 + z = 9$, so $z = 4$.",
+    "complexity_factor": 0.85,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "evaluation"
+    ],
+    "checksum": "sha256-0f65c61ca3eaf468617755ea0151d4b7c388bfd729ae460df9af8eb38302ded1",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.easy.0041",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 2x + 2y = 8 \\\\ x - y = -4 \\\\ z = 4 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0,4,5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,5,4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1,4,4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0,4,4)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(0,4,4)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From $z = 4$, solve the first two equations to get $x = 0$ and $y = 4$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-59c989f4f79989f4a85442f933aa1382737925bb46a4376c67f6ca88e55e6018",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.easy.0042",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 2y = -8 \\\\ x - y = -6 \\\\ z = 0 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-4,3,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-4,2,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-3,2,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-4,2,1)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-4,2,0)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From $z = 0$, solve the first two equations to get $x = -4$ and $y = 2$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-87f96acc2e4c0974d931a5c8a54b417aaf889925abd5a0f838c1e623cd798a1d",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.easy.0043",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "If $x + y + z = 13$, $x = 6$, and $y = 3$, what is $z$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$13$"
+      },
+      {
+        "id": "b",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute: $6 + 3 + z = 13$, so $z = 4$.",
+    "complexity_factor": 0.85,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "evaluation"
+    ],
+    "checksum": "sha256-9b7866a1a4749f41a31507232d5af9cd0bc35bd7c73e0e1252d2b4f114b6d515",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.easy.0044",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "If $x + y + z = 15$, $x = 6$, and $y = 5$, what is $z$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$15$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute: $6 + 5 + z = 15$, so $z = 4$.",
+    "complexity_factor": 0.85,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "evaluation"
+    ],
+    "checksum": "sha256-58f3149567bcd7510c509a7bcbf1ae313cfe4ba6dfa411189c0998a30edf2f30",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.easy.0045",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 4x + 4y = 0 \\\\ x - y = 0 \\\\ z = 0 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1,0,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,1,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0,0,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0,0,1)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(0,0,0)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From $z = 0$, solve the first two equations to get $x = 0$ and $y = 0$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-577be94ba3bfb760cb4a73a022f14234b2369d059f5366a51dba0e4aeed53ad2",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.easy.0046",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 1x + 4y = 3 \\\\ x - y = -2 \\\\ z = -5 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0,1,-5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1,1,-5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,2,-5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,1,-4)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-1,1,-5)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From $z = -5$, solve the first two equations to get $x = -1$ and $y = 1$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-506b497dafd3eff312708a0f0c59db187231ac97d34d4333be9cb5720b9aa5bb",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.easy.0047",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "For numbers $x,y,z$, suppose $x+y+z=-2$, $x-y=0$, and $y-z=-4$. Find $z$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The system is satisfied by $x=-2$, $y=-2$, and $z=2$, so the requested value is $2$.",
+    "complexity_factor": 1,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "linear_system"
+    ],
+    "checksum": "sha256-db552ec32ae079ac9b194c6994d4796757be20fe474d986fe1697b43b8c1c359",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.easy.0048",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "If $x + y + z = 8$, $x = 1$, and $y = 4$, what is $z$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Substitute: $1 + 4 + z = 8$, so $z = 3$.",
+    "complexity_factor": 0.85,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "evaluation"
+    ],
+    "checksum": "sha256-7885947d4abe06aaa822f84ecfd4c303ad2e11f372048cb5e2d4bae330c4fad8",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.easy.0049",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 4y = -9 \\\\ x - y = 4 \\\\ z = -3 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1,-2,-3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1,-3,-3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1,-3,-2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,-3,-3)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(1,-3,-3)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From $z = -3$, solve the first two equations to get $x = 1$ and $y = -3$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-773dc379e0e20ddc54a5dabb9b5b99995e6b9b48a99d10ae50136d02dcdd7971",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.easy.0050",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "easy",
+    "prompt_latex": "Solve $\\begin{cases} 4x + 3y = 2 \\\\ x - y = -3 \\\\ z = -2 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,3,-2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,2,-2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,2,-2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,2,-1)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-1,2,-2)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From $z = -2$, solve the first two equations to get $x = -1$ and $y = 2$.",
+    "complexity_factor": 0.95,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-79d7a45b566fcef9df40eeacb87f43e0374b2d60047b5913bfec0bf175e566d6",
+    "status": "valid"
+  }
+]

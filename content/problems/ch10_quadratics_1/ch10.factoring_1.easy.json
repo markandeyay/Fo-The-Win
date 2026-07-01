@@ -8,29 +8,29 @@
     "choices": [
       {
         "id": "a",
-        "latex": "$(x + 2)(x + 3)$"
+        "latex": "$(x + 1)(x + 4)$"
       },
       {
         "id": "b",
-        "latex": "$(x + 1)(x + 6)$"
+        "latex": "$(x + 2)(x - 3)$"
       },
       {
         "id": "c",
-        "latex": "$(x + 2)(x + 4)$"
+        "latex": "$(x + 2)(x + 3)$"
       },
       {
         "id": "d",
-        "latex": "$(x + 6)(x - 1)$"
+        "latex": "$(x - 2)(x - 3)$"
       }
     ],
-    "correct_choice": "a",
+    "correct_choice": "c",
     "correct_answer": "(x+2)(x+3)",
     "answer_type": "expression",
     "accepted_forms": [
       "(x+3)(x+2)"
     ],
-    "solution_latex": "We need two numbers with product 6 and sum 5: 2 and 3.",
-    "complexity_factor": 0.9,
+    "solution_latex": "The roots are $-2$ and $-3$, so the factorization is $(x + 2)(x + 3)$.",
+    "complexity_factor": 0.95,
     "source_section": "10.2",
     "tags": [
       "factoring",
@@ -44,41 +44,2009 @@
     "topic_id": "ch10.factoring_1",
     "group_id": "ch10_quadratics_1",
     "difficulty": "easy",
-    "prompt_latex": "Factor completely: $x^2 - 9$.",
+    "prompt_latex": "Factor completely: $x^2 + 7x + 6$.",
     "answer_format": "mc",
     "choices": [
       {
         "id": "a",
-        "latex": "$(x - 3)(x + 3)$"
+        "latex": "$(x + 1)(x - 6)$"
       },
       {
         "id": "b",
-        "latex": "$(x - 3)^2$"
+        "latex": "$(x + 1)(x + 6)$"
       },
       {
         "id": "c",
-        "latex": "$(x + 9)(x - 1)$"
+        "latex": "$(x - 1)(x - 6)$"
       },
       {
         "id": "d",
-        "latex": "$(x - 9)(x + 1)$"
+        "latex": "$(x)(x + 7)$"
       }
     ],
-    "correct_choice": "a",
-    "correct_answer": "(x-3)(x+3)",
+    "correct_choice": "b",
+    "correct_answer": "(x+1)(x+6)",
     "answer_type": "expression",
     "accepted_forms": [
-      "(x+3)(x-3)"
+      "(x+6)(x+1)"
     ],
-    "solution_latex": "Difference of squares: $x^2 - 9 = (x - 3)(x + 3)$.",
-    "complexity_factor": 0.9,
+    "solution_latex": "The roots are $-1$ and $-6$, so the factorization is $(x + 1)(x + 6)$.",
+    "complexity_factor": 0.95,
     "source_section": "10.2",
     "tags": [
       "factoring",
       "quadratic"
     ],
     "id": "ch10.factoring_1.easy.0002",
-    "checksum": "sha256-b47775a4998c00857e8aaae89dd47dcb42c7c3b30b4f7c1b40ef6f422807da25",
+    "checksum": "sha256-1df1e25adecfc8d8b97374c852fb97a796d92183df2ab65aa65c6c0f8998ba1a",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch10.factoring_1",
+    "group_id": "ch10_quadratics_1",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^2 + 9x + 20$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 4)(x + 5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 4)(x - 5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 3)(x + 6)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 4)(x - 5)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(x+4)(x+5)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x+5)(x+4)"
+    ],
+    "solution_latex": "The roots are $-4$ and $-5$, so the factorization is $(x + 4)(x + 5)$.",
+    "complexity_factor": 0.95,
+    "source_section": "10.2",
+    "tags": [
+      "factoring",
+      "quadratic"
+    ],
+    "id": "ch10.factoring_1.easy.0003",
+    "checksum": "sha256-4999007baa5fcab1acef2840d4d05001bdedd7a41f12fe531acb039222d6a155",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch10.factoring_1",
+    "group_id": "ch10_quadratics_1",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^2 - 5x + 6$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 2)(x + 3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 1)(x - 6)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 2)(x - 3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 2)(x + 3)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x-2)(x-3)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x-3)(x-2)"
+    ],
+    "solution_latex": "The roots are $2$ and $3$, so the factorization is $(x - 2)(x - 3)$.",
+    "complexity_factor": 0.95,
+    "source_section": "10.2",
+    "tags": [
+      "factoring",
+      "quadratic"
+    ],
+    "id": "ch10.factoring_1.easy.0004",
+    "checksum": "sha256-6f5a70ea62bb5b9da08407737d862c9343db44cf39574e35cb9a36d8b5cd88ad",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch10.factoring_1",
+    "group_id": "ch10_quadratics_1",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^2 - 9x + 8$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 1)(x - 8)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 1)(x + 8)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 2)(x - 7)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 1)(x + 8)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(x-1)(x-8)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x-8)(x-1)"
+    ],
+    "solution_latex": "The roots are $1$ and $8$, so the factorization is $(x - 1)(x - 8)$.",
+    "complexity_factor": 0.95,
+    "source_section": "10.2",
+    "tags": [
+      "factoring",
+      "quadratic"
+    ],
+    "id": "ch10.factoring_1.easy.0005",
+    "checksum": "sha256-38efed66cfdd9cf01672aa37a070820b06a4ea56868f0ad6f8f94e9b0c6e8ff5",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch10.factoring_1",
+    "group_id": "ch10_quadratics_1",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^2 - 10x + 24$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 4)(x + 6)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 5)(x - 5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 4)(x + 6)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 4)(x - 6)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x-4)(x-6)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x-6)(x-4)"
+    ],
+    "solution_latex": "The roots are $4$ and $6$, so the factorization is $(x - 4)(x - 6)$.",
+    "complexity_factor": 0.95,
+    "source_section": "10.2",
+    "tags": [
+      "factoring",
+      "quadratic"
+    ],
+    "id": "ch10.factoring_1.easy.0006",
+    "checksum": "sha256-3fa18e9b71abf1b4ed63720d174cc79730e411e701a016fb6af780deec58594c",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch10.factoring_1",
+    "group_id": "ch10_quadratics_1",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^2 - 3x - 10$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 1)(x - 4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 2)(x + 5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 2)(x - 5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 2)(x + 5)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x+2)(x-5)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x-5)(x+2)"
+    ],
+    "solution_latex": "The roots are $-2$ and $5$, so the factorization is $(x + 2)(x - 5)$.",
+    "complexity_factor": 0.95,
+    "source_section": "10.2",
+    "tags": [
+      "factoring",
+      "quadratic"
+    ],
+    "id": "ch10.factoring_1.easy.0007",
+    "checksum": "sha256-d4909c3681df32635c48e3dfe08f87ef8cb768b67cbcf2473ec9f7d7293e559e",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch10.factoring_1",
+    "group_id": "ch10_quadratics_1",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^2 - 4x - 21$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 2)(x - 6)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 3)(x + 7)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 3)(x - 7)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 3)(x + 7)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x+3)(x-7)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x-7)(x+3)"
+    ],
+    "solution_latex": "The roots are $-3$ and $7$, so the factorization is $(x + 3)(x - 7)$.",
+    "complexity_factor": 0.95,
+    "source_section": "10.2",
+    "tags": [
+      "factoring",
+      "quadratic"
+    ],
+    "id": "ch10.factoring_1.easy.0008",
+    "checksum": "sha256-46e85c47f73577f38f82635787fd697dee5697724de10cd75535a547f8e13a50",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch10.factoring_1",
+    "group_id": "ch10_quadratics_1",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^2 + 8x - 9$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 1)(x + 9)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 1)(x - 9)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 2)(x + 10)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 1)(x - 9)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(x-1)(x+9)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x+9)(x-1)"
+    ],
+    "solution_latex": "The roots are $1$ and $-9$, so the factorization is $(x - 1)(x + 9)$.",
+    "complexity_factor": 0.95,
+    "source_section": "10.2",
+    "tags": [
+      "factoring",
+      "quadratic"
+    ],
+    "id": "ch10.factoring_1.easy.0009",
+    "checksum": "sha256-70f53f4bc715ea83b3d60be21ee2586aadde02081f96f247cb7bb64440701afc",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch10.factoring_1",
+    "group_id": "ch10_quadratics_1",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^2 + 6x - 16$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 3)(x + 9)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 2)(x - 8)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 2)(x + 8)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 2)(x - 8)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x-2)(x+8)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x+8)(x-2)"
+    ],
+    "solution_latex": "The roots are $2$ and $-8$, so the factorization is $(x - 2)(x + 8)$.",
+    "complexity_factor": 0.95,
+    "source_section": "10.2",
+    "tags": [
+      "factoring",
+      "quadratic"
+    ],
+    "id": "ch10.factoring_1.easy.0010",
+    "checksum": "sha256-04b612d9ce683f361c3869c9fdafd59f63964e9b043f593abce100bb6df1416e",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch10.factoring_1",
+    "group_id": "ch10_quadratics_1",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^2 + 11x + 10$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 1)(x - 10)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 1)(x + 10)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 1)(x - 10)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x)(x + 11)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(x+1)(x+10)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x+10)(x+1)"
+    ],
+    "solution_latex": "The roots are $-1$ and $-10$, so the factorization is $(x + 1)(x + 10)$.",
+    "complexity_factor": 0.95,
+    "source_section": "10.2",
+    "tags": [
+      "factoring",
+      "quadratic"
+    ],
+    "id": "ch10.factoring_1.easy.0011",
+    "checksum": "sha256-7477440ccd022790f1621488ed0cb321e4f24cb906865073f02d82c2cdb50d31",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch10.factoring_1",
+    "group_id": "ch10_quadratics_1",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^2 + 11x + 30$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 5)(x - 6)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 5)(x + 6)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 5)(x - 6)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 4)(x + 7)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(x+5)(x+6)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x+6)(x+5)"
+    ],
+    "solution_latex": "The roots are $-5$ and $-6$, so the factorization is $(x + 5)(x + 6)$.",
+    "complexity_factor": 0.95,
+    "source_section": "10.2",
+    "tags": [
+      "factoring",
+      "quadratic"
+    ],
+    "id": "ch10.factoring_1.easy.0012",
+    "checksum": "sha256-855b971e72d99a9a06383be0ef493b76073997fbd02089fef96a138b0e5e9c4a",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch10.factoring_1",
+    "group_id": "ch10_quadratics_1",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^2 - 7x + 12$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 3)(x - 4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 3)(x + 4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 3)(x + 4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 1)(x - 12)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(x-3)(x-4)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x-4)(x-3)"
+    ],
+    "solution_latex": "The roots are $3$ and $4$, so the factorization is $(x - 3)(x - 4)$.",
+    "complexity_factor": 0.95,
+    "source_section": "10.2",
+    "tags": [
+      "factoring",
+      "quadratic"
+    ],
+    "id": "ch10.factoring_1.easy.0013",
+    "checksum": "sha256-587a0b9911ddf52231b0b9de400281659f1f959f4b2d55da65f350398c9f9d84",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch10.factoring_1",
+    "group_id": "ch10_quadratics_1",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^2 - 11x + 18$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 2)(x + 9)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 2)(x - 9)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 2)(x + 9)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 3)(x - 8)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(x-2)(x-9)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x-9)(x-2)"
+    ],
+    "solution_latex": "The roots are $2$ and $9$, so the factorization is $(x - 2)(x - 9)$.",
+    "complexity_factor": 0.95,
+    "source_section": "10.2",
+    "tags": [
+      "factoring",
+      "quadratic"
+    ],
+    "id": "ch10.factoring_1.easy.0014",
+    "checksum": "sha256-9d47d689694b423552ac5290cebc340e101b5fc27b2c471d2ee5f9c02d9f4e6e",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch10.factoring_1",
+    "group_id": "ch10_quadratics_1",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^2 - 12x + 35$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 5)(x + 7)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 6)(x - 6)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 5)(x + 7)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 5)(x - 7)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x-5)(x-7)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x-7)(x-5)"
+    ],
+    "solution_latex": "The roots are $5$ and $7$, so the factorization is $(x - 5)(x - 7)$.",
+    "complexity_factor": 0.95,
+    "source_section": "10.2",
+    "tags": [
+      "factoring",
+      "quadratic"
+    ],
+    "id": "ch10.factoring_1.easy.0015",
+    "checksum": "sha256-20610ae5289872ef19a5f1478e74727875863b60fd7b65d08d6bf21ae6b582fd",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch10.factoring_1",
+    "group_id": "ch10_quadratics_1",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^2 - 2x - 24$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 4)(x - 6)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 4)(x + 6)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 3)(x - 5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 4)(x + 6)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(x+4)(x-6)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x-6)(x+4)"
+    ],
+    "solution_latex": "The roots are $-4$ and $6$, so the factorization is $(x + 4)(x - 6)$.",
+    "complexity_factor": 0.95,
+    "source_section": "10.2",
+    "tags": [
+      "factoring",
+      "quadratic"
+    ],
+    "id": "ch10.factoring_1.easy.0016",
+    "checksum": "sha256-d5a4654f8e752dc90f6de491bf1bb7f8b49478f61426bc0d4ac7a0a266f7363f",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch10.factoring_1",
+    "group_id": "ch10_quadratics_1",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^2 - 6x - 16$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 2)(x - 8)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 2)(x + 8)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 1)(x - 7)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 2)(x + 8)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(x+2)(x-8)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x-8)(x+2)"
+    ],
+    "solution_latex": "The roots are $-2$ and $8$, so the factorization is $(x + 2)(x - 8)$.",
+    "complexity_factor": 0.95,
+    "source_section": "10.2",
+    "tags": [
+      "factoring",
+      "quadratic"
+    ],
+    "id": "ch10.factoring_1.easy.0017",
+    "checksum": "sha256-6f8c4f9f5277642bf175b2e655fdda0e9ce52681c59e7312c3e33537cad10ba0",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch10.factoring_1",
+    "group_id": "ch10_quadratics_1",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^2 + 7x - 30$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 4)(x + 11)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 3)(x - 10)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 3)(x + 10)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 3)(x - 10)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x-3)(x+10)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x+10)(x-3)"
+    ],
+    "solution_latex": "The roots are $3$ and $-10$, so the factorization is $(x - 3)(x + 10)$.",
+    "complexity_factor": 0.95,
+    "source_section": "10.2",
+    "tags": [
+      "factoring",
+      "quadratic"
+    ],
+    "id": "ch10.factoring_1.easy.0018",
+    "checksum": "sha256-d566bc54825482d9df97a22605de47849e379cb57bcbff0b09315d3e67f081bc",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch10.factoring_1",
+    "group_id": "ch10_quadratics_1",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^2 + 11x - 12$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 1)(x - 12)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 2)(x + 13)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 1)(x - 12)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 1)(x + 12)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x-1)(x+12)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x+12)(x-1)"
+    ],
+    "solution_latex": "The roots are $1$ and $-12$, so the factorization is $(x - 1)(x + 12)$.",
+    "complexity_factor": 0.95,
+    "source_section": "10.2",
+    "tags": [
+      "factoring",
+      "quadratic"
+    ],
+    "id": "ch10.factoring_1.easy.0019",
+    "checksum": "sha256-e835292815d4ad2053ac390d265f770b08b02d8a37265f1196c956f76c20579b",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch10.factoring_1",
+    "group_id": "ch10_quadratics_1",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^2 + 3x - 28$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 4)(x - 7)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 4)(x + 7)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 4)(x - 7)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 5)(x + 8)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(x-4)(x+7)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x+7)(x-4)"
+    ],
+    "solution_latex": "The roots are $4$ and $-7$, so the factorization is $(x - 4)(x + 7)$.",
+    "complexity_factor": 0.95,
+    "source_section": "10.2",
+    "tags": [
+      "factoring",
+      "quadratic"
+    ],
+    "id": "ch10.factoring_1.easy.0020",
+    "checksum": "sha256-65949d5478bea0aba55ea1178554631a92b54477affd79f381cba57d49d787dc",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch10.factoring_1",
+    "group_id": "ch10_quadratics_1",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^2 + 11x + 24$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 3)(x + 8)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 3)(x - 8)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 2)(x + 9)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 3)(x - 8)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(x+3)(x+8)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x+8)(x+3)"
+    ],
+    "solution_latex": "The roots are $-3$ and $-8$, so the factorization is $(x + 3)(x + 8)$.",
+    "complexity_factor": 0.95,
+    "source_section": "10.2",
+    "tags": [
+      "factoring",
+      "quadratic"
+    ],
+    "id": "ch10.factoring_1.easy.0021",
+    "checksum": "sha256-8e0297ceae15d4efadf23fcadf40d81e797d41a12e7da86b5da8651e1ea5a2c7",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch10.factoring_1",
+    "group_id": "ch10_quadratics_1",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^2 - 15x + 54$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 6)(x + 9)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 6)(x - 9)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 6)(x + 9)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 7)(x - 8)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(x-6)(x-9)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x-9)(x-6)"
+    ],
+    "solution_latex": "The roots are $6$ and $9$, so the factorization is $(x - 6)(x - 9)$.",
+    "complexity_factor": 0.95,
+    "source_section": "10.2",
+    "tags": [
+      "factoring",
+      "quadratic"
+    ],
+    "id": "ch10.factoring_1.easy.0022",
+    "checksum": "sha256-c7e4d0e3d453c239471cd1a0a6938af9226234bd5aa6a1fa3db363d32db7cc1b",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch10.factoring_1",
+    "group_id": "ch10_quadratics_1",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^2 - 13x + 22$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 2)(x + 11)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 3)(x - 10)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 2)(x + 11)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 2)(x - 11)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x-2)(x-11)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x-11)(x-2)"
+    ],
+    "solution_latex": "The roots are $2$ and $11$, so the factorization is $(x - 2)(x - 11)$.",
+    "complexity_factor": 0.95,
+    "source_section": "10.2",
+    "tags": [
+      "factoring",
+      "quadratic"
+    ],
+    "id": "ch10.factoring_1.easy.0023",
+    "checksum": "sha256-405de31e817b740f02bd4bfde88dcf1b30831a43380439dcd1c89de2f4ad90cc",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch10.factoring_1",
+    "group_id": "ch10_quadratics_1",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^2 - 4x - 45$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 4)(x - 8)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 5)(x + 9)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 5)(x - 9)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 5)(x + 9)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x+5)(x-9)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x-9)(x+5)"
+    ],
+    "solution_latex": "The roots are $-5$ and $9$, so the factorization is $(x + 5)(x - 9)$.",
+    "complexity_factor": 0.95,
+    "source_section": "10.2",
+    "tags": [
+      "factoring",
+      "quadratic"
+    ],
+    "id": "ch10.factoring_1.easy.0024",
+    "checksum": "sha256-c178cb6f4a51bd3df0cc5f79b3797670ea7255041ac930d7261e1c6f8b64de86",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch10.factoring_1",
+    "group_id": "ch10_quadratics_1",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^2 - 12x - 13$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 1)(x - 13)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 1)(x + 13)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x)(x - 12)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 1)(x + 13)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(x+1)(x-13)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x-13)(x+1)"
+    ],
+    "solution_latex": "The roots are $-1$ and $13$, so the factorization is $(x + 1)(x - 13)$.",
+    "complexity_factor": 0.95,
+    "source_section": "10.2",
+    "tags": [
+      "factoring",
+      "quadratic"
+    ],
+    "id": "ch10.factoring_1.easy.0025",
+    "checksum": "sha256-fec6a9209f71734f16374723dbae79ec9b3c1a8c39ef22f560eca90fff6c20dd",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch10.factoring_1",
+    "group_id": "ch10_quadratics_1",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^2 + 6x - 55$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 5)(x + 11)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 5)(x - 11)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 6)(x + 12)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 5)(x - 11)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(x-5)(x+11)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x+11)(x-5)"
+    ],
+    "solution_latex": "The roots are $5$ and $-11$, so the factorization is $(x - 5)(x + 11)$.",
+    "complexity_factor": 0.95,
+    "source_section": "10.2",
+    "tags": [
+      "factoring",
+      "quadratic"
+    ],
+    "id": "ch10.factoring_1.easy.0026",
+    "checksum": "sha256-d8fa8c054766f303d4a41b5e9e954a5ef9ab2a5c5c391ff6d1e0024cee8e00eb",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch10.factoring_1",
+    "group_id": "ch10_quadratics_1",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^2 + 5x - 84$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 7)(x + 12)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 7)(x - 12)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 8)(x + 13)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 7)(x - 12)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(x-7)(x+12)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x+12)(x-7)"
+    ],
+    "solution_latex": "The roots are $7$ and $-12$, so the factorization is $(x - 7)(x + 12)$.",
+    "complexity_factor": 0.95,
+    "source_section": "10.2",
+    "tags": [
+      "factoring",
+      "quadratic"
+    ],
+    "id": "ch10.factoring_1.easy.0027",
+    "checksum": "sha256-6fbe7cd838f5da528319177c6742c0dd1d45ba3121815e6fb343a0bc90656ac1",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch10.factoring_1",
+    "group_id": "ch10_quadratics_1",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^2 + 13x + 42$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 6)(x + 7)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 6)(x - 7)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 5)(x + 8)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 6)(x - 7)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(x+6)(x+7)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x+7)(x+6)"
+    ],
+    "solution_latex": "The roots are $-6$ and $-7$, so the factorization is $(x + 6)(x + 7)$.",
+    "complexity_factor": 0.95,
+    "source_section": "10.2",
+    "tags": [
+      "factoring",
+      "quadratic"
+    ],
+    "id": "ch10.factoring_1.easy.0028",
+    "checksum": "sha256-74b0696e87234a061519940dec3e38e7f7c9fe5ce49039f247edae4fa39fa600",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch10.factoring_1",
+    "group_id": "ch10_quadratics_1",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^2 - 18x + 80$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 9)(x - 9)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 8)(x + 10)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 8)(x - 10)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 8)(x + 10)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x-8)(x-10)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x-10)(x-8)"
+    ],
+    "solution_latex": "The roots are $8$ and $10$, so the factorization is $(x - 8)(x - 10)$.",
+    "complexity_factor": 0.95,
+    "source_section": "10.2",
+    "tags": [
+      "factoring",
+      "quadratic"
+    ],
+    "id": "ch10.factoring_1.easy.0029",
+    "checksum": "sha256-788c097b2ec29a3e3603659d48892a239e32c28b784e3db2056098e69c972e4a",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch10.factoring_1",
+    "group_id": "ch10_quadratics_1",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^2 + 11x - 42$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 4)(x + 15)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 3)(x - 14)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 3)(x + 14)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 3)(x - 14)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x-3)(x+14)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x+14)(x-3)"
+    ],
+    "solution_latex": "The roots are $3$ and $-14$, so the factorization is $(x - 3)(x + 14)$.",
+    "complexity_factor": 0.95,
+    "source_section": "10.2",
+    "tags": [
+      "factoring",
+      "quadratic"
+    ],
+    "id": "ch10.factoring_1.easy.0030",
+    "checksum": "sha256-aa98a63435a8d541cf547898b2be43458d6c1632e81b457201b37ee5819ac4b6",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch10.factoring_1",
+    "group_id": "ch10_quadratics_1",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^2 + 11x + 18$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 2)(x - 9)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 2)(x + 9)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 2)(x - 9)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 1)(x + 10)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(x+2)(x+9)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x+9)(x+2)"
+    ],
+    "solution_latex": "The roots are $-2$ and $-9$, so the factorization is $(x + 2)(x + 9)$.",
+    "complexity_factor": 0.95,
+    "source_section": "10.2",
+    "tags": [
+      "factoring",
+      "quadratic"
+    ],
+    "id": "ch10.factoring_1.easy.0031",
+    "checksum": "sha256-4a5e4a9230d9c2d8a0e6b1dc01cb2c81dd757ebf77e2aa32f5299201833f3307",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch10.factoring_1",
+    "group_id": "ch10_quadratics_1",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^2 - 15x + 44$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 4)(x + 11)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 5)(x - 10)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 4)(x + 11)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 4)(x - 11)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x-4)(x-11)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x-11)(x-4)"
+    ],
+    "solution_latex": "The roots are $4$ and $11$, so the factorization is $(x - 4)(x - 11)$.",
+    "complexity_factor": 0.95,
+    "source_section": "10.2",
+    "tags": [
+      "factoring",
+      "quadratic"
+    ],
+    "id": "ch10.factoring_1.easy.0032",
+    "checksum": "sha256-4fbe7a62884542570a040fd074d9d0a6bc715681380b1db2235a18eb021ab3d1",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch10.factoring_1",
+    "group_id": "ch10_quadratics_1",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^2 - 15x + 14$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 1)(x + 14)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 2)(x - 13)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 1)(x + 14)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 1)(x - 14)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x-1)(x-14)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x-14)(x-1)"
+    ],
+    "solution_latex": "The roots are $1$ and $14$, so the factorization is $(x - 1)(x - 14)$.",
+    "complexity_factor": 0.95,
+    "source_section": "10.2",
+    "tags": [
+      "factoring",
+      "quadratic"
+    ],
+    "id": "ch10.factoring_1.easy.0033",
+    "checksum": "sha256-265abb977a4e211f24ef7ec4ef22843aaaf39669abc0610b7d211fb277cc3bff",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch10.factoring_1",
+    "group_id": "ch10_quadratics_1",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^2 - 3x - 70$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 7)(x + 10)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 7)(x - 10)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 7)(x + 10)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 6)(x - 9)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(x+7)(x-10)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x-10)(x+7)"
+    ],
+    "solution_latex": "The roots are $-7$ and $10$, so the factorization is $(x + 7)(x - 10)$.",
+    "complexity_factor": 0.95,
+    "source_section": "10.2",
+    "tags": [
+      "factoring",
+      "quadratic"
+    ],
+    "id": "ch10.factoring_1.easy.0034",
+    "checksum": "sha256-d386a473b338108a1508a12aa99eb1b22996c8b88bb536de23559203a95de7b2",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch10.factoring_1",
+    "group_id": "ch10_quadratics_1",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^2 - 9x - 36$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 2)(x - 11)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 3)(x + 12)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 3)(x - 12)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 3)(x + 12)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x+3)(x-12)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x-12)(x+3)"
+    ],
+    "solution_latex": "The roots are $-3$ and $12$, so the factorization is $(x + 3)(x - 12)$.",
+    "complexity_factor": 0.95,
+    "source_section": "10.2",
+    "tags": [
+      "factoring",
+      "quadratic"
+    ],
+    "id": "ch10.factoring_1.easy.0035",
+    "checksum": "sha256-eb39827b4a52f6474955a42d919e3dfdf744cc5c58e0072c271ff582c7217ebe",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch10.factoring_1",
+    "group_id": "ch10_quadratics_1",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^2 + 7x - 78$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 6)(x - 13)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 7)(x + 14)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 6)(x - 13)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 6)(x + 13)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x-6)(x+13)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x+13)(x-6)"
+    ],
+    "solution_latex": "The roots are $6$ and $-13$, so the factorization is $(x - 6)(x + 13)$.",
+    "complexity_factor": 0.95,
+    "source_section": "10.2",
+    "tags": [
+      "factoring",
+      "quadratic"
+    ],
+    "id": "ch10.factoring_1.easy.0036",
+    "checksum": "sha256-47340c732b658186c4634c74c5f956def34423739a740f4ef67ca9cb8f37dce3",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch10.factoring_1",
+    "group_id": "ch10_quadratics_1",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^2 - 17x + 60$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 5)(x - 12)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 5)(x + 12)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 6)(x - 11)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 5)(x + 12)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(x-5)(x-12)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x-12)(x-5)"
+    ],
+    "solution_latex": "The roots are $5$ and $12$, so the factorization is $(x - 5)(x - 12)$.",
+    "complexity_factor": 0.95,
+    "source_section": "10.2",
+    "tags": [
+      "factoring",
+      "quadratic"
+    ],
+    "id": "ch10.factoring_1.easy.0037",
+    "checksum": "sha256-47007d766b421a8f5249e59aae5d3a0d4a906f8c99fdeeccd5e3523e278d3844",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch10.factoring_1",
+    "group_id": "ch10_quadratics_1",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^2 + 17x + 72$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 8)(x + 9)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 8)(x - 9)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 7)(x + 10)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 8)(x - 9)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(x+8)(x+9)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x+9)(x+8)"
+    ],
+    "solution_latex": "The roots are $-8$ and $-9$, so the factorization is $(x + 8)(x + 9)$.",
+    "complexity_factor": 0.95,
+    "source_section": "10.2",
+    "tags": [
+      "factoring",
+      "quadratic"
+    ],
+    "id": "ch10.factoring_1.easy.0038",
+    "checksum": "sha256-7028a917b22cf71ca1e33daa2b3d9a11101ded3d9398b22146b8385c23c09ae3",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch10.factoring_1",
+    "group_id": "ch10_quadratics_1",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^2 - 18x + 77$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 8)(x - 10)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 7)(x + 11)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 7)(x - 11)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 7)(x + 11)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x-7)(x-11)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x-11)(x-7)"
+    ],
+    "solution_latex": "The roots are $7$ and $11$, so the factorization is $(x - 7)(x - 11)$.",
+    "complexity_factor": 0.95,
+    "source_section": "10.2",
+    "tags": [
+      "factoring",
+      "quadratic"
+    ],
+    "id": "ch10.factoring_1.easy.0039",
+    "checksum": "sha256-cb8006f833e786337bc6d9f117422ba28bfb21363affa9f7eaa8b23b23bc1c28",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch10.factoring_1",
+    "group_id": "ch10_quadratics_1",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^2 + 13x - 30$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 3)(x + 16)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 2)(x - 15)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 2)(x + 15)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 2)(x - 15)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x-2)(x+15)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x+15)(x-2)"
+    ],
+    "solution_latex": "The roots are $2$ and $-15$, so the factorization is $(x - 2)(x + 15)$.",
+    "complexity_factor": 0.95,
+    "source_section": "10.2",
+    "tags": [
+      "factoring",
+      "quadratic"
+    ],
+    "id": "ch10.factoring_1.easy.0040",
+    "checksum": "sha256-797862729aae484856c240819b7014d91b423101dd9e1c16636ff4043e80d78b",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch10.factoring_1",
+    "group_id": "ch10_quadratics_1",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^2 - 9x - 52$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 3)(x - 12)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 4)(x + 13)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 4)(x - 13)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 4)(x + 13)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x+4)(x-13)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x-13)(x+4)"
+    ],
+    "solution_latex": "The roots are $-4$ and $13$, so the factorization is $(x + 4)(x - 13)$.",
+    "complexity_factor": 0.95,
+    "source_section": "10.2",
+    "tags": [
+      "factoring",
+      "quadratic"
+    ],
+    "id": "ch10.factoring_1.easy.0041",
+    "checksum": "sha256-58ecbd764867ded74fa19c123a657fa79e732aafdf524994af53cb06e2d3224f",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch10.factoring_1",
+    "group_id": "ch10_quadratics_1",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^2 + 5x - 126$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 10)(x + 15)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 9)(x - 14)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 9)(x + 14)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 9)(x - 14)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x-9)(x+14)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x+14)(x-9)"
+    ],
+    "solution_latex": "The roots are $9$ and $-14$, so the factorization is $(x - 9)(x + 14)$.",
+    "complexity_factor": 0.95,
+    "source_section": "10.2",
+    "tags": [
+      "factoring",
+      "quadratic"
+    ],
+    "id": "ch10.factoring_1.easy.0042",
+    "checksum": "sha256-3ad8176949420c84bfbf6882356b92b5d71bc1bef3483abd87a45fe0405952ab",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch10.factoring_1",
+    "group_id": "ch10_quadratics_1",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^2 + 16x + 15$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 1)(x - 15)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x)(x + 16)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 1)(x - 15)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 1)(x + 15)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x+1)(x+15)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x+15)(x+1)"
+    ],
+    "solution_latex": "The roots are $-1$ and $-15$, so the factorization is $(x + 1)(x + 15)$.",
+    "complexity_factor": 0.95,
+    "source_section": "10.2",
+    "tags": [
+      "factoring",
+      "quadratic"
+    ],
+    "id": "ch10.factoring_1.easy.0043",
+    "checksum": "sha256-a6d5a4f9a16f586763484d0b8a0b1f0b2e3765e93ab02e3ea7969c937f16eaa0",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch10.factoring_1",
+    "group_id": "ch10_quadratics_1",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^2 + 7x - 120$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 8)(x - 15)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 9)(x + 16)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 8)(x - 15)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 8)(x + 15)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x-8)(x+15)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x+15)(x-8)"
+    ],
+    "solution_latex": "The roots are $8$ and $-15$, so the factorization is $(x - 8)(x + 15)$.",
+    "complexity_factor": 0.95,
+    "source_section": "10.2",
+    "tags": [
+      "factoring",
+      "quadratic"
+    ],
+    "id": "ch10.factoring_1.easy.0044",
+    "checksum": "sha256-68bcf3d8db50951650e054486a089fc2142a72054724af185820a1080cb984a6",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch10.factoring_1",
+    "group_id": "ch10_quadratics_1",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^2 - 22x + 120$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 10)(x + 12)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 11)(x - 11)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 10)(x + 12)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 10)(x - 12)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x-10)(x-12)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x-12)(x-10)"
+    ],
+    "solution_latex": "The roots are $10$ and $12$, so the factorization is $(x - 10)(x - 12)$.",
+    "complexity_factor": 0.95,
+    "source_section": "10.2",
+    "tags": [
+      "factoring",
+      "quadratic"
+    ],
+    "id": "ch10.factoring_1.easy.0045",
+    "checksum": "sha256-e7a19ed352fffb2d71380f79f3a15e71bd6e4074564cd5efebbc5a1527f91227",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch10.factoring_1",
+    "group_id": "ch10_quadratics_1",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^2 - 5x - 66$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 6)(x + 11)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 6)(x - 11)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 6)(x + 11)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 5)(x - 10)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(x+6)(x-11)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x-11)(x+6)"
+    ],
+    "solution_latex": "The roots are $-6$ and $11$, so the factorization is $(x + 6)(x - 11)$.",
+    "complexity_factor": 0.95,
+    "source_section": "10.2",
+    "tags": [
+      "factoring",
+      "quadratic"
+    ],
+    "id": "ch10.factoring_1.easy.0046",
+    "checksum": "sha256-b1c31c7cf95eae502d78cc1af881966077a9322d64e37043fa4402e2d3591949",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch10.factoring_1",
+    "group_id": "ch10_quadratics_1",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^2 - 16x + 39$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 3)(x + 13)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 4)(x - 12)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 3)(x + 13)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 3)(x - 13)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x-3)(x-13)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x-13)(x-3)"
+    ],
+    "solution_latex": "The roots are $3$ and $13$, so the factorization is $(x - 3)(x - 13)$.",
+    "complexity_factor": 0.95,
+    "source_section": "10.2",
+    "tags": [
+      "factoring",
+      "quadratic"
+    ],
+    "id": "ch10.factoring_1.easy.0047",
+    "checksum": "sha256-dbc202429e63149c7dab4013cceb51c36b3606d06302181d16aa9d3ab34a57d6",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch10.factoring_1",
+    "group_id": "ch10_quadratics_1",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^2 + 19x + 90$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 8)(x + 11)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 9)(x - 10)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 9)(x + 10)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 9)(x - 10)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x+9)(x+10)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x+10)(x+9)"
+    ],
+    "solution_latex": "The roots are $-9$ and $-10$, so the factorization is $(x + 9)(x + 10)$.",
+    "complexity_factor": 0.95,
+    "source_section": "10.2",
+    "tags": [
+      "factoring",
+      "quadratic"
+    ],
+    "id": "ch10.factoring_1.easy.0048",
+    "checksum": "sha256-22b2f84b0deb7c05ecba14b1867f970ba2e05e71999d69a3bc376c0f3b488e80",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch10.factoring_1",
+    "group_id": "ch10_quadratics_1",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^2 + 12x - 64$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 4)(x + 16)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 4)(x - 16)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 5)(x + 17)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 4)(x - 16)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(x-4)(x+16)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x+16)(x-4)"
+    ],
+    "solution_latex": "The roots are $4$ and $-16$, so the factorization is $(x - 4)(x + 16)$.",
+    "complexity_factor": 0.95,
+    "source_section": "10.2",
+    "tags": [
+      "factoring",
+      "quadratic"
+    ],
+    "id": "ch10.factoring_1.easy.0049",
+    "checksum": "sha256-88430cdea018ad44e2149bbf80c597370b9228cc3cdaec796c5940ab7d27205a",
+    "status": "valid"
+  },
+  {
+    "topic_id": "ch10.factoring_1",
+    "group_id": "ch10_quadratics_1",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^2 + 12x - 85$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 5)(x - 17)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 6)(x + 18)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 5)(x - 17)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 5)(x + 17)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x-5)(x+17)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x+17)(x-5)"
+    ],
+    "solution_latex": "The roots are $5$ and $-17$, so the factorization is $(x - 5)(x + 17)$.",
+    "complexity_factor": 0.95,
+    "source_section": "10.2",
+    "tags": [
+      "factoring",
+      "quadratic"
+    ],
+    "id": "ch10.factoring_1.easy.0050",
+    "checksum": "sha256-cf5c8b19b732c244ad00ab23ac1df63e85f119c8b0ed60e1391125975a58864e",
     "status": "valid"
   }
 ]

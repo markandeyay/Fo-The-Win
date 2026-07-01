@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "ch15.beyond_quadratics.medium.0001",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $(x+7)(x+6)(x+3)(x-1) \\ge 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7]\\cup[-6,-3]\\cup[1,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$[-7,-6]\\cup[-3,1]$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-7)\\cup(-6,-3)\\cup(1,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,1]$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-\\infty,-7]\\cup[-6,-3]\\cup[1,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The sign alternates across the four simple zeros $-7, -6, -3, 1$. The intervals satisfying the inequality are $(-\\infty,-7]\\cup[-6,-3]\\cup[1,\\infty)$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-c2f38b7ca7dd2561d9b56e8199da33fe005a5dffa0ee281d2b26c303a030b4ba",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.medium.0002",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $(x+7)(x+6)(x+3)(x-3) \\le 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7]\\cup[-6,-3]\\cup[3,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-7,-6)\\cup(-3,3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$[-7,3]$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,-6]\\cup[-3,3]$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "[-7,-6]\\cup[-3,3]",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The sign alternates across the four simple zeros $-7, -6, -3, 3$. The intervals satisfying the inequality are $[-7,-6]\\cup[-3,3]$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-6dcc67a4be28a00bd287197bde7937c1ffa62ce6c7a5135e37a46e506e05bd7d",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.medium.0003",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $(x+7)(x+6)(x+3)(x-5) > 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7)\\cup(-6,-3)\\cup(5,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-\\infty,-7]\\cup[-6,-3]\\cup[5,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-7,5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-7,-6)\\cup(-3,5)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-\\infty,-7)\\cup(-6,-3)\\cup(5,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The sign alternates across the four simple zeros $-7, -6, -3, 5$. The intervals satisfying the inequality are $(-\\infty,-7)\\cup(-6,-3)\\cup(5,\\infty)$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-2bf11096a06791f4b40246aec873f7a206bde6df222214cc8f121ae648a6ddd3",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.medium.0004",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $(x+7)(x+6)(x+3)(x-7) < 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7)\\cup(-6,-3)\\cup(7,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-7,-6)\\cup(-3,7)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-7,7)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,-6]\\cup[-3,7]$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-7,-6)\\cup(-3,7)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The sign alternates across the four simple zeros $-7, -6, -3, 7$. The intervals satisfying the inequality are $(-7,-6)\\cup(-3,7)$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-56c7233e320010f289fd4fe9ba172f038ac5bcef41215615a57c940f63a16b55",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.medium.0005",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $(x+7)(x+6)(x+2)(x-1) \\ge 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7)\\cup(-6,-2)\\cup(1,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$[-7,-6]\\cup[-2,1]$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-7]\\cup[-6,-2]\\cup[1,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,1]$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-\\infty,-7]\\cup[-6,-2]\\cup[1,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The sign alternates across the four simple zeros $-7, -6, -2, 1$. The intervals satisfying the inequality are $(-\\infty,-7]\\cup[-6,-2]\\cup[1,\\infty)$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-c6246bb6de28cf1741a92776f418e3a493856bc7c65aa827282dd75a4a4b5e0e",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.medium.0006",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $(x+7)(x+6)(x+2)(x-3) \\le 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-7,-6)\\cup(-2,3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$[-7,3]$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-7]\\cup[-6,-2]\\cup[3,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,-6]\\cup[-2,3]$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "[-7,-6]\\cup[-2,3]",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The sign alternates across the four simple zeros $-7, -6, -2, 3$. The intervals satisfying the inequality are $[-7,-6]\\cup[-2,3]$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-ea2e36047ed451b961ed85749e24727e0988693332dd2e1f85e9f489938d9ec3",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.medium.0007",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $(x+7)(x+6)(x+2)(x-5) > 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7)\\cup(-6,-2)\\cup(5,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-7,5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-7]\\cup[-6,-2]\\cup[5,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-7,-6)\\cup(-2,5)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-\\infty,-7)\\cup(-6,-2)\\cup(5,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The sign alternates across the four simple zeros $-7, -6, -2, 5$. The intervals satisfying the inequality are $(-\\infty,-7)\\cup(-6,-2)\\cup(5,\\infty)$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-34cd0732b82b2cf324c4c43523102feffd45a5d6471953b3381ac1eff7192882",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.medium.0008",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $(x+7)(x+6)(x+2)(x-7) < 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7)\\cup(-6,-2)\\cup(7,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-7,7)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-7,-6)\\cup(-2,7)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,-6]\\cup[-2,7]$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-7,-6)\\cup(-2,7)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The sign alternates across the four simple zeros $-7, -6, -2, 7$. The intervals satisfying the inequality are $(-7,-6)\\cup(-2,7)$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-0cdd16176adb5cc2545236468dfa590f20b1fbd29e65d5f819268a1d5ad7f720",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.medium.0009",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $(x+7)(x+6)(x+1)(x-2) \\ge 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7]\\cup[-6,-1]\\cup[2,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-\\infty,-7)\\cup(-6,-1)\\cup(2,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$[-7,-6]\\cup[-1,2]$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,2]$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-\\infty,-7]\\cup[-6,-1]\\cup[2,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The sign alternates across the four simple zeros $-7, -6, -1, 2$. The intervals satisfying the inequality are $(-\\infty,-7]\\cup[-6,-1]\\cup[2,\\infty)$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-ecddc431226d4e80a449ca435071f0046e580698b54edf5060f9b44f80fe08dc",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.medium.0010",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $(x+7)(x+6)(x+1)(x-4) \\le 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7]\\cup[-6,-1]\\cup[4,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$[-7,4]$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-7,-6)\\cup(-1,4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,-6]\\cup[-1,4]$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "[-7,-6]\\cup[-1,4]",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The sign alternates across the four simple zeros $-7, -6, -1, 4$. The intervals satisfying the inequality are $[-7,-6]\\cup[-1,4]$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-2c3c054c93ba51a50345185dea532a0ddeef66a9d1498b2e4f8f3a03e7505b22",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.medium.0011",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $(x+7)(x+6)(x+1)(x-6) > 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7]\\cup[-6,-1]\\cup[6,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-7,6)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-7)\\cup(-6,-1)\\cup(6,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-7,-6)\\cup(-1,6)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-\\infty,-7)\\cup(-6,-1)\\cup(6,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The sign alternates across the four simple zeros $-7, -6, -1, 6$. The intervals satisfying the inequality are $(-\\infty,-7)\\cup(-6,-1)\\cup(6,\\infty)$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-e4d6d88935b5c1d97c26498363fa03b03e09bcf48ed9573327feedb8325ca5f2",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.medium.0012",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $(x+7)(x+6)(x-1)(x-2) < 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-7,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-7,-6)\\cup(1,2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-7)\\cup(-6,1)\\cup(2,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,-6]\\cup[1,2]$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-7,-6)\\cup(1,2)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The sign alternates across the four simple zeros $-7, -6, 1, 2$. The intervals satisfying the inequality are $(-7,-6)\\cup(1,2)$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-46b9900a26971d7d2c5c0fa0925240285e3d52ae18438fac225dbf86c3adf991",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.medium.0013",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $(x+7)(x+6)(x-1)(x-4) \\ge 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7]\\cup[-6,1]\\cup[4,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$[-7,-6]\\cup[1,4]$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-7)\\cup(-6,1)\\cup(4,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,4]$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-\\infty,-7]\\cup[-6,1]\\cup[4,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The sign alternates across the four simple zeros $-7, -6, 1, 4$. The intervals satisfying the inequality are $(-\\infty,-7]\\cup[-6,1]\\cup[4,\\infty)$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-576fa44a2a05a740922d7594ec7df3ad0597bebe7f796d754fc7a2396b3176bd",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.medium.0014",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $(x+7)(x+6)(x-1)(x-6) \\le 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7]\\cup[-6,1]\\cup[6,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-7,-6)\\cup(1,6)$"
+      },
+      {
+        "id": "c",
+        "latex": "$[-7,6]$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,-6]\\cup[1,6]$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "[-7,-6]\\cup[1,6]",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The sign alternates across the four simple zeros $-7, -6, 1, 6$. The intervals satisfying the inequality are $[-7,-6]\\cup[1,6]$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-27bff08fea4beeab5e1cbd322efc02aef8cd294a1768a7714406bcaf1b19d510",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.medium.0015",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $(x+7)(x+6)(x-2)(x-3) > 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7)\\cup(-6,2)\\cup(3,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-\\infty,-7]\\cup[-6,2]\\cup[3,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-7,3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-7,-6)\\cup(2,3)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-\\infty,-7)\\cup(-6,2)\\cup(3,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The sign alternates across the four simple zeros $-7, -6, 2, 3$. The intervals satisfying the inequality are $(-\\infty,-7)\\cup(-6,2)\\cup(3,\\infty)$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-29984896f1fa17a11cc36ee456014bfb59b63c33ede15acae3adaac6eb1fb7f0",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.medium.0016",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $(x+7)(x+6)(x-2)(x-5) < 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7)\\cup(-6,2)\\cup(5,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-7,-6)\\cup(2,5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-7,5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,-6]\\cup[2,5]$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-7,-6)\\cup(2,5)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The sign alternates across the four simple zeros $-7, -6, 2, 5$. The intervals satisfying the inequality are $(-7,-6)\\cup(2,5)$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-7af2c2fbcab303237fa126860ba6dbd0fb0114a35153fd41dd601b6bd1e9183b",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.medium.0017",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $(x+7)(x+6)(x-2)(x-7) \\ge 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7)\\cup(-6,2)\\cup(7,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$[-7,-6]\\cup[2,7]$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-7]\\cup[-6,2]\\cup[7,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,7]$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-\\infty,-7]\\cup[-6,2]\\cup[7,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The sign alternates across the four simple zeros $-7, -6, 2, 7$. The intervals satisfying the inequality are $(-\\infty,-7]\\cup[-6,2]\\cup[7,\\infty)$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-1b3a7cc5805df965de3abcb13d4165fb5c849dfd86bc7b37103eae59c7d269b9",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.medium.0018",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $(x+7)(x+6)(x-3)(x-5) \\le 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-7,-6)\\cup(3,5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$[-7,5]$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-7]\\cup[-6,3]\\cup[5,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,-6]\\cup[3,5]$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "[-7,-6]\\cup[3,5]",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The sign alternates across the four simple zeros $-7, -6, 3, 5$. The intervals satisfying the inequality are $[-7,-6]\\cup[3,5]$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-d5329740ff8de8c39b3576e1be197b7ab9e9a46f5daa4a0fd400e950ec717b61",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.medium.0019",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $(x+7)(x+6)(x-3)(x-7) > 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7)\\cup(-6,3)\\cup(7,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-7,7)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-7]\\cup[-6,3]\\cup[7,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-7,-6)\\cup(3,7)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-\\infty,-7)\\cup(-6,3)\\cup(7,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The sign alternates across the four simple zeros $-7, -6, 3, 7$. The intervals satisfying the inequality are $(-\\infty,-7)\\cup(-6,3)\\cup(7,\\infty)$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-5568cd5fe911ea1f7c2a76d5d3125c31f123612edac5bd8c3a4b2731bba5ded6",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.medium.0020",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $(x+7)(x+6)(x-4)(x-6) < 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7)\\cup(-6,4)\\cup(6,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-7,6)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-7,-6)\\cup(4,6)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,-6]\\cup[4,6]$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-7,-6)\\cup(4,6)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The sign alternates across the four simple zeros $-7, -6, 4, 6$. The intervals satisfying the inequality are $(-7,-6)\\cup(4,6)$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-cfc3c013db478367a689d4ba731aa58ee8a5b25b70b818845ff6b48641124c6b",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.medium.0021",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $(x+7)(x+6)(x-5)(x-6) \\ge 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7]\\cup[-6,5]\\cup[6,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-\\infty,-7)\\cup(-6,5)\\cup(6,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$[-7,-6]\\cup[5,6]$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,6]$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-\\infty,-7]\\cup[-6,5]\\cup[6,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The sign alternates across the four simple zeros $-7, -6, 5, 6$. The intervals satisfying the inequality are $(-\\infty,-7]\\cup[-6,5]\\cup[6,\\infty)$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-299083464d27b401e43ac565482ccfffc24510da485f09987ba28b9ce5aa85fd",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.medium.0022",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $(x+7)(x+6)(x-6)(x-7) \\le 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7]\\cup[-6,6]\\cup[7,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$[-7,7]$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-7,-6)\\cup(6,7)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,-6]\\cup[6,7]$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "[-7,-6]\\cup[6,7]",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The sign alternates across the four simple zeros $-7, -6, 6, 7$. The intervals satisfying the inequality are $[-7,-6]\\cup[6,7]$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-2e560bba4aade37e42068593e3aa66300909359f0e1893fa3d91edb8de4e6d49",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.medium.0023",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $(x+7)(x+5)(x+4)(x+2) > 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7]\\cup[-5,-4]\\cup[-2,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-7,-2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-7)\\cup(-5,-4)\\cup(-2,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-7,-5)\\cup(-4,-2)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-\\infty,-7)\\cup(-5,-4)\\cup(-2,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The sign alternates across the four simple zeros $-7, -5, -4, -2$. The intervals satisfying the inequality are $(-\\infty,-7)\\cup(-5,-4)\\cup(-2,\\infty)$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-1010e96be9a164dce27827730d26cc4306b8913a09fec0c0fd3fb734dde6386f",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.medium.0024",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $(x+7)(x+5)(x+4)(x-1) < 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-7,1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-7,-5)\\cup(-4,1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-7)\\cup(-5,-4)\\cup(1,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,-5]\\cup[-4,1]$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-7,-5)\\cup(-4,1)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The sign alternates across the four simple zeros $-7, -5, -4, 1$. The intervals satisfying the inequality are $(-7,-5)\\cup(-4,1)$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-5934cbda8f17882415d413598120dcf1e7383046c8c90831fd057e44d81d4f2a",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.medium.0025",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $(x+7)(x+5)(x+4)(x-3) \\ge 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7]\\cup[-5,-4]\\cup[3,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$[-7,-5]\\cup[-4,3]$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-7)\\cup(-5,-4)\\cup(3,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,3]$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-\\infty,-7]\\cup[-5,-4]\\cup[3,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The sign alternates across the four simple zeros $-7, -5, -4, 3$. The intervals satisfying the inequality are $(-\\infty,-7]\\cup[-5,-4]\\cup[3,\\infty)$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-0703b921f203203d4c44ffa46ad15491b7750aafd2874e0035714e1fc76c7f5a",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.medium.0026",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $(x+7)(x+5)(x+4)(x-5) \\le 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7]\\cup[-5,-4]\\cup[5,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-7,-5)\\cup(-4,5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$[-7,5]$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,-5]\\cup[-4,5]$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "[-7,-5]\\cup[-4,5]",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The sign alternates across the four simple zeros $-7, -5, -4, 5$. The intervals satisfying the inequality are $[-7,-5]\\cup[-4,5]$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-2ee2ad02d06e6acf885b5525ef2e9ca9c13e3fb7ec2c7d58571dcd282bb7e8e4",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.medium.0027",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $(x+7)(x+5)(x+4)(x-7) > 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7)\\cup(-5,-4)\\cup(7,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-\\infty,-7]\\cup[-5,-4]\\cup[7,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-7,7)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-7,-5)\\cup(-4,7)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-\\infty,-7)\\cup(-5,-4)\\cup(7,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The sign alternates across the four simple zeros $-7, -5, -4, 7$. The intervals satisfying the inequality are $(-\\infty,-7)\\cup(-5,-4)\\cup(7,\\infty)$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-d0ffde0547b992133a52acb01cb99a9f78239da08095463cd11ed22d6e5521a1",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.medium.0028",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $(x+7)(x+5)(x+3)(x+1) < 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7)\\cup(-5,-3)\\cup(-1,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-7,-5)\\cup(-3,-1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-7,-1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,-5]\\cup[-3,-1]$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-7,-5)\\cup(-3,-1)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The sign alternates across the four simple zeros $-7, -5, -3, -1$. The intervals satisfying the inequality are $(-7,-5)\\cup(-3,-1)$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-dcd8091c4027d6046d577dbd9b2036f2879ebd9d8ef88a4e92255cde195cde90",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.medium.0029",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $(x+7)(x+5)(x+3)(x-2) \\ge 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7)\\cup(-5,-3)\\cup(2,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$[-7,-5]\\cup[-3,2]$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-7]\\cup[-5,-3]\\cup[2,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,2]$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-\\infty,-7]\\cup[-5,-3]\\cup[2,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The sign alternates across the four simple zeros $-7, -5, -3, 2$. The intervals satisfying the inequality are $(-\\infty,-7]\\cup[-5,-3]\\cup[2,\\infty)$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-a5c032e666a4456f9bda2fe04ee359b6e05a9f3d7041e9547dc11a52a3a74b12",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.medium.0030",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $(x+7)(x+5)(x+3)(x-4) \\le 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-7,-5)\\cup(-3,4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$[-7,4]$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-7]\\cup[-5,-3]\\cup[4,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,-5]\\cup[-3,4]$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "[-7,-5]\\cup[-3,4]",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The sign alternates across the four simple zeros $-7, -5, -3, 4$. The intervals satisfying the inequality are $[-7,-5]\\cup[-3,4]$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-27a37f4f713f90570d57d065e74860b166cd8fcdf00bd0adbb0d78273aacc0f6",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.medium.0031",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $(x+7)(x+5)(x+3)(x-6) > 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7)\\cup(-5,-3)\\cup(6,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-7,6)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-7]\\cup[-5,-3]\\cup[6,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-7,-5)\\cup(-3,6)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-\\infty,-7)\\cup(-5,-3)\\cup(6,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The sign alternates across the four simple zeros $-7, -5, -3, 6$. The intervals satisfying the inequality are $(-\\infty,-7)\\cup(-5,-3)\\cup(6,\\infty)$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-bb535903687affa486d4c9955b0f307f0f15309ce4aa05e6029786f66cda68c2",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.medium.0032",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $(x+7)(x+5)(x+2)(x+1) < 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7)\\cup(-5,-2)\\cup(-1,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-7,-1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-7,-5)\\cup(-2,-1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,-5]\\cup[-2,-1]$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-7,-5)\\cup(-2,-1)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The sign alternates across the four simple zeros $-7, -5, -2, -1$. The intervals satisfying the inequality are $(-7,-5)\\cup(-2,-1)$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-c93fa167f7b3a5b43159058646ad4bab01a21a72be9816f9063599274d357a04",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.medium.0033",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $(x+7)(x+5)(x+2)(x-2) \\ge 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7]\\cup[-5,-2]\\cup[2,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-\\infty,-7)\\cup(-5,-2)\\cup(2,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$[-7,-5]\\cup[-2,2]$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,2]$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-\\infty,-7]\\cup[-5,-2]\\cup[2,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The sign alternates across the four simple zeros $-7, -5, -2, 2$. The intervals satisfying the inequality are $(-\\infty,-7]\\cup[-5,-2]\\cup[2,\\infty)$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-772d100a410f1b8178ff5b1cb0b2c5971327d7b28ff5f0fee402839d05661b5d",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.medium.0034",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $(x+7)(x+5)(x+2)(x-4) \\le 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7]\\cup[-5,-2]\\cup[4,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$[-7,4]$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-7,-5)\\cup(-2,4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,-5]\\cup[-2,4]$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "[-7,-5]\\cup[-2,4]",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The sign alternates across the four simple zeros $-7, -5, -2, 4$. The intervals satisfying the inequality are $[-7,-5]\\cup[-2,4]$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-9060365cc4b67c1b0d7937bde33d38748697229731c525f09c6ba39442e023b3",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.medium.0035",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $(x+7)(x+5)(x+2)(x-6) > 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7]\\cup[-5,-2]\\cup[6,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-7,6)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-7)\\cup(-5,-2)\\cup(6,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-7,-5)\\cup(-2,6)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-\\infty,-7)\\cup(-5,-2)\\cup(6,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The sign alternates across the four simple zeros $-7, -5, -2, 6$. The intervals satisfying the inequality are $(-\\infty,-7)\\cup(-5,-2)\\cup(6,\\infty)$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-8e7b08c0818bdac11fdfe1ec2302b37a9f9c92dbead3276dedaa3e55e10e40bf",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.medium.0036",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $(x+7)(x+5)(x+1)(x-1) < 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-7,1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-7,-5)\\cup(-1,1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-7)\\cup(-5,-1)\\cup(1,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,-5]\\cup[-1,1]$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-7,-5)\\cup(-1,1)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The sign alternates across the four simple zeros $-7, -5, -1, 1$. The intervals satisfying the inequality are $(-7,-5)\\cup(-1,1)$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-dea28f38b522a466b7cc9c6af583bd52f0a3fd008e122d1ac9608349b0b7d803",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.medium.0037",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $(x+7)(x+5)(x+1)(x-3) \\ge 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7]\\cup[-5,-1]\\cup[3,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$[-7,-5]\\cup[-1,3]$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-7)\\cup(-5,-1)\\cup(3,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,3]$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-\\infty,-7]\\cup[-5,-1]\\cup[3,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The sign alternates across the four simple zeros $-7, -5, -1, 3$. The intervals satisfying the inequality are $(-\\infty,-7]\\cup[-5,-1]\\cup[3,\\infty)$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-ebf157937ef66e42e82235c6e14433e65b7712771030580144c99c1b49bc0824",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.medium.0038",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $(x+7)(x+5)(x+1)(x-5) \\le 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7]\\cup[-5,-1]\\cup[5,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-7,-5)\\cup(-1,5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$[-7,5]$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,-5]\\cup[-1,5]$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "[-7,-5]\\cup[-1,5]",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The sign alternates across the four simple zeros $-7, -5, -1, 5$. The intervals satisfying the inequality are $[-7,-5]\\cup[-1,5]$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-c1c4932e5ee959d37649fd42e68f2f5cec48bf71c313b57c7c5a0194aea7f864",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.medium.0039",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $(x+7)(x+5)(x+1)(x-7) > 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7)\\cup(-5,-1)\\cup(7,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-\\infty,-7]\\cup[-5,-1]\\cup[7,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-7,7)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-7,-5)\\cup(-1,7)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-\\infty,-7)\\cup(-5,-1)\\cup(7,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The sign alternates across the four simple zeros $-7, -5, -1, 7$. The intervals satisfying the inequality are $(-\\infty,-7)\\cup(-5,-1)\\cup(7,\\infty)$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-3d363fe6300c108e6e5cd7acaedb477f3c9399b71757af518070b9228014d129",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.medium.0040",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $(x+7)(x+5)(x-1)(x-3) < 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7)\\cup(-5,1)\\cup(3,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-7,-5)\\cup(1,3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-7,3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,-5]\\cup[1,3]$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-7,-5)\\cup(1,3)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The sign alternates across the four simple zeros $-7, -5, 1, 3$. The intervals satisfying the inequality are $(-7,-5)\\cup(1,3)$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-8c16862b8f67ca2cbb88f42f134e7660d936d32242a1838e72207ae62d6390f0",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.medium.0041",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $(x+7)(x+5)(x-1)(x-5) \\ge 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7)\\cup(-5,1)\\cup(5,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$[-7,-5]\\cup[1,5]$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-7]\\cup[-5,1]\\cup[5,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,5]$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-\\infty,-7]\\cup[-5,1]\\cup[5,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The sign alternates across the four simple zeros $-7, -5, 1, 5$. The intervals satisfying the inequality are $(-\\infty,-7]\\cup[-5,1]\\cup[5,\\infty)$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-28473ec632c39fb476ec3004736eadab03ff414fcd98990c04ba575fd0cb0e9e",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.medium.0042",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $(x+7)(x+5)(x-1)(x-7) \\le 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-7,-5)\\cup(1,7)$"
+      },
+      {
+        "id": "b",
+        "latex": "$[-7,7]$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-7]\\cup[-5,1]\\cup[7,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,-5]\\cup[1,7]$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "[-7,-5]\\cup[1,7]",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The sign alternates across the four simple zeros $-7, -5, 1, 7$. The intervals satisfying the inequality are $[-7,-5]\\cup[1,7]$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-299bf62fba4c3ce60685856120d3687b1081eb3d086009d942437d84e366247c",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.medium.0043",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $(x+7)(x+5)(x-2)(x-4) > 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7)\\cup(-5,2)\\cup(4,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-7,4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-7]\\cup[-5,2]\\cup[4,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-7,-5)\\cup(2,4)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-\\infty,-7)\\cup(-5,2)\\cup(4,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The sign alternates across the four simple zeros $-7, -5, 2, 4$. The intervals satisfying the inequality are $(-\\infty,-7)\\cup(-5,2)\\cup(4,\\infty)$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-7ac68512fdd83a92fa985516b803a8c558e9f22584f4fee48f6afa8462995ff7",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.medium.0044",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $(x+7)(x+5)(x-2)(x-6) < 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7)\\cup(-5,2)\\cup(6,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-7,6)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-7,-5)\\cup(2,6)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,-5]\\cup[2,6]$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-7,-5)\\cup(2,6)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The sign alternates across the four simple zeros $-7, -5, 2, 6$. The intervals satisfying the inequality are $(-7,-5)\\cup(2,6)$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-851bb4a8f8bbb6e1796d77b1bbbacd68597a4d2e40984de22f02cda2f70093b1",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.medium.0045",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $(x+7)(x+5)(x-3)(x-4) \\ge 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7]\\cup[-5,3]\\cup[4,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-\\infty,-7)\\cup(-5,3)\\cup(4,\\infty)$"
+      },
+      {
+        "id": "c",
+        "latex": "$[-7,-5]\\cup[3,4]$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,4]$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-\\infty,-7]\\cup[-5,3]\\cup[4,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The sign alternates across the four simple zeros $-7, -5, 3, 4$. The intervals satisfying the inequality are $(-\\infty,-7]\\cup[-5,3]\\cup[4,\\infty)$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-4199485004f3e753d32d710e7e63969eee9dd2734af4167f8d7ff14c7f8a63f1",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.medium.0046",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $(x+7)(x+5)(x-3)(x-6) \\le 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7]\\cup[-5,3]\\cup[6,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$[-7,6]$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-7,-5)\\cup(3,6)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,-5]\\cup[3,6]$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "[-7,-5]\\cup[3,6]",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The sign alternates across the four simple zeros $-7, -5, 3, 6$. The intervals satisfying the inequality are $[-7,-5]\\cup[3,6]$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-1eb77d8ebfb7d5aa06bde3009f0763333f6c343992805133a191c8ed85f67bc0",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.medium.0047",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $(x+7)(x+5)(x-4)(x-5) > 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7]\\cup[-5,4]\\cup[5,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-7,5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-7)\\cup(-5,4)\\cup(5,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-7,-5)\\cup(4,5)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-\\infty,-7)\\cup(-5,4)\\cup(5,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The sign alternates across the four simple zeros $-7, -5, 4, 5$. The intervals satisfying the inequality are $(-\\infty,-7)\\cup(-5,4)\\cup(5,\\infty)$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-b52a5fd0be9858eb8bd3ada9362030de69f872e65c3ec50a9fcf7e4f2f161f0e",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.medium.0048",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $(x+7)(x+5)(x-4)(x-7) < 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-7,7)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-7,-5)\\cup(4,7)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-7)\\cup(-5,4)\\cup(7,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,-5]\\cup[4,7]$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-7,-5)\\cup(4,7)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The sign alternates across the four simple zeros $-7, -5, 4, 7$. The intervals satisfying the inequality are $(-7,-5)\\cup(4,7)$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-c460bed3c7d848e5a2ce4613a6280e3dc9d04b53090e7822b231e651bd25300f",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.medium.0049",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $(x+7)(x+5)(x-5)(x-7) \\ge 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7]\\cup[-5,5]\\cup[7,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$[-7,-5]\\cup[5,7]$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-\\infty,-7)\\cup(-5,5)\\cup(7,\\infty)$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,7]$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-\\infty,-7]\\cup[-5,5]\\cup[7,\\infty)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The sign alternates across the four simple zeros $-7, -5, 5, 7$. The intervals satisfying the inequality are $(-\\infty,-7]\\cup[-5,5]\\cup[7,\\infty)$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-2adcd1d32ac41ad3fff600312cb0f5baa673e2fc1a370332fed3e78bdc404acf",
+    "status": "valid"
+  },
+  {
+    "id": "ch15.beyond_quadratics.medium.0050",
+    "topic_id": "ch15.beyond_quadratics",
+    "group_id": "ch15_more_inequalities",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $(x+7)(x+4)(x+3)(x+2) \\le 0$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-\\infty,-7]\\cup[-4,-3]\\cup[-2,\\infty)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-7,-4)\\cup(-3,-2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$[-7,-2]$"
+      },
+      {
+        "id": "d",
+        "latex": "$[-7,-4]\\cup[-3,-2]$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "[-7,-4]\\cup[-3,-2]",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The sign alternates across the four simple zeros $-7, -4, -3, -2$. The intervals satisfying the inequality are $[-7,-4]\\cup[-3,-2]$.",
+    "complexity_factor": 1.25,
+    "source_section": "15.2",
+    "tags": [
+      "inequality",
+      "polynomial",
+      "sign-chart"
+    ],
+    "checksum": "sha256-90e240d7aa0bfb5bcde45e9a7533adbf11bb8ebeaffeb153588db9851b81438f",
+    "status": "valid"
+  }
+]

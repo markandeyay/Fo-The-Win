@@ -1,0 +1,2028 @@
+[
+  {
+    "id": "ch14.circles.easy.0001",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "easy",
+    "prompt_latex": "What is the center of the circle $(x+3)^2+(y)^2=9$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0,-3)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-3,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [
+      "(-3, 0)"
+    ],
+    "solution_latex": "In $(x-h)^2+(y-k)^2=r^2$, the center is $(h,k)$, so the center is $(-3,0)$.",
+    "complexity_factor": 1,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "center",
+      "standard-form"
+    ],
+    "status": "valid",
+    "checksum": "sha256-2f9b6a1882bca0eab8b818d9db2458b600bf0f55bb7d02e81dc06ae8e6401bbe"
+  },
+  {
+    "id": "ch14.circles.easy.0002",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "easy",
+    "prompt_latex": "What is the radius of the circle $(x)^2+(y-5)^2=16$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$16$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The right side is $16$, so the radius is $\\sqrt{16}=4$.",
+    "complexity_factor": 1,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "radius",
+      "standard-form"
+    ],
+    "status": "valid",
+    "checksum": "sha256-841a8c9c0b5fe2d4ba6794739f5722ec9b41ae4c217444507d65f6151fc93571"
+  },
+  {
+    "id": "ch14.circles.easy.0003",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "easy",
+    "prompt_latex": "For the circle centered at $(3,-1)$ with radius $5$, what is the largest $x$-coordinate on the circle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The rightmost point is $r$ units to the right of the center, so $x=3+5=8$.",
+    "complexity_factor": 1.05,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "extreme-point",
+      "radius"
+    ],
+    "status": "valid",
+    "checksum": "sha256-5337a6b101c440085cd1270f6285b14029502412ce397152629b54042b70e645"
+  },
+  {
+    "id": "ch14.circles.easy.0004",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "easy",
+    "prompt_latex": "A circle has center $(6,4)$ and passes through $(12,4)$. What is its radius?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$36$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The point is horizontally $6$ units from the center, so the radius is $6$.",
+    "complexity_factor": 1,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "radius",
+      "distance"
+    ],
+    "status": "valid",
+    "checksum": "sha256-f6ce2f724de6592b0b61bb29d5c2a3554c77507dc5764226d99ec8b663ce8bb3"
+  },
+  {
+    "id": "ch14.circles.easy.0005",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "easy",
+    "prompt_latex": "What is the center of the circle $(x+4)^2+(y+2)^2=49$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4,-2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-4,-2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(4,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-4,2)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-4,-2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [
+      "(-4, -2)"
+    ],
+    "solution_latex": "In $(x-h)^2+(y-k)^2=r^2$, the center is $(h,k)$, so the center is $(-4,-2)$.",
+    "complexity_factor": 1,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "center",
+      "standard-form"
+    ],
+    "status": "valid",
+    "checksum": "sha256-ce76523dd4e35afef1ef80cb24f4e6a2c36851ef5ddc0b5c4324658695d5c386"
+  },
+  {
+    "id": "ch14.circles.easy.0006",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "easy",
+    "prompt_latex": "What is the radius of the circle $(x+1)^2+(y-3)^2=4$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The right side is $4$, so the radius is $\\sqrt{4}=2$.",
+    "complexity_factor": 1,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "radius",
+      "standard-form"
+    ],
+    "status": "valid",
+    "checksum": "sha256-e8079e7b04829da986296030bd304cdc9a4299940fb38e977d6acc363d6cb594"
+  },
+  {
+    "id": "ch14.circles.easy.0007",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "easy",
+    "prompt_latex": "For the circle centered at $(2,-3)$ with radius $3$, what is the largest $x$-coordinate on the circle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The rightmost point is $r$ units to the right of the center, so $x=2+3=5$.",
+    "complexity_factor": 1.05,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "extreme-point",
+      "radius"
+    ],
+    "status": "valid",
+    "checksum": "sha256-127751b189b2cbd92bf279f9a8e36f505666c7e18ba8d73dd8d127a1147e8d7c"
+  },
+  {
+    "id": "ch14.circles.easy.0008",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "easy",
+    "prompt_latex": "A circle has center $(5,2)$ and passes through $(9,2)$. What is its radius?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$16$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The point is horizontally $4$ units from the center, so the radius is $4$.",
+    "complexity_factor": 1,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "radius",
+      "distance"
+    ],
+    "status": "valid",
+    "checksum": "sha256-6085c2e2c01d3f7bf616ece2c6ba67aeb6421d8b63612383589f09cc2cecd798"
+  },
+  {
+    "id": "ch14.circles.easy.0009",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "easy",
+    "prompt_latex": "What is the center of the circle $(x+5)^2+(y+4)^2=25$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(5,-4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-5,-4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(5,4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-5,4)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-5,-4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [
+      "(-5, -4)"
+    ],
+    "solution_latex": "In $(x-h)^2+(y-k)^2=r^2$, the center is $(h,k)$, so the center is $(-5,-4)$.",
+    "complexity_factor": 1,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "center",
+      "standard-form"
+    ],
+    "status": "valid",
+    "checksum": "sha256-7df3a2a22eede681c79198c229abbeb0dd62aa66b88c6c8ed80264cfc17e5310"
+  },
+  {
+    "id": "ch14.circles.easy.0010",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "easy",
+    "prompt_latex": "What is the radius of the circle $(x+2)^2+(y-1)^2=36$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$36$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The right side is $36$, so the radius is $\\sqrt{36}=6$.",
+    "complexity_factor": 1,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "radius",
+      "standard-form"
+    ],
+    "status": "valid",
+    "checksum": "sha256-dcbe7f5487482b13bdbb4b6b75c204991fd165063b4c39f2ec57dc47a5aabc1b"
+  },
+  {
+    "id": "ch14.circles.easy.0011",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "easy",
+    "prompt_latex": "For the circle centered at $(1,-5)$ with radius $7$, what is the largest $x$-coordinate on the circle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$-6$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The rightmost point is $r$ units to the right of the center, so $x=1+7=8$.",
+    "complexity_factor": 1.05,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "extreme-point",
+      "radius"
+    ],
+    "status": "valid",
+    "checksum": "sha256-0e4805a0c1f62aac2d19d9e630e17410a83511d9f8e3c847416af6143ffb5799"
+  },
+  {
+    "id": "ch14.circles.easy.0012",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "easy",
+    "prompt_latex": "A circle has center $(4,0)$ and passes through $(6,0)$. What is its radius?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The point is horizontally $2$ units from the center, so the radius is $2$.",
+    "complexity_factor": 1,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "radius",
+      "distance"
+    ],
+    "status": "valid",
+    "checksum": "sha256-3bb4542d7c88769249fe744c1839d7b7a6e9f50a1d614581b4db2649b6f3f34b"
+  },
+  {
+    "id": "ch14.circles.easy.0013",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "easy",
+    "prompt_latex": "What is the center of the circle $(x+6)^2+(y-5)^2=9$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(6,5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-6,5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(6,-5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-6,-5)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-6,5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [
+      "(-6, 5)"
+    ],
+    "solution_latex": "In $(x-h)^2+(y-k)^2=r^2$, the center is $(h,k)$, so the center is $(-6,5)$.",
+    "complexity_factor": 1,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "center",
+      "standard-form"
+    ],
+    "status": "valid",
+    "checksum": "sha256-e0b083b31d4959f1dfef9d309b719dcc29489cd5b1d045d739c7759774499cfe"
+  },
+  {
+    "id": "ch14.circles.easy.0014",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "easy",
+    "prompt_latex": "What is the radius of the circle $(x+3)^2+(y+1)^2=16$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$16$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The right side is $16$, so the radius is $\\sqrt{16}=4$.",
+    "complexity_factor": 1,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "radius",
+      "standard-form"
+    ],
+    "status": "valid",
+    "checksum": "sha256-d61d5b9b9eebafd11cda01382573c246bf852e86785935dafff448f969e39080"
+  },
+  {
+    "id": "ch14.circles.easy.0015",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "easy",
+    "prompt_latex": "For the circle centered at $(0,4)$ with radius $5$, what is the largest $x$-coordinate on the circle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$-5$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The rightmost point is $r$ units to the right of the center, so $x=0+5=5$.",
+    "complexity_factor": 1.05,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "extreme-point",
+      "radius"
+    ],
+    "status": "valid",
+    "checksum": "sha256-e4f79f3e10234785e6626b12544ea70124d44d66ed1b7408d0c18fe2882e4d22"
+  },
+  {
+    "id": "ch14.circles.easy.0016",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "easy",
+    "prompt_latex": "A circle has center $(3,-2)$ and passes through $(9,-2)$. What is its radius?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$36$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The point is horizontally $6$ units from the center, so the radius is $6$.",
+    "complexity_factor": 1,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "radius",
+      "distance"
+    ],
+    "status": "valid",
+    "checksum": "sha256-65069e5bc988308a5c0f704f859b1b2a4aec36905320272d2826089c24078028"
+  },
+  {
+    "id": "ch14.circles.easy.0017",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "easy",
+    "prompt_latex": "What is the center of the circle $(x-6)^2+(y-3)^2=49$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-6,3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(6,3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-6,-3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(6,-3)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(6,3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [
+      "(6, 3)"
+    ],
+    "solution_latex": "In $(x-h)^2+(y-k)^2=r^2$, the center is $(h,k)$, so the center is $(6,3)$.",
+    "complexity_factor": 1,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "center",
+      "standard-form"
+    ],
+    "status": "valid",
+    "checksum": "sha256-4dc986ca7868e6ec6840bcef1e0d250161682a040ad9a5b31fb5eea89cb98f26"
+  },
+  {
+    "id": "ch14.circles.easy.0018",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "easy",
+    "prompt_latex": "What is the radius of the circle $(x+4)^2+(y+3)^2=4$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The right side is $4$, so the radius is $\\sqrt{4}=2$.",
+    "complexity_factor": 1,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "radius",
+      "standard-form"
+    ],
+    "status": "valid",
+    "checksum": "sha256-49811647a78d639db6f3797b76724fbd590fb4a1d1941a78003b207cc2399436"
+  },
+  {
+    "id": "ch14.circles.easy.0019",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "easy",
+    "prompt_latex": "For the circle centered at $(-1,2)$ with radius $3$, what is the largest $x$-coordinate on the circle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The rightmost point is $r$ units to the right of the center, so $x=-1+3=2$.",
+    "complexity_factor": 1.05,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "extreme-point",
+      "radius"
+    ],
+    "status": "valid",
+    "checksum": "sha256-1d38a7f918926025935e782f60932aac5347085ec471b6035bd1bcd8ed4208ad"
+  },
+  {
+    "id": "ch14.circles.easy.0020",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "easy",
+    "prompt_latex": "A circle has center $(2,-4)$ and passes through $(6,-4)$. What is its radius?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$16$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The point is horizontally $4$ units from the center, so the radius is $4$.",
+    "complexity_factor": 1,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "radius",
+      "distance"
+    ],
+    "status": "valid",
+    "checksum": "sha256-1bc1c9115f95a5b1c0d1bc417058df93bd4ef5c4d020e88f62e9c38a33aa3496"
+  },
+  {
+    "id": "ch14.circles.easy.0021",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "easy",
+    "prompt_latex": "What is the center of the circle $(x-5)^2+(y-1)^2=25$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-5,1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(5,1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-5,-1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(5,-1)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(5,1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [
+      "(5, 1)"
+    ],
+    "solution_latex": "In $(x-h)^2+(y-k)^2=r^2$, the center is $(h,k)$, so the center is $(5,1)$.",
+    "complexity_factor": 1,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "center",
+      "standard-form"
+    ],
+    "status": "valid",
+    "checksum": "sha256-60fcb1a8d5d1940683800df132ea3d5368835c5dc1dfb2e5be3a3e69047b0112"
+  },
+  {
+    "id": "ch14.circles.easy.0022",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "easy",
+    "prompt_latex": "What is the radius of the circle $(x+5)^2+(y+5)^2=36$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$36$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The right side is $36$, so the radius is $\\sqrt{36}=6$.",
+    "complexity_factor": 1,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "radius",
+      "standard-form"
+    ],
+    "status": "valid",
+    "checksum": "sha256-13f203b9d8cbdf072ff62e045799b1679c96f156bcdc8ed27e490b769744caab"
+  },
+  {
+    "id": "ch14.circles.easy.0023",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "easy",
+    "prompt_latex": "For the circle centered at $(-2,0)$ with radius $7$, what is the largest $x$-coordinate on the circle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$-9$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The rightmost point is $r$ units to the right of the center, so $x=-2+7=5$.",
+    "complexity_factor": 1.05,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "extreme-point",
+      "radius"
+    ],
+    "status": "valid",
+    "checksum": "sha256-18ee053aabbfcd84f0d925ccd46f2aee739e89c1388a1b2c6b0a278f941ccfff"
+  },
+  {
+    "id": "ch14.circles.easy.0024",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "easy",
+    "prompt_latex": "A circle has center $(1,5)$ and passes through $(3,5)$. What is its radius?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The point is horizontally $2$ units from the center, so the radius is $2$.",
+    "complexity_factor": 1,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "radius",
+      "distance"
+    ],
+    "status": "valid",
+    "checksum": "sha256-4c10ff2241d0e7be3273bbe4e6f857b38e4eb922e60ae6f4587dbb9dcb21597d"
+  },
+  {
+    "id": "ch14.circles.easy.0025",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "easy",
+    "prompt_latex": "What is the center of the circle $(x-4)^2+(y+1)^2=9$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-4,-1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4,-1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-4,1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4,1)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(4,-1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [
+      "(4, -1)"
+    ],
+    "solution_latex": "In $(x-h)^2+(y-k)^2=r^2$, the center is $(h,k)$, so the center is $(4,-1)$.",
+    "complexity_factor": 1,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "center",
+      "standard-form"
+    ],
+    "status": "valid",
+    "checksum": "sha256-d9b1ae7dd2c405e57c2f7fc47eab4e18ae6949ac1eb67d251153e6be0b5df588"
+  },
+  {
+    "id": "ch14.circles.easy.0026",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "easy",
+    "prompt_latex": "What is the radius of the circle $(x+6)^2+(y-4)^2=16$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$16$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The right side is $16$, so the radius is $\\sqrt{16}=4$.",
+    "complexity_factor": 1,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "radius",
+      "standard-form"
+    ],
+    "status": "valid",
+    "checksum": "sha256-852ac9f81e091650b34f695a6948dbf1793cfd9570dc6dd8a225676390082336"
+  },
+  {
+    "id": "ch14.circles.easy.0027",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "easy",
+    "prompt_latex": "For the circle centered at $(-3,-2)$ with radius $5$, what is the largest $x$-coordinate on the circle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$-8$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The rightmost point is $r$ units to the right of the center, so $x=-3+5=2$.",
+    "complexity_factor": 1.05,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "extreme-point",
+      "radius"
+    ],
+    "status": "valid",
+    "checksum": "sha256-b83f6cff1eb8413bbba1b471757501a5dd78e6c5a7e3e59b23a695008c95a957"
+  },
+  {
+    "id": "ch14.circles.easy.0028",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "easy",
+    "prompt_latex": "A circle has center $(0,3)$ and passes through $(6,3)$. What is its radius?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$36$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The point is horizontally $6$ units from the center, so the radius is $6$.",
+    "complexity_factor": 1,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "radius",
+      "distance"
+    ],
+    "status": "valid",
+    "checksum": "sha256-3cabb1549f97f5dd5e08029f666263bceea24ff469d1e78c4e1ed8eebea0c0d4"
+  },
+  {
+    "id": "ch14.circles.easy.0029",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "easy",
+    "prompt_latex": "What is the center of the circle $(x-3)^2+(y+3)^2=49$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-3,-3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3,-3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-3,3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3,3)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(3,-3)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [
+      "(3, -3)"
+    ],
+    "solution_latex": "In $(x-h)^2+(y-k)^2=r^2$, the center is $(h,k)$, so the center is $(3,-3)$.",
+    "complexity_factor": 1,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "center",
+      "standard-form"
+    ],
+    "status": "valid",
+    "checksum": "sha256-6b67f618eef7ef460322efb5cea2d66f549ff57ab7e720883a93d276eb8b50f5"
+  },
+  {
+    "id": "ch14.circles.easy.0030",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "easy",
+    "prompt_latex": "What is the radius of the circle $(x-6)^2+(y-2)^2=4$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The right side is $4$, so the radius is $\\sqrt{4}=2$.",
+    "complexity_factor": 1,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "radius",
+      "standard-form"
+    ],
+    "status": "valid",
+    "checksum": "sha256-6e915e18452bb4079c24f44a064778b2e85d8fccde9f52eaa92bc39660517c80"
+  },
+  {
+    "id": "ch14.circles.easy.0031",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "easy",
+    "prompt_latex": "For the circle centered at $(-4,-4)$ with radius $3$, what is the largest $x$-coordinate on the circle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$-7$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The rightmost point is $r$ units to the right of the center, so $x=-4+3=-1$.",
+    "complexity_factor": 1.05,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "extreme-point",
+      "radius"
+    ],
+    "status": "valid",
+    "checksum": "sha256-5ef1868e5b9a0582fe7a815d69b9558ae6b0f6b825dd3b9c167946cb4a328407"
+  },
+  {
+    "id": "ch14.circles.easy.0032",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "easy",
+    "prompt_latex": "A circle has center $(-1,1)$ and passes through $(3,1)$. What is its radius?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$16$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The point is horizontally $4$ units from the center, so the radius is $4$.",
+    "complexity_factor": 1,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "radius",
+      "distance"
+    ],
+    "status": "valid",
+    "checksum": "sha256-f0d8e72121da153a6d8cd89af28f165572d6ad67a78fdbddd32f5afe62ae0706"
+  },
+  {
+    "id": "ch14.circles.easy.0033",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "easy",
+    "prompt_latex": "What is the center of the circle $(x-2)^2+(y+5)^2=25$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2,-5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2,-5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2,5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,5)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(2,-5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [
+      "(2, -5)"
+    ],
+    "solution_latex": "In $(x-h)^2+(y-k)^2=r^2$, the center is $(h,k)$, so the center is $(2,-5)$.",
+    "complexity_factor": 1,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "center",
+      "standard-form"
+    ],
+    "status": "valid",
+    "checksum": "sha256-7e5f38a8f50d2feeaee3b7bb11254b0acc5c89b18317506adf72532ee3108414"
+  },
+  {
+    "id": "ch14.circles.easy.0034",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "easy",
+    "prompt_latex": "What is the radius of the circle $(x-5)^2+(y)^2=36$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$36$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The right side is $36$, so the radius is $\\sqrt{36}=6$.",
+    "complexity_factor": 1,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "radius",
+      "standard-form"
+    ],
+    "status": "valid",
+    "checksum": "sha256-1dd7cb1cd59beaa8cf5b85f9948ba6fd75cf213c15c883fa91a7cd9f5ca4799c"
+  },
+  {
+    "id": "ch14.circles.easy.0035",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "easy",
+    "prompt_latex": "For the circle centered at $(-5,5)$ with radius $7$, what is the largest $x$-coordinate on the circle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$12$"
+      },
+      {
+        "id": "c",
+        "latex": "$-12$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The rightmost point is $r$ units to the right of the center, so $x=-5+7=2$.",
+    "complexity_factor": 1.05,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "extreme-point",
+      "radius"
+    ],
+    "status": "valid",
+    "checksum": "sha256-ee549709400c879a0f1f2c243efc063306cbbed05388ac4e080e55d8469e52a6"
+  },
+  {
+    "id": "ch14.circles.easy.0036",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "easy",
+    "prompt_latex": "A circle has center $(-2,-1)$ and passes through $(0,-1)$. What is its radius?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The point is horizontally $2$ units from the center, so the radius is $2$.",
+    "complexity_factor": 1,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "radius",
+      "distance"
+    ],
+    "status": "valid",
+    "checksum": "sha256-449463645c5516458e545390e0f213ad2e5a5b22578b022a7c398f9686715079"
+  },
+  {
+    "id": "ch14.circles.easy.0037",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "easy",
+    "prompt_latex": "What is the center of the circle $(x-1)^2+(y-4)^2=9$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1,4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,-4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1,-4)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(1,4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [
+      "(1, 4)"
+    ],
+    "solution_latex": "In $(x-h)^2+(y-k)^2=r^2$, the center is $(h,k)$, so the center is $(1,4)$.",
+    "complexity_factor": 1,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "center",
+      "standard-form"
+    ],
+    "status": "valid",
+    "checksum": "sha256-27dfdf5f6d126126be2fc81cbb5a07aa92cfbf2ecb5f71340fb17030fb3486ec"
+  },
+  {
+    "id": "ch14.circles.easy.0038",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "easy",
+    "prompt_latex": "What is the radius of the circle $(x-4)^2+(y+2)^2=16$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$16$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The right side is $16$, so the radius is $\\sqrt{16}=4$.",
+    "complexity_factor": 1,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "radius",
+      "standard-form"
+    ],
+    "status": "valid",
+    "checksum": "sha256-358f8bdd54454829016d377e75564c7061d3acaa4f0305c834b8d6057f3c55d1"
+  },
+  {
+    "id": "ch14.circles.easy.0039",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "easy",
+    "prompt_latex": "For the circle centered at $(-6,3)$ with radius $5$, what is the largest $x$-coordinate on the circle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$-11$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The rightmost point is $r$ units to the right of the center, so $x=-6+5=-1$.",
+    "complexity_factor": 1.05,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "extreme-point",
+      "radius"
+    ],
+    "status": "valid",
+    "checksum": "sha256-6b53b1e596c37088b19ea2cb9c08d413448cce1399423ee64d92d7944ae1d06a"
+  },
+  {
+    "id": "ch14.circles.easy.0040",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "easy",
+    "prompt_latex": "A circle has center $(-3,-3)$ and passes through $(3,-3)$. What is its radius?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$36$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The point is horizontally $6$ units from the center, so the radius is $6$.",
+    "complexity_factor": 1,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "radius",
+      "distance"
+    ],
+    "status": "valid",
+    "checksum": "sha256-300eccdfecda48acecedf56e94d79c51b1fb98991b4fb93c2e0fd3d56ded61d7"
+  },
+  {
+    "id": "ch14.circles.easy.0041",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "easy",
+    "prompt_latex": "What is the center of the circle $(x)^2+(y-2)^2=49$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0,-2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,0)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(0,2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [
+      "(0, 2)"
+    ],
+    "solution_latex": "In $(x-h)^2+(y-k)^2=r^2$, the center is $(h,k)$, so the center is $(0,2)$.",
+    "complexity_factor": 1,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "center",
+      "standard-form"
+    ],
+    "status": "valid",
+    "checksum": "sha256-0956063abb74f0b38ce3efcf9759e949f03fce9864e4f57e5017cc641db2a05f"
+  },
+  {
+    "id": "ch14.circles.easy.0042",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "easy",
+    "prompt_latex": "What is the radius of the circle $(x-3)^2+(y+4)^2=4$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The right side is $4$, so the radius is $\\sqrt{4}=2$.",
+    "complexity_factor": 1,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "radius",
+      "standard-form"
+    ],
+    "status": "valid",
+    "checksum": "sha256-275719213800edb3dd4d4ee188a3cbf34c8bd35a5a3af6a08d2d1b062040542e"
+  },
+  {
+    "id": "ch14.circles.easy.0043",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "easy",
+    "prompt_latex": "For the circle centered at $(6,1)$ with radius $3$, what is the largest $x$-coordinate on the circle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The rightmost point is $r$ units to the right of the center, so $x=6+3=9$.",
+    "complexity_factor": 1.05,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "extreme-point",
+      "radius"
+    ],
+    "status": "valid",
+    "checksum": "sha256-b1ec6f584ae7da84c7b17aa6e9cc1854b219388a07285644a6215245b9ff3514"
+  },
+  {
+    "id": "ch14.circles.easy.0044",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "easy",
+    "prompt_latex": "A circle has center $(-4,-5)$ and passes through $(0,-5)$. What is its radius?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$16$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The point is horizontally $4$ units from the center, so the radius is $4$.",
+    "complexity_factor": 1,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "radius",
+      "distance"
+    ],
+    "status": "valid",
+    "checksum": "sha256-1a7a6fb2a5c5e703b5f07e96527660d57763e63e5f32f6f76d2e2ddb417858f8"
+  },
+  {
+    "id": "ch14.circles.easy.0045",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "easy",
+    "prompt_latex": "What is the center of the circle $(x+1)^2+(y)^2=25$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0,-1)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-1,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [
+      "(-1, 0)"
+    ],
+    "solution_latex": "In $(x-h)^2+(y-k)^2=r^2$, the center is $(h,k)$, so the center is $(-1,0)$.",
+    "complexity_factor": 1,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "center",
+      "standard-form"
+    ],
+    "status": "valid",
+    "checksum": "sha256-c317a91816352425aa0aaea15c7e09374ab98adbbc188cff4f881895e8800557"
+  },
+  {
+    "id": "ch14.circles.easy.0046",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "easy",
+    "prompt_latex": "What is the radius of the circle $(x-2)^2+(y-5)^2=36$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$36$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The right side is $36$, so the radius is $\\sqrt{36}=6$.",
+    "complexity_factor": 1,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "radius",
+      "standard-form"
+    ],
+    "status": "valid",
+    "checksum": "sha256-7b9056e416efa62301307ae78a84819ca10183f3f905529e69da0299061cd3c0"
+  },
+  {
+    "id": "ch14.circles.easy.0047",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "easy",
+    "prompt_latex": "For the circle centered at $(5,-1)$ with radius $7$, what is the largest $x$-coordinate on the circle?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$-2$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The rightmost point is $r$ units to the right of the center, so $x=5+7=12$.",
+    "complexity_factor": 1.05,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "extreme-point",
+      "radius"
+    ],
+    "status": "valid",
+    "checksum": "sha256-a44141127adf2fb16b0cc897b65ee79122168ab6e644b5b9098cf629c59453d7"
+  },
+  {
+    "id": "ch14.circles.easy.0048",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "easy",
+    "prompt_latex": "A circle has center $(-5,4)$ and passes through $(-3,4)$. What is its radius?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-3$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The point is horizontally $2$ units from the center, so the radius is $2$.",
+    "complexity_factor": 1,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "radius",
+      "distance"
+    ],
+    "status": "valid",
+    "checksum": "sha256-26a35cb871cd4e54f8f726dc6e16600101f70d0687149d4876d4bbac74cdd44b"
+  },
+  {
+    "id": "ch14.circles.easy.0049",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "easy",
+    "prompt_latex": "What is the center of the circle $(x+2)^2+(y+2)^2=9$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2,-2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-2,-2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2,2)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-2,-2)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [
+      "(-2, -2)"
+    ],
+    "solution_latex": "In $(x-h)^2+(y-k)^2=r^2$, the center is $(h,k)$, so the center is $(-2,-2)$.",
+    "complexity_factor": 1,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "center",
+      "standard-form"
+    ],
+    "status": "valid",
+    "checksum": "sha256-484aa45ee32d915e4e6f0470862afdb64685de9eebf5f8ad33e7483042ed5dbd"
+  },
+  {
+    "id": "ch14.circles.easy.0050",
+    "topic_id": "ch14.circles",
+    "group_id": "ch14_graphing_quadratics",
+    "difficulty": "easy",
+    "prompt_latex": "What is the radius of the circle $(x-1)^2+(y-3)^2=16$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$16$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The right side is $16$, so the radius is $\\sqrt{16}=4$.",
+    "complexity_factor": 1,
+    "source_section": "14.2",
+    "tags": [
+      "circles",
+      "radius",
+      "standard-form"
+    ],
+    "status": "valid",
+    "checksum": "sha256-f350efbc2f9f6074ff213233ac61766f3504f7278398ac6a48c5655c77fa50a1"
+  }
+]

@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "ch20.piecewise.easy.0001",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=\\begin{cases}2x - 5,&x<-3\\\\x - 4,&x\\ge -3\\end{cases}$. Find $f(-4)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-12$"
+      },
+      {
+        "id": "b",
+        "latex": "$-14$"
+      },
+      {
+        "id": "c",
+        "latex": "$-13$"
+      },
+      {
+        "id": "d",
+        "latex": "$-8$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-13",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $-4<-3$, use the first rule to get $f(-4)=-13$.",
+    "complexity_factor": 1,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "evaluation"
+    ],
+    "checksum": "sha256-472ea2fa5819b5b7eabd9bd0e1b5ba5dbf11e4c55ae4099e2e7685ad445c48b5",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.easy.0002",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=\\begin{cases}-2x + 3,&x<-1\\\\3x + 6,&x\\ge -1\\end{cases}$. Find $f(0)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $0\\ge-1$, use the second rule to get $f(0)=6$.",
+    "complexity_factor": 1,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "evaluation"
+    ],
+    "checksum": "sha256-0b7d96c12b8d266a723541e53c3e2a9b35f2d470fb47e792a70089ef68ac412d",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.easy.0003",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=\\begin{cases}3x + 2,&x<0\\\\5x + 5,&x\\ge 0\\end{cases}$. Find $f(-3)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-7$"
+      },
+      {
+        "id": "b",
+        "latex": "$-10$"
+      },
+      {
+        "id": "c",
+        "latex": "$-6$"
+      },
+      {
+        "id": "d",
+        "latex": "$-8$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $-3<0$, use the first rule to get $f(-3)=-7$.",
+    "complexity_factor": 1,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "evaluation"
+    ],
+    "checksum": "sha256-9a96bfe0a03743d361110d8939368dffdd0dce96f75e68021911673f843d6b01",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.easy.0004",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=\\begin{cases}-3x - 4,&x<2\\\\-4x - 6,&x\\ge 2\\end{cases}$. Find $f(5)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-27$"
+      },
+      {
+        "id": "b",
+        "latex": "$-26$"
+      },
+      {
+        "id": "c",
+        "latex": "$-19$"
+      },
+      {
+        "id": "d",
+        "latex": "$-25$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-26",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $5\\ge2$, use the second rule to get $f(5)=-26$.",
+    "complexity_factor": 1,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "evaluation"
+    ],
+    "checksum": "sha256-30fa2d0a6850729c24ba256c6dff1d430fdcf88235ed5c8ef9bd4b121bd7fed5",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.easy.0005",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=\\begin{cases}4x - 8,&x<4\\\\6x - 11,&x\\ge 4\\end{cases}$. Find $f(1)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4$"
+      },
+      {
+        "id": "d",
+        "latex": "$-5$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $1<4$, use the first rule to get $f(1)=-4$.",
+    "complexity_factor": 1,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "evaluation"
+    ],
+    "checksum": "sha256-a6b1498fea1ad5b113b79b79890ec253a0fb1d302ed6d56d885e4b2c8c577a3b",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.easy.0006",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=\\begin{cases}-4x + 6,&x<-4\\\\8x + 13,&x\\ge -4\\end{cases}$. Find $f(-2)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$14$"
+      },
+      {
+        "id": "b",
+        "latex": "$-2$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4$"
+      },
+      {
+        "id": "d",
+        "latex": "$-3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $-2\\ge-4$, use the second rule to get $f(-2)=-3$.",
+    "complexity_factor": 1,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "evaluation"
+    ],
+    "checksum": "sha256-ac04b59127182218813ed32e7eaf72939adb00366e387f9ff87a38a7095ddb23",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.easy.0007",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=\\begin{cases}5x + 5,&x<-2\\\\10x + 12,&x\\ge -2\\end{cases}$. Find $f(-5)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-20$"
+      },
+      {
+        "id": "b",
+        "latex": "$-38$"
+      },
+      {
+        "id": "c",
+        "latex": "$-19$"
+      },
+      {
+        "id": "d",
+        "latex": "$-21$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-20",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $-5<-2$, use the first rule to get $f(-5)=-20$.",
+    "complexity_factor": 1,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "evaluation"
+    ],
+    "checksum": "sha256-f54bf23c9e22a7e4cdb2468e22f79c809d9a37f0dacdd7572e2a4ee75534ddab",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.easy.0008",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=\\begin{cases}-5x - 7,&x<1\\\\-9x - 13,&x\\ge 1\\end{cases}$. Find $f(5)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-59$"
+      },
+      {
+        "id": "b",
+        "latex": "$-58$"
+      },
+      {
+        "id": "c",
+        "latex": "$-32$"
+      },
+      {
+        "id": "d",
+        "latex": "$-57$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-58",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $5\\ge1$, use the second rule to get $f(5)=-58$.",
+    "complexity_factor": 1,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "evaluation"
+    ],
+    "checksum": "sha256-b7e0decac7e32cf16feb8dee29d2a424553db06a0198cdf13ce2c959c23e80e8",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.easy.0009",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=\\begin{cases}6x - 11,&x<3\\\\11x - 18,&x\\ge 3\\end{cases}$. Find $f(-2)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-22$"
+      },
+      {
+        "id": "b",
+        "latex": "$-24$"
+      },
+      {
+        "id": "c",
+        "latex": "$-23$"
+      },
+      {
+        "id": "d",
+        "latex": "$-40$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-23",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $-2<3$, use the first rule to get $f(-2)=-23$.",
+    "complexity_factor": 1,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "evaluation"
+    ],
+    "checksum": "sha256-d6e6581badfc4f59c329cf4553fd137f040dc55eaeefed7d76b2544e5da8d492",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.easy.0010",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=\\begin{cases}-6x + 9,&x<5\\\\13x + 20,&x\\ge 5\\end{cases}$. Find $f(8)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-39$"
+      },
+      {
+        "id": "b",
+        "latex": "$125$"
+      },
+      {
+        "id": "c",
+        "latex": "$123$"
+      },
+      {
+        "id": "d",
+        "latex": "$124$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "124",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $8\\ge5$, use the second rule to get $f(8)=124$.",
+    "complexity_factor": 1,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "evaluation"
+    ],
+    "checksum": "sha256-280cc2be095912fddc3db9ee10872f95e46390b0ed6358dd6b875464d1598153",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.easy.0011",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=\\begin{cases}7x + 8,&x<-5\\\\15x + 19,&x\\ge -5\\end{cases}$. Find $f(-10)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-62$"
+      },
+      {
+        "id": "b",
+        "latex": "$-131$"
+      },
+      {
+        "id": "c",
+        "latex": "$-61$"
+      },
+      {
+        "id": "d",
+        "latex": "$-63$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-62",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $-10<-5$, use the first rule to get $f(-10)=-62$.",
+    "complexity_factor": 1,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "evaluation"
+    ],
+    "checksum": "sha256-4b1e8bcdbbee504a6269981117d61b42e266e165eb59be301d8e973a29397e5e",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.easy.0012",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=\\begin{cases}-7x - 10,&x<-3\\\\-14x - 20,&x\\ge -3\\end{cases}$. Find $f(2)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-49$"
+      },
+      {
+        "id": "b",
+        "latex": "$-48$"
+      },
+      {
+        "id": "c",
+        "latex": "$-24$"
+      },
+      {
+        "id": "d",
+        "latex": "$-47$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-48",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $2\\ge-3$, use the second rule to get $f(2)=-48$.",
+    "complexity_factor": 1,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "evaluation"
+    ],
+    "checksum": "sha256-9521f0b9a85167b3c3917ad543888a6156784e3da2a6cd9f8d26ff0650b4bcc2",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.easy.0013",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=\\begin{cases}8x - 14,&x<2\\\\16x - 25,&x\\ge 2\\end{cases}$. Find $f(-3)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-37$"
+      },
+      {
+        "id": "b",
+        "latex": "$-39$"
+      },
+      {
+        "id": "c",
+        "latex": "$-38$"
+      },
+      {
+        "id": "d",
+        "latex": "$-73$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-38",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $-3<2$, use the first rule to get $f(-3)=-38$.",
+    "complexity_factor": 1,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "evaluation"
+    ],
+    "checksum": "sha256-09bfe479f80f8d96453e13d492d91b1f3348523f92fbc5945b11a8aad277c552",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.easy.0014",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=\\begin{cases}-8x + 12,&x<4\\\\18x + 27,&x\\ge 4\\end{cases}$. Find $f(8)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-52$"
+      },
+      {
+        "id": "b",
+        "latex": "$172$"
+      },
+      {
+        "id": "c",
+        "latex": "$170$"
+      },
+      {
+        "id": "d",
+        "latex": "$171$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "171",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $8\\ge4$, use the second rule to get $f(8)=171$.",
+    "complexity_factor": 1,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "evaluation"
+    ],
+    "checksum": "sha256-706dedab67524fe44888a6ac8e9549e178c53b09457c1716eb3e6ceafe4499d9",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.easy.0015",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=\\begin{cases}9x + 11,&x<6\\\\20x + 26,&x\\ge 6\\end{cases}$. Find $f(-1)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $-1<6$, use the first rule to get $f(-1)=2$.",
+    "complexity_factor": 1,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "evaluation"
+    ],
+    "checksum": "sha256-caeb2fbe358b46883099c6824f6dddd817ca102704efebaf8c0de9aea8500dcf",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.easy.0016",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=\\begin{cases}-9x - 13,&x<-6\\\\-19x - 27,&x\\ge -6\\end{cases}$. Find $f(0)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-28$"
+      },
+      {
+        "id": "b",
+        "latex": "$-27$"
+      },
+      {
+        "id": "c",
+        "latex": "$-13$"
+      },
+      {
+        "id": "d",
+        "latex": "$-26$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-27",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $0\\ge-6$, use the second rule to get $f(0)=-27$.",
+    "complexity_factor": 1,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "evaluation"
+    ],
+    "checksum": "sha256-83bc5a93b6cbdf78f9683bc85015953cdff2bd68ec394239ed5a3641f2be8500",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.easy.0017",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=\\begin{cases}10x - 17,&x<-4\\\\21x - 32,&x\\ge -4\\end{cases}$. Find $f(-11)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-126$"
+      },
+      {
+        "id": "b",
+        "latex": "$-128$"
+      },
+      {
+        "id": "c",
+        "latex": "$-127$"
+      },
+      {
+        "id": "d",
+        "latex": "$-263$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-127",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $-11<-4$, use the first rule to get $f(-11)=-127$.",
+    "complexity_factor": 1,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "evaluation"
+    ],
+    "checksum": "sha256-b6cbc837d8b3ba07af820e3df46290d55e46b80701ad3a415d4c734bcd5668cd",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.easy.0018",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=\\begin{cases}-10x + 15,&x<3\\\\23x + 34,&x\\ge 3\\end{cases}$. Find $f(8)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-65$"
+      },
+      {
+        "id": "b",
+        "latex": "$219$"
+      },
+      {
+        "id": "c",
+        "latex": "$217$"
+      },
+      {
+        "id": "d",
+        "latex": "$218$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "218",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $8\\ge3$, use the second rule to get $f(8)=218$.",
+    "complexity_factor": 1,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "evaluation"
+    ],
+    "checksum": "sha256-ebe0638bb96c70ea24bc4d2aeac78dda522aa7d71ed6794c89996c4c824cfb3a",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.easy.0019",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=\\begin{cases}11x + 14,&x<5\\\\25x + 33,&x\\ge 5\\end{cases}$. Find $f(-2)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-8$"
+      },
+      {
+        "id": "b",
+        "latex": "$-17$"
+      },
+      {
+        "id": "c",
+        "latex": "$-7$"
+      },
+      {
+        "id": "d",
+        "latex": "$-9$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $-2<5$, use the first rule to get $f(-2)=-8$.",
+    "complexity_factor": 1,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "evaluation"
+    ],
+    "checksum": "sha256-70cc5e7f767d61578da37f316245939750f427403efe90b6649617b9bfd9e3ea",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.easy.0020",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=\\begin{cases}-11x - 16,&x<7\\\\-24x - 34,&x\\ge 7\\end{cases}$. Find $f(14)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-371$"
+      },
+      {
+        "id": "b",
+        "latex": "$-370$"
+      },
+      {
+        "id": "c",
+        "latex": "$-170$"
+      },
+      {
+        "id": "d",
+        "latex": "$-369$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-370",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $14\\ge7$, use the second rule to get $f(14)=-370$.",
+    "complexity_factor": 1,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "evaluation"
+    ],
+    "checksum": "sha256-04f5097e46b3bce50ff321efc3f1830c413fb841704951045f28a486eded3975",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.easy.0021",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=\\begin{cases}12x - 20,&x<-7\\\\26x - 39,&x\\ge -7\\end{cases}$. Find $f(-16)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-211$"
+      },
+      {
+        "id": "b",
+        "latex": "$-213$"
+      },
+      {
+        "id": "c",
+        "latex": "$-212$"
+      },
+      {
+        "id": "d",
+        "latex": "$-455$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-212",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $-16<-7$, use the first rule to get $f(-16)=-212$.",
+    "complexity_factor": 1,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "evaluation"
+    ],
+    "checksum": "sha256-f60a9e027770f3df82cd2e218c6b778c19b642a373d554500d380c7977722035",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.easy.0022",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=\\begin{cases}-12x + 18,&x<-5\\\\28x + 41,&x\\ge -5\\end{cases}$. Find $f(1)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$70$"
+      },
+      {
+        "id": "c",
+        "latex": "$68$"
+      },
+      {
+        "id": "d",
+        "latex": "$69$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "69",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $1\\ge-5$, use the second rule to get $f(1)=69$.",
+    "complexity_factor": 1,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "evaluation"
+    ],
+    "checksum": "sha256-b0c0496c9f0e43913c4f9096475741bf8b8abf762602d4e94295664003ff98e7",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.easy.0023",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=\\begin{cases}13x + 17,&x<4\\\\30x + 40,&x\\ge 4\\end{cases}$. Find $f(-5)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-48$"
+      },
+      {
+        "id": "b",
+        "latex": "$-110$"
+      },
+      {
+        "id": "c",
+        "latex": "$-47$"
+      },
+      {
+        "id": "d",
+        "latex": "$-49$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-48",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $-5<4$, use the first rule to get $f(-5)=-48$.",
+    "complexity_factor": 1,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "evaluation"
+    ],
+    "checksum": "sha256-1ee72364346669d931c1325f80307971cdec36eb734cb0ab6df1d09f6adb796f",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.easy.0024",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=\\begin{cases}-13x - 19,&x<6\\\\-29x - 41,&x\\ge 6\\end{cases}$. Find $f(14)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-448$"
+      },
+      {
+        "id": "b",
+        "latex": "$-447$"
+      },
+      {
+        "id": "c",
+        "latex": "$-201$"
+      },
+      {
+        "id": "d",
+        "latex": "$-446$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-447",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $14\\ge6$, use the second rule to get $f(14)=-447$.",
+    "complexity_factor": 1,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "evaluation"
+    ],
+    "checksum": "sha256-aa93fb1ed0963cf112608b9673be4cf1b2a6d6ef74569cf0880b7a6652554d9b",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.easy.0025",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=\\begin{cases}14x - 23,&x<8\\\\31x - 46,&x\\ge 8\\end{cases}$. Find $f(-1)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-36$"
+      },
+      {
+        "id": "b",
+        "latex": "$-38$"
+      },
+      {
+        "id": "c",
+        "latex": "$-37$"
+      },
+      {
+        "id": "d",
+        "latex": "$-77$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-37",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $-1<8$, use the first rule to get $f(-1)=-37$.",
+    "complexity_factor": 1,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "evaluation"
+    ],
+    "checksum": "sha256-687dada6b582cff672b948e63c653554c7558ae036208fcd82bf98b9bf34852a",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.easy.0026",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=\\begin{cases}-14x + 21,&x<-8\\\\33x + 48,&x\\ge -8\\end{cases}$. Find $f(-1)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$35$"
+      },
+      {
+        "id": "b",
+        "latex": "$16$"
+      },
+      {
+        "id": "c",
+        "latex": "$14$"
+      },
+      {
+        "id": "d",
+        "latex": "$15$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "15",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $-1\\ge-8$, use the second rule to get $f(-1)=15$.",
+    "complexity_factor": 1,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "evaluation"
+    ],
+    "checksum": "sha256-b90473140d95f91ba106705a888db500b41d9971f46241f24acb2fc4af50d586",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.easy.0027",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=\\begin{cases}15x + 20,&x<-6\\\\35x + 47,&x\\ge -6\\end{cases}$. Find $f(-17)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-235$"
+      },
+      {
+        "id": "b",
+        "latex": "$-548$"
+      },
+      {
+        "id": "c",
+        "latex": "$-234$"
+      },
+      {
+        "id": "d",
+        "latex": "$-236$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-235",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $-17<-6$, use the first rule to get $f(-17)=-235$.",
+    "complexity_factor": 1,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "evaluation"
+    ],
+    "checksum": "sha256-bfc0a43423af6959a6f50849eab7af58c56c18198aa7bac62f2c8563892723dd",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.easy.0028",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=\\begin{cases}-15x - 22,&x<5\\\\-34x - 48,&x\\ge 5\\end{cases}$. Find $f(14)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-525$"
+      },
+      {
+        "id": "b",
+        "latex": "$-524$"
+      },
+      {
+        "id": "c",
+        "latex": "$-232$"
+      },
+      {
+        "id": "d",
+        "latex": "$-523$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-524",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $14\\ge5$, use the second rule to get $f(14)=-524$.",
+    "complexity_factor": 1,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "evaluation"
+    ],
+    "checksum": "sha256-66f2222badf9e1a344c578e43f897ee75a1fafdce2b6624c3bd585c471049264",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.easy.0029",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=\\begin{cases}16x - 26,&x<7\\\\36x - 53,&x\\ge 7\\end{cases}$. Find $f(-4)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-89$"
+      },
+      {
+        "id": "b",
+        "latex": "$-91$"
+      },
+      {
+        "id": "c",
+        "latex": "$-90$"
+      },
+      {
+        "id": "d",
+        "latex": "$-197$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-90",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $-4<7$, use the first rule to get $f(-4)=-90$.",
+    "complexity_factor": 1,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "evaluation"
+    ],
+    "checksum": "sha256-8e0e178c4e02ab7e65be1368ab5614b7e5e22c6ae30c2709acfee6f0d087610d",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.easy.0030",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=\\begin{cases}-16x + 24,&x<9\\\\38x + 55,&x\\ge 9\\end{cases}$. Find $f(17)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-248$"
+      },
+      {
+        "id": "b",
+        "latex": "$702$"
+      },
+      {
+        "id": "c",
+        "latex": "$700$"
+      },
+      {
+        "id": "d",
+        "latex": "$701$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "701",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $17\\ge9$, use the second rule to get $f(17)=701$.",
+    "complexity_factor": 1,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "evaluation"
+    ],
+    "checksum": "sha256-2a8793c5a873bc62d1a3808581b3d5ca220925c17d2f8bc3767d766088b6ff7c",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.easy.0031",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=\\begin{cases}17x + 23,&x<-9\\\\40x + 54,&x\\ge -9\\end{cases}$. Find $f(-20)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-317$"
+      },
+      {
+        "id": "b",
+        "latex": "$-746$"
+      },
+      {
+        "id": "c",
+        "latex": "$-316$"
+      },
+      {
+        "id": "d",
+        "latex": "$-318$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-317",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $-20<-9$, use the first rule to get $f(-20)=-317$.",
+    "complexity_factor": 1,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "evaluation"
+    ],
+    "checksum": "sha256-c794ccbff610dc8902b469c1bb7d8f31bcc820bc2ac9f008b4045266cf50bd8f",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.easy.0032",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=\\begin{cases}-17x - 25,&x<-7\\\\-39x - 55,&x\\ge -7\\end{cases}$. Find $f(3)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-173$"
+      },
+      {
+        "id": "b",
+        "latex": "$-172$"
+      },
+      {
+        "id": "c",
+        "latex": "$-76$"
+      },
+      {
+        "id": "d",
+        "latex": "$-171$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-172",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $3\\ge-7$, use the second rule to get $f(3)=-172$.",
+    "complexity_factor": 1,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "evaluation"
+    ],
+    "checksum": "sha256-11b578ebb95e8a5e7d21119b6377cd4832e428da2cf0e2b8d68fe47c3278df11",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.easy.0033",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=\\begin{cases}18x - 29,&x<6\\\\41x - 60,&x\\ge 6\\end{cases}$. Find $f(-7)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-154$"
+      },
+      {
+        "id": "b",
+        "latex": "$-156$"
+      },
+      {
+        "id": "c",
+        "latex": "$-155$"
+      },
+      {
+        "id": "d",
+        "latex": "$-347$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-155",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $-7<6$, use the first rule to get $f(-7)=-155$.",
+    "complexity_factor": 1,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "evaluation"
+    ],
+    "checksum": "sha256-ee188b66a4d91bd336f5a9197f6d7330195b8a0a4d52f78ea581870391154795",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.easy.0034",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=\\begin{cases}-18x + 27,&x<8\\\\43x + 62,&x\\ge 8\\end{cases}$. Find $f(17)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-279$"
+      },
+      {
+        "id": "b",
+        "latex": "$794$"
+      },
+      {
+        "id": "c",
+        "latex": "$792$"
+      },
+      {
+        "id": "d",
+        "latex": "$793$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "793",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $17\\ge8$, use the second rule to get $f(17)=793$.",
+    "complexity_factor": 1,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "evaluation"
+    ],
+    "checksum": "sha256-7f46a46a25ef4d09abb3cee78107bbf9657a93846365f4d2918f332b9bf2ca27",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.easy.0035",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=\\begin{cases}19x + 26,&x<10\\\\45x + 61,&x\\ge 10\\end{cases}$. Find $f(-3)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-31$"
+      },
+      {
+        "id": "b",
+        "latex": "$-74$"
+      },
+      {
+        "id": "c",
+        "latex": "$-30$"
+      },
+      {
+        "id": "d",
+        "latex": "$-32$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-31",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $-3<10$, use the first rule to get $f(-3)=-31$.",
+    "complexity_factor": 1,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "evaluation"
+    ],
+    "checksum": "sha256-147a34d7bebc9f123e8d5a895d4fddaec4f6111bf5c88a1d371f59c36af22511",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.easy.0036",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=\\begin{cases}-19x - 28,&x<-10\\\\-44x - 62,&x\\ge -10\\end{cases}$. Find $f(1)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-107$"
+      },
+      {
+        "id": "b",
+        "latex": "$-106$"
+      },
+      {
+        "id": "c",
+        "latex": "$-47$"
+      },
+      {
+        "id": "d",
+        "latex": "$-105$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-106",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $1\\ge-10$, use the second rule to get $f(1)=-106$.",
+    "complexity_factor": 1,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "evaluation"
+    ],
+    "checksum": "sha256-228bf7f2103aa90a72a16454ed0b41038cdbc44a9bb1db54fc65bf3465194112",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.easy.0037",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=\\begin{cases}20x - 32,&x<-8\\\\46x - 67,&x\\ge -8\\end{cases}$. Find $f(-21)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-451$"
+      },
+      {
+        "id": "b",
+        "latex": "$-453$"
+      },
+      {
+        "id": "c",
+        "latex": "$-452$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1033$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-452",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $-21<-8$, use the first rule to get $f(-21)=-452$.",
+    "complexity_factor": 1,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "evaluation"
+    ],
+    "checksum": "sha256-f5482d4cf73e7a3944e8541b07a42e57593c24f7b5710e3c463adbaf59ff9e50",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.easy.0038",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=\\begin{cases}-20x + 30,&x<7\\\\48x + 69,&x\\ge 7\\end{cases}$. Find $f(17)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-310$"
+      },
+      {
+        "id": "b",
+        "latex": "$886$"
+      },
+      {
+        "id": "c",
+        "latex": "$884$"
+      },
+      {
+        "id": "d",
+        "latex": "$885$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "885",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $17\\ge7$, use the second rule to get $f(17)=885$.",
+    "complexity_factor": 1,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "evaluation"
+    ],
+    "checksum": "sha256-874f3635b85097263b83cc63326fe694d862b051d22dce02725cb79014e6c829",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.easy.0039",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=\\begin{cases}21x + 29,&x<9\\\\50x + 68,&x\\ge 9\\end{cases}$. Find $f(-6)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-97$"
+      },
+      {
+        "id": "b",
+        "latex": "$-232$"
+      },
+      {
+        "id": "c",
+        "latex": "$-96$"
+      },
+      {
+        "id": "d",
+        "latex": "$-98$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-97",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $-6<9$, use the first rule to get $f(-6)=-97$.",
+    "complexity_factor": 1,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "evaluation"
+    ],
+    "checksum": "sha256-4d6f89a55835123129e06194bfd499e24d506ff931ceb9db347d4ba863468b0c",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.easy.0040",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=\\begin{cases}-21x - 31,&x<11\\\\-49x - 69,&x\\ge 11\\end{cases}$. Find $f(23)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1197$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1196$"
+      },
+      {
+        "id": "c",
+        "latex": "$-514$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1195$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-1196",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $23\\ge11$, use the second rule to get $f(23)=-1196$.",
+    "complexity_factor": 1,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "evaluation"
+    ],
+    "checksum": "sha256-8e4df45b4946a1ba3ba106f48e08eec15483342ff9ea77a90ae5f4e2126f5ec8",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.easy.0041",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=\\begin{cases}22x - 35,&x<-11\\\\51x - 74,&x\\ge -11\\end{cases}$. Find $f(-26)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-606$"
+      },
+      {
+        "id": "b",
+        "latex": "$-608$"
+      },
+      {
+        "id": "c",
+        "latex": "$-607$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1400$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-607",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $-26<-11$, use the first rule to get $f(-26)=-607$.",
+    "complexity_factor": 1,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "evaluation"
+    ],
+    "checksum": "sha256-b33eab05dc749bbf3446f5c9cda00e7adae6aaefc9e568b47e8660ff3669b25e",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.easy.0042",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=\\begin{cases}-22x + 33,&x<-9\\\\53x + 76,&x\\ge -9\\end{cases}$. Find $f(2)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-11$"
+      },
+      {
+        "id": "b",
+        "latex": "$183$"
+      },
+      {
+        "id": "c",
+        "latex": "$181$"
+      },
+      {
+        "id": "d",
+        "latex": "$182$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "182",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $2\\ge-9$, use the second rule to get $f(2)=182$.",
+    "complexity_factor": 1,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "evaluation"
+    ],
+    "checksum": "sha256-2a3cc6f4c37f0e154a839b0068b7a6d54b130a04e021ecf1f46f4a463f8eedc1",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.easy.0043",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=\\begin{cases}23x + 32,&x<8\\\\55x + 75,&x\\ge 8\\end{cases}$. Find $f(-7)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-129$"
+      },
+      {
+        "id": "b",
+        "latex": "$-310$"
+      },
+      {
+        "id": "c",
+        "latex": "$-128$"
+      },
+      {
+        "id": "d",
+        "latex": "$-130$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-129",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $-7<8$, use the first rule to get $f(-7)=-129$.",
+    "complexity_factor": 1,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "evaluation"
+    ],
+    "checksum": "sha256-b62601085c9af7aa7534400fefa72a02d581b72dd338e4fb6a37738eb2de8700",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.easy.0044",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=\\begin{cases}-23x - 34,&x<10\\\\-54x - 76,&x\\ge 10\\end{cases}$. Find $f(23)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1319$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1318$"
+      },
+      {
+        "id": "c",
+        "latex": "$-563$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1317$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-1318",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $23\\ge10$, use the second rule to get $f(23)=-1318$.",
+    "complexity_factor": 1,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "evaluation"
+    ],
+    "checksum": "sha256-8c3687422969c7c6081d9bdaf148128f6ed2cea6121434a5dbb552edeb5e0fef",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.easy.0045",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=\\begin{cases}24x - 38,&x<12\\\\56x - 81,&x\\ge 12\\end{cases}$. Find $f(-5)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-157$"
+      },
+      {
+        "id": "b",
+        "latex": "$-159$"
+      },
+      {
+        "id": "c",
+        "latex": "$-158$"
+      },
+      {
+        "id": "d",
+        "latex": "$-361$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-158",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $-5<12$, use the first rule to get $f(-5)=-158$.",
+    "complexity_factor": 1,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "evaluation"
+    ],
+    "checksum": "sha256-6428f0970900569b19bf2b841766f66cf98ad079cfc4d5e025b0a99d78cd3850",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.easy.0046",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=\\begin{cases}-24x + 36,&x<-12\\\\58x + 83,&x\\ge -12\\end{cases}$. Find $f(0)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$36$"
+      },
+      {
+        "id": "b",
+        "latex": "$84$"
+      },
+      {
+        "id": "c",
+        "latex": "$82$"
+      },
+      {
+        "id": "d",
+        "latex": "$83$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "83",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $0\\ge-12$, use the second rule to get $f(0)=83$.",
+    "complexity_factor": 1,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "evaluation"
+    ],
+    "checksum": "sha256-477bd86ec151a4724299e6aabaa1520136cbe254221db17547e8fa1228493b8b",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.easy.0047",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=\\begin{cases}25x + 35,&x<-10\\\\60x + 82,&x\\ge -10\\end{cases}$. Find $f(-27)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-640$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1538$"
+      },
+      {
+        "id": "c",
+        "latex": "$-639$"
+      },
+      {
+        "id": "d",
+        "latex": "$-641$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-640",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $-27<-10$, use the first rule to get $f(-27)=-640$.",
+    "complexity_factor": 1,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "evaluation"
+    ],
+    "checksum": "sha256-5819a80529bce6f28a7cc4b45155153dcd39d5c58613df899465c270a42d89f5",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.easy.0048",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=\\begin{cases}-25x - 37,&x<9\\\\-59x - 83,&x\\ge 9\\end{cases}$. Find $f(23)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1441$"
+      },
+      {
+        "id": "b",
+        "latex": "$-1440$"
+      },
+      {
+        "id": "c",
+        "latex": "$-612$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1439$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-1440",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $23\\ge9$, use the second rule to get $f(23)=-1440$.",
+    "complexity_factor": 1,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "evaluation"
+    ],
+    "checksum": "sha256-6f19f4aff291a7096821ecc8c10dfdb3d1dc80bf0539114ae8e35a651ba4ada5",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.easy.0049",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=\\begin{cases}26x - 41,&x<11\\\\61x - 88,&x\\ge 11\\end{cases}$. Find $f(-6)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-196$"
+      },
+      {
+        "id": "b",
+        "latex": "$-198$"
+      },
+      {
+        "id": "c",
+        "latex": "$-197$"
+      },
+      {
+        "id": "d",
+        "latex": "$-454$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-197",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $-6<11$, use the first rule to get $f(-6)=-197$.",
+    "complexity_factor": 1,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "evaluation"
+    ],
+    "checksum": "sha256-40e71340801d177604a0b1ed5b67432bb4bf4ceb08122c511ddf025795427d9d",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.piecewise.easy.0050",
+    "topic_id": "ch20.piecewise",
+    "group_id": "ch20_special_functions",
+    "difficulty": "easy",
+    "prompt_latex": "Let $f(x)=\\begin{cases}-26x + 39,&x<13\\\\63x + 90,&x\\ge 13\\end{cases}$. Find $f(26)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-637$"
+      },
+      {
+        "id": "b",
+        "latex": "$1729$"
+      },
+      {
+        "id": "c",
+        "latex": "$1727$"
+      },
+      {
+        "id": "d",
+        "latex": "$1728$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1728",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $26\\ge13$, use the second rule to get $f(26)=1728$.",
+    "complexity_factor": 1,
+    "source_section": "20.5",
+    "tags": [
+      "piecewise",
+      "evaluation"
+    ],
+    "checksum": "sha256-5ed4e08cc9113ad754acf5804498d5521ff2cb0ef9eb5a99c2ac8e03f790c70f",
+    "status": "valid"
+  }
+]

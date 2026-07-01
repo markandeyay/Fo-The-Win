@@ -3,6 +3,9 @@ import fs from "node:fs";
 import path from "node:path";
 import taxonomy from "@/content/taxonomy.json";
 
+export const dynamic = "force-dynamic";
+export const runtime = "nodejs";
+
 interface Leaf {
   topic_id: string;
   group_id: string;
@@ -21,33 +24,45 @@ function getGroupId(topicId: string): string | null {
 
 export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url);
-  const topicId = searchParams.get("topic_id");
+  const topicParam = searchParams.get("topic_ids") ?? searchParams.get("topic_id");
   const difficulty = searchParams.get("difficulty");
 
-  if (!topicId || !difficulty) {
+  if (!topicParam || !difficulty) {
     return NextResponse.json(
-      { error: "topic_id and difficulty are required" },
+      { error: "topic_id or topic_ids and difficulty are required" },
       { status: 400 }
     );
   }
 
-  const groupId = getGroupId(topicId);
-  if (!groupId) {
+  const topicIds = [...new Set(topicParam.split(",").map((id) => id.trim()).filter(Boolean))];
+  const problems = [];
+  const unknownTopicIds: string[] = [];
+
+  for (const topicId of topicIds) {
+    const groupId = getGroupId(topicId);
+    if (!groupId) {
+      unknownTopicIds.push(topicId);
+      continue;
+    }
+
+    const filePath = path.join(
+      process.cwd(),
+      "content",
+      "problems",
+      groupId,
+      `${topicId}.${difficulty}.json`
+    );
+
+    if (!fs.existsSync(filePath)) {
+      continue;
+    }
+
+    problems.push(...JSON.parse(fs.readFileSync(filePath, "utf-8")));
+  }
+
+  if (unknownTopicIds.length === topicIds.length) {
     return NextResponse.json({ error: "unknown topic" }, { status: 404 });
   }
 
-  const filePath = path.join(
-    process.cwd(),
-    "content",
-    "problems",
-    groupId,
-    `${topicId}.${difficulty}.json`
-  );
-
-  if (!fs.existsSync(filePath)) {
-    return NextResponse.json({ problems: [] });
-  }
-
-  const problems = JSON.parse(fs.readFileSync(filePath, "utf-8"));
-  return NextResponse.json({ problems });
+  return NextResponse.json({ problems, unknown_topic_ids: unknownTopicIds });
 }

@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "ch19.show_me_money.medium.0001",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $1$: Plan A starts with $60$ dollars and is multiplied by $3$ each period. Plan B starts with $60$ dollars and is multiplied by $2$ each period. After $3$ periods, how many dollars larger is the greater value?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2100$"
+      },
+      {
+        "id": "b",
+        "latex": "$1140$"
+      },
+      {
+        "id": "c",
+        "latex": "$480$"
+      },
+      {
+        "id": "d",
+        "latex": "$1620$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1140",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The final values are $1620$ and $480$, so the difference is $1140$ dollars.",
+    "complexity_factor": 1.35,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-d9e0d38de854e900e8cedd042b806c253e965c4ec531a8ef4fe5651ebbc7d538",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.medium.0002",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $2$: A prize is multiplied by $4$ each round and is $8960$ dollars after $4$ rounds. What was the starting prize?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2240$"
+      },
+      {
+        "id": "b",
+        "latex": "$140$"
+      },
+      {
+        "id": "c",
+        "latex": "$35$"
+      },
+      {
+        "id": "d",
+        "latex": "$51$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "35",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by $4^{4}$: $8960/256=35$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-4765828f30b5c0503414817aad7dcb127ea78881b0afd8c4f02d79c0c4a45d64",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.medium.0003",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $3$: Plan A starts with $100$ dollars and is multiplied by $3$ each period. Plan B starts with $90$ dollars and is multiplied by $2$ each period. After $2$ periods, how many dollars larger is the greater value?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1260$"
+      },
+      {
+        "id": "b",
+        "latex": "$360$"
+      },
+      {
+        "id": "c",
+        "latex": "$900$"
+      },
+      {
+        "id": "d",
+        "latex": "$540$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "540",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The final values are $900$ and $360$, so the difference is $540$ dollars.",
+    "complexity_factor": 1.35,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-8f8b93b371b9d1e9fdd45ceab958c18dc7a69e8828925d10d2363e65a8c42a50",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.medium.0004",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $4$: A prize is multiplied by $2$ each round and is $360$ dollars after $3$ rounds. What was the starting prize?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$45$"
+      },
+      {
+        "id": "b",
+        "latex": "$180$"
+      },
+      {
+        "id": "c",
+        "latex": "$90$"
+      },
+      {
+        "id": "d",
+        "latex": "$51$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "45",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by $2^{3}$: $360/8=45$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-7ced94017cec48acc147630d133a332d9bf570ca8e6ac567801d59f7f1457cc3",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.medium.0005",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $5$: Plan A starts with $40$ dollars and is multiplied by $3$ each period. Plan B starts with $45$ dollars and is multiplied by $2$ each period. After $4$ periods, how many dollars larger is the greater value?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3960$"
+      },
+      {
+        "id": "b",
+        "latex": "$2520$"
+      },
+      {
+        "id": "c",
+        "latex": "$720$"
+      },
+      {
+        "id": "d",
+        "latex": "$3240$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "2520",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The final values are $3240$ and $720$, so the difference is $2520$ dollars.",
+    "complexity_factor": 1.35,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-5c6a7533c790e6a915f8476006a08ee4c7124f434efcaf2e42f60f3f8ade070a",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.medium.0006",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $6$: A prize is multiplied by $4$ each round and is $880$ dollars after $2$ rounds. What was the starting prize?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$220$"
+      },
+      {
+        "id": "b",
+        "latex": "$63$"
+      },
+      {
+        "id": "c",
+        "latex": "$55$"
+      },
+      {
+        "id": "d",
+        "latex": "$51$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "55",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by $4^{2}$: $880/16=55$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-61d224fead0ed828140340ccb7ee3506e79d788f57a7c0335470c41168ad3f83",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.medium.0007",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $7$: Plan A starts with $80$ dollars and is multiplied by $3$ each period. Plan B starts with $75$ dollars and is multiplied by $2$ each period. After $3$ periods, how many dollars larger is the greater value?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2760$"
+      },
+      {
+        "id": "b",
+        "latex": "$600$"
+      },
+      {
+        "id": "c",
+        "latex": "$2160$"
+      },
+      {
+        "id": "d",
+        "latex": "$1560$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1560",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The final values are $2160$ and $600$, so the difference is $1560$ dollars.",
+    "complexity_factor": 1.35,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-726783e91ac6d1a376a56124f77479e91efca8e96912d8acb11d6af64e87330d",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.medium.0008",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $8$: A prize is multiplied by $2$ each round and is $1040$ dollars after $4$ rounds. What was the starting prize?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$65$"
+      },
+      {
+        "id": "b",
+        "latex": "$520$"
+      },
+      {
+        "id": "c",
+        "latex": "$130$"
+      },
+      {
+        "id": "d",
+        "latex": "$73$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "65",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by $2^{4}$: $1040/16=65$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-64a4503c28a9b57f4f8a2d70a799a2deca1173986a57769e100d6a2b6d654dce",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.medium.0009",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $9$: Plan A starts with $120$ dollars and is multiplied by $3$ each period. Plan B starts with $105$ dollars and is multiplied by $2$ each period. After $2$ periods, how many dollars larger is the greater value?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1500$"
+      },
+      {
+        "id": "b",
+        "latex": "$660$"
+      },
+      {
+        "id": "c",
+        "latex": "$420$"
+      },
+      {
+        "id": "d",
+        "latex": "$1080$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "660",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The final values are $1080$ and $420$, so the difference is $660$ dollars.",
+    "complexity_factor": 1.35,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-965d65e9deaa4459873ff6baa6e3100252392da32fe229868a4570deb0cc2ed3",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.medium.0010",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $10$: A prize is multiplied by $4$ each round and is $1600$ dollars after $3$ rounds. What was the starting prize?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$400$"
+      },
+      {
+        "id": "b",
+        "latex": "$100$"
+      },
+      {
+        "id": "c",
+        "latex": "$25$"
+      },
+      {
+        "id": "d",
+        "latex": "$37$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "25",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by $4^{3}$: $1600/64=25$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-40f147f3e023889757c29094f1f320e6eb322c7825298104dcf7a47b693cfd86",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.medium.0011",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $11$: Plan A starts with $60$ dollars and is multiplied by $3$ each period. Plan B starts with $60$ dollars and is multiplied by $2$ each period. After $4$ periods, how many dollars larger is the greater value?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5820$"
+      },
+      {
+        "id": "b",
+        "latex": "$960$"
+      },
+      {
+        "id": "c",
+        "latex": "$4860$"
+      },
+      {
+        "id": "d",
+        "latex": "$3900$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "3900",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The final values are $4860$ and $960$, so the difference is $3900$ dollars.",
+    "complexity_factor": 1.35,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-857503060f33c1b6f53cab222ccf64d83299e0352d97072aa8bb51ba844dbe04",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.medium.0012",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $12$: A prize is multiplied by $2$ each round and is $140$ dollars after $2$ rounds. What was the starting prize?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$35$"
+      },
+      {
+        "id": "b",
+        "latex": "$70$"
+      },
+      {
+        "id": "c",
+        "latex": "$39$"
+      },
+      {
+        "id": "d",
+        "latex": "$33$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "35",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by $2^{2}$: $140/4=35$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-914d731896065c28c5b9b92a51537295ca1c0ec6aa76771883b402641dc65468",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.medium.0013",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $13$: Plan A starts with $100$ dollars and is multiplied by $3$ each period. Plan B starts with $90$ dollars and is multiplied by $2$ each period. After $3$ periods, how many dollars larger is the greater value?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3420$"
+      },
+      {
+        "id": "b",
+        "latex": "$1980$"
+      },
+      {
+        "id": "c",
+        "latex": "$720$"
+      },
+      {
+        "id": "d",
+        "latex": "$2700$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1980",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The final values are $2700$ and $720$, so the difference is $1980$ dollars.",
+    "complexity_factor": 1.35,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-5cd57d204e1fff91a823c2abb85c5362e356dafb59371aa31776b19dd04d9b10",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.medium.0014",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $14$: A prize is multiplied by $4$ each round and is $11520$ dollars after $4$ rounds. What was the starting prize?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2880$"
+      },
+      {
+        "id": "b",
+        "latex": "$180$"
+      },
+      {
+        "id": "c",
+        "latex": "$45$"
+      },
+      {
+        "id": "d",
+        "latex": "$61$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "45",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by $4^{4}$: $11520/256=45$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-4977396f7aeca7e2f3186b08ea726936b8acf5f1bffdf4f2314e9ec73cf95134",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.medium.0015",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $15$: Plan A starts with $40$ dollars and is multiplied by $3$ each period. Plan B starts with $45$ dollars and is multiplied by $2$ each period. After $2$ periods, how many dollars larger is the greater value?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$540$"
+      },
+      {
+        "id": "b",
+        "latex": "$360$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$180$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "180",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The final values are $360$ and $180$, so the difference is $180$ dollars.",
+    "complexity_factor": 1.35,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-454ae3bb319dbe017030898a571276ddee8771b02f103ae3bfb35bd9c7d95f50",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.medium.0016",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $16$: A prize is multiplied by $2$ each round and is $440$ dollars after $3$ rounds. What was the starting prize?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$55$"
+      },
+      {
+        "id": "b",
+        "latex": "$220$"
+      },
+      {
+        "id": "c",
+        "latex": "$110$"
+      },
+      {
+        "id": "d",
+        "latex": "$61$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "55",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by $2^{3}$: $440/8=55$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-0c8765fda6f51ef0b22569c6a9e8cf3bdafc5cba23552229c087b045ca030d1e",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.medium.0017",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $17$: Plan A starts with $80$ dollars and is multiplied by $3$ each period. Plan B starts with $75$ dollars and is multiplied by $2$ each period. After $4$ periods, how many dollars larger is the greater value?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7680$"
+      },
+      {
+        "id": "b",
+        "latex": "$5280$"
+      },
+      {
+        "id": "c",
+        "latex": "$1200$"
+      },
+      {
+        "id": "d",
+        "latex": "$6480$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "5280",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The final values are $6480$ and $1200$, so the difference is $5280$ dollars.",
+    "complexity_factor": 1.35,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-478b8cc058c54d3ef7713216f629b2ea402b68a093905d0788eabbe45816f628",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.medium.0018",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $18$: A prize is multiplied by $4$ each round and is $1040$ dollars after $2$ rounds. What was the starting prize?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$260$"
+      },
+      {
+        "id": "b",
+        "latex": "$73$"
+      },
+      {
+        "id": "c",
+        "latex": "$65$"
+      },
+      {
+        "id": "d",
+        "latex": "$61$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "65",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by $4^{2}$: $1040/16=65$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-e65d50e61417825525a1043765ca99f965217bd85f7dae4e2cead9e5d35d8189",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.medium.0019",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $19$: Plan A starts with $120$ dollars and is multiplied by $3$ each period. Plan B starts with $105$ dollars and is multiplied by $2$ each period. After $3$ periods, how many dollars larger is the greater value?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4080$"
+      },
+      {
+        "id": "b",
+        "latex": "$840$"
+      },
+      {
+        "id": "c",
+        "latex": "$3240$"
+      },
+      {
+        "id": "d",
+        "latex": "$2400$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2400",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The final values are $3240$ and $840$, so the difference is $2400$ dollars.",
+    "complexity_factor": 1.35,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-06fa31586da9d2fb77037487fa5a12d14626c099f5bc8324d5c3a7f4753b60a5",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.medium.0020",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $20$: A prize is multiplied by $2$ each round and is $400$ dollars after $4$ rounds. What was the starting prize?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$25$"
+      },
+      {
+        "id": "b",
+        "latex": "$200$"
+      },
+      {
+        "id": "c",
+        "latex": "$50$"
+      },
+      {
+        "id": "d",
+        "latex": "$33$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "25",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by $2^{4}$: $400/16=25$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-5fb61d882e22058caa5fe773baa64a1f4dc18e8a475468796d600b0fd9f1c67f",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.medium.0021",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $21$: Plan A starts with $60$ dollars and is multiplied by $3$ each period. Plan B starts with $60$ dollars and is multiplied by $2$ each period. After $2$ periods, how many dollars larger is the greater value?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$780$"
+      },
+      {
+        "id": "b",
+        "latex": "$300$"
+      },
+      {
+        "id": "c",
+        "latex": "$240$"
+      },
+      {
+        "id": "d",
+        "latex": "$540$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "300",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The final values are $540$ and $240$, so the difference is $300$ dollars.",
+    "complexity_factor": 1.35,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-87c1beb41d3e71f5aadad1d480592ae9a3a95a9e14ce5eead2a565aaacc7254b",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.medium.0022",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $22$: A prize is multiplied by $4$ each round and is $2240$ dollars after $3$ rounds. What was the starting prize?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$560$"
+      },
+      {
+        "id": "b",
+        "latex": "$140$"
+      },
+      {
+        "id": "c",
+        "latex": "$35$"
+      },
+      {
+        "id": "d",
+        "latex": "$47$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "35",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by $4^{3}$: $2240/64=35$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-506399e0b4d8660fb06043534bc8500d9fe946711e042b79f66c9d38e5d8f7bf",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.medium.0023",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $23$: Plan A starts with $100$ dollars and is multiplied by $3$ each period. Plan B starts with $90$ dollars and is multiplied by $2$ each period. After $4$ periods, how many dollars larger is the greater value?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9540$"
+      },
+      {
+        "id": "b",
+        "latex": "$1440$"
+      },
+      {
+        "id": "c",
+        "latex": "$8100$"
+      },
+      {
+        "id": "d",
+        "latex": "$6660$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "6660",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The final values are $8100$ and $1440$, so the difference is $6660$ dollars.",
+    "complexity_factor": 1.35,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-ed240e1acb527f292c3901e3be98d03c93d222291c336ef4334db1656f8d4443",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.medium.0024",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $24$: A prize is multiplied by $2$ each round and is $180$ dollars after $2$ rounds. What was the starting prize?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$45$"
+      },
+      {
+        "id": "b",
+        "latex": "$90$"
+      },
+      {
+        "id": "c",
+        "latex": "$49$"
+      },
+      {
+        "id": "d",
+        "latex": "$43$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "45",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by $2^{2}$: $180/4=45$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-a840f029769ed9c977b49765f96ff10d08cada5b38e5440cfcdbdb34dc7132ce",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.medium.0025",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $25$: Plan A starts with $40$ dollars and is multiplied by $3$ each period. Plan B starts with $45$ dollars and is multiplied by $2$ each period. After $3$ periods, how many dollars larger is the greater value?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1440$"
+      },
+      {
+        "id": "b",
+        "latex": "$720$"
+      },
+      {
+        "id": "c",
+        "latex": "$360$"
+      },
+      {
+        "id": "d",
+        "latex": "$1080$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "720",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The final values are $1080$ and $360$, so the difference is $720$ dollars.",
+    "complexity_factor": 1.35,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-19fe414431208393964dbc992a5887f74d727f2b3a481dcf721b9b5a6c115a87",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.medium.0026",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $26$: A prize is multiplied by $4$ each round and is $14080$ dollars after $4$ rounds. What was the starting prize?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3520$"
+      },
+      {
+        "id": "b",
+        "latex": "$220$"
+      },
+      {
+        "id": "c",
+        "latex": "$55$"
+      },
+      {
+        "id": "d",
+        "latex": "$71$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "55",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by $4^{4}$: $14080/256=55$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-96e11f2cf9a843dd2c1aead11fa6d1869fa26779f85f154c4fde37330b95c8e7",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.medium.0027",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $27$: Plan A starts with $80$ dollars and is multiplied by $3$ each period. Plan B starts with $75$ dollars and is multiplied by $2$ each period. After $2$ periods, how many dollars larger is the greater value?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1020$"
+      },
+      {
+        "id": "b",
+        "latex": "$300$"
+      },
+      {
+        "id": "c",
+        "latex": "$720$"
+      },
+      {
+        "id": "d",
+        "latex": "$420$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "420",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The final values are $720$ and $300$, so the difference is $420$ dollars.",
+    "complexity_factor": 1.35,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-36e888fd2c181dbfd17c9b6b0092aaaf8cff95ce4c5e8b27fba0e34d9d405943",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.medium.0028",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $28$: A prize is multiplied by $2$ each round and is $520$ dollars after $3$ rounds. What was the starting prize?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$65$"
+      },
+      {
+        "id": "b",
+        "latex": "$260$"
+      },
+      {
+        "id": "c",
+        "latex": "$130$"
+      },
+      {
+        "id": "d",
+        "latex": "$71$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "65",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by $2^{3}$: $520/8=65$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-915ac49691778b8a1d23c1f050b1d3fe320ea155e0e467f323acb0c09b8328ce",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.medium.0029",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $29$: Plan A starts with $120$ dollars and is multiplied by $3$ each period. Plan B starts with $105$ dollars and is multiplied by $2$ each period. After $4$ periods, how many dollars larger is the greater value?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11400$"
+      },
+      {
+        "id": "b",
+        "latex": "$8040$"
+      },
+      {
+        "id": "c",
+        "latex": "$1680$"
+      },
+      {
+        "id": "d",
+        "latex": "$9720$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "8040",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The final values are $9720$ and $1680$, so the difference is $8040$ dollars.",
+    "complexity_factor": 1.35,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-78c927215559a5b5c0d73e6c114f19f8e0f9f52fdccd3722d8cdeef3bdeb9e21",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.medium.0030",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $30$: A prize is multiplied by $4$ each round and is $400$ dollars after $2$ rounds. What was the starting prize?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$100$"
+      },
+      {
+        "id": "b",
+        "latex": "$33$"
+      },
+      {
+        "id": "c",
+        "latex": "$25$"
+      },
+      {
+        "id": "d",
+        "latex": "$21$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "25",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by $4^{2}$: $400/16=25$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-9bf20ee7db39c2be41ca9f7816064d155b2baa67e0f638ab65dfba86b49f3c78",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.medium.0031",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $31$: Plan A starts with $60$ dollars and is multiplied by $3$ each period. Plan B starts with $60$ dollars and is multiplied by $2$ each period. After $3$ periods, how many dollars larger is the greater value?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2100$"
+      },
+      {
+        "id": "b",
+        "latex": "$480$"
+      },
+      {
+        "id": "c",
+        "latex": "$1620$"
+      },
+      {
+        "id": "d",
+        "latex": "$1140$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1140",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The final values are $1620$ and $480$, so the difference is $1140$ dollars.",
+    "complexity_factor": 1.35,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-7db49b60b42b3e0c9276eddc426c46a1bbc06beec3b415f2ce092f1e797b908c",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.medium.0032",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $32$: A prize is multiplied by $2$ each round and is $560$ dollars after $4$ rounds. What was the starting prize?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$35$"
+      },
+      {
+        "id": "b",
+        "latex": "$280$"
+      },
+      {
+        "id": "c",
+        "latex": "$70$"
+      },
+      {
+        "id": "d",
+        "latex": "$43$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "35",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by $2^{4}$: $560/16=35$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-b2ad8944abfd9fc405448f50a3bc49ca94bb1518fe9a68020e23137329a93108",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.medium.0033",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $33$: Plan A starts with $100$ dollars and is multiplied by $3$ each period. Plan B starts with $90$ dollars and is multiplied by $2$ each period. After $2$ periods, how many dollars larger is the greater value?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1260$"
+      },
+      {
+        "id": "b",
+        "latex": "$540$"
+      },
+      {
+        "id": "c",
+        "latex": "$360$"
+      },
+      {
+        "id": "d",
+        "latex": "$900$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "540",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The final values are $900$ and $360$, so the difference is $540$ dollars.",
+    "complexity_factor": 1.35,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-00dafb95221e06d7babaff3d2efcec3daf9f40a54cbe43ed502992a7519a38c9",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.medium.0034",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $34$: A prize is multiplied by $4$ each round and is $2880$ dollars after $3$ rounds. What was the starting prize?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$720$"
+      },
+      {
+        "id": "b",
+        "latex": "$180$"
+      },
+      {
+        "id": "c",
+        "latex": "$45$"
+      },
+      {
+        "id": "d",
+        "latex": "$57$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "45",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by $4^{3}$: $2880/64=45$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-84c9e35caa77742bcdfde734060e9c6ea526f552cfb704cbabca5cd738b85d1c",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.medium.0035",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $35$: Plan A starts with $40$ dollars and is multiplied by $3$ each period. Plan B starts with $45$ dollars and is multiplied by $2$ each period. After $4$ periods, how many dollars larger is the greater value?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3960$"
+      },
+      {
+        "id": "b",
+        "latex": "$720$"
+      },
+      {
+        "id": "c",
+        "latex": "$3240$"
+      },
+      {
+        "id": "d",
+        "latex": "$2520$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2520",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The final values are $3240$ and $720$, so the difference is $2520$ dollars.",
+    "complexity_factor": 1.35,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-3466c87e8c63f48b590d8f59b19cb4dbd9d59660a9e17b437b476e1c31733045",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.medium.0036",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $36$: A prize is multiplied by $2$ each round and is $220$ dollars after $2$ rounds. What was the starting prize?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$55$"
+      },
+      {
+        "id": "b",
+        "latex": "$110$"
+      },
+      {
+        "id": "c",
+        "latex": "$59$"
+      },
+      {
+        "id": "d",
+        "latex": "$53$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "55",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by $2^{2}$: $220/4=55$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-79aa6cbd8758bc9be5b650a4c570576a6a5bb2ef585d2ffa63878582b3946694",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.medium.0037",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $37$: Plan A starts with $80$ dollars and is multiplied by $3$ each period. Plan B starts with $75$ dollars and is multiplied by $2$ each period. After $3$ periods, how many dollars larger is the greater value?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2760$"
+      },
+      {
+        "id": "b",
+        "latex": "$1560$"
+      },
+      {
+        "id": "c",
+        "latex": "$600$"
+      },
+      {
+        "id": "d",
+        "latex": "$2160$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1560",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The final values are $2160$ and $600$, so the difference is $1560$ dollars.",
+    "complexity_factor": 1.35,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-154bd6d6bfdd2f51f6f37e1f56d0f916388b18330406238577b0b9b66ba27a6b",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.medium.0038",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $38$: A prize is multiplied by $4$ each round and is $16640$ dollars after $4$ rounds. What was the starting prize?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4160$"
+      },
+      {
+        "id": "b",
+        "latex": "$260$"
+      },
+      {
+        "id": "c",
+        "latex": "$65$"
+      },
+      {
+        "id": "d",
+        "latex": "$81$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "65",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by $4^{4}$: $16640/256=65$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-94f67effc2aa7d124ca4932ce31c4cb6a6b5ccde0a06a55aafbba5c5913c1b59",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.medium.0039",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $39$: Plan A starts with $120$ dollars and is multiplied by $3$ each period. Plan B starts with $105$ dollars and is multiplied by $2$ each period. After $2$ periods, how many dollars larger is the greater value?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1500$"
+      },
+      {
+        "id": "b",
+        "latex": "$420$"
+      },
+      {
+        "id": "c",
+        "latex": "$1080$"
+      },
+      {
+        "id": "d",
+        "latex": "$660$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "660",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The final values are $1080$ and $420$, so the difference is $660$ dollars.",
+    "complexity_factor": 1.35,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-8f1267493ec3d0970f5a6de1e70e4ca4c52f6b66b00aa98dd569ba345d78c5c5",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.medium.0040",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $40$: A prize is multiplied by $2$ each round and is $200$ dollars after $3$ rounds. What was the starting prize?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$25$"
+      },
+      {
+        "id": "b",
+        "latex": "$100$"
+      },
+      {
+        "id": "c",
+        "latex": "$50$"
+      },
+      {
+        "id": "d",
+        "latex": "$31$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "25",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by $2^{3}$: $200/8=25$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-bbe80ae089c5e0ab0260ac053c661d9b8c70b35b78b9fbe13a158073d786e46d",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.medium.0041",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $41$: Plan A starts with $60$ dollars and is multiplied by $3$ each period. Plan B starts with $60$ dollars and is multiplied by $2$ each period. After $4$ periods, how many dollars larger is the greater value?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5820$"
+      },
+      {
+        "id": "b",
+        "latex": "$3900$"
+      },
+      {
+        "id": "c",
+        "latex": "$960$"
+      },
+      {
+        "id": "d",
+        "latex": "$4860$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "3900",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The final values are $4860$ and $960$, so the difference is $3900$ dollars.",
+    "complexity_factor": 1.35,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-09fa4d8fec6f473d805ac15d052cfd4a18609c732043ab6e4d9387e81e9e3a50",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.medium.0042",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $42$: A prize is multiplied by $4$ each round and is $560$ dollars after $2$ rounds. What was the starting prize?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$140$"
+      },
+      {
+        "id": "b",
+        "latex": "$43$"
+      },
+      {
+        "id": "c",
+        "latex": "$35$"
+      },
+      {
+        "id": "d",
+        "latex": "$31$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "35",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by $4^{2}$: $560/16=35$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-c3f0eec93829fa951fb1c89c495c24c5dc4c3d1688e20622792c9b884c67e5a2",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.medium.0043",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $43$: Plan A starts with $100$ dollars and is multiplied by $3$ each period. Plan B starts with $90$ dollars and is multiplied by $2$ each period. After $3$ periods, how many dollars larger is the greater value?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3420$"
+      },
+      {
+        "id": "b",
+        "latex": "$720$"
+      },
+      {
+        "id": "c",
+        "latex": "$2700$"
+      },
+      {
+        "id": "d",
+        "latex": "$1980$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1980",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The final values are $2700$ and $720$, so the difference is $1980$ dollars.",
+    "complexity_factor": 1.35,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-1a5df31a5ab35c88206623852a9b9d8b1749ee4f728cc4811ee86fb7c5af64b6",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.medium.0044",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $44$: A prize is multiplied by $2$ each round and is $720$ dollars after $4$ rounds. What was the starting prize?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$45$"
+      },
+      {
+        "id": "b",
+        "latex": "$360$"
+      },
+      {
+        "id": "c",
+        "latex": "$90$"
+      },
+      {
+        "id": "d",
+        "latex": "$53$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "45",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by $2^{4}$: $720/16=45$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-bb2ced1cd38a13048334a142d30a0dc427cfe2e59ea17a77aa65947eaae56969",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.medium.0045",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $45$: Plan A starts with $40$ dollars and is multiplied by $3$ each period. Plan B starts with $45$ dollars and is multiplied by $2$ each period. After $2$ periods, how many dollars larger is the greater value?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$540$"
+      },
+      {
+        "id": "b",
+        "latex": "$180$"
+      },
+      {
+        "id": "c",
+        "latex": "$360$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "180",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The final values are $360$ and $180$, so the difference is $180$ dollars.",
+    "complexity_factor": 1.35,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-84ff1c8f8f9ddbea69b239bd82d9e9af689760d0fc1f95c3ac98451d9c1782e3",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.medium.0046",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $46$: A prize is multiplied by $4$ each round and is $3520$ dollars after $3$ rounds. What was the starting prize?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$880$"
+      },
+      {
+        "id": "b",
+        "latex": "$220$"
+      },
+      {
+        "id": "c",
+        "latex": "$55$"
+      },
+      {
+        "id": "d",
+        "latex": "$67$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "55",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by $4^{3}$: $3520/64=55$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-7abc389b18516c36c94b87ee1245659c1b069511fa14c4ef7f386b0bf398891d",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.medium.0047",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $47$: Plan A starts with $80$ dollars and is multiplied by $3$ each period. Plan B starts with $75$ dollars and is multiplied by $2$ each period. After $4$ periods, how many dollars larger is the greater value?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7680$"
+      },
+      {
+        "id": "b",
+        "latex": "$1200$"
+      },
+      {
+        "id": "c",
+        "latex": "$6480$"
+      },
+      {
+        "id": "d",
+        "latex": "$5280$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "5280",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The final values are $6480$ and $1200$, so the difference is $5280$ dollars.",
+    "complexity_factor": 1.35,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-b13365ad4c7a3501294ca8c0dcf80b09807d04239560be5836b3becfd85c2be1",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.medium.0048",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $48$: A prize is multiplied by $2$ each round and is $260$ dollars after $2$ rounds. What was the starting prize?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$65$"
+      },
+      {
+        "id": "b",
+        "latex": "$130$"
+      },
+      {
+        "id": "c",
+        "latex": "$69$"
+      },
+      {
+        "id": "d",
+        "latex": "$63$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "65",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by $2^{2}$: $260/4=65$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-820f800a515a665733cab64b1c12318df5d5e7a072356166010349b5c34ec8fc",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.medium.0049",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $49$: Plan A starts with $120$ dollars and is multiplied by $3$ each period. Plan B starts with $105$ dollars and is multiplied by $2$ each period. After $3$ periods, how many dollars larger is the greater value?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4080$"
+      },
+      {
+        "id": "b",
+        "latex": "$2400$"
+      },
+      {
+        "id": "c",
+        "latex": "$840$"
+      },
+      {
+        "id": "d",
+        "latex": "$3240$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "2400",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The final values are $3240$ and $840$, so the difference is $2400$ dollars.",
+    "complexity_factor": 1.35,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-d4b092f727f22b4e2cbd4719ecc5c97ce2abcb21d8f607581bf4a3b1a75991d7",
+    "status": "valid"
+  },
+  {
+    "id": "ch19.show_me_money.medium.0050",
+    "topic_id": "ch19.show_me_money",
+    "group_id": "ch19_exp_logs",
+    "difficulty": "medium",
+    "prompt_latex": "Entry $50$: A prize is multiplied by $4$ each round and is $6400$ dollars after $4$ rounds. What was the starting prize?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1600$"
+      },
+      {
+        "id": "b",
+        "latex": "$100$"
+      },
+      {
+        "id": "c",
+        "latex": "$25$"
+      },
+      {
+        "id": "d",
+        "latex": "$41$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "25",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Divide by $4^{4}$: $6400/256=25$.",
+    "complexity_factor": 1.35,
+    "source_section": "19.2",
+    "tags": [
+      "exponential-growth",
+      "money"
+    ],
+    "checksum": "sha256-02bf1ffea2d3c69b0bb759d9af7d3aa80dde207eda064e01cec4e49fb0babddb",
+    "status": "valid"
+  }
+]

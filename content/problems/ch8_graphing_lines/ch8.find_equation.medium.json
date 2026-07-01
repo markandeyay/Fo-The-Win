@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "ch8.find_equation.medium.0001",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Find the equation of the line through $(-5, -3)$ and $(-3, -5)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = x - 8$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = -x - 8$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = -x - 7$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -x + 8$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "y=-x-8",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slope is $\\frac{-5--3}{-3--5}=-1$. Then $-3=-1(-5)+b$, so $b=-8$ and $y = -x - 8$.",
+    "complexity_factor": 1.18,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "two-points"
+    ],
+    "checksum": "sha256-c7b0574a62218ae6659c5af215bd39552243f260e6a9b56d763f2dda81dafa26",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.medium.0002",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Find the equation of the line with $x$-intercept $(-2, 0)$ and $y$-intercept $(0, -6)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = -3x - 6$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = -3x - 5$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = -3x + 6$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = 3x - 6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "y=-3x-6",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slope is $\\frac{-6-0}{0--2}=-3$ and the $y$-intercept is $-6$, so $y = -3x - 6$.",
+    "complexity_factor": 1.18,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "intercepts"
+    ],
+    "checksum": "sha256-52bf353c2c8d57009d5827da95e26fb5ee0a575e6b4ea2b71d821acf71a6ffb1",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.medium.0003",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A line parallel to $y = 4x - 3$ passes through $(1, -2)$. What is its equation?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = 4x - 6$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = 4x - 5$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = -4x - 6$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = 4x + 6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "y=4x-6",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Parallel lines have equal slopes. Use slope $4$ and point $(1, -2)$: $-2=4(1)+b$, so $b=-6$.",
+    "complexity_factor": 1.2,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "parallel"
+    ],
+    "checksum": "sha256-ea4bca0b74ef016bdfb36c1d5ed6214559e21d5f49f837a9ca8289823b432dd1",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.medium.0004",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Find the equation of the line through $(4, 11)$ with slope $4$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = 4x - 5$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = 4x + 5$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = 4x - 4$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -4x - 5$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "y=4x-5",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Substitute into $y=mx+b$: $11=4(4)+b$, so $b=-5$ and the equation is $y = 4x - 5$.",
+    "complexity_factor": 1.16,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "point-slope"
+    ],
+    "checksum": "sha256-267d77cafc4850df29c5660f2b4b461c60db958e6370ad1554902137884e47cd",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.medium.0005",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Find the equation of the line through $(-4, -16)$ and $(-2, -10)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = 3x + 4$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = 3x - 3$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = 3x - 4$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -3x - 4$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "y=3x-4",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slope is $\\frac{-10--16}{-2--4}=3$. Then $-16=3(-4)+b$, so $b=-4$ and $y = 3x - 4$.",
+    "complexity_factor": 1.18,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "two-points"
+    ],
+    "checksum": "sha256-88857433302309476ae142fed6255c53bc54dc89c97636637c354b2c271734af",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.medium.0006",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Find the equation of the line with $x$-intercept $(0, 0)$ and $y$-intercept $(0, 0)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = -4x$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = -4x + 1$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = -3x$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = 4x$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "y=-4x",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slope is $\\frac{0-0}{0-0}=-4$ and the $y$-intercept is $0$, so $y = -4x$.",
+    "complexity_factor": 1.18,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "intercepts"
+    ],
+    "checksum": "sha256-4158dc71eaec10ecd152a5a34ef17330864f88c8c3118bc0f780b35adf3999f0",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.medium.0007",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A line parallel to $y = 3x + 1$ passes through $(2, 4)$. What is its equation?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = 3x - 1$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = -3x - 2$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = 3x + 2$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = 3x - 2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "y=3x-2",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Parallel lines have equal slopes. Use slope $3$ and point $(2, 4)$: $4=3(2)+b$, so $b=-2$.",
+    "complexity_factor": 1.2,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "parallel"
+    ],
+    "checksum": "sha256-a6a1219e3677f82e8ceed2fee7229b114a41083d9fed7834240d7762ad0c754f",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.medium.0008",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Find the equation of the line through $(5, 19)$ with slope $4$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = 4x - 1$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = -4x - 1$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = 4x$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = 4x + 1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "y=4x-1",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Substitute into $y=mx+b$: $19=4(5)+b$, so $b=-1$ and the equation is $y = 4x - 1$.",
+    "complexity_factor": 1.16,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "point-slope"
+    ],
+    "checksum": "sha256-2bc7d9ece68c9bdb525ee932c2b4ce55788e39cf7d40eabe4e4fca8b3eec46ad",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.medium.0009",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Find the equation of the line through $(-3, -6)$ and $(-1, -2)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = 3x$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = -2x$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = 2x + 1$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = 2x$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "y=2x",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slope is $\\frac{-2--6}{-1--3}=2$. Then $-6=2(-3)+b$, so $b=0$ and $y = 2x$.",
+    "complexity_factor": 1.18,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "two-points"
+    ],
+    "checksum": "sha256-2b9123f052a958b2618f892714888bd46b96666175d6238189bcc9f2fe09403d",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.medium.0010",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Find the equation of the line with $x$-intercept $(0, 0)$ and $y$-intercept $(0, 0)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = 5x$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = 4x + 1$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = 4x$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -4x$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "y=4x",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slope is $\\frac{0-0}{0-0}=4$ and the $y$-intercept is $0$, so $y = 4x$.",
+    "complexity_factor": 1.18,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "intercepts"
+    ],
+    "checksum": "sha256-b1de031cfb32e350104166c5446393b69941878660889349fc3df553f97c3591",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.medium.0011",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A line parallel to $y = -4x + 5$ passes through $(3, -10)$. What is its equation?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = 4x + 2$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = -4x + 2$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = -4x - 2$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -4x + 3$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "y=-4x+2",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Parallel lines have equal slopes. Use slope $-4$ and point $(3, -10)$: $-10=-4(3)+b$, so $b=2$.",
+    "complexity_factor": 1.2,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "parallel"
+    ],
+    "checksum": "sha256-3a1936c3a8c76bec6c4be5ae4116be1b8f6552ddb10c35cde4a2e662356007fc",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.medium.0012",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Find the equation of the line through $(-5, -7)$ with slope $2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = 2x + 4$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = 2x - 3$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = 2x + 3$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -2x + 3$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "y=2x+3",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Substitute into $y=mx+b$: $-7=2(-5)+b$, so $b=3$ and the equation is $y = 2x + 3$.",
+    "complexity_factor": 1.16,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "point-slope"
+    ],
+    "checksum": "sha256-8cdb5b916e39ce3e20fcd456f3c1e436fbe239017687a3af19f70bba45e65954",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.medium.0013",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Find the equation of the line through $(-2, 12)$ and $(0, 4)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = 4x + 4$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = -4x + 5$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = -4x - 4$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -4x + 4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "y=-4x+4",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slope is $\\frac{4-12}{0--2}=-4$. Then $12=-4(-2)+b$, so $b=4$ and $y = -4x + 4$.",
+    "complexity_factor": 1.18,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "two-points"
+    ],
+    "checksum": "sha256-5af30ea772ccd9ad97219cf24687f8d7dfe75ac523653e7be9441d8afe68544a",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.medium.0014",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Find the equation of the line with $x$-intercept $(-5, 0)$ and $y$-intercept $(0, 5)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = x - 5$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = -x + 5$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = x + 6$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = x + 5$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "y=x+5",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slope is $\\frac{5-0}{0--5}=1$ and the $y$-intercept is $5$, so $y = x + 5$.",
+    "complexity_factor": 1.18,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "intercepts"
+    ],
+    "checksum": "sha256-b7b4f7183cf900ff5abf7a24600b413d8da832b8f19bfdfa3875d3ed067f6959",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.medium.0015",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A line parallel to $y = -x + 9$ passes through $(4, 2)$. What is its equation?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = -x - 6$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = -x + 6$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = x + 6$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -x + 7$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "y=-x+6",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Parallel lines have equal slopes. Use slope $-1$ and point $(4, 2)$: $2=-1(4)+b$, so $b=6$.",
+    "complexity_factor": 1.2,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "parallel"
+    ],
+    "checksum": "sha256-649418c7a0408dfbde0468c5d1b64f9e2eba0161a2d21731b02e6fa0eb5dde8e",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.medium.0016",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Find the equation of the line through $(-4, 15)$ with slope $-2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = -2x + 7$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = 2x + 7$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = -2x - 7$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -2x + 8$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "y=-2x+7",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Substitute into $y=mx+b$: $15=-2(-4)+b$, so $b=7$ and the equation is $y = -2x + 7$.",
+    "complexity_factor": 1.16,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "point-slope"
+    ],
+    "checksum": "sha256-c00014bb9ae157e31c196725a4eea4365e106bd7e2e0985e3bc759d3fe47c00e",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.medium.0017",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Find the equation of the line through $(-1, 12)$ and $(1, 4)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = 4x + 8$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = -4x - 8$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = -4x + 9$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -4x + 8$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "y=-4x+8",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slope is $\\frac{4-12}{1--1}=-4$. Then $12=-4(-1)+b$, so $b=8$ and $y = -4x + 8$.",
+    "complexity_factor": 1.18,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "two-points"
+    ],
+    "checksum": "sha256-090f0bb6ab63e79b9319fcf7ca5c4520f93e6d544ead08a5787b44c1507d9382",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.medium.0018",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Find the equation of the line with $x$-intercept $(-8, 0)$ and $y$-intercept $(0, -8)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = x - 8$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = -x + 8$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = -x - 7$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -x - 8$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "y=-x-8",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slope is $\\frac{-8-0}{0--8}=-1$ and the $y$-intercept is $-8$, so $y = -x - 8$.",
+    "complexity_factor": 1.18,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "intercepts"
+    ],
+    "checksum": "sha256-0ade124839c16e8ab186b413d89ffce6a16fd5010c634bddc0ea2d689c68f503",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.medium.0019",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A line parallel to $y = -3x - 4$ passes through $(5, -22)$. What is its equation?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = 3x - 7$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = -3x - 6$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = -3x - 7$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -3x + 7$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "y=-3x-7",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Parallel lines have equal slopes. Use slope $-3$ and point $(5, -22)$: $-22=-3(5)+b$, so $b=-7$.",
+    "complexity_factor": 1.2,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "parallel"
+    ],
+    "checksum": "sha256-dce58f19360ebcf41ddf0956d312f58449f6b6be34d9d8c1666eae97b46d2cc0",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.medium.0020",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Find the equation of the line through $(-3, 3)$ with slope $-3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = -3x - 5$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = -3x - 6$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = -3x + 6$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = 3x - 6$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "y=-3x-6",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Substitute into $y=mx+b$: $3=-3(-3)+b$, so $b=-6$ and the equation is $y = -3x - 6$.",
+    "complexity_factor": 1.16,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "point-slope"
+    ],
+    "checksum": "sha256-48877e8758668f3e12d3370ad3408b662ffd7077d6a4eb3f51084c9a1c2cfc22",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.medium.0021",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Find the equation of the line through $(0, -5)$ and $(2, 3)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = 4x - 4$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = 4x + 5$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = 4x - 5$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -4x - 5$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "y=4x-5",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slope is $\\frac{3--5}{2-0}=4$. Then $-5=4(0)+b$, so $b=-5$ and $y = 4x - 5$.",
+    "complexity_factor": 1.18,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "two-points"
+    ],
+    "checksum": "sha256-c5d1b548bd73bea135fe1de446cf180c27e3a16026ac6caf7eab3531888d860b",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.medium.0022",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Find the equation of the line with $x$-intercept $(-1, 0)$ and $y$-intercept $(0, -3)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = -3x - 3$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = -3x - 2$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = -3x + 3$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = 3x - 3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "y=-3x-3",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slope is $\\frac{-3-0}{0--1}=-3$ and the $y$-intercept is $-3$, so $y = -3x - 3$.",
+    "complexity_factor": 1.18,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "intercepts"
+    ],
+    "checksum": "sha256-8badb0199b4d798f972c7967c55710be0be940442a17a9fe96401805d379964e",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.medium.0023",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A line parallel to $y = 4x$ passes through $(-5, -23)$. What is its equation?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = 4x - 3$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = -4x - 3$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = 4x + 3$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = 4x - 2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "y=4x-3",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Parallel lines have equal slopes. Use slope $4$ and point $(-5, -23)$: $-23=4(-5)+b$, so $b=-3$.",
+    "complexity_factor": 1.2,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "parallel"
+    ],
+    "checksum": "sha256-17083d70729c829b42a48bdba03ae3d5ba08ea3b020f89d896f575bdefa03904",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.medium.0024",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Find the equation of the line through $(-2, -8)$ with slope $3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = 3x - 2$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = 3x - 1$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = -3x - 2$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = 3x + 2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "y=3x-2",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Substitute into $y=mx+b$: $-8=3(-2)+b$, so $b=-2$ and the equation is $y = 3x - 2$.",
+    "complexity_factor": 1.16,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "point-slope"
+    ],
+    "checksum": "sha256-4babc0c7577f60c47c789e7122ad433ed43f6eeb3479b41fd2dff458b2c7e85a",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.medium.0025",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Find the equation of the line through $(1, -5)$ and $(3, -13)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = 4x - 1$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = -4x - 1$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = -4x + 1$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -4x$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "y=-4x-1",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slope is $\\frac{-13--5}{3-1}=-4$. Then $-5=-4(1)+b$, so $b=-1$ and $y = -4x - 1$.",
+    "complexity_factor": 1.18,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "two-points"
+    ],
+    "checksum": "sha256-f45e5f11dc712222855cd08e3151654f170f49da02103df7892ac90179bbcef8",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.medium.0026",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Find the equation of the line with $x$-intercept $(0, 0)$ and $y$-intercept $(0, 0)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = x + 1$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = x$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = -x$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = 2x$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "y=x",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slope is $\\frac{0-0}{0-0}=1$ and the $y$-intercept is $0$, so $y = x$.",
+    "complexity_factor": 1.18,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "intercepts"
+    ],
+    "checksum": "sha256-6c06ad6c542e2fabf08ee36515da03229d8354273079013ddb93eb4199ed60d1",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.medium.0027",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A line parallel to $y = -x + 4$ passes through $(-4, 5)$. What is its equation?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = x + 1$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = -x - 1$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = -x + 2$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -x + 1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "y=-x+1",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Parallel lines have equal slopes. Use slope $-1$ and point $(-4, 5)$: $5=-1(-4)+b$, so $b=1$.",
+    "complexity_factor": 1.2,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "parallel"
+    ],
+    "checksum": "sha256-da4c41a1aa26f4bc4804b760399c6045991db0de4cac8287c848983dfb4f82d0",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.medium.0028",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Find the equation of the line through $(-1, 6)$ with slope $-4$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = 4x + 2$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = -4x + 2$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = -4x - 2$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -4x + 3$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "y=-4x+2",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Substitute into $y=mx+b$: $6=-4(-1)+b$, so $b=2$ and the equation is $y = -4x + 2$.",
+    "complexity_factor": 1.16,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "point-slope"
+    ],
+    "checksum": "sha256-bb0ae3a866f88c4ac51f16e209e51e4e5df3b63ad56caf9b7c732024df64c187",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.medium.0029",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Find the equation of the line through $(2, 1)$ and $(4, -1)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = x + 3$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = -x + 4$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = -x - 3$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -x + 3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "y=-x+3",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slope is $\\frac{-1-1}{4-2}=-1$. Then $1=-1(2)+b$, so $b=3$ and $y = -x + 3$.",
+    "complexity_factor": 1.18,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "two-points"
+    ],
+    "checksum": "sha256-beb7f5ff284a78b1a924ca7a9aebc5ced079248f3e18eea9967c21c5a488acca",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.medium.0030",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Find the equation of the line with $x$-intercept $(-1, 0)$ and $y$-intercept $(0, 3)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = 3x + 4$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = 3x + 3$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = -3x + 3$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = 3x - 3$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "y=3x+3",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slope is $\\frac{3-0}{0--1}=3$ and the $y$-intercept is $3$, so $y = 3x + 3$.",
+    "complexity_factor": 1.18,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "intercepts"
+    ],
+    "checksum": "sha256-cc574e8b290a479de05d13447d0f7df4c2a2b7cf0b542eccc374da716a2694e2",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.medium.0031",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A line parallel to $y = 4x + 8$ passes through $(-3, -7)$. What is its equation?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = 4x + 6$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = -4x + 5$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = 4x + 5$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = 4x - 5$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "y=4x+5",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Parallel lines have equal slopes. Use slope $4$ and point $(-3, -7)$: $-7=4(-3)+b$, so $b=5$.",
+    "complexity_factor": 1.2,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "parallel"
+    ],
+    "checksum": "sha256-53b61cc3566eaccc15ea64365e5185f8594539c9644a1a47e503b077c3dd54aa",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.medium.0032",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Find the equation of the line through $(0, 6)$ with slope $2$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = 2x + 6$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = -2x + 6$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = 2x - 6$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = 2x + 7$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "y=2x+6",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Substitute into $y=mx+b$: $6=2(0)+b$, so $b=6$ and the equation is $y = 2x + 6$.",
+    "complexity_factor": 1.16,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "point-slope"
+    ],
+    "checksum": "sha256-e98a4f6c274deae0eb6b9560e0d371a5d6312873d2f9658faaff29b60a9f56ca",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.medium.0033",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Find the equation of the line through $(3, 19)$ and $(5, 27)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = -4x + 7$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = 4x + 7$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = 4x + 8$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = 4x - 7$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "y=4x+7",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slope is $\\frac{27-19}{5-3}=4$. Then $19=4(3)+b$, so $b=7$ and $y = 4x + 7$.",
+    "complexity_factor": 1.18,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "two-points"
+    ],
+    "checksum": "sha256-dee7b7cd4bd39beb32501fc74304c67069fdb8aaa0ba50545a33bc9f00113cee",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.medium.0034",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Find the equation of the line with $x$-intercept $(-2, 0)$ and $y$-intercept $(0, 6)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = 3x + 7$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = 3x + 6$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = -3x + 6$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = 3x - 6$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "y=3x+6",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slope is $\\frac{6-0}{0--2}=3$ and the $y$-intercept is $6$, so $y = 3x + 6$.",
+    "complexity_factor": 1.18,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "intercepts"
+    ],
+    "checksum": "sha256-0405e7de91fd838837cef9545b173f4dca751a198f093cbb804a822da71f0ebc",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.medium.0035",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A line parallel to $y = -4x - 5$ passes through $(-2, 0)$. What is its equation?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = -4x - 7$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = -4x - 8$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = 4x - 8$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -4x + 8$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "y=-4x-8",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Parallel lines have equal slopes. Use slope $-4$ and point $(-2, 0)$: $0=-4(-2)+b$, so $b=-8$.",
+    "complexity_factor": 1.2,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "parallel"
+    ],
+    "checksum": "sha256-f21565b7887c167d3c844afb968fac12c297d6a32330fe602d1989a842ed8788",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.medium.0036",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Find the equation of the line through $(1, -3)$ with slope $4$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = 4x + 7$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = -4x - 7$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = 4x - 7$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = 4x - 6$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "y=4x-7",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Substitute into $y=mx+b$: $-3=4(1)+b$, so $b=-7$ and the equation is $y = 4x - 7$.",
+    "complexity_factor": 1.16,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "point-slope"
+    ],
+    "checksum": "sha256-c99e994c047c0eaf657f6f266b1878b36a7bd8b381e15ccb59f2ce907caf0ee5",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.medium.0037",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Find the equation of the line through $(4, 10)$ and $(6, 18)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = 4x - 6$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = 4x - 5$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = -4x - 6$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = 4x + 6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "y=4x-6",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slope is $\\frac{18-10}{6-4}=4$. Then $10=4(4)+b$, so $b=-6$ and $y = 4x - 6$.",
+    "complexity_factor": 1.18,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "two-points"
+    ],
+    "checksum": "sha256-219bb4864182bf5ba58f8de66fbdb5d5bf879caed6087025d5a214016ac2bad1",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.medium.0038",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Find the equation of the line with $x$-intercept $(-1, 0)$ and $y$-intercept $(0, -4)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = -4x - 4$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = 4x - 4$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = -4x + 4$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -4x - 3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "y=-4x-4",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slope is $\\frac{-4-0}{0--1}=-4$ and the $y$-intercept is $-4$, so $y = -4x - 4$.",
+    "complexity_factor": 1.18,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "intercepts"
+    ],
+    "checksum": "sha256-bf7ba5c49733563c5b84f70bf5be2ef0659ad2a4efbb794607813a7145387e69",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.medium.0039",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A line parallel to $y = -3x - 1$ passes through $(-1, -1)$. What is its equation?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = 3x - 4$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = -3x - 3$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = -3x + 4$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -3x - 4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "y=-3x-4",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Parallel lines have equal slopes. Use slope $-3$ and point $(-1, -1)$: $-1=-3(-1)+b$, so $b=-4$.",
+    "complexity_factor": 1.2,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "parallel"
+    ],
+    "checksum": "sha256-52d6e97bc924e8a1302ea0fcc2a32218e3a039cbd24ee927d7da108acfd7f625",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.medium.0040",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Find the equation of the line through $(2, -5)$ with slope $-1$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = -x + 3$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = -x - 2$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = x - 3$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -x - 3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "y=-x-3",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Substitute into $y=mx+b$: $-5=-1(2)+b$, so $b=-3$ and the equation is $y = -x - 3$.",
+    "complexity_factor": 1.16,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "point-slope"
+    ],
+    "checksum": "sha256-70ff42b7bd6af4b25ea2e435b51b6ee90bd28b42824f800120ab2370717950b4",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.medium.0041",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Find the equation of the line through $(5, 13)$ and $(7, 19)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = 3x + 2$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = 3x - 2$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = -3x - 2$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = 3x - 1$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "y=3x-2",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slope is $\\frac{19-13}{7-5}=3$. Then $13=3(5)+b$, so $b=-2$ and $y = 3x - 2$.",
+    "complexity_factor": 1.18,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "two-points"
+    ],
+    "checksum": "sha256-a5f1f07e3abe699652b1763070bd0e9c1cba79b98311e9ce64610bf14eb79603",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.medium.0042",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Find the equation of the line with $x$-intercept $(1, 0)$ and $y$-intercept $(0, -1)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = x - 1$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = x + 1$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = x$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -x - 1$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "y=x-1",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slope is $\\frac{-1-0}{0-1}=1$ and the $y$-intercept is $-1$, so $y = x - 1$.",
+    "complexity_factor": 1.18,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "intercepts"
+    ],
+    "checksum": "sha256-c0237fa95633411dcd88c976da4369d218eac84834a2b55ca94c8acd3ea46045",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.medium.0043",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A line parallel to $y = -2x + 3$ passes through $(0, 0)$. What is its equation?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = -x$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = -2x$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = -2x + 1$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = 2x$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "y=-2x",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Parallel lines have equal slopes. Use slope $-2$ and point $(0, 0)$: $0=-2(0)+b$, so $b=0$.",
+    "complexity_factor": 1.2,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "parallel"
+    ],
+    "checksum": "sha256-ff64123b971a257a8470af2ebd5a0d0ca87670ae7ee49a863f8143b8a626041b",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.medium.0044",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Find the equation of the line through $(3, -2)$ with slope $-1$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = -x + 2$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = -x + 1$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = x + 1$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -x - 1$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "y=-x+1",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Substitute into $y=mx+b$: $-2=-1(3)+b$, so $b=1$ and the equation is $y = -x + 1$.",
+    "complexity_factor": 1.16,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "point-slope"
+    ],
+    "checksum": "sha256-ae62d6de173d4e5072d283e6b7e446a1b6428d346107b92c81ad35b584a91c79",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.medium.0045",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Find the equation of the line through $(-5, 12)$ and $(-3, 8)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = -2x + 2$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = 2x + 2$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = -2x + 3$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -2x - 2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "y=-2x+2",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slope is $\\frac{8-12}{-3--5}=-2$. Then $12=-2(-5)+b$, so $b=2$ and $y = -2x + 2$.",
+    "complexity_factor": 1.18,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "two-points"
+    ],
+    "checksum": "sha256-24618c343de3adaf67678ab2a6f59a6d2e80fc7fb4c1e10c412ee68984b3f561",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.medium.0046",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Find the equation of the line with $x$-intercept $(1, 0)$ and $y$-intercept $(0, 2)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = -2x + 2$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = -2x + 3$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = 2x + 2$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -2x - 2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "y=-2x+2",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slope is $\\frac{2-0}{0-1}=-2$ and the $y$-intercept is $2$, so $y = -2x + 2$.",
+    "complexity_factor": 1.18,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "intercepts"
+    ],
+    "checksum": "sha256-8a529a96201f0c7581089f91fb44d21f0c1a42342189810a200bbf20197e72df",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.medium.0047",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "A line parallel to $y = -2x + 7$ passes through $(1, 2)$. What is its equation?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = -2x + 5$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = 2x + 4$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = -2x - 4$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -2x + 4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "y=-2x+4",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Parallel lines have equal slopes. Use slope $-2$ and point $(1, 2)$: $2=-2(1)+b$, so $b=4$.",
+    "complexity_factor": 1.2,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "parallel"
+    ],
+    "checksum": "sha256-64ef3067cb23affcb4e9a20ea55f0fa9e03fbddff67141fca01bca824ec7737b",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.medium.0048",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Find the equation of the line through $(4, -7)$ with slope $-3$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = -3x + 5$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = -3x - 5$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = 3x + 5$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -3x + 6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "y=-3x+5",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Substitute into $y=mx+b$: $-7=-3(4)+b$, so $b=5$ and the equation is $y = -3x + 5$.",
+    "complexity_factor": 1.16,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "point-slope"
+    ],
+    "checksum": "sha256-0077ce00f0c35325a1b5f53dcd3c6c265a57b10a09571a4439f25fb05cd2c0a2",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.medium.0049",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Find the equation of the line through $(-4, -6)$ and $(-2, 0)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = 3x + 6$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = 3x - 6$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = 3x + 7$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -3x + 6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "y=3x+6",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slope is $\\frac{0--6}{-2--4}=3$. Then $-6=3(-4)+b$, so $b=6$ and $y = 3x + 6$.",
+    "complexity_factor": 1.18,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "two-points"
+    ],
+    "checksum": "sha256-9b245ebeac0d0b1e0bdfde4631acc02feb660e3677ae15d03533cf7f8175faf9",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.find_equation.medium.0050",
+    "topic_id": "ch8.find_equation",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Find the equation of the line with $x$-intercept $(-3, 0)$ and $y$-intercept $(0, 6)$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$y = 2x + 7$"
+      },
+      {
+        "id": "b",
+        "latex": "$y = 2x - 6$"
+      },
+      {
+        "id": "c",
+        "latex": "$y = 2x + 6$"
+      },
+      {
+        "id": "d",
+        "latex": "$y = -2x + 6$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "y=2x+6",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slope is $\\frac{6-0}{0--3}=2$ and the $y$-intercept is $6$, so $y = 2x + 6$.",
+    "complexity_factor": 1.18,
+    "source_section": "8.4",
+    "tags": [
+      "linear-equations",
+      "intercepts"
+    ],
+    "checksum": "sha256-707fbdc6b5d2682b00cedc0ccd87570aa3a16b3d5bdc0ba31618b0b81ade24bc",
+    "status": "valid"
+  }
+]

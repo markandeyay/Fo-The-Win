@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "ch21.arithmetic_series.hard.0001",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "The sum of the first $n$ terms of an arithmetic sequence with first term $2$ and common difference $3$ is $100$. Find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $100=\\frac{n}{2}(2\\cdot 2+(n-1)3)$. The positive integer solution is $n=8$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "number-of-terms"
+    ],
+    "checksum": "sha256-56f48102171c719f9c4d8dcd7ddc060da274bfd4642b2fa4669f2287187c85e6",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.hard.0002",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "The sum of the first $n$ terms of an arithmetic sequence with first term $3$ and common difference $5$ is $207$. Find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $207=\\frac{n}{2}(2\\cdot 3+(n-1)5)$. The positive integer solution is $n=9$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "number-of-terms"
+    ],
+    "checksum": "sha256-e345adf5cdb817393ada76c5f7d649f1ae7b116443fecd91d6389e9580d9c09e",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.hard.0003",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "The sum of the first $n$ terms of an arithmetic sequence with first term $4$ and common difference $2$ is $130$. Find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $130=\\frac{n}{2}(2\\cdot 4+(n-1)2)$. The positive integer solution is $n=10$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "number-of-terms"
+    ],
+    "checksum": "sha256-27472fe620f6c68ee5e475b77f0c655c4b634e4aafdf7f2e43711d3114cc9a03",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.hard.0004",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "The sum of the first $n$ terms of an arithmetic sequence with first term $5$ and common difference $4$ is $275$. Find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$11$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "11",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $275=\\frac{n}{2}(2\\cdot 5+(n-1)4)$. The positive integer solution is $n=11$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "number-of-terms"
+    ],
+    "checksum": "sha256-5aa4aa2de5be9e3c6c64c8b90a8eecbd080c8459021b0ecd075f2d8dbb9b27f3",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.hard.0005",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "The sum of the first $n$ terms of an arithmetic sequence with first term $6$ and common difference $6$ is $468$. Find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$13$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$11$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $468=\\frac{n}{2}(2\\cdot 6+(n-1)6)$. The positive integer solution is $n=12$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "number-of-terms"
+    ],
+    "checksum": "sha256-a648bd09609258213636a38c466014943d7fc0e693c82819db1d09ab97c7b5b0",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.hard.0006",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "The sum of the first $n$ terms of an arithmetic sequence with first term $7$ and common difference $3$ is $325$. Find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12$"
+      },
+      {
+        "id": "b",
+        "latex": "$14$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$13$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "13",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $325=\\frac{n}{2}(2\\cdot 7+(n-1)3)$. The positive integer solution is $n=13$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "number-of-terms"
+    ],
+    "checksum": "sha256-22327d36cbb676733adc8053a797d04412d804215b3c0069ae3e6bf2dd3279e0",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.hard.0007",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "The sum of the first $n$ terms of an arithmetic sequence with first term $8$ and common difference $5$ is $567$. Find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$14$"
+      },
+      {
+        "id": "b",
+        "latex": "$13$"
+      },
+      {
+        "id": "c",
+        "latex": "$15$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "14",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $567=\\frac{n}{2}(2\\cdot 8+(n-1)5)$. The positive integer solution is $n=14$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "number-of-terms"
+    ],
+    "checksum": "sha256-07735b2970e044f704b5b6ab9e8502c5d03641705e5ee69f43739b9b42c04a63",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.hard.0008",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "The sum of the first $n$ terms of an arithmetic sequence with first term $2$ and common difference $2$ is $240$. Find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$13$"
+      },
+      {
+        "id": "b",
+        "latex": "$15$"
+      },
+      {
+        "id": "c",
+        "latex": "$14$"
+      },
+      {
+        "id": "d",
+        "latex": "$16$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "15",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $240=\\frac{n}{2}(2\\cdot 2+(n-1)2)$. The positive integer solution is $n=15$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "number-of-terms"
+    ],
+    "checksum": "sha256-971c173505151f5e1ca84f50407aff4f13c641ef8979aaf757ae985396744889",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.hard.0009",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "The sum of the first $n$ terms of an arithmetic sequence with first term $3$ and common difference $4$ is $528$. Find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$17$"
+      },
+      {
+        "id": "b",
+        "latex": "$14$"
+      },
+      {
+        "id": "c",
+        "latex": "$16$"
+      },
+      {
+        "id": "d",
+        "latex": "$15$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "16",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $528=\\frac{n}{2}(2\\cdot 3+(n-1)4)$. The positive integer solution is $n=16$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "number-of-terms"
+    ],
+    "checksum": "sha256-5b2ade17084b5d218837e104ceb30fe977ba26ab043ab9cd937ffa30dba02b6e",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.hard.0010",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "The sum of the first $n$ terms of an arithmetic sequence with first term $4$ and common difference $6$ is $884$. Find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$18$"
+      },
+      {
+        "id": "c",
+        "latex": "$15$"
+      },
+      {
+        "id": "d",
+        "latex": "$17$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "17",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $884=\\frac{n}{2}(2\\cdot 4+(n-1)6)$. The positive integer solution is $n=17$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "number-of-terms"
+    ],
+    "checksum": "sha256-d0381673566c7a5dd63005a3844ed5e0f869849117f69082862ca556878bf257",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.hard.0011",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "The sum of the first $n$ terms of an arithmetic sequence with first term $5$ and common difference $3$ is $549$. Find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$18$"
+      },
+      {
+        "id": "b",
+        "latex": "$17$"
+      },
+      {
+        "id": "c",
+        "latex": "$19$"
+      },
+      {
+        "id": "d",
+        "latex": "$16$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "18",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $549=\\frac{n}{2}(2\\cdot 5+(n-1)3)$. The positive integer solution is $n=18$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "number-of-terms"
+    ],
+    "checksum": "sha256-9a6a8bbf75a0c85bb37b4ac813bca1384f8a905fcb238984d7df4422890f7506",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.hard.0012",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "The sum of the first $n$ terms of an arithmetic sequence with first term $6$ and common difference $5$ is $969$. Find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$17$"
+      },
+      {
+        "id": "b",
+        "latex": "$19$"
+      },
+      {
+        "id": "c",
+        "latex": "$18$"
+      },
+      {
+        "id": "d",
+        "latex": "$20$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "19",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $969=\\frac{n}{2}(2\\cdot 6+(n-1)5)$. The positive integer solution is $n=19$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "number-of-terms"
+    ],
+    "checksum": "sha256-018d04cb32b30ff528f7a6327b20fe8c55a09bc2dc976ccfe617525ca0408241",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.hard.0013",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "The sum of the first $n$ terms of an arithmetic sequence with first term $7$ and common difference $2$ is $112$. Find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $112=\\frac{n}{2}(2\\cdot 7+(n-1)2)$. The positive integer solution is $n=8$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "number-of-terms"
+    ],
+    "checksum": "sha256-9374835e08f373d5e7326511ea179421106324b59266528ac20be75acb7cca3a",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.hard.0014",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "The sum of the first $n$ terms of an arithmetic sequence with first term $8$ and common difference $4$ is $216$. Find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $216=\\frac{n}{2}(2\\cdot 8+(n-1)4)$. The positive integer solution is $n=9$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "number-of-terms"
+    ],
+    "checksum": "sha256-ad859ca86a7dea0db4db53721ba82707141bad503bffe455427d8871cdf274e0",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.hard.0015",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "The sum of the first $n$ terms of an arithmetic sequence with first term $2$ and common difference $6$ is $290$. Find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $290=\\frac{n}{2}(2\\cdot 2+(n-1)6)$. The positive integer solution is $n=10$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "number-of-terms"
+    ],
+    "checksum": "sha256-b5df6e539b6f84aba44c8c08c654abc79b44eb9f7de1a77244f502a57f522ace",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.hard.0016",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "The sum of the first $n$ terms of an arithmetic sequence with first term $3$ and common difference $3$ is $198$. Find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$11$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "11",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $198=\\frac{n}{2}(2\\cdot 3+(n-1)3)$. The positive integer solution is $n=11$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "number-of-terms"
+    ],
+    "checksum": "sha256-b6077da680c0310211a29697a18039ac38e60abb279d377035adfa206969abe8",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.hard.0017",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "The sum of the first $n$ terms of an arithmetic sequence with first term $4$ and common difference $5$ is $378$. Find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$13$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$11$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $378=\\frac{n}{2}(2\\cdot 4+(n-1)5)$. The positive integer solution is $n=12$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "number-of-terms"
+    ],
+    "checksum": "sha256-26b036fce758d0ee41b912b127e7e0ba4ed1cd8b5b0aba8106de26db5a978091",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.hard.0018",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "The sum of the first $n$ terms of an arithmetic sequence with first term $5$ and common difference $2$ is $221$. Find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12$"
+      },
+      {
+        "id": "b",
+        "latex": "$14$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$13$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "13",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $221=\\frac{n}{2}(2\\cdot 5+(n-1)2)$. The positive integer solution is $n=13$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "number-of-terms"
+    ],
+    "checksum": "sha256-d412d50bbe1f9d0d22e29e7113ba6fe5f932474c9fd038278eecedf6c6a8a23d",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.hard.0019",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "The sum of the first $n$ terms of an arithmetic sequence with first term $6$ and common difference $4$ is $448$. Find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$14$"
+      },
+      {
+        "id": "b",
+        "latex": "$13$"
+      },
+      {
+        "id": "c",
+        "latex": "$15$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "14",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $448=\\frac{n}{2}(2\\cdot 6+(n-1)4)$. The positive integer solution is $n=14$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "number-of-terms"
+    ],
+    "checksum": "sha256-8f64596e1dda92fe78198a6b10fcf31344f1dfdfacd9cfb5cf76cf91808fbe54",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.hard.0020",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "The sum of the first $n$ terms of an arithmetic sequence with first term $7$ and common difference $6$ is $735$. Find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$13$"
+      },
+      {
+        "id": "b",
+        "latex": "$15$"
+      },
+      {
+        "id": "c",
+        "latex": "$14$"
+      },
+      {
+        "id": "d",
+        "latex": "$16$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "15",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $735=\\frac{n}{2}(2\\cdot 7+(n-1)6)$. The positive integer solution is $n=15$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "number-of-terms"
+    ],
+    "checksum": "sha256-d8244951a13de433ff128de337a1648888365ff70cd474006ce3133fb499555f",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.hard.0021",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "The sum of the first $n$ terms of an arithmetic sequence with first term $8$ and common difference $3$ is $488$. Find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$17$"
+      },
+      {
+        "id": "b",
+        "latex": "$14$"
+      },
+      {
+        "id": "c",
+        "latex": "$16$"
+      },
+      {
+        "id": "d",
+        "latex": "$15$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "16",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $488=\\frac{n}{2}(2\\cdot 8+(n-1)3)$. The positive integer solution is $n=16$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "number-of-terms"
+    ],
+    "checksum": "sha256-8203163651775c633afc988d3c901201586ba8aa3c78367038b66135cb6f45a4",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.hard.0022",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "The sum of the first $n$ terms of an arithmetic sequence with first term $2$ and common difference $5$ is $714$. Find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$18$"
+      },
+      {
+        "id": "c",
+        "latex": "$15$"
+      },
+      {
+        "id": "d",
+        "latex": "$17$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "17",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $714=\\frac{n}{2}(2\\cdot 2+(n-1)5)$. The positive integer solution is $n=17$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "number-of-terms"
+    ],
+    "checksum": "sha256-75095f180fe70a0ccc8fedcf89a7217259c514937ea3aa6ba4dac48dcdf26e15",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.hard.0023",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "The sum of the first $n$ terms of an arithmetic sequence with first term $3$ and common difference $2$ is $360$. Find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$18$"
+      },
+      {
+        "id": "b",
+        "latex": "$17$"
+      },
+      {
+        "id": "c",
+        "latex": "$19$"
+      },
+      {
+        "id": "d",
+        "latex": "$16$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "18",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $360=\\frac{n}{2}(2\\cdot 3+(n-1)2)$. The positive integer solution is $n=18$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "number-of-terms"
+    ],
+    "checksum": "sha256-1ebac72705af3e42e008e3627c740907061487ebe1e5d9d4aa9af92e35c276c5",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.hard.0024",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "The sum of the first $n$ terms of an arithmetic sequence with first term $4$ and common difference $4$ is $760$. Find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$17$"
+      },
+      {
+        "id": "b",
+        "latex": "$19$"
+      },
+      {
+        "id": "c",
+        "latex": "$18$"
+      },
+      {
+        "id": "d",
+        "latex": "$20$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "19",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $760=\\frac{n}{2}(2\\cdot 4+(n-1)4)$. The positive integer solution is $n=19$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "number-of-terms"
+    ],
+    "checksum": "sha256-e6ea044ea647caa9e9c347998a2f86aff3ce7e59cf893ec92df1168a35788f51",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.hard.0025",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "The sum of the first $n$ terms of an arithmetic sequence with first term $5$ and common difference $6$ is $208$. Find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $208=\\frac{n}{2}(2\\cdot 5+(n-1)6)$. The positive integer solution is $n=8$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "number-of-terms"
+    ],
+    "checksum": "sha256-31dad5dfb766a7ab3913eb2afb85d2e987bd0fc479d614fce23052d8a04ab440",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.hard.0026",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "The sum of the first $n$ terms of an arithmetic sequence with first term $6$ and common difference $3$ is $162$. Find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $162=\\frac{n}{2}(2\\cdot 6+(n-1)3)$. The positive integer solution is $n=9$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "number-of-terms"
+    ],
+    "checksum": "sha256-0898aca38b38a42eee6e48cfacb1f7fbf0040168b0305fbcfd073b9d5a3a0323",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.hard.0027",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "The sum of the first $n$ terms of an arithmetic sequence with first term $7$ and common difference $5$ is $295$. Find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $295=\\frac{n}{2}(2\\cdot 7+(n-1)5)$. The positive integer solution is $n=10$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "number-of-terms"
+    ],
+    "checksum": "sha256-0ed5334bf8ae540d1e05309a71fcbdcd8c90a0c53b7310a9ea1672dd0b031bf2",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.hard.0028",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "The sum of the first $n$ terms of an arithmetic sequence with first term $8$ and common difference $2$ is $198$. Find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$11$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "11",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $198=\\frac{n}{2}(2\\cdot 8+(n-1)2)$. The positive integer solution is $n=11$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "number-of-terms"
+    ],
+    "checksum": "sha256-435cf3d50bb66b4edb1098732b4facb3f9c4f4aaca46fd8a1285adb9b9866b1c",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.hard.0029",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "The sum of the first $n$ terms of an arithmetic sequence with first term $2$ and common difference $4$ is $288$. Find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$13$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$11$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $288=\\frac{n}{2}(2\\cdot 2+(n-1)4)$. The positive integer solution is $n=12$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "number-of-terms"
+    ],
+    "checksum": "sha256-3949f39386fccbe8980132423ff452e0419dcf1f4c9a81f0645c99ddf6d7027f",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.hard.0030",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "The sum of the first $n$ terms of an arithmetic sequence with first term $3$ and common difference $6$ is $507$. Find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12$"
+      },
+      {
+        "id": "b",
+        "latex": "$14$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$13$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "13",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $507=\\frac{n}{2}(2\\cdot 3+(n-1)6)$. The positive integer solution is $n=13$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "number-of-terms"
+    ],
+    "checksum": "sha256-7333ea252981519013d5e2e2ae763dc1829976faba326fc6f08e0b0536787cc7",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.hard.0031",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "The sum of the first $n$ terms of an arithmetic sequence with first term $4$ and common difference $3$ is $329$. Find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$14$"
+      },
+      {
+        "id": "b",
+        "latex": "$13$"
+      },
+      {
+        "id": "c",
+        "latex": "$15$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "14",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $329=\\frac{n}{2}(2\\cdot 4+(n-1)3)$. The positive integer solution is $n=14$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "number-of-terms"
+    ],
+    "checksum": "sha256-6ce733fd513057d4c8e7233981cfc40cd34261ae3279c3e94b01bff249c7b6d1",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.hard.0032",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "The sum of the first $n$ terms of an arithmetic sequence with first term $5$ and common difference $5$ is $600$. Find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$13$"
+      },
+      {
+        "id": "b",
+        "latex": "$15$"
+      },
+      {
+        "id": "c",
+        "latex": "$14$"
+      },
+      {
+        "id": "d",
+        "latex": "$16$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "15",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $600=\\frac{n}{2}(2\\cdot 5+(n-1)5)$. The positive integer solution is $n=15$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "number-of-terms"
+    ],
+    "checksum": "sha256-ff1facdb14d2a48c98e286462e0a2e89b27f4af665658bb1d154438f54c8402b",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.hard.0033",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "The sum of the first $n$ terms of an arithmetic sequence with first term $6$ and common difference $2$ is $336$. Find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$17$"
+      },
+      {
+        "id": "b",
+        "latex": "$14$"
+      },
+      {
+        "id": "c",
+        "latex": "$16$"
+      },
+      {
+        "id": "d",
+        "latex": "$15$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "16",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $336=\\frac{n}{2}(2\\cdot 6+(n-1)2)$. The positive integer solution is $n=16$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "number-of-terms"
+    ],
+    "checksum": "sha256-e242ce488447be09bb84739dfe4988a474d11c5d16f72c214b048a6ce1e0a31c",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.hard.0034",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "The sum of the first $n$ terms of an arithmetic sequence with first term $7$ and common difference $4$ is $663$. Find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$18$"
+      },
+      {
+        "id": "c",
+        "latex": "$15$"
+      },
+      {
+        "id": "d",
+        "latex": "$17$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "17",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $663=\\frac{n}{2}(2\\cdot 7+(n-1)4)$. The positive integer solution is $n=17$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "number-of-terms"
+    ],
+    "checksum": "sha256-d007948f459223102a05da654063ba80bcdc5579d144d2289d26af6d096d293e",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.hard.0035",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "The sum of the first $n$ terms of an arithmetic sequence with first term $8$ and common difference $6$ is $1062$. Find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$18$"
+      },
+      {
+        "id": "b",
+        "latex": "$17$"
+      },
+      {
+        "id": "c",
+        "latex": "$19$"
+      },
+      {
+        "id": "d",
+        "latex": "$16$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "18",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $1062=\\frac{n}{2}(2\\cdot 8+(n-1)6)$. The positive integer solution is $n=18$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "number-of-terms"
+    ],
+    "checksum": "sha256-7a45d1691d12b0e5a3e0435fdaffa13f01306d80414351cd97a35dd4297fee7e",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.hard.0036",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "The sum of the first $n$ terms of an arithmetic sequence with first term $2$ and common difference $3$ is $551$. Find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$17$"
+      },
+      {
+        "id": "b",
+        "latex": "$19$"
+      },
+      {
+        "id": "c",
+        "latex": "$18$"
+      },
+      {
+        "id": "d",
+        "latex": "$20$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "19",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $551=\\frac{n}{2}(2\\cdot 2+(n-1)3)$. The positive integer solution is $n=19$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "number-of-terms"
+    ],
+    "checksum": "sha256-ed2622342e6edb6c569b1d38a383ff1b95473f48687a98254f18ece638547afa",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.hard.0037",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "The sum of the first $n$ terms of an arithmetic sequence with first term $3$ and common difference $5$ is $164$. Find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $164=\\frac{n}{2}(2\\cdot 3+(n-1)5)$. The positive integer solution is $n=8$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "number-of-terms"
+    ],
+    "checksum": "sha256-4e7caf1c5750f954459517a6bb4b2ae1d4e8c12a774b4bc31601715be46b5182",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.hard.0038",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "The sum of the first $n$ terms of an arithmetic sequence with first term $4$ and common difference $2$ is $108$. Find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $108=\\frac{n}{2}(2\\cdot 4+(n-1)2)$. The positive integer solution is $n=9$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "number-of-terms"
+    ],
+    "checksum": "sha256-ddc21b6dcb38000d9dd4cf956b0e2449cddb665aff860e21d07d41a77a7e463d",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.hard.0039",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "The sum of the first $n$ terms of an arithmetic sequence with first term $5$ and common difference $4$ is $230$. Find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $230=\\frac{n}{2}(2\\cdot 5+(n-1)4)$. The positive integer solution is $n=10$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "number-of-terms"
+    ],
+    "checksum": "sha256-a42b31e1047f887e7d543445db7d1f277da3086424d936b75fc95818dd9ddf0b",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.hard.0040",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "The sum of the first $n$ terms of an arithmetic sequence with first term $6$ and common difference $6$ is $396$. Find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$11$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "11",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $396=\\frac{n}{2}(2\\cdot 6+(n-1)6)$. The positive integer solution is $n=11$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "number-of-terms"
+    ],
+    "checksum": "sha256-7f0ae6ecb8e976e84ecfb10373cbe6ea93055ff9a74ab4d8bfe8d431bf02ea43",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.hard.0041",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "The sum of the first $n$ terms of an arithmetic sequence with first term $7$ and common difference $3$ is $282$. Find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$13$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$11$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $282=\\frac{n}{2}(2\\cdot 7+(n-1)3)$. The positive integer solution is $n=12$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "number-of-terms"
+    ],
+    "checksum": "sha256-32f4addb7c9553e877bb0b4e80df2331020237179bcd5d629b12fb17029469ac",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.hard.0042",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "The sum of the first $n$ terms of an arithmetic sequence with first term $8$ and common difference $5$ is $494$. Find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12$"
+      },
+      {
+        "id": "b",
+        "latex": "$14$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$13$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "13",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $494=\\frac{n}{2}(2\\cdot 8+(n-1)5)$. The positive integer solution is $n=13$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "number-of-terms"
+    ],
+    "checksum": "sha256-c7c470e9bf906b40bd3eb1d60b04fc0f8c30a541013fe17311e8b6ae30aee459",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.hard.0043",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "The sum of the first $n$ terms of an arithmetic sequence with first term $2$ and common difference $2$ is $210$. Find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$14$"
+      },
+      {
+        "id": "b",
+        "latex": "$13$"
+      },
+      {
+        "id": "c",
+        "latex": "$15$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "14",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $210=\\frac{n}{2}(2\\cdot 2+(n-1)2)$. The positive integer solution is $n=14$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "number-of-terms"
+    ],
+    "checksum": "sha256-4b228ad9ef152ce5c25fe1a2c398be9c51a3bd7936453c64302ccf860d645438",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.hard.0044",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "The sum of the first $n$ terms of an arithmetic sequence with first term $3$ and common difference $4$ is $465$. Find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$13$"
+      },
+      {
+        "id": "b",
+        "latex": "$15$"
+      },
+      {
+        "id": "c",
+        "latex": "$14$"
+      },
+      {
+        "id": "d",
+        "latex": "$16$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "15",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $465=\\frac{n}{2}(2\\cdot 3+(n-1)4)$. The positive integer solution is $n=15$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "number-of-terms"
+    ],
+    "checksum": "sha256-b97e0a25ad4de326d65922f747474b039959227f638d5c3e5a628c70ddd93aa6",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.hard.0045",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "The sum of the first $n$ terms of an arithmetic sequence with first term $4$ and common difference $6$ is $784$. Find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$17$"
+      },
+      {
+        "id": "b",
+        "latex": "$14$"
+      },
+      {
+        "id": "c",
+        "latex": "$16$"
+      },
+      {
+        "id": "d",
+        "latex": "$15$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "16",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $784=\\frac{n}{2}(2\\cdot 4+(n-1)6)$. The positive integer solution is $n=16$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "number-of-terms"
+    ],
+    "checksum": "sha256-cc5208151ce8cd9b3a3480c94cddd3dfe95667ba1b10573a8dd2907edee4e8c1",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.hard.0046",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "The sum of the first $n$ terms of an arithmetic sequence with first term $5$ and common difference $3$ is $493$. Find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$18$"
+      },
+      {
+        "id": "c",
+        "latex": "$15$"
+      },
+      {
+        "id": "d",
+        "latex": "$17$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "17",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $493=\\frac{n}{2}(2\\cdot 5+(n-1)3)$. The positive integer solution is $n=17$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "number-of-terms"
+    ],
+    "checksum": "sha256-4db560d69110a8ba0c60efb1d001e864758e19626bb1ca684186df325a19d9c9",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.hard.0047",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "The sum of the first $n$ terms of an arithmetic sequence with first term $6$ and common difference $5$ is $873$. Find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$18$"
+      },
+      {
+        "id": "b",
+        "latex": "$17$"
+      },
+      {
+        "id": "c",
+        "latex": "$19$"
+      },
+      {
+        "id": "d",
+        "latex": "$16$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "18",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $873=\\frac{n}{2}(2\\cdot 6+(n-1)5)$. The positive integer solution is $n=18$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "number-of-terms"
+    ],
+    "checksum": "sha256-a7839deb34830607bcca0a37f017cd856c60ca65eb0f2f4c356f9e2dc8d48397",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.hard.0048",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "The sum of the first $n$ terms of an arithmetic sequence with first term $7$ and common difference $2$ is $475$. Find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$17$"
+      },
+      {
+        "id": "b",
+        "latex": "$19$"
+      },
+      {
+        "id": "c",
+        "latex": "$18$"
+      },
+      {
+        "id": "d",
+        "latex": "$20$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "19",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $475=\\frac{n}{2}(2\\cdot 7+(n-1)2)$. The positive integer solution is $n=19$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "number-of-terms"
+    ],
+    "checksum": "sha256-fc876ff3810a067bed93c420b8f9c0ada421ef0d76ecd94cfb783272d9533d40",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.hard.0049",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "The sum of the first $n$ terms of an arithmetic sequence with first term $8$ and common difference $4$ is $176$. Find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $176=\\frac{n}{2}(2\\cdot 8+(n-1)4)$. The positive integer solution is $n=8$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "number-of-terms"
+    ],
+    "checksum": "sha256-b6e945b051ac16f3e315d63acd099a1118555ae5086d2890170d85579d1cc664",
+    "status": "valid"
+  },
+  {
+    "id": "ch21.arithmetic_series.hard.0050",
+    "topic_id": "ch21.arithmetic_series",
+    "group_id": "ch21_sequences_series",
+    "difficulty": "hard",
+    "prompt_latex": "The sum of the first $n$ terms of an arithmetic sequence with first term $2$ and common difference $6$ is $234$. Find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Set $234=\\frac{n}{2}(2\\cdot 2+(n-1)6)$. The positive integer solution is $n=9$.",
+    "complexity_factor": 1.45,
+    "source_section": "21.2",
+    "tags": [
+      "arithmetic-series",
+      "number-of-terms"
+    ],
+    "checksum": "sha256-b8761dfa9e34f590301c228af060eb2cad250d2c15bfa8886543bc288b3118cd",
+    "status": "valid"
+  }
+]

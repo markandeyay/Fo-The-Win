@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "ch5.more_variables.medium.0001",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 2x + 2y + 2z = -4 \\\\ 3x + 2y + 2z = -2 \\\\ 2x + 3y + 2z = -6 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3,-2,-2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2,-2,-1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2,-1,-2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,-2,-2)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(2,-2,-2)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Eliminate one variable using two pairs of equations, solve the resulting 2-variable system, then back-substitute to get $(x,y,z) = (2,-2,-2)$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-e9bb78a430e4af4893d419f89a63451b144b389036999a10fc50b6ed8ef44797",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.medium.0002",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 2x + 1y + 3z = -8 \\\\ 3x + 1y + 3z = -9 \\\\ 3x + 2y + 2z = -11 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0,-3,-1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1,-2,-1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,-3,-1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,-3,0)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-1,-3,-1)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Eliminate one variable using two pairs of equations, solve the resulting 2-variable system, then back-substitute to get $(x,y,z) = (-1,-3,-1)$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-63ff2ca3092704b660ceb45bc2a6a6a6c806dd793eb4cf5c474ae5703ad398ff",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.medium.0003",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 3y = -9 \\\\ x + z = -3 \\\\ y - z = 0 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0,-3,-3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,-2,-3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0,-3,-2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1,-3,-3)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(0,-3,-3)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From the last two equations, express $z$ in terms of $x$ and $y$, substitute into the first, and solve.",
+    "complexity_factor": 1.2,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-05933b49099287cdfa35ca96686e00bb5dd0f2048c1ccb645d05d1bb393a7d2d",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.medium.0004",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} x + y = 12 \\\\ y + z = 12 \\\\ x + z = 12 \\end{cases}$ for $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$18$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add all three equations: $2(x + y + z) = 36$, so $x + y + z = 18$ and $x = 6$.",
+    "complexity_factor": 1.2,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "sum_pattern"
+    ],
+    "checksum": "sha256-528cd618512f75af30803691d79f85a01de658841d4de389c9f63fe6f118c8e8",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.medium.0005",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 1x + 1y + 1z = -3 \\\\ 3x + 1y + 3z = -11 \\\\ 3x + 1y + 2z = -8 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,2,-3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,1,-3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,1,-3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,1,-2)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-1,1,-3)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Eliminate one variable using two pairs of equations, solve the resulting 2-variable system, then back-substitute to get $(x,y,z) = (-1,1,-3)$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-c7e350c7ad122fab4e1597867580c6db190f075aef2c9eadbe5ba060c38fd184",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.medium.0006",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 1y + 1z = -4 \\\\ 3x + 3y + 1z = 0 \\\\ 1x + 3y + 2z = 4 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2,2,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1,2,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2,2,1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2,3,0)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-2,2,0)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Eliminate one variable using two pairs of equations, solve the resulting 2-variable system, then back-substitute to get $(x,y,z) = (-2,2,0)$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-c661da2add2c7c5878ffed59b915442c90e15fae6c9493b9e704d01687dcae61",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.medium.0007",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 3y = 18 \\\\ x + z = 0 \\\\ y - z = 6 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3,3,-3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(4,3,-3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3,4,-3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3,3,-2)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(3,3,-3)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From the last two equations, express $z$ in terms of $x$ and $y$, substitute into the first, and solve.",
+    "complexity_factor": 1.2,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-7c3f438db8a929299c13d98b94a07cb250669d12e0dc458f6a84aa7c055e8a7d",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.medium.0008",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} x + y = 10 \\\\ y + z = 10 \\\\ x + z = 10 \\end{cases}$ for $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$15$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add all three equations: $2(x + y + z) = 30$, so $x + y + z = 15$ and $x = 5$.",
+    "complexity_factor": 1.2,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "sum_pattern"
+    ],
+    "checksum": "sha256-56713fe3694bdd89115e67f0b85c1548e00ce27f63b40ce218338bf48b276e96",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.medium.0009",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 3y + 1z = 6 \\\\ 2x + 3y + 2z = 7 \\\\ 2x + 2y + 2z = 8 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2,0,3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2,-1,3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3,-1,3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,-1,4)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(2,-1,3)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Eliminate one variable using two pairs of equations, solve the resulting 2-variable system, then back-substitute to get $(x,y,z) = (2,-1,3)$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-42663a2ac75e1fcac7bc7da03ebee69e9255ae77ed20aad37958ac927a9abadb",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.medium.0010",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 1x + 3y + 1z = 9 \\\\ 3x + 1y + 3z = 3 \\\\ 3x + 1y + 1z = -3 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-3,4,3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3,3,4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-3,3,3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2,3,3)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-3,3,3)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Eliminate one variable using two pairs of equations, solve the resulting 2-variable system, then back-substitute to get $(x,y,z) = (-3,3,3)$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-0a12b996c03f7acb373bed7ff83d6cff3c799b42ae76b46214650569e2eb45ac",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.medium.0011",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 2y = -13 \\\\ x + z = -3 \\\\ y - z = -2 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2,-2,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3,-2,1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-3,-1,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-3,-2,0)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-3,-2,0)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From the last two equations, express $z$ in terms of $x$ and $y$, substitute into the first, and solve.",
+    "complexity_factor": 1.2,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-63dd8125927495037d0221cdce918c93ac9e9e8a0b6b4bf602f5cf2c32f558da",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.medium.0012",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} x + y = 3 \\\\ y + z = 5 \\\\ x + z = 4 \\end{cases}$ for $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add all three equations: $2(x + y + z) = 12$, so $x + y + z = 6$ and $x = 1$.",
+    "complexity_factor": 1.2,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "sum_pattern"
+    ],
+    "checksum": "sha256-a2cb5fefe6e55bbfc272a254ccc3bdf95813afd66b28ecb103ce98390254b89e",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.medium.0013",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 1x + 3y + 1z = 9 \\\\ 3x + 1y + 2z = 4 \\\\ 1x + 2y + 3z = 4 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1,3,-1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1,4,-1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1,3,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,3,-1)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(1,3,-1)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Eliminate one variable using two pairs of equations, solve the resulting 2-variable system, then back-substitute to get $(x,y,z) = (1,3,-1)$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-030d196be98a2309e5f686fd70b86a6f0121aa8d678db725bdfbcf76d410166c",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.medium.0014",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 1x + 3y + 2z = -6 \\\\ 2x + 2y + 1z = -3 \\\\ 1x + 2y + 1z = -3 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0,0,-3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1,0,-3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0,0,-2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0,1,-3)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(0,0,-3)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Eliminate one variable using two pairs of equations, solve the resulting 2-variable system, then back-substitute to get $(x,y,z) = (0,0,-3)$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-785eb3867fa4e8d5903d390632d6378ce22eae2865466db13fff394f1c7b199a",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.medium.0015",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 1x + 3y = -8 \\\\ x + z = -3 \\\\ y - z = -1 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2,-1,-1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-2,-2,-1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2,-2,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,-2,-1)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-2,-2,-1)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From the last two equations, express $z$ in terms of $x$ and $y$, substitute into the first, and solve.",
+    "complexity_factor": 1.2,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-fffc141478ead1b5b4d1070dce13a2bc1b2d511d1ab5301cdd51d73deb40e129",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.medium.0016",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} x + y = 8 \\\\ y + z = 5 \\\\ x + z = 5 \\end{cases}$ for $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$14$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add all three equations: $2(x + y + z) = 18$, so $x + y + z = 9$ and $x = 4$.",
+    "complexity_factor": 1.2,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "sum_pattern"
+    ],
+    "checksum": "sha256-95f7271292a948af9d786a269cb06fdab3ad16d6362ec7ad69f25133a05df395",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.medium.0017",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 1y + 1z = -8 \\\\ 3x + 2y + 2z = -13 \\\\ 2x + 2y + 2z = -12 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,-1,-3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1,-2,-3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,-2,-2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0,-2,-3)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-1,-2,-3)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Eliminate one variable using two pairs of equations, solve the resulting 2-variable system, then back-substitute to get $(x,y,z) = (-1,-2,-3)$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-765b0f7a2bfc45fc8542fae16007ebeadb7f0de1a3ba2c72f38af3310ce159ad",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.medium.0018",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 2x + 1y + 3z = -6 \\\\ 3x + 2y + 3z = -10 \\\\ 1x + 2y + 2z = -6 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2,-2,1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-2,-1,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,-2,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2,-2,0)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-2,-2,0)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Eliminate one variable using two pairs of equations, solve the resulting 2-variable system, then back-substitute to get $(x,y,z) = (-2,-2,0)$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-087b1fe7a240d729f4cdfb2e7943a66dd81875cce9343c83678895c6fb6d1b6c",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.medium.0019",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 3y = 0 \\\\ x + z = 0 \\\\ y - z = 0 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3,-3,-3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3,-2,-3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3,-3,-2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(4,-3,-3)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(3,-3,-3)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From the last two equations, express $z$ in terms of $x$ and $y$, substitute into the first, and solve.",
+    "complexity_factor": 1.2,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-7741cef8c530b92d67b54ef9371c103f3b750e6ee95082c804e1c5adfa9da470",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.medium.0020",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} x + y = 4 \\\\ y + z = 4 \\\\ x + z = 2 \\end{cases}$ for $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add all three equations: $2(x + y + z) = 10$, so $x + y + z = 5$ and $x = 1$.",
+    "complexity_factor": 1.2,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "sum_pattern"
+    ],
+    "checksum": "sha256-9303057cd6c80ec987d439597221010eeb0a9468de3b8e20338c341a77d91bf1",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.medium.0021",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 1x + 1y + 3z = 5 \\\\ 2x + 1y + 1z = -1 \\\\ 1x + 2y + 2z = 4 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2,2,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-2,1,3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,1,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2,1,2)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-2,1,2)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Eliminate one variable using two pairs of equations, solve the resulting 2-variable system, then back-substitute to get $(x,y,z) = (-2,1,2)$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-773327549ce04725d0b359ca7bc7ae7392c04c0a96b39090ea9ef3ad7249994d",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.medium.0022",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 1x + 3y + 2z = -6 \\\\ 1x + 3y + 1z = -3 \\\\ 1x + 3y + 1z = -3 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-3,2,-3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3,1,-3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-3,1,-2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2,1,-3)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-3,1,-3)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Eliminate one variable using two pairs of equations, solve the resulting 2-variable system, then back-substitute to get $(x,y,z) = (-3,1,-3)$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-6892ebfe8275b888be27e732a0f8404974beecee40d234567706c0d02ed5f81f",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.medium.0023",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 1x + 2y = 5 \\\\ x + z = 1 \\\\ y - z = 1 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0,3,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1,3,2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,4,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,3,3)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-1,3,2)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From the last two equations, express $z$ in terms of $x$ and $y$, substitute into the first, and solve.",
+    "complexity_factor": 1.2,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-95f8b95c6a9a9179c2e69ed00ece55325582263072e269866ca0f1fead0fdfc5",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.medium.0024",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} x + y = 9 \\\\ y + z = 9 \\\\ x + z = 8 \\end{cases}$ for $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$13$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add all three equations: $2(x + y + z) = 26$, so $x + y + z = 13$ and $x = 4$.",
+    "complexity_factor": 1.2,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "sum_pattern"
+    ],
+    "checksum": "sha256-f358c76298facace13a70036b99ee014249bcec31e1d6f9ba8767e4e56612561",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.medium.0025",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 1x + 3y + 1z = -6 \\\\ 2x + 2y + 2z = -4 \\\\ 1x + 2y + 2z = -3 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,-2,1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,-2,1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,-1,1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,-2,2)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-1,-2,1)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Eliminate one variable using two pairs of equations, solve the resulting 2-variable system, then back-substitute to get $(x,y,z) = (-1,-2,1)$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-33f48d9acd27adaeb7c39ac0458679ba099f16be07035d2264acf5c5b5141596",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.medium.0026",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 2x + 2y + 1z = -11 \\\\ 3x + 1y + 1z = -9 \\\\ 3x + 1y + 2z = -12 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,-3,-2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,-3,-3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,-3,-3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,-2,-3)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-1,-3,-3)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Eliminate one variable using two pairs of equations, solve the resulting 2-variable system, then back-substitute to get $(x,y,z) = (-1,-3,-3)$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-2f7437aff347a2df55474a7a150a2232d0bf3a19940cbd4f750bab5a6b3db288",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.medium.0027",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 1y = 0 \\\\ x + z = 0 \\\\ y - z = 2 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,3,1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1,4,1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0,3,1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,3,2)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-1,3,1)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From the last two equations, express $z$ in terms of $x$ and $y$, substitute into the first, and solve.",
+    "complexity_factor": 1.2,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-8e6c6793a0ba7485fe97f6b151afe172c9b60e0d6ed678ba88052cc08cbd7423",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.medium.0028",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} x + y = 7 \\\\ y + z = 10 \\\\ x + z = 5 \\end{cases}$ for $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$11$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add all three equations: $2(x + y + z) = 22$, so $x + y + z = 11$ and $x = 1$.",
+    "complexity_factor": 1.2,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "sum_pattern"
+    ],
+    "checksum": "sha256-e74105cc2c93ddb9d5a60fdf2c88a01c253899b0e428e4249704edd8ce55f2dd",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.medium.0029",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 1x + 3y + 1z = 8 \\\\ 3x + 3y + 2z = 6 \\\\ 2x + 2y + 2z = 4 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,3,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1,4,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,3,1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0,3,0)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-1,3,0)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Eliminate one variable using two pairs of equations, solve the resulting 2-variable system, then back-substitute to get $(x,y,z) = (-1,3,0)$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-60d7c91798177d210693ad7c0348bdc47307c50d2e2fcc94d7175c0132a04c30",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.medium.0030",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 2y + 3z = -7 \\\\ 2x + 3y + 3z = -8 \\\\ 1x + 1y + 3z = -3 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,-1,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1,-2,1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0,-2,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,-2,0)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-1,-2,0)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Eliminate one variable using two pairs of equations, solve the resulting 2-variable system, then back-substitute to get $(x,y,z) = (-1,-2,0)$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-1badfcabd6fd708b9eb7fdc92aaffb879a7d3b1114d847ac27789bf1149c8a7e",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.medium.0031",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 1x + 3y = 3 \\\\ x + z = 0 \\\\ y - z = -1 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-3,2,4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-2,2,3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-3,2,3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-3,3,3)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-3,2,3)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From the last two equations, express $z$ in terms of $x$ and $y$, substitute into the first, and solve.",
+    "complexity_factor": 1.2,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-e260f928d8acd902f340ae0f2eb8c41c0b38f0ee26a3d21befa5a2878aee3098",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.medium.0032",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} x + y = 9 \\\\ y + z = 7 \\\\ x + z = 4 \\end{cases}$ for $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add all three equations: $2(x + y + z) = 20$, so $x + y + z = 10$ and $x = 3$.",
+    "complexity_factor": 1.2,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "sum_pattern"
+    ],
+    "checksum": "sha256-bc148934b7bd4ef906ceed13bb6f1bbb3f900026d521a04ded88a85c6c169625",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.medium.0033",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 1x + 3y + 2z = 8 \\\\ 3x + 2y + 1z = 5 \\\\ 1x + 3y + 1z = 7 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0,2,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,3,1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1,2,1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0,2,1)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(0,2,1)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Eliminate one variable using two pairs of equations, solve the resulting 2-variable system, then back-substitute to get $(x,y,z) = (0,2,1)$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-7d710f66c72443e1ff3065b950e297c6fe01c447adf06a8a8650127580e909f6",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.medium.0034",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 1x + 3y + 2z = 4 \\\\ 2x + 1y + 1z = 5 \\\\ 3x + 3y + 1z = 7 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2,0,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3,0,1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(2,1,1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2,0,1)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(2,0,1)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Eliminate one variable using two pairs of equations, solve the resulting 2-variable system, then back-substitute to get $(x,y,z) = (2,0,1)$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-4c5bcccbd4d66c6444a243bd7c95630207becaf831a9455e188c6c83a7b81b93",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.medium.0035",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 2y = 15 \\\\ x + z = 5 \\\\ y - z = 1 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(4,3,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3,3,3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3,4,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3,3,2)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(3,3,2)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From the last two equations, express $z$ in terms of $x$ and $y$, substitute into the first, and solve.",
+    "complexity_factor": 1.2,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-72fcdb6433ae4af03a5c4131d07e94a5d1c38db3380860761b07e0d740963762",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.medium.0036",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "For numbers $x,y,z$, suppose $x+y+z=-2$, $x-y=-2$, and $y-z=-6$. Find $z$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The system is satisfied by $x=-4$, $y=-2$, and $z=4$, so the requested value is $4$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "linear_system"
+    ],
+    "checksum": "sha256-66ecb56989ef47201fa7d60115a665939d845c1a0609d6f19218ffd0cc4c33aa",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.medium.0037",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 1y + 1z = -4 \\\\ 1x + 2y + 1z = 5 \\\\ 1x + 2y + 3z = 9 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-2,3,2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3,3,2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-3,3,3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-3,4,2)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(-3,3,2)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Eliminate one variable using two pairs of equations, solve the resulting 2-variable system, then back-substitute to get $(x,y,z) = (-3,3,2)$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-ee0f537ed97bf3a85f8e388271eddbebf819d8305398835f2cb257abaa387c7f",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.medium.0038",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 1x + 1y + 2z = -4 \\\\ 2x + 1y + 2z = -4 \\\\ 2x + 3y + 1z = 3 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0,2,-2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1,2,-3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0,3,-3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0,2,-3)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(0,2,-3)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Eliminate one variable using two pairs of equations, solve the resulting 2-variable system, then back-substitute to get $(x,y,z) = (0,2,-3)$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-e1e9e0d6180a455b304591b1167a22fd638431c3b3aeda86f24534366b5f62d4",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.medium.0039",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 2x + 3y = 1 \\\\ x + z = 0 \\\\ y - z = 0 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,1,1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-1,2,1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0,1,1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,1,2)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-1,1,1)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From the last two equations, express $z$ in terms of $x$ and $y$, substitute into the first, and solve.",
+    "complexity_factor": 1.2,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-6ff566638e58416dca822f740b6a5dee8036d5ee93348aa4e0e924e07e1d5ab9",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.medium.0040",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} x + y = 4 \\\\ y + z = 5 \\\\ x + z = 5 \\end{cases}$ for $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add all three equations: $2(x + y + z) = 14$, so $x + y + z = 7$ and $x = 2$.",
+    "complexity_factor": 1.2,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "sum_pattern"
+    ],
+    "checksum": "sha256-bc12eec925747f5967200f5b5328a64ed52f64d2b6812b183ccb8e85163881f7",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.medium.0041",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 2y + 1z = -5 \\\\ 3x + 1y + 1z = -6 \\\\ 3x + 3y + 3z = 0 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-3,1,3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-2,1,2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-3,2,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-3,1,2)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-3,1,2)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Eliminate one variable using two pairs of equations, solve the resulting 2-variable system, then back-substitute to get $(x,y,z) = (-3,1,2)$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-3e66944ab10cc0bed998bcab27bd34c99a9aa01d0af2d8d457201dfc32ecc845",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.medium.0042",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 3y + 3z = 3 \\\\ 2x + 2y + 3z = 4 \\\\ 3x + 3y + 3z = 3 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1,-2,3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2,-2,2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1,-2,2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(1,-1,2)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(1,-2,2)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Eliminate one variable using two pairs of equations, solve the resulting 2-variable system, then back-substitute to get $(x,y,z) = (1,-2,2)$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-efb573d1fa8965759cd0c21ab0bee00492cedca36dc618d71468d4112a794360",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.medium.0043",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 2x + 1y = -7 \\\\ x + z = -3 \\\\ y - z = -1 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-3,-1,1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-2,-1,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-3,0,0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-3,-1,0)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-3,-1,0)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From the last two equations, express $z$ in terms of $x$ and $y$, substitute into the first, and solve.",
+    "complexity_factor": 1.2,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-03cf54c51317ae488fd8426ef3781f048537f317a26c8eacb22787a9a824e3a0",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.medium.0044",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} x + y = 10 \\\\ y + z = 11 \\\\ x + z = 9 \\end{cases}$ for $x$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$15$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Add all three equations: $2(x + y + z) = 30$, so $x + y + z = 15$ and $x = 4$.",
+    "complexity_factor": 1.2,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "sum_pattern"
+    ],
+    "checksum": "sha256-39432242a0e625ef2020710456e58ab90c2536b74ee5efb9552ffd33698f354a",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.medium.0045",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 1x + 1y + 1z = -2 \\\\ 3x + 2y + 1z = -10 \\\\ 2x + 1y + 1z = -5 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-3,-2,3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3,-2,4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-3,-1,3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2,-2,3)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-3,-2,3)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Eliminate one variable using two pairs of equations, solve the resulting 2-variable system, then back-substitute to get $(x,y,z) = (-3,-2,3)$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-335582c5971fe125952a072892df34d54025db1f7678ab3d32aca01b9da0984a",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.medium.0046",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 2y + 1z = -8 \\\\ 1x + 1y + 3z = -8 \\\\ 2x + 1y + 2z = -8 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,0,-2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-2,1,-2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2,0,-1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2,0,-2)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-2,0,-2)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Eliminate one variable using two pairs of equations, solve the resulting 2-variable system, then back-substitute to get $(x,y,z) = (-2,0,-2)$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-effecd7ba7b8074b892d568a4da844bfd8e130cacd277ee9b5612e6e01a3e79e",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.medium.0047",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 2x + 3y = -5 \\\\ x + z = -3 \\\\ y - z = 1 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1,0,-2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,-1,-2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1,-1,-2)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1,-1,-1)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-1,-1,-2)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "From the last two equations, express $z$ in terms of $x$ and $y$, substitute into the first, and solve.",
+    "complexity_factor": 1.2,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-00dcb9d96aabc3f7142a8883dfa18476645ef7346cc926db928523886c787370",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.medium.0048",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "For numbers $x,y,z$, suppose $x+y+z=1$, $x-y=0$, and $y-z=-4$. Find $z$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The system is satisfied by $x=-1$, $y=-1$, and $z=3$, so the requested value is $3$.",
+    "complexity_factor": 1.15,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "linear_system"
+    ],
+    "checksum": "sha256-56bda1c9e2540f686e50e1efcc694beb42aa8aa8e203297a30eddd96ac05ee0b",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.medium.0049",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 3x + 3y + 3z = 6 \\\\ 3x + 1y + 2z = 5 \\\\ 2x + 3y + 2z = 3 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0,-1,4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0,0,3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1,-1,3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0,-1,3)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(0,-1,3)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Eliminate one variable using two pairs of equations, solve the resulting 2-variable system, then back-substitute to get $(x,y,z) = (0,-1,3)$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-f193981c6994d35990f6159346443c4b6e22cbdcf0bc2b233e069db920477795",
+    "status": "valid"
+  },
+  {
+    "id": "ch5.more_variables.medium.0050",
+    "topic_id": "ch5.more_variables",
+    "group_id": "ch5_multivar_linear",
+    "difficulty": "medium",
+    "prompt_latex": "Solve $\\begin{cases} 1x + 3y + 1z = 6 \\\\ 3x + 3y + 3z = 0 \\\\ 1x + 2y + 3z = 3 \\end{cases}$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-3,3,0)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-2,3,0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-3,3,1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-3,4,0)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(-3,3,0)",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Eliminate one variable using two pairs of equations, solve the resulting 2-variable system, then back-substitute to get $(x,y,z) = (-3,3,0)$.",
+    "complexity_factor": 1.25,
+    "source_section": "5.6",
+    "tags": [
+      "three_variables",
+      "systems"
+    ],
+    "checksum": "sha256-da6b12b758e08f50c28809d7e266f980ebbb2e3076dead1bdb8a1485c64a2486",
+    "status": "valid"
+  }
+]

@@ -1,0 +1,2102 @@
+[
+  {
+    "id": "ch11.sum_diff_cubes.easy.0001",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^3 + 8$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 2)(x^2 + 2x + 4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 2)(x^2 + 2x + 4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 2)(x^2 - 4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 2)(x^2 - 2x + 4)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x+2)*(x^2-2*x+4)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x^2-2*x+4)*(x+2)"
+    ],
+    "solution_latex": "Use $a^3+b^3=(a+b)(a^2-ab+b^2)$ with $a=x$ and $b=2$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-41b796841a443901df2be50869901960042602a0072124ea39ac6b7f9c032fc8",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.easy.0002",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^3 - 27$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 3)(x^2 - 3x + 9)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 3)(x^2 - 9)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 3)(x^2 + 3x + 9)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 3)(x^2 - 3x + 9)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x-3)*(x^2+3*x+9)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x^2+3*x+9)*(x-3)"
+    ],
+    "solution_latex": "Use $a^3-b^3=(a-b)(a^2+ab+b^2)$ with $a=x$ and $b=3$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-30f5e4195a9d01ffff7f74830dbb33ccb0ccd1a2ecd9c1a5ef1b01dc227fc604",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.easy.0003",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^3 + 64$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 4)(x^2 + 4x + 16)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 4)(x^2 - 16)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 4)(x^2 - 4x + 16)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 4)(x^2 + 4x + 16)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x+4)*(x^2-4*x+16)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x^2-4*x+16)*(x+4)"
+    ],
+    "solution_latex": "Use $a^3+b^3=(a+b)(a^2-ab+b^2)$ with $a=x$ and $b=4$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-50f11db420d442690ae0541c575f15a8de5e6a13d13229d973d719eae22a8dd0",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.easy.0004",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^3 - 125$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 5)(x^2 - 25)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 5)(x^2 + 5x + 25)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 5)(x^2 - 5x + 25)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 5)(x^2 - 5x + 25)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(x-5)*(x^2+5*x+25)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x^2+5*x+25)*(x-5)"
+    ],
+    "solution_latex": "Use $a^3-b^3=(a-b)(a^2+ab+b^2)$ with $a=x$ and $b=5$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-c59f3a6d36606e7550e6040bd7795b7d8961071b2355da15ef8b2eb22313613f",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.easy.0005",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^3 + 216$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 6)(x^2 - 36)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 6)(x^2 - 6x + 36)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 6)(x^2 + 6x + 36)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 6)(x^2 + 6x + 36)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(x+6)*(x^2-6*x+36)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x^2-6*x+36)*(x+6)"
+    ],
+    "solution_latex": "Use $a^3+b^3=(a+b)(a^2-ab+b^2)$ with $a=x$ and $b=6$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-1957ee1bf928d15089a90851eb520d6c97dfa4c75f639f03837d6a70c1dedc3f",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.easy.0006",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^3 - 343$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 7)(x^2 - 7x + 49)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 7)(x^2 - 49)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 7)(x^2 + 7x + 49)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 7)(x^2 - 7x + 49)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x-7)*(x^2+7*x+49)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x^2+7*x+49)*(x-7)"
+    ],
+    "solution_latex": "Use $a^3-b^3=(a-b)(a^2+ab+b^2)$ with $a=x$ and $b=7$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-4d81c50dc1a1363d918cde9e644c87d057d45f89db88cde26f4cc828c4cf0ce1",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.easy.0007",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^3 + 512$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 8)(x^2 + 8x + 64)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 8)(x^2 - 8x + 64)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 8)(x^2 + 8x + 64)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 8)(x^2 - 64)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(x+8)*(x^2-8*x+64)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x^2-8*x+64)*(x+8)"
+    ],
+    "solution_latex": "Use $a^3+b^3=(a+b)(a^2-ab+b^2)$ with $a=x$ and $b=8$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-dd3a4b9a06660e75925a53b13c084b57c2f7bcab6364ea7039f80d6b86a7275d",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.easy.0008",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^3 - 729$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 9)(x^2 + 9x + 81)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 9)(x^2 - 81)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 9)(x^2 - 9x + 81)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 9)(x^2 - 9x + 81)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(x-9)*(x^2+9*x+81)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x^2+9*x+81)*(x-9)"
+    ],
+    "solution_latex": "Use $a^3-b^3=(a-b)(a^2+ab+b^2)$ with $a=x$ and $b=9$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-31e5ec7f82e009dabff3dd4e3996c18128c7a35db76cc2034076719537fe04a9",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.easy.0009",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^3 + 1000$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 10)(x^2 + 10x + 100)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 10)(x^2 + 10x + 100)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 10)(x^2 - 10x + 100)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 10)(x^2 - 100)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x+10)*(x^2-10*x+100)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x^2-10*x+100)*(x+10)"
+    ],
+    "solution_latex": "Use $a^3+b^3=(a+b)(a^2-ab+b^2)$ with $a=x$ and $b=10$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-5b118e4d8011326e0d8cc112ff589eb59aad9a03791120f933c983bd7b8cdd53",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.easy.0010",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^3 - 1331$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 11)(x^2 - 121)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 11)(x^2 - 11x + 121)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 11)(x^2 - 11x + 121)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 11)(x^2 + 11x + 121)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x-11)*(x^2+11*x+121)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x^2+11*x+121)*(x-11)"
+    ],
+    "solution_latex": "Use $a^3-b^3=(a-b)(a^2+ab+b^2)$ with $a=x$ and $b=11$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-7e6b46812038ae058560452b15dff055259e3df29b274da1bcb183b9c6520ce5",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.easy.0011",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^3 + 1728$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 12)(x^2 - 12x + 144)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 12)(x^2 - 144)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 12)(x^2 + 12x + 144)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 12)(x^2 + 12x + 144)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(x+12)*(x^2-12*x+144)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x^2-12*x+144)*(x+12)"
+    ],
+    "solution_latex": "Use $a^3+b^3=(a+b)(a^2-ab+b^2)$ with $a=x$ and $b=12$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-bc63b89e69d7742613aa17af571742bb378faf23729918c9999f4c23f240f90a",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.easy.0012",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^3 - 2197$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 13)(x^2 - 169)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 13)(x^2 + 13x + 169)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 13)(x^2 - 13x + 169)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 13)(x^2 - 13x + 169)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(x-13)*(x^2+13*x+169)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x^2+13*x+169)*(x-13)"
+    ],
+    "solution_latex": "Use $a^3-b^3=(a-b)(a^2+ab+b^2)$ with $a=x$ and $b=13$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-6c34e03a6ac5cc4b20b98f1b6e0e6672ee6f06dda37f2b94d219774451629c02",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.easy.0013",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^3 + 2744$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 14)(x^2 + 14x + 196)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 14)(x^2 - 14x + 196)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 14)(x^2 - 196)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 14)(x^2 + 14x + 196)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(x+14)*(x^2-14*x+196)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x^2-14*x+196)*(x+14)"
+    ],
+    "solution_latex": "Use $a^3+b^3=(a+b)(a^2-ab+b^2)$ with $a=x$ and $b=14$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-b7765e6932c6ac9ccbda2f91ae135c70761af457a02f1cb9070428682ec000e9",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.easy.0014",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^3 - 3375$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 15)(x^2 - 225)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 15)(x^2 + 15x + 225)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 15)(x^2 - 15x + 225)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 15)(x^2 - 15x + 225)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(x-15)*(x^2+15*x+225)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x^2+15*x+225)*(x-15)"
+    ],
+    "solution_latex": "Use $a^3-b^3=(a-b)(a^2+ab+b^2)$ with $a=x$ and $b=15$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-620e7ab5b3bbac0deade9c1c89f7ce01a7d6824491f09e1736e110a30fe679e4",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.easy.0015",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^3 + 4096$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 16)(x^2 + 16x + 256)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 16)(x^2 - 16x + 256)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 16)(x^2 - 256)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 16)(x^2 + 16x + 256)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(x+16)*(x^2-16*x+256)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x^2-16*x+256)*(x+16)"
+    ],
+    "solution_latex": "Use $a^3+b^3=(a+b)(a^2-ab+b^2)$ with $a=x$ and $b=16$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-9a8cb6b731a0d5cfb1eb65479e02c2b9073d1e1a44fbf27ec8ee54939e62c9cf",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.easy.0016",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^3 - 4913$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 17)(x^2 - 17x + 289)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 17)(x^2 - 17x + 289)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 17)(x^2 + 17x + 289)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 17)(x^2 - 289)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x-17)*(x^2+17*x+289)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x^2+17*x+289)*(x-17)"
+    ],
+    "solution_latex": "Use $a^3-b^3=(a-b)(a^2+ab+b^2)$ with $a=x$ and $b=17$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-cbca71976b0c75f955091f40edb5764593be6a823824a8a25e0a1f6d6c837c2a",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.easy.0017",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^3 + 5832$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 18)(x^2 - 324)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 18)(x^2 + 18x + 324)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 18)(x^2 + 18x + 324)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 18)(x^2 - 18x + 324)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x+18)*(x^2-18*x+324)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x^2-18*x+324)*(x+18)"
+    ],
+    "solution_latex": "Use $a^3+b^3=(a+b)(a^2-ab+b^2)$ with $a=x$ and $b=18$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-d3265435bc7d138e9e9a14b0b25f2b9611e1c3d808cfc28071c7edab2ffb1a0f",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.easy.0018",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^3 - 6859$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 19)(x^2 - 19x + 361)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 19)(x^2 - 361)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 19)(x^2 + 19x + 361)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 19)(x^2 - 19x + 361)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x-19)*(x^2+19*x+361)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x^2+19*x+361)*(x-19)"
+    ],
+    "solution_latex": "Use $a^3-b^3=(a-b)(a^2+ab+b^2)$ with $a=x$ and $b=19$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-979d3482ed1314bf276384b276ce76dcae25cc58106ecd237e1f67a2c4c604b2",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.easy.0019",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^3 + 8000$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 20)(x^2 - 20x + 400)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 20)(x^2 + 20x + 400)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 20)(x^2 + 20x + 400)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 20)(x^2 - 400)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(x+20)*(x^2-20*x+400)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x^2-20*x+400)*(x+20)"
+    ],
+    "solution_latex": "Use $a^3+b^3=(a+b)(a^2-ab+b^2)$ with $a=x$ and $b=20$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-08253ec8544d3a7b7e1bc839342cc7d1a3fd868b523f0e4f6c787b06c9603651",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.easy.0020",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^3 - 9261$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 21)(x^2 - 21x + 441)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 21)(x^2 - 21x + 441)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 21)(x^2 - 441)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 21)(x^2 + 21x + 441)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x-21)*(x^2+21*x+441)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x^2+21*x+441)*(x-21)"
+    ],
+    "solution_latex": "Use $a^3-b^3=(a-b)(a^2+ab+b^2)$ with $a=x$ and $b=21$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-d8cea3433cf0857f2826e8781947528f2747f3f3f0f6f0827b6ae8819c522588",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.easy.0021",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^3 + 10648$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 22)(x^2 - 22x + 484)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 22)(x^2 + 22x + 484)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 22)(x^2 - 484)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 22)(x^2 + 22x + 484)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(x+22)*(x^2-22*x+484)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x^2-22*x+484)*(x+22)"
+    ],
+    "solution_latex": "Use $a^3+b^3=(a+b)(a^2-ab+b^2)$ with $a=x$ and $b=22$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-6ec8a1eefc71a58462df58f542d30401cac4ace64c82b15bb0789d14017e2a43",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.easy.0022",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^3 - 12167$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 23)(x^2 - 23x + 529)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 23)(x^2 - 529)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 23)(x^2 - 23x + 529)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 23)(x^2 + 23x + 529)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x-23)*(x^2+23*x+529)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x^2+23*x+529)*(x-23)"
+    ],
+    "solution_latex": "Use $a^3-b^3=(a-b)(a^2+ab+b^2)$ with $a=x$ and $b=23$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-11f91fc3ada2334d72b709e725ad1d485f5f0eeb825e635a72f179fff4a33ff6",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.easy.0023",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^3 + 13824$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 24)(x^2 + 24x + 576)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 24)(x^2 - 576)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 24)(x^2 - 24x + 576)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 24)(x^2 + 24x + 576)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x+24)*(x^2-24*x+576)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x^2-24*x+576)*(x+24)"
+    ],
+    "solution_latex": "Use $a^3+b^3=(a+b)(a^2-ab+b^2)$ with $a=x$ and $b=24$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-277b711ab31a327aecdfef50d3a2aed4dcded09b5ac33b44ed3bfa127d626a30",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.easy.0024",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^3 - 15625$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 25)(x^2 - 25x + 625)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 25)(x^2 + 25x + 625)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 25)(x^2 - 625)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 25)(x^2 - 25x + 625)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(x-25)*(x^2+25*x+625)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x^2+25*x+625)*(x-25)"
+    ],
+    "solution_latex": "Use $a^3-b^3=(a-b)(a^2+ab+b^2)$ with $a=x$ and $b=25$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-d9fcdf311d27107f45ac8c16078d66bb985e1a548ef909ba444a300b03c30732",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.easy.0025",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^3 + 17576$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 26)(x^2 + 26x + 676)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 26)(x^2 + 26x + 676)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 26)(x^2 - 26x + 676)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 26)(x^2 - 676)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x+26)*(x^2-26*x+676)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x^2-26*x+676)*(x+26)"
+    ],
+    "solution_latex": "Use $a^3+b^3=(a+b)(a^2-ab+b^2)$ with $a=x$ and $b=26$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-63c38a5fb5d587efd827e99a5c2c256bca201bb17358b85a2efe6678914f2485",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.easy.0026",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^3 - 19683$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 27)(x^2 - 27x + 729)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 27)(x^2 + 27x + 729)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 27)(x^2 - 729)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 27)(x^2 - 27x + 729)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(x-27)*(x^2+27*x+729)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x^2+27*x+729)*(x-27)"
+    ],
+    "solution_latex": "Use $a^3-b^3=(a-b)(a^2+ab+b^2)$ with $a=x$ and $b=27$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-c3ec31c99e1897e017d0f6508866e30400a464bf6d4161c8f7b4780c7d04c232",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.easy.0027",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^3 + 21952$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 28)(x^2 + 28x + 784)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 28)(x^2 + 28x + 784)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 28)(x^2 - 784)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 28)(x^2 - 28x + 784)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x+28)*(x^2-28*x+784)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x^2-28*x+784)*(x+28)"
+    ],
+    "solution_latex": "Use $a^3+b^3=(a+b)(a^2-ab+b^2)$ with $a=x$ and $b=28$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-f20744a250f31d3c4bf9211780f870c005cdbc17de388d5afdbeae565e1443b8",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.easy.0028",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^3 - 24389$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 29)(x^2 - 29x + 841)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 29)(x^2 - 29x + 841)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 29)(x^2 - 841)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 29)(x^2 + 29x + 841)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x-29)*(x^2+29*x+841)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x^2+29*x+841)*(x-29)"
+    ],
+    "solution_latex": "Use $a^3-b^3=(a-b)(a^2+ab+b^2)$ with $a=x$ and $b=29$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-ae379ad15b1cec4b500580319ab6899cac34c60076759a7d4cbcde550bf470bb",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.easy.0029",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^3 + 27000$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 30)(x^2 + 30x + 900)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 30)(x^2 - 900)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 30)(x^2 + 30x + 900)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 30)(x^2 - 30x + 900)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x+30)*(x^2-30*x+900)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x^2-30*x+900)*(x+30)"
+    ],
+    "solution_latex": "Use $a^3+b^3=(a+b)(a^2-ab+b^2)$ with $a=x$ and $b=30$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-abd790d317645d25ebc1fb26068e337d98625ec5fc72bfaa68173f784af64196",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.easy.0030",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^3 - 29791$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 31)(x^2 - 31x + 961)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 31)(x^2 - 31x + 961)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 31)(x^2 - 961)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 31)(x^2 + 31x + 961)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x-31)*(x^2+31*x+961)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x^2+31*x+961)*(x-31)"
+    ],
+    "solution_latex": "Use $a^3-b^3=(a-b)(a^2+ab+b^2)$ with $a=x$ and $b=31$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-c37a14dffb6d268c048683c72d59c3568dabbbeea1f0c183ebc6df9d951e6cd0",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.easy.0031",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^3 + 32768$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 32)(x^2 + 32x + 1024)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 32)(x^2 - 32x + 1024)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 32)(x^2 - 1024)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 32)(x^2 + 32x + 1024)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(x+32)*(x^2-32*x+1024)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x^2-32*x+1024)*(x+32)"
+    ],
+    "solution_latex": "Use $a^3+b^3=(a+b)(a^2-ab+b^2)$ with $a=x$ and $b=32$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-55d57b41fad12f04341918b1571595fbcf1e09757904b41dcb9f6f8d1993dd61",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.easy.0032",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^3 - 35937$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 33)(x^2 - 33x + 1089)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 33)(x^2 - 1089)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 33)(x^2 - 33x + 1089)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 33)(x^2 + 33x + 1089)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x-33)*(x^2+33*x+1089)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x^2+33*x+1089)*(x-33)"
+    ],
+    "solution_latex": "Use $a^3-b^3=(a-b)(a^2+ab+b^2)$ with $a=x$ and $b=33$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-aebbc2a95221b8b62a79b45ccfa465812f7c0ba4cc803fc40a59ad358a1a48ab",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.easy.0033",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^3 + 39304$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 34)(x^2 - 1156)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 34)(x^2 - 34x + 1156)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 34)(x^2 + 34x + 1156)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 34)(x^2 + 34x + 1156)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(x+34)*(x^2-34*x+1156)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x^2-34*x+1156)*(x+34)"
+    ],
+    "solution_latex": "Use $a^3+b^3=(a+b)(a^2-ab+b^2)$ with $a=x$ and $b=34$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-1f0b9767c7d6352dfe54e844a062e9e633e6ad154d621c2c6e44dd58618e0a5e",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.easy.0034",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^3 - 42875$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 35)(x^2 - 35x + 1225)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 35)(x^2 - 35x + 1225)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 35)(x^2 - 1225)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 35)(x^2 + 35x + 1225)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x-35)*(x^2+35*x+1225)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x^2+35*x+1225)*(x-35)"
+    ],
+    "solution_latex": "Use $a^3-b^3=(a-b)(a^2+ab+b^2)$ with $a=x$ and $b=35$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-96f4c0430d63c48f650a18c4742c2316054b8a1147e8302dc9a069bbb81db52f",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.easy.0035",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^3 + 46656$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 36)(x^2 - 1296)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 36)(x^2 - 36x + 1296)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 36)(x^2 + 36x + 1296)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 36)(x^2 + 36x + 1296)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(x+36)*(x^2-36*x+1296)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x^2-36*x+1296)*(x+36)"
+    ],
+    "solution_latex": "Use $a^3+b^3=(a+b)(a^2-ab+b^2)$ with $a=x$ and $b=36$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-7679f75f4e47a00c74eeea9afc71f9dce4d86aaa31b02ce9b19717a865220bff",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.easy.0036",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^3 - 50653$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 37)(x^2 + 37x + 1369)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 37)(x^2 - 37x + 1369)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 37)(x^2 - 37x + 1369)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 37)(x^2 - 1369)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(x-37)*(x^2+37*x+1369)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x^2+37*x+1369)*(x-37)"
+    ],
+    "solution_latex": "Use $a^3-b^3=(a-b)(a^2+ab+b^2)$ with $a=x$ and $b=37$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-dbd7bd4b3f561ca91d1a992635d97d3e467473348237313dbc7dcc530e99e465",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.easy.0037",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^3 + 54872$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 38)(x^2 - 1444)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 38)(x^2 + 38x + 1444)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 38)(x^2 + 38x + 1444)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 38)(x^2 - 38x + 1444)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x+38)*(x^2-38*x+1444)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x^2-38*x+1444)*(x+38)"
+    ],
+    "solution_latex": "Use $a^3+b^3=(a+b)(a^2-ab+b^2)$ with $a=x$ and $b=38$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-c310e70151562fefb80978343ef68f00488329f8db01f5d57784d38bd008ef3f",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.easy.0038",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^3 - 59319$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 39)(x^2 - 1521)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 39)(x^2 - 39x + 1521)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 39)(x^2 + 39x + 1521)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 39)(x^2 - 39x + 1521)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x-39)*(x^2+39*x+1521)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x^2+39*x+1521)*(x-39)"
+    ],
+    "solution_latex": "Use $a^3-b^3=(a-b)(a^2+ab+b^2)$ with $a=x$ and $b=39$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-5879e313a7eb461b7498da20e7049267a4e1ec5b9e80b7124b92fc9ffaa5611a",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.easy.0039",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^3 + 64000$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 40)(x^2 - 40x + 1600)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 40)(x^2 + 40x + 1600)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 40)(x^2 + 40x + 1600)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 40)(x^2 - 1600)$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "(x+40)*(x^2-40*x+1600)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x^2-40*x+1600)*(x+40)"
+    ],
+    "solution_latex": "Use $a^3+b^3=(a+b)(a^2-ab+b^2)$ with $a=x$ and $b=40$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-3a37576b55cc980b8381f8d0f3a222d8f45fc73ca240dd022ccb7423ac51545c",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.easy.0040",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^3 - 68921$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 41)(x^2 - 1681)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 41)(x^2 - 41x + 1681)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 41)(x^2 - 41x + 1681)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 41)(x^2 + 41x + 1681)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x-41)*(x^2+41*x+1681)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x^2+41*x+1681)*(x-41)"
+    ],
+    "solution_latex": "Use $a^3-b^3=(a-b)(a^2+ab+b^2)$ with $a=x$ and $b=41$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-5b17b4c2a174614e3207aeac801e69b39ce6fc54040aa7721305de6abdfde988",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.easy.0041",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^3 + 74088$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 42)(x^2 + 42x + 1764)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 42)(x^2 - 1764)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 42)(x^2 - 42x + 1764)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 42)(x^2 + 42x + 1764)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x+42)*(x^2-42*x+1764)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x^2-42*x+1764)*(x+42)"
+    ],
+    "solution_latex": "Use $a^3+b^3=(a+b)(a^2-ab+b^2)$ with $a=x$ and $b=42$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-99ba09be7513e59f62a081643ea17db0ab9e42749fca0fb248a8c32cc4ddbfbf",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.easy.0042",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^3 - 79507$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 43)(x^2 - 43x + 1849)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 43)(x^2 + 43x + 1849)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 43)(x^2 - 43x + 1849)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 43)(x^2 - 1849)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(x-43)*(x^2+43*x+1849)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x^2+43*x+1849)*(x-43)"
+    ],
+    "solution_latex": "Use $a^3-b^3=(a-b)(a^2+ab+b^2)$ with $a=x$ and $b=43$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-39f7a0f2f717d08bcc6439a224a627173bfd1e19278809228b54d0c1acb15e74",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.easy.0043",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^3 + 85184$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x + 44)(x^2 - 1936)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 44)(x^2 - 44x + 1936)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 44)(x^2 + 44x + 1936)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 44)(x^2 + 44x + 1936)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(x+44)*(x^2-44*x+1936)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x^2-44*x+1936)*(x+44)"
+    ],
+    "solution_latex": "Use $a^3+b^3=(a+b)(a^2-ab+b^2)$ with $a=x$ and $b=44$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-258f998b6c03644ce2fe347f4033bc7d6bfd809e3fd50ccb9b0349468b97bc0d",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.easy.0044",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^3 - 91125$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 45)(x^2 - 45x + 2025)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 45)(x^2 - 45x + 2025)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 45)(x^2 - 2025)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 45)(x^2 + 45x + 2025)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x-45)*(x^2+45*x+2025)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x^2+45*x+2025)*(x-45)"
+    ],
+    "solution_latex": "Use $a^3-b^3=(a-b)(a^2+ab+b^2)$ with $a=x$ and $b=45$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-0e3454caeb94f05ed2cf0305b007e17dc1f0f6580dc13d6bc2b3a35888f884e1",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.easy.0045",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^3 + 97336$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 46)(x^2 + 46x + 2116)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 46)(x^2 - 2116)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 46)(x^2 - 46x + 2116)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 46)(x^2 + 46x + 2116)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x+46)*(x^2-46*x+2116)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x^2-46*x+2116)*(x+46)"
+    ],
+    "solution_latex": "Use $a^3+b^3=(a+b)(a^2-ab+b^2)$ with $a=x$ and $b=46$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-09120b5aad2b0b0b82b1de2f982c29207ab9cd48a33482ef36a9e7c5d7824fa2",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.easy.0046",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^3 - 103823$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 47)(x^2 - 47x + 2209)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 47)(x^2 - 2209)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 47)(x^2 - 47x + 2209)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 47)(x^2 + 47x + 2209)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x-47)*(x^2+47*x+2209)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x^2+47*x+2209)*(x-47)"
+    ],
+    "solution_latex": "Use $a^3-b^3=(a-b)(a^2+ab+b^2)$ with $a=x$ and $b=47$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-eaf53c48f29dccaa320e128e00c8e957629f676ba7a5d844676703c6bd939a10",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.easy.0047",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^3 + 110592$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 48)(x^2 + 48x + 2304)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 48)(x^2 - 48x + 2304)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 48)(x^2 - 2304)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 48)(x^2 + 48x + 2304)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(x+48)*(x^2-48*x+2304)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x^2-48*x+2304)*(x+48)"
+    ],
+    "solution_latex": "Use $a^3+b^3=(a+b)(a^2-ab+b^2)$ with $a=x$ and $b=48$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-1a3ea76e88eef7c6ce6b9c74924f6368336d420adcd891d9af908396237a29d5",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.easy.0048",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^3 - 117649$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 49)(x^2 - 2401)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x - 49)(x^2 + 49x + 2401)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 49)(x^2 - 49x + 2401)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 49)(x^2 - 49x + 2401)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(x-49)*(x^2+49*x+2401)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x^2+49*x+2401)*(x-49)"
+    ],
+    "solution_latex": "Use $a^3-b^3=(a-b)(a^2+ab+b^2)$ with $a=x$ and $b=49$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-27b44c818bfd04f44c44f3a43b297077af42651ed5bff950ca68f124acd5784e",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.easy.0049",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^3 + 125000$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 50)(x^2 + 50x + 2500)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 50)(x^2 + 50x + 2500)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x + 50)(x^2 - 50x + 2500)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x + 50)(x^2 - 2500)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(x+50)*(x^2-50*x+2500)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x^2-50*x+2500)*(x+50)"
+    ],
+    "solution_latex": "Use $a^3+b^3=(a+b)(a^2-ab+b^2)$ with $a=x$ and $b=50$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-34f9fc582cebb48c119573e9e9eb02a43df3e4589d32b15e06ced6442098c0af",
+    "status": "valid"
+  },
+  {
+    "id": "ch11.sum_diff_cubes.easy.0050",
+    "topic_id": "ch11.sum_diff_cubes",
+    "group_id": "ch11_special_factorizations",
+    "difficulty": "easy",
+    "prompt_latex": "Factor completely: $x^3 - 132651$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(x - 51)(x^2 - 2601)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(x + 51)(x^2 - 51x + 2601)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(x - 51)(x^2 - 51x + 2601)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(x - 51)(x^2 + 51x + 2601)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(x-51)*(x^2+51*x+2601)",
+    "answer_type": "expression",
+    "accepted_forms": [
+      "(x^2+51*x+2601)*(x-51)"
+    ],
+    "solution_latex": "Use $a^3-b^3=(a-b)(a^2+ab+b^2)$ with $a=x$ and $b=51$.",
+    "complexity_factor": 1.05,
+    "source_section": "11.3",
+    "tags": [
+      "special-factorization",
+      "sum-difference-cubes",
+      "factoring"
+    ],
+    "checksum": "sha256-5493683732a354a2b425db7a96b19b22d1e0faede55b992f7fc7855657891335",
+    "status": "valid"
+  }
+]

@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "ch20.floor_ceiling.medium.0001",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "How many integers $n$ satisfy $\\left\\lfloor\\frac{n}{2}\\right\\rfloor=-4$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The condition is $-8\\le n<-6$, so the integers are $-8$ through $-7$, a total of $2$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "integers",
+      "counting"
+    ],
+    "checksum": "sha256-1e34ef4164e5dc917cc6b4ac55d244c519638458c988ed5559d4a1b01dae9aec",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.medium.0002",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\left\\lfloor\\frac{19}{5}\\right\\rfloor+\\left\\lceil\\frac{14}{4}\\right\\rceil$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\left\\lfloor 19/5\\right\\rfloor=3$ and $\\left\\lceil 14/4\\right\\rceil=4$, so the sum is $7$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-11146d6f0475b5810b64733231880a7ac8561e2794faf103745901eeabb52da7",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.medium.0003",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "How many integers $n$ satisfy $\\left\\lfloor\\frac{n}{4}\\right\\rfloor=-3$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The condition is $-12\\le n<-8$, so the integers are $-12$ through $-9$, a total of $4$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "integers",
+      "counting"
+    ],
+    "checksum": "sha256-0788d50b4ea00231faa3ff826fbf22e053b5f5d4a2bb10c1700be73df7af52d3",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.medium.0004",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\left\\lfloor\\frac{29}{6}\\right\\rfloor+\\left\\lceil\\frac{20}{8}\\right\\rceil$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\left\\lfloor 29/6\\right\\rfloor=4$ and $\\left\\lceil 20/8\\right\\rceil=3$, so the sum is $7$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-04feb72d88ead869b9d5b2f121cc9f88cd08f082ff812d93c002edd0290c2285",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.medium.0005",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "How many integers $n$ satisfy $\\left\\lfloor\\frac{n}{6}\\right\\rfloor=3$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The condition is $18\\le n<24$, so the integers are $18$ through $23$, a total of $6$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "integers",
+      "counting"
+    ],
+    "checksum": "sha256-aa9c7d37ad58847e8364e92d75bbac22d3c90d6992d59c082d5381a2d4dd113d",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.medium.0006",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\left\\lfloor\\frac{18}{7}\\right\\rfloor+\\left\\lceil\\frac{-25}{9}\\right\\rceil$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\left\\lfloor 18/7\\right\\rfloor=2$ and $\\left\\lceil -25/9\\right\\rceil=-2$, so the sum is $0$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-ef277cb2637a940dedbc541a0ac10ea6c10b934c6f3fa0d01077f0be982e7dc7",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.medium.0007",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "How many integers $n$ satisfy $\\left\\lfloor\\frac{n}{3}\\right\\rfloor=6$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The condition is $18\\le n<21$, so the integers are $18$ through $20$, a total of $3$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "integers",
+      "counting"
+    ],
+    "checksum": "sha256-5aad685d62d2d65cf706f82bdecff35c6a1792625b1572df2699d0302de72f30",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.medium.0008",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\left\\lfloor\\frac{24}{8}\\right\\rfloor+\\left\\lceil\\frac{-21}{13}\\right\\rceil$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\left\\lfloor 24/8\\right\\rfloor=3$ and $\\left\\lceil -21/13\\right\\rceil=-1$, so the sum is $2$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-db307d47107ebe51b9631d2f01345e2af3d7351114d33b30d001360fdd2a9a49",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.medium.0009",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "How many integers $n$ satisfy $\\left\\lfloor\\frac{n}{5}\\right\\rfloor=9$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The condition is $45\\le n<50$, so the integers are $45$ through $49$, a total of $5$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "integers",
+      "counting"
+    ],
+    "checksum": "sha256-11f42d2910c176263c119247509841eab32645c316c9d63cbd76bece99e3b6f5",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.medium.0010",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\left\\lfloor\\frac{32}{9}\\right\\rfloor+\\left\\lceil\\frac{-18}{14}\\right\\rceil$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\left\\lfloor 32/9\\right\\rfloor=3$ and $\\left\\lceil -18/14\\right\\rceil=-1$, so the sum is $2$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-1c742ad9761c2add9b525c452c6f595ba8e14f9c9bd019bc69e8d1fc3b888afb",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.medium.0011",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "How many integers $n$ satisfy $\\left\\lfloor\\frac{n}{7}\\right\\rfloor=-10$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The condition is $-70\\le n<-63$, so the integers are $-70$ through $-64$, a total of $7$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "integers",
+      "counting"
+    ],
+    "checksum": "sha256-38adbd1ff3e4629ed1c4b638ce20c9a3694359132395f6869005797e749a0b35",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.medium.0012",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\left\\lfloor\\frac{21}{10}\\right\\rfloor+\\left\\lceil\\frac{20}{18}\\right\\rceil$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\left\\lfloor 21/10\\right\\rfloor=2$ and $\\left\\lceil 20/18\\right\\rceil=2$, so the sum is $4$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-32e0f8c409e279a53374775d889e0c8195d5c5453f47e8e784e4ed737352ac82",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.medium.0013",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "How many integers $n$ satisfy $\\left\\lfloor\\frac{n}{4}\\right\\rfloor=-9$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The condition is $-36\\le n<-32$, so the integers are $-36$ through $-33$, a total of $4$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "integers",
+      "counting"
+    ],
+    "checksum": "sha256-404a23c5411ea7d392195e11f5d36a464352d872a6a071c943f4f672a249d080",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.medium.0014",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\left\\lfloor\\frac{31}{11}\\right\\rfloor+\\left\\lceil\\frac{26}{19}\\right\\rceil$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\left\\lfloor 31/11\\right\\rfloor=2$ and $\\left\\lceil 26/19\\right\\rceil=2$, so the sum is $4$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-b3b16f133fc5b7c325f5201f2905c7be66ad80fcbd20d1c84ed16938bc644bcf",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.medium.0015",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "How many integers $n$ satisfy $\\left\\lfloor\\frac{n}{6}\\right\\rfloor=9$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$5$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The condition is $54\\le n<60$, so the integers are $54$ through $59$, a total of $6$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "integers",
+      "counting"
+    ],
+    "checksum": "sha256-66069fcff3832b917eb7e70c625902d7002634292e766ae734da142e97db59e7",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.medium.0016",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\left\\lfloor\\frac{20}{12}\\right\\rfloor+\\left\\lceil\\frac{-31}{23}\\right\\rceil$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-1$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$0$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\left\\lfloor 20/12\\right\\rfloor=1$ and $\\left\\lceil -31/23\\right\\rceil=-1$, so the sum is $0$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-d8c34634a79adcea8c46be4e1832e0b277b9be26819b1e8607d368fc0eece0fd",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.medium.0017",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "How many integers $n$ satisfy $\\left\\lfloor\\frac{n}{8}\\right\\rfloor=12$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The condition is $96\\le n<104$, so the integers are $96$ through $103$, a total of $8$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "integers",
+      "counting"
+    ],
+    "checksum": "sha256-65f4b5ce56ad1564550c3f24349f94c46d147f041ca43fa10d6701bc4cbfae73",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.medium.0018",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\left\\lfloor\\frac{26}{13}\\right\\rfloor+\\left\\lceil\\frac{-27}{24}\\right\\rceil$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\left\\lfloor 26/13\\right\\rfloor=2$ and $\\left\\lceil -27/24\\right\\rceil=-1$, so the sum is $1$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-c76903baaab1707f72134697985c43d23612a533ce4e74871f4077641caf528c",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.medium.0019",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "How many integers $n$ satisfy $\\left\\lfloor\\frac{n}{5}\\right\\rfloor=15$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$15$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The condition is $75\\le n<80$, so the integers are $75$ through $79$, a total of $5$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "integers",
+      "counting"
+    ],
+    "checksum": "sha256-746a4e5df9de5c1fc30b76886816dc065412ad94addd7df4f47e78236bd8aa10",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.medium.0020",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\left\\lfloor\\frac{34}{14}\\right\\rfloor+\\left\\lceil\\frac{-24}{28}\\right\\rceil$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\left\\lfloor 34/14\\right\\rfloor=2$ and $\\left\\lceil -24/28\\right\\rceil=0$, so the sum is $2$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-5d9e41c4c72ab37f0fc3bfbd9ddcc1453a41f5cc8ed8faedd911fcf162af3dea",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.medium.0021",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "How many integers $n$ satisfy $\\left\\lfloor\\frac{n}{7}\\right\\rfloor=-16$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$16$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The condition is $-112\\le n<-105$, so the integers are $-112$ through $-106$, a total of $7$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "integers",
+      "counting"
+    ],
+    "checksum": "sha256-f50c309abf38dc1e2fa74ce3c7b3cca5b86f9c9f84d87a5c394f6547374f8043",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.medium.0022",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\left\\lfloor\\frac{23}{15}\\right\\rfloor+\\left\\lceil\\frac{26}{29}\\right\\rceil$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\left\\lfloor 23/15\\right\\rfloor=1$ and $\\left\\lceil 26/29\\right\\rceil=1$, so the sum is $2$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-0eae8435da54013b63d7225501bf36e8451498e3a68fa3e61da835f2f874e836",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.medium.0023",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "How many integers $n$ satisfy $\\left\\lfloor\\frac{n}{9}\\right\\rfloor=-15$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$15$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The condition is $-135\\le n<-126$, so the integers are $-135$ through $-127$, a total of $9$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "integers",
+      "counting"
+    ],
+    "checksum": "sha256-105859d328d7c6ae3174d61fa3b00fe154c1af327009d0f4ececa3a464bd751d",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.medium.0024",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\left\\lfloor\\frac{33}{16}\\right\\rfloor+\\left\\lceil\\frac{32}{33}\\right\\rceil$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\left\\lfloor 33/16\\right\\rfloor=2$ and $\\left\\lceil 32/33\\right\\rceil=1$, so the sum is $3$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-5aef2ded615b7c33eb97529c0373c8b283af47bc52ee4f53e6bca23bde2dac5b",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.medium.0025",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "How many integers $n$ satisfy $\\left\\lfloor\\frac{n}{6}\\right\\rfloor=15$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$6$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$15$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The condition is $90\\le n<96$, so the integers are $90$ through $95$, a total of $6$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "integers",
+      "counting"
+    ],
+    "checksum": "sha256-9d54dce1f3050302dc86610ff46a5325d58c9155d04ed00e8b7378987a7d61fc",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.medium.0026",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\left\\lfloor\\frac{22}{17}\\right\\rfloor+\\left\\lceil\\frac{-37}{34}\\right\\rceil$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\left\\lfloor 22/17\\right\\rfloor=1$ and $\\left\\lceil -37/34\\right\\rceil=-1$, so the sum is $0$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-84906975b55a7d7afd74c733acb3984c39240fad1377a2efa3b2d12ba51542e7",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.medium.0027",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "How many integers $n$ satisfy $\\left\\lfloor\\frac{n}{8}\\right\\rfloor=18$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$18$"
+      },
+      {
+        "id": "c",
+        "latex": "$8$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The condition is $144\\le n<152$, so the integers are $144$ through $151$, a total of $8$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "integers",
+      "counting"
+    ],
+    "checksum": "sha256-01820bfae05bbc1f464fd133472a12916a00564a9ed11548cf287a3cbe2dc338",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.medium.0028",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\left\\lfloor\\frac{28}{18}\\right\\rfloor+\\left\\lceil\\frac{-33}{38}\\right\\rceil$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\left\\lfloor 28/18\\right\\rfloor=1$ and $\\left\\lceil -33/38\\right\\rceil=0$, so the sum is $1$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-e5eb99718352929a950ca078ca6f719272dfb997aee25c41cd1e4dab67782684",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.medium.0029",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "How many integers $n$ satisfy $\\left\\lfloor\\frac{n}{10}\\right\\rfloor=21$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$21$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The condition is $210\\le n<220$, so the integers are $210$ through $219$, a total of $10$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "integers",
+      "counting"
+    ],
+    "checksum": "sha256-139d2ae1576a8bc64fb2f0e3730257ff22edd6a51b8cd35956bc8e841e32e859",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.medium.0030",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\left\\lfloor\\frac{36}{19}\\right\\rfloor+\\left\\lceil\\frac{-30}{39}\\right\\rceil$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\left\\lfloor 36/19\\right\\rfloor=1$ and $\\left\\lceil -30/39\\right\\rceil=0$, so the sum is $1$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-43a4470b9a9b1b1b25df419f686ea823dafd02e2f38d3570c8d1950b8ac1c189",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.medium.0031",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "How many integers $n$ satisfy $\\left\\lfloor\\frac{n}{7}\\right\\rfloor=-22$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$22$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The condition is $-154\\le n<-147$, so the integers are $-154$ through $-148$, a total of $7$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "integers",
+      "counting"
+    ],
+    "checksum": "sha256-b8c178197b4fa165b8fd7c4ce02daea14e604d6bb6fa8b18e0649c5c2b7c5e9d",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.medium.0032",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\left\\lfloor\\frac{25}{20}\\right\\rfloor+\\left\\lceil\\frac{32}{43}\\right\\rceil$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\left\\lfloor 25/20\\right\\rfloor=1$ and $\\left\\lceil 32/43\\right\\rceil=1$, so the sum is $2$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-8041c106b9ff411f0e554f50066b80a990c2b82c16603b636a4f3a47afce1585",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.medium.0033",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "How many integers $n$ satisfy $\\left\\lfloor\\frac{n}{9}\\right\\rfloor=-21$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$21$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The condition is $-189\\le n<-180$, so the integers are $-189$ through $-181$, a total of $9$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "integers",
+      "counting"
+    ],
+    "checksum": "sha256-5df8cddccc4a4b02d42e3af236972795e1d2c0497a6d1061bce71c0c97e347a7",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.medium.0034",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\left\\lfloor\\frac{35}{21}\\right\\rfloor+\\left\\lceil\\frac{38}{44}\\right\\rceil$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\left\\lfloor 35/21\\right\\rfloor=1$ and $\\left\\lceil 38/44\\right\\rceil=1$, so the sum is $2$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-2982253e5f750447c671e1f48c1fdfefc909a4c2418e19c4cd3ef030704afcf7",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.medium.0035",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "How many integers $n$ satisfy $\\left\\lfloor\\frac{n}{11}\\right\\rfloor=21$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12$"
+      },
+      {
+        "id": "b",
+        "latex": "$21$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "11",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The condition is $231\\le n<242$, so the integers are $231$ through $241$, a total of $11$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "integers",
+      "counting"
+    ],
+    "checksum": "sha256-2818cb8483e0516b6ef68c213f41766a8f2039bccf47635576a5eea3d78ec01c",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.medium.0036",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\left\\lfloor\\frac{24}{22}\\right\\rfloor+\\left\\lceil\\frac{-43}{48}\\right\\rceil$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\left\\lfloor 24/22\\right\\rfloor=1$ and $\\left\\lceil -43/48\\right\\rceil=0$, so the sum is $1$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-f856e90e810c32a632ea6ff4c7f123c640a1b047af3bd109b0903c8ba010550f",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.medium.0037",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "How many integers $n$ satisfy $\\left\\lfloor\\frac{n}{8}\\right\\rfloor=24$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$24$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The condition is $192\\le n<200$, so the integers are $192$ through $199$, a total of $8$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "integers",
+      "counting"
+    ],
+    "checksum": "sha256-246868583ab6a54a145b70fd7c4fba17a2666d274f7b86285a2b42cc2308618c",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.medium.0038",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\left\\lfloor\\frac{30}{23}\\right\\rfloor+\\left\\lceil\\frac{-39}{49}\\right\\rceil$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\left\\lfloor 30/23\\right\\rfloor=1$ and $\\left\\lceil -39/49\\right\\rceil=0$, so the sum is $1$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-35c25655cffc1ddabf8c2a8347a1935c3a186b840b0706a1c3dbf9c62c4b6a69",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.medium.0039",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "How many integers $n$ satisfy $\\left\\lfloor\\frac{n}{10}\\right\\rfloor=27$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11$"
+      },
+      {
+        "id": "b",
+        "latex": "$27$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$9$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The condition is $270\\le n<280$, so the integers are $270$ through $279$, a total of $10$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "integers",
+      "counting"
+    ],
+    "checksum": "sha256-1ed986147e3426a94865b8d0b8ff35053331f71c753590c8f574f4b5f397d0ef",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.medium.0040",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\left\\lfloor\\frac{38}{24}\\right\\rfloor+\\left\\lceil\\frac{-36}{53}\\right\\rceil$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\left\\lfloor 38/24\\right\\rfloor=1$ and $\\left\\lceil -36/53\\right\\rceil=0$, so the sum is $1$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-04788b26103719b73ed2805e8c1988ce633604d1e29ea1b7c4cb0248c272425f",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.medium.0041",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "How many integers $n$ satisfy $\\left\\lfloor\\frac{n}{12}\\right\\rfloor=-28$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12$"
+      },
+      {
+        "id": "b",
+        "latex": "$11$"
+      },
+      {
+        "id": "c",
+        "latex": "$13$"
+      },
+      {
+        "id": "d",
+        "latex": "$28$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The condition is $-336\\le n<-324$, so the integers are $-336$ through $-325$, a total of $12$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "integers",
+      "counting"
+    ],
+    "checksum": "sha256-cd275ac649a5013817e9f39613a8973e27b3112ae6ce81d6b7da2cfa72b8b538",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.medium.0042",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\left\\lfloor\\frac{27}{25}\\right\\rfloor+\\left\\lceil\\frac{38}{54}\\right\\rceil$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$1$"
+      },
+      {
+        "id": "d",
+        "latex": "$3$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\left\\lfloor 27/25\\right\\rfloor=1$ and $\\left\\lceil 38/54\\right\\rceil=1$, so the sum is $2$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-7a65b2ae105d4ca5299078b33d92b157a8e9551bb34abb903787e500cdbf2392",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.medium.0043",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "How many integers $n$ satisfy $\\left\\lfloor\\frac{n}{9}\\right\\rfloor=-27$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$27$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The condition is $-243\\le n<-234$, so the integers are $-243$ through $-235$, a total of $9$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "integers",
+      "counting"
+    ],
+    "checksum": "sha256-fabf0dc90838b26938b1229d40364713514e35098488f6b1384f6ffaf838e6a2",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.medium.0044",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\left\\lfloor\\frac{37}{26}\\right\\rfloor+\\left\\lceil\\frac{44}{58}\\right\\rceil$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$1$"
+      },
+      {
+        "id": "b",
+        "latex": "$3$"
+      },
+      {
+        "id": "c",
+        "latex": "$4$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\left\\lfloor 37/26\\right\\rfloor=1$ and $\\left\\lceil 44/58\\right\\rceil=1$, so the sum is $2$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-d3443298433dc266eced33c8330f326dcccc2da1f13decc73329bc905a991ac4",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.medium.0045",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "How many integers $n$ satisfy $\\left\\lfloor\\frac{n}{11}\\right\\rfloor=27$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$12$"
+      },
+      {
+        "id": "d",
+        "latex": "$27$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "11",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The condition is $297\\le n<308$, so the integers are $297$ through $307$, a total of $11$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "integers",
+      "counting"
+    ],
+    "checksum": "sha256-3357a7c3851fbad6026f69c492adc8d5e6e8c05936b66f707d5c46572b7026ff",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.medium.0046",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\left\\lfloor\\frac{26}{27}\\right\\rfloor+\\left\\lceil\\frac{-49}{59}\\right\\rceil$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$2$"
+      },
+      {
+        "id": "b",
+        "latex": "$0$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "0",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\left\\lfloor 26/27\\right\\rfloor=0$ and $\\left\\lceil -49/59\\right\\rceil=0$, so the sum is $0$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-eb3e94c859adf3a5af3762602519f9fbd466fe2b15e8d0c88decff69bb9488e1",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.medium.0047",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "How many integers $n$ satisfy $\\left\\lfloor\\frac{n}{13}\\right\\rfloor=30$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$14$"
+      },
+      {
+        "id": "b",
+        "latex": "$30$"
+      },
+      {
+        "id": "c",
+        "latex": "$13$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "13",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The condition is $390\\le n<403$, so the integers are $390$ through $402$, a total of $13$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "integers",
+      "counting"
+    ],
+    "checksum": "sha256-7b78501c0bf0c38b9feb1cafbc5e521018588214f4ded4a423329b1338a3e646",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.medium.0048",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\left\\lfloor\\frac{32}{28}\\right\\rfloor+\\left\\lceil\\frac{-45}{63}\\right\\rceil$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$2$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\left\\lfloor 32/28\\right\\rfloor=1$ and $\\left\\lceil -45/63\\right\\rceil=0$, so the sum is $1$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-f546a588815b4db041e51bc7f870bbf0024b89b73923175d7699365236a7c16c",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.medium.0049",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "How many integers $n$ satisfy $\\left\\lfloor\\frac{n}{10}\\right\\rfloor=33$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$10$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$33$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "The condition is $330\\le n<340$, so the integers are $330$ through $339$, a total of $10$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "integers",
+      "counting"
+    ],
+    "checksum": "sha256-9ab9432177ce66e3625ef05e026efe22a660abd38dd9d116dd2496bb97f3f42c",
+    "status": "valid"
+  },
+  {
+    "id": "ch20.floor_ceiling.medium.0050",
+    "topic_id": "ch20.floor_ceiling",
+    "group_id": "ch20_special_functions",
+    "difficulty": "medium",
+    "prompt_latex": "Evaluate $\\left\\lfloor\\frac{40}{29}\\right\\rfloor+\\left\\lceil\\frac{-42}{64}\\right\\rceil$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$0$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "$\\left\\lfloor 40/29\\right\\rfloor=1$ and $\\left\\lceil -42/64\\right\\rceil=0$, so the sum is $1$.",
+    "complexity_factor": 1.2,
+    "source_section": "20.3",
+    "tags": [
+      "floor",
+      "ceiling",
+      "evaluation"
+    ],
+    "checksum": "sha256-6c13df97c51350756ae71cba944a9b8d4096c506512284dd42789b486b31f273",
+    "status": "valid"
+  }
+]

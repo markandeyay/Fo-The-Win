@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "ch16.the_machine.hard.0001",
+    "topic_id": "ch16.the_machine",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=2x - 4$. If $f(f(n))=-28$, find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-12$"
+      },
+      {
+        "id": "c",
+        "latex": "$-3$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(f(n))=2(2n - 4) - 4=4n - 12$, solving $4n - 12=-28$ gives $n=-4$.",
+    "complexity_factor": 1.3,
+    "source_section": "16.1",
+    "tags": [
+      "functions",
+      "evaluation",
+      "composition"
+    ],
+    "checksum": "sha256-20128a2087558e0a045acfb85f4597a9baa295e343f74a4c8bfcaf935d8aea7c",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.the_machine.hard.0002",
+    "topic_id": "ch16.the_machine",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=3x + 2$. If $f(f(n))=-1$, find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$0$"
+      },
+      {
+        "id": "b",
+        "latex": "$1$"
+      },
+      {
+        "id": "c",
+        "latex": "$2$"
+      },
+      {
+        "id": "d",
+        "latex": "$-1$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-1",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(f(n))=3(3n + 2) + 2=9n + 8$, solving $9n + 8=-1$ gives $n=-1$.",
+    "complexity_factor": 1.3,
+    "source_section": "16.1",
+    "tags": [
+      "functions",
+      "evaluation",
+      "composition"
+    ],
+    "checksum": "sha256-218b3410848c123717f9c8e2ccc07588673f28c394d0e17f2b3392b31384385b",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.the_machine.hard.0003",
+    "topic_id": "ch16.the_machine",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=4x + 7$. If $f(f(n))=83$, find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$4$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3$"
+      },
+      {
+        "id": "c",
+        "latex": "$3$"
+      },
+      {
+        "id": "d",
+        "latex": "$19$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(f(n))=4(4n + 7) + 7=16n + 35$, solving $16n + 35=83$ gives $n=3$.",
+    "complexity_factor": 1.3,
+    "source_section": "16.1",
+    "tags": [
+      "functions",
+      "evaluation",
+      "composition"
+    ],
+    "checksum": "sha256-fdbad6cfd69d4172f5497b49ce596159d57582a2d690b598fd053c889b5c0262",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.the_machine.hard.0004",
+    "topic_id": "ch16.the_machine",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=5x - 5$. If $f(f(n))=-155$, find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$-5$"
+      },
+      {
+        "id": "c",
+        "latex": "$-30$"
+      },
+      {
+        "id": "d",
+        "latex": "$-4$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(f(n))=5(5n - 5) - 5=25n - 30$, solving $25n - 30=-155$ gives $n=-5$.",
+    "complexity_factor": 1.3,
+    "source_section": "16.1",
+    "tags": [
+      "functions",
+      "evaluation",
+      "composition"
+    ],
+    "checksum": "sha256-73fae83c36268a124cd965715d3561025754d179383d7795dfd0276949e84e72",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.the_machine.hard.0005",
+    "topic_id": "ch16.the_machine",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=-2x + 3$. If $f(f(n))=-11$, find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-2$"
+      },
+      {
+        "id": "b",
+        "latex": "$7$"
+      },
+      {
+        "id": "c",
+        "latex": "$-1$"
+      },
+      {
+        "id": "d",
+        "latex": "$2$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-2",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(f(n))=-2(-2n + 3) + 3=4n - 3$, solving $4n - 3=-11$ gives $n=-2$.",
+    "complexity_factor": 1.3,
+    "source_section": "16.1",
+    "tags": [
+      "functions",
+      "evaluation",
+      "composition"
+    ],
+    "checksum": "sha256-e122ecb341e620f533758935b83d0050f67bc9297ce7d6a0e6b40526c7df4e12",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.the_machine.hard.0006",
+    "topic_id": "ch16.the_machine",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=-3x + 8$. If $f(f(n))=20$, find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-4$"
+      },
+      {
+        "id": "b",
+        "latex": "$5$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$4$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(f(n))=-3(-3n + 8) + 8=9n - 16$, solving $9n - 16=20$ gives $n=4$.",
+    "complexity_factor": 1.3,
+    "source_section": "16.1",
+    "tags": [
+      "functions",
+      "evaluation",
+      "composition"
+    ],
+    "checksum": "sha256-46cf2b0eb8f5eb319718e5460fd631b153665a790e945282ae486aa70da37e6e",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.the_machine.hard.0007",
+    "topic_id": "ch16.the_machine",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=3x - 6$. If $f(f(n))=-78$, find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-5$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$-6$"
+      },
+      {
+        "id": "d",
+        "latex": "$-24$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(f(n))=3(3n - 6) - 6=9n - 24$, solving $9n - 24=-78$ gives $n=-6$.",
+    "complexity_factor": 1.3,
+    "source_section": "16.1",
+    "tags": [
+      "functions",
+      "evaluation",
+      "composition"
+    ],
+    "checksum": "sha256-f784808b6631b7d7992c33eba7490519edd590a85eb676533490fd10f2ddd47f",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.the_machine.hard.0008",
+    "topic_id": "ch16.the_machine",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=4x + 4$. If $f(f(n))=-28$, find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$3$"
+      },
+      {
+        "id": "b",
+        "latex": "$-3$"
+      },
+      {
+        "id": "c",
+        "latex": "$-8$"
+      },
+      {
+        "id": "d",
+        "latex": "$-2$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-3",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(f(n))=4(4n + 4) + 4=16n + 20$, solving $16n + 20=-28$ gives $n=-3$.",
+    "complexity_factor": 1.3,
+    "source_section": "16.1",
+    "tags": [
+      "functions",
+      "evaluation",
+      "composition"
+    ],
+    "checksum": "sha256-8256326da9aa767deac156f6a0c6440844cc53cb9ab769b2f2ce1188c415739e",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.the_machine.hard.0009",
+    "topic_id": "ch16.the_machine",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=5x + 9$. If $f(f(n))=179$, find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$5$"
+      },
+      {
+        "id": "b",
+        "latex": "$34$"
+      },
+      {
+        "id": "c",
+        "latex": "$6$"
+      },
+      {
+        "id": "d",
+        "latex": "$-5$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(f(n))=5(5n + 9) + 9=25n + 54$, solving $25n + 54=179$ gives $n=5$.",
+    "complexity_factor": 1.3,
+    "source_section": "16.1",
+    "tags": [
+      "functions",
+      "evaluation",
+      "composition"
+    ],
+    "checksum": "sha256-253caf7ad9645f61b2aa2540764490dae8938d35599755e699ab9b2cafdfc0cd",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.the_machine.hard.0010",
+    "topic_id": "ch16.the_machine",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=6x - 7$. If $f(f(n))=-301$, find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-49$"
+      },
+      {
+        "id": "b",
+        "latex": "$-6$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$-7$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(f(n))=6(6n - 7) - 7=36n - 49$, solving $36n - 49=-301$ gives $n=-7$.",
+    "complexity_factor": 1.3,
+    "source_section": "16.1",
+    "tags": [
+      "functions",
+      "evaluation",
+      "composition"
+    ],
+    "checksum": "sha256-b4088084d783a9d132bfd797d760765ea22d75c2c4c5c15c4cffc64ccb9b1460",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.the_machine.hard.0011",
+    "topic_id": "ch16.the_machine",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=-3x + 5$. If $f(f(n))=-46$, find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-3$"
+      },
+      {
+        "id": "b",
+        "latex": "$4$"
+      },
+      {
+        "id": "c",
+        "latex": "$-4$"
+      },
+      {
+        "id": "d",
+        "latex": "$17$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-4",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(f(n))=-3(-3n + 5) + 5=9n - 10$, solving $9n - 10=-46$ gives $n=-4$.",
+    "complexity_factor": 1.3,
+    "source_section": "16.1",
+    "tags": [
+      "functions",
+      "evaluation",
+      "composition"
+    ],
+    "checksum": "sha256-7467c7b69b4cf76248f190b0832c21d5f8a3930691fc2ecad70308508f1fad1b",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.the_machine.hard.0012",
+    "topic_id": "ch16.the_machine",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=-4x + 10$. If $f(f(n))=66$, find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-6$"
+      },
+      {
+        "id": "b",
+        "latex": "$6$"
+      },
+      {
+        "id": "c",
+        "latex": "$-14$"
+      },
+      {
+        "id": "d",
+        "latex": "$7$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(f(n))=-4(-4n + 10) + 10=16n - 30$, solving $16n - 30=66$ gives $n=6$.",
+    "complexity_factor": 1.3,
+    "source_section": "16.1",
+    "tags": [
+      "functions",
+      "evaluation",
+      "composition"
+    ],
+    "checksum": "sha256-5fd3bf163d1b9c894502ca8914c92f5e829f9114de8a72633b7b0b835883efd1",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.the_machine.hard.0013",
+    "topic_id": "ch16.the_machine",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=4x - 8$. If $f(f(n))=-168$, find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-8$"
+      },
+      {
+        "id": "b",
+        "latex": "$-40$"
+      },
+      {
+        "id": "c",
+        "latex": "$-7$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(f(n))=4(4n - 8) - 8=16n - 40$, solving $16n - 40=-168$ gives $n=-8$.",
+    "complexity_factor": 1.3,
+    "source_section": "16.1",
+    "tags": [
+      "functions",
+      "evaluation",
+      "composition"
+    ],
+    "checksum": "sha256-2b64fcc78ccd01d17027ec5e8e9322e65bbbe239cd4291301a13f85d8c42b6be",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.the_machine.hard.0014",
+    "topic_id": "ch16.the_machine",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=5x + 6$. If $f(f(n))=-89$, find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-19$"
+      },
+      {
+        "id": "b",
+        "latex": "$-4$"
+      },
+      {
+        "id": "c",
+        "latex": "$5$"
+      },
+      {
+        "id": "d",
+        "latex": "$-5$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-5",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(f(n))=5(5n + 6) + 6=25n + 36$, solving $25n + 36=-89$ gives $n=-5$.",
+    "complexity_factor": 1.3,
+    "source_section": "16.1",
+    "tags": [
+      "functions",
+      "evaluation",
+      "composition"
+    ],
+    "checksum": "sha256-427c8707862803f29f9620b405710c75d4abc8804889c948b100af4b01204fbf",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.the_machine.hard.0015",
+    "topic_id": "ch16.the_machine",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=6x + 11$. If $f(f(n))=329$, find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$8$"
+      },
+      {
+        "id": "b",
+        "latex": "$-7$"
+      },
+      {
+        "id": "c",
+        "latex": "$7$"
+      },
+      {
+        "id": "d",
+        "latex": "$53$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(f(n))=6(6n + 11) + 11=36n + 77$, solving $36n + 77=329$ gives $n=7$.",
+    "complexity_factor": 1.3,
+    "source_section": "16.1",
+    "tags": [
+      "functions",
+      "evaluation",
+      "composition"
+    ],
+    "checksum": "sha256-17857fdadc490470d6b901f71d1c8ea5d2ad554374f279c3e1a32bda62845e34",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.the_machine.hard.0016",
+    "topic_id": "ch16.the_machine",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=7x - 9$. If $f(f(n))=-513$, find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$-9$"
+      },
+      {
+        "id": "c",
+        "latex": "$-72$"
+      },
+      {
+        "id": "d",
+        "latex": "$-8$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(f(n))=7(7n - 9) - 9=49n - 72$, solving $49n - 72=-513$ gives $n=-9$.",
+    "complexity_factor": 1.3,
+    "source_section": "16.1",
+    "tags": [
+      "functions",
+      "evaluation",
+      "composition"
+    ],
+    "checksum": "sha256-bb79636a69e1861870e557f1662701380bbe3768af8771aa948f31434441b8e7",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.the_machine.hard.0017",
+    "topic_id": "ch16.the_machine",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=-4x + 7$. If $f(f(n))=-117$, find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-6$"
+      },
+      {
+        "id": "b",
+        "latex": "$31$"
+      },
+      {
+        "id": "c",
+        "latex": "$-5$"
+      },
+      {
+        "id": "d",
+        "latex": "$6$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-6",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(f(n))=-4(-4n + 7) + 7=16n - 21$, solving $16n - 21=-117$ gives $n=-6$.",
+    "complexity_factor": 1.3,
+    "source_section": "16.1",
+    "tags": [
+      "functions",
+      "evaluation",
+      "composition"
+    ],
+    "checksum": "sha256-9cef36dff5e59597df21e1dcf1049d1263018ba0ce90f98356c16000b2b8a6e4",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.the_machine.hard.0018",
+    "topic_id": "ch16.the_machine",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=-5x + 12$. If $f(f(n))=152$, find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-28$"
+      },
+      {
+        "id": "b",
+        "latex": "$9$"
+      },
+      {
+        "id": "c",
+        "latex": "$-8$"
+      },
+      {
+        "id": "d",
+        "latex": "$8$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(f(n))=-5(-5n + 12) + 12=25n - 48$, solving $25n - 48=152$ gives $n=8$.",
+    "complexity_factor": 1.3,
+    "source_section": "16.1",
+    "tags": [
+      "functions",
+      "evaluation",
+      "composition"
+    ],
+    "checksum": "sha256-e2a1aed5d250aa55307797c87b847cdc38496c60e56eb0ece3f82011aa659bef",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.the_machine.hard.0019",
+    "topic_id": "ch16.the_machine",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=5x - 10$. If $f(f(n))=-310$, find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-9$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$-10$"
+      },
+      {
+        "id": "d",
+        "latex": "$-60$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(f(n))=5(5n - 10) - 10=25n - 60$, solving $25n - 60=-310$ gives $n=-10$.",
+    "complexity_factor": 1.3,
+    "source_section": "16.1",
+    "tags": [
+      "functions",
+      "evaluation",
+      "composition"
+    ],
+    "checksum": "sha256-d29ece64d5f629d0c16fc6e64916bf65f5a751bdbd58f3f33841e89e4c1b7053",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.the_machine.hard.0020",
+    "topic_id": "ch16.the_machine",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=6x + 8$. If $f(f(n))=-196$, find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$7$"
+      },
+      {
+        "id": "b",
+        "latex": "$-7$"
+      },
+      {
+        "id": "c",
+        "latex": "$-34$"
+      },
+      {
+        "id": "d",
+        "latex": "$-6$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-7",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(f(n))=6(6n + 8) + 8=36n + 56$, solving $36n + 56=-196$ gives $n=-7$.",
+    "complexity_factor": 1.3,
+    "source_section": "16.1",
+    "tags": [
+      "functions",
+      "evaluation",
+      "composition"
+    ],
+    "checksum": "sha256-fd36e50471473239178f8c7f83c1147425187e49a0514742dae4b25eb2faa4ec",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.the_machine.hard.0021",
+    "topic_id": "ch16.the_machine",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=7x + 13$. If $f(f(n))=545$, find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$9$"
+      },
+      {
+        "id": "b",
+        "latex": "$76$"
+      },
+      {
+        "id": "c",
+        "latex": "$10$"
+      },
+      {
+        "id": "d",
+        "latex": "$-9$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(f(n))=7(7n + 13) + 13=49n + 104$, solving $49n + 104=545$ gives $n=9$.",
+    "complexity_factor": 1.3,
+    "source_section": "16.1",
+    "tags": [
+      "functions",
+      "evaluation",
+      "composition"
+    ],
+    "checksum": "sha256-1efba83594c6ac469984bbf7df75720e670d2bda5ec8476df82a84300484bcbd",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.the_machine.hard.0022",
+    "topic_id": "ch16.the_machine",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=8x - 11$. If $f(f(n))=-803$, find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-99$"
+      },
+      {
+        "id": "b",
+        "latex": "$-10$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$-11$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-11",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(f(n))=8(8n - 11) - 11=64n - 99$, solving $64n - 99=-803$ gives $n=-11$.",
+    "complexity_factor": 1.3,
+    "source_section": "16.1",
+    "tags": [
+      "functions",
+      "evaluation",
+      "composition"
+    ],
+    "checksum": "sha256-f0a2ade1ac16a82717fa9588207ee6f4460741c77db37e64fc8054d2e65989d1",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.the_machine.hard.0023",
+    "topic_id": "ch16.the_machine",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=-5x + 9$. If $f(f(n))=-236$, find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-7$"
+      },
+      {
+        "id": "b",
+        "latex": "$8$"
+      },
+      {
+        "id": "c",
+        "latex": "$-8$"
+      },
+      {
+        "id": "d",
+        "latex": "$49$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-8",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(f(n))=-5(-5n + 9) + 9=25n - 36$, solving $25n - 36=-236$ gives $n=-8$.",
+    "complexity_factor": 1.3,
+    "source_section": "16.1",
+    "tags": [
+      "functions",
+      "evaluation",
+      "composition"
+    ],
+    "checksum": "sha256-f90d8edfd6a1039fd0bbed57902731310438d8d60cd63527252373cb8d84c13c",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.the_machine.hard.0024",
+    "topic_id": "ch16.the_machine",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=-6x + 14$. If $f(f(n))=290$, find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-10$"
+      },
+      {
+        "id": "b",
+        "latex": "$10$"
+      },
+      {
+        "id": "c",
+        "latex": "$-46$"
+      },
+      {
+        "id": "d",
+        "latex": "$11$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(f(n))=-6(-6n + 14) + 14=36n - 70$, solving $36n - 70=290$ gives $n=10$.",
+    "complexity_factor": 1.3,
+    "source_section": "16.1",
+    "tags": [
+      "functions",
+      "evaluation",
+      "composition"
+    ],
+    "checksum": "sha256-0fc07c84e094a8cc6fc743513868feb8695f9621a68d52833175041073e6ea3d",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.the_machine.hard.0025",
+    "topic_id": "ch16.the_machine",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=6x - 12$. If $f(f(n))=-516$, find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-12$"
+      },
+      {
+        "id": "b",
+        "latex": "$-84$"
+      },
+      {
+        "id": "c",
+        "latex": "$-11$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(f(n))=6(6n - 12) - 12=36n - 84$, solving $36n - 84=-516$ gives $n=-12$.",
+    "complexity_factor": 1.3,
+    "source_section": "16.1",
+    "tags": [
+      "functions",
+      "evaluation",
+      "composition"
+    ],
+    "checksum": "sha256-f27106d7d9d58a63dd2e556af72a285b1fd8ce21f39ae1d10810c1b70a95bb0d",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.the_machine.hard.0026",
+    "topic_id": "ch16.the_machine",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=7x + 10$. If $f(f(n))=-361$, find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-53$"
+      },
+      {
+        "id": "b",
+        "latex": "$-8$"
+      },
+      {
+        "id": "c",
+        "latex": "$9$"
+      },
+      {
+        "id": "d",
+        "latex": "$-9$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-9",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(f(n))=7(7n + 10) + 10=49n + 80$, solving $49n + 80=-361$ gives $n=-9$.",
+    "complexity_factor": 1.3,
+    "source_section": "16.1",
+    "tags": [
+      "functions",
+      "evaluation",
+      "composition"
+    ],
+    "checksum": "sha256-2bc00751790ca1e7a8e151fc3ea85c3f5f7377adb2381be446327ad7dcde5277",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.the_machine.hard.0027",
+    "topic_id": "ch16.the_machine",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=8x + 15$. If $f(f(n))=839$, find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$12$"
+      },
+      {
+        "id": "b",
+        "latex": "$-11$"
+      },
+      {
+        "id": "c",
+        "latex": "$11$"
+      },
+      {
+        "id": "d",
+        "latex": "$103$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "11",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(f(n))=8(8n + 15) + 15=64n + 135$, solving $64n + 135=839$ gives $n=11$.",
+    "complexity_factor": 1.3,
+    "source_section": "16.1",
+    "tags": [
+      "functions",
+      "evaluation",
+      "composition"
+    ],
+    "checksum": "sha256-080d2dbee4241aedc27b8ad028d8ea3ff49cf98bf4ba141f75f2564d55ec80ba",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.the_machine.hard.0028",
+    "topic_id": "ch16.the_machine",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=9x - 13$. If $f(f(n))=-1183$, find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$13$"
+      },
+      {
+        "id": "b",
+        "latex": "$-13$"
+      },
+      {
+        "id": "c",
+        "latex": "$-130$"
+      },
+      {
+        "id": "d",
+        "latex": "$-12$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-13",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(f(n))=9(9n - 13) - 13=81n - 130$, solving $81n - 130=-1183$ gives $n=-13$.",
+    "complexity_factor": 1.3,
+    "source_section": "16.1",
+    "tags": [
+      "functions",
+      "evaluation",
+      "composition"
+    ],
+    "checksum": "sha256-13dfe672b702a8c29da746eaae44d6e3db2a764dd69701699233ab25eb102799",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.the_machine.hard.0029",
+    "topic_id": "ch16.the_machine",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=-6x + 11$. If $f(f(n))=-415$, find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-10$"
+      },
+      {
+        "id": "b",
+        "latex": "$71$"
+      },
+      {
+        "id": "c",
+        "latex": "$-9$"
+      },
+      {
+        "id": "d",
+        "latex": "$10$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-10",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(f(n))=-6(-6n + 11) + 11=36n - 55$, solving $36n - 55=-415$ gives $n=-10$.",
+    "complexity_factor": 1.3,
+    "source_section": "16.1",
+    "tags": [
+      "functions",
+      "evaluation",
+      "composition"
+    ],
+    "checksum": "sha256-d6d0946aa5a1db0bde0c52ea2ebeaffed9e7ea845b373abadd7b544535a582f4",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.the_machine.hard.0030",
+    "topic_id": "ch16.the_machine",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=-7x + 16$. If $f(f(n))=492$, find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-68$"
+      },
+      {
+        "id": "b",
+        "latex": "$13$"
+      },
+      {
+        "id": "c",
+        "latex": "$-12$"
+      },
+      {
+        "id": "d",
+        "latex": "$12$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(f(n))=-7(-7n + 16) + 16=49n - 96$, solving $49n - 96=492$ gives $n=12$.",
+    "complexity_factor": 1.3,
+    "source_section": "16.1",
+    "tags": [
+      "functions",
+      "evaluation",
+      "composition"
+    ],
+    "checksum": "sha256-0f77f6e5c52d054e1efbe1a6296d23b85118591912b0094b7331fdffed9a4de1",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.the_machine.hard.0031",
+    "topic_id": "ch16.the_machine",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=7x - 14$. If $f(f(n))=-798$, find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-13$"
+      },
+      {
+        "id": "b",
+        "latex": "$14$"
+      },
+      {
+        "id": "c",
+        "latex": "$-14$"
+      },
+      {
+        "id": "d",
+        "latex": "$-112$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-14",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(f(n))=7(7n - 14) - 14=49n - 112$, solving $49n - 112=-798$ gives $n=-14$.",
+    "complexity_factor": 1.3,
+    "source_section": "16.1",
+    "tags": [
+      "functions",
+      "evaluation",
+      "composition"
+    ],
+    "checksum": "sha256-e149156b210d7b30ce43ab49aa9a7cd2a1c411d83b89c5db6567bbb887b76632",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.the_machine.hard.0032",
+    "topic_id": "ch16.the_machine",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=8x + 12$. If $f(f(n))=-596$, find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$11$"
+      },
+      {
+        "id": "b",
+        "latex": "$-11$"
+      },
+      {
+        "id": "c",
+        "latex": "$-76$"
+      },
+      {
+        "id": "d",
+        "latex": "$-10$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-11",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(f(n))=8(8n + 12) + 12=64n + 108$, solving $64n + 108=-596$ gives $n=-11$.",
+    "complexity_factor": 1.3,
+    "source_section": "16.1",
+    "tags": [
+      "functions",
+      "evaluation",
+      "composition"
+    ],
+    "checksum": "sha256-6323298dab557fd6822a45023aceaa0a8f204776b180e1c34922c9df1e2ceefd",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.the_machine.hard.0033",
+    "topic_id": "ch16.the_machine",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=9x + 17$. If $f(f(n))=1223$, find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$13$"
+      },
+      {
+        "id": "b",
+        "latex": "$134$"
+      },
+      {
+        "id": "c",
+        "latex": "$14$"
+      },
+      {
+        "id": "d",
+        "latex": "$-13$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "13",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(f(n))=9(9n + 17) + 17=81n + 170$, solving $81n + 170=1223$ gives $n=13$.",
+    "complexity_factor": 1.3,
+    "source_section": "16.1",
+    "tags": [
+      "functions",
+      "evaluation",
+      "composition"
+    ],
+    "checksum": "sha256-6051fc65b5725fdc37421bfb20007a404518a41ae7a3e9af54c7b4b044d6eb96",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.the_machine.hard.0034",
+    "topic_id": "ch16.the_machine",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=10x - 15$. If $f(f(n))=-1665$, find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-165$"
+      },
+      {
+        "id": "b",
+        "latex": "$-14$"
+      },
+      {
+        "id": "c",
+        "latex": "$15$"
+      },
+      {
+        "id": "d",
+        "latex": "$-15$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-15",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(f(n))=10(10n - 15) - 15=100n - 165$, solving $100n - 165=-1665$ gives $n=-15$.",
+    "complexity_factor": 1.3,
+    "source_section": "16.1",
+    "tags": [
+      "functions",
+      "evaluation",
+      "composition"
+    ],
+    "checksum": "sha256-786d8a08169dd9f97acf08e0ac97da99eee8b336e25c5b71ba9d788c82afbf36",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.the_machine.hard.0035",
+    "topic_id": "ch16.the_machine",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=-7x + 13$. If $f(f(n))=-666$, find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-11$"
+      },
+      {
+        "id": "b",
+        "latex": "$12$"
+      },
+      {
+        "id": "c",
+        "latex": "$-12$"
+      },
+      {
+        "id": "d",
+        "latex": "$97$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-12",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(f(n))=-7(-7n + 13) + 13=49n - 78$, solving $49n - 78=-666$ gives $n=-12$.",
+    "complexity_factor": 1.3,
+    "source_section": "16.1",
+    "tags": [
+      "functions",
+      "evaluation",
+      "composition"
+    ],
+    "checksum": "sha256-030bf138c2add892df459f9fe06c2bf7825f6a10c7698ba8cb4bb263df916054",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.the_machine.hard.0036",
+    "topic_id": "ch16.the_machine",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=-8x + 18$. If $f(f(n))=770$, find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-14$"
+      },
+      {
+        "id": "b",
+        "latex": "$14$"
+      },
+      {
+        "id": "c",
+        "latex": "$-94$"
+      },
+      {
+        "id": "d",
+        "latex": "$15$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "14",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(f(n))=-8(-8n + 18) + 18=64n - 126$, solving $64n - 126=770$ gives $n=14$.",
+    "complexity_factor": 1.3,
+    "source_section": "16.1",
+    "tags": [
+      "functions",
+      "evaluation",
+      "composition"
+    ],
+    "checksum": "sha256-f5cf5d15e417bbc4d1af1b3ed8f1269a1cdf8484e56261eb4042dd05e5c16585",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.the_machine.hard.0037",
+    "topic_id": "ch16.the_machine",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=8x - 16$. If $f(f(n))=-1168$, find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-16$"
+      },
+      {
+        "id": "b",
+        "latex": "$-144$"
+      },
+      {
+        "id": "c",
+        "latex": "$-15$"
+      },
+      {
+        "id": "d",
+        "latex": "$16$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-16",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(f(n))=8(8n - 16) - 16=64n - 144$, solving $64n - 144=-1168$ gives $n=-16$.",
+    "complexity_factor": 1.3,
+    "source_section": "16.1",
+    "tags": [
+      "functions",
+      "evaluation",
+      "composition"
+    ],
+    "checksum": "sha256-d40830e95f0d7ef465d50795e7ceef86497ab359f7021db013ec242c15d5f8c4",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.the_machine.hard.0038",
+    "topic_id": "ch16.the_machine",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=9x + 14$. If $f(f(n))=-913$, find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-103$"
+      },
+      {
+        "id": "b",
+        "latex": "$-12$"
+      },
+      {
+        "id": "c",
+        "latex": "$13$"
+      },
+      {
+        "id": "d",
+        "latex": "$-13$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-13",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(f(n))=9(9n + 14) + 14=81n + 140$, solving $81n + 140=-913$ gives $n=-13$.",
+    "complexity_factor": 1.3,
+    "source_section": "16.1",
+    "tags": [
+      "functions",
+      "evaluation",
+      "composition"
+    ],
+    "checksum": "sha256-a1c6ea0f1094eb79e6e677f07611521454cd7b2eb59b9b5fbf4efce39adc18ac",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.the_machine.hard.0039",
+    "topic_id": "ch16.the_machine",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=10x + 19$. If $f(f(n))=1709$, find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$16$"
+      },
+      {
+        "id": "b",
+        "latex": "$-15$"
+      },
+      {
+        "id": "c",
+        "latex": "$15$"
+      },
+      {
+        "id": "d",
+        "latex": "$169$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "15",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(f(n))=10(10n + 19) + 19=100n + 209$, solving $100n + 209=1709$ gives $n=15$.",
+    "complexity_factor": 1.3,
+    "source_section": "16.1",
+    "tags": [
+      "functions",
+      "evaluation",
+      "composition"
+    ],
+    "checksum": "sha256-ae95c750a1f1ff5f9f62c17bebb004269e6de6c1de680af5a84803ac0c80310a",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.the_machine.hard.0040",
+    "topic_id": "ch16.the_machine",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=11x - 17$. If $f(f(n))=-2261$, find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$17$"
+      },
+      {
+        "id": "b",
+        "latex": "$-17$"
+      },
+      {
+        "id": "c",
+        "latex": "$-204$"
+      },
+      {
+        "id": "d",
+        "latex": "$-16$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-17",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(f(n))=11(11n - 17) - 17=121n - 204$, solving $121n - 204=-2261$ gives $n=-17$.",
+    "complexity_factor": 1.3,
+    "source_section": "16.1",
+    "tags": [
+      "functions",
+      "evaluation",
+      "composition"
+    ],
+    "checksum": "sha256-00e7f666bee5c2446319da97407621edb81a7f8b0631abfce11b4af46f79df02",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.the_machine.hard.0041",
+    "topic_id": "ch16.the_machine",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=-8x + 15$. If $f(f(n))=-1001$, find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-14$"
+      },
+      {
+        "id": "b",
+        "latex": "$127$"
+      },
+      {
+        "id": "c",
+        "latex": "$-13$"
+      },
+      {
+        "id": "d",
+        "latex": "$14$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-14",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(f(n))=-8(-8n + 15) + 15=64n - 105$, solving $64n - 105=-1001$ gives $n=-14$.",
+    "complexity_factor": 1.3,
+    "source_section": "16.1",
+    "tags": [
+      "functions",
+      "evaluation",
+      "composition"
+    ],
+    "checksum": "sha256-88f0f8886c7ba6fbdb0db0c6c22a03195fb3dbe60ba786b4cf76efa7fe76bd99",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.the_machine.hard.0042",
+    "topic_id": "ch16.the_machine",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=-9x + 20$. If $f(f(n))=1136$, find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-124$"
+      },
+      {
+        "id": "b",
+        "latex": "$17$"
+      },
+      {
+        "id": "c",
+        "latex": "$-16$"
+      },
+      {
+        "id": "d",
+        "latex": "$16$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "16",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(f(n))=-9(-9n + 20) + 20=81n - 160$, solving $81n - 160=1136$ gives $n=16$.",
+    "complexity_factor": 1.3,
+    "source_section": "16.1",
+    "tags": [
+      "functions",
+      "evaluation",
+      "composition"
+    ],
+    "checksum": "sha256-fa5d07ec242c9f1962174069cff1e69e960430a8d1e69b75cb1fa5c5f752d99f",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.the_machine.hard.0043",
+    "topic_id": "ch16.the_machine",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=9x - 18$. If $f(f(n))=-1638$, find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-17$"
+      },
+      {
+        "id": "b",
+        "latex": "$18$"
+      },
+      {
+        "id": "c",
+        "latex": "$-18$"
+      },
+      {
+        "id": "d",
+        "latex": "$-180$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-18",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(f(n))=9(9n - 18) - 18=81n - 180$, solving $81n - 180=-1638$ gives $n=-18$.",
+    "complexity_factor": 1.3,
+    "source_section": "16.1",
+    "tags": [
+      "functions",
+      "evaluation",
+      "composition"
+    ],
+    "checksum": "sha256-519ab34b6793476b42fab4a6a57e213c93e7ab2c662d8acd0c6a424909ac606d",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.the_machine.hard.0044",
+    "topic_id": "ch16.the_machine",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=10x + 16$. If $f(f(n))=-1324$, find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$15$"
+      },
+      {
+        "id": "b",
+        "latex": "$-15$"
+      },
+      {
+        "id": "c",
+        "latex": "$-134$"
+      },
+      {
+        "id": "d",
+        "latex": "$-14$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "-15",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(f(n))=10(10n + 16) + 16=100n + 176$, solving $100n + 176=-1324$ gives $n=-15$.",
+    "complexity_factor": 1.3,
+    "source_section": "16.1",
+    "tags": [
+      "functions",
+      "evaluation",
+      "composition"
+    ],
+    "checksum": "sha256-e3f4a754775a30c71aadbed6dc7b0c7d8f2684d034ca7c19b0f9913f02fc6144",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.the_machine.hard.0045",
+    "topic_id": "ch16.the_machine",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=11x + 21$. If $f(f(n))=2309$, find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$17$"
+      },
+      {
+        "id": "b",
+        "latex": "$208$"
+      },
+      {
+        "id": "c",
+        "latex": "$18$"
+      },
+      {
+        "id": "d",
+        "latex": "$-17$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "17",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(f(n))=11(11n + 21) + 21=121n + 252$, solving $121n + 252=2309$ gives $n=17$.",
+    "complexity_factor": 1.3,
+    "source_section": "16.1",
+    "tags": [
+      "functions",
+      "evaluation",
+      "composition"
+    ],
+    "checksum": "sha256-1a1c40bf2917eca33d75131ffe005ac2d31870302b2f23ecc1a14ae708815f09",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.the_machine.hard.0046",
+    "topic_id": "ch16.the_machine",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=12x - 19$. If $f(f(n))=-2983$, find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-247$"
+      },
+      {
+        "id": "b",
+        "latex": "$-18$"
+      },
+      {
+        "id": "c",
+        "latex": "$19$"
+      },
+      {
+        "id": "d",
+        "latex": "$-19$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-19",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(f(n))=12(12n - 19) - 19=144n - 247$, solving $144n - 247=-2983$ gives $n=-19$.",
+    "complexity_factor": 1.3,
+    "source_section": "16.1",
+    "tags": [
+      "functions",
+      "evaluation",
+      "composition"
+    ],
+    "checksum": "sha256-5759a6f993e491c7413cbf270ac59251e5d81136dea73fa790daca8014888b78",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.the_machine.hard.0047",
+    "topic_id": "ch16.the_machine",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=-9x + 17$. If $f(f(n))=-1432$, find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-15$"
+      },
+      {
+        "id": "b",
+        "latex": "$16$"
+      },
+      {
+        "id": "c",
+        "latex": "$-16$"
+      },
+      {
+        "id": "d",
+        "latex": "$161$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "-16",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(f(n))=-9(-9n + 17) + 17=81n - 136$, solving $81n - 136=-1432$ gives $n=-16$.",
+    "complexity_factor": 1.3,
+    "source_section": "16.1",
+    "tags": [
+      "functions",
+      "evaluation",
+      "composition"
+    ],
+    "checksum": "sha256-cf5f668ab027b1cfeb2a82b2dbda9715299c145a394b2e7869718c5264b1c87f",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.the_machine.hard.0048",
+    "topic_id": "ch16.the_machine",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=-10x + 22$. If $f(f(n))=1602$, find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-18$"
+      },
+      {
+        "id": "b",
+        "latex": "$18$"
+      },
+      {
+        "id": "c",
+        "latex": "$-158$"
+      },
+      {
+        "id": "d",
+        "latex": "$19$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "18",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(f(n))=-10(-10n + 22) + 22=100n - 198$, solving $100n - 198=1602$ gives $n=18$.",
+    "complexity_factor": 1.3,
+    "source_section": "16.1",
+    "tags": [
+      "functions",
+      "evaluation",
+      "composition"
+    ],
+    "checksum": "sha256-714a94fbae125a3e1b673165ae6e03df6e532863871e71b78e716e9399ef61e2",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.the_machine.hard.0049",
+    "topic_id": "ch16.the_machine",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=10x - 20$. If $f(f(n))=-2220$, find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-20$"
+      },
+      {
+        "id": "b",
+        "latex": "$-220$"
+      },
+      {
+        "id": "c",
+        "latex": "$-19$"
+      },
+      {
+        "id": "d",
+        "latex": "$20$"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "-20",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(f(n))=10(10n - 20) - 20=100n - 220$, solving $100n - 220=-2220$ gives $n=-20$.",
+    "complexity_factor": 1.3,
+    "source_section": "16.1",
+    "tags": [
+      "functions",
+      "evaluation",
+      "composition"
+    ],
+    "checksum": "sha256-1d93eee509d4764d81d922f736b15ede66515d59d6f930ba92be0bdb687ba82e",
+    "status": "valid"
+  },
+  {
+    "id": "ch16.the_machine.hard.0050",
+    "topic_id": "ch16.the_machine",
+    "group_id": "ch16_functions",
+    "difficulty": "hard",
+    "prompt_latex": "Let $f(x)=11x + 18$. If $f(f(n))=-1841$, find $n$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$-169$"
+      },
+      {
+        "id": "b",
+        "latex": "$-16$"
+      },
+      {
+        "id": "c",
+        "latex": "$17$"
+      },
+      {
+        "id": "d",
+        "latex": "$-17$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "-17",
+    "answer_type": "integer",
+    "accepted_forms": [],
+    "solution_latex": "Since $f(f(n))=11(11n + 18) + 18=121n + 216$, solving $121n + 216=-1841$ gives $n=-17$.",
+    "complexity_factor": 1.3,
+    "source_section": "16.1",
+    "tags": [
+      "functions",
+      "evaluation",
+      "composition"
+    ],
+    "checksum": "sha256-e7c87edd960e416fd43a0d41095af15415ade909a3390f7abe1de8ec3e10fec8",
+    "status": "valid"
+  }
+]

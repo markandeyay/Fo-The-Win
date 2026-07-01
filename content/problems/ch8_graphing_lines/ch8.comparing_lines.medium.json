@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "ch8.comparing_lines.medium.0001",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Line $\\ell$ is $y = -4x - 8$ and line $n$ is $y = -4x - 3$. How are they related?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "perpendicular"
+      },
+      {
+        "id": "b",
+        "latex": "parallel"
+      },
+      {
+        "id": "c",
+        "latex": "neither"
+      },
+      {
+        "id": "d",
+        "latex": "same line"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "parallel",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slopes are equal and the intercepts differ, so the lines are parallel.",
+    "complexity_factor": 1.16,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "parallel"
+    ],
+    "checksum": "sha256-325d4a4b948cf4368784edcd5b2e9bd35480ea54a72ff36849a41e2c7a5f3954",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.medium.0002",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Line $\\ell$ is $y = x - 7$ and line $n$ is $y = -x - 5$. How are they related?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "neither"
+      },
+      {
+        "id": "b",
+        "latex": "parallel"
+      },
+      {
+        "id": "c",
+        "latex": "same line"
+      },
+      {
+        "id": "d",
+        "latex": "perpendicular"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "perpendicular",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slopes multiply to $-1$, so the lines are perpendicular.",
+    "complexity_factor": 1.16,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "perpendicular"
+    ],
+    "checksum": "sha256-976874025614698d67fae9be5fb0e3abe0a74c2091e605614fc98767a4ca8981",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.medium.0003",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Compare $2x + 4y = 36$ and $2x + 4y = 40$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "same line"
+      },
+      {
+        "id": "b",
+        "latex": "parallel"
+      },
+      {
+        "id": "c",
+        "latex": "neither"
+      },
+      {
+        "id": "d",
+        "latex": "perpendicular"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "parallel",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Both equations have slope $\\frac{-1}{2}$, but different intercepts, so they are parallel.",
+    "complexity_factor": 1.18,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "standard-form"
+    ],
+    "checksum": "sha256-12872514ae7e4827b9468f3a97a006f098e4aa45fae75f8f1ac3388d70604f37",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.medium.0004",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the intersection point of $y = 3x - 5$ and $y = 5x - 5$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0, 5)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1, -5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-5, 0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(0, -5)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(0,-5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Both lines give $y=-5$ when $x=0$, so they meet at $(0, -5)$.",
+    "complexity_factor": 1.2,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "intersection"
+    ],
+    "checksum": "sha256-8e3df79e35b873bd8e48cc61ce0c93ab5ddba847b4ae62bdd2e8b2709983d6d7",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.medium.0005",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Which relation describes $y = -2x - 4$ and $y = -2x - 4$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "parallel"
+      },
+      {
+        "id": "b",
+        "latex": "same line"
+      },
+      {
+        "id": "c",
+        "latex": "neither"
+      },
+      {
+        "id": "d",
+        "latex": "perpendicular"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "same line",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The equations have the same slope and the same intercept, so they are the same line.",
+    "complexity_factor": 1.14,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "same-line"
+    ],
+    "checksum": "sha256-4b490b095539143da2466a5e6de561f0b0fe8333ac6d572cccdaf557482c1ba3",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.medium.0006",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Line $\\ell$ is $y = -4x - 3$ and line $n$ is $y = -4x + 2$. How are they related?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "parallel"
+      },
+      {
+        "id": "b",
+        "latex": "perpendicular"
+      },
+      {
+        "id": "c",
+        "latex": "same line"
+      },
+      {
+        "id": "d",
+        "latex": "neither"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "parallel",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slopes are equal and the intercepts differ, so the lines are parallel.",
+    "complexity_factor": 1.16,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "parallel"
+    ],
+    "checksum": "sha256-ed50d0b0cd5cfd7fc37c327c1341cec6c174036d3a3d2e3bc77b9e4032a1efc1",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.medium.0007",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Line $\\ell$ is $y = -x - 2$ and line $n$ is $y = x$. How are they related?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "parallel"
+      },
+      {
+        "id": "b",
+        "latex": "perpendicular"
+      },
+      {
+        "id": "c",
+        "latex": "neither"
+      },
+      {
+        "id": "d",
+        "latex": "same line"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "perpendicular",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slopes multiply to $-1$, so the lines are perpendicular.",
+    "complexity_factor": 1.16,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "perpendicular"
+    ],
+    "checksum": "sha256-85e3eb8d6123ce6c3b420489777e4e5c14d565434c65ae5e46bce3d5ee02643b",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.medium.0008",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Compare $3x + 5y = 47$ and $3x + 5y = 52$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "parallel"
+      },
+      {
+        "id": "b",
+        "latex": "neither"
+      },
+      {
+        "id": "c",
+        "latex": "perpendicular"
+      },
+      {
+        "id": "d",
+        "latex": "same line"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "parallel",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Both equations have slope $\\frac{-3}{5}$, but different intercepts, so they are parallel.",
+    "complexity_factor": 1.18,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "standard-form"
+    ],
+    "checksum": "sha256-359e942dc2943b111751f23db22f5275e89d9f54658f681b19fe2a911f71c53d",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.medium.0009",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the intersection point of $y = -3x$ and $y = -x + 4$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(2, 6)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(6, -2)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2, 6)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2, -6)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-2,6)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Both lines give $y=6$ when $x=-2$, so they meet at $(-2, 6)$.",
+    "complexity_factor": 1.2,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "intersection"
+    ],
+    "checksum": "sha256-92ac7a64c007ae68ea5db04353d28d46b73e388243ad4e63144d6d8c1c55f3b5",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.medium.0010",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Which relation describes $y = -3x + 1$ and $y = -3x + 1$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "same line"
+      },
+      {
+        "id": "b",
+        "latex": "neither"
+      },
+      {
+        "id": "c",
+        "latex": "perpendicular"
+      },
+      {
+        "id": "d",
+        "latex": "parallel"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "same line",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The equations have the same slope and the same intercept, so they are the same line.",
+    "complexity_factor": 1.14,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "same-line"
+    ],
+    "checksum": "sha256-0f349deea63db2a4bad612618661a584f09a32c17927054c07eb97e988195983",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.medium.0011",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Line $\\ell$ is $y = -x + 2$ and line $n$ is $y = -x + 7$. How are they related?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "perpendicular"
+      },
+      {
+        "id": "b",
+        "latex": "neither"
+      },
+      {
+        "id": "c",
+        "latex": "same line"
+      },
+      {
+        "id": "d",
+        "latex": "parallel"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "parallel",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slopes are equal and the intercepts differ, so the lines are parallel.",
+    "complexity_factor": 1.16,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "parallel"
+    ],
+    "checksum": "sha256-9d6576745f581b6b2ca884ed06b6cd2eb221885c93c4884ef0ad79d9a83e6e1d",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.medium.0012",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Line $\\ell$ is $y = -x + 3$ and line $n$ is $y = x + 5$. How are they related?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "perpendicular"
+      },
+      {
+        "id": "b",
+        "latex": "neither"
+      },
+      {
+        "id": "c",
+        "latex": "parallel"
+      },
+      {
+        "id": "d",
+        "latex": "same line"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "perpendicular",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slopes multiply to $-1$, so the lines are perpendicular.",
+    "complexity_factor": 1.16,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "perpendicular"
+    ],
+    "checksum": "sha256-3956c1b12807b492584448ca33696d4c3870cca304ed30c710a3e0139db52101",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.medium.0013",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Compare $4x + 6y = 58$ and $4x + 6y = 64$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "parallel"
+      },
+      {
+        "id": "b",
+        "latex": "neither"
+      },
+      {
+        "id": "c",
+        "latex": "perpendicular"
+      },
+      {
+        "id": "d",
+        "latex": "same line"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "parallel",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Both equations have slope $\\frac{-2}{3}$, but different intercepts, so they are parallel.",
+    "complexity_factor": 1.18,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "standard-form"
+    ],
+    "checksum": "sha256-73602ef2573f40361a7cb9ff4a78a9cfbd7de8be084d8f46db9add5e124a8d3f",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.medium.0014",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the intersection point of $y = 2x + 5$ and $y = 4x - 1$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(3, -11)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(11, 3)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-3, 11)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3, 11)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(3,11)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Both lines give $y=11$ when $x=3$, so they meet at $(3, 11)$.",
+    "complexity_factor": 1.2,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "intersection"
+    ],
+    "checksum": "sha256-4cded5504f8e50604de5a7c068861ec99e1fedfff8befdb272de1b593870e49e",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.medium.0015",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Which relation describes $y = -3x + 6$ and $y = -3x + 6$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "parallel"
+      },
+      {
+        "id": "b",
+        "latex": "same line"
+      },
+      {
+        "id": "c",
+        "latex": "neither"
+      },
+      {
+        "id": "d",
+        "latex": "perpendicular"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "same line",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The equations have the same slope and the same intercept, so they are the same line.",
+    "complexity_factor": 1.14,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "same-line"
+    ],
+    "checksum": "sha256-47f571ba12b25f8f3fc585c7000a4b1686d5ddd8299f1705cd21c4483302f695",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.medium.0016",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Line $\\ell$ is $y = -4x + 7$ and line $n$ is $y = -4x + 12$. How are they related?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "same line"
+      },
+      {
+        "id": "b",
+        "latex": "perpendicular"
+      },
+      {
+        "id": "c",
+        "latex": "neither"
+      },
+      {
+        "id": "d",
+        "latex": "parallel"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "parallel",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slopes are equal and the intercepts differ, so the lines are parallel.",
+    "complexity_factor": 1.16,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "parallel"
+    ],
+    "checksum": "sha256-fbdb3f9794c8796e879d9cd03080af9810f78aba81d7f63784c8f8d274be9580",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.medium.0017",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Line $\\ell$ is $y = -x + 8$ and line $n$ is $y = x + 10$. How are they related?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "parallel"
+      },
+      {
+        "id": "b",
+        "latex": "perpendicular"
+      },
+      {
+        "id": "c",
+        "latex": "neither"
+      },
+      {
+        "id": "d",
+        "latex": "same line"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "perpendicular",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slopes multiply to $-1$, so the lines are perpendicular.",
+    "complexity_factor": 1.16,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "perpendicular"
+    ],
+    "checksum": "sha256-09ae743060d8bed20595281df5b448940089452ce59b95a4f3905e6b40c4937c",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.medium.0018",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Compare $5x + 2y = 34$ and $5x + 2y = 36$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "same line"
+      },
+      {
+        "id": "b",
+        "latex": "neither"
+      },
+      {
+        "id": "c",
+        "latex": "perpendicular"
+      },
+      {
+        "id": "d",
+        "latex": "parallel"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "parallel",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Both equations have slope $\\frac{-5}{2}$, but different intercepts, so they are parallel.",
+    "complexity_factor": 1.18,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "standard-form"
+    ],
+    "checksum": "sha256-f469ac14cd966c335970857388306938d239209aad67a3f5468cc54dd0857725",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.medium.0019",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the intersection point of $y = x - 7$ and $y = 3x - 9$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-1, -6)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1, -6)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(1, 6)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-6, 1)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(1,-6)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Both lines give $y=-6$ when $x=1$, so they meet at $(1, -6)$.",
+    "complexity_factor": 1.2,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "intersection"
+    ],
+    "checksum": "sha256-4e4054880dbc05302f97e3c5a2a2d22c59fabaa410928ed577f4b6ebd6ab9f9f",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.medium.0020",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Which relation describes $y = -2x - 6$ and $y = -2x - 6$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "perpendicular"
+      },
+      {
+        "id": "b",
+        "latex": "neither"
+      },
+      {
+        "id": "c",
+        "latex": "parallel"
+      },
+      {
+        "id": "d",
+        "latex": "same line"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "same line",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The equations have the same slope and the same intercept, so they are the same line.",
+    "complexity_factor": 1.14,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "same-line"
+    ],
+    "checksum": "sha256-45e5464f0b3c05713455c468da8cb8e93bfb66a0e8796ea236890091b569a28a",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.medium.0021",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Line $\\ell$ is $y = 4x - 5$ and line $n$ is $y = 4x$. How are they related?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "perpendicular"
+      },
+      {
+        "id": "b",
+        "latex": "parallel"
+      },
+      {
+        "id": "c",
+        "latex": "same line"
+      },
+      {
+        "id": "d",
+        "latex": "neither"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "parallel",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slopes are equal and the intercepts differ, so the lines are parallel.",
+    "complexity_factor": 1.16,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "parallel"
+    ],
+    "checksum": "sha256-152dfb3f24d26df23be36a778ee571aedf2b7c38fd122f55d7029f556a5293ad",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.medium.0022",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Line $\\ell$ is $y = -x - 4$ and line $n$ is $y = x - 2$. How are they related?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "same line"
+      },
+      {
+        "id": "b",
+        "latex": "parallel"
+      },
+      {
+        "id": "c",
+        "latex": "neither"
+      },
+      {
+        "id": "d",
+        "latex": "perpendicular"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "perpendicular",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slopes multiply to $-1$, so the lines are perpendicular.",
+    "complexity_factor": 1.16,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "perpendicular"
+    ],
+    "checksum": "sha256-820923ab1c6f52af64d215de7a4cc840d7199ff9064f5e40fec28762e2ac01f5",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.medium.0023",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Compare $6x + 3y = 45$ and $6x + 3y = 48$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "same line"
+      },
+      {
+        "id": "b",
+        "latex": "perpendicular"
+      },
+      {
+        "id": "c",
+        "latex": "neither"
+      },
+      {
+        "id": "d",
+        "latex": "parallel"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "parallel",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Both equations have slope $\\frac{-2}{1}$, but different intercepts, so they are parallel.",
+    "complexity_factor": 1.18,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "standard-form"
+    ],
+    "checksum": "sha256-0c00e8b5e31a189a59f7ff5e573b6765d3dc366959446c9c82c74c6ca3d24d07",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.medium.0024",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the intersection point of $y = -3x - 2$ and $y = -x$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1, -1)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(1, 1)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-1, -1)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-1, 1)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-1,1)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Both lines give $y=1$ when $x=-1$, so they meet at $(-1, 1)$.",
+    "complexity_factor": 1.2,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "intersection"
+    ],
+    "checksum": "sha256-7b675c901f45d2d4aa1541fc87c09f11ddf643cbbce8a2baed405da965eb7b50",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.medium.0025",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Which relation describes $y = 4x - 1$ and $y = 4x - 1$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "perpendicular"
+      },
+      {
+        "id": "b",
+        "latex": "neither"
+      },
+      {
+        "id": "c",
+        "latex": "same line"
+      },
+      {
+        "id": "d",
+        "latex": "parallel"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "same line",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The equations have the same slope and the same intercept, so they are the same line.",
+    "complexity_factor": 1.14,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "same-line"
+    ],
+    "checksum": "sha256-2ec82bbdc418e5ac2d7e46180fc3adaf272d0865c5a858322e87e8e17b86c5e2",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.medium.0026",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Line $\\ell$ is $y = 4x$ and line $n$ is $y = 4x + 5$. How are they related?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "same line"
+      },
+      {
+        "id": "b",
+        "latex": "parallel"
+      },
+      {
+        "id": "c",
+        "latex": "perpendicular"
+      },
+      {
+        "id": "d",
+        "latex": "neither"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "parallel",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slopes are equal and the intercepts differ, so the lines are parallel.",
+    "complexity_factor": 1.16,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "parallel"
+    ],
+    "checksum": "sha256-50523d72952dec3181e4d7cb73b0ce3895a570fb7d3134febf3b58e5463716d9",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.medium.0027",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Line $\\ell$ is $y = -x + 1$ and line $n$ is $y = x + 3$. How are they related?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "neither"
+      },
+      {
+        "id": "b",
+        "latex": "perpendicular"
+      },
+      {
+        "id": "c",
+        "latex": "parallel"
+      },
+      {
+        "id": "d",
+        "latex": "same line"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "perpendicular",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slopes multiply to $-1$, so the lines are perpendicular.",
+    "complexity_factor": 1.16,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "perpendicular"
+    ],
+    "checksum": "sha256-046c41d75884c167f6ed94efd989a0c1d85a2c6327f429bdbf00baf59aad3a46",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.medium.0028",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Compare $7x + 4y = 56$ and $7x + 4y = 60$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "perpendicular"
+      },
+      {
+        "id": "b",
+        "latex": "parallel"
+      },
+      {
+        "id": "c",
+        "latex": "neither"
+      },
+      {
+        "id": "d",
+        "latex": "same line"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "parallel",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Both equations have slope $\\frac{-7}{4}$, but different intercepts, so they are parallel.",
+    "complexity_factor": 1.18,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "standard-form"
+    ],
+    "checksum": "sha256-8675458e88f5b306ceb62869aed88858e6fb08625cab5f9457ec3b4a8f46c68d",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.medium.0029",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the intersection point of $y = -3x + 3$ and $y = -x + 9$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(12, -3)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-3, -12)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3, 12)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-3, 12)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(-3,12)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Both lines give $y=12$ when $x=-3$, so they meet at $(-3, 12)$.",
+    "complexity_factor": 1.2,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "intersection"
+    ],
+    "checksum": "sha256-0a517e6b69e9aebf6e55e626a70c2e7f78bfb593e774539a038830a6edbce3b3",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.medium.0030",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Which relation describes $y = -3x + 4$ and $y = -3x + 4$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "parallel"
+      },
+      {
+        "id": "b",
+        "latex": "same line"
+      },
+      {
+        "id": "c",
+        "latex": "neither"
+      },
+      {
+        "id": "d",
+        "latex": "perpendicular"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "same line",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The equations have the same slope and the same intercept, so they are the same line.",
+    "complexity_factor": 1.14,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "same-line"
+    ],
+    "checksum": "sha256-325f281e341af8ee2446733c7b6df480bb0493a33e002a6c5d8d8d734a60917f",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.medium.0031",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Line $\\ell$ is $y = -x + 5$ and line $n$ is $y = -x + 10$. How are they related?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "same line"
+      },
+      {
+        "id": "b",
+        "latex": "parallel"
+      },
+      {
+        "id": "c",
+        "latex": "neither"
+      },
+      {
+        "id": "d",
+        "latex": "perpendicular"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "parallel",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slopes are equal and the intercepts differ, so the lines are parallel.",
+    "complexity_factor": 1.16,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "parallel"
+    ],
+    "checksum": "sha256-64c46a7772e4a4a55df4a7780788031b13478ef9ce095870b751aa029d34d3d9",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.medium.0032",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Line $\\ell$ is $y = -x + 6$ and line $n$ is $y = x + 8$. How are they related?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "parallel"
+      },
+      {
+        "id": "b",
+        "latex": "perpendicular"
+      },
+      {
+        "id": "c",
+        "latex": "neither"
+      },
+      {
+        "id": "d",
+        "latex": "same line"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "perpendicular",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slopes multiply to $-1$, so the lines are perpendicular.",
+    "complexity_factor": 1.16,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "perpendicular"
+    ],
+    "checksum": "sha256-c033ae2617a72348776a0c564ead9d100493f639dba20865534fe5feb4bb179a",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.medium.0033",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Compare $8x + 5y = 67$ and $8x + 5y = 72$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "same line"
+      },
+      {
+        "id": "b",
+        "latex": "perpendicular"
+      },
+      {
+        "id": "c",
+        "latex": "neither"
+      },
+      {
+        "id": "d",
+        "latex": "parallel"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "parallel",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Both equations have slope $\\frac{-8}{5}$, but different intercepts, so they are parallel.",
+    "complexity_factor": 1.18,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "standard-form"
+    ],
+    "checksum": "sha256-ace9bd64f28465bd80006535bcf7b40bc71670a7f949a537ac9f19c651e6de8d",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.medium.0034",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the intersection point of $y = -4x + 8$ and $y = -2x + 4$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(0, 2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(-2, 0)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(3, 0)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(2, 0)$"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "(2,0)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Both lines give $y=0$ when $x=2$, so they meet at $(2, 0)$.",
+    "complexity_factor": 1.2,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "intersection"
+    ],
+    "checksum": "sha256-30cb89285792255cc09d6693bdae6d41ab047bd3d6b2ef1ceb2ee9c84994eefa",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.medium.0035",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Which relation describes $y = -2x - 8$ and $y = -2x - 8$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "neither"
+      },
+      {
+        "id": "b",
+        "latex": "same line"
+      },
+      {
+        "id": "c",
+        "latex": "parallel"
+      },
+      {
+        "id": "d",
+        "latex": "perpendicular"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "same line",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The equations have the same slope and the same intercept, so they are the same line.",
+    "complexity_factor": 1.14,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "same-line"
+    ],
+    "checksum": "sha256-79ec44fd255ef070a7dd2d8ba75108f8c8dfffe0ad486bc256b4a2400649d6a4",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.medium.0036",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Line $\\ell$ is $y = 2x - 7$ and line $n$ is $y = 2x - 2$. How are they related?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "same line"
+      },
+      {
+        "id": "b",
+        "latex": "perpendicular"
+      },
+      {
+        "id": "c",
+        "latex": "parallel"
+      },
+      {
+        "id": "d",
+        "latex": "neither"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "parallel",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slopes are equal and the intercepts differ, so the lines are parallel.",
+    "complexity_factor": 1.16,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "parallel"
+    ],
+    "checksum": "sha256-e08237203bfb0b81e9d41492b3f14ee2378aef8c64d1e978741653260590fa00",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.medium.0037",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Line $\\ell$ is $y = x - 6$ and line $n$ is $y = -x - 4$. How are they related?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "parallel"
+      },
+      {
+        "id": "b",
+        "latex": "perpendicular"
+      },
+      {
+        "id": "c",
+        "latex": "same line"
+      },
+      {
+        "id": "d",
+        "latex": "neither"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "perpendicular",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slopes multiply to $-1$, so the lines are perpendicular.",
+    "complexity_factor": 1.16,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "perpendicular"
+    ],
+    "checksum": "sha256-291477a1b1e0c6685dd6f2dd4269197c131f9def809279a301990165dac990b6",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.medium.0038",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Compare $9x + 6y = 78$ and $9x + 6y = 84$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "same line"
+      },
+      {
+        "id": "b",
+        "latex": "parallel"
+      },
+      {
+        "id": "c",
+        "latex": "neither"
+      },
+      {
+        "id": "d",
+        "latex": "perpendicular"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "parallel",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Both equations have slope $\\frac{-3}{2}$, but different intercepts, so they are parallel.",
+    "complexity_factor": 1.18,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "standard-form"
+    ],
+    "checksum": "sha256-8109024117c5044ec4cbfcc8940669a9034d340c523bde89afba87e550bdb433",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.medium.0039",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the intersection point of $y = 3x - 4$ and $y = 5x - 4$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(1, -4)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(0, 4)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(0, -4)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-4, 0)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(0,-4)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Both lines give $y=-4$ when $x=0$, so they meet at $(0, -4)$.",
+    "complexity_factor": 1.2,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "intersection"
+    ],
+    "checksum": "sha256-7b8c39572f50ac990e5cff8678dac95639243105f22f3aa90b09dd3ed5f5a145",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.medium.0040",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Which relation describes $y = 3x - 3$ and $y = 3x - 3$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "perpendicular"
+      },
+      {
+        "id": "b",
+        "latex": "neither"
+      },
+      {
+        "id": "c",
+        "latex": "parallel"
+      },
+      {
+        "id": "d",
+        "latex": "same line"
+      }
+    ],
+    "correct_choice": "d",
+    "correct_answer": "same line",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The equations have the same slope and the same intercept, so they are the same line.",
+    "complexity_factor": 1.14,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "same-line"
+    ],
+    "checksum": "sha256-6e6e56380f13a3b8c2631e8da2fa61925e844004615ce2361312a4815a783389",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.medium.0041",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Line $\\ell$ is $y = 2x - 2$ and line $n$ is $y = 2x + 3$. How are they related?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "parallel"
+      },
+      {
+        "id": "b",
+        "latex": "neither"
+      },
+      {
+        "id": "c",
+        "latex": "perpendicular"
+      },
+      {
+        "id": "d",
+        "latex": "same line"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "parallel",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slopes are equal and the intercepts differ, so the lines are parallel.",
+    "complexity_factor": 1.16,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "parallel"
+    ],
+    "checksum": "sha256-9a697c04716427079f471d9d26e11fec5e371e922d62559829b3e4fc37099abb",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.medium.0042",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Line $\\ell$ is $y = x - 1$ and line $n$ is $y = -x + 1$. How are they related?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "same line"
+      },
+      {
+        "id": "b",
+        "latex": "parallel"
+      },
+      {
+        "id": "c",
+        "latex": "perpendicular"
+      },
+      {
+        "id": "d",
+        "latex": "neither"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "perpendicular",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slopes multiply to $-1$, so the lines are perpendicular.",
+    "complexity_factor": 1.16,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "perpendicular"
+    ],
+    "checksum": "sha256-fde192460add9ec82c7f97f1f56da33e791f044a4c34e5bed853fd76b617d988",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.medium.0043",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Compare $10x + 2y = 54$ and $10x + 2y = 56$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "parallel"
+      },
+      {
+        "id": "b",
+        "latex": "perpendicular"
+      },
+      {
+        "id": "c",
+        "latex": "neither"
+      },
+      {
+        "id": "d",
+        "latex": "same line"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "parallel",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Both equations have slope $\\frac{-5}{1}$, but different intercepts, so they are parallel.",
+    "complexity_factor": 1.18,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "standard-form"
+    ],
+    "checksum": "sha256-f2505b2b4237774fc48b8bae5a765ee40cee6efdfb169ea71fbeb4d831176a4e",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.medium.0044",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the intersection point of $y = 3x + 1$ and $y = 5x + 5$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-5, -2)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(2, -5)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(-2, -5)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(-2, 5)$"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "(-2,-5)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Both lines give $y=-5$ when $x=-2$, so they meet at $(-2, -5)$.",
+    "complexity_factor": 1.2,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "intersection"
+    ],
+    "checksum": "sha256-e89ace5a9e860aeb048b7256e8352f076549f34880fa70d14b545f9b138c684e",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.medium.0045",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Which relation describes $y = x + 2$ and $y = x + 2$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "neither"
+      },
+      {
+        "id": "b",
+        "latex": "same line"
+      },
+      {
+        "id": "c",
+        "latex": "parallel"
+      },
+      {
+        "id": "d",
+        "latex": "perpendicular"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "same line",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The equations have the same slope and the same intercept, so they are the same line.",
+    "complexity_factor": 1.14,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "same-line"
+    ],
+    "checksum": "sha256-772dd85655e7c8373d1c190e2d6ee35dca1dd9baefb771384804ac258bdc806c",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.medium.0046",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Line $\\ell$ is $y = 4x + 3$ and line $n$ is $y = 4x + 8$. How are they related?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "parallel"
+      },
+      {
+        "id": "b",
+        "latex": "neither"
+      },
+      {
+        "id": "c",
+        "latex": "perpendicular"
+      },
+      {
+        "id": "d",
+        "latex": "same line"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "parallel",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slopes are equal and the intercepts differ, so the lines are parallel.",
+    "complexity_factor": 1.16,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "parallel"
+    ],
+    "checksum": "sha256-f4d4bca802b9d76eaef15de24fa0a203ae728f70da47561ef65584b96d836cca",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.medium.0047",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Line $\\ell$ is $y = x + 4$ and line $n$ is $y = -x + 6$. How are they related?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "parallel"
+      },
+      {
+        "id": "b",
+        "latex": "same line"
+      },
+      {
+        "id": "c",
+        "latex": "perpendicular"
+      },
+      {
+        "id": "d",
+        "latex": "neither"
+      }
+    ],
+    "correct_choice": "c",
+    "correct_answer": "perpendicular",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The slopes multiply to $-1$, so the lines are perpendicular.",
+    "complexity_factor": 1.16,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "perpendicular"
+    ],
+    "checksum": "sha256-7b19c4abdcabbe6bbb6ed23a3be94d5ef86db5d6fed84f2f8aff2263ad3ec5c7",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.medium.0048",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Compare $11x + 3y = 65$ and $11x + 3y = 68$.",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "perpendicular"
+      },
+      {
+        "id": "b",
+        "latex": "parallel"
+      },
+      {
+        "id": "c",
+        "latex": "same line"
+      },
+      {
+        "id": "d",
+        "latex": "neither"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "parallel",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "Both equations have slope $\\frac{-11}{3}$, but different intercepts, so they are parallel.",
+    "complexity_factor": 1.18,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "standard-form"
+    ],
+    "checksum": "sha256-92b02a920afd2b1ea00cdcebd691169073b176627bdf47bc188f30c0ce011b7d",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.medium.0049",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "What is the intersection point of $y = 4x + 6$ and $y = 6x$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "$(-3, 18)$"
+      },
+      {
+        "id": "b",
+        "latex": "$(3, 18)$"
+      },
+      {
+        "id": "c",
+        "latex": "$(18, 3)$"
+      },
+      {
+        "id": "d",
+        "latex": "$(3, -18)$"
+      }
+    ],
+    "correct_choice": "b",
+    "correct_answer": "(3,18)",
+    "answer_type": "ordered_pair",
+    "accepted_forms": [],
+    "solution_latex": "Both lines give $y=18$ when $x=3$, so they meet at $(3, 18)$.",
+    "complexity_factor": 1.2,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "intersection"
+    ],
+    "checksum": "sha256-a3ca0db38eb7890bffde3afb29dd8d51f0b50024b518d22058bd0266530889e8",
+    "status": "valid"
+  },
+  {
+    "id": "ch8.comparing_lines.medium.0050",
+    "topic_id": "ch8.comparing_lines",
+    "group_id": "ch8_graphing_lines",
+    "difficulty": "medium",
+    "prompt_latex": "Which relation describes $y = -2x + 7$ and $y = -2x + 7$?",
+    "answer_format": "mc",
+    "choices": [
+      {
+        "id": "a",
+        "latex": "same line"
+      },
+      {
+        "id": "b",
+        "latex": "perpendicular"
+      },
+      {
+        "id": "c",
+        "latex": "parallel"
+      },
+      {
+        "id": "d",
+        "latex": "neither"
+      }
+    ],
+    "correct_choice": "a",
+    "correct_answer": "same line",
+    "answer_type": "string",
+    "accepted_forms": [],
+    "solution_latex": "The equations have the same slope and the same intercept, so they are the same line.",
+    "complexity_factor": 1.14,
+    "source_section": "8.6",
+    "tags": [
+      "comparing-lines",
+      "same-line"
+    ],
+    "checksum": "sha256-e2c60b6faa29aa4e171696622783de6a21b92e540d4680e720e4a18f8317d40c",
+    "status": "valid"
+  }
+]
