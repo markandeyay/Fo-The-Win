@@ -9,7 +9,7 @@ export default function AuthCallbackPage() {
   return (
     <Suspense
       fallback={
-        <main className="min-h-screen bg-ftw-dark px-6 py-10 text-ftw-text">
+        <main className="ftw-page-shell min-h-screen px-6 py-10 text-ftw-text">
           <div className="mx-auto flex min-h-[calc(100vh-5rem)] max-w-xl items-center justify-center">
             Completing sign-in...
           </div>
@@ -69,13 +69,13 @@ function AuthCallbackClient() {
   }, [router, searchParams]);
 
   return (
-    <main className="min-h-screen bg-[radial-gradient(circle_at_top,#082f49_0,#0b0f19_42%,#05070d_100%)] px-6 py-10 text-ftw-text">
+    <main className="ftw-page-shell min-h-screen px-6 py-10 text-ftw-text">
       <div className="mx-auto flex min-h-[calc(100vh-5rem)] max-w-xl items-center justify-center">
-        <div className="rounded-3xl border border-ftw-info/40 bg-ftw-panel p-8 text-center shadow-2xl">
-          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-ftw-info">
+        <div className="ftw-card p-8 text-center">
+          <p className="ftw-label text-ftw-info">
             Auth callback
           </p>
-          <h1 className="mt-3 text-3xl font-black">{message}</h1>
+          <h1 className="mt-3 font-serif text-3xl font-black">{message}</h1>
         </div>
       </div>
     </main>

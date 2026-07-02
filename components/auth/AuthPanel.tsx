@@ -117,18 +117,14 @@ export function AuthPanel({ mode }: AuthPanelProps) {
   }
 
   return (
-    <div className="w-full max-w-lg rounded-3xl border border-amber-400/40 bg-ftw-panel/95 p-6 shadow-2xl shadow-amber-950/30 md:p-8">
+    <div className="ftw-card w-full max-w-lg p-6 md:p-8">
       <div className="mb-6">
-        <p className="text-sm font-semibold uppercase tracking-[0.3em] text-ftw-accent">
+        <p className="ftw-label text-ftw-accent">
           Fo The Win
         </p>
-        <h1 className="mt-2 text-4xl font-black tracking-tight text-ftw-text">
+        <h1 className="ftw-display mt-2 text-4xl text-ftw-text">
           {isSignup ? "Create your account" : "Enter the arena"}
         </h1>
-        <p className="mt-3 text-sm leading-6 text-ftw-muted">
-          Use email, Google, or anonymous guest auth. Guest progress is mirrored locally under
-          <span className="font-mono text-ftw-text"> guest_profile</span> for account claiming.
-        </p>
       </div>
 
       <form onSubmit={submit} className="flex flex-col gap-4">
@@ -139,7 +135,7 @@ export function AuthPanel({ mode }: AuthPanelProps) {
               <input
                 value={username}
                 onChange={(event) => setUsername(event.target.value)}
-                className="rounded-xl border border-gray-700 bg-gray-950 px-4 py-3 text-ftw-text outline-none transition focus:border-ftw-accent"
+                className="ftw-input"
                 placeholder="number_ninja"
                 required
               />
@@ -149,7 +145,7 @@ export function AuthPanel({ mode }: AuthPanelProps) {
               <input
                 value={displayName}
                 onChange={(event) => setDisplayName(event.target.value)}
-                className="rounded-xl border border-gray-700 bg-gray-950 px-4 py-3 text-ftw-text outline-none transition focus:border-ftw-accent"
+                className="ftw-input"
                 placeholder="Ada"
                 required
               />
@@ -163,7 +159,7 @@ export function AuthPanel({ mode }: AuthPanelProps) {
             type="email"
             value={email}
             onChange={(event) => setEmail(event.target.value)}
-            className="rounded-xl border border-gray-700 bg-gray-950 px-4 py-3 text-ftw-text outline-none transition focus:border-ftw-accent"
+            className="ftw-input"
             placeholder="player@example.com"
             required
           />
@@ -175,14 +171,14 @@ export function AuthPanel({ mode }: AuthPanelProps) {
             type="password"
             value={password}
             onChange={(event) => setPassword(event.target.value)}
-            className="rounded-xl border border-gray-700 bg-gray-950 px-4 py-3 text-ftw-text outline-none transition focus:border-ftw-accent"
+            className="ftw-input"
             minLength={6}
             required
           />
         </label>
 
         {message && (
-          <div className="rounded-xl border border-ftw-info/40 bg-ftw-info/10 px-4 py-3 text-sm text-blue-100">
+          <div className="rounded-xl border border-ftw-info/40 bg-ftw-info/10 px-4 py-3 text-sm text-ftw-info">
             {message}
           </div>
         )}
@@ -190,23 +186,23 @@ export function AuthPanel({ mode }: AuthPanelProps) {
         <button
           type="submit"
           disabled={isPending}
-          className="rounded-xl bg-ftw-accent px-5 py-3 font-black text-ftw-dark transition hover:bg-amber-300 disabled:cursor-not-allowed disabled:opacity-60"
+          className="ftw-button-primary"
         >
           {isSignup ? "Sign Up" : "Sign In"}
         </button>
       </form>
 
       <div className="my-6 flex items-center gap-3 text-xs uppercase tracking-[0.25em] text-ftw-muted">
-        <div className="h-px flex-1 bg-gray-800" />
+        <div className="h-px flex-1 bg-ftw-line" />
         or
-        <div className="h-px flex-1 bg-gray-800" />
+        <div className="h-px flex-1 bg-ftw-line" />
       </div>
 
       <button
         type="button"
         onClick={signInWithGoogle}
         disabled={isPending}
-        className="w-full rounded-xl border border-ftw-info bg-ftw-info/10 px-5 py-3 font-bold text-blue-100 transition hover:bg-ftw-info hover:text-white disabled:cursor-not-allowed disabled:opacity-60"
+        className="w-full rounded-xl border border-ftw-info bg-ftw-info/10 px-5 py-3 font-bold text-ftw-info transition hover:bg-ftw-info hover:text-ftw-panel disabled:cursor-not-allowed disabled:opacity-60"
       >
         Continue with Google
       </button>
@@ -215,7 +211,7 @@ export function AuthPanel({ mode }: AuthPanelProps) {
         type="button"
         onClick={continueAsGuest}
         disabled={isPending}
-        className="w-full rounded-xl border border-ftw-success bg-ftw-success/10 px-5 py-3 font-bold text-green-100 transition hover:bg-ftw-success hover:text-ftw-dark disabled:cursor-not-allowed disabled:opacity-60"
+        className="w-full rounded-xl border border-ftw-success bg-ftw-success/10 px-5 py-3 font-bold text-ftw-success transition hover:bg-ftw-success hover:text-ftw-panel disabled:cursor-not-allowed disabled:opacity-60"
       >
         Continue as Guest
       </button>
