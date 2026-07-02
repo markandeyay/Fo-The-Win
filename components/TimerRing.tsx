@@ -27,12 +27,12 @@ export function TimerRing({
   const seconds = Math.max(0, Math.ceil(remainingMs / 1000));
   const urgency = fraction > 0.5 ? "steady" : fraction > 0.25 ? "warning" : "critical";
 
-  const color = urgency === "steady" ? "#2dd4bf" : urgency === "warning" ? "#facc15" : "#fb7185";
-  const glow = urgency === "steady" ? "shadow-cyan-950/60" : urgency === "warning" ? "shadow-yellow-950/60" : "shadow-rose-950/70";
+  const color = urgency === "steady" ? "var(--ftw-success)" : urgency === "warning" ? "var(--ftw-warning)" : "var(--ftw-danger)";
+  const urgencyClass = urgency === "steady" ? "border-ftw-success/45" : urgency === "warning" ? "border-ftw-warning/60" : "border-ftw-danger/70";
 
   return (
     <div
-      className={`relative grid place-items-center rounded-full bg-gray-950 shadow-2xl ${glow} ${className}`}
+      className={`relative grid place-items-center rounded-full border bg-ftw-raised shadow-ftw-sm shadow-ftw-inset ${urgencyClass} ${className}`}
       role="timer"
       aria-label={`${label}: ${seconds} seconds remaining`}
       aria-live={seconds <= 5 ? "assertive" : "polite"}
@@ -43,7 +43,7 @@ export function TimerRing({
           cx={size / 2}
           cy={size / 2}
           r={radius}
-          stroke="#1f2937"
+          stroke="var(--ftw-line)"
           strokeWidth={strokeWidth}
           fill="none"
         />
@@ -51,7 +51,7 @@ export function TimerRing({
           cx={size / 2}
           cy={size / 2}
           r={radius - strokeWidth * 0.75}
-          stroke="#334155"
+          stroke="var(--ftw-muted)"
           strokeWidth={1}
           fill="none"
           strokeDasharray="3 7"
@@ -71,7 +71,7 @@ export function TimerRing({
         />
       </svg>
       <div className="absolute inset-0 flex flex-col items-center justify-center leading-none">
-        <span className="font-mono text-xl font-black tracking-tight text-white">{seconds}</span>
+        <span className="ftw-number text-xl leading-none text-ftw-text">{seconds}</span>
         <span className="mt-1 text-[0.55rem] font-black uppercase tracking-[0.25em] text-ftw-muted">sec</span>
       </div>
     </div>

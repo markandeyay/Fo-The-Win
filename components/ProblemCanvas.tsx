@@ -62,13 +62,13 @@ export function ProblemCanvas({
 
   return (
     <section className="flex w-full max-w-3xl flex-col gap-6" aria-labelledby="problem-prompt">
-      <div className="relative overflow-hidden rounded-3xl border border-slate-700 bg-ftw-panel p-5 shadow-2xl shadow-black/30 md:p-6">
-        <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-cyan-300 via-ftw-accent to-fuchsia-300" />
-        <div className="mb-3 flex flex-wrap items-center gap-2 text-xs font-black uppercase tracking-[0.2em] text-ftw-muted">
-          <span className="rounded-full border border-slate-600 px-2 py-1">{problem.topic_id ?? "local"}</span>
-          <span className="rounded-full border border-slate-600 px-2 py-1">{problem.answer_format}</span>
+      <div className="ftw-card relative overflow-hidden p-5 md:p-6">
+        <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-ftw-accent via-ftw-warning to-ftw-success" />
+        <div className="mb-3 flex flex-wrap items-center gap-2">
+          <span className="ftw-chip">{problem.topic_id ?? "local"}</span>
+          <span className="ftw-chip">{problem.answer_format}</span>
         </div>
-        <div id="problem-prompt" className="text-xl leading-relaxed text-white md:text-2xl">
+        <div id="problem-prompt" className="text-xl leading-relaxed text-ftw-text md:text-2xl">
           <MixedKatex source={problem.prompt_latex} />
         </div>
       </div>
@@ -84,13 +84,13 @@ export function ProblemCanvas({
               aria-keyshortcuts={`${index + 1}`}
               aria-pressed={submittedAnswer === choice.id}
               onClick={() => submitAnswer(choice.id)}
-              className={`group flex min-h-20 items-center gap-3 rounded-2xl border px-4 py-4 text-left transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ftw-accent disabled:cursor-not-allowed ${
+              className={`group flex min-h-20 items-center gap-3 rounded-ftw-sm border px-4 py-4 text-left shadow-ftw-sm transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ftw-accent disabled:cursor-not-allowed ${
                 submittedAnswer === choice.id
-                  ? "border-ftw-accent bg-amber-400/15"
-                  : "border-slate-700 bg-gray-950/70 hover:border-ftw-accent hover:bg-gray-900"
+                  ? "border-ftw-accent bg-ftw-accent/15"
+                  : "border-ftw-line bg-ftw-raised hover:border-ftw-accent hover:bg-ftw-canvas"
               } disabled:opacity-60`}
             >
-              <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl border border-slate-600 bg-ftw-panel font-mono font-black text-ftw-accent group-hover:border-ftw-accent">
+              <span className="ftw-number flex h-9 w-9 shrink-0 items-center justify-center rounded-xl border border-ftw-line bg-ftw-panel text-ftw-accent group-hover:border-ftw-accent">
                 {index + 1}
               </span>
               <span className="min-w-0 text-lg text-ftw-text">
@@ -115,12 +115,12 @@ export function ProblemCanvas({
               autoFocus
               inputMode={problem.answer_format === "numeric" ? "decimal" : "text"}
               placeholder="Type an exact answer"
-              className="min-w-0 flex-1 rounded-2xl border border-slate-700 bg-gray-950 px-4 py-3 text-lg text-ftw-text outline-none transition placeholder:text-gray-500 focus:border-ftw-accent focus:ring-2 focus:ring-ftw-accent/30 disabled:cursor-not-allowed disabled:opacity-60"
+              className="ftw-input min-w-0 flex-1 text-lg"
             />
             <button
               type="submit"
               disabled={locked || freeAnswer.trim().length === 0}
-              className="rounded-2xl bg-ftw-accent px-6 py-3 font-black text-ftw-dark transition hover:bg-amber-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ftw-accent disabled:cursor-not-allowed disabled:opacity-50"
+              className="ftw-button-primary px-6"
             >
               {submittedAnswer ? "Submitted" : "Submit"}
             </button>
