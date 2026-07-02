@@ -141,7 +141,7 @@ export default function PartyPage() {
 
   if (roomCode) {
     return (
-      <main className="min-h-screen bg-[radial-gradient(circle_at_top_left,#1d4ed833,transparent_32rem),#0b0f19] p-4 text-ftw-text sm:p-8">
+      <main className="ftw-page-shell min-h-screen p-4 text-ftw-text sm:p-8">
         <PartyLobby
           code={roomCode}
           shareUrl={shareUrl}
@@ -171,52 +171,43 @@ export default function PartyPage() {
   }
 
   return (
-    <main className="min-h-screen bg-[radial-gradient(circle_at_top,#2563eb44,transparent_28rem),#0b0f19] p-6 text-ftw-text">
+    <main className="ftw-page-shell min-h-screen p-6 text-ftw-text">
       <div className="mx-auto flex min-h-[calc(100vh-3rem)] max-w-5xl flex-col justify-center gap-8">
         <div className="space-y-4 text-center">
-          <p className="text-sm font-black uppercase tracking-[0.45em] text-ftw-info">Multiplayer</p>
-          <h1 className="text-5xl font-black tracking-tight text-white sm:text-7xl">Party Up</h1>
-          <p className="mx-auto max-w-2xl text-lg text-ftw-muted">
-            Create a room, share a 6-character code, and configure a server-authoritative match lobby.
-          </p>
+          <p className="ftw-label text-ftw-info">Multiplayer</p>
+          <h1 className="ftw-display text-5xl text-ftw-text sm:text-7xl">Party Up</h1>
         </div>
 
         <section className="grid gap-6 lg:grid-cols-2">
-          <div className="rounded-3xl border border-ftw-info/60 bg-ftw-panel p-6 shadow-2xl shadow-blue-950/30">
-            <h2 className="text-2xl font-black text-white">Create Party</h2>
-            <p className="mt-2 text-sm text-ftw-muted">
-              Hosts can configure topics, difficulty, round count, timer mode, and casual or ranked intent.
-            </p>
+          <div className="ftw-card p-6">
+            <h2 className="font-serif text-2xl font-black text-ftw-text">Create Party</h2>
             <label className="mt-6 block space-y-2">
               <span className="text-sm text-ftw-muted">Display name</span>
               <input
                 value={displayName}
                 onChange={(event) => setDisplayName(event.target.value)}
                 maxLength={24}
-                className="w-full rounded-xl border border-gray-700 bg-gray-950 px-4 py-3 text-ftw-text outline-none focus:border-ftw-accent"
+                className="ftw-input w-full"
               />
             </label>
             <button
               onClick={createParty}
               disabled={!canCreate}
-              className="mt-6 w-full rounded-xl bg-ftw-accent py-4 font-black text-ftw-dark transition hover:bg-amber-400 disabled:cursor-not-allowed disabled:opacity-50"
+              className="ftw-button-primary mt-6 w-full py-4"
             >
               Generate 6-Character Code
             </button>
           </div>
 
-          <div className="rounded-3xl border border-gray-700 bg-ftw-panel p-6 shadow-xl">
-            <h2 className="text-2xl font-black text-white">Join Party</h2>
-            <p className="mt-2 text-sm text-ftw-muted">
-              Enter the host code or open a shared link. Presence joins `room:CODE` when Supabase is configured.
-            </p>
+          <div className="ftw-card p-6">
+            <h2 className="font-serif text-2xl font-black text-ftw-text">Join Party</h2>
             <label className="mt-6 block space-y-2">
               <span className="text-sm text-ftw-muted">Display name</span>
               <input
                 value={displayName}
                 onChange={(event) => setDisplayName(event.target.value)}
                 maxLength={24}
-                className="w-full rounded-xl border border-gray-700 bg-gray-950 px-4 py-3 text-ftw-text outline-none focus:border-ftw-accent"
+                className="ftw-input w-full"
               />
             </label>
             <label className="mt-4 block space-y-2">
@@ -225,13 +216,13 @@ export default function PartyPage() {
                 value={joinCode}
                 onChange={(event) => setJoinCode(event.target.value.toUpperCase().slice(0, 6))}
                 placeholder="ABC123"
-                className="w-full rounded-xl border border-gray-700 bg-gray-950 px-4 py-3 font-mono text-2xl font-black uppercase tracking-[0.25em] text-ftw-text outline-none focus:border-ftw-info"
+                className="ftw-input ftw-number w-full text-2xl uppercase tracking-[0.25em] focus:border-ftw-info"
               />
             </label>
             <button
               onClick={joinParty}
               disabled={!canJoin || !canCreate}
-              className="mt-6 w-full rounded-xl bg-ftw-info py-4 font-black text-white transition hover:bg-blue-400 disabled:cursor-not-allowed disabled:opacity-50"
+              className="mt-6 w-full rounded-xl border border-ftw-info bg-ftw-info/10 py-4 font-black text-ftw-info transition hover:bg-ftw-info hover:text-ftw-panel disabled:cursor-not-allowed disabled:opacity-50"
             >
               Join Lobby
             </button>
