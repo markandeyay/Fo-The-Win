@@ -103,15 +103,12 @@ export default function RaceConfigPage() {
   }
 
   return (
-    <main className="min-h-screen bg-[radial-gradient(circle_at_top_left,#22c55e44,transparent_24rem),radial-gradient(circle_at_bottom_right,#f59e0b33,transparent_28rem),#0b0f19] p-4 text-ftw-text md:p-8">
+    <main className="ftw-page-shell min-h-screen p-4 text-ftw-text md:p-8">
       <div className="mx-auto flex w-full max-w-6xl flex-col gap-6">
-        <header className="flex flex-col gap-4 rounded-[2rem] border border-ftw-success/50 bg-gray-950/80 p-6 shadow-2xl shadow-green-950/30 md:flex-row md:items-end md:justify-between">
+        <header className="ftw-card flex flex-col gap-4 p-6 md:flex-row md:items-end md:justify-between">
           <div>
-            <p className="text-sm font-black uppercase tracking-[0.42em] text-ftw-success">Speed Multiplication Race</p>
-            <h1 className="mt-3 text-5xl font-black tracking-tight text-white md:text-7xl">Times Table Blitz</h1>
-            <p className="mt-3 max-w-2xl text-ftw-muted">
-              Procedural multiplication, seeded runs, solo records, and an MP-ready seed path outside the algebra topic tree.
-            </p>
+            <p className="ftw-label text-ftw-success">Speed Multiplication Race</p>
+            <h1 className="ftw-display mt-3 text-5xl md:text-7xl">Times Table Blitz</h1>
           </div>
           <Link href="/" className="text-ftw-muted underline underline-offset-4 transition hover:text-ftw-text">
             Back to Home
@@ -119,10 +116,10 @@ export default function RaceConfigPage() {
         </header>
 
         <div className="grid gap-6 lg:grid-cols-[1fr_0.75fr]">
-          <section className="rounded-[2rem] border border-gray-700 bg-ftw-panel/90 p-6 shadow-xl">
+          <section className="ftw-card p-6">
             <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
               <div>
-                <h2 className="text-2xl font-black">Race Setup</h2>
+                <h2 className="font-serif text-2xl font-black">Race Setup</h2>
                 <p className="text-sm text-ftw-muted">Defaults are 2 to 12. Ranges can go up to 99 by 99.</p>
               </div>
               <div className="rounded-full border border-ftw-success/50 bg-ftw-success/10 px-4 py-2 text-sm font-bold text-ftw-success">
@@ -140,8 +137,8 @@ export default function RaceConfigPage() {
                   }}
                   className={`rounded-2xl border p-4 text-left transition ${
                     minFactor === preset.min && maxFactor === preset.max
-                      ? "border-ftw-success bg-ftw-success text-ftw-dark"
-                      : "border-gray-700 bg-gray-950/60 hover:border-ftw-success"
+                      ? "border-ftw-success bg-ftw-success text-ftw-panel"
+                      : "border-ftw-line bg-ftw-raised hover:border-ftw-success"
                   }`}
                 >
                   <span className="block text-lg font-black">{preset.label}</span>
@@ -159,7 +156,7 @@ export default function RaceConfigPage() {
                   max={99}
                   value={minFactor}
                   onChange={(event) => setMinFactor(Number(event.target.value))}
-                  className="w-full rounded-2xl border border-gray-700 bg-gray-950 px-4 py-4 text-2xl font-black outline-none focus:border-ftw-success"
+                  className="ftw-input ftw-number w-full py-4 text-2xl focus:border-ftw-success"
                 />
               </label>
               <label className="block space-y-2">
@@ -170,13 +167,13 @@ export default function RaceConfigPage() {
                   max={99}
                   value={maxFactor}
                   onChange={(event) => setMaxFactor(Number(event.target.value))}
-                  className="w-full rounded-2xl border border-gray-700 bg-gray-950 px-4 py-4 text-2xl font-black outline-none focus:border-ftw-success"
+                  className="ftw-input ftw-number w-full py-4 text-2xl focus:border-ftw-success"
                 />
               </label>
             </div>
 
             <div className="mt-6 grid gap-4 md:grid-cols-2">
-              <section className="rounded-3xl border border-gray-700 bg-gray-950/45 p-4">
+              <section className="ftw-card-muted p-4">
                 <h3 className="text-lg font-black">Mode</h3>
                 <div className="mt-3 grid gap-2">
                   {(["sprint", "first_to_n"] as const).map((nextMode) => (
@@ -185,8 +182,8 @@ export default function RaceConfigPage() {
                       onClick={() => setMode(nextMode)}
                       className={`rounded-xl border px-4 py-3 text-left transition ${
                         mode === nextMode
-                          ? "border-ftw-accent bg-ftw-accent text-ftw-dark"
-                          : "border-gray-700 bg-ftw-panel hover:border-ftw-accent"
+                          ? "border-ftw-accent bg-ftw-accent text-ftw-panel"
+                          : "border-ftw-line bg-ftw-panel hover:border-ftw-accent"
                       }`}
                     >
                       <span className="block font-black">{nextMode === "sprint" ? "Sprint" : "First to N"}</span>
@@ -198,7 +195,7 @@ export default function RaceConfigPage() {
                 </div>
               </section>
 
-              <section className="rounded-3xl border border-gray-700 bg-gray-950/45 p-4">
+              <section className="ftw-card-muted p-4">
                 <h3 className="text-lg font-black">Players</h3>
                 <div className="mt-3 grid gap-2">
                   {(["solo", "mp"] as const).map((nextPlayerMode) => (
@@ -207,11 +204,11 @@ export default function RaceConfigPage() {
                       onClick={() => setPlayerMode(nextPlayerMode)}
                       className={`rounded-xl border px-4 py-3 text-left transition ${
                         playerMode === nextPlayerMode
-                          ? "border-ftw-info bg-ftw-info text-white"
-                          : "border-gray-700 bg-ftw-panel hover:border-ftw-info"
+                          ? "border-ftw-info bg-ftw-info text-ftw-panel"
+                          : "border-ftw-line bg-ftw-panel hover:border-ftw-info"
                       }`}
                     >
-                      <span className="block font-black">{nextPlayerMode === "solo" ? "Solo local" : "MP seed stub"}</span>
+                      <span className="block font-black">{nextPlayerMode === "solo" ? "Solo local" : "MP seed room"}</span>
                       <span className="text-sm opacity-80">
                         {nextPlayerMode === "solo" ? "Scores save to this browser" : "Shared seed, no client-side MP scoring"}
                       </span>
@@ -231,7 +228,7 @@ export default function RaceConfigPage() {
                   value={durationSec}
                   onChange={(event) => setDurationSec(Number(event.target.value))}
                   disabled={mode !== "sprint"}
-                  className="w-full rounded-2xl border border-gray-700 bg-gray-950 px-4 py-4 text-2xl font-black outline-none focus:border-ftw-accent disabled:opacity-45"
+                  className="ftw-input ftw-number w-full py-4 text-2xl focus:border-ftw-accent disabled:opacity-45"
                 />
               </label>
               <label className="block space-y-2">
@@ -243,14 +240,14 @@ export default function RaceConfigPage() {
                   value={targetCorrect}
                   onChange={(event) => setTargetCorrect(Number(event.target.value))}
                   disabled={mode !== "first_to_n"}
-                  className="w-full rounded-2xl border border-gray-700 bg-gray-950 px-4 py-4 text-2xl font-black outline-none focus:border-ftw-accent disabled:opacity-45"
+                  className="ftw-input ftw-number w-full py-4 text-2xl focus:border-ftw-accent disabled:opacity-45"
                 />
               </label>
             </div>
           </section>
 
           <aside className="flex flex-col gap-5">
-            <section className="rounded-[2rem] border border-ftw-success/40 bg-ftw-success/10 p-5 shadow-xl">
+            <section className="rounded-ftw border border-ftw-success/40 bg-ftw-success/10 p-5 shadow-ftw-sm">
               <div className="flex items-center gap-4">
                 <TimerRing durationMs={normalized.durationSec * 1000} remainingMs={normalized.durationSec * 1000} size={78} />
                 <div>
@@ -262,25 +259,25 @@ export default function RaceConfigPage() {
               </div>
             </section>
 
-            <section className="rounded-[2rem] border border-gray-700 bg-ftw-panel/90 p-5 shadow-xl">
-              <h2 className="text-xl font-black">Seed</h2>
+            <section className="ftw-card p-5">
+              <h2 className="font-serif text-xl font-black">Seed</h2>
               <p className="mt-1 text-sm text-ftw-muted">Same seed plus same range gives every player the same sequence.</p>
               <input
                 value={seed}
                 onChange={(event) => setSeed(event.target.value.toUpperCase())}
-                className="mt-4 w-full rounded-2xl border border-gray-700 bg-gray-950 px-4 py-3 font-mono text-xl font-black tracking-[0.18em] outline-none focus:border-ftw-success"
+                className="ftw-input ftw-number mt-4 w-full text-xl tracking-[0.18em] focus:border-ftw-success"
               />
               <button
                 onClick={() => setSeed(makeRaceSeed())}
-                className="mt-3 w-full rounded-xl border border-gray-600 px-4 py-3 font-bold transition hover:border-ftw-success hover:text-ftw-success"
+                className="ftw-button-secondary mt-3 w-full hover:border-ftw-success hover:text-ftw-success"
               >
                 Reroll Seed
               </button>
             </section>
 
             {playerMode === "mp" && (
-              <section className="rounded-[2rem] border border-ftw-info/50 bg-ftw-info/10 p-5 shadow-xl">
-                <h2 className="text-xl font-black">MP Scaffold</h2>
+              <section className="rounded-ftw border border-ftw-info/50 bg-ftw-info/10 p-5 shadow-ftw-sm">
+                <h2 className="text-xl font-black">MP Seed Room</h2>
                 <p className="mt-1 text-sm text-ftw-muted">
                   This creates a deterministic room link only. Competitive MP scoring must come from the server authority path.
                 </p>
@@ -289,12 +286,12 @@ export default function RaceConfigPage() {
                   <input
                     value={roomCode}
                     onChange={(event) => setRoomCode(event.target.value.toUpperCase().slice(0, 6))}
-                    className="w-full rounded-2xl border border-gray-700 bg-gray-950 px-4 py-3 font-mono text-2xl font-black tracking-[0.25em] outline-none focus:border-ftw-info"
+                    className="ftw-input ftw-number w-full text-2xl tracking-[0.25em] focus:border-ftw-info"
                   />
                 </label>
                 <button
                   onClick={() => setRoomCode(makeRaceRoomCode())}
-                  className="mt-3 w-full rounded-xl border border-ftw-info px-4 py-3 font-bold text-ftw-info transition hover:bg-ftw-info hover:text-white"
+                  className="mt-3 w-full rounded-xl border border-ftw-info bg-ftw-info/10 px-4 py-3 font-bold text-ftw-info transition hover:bg-ftw-info hover:text-ftw-panel"
                 >
                   New Room Code
                 </button>
@@ -303,21 +300,21 @@ export default function RaceConfigPage() {
 
             <button
               onClick={startRace}
-              className="rounded-2xl bg-ftw-success px-6 py-5 text-lg font-black text-ftw-dark shadow-xl shadow-green-950/30 transition hover:bg-green-300"
+              className="rounded-ftw-sm bg-ftw-success px-6 py-5 text-lg font-black text-ftw-panel shadow-ftw-sm transition hover:bg-ftw-success/90"
             >
               {playerMode === "mp" ? "Open MP Seed Room" : "Start Solo Race"}
             </button>
 
-            <section className="rounded-[2rem] border border-gray-700 bg-ftw-panel/90 p-5 shadow-xl">
-              <h2 className="text-xl font-black">Local Leaders</h2>
+            <section className="ftw-card p-5">
+              <h2 className="font-serif text-xl font-black">Local Leaders</h2>
               <p className="mt-1 text-sm text-ftw-muted">
                 Current config: {normalized.minFactor}-{normalized.maxFactor}, {normalized.mode === "sprint" ? `${normalized.durationSec}s sprint` : `first to ${normalized.targetCorrect}`}.
               </p>
               <div className="mt-4 space-y-2">
                 {localLeaders.length === 0 && <p className="text-sm text-ftw-muted">No local results yet.</p>}
                 {localLeaders.map((result, index) => (
-                  <div key={result.id} className="grid grid-cols-[2rem_1fr_auto] items-center gap-3 rounded-xl bg-gray-950/50 px-3 py-2 text-sm">
-                    <span className="font-black text-ftw-accent">#{index + 1}</span>
+                  <div key={result.id} className="grid grid-cols-[2rem_1fr_auto] items-center gap-3 rounded-xl border border-ftw-line bg-ftw-raised px-3 py-2 text-sm">
+                    <span className="ftw-number text-ftw-accent">#{index + 1}</span>
                     <span>{result.correct} correct, {result.wrong} wrong</span>
                     <span className="font-mono text-ftw-muted">{formatRaceTime(result.durationMs)}</span>
                   </div>

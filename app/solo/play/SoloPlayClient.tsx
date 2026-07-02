@@ -129,15 +129,15 @@ function summarizeResults(userId: string, displayName: string, results: RoundRes
 
 function StandingsTable({ standings }: { standings: Standing[] }) {
   return (
-    <div className="w-full rounded-2xl border border-gray-700 bg-ftw-panel p-4 shadow-lg">
-      <div className="mb-3 text-sm uppercase tracking-[0.25em] text-ftw-muted">Standings</div>
+    <div className="ftw-card w-full p-4">
+      <div className="ftw-label mb-3 text-ftw-muted">Standings</div>
       <div className="space-y-2">
         {standings.map((standing, index) => (
           <div
             key={standing.userId}
-            className="grid grid-cols-[2rem_1fr_4rem_4rem] items-center gap-3 rounded-xl bg-gray-950/40 px-3 py-2 text-sm"
+            className="grid grid-cols-[2rem_1fr_4rem_4rem] items-center gap-3 rounded-xl border border-ftw-line bg-ftw-raised px-3 py-2 text-sm"
           >
-            <div className="font-black text-ftw-accent">#{index + 1}</div>
+            <div className="ftw-number text-ftw-accent">#{index + 1}</div>
             <div className="font-semibold">{standing.displayName}</div>
             <div className="text-right font-bold">{standing.score}</div>
             <div className="text-right text-ftw-muted">{standing.correctCount} ok</div>
@@ -353,7 +353,7 @@ export default function SoloPlayClient() {
 
   if (loading) {
     return (
-      <main className="min-h-screen flex items-center justify-center text-ftw-muted">
+      <main className="ftw-page-shell flex min-h-screen items-center justify-center text-ftw-muted">
         Loading problems...
       </main>
     );
@@ -361,11 +361,11 @@ export default function SoloPlayClient() {
 
   if (error) {
     return (
-      <main className="min-h-screen flex flex-col items-center justify-center gap-4 text-ftw-danger">
+      <main className="ftw-page-shell flex min-h-screen flex-col items-center justify-center gap-4 text-ftw-danger">
         <p>{error}</p>
         <button
           onClick={() => router.push("/solo")}
-          className="rounded-lg bg-ftw-panel px-4 py-2 border border-gray-600 hover:border-ftw-accent"
+          className="ftw-button-secondary"
         >
           Back
         </button>
@@ -377,8 +377,8 @@ export default function SoloPlayClient() {
 
   if (state.status === "countdown") {
     return (
-      <main className="min-h-screen flex flex-col items-center justify-center gap-6">
-        <div className="text-6xl font-black text-ftw-accent animate-pulse">Ready?</div>
+      <main className="ftw-page-shell flex min-h-screen flex-col items-center justify-center gap-6">
+        <div className="ftw-display animate-pulse text-6xl text-ftw-accent">Ready?</div>
         <p className="text-ftw-muted">Starting in a moment...</p>
       </main>
     );
@@ -386,35 +386,35 @@ export default function SoloPlayClient() {
 
   if (state.status === "results") {
     return (
-      <main className="min-h-screen bg-[radial-gradient(circle_at_top,#1f2937_0%,#0b0f19_48%)] p-4 text-ftw-text md:p-8">
+      <main className="ftw-page-shell min-h-screen p-4 text-ftw-text md:p-8">
         <div className="mx-auto flex w-full max-w-6xl flex-col gap-6">
-          <header className="rounded-3xl border border-amber-500/30 bg-ftw-panel/90 p-6 shadow-xl">
-            <p className="text-sm uppercase tracking-[0.35em] text-ftw-accent">Results</p>
-            <h1 className="mt-2 text-4xl font-black">Session Complete</h1>
+          <header className="ftw-card p-6">
+            <p className="ftw-label text-ftw-accent">Results</p>
+            <h1 className="ftw-display mt-2 text-4xl">Session Complete</h1>
           </header>
 
           <section className="grid gap-4 md:grid-cols-4">
-            <div className="rounded-2xl border border-gray-700 bg-ftw-panel p-5 text-center">
-              <div className="text-4xl font-black text-ftw-accent">{totalScore}</div>
+            <div className="ftw-card-sm p-5 text-center">
+              <div className="ftw-number text-4xl text-ftw-accent">{totalScore}</div>
               <div className="mt-1 text-sm text-ftw-muted">Final score</div>
             </div>
-            <div className="rounded-2xl border border-gray-700 bg-ftw-panel p-5 text-center">
-              <div className="text-4xl font-black">{accuracy}%</div>
+            <div className="ftw-card-sm p-5 text-center">
+              <div className="ftw-number text-4xl">{accuracy}%</div>
               <div className="mt-1 text-sm text-ftw-muted">Accuracy</div>
             </div>
-            <div className="rounded-2xl border border-gray-700 bg-ftw-panel p-5 text-center">
-              <div className="text-4xl font-black">{formatTime(elapsedSessionMs)}</div>
+            <div className="ftw-card-sm p-5 text-center">
+              <div className="ftw-number text-4xl">{formatTime(elapsedSessionMs)}</div>
               <div className="mt-1 text-sm text-ftw-muted">Total time</div>
             </div>
-            <div className="rounded-2xl border border-gray-700 bg-ftw-panel p-5 text-center">
-              <div className="text-4xl font-black">{formatTime(correctSolveTimeMs)}</div>
+            <div className="ftw-card-sm p-5 text-center">
+              <div className="ftw-number text-4xl">{formatTime(correctSolveTimeMs)}</div>
               <div className="mt-1 text-sm text-ftw-muted">Correct solve time</div>
             </div>
           </section>
 
           <div className="grid gap-6 lg:grid-cols-[1fr_0.8fr]">
-            <section className="rounded-3xl border border-gray-700 bg-ftw-panel/90 p-5 shadow-xl">
-              <h2 className="text-2xl font-bold">Per-round Breakdown</h2>
+            <section className="ftw-card p-5">
+              <h2 className="font-serif text-2xl font-bold">Per-round Breakdown</h2>
               <div className="mt-4 overflow-x-auto">
                 <table className="w-full min-w-[42rem] text-left text-sm">
                   <thead className="text-xs uppercase tracking-[0.2em] text-ftw-muted">
@@ -430,7 +430,7 @@ export default function SoloPlayClient() {
                     {state.results.map((result, index) => {
                       const problem = state.problems[index];
                       return (
-                        <tr key={result.problemId} className="border-t border-gray-800">
+                        <tr key={result.problemId} className="border-t border-ftw-line">
                           <td className="py-3 font-bold">{index + 1}</td>
                           <td className="py-3 text-ftw-muted">{problem.topic_id ?? "local"}</td>
                           <td className={result.correct ? "py-3 text-ftw-success" : "py-3 text-ftw-danger"}>
@@ -448,22 +448,22 @@ export default function SoloPlayClient() {
 
             <section className="flex flex-col gap-4">
               <StandingsTable standings={standings} />
-              <div className="flex flex-col gap-3 rounded-3xl border border-gray-700 bg-ftw-panel p-5 sm:flex-row">
+              <div className="ftw-card flex flex-col gap-3 p-5 sm:flex-row">
                 <button
                   onClick={rematch}
-                  className="flex-1 rounded-xl bg-ftw-accent px-6 py-3 font-bold text-ftw-dark transition hover:bg-amber-400"
+                  className="ftw-button-primary flex-1"
                 >
                   Rematch
                 </button>
                 <button
                   onClick={() => router.push("/solo")}
-                  className="flex-1 rounded-xl border border-ftw-accent px-6 py-3 font-bold transition hover:bg-ftw-accent hover:text-ftw-dark"
+                  className="flex-1 rounded-xl border border-ftw-accent bg-ftw-accent/10 px-6 py-3 font-bold text-ftw-accent transition hover:bg-ftw-accent hover:text-ftw-panel"
                 >
                   Configure
                 </button>
                 <button
                   onClick={() => router.push("/")}
-                  className="flex-1 rounded-xl border border-gray-600 px-6 py-3 font-bold transition hover:border-ftw-text"
+                  className="ftw-button-secondary flex-1"
                 >
                   Home
                 </button>
@@ -479,7 +479,7 @@ export default function SoloPlayClient() {
   const currentResult = state.results[state.roundIndex];
 
   return (
-    <main className="min-h-screen flex flex-col items-center p-4 md:p-8 gap-6">
+    <main className="ftw-page-shell flex min-h-screen flex-col items-center gap-6 p-4 md:p-8">
       <div className="w-full flex flex-col gap-4 max-w-4xl md:flex-row md:items-center md:justify-between">
         <Scoreboard
           score={totalScore}
@@ -504,7 +504,7 @@ export default function SoloPlayClient() {
             {currentResult.correct ? "Correct!" : "Time's up or wrong"} +{currentResult.points}
           </div>
 
-          <div className="bg-ftw-panel border border-gray-700 rounded-2xl p-6 w-full">
+          <div className="ftw-card w-full p-6">
             <div className="text-sm text-ftw-muted mb-2">Answer</div>
             <div className="text-xl">
               <MixedKatex source={problem.correct_answer} />
@@ -516,15 +516,15 @@ export default function SoloPlayClient() {
           </div>
 
           {botIds.length > 0 && (
-            <div className="w-full rounded-2xl border border-gray-700 bg-ftw-panel p-4">
-              <div className="mb-3 text-sm uppercase tracking-[0.2em] text-ftw-muted">Bot round</div>
+            <div className="ftw-card w-full p-4">
+              <div className="ftw-label mb-3 text-ftw-muted">Bot round</div>
               <div className="space-y-2">
                 {botIds.map((botId) => {
                   const botRound = (botResults[botId] ?? []).find(
                     (result) => result.problemId === problem.id
                   );
                   return (
-                    <div key={botId} className="flex items-center justify-between rounded-xl bg-gray-950/40 px-3 py-2 text-sm">
+                    <div key={botId} className="flex items-center justify-between rounded-xl border border-ftw-line bg-ftw-raised px-3 py-2 text-sm">
                       <span className="font-semibold">{BOT_PROFILES[botId].name}</span>
                       <span className={botRound?.correct ? "text-ftw-success" : "text-ftw-danger"}>
                         {botRound ? `${botRound.correct ? "Correct" : "Wrong"} +${botRound.points}` : "Thinking"}
@@ -542,7 +542,7 @@ export default function SoloPlayClient() {
                 ? dispatch({ type: "END_SESSION" })
                 : dispatch({ type: "NEXT_ROUND" })
             }
-            className="rounded-xl bg-ftw-accent text-ftw-dark font-bold px-8 py-3 hover:bg-amber-400 transition"
+            className="ftw-button-primary px-8"
           >
             {state.roundIndex + 1 >= state.problems.length ? "View Results" : "Next Round"}
           </button>
