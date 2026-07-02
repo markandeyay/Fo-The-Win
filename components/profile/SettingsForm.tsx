@@ -32,26 +32,11 @@ export function SettingsForm() {
   }
 
   return (
-    <form onSubmit={submit} className="w-full max-w-3xl rounded-3xl border border-gray-800 bg-ftw-panel p-6 shadow-xl">
-      <p className="text-sm font-semibold uppercase tracking-[0.3em] text-ftw-accent">Preferences</p>
-      <h1 className="mt-2 text-4xl font-black">Settings</h1>
+    <form onSubmit={submit} className="ftw-card w-full max-w-3xl p-6">
+      <p className="ftw-label text-ftw-accent">Preferences</p>
+      <h1 className="ftw-display mt-2 text-4xl">Settings</h1>
 
       <div className="mt-6 grid gap-4 md:grid-cols-2">
-        <label className="flex flex-col gap-2 text-sm text-ftw-muted">
-          Theme
-          <select
-            value={profile.settings.theme}
-            onChange={(event) =>
-              updateSettings({ theme: event.target.value as GuestProfile["settings"]["theme"] })
-            }
-            className="rounded-xl border border-gray-700 bg-gray-950 px-4 py-3 text-ftw-text outline-none focus:border-ftw-accent"
-          >
-            <option value="dark">Dark</option>
-            <option value="high_contrast">High contrast</option>
-            <option value="system">System</option>
-          </select>
-        </label>
-
         <label className="flex flex-col gap-2 text-sm text-ftw-muted">
           LaTeX size
           <select
@@ -59,7 +44,7 @@ export function SettingsForm() {
             onChange={(event) =>
               updateSettings({ latex_size: event.target.value as GuestProfile["settings"]["latex_size"] })
             }
-            className="rounded-xl border border-gray-700 bg-gray-950 px-4 py-3 text-ftw-text outline-none focus:border-ftw-accent"
+            className="ftw-input"
           >
             <option value="small">Small</option>
             <option value="medium">Medium</option>
@@ -76,7 +61,7 @@ export function SettingsForm() {
                 default_difficulty: event.target.value as GuestProfile["settings"]["default_difficulty"],
               })
             }
-            className="rounded-xl border border-gray-700 bg-gray-950 px-4 py-3 text-ftw-text outline-none focus:border-ftw-accent"
+            className="ftw-input"
           >
             <option value="easy">Easy</option>
             <option value="medium">Medium</option>
@@ -89,7 +74,7 @@ export function SettingsForm() {
           <input
             value={profile.settings.timezone}
             onChange={(event) => updateSettings({ timezone: event.target.value })}
-            className="rounded-xl border border-gray-700 bg-gray-950 px-4 py-3 text-ftw-text outline-none focus:border-ftw-accent"
+            className="ftw-input"
           />
         </label>
 
@@ -98,7 +83,7 @@ export function SettingsForm() {
           <select
             value={profile.settings.default_topic_id}
             onChange={(event) => updateSettings({ default_topic_id: event.target.value })}
-            className="rounded-xl border border-gray-700 bg-gray-950 px-4 py-3 text-ftw-text outline-none focus:border-ftw-accent"
+            className="ftw-input"
           >
             <option value="">No preset</option>
             {taxonomy.groups.map((group) => (
@@ -113,7 +98,7 @@ export function SettingsForm() {
           </select>
         </label>
 
-        <label className="flex items-center justify-between gap-4 rounded-xl border border-gray-800 bg-gray-950 px-4 py-3 text-sm text-ftw-muted md:col-span-2">
+        <label className="flex items-center justify-between gap-4 rounded-xl border border-ftw-line bg-ftw-raised px-4 py-3 text-sm text-ftw-muted shadow-ftw-sm md:col-span-2">
           Sound effects
           <input
             type="checkbox"
@@ -125,18 +110,18 @@ export function SettingsForm() {
       </div>
 
       {saved && (
-        <div className="mt-4 rounded-xl border border-ftw-success/50 bg-ftw-success/10 px-4 py-3 text-sm text-green-100">
+        <div className="mt-4 rounded-xl border border-ftw-success/50 bg-ftw-success/10 px-4 py-3 text-sm text-ftw-success">
           Saved to local guest profile.
         </div>
       )}
 
       <div className="mt-6 flex flex-wrap gap-3">
-        <button className="rounded-xl bg-ftw-accent px-5 py-3 font-black text-ftw-dark hover:bg-amber-300">
+        <button className="ftw-button-primary">
           Save Settings
         </button>
         <Link
           href="/profile"
-          className="rounded-xl border border-gray-700 px-5 py-3 font-bold hover:border-ftw-text"
+          className="ftw-button-secondary"
         >
           Back to Profile
         </Link>
