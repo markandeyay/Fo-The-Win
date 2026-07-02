@@ -5,8 +5,22 @@
 @import "katex/dist/katex.min.css";
 
 :root {
-  --background: #0b0f19;
-  --foreground: #f3f4f6;
+  --ftw-bg: #f6f0e6;
+  --ftw-canvas: #fbf7ef;
+  --ftw-surface: #fffaf2;
+  --ftw-surface-raised: #fffdf7;
+  --ftw-line: #dfd1c0;
+  --ftw-accent: #cc785c;
+  --ftw-accent-deep: #9f563f;
+  --ftw-text: #26211c;
+  --ftw-muted: #76685c;
+  --ftw-success: #4f7f5f;
+  --ftw-danger: #a85647;
+  --ftw-warning: #b8844c;
+  --ftw-info: #6b7f8f;
+  --ftw-shadow: 87 61 39;
+  --background: var(--ftw-bg);
+  --foreground: var(--ftw-text);
 }
 
 html,
@@ -17,8 +31,114 @@ body {
 body {
   background-color: var(--background);
   color: var(--foreground);
+  font-family: var(--font-ftw-sans), Inter, system-ui, sans-serif;
+  line-height: 1.6;
+  text-rendering: geometricPrecision;
 }
 
 .katex {
-  font-size: 1.1em;
+  color: var(--ftw-text);
+  font-size: 1.06em;
+}
+
+@layer base {
+  ::selection {
+    background: color-mix(in srgb, var(--ftw-accent) 28%, transparent);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--ftw-accent);
+    outline-offset: 3px;
+  }
+}
+
+@layer utilities {
+  .ftw-page-shell {
+    background:
+      radial-gradient(circle at top left, color-mix(in srgb, var(--ftw-accent) 20%, transparent), transparent 30rem),
+      linear-gradient(135deg, var(--ftw-bg), var(--ftw-canvas));
+  }
+
+  .ftw-display {
+    font-family: var(--font-ftw-serif), Newsreader, Georgia, serif;
+    font-variation-settings: "opsz" 28;
+    letter-spacing: -0.04em;
+    line-height: 0.92;
+  }
+
+  .ftw-label {
+    font-size: 0.76rem;
+    font-weight: 760;
+    letter-spacing: 0.16em;
+    line-height: 1.2;
+    text-transform: uppercase;
+  }
+
+  .ftw-tabular {
+    font-variant-numeric: tabular-nums;
+  }
+
+  .ftw-card {
+    @apply rounded-ftw border border-ftw-line bg-ftw-panel shadow-ftw shadow-ftw-inset;
+  }
+
+  .ftw-card-sm {
+    @apply rounded-ftw-sm border border-ftw-line bg-ftw-raised shadow-ftw-sm shadow-ftw-inset;
+  }
+
+  .ftw-card-muted {
+    @apply rounded-ftw-sm border border-ftw-line bg-ftw-canvas shadow-ftw-sm;
+  }
+
+  .ftw-input {
+    @apply rounded-ftw-sm border border-ftw-line bg-ftw-raised px-4 py-3 text-ftw-text outline-none transition focus:border-ftw-accent focus:ring-2 focus:ring-ftw-accent disabled:cursor-not-allowed disabled:opacity-50;
+  }
+
+  .ftw-input::placeholder {
+    color: color-mix(in srgb, var(--ftw-muted) 70%, transparent);
+  }
+
+  .ftw-button-primary {
+    @apply rounded-ftw-sm bg-ftw-accent px-5 py-3 font-black text-ftw-text shadow-ftw-sm transition hover:-translate-y-0.5 hover:bg-ftw-accentDeep hover:text-ftw-panel focus-visible:bg-ftw-accentDeep focus-visible:text-ftw-panel disabled:translate-y-0 disabled:cursor-not-allowed disabled:opacity-50;
+  }
+
+  .ftw-button-secondary {
+    @apply rounded-ftw-sm border border-ftw-line bg-ftw-raised px-5 py-3 font-bold text-ftw-text shadow-ftw-sm transition hover:-translate-y-0.5 hover:border-ftw-accent hover:text-ftw-accent focus-visible:border-ftw-accent disabled:translate-y-0 disabled:cursor-not-allowed disabled:opacity-50;
+  }
+
+  .ftw-button-quiet {
+    @apply rounded-full px-3 py-2 font-semibold text-ftw-muted transition hover:bg-ftw-accent hover:text-ftw-panel focus-visible:bg-ftw-accent focus-visible:text-ftw-panel;
+  }
+
+  .ftw-chip {
+    @apply rounded-full border border-ftw-line bg-ftw-canvas px-3 py-1 text-xs font-bold text-ftw-muted;
+  }
+
+  .ftw-chip-active {
+    @apply rounded-full border border-ftw-accent bg-ftw-canvas px-3 py-1 text-xs font-bold text-ftw-accent;
+  }
+
+  .ftw-status-success {
+    @apply border-ftw-success bg-ftw-canvas text-ftw-success;
+  }
+
+  .ftw-status-danger {
+    @apply border-ftw-danger bg-ftw-canvas text-ftw-danger;
+  }
+
+  .ftw-status-warning {
+    @apply border-ftw-accent bg-ftw-canvas text-ftw-accent;
+  }
+
+  .ftw-table-row {
+    @apply border-t border-ftw-line;
+  }
+
+  .ftw-number {
+    @apply ftw-tabular font-black tracking-tight;
+  }
+
+  .ftw-motion-safe-pop {
+    @apply motion-safe:transition motion-safe:duration-200 motion-safe:ease-out;
+  }
 }

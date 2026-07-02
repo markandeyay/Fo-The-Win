@@ -1,49 +1,97 @@
 import Link from "next/link";
 
+const modeTiles = [
+  {
+    href: "/solo",
+    label: "Solo",
+    kicker: "Practice route",
+    metric: "10",
+    metricLabel: "default rounds",
+  },
+  {
+    href: "/party",
+    label: "Multiplayer",
+    kicker: "Party arena",
+    metric: "8",
+    metricLabel: "player rooms",
+  },
+  {
+    href: "/race",
+    label: "Speed Race",
+    kicker: "Multiplication sprint",
+    metric: "60",
+    metricLabel: "second sprint",
+  },
+  {
+    href: "/profile",
+    label: "Profile",
+    kicker: "Progress ledger",
+    metric: "1200",
+    metricLabel: "start rating",
+  },
+];
+
 export default function Home() {
   return (
-    <main className="min-h-screen flex flex-col items-center justify-center gap-6 p-8">
-      <div className="w-full max-w-4xl rounded-[2rem] border border-gray-800 bg-ftw-panel/80 p-8 text-center shadow-2xl shadow-black/30">
-        <div className="mb-6 flex flex-wrap justify-center gap-3 text-sm text-ftw-muted">
-          <Link href="/signin" className="hover:text-ftw-text">Sign in</Link>
-          <Link href="/signup" className="hover:text-ftw-text">Sign up</Link>
-          <Link href="/settings" className="hover:text-ftw-text">Settings</Link>
-        </div>
+    <main className="ftw-page-shell min-h-screen px-5 py-8 text-ftw-text md:px-8 md:py-10">
+      <div className="mx-auto grid min-h-[calc(100vh-5rem)] w-full max-w-7xl content-center gap-8 lg:grid-cols-[minmax(0,0.92fr)_minmax(28rem,1fr)] lg:gap-12">
+        <section className="rounded-ftw border border-ftw-line bg-ftw-panel p-7 shadow-ftw shadow-ftw-inset md:p-10">
+          <div className="mb-10 flex flex-wrap items-center justify-between gap-4">
+            <div className="ftw-label text-ftw-accent">Fo The Win</div>
+            <nav className="flex flex-wrap gap-2 text-sm font-semibold text-ftw-muted" aria-label="Account navigation">
+              <Link href="/signin" className="rounded-full px-3 py-2 transition hover:bg-ftw-accent hover:text-ftw-panel focus-visible:bg-ftw-accent focus-visible:text-ftw-panel">Sign in</Link>
+              <Link href="/signup" className="rounded-full px-3 py-2 transition hover:bg-ftw-accent hover:text-ftw-panel focus-visible:bg-ftw-accent focus-visible:text-ftw-panel">Sign up</Link>
+              <Link href="/settings" className="rounded-full px-3 py-2 transition hover:bg-ftw-accent hover:text-ftw-panel focus-visible:bg-ftw-accent focus-visible:text-ftw-panel">Settings</Link>
+            </nav>
+          </div>
 
-        <h1 className="text-5xl font-extrabold tracking-tight text-ftw-accent md:text-7xl">
-          Fo The Win
-        </h1>
-        <p className="mt-4 text-lg text-ftw-muted">
-          Competitive and solo math practice.
-        </p>
-      </div>
+          <div className="max-w-3xl">
+            <h1 className="ftw-display text-7xl text-ftw-text md:text-8xl lg:text-9xl">
+              Fo The Win
+            </h1>
+          </div>
 
-      <div className="grid w-full max-w-2xl grid-cols-1 gap-4 sm:grid-cols-2">
-        <Link
-          href="/solo"
-          className="rounded-xl bg-ftw-panel border border-ftw-accent px-8 py-4 text-center font-semibold hover:bg-ftw-accent hover:text-ftw-dark transition"
-        >
-          Solo
-        </Link>
-        <Link
-          href="/party"
-          className="rounded-xl bg-ftw-panel border border-ftw-info px-8 py-4 text-center font-semibold hover:bg-ftw-info hover:text-white transition"
-        >
-          Multiplayer
-        </Link>
-        <Link
-          href="/race"
-          className="rounded-xl bg-ftw-panel border border-ftw-success px-8 py-4 text-center font-semibold hover:bg-ftw-success hover:text-ftw-dark transition"
-        >
-          Speed Race
-        </Link>
-        <Link
-          href="/profile"
-          className="rounded-xl bg-ftw-panel border border-ftw-muted px-8 py-4 text-center font-semibold hover:bg-ftw-muted hover:text-ftw-dark transition"
-        >
-          Profile
-        </Link>
+          <div className="mt-10 grid gap-3 border-t border-ftw-line pt-6 sm:grid-cols-3">
+            <Stat value="98" label="topic leaves" />
+            <Stat value="14,700" label="validated problems" />
+            <Stat value="500" label="base points" />
+          </div>
+        </section>
+
+        <section className="grid gap-4">
+          {modeTiles.map((mode) => (
+            <Link
+              key={mode.href}
+              href={mode.href}
+              className="group grid rounded-ftw-sm border border-ftw-line bg-ftw-raised p-5 shadow-ftw-sm transition duration-200 hover:-translate-y-0.5 hover:border-ftw-accent hover:shadow-ftw focus-visible:-translate-y-0.5 focus-visible:border-ftw-accent md:grid-cols-[1fr_auto] md:items-end md:p-6"
+            >
+              <span>
+                <span className="ftw-label text-ftw-muted transition group-hover:text-ftw-accent">
+                  {mode.kicker}
+                </span>
+                <span className="mt-2 block font-serif text-3xl font-semibold leading-tight tracking-[-0.03em] text-ftw-text md:text-4xl">
+                  {mode.label}
+                </span>
+              </span>
+              <span className="mt-5 rounded-2xl border border-ftw-line bg-ftw-canvas px-4 py-3 text-left md:mt-0 md:text-right">
+                <span className="ftw-tabular block text-2xl font-black text-ftw-accent">
+                  {mode.metric}
+                </span>
+                <span className="ftw-label text-ftw-muted">{mode.metricLabel}</span>
+              </span>
+            </Link>
+          ))}
+        </section>
       </div>
     </main>
+  );
+}
+
+function Stat({ value, label }: { value: string; label: string }) {
+  return (
+    <div>
+      <div className="ftw-tabular text-3xl font-black text-ftw-text">{value}</div>
+      <div className="ftw-label mt-1 text-ftw-muted">{label}</div>
+    </div>
   );
 }
